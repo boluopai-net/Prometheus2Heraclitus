@@ -71,7 +71,10 @@ GitHub supplies native source archives, forks, Issues, and pull requests. The
 website presents reading editions and package introductions; all source and
 downloads go to GitHub package directories or its native repository ZIP.
 Codex recipients normally install selected plugins from the boluopai GitHub
-marketplace; archives remain an optional source route. The catalog at
+marketplace; archives remain an optional source route. Keep the installation
+entrance and commands in the GitHub README and docs/codex editions. The website
+is for reading and introductions, with source links to GitHub; do not repeat
+installation buttons across its pages or maintain a separate website installer. The catalog at
 `.agents/plugins/marketplace.json` owns plugin identity, version and presentation.
 `scripts/build-plugins.py --apply` assembles complete portable packages in
 `plugins/` from tracked `skills/` sources; its default mode checks byte, mode and

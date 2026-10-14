@@ -84,11 +84,18 @@
 <!-- repository-only:start -->
 ## 在 Codex 中使用
 
-[安装到 Codex：选择并复制指令](https://boluopai.net/install/) · [安装与更新说明](docs/codex.zh-CN.md)
+[安装与更新说明](docs/codex.zh-CN.md)
 
-21 个 Skill 均可从 **boluopai** 插件市场独立安装。把网站生成的安装指令交给 Codex，
-由它添加市场并安装完整插件，无须下载或解压 ZIP。市场来源为
-`boluopai-net/Prometheus2Heraclitus`，插件名称为 `<包名>@boluopai`。
+21 个 Skill 均可从 **boluopai** 插件市场独立安装。把下面的命令交给 Codex，
+即可安装完整阴阳包，无须手工下载或解压 ZIP：
+
+```bash
+codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
+codex plugin add yinyang@boluopai
+```
+
+将 `yinyang` 换成目录中需要的 Skill 名称。市场只需添加一次，之后安装其他插件只需
+`codex plugin add <包名>@boluopai`。安装后开启新对话使用。
 阴阳个人版应保存在私人源目录中，不能写进会被更新替换的插件缓存。
 <!-- repository-only:end -->
 

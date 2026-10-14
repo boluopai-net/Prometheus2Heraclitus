@@ -1,9 +1,9 @@
 # 安装到 Codex
 
-[English](codex.md) · [选择 Skill 并复制安装指令](https://boluopai.net/install/)
+[English](codex.md)
 
-**boluopai 插件市场**把集合中的 21 个 Skill 分别做成了可安装插件。在网站选择需要的
-Skill，把安装指令复制给 Codex，由它完成原生安装。不需要下载 ZIP、解压或手工修目录。
+**boluopai 插件市场**把集合中的 21 个 Skill 分别做成了可安装插件。从仓库目录选择需要的
+Skill，把下面的命令交给 Codex，由它完成原生安装。不需要下载 ZIP、解压或手工修目录。
 
 ## 原生安装
 

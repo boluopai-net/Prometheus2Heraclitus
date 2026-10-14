@@ -1,11 +1,11 @@
 # Install in Codex
 
-[简体中文](codex.zh-CN.md) · [Choose and copy an installation request](https://boluopai.net/install/en/)
+[简体中文](codex.zh-CN.md)
 
 The **boluopai** marketplace offers all 21 collection Skills as individually
-installable plugins. Choose one on the website, copy its installation request
-into Codex, and let Codex perform the native installation. No ZIP extraction
-or manual directory repair is required.
+installable plugins. Choose one from the repository catalog and give Codex the
+commands below to perform the native installation. No ZIP extraction or manual
+directory repair is required.
 
 ## Native installation
 

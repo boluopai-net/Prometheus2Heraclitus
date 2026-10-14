@@ -104,12 +104,19 @@ files and organize your own `references/personal/`**. Installing does not
 complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)
 states what to change, who carries the writing, and how to verify availability.
 
-[Install in Codex: choose and copy a request](https://boluopai.net/install/en/) · [Installation and updates](docs/codex.md)
+[Installation and updates](docs/codex.md)
 
 All 21 Skills are individually installable from the **boluopai** plugin marketplace.
-Give the website's installation request to Codex; it adds the marketplace and
-installs the complete plugin without manual ZIP extraction. The source is
-`boluopai-net/Prometheus2Heraclitus`; plugin identifiers are `<name>@boluopai`.
+Give Codex the following commands to install YinYang without manual ZIP extraction:
+
+```bash
+codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
+codex plugin add yinyang@boluopai
+```
+
+Replace `yinyang` with the desired Skill name from the catalog. Add the market
+once; subsequent plugins need only `codex plugin add <name>@boluopai`.
+Start a new chat after installation.
 Keep personalized YinYang material in a private source outside replaceable caches.
 <!-- repository-only:end -->
 
