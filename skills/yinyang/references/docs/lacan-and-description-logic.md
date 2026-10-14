@@ -6,6 +6,8 @@ A person speaks before everything they mean has become clear to them. A sentence
 
 [Lacan's “Subversion of the Subject” (1960)](https://www.causefreudienne.org/textes-fondamentaux/subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien/) supplies a vocabulary for exploring subject, speech, identification, and language. Description logic contributes a different precision: selected assertions, constraints, and their consequences can be inspected. This essay follows the movement from speaking to a connected self-account and back to interpretation. Its comparison asks how expression becomes organized, how that organization yields consequences, and how a speaker encounters the account that returns.
 
+This develops one part of the sustaining practice proposed in [Writing a sinthome](writing-a-sinthome.md): a person expresses an unfinished relation, encounters it as a self-account, and can revise how they live with it. Examining that passage clarifies how a written account participates in the practice; formal closure alone does not constitute a sinthome.
+
 ## Three levels of negation
 
 Denial makes this difference especially visible: what a sentence rejects and what its speaking brings into the encounter are not the same question.

@@ -16,11 +16,11 @@ philosophy develops from one's own experiences, questions, sources, and practice
 YinYang is one developed example: readers may begin with it, combine other ideas,
 and create work with different names, concepts, and organization.
 
-**Philosophy is replaceable; personal accounts must be formed anew.** Keep the
+**Philosophy is replaceable; personal accounts must be formed anew.** You may retain the
 five-file structure while replacing the philosophy with your own thought or an
 evidence-grounded model of a philosopher's thought. Philosophy, imagery, and
 essays serve the modeling of an actual person and counterpart relationship;
-under any chosen framework, the five files must describe the real user and
+if you retain this structure, all five files must describe the real user and
 their collaboration. A philosopher's thought model cannot replace the user's
 personal model. Maintain revised philosophy in your own version without
 overwriting it with the common-file updater. Byte parity applies to copies
@@ -36,7 +36,7 @@ source and references; the common-file updater below is not for that work.
 The public website provides reading and file browsing; complete Skills are
 available from the public GitHub repository. Clone it or download the repository
 ZIP and retain the complete directory of the package you need. Original YinYang
-material uses CC BY-NC-SA 4.0, while the other four independent Skills retain MIT.
+material uses CC BY-NC-SA 4.0, while the other independent Skills retain their package-local MIT licenses.
 Use and sharing follow each material's existing license and attribution terms;
 see the [collection guide](../../../../README.md).
 

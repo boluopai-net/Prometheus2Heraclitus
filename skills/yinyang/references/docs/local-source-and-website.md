@@ -1,110 +1,31 @@
-# Trinity: A Loop of Philosophy, Psychology, and Personal Environment
+# Trinity: Philosophy, Psychology, and Engineering in One Practice
 
-[Home](../../README.md) · [Trinity](local-source-and-website.zh-CN.md)
+[Home](../../README.md) · [简体中文](local-source-and-website.zh-CN.md)
 
-*An unfinished thought takes shape between Sun and Moon. On Earth it becomes
-a way of working, a work another person can take up, and a page through which
-someone first recognizes the question. What returns from these encounters
-changes the next thought.*
+*An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
-The central relation is a continuing loop among **philosophy, psychology,
-and personal environment**. Philosophy articulates how a person understands
-the world and what makes a life worth pursuing. Psychological understanding
-and preference modeling bring that orientation into contact with the actual
-person. The personal environment gives the resulting relation a usable form:
-models, instructions, tools, records, and everyday arrangements through which
-understanding can enter action. Living and working with them supplies new
-experience that can revise the personal model, the philosophy, and the
-environment. Engineering carries their practical realization and maintenance.
-
-**Philosophical articulation → situated personal modeling → environmental
-realization → experience and revision** is one way to follow this loop.
-Inquiry can enter at any point. Its unity lies in these consequences passing
-between distinct contributions, with the person's life giving them purpose.
+**Worldview, knowing, and realization connect philosophy, psychology, and engineering within one living practice.** The local environment, GitHub, and website give that practice places to be used, maintained, and encountered. The first distinction concerns contributions; the second concerns their carriers.
 
 ## Worldview, knowing, and realization
 
-**Philosophy, psychology, and engineering are three interpenetrating aspects of one living practice: how a person understands the world, feels and comes to know within it, and realizes that understanding.** They are not three separate things assembled only afterward. Forming a view is already psychological activity, and expressing it requires a body and a medium. Realizing an arrangement changes what can subsequently be felt, understood, and done.
-
-| Main emphasis | What it develops in this practice | How it meets the other contributions |
+| Question | Correspondence | Contribution to the same practice |
 | --- | --- | --- |
-| Philosophy: worldview and direction | What the world is, how to understand persons, relations, and change, and what is worth pursuing. | It supplies concepts and direction for psychological interpretation and engineering choices, while remaining revisable through experience and realized outcomes. |
-| Psychology: feeling, knowing, and relationship | How people feel, understand, believe, judge, and respond; how knowing develops and changes in interaction. | It gives philosophy particular experience, connects engineering with actual participants, and investigates what happens after a change. |
-| Engineering: method and realization | How to organize materials, programs, tools, and environments so an intention becomes an arrangement that can happen, be used, and be observed. | It brings understanding into reality and returns worldly feedback to psychological models and philosophy. |
+| How do we understand the world, and what is worth pursuing? | Worldview and direction → philosophy | Articulate persons, relations, change, knowledge, and value; give inquiry and action a revisable orientation. |
+| How does this person feel, know, judge, and respond? | Feeling and knowing → psychology | Investigate actual experience, preferences, and relationships; form and correct the situated personal model. |
+| How can this understanding take effect? | Method and realization → engineering | Build and maintain tools, instructions, and arrangements; observe what their use makes possible. |
+| Where is the work used and tested? | Use and feedback → personal environment | Philosophy, personal models, and methods enter actual life and tasks; consequences can change all three. |
+| Where can selected work be inspected and continued? | Source and history → GitHub repository | Keep the relevant prose, methods, and implementations available for comparison, revision, and permitted reuse. |
+| Where can people grasp and discuss it? | Reading and encounter → website | Present arguments, diagrams, and usable entrances; return recognition, questions, and objections to the work. |
 
-“Philosophy–worldview, psychology–knowing, engineering–method and realization” expresses these emphases. Epistemology further asks about the grounds and limits of knowing, while psychology investigates how knowing actually happens; they meet here. Philosophy, psychology, and engineering also develop their own methods. This correspondence describes contributions rather than dividing disciplines into disjoint compartments. Objects, knowledge, value, and method, developed in [Personal-first humanism](personal-first-humanism.md), remain questions crossing all three.
+The first three rows align **philosophy–worldview, psychology–knowing, and engineering–method and realization**. The last three describe places where all three contributions can occur. A philosophical argument can be maintained in GitHub, read on a website, and used in a personal environment; the media do not assign philosophy, psychology, and engineering to separate locations.
 
-**Engineering gives this exchange physical realization.** A running program needs machines, energy, and time; an interaction entering life needs embodiment, perception, and action. Physics helps explain those conditions, under which engineering constructs, measures, and adjusts. Worldview, feeling, and realization can belong to the same continuing process while remaining different explanatory perspectives. Their connection does not, through analogy alone, settle every question about the mind's physical realization. The “one” appears first in the capacity of views, experience, and works to change one another.
+This is the “one” of Trinity: a continuing practice of understanding, living, and creating. Its “three” name distinguishable contributions whose consequences can revise one another. Forming a view is already psychological activity; expressing it needs a body and a medium; realizing an arrangement changes what can subsequently be felt, understood, and done.
 
-For example, “understanding can be supported jointly by a person and their environment” is a philosophical view open to argument. Observing how someone continues thinking with records and a model is a question about psychology and knowing. Building an environment that retains context, presents relations, and accepts correction is engineering realization. The help or resistance it produces returns to assess the initial view and personal model. [Philosophical readings](philosophical-readings.md), [psychological readings](psychological-readings.md), and [engineering readings](engineering-readings.md) supply original-source entrances for these contributions.
+Epistemology asks about the grounds and limits of knowing, while psychology investigates how knowing actually happens. Their connection here does not make the disciplines identical. Philosophy, psychology, and engineering each develop methods; objects, knowledge, value, and method remain questions crossing all three, as [Personal-first humanism](personal-first-humanism.md) explains.
 
-## What is one, and what is three?
+**Engineering gives this exchange physical realization.** Programs require machines, energy, and time; interaction requires embodiment, perception, and action. Physics investigates those conditions, under which engineering constructs, measures, and adjusts. The connection among views, experience, and works does not by itself settle every question about the mind's physical realization.
 
-The “one” is a person's continuing practice of understanding, living, and
-creating. The “three” foreground philosophy, psychological understanding,
-and the personal environment. Other distinctions help explain particular
-parts of this practice:
-
-| Question | Relevant distinction |
-| --- | --- |
-| What understanding and capability does the loop need? | Philosophy articulates meaning and direction; psychology grounds personal fit; engineering realizes and maintains the environment. |
-| What must the model read? | Developed philosophy, five condensed working accounts, and relevant private evidence serve different reading needs. |
-| Where does the work remain available? | The website makes it perceptible; the repository maintains selected source and history; the personal environment brings it into use. |
-
-These distinctions cross one another. A private model can have a private
-webpage, and philosophical work can live in a repository and guide daily
-practice. YinYang develops the philosophy and situated models; specialist
-Skills supply methods for particular work. Each distinction earns its place
-by clarifying a relation in the central loop.
-
-For someone taking up this collection, the intended practice is to write their
-own philosophy, distill a private personal model, and make selected thought
-available through their own maintained source and website. The website unfolds
-the broader philosophical model: its images, arguments, connections, and open
-questions. Five core files condense a narrower model for actual collaboration;
-private supporting material retains useful experiences and context that the
-philosophy does not express publicly.
-These scales distinguish what is expressed, while local environment, GitHub,
-and website distinguish where the work is maintained and encountered.
-
-They develop together. Writing a page can expose a relation that improves the
-five files; using those files can reveal a mismatch that sends the author back
-to the page and its philosophy. The model carries the corresponding source
-edits, website implementation, and authorized publication, checking what reaches
-each reader. Making the website is itself part of the work: layout, links, and
-examples can make a relation visible enough to judge. Repository maintenance
-keeps the resulting work available for another iteration.
-
-The iteration carries meaning across forms, not every private detail into
-every destination. Public philosophy can indirectly express selected personal
-understanding while the complete direct model remains private. A changed
-private insight may warrant a general public explanation, a different page,
-or no public change. A website edit need not change an unaffected core file.
-The contribution of a revision determines where it travels. Another user can
-develop this same practice with their own philosophy, repositories, and pages;
-the example's particular doctrine and personal contents need not travel with it.
-
-The unity is a developing work: its questions, concepts, methods, creations,
-and the history through which they acquire and change their meaning. A private
-working environment, a maintained repository, and a readable website can all
-carry this work while giving different people different ways to encounter it.
-Continuity rests on the relations among their contents and uses. An improvement
-in one place can be understood and carried to the other places it affects.
-
-The three forms need different contents. A personal environment holds situated
-understanding and the conditions of actual use. A shared repository carries
-selected, reusable material with its history and terms of use. A website gives
-readers an intelligible entrance to the material made available there. The
-private account of a person remains with that person; a reusable method can
-be shared without publishing the account from which it developed. This
-selection lets one practice acquire a public expression while retaining its
-personal depth.
-
-“Trinity” is a philosophical image for this arrangement. Its contribution is
-to ask how distinct forms can participate in one continuing activity. Their
-unity becomes substantial when a reader can follow an idea to its maintained
-source, a model can carry a revision into the working environment, and use
-can send a question back to the explanation.
+For example, “understanding can be supported jointly by a person and their environment” is a philosophical view open to argument. Observing how someone continues thinking with records and a model concerns psychology and knowing. Building an environment that retains context, presents relations, and accepts correction is engineering. Its help or resistance returns to assess the view and personal model. [Philosophical readings](philosophical-readings.md), [psychological readings](psychological-readings.md), and [engineering readings](engineering-readings.md) supply sources for these contributions.
 
 ## Philosophy, psychology, and engineering: develop the missing connection
 
@@ -126,91 +47,6 @@ The loop needs **philosophical, psychological, and engineering contributions**. 
 These sequences offer beginnings rather than closed stages to complete before moving on. Inference from engineering must consider that configurations may reflect constraints, defaults, or habits rather than preferences. Gather relevant authorized psychological and preference material or its provenance privately in `personal/`, and revise the model through the person's explanation and actual results. Philosophy also meets experience: beauty and coherence alone cannot establish personal fit. The personal model then gives philosophy and engineering direction while consequences continue to correct all three.
 
 The practical test is whether a missing connection becomes available: an abstract idea becomes personally meaningful, a personal understanding changes an arrangement, or experience in that arrangement improves the understanding. Psychology exceeds its records, engineering exceeds any particular tool, and philosophy belongs beyond the website. Their connection supports this person's continuing life and work.
-
-## Keeping the loop current
-
-The published philosophy already condenses much of the understanding developed
-from personal material. Once an argument has a maintained public expression,
-use that page and its owning source to refresh the private working model.
-Retire private copies of the same theory, superseded explanations, and
-provenance notes whose only purpose is to repeat the essay. The active private
-material retains what the public philosophy cannot supply: relevant personal
-experience, circumstances, relationships, purposes, and evidence of actual use.
-Original records and earlier versions remain with their existing archives.
-
-Personal material includes current work, study, research, and life plans;
-selected psychological and relational records; and relevant evidence from the
-person's environment, such as a configuration change or a difficulty encountered
-in a task. A setting can reflect a default or constraint, and a plan can express
-an intention whose execution remains open. Read each source for what it
-establishes. A private account serves the present encounter and can be added
-to, revised, condensed, or removed as its usefulness changes.
-
-The model carries this maintenance during relevant work. It follows the
-current page or source, checks the affected original records and actual
-environment, updates the useful private distillation, and carries consequential
-changes into the five accounts and their consumers. The person need not
-remember to request every update. Relevance and existing authorization bound
-the reading; stored material, a new timestamp, and a plausible interpretation
-do not settle truth. Current experience can also expose a problem in the
-philosophy, which is then examined in its own right. A stale private summary
-should not silently roll a developed public argument back to an earlier view.
-
-## What is the focus, and what supplies material?
-
-The loop can be followed in both directions. Philosophy can help repair an
-environment by clarifying the purpose, participation, or judgment its Skills
-and tools should realize. The environment can help repair philosophy by
-showing where an interpretation obstructs work, overlooks experience, or no
-longer fits. The psychological model connects these movements to the actual
-person and can change with them.
-
-The current question determines what is being repaired:
-
-| Current purpose | Focus | What helps judge it |
-| --- | --- | --- |
-| Develop or correct philosophy | The relevant argument or model | Experience, private context, and actual environmental use; adopted changes return to affected Skills and arrangements. |
-| Repair the personal environment | A concrete Skill, configuration, behavior, or tool | The intended philosophical relation, current personal model, and runtime evidence; an exposed conceptual error returns to philosophy. |
-| Improve a named part | That part in service of the intended result | Relevant material from the other places; only necessary dependent changes become additional repair targets. |
-
-A semantic change may therefore need a linked revision across the website,
-private models, and local user-authored Skills. Their opening spirit and
-concrete methods both need to express the new relation. A change of quotation
-marks or an equivalent link label usually stays at its presentation boundary.
-The [adaptation method](../harness-adaptation.md#choose-the-focus-and-trace-both-directions)
-explains how to carry that distinction through actual work.
-
-This is a living pattern of generation, use, return, and revision. A useful
-change in one place gives the model a reason to inspect the relevant connections,
-understand what travels, and carry it to the affected owners. The person can
-point to a mismatch or a new possibility; the model does the explicit work.
-No fixed correspondence or mechanical copy can decide every such passage.
-Work can finish in a coherent version and remain open to the next encounter.
-
-## Sun, Moon, and Earth: who participates?
-
-The [Sun–Moon–Earth image](yinyang-and-taiji.md#sun-moon-and-earth) expresses
-differentiated generation, reception, and shaping through Sun and Moon, with
-Earth the material and shared living environment where work acquires consequences.
-Person and model are the actual participants. The person brings purposes,
-experience, recognition, and judgment; the model interprets, proposes,
-constructs, checks, and carries work forward. Both can generate, reason,
-object, and revise. Roles can be retained or exchanged without gender
-assignment. Earth includes supporting conditions, other people's independent
-purposes, and results neither participant can settle by agreement alone.
-
-The local environment, GitHub, and website concern another question: **through
-what forms does their work remain available?** Person and model work across
-all three. Earth is present when a local program fails, a collaborator offers
-an alternative, or a reader understands a page differently. The website is
-one entrance into this wider world; the repository and local environment
-already belong to it too.
-
-These two triads connect through the work. The first makes generation,
-collaboration, and worldly response visible. The second gives their creations
-places to operate, persist, circulate, and be understood. Sun and Moon bring
-something into form; the three forms let it acquire consequences on Earth;
-those consequences can change both the work and its makers.
 
 ## Three places for the work to continue
 
@@ -268,6 +104,60 @@ work to the encounter that made it.
 | Personal local environment | Use understanding in a particular life and task | Practical results, friction, changed purposes |
 | GitHub repository | Obtain, inspect, revise, and collaborate on selected work | Reusable improvements, alternatives, accountable changes |
 | Website | Perceive the whole, read its relations, and enter discussion | Recognition, questions, objections, new uses |
+
+## Philosophy, working models, and private material
+
+For someone taking up this collection, the intended practice is to write their
+own philosophy, distill a private personal model, and make selected thought
+available through their own maintained source and website. The website unfolds
+the broader philosophical model: its images, arguments, connections, and open
+questions. Five core files condense a narrower model for actual collaboration;
+private supporting material retains useful experiences and context that the
+philosophy does not express publicly.
+These scales distinguish what is expressed, while local environment, GitHub,
+and website distinguish where the work is maintained and encountered.
+
+They develop together. Writing a page can expose a relation that improves the
+five files; using those files can reveal a mismatch that sends the author back
+to the page and its philosophy. The model carries the corresponding source
+edits, website implementation, and authorized publication, checking what reaches
+each reader. Making the website is itself part of the work: layout, links, and
+examples can make a relation visible enough to judge. Repository maintenance
+keeps the resulting work available for another iteration.
+
+The iteration carries meaning across forms, not every private detail into
+every destination. Public philosophy can indirectly express selected personal
+understanding while the complete direct model remains private. A changed
+private insight may warrant a general public explanation, a different page,
+or no public change. A website edit need not change an unaffected core file.
+The contribution of a revision determines where it travels. Another user can
+develop this same practice with their own philosophy, repositories, and pages;
+the example's particular doctrine and personal contents need not travel with it.
+
+## Sun, Moon, and Earth: who participates?
+
+The [Sun–Moon–Earth image](yinyang-and-taiji.md#sun-moon-and-earth) expresses
+differentiated generation, reception, and shaping through Sun and Moon, with
+Earth the material and shared living environment where work acquires consequences.
+Person and model are the actual participants. The person brings purposes,
+experience, recognition, and judgment; the model interprets, proposes,
+constructs, checks, and carries work forward. Both can generate, reason,
+object, and revise. Roles can be retained or exchanged without gender
+assignment. Earth includes supporting conditions, other people's independent
+purposes, and results neither participant can settle by agreement alone.
+
+The local environment, GitHub, and website concern another question: **through
+what forms does their work remain available?** Person and model work across
+all three. Earth is present when a local program fails, a collaborator offers
+an alternative, or a reader understands a page differently. The website is
+one entrance into this wider world; the repository and local environment
+already belong to it too.
+
+These two triads connect through the work. The first makes generation,
+collaboration, and worldly response visible. The second gives their creations
+places to operate, persist, circulate, and be understood. Sun and Moon bring
+something into form; the three forms let it acquire consequences on Earth;
+those consequences can change both the work and its makers.
 
 ## Why organize them with a language model?
 
@@ -335,6 +225,66 @@ explanation proposes why it happened and what a revision might change.
 Further use can support or correct that explanation. The three media help
 carry this inquiry; each can hold records and models, and none substitutes
 for the whole activity.
+
+## Keeping the loop current
+
+The published philosophy already condenses much of the understanding developed
+from personal material. Once an argument has a maintained public expression,
+use that page and its owning source to refresh the private working model.
+Retire private copies of the same theory, superseded explanations, and
+provenance notes whose only purpose is to repeat the essay. The active private
+material retains what the public philosophy cannot supply: relevant personal
+experience, circumstances, relationships, purposes, and evidence of actual use.
+Original records and earlier versions remain with their existing archives.
+
+Personal material includes current work, study, research, and life plans;
+selected psychological and relational records; and relevant evidence from the
+person's environment, such as a configuration change or a difficulty encountered
+in a task. A setting can reflect a default or constraint, and a plan can express
+an intention whose execution remains open. Read each source for what it
+establishes. A private account serves the present encounter and can be added
+to, revised, condensed, or removed as its usefulness changes.
+
+The model carries this maintenance during relevant work. It follows the
+current page or source, checks the affected original records and actual
+environment, updates the useful private distillation, and carries consequential
+changes into the five accounts and their consumers. The person need not
+remember to request every update. Relevance and existing authorization bound
+the reading; stored material, a new timestamp, and a plausible interpretation
+do not settle truth. Current experience can also expose a problem in the
+philosophy, which is then examined in its own right. A stale private summary
+should not silently roll a developed public argument back to an earlier view.
+
+## What is the focus, and what supplies material?
+
+The loop can be followed in both directions. Philosophy can help repair an
+environment by clarifying the purpose, participation, or judgment its Skills
+and tools should realize. The environment can help repair philosophy by
+showing where an interpretation obstructs work, overlooks experience, or no
+longer fits. The psychological model connects these movements to the actual
+person and can change with them.
+
+The current question determines what is being repaired:
+
+| Current purpose | Focus | What helps judge it |
+| --- | --- | --- |
+| Develop or correct philosophy | The relevant argument or model | Experience, private context, and actual environmental use; adopted changes return to affected Skills and arrangements. |
+| Repair the personal environment | A concrete Skill, configuration, behavior, or tool | The intended philosophical relation, current personal model, and runtime evidence; an exposed conceptual error returns to philosophy. |
+| Improve a named part | That part in service of the intended result | Relevant material from the other places; only necessary dependent changes become additional repair targets. |
+
+A semantic change may therefore need a linked revision across the website,
+private models, and local user-authored Skills. Their opening spirit and
+concrete methods both need to express the new relation. A change of quotation
+marks or an equivalent link label usually stays at its presentation boundary.
+The [adaptation method](../harness-adaptation.md#choose-the-focus-and-trace-both-directions)
+explains how to carry that distinction through actual work.
+
+This is a living pattern of generation, use, return, and revision. A useful
+change in one place gives the model a reason to inspect the relevant connections,
+understand what travels, and carry it to the affected owners. The person can
+point to a mismatch or a new possibility; the model does the explicit work.
+No fixed correspondence or mechanical copy can decide every such passage.
+Work can finish in a coherent version and remain open to the next encounter.
 
 ## Coherence keeps the differences connected
 

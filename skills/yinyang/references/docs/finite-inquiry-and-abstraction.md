@@ -48,7 +48,7 @@ The stream can revise its question, ontology, priority, and inference policy; a 
 
 **Skeptical acceptance under conflict** withholds $q$ when relevant admissible candidates disagree and the acceptance policy requires unanimous support. Non-acceptance of $q$ is not acceptance of $\neg q$. Without a priority, a common consequence can still follow. Priorities need not compare every candidate; new evidence can also distinguish contexts, correct a source, or defeat a candidate. A newer report does not automatically deserve a higher rank. Robustness remains relative to the selected family and its assumptions.
 
-**Computational restraint** trades completeness for cost through a sound lower approximation. It returns fewer answers while preserving a specified formal target's guarantees. Adequacy asks whether those answers suffice for the present question; cost asks what the construction and checks actually require. An answer's formal soundness and its adequacy as a description of the world are assessed at their respective boundaries.
+**Computational restraint** uses a sound lower approximation that may omit answers while preserving a specified formal target's guarantees. This can reduce cost, but savings depend on what the construction and checks actually require. Adequacy asks whether the answers suffice for the present question. An answer's formal soundness and its adequacy as a description of the world are assessed at their respective boundaries.
 
 ## A bounded approximation example
 

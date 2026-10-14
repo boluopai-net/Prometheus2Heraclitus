@@ -130,9 +130,11 @@ count of revisions or artifacts.
 
 ## Give the account a readable body
 
-The [YinYang and Taiji essay](yinyang-and-taiji.md) uses Sun, Moon, and Earth
-for the user, model, and environment. The particular encounter must be
-understood from actual material; the imagery does not provide its personal
+The [YinYang and Taiji essay](yinyang-and-taiji.md) uses Sun and Moon to express
+differentiated generation, reception, and shaping; person and model can retain
+or exchange their emphases. Earth is the material and shared living environment
+that answers their work. The particular encounter must be understood from actual
+material; the imagery supplies neither fixed participant identities nor personal
 content.
 
 For direct adoption, the reusable Skill lives at [`skills/yinyang/`](../../SKILL.md)

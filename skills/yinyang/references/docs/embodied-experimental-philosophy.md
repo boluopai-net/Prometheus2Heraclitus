@@ -75,7 +75,7 @@ can affect either the explanation or the way its consequence was tested.
 ## Two connected loops
 
 A **practice loop** connects a situated proposal, its realization, participation,
-and correction. A **reflection loop** revisits how the activity is understood:
+and correction. A **reflection loop**, within its current question and standards, revisits how the activity is understood:
 which concepts and purposes organize it, what supports a model, what another
 interpretation would change, and whether the arrangement should be revised.
 Philosophical argument, engineering investigation, and empirical inquiry can
@@ -91,10 +91,11 @@ model. Its findings can return to the practical arrangement. Practice also
 changes as reflection proceeds, so an earlier result has conditions and a
 history rather than an unlimited guarantee.
 
-The two loops are themselves a chosen arrangement. Inquiry can take the whole
-pair as its object: why distinguish practice from reflection this way, what does
-each serve, and which standards govern their conclusions? Both loops and their relation remain revisable. Their connection
-does not enclose every possible question about the arrangement.
+The two loops are themselves a chosen arrangement. When inquiry questions that
+division and the remit or standards of reflection itself, it takes the current
+pair as its object rather than continuing within those accepted terms. The next
+section develops this change of scope. Both loops and their relation remain
+revisable; the pair does not enclose every possible question about the arrangement.
 
 The investigator participates too. An explanation changes what a reader notices;
 a tool changes what a person can do; asking a question can change the response.
