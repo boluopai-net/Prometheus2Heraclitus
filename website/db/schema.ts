@@ -1,9 +1,4 @@
 import { sqliteTable, text, integer, index } from 'drizzle-orm/sqlite-core';
-export const suggestions = sqliteTable('suggestions', {
-  id: text('id').primaryKey(), kind: text('kind').notNull(), title: text('title').notNull(),
-  body: text('body').notNull(), author: text('author').notNull(), createdAt: text('created_at').notNull(),
-  deleteTokenHash: text('delete_token_hash'),
-}, (t) => [index('suggestions_created_idx').on(t.createdAt, t.id)]);
 export const rateLimits = sqliteTable('rate_limits', {
   key: text('key').primaryKey(), count: integer('count').notNull(), expiresAt: integer('expires_at').notNull(),
 });

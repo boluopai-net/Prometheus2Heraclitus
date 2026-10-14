@@ -11,10 +11,7 @@ def comment_section(english=False, kind='YinYang'):
 <p class="section-note">{t('用 GitHub 登录后，可以在这里留言和回复。讨论公开显示，中英文页面共享。', 'Sign in with GitHub to comment and reply here. Discussions are public and shared across languages.')}</p>
 <div class="giscus" data-giscus-kind="{kind}" data-giscus-language="{'en' if english else 'zh-CN'}"></div>
 <p class="section-note"><a data-github-discussion href="https://github.com/boluopai-net/Prometheus2Heraclitus/discussions">{t('也可以在 GitHub 讨论区交流', 'You can also join the discussion on GitHub')}</a></p>
-<details class="legacy-comments"><summary>{t('以前的留言', 'Earlier comments')}</summary>
-<p class="section-note">{t('这些是接入 GitHub 前的留言，署名由留言者填写。原有删除链接仍然有效；新留言请使用上方评论区。', 'These comments predate GitHub sign-in; their names were supplied by visitors. Existing deletion links still work. Use the discussion above for new comments.')}</p>
-<p class="repo-status" role="status" data-suggestion-list-status></p><div data-suggestion-list></div><button type="button" data-more-suggestions hidden>{t('更多评论', 'More comments')}</button>
-</details></div></details>'''
+</div></details>'''
 
 
 def comments(english=False, kind='YinYang'):

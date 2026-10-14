@@ -1,10 +1,8 @@
-/* Public reading and consistent comments across each content section. */
-import {credentialFor,managementLink,manageComment,forget} from './comment-ownership.js';
+/* Public reading edition file browser. */
 (() => {
   const root = document.querySelector('[data-repository-tools]');
   if (!root) return;
   const english = root.dataset.language === 'en';
-  const kind = root.dataset.feedbackKind || 'Advice';
   const t = (zh, en) => english ? en : zh;
   const $ = selector => root.querySelector(selector);
   const node = (tag, text, className) => {
@@ -106,54 +104,4 @@ import {credentialFor,managementLink,manageComment,forget} from './comment-owner
   }).catch(error => status($('[data-file-status]'), error.message, true));
   }
 
-  if (!$('[data-suggestion-list]')) return;
-  let cursor = null;
-  const loadAdvice = async (append = false) => {
-    const list=$('[data-suggestion-list]'), more=$('[data-more-suggestions]'), message=$('[data-suggestion-list-status]');
-    more.disabled=true;
-    try {
-      const params = new URLSearchParams({kind});
-      if (append && cursor) params.set('cursor', cursor);
-      const data=await (await request('/api/suggestions?' + params)).json();
-      if(!append) list.replaceChildren();
-      for(const item of data.items) {
-        const entry=node('article',undefined,'suggestion-entry');
-        const meta=node('p',undefined,'suggestion-meta');
-        const author=item.author && item.author !== 'Anonymous' ? item.author : t('匿名','Anonymous');
-        meta.append(node('strong',author,'suggestion-author'));
-        const date=new Date(item.createdAt);
-        if (!Number.isNaN(date.getTime())) {
-          const time=node('time',new Intl.DateTimeFormat(english?'en-GB':'zh-CN',{
-            timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',
-            hour:'2-digit',minute:'2-digit',hourCycle:'h23'
-          }).format(date));
-          time.dateTime=date.toISOString();
-          meta.append(time);
-        }
-        entry.append(meta);
-        entry.append(node('h3',item.title));
-        entry.append(node('p',item.body,'suggestion-body'));
-        const token=credentialFor(item.id);
-        if(token) {
-          const actions=node('div',undefined,'suggestion-actions');
-          const remove=node('button',t('删除我的评论','Delete my comment')); remove.type='button';
-          const manage=node('a',t('管理与保存删除链接','Manage / save deletion link'));
-          manage.href=managementLink(item.id,token,english); manage.rel='nofollow';
-          remove.addEventListener('click',async()=>{
-            if(!confirm(t('确定删除这条评论？删除后无法恢复。','Delete this comment? This cannot be undone.'))) return;
-            remove.disabled=true;
-            try { await manageComment(item.id,token,'delete'); forget(item.id); await loadAdvice(); }
-            catch(error) { status(message,error.message,true); remove.disabled=false; }
-          });
-          actions.append(remove,manage); entry.append(actions);
-        }
-        list.append(entry);
-      }
-      cursor=data.nextCursor; more.hidden=!cursor;
-      status(message,list.children.length?'':t('还没有评论。','No comments yet.'));
-    } catch(error) { status(message,error.message,true); }
-    finally { more.disabled=false; }
-  };
-  $('[data-more-suggestions]').addEventListener('click',()=>loadAdvice(true));
-  loadAdvice();
 })();

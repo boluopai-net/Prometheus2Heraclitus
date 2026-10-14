@@ -84,40 +84,12 @@ pages and across the custom and native Site domains. The widget supports
 in-page login, comments, and replies; its link also opens GitHub directly.
 GitHub identity does not depend on the old visitor-supplied names.
 
-Earlier comments remain readable through `/api/suggestions` and the collapsible
-Earlier comments section. New anonymous POSTs return 410 and do not write to D1.
-The `kind` field separates
-three visible streams: `Advice` on `/repositories/`, `Philosophy` comments on
-`/philosophy/`, and `Singing` comments on `/singing/`. The documents-and-diagrams
-hub `/repositories/prometheus/` has no comment section. Historical `YinYang`
-records remain available to the existing administration route; the page no
-longer loads or submits that stream.
-Each Chinese/English page pair shares its stream. Missing GET `kind` preserves
-the original Advice default; existing records are unchanged. The website has no Issue
-or PR categories. Actual issues and pull requests belong on the public GitHub repository; the website does not proxy GitHub writes.
-GET accepts optional `kind` and opaque `cursor`, returns up to 30 items plus
-`nextCursor`. Legacy management caps JSON at 48,000 bytes, rejects cross-origin
-mutations, parameterizes SQL, and retains fixed-window limits (120 reads per
-IP/minute; 30 management requests per IP/minute).
-The frontend displays submitted content through text nodes, including code and
-angle brackets; submissions are never interpreted as HTML.
-Every feedback stream renders author and server-recorded creation time before
-the title and body. Omitted names display as Anonymous; timestamps display in
-Asia/Shanghai, without a repeated timezone suffix, including older records. Names are visitor-supplied, not
-verified identities. Feedback is shared D1 data, while wheel state stays in
-each browser's localStorage and is never shared through this API.
-
-Earlier submissions carried a client-generated UUID and 256-bit deletion capability.
-Those capabilities retain their deletion authority. D1 stores
-only `delete_token_hash`; public GETs never expose capabilities or their hashes.
-The same browser shows deletion controls. `/comment/manage/` (and `/en/`) takes
-the private capability in the URL fragment, removes it from browser history on
-load, and calls same-origin POST `/api/suggestions/manage` for authenticated read
-or confirmed deletion. A saved link works in another browser; merely opening it
-does not delete. Never log or publish deletion links. Deletion is idempotent.
-Existing comments without a capability remain owner-managed; do not assign
-ownership from a matching nickname. Migration 0004 also removes the one exact
-anonymous welcome the owner selected; other comments are retained.
+The earlier anonymous comment system is retired. All suggestion API methods and
+old management pages return 410 before storage access. The old UI, client, and
+admin handler are removed; migration 0005 drops the suggestions table and its
+records. GitHub Discussions are the only current comment storage. The three
+bilingual streams remain Philosophy, Singing, and resources; the documents hub
+has no separate comment section.
 
 Dependency review (2026-10-12; revisit by 2026-11-12 or before changing runtime
 routes): npm audit against the official registry reports existing advisories
@@ -132,19 +104,9 @@ dependency audit or a claim that these versions are generally safe. Reassess
 before enabling framework routes or accepting new external build inputs.
 
 `.openai/hosting.json` declares platform-provisioned D1 `DB` and private R2
-`BUCKET` bindings. `db/schema.ts` and the generated `drizzle/` migration own `suggestions`,
-`rate_limits`, `download_tokens`, and
-`access_applications`. Sites applies the migrations before deployment.
-`/admin/suggestions` uses dispatch-owned ChatGPT sign-in and exact server-side
-owner matching against the native Sites `OWNER_EMAIL` runtime secret, or the
-optional verified per-Site `OWNER_USER_ID`. No independent OAuth/session system
-exists. Anonymous and other-account deletion is denied; the owner can browse
-paged feedback by stream and delete it through `/api/admin/suggestions/:id`.
-The same owner-only route accepts PATCH `{author, expectedAuthor}` to correct
-attribution in the stored record, preserving its ID, body, and timestamp. It
-checks same-origin requests and the previous author to avoid stale overwrites;
-an identical retry returns the current record. Public visitors cannot rename
-comments. The admin page exposes this action as “修改署名”.
+`BUCKET` bindings. `db/schema.ts` retains the unrelated historical
+`rate_limits`, `download_tokens`, and `access_applications` tables.
+Sites applies the schema migrations before uploading the Worker.
 
 The header has one GitHub entrance alongside on-site philosophy, singing, and
 resources. The homepage's “Continue the conversation” heading links to the
@@ -152,14 +114,8 @@ repository root. The retired Contact pages redirect there too. Full source,
 archive downloads, cloning, Issues and pull requests
 use GitHub's native public workflow. The website presents articles and four
 MIT Skill introductions linking to GitHub; it has no access application or download
-code form. Earlier anonymous comments remain readable and manageable; their
-visitor-supplied names are not verified GitHub
-identities. Owner moderation retains deletion and attribution correction.
-
-All four comment streams use the same bilingual `comment_section` renderer:
-“评论” / “Comments”, with native `details` initially closed. One click exposes
-the existing comments and form, and another closes them. Storage kind names and
-existing comment data remain unchanged.
+code form. Comments and replies use GitHub's native identity and moderation.
+The bilingual `comment_section` renderer opens and closes the giscus widget.
 
 Access applications, owner approvals, notification claims/decisions, release
 uploads and code redemption are retired. The Worker returns a generic 410 for
@@ -179,15 +135,10 @@ former public bridge claim/complete routes cannot enqueue model work. The status
 route returns `online:false, retired:true`. Hermes remains the owner's private
 assistant, with no visitor chatbot or website approval workflow.
 
-Local acceptance uses disposable in-memory SQLite for Singing POST/GET stream
-isolation, deletion-capability read/delete, rejected origins, anonymous admin
-denial and owner attribution correction. Retired routes must return 410 even
-without DB/BUCKET bindings. Do not post disposable tests into the public database
-or alter the owner's existing welcome comment. Final combined build and hosted
-readback validate bilingual panels, contact links, GitHub entrances and routing.
-Hosted owner moderation still depends on Sites ChatGPT sign-in; the earlier
-platform consent timeout is not solved by this retirement. Do not substitute
-caller-supplied identity headers for hosted dispatch identity.
+Acceptance checks the rendered bilingual pages, new motifs, and retired comment
+routes returning 410 without database bindings. Hosted readback verifies that
+no earlier-comment section or old API data remains. Never post test comments
+into the public GitHub discussions.
 
 The 2026-10-12 native npm audit against npmjs reported 1 critical, 21 high,
 7 moderate, and 1 low inherited starter advisories (the configured mirror has

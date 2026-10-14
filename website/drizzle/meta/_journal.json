@@ -36,6 +36,13 @@
       "when": 1791793357695,
       "tag": "0004_pink_lady_deathstrike",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791994510871,
+      "tag": "0005_abandoned_sister_grimm",
+      "breakpoints": true
     }
   ]
 }
