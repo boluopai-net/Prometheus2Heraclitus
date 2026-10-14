@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web Teacher"
+  short_description: "Explore open questions and broaden source-grounded models"
+  default_prompt: "Use $web-teacher to explore this unsettled question, develop and compare possibilities, and connect them to relevant sources and my learning context."
+policy:
+  allow_implicit_invocation: true

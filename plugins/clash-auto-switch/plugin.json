@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "clash-auto-switch",
+  "version": "1.0.0",
+  "description": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "节点自动切换 · Proxy node switching",
+        "shortDescription": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

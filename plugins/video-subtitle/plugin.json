@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-subtitle",
+  "version": "1.0.0",
+  "description": "Retrieve source-linked, timed spoken text and check it against the original video.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "视频字幕提取 · Video subtitles",
+        "shortDescription": "Retrieve source-linked, timed spoken text and check it against the original video.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

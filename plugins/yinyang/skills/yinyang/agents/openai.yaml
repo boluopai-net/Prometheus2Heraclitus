@@ -1,0 +1,6 @@
+interface:
+  display_name: "阴阳"
+  short_description: "建模具体的人，据此形成对应 agent 与协作关系"
+  default_prompt: "完整阅读 $yinyang 及相遇概要，按当前工作选择更深材料，形成、修订或运用实际关系并完成所需环境工作。"
+policy:
+  allow_implicit_invocation: true

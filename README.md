@@ -100,15 +100,17 @@ credentials, personal records, and host-specific bindings are excluded.
 ## Use with Codex
 
 Adopting YinYang requires the model to help rewrite **all five core relationship
-files and organize your own `references/personal/`**. Downloading or installing
-does not complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)
+files and organize your own `references/personal/`**. Installing does not
+complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)
 states what to change, who carries the writing, and how to verify availability.
 
-[Codex setup](docs/codex.md) · [Download ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)
+[Install in Codex: choose and copy a request](https://boluopai.net/install/en/) · [Installation and updates](docs/codex.md)
 
-The guide covers installing selected Skills through Codex's built-in installer or
-from a downloaded ZIP. Only Codex is currently supported. The public repository
-can be read and downloaded without an invitation or access application.
+All 21 Skills are individually installable from the **boluopai** plugin marketplace.
+Give the website's installation request to Codex; it adds the marketplace and
+installs the complete plugin without manual ZIP extraction. The source is
+`boluopai-net/Prometheus2Heraclitus`; plugin identifiers are `<name>@boluopai`.
+Keep personalized YinYang material in a private source outside replaceable caches.
 <!-- repository-only:end -->
 
 ## Maintenance and contributions

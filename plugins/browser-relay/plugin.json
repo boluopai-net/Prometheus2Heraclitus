@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "browser-relay",
+  "version": "1.0.0",
+  "description": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "浏览器会话 · Browser sessions",
+        "shortDescription": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

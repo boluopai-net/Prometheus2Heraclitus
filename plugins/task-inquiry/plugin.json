@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "task-inquiry",
+  "version": "1.0.0",
+  "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "任务探究 · Task Inquiry",
+        "shortDescription": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

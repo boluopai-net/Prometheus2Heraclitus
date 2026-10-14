@@ -1,0 +1,6 @@
+interface:
+  display_name: "安卓控制 · android-control"
+  short_description: "Inspect and operate an identified Android device with verified readback"
+  default_prompt: "Use $android-control to operate the identified Android device and verify the requested result."
+policy:
+  allow_implicit_invocation: true

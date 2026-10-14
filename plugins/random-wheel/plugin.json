@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "random-wheel",
+  "version": "1.0.0",
+  "description": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "抽卡转盘 · random-wheel",
+        "shortDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

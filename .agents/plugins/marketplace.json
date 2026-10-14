@@ -1,0 +1,428 @@
+{
+  "name": "boluopai",
+  "interface": {
+    "displayName": "boluopai · 火与河流"
+  },
+  "plugins": [
+    {
+      "name": "yinyang",
+      "version": "1.0.0",
+      "description": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yinyang"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "阴阳 · YinYang",
+        "shortDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "random-wheel",
+      "version": "1.0.0",
+      "description": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/random-wheel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "抽卡转盘 · random-wheel",
+        "shortDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "research",
+      "version": "1.0.0",
+      "description": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "搜索与研究 · Research",
+        "shortDescription": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "task-inquiry",
+      "version": "1.0.0",
+      "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/task-inquiry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "任务探究 · Task Inquiry",
+        "shortDescription": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "prompt-and-skill-lifecycle",
+      "version": "1.0.0",
+      "description": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-and-skill-lifecycle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "提示词与技能生命周期 · Prompt and Skill Lifecycle",
+        "shortDescription": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "android-control",
+      "version": "1.0.0",
+      "description": "Operate your Android device through ADB and native interfaces, verifying actual effects.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/android-control"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "安卓手机控制 · Android control",
+        "shortDescription": "Operate your Android device through ADB and native interfaces, verifying actual effects.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "personal-environment-design",
+      "version": "1.0.0",
+      "description": "Organize websites, desktops, and cross-tool work around human understanding and action.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/personal-environment-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "个人环境设计 · Personal environment design",
+        "shortDescription": "Organize websites, desktops, and cross-tool work around human understanding and action.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "model-upgrade-check",
+      "version": "1.0.0",
+      "description": "Reconcile available models, purpose-specific selections, and actual consumers.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/model-upgrade-check"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "模型升级检查 · Model upgrade checks",
+        "shortDescription": "Reconcile available models, purpose-specific selections, and actual consumers.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "paper-retrieval",
+      "version": "1.0.0",
+      "description": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-retrieval"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "论文与学术书籍检索 · Paper and book retrieval",
+        "shortDescription": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "video-subtitle",
+      "version": "1.0.0",
+      "description": "Retrieve source-linked, timed spoken text and check it against the original video.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/video-subtitle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "视频字幕提取 · Video subtitles",
+        "shortDescription": "Retrieve source-linked, timed spoken text and check it against the original video.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "singing",
+      "version": "1.0.0",
+      "description": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/singing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "练唱 · Singing practice",
+        "shortDescription": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "local-teacher",
+      "version": "1.0.0",
+      "description": "Explain, review, and practice in a local environment, developing understanding through real work.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/local-teacher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "本地老师 · Local teacher",
+        "shortDescription": "Explain, review, and practice in a local environment, developing understanding through real work.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "web-teacher",
+      "version": "1.0.0",
+      "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/web-teacher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "云端老师 · Web teacher",
+        "shortDescription": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "shopping",
+      "version": "1.0.0",
+      "description": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shopping"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "购物与比价 · Shopping and comparison",
+        "shortDescription": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "prompt-audit-orchestration",
+      "version": "1.0.0",
+      "description": "Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-audit-orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "提示词审计 · Prompt audit orchestration",
+        "shortDescription": "Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "agent-orchestration-master",
+      "version": "1.0.0",
+      "description": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-orchestration-master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "多智能体协作 · Agent orchestration",
+        "shortDescription": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "browser-relay",
+      "version": "1.0.0",
+      "description": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/browser-relay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "浏览器会话 · Browser sessions",
+        "shortDescription": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "obsidian-sync",
+      "version": "1.0.0",
+      "description": "Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/obsidian-sync"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "笔记同步 · Obsidian synchronization",
+        "shortDescription": "Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "chezmoi",
+      "version": "1.0.0",
+      "description": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chezmoi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "系统配置持久化 · Configuration persistence",
+        "shortDescription": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "network",
+      "version": "1.0.0",
+      "description": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/network"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "网络诊断 · Network diagnosis",
+        "shortDescription": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    },
+    {
+      "name": "clash-auto-switch",
+      "version": "1.0.0",
+      "description": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/clash-auto-switch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "节点自动切换 · Proxy node switching",
+        "shortDescription": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  ]
+}

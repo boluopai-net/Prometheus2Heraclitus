@@ -1,94 +1,61 @@
-# 在 Codex 中使用
+# 安装到 Codex
 
-[English](codex.md)
+[English](codex.md) · [选择 Skill 并复制安装指令](https://boluopai.net/install/)
 
-这个集合的安装指南目前适用于 **Codex**。从[包目录](../README.zh-CN.md#集合里的-skill)
-选择需要的 Skill，再读它的配套方法与配置要求。复制 Skill 不会自动配置外部工具、凭据、
-设备或主机服务；有的方法只需已有模型工具，有的还需接入包内说明的实际能力。
+**boluopai 插件市场**把集合中的 21 个 Skill 分别做成了可安装插件。在网站选择需要的
+Skill，把安装指令复制给 Codex，由它完成原生安装。不需要下载 ZIP、解压或手工修目录。
 
-本集合为公开 GitHub 仓库，各包都可以直接读取、克隆和下载，无须申请或审批。
-全部下载都使用 GitHub；网站提供阅读版与介绍。
+## 原生安装
 
-- [random-wheel](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/random-wheel)
-- [research](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research)
-- [task-inquiry](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry)
-- [prompt-and-skill-lifecycle](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-and-skill-lifecycle)
+安装阴阳：
 
-## 让 Codex 安装
-
-公开仓库的安装无需 GitHub 邀请或私有仓库权限。
-
-将想安装的 Skill 对应指令粘贴到 Codex 对话中：
-
-下面示例与其他目录成员使用同一种安装方法。将链接最后的包名换成需要的目录，并安装
-当前工作所需的配套包。例如，本地教学方法需要同时取得 `local-teacher` 与 `web-teacher`。
-
-**阴阳**
-
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang
+```bash
+codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
+codex plugin add yinyang@boluopai
 ```
 
-**随机转盘**
+将 `yinyang` 换成[目录](../README.zh-CN.md#集合里的-skill)中的其他包名即可。
+例如，`codex plugin add research@boluopai` 安装搜索与研究。
+市场只需添加一次；以后安装其他插件只需第二条命令。桌面端插件浏览器也可以浏览
+已配置的市场。安装后在新对话里使用，让 Codex 发现新装的 Skill。
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/random-wheel
+插件包含完整 Skill、参考文档、脚本、资源及许可。安装不会自动配置外部工具、认证、
+设备或服务，具体要求见各包 README。本地教学需要同时安装
+`local-teacher@boluopai` 与 `web-teacher@boluopai`。
+
+如果你的 Codex 版本没有 `codex plugin` 命令，先更新 Codex，或让内置 Skill 安装工具
+从 GitHub 的 `skills/<包名>` 目录安装。避免无意中同时启用同一个 Skill 的独立副本和插件。
+
+## 阴阳：先安装，再形成自己的私人版本
+
+插件提供公开的形成指引，不包含作者的私人模型。你可以让它根据自己选择提供的目标与
+材料，协助形成自己的哲学和具体模型。
+
+插件缓存会被更新替换。个人版应保存在自己的私人 Skill 源目录里，放在插件缓存和市场
+检出目录之外。让 Codex 将完整阴阳包复制到那里，保留已经存在的个人版，形成五份核心
+文件和私人配套材料，再通过客户端实际的发现机制启用。个人版启用后，停用分发插件，
+避免两个阴阳入口相互竞争，并在新对话中核实私人入口。
+共同内容更新可使用包内 `scripts/sync-common.py`；它会保留五份个人核心和
+`references/personal/`。
+
+## 更新与卸载
+
+```bash
+codex plugin marketplace upgrade boluopai
+codex plugin add research@boluopai
+codex plugin remove research@boluopai
 ```
 
-**提示词与技能生命周期**
+先刷新市场，再安装所选插件的当前版本，然后开启新对话。个人修改不要保存在托管缓存中。
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-and-skill-lifecycle
-```
+## 源码与许可
 
-**搜索与研究**
+需要检查、改编源码或使用其他客户端时，可以[浏览源码](https://github.com/boluopai-net/Prometheus2Heraclitus)
+或[下载仓库 ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)。
+ZIP 是可选的源码入口，不再是 Codex 常规安装步骤。
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research
-```
+阴阳保留 CC BY-NC-SA 4.0，其他 Skills 保留各自的 MIT 许可。
+这个 GitHub 市场独立分发，不表示已经进入 OpenAI 官方公共插件目录。
 
-**任务探究**
-
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry
-```
-
-内置安装工具会复制完整的 Skill 目录，包括参考资料和资源文件。安装后在新对话中
-使用；如果 Skill 选择器仍未出现它，重启 Codex 后再检查。
-
-## 也可以直接下载
-
-直接[下载仓库 ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)。
-GitHub 的 **Code → Download ZIP** 也是同一个入口，不必先学会 Git clone。
-
-解压后，让 Codex 安装其中 `skills/` 下选中的目录。五个包都可公开下载，使用时遵守各自许可。
-请保留选中 Skill 的完整目录；只复制 `SKILL.md` 会丢失配套材料。
-若手动安装到一个项目，把选中目录复制到该项目的 `.agents/skills/`，使入口位于
-`.agents/skills/<skill-name>/SKILL.md`。
-随机转盘的渲染脚本还需要 Python 3。研究 Skill 使用接收环境实际可用的搜索、
-文件或浏览器能力；安装 Skill 本身不会开通搜索服务。
-
-## 试着使用
-
-在新的 Codex 对话中选择已安装的 Skill，或输入它的名字：
-
-```text
-$yinyang 根据我选择提供的目标和材料，帮助我形成自己的阴阳。
-```
-
-```text
-$random-wheel 把阅读、写作、散步做成转盘，随机选一个。
-```
-
-```text
-$prompt-and-skill-lifecycle 把这套正在使用的方法写成可复用的 Skill，并检查配套资源是否完整。
-$research 结合文档、源代码与独立报告，比较这个项目已有的实现方案。
-$task-inquiry 帮我区分这个不合之处的几种解释，核查能够核查的部分，并继续推进任务。
-```
-
-阴阳包提供形成指引，不包含作者私人的个人记录。你提供的材料和形成的个人版本
-留在你自己那里。已经个性化的版本需要更新时，先让 Codex 比较新旧内容、保留你的
-个人成果，再进行更新。使用时遵守各 Skill 的许可。
-
-参考：[Codex 本地 Skills](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
-与[官方 Skill 安装工具](https://github.com/openai/skills/tree/main/skills/.system/skill-installer)。
+参考：[官方插件打包说明](https://developers.openai.com/plugins/build/plugins)
+与[公共目录提交流程](https://developers.openai.com/plugins/deploy/submission)。

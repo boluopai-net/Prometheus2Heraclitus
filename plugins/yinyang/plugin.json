@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yinyang",
+  "version": "1.0.0",
+  "description": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "CC-BY-NC-SA-4.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "阴阳 · YinYang",
+        "shortDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

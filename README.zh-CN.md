@@ -84,10 +84,12 @@
 <!-- repository-only:start -->
 ## 在 Codex 中使用
 
-[Codex 配置指南](docs/codex.zh-CN.md) · [下载 ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)
+[安装到 Codex：选择并复制指令](https://boluopai.net/install/) · [安装与更新说明](docs/codex.zh-CN.md)
 
-可以让 Codex 内置的安装工具安装选中的 Skill，也可以下载 ZIP 后安装。
-目前只适配 Codex。公开仓库可直接读取和下载，无须接受邀请或申请权限。
+21 个 Skill 均可从 **boluopai** 插件市场独立安装。把网站生成的安装指令交给 Codex，
+由它添加市场并安装完整插件，无须下载或解压 ZIP。市场来源为
+`boluopai-net/Prometheus2Heraclitus`，插件名称为 `<包名>@boluopai`。
+阴阳个人版应保存在私人源目录中，不能写进会被更新替换的插件缓存。
 <!-- repository-only:end -->
 
 ## 维护与贡献

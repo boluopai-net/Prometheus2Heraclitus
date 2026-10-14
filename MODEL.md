@@ -70,9 +70,18 @@ archive; never publish excluded manuscripts or private records through history.
 GitHub supplies native source archives, forks, Issues, and pull requests. The
 website presents reading editions and package introductions; all source and
 downloads go to GitHub package directories or its native repository ZIP.
-Recipients select the complete Skill directory from that archive. Git commits
-retain revision history; no separate Release, tag, or stable-version workflow,
-website package ZIP generator, or download service is needed.
+Codex recipients normally install selected plugins from the boluopai GitHub
+marketplace; archives remain an optional source route. The catalog at
+`.agents/plugins/marketplace.json` owns plugin identity, version and presentation.
+`scripts/build-plugins.py --apply` assembles complete portable packages in
+`plugins/` from tracked `skills/` sources; its default mode checks byte, mode and
+coverage equality. Do not edit generated plugin copies. Increment the affected
+plugin version when its shipped content changes, regenerate, check native
+installation and discovery, then publish the source and generated packages together.
+No separate GitHub Release or tag workflow is required. Official directory
+submission uses a ZIP of the same generated plugin; it is a publisher artifact,
+not a website download service. Keep private personal adaptations outside plugin
+caches and never include them in distribution.
 
 YinYang's original material is licensed under CC BY-NC-SA 4.0, governed by the
 official legal code at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en.

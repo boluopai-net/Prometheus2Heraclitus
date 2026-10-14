@@ -1,106 +1,73 @@
-# Use with Codex
+# Install in Codex
 
-[简体中文](codex.zh-CN.md)
+[简体中文](codex.zh-CN.md) · [Choose and copy an installation request](https://boluopai.net/install/en/)
 
-This collection's installation guide currently supports **Codex**. Choose from
-the [package catalog](../README.md#skills-in-the-collection), then read the selected
-package's companion and configuration requirements. Copying a Skill does not
-configure its external tools, credentials, devices, or host services. Some methods
-need only the model's existing tools; others require the documented integrations.
+The **boluopai** marketplace offers all 21 collection Skills as individually
+installable plugins. Choose one on the website, copy its installation request
+into Codex, and let Codex perform the native installation. No ZIP extraction
+or manual directory repair is required.
 
-This is a public GitHub repository. The packages may be read, cloned, and
-downloaded without an application or approval. All downloads use GitHub;
-the website supplies reading editions and introductions.
+## Native installation
 
-- [random-wheel](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/random-wheel)
-- [research](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research)
-- [task-inquiry](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry)
-- [prompt-and-skill-lifecycle](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-and-skill-lifecycle)
+For YinYang:
 
-## Install through Codex
-
-Installation from this public repository needs no GitHub invitation or private
-repository permission.
-
-Paste the command for the Skill you want into a Codex chat:
-
-The examples below use the same mechanism as the other catalog members. Replace
-the final package name with the desired directory, and install the companion
-packages required for the chosen workflow. For example, install both
-`local-teacher` and `web-teacher` for the shared local teaching method.
-
-**YinYang**
-
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang
+```bash
+codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
+codex plugin add yinyang@boluopai
 ```
 
-**Random wheel**
+Replace `yinyang` with any name in the [catalog](../README.md#skills-in-the-collection).
+For example, `codex plugin add research@boluopai` installs Research.
+Add the marketplace once; later plugins need only the second command.
+The desktop plugin browser can also browse the configured marketplace.
+Use a new chat after installation so the installed Skills can be discovered.
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/random-wheel
+The package includes the complete Skill, references, scripts, assets, and its
+license. Installing it does not provision external tools, authentication,
+devices, or services. Read the package README for those requirements. For local
+teaching, install both `local-teacher@boluopai` and `web-teacher@boluopai`.
+
+If your Codex version lacks `codex plugin`, update Codex or use its built-in
+Skill installer with the selected GitHub `skills/<name>` directory. Do not
+install both a standalone copy and the same plugin unintentionally.
+
+## YinYang: install first, personalize in your own private source
+
+The installed plugin contains public formation guidance, not the author's
+private portrait. Ask it to help form your own philosophy and situated model
+from the goals and material you choose to share.
+
+Plugin cache files are replaceable. Keep your personal version in your own
+private Skill source, outside the plugin cache and marketplace checkout.
+Have Codex copy the complete YinYang package there, preserve an existing
+personal version, develop the five core accounts and private supporting material,
+and register that private Skill through your client's actual discovery mechanism.
+Once that personal Skill is active, disable the distribution plugin to avoid
+two competing YinYang entrypoints. Verify the private entrypoint in a new chat.
+Common updates can use the included `scripts/sync-common.py`; it preserves the
+five personal accounts and `references/personal/`.
+
+## Updates and removal
+
+```bash
+codex plugin marketplace upgrade boluopai
+codex plugin add research@boluopai
+codex plugin remove research@boluopai
 ```
 
-**Prompt and Skill Lifecycle**
+Refresh the marketplace and install the selected current plugin version, then
+start a new chat. Never store personal modifications in the managed cache.
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-and-skill-lifecycle
-```
+## Source and licenses
 
-**Research**
+[Browse source](https://github.com/boluopai-net/Prometheus2Heraclitus) or
+[download the repository ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)
+when you want to inspect, adapt, or use another client. ZIP is an optional source
+route, not the normal Codex installation step.
 
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research
-```
+YinYang retains CC BY-NC-SA 4.0; the other Skills retain their package-local MIT
+licenses. The GitHub marketplace is independently distributed and is not a claim
+of inclusion in OpenAI's public plugin directory.
 
-**Task Inquiry**
-
-```text
-$skill-installer install https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry
-```
-
-The built-in installer copies the complete Skill directory, including its
-references and assets. Use it in a new chat after installation. If it does not
-appear in the Skill selector, restart Codex and check again.
-
-## Download instead
-
-[Download the repository ZIP](https://github.com/boluopai-net/Prometheus2Heraclitus/archive/refs/heads/main.zip)
-directly. GitHub's **Code → Download ZIP** provides the same download; no Git
-clone is required.
-
-Extract it, then ask Codex to install the selected directories under `skills/`
-from the extracted folder. All five packages are public downloads; follow each
-package's license. Keep each selected folder complete; copying only
-`SKILL.md` loses its supporting material. For a manual project-scoped install,
-copy the selected folder into your project's `.agents/skills/`, so the entrypoint
-is `.agents/skills/<skill-name>/SKILL.md`.
-The random wheel's renderer also needs Python 3. Research uses the search,
-file, or browser capabilities actually available in the recipient's environment;
-installing the Skill does not itself provision a search service.
-
-## Try it
-
-In a new Codex chat, select the installed Skill or type its name:
-
-```text
-$yinyang Help me develop my own YinYang from the goals and material I choose to share.
-```
-
-```text
-$random-wheel Make a wheel with Reading, Writing, and Walking, then pick one.
-```
-
-```text
-$prompt-and-skill-lifecycle Turn this working method into a reusable Skill and check that its supporting resources are complete.
-$research Compare existing implementations for this project using documentation, source code, and independent reports.
-$task-inquiry Help me distinguish the explanations for this mismatch, check what can be checked, and continue the task.
-```
-
-YinYang ships formation guidance, not the author's private personal account.
-Your own material and resulting personal version stay with you. Before updating
-an installation you have personalized, ask Codex to compare the new package
-with your copy and preserve your personal work. Follow each Skill's license.
-
-Reference: [Codex local Skills](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
-and the [official Skill installer](https://github.com/openai/skills/tree/main/skills/.system/skill-installer).
+References: [Official plugin packaging](https://developers.openai.com/plugins/build/plugins)
+and [public directory submission](https://developers.openai.com/plugins/deploy/submission).

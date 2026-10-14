@@ -1,0 +1,8 @@
+{
+  "runtime_config": "/absolute/recipient/clash-data/config.yaml",
+  "profiles_index": "/absolute/recipient/clash-data/profiles.yaml",
+  "controller_url": "http://127.0.0.1:9090",
+  "output_root": "/absolute/recipient/private-scan-output",
+  "colima_runtime_root": "/tmp/recipient-proxy-purity",
+  "colima_profile": "recipient-profile"
+}

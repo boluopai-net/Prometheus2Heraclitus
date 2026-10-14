@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paper-retrieval",
+  "version": "1.0.0",
+  "description": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "论文与学术书籍检索 · Paper and book retrieval",
+        "shortDescription": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}

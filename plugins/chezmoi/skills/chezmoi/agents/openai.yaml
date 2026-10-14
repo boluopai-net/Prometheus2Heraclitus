@@ -1,0 +1,3 @@
+interface:
+  display_name: "系统配置持久化 · Chezmoi"
+  short_description: "Persist authorized stable configuration through source capture, isolated preview, protected publication and runtime readback."

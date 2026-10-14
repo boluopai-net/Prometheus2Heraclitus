@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-orchestration-master",
+  "version": "1.0.0",
+  "description": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "多智能体协作 · Agent orchestration",
+        "shortDescription": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/"
+      }
+    }
+  }
+}
