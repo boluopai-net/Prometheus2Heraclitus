@@ -2,6 +2,7 @@
 <p><a href="/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html">哲学阅读</a> · <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html">心理阅读</a></p>
 <p>工程让一个理解取得可运行、可观察、可修改的形式。这里从学习地图进入命令行、版本历史和软件设计，再按问题深入算法、系统、实验与物理条件。以课程、文档和源仓库为主要入口，并保留有助于理解的教材与论文。</p>
 <p>工具页帮助找到可用的工具和 Skills；这张阅读地图解释它们背后的概念、方法与实现。工具能够调用，不表示使用者已经理解它；一份文档既可以支持学习，也可以在实际工作中按需查阅。</p>
+<p><strong>先选一条能接上自己的主线。</strong>程序设计从 CS 61A 与 Composing Programs 进入；算法从普林斯顿课程与 Algorithms 进入；计算机系统从 CS:APP 进入；计算理论从 MIT 与 Sipser 进入，再按需要深入 Arora–Barak。下面把课程、教材与文档放在一起，说明各自的用途。课程提供讲授、作业与项目，教材展开连贯概念，文档便于查阅具体接口；一本出版社书目也不等于免费全文。</p>
 <h2 id="先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</h2>
 <table>
 <thead>
@@ -16,12 +17,20 @@
 <td>PKUFlyingPig 发起的开放自学地图。先读使用指南，再按已有基础选程序设计、数学、算法、系统等课程；它不是北大统一规定的课程表，也不必整站修完。</td>
 </tr>
 <tr>
+<td>清华大学计算机系学生科协：<a href="https://docs.net9.org/">SAST skill docs</a></td>
+<td>中文技能引导文档。按具体需要进入问题解决、Git、Linux、编辑器、编程语言与开发框架；适合连接基础课程和实际工作。</td>
+</tr>
+<tr>
 <td><a href="https://missing.csail.mit.edu/">MIT Missing Semester 2026</a></td>
 <td>从 shell、命令行环境和开发工作流进入，跟随课程当期讲义做小练习。已有版本通过网站的历年入口查阅，避免混用不同年份的课次。</td>
 </tr>
 <tr>
 <td>William Shotts，<a href="https://linuxcommand.org/tlcl.php">The Linux Command Line</a></td>
 <td>作者提供的开放书籍。学习文件、权限、进程、管道、重定向与脚本。macOS 和 Linux 共享部分 Unix 概念，具体命令选项与系统管理仍要查看目标系统文档。</td>
+</tr>
+<tr>
+<td><a href="https://www.vim.org/docs.php">Vim 官方文档</a> · <a href="https://vimhelp.org/usr_toc.txt.html">Vim 用户手册</a></td>
+<td>先用 <code>vimtutor</code> 理解模式、移动与编辑，再按用户手册学习组合命令、搜索与替换；具体选项查 <code>:help</code>。它是编辑工具的学习入口，可以与自己的编辑器选择并存。</td>
 </tr>
 </tbody>
 </table>
@@ -50,11 +59,36 @@
 </tbody>
 </table>
 <h2 id="软件设计与计算机系统">软件设计与计算机系统</h2>
+<h3 id="程序设计与抽象cs-61a-和-sicp">程序设计与抽象：CS 61A 和 SICP</h3>
+<p><strong>CS 61A 是这里的基础入口。</strong>它帮助理解程序如何由函数、数据与解释过程构成；后面的软件构造关注怎样把已有编程能力组织成可靠的软件，不能替代这层基础。</p>
 <table>
 <thead>
 <tr>
-<th>材料</th>
-<th>阅读用途</th>
+<th>课程与教材</th>
+<th>内容与用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Berkeley <a href="https://cs61a.org/">CS 61A</a> · John DeNero，<a href="https://www.composingprograms.com/">Composing Programs</a></td>
+<td>课程与在线教材配对。从函数、高阶函数、递归与数据抽象，进入对象、解释器和不同编程方式。配合课程的小练习与项目，看清程序的行为和抽象边界。</td>
+</tr>
+<tr>
+<td>Abelson 与 Sussman，<a href="https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/">SICP 第二版</a> · <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">MIT 提供的全文 PDF</a></td>
+<td>用 Scheme 展开过程与数据抽象、状态、解释器和求值。它是 CS 61A 思想背景的重要原典，可以在 Composing Programs 之外深入阅读，不把两本书当成同一版本。</td>
+</tr>
+<tr>
+<td><a href="https://sicp.sourceacademy.org/">SICP JavaScript 改写与 Scheme 对照版</a></td>
+<td>对照 Scheme 原版与 JavaScript 改写版；站点也链接到可交互阅读与求值的 Interactive SICP JS。选择语言时看已有经验和想理解的问题；版本之间有对应关系，也有实现差异。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="软件构造与设计">软件构造与设计</h3>
+<table>
+<thead>
+<tr>
+<th>课程、讲义与参考书</th>
+<th>内容与用途</th>
 </tr>
 </thead>
 <tbody>
@@ -63,27 +97,82 @@
 <td>作者书目与课程材料。围绕复杂性、模块、接口和信息隐藏理解软件设计。「哲学」在书名中指设计思想，这里按软件工程用途收录。</td>
 </tr>
 <tr>
-<td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction</a></td>
-<td>规格、测试、抽象数据类型与并发等课程材料；把「代码能运行」进一步发展为有明确行为契约的软件。</td>
-</tr>
-<tr>
-<td>Arpaci-Dusseau 与 Arpaci-Dusseau，<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a></td>
-<td>作者开放教材。从虚拟化、并发与持久化理解进程、内存和存储；Linux 命令的表面操作可以在这里找到系统背景。</td>
+<td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction（2021）</a> · 同页逐讲阅读</td>
+<td>在编程基础之后学习规格、测试、抽象数据类型与并发，把「代码能运行」发展为有明确行为契约的软件。这里以课程自带讲义配套；Ousterhout 的书是相邻的设计阅读，不冒充该课指定教材。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="算法计算与复杂性">算法、计算与复杂性</h2>
+<h3 id="从程序看到机器操作系统与网络">从程序看到机器、操作系统与网络</h3>
 <table>
 <thead>
 <tr>
-<th>材料</th>
-<th>阅读用途</th>
+<th>课程与教材</th>
+<th>内容与用途</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>CMU <a href="https://www.cs.cmu.edu/~213/">15-213 Introduction to Computer Systems</a> · Bryant 与 O’Hallaron，<a href="https://csapp.cs.cmu.edu/3e/home.html">Computer Systems: A Programmer’s Perspective，第 3 版</a></td>
+<td>即 CS:APP／深入理解计算机系统。从程序员的视角理解数据表示、机器代码、内存层次、链接、进程、虚拟内存与系统 I/O。作者站另有实验与学生资源。</td>
+</tr>
+<tr>
+<td>Arpaci-Dusseau 与 Arpaci-Dusseau，<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a></td>
+<td>作者开放教材及项目。从虚拟化、并发与持久化理解操作系统；可以配合系统课程按章节阅读。</td>
+</tr>
+<tr>
+<td>MIT <a href="https://pdos.csail.mit.edu/6.1810/2025/">6.1810 Operating System Engineering（2025）</a> · <a href="https://pdos.csail.mit.edu/6.828/2025/xv6.html">同年 xv6 教材与源码入口</a></td>
+<td>通过一个小型 RISC-V 操作系统连接文字、实现与实验。教材和实验需要匹配课程年份与源码版本。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="算法计算与复杂性">算法、计算与复杂性</h2>
+<h3 id="算法从普林斯顿课程与教材开始">算法：从普林斯顿课程与教材开始</h3>
+<table>
+<thead>
+<tr>
+<th>课程与教材</th>
+<th>内容与用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Princeton <a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a> 与<a href="https://www.coursera.org/learn/algorithms-part2"> Part II</a> · Sedgewick 与 Wayne，<a href="https://algs4.cs.princeton.edu/home/">Algorithms，第 4 版</a></td>
+<td>主入口。课程与教材围绕排序、查找、图、字符串等数据结构与算法展开；教材配套站提供代码、练习、讲义及课程链接。注意课程主要使用 Java。</td>
+</tr>
+<tr>
+<td>Berkeley <a href="https://cs170.org/">CS170</a> · Dasgupta、Papadimitriou 与 Vazirani，<a href="https://cseweb.ucsd.edu/~dasgupta/book/index.html">Algorithms（DPV）作者材料</a></td>
+<td>进一步学习算法设计、正确性与复杂度论证，按问题进入分治、贪心、动态规划、线性规划和归约。它是另一部 Algorithms，不与普林斯顿教材混称。</td>
+</tr>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/">6.006 Introduction to Algorithms（2020）</a> · CLRS，<a href="https://mitpress.mit.edu/9780262033848/introduction-to-algorithms/">Introduction to Algorithms，第 3 版</a></td>
+<td>课程有独立讲义，并把 CLRS 第三版列为补充参考；可用于补强数学建模、数据结构、正确性与渐近分析。另有<a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/">第 4 版</a>，使用时核对章节和题号。</td>
+</tr>
+<tr>
 <td>Jeff Erickson，<a href="https://jeffe.cs.illinois.edu/teaching/algorithms/">Algorithms</a></td>
 <td>作者开放教材、讲义与习题。理解递归、动态规划、贪心与图算法，练习说明正确性和成本。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="计算理论mitsipser再到-arorabarak">计算理论：MIT、Sipser，再到 Arora–Barak</h3>
+<table>
+<thead>
+<tr>
+<th>课程与教材</th>
+<th>内容与用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/">18.404J Theory of Computation（2020）</a> · Michael Sipser，<a href="https://math.mit.edu/~sipser/book.html">Introduction to the Theory of Computation，第 3 版</a></td>
+<td>基础主线。课程提供讲授和习题，教材从自动机、可计算性进入复杂性；书的作者页面提供版本说明与勘误。使用习题时按课程所用版本核对题号。</td>
+</tr>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/">6.045J Automata, Computability, and Complexity（2011）</a> · 课程讲义与教材说明</td>
+<td>同一基础领域的另一套课程组织，适合按主题补读，不要求与 18.404 重复完成。</td>
+</tr>
+<tr>
+<td>Sanjeev Arora 与 Boaz Barak，<a href="https://theory.cs.princeton.edu/complexity/">Computational Complexity: A Modern Approach</a></td>
+<td>进阶主线。已有计算模型、归约与基本复杂性类基础后，再深入复杂性类、随机性、交互证明与下界等问题。作者页面提供公开草稿和配套材料；草稿与出版版应分别标识。</td>
 </tr>
 <tr>
 <td>Boaz Barak，<a href="https://introtcs.org/public/index.html">Introduction to Theoretical Computer Science</a></td>
@@ -131,8 +220,17 @@
 <ul>
 <li><a href="#先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</a></li>
 <li><a href="#git-与-github让作品和修改能够接续">Git 与 GitHub：让作品和修改能够接续</a></li>
-<li><a href="#软件设计与计算机系统">软件设计与计算机系统</a></li>
-<li><a href="#算法计算与复杂性">算法、计算与复杂性</a></li>
+<li><a href="#软件设计与计算机系统">软件设计与计算机系统</a><ul>
+<li><a href="#程序设计与抽象cs-61a-和-sicp">程序设计与抽象：CS 61A 和 SICP</a></li>
+<li><a href="#软件构造与设计">软件构造与设计</a></li>
+<li><a href="#从程序看到机器操作系统与网络">从程序看到机器、操作系统与网络</a></li>
+</ul>
+</li>
+<li><a href="#算法计算与复杂性">算法、计算与复杂性</a><ul>
+<li><a href="#算法从普林斯顿课程与教材开始">算法：从普林斯顿课程与教材开始</a></li>
+<li><a href="#计算理论mitsipser再到-arorabarak">计算理论：MIT、Sipser，再到 Arora–Barak</a></li>
+</ul>
+</li>
 <li><a href="#实验实现数据与模型检验">实验实现、数据与模型检验</a></li>
 <li><a href="#物理条件测量与反馈">物理条件、测量与反馈</a></li>
 </ul>

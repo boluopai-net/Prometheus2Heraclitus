@@ -2,6 +2,7 @@
 <p><a href="/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.html">Philosophical readings</a> · <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html">Psychological readings</a></p>
 <p>Engineering gives an understanding a form that can run, be observed, and be changed. Begin here with a learning map, the command line, version history, and software design, then follow the question into algorithms, systems, experiments, and physical conditions. Courses, documentation, and source repositories are the main entrances, accompanied by useful textbooks and papers.</p>
 <p>Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Being able to invoke a tool does not establish understanding. Documentation can support both learning and reference during actual work.</p>
+<p><strong>Choose a main thread that connects with your starting point.</strong> Begin programming with CS 61A and Composing Programs; algorithms with Princeton's courses and Algorithms; computer systems with CS:APP; and computation theory with MIT and Sipser, then deepen through Arora–Barak as needed. The entries pair courses, books, and documentation and explain their roles. Courses offer teaching, assignments, and projects; books develop connected concepts; documentation provides reference for particular interfaces. A publisher's book record does not imply free full text.</p>
 <h2 id="find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</h2>
 <table>
 <thead>
@@ -16,12 +17,20 @@
 <td>An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation. It is not an official university-wide Peking University curriculum or a requirement to complete every course.</td>
 </tr>
 <tr>
+<td>Tsinghua's computer-science student association: <a href="https://docs.net9.org/">SAST skill docs</a></td>
+<td>Chinese introductory skill documentation. Follow the immediate need into problem solving, Git, Linux, editors, languages, and development frameworks, connecting foundational courses with actual work.</td>
+</tr>
+<tr>
 <td><a href="https://missing.csail.mit.edu/">MIT Missing Semester 2026</a></td>
 <td>Begin with the shell, command-line environment, and development workflows, using the current course's notes and small exercises. Earlier offerings remain available through the site's archive; keep each year's lesson sequence distinct.</td>
 </tr>
 <tr>
 <td>William Shotts, <a href="https://linuxcommand.org/tlcl.php">The Linux Command Line</a></td>
 <td>The author's open books introduce files, permissions, processes, pipes, redirection, and scripts. macOS and Linux share some Unix concepts, but command options and system administration require the target system's documentation.</td>
+</tr>
+<tr>
+<td><a href="https://www.vim.org/docs.php">Official Vim documentation</a> · <a href="https://vimhelp.org/usr_toc.txt.html">Vim user manual</a></td>
+<td>Begin with <code>vimtutor</code> for modes, movement, and editing, then use the manual for command composition, searching, and substitution; consult <code>:help</code> for particular options. This learning entrance can coexist with your own editor choice.</td>
 </tr>
 </tbody>
 </table>
@@ -50,11 +59,36 @@
 </tbody>
 </table>
 <h2 id="software-design-and-computer-systems">Software design and computer systems</h2>
+<h3 id="programming-and-abstraction-cs-61a-and-sicp">Programming and abstraction: CS 61A and SICP</h3>
+<p><strong>CS 61A is the foundational entrance here.</strong> It develops an understanding of programs through functions, data, and interpretation. Software construction then organizes existing programming ability into reliable software; it does not replace this foundation.</p>
 <table>
 <thead>
 <tr>
-<th>Material</th>
-<th>Reading purpose</th>
+<th>Course and book</th>
+<th>Content and purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Berkeley <a href="https://cs61a.org/">CS 61A</a> · John DeNero, <a href="https://www.composingprograms.com/">Composing Programs</a></td>
+<td>A course paired with its online text. From functions, higher-order functions, recursion, and data abstraction, proceed to objects, interpreters, and different programming approaches. Small exercises and projects make behavior and abstraction boundaries concrete.</td>
+</tr>
+<tr>
+<td>Abelson and Sussman, <a href="https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/">SICP, second edition</a> · <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">full PDF hosted by MIT</a></td>
+<td>Develop procedural and data abstraction, state, interpreters, and evaluation through Scheme. This original work is an important intellectual background for CS 61A and a deeper reading beyond Composing Programs; the two books are not editions of the same text.</td>
+</tr>
+<tr>
+<td><a href="https://sicp.sourceacademy.org/">SICP JavaScript adaptation / Comparison Edition</a></td>
+<td>Compare the Scheme original with its JavaScript adaptation; the site also links to Interactive SICP JS for reading and evaluation. Choose according to existing language experience and the question; the versions correspond while differing in implementation.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="software-construction-and-design">Software construction and design</h3>
+<table>
+<thead>
+<tr>
+<th>Courses, notes, and reference books</th>
+<th>Content and purpose</th>
 </tr>
 </thead>
 <tbody>
@@ -63,27 +97,82 @@
 <td>Author's book and course resources. Study complexity, modules, interfaces, and information hiding. “Philosophy” names design thinking in the title; this map locates the book by its software-engineering purpose.</td>
 </tr>
 <tr>
-<td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction</a></td>
-<td>Course materials on specifications, testing, abstract data types, and concurrency, developing working code into software with explicit behavioral contracts.</td>
-</tr>
-<tr>
-<td>Arpaci-Dusseau and Arpaci-Dusseau, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a></td>
-<td>The authors' open textbook. Virtualization, concurrency, and persistence explain processes, memory, and storage, supplying the systems background behind command-line operations.</td>
+<td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction (2021)</a> · readings listed on the course page</td>
+<td>After programming foundations, study specifications, testing, abstract data types, and concurrency to develop working code into software with explicit behavioral contracts. Its own notes are the paired reading; Ousterhout is adjacent design reading, not presented as this course's assigned textbook.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="algorithms-computation-and-complexity">Algorithms, computation, and complexity</h2>
+<h3 id="from-programs-to-machines-operating-systems-and-networks">From programs to machines, operating systems, and networks</h3>
 <table>
 <thead>
 <tr>
-<th>Material</th>
-<th>Reading purpose</th>
+<th>Course and book</th>
+<th>Content and purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>CMU <a href="https://www.cs.cmu.edu/~213/">15-213 Introduction to Computer Systems</a> · Bryant and O’Hallaron, <a href="https://csapp.cs.cmu.edu/3e/home.html">Computer Systems: A Programmer’s Perspective, 3rd edition</a></td>
+<td>CS:APP introduces data representations, machine code, the memory hierarchy, linking, processes, virtual memory, and system I/O from a programmer's perspective. The authors' site also provides labs and student resources.</td>
+</tr>
+<tr>
+<td>Arpaci-Dusseau and Arpaci-Dusseau, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a></td>
+<td>The authors' open textbook and projects. Understand operating systems through virtualization, concurrency, and persistence, selecting chapters alongside a systems course.</td>
+</tr>
+<tr>
+<td>MIT <a href="https://pdos.csail.mit.edu/6.1810/2025/">6.1810 Operating System Engineering (2025)</a> · <a href="https://pdos.csail.mit.edu/6.828/2025/xv6.html">the same year's xv6 text and source entrance</a></td>
+<td>Connect text, implementation, and labs through a small RISC-V operating system. Match the text and labs to the course year and source version.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="algorithms-computation-and-complexity">Algorithms, computation, and complexity</h2>
+<h3 id="algorithms-begin-with-princetons-courses-and-textbook">Algorithms: begin with Princeton's courses and textbook</h3>
+<table>
+<thead>
+<tr>
+<th>Course and book</th>
+<th>Content and purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Princeton <a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a> and <a href="https://www.coursera.org/learn/algorithms-part2">Part II</a> · Sedgewick and Wayne, <a href="https://algs4.cs.princeton.edu/home/">Algorithms, 4th edition</a></td>
+<td>The principal entrance. Courses and book develop sorting, searching, graphs, strings, and their data structures. The companion site supplies code, exercises, notes, and course links. The courses primarily use Java.</td>
+</tr>
+<tr>
+<td>Berkeley <a href="https://cs170.org/">CS170</a> · Dasgupta, Papadimitriou, and Vazirani, <a href="https://cseweb.ucsd.edu/~dasgupta/book/index.html">Algorithms (DPV), author resources</a></td>
+<td>Deepen algorithm design, correctness, and complexity arguments through divide-and-conquer, greedy methods, dynamic programming, linear programming, and reductions. This is a different Algorithms from the Princeton textbook.</td>
+</tr>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/">6.006 Introduction to Algorithms (2020)</a> · CLRS, <a href="https://mitpress.mit.edu/9780262033848/introduction-to-algorithms/">Introduction to Algorithms, 3rd edition</a></td>
+<td>The course supplies its own notes and lists CLRS's third edition as supplementary reading. Use it to strengthen mathematical modeling, data structures, correctness, and asymptotic analysis. A <a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/">4th edition</a> is also available; match chapter and exercise numbers when using it.</td>
+</tr>
+<tr>
 <td>Jeff Erickson, <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/">Algorithms</a></td>
 <td>Author's open textbook, notes, and exercises. Study recursion, dynamic programming, greedy methods, and graph algorithms, including correctness and cost.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="computation-theory-mit-and-sipser-then-arorabarak">Computation theory: MIT and Sipser, then Arora–Barak</h3>
+<table>
+<thead>
+<tr>
+<th>Course and book</th>
+<th>Content and purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/">18.404J Theory of Computation (2020)</a> · Michael Sipser, <a href="https://math.mit.edu/~sipser/book.html">Introduction to the Theory of Computation, 3rd edition</a></td>
+<td>The foundational thread. The course offers lectures and exercises; the book moves from automata and computability into complexity. The author's book page provides edition information and errata. Match exercise numbers to the edition used by the course.</td>
+</tr>
+<tr>
+<td>MIT <a href="https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/">6.045J Automata, Computability, and Complexity (2011)</a> · course notes and textbook information</td>
+<td>Another organization of the foundational field, useful for supplementary topic reading rather than compulsory duplication of 18.404.</td>
+</tr>
+<tr>
+<td>Sanjeev Arora and Boaz Barak, <a href="https://theory.cs.princeton.edu/complexity/">Computational Complexity: A Modern Approach</a></td>
+<td>The advanced thread. With a foundation in computational models, reductions, and basic complexity classes, investigate classes, randomness, interactive proofs, and lower bounds. The authors provide a public draft and companion resources; distinguish the draft from the published edition.</td>
 </tr>
 <tr>
 <td>Boaz Barak, <a href="https://introtcs.org/public/index.html">Introduction to Theoretical Computer Science</a></td>
@@ -131,8 +220,17 @@
 <ul>
 <li><a href="#find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</a></li>
 <li><a href="#git-and-github-continuing-a-work-through-its-changes">Git and GitHub: continuing a work through its changes</a></li>
-<li><a href="#software-design-and-computer-systems">Software design and computer systems</a></li>
-<li><a href="#algorithms-computation-and-complexity">Algorithms, computation, and complexity</a></li>
+<li><a href="#software-design-and-computer-systems">Software design and computer systems</a><ul>
+<li><a href="#programming-and-abstraction-cs-61a-and-sicp">Programming and abstraction: CS 61A and SICP</a></li>
+<li><a href="#software-construction-and-design">Software construction and design</a></li>
+<li><a href="#from-programs-to-machines-operating-systems-and-networks">From programs to machines, operating systems, and networks</a></li>
+</ul>
+</li>
+<li><a href="#algorithms-computation-and-complexity">Algorithms, computation, and complexity</a><ul>
+<li><a href="#algorithms-begin-with-princetons-courses-and-textbook">Algorithms: begin with Princeton's courses and textbook</a></li>
+<li><a href="#computation-theory-mit-and-sipser-then-arorabarak">Computation theory: MIT and Sipser, then Arora–Barak</a></li>
+</ul>
+</li>
 <li><a href="#experimental-implementation-data-and-model-assessment">Experimental implementation, data, and model assessment</a></li>
 <li><a href="#physical-conditions-measurement-and-feedback">Physical conditions, measurement, and feedback</a></li>
 </ul>
