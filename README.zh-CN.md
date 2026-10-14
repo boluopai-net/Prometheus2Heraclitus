@@ -4,6 +4,10 @@
 
 [网站首页](https://boluopai.net/) · [网页阅读版](https://boluopai.net/repositories/prometheus/) · [English](README.md)
 
+<!-- repository-only:start -->
+**[安装到 Codex](docs/codex.zh-CN.md)**
+<!-- repository-only:end -->
+
 **从这个例子出发，写自己的哲学，凝练自己的私人模型，并把愿意公开的思想做成自己的作品与网页。**
 哲学写作帮助人探索尚不清楚的自我理解；其中清晰、有依据的关系，凝练为五份核心文件，
 供模型在实际协作中使用。具体身份、经历与原始材料留在私人来源里。

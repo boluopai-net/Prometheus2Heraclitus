@@ -4,6 +4,10 @@
 
 [Website](https://boluopai.net/) · [Read the collection](https://boluopai.net/repositories/prometheus/en/) · [简体中文](README.zh-CN.md)
 
+<!-- repository-only:start -->
+**[Install in Codex](docs/codex.md)**
+<!-- repository-only:end -->
+
 **Begin from this example, write your own philosophy, distill your private models,
 and make the thought you choose to share into your own works and website.**
 Philosophical writing helps explore an initially unclear self-understanding.
