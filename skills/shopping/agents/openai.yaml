@@ -1,0 +1,5 @@
+interface:
+  display_name: "购物与比价 · shopping"
+  short_description: "Compare Chinese marketplace offers with matched variants, conditions, and provenance"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,120 @@
+# Maintaining the Prometheus2Heraclitus collection
+
+**Prometheus2Heraclitus** is a collection of actual reusable Skills. Each
+member under `skills/` owns its entrypoint, methods, references, documents,
+diagrams, scripts, and other supporting resources. Independent members retain
+their own purpose and specialist responsibilities. Collection membership does
+not make every resource part of YinYang or impose its philosophical account.
+
+The collection offers its working Skills as examples for adoption, combination,
+and independent authorship. YinYang's philosophy is this example's developed
+account, not a required worldview for recipients. Its literary/philosophical
+form can inspire a differently organized work. Preserve the distinction between
+maintaining the existing implementation and authoring another one. The website
+projects selected source documents and diagrams; maintain their meaning here,
+with source revision and rights traceable in that reading surface.
+
+The root README editions are the collection entrance. Keep their descriptions
+aligned with the actual members and preserve full semantic parity. English is
+the first reading language for English-capable readers and models; model-facing
+maintenance prose remains English.
+
+[YinYang's MODEL.md](skills/yinyang/MODEL.md) owns interpretation of that Skill's
+philosophical claims, formation method, reader editions, and supporting resources.
+Its documents and diagrams live inside `skills/yinyang/references/`. Other
+members keep their own instructions and resources. Do not import another
+repository's philosophical content merely to follow its directory organization.
+
+## Publication boundary
+
+The owner selected a fresh public history for the noncommercial YinYang edition
+on 2026-10-14. Preserve the private recovery archive and build future public
+changes on the current public main. Do not merge pre-replacement branches back
+into public ancestry; reapply any needed contributions onto the current tree.
+Replacing history reduces ordinary access to prior versions but cannot revoke
+earlier license grants or erase copies and caches outside this repository.
+
+### Complete website source in the collection
+
+`website/` holds the public website's complete committed material and
+implementation: independent essays, static pages and assets, runtime code,
+build integration, dependencies and migrations. It is generated from one exact
+native Sites Git commit. Only `.playwright-cli/`, `design-evidence/`, and
+`design-qa.md` are omitted as QA probes. Tracked `dist/` is public static source
+and must remain; ignored client/server build output, caches, local secrets and
+live applicant databases are not source material. `website/SOURCE.json` records
+the source commit and exclusions. The empty `.env.example` is a template;
+`.openai/hosting.json` contains nonsecret project and binding identifiers.
+Independent deployment requires its own Site ID and runtime secrets.
+
+The native Site repository owns independent prose, presentation, implementation
+and its publication helper. Canonical YinYang prose remains at
+`skills/yinyang/`; copies and rendered editions inside `website/` are generated
+projections, not a second authoring owner. Their displayed canonical revision
+can precede the snapshot commit when content is unchanged. Maintain original
+content at its owner and regenerate before publishing.
+
+Commit the final Site source and use the native Sites helper to publish that
+exact source revision. Apply its snapshot with
+`python scripts/sync-website.py --source /path/to/site --revision FULL_SHA --apply`,
+then run the same command without `--apply` to check path coverage, bytes and
+modes. Review and publish the collection change to GitHub separately, then deploy
+and verify the same Site version through its native workflow. Skip unchanged
+snapshots and deployments. This is an explicit publication workflow, not a new
+watcher or automatic GitHub push service. Never edit generated snapshot copies.
+
+The collection is published as a clean public GitHub repository. Anyone may
+view, clone, and download it without an application, invitation, download code,
+or continuing-access grant. Historical private source must stay in its private
+archive; never publish excluded manuscripts or private records through history.
+GitHub supplies native source archives, forks, Issues, and pull requests. The
+website presents reading editions and package introductions; all source and
+downloads go to GitHub package directories or its native repository ZIP.
+Recipients select the complete Skill directory from that archive. Git commits
+retain revision history; no separate Release, tag, or stable-version workflow,
+website package ZIP generator, or download service is needed.
+
+YinYang's original material is licensed under CC BY-NC-SA 4.0, governed by the
+official legal code at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en.
+Reproduction, adaptation, and distribution are permitted for noncommercial purposes only.
+When sharing, retain required attribution and notices, provide the license
+link, and identify changes. Shared adaptations follow the license's ShareAlike
+conditions; private adaptations need not be published. Preserve the NonCommercial element; do not add a redistribution ban or
+individual download approval.
+The reusable method and tool packages other than YinYang retain their
+package-local MIT licenses. Their companion relationships do not merge their
+ownership or licensing. Root LICENSE records
+the mixed scope by material, not platform. YinYang projections and original
+philosophical text retain CC BY-NC-SA 4.0 on both GitHub and the website; the other
+package projections and downloads retain MIT on both surfaces.
+Independently authored site code, interface design, photos, and audio keep their
+own stated rights; neither grant automatically covers them. Do not invent a new
+site-code license. Third-party rights and earlier valid grants remain intact.
+
+Publish only authorized reusable material. Personal accounts, private source
+quotations, health or psychological records, relationship narratives, accounts,
+private paths, conversation identifiers, and links exposing those materials stay
+with their actual private owner. Do not retrieve private personal materials merely
+to maintain this collection or create a public index that reconstructs a portrait.
+
+Unpublished manuscripts, their reading editions, PDFs, figures, source files, and
+private source records are excluded from public packages. General ideas may be
+developed in the existing essays as standalone exposition with independently
+public references where relevant. Publication of any original or anonymous
+manuscript requires fresh explicit user authorization. Do not reintroduce
+excluded source through links, assets, history, or provider previews.
+
+Review the whole public change, including assets, metadata, published Git history,
+and link destinations. Reusable packages must remain meaningful without private
+sources. Keep conceptual reading links local to their owning complete package;
+verify moved references, source locators, and asset paths. Preserve actual
+permissions, consent, and publication authority.
+
+Do not maintain a download application, approval service, access-code system,
+publication-secret workflow, or separate package ZIP generator for this
+collection. Use GitHub's public archive and native collaboration functions.
+Website reading editions retain their own source and publication workflow.
+
+Maintain each account at its existing owner rather than duplicating it in the
+collection root. Do not add interpretation registries, automatic personal-data
+feeds, or synchronization services for this collection.

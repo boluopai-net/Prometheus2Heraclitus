@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PY_BIN="${PY_BIN:-python3}"
+SCRIPT="$SCRIPT_DIR/obsidian_sync_macos.py"
+if [[ "${1:-}" == "--watch" ]]; then
+  shift
+  SCRIPT="$SCRIPT_DIR/obsidian_config_watch_macos.py"
+fi
+exec "$PY_BIN" "$SCRIPT" "$@"

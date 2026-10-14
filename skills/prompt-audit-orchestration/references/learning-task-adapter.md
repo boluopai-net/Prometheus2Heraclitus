@@ -1,0 +1,235 @@
+# On-demand Role Adapter: Learning
+
+This adapter defines the Learning domain's audit purpose and write disposition
+for one on-demand review of the active learning system. The current
+Learning-domain coordinator selected under the published
+`prompt-audit-orchestration` Skill loads this adapter,
+`prompt-and-skill-lifecycle`, and `agent-orchestration-master`. For Skill targets,
+including local Teacher, select the same lifecycle package's management
+references. It gives each child the actual target and
+publication owner Skills plus the current-run package. Use that package's
+resolved objective and causal target scope and extent, attributable
+user-supplied direction, intended result, stopping boundary, user-input provenance
+binding, evidence access, authority, validation, and return boundary. Do not enter a
+teaching persona, perform a teaching move, treat prior findings as answers,
+request a persistent Task identity, or create another user-source record.
+
+## Learning-purpose scope
+
+The Learning domain follows a surface's primary purpose rather than its file
+type or directory. Within the coordinator-resolved causal scope, audit every
+current instruction, prompt, Skill, control, or navigation surface whose
+primary purpose is to shape learning, together with Course-connected workspace
+controls under the boundary below. Other-domain surfaces remain readable
+evidence for their learning consequences but are not Learning source-repair
+targets. For a full Learning-domain run, discover current identities from canonical owners and
+actual consumers and cover these semantic families:
+
+- the shared Course contract and repository map; stable learning-path
+  Governance; the current Route; cross-course recovery State; and Course
+  Markdown policy;
+- each applicable course-local resolver, learning plan, local-practice priority
+  reference, Course recovery State, and other active course-local control;
+- the active model-facing learning instructions and configuration in each local
+  workspace repository or repository collection currently connected to a Course
+  by Route, a course-local resolver or material index, or an actual learning
+  consumer;
+- the current learning hosted Project Instructions and their actual saved source
+  and native consumer;
+- the current local Teacher Skill package, its discovery and publication path, and its
+  Skill-owned local teaching and execution behavior;
+- ordinary model-facing learning-method, instruction, and navigation text under
+  general document collection; and
+- any other current dedicated learning-purpose prompt, Skill, Project
+  instruction, or control that materially determines source choice, exposition,
+  progression, depth, checkpoints, practice allocation, transfer, recovery,
+  re-entry, or course transition.
+
+These categories define full learning-purpose coverage rather than a frozen
+file, course, Skill, or Project inventory. Inclusion depends on current consumer
+behavior, not a name containing learning, a file extension, or residence under a
+Course or Document root. For a causally bounded run, apply the main Skill's
+scope rule to the resolved learning-purpose slice and name each excluded
+category and its boundary. Group or split evidence by current causal questions
+and dependencies, not by directory, carrier type, or file count.
+
+Resolve a current Course-to-workspace relationship before treating a local
+repository as part of this domain; a repository name, course-like directory
+name, or residence under a general workspace root is only a discovery lead. In
+a connected repository or repository collection, begin with the exact course
+repository or course-identified child and its active model-facing document and
+configuration surfaces, together with any governing ancestor instruction needed
+to interpret them. Expand beyond those surfaces only when material evidence is
+needed to validate their learning-flow claims. This default does not turn the
+general workspace root or every linked repository file into an audit target.
+
+The Learning scope may overlap other adapters' evidence, but
+learning-purpose mutation stays with Learning. A Learning-directed run audits
+and, when supported and authorized under the main Skill's completion policy,
+repairs the applicable learning-purpose surfaces above directly; it does not launch another domain
+merely because a target is packaged as a Skill, Project prompt, document, or
+repository configuration. If the root separately selects another adapter for another
+audit purpose in the same joint run, the peer supervisors may read the same
+evidence, while Hosted judges Hosted package delivery and tool-chain
+consequences and returns learning-method findings to Learning. Reuse source evidence and the
+Learning source judgment rather than duplicating its semantic audit or writer.
+A Hosted teaching Skill remains a Learning method target. Hosted may own a
+separate reusable Hosted tool or adaptation instruction it calls, but does not
+acquire the teaching method through its packaging.
+Learning uses the target's actual source and publication owner, so sole domain
+responsibility does not duplicate publication authority.
+
+## Connected learning-flow judgment
+
+Judge the applicable learning system as one connected chain:
+
+```text
+stable learning target
+→ Hosted entry through the learning Project or local support through the local Teacher Skill
+→ Route mapping and course entry
+→ Course and connected-workspace instruction or configuration resolution
+→ source spine, exposition, depth, and prerequisite coverage
+→ checkpoints and transfer evidence
+→ Hosted or local-practice allocation and execution boundary
+→ Course, cross-course, or workspace recovery State
+→ next move, re-entry, or course transition
+```
+
+The Hosted and local entries are related consumers, not one merged prompt. Check
+that the learning Project Instructions preserve the intended Hosted teaching purpose,
+judgment, and reply behavior while following the actual Course progression.
+Check that the local Teacher Skill preserves its named and purpose-based
+selection, supporting teaching purpose, current conversation and task ownership,
+user-owned judgment boundary, execution behavior, and real Course/workspace
+evidence routes. Check that both agree with the Course system
+where their consumers require a relationship without forcing identical reply
+format, tools, State, or execution responsibilities.
+
+Across the chain, look for duplicated or contradictory rules, unclear owners,
+a course mapping that current materials cannot carry, unavailable paths or
+evidence, unsupported prerequisite or mastery claims, stale progression or
+status, checkpoint requirements without usable answer or rubric evidence,
+practice allocation that conflicts with the real inventory or workspace
+boundary, and a prompt, State, or plan that claims more than observed learning
+evidence supports. Preserve the distinction between each teaching reply's
+exposition format and the course or chat's established source progression.
+
+An active repository instruction, model-host configuration, or workspace
+learning or recovery State in a connected workspace is a Learning-audit target
+when a current consumer uses it to shape local course execution. Academic source
+material, learner-authored work, assignments, answers, rubrics, recorded
+learning history, ordinary README content, and independent code, notebooks,
+data, tests, or solutions remain evidence rather than ordinary Learning-audit
+write targets unless a current consumer actually uses a specific item as an
+active instruction surface. A path relationship does not grant write authority
+over an independently governed workspace. Inert examples or historical files
+do not become active Skills or learning-flow controls merely because of their
+location or subject matter.
+
+## Target-specific repair boundaries
+
+An explicit audit-only boundary remains read-only. Under the main Skill's
+completion policy, the Learning coordinator carries an authorized supported
+repair only through the target's actual semantic, canonical, publication, authority, and safety owners. Learning
+scope owns the integrated audit purpose; it does not create a second source,
+publisher, native identity, or write route for an overlapping Skill, Project,
+Course, or document target.
+
+Learning scope also grants no general write authority over a connected local
+workspace. A supported repair to an active workspace instruction,
+configuration, or State surface follows that repository's actual semantic and
+workspace owner, isolation and lifecycle rules, publication route, and
+readback. When the surface is course-local learning-flow control, the
+individual-course non-expansion boundary below applies there as well. The audit
+does not change the workspace's code, notebooks, data, tests, solutions, or
+academic material merely because they supplied evidence.
+
+Local common/global instruction systems remain Workflow targets; Hosted
+common/global instruction systems remain Hosted targets, even when a clause
+affects learning. Learning may inspect and
+report their consequence for the connected learning flow, but it does not
+repair them. A dedicated Skill or prompt whose current primary purpose is
+learning, including the current local Teacher Skill and learning Project Instructions,
+remains a Learning target under the boundaries below.
+
+Saved local scheduled, recurring, or deferred Task prompts and dedicated
+task-purpose Skills belong to Saved Task, including a Task with a learning
+subject. Learning-purpose Skills called by that Task retain Learning ownership.
+Learning may inspect the Task's material effect and report its exact dependency;
+Saved Task may likewise judge a learning source's effect on Task execution and
+route a source finding to Learning. Use the main Skill's overlap and
+single-writer contract without automatically launching a peer in a single-domain
+run.
+
+Hosted Scheduled Task prompts, native fields, and recovery mirrors remain with the
+user's Scheduled Task Project under its current Project Instructions and
+explicit Task request. Learning may inspect their effect on the learning flow
+and report an exact dependency, but it does not perform that Hosted Task maintenance.
+
+A shared Course target may receive the smallest evidence-backed addition,
+deletion, or modification when its current owners permit that exact repair.
+Shared targets include the root Course contract, stable Governance, current
+Route, cross-course State, and Course-wide form policy. A protected or
+separately owned shared change remains a cross-owner or evidence-only finding
+under the main Skill.
+
+An individual-course target has a narrower repair boundary. This includes that
+course's resolver, learning plan, local-practice priority reference, Course
+State, and other course-local learning-flow control text. A target-owning worker
+may delete an existing clause, field, or entry when current evidence shows that
+it is duplicated, contradictory, obsolete, unavailable, or outside that
+target's authority. It may also explain, polish, or rewrite an existing rule
+when the resulting text only clarifies meaning already supported by the current
+course evidence and owner. The change may add explanatory prose or replace
+wording, but it must not create a new substantive course commitment.
+
+The Learning audit does not create a new individual-course file or field, or add
+a previously absent rule, path, mapping, checkpoint, exercise, practice
+allocation, status, progress, completion claim, or learning content. A
+purported clarification must not smuggle in one of those additions. When a
+valid result requires new substantive content rather than deletion or
+meaning-preserving clarification, report the exact missing or incorrect item,
+evidence, consequence, and current owner without changing the target. A
+separate additive request is outside this individual-course non-expansion route
+and follows that target's own owner and acceptance boundary.
+
+Course materials and learner evidence determine whether a deletion is sound;
+they are not themselves reduced merely to make the control surface consistent.
+Never erase valid course-specific depth, assessment, source order, practice,
+historical coverage, or learner evidence because a shared rule appears similar.
+
+The current local Teacher Skill and other learning-purpose Skills are Learning targets.
+In an authorized repair run, use each target's canonical Skill source, package,
+publication, runtime-convergence, and validation owners rather than a
+Learning-specific copy or projection. The current learning Project Instructions
+are likewise a Learning target: bind the exact saved source, authenticated
+native Project and prompt field, publish through the current Hosted prompt owner,
+Save, reopen, and read back the complete persisted prompt. Ordinary
+learning-purpose Document targets use their actual Document source and
+publication owner. Other domains may inspect these surfaces for their downstream
+effect, but do not repair them; packaging or storage location does not create a second writer.
+
+## Coordination and return boundary
+
+The Learning-domain coordinator owns decomposition, child follow-ups, evidence
+synthesis, connected-flow coverage, overlap coordination in joint mode, and its
+domain handoff. Use the current Agent owner and each target's named owner Skills
+to choose child roles and sequence from current evidence; do not recreate their
+workflow in this adapter. A supported target change follows the main Skill's
+proportionate review, Plan, and evaluation route plus its actual publication
+owner. Serialize only concrete dependencies, operations on the same exact
+mutable target, or a carrier-proven inability to support concurrent ownership;
+a shared account, Drive, repository, profile, authenticated context, subject,
+or overlapping read scope is not by itself a collision.
+
+Return one result for the resolved Learning-domain scope: scope examined,
+material exclusions and their boundaries for a bounded run, the connected
+learning-flow conclusion across all applicable Course, Hosted Project, local Teacher
+Skill, learning-method, and connected-workspace instruction or configuration
+surfaces, supported changes under each target's real disposition, substantive
+individual-course additions left unchanged, publication and readback evidence,
+and any cross-owner dependency, evidence-only incident, or blocker. A
+full-domain result accounts for all current target families above without
+treating every learning-related file as an active prompt. Do not operate or
+wait for another selected audit purpose's work unless the root selected a joint
+request.

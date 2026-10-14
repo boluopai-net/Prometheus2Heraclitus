@@ -1,0 +1,30 @@
+{
+  "target_home": "/absolute/recipient/home",
+  "runtime_root": "/absolute/recipient/clash-data",
+  "guard_state_dir": "/absolute/root-owned/guard-state",
+  "mode_state_dir": "/absolute/recipient/private-mode-state",
+  "log_dir": "/absolute/root-owned/guard-logs",
+  "switch_log_dir": "/absolute/recipient/switch-logs",
+  "python_executable": "/absolute/root-owned/python3",
+  "socat_executable": "/absolute/recipient/socat",
+  "root_runtime_dir": "/absolute/root-owned/guard-runtime",
+  "plist_dir": "/absolute/root-owned/LaunchDaemons",
+  "mutex_executable": "/absolute/recipient/installed/macos-home-mutex",
+  "mutex_path": "/absolute/recipient/state/shared-home.lock",
+  "label": "recipient.clash-dns-tun-guard",
+  "controller_url": "",
+  "desired_mode": "system",
+  "groups": [
+    "Recipient selector"
+  ],
+  "direct_groups": [],
+  "fallback_regions": [
+    "JP",
+    "SG",
+    "US"
+  ],
+  "excluded_regions": [],
+  "tun_dns_server": "198.18.0.1",
+  "fake_ip_cidr": "198.18.0.0/15",
+  "probe_url": "https://www.example.com/"
+}

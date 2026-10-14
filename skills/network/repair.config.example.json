@@ -1,0 +1,11 @@
+{
+  "data_root": "/absolute/recipient/clash-data",
+  "backup_root": "/absolute/recipient/private-recovery",
+  "baseline_root": "/absolute/recipient/known-good-globals",
+  "app_path": "/absolute/recipient/Clash Verge.app",
+  "controller_command": "/absolute/recipient/installed/clash-controller",
+  "controller_config": "/absolute/recipient/clash-tools.json",
+  "mutex_command": "/absolute/recipient/installed/macos-home-mutex",
+  "mutex_path": "/absolute/recipient/state/shared-home.lock",
+  "probe_url": "https://www.example.com/"
+}

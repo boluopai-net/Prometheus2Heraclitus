@@ -1,0 +1,10 @@
+{
+  "cloud_root": "/absolute/recipient/cloud",
+  "shared_config_root": "/absolute/recipient/cloud/shared-configuration",
+  "source_seed_root": "/absolute/recipient/repository/config-seed",
+  "cloud_vaults": ["/absolute/recipient/cloud/vault-a"],
+  "local_vaults": ["/absolute/recipient/workspace/vault-b"],
+  "lock_path": "/absolute/recipient/state/obsidian-sync.lock",
+  "watch_state_file": "/absolute/recipient/state/obsidian-watch.json",
+  "sync_command": "/absolute/recipient/installed/obsidian-sync/scripts/obsidian-sync"
+}

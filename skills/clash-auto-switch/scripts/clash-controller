@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
+  echo "Usage: CLASH_SKILL_CONFIG=/absolute/config.json clash-controller request GET /version"
+  exit 0
+fi
+: "${CLASH_SKILL_CONFIG:?Set the recipient Clash JSON path}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "${PY_BIN:-python3}" "$SCRIPT_DIR/clash-tool" --config "$CLASH_SKILL_CONFIG" controller "$@"
