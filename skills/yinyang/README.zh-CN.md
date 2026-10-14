@@ -83,7 +83,7 @@ agent，仍不知道它的能力应当服务于谁的什么目的。
 
 **哲学、心理与个人环境构成持续闭环。**哲学展开理解与方向，心理使模型贴合实际的人，工程把关系实现为可使用的环境；环境中的经验再回来修订理解和安排。已有一方面，就从它发展另外两方面；已有两方面，就重点补缺少的贡献。模型参与资料整理、写作、实现与核验，人参与理解、判断与实际使用。[三位一体](references/docs/local-source-and-website.zh-CN.md#哲学心理与工程从已有能力补齐关系)展开这些联系及其起步路径。
 
-这也是**世界观、感受与认识、方法与实现**在同一生活实践中的往返。哲学、心理和工程各有重心，又彼此贯通；物理条件让实际实现成为可能，也使它接受现实约束。可分别从[哲学阅读](references/docs/philosophical-readings.zh-CN.md)、[心理阅读](references/docs/psychological-readings.zh-CN.md)与[工程阅读](references/docs/engineering-readings.zh-CN.md)进入。发展首先服务自己和附近愿意参与者的生活，网页与个人哲学的主动传播服从这一目的；[基本观点 YY-15](references/docs/core-views.zh-CN.md#yy-15)说明近处培育与有限传播的原则。
+**本体论、认识论与方法论在这项实践中相遇。**共同哲学阐明一般与工程的对象和关系，五份处境文件使实际参与者及认识他们的根据进入视野；个人材料为两者提供依据，专门的 Skills 提供方法。哲学、心理与工程贯穿这个结构。可分别从[哲学阅读](references/docs/philosophical-readings.zh-CN.md)、[心理阅读](references/docs/psychological-readings.zh-CN.md)与[工程阅读](references/docs/engineering-readings.zh-CN.md)进入。发展首先服务自己和附近愿意参与者的生活，网页与个人哲学的主动传播服从这一目的；[基本观点 YY-15](references/docs/core-views.zh-CN.md#yy-15)说明近处培育与有限传播的原则。
 
 **不会工程，就先补工程。**先学会借助模型组织文件、工具、harness、运行与核验，让后续材料整理与修订能实际进行。只有一个主要起点时：
 
@@ -154,7 +154,7 @@ agent，仍不知道它的能力应当服务于谁的什么目的。
 | --- | --- |
 | 总体目的与连贯论证 | [窃火](references/docs/stealing-fire.zh-CN.md)说明发展的目的，并串联哲学立场。 |
 | 明确的主张 | [核心观点](references/docs/core-views.zh-CN.md)把这些立场写成可讨论的命题。 |
-| 一项实践的三种形态 | [三位一体](references/docs/local-source-and-website.zh-CN.md)通过模型协助的理解与世界的反馈，连接个人使用、可复用的源内容和人的阅读界面。 |
+| 本体论、认识论与方法论 | [三位一体](references/docs/local-source-and-website.zh-CN.md)把共同哲学、五份处境文件、它们的来源与专门方法接在一项实践中，再说明本地、仓库与网页怎样承载它。 |
 | 类比与分布式的自我修订 | [隐喻、类比与个人的自我改写](references/docs/metaphor-and-self-revision.zh-CN.md)展开外部表征、依情境分配的模型贡献、听说读写，以及个人哥德尔机的比较构想。 |
 | 通过参与展开哲学 | [具身的实验哲学](references/docs/embodied-experimental-philosophy.zh-CN.md)连接实践与反思循环、公开作品、反馈，以及对系统边界和目的的修订。 |
 | 个人目的与哲学资源 | [个人优先的人本主义](references/docs/personal-first-humanism.zh-CN.md)区分本体论、认识论、价值与多元方法，围绕具体的人发展环境。 |

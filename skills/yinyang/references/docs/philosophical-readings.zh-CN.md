@@ -47,6 +47,17 @@
 在主观精神与客观精神的关系中定位绝对精神，并在其中展开艺术。
 [世界、过程与表达](world-and-expression.zh-CN.md)保留这些范畴与一般反馈回路阶段的区别。
 
+## 尼采：精神的三种变形与创造
+
+尼采[查拉图斯特拉如是说，第一部「精神三变」](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm)以骆驼、狮子和孩子呈现承担、否定与新的创造。[赫拉克利特宝宝](https://boluopai.net/philosophy/baby-heraclitus/)已经借用这一线索：孩子形象关心重新开始与创造，不等于放弃判断，也不是人人必须依次经历的发展阶段。
+
+## 詹姆斯与柏格森：意识流与绵延
+
+| 作者与原典 | 在文集中的联系 |
+| --- | --- |
+| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[流与时间](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
+| Henri Bergson，[Time and Free Will，第 II 章](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | 绵延与可计量、空间化时间的区别。文集对时钟时间、体验节奏和更新顺序的区分与此对话，不把它们等同。 |
+
 ## 弗洛伊德：否定与接受
 
 弗洛伊德[否定（1925）第 1–3 页](https://lutecium.org/ftp/Freud/pdf/1925_negation.pdf)
@@ -72,6 +83,14 @@
 是 **sinthome / 圣状** 的原始文本来源，其讨论连接结的修补与乔伊斯艺术的独特性。
 [写出一个圣状](writing-a-sinthome.zh-CN.md)提出模型支持下实践的新的哲学应用；
 语言化的自我模型不会因此成为主体的完整描述或已经成立的拉康圣状临床实例。
+
+拉康的另外几份原文也已进入论述，可以按问题接着读：
+
+| 原文 | 阅读问题 |
+| --- | --- |
+| [镜像阶段（1949）](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | 认同与形象的关系；一个关于自己的形象怎样参与自我理解。 |
+| [研讨班 XVII，1969 年 11 月 26 日](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | 话语的位置与关系；角色位置与实际说话者为什么需要区分。 |
+| [研讨班 XXII，R.S.I.，1974 年 12 月 10 日](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | 实在、象征与想象的区分和结的表达。它们不分别等同于物理环境、程序和图像。 |
 
 ## 火的神话：普罗米修斯、夸父与共同生活
 
@@ -120,12 +139,35 @@
 比较，尤其涉及 §1.1、§6.5 与 §7.4.2。双方关于有限理解与表征的共同方法论问题，
 与不同物理承诺并存。有用抽象与关于最终还原的主张，因而需要不同支持。
 
+## 意志、非理性与自我冲突：法兰克福、戴维森、梅勒与霍尔顿
+
+这些哲学家让「冲突」取得更细的对象：欲望与认可、决心与后来的倾向、证据与动机，以及一个人对自己的解释。它们是补充理解的入口，不是文集已接受同一套心灵结构的证明。
+
+| 哲学家与原文 | 重点问题 |
+| --- | --- |
+| Harry Frankfurt，[Freedom of the Will and the Concept of a Person（1971）](https://www.jstor.org/stable/2024717) | 想做什么，与希望哪一种欲望成为自己的行动动机，怎样不同？一阶欲望与二阶意愿提供冲突的一个分析入口。 |
+| Donald Davidson，[Paradoxes of Irrationality（1982）](https://doi.org/10.1017/CBO9780511554636.018)；[Deception and Division（2004 年文集再版）](https://doi.org/10.1093/0198237545.003.0013) | 理由、因果与心理分区怎样帮助说明非理性和自我欺骗？「分区」是解释提议，需要与竞争解释比较。 |
+| Alfred R. Mele，[Real Self-Deception（1997）](https://doi.org/10.1017/S0140525X97000034) | 自我欺骗是否必须包含有意欺骗自己或同时持有相反信念？看动机怎样影响证据处理，以及文章后的评论与回应。 |
+| Richard Holton，[Intention and Weakness of Will（1999）](https://web.mit.edu/holton/www/pubs/Weakness.pdf)；[What Is the Role of the Self in Self-Deception?（2001）](https://web.mit.edu/holton/www/pubs/s-d.pdf) | 保持决心、过早放弃与条件改变后的合理重考虑，以及对自身信念的理解。作者稿页码可能不同于期刊版。 |
+
+更贴近经验、关系和治疗的冲突阅读，见[心理阅读](psychological-readings.zh-CN.md#心理冲突关系与改变)。
+
+## 拉科夫、约翰逊与根特纳：隐喻和关系类比
+
+George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[文学式编程](https://boluopai.net/philosophy/literary-programming/)与[隐喻、类比与个人的自我改写](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
+
 ## 心灵、认识与解释
 
 克拉克 与 查尔默斯 的[延展心智](https://www.consc.net/papers/extended.html)
 为[窃火](stealing-fire.zh-CN.md)关于环境积极支持的说明提供资源。
 [隐喻、类比与个人的自我改写](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
 与 基尔什 的分布式认知研究：理解能够穿行于人、模型、记录与工具之间发展。
+
+Varela、Evan Thompson 与 Eleanor Rosch 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)把认知科学、生活经验与观照实践放在一起；[参与、可用行动与支持](participation-and-support.zh-CN.md)已经借此讨论具身参与。Hollan、Hutchins 与 Kirsh 的[Distributed Cognition（2000）](https://interactivity.ucsd.edu/articles/dcog.pdf)则提供跨人、人工物与时间研究认知的原文入口。
+
+Joshua Knobe 与 Shaun Nichols 的[An Experimental Philosophy Manifesto（2008）](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)介绍实验哲学的经验研究取向；链接是作者提供的校样。[具身的实验哲学](embodied-experimental-philosophy.zh-CN.md)区分这种研究与个人通过制作、参与和反思开展的哲学试验。
+
+Gordana Dodig-Crnkovic 的[Information, Computation, Cognition（2013）](https://arxiv.org/abs/1311.0413)是另一条已在[窃火](stealing-fire.zh-CN.md)中出现的自然哲学线索：信息结构、计算动态与多层次行动者。它与上面的具身、延展、分布式认知相邻，但并非同一理论，也不直接确立人的体验是一套数字算法。
 
 研究心理过程、经验检验、信念与互动，接到[心理阅读](psychological-readings.zh-CN.md)。其中的理论与证据帮助理解认识实际怎样发生；哲学继续追问解释、知识根据与心灵的范围。
 

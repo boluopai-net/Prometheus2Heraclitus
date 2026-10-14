@@ -59,6 +59,17 @@ locates absolute spirit relative to subjective and objective spirit and develops
 art within that account. [World, process, and expression](world-and-expression.md)
 keeps these categories distinct from generic stages of a feedback loop.
 
+## Nietzsche: three metamorphoses and creation
+
+Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [Baby Heraclitus](https://boluopai.net/philosophy/baby-heraclitus/en/) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
+
+## James and Bergson: the stream of thought and duration
+
+| Author and original work | Connection in the collection |
+| --- | --- |
+| William James, [The Principles of Psychology, chapter IX, “The Stream of Thought”](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | Change, continuity, personal character, and selection in thought. [The stream and time](flow-and-time.md) uses this to examine experiential continuity while distinguishing present experience, retained records, and working models. |
+| Henri Bergson, [Time and Free Will, chapter II](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | Duration and measurable, spatialized time. The collection's distinctions among clock time, experiential rhythms, and update order enter into dialogue with this account without equating them. |
+
 ## Freud: negation and acceptance
 
 Freud's [“Negation” (1925), pp. 1–3](https://lutecium.org/ftp/Freud/pdf/1925_negation.pdf)
@@ -88,6 +99,14 @@ knot repair and the particularity of Joyce's art. [Writing a sinthome](writing-a
 develops a new philosophical application to model-assisted practice; a linguistic
 self-model does not thereby become a complete account of the subject or an
 established clinical instance of Lacan's sinthome.
+
+Further Lacanian originals already used in the essays can be read by question:
+
+| Original | Reading question |
+| --- | --- |
+| [The Mirror Stage (1949)](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | Identification and images: how can an image of oneself participate in self-understanding? |
+| [Seminar XVII, 26 November 1969](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | Positions and relations in discourse; distinguish a position from its actual speaker. |
+| [Seminar XXII, R.S.I., 10 December 1974](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | Real, Symbolic, and Imaginary and their presentation through knots; these are not simply physical environment, programs, and images. |
 
 ## Fire myths: Prometheus, Kuafu, and living together
 
@@ -153,6 +172,23 @@ finite understanding and representation coexist with different physical
 commitments. A useful abstraction and a claim about ultimate reduction
 therefore need different support.
 
+## Will, irrationality, and self-conflict: Frankfurt, Davidson, Mele, and Holton
+
+These philosophers give conflict more specific objects: desire and endorsement, resolve and later inclination, evidence and motivation, and a person's interpretation of themselves. They are supplementary entrances, not proof that the collection accepts one shared architecture of mind.
+
+| Philosopher and original | Central question |
+| --- | --- |
+| Harry Frankfurt, [Freedom of the Will and the Concept of a Person (1971)](https://www.jstor.org/stable/2024717) | How does wanting something differ from wanting a particular desire to become one's effective motive? First-order desires and second-order volitions offer one analysis of conflict. |
+| Donald Davidson, [Paradoxes of Irrationality (1982)](https://doi.org/10.1017/CBO9780511554636.018); [Deception and Division (reprinted in the 2004 collection)](https://doi.org/10.1093/0198237545.003.0013) | How can reasons, causes, and mental partitioning help explain irrationality and self-deception? Partitioning is an explanatory proposal to compare with alternatives. |
+| Alfred R. Mele, [Real Self-Deception (1997)](https://doi.org/10.1017/S0140525X97000034) | Must self-deception involve intentional self-deception or simultaneous contrary beliefs? Examine motivationally biased evidence processing and the accompanying commentaries and reply. |
+| Richard Holton, [Intention and Weakness of Will (1999)](https://web.mit.edu/holton/www/pubs/Weakness.pdf); [What Is the Role of the Self in Self-Deception? (2001)](https://web.mit.edu/holton/www/pubs/s-d.pdf) | Resolve, premature abandonment, reasonable reconsideration after conditions change, and understanding one's own beliefs. Author-manuscript pagination may differ from the journals. |
+
+For conflict in experience, relationships, and therapy, continue to [psychological readings](psychological-readings.md#psychological-conflict-relationships-and-change).
+
+## Lakoff, Johnson, and Gentner: metaphor and relational analogy
+
+George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Literary programming](https://boluopai.net/philosophy/literary-programming/en/) and [Metaphor and self-revision](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
+
 ## Mind, knowledge, and explanation
 
 Clark and Chalmers's [*The Extended Mind*](https://www.consc.net/papers/extended.html)
@@ -160,6 +196,12 @@ informs [Stealing fire](stealing-fire.md)'s account of active environmental
 supports. [Metaphor and self-revision](metaphor-and-self-revision.md) connects
 that question with Hollan, Hutchins, and Kirsh's distributed-cognition
 research: understanding can develop across people, models, records, and tools.
+
+Varela, Evan Thompson, and Eleanor Rosch's [The Embodied Mind (1991)](https://mitpress.mit.edu/9780262220422/the-embodied-mind/) brings cognitive science, lived experience, and contemplative practice together; [Participation and support](participation-and-support.md) already uses it to examine embodied participation. Hollan, Hutchins, and Kirsh's [Distributed Cognition (2000)](https://interactivity.ucsd.edu/articles/dcog.pdf) supplies the original account of cognition across people, artifacts, and time.
+
+Joshua Knobe and Shaun Nichols's [An Experimental Philosophy Manifesto (2008)](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf) introduces an empirical research orientation; the linked author-hosted file is a proof. [Embodied experimental philosophy](embodied-experimental-philosophy.md) distinguishes this tradition from personal philosophical experimentation through making, participation, and reflection.
+
+Gordana Dodig-Crnkovic's [Information, Computation, Cognition (2013)](https://arxiv.org/abs/1311.0413) is another natural-philosophical resource already used in [Stealing fire](stealing-fire.md): informational structure, computational dynamics, and agency across levels. It neighbors embodied, extended, and distributed cognition without being the same theory or establishing that human experience is a digital algorithm.
 
 For psychological processes, empirical assessment, belief, and interaction, continue to [psychological readings](psychological-readings.md). Their theories and evidence investigate how knowing actually happens; philosophy continues to ask about explanation, grounds for knowledge, and the scope of mind.
 

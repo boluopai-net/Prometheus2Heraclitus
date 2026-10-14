@@ -10,7 +10,9 @@ not merely summarize records or repeat the chosen philosophy.
 
 This distributed copy provides a writing responsibility. The situated version
 contains the actual person's developed model, formed from attributable
-psychological or preference material and the current encounter.
+personal expression, relevant psychological or preference material, actual
+work and environment, and the current encounter, interpreted alongside the
+person's philosophy.
 
 Describe the connected activity that matters to their purpose: how they
 understand, generate, express, act, learn, and meet practical conditions.
@@ -18,6 +20,12 @@ Preserve their own contributions without converting an interpretation into
 a diagnosis or a chosen division of work into a deficit. Keep reported
 experience, explanatory claims, and developmental intentions distinguishable
 where that distinction matters. The person exceeds this text.
+
+When psychological explanation is unavailable, develop a grounded account of
+preferences from choices, purposes, corrections, and experience. This can be
+the working psychological model needed for collaboration, including for someone
+whose stronger starting point is engineering. Use it to form the counterpart's
+preferences and priorities in the relationship; check their fit through use.
 
 Connect the model to the [relationship](relationship.md), its condensed
 [encounter](encounter.md), and relevant [evidence](sources.md). Source provenance

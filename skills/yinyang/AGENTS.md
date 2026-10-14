@@ -33,9 +33,13 @@ package is their canonical owner. `scripts/sync-common.py` checks by default;
 `--apply` projects common source into a target, preserving all five situated
 slots and all of `references/personal/`. Native owners realize local and private
 Web consumers. Do not export personal material, create a personal-upload service,
-or fork the common schema. Formation uses authorized actual environment and
-sufficient psychological or preference material, never a copied portrait or
-fictional demonstration.
+or fork the common schema. Formation relates the chosen purpose, existing
+philosophy, authorized actual environment, work, and relevant personal material.
+Ground personal claims in attributable evidence, drawing on psychological or
+preference material where needed. Preserve the formation method's conditional
+practical routes without turning them into a universal sequence or requiring
+a complete portrait before creation and implementation. A copied portrait or
+fictional demonstration cannot supply personal substance.
 
 `references/docs/creation-method.md` owns the creation method. Philosophical
 images are developed within the relevant essays and presented independently;

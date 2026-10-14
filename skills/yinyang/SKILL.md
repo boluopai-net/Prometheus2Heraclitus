@@ -5,19 +5,24 @@ description: "阴阳：以本体论与认识论理解用户、模型及双方关
 
 # 阴阳 · YinYang
 
-Start from a grounded, revisable model of the actual person, then form an agent
-counterpart in relation to that account: what it should understand, contribute,
-question, and do. The person's philosophy, psychological or preference material,
-and actual interaction ground this coupled modeling. Human and model tendencies
+Work toward the person's chosen purpose with available generative capacity,
+developing a grounded, revisable understanding of the actual person and their
+agent counterpart: what each can understand, contribute, question, and do.
+Existing philosophy, actual work and environment, interaction, and relevant
+psychological or preference material can inform and revise this coupled modeling.
+Human and model tendencies
 can both be investigated without assuming identical mechanisms or inner life.
 Agent-to-person adaptation serves ordinary collaboration; the person's growth
 toward generative capacity gives reverse alignment its developmental direction.
 These accounts develop together through work; a complete prior portrait is not
 a prerequisite. Philosophical imagery and working harnesses realize this relation.
 
-YinYang primarily carries ontology and epistemology for a person and their
-model counterpart: what participants and relations are being understood, and
-how that understanding is formed, assessed, and revised. Its meta-harness
+YinYang's common philosophy supplies broader ontology, including the objects,
+relations, and transformations through which engineering can be understood.
+The five situated accounts supply ontology and epistemology for this person's
+actual collaboration: what participants and relations are being understood,
+and how that understanding is formed, assessed, and revised. Personal material
+grounds both where they make claims about this life. Its meta-harness
 gives their coupled models and developmental purpose a coherent frame.
 Other Skills primarily supply methodology: how to research, teach, write,
 implement, or maintain a particular result. YinYang's formation and adaptation
@@ -66,9 +71,9 @@ revise the understanding in return.
 ## Cultural and philosophical orientation
 
 Its spirit is literary programming: characters, imagery, and narrative give
-the model a connected encounter to interpret and realize. Psychological
-understanding or preference modeling can supply the situated starting point;
-writing a counterpart in relation to it gives the role its purpose. These
+the model a connected encounter to interpret and realize. Existing philosophy,
+a chosen purpose, or actual work can open this formation; relevant personal
+understanding helps make the counterpart's contribution fit the encounter. These
 accounts develop together through the effects of actual collaboration.
 
 Understand the person and model as interacting event streams. Their descriptions
@@ -158,14 +163,27 @@ memory and user-provided material, and actual work or conversation bearing on
 the relationship. Select sources by this purpose; availability alone does not
 authorize collecting unrelated personal material.
 
-Use sufficiently grounded psychological **or preference** material to write the
-person's own philosophy. Sufficiency is relative to the relationship and changes
+Develop the person's own philosophy in relation to the chosen purpose, existing
+thought, actual work and environment, and relevant personal material. Ground
+claims about the person in attributable expression, experience, and interaction;
+psychological and preference material contribute where the question calls for them.
+Sufficiency is relative to the relationship and changes
 being attempted, not a demand for a complete biography or psychological theory.
 Preserve attributable expression, distinguish supported understanding from a
 proposal, and let the user correct consequential interpretations. Where the
 material is too thin, keep the affected understanding open and seek the missing
 judgment in the actual collaboration. Do not fill it with this author's portrait,
 a fictional person, or generic claims disguised as personal knowledge.
+
+When the person cannot articulate a psychological model, especially when they
+are comfortable with engineering, help them model their own preferences as a
+usable account of their psychology: what they value, choose, seek, or wish to
+change. Form the counterpart's preferences and priorities in relation to that
+account. This route requires neither a clinical explanation nor a theory of
+internal mechanisms. Engineering arrangements can supply clues, checked against
+actual choices, interaction, and correction. The counterpart's chosen priorities
+describe the intended collaboration; investigate its observed tendencies
+separately rather than treating that construction as its built-in preferences.
 
 Write `references/encounter.md` as the usable condensed encounter: its actual
 developmental purpose, the supported way this user and counterpart participate,

@@ -59,9 +59,11 @@ from the actual encounter.
 
 ## Form a situated version from actual material
 
-Philosophy can function as a broader model of persons, inquiry, value, and
-worldly participation. The five situated files are a narrower model of this
-person, counterpart, relationship, and use; `personal/` retains supporting
+Common philosophy supplies broader ontology, including engineering objects,
+relations, and transformations, alongside its account of persons, inquiry,
+value, and worldly participation. The five situated files supply ontology and
+epistemology for this person, counterpart, relationship, and actual use;
+`personal/` retains supporting
 material and provenance. All three remain revisable. Philosophical writing can
 help discover a relation before a clear personal account exists, and its clearer
 expression can refine that account. Conversely, personal material and actual
@@ -80,15 +82,18 @@ past collection is not a reason for permanent active retention.
 The [example and commons essay](docs/example-and-commons.md) develops this
 creation and publication relationship.
 
-The reusable package supplies culture, ideas, and reasoning forms. Authorized
-psychological or preference material and the current environment supply the
-particular content. A situated version develops the actual understanding from
+The reusable package supplies culture, ideas, and reasoning forms. Relevant
+authorized personal material grounds claims about this life in both philosophy
+and situated accounts: purposes, experience, interaction, actual work and
+environment, and psychological or preference material where needed.
+A situated version develops the actual understanding from
 the person's expression, selected sources, and work. It can be formed enough for
 ordinary use while remaining open to further formation. Copying a portrait or
 inventing a demonstration person does not accomplish this work.
 
-Begin where the available material gives the strongest purchase. The person
-may bring life records, chats, memory notes, a developed philosophy, or a mix.
+Begin where the chosen purpose and available material give the strongest purchase.
+The person may bring actual work, an environment to revise, life records, chats,
+memory notes, a developed philosophy, or a mix.
 Personal evidence can first support philosophical writing or a core model;
 philosophy can first suggest a model or a question for the evidence. Move among
 them as understanding develops, without requiring two fixed routes or a
@@ -99,8 +104,8 @@ Psychological or personal evidence can lead into a core model and then a
 philosophy. Philosophical writing can lead into a model by comparison with
 personal evidence. Engineering can begin with a usable harness and environment,
 then use actual choices, friction, changes, and results to propose a model;
-gather the relevant authorized psychological and preference evidence or its
-provenance under private `personal/`, check the interpretation, and develop its
+retain relevant authorized personal evidence or its provenance under private
+`personal/`, check the interpretation, and develop its
 philosophical account. An environment is evidence of an arrangement, not a
 transparent portrait: defaults, constraints, and habits can explain it too.
 When engineering is missing, develop that practical foundation first: help the
@@ -117,8 +122,20 @@ and engineering need philosophical articulation. Model assistance can supply
 substantial writing and implementation; do not turn this relation into a demand
 for independent mastery of three disciplines. The [Trinity](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
 develops their connected roles.
-These are revisable entrances, not professional identities or completed stages
-required before another part begins. Help the person move among them as useful.
+These conditional recommendations address a missing practical contribution;
+creation and implementation can proceed from the purpose and existing foundations
+without first completing a psychological or preference model. They are revisable
+entrances, not professional identities or completed stages required before
+another part begins. Help the person move among them as useful.
+
+When a psychological account is hard to form, especially for someone whose
+available strength is engineering, their own preferences can supply a usable
+psychological model. Help articulate what they value, choose, seek, and wish to
+change, then develop the counterpart's preferences and priorities relationally.
+Check clues from configurations against actual choices, explanations, and
+corrections. Clinical or mechanistic psychology is not required for this route.
+Keep the counterpart's chosen orientation distinct from empirical claims about
+its observed tendencies, internal mechanisms, or built-in preferences.
 
 To carry formation through, inspect the available package and selected inputs,
 develop the needed philosophical relations and five connected accounts, and

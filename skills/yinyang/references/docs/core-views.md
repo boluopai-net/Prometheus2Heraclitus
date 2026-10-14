@@ -227,15 +227,17 @@ These correspond to the four axes in [Personal-first humanism](personal-first-hu
 
 YinYang primarily develops ontology and epistemology and also articulates this practice's value orientation; other Skills primarily contribute specialist methods. Formation and adaptation connect those responsibilities, while specialist procedures stay with their methods. The four dimensions distinguish questions, not mutually exclusive file types, authority levels, or a fixed execution sequence. Actual work can bring them into reciprocal correction.
 
-For the package's responsibilities, distinguish a philosophical layer, a model
-layer, and methodology. YinYang spans philosophy and modeling: the broader
-ontology and epistemology can be abstracted and situated in narrower accounts
-of a person, counterpart, and relation. The five core files carry that working
-model; personal material supplies its evidence. Other Skills contribute concrete
-methods. These responsibilities differ from the four philosophical questions
-above. Philosophy, core accounts, and evidence can revise one another, and their
-realization can move across a website, repository, and personal environment.
-The [Trinity](local-source-and-website.md) develops those intersecting relations.
+The package makes this relation concrete. Its common philosophy develops a
+general ontology, including the engineering objects, relations, and transformations
+through which an environment is understood. The five core files add situated
+ontology and epistemology: the actual person, counterpart, and relation, together
+with their grounds, interpretation, and correction. Personal material supplies
+evidence for both the philosophy and these accounts; public intellectual sources
+also ground the common arguments. Specialist Skills supply methodology.
+These are connected responsibilities rather than exclusive file types. The
+[Trinity](local-source-and-website.md) develops their unity in practice; website,
+repository, and personal environment make that practice perceptible, maintainable,
+and usable.
 
 Distinguish the actual interaction process, partial event records of that
 process, and candidate computational models constructed from those records.
@@ -362,6 +364,21 @@ The arrangement seeks fit with the person's purposes and conditions while remain
 <a id="yy-14"></a>
 
 ## YY-14 · Cultivate generative capacities with available fire
+
+Fire has a natural history: stellar processes supplied much of the material
+later organized into chips; electricity drives those structures, and human
+knowledge, data, and training shape their generative uses. Trained capability
+can be reused, spreading the cost of its formation across many applications.
+Verified works, tools, and better collaboration can in turn support further
+capability. This conditional recursive accumulation helps explain both growing
+creative reach and accelerating changes in the surrounding environment.
+The [material and learning argument](stealing-fire.md#material-fire-and-concentrated-capability)
+grounds these connections and distinguishes resource use, heat, emissions, and
+social acceleration. Their different mechanisms share a practical question:
+can finite lives and environments absorb the consequences? Cultivation develops
+embodied perception, intuitive recognition, judgment, and expression together
+with model-supported realization; it does not presume a universal ranking of
+occupations or make faster iteration the purpose of every life.
 
 Generative capability is made available through collective material and intellectual work. A person borrows its fire and, through practice, cultivates what they can understand, judge, express, initiate, and sustain. The Sun's illuminating power images this capacity within an ongoing movement from fire toward fire. Physical computation uses energy to form informational structures and outputs while dissipating heat; knowledge is assessed through meaning and evidence. Sun and Moon express YinYang's differentiated generation, reception, and shaping. Person and model remain actual participants whose roles can be retained or exchanged; Earth is their answering material and shared living environment. Individual-first guides adaptation by personal purposes and voluntary growth: seek changes to social arrangements, then software, before asking the person to adapt, while respecting others' purposes. Abilities may be internalized or reliably distributed across supports. AI use and successful outputs alone do not establish human development.
 

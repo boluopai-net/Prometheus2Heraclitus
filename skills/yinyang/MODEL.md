@@ -30,9 +30,11 @@ tool to overwrite them.
 `SKILL.md` supplies the formation method. Its references own
 design and revision, harness adaptation, and reading by purpose. The common content
 offers cultural and philosophical forms, not ready-to-adopt personal content.
-A consuming model inspects the authorized environment and sufficient
-psychological or preference material, writes grounded content into the five
-fixed situated slots, and realizes it through actual environment changes and
+A consuming model works from the chosen purpose, existing philosophy, authorized
+environment, and relevant personal material, developing grounded content for the
+five fixed situated slots alongside actual work. Psychological and preference
+material contribute where needed; claims about the person require attributable
+evidence. The model realizes the understanding through environment changes and
 verification. Before substantive work, the main conversational model reads
 `SKILL.md` and the complete `references/{encounter,models,relationship,usage,sources}.md`,
 reusing complete current readings already in context. This applies to Codex
@@ -141,8 +143,15 @@ relations; circulation and iteration speed are means evaluated within them.
 Purpose, interpretation, action, and revision connect human self-formation with
 agent relations as a functional comparison. Humanities sources contribute
 concepts for articulating these relations; evidence about a particular model
-establishes its actual behavior. Psychological understanding and preference
-modeling are alternative starting points for a situated account. Literary
+establishes its actual behavior. Existing philosophy, chosen purposes, actual
+work and environment, interaction, and relevant psychological or preference
+material can inform and revise situated accounts without a fixed formation
+sequence. Common philosophy supplies broader ontology, including engineering
+objects, relations, and transformations; the five situated accounts supply
+ontology and epistemology for actual collaboration. Personal material grounds
+both where they concern this life. Preserve the conditional practical routes
+in the formation method without making personal modeling a prerequisite for
+creation or implementation. Literary
 programming uses character, imagery, and narrative to organize interpretation
 and contributions across working harnesses. The author's phrase "reverse prompt
 injection" names this intervention into default role assumptions; describe its

@@ -8,6 +8,7 @@
 <summary>On this page</summary>
 
 - [Material fire and concentrated capability](#material-fire-and-concentrated-capability)
+- [Reusable capability and recursive accumulation](#reusable-capability-and-recursive-accumulation)
 - [An oracle-like relation and systems that improve](#an-oracle-like-relation-and-systems-that-improve)
 - [A changing world and a finite participant](#a-changing-world-and-a-finite-participant)
 - [Generate, encounter correction, generate further](#generate-encounter-correction-generate-further)
@@ -36,20 +37,23 @@ choice on everyone. Someone can seek relief, a completed work, or reliable
 assistance without turning every task into a lesson. Once development is
 chosen, its contribution must be examined alongside those other outcomes.
 
-Connecting that available power to this purpose requires understanding both
-participants: **model the particular person, then form a corresponding agent
-and their way of collaborating.** The person model makes a life, preferences,
-and developmental direction intelligible. The counterpart model connects that
-understanding to judgment, response, and action. Actual collaboration tests
-both accounts and changes what participants can do next. This relation carries
-the essay's argument from borrowing fire to the continuing formation of agents.
+Connecting that available power to this purpose calls for understanding the
+participants and what they are making together. **Philosophical views,
+experience, and engineering realization can each provide an entrance.** An
+existing work, a felt difficulty, or a personal philosophy can expose what
+matters and how a counterpart should contribute. Personal and counterpart
+models make relevant purposes, tendencies, and contributions intelligible;
+collaboration tests these accounts and changes what participants can do next.
+Psychological inquiry can deepen the understanding when the question needs it.
+It is one contribution to formation, rather than a compulsory first stage.
 
-In compact form: **dynamic user model → corresponding agent model → work
-together → consequences return from the world → revise the models and further
-action.** Memory retains material that can be retrieved; a model organizes
-understanding of the people, relations, and changes that material concerns.
-One text can serve both functions. Being dynamic depends on use, testing, and
-revision through new encounters, not on the filename.
+In compact form: **views, experience, and realization inform one another;
+work returns consequences; understanding of person, counterpart, and their
+relationship develops through that return.** Memory retains material that can
+be retrieved; a model organizes understanding of the people, relations, and
+changes that material concerns. One text can serve both functions. Being
+dynamic depends on use, testing, and revision through new encounters, not on
+the filename.
 
 The opening gives an overview of the whole argument. The following essays
 develop its premises and connections: value and agency, the conditions of
@@ -69,20 +73,82 @@ unfold this practice.
 
 ## Material fire and concentrated capability
 
-The fire is physically consequential. Materials and minerals become machines;
-electricity sustains training and operation; accumulated human knowledge and
-continuing iteration give those machines generative use. Computation uses
-energy to form informational structures and outputs while dissipating heat [[23]](#source-23).
-Knowledge is what participants can understand and substantiate through these
-structures, rather than another name for energy. The IEA estimates that
-**all data centres**, not AI alone, used about 415 TWh of electricity in 2024,
-and identifies grid pressures, material dependencies, and multiple electricity
-sources, including solar [[17]](#source-17). Bringing capabilities into reach carries
+The fire has a natural history and a physical realization. The early universe
+formed chiefly hydrogen and helium, with traces of lithium; the heavier
+elements entering Earth's rocks and machines were largely made through later
+stellar processes [[27]](#source-27). Geological processes assembled minerals;
+human extraction, refining, and fabrication make some of those materials into
+chips. Their role is to provide organized physical structures. A computing
+chip does not ordinarily operate by consuming the nuclear energy of its
+silicon. Sunlight offers another part of the chain: photovoltaic devices
+convert radiation into electricity through semiconductor materials [[28]](#source-28).
+Solar power is one possible supply, alongside the other sources on which
+actual computing infrastructure depends [[17]](#source-17).
+
+Electricity sustains computation; data, accumulated human knowledge, design,
+and learning procedures shape what computation can do. Training changes
+parameters through statistical learning from examples, making patterns
+available for later generation [[18]](#source-18). **Materials, energy, and knowledge
+have related but different roles:** materials realize the machine, energy
+drives its transformations, and learned organization supports informational
+outputs whose meaning and warrant need examination. This gives the fire image
+a naturalistic basis. The material genealogy of a language model does not by
+itself establish a complete physical reduction of human experience, nor does
+an energy quantity measure understanding or truth.
+
+Training and operation dissipate heat [[23]](#source-23). Climate consequences also
+depend on greenhouse-gas emissions from electricity generation and the wider
+material lifecycle. The IEA's account of data-centre electricity emissions
+concerns this latter mechanism [[29]](#source-29); it should not be read as a
+measurement of global warming caused directly by warm processors. Earth's
+energy balance includes incoming sunlight and radiation escaping to space
+[[30]](#source-30). Earth is thus a finite material environment with a radiative
+boundary, not a thermally sealed container. Cooling needs, grid capacity,
+resource extraction, and emissions remain concrete constraints on expansion.
+
+The IEA estimates that **all data centres**, not AI alone, used about 415 TWh
+of electricity in 2024 [[17]](#source-17). Bringing capabilities into reach carries
 material costs and infrastructure risks; use enlarges the consequences of
 mistakes, misuse, and concentrated power. *Stealing fire* gathers the ambition
-and danger of this collective acquisition.
+and danger of this collective acquisition. Its two edges arise together:
+the same machinery that extends creation draws on a shared environment and
+can alter conditions for lives beyond its immediate users.
 
 What is gathered is also knowledge and technique developed across many lives. Machine learning learns patterns from examples instead of requiring every relation to be hand-specified [[18]](#source-18). Large generative models bring a wide range of learned patterns into one accessible counterpart. Calling this gathering *greedy*, or imagining an extraordinarily capable *god*, expresses its appetite for breadth and generative reach. These are literary comparisons, not claims that all learning uses a greedy algorithm or that a model contains complete, infallible human knowledge. Formal inference can expose premises and consequences; learned generation can propose a relation not yet articulated in that form. Both remain answerable to their appropriate checks.
+
+## Reusable capability and recursive accumulation
+
+Statistical learning concentrates work that can be reused. A trained model
+can generate for many encounters without repeating its entire training on
+each occasion. The foundation-model report discusses amortizing expensive
+training across repeated use and adaptation [[31]](#source-31). This is a distribution
+of costs across uses, not a complexity-theoretic proof that every difficult
+problem becomes easy. Inference, extended reasoning, retrieval, and checking
+still consume time and energy; deployment at scale can make their total cost
+substantial. A quick output and a quickly established result are different
+achievements.
+
+Reuse also occurs outside model weights. A verified explanation becomes a
+reading aid; working code becomes a tool; a tested method becomes available
+for another task. Each can shorten the distance from a new intuition to a
+usable work. Better outputs can leave more attention for understanding and
+judgment; more capable collaboration can frame better questions and produce
+better materials. Those materials may improve subsequent collaboration and,
+if deliberately selected and used in a training process, later models.
+**Capability → work → retained, checked resources → further capability** is a
+possible recursive relation. It depends on quality, validation, maintenance,
+access, and resources. More generated text alone supplies no improvement
+rule; errors can also accumulate. Ordinary conversation need not update a
+model's weights, and better personal tools need not accelerate foundation-model
+research. These loops can intersect without being the same process.
+
+This accumulation gives cultivation a practical setting. A person need not
+reconstruct the whole training effort to gain the ability to notice a
+fruitful relation, articulate it, pursue it, and bring back a result. Their
+growing capacity can be embodied, internalized, or supported by reliable
+external resources. The purpose of the tools developed here is to help that
+participation become stronger: leave the next encounter more intelligible
+and more generative, while letting completed works remain useful.
 
 ## An oracle-like relation and systems that improve
 
@@ -116,6 +182,56 @@ requiring the person to recreate the whole machinery.
 **Concept drift** in machine learning supplies a concrete, inspectable case: the data distribution during training may no longer match conditions during use, requiring reassessment and adaptation. Žliobaitė's overview develops this time-varying learning problem and its adaptation mechanisms [[26]](#source-26). “The environment changes” thus names more than an image: an account or strategy remains useful under conditions that need examination. This essay brings that question to personal environments, asking which understanding remains warranted as tools, tasks, and relationships change. That extension belongs to this essay; it does not identify personal experience with a machine-learning data distribution.
 
 Broader capabilities change the conditions of work and learning. New actions become possible; expectations, norms, and familiar psychological descriptions can need reconsideration. An unrevisable working model may keep organizing an encounter around conditions that no longer hold. This is a reason to examine its fit, not a clinical claim that formal closure causes illness. Stable distinctions still contribute when they can meet the changing world and its feedback.
+
+Adoption can change the comparison by which work is valued. Where capable
+model use reliably improves a task, wider adoption can raise expected speed
+or quality, leaving someone without effective access or collaboration at a
+disadvantage. That is a conditional social mechanism, not a forecast that
+nonusers will lose all productivity. Customer-support research found gains
+that varied substantially with worker experience [[32]](#source-32). METR's early-2025
+study instead found slower completion in a particular experienced-developer
+setting; its 2026 follow-up explains why selection and measurement problems
+limit estimates of later gains [[33]](#source-33). These findings make task, model,
+support, and time part of the claim.
+
+Karpathy's 11 October 2026 account gives the capability gap a more specific
+form. He roughly estimates that about 20 million people professionally using
+frontier models in math and code have experienced agents completing complex
+projects that previously required weeks or months [[34]](#source-34). This is his
+personal estimate of a particular experience, not a measured global count of
+proficient users. His account links different experiences to the ambition,
+size, and horizon of the task, uneven capability across domains, and access
+to free, paid, or internal systems. A short chatbot exchange and a sustained
+project can therefore expose different powers of the machinery. For this
+essay, the practical question becomes how someone acquires the ability to
+recognize a worthwhile project, give it an actionable form, and sustain
+collaboration through its consequences. Adoption, effective collaboration,
+and reliable task gains still need their own evidence.
+
+If detailed symbolic production becomes more readily available, the scarce
+contribution may shift toward noticing what matters, sensing a mismatch,
+imagining a fruitful direction, or judging a work in its lived setting.
+Someone may grasp a relation before possessing the concepts needed to
+explain it; a model can help give that intuition a form that can be tested.
+Embodied experience, broad reading, and sensitivity to others can then acquire
+new practical force. This is a proposed direction of cultivation, not an
+established reversal of all values or a guarantee of better employment for
+the intuitive person. Technical knowledge still contributes to framing,
+verification, and realization; intuition becomes more useful when it can
+meet correction. What changes is how these capacities can be composed.
+
+The double edge extends from material infrastructure into shared life.
+Reusable capability can make changes easier to initiate, while institutions,
+relationships, bodies, and grids need time to absorb their effects. One
+participant's new tool can change another's task; their response can provoke
+another revision. If such feedback increases the rate of change faster than
+participants can understand, negotiate, and sustain it, recursive local gains
+can produce shared disruption. A finite social and material environment has
+limited capacity to absorb change even though its physical energy boundary
+is open. This social feedback is distinct from processor heat and climate
+forcing. The boiling-water image connects the two concerns without making
+them one mechanism: fire can nourish life, yet adding fire can exceed the
+conditions under which that life continues well.
 
 A finite person cannot make a sustainable purpose of continually rebuilding every increasingly powerful external capability. Another strategy begins from above: understand what the system can contribute to this person's purposes, articulate enough of self and counterpart to give that contribution a direction, and compose prompts, Skills, and a working harness around it. The person already acts as an agent. Borrowing expands their means; developing their own understanding lets them engage those means and form a philosophy reaching across their environment.
 
@@ -180,15 +296,15 @@ depend on preference. Other participants and the world still answer back.
 
 Power does not select its own worthwhile use. A model's increasing capability leaves open what should matter here, which contribution is wanted, and what would count as a life made more capable. A reusable template cannot settle these questions simply by being reusable. It becomes useful when interpreted within someone's purposes and circumstances.
 
-Personal modeling therefore has a practical task: make enough of a person's concerns, ways of noticing, desired development, and relation to others intelligible for collaboration. The person already perceives, interprets, prefers, and acts as an agent. Modeling articulates those connected activities so the counterpart can understand what a request means in this life. A personal philosophy can concentrate that meaning; psychological and preference material grounds it in a particular person. The material requires interpretation and correction through interaction. Being written does not make it complete self-knowledge.
+Personal modeling therefore has a practical task: make enough of a person's concerns, ways of noticing, desired development, and relation to others intelligible for collaboration. The person already perceives, interprets, prefers, and acts as an agent. Modeling articulates those connected activities so the counterpart can understand what a request means in this life. A personal philosophy can concentrate that meaning; experience with actual works and arrangements can ground, test, and change it. Psychology and preferences can contribute when they clarify the question. The material requires interpretation and correction through interaction. Being written does not make it complete self-knowledge.
 
-**Understanding the user, however, has not yet determined how the counterpart should participate.** The same wish can receive different responses: doing the work, explaining, objecting, or trying something together. Someone developing through reading and intuitive judgment may need a different contribution from someone practicing a particular implementation skill. A user portrait alone may leave the default assistant role deciding everything. Calling an agent intelligent, gentle, or strict does not explain why those qualities fit this person. The counterpart model connects this gap: grounded in the person model, it articulates what the agent attends to, how it interprets and judges, which work it carries, and when it questions or revises shared understanding. Relationship modeling connects the contributions without mistaking a division of work for a limit on either participant's abilities.
+**Understanding the user, however, has not yet determined how the counterpart should participate.** The same wish can receive different responses: doing the work, explaining, objecting, or trying something together. Someone developing through reading and intuitive judgment may need a different contribution from someone practicing a particular implementation skill. A user portrait alone may leave the default assistant role deciding everything. Calling an agent intelligent, gentle, or strict does not explain why those qualities fit this person. The counterpart model connects this gap: in relation to the person, purposes, and actual work, it articulates what the agent attends to, how it interprets and judges, which work it carries, and when it questions or revises shared understanding. Relationship modeling connects the contributions without mistaking a division of work for a limit on either participant's abilities.
 
 This also requires understanding the actual model. Its capabilities, response tendencies, context, and tools condition how a proposed counterpart can be realized. The values and priorities it is asked to adopt express what the collaboration should become. These are distinct matters. Human psychology and model psychology, human preferences and model preferences, here involve both investigating actual tendencies and constructing a relationship. Assigning a role does not rewrite base-model weights; a functional comparison does not establish identical psychological mechanisms or experience. Works and actions make that construction answerable beyond a mutually satisfying description.
 
-Two connected directions of alignment follow: **the agent adapts its contribution through understanding the user, and the user develops generative capacity through that fitted collaboration.** The first brings borrowed fire into this person's life; the second makes the encounter part of the person's continuing formation. Adaptation need not endorse every user judgment. Independent questioning can contribute when purposes, facts, or realization conflict. Personal modeling is prior as a grounding relation, while the two accounts develop together through actual work. A person need not be exhaustively understood before a counterpart can be formed well enough to continue.
+Two connected directions of alignment follow: **the agent adapts its contribution through understanding the user, and the user develops generative capacity through that fitted collaboration.** The first brings borrowed fire into this person's life; the second makes the encounter part of the person's continuing formation. Adaptation need not endorse every user judgment. Independent questioning can contribute when purposes, facts, or realization conflict. Grounding collaboration in this life does not impose a sequence of completed personal modeling followed by engineering. Accounts of both participants can develop through making and using something, with enough understanding to continue and enough feedback to revise.
 
-Psychology and preference offer two entrances to this work. Someone familiar with their own psychology can articulate patterns of attention, motivation, interpretation, and response, then develop a counterpart whose contributions relate to those patterns. Someone who begins with preferences can describe what they value, enjoy, seek, or wish to change, and develop the relationship from there. Both routes supply situated material for literary self-and-counterpart modeling. Their accounts grow through the same encounter: a proposed interpretation becomes something the person can recognize, question, and live with, while the counterpart learns what contribution is wanted here.
+Several entrances are available. Someone can start from an existing philosophy and ask what realizes it, from a working tool and ask what its success reveals, or from experience that needs expression. Psychology can articulate patterns of attention, motivation, interpretation, and response; preferences can express what someone values, enjoys, seeks, or wishes to change. These contributions can develop together. **Views orient realization, experience tests views and arrangements, and engineering makes new experience possible.** The [Trinity account](local-source-and-website.md) develops this interconnected relation. Literary self-and-counterpart modeling can grow within it as a useful articulation, rather than a gate through which every work must first pass.
 
 The personal starting point grows through use. A person discovers what they mean by encountering a proposed interpretation. A model can develop an intuition into a work; the person can recognize a fit or an error that was not yet expressible. The relation begins with enough articulation to proceed and gains substance through proceeding. Shared methods, public knowledge, and other people's contributions enter through their relevance to this singular life. The developing account supports the next encounter, and that encounter can revise the account.
 
@@ -468,11 +584,12 @@ Everyday life can therefore use a local environment better fitted than prevailin
 1. **Ontological ground:** the person and the model are modeled as interacting event streams; representations and their revision are events within that ongoing activity.
 2. **Purpose:** the aim is a person's developing understanding, generation, and agency.
 3. **Finitude:** attention and life are limited; reproducing or perpetually chasing all external capacity does not by itself serve that aim.
-4. **Model the user:** general capability does not determine what matters in this life. Collaboration needs enough understanding of the particular person's psychology, preferences, purposes, and circumstances. Personal philosophy gives that meaning an interpretable expression.
-5. **Model the counterpart:** a user model does not determine how help should occur. A corresponding agent model must articulate interpretation, judgment, contribution, and action, with feasibility checked against the actual model's capabilities and tendencies.
-6. **Relationship and realization:** connect the two accounts and realize collaboration through language, Skills, tools, and the environment. Understanding the person is the grounding relation; both accounts are revised through work rather than completed once in a pipeline.
+4. **Ground in a life:** general capability does not determine what matters here. Philosophy, experience, engineering, psychology, and preferences can contribute relevant understanding; no one entrance must precede all the others.
+5. **Form the counterpart:** understanding the person does not determine how help should occur. Articulate interpretation, judgment, contribution, and action in relation to actual purposes and work, checking feasibility against the model's capabilities and tendencies.
+6. **Relationship and realization:** views, experience, and realization inform one another through language, Skills, tools, and the environment. Personal and counterpart models develop within this practice; they need not be completed before work begins.
 7. **Reciprocal development:** agent-to-user adaptation brings external capacity into personal life; the person's growing understanding, generation, and agency pursues the reverse-alignment direction chosen here. Successful assistance and personal development remain distinguishable outcomes.
 8. **Answerability:** consequences test and revise both models and their relationship while changing participants' next activity. Mutual agreement and narrative coherence cannot replace that test.
+9. **The double edge:** material realization and reuse can extend creation; conditional recursive accumulation can also outpace shared resources and the capacity to absorb change. Cultivation asks what fire sustains in actual lives and which rhythm lets those lives continue.
 
 **Borrow available generative fire and cultivate the capacities to participate
 in further generation through a personally grounded, revisable practice.**
@@ -524,6 +641,16 @@ The recent AI material is a selected comparison, not an exhaustive literature re
 25. <a id="source-25"></a> Gordana Dodig-Crnkovic (2013), **Information, Computation, Cognition. Agency-based Hierarchies of Levels**, [author preprint](https://arxiv.org/abs/1311.0413). A natural-philosophical framework connecting informational structure, computational dynamics, and agency across levels; this essay's event streams and personal modeling remain further interpretations and choices.
 
 26. <a id="source-26"></a> Indrė Žliobaitė (public preprint, 2010), **Learning under Concept Drift: an Overview**, [author text](https://arxiv.org/abs/1010.4784). Nonstationary learning over time, mismatches between training and application data, and adaptation mechanisms; the comparison with personal environments is developed here.
+
+27. <a id="source-27"></a> NASA, **What Were the First Stars Like?**, [science explainer](https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-were-the-first-stars-like/), especially “What were the first stars made of?”; **Massive Stars: Engines of Creation**, [element-formation account](https://science.nasa.gov/asset/webb/massive-stars-engines-of-creation-infographic/). Primordial light elements and later stellar production of heavier elements, including silicon; terrestrial minerals are not unchanged remnants formed in the Big Bang.
+28. <a id="source-28"></a> US Department of Energy, **Solar Photovoltaic Cell Basics**, [technical explanation](https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics). Semiconductor conversion of sunlight to electricity and silicon's use in photovoltaics and computer chips; not evidence that all model computation uses solar power.
+29. <a id="source-29"></a> International Energy Agency (2025), **Energy and AI**, [AI and climate change](https://www.iea.org/reports/energy-and-ai/ai-and-climate-change). Electricity-related greenhouse-gas emissions across all data-centre workloads; these estimates do not measure warming from processor waste heat or establish AI's entire lifecycle footprint.
+30. <a id="source-30"></a> NASA, **The Earth's Radiation Budget**, [science explanation](https://science.nasa.gov/ems/13_radiationbudget/). Incoming, reflected, absorbed, and outgoing radiation; the social capacity to absorb change is a separate argument made here.
+31. <a id="source-31"></a> Rishi Bommasani et al. (2021), **On the Opportunities and Risks of Foundation Models**, [research report](https://crfm.stanford.edu/report.html), especially “Environment”; [paper](https://arxiv.org/abs/2108.07258). Broad training, downstream adaptation, and amortization of training costs over use; not a theorem eliminating computational complexity or a guarantee of net environmental savings.
+32. <a id="source-32"></a> Erik Brynjolfsson, Danielle Li, and Lindsey R. Raymond, **Generative AI at Work**, [NBER Working Paper 31161, revised November 2023](https://www.nber.org/papers/w31161); published in *Quarterly Journal of Economics* 140(2) (2025), 889–942. Productivity effects in customer support and variation with experience; no universal employment ranking or global proficiency count follows.
+33. <a id="source-33"></a> Joel Becker, Nate Rush, Beth Barnes, and David Rein / METR (10 July 2025), **Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity**, [study and limitations](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/); METR (24 February 2026), **We are Changing our Developer Productivity Experiment Design**, [follow-up](https://metr.org/blog/2026-02-24-uplift-update/). A bounded early-2025 slowdown and later selection and measurement difficulties; neither establishes the effect of every subsequent model or workflow.
+
+34. <a id="source-34"></a> Andrej Karpathy (11 October 2026), **The widening gap in shared understanding of LLM capability**, [X post](https://x.com/karpathy/status/2109361546505966046), revisiting his [9 April post](https://x.com/karpathy/status/2042334451611693415); [full-text mirror](https://api.fxtwitter.com/karpathy/status/2109361546505966046). X's syndication metadata confirms the author, timestamp, opening, and quoted April post; the complete October text was checked through the mirror and contemporaneous reproductions. The roughly 20 million figure is the author's informal estimate of professional frontier-model experience in math and code, not a survey of global proficiency. Task ambition, domain, and access organize his account; this essay develops their relevance to cultivation without treating all reported capability claims as established results.
 
 ### Mythic sources
 

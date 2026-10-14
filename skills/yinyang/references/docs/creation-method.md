@@ -37,18 +37,27 @@ philosophy; global instructions can also carry personal modeling or connect
 this maintained account to the consumer. Interpretive scope, reading order,
 and actual instruction authority are different relations.
 
-The method gives practical form to the purpose developed in the [fire essay](stealing-fire.md): borrow available generative capacity from outside, then cultivate one's own understanding, judgment, and creative agency through practice.
+The method gives practical form to the purpose developed in the [fire essay](stealing-fire.md): borrow available generative capacity from outside and cultivate one's own understanding, judgment, and creative agency through practice. Judge creation and realization by what they make possible in the person's life and work, with actual consequences returning to revise the account.
 
 ## From an image to a working relation
 
 YinYang is a philosophical Skill whose spirit is literary programming.
-A person can begin with psychological understanding or with familiar preferences:
-how they attend, desire, and interpret, or how they wish to learn, work, and be
-answered. Write a counterpart in relation to that account. Images and narrative
+A chosen purpose, an existing philosophy, actual work, or a difficulty in the
+environment can open creation. Develop the person and counterpart accounts
+through the relevant encounter, drawing on experience, interaction, and
+psychological or preference material where needed. Images and narrative
 then give the model a connected situation to interpret: who is here, what each
 participant contributes, and what their work can become. This literary form
 can reshape default role assumptions across many local instructions at once.
 Its practical effect appears in changed interpretation, responses, and action.
+
+If psychological modeling is difficult to articulate, a person comfortable with
+engineering can model their own preferences as a usable psychological account,
+then shape the counterpart's preferences and priorities in relation to it.
+Choices about learning, work, response, and change can give this account substance.
+Configurations offer clues that actual choices and correction must check.
+The constructed counterpart expresses an intended relation; its observed
+tendencies and underlying mechanisms remain separate questions.
 
 This method is itself available for reinterpretation. The
 [example and commons essay](example-and-commons.md) distinguishes adopting
@@ -139,11 +148,14 @@ content.
 
 For direct adoption, the reusable Skill lives at [`skills/yinyang/`](../../SKILL.md)
 within Prometheus2Heraclitus. It supplies culture, philosophical ideas, and
-reasoning forms for developing a personal philosophy through this implementation. The consuming model reads the
-authorized environment and sufficient psychological or preference material,
-then writes actual grounded accounts in the same fixed personal slots. Psychological
-and preference material are alternative starting points and can enrich one another
-through use. The
+reasoning forms for developing a personal philosophy through this implementation.
+The common philosophy supplies broader ontology, including an understanding of
+engineering objects, relations, and transformations. The five situated accounts
+supply ontology and epistemology for actual collaboration. Relevant personal
+material grounds both where they concern this person. The consuming model
+inspects the authorized environment and selected sources, develops the philosophy
+and grounded accounts together, and writes the accounts in the fixed personal
+slots. Actual implementation and use can revise both. The
 common `SKILL.md` retains its purpose, method, and routes; read the condensed
 [encounter](../encounter.md) with it every time.
 [Design and revision](../design-and-revision.md)

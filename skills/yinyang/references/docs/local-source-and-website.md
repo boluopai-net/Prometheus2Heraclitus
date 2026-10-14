@@ -4,24 +4,22 @@
 
 *An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
-**Worldview, knowing, and realization connect philosophy, psychology, and engineering within one living practice.** The local environment, GitHub, and website give that practice places to be used, maintained, and encountered. The first distinction concerns contributions; the second concerns their carriers.
+**Trinity joins ontology, epistemology, and methodology in one practice.** Philosophy articulates the objects and relations through which a world becomes intelligible; situated modeling brings the actual person and counterpart into that account and asks how they are known; specialist Skills supply methods through which understanding becomes action. Psychology and engineering participate throughout this connection. The package already gives it a concrete form.
 
 ## Worldview, knowing, and realization
 
-| Question | Correspondence | Contribution to the same practice |
-| --- | --- | --- |
-| How do we understand the world, and what is worth pursuing? | Worldview and direction → philosophy | Articulate persons, relations, change, knowledge, and value; give inquiry and action a revisable orientation. |
-| How does this person feel, know, judge, and respond? | Feeling and knowing → psychology | Investigate actual experience, preferences, and relationships; form and correct the situated personal model. |
-| How can this understanding take effect? | Method and realization → engineering | Build and maintain tools, instructions, and arrangements; observe what their use makes possible. |
-| Where is the work used and tested? | Use and feedback → personal environment | Philosophy, personal models, and methods enter actual life and tasks; consequences can change all three. |
-| Where can selected work be inspected and continued? | Source and history → GitHub repository | Keep the relevant prose, methods, and implementations available for comparison, revision, and permitted reuse. |
-| Where can people grasp and discuss it? | Reading and encounter → website | Present arguments, diagrams, and usable entrances; return recognition, questions, and objections to the work. |
+| Maintained material | What it contributes |
+| --- | --- |
+| YinYang's common philosophy, beyond the five situated accounts | A general ontology and its engineering articulation: objects, roles, relations, processes, and transformations that organize a working environment. Its arguments also address knowledge and value. |
+| The five accounts: encounter, user model, counterpart and relationship, situated use, and sources | Ontology and epistemology for this encounter: who participates and how they relate, together with the evidence, interpretation, correction, and use through which that understanding develops. |
+| Supporting `personal/` material and its original sources | Grounding for the philosophy and the five accounts: relevant experience, purposes, expression, and environmental evidence. Public intellectual sources also ground the general philosophy. |
+| Specialist Skills | Methodology: how to investigate, teach, write, implement, and maintain the work. Tools and running arrangements give these methods practical effect. |
 
-The first three rows align **philosophy–worldview, psychology–knowing, and engineering–method and realization**. The last three describe places where all three contributions can occur. A philosophical argument can be maintained in GitHub, read on a website, and used in a personal environment; the media do not assign philosophy, psychology, and engineering to separate locations.
+Read the structure cumulatively: the common account makes a world and working relations intelligible; adding the five situated accounts brings the actual participants and the grounds of understanding into view; adding methods makes the understanding usable. Personal material supports and can correct both accounts. This is a relation among functions, not an exclusive classification of every file: common philosophy includes epistemological arguments, and a Skill can explain the objects its method needs.
 
-This is the “one” of Trinity: a continuing practice of understanding, living, and creating. Its “three” name distinguishable contributions whose consequences can revise one another. Forming a view is already psychological activity; expressing it needs a body and a medium; realizing an arrangement changes what can subsequently be felt, understood, and done.
+The “one” is the continuing practice of understanding, living, and creating. The “three” distinguish what is understood, how it is known and revised, and how one acts through it. Value gives this practice direction: what is worth pursuing cannot be settled merely by describing an object or making a method run. [Personal-first humanism](personal-first-humanism.md) develops that connected question.
 
-Epistemology asks about the grounds and limits of knowing, while psychology investigates how knowing actually happens. Their connection here does not make the disciplines identical. Philosophy, psychology, and engineering each develop methods; objects, knowledge, value, and method remain questions crossing all three, as [Personal-first humanism](personal-first-humanism.md) explains.
+Philosophy, psychology, and engineering name the bodies of understanding and ability that contribute to this practice. Psychology helps investigate actual feeling, knowing, preference, and interaction; epistemology asks about the grounds and limits of the resulting account. Engineering both models the objects and relations of an environment and realizes methods within it. Thus an engineering ontology and an engineering procedure have related but different jobs. The five files retain their concrete responsibilities; they need not each become a treatise on all three dimensions.
 
 **Engineering gives this exchange physical realization.** Programs require machines, energy, and time; interaction requires embodiment, perception, and action. Physics investigates those conditions, under which engineering constructs, measures, and adjusts. The connection among views, experience, and works does not by itself settle every question about the mind's physical realization.
 
@@ -45,6 +43,14 @@ The loop needs **philosophical, psychological, and engineering contributions**. 
 | Psychology + engineering | Develop philosophy: articulate the objects, knowledge, and value relationships behind the arrangements into an intelligible, questionable direction. |
 
 These sequences offer beginnings rather than closed stages to complete before moving on. Inference from engineering must consider that configurations may reflect constraints, defaults, or habits rather than preferences. Gather relevant authorized psychological and preference material or its provenance privately in `personal/`, and revise the model through the person's explanation and actual results. Philosophy also meets experience: beauty and coherence alone cannot establish personal fit. The personal model then gives philosophy and engineering direction while consequences continue to correct all three.
+
+Someone with engineering ability who cannot yet explain their psychology can
+model their own preferences: what they value, choose, avoid, and revise across
+actual situations. This can serve as a working psychological account for
+collaboration without explaining its internal mechanisms. From it, develop
+the counterpart's preferences and priorities: what it should attend to, protect,
+question, and trade off in this relationship. Those chosen priorities concern
+how the agent should participate; actual behavior tests their realization.
 
 The practical test is whether a missing connection becomes available: an abstract idea becomes personally meaningful, a personal understanding changes an arrangement, or experience in that arrangement improves the understanding. Psychology exceeds its records, engineering exceeds any particular tool, and philosophy belongs beyond the website. Their connection supports this person's continuing life and work.
 
