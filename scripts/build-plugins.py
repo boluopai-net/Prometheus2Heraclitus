@@ -38,6 +38,7 @@ def expected_files(entry):
     }
     files['plugin.json'] = ((json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode(), 0o644)
     files['LICENSE'] = ((source / 'LICENSE').read_bytes(), 0o644)
+    files['assets/logo.svg'] = ((ROOT / 'assets/marketplace-icon.svg').read_bytes(), 0o644)
     return files
 
 

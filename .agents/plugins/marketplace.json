@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
@@ -18,15 +18,22 @@
       },
       "category": "Education & Research",
       "interface": {
-        "displayName": "阴阳 · YinYang",
-        "shortDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+        "displayName": "YinYang",
+        "shortDescription": "Develop your own YinYang",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Education & Research",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "random-wheel",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
       "source": {
         "source": "local",
@@ -38,15 +45,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "抽卡转盘 · random-wheel",
-        "shortDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+        "displayName": "Random Wheel",
+        "shortDescription": "Draw a fair random choice",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "research",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
       "source": {
         "source": "local",
@@ -58,15 +72,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "搜索与研究 · Research",
-        "shortDescription": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
+        "displayName": "Research",
+        "shortDescription": "Research with evidence",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "task-inquiry",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
       "source": {
         "source": "local",
@@ -78,15 +99,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "任务探究 · Task Inquiry",
-        "shortDescription": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+        "displayName": "Task Inquiry",
+        "shortDescription": "Clarify consequential choices",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "prompt-and-skill-lifecycle",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
       "source": {
         "source": "local",
@@ -98,15 +126,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "提示词与技能生命周期 · Prompt and Skill Lifecycle",
-        "shortDescription": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
+        "displayName": "Prompt and Skill Lifecycle",
+        "shortDescription": "Author and maintain Skills",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "android-control",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Operate your Android device through ADB and native interfaces, verifying actual effects.",
       "source": {
         "source": "local",
@@ -118,15 +153,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "安卓手机控制 · Android control",
-        "shortDescription": "Operate your Android device through ADB and native interfaces, verifying actual effects.",
+        "displayName": "Android control",
+        "shortDescription": "Operate your Android phone",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Operate your Android device through ADB and native interfaces, verifying actual effects. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "personal-environment-design",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Organize websites, desktops, and cross-tool work around human understanding and action.",
       "source": {
         "source": "local",
@@ -138,15 +180,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "个人环境设计 · Personal environment design",
-        "shortDescription": "Organize websites, desktops, and cross-tool work around human understanding and action.",
+        "displayName": "Personal environment design",
+        "shortDescription": "Shape your working environment",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Organize websites, desktops, and cross-tool work around human understanding and action. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "model-upgrade-check",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Reconcile available models, purpose-specific selections, and actual consumers.",
       "source": {
         "source": "local",
@@ -158,15 +207,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "模型升级检查 · Model upgrade checks",
-        "shortDescription": "Reconcile available models, purpose-specific selections, and actual consumers.",
+        "displayName": "Model upgrade checks",
+        "shortDescription": "Verify model upgrades",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Reconcile available models, purpose-specific selections, and actual consumers. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "paper-retrieval",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
       "source": {
         "source": "local",
@@ -178,15 +234,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "论文与学术书籍检索 · Paper and book retrieval",
-        "shortDescription": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+        "displayName": "Paper and book retrieval",
+        "shortDescription": "Find papers and books",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "video-subtitle",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Retrieve source-linked, timed spoken text and check it against the original video.",
       "source": {
         "source": "local",
@@ -198,15 +261,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "视频字幕提取 · Video subtitles",
-        "shortDescription": "Retrieve source-linked, timed spoken text and check it against the original video.",
+        "displayName": "Video subtitles",
+        "shortDescription": "Read video transcripts",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Retrieve source-linked, timed spoken text and check it against the original video. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "singing",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
       "source": {
         "source": "local",
@@ -218,15 +288,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "练唱 · Singing practice",
-        "shortDescription": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
+        "displayName": "Singing practice",
+        "shortDescription": "Practice and review singing",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "local-teacher",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Explain, review, and practice in a local environment, developing understanding through real work.",
       "source": {
         "source": "local",
@@ -238,15 +315,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "本地老师 · Local teacher",
-        "shortDescription": "Explain, review, and practice in a local environment, developing understanding through real work.",
+        "displayName": "Local teacher",
+        "shortDescription": "Learn through local practice",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Explain, review, and practice in a local environment, developing understanding through real work. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "web-teacher",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
       "source": {
         "source": "local",
@@ -258,15 +342,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "云端老师 · Web teacher",
-        "shortDescription": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
+        "displayName": "Web teacher",
+        "shortDescription": "Develop learning workflows",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Provide shared methods for course material, teaching, learning paths, and learning spaces. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "shopping",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
       "source": {
         "source": "local",
@@ -278,15 +369,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "购物与比价 · Shopping and comparison",
-        "shortDescription": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
+        "displayName": "Shopping and comparison",
+        "shortDescription": "Compare products and prices",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "prompt-audit-orchestration",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
       "source": {
         "source": "local",
@@ -298,15 +396,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "提示词审计 · Prompt audit orchestration",
-        "shortDescription": "Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
+        "displayName": "Prompt audit orchestration",
+        "shortDescription": "Audit instructions and tasks",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "agent-orchestration-master",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
       "source": {
         "source": "local",
@@ -318,15 +423,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "多智能体协作 · Agent orchestration",
-        "shortDescription": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
+        "displayName": "Agent orchestration",
+        "shortDescription": "Coordinate agent contributions",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "browser-relay",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
       "source": {
         "source": "local",
@@ -338,15 +450,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "浏览器会话 · Browser sessions",
-        "shortDescription": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+        "displayName": "Browser sessions",
+        "shortDescription": "Manage isolated browser work",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "obsidian-sync",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
       "source": {
         "source": "local",
@@ -358,15 +477,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "笔记同步 · Obsidian synchronization",
-        "shortDescription": "Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
+        "displayName": "Obsidian synchronization",
+        "shortDescription": "Synchronize Obsidian settings",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "chezmoi",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
       "source": {
         "source": "local",
@@ -378,15 +504,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "系统配置持久化 · Configuration persistence",
-        "shortDescription": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
+        "displayName": "Configuration persistence",
+        "shortDescription": "Maintain host configuration",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "network",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
       "source": {
         "source": "local",
@@ -398,15 +531,22 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "网络诊断 · Network diagnosis",
-        "shortDescription": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
+        "displayName": "Network diagnosis",
+        "shortDescription": "Diagnose network connections",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Diagnose DNS, proxies, website connectivity, and routing from host evidence. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     },
     {
       "name": "clash-auto-switch",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
       "source": {
         "source": "local",
@@ -418,10 +558,17 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "节点自动切换 · Proxy node switching",
-        "shortDescription": "Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
+        "displayName": "Proxy node switching",
+        "shortDescription": "Maintain proxy node switching",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Maintain Clash node selection, regional fallback, and DNS/TUN protection. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   ]

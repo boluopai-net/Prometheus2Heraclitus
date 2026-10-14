@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "random-wheel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
   "author": {
     "name": "boluopai",
@@ -13,10 +13,17 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "抽卡转盘 · random-wheel",
-        "shortDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+        "displayName": "Random Wheel",
+        "shortDescription": "Draw a fair random choice",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   }

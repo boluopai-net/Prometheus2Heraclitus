@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chezmoi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
   "author": {
     "name": "boluopai",
@@ -13,10 +13,17 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "系统配置持久化 · Configuration persistence",
-        "shortDescription": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
+        "displayName": "Configuration persistence",
+        "shortDescription": "Maintain host configuration",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   }

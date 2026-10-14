@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "shopping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
   "author": {
     "name": "boluopai",
@@ -13,10 +13,17 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "购物与比价 · Shopping and comparison",
-        "shortDescription": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
+        "displayName": "Shopping and comparison",
+        "shortDescription": "Compare products and prices",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   }

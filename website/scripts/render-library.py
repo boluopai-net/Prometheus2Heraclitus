@@ -21,6 +21,7 @@ from markdown.extensions import Extension
 from markdown.preprocessors import Preprocessor
 from commentaries import ESSAYS, RETIRED, IMAGE_SUCCESSORS, essay_url, retired_url, redirect_page, write_essay, write_index, reading_rail
 from repository_panel import panel, with_comments
+from install_pages import render as render_install_pages
 from public_skill_pages import SKILLS, cards as skill_cards, render_pages as render_skill_pages
 
 BASE = '/repositories/prometheus/'
@@ -134,6 +135,7 @@ def main():
         target.write_text(text)
 
     render_skill_pages(dist, shell, revision)
+    render_install_pages(dist, shell, repo)
 
     def rewrite_links(rendered, source):
         rendered = re.sub(r'<a\b[^>]*href=["\'][^"\']*(?:thesis/|dl-lite-thesis\.pdf)[^"\']*["\'][^>]*>([\s\S]*?)</a>', r'\1', rendered)
@@ -252,7 +254,7 @@ def main():
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
         intro = ('Use this page to consult ideas and sources, develop a practice, or explore relationships through diagrams. The philosophy section already supplies the sequential reading route.' if english else '这里按用途查阅观点与来源、形成自己的实践，或通过图示理解关系。哲学栏目已有完整的顺序阅读，这里提供随问题进入的参考。')
         suffix = 'en/' if english else ''
-        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><p class="eyebrow">{"REFERENCE" if english else "参考文档"}</p><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
+        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><p class="eyebrow">{"REFERENCE" if english else "参考文档"}</p><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p><p><a class="outline-button" href="/install/{suffix}?skill=yinyang">{"Install YinYang in Codex ↗" if english else "将阴阳安装到 Codex ↗"}</a></p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang))
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'
@@ -285,14 +287,14 @@ def main():
     panel_assets = '<link rel="stylesheet" href="/repository.css"><script type="module" src="/repository.js"></script>'
     index_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/notebook.svg" alt="" aria-hidden="true"><a class="back" href="/">← 火与河流</a><h1>GitHub 仓库</h1><p class="collection-intro">思想走向实践，留下可以继续生长的造物。</p></div><section class="repository-entry"><div class="section-heading"><h2><a href="{BASE}">文档与图示</a></h2><img class="motif" src="/motifs/document-diagram.svg" alt="" aria-hidden="true"></div><p class="entry-summary">借用已有的生成之火，在实践中形成自己的能力。阴阳与可继续创作的 Skill、哲学文档和交互图示。</p></section></main>'
     index_body = index_body.replace('</main>', skill_cards() + panel() + '</main>')
-    index_body = index_body.replace('借用已有的生成之火，在实践中形成自己的能力。阴阳与可继续创作的 Skill、哲学文档和交互图示。', '从实际协作中形成的阴阳、Skills、哲学文档与图示，在 GitHub 中保存为可检查、修订和继续创作的源内容；这里呈现它们的公开阅读版。')
+    index_body = index_body.replace('借用已有的生成之火，在实践中形成自己的能力。阴阳与可继续创作的 Skill、哲学文档和交互图示。', '从实际协作中形成的阴阳、Skills、哲学文档与图示，在 GitHub 中保存为可检查、修订和继续创作的源内容；这里呈现它们的公开阅读版。</p><p><a class="outline-button" href="/install/?skill=yinyang">安装到 Codex ↗</a>')
     index_body = index_body.replace('<section class="repository-entry">', '<section class="repository-entry"><p class="eyebrow">实践指南</p><div class="section-heading"><h2><a href="/getting-started/" data-page-title>工具使用</a></h2><img class="motif" src="/motifs/axe.svg" alt="" aria-hidden="true"></div><p>从订阅、全局提示词和搜索起步，接通母语阅读、个人哲学、Web 与本地、云盘和配置仓库，再让模型持续收集、更新与修复。</p></section><section class="repository-entry">', 1)
     (dist / 'repositories/index.html').write_text(shell('GitHub 仓库', index_body, extra=panel_assets).replace('<head>', '<head><meta name="robots" content="noindex, nofollow, noimageindex">', 1))
     english_index_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/notebook.svg" alt="" aria-hidden="true"><a class="back" href="/en/">Fire and River</a><h1>GitHub repositories</h1><p class="collection-intro">Thought becomes practice, leaving creations that can keep growing.</p></div><section class="repository-entry"><div class="section-heading"><h2><a href="{BASE}en/">Documents &amp; diagrams</a></h2><img class="motif" src="/motifs/document-diagram.svg" alt="" aria-hidden="true"></div><p class="entry-summary">Borrow available generative fire and develop your own capacities through practice. YinYang, Skills for continued creation, philosophical documents, and interactive diagrams.</p></section></main>'
     english_index = dist / 'repositories/en/index.html'
     english_index.parent.mkdir(parents=True, exist_ok=True)
     english_index_body = english_index_body.replace('</main>', skill_cards(True) + panel(True) + '</main>')
-    english_index_body = english_index_body.replace('Borrow available generative fire and develop your own capacities through practice. YinYang, Skills for continued creation, philosophical documents, and interactive diagrams.', 'YinYang, Skills, philosophical documents, and diagrams grow through actual collaboration. GitHub preserves their source for inspection, revision, and further creation; these pages present their public reading edition.')
+    english_index_body = english_index_body.replace('Borrow available generative fire and develop your own capacities through practice. YinYang, Skills for continued creation, philosophical documents, and interactive diagrams.', 'YinYang, Skills, philosophical documents, and diagrams grow through actual collaboration. GitHub preserves their source for inspection, revision, and further creation; these pages present their public reading edition.</p><p><a class="outline-button" href="/install/en/?skill=yinyang">Install in Codex ↗</a>')
     english_index_body = english_index_body.replace('<section class="repository-entry">', '<section class="repository-entry"><p class="eyebrow">PRACTICAL GUIDE</p><div class="section-heading"><h2><a href="/getting-started/en/" data-page-title>Using the Tools</a></h2><img class="motif" src="/motifs/axe.svg" alt="" aria-hidden="true"></div><p>Begin with a subscription, global instructions, and search. Connect native-language reading, personal philosophy, Web/local work, Drive, and configuration, with ongoing collection, updates, and repair.</p></section><section class="repository-entry">', 1)
     english_index.write_text(shell('GitHub repositories', english_index_body, 'en', extra=panel_assets).replace('<head>', '<head><meta name="robots" content="noindex, nofollow, noimageindex">', 1))
     print(f'Rendered {sum(p.endswith(".md") for p in allowed)} documents and exact diagram viewers at revision {revision}.')

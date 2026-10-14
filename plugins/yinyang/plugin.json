@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
   "author": {
     "name": "boluopai",
@@ -13,10 +13,17 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "阴阳 · YinYang",
-        "shortDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+        "displayName": "YinYang",
+        "shortDescription": "Develop your own YinYang",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Education & Research",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "network",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
   "author": {
     "name": "boluopai",
@@ -13,10 +13,17 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "网络诊断 · Network diagnosis",
-        "shortDescription": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
+        "displayName": "Network diagnosis",
+        "shortDescription": "Diagnose network connections",
         "developerName": "boluopai",
-        "websiteURL": "https://boluopai.net/"
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Diagnose DNS, proxies, website connectivity, and routing from host evidence. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
       }
     }
   }
