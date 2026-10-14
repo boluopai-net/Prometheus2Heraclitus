@@ -1,0 +1,10 @@
+declare namespace Cloudflare {
+  interface Env {
+    DB?: D1Database;
+    BUCKET?: R2Bucket;
+    ASSETS?: Fetcher;
+    OWNER_EMAIL?: string;
+    OWNER_USER_ID?: string;
+    HERMES_BRIDGE_KEY?: string;
+  }
+}

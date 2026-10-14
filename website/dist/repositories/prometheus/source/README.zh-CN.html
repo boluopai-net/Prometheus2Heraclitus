@@ -1,0 +1,153 @@
+<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prometheus2Heraclitus · 从普罗米修斯到赫拉克利特 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/README.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/philosophy/">哲学</a><a href="/singing/">唱歌</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus"> GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><p class="eyebrow">参考文档</p><h1 id="prometheus2heraclitus--从普罗米修斯到赫拉克利特">Prometheus2Heraclitus · 从普罗米修斯到赫拉克利特</h1>
+<p><strong>一个让有限生命取得生成能力的 Skill 集。</strong></p>
+<p><a href="https://boluopai.net/">网站首页</a> · <a href="https://boluopai.net/repositories/prometheus/">网页阅读版</a> · </p>
+<p><strong>从这个例子出发，写自己的哲学，凝练自己的私人模型，并把愿意公开的思想做成自己的作品与网页。</strong>哲学写作帮助人探索尚不清楚的自我理解；其中清晰、有依据的关系，凝练为五份核心文件，供模型在实际协作中使用。具体身份、经历与原始材料留在私人来源里。公开作品可以表达哲学与经过选择的模型理解，同时由本人保留完整的个人模型。这里示范的是这种创作与建模方式，而不只是让别人替换一份现成配置。</p>
+<p><strong>这个仓库的核心特色是建模，不是提供一个记忆系统。</strong>其中的 Yinyang 从具体的人出发：以哲学、心理与偏好材料形成动态的用户模型，据此形成对应的 agent 模型与合作关系，再让双方的工作进入现实，由后果继续修订理解。记忆使材料能够保存和接续；建模则组织这些材料的意义、关系与变化，并使它们参与判断和行动。</p>
+<p>哲学在这里是可继续书写的整体。文学、历史、美学、计算机与工程都可以成为建模材料；不同观点可以保留、比较或组合，不要求先加入同一学派。容纳冲突仍需区分保留的材料、当前采用的理解及其后果。具体方法和工具给这份理解以可用形式；另一个人也可以由此写出完全不同的哲学与环境。</p>
+<p>这里提供的是可以实际使用的例子，Skill 本身也在其中。你可以取用、组合或重新创作，写出与 Yinyang 很不相同的哲学和作品；共享的愿望是创造能力，不是对同一套信条的认同。<a href="/philosophy/example-and-commons/">例子与知识共有地</a>展开这个邀请，并区分文学形式与技术格式。<a href="https://boluopai.net/repositories/prometheus/">网页阅读版</a>直接呈现持续维护的文档与图示，并保留通往源内容的链接。</p>
+<h2 id="哲学心理与工程从已有能力补齐三位一体">哲学、心理与工程：从已有能力补齐三位一体</h2>
+<p><strong>哲学展开理解与方向，心理理解具体的人，工程让关系成为可用环境。</strong>三方面相互支撑：只熟悉一方面，就从它进入另外两方面；已经熟悉两方面，就重点补第三方面。哲学与心理已有基础时，重点把理解实现为 harness；哲学与工程已有基础时，补充个人经验与偏好依据；心理与工程已有基础时，把实际关系展开为哲学。这是借助模型共同发展实践的方式，不要求先独立修完三门学科。</p>
+<p><strong>不会工程，就先补工程。</strong>先学会借助模型组织文件、工具、harness、运行与核验，使材料整理、模型写作和修订有可用环境，再把已有理解接进来。只有一个主要起点时，通常这样展开：</p>
+<ul>
+<li><strong>已有心理基础：工程 → 哲学。</strong>先形成可用的工程环境，再整理自己的相关经历、聊天、记忆与偏好材料，在私人 <code>personal/</code> 中保留材料或来源；与模型一起形成个人模型，再把其中的关系展开为哲学。</li>
+<li><strong>已有哲学基础：工程 → 心理。</strong>先形成能够整理材料与持续修订的环境，再把已有哲学与自己的具体经历、偏好和实际使用相互对照，凝练个人模型。</li>
+<li><strong>已有工程基础：通常心理 → 哲学。</strong>从 harness 的使用、选择、阻力和修改中提出个人模型的候选解释，再结合相关心理与偏好材料修订，把依据留在私人 <code>personal/</code>，由此展开哲学。工程已经可用时，也可以按已有思想与材料灵活调整入口。</li>
+</ul>
+<p>这三条是可以转入彼此的起步路线，适合哪条由当前对象决定，不按职业把人固定分组。工程配置可能受习惯、限制或默认值影响，不能单凭“装了什么”推断“这个人是谁”；哲学的融贯也需要个人证据与实践回应。模型帮助整理、成文和实现，人通过理解、选择、使用与纠正参与。形成后，哲学、个人模型、材料和环境继续互相修订。<a href="/repositories/prometheus/source/skills/yinyang/README.zh-CN.html#怎样使用并理解阴阳">Yinyang 的具体形成方法</a>说明五份核心的职责与使用。</p>
+<h2 id="集合里的-skill">集合里的 Skill</h2>
+<p>每个成员维护自己的入口、方法与配套资源。取得想使用的 Skill 的完整目录，通过模型实际的 Skill 机制让它读取。</p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>用途</th>
+<th>包</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">Yinyang · Yinyang</a></td>
+<td>建模具体的人，据此形成对应的 agent 与双方关系，再把协作落实到实际环境。</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang/README.zh-CN.html">使用说明与哲学资源</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/random-wheel/SKILL.html">抽卡转盘 · random-wheel</a></td>
+<td>把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/random-wheel">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/research/SKILL.html">搜索与研究 · research</a></td>
+<td>调查事实、产品行为与方案，把来源、观察、假设和覆盖限制放在同一个可检查的回答中。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/research">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/task-inquiry/SKILL.html">任务探究 · task-inquiry</a></td>
+<td>从实际分歧、证据和有用的问题出发，澄清会改变任务下一步的关键不确定性。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/task-inquiry">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/prompt-and-skill-lifecycle/SKILL.html">提示词与技能生命周期 · prompt-and-skill-lifecycle</a></td>
+<td>把指令的含义、维护责任、交付方式和实际使用证据连在一起，编写、审查与维护 Prompt 和 Skill。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/prompt-and-skill-lifecycle">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/android-control/SKILL.html">安卓手机控制 · android-control</a></td>
+<td>通过 ADB 与原生界面操作自己的安卓设备，并核实实际效果。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/android-control">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/personal-environment-design/SKILL.html">个人环境设计 · personal-environment-design</a></td>
+<td>从人的理解与操作出发，组织网站、桌面和跨工具工作方式。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/personal-environment-design">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/model-upgrade-check/SKILL.html">模型升级检查 · model-upgrade-check</a></td>
+<td>核对可用模型、用途分配与实际消费者，让升级保持一致。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/model-upgrade-check">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/paper-retrieval/SKILL.html">论文与学术书籍检索 · paper-retrieval</a></td>
+<td>核对题录、版本与全文，把搜索结果交付为可验证的学术材料。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/paper-retrieval">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/video-subtitle/SKILL.html">视频字幕提取 · video-subtitle</a></td>
+<td>取得带来源与时间线的视频讲话文本，再回到原视频核对。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/video-subtitle">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/singing/SKILL.html">练唱 · singing</a></td>
+<td>准备伴奏、录音与参考表演，把听辨和音频证据用于练唱。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/singing">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/local-teacher/SKILL.html">本地老师 · local-teacher</a></td>
+<td>在本地环境中讲解、复习、练习，并通过真实工作发展理解。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/local-teacher">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/web-teacher/SKILL.html">云端老师 · web-teacher</a></td>
+<td>提供课程材料、教学方法、学习路径与学习空间的共同方法。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/web-teacher">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/shopping/SKILL.html">购物与比价 · shopping</a></td>
+<td>比较商品、价格、优惠与二手选择，保留实际证据与条件。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/shopping">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/SKILL.html">提示词审计 · prompt-audit-orchestration</a></td>
+<td>按实际范围审查学习、工作、Web 与自动化的指令和执行关系。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/prompt-audit-orchestration">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/agent-orchestration-master/SKILL.html">多智能体协作 · agent-orchestration-master</a></td>
+<td>按实际工作拆分贡献、交接和依赖，并由任务所有者整合结果。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/agent-orchestration-master">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/browser-relay/SKILL.html">浏览器会话 · browser-relay</a></td>
+<td>管理任务专用浏览器、认证会话、目标归属与清理。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/browser-relay">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/obsidian-sync/SKILL.html">笔记同步 · obsidian-sync</a></td>
+<td>维护多个 Obsidian 库的共同配置、云端复制与同步。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/obsidian-sync">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/chezmoi/SKILL.html">系统配置持久化 · chezmoi</a></td>
+<td>把授权的本机配置变更保存到源码，并通过实际发布机制接回环境。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/chezmoi">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/network/SKILL.html">网络诊断 · network</a></td>
+<td>通过本机证据排查 DNS、代理、网站连接和路由问题。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/network">完整包</a></td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/clash-auto-switch/SKILL.html">节点自动切换 · clash-auto-switch</a></td>
+<td>维护 Clash 节点选择、地区回退与 DNS/TUN 保护。</td>
+<td><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/33f811766dc35550138319a7053a9d2676a4f05a/skills/clash-auto-switch">完整包</a></td>
+</tr>
+</tbody>
+</table>
+<p>Yinyang 提供文化、思想与推理形式；个人内容来自获授权的实际材料，以及使用模型与这个人的协作。直接采用 Yinyang 时，<strong>必须由模型协助改写五份核心关系文档，并整理自己的 <code>references/personal/</code></strong>；下载或安装并不完成个人版。<a href="/repositories/prometheus/source/skills/yinyang/README.zh-CN.html#怎样使用并理解阴阳">上手说明</a>逐项说明改什么、由谁完成及怎样确认可用。论述与图示都属于 <code>skills/yinyang/references/</code> 内的 Yinyang 配件。其他成员保留各自的用途与专业方法；进入这个集合，不会使它们变成 Yinyang 参考，也不要求使用它们时采用 Yinyang 的哲学。组合使用时，Yinyang 是用户哲学的一个例子，其他 Skills 用具体能力补充它。读者可以选择自己的组合，并围绕它写出另一种哲学。</p>
+<p>公开包保留实际本地方法的结构和有用的配套关系。先读各包的依赖与配置说明，按任务下载需要的配套 Skill，再绑定自己的工具与环境。配套 Skill 提供方法，不会自动授予认证、设备访问或运行服务。它们不包含私人参与者描述、凭据、个人记录或作者的主机绑定配置。</p>
+<h2 id="维护与贡献">维护与贡献</h2>
+<p><a href="/repositories/prometheus/source/CONTRIBUTING.zh-CN.html">协作与贡献</a>说明什么时候发 Issue、什么时候提交 PR，以及怎样准备改动、检查和参与审阅。</p>
+<p><a href="/repositories/prometheus/source/MODEL.html">MODEL.md</a> 维护集合的维护与发布边界，<a href="/repositories/prometheus/source/AGENTS.html">AGENTS.md</a> 为贡献者提供入口。各 Skill 在自己的目录维护进一步的解释与维护指令。英文为主；提供读者对应版本时，保留完整的语义对应。</p>
+<p>通过<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/issues"> issues</a> 与<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/pulls"> pull requests</a> 提出问题和修订。个人理解与私人来源留在其实际维护位置；只有获授权的可复用材料进入这个集合。</p>
+<h2 id="许可">许可</h2>
+<p>Yinyang 原创材料采用<a href="/repositories/prometheus/source/skills/yinyang/LICENSE"> CC BY-NC-SA 4.0</a>，以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en">官方法律文本</a>为准。可以为非商业目的阅读、下载、复制、改编与再分发，无须个人审批；不授予商业使用许可。分享时须保留所要求的署名与声明、提供许可链接并标明修改；分享改编作品时须采用 CC BY-NC-SA 4.0 或其相同方式共享条款允许的其他许可。私人改编不必公开。第三方权利、法定例外与旧版有效授权不受影响。</p>
+<p>其他可复用包保留 MIT 许可，可以公开下载、使用、修改、再分发和商业使用，并保留相应声明：</p>
+<p>上表所链接的每个包目录都包含自己的 <code>LICENSE</code>。</p>
+<p>公开 GitHub 仓库供阅读、下载、fork 与 Issues/PR 协作；网站提供展示与阅读入口。<a href="/repositories/prometheus/source/LICENSE">集合许可说明</a>按材料划分范围，不按平台划分：同一份 Yinyang 材料与原创哲学文字，在 GitHub 和网站都采用 CC BY-NC-SA 4.0；其他可复用包在两处都保留 MIT。网页阅读投影不会改变许可。独立网站代码、界面设计、照片、音频与第三方材料保留各自声明的权利，不自动包含在这两项授权内。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
+<ul>
+<li><a href="#哲学心理与工程从已有能力补齐三位一体">哲学、心理与工程：从已有能力补齐三位一体</a></li>
+<li><a href="#集合里的-skill">集合里的 Skill</a></li>
+<li><a href="#维护与贡献">维护与贡献</a></li>
+<li><a href="#许可">许可</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

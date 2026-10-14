@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Audio evidence and phrase comparison · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="audio-evidence-and-phrase-comparison">Audio evidence and phrase comparison</h1>
+<h2 id="recording-integrity">Recording integrity</h2>
+<p>Confirm identity, start offset, duration, channel layout, and sample rate for
+each input. Keep the raw vocal take unchanged and analyze a labelled derivative
+if decoding or resampling is needed. Check each channel: averaging stereo can
+cancel signal, while selecting an empty channel can create false silence.
+Inspect onset and end to catch a missing entrance or premature stop.</p>
+<p>Peak/RMS and full-scale samples help diagnose capture. They do not measure
+musical quality. Low RMS can reflect quiet singing, distance, gain, or silence;
+full-scale samples suggest possible clipping, while prior processing may hide
+clipping below full scale. Listen and inspect the signal before attributing a
+cause. The bundled checker reports exact metrics under its stated definitions,
+not “pass/fail” vocal quality or integrated LUFS.</p>
+<h2 id="compare-a-corresponding-phrase">Compare a corresponding phrase</h2>
+<p>Locate the same lyric and musical gesture in both versions. Establish offsets
+from a shared entrance or accompaniment cue. Retain original timestamps and
+report any trimming, resampling, pitch shift, separation, or alignment used.
+Different live/album versions may have different arrangements; identify that
+before calling a difference a performance error.</p>
+<p>Extract pitch from a sufficiently isolated lead when supported. Inspect voiced
+confidence and octave discontinuities against listening or a spectral view.
+Background harmony, bleed, consonants, breath, and separation artifacts can
+mislead an extractor. Choose bounds from the audible passage rather than a
+gender assumption. Compare stable notes and transitions separately.
+For reliable corresponding frequencies, cents difference is
+<span class="math-source" data-display="false" data-tex="1200\log_2(f_{take}/f_{reference})">$1200\log_2(f_{take}/f_{reference})$</span>. Retain the trajectory for slides and runs;
+a phrase-wide median erases musical detail.</p>
+<p>Keep entrance, consonant release, vowel onset, and note onset distinctions clear.
+Compare timing on the original timeline in milliseconds or beats. Dynamic time
+warping may locate corresponding gestures, but its aligned overlay cannot prove
+rhythmic agreement. Preserve pre-alignment offsets and durations to expose
+rushing, dragging, and drift. Tempo changes or accompaniment latency can affect
+the interpretation.</p>
+<p>Compare intensity within phrases with consistent processing. Microphone gain,
+compression, distance, and accompaniment affect absolute level comparisons.
+Describe a relative contour only where supported. Vibrato and ornaments need
+enough stable voiced material and temporal resolution; report extraction limits
+instead of supplying a precise number from an unsuitable passage.</p>
+<h2 id="turn-evidence-into-musical-feedback">Turn evidence into musical feedback</h2>
+<p>Use three distinct layers, in ordinary language:</p>
+<ul>
+<li>Observation: the take enters about 120 ms after the reference at the selected
+  lyric, with the measurement's confidence and offset assumptions stated.</li>
+<li>Interpretation: that entrance may make the phrase feel less urgent; this is a
+  listening judgment that depends on the intended style.</li>
+<li>Attempt: listen to the reference pickup, sing through the complete sentence,
+  and aim the first vowel at the accompaniment cue; compare the next take.</li>
+</ul>
+<p>This is an illustrative feedback shape, not a finding about an actual singer.
+Use actual timestamps and audible evidence in a session. Diction feedback should
+identify the word or syllable that loses clarity and its effect on the phrase.
+Offer an expressive cue or audible model when useful, without claiming that a
+specific physical mechanism has been diagnosed. Keep health or clinical claims
+outside acoustic coaching. If the singer reports discomfort, do not treat it
+as a technique defect established by the waveform.</p>
+<p>Return the recording before requesting self-evaluation. Preserve earlier takes
+for comparison and check whether the adjustment improved the intended effect.
+One take establishes evidence about that take, not a permanent ability, identity,
+physiology, or ranking against other singers.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#recording-integrity">Recording integrity</a></li>
+<li><a href="#compare-a-corresponding-phrase">Compare a corresponding phrase</a></li>
+<li><a href="#turn-evidence-into-musical-feedback">Turn evidence into musical feedback</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

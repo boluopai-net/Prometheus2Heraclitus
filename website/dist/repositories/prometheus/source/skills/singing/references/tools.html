@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tools and setup · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="tools-and-setup">Tools and setup</h1>
+<p>Select capabilities from the recipient's actual environment. Commands below
+illustrate local file operations; replace filenames with the selected assets
+and inspect outputs. No installation or microphone access occurs by loading
+this Skill.</p>
+<h2 id="supplied-files-and-basic-checks">Supplied files and basic checks</h2>
+<p>Python 3.9+ runs the bundled read-only PCM WAV checker with no third-party
+dependencies:</p>
+<pre><code class="language-sh">python3 scripts/check_wav.py /path/to/take.wav
+</code></pre>
+<p>Run from this package directory. It accepts uncompressed integer PCM WAV with
+8-, 16-, 24-, or 32-bit samples and prints JSON. It reports duration, channels,
+sample rate, per-channel peak/RMS dBFS, full-scale sample fraction, and the
+fraction of frames below a chosen amplitude threshold. It is not a pitch
+extractor, calibrated loudness meter, listening system, or singing score.
+The silence threshold defaults to -60 dBFS and can be changed with
+<code>--silence-db -50</code>. Recording context determines whether those values are useful.
+Unsupported compressed/float WAV or a damaged file produces an error and exit 2.
+It reads only the supplied file and never records, uploads, or changes it.</p>
+<p>With separately installed <a href="https://ffmpeg.org/">FFmpeg</a>, inspect a video:</p>
+<pre><code class="language-sh">ffprobe -v error -show_format -show_streams -of json karaoke.mp4
+</code></pre>
+<p>For a supported stream, remux audio without re-encoding:</p>
+<pre><code class="language-sh">ffmpeg -n -i karaoke.mp4 -map 0:a:0 -vn -c:a copy backing.mka
+</code></pre>
+<p>Matroska audio may not import into a particular DAW. Choose a compatible
+container for the actual codec, or decode into a derived PCM WAV; keep the
+original file and offsets. A PCM derivative for the checker can be made with:</p>
+<pre><code class="language-sh">ffmpeg -n -i input-audio.m4a -map 0:a:0 -c:a pcm_s24le take-check.wav
+</code></pre>
+<p>These commands do not validate lyrics, cleanliness, export rights, or perceptual
+quality. Use actual frame inspection and listening for those judgments. FFmpeg
+options are documented in its <a href="https://ffmpeg.org/ffmpeg.html">official manual</a>.</p>
+<h2 id="recorder-and-daw-operation">Recorder and DAW operation</h2>
+<p>Use a recorder or DAW already available through the host's supported tools.
+Identify the live project, selected track, input/output devices, and current
+transport before changing them. Discover the current schema or app controls;
+tool names in documentation are not proof of availability. Operate under the
+host's focus, desktop, filesystem, and permission boundaries. Preserve other
+work, read back uncertain mutations before retrying, and verify stopped
+transport plus the new raw audio artifact at completion.</p>
+<p>Logic Pro is an optional macOS route. It requires a recipient-owned installation,
+an audio device, the required microphone permissions, and a working control
+channel. <a href="https://github.com/MongLong0214/logic-pro-mcp">MongLong0214/logic-pro-mcp</a>
+is an independently maintained optional MCP implementation. Follow its current
+upstream installation and <a href="https://github.com/MongLong0214/logic-pro-mcp/tree/main/docs">setup documentation</a>
+for the installed version. Discover its exposed schemas and operation-specific
+requirements; verify handshake, target application, live project/track reads,
+and the intended transport route before recording. Supported app variants and
+permission requirements can change. Installing a binary does not prove any
+of these operations work on the recipient's host.</p>
+<p>An app-bound Accessibility/API route can be used when available and permitted,
+with live controls and readback. Neither a stale project snapshot nor synthesized
+placeholder track data is a safe live target. Do not assume several server
+instances can share MIDI endpoints. Use the upstream ownership requirements.
+DAW controls, file diagnostics, audio listening, and pitch analysis are separate
+capabilities; report which actually worked. A <code>logic_audio</code> file-analysis result,
+if exposed, does not by itself establish reference-performance comparison.</p>
+<h2 id="pitch-and-listening">Pitch and listening</h2>
+<p>Use an existing audio-capable model or player for listening only if it actually
+receives the audio. Optional analysis libraries include
+<a href="https://parselmouth.readthedocs.io/en/stable/">Parselmouth</a> for Praat-based
+analysis and <a href="https://librosa.org/doc/">librosa</a> for signal processing. They are
+not bundled or required; install through their documented setup only when the
+task needs that capability. Consult the installed version's pitch API and
+document algorithm, sample rate, hop size, pitch bounds, voicing confidence,
+and alignment. A successful import is not accuracy evidence on mixed music.</p>
+<p>External tools retain their own licenses. No third-party implementation or
+media is copied into this package.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#supplied-files-and-basic-checks">Supplied files and basic checks</a></li>
+<li><a href="#recorder-and-daw-operation">Recorder and DAW operation</a></li>
+<li><a href="#pitch-and-listening">Pitch and listening</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

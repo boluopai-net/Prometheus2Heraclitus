@@ -1,0 +1,141 @@
+<head><meta name="robots" content="noindex, nofollow, noimageindex"></head><div id="__WHEEL_ID__">
+  <style>
+    #__WHEEL_ID__ .wheel-area { position: relative; max-width: 340px; margin: 16px auto; }
+    #__WHEEL_ID__ .wheel-face { display: block; width: 100%; overflow: visible; }
+    #__WHEEL_ID__ .wheel-pointer { position: absolute; top: -9px; left: calc(50% - 10px); width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 22px solid var(--foreground); z-index: 1; }
+    #__WHEEL_ID__ .wheel-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 16px; margin: 16px 0 0; padding: 0; list-style: none; }
+    #__WHEEL_ID__ .wheel-options li { overflow-wrap: anywhere; }
+    #__WHEEL_ID__ .wheel-options li[aria-current="true"] { font-weight: 500; color: var(--foreground); background: var(--accent); }
+    #__WHEEL_ID__ .wheel-result { text-align: center; min-height: 2em; }
+    #__WHEEL_ID__ .speed { max-width: 340px; margin: 12px auto; }
+    @media (max-width: 380px) { #__WHEEL_ID__ .wheel-options { grid-template-columns: 1fr; } }
+  </style>
+  <h3>让转盘选一个</h3>
+  <div class="wheel-result" role="status" aria-live="polite">准备转动…</div>
+  <div class="wheel-area">
+    <div class="wheel-pointer" aria-hidden="true"></div>
+    <svg class="wheel-face" viewBox="0 0 340 340" role="img" aria-label="等概率随机转盘，顶部指针指向选中的编号">
+      <g class="wheel-disc"></g>
+      <circle cx="170" cy="170" r="41" fill="var(--background)" />
+      <text x="170" y="175" text-anchor="middle" fill="var(--foreground)">随机选择</text>
+    </svg>
+  </div>
+  <div class="speed">
+    <label class="form-label">转速 <output class="tabular-nums">3×</output>
+      <input class="form-range" type="range" min="0.25" max="3" step="0.25" value="3" aria-label="转速" />
+    </label>
+    <div class="viz-row text-small text-muted" style="justify-content: space-between"><span>慢 · 0.25×</span><span>快 · 3×</span></div>
+  </div>
+  <div class="viz-row" style="justify-content: center"><button type="button" class="btn btn-primary">再转一次</button><span class="text-small text-muted wheel-chance"></span></div>
+  <ol class="wheel-options"></ol>
+  <script>
+    (() => {
+      let mounted = false;
+      const mount = config => {
+      if (mounted || !config || !Array.isArray(config.options) || !config.options.length || config.options.length > 100 || config.options.some(x => typeof x !== 'string' || !x.trim() || Array.from(x).length > 200) || !Number.isInteger(config.drawIndex) || config.drawIndex < 0 || config.drawIndex >= config.options.length || !Number.isFinite(config.speed) || typeof config.runId !== 'string') return;
+      mounted = true;
+      const root = document.getElementById('__WHEEL_ID__');
+      const disc = root.querySelector('.wheel-disc');
+      const result = root.querySelector('.wheel-result');
+      const slider = root.querySelector('input');
+      const output = root.querySelector('output');
+      const button = root.querySelector('button');
+      const list = root.querySelector('ol');
+      const n = config.options.length, step = 360 / n;
+      const ns = 'http://www.w3.org/2000/svg';
+      let angle = 0, speed = config.speed, running = false, frame = 0;
+      let selected = null, progress = 0, started = false;
+      const point = (r, a) => [170 + r * Math.sin(a * Math.PI / 180), 170 - r * Math.cos(a * Math.PI / 180)];
+      config.options.forEach((name, i) => {
+        const wedge = document.createElementNS(ns, n === 1 ? 'circle' : 'path');
+        if (n === 1) { wedge.setAttribute('cx', 170); wedge.setAttribute('cy', 170); wedge.setAttribute('r', 162); }
+        else { const a = point(162, i * step), b = point(162, (i + 1) * step); wedge.setAttribute('d', `M170 170 L${a} A162 162 0 ${step > 180 ? 1 : 0} 1 ${b} Z`); }
+        wedge.setAttribute('fill', i % 2 ? 'color-mix(in srgb, var(--foreground) 16%, var(--background))' : 'color-mix(in srgb, var(--foreground) 7%, var(--background))');
+        wedge.setAttribute('stroke', 'var(--background)');
+        wedge.setAttribute('stroke-width', '2');
+        disc.append(wedge);
+        if (n <= 30) {
+          const label = document.createElementNS(ns, 'text'), p = point(132, (i + 0.5) * step);
+          label.setAttribute('x', p[0]); label.setAttribute('y', p[1]); label.setAttribute('text-anchor', 'middle');
+          label.setAttribute('dominant-baseline', 'middle'); label.setAttribute('fill', 'var(--foreground)');
+          label.textContent = i + 1; disc.append(label);
+        }
+        const li = document.createElement('li'); li.textContent = `${i + 1}. ${name}`; list.append(li);
+      });
+      root.querySelector('.wheel-chance').textContent = `${n} 个选项 · 每项 ${(100 / n).toFixed(1)}%`;
+      const paint = () => disc.setAttribute('transform', `rotate(${angle} 170 170)`);
+      const snapshot = () => ({runId: config.runId, options: config.options, selected: selected === null ? null : config.options[selected], selectedIndex: selected, speed, running});
+      function save() {
+        const {options, ...state} = snapshot();
+        window.dispatchEvent(new CustomEvent('random-wheel:state', {detail: state}));
+        if (window.openai?.setWidgetState) Promise.resolve(window.openai.setWidgetState({modelContent: state, privateContent: {angle}})).catch(() => {});
+      }
+      function setSpeed(value, persist = true) {
+        const parsed = Number(value); if (!Number.isFinite(parsed)) return;
+        speed = Math.max(0.25, Math.min(3, parsed)); slider.value = speed; output.textContent = `${speed}×`;
+        if (persist) save();
+      }
+      function finish(index) {
+        selected = index; running = false; button.disabled = n === 1;
+        button.textContent = '再转一次';
+        result.textContent = `这次选中：${config.options[index]}`;
+        [...list.children].forEach((li, i) => li.setAttribute('aria-current', String(i === index)));
+      }
+      function randomIndex() {
+        const buffer = new Uint32Array(1), limit = Math.floor(4294967296 / n) * n;
+        do { crypto.getRandomValues(buffer); } while (buffer[0] >= limit);
+        return buffer[0] % n;
+      }
+      function spin(index) {
+        if (running) return;
+        if (index === undefined) {
+          try { index = randomIndex(); } catch { result.textContent = '当前环境无法生成安全随机数'; return; }
+        }
+        if (!Number.isInteger(index) || index < 0 || index >= n) return;
+        started = true; selected = null; running = true; progress = 0; button.disabled = true;
+        result.textContent = '正在转动…';
+        [...list.children].forEach(li => li.removeAttribute('aria-current'));
+        save();
+        const start = angle, target = ((360 - (index + 0.5) * step) % 360 + 360) % 360;
+        const distance = 360 * 6 + ((target - start % 360 + 360) % 360);
+        let previous = null;
+        // Rotation is the requested interaction, not decorative motion.
+        // Keep the selected speed meaningful even when the host reduces motion.
+        function tick(now) {
+          if (previous !== null) progress += Math.min(now - previous, 100) * speed / 6500;
+          previous = now; progress = Math.min(progress, 1);
+          angle = start + distance * (1 - Math.pow(1 - progress, 3)); paint();
+          if (progress < 1 && n > 1) frame = requestAnimationFrame(tick);
+          else { angle = target; paint(); finish(index); save(); }
+        }
+        frame = requestAnimationFrame(tick);
+      }
+      function restore(state) {
+        const saved = state?.modelContent;
+        if (saved?.runId !== config.runId) return;
+        setSpeed(saved.speed, false);
+        if (!saved.running && Number.isInteger(saved.selectedIndex) && saved.selectedIndex >= 0 && saved.selectedIndex < n) {
+          cancelAnimationFrame(frame); started = true;
+          angle = (360 - (saved.selectedIndex + 0.5) * step + 360) % 360; paint(); finish(saved.selectedIndex);
+        }
+      }
+      setSpeed(speed, false); restore(window.openai?.widgetState);
+      window.addEventListener('openai:set_globals', event => restore(event.detail?.globals?.widgetState));
+      slider.addEventListener('input', () => setSpeed(slider.value));
+      button.addEventListener('click', () => spin());
+      window.randomWheel = {setSpeed, spin: () => spin(), getState: snapshot};
+      if (config.autoStart === false && !started) {
+        result.textContent = '点击开始，随机选一项';
+        button.textContent = '开始转动';
+      } else {
+        const observer = new IntersectionObserver(entries => {
+          if (entries.some(entry => entry.isIntersecting) && !started) { observer.disconnect(); spin(config.drawIndex); }
+        });
+        observer.observe(root);
+      }
+      };
+      mount(__WHEEL_CONFIG__);
+      window.addEventListener('random-wheel:config', event => mount(event.detail));
+    })();
+  </script>
+</div>

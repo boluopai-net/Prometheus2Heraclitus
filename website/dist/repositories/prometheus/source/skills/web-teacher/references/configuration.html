@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Recipient configuration and record ownership · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="recipient-configuration-and-record-ownership">Recipient configuration and record ownership</h1>
+<p>The public Teacher pair supplies reusable methods. It does not contain the
+recipient's corpus, learner model, research direction, paths, State or work plan.
+Resolve these objects from the recipient's existing project instructions and
+accessible records. Record bindings in the existing corpus/project resolver,
+not by filling this installed package with private data. No extra configuration
+service, shared memory namespace or coordination layer is needed.</p>
+<h2 id="bind-only-the-objects-the-task-needs">Bind only the objects the task needs</h2>
+<table>
+<thead>
+<tr>
+<th>Binding</th>
+<th>Semantic owner and expected content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>course_root</code></td>
+<td>Recipient's course/source collection; its <code>AGENTS.md</code> maps layout, actual sources and course-local resolvers. A named course can use another existing layout.</td>
+</tr>
+<tr>
+<td><code>global_learning_path</code></td>
+<td>Maintained target selection and course-mapping hypotheses; resolved by <a href="/repositories/prometheus/source/skills/web-teacher/references/learning-path.html">learning-path.md</a>.</td>
+</tr>
+<tr>
+<td><code>local_learning_path</code></td>
+<td>Current attention/execution selection and useful return conditions; resolved by <a href="/repositories/prometheus/source/skills/web-teacher/references/local-learning-path.html">local-learning-path.md</a>.</td>
+</tr>
+<tr>
+<td><code>work_plan</code></td>
+<td>Recipient's single maintained work/priorities record; <a href="/repositories/prometheus/source/skills/web-teacher/references/work-plan.html">work-plan.md</a> owns only its reference slot. It is not another learning-progress store.</td>
+</tr>
+<tr>
+<td><code>global_state</code></td>
+<td>Compact cross-course recovery with links to course records; an existing <code>GLOBAL_STATE.md</code> is a conventional name, not a supplied learner history.</td>
+</tr>
+<tr>
+<td><code>course_state</code></td>
+<td>Current course's source scope, observed exposure/contributions, unresolved questions and next entry; default <code>&lt;course&gt;/_master/COURSE_STATE.md</code>, or the collection's existing owner.</td>
+</tr>
+<tr>
+<td><code>research_context</code></td>
+<td>Actual research question/manuscript owner when a substantive research connection is requested. Missing context limits that connection; it does not make a source unusable.</td>
+</tr>
+<tr>
+<td><code>teaching_language</code></td>
+<td>Recipient's selected language and bilingual terminology convention; preserve original text/notation and use the recipient language first in bilingual labels. Chinese examples in the materials branch illustrate the source profile.</td>
+</tr>
+<tr>
+<td><code>reading_surface</code></td>
+<td>Actual Markdown/source reader and supported links, math and diagrams. Obsidian is the source method's documented profile.</td>
+</tr>
+</tbody>
+</table>
+<p>For an established collection, inspect the current instructions and records
+before making a new binding or file. Resolve collisions by actual path/edition
+and source role. Keep private values with that owner; do not publish them in
+this package, a download example or a public dependency table. The source's
+three personal path documents have intentionally been replaced by slots without
+reading or publishing their bodies.</p>
+<p>For a new course mapping, use <a href="/repositories/prometheus/source/skills/web-teacher/references/course-workspace.html">course workspace</a> to inspect
+sources and compile only necessary facts. Do not initialize a curriculum,
+Global State or per-book progress merely to answer an isolated known-source
+question. A missing binding is an explicit scope/access limit, not evidence
+that the learner has no prior exposure or must reconstruct every prior session.</p>
+<h2 id="required-capabilities-and-optional-reading-support">Required capabilities and optional reading support</h2>
+<p>Textual teaching needs access to the selected source and current conversation.
+Fresh external investigation needs an actually available search/retrieval route;
+<a href="/repositories/prometheus/source/skills/research/SKILL.html">research</a> supplies the method, not a provider account.
+Saved material/State maintenance additionally needs authorized record access,
+read-before-write and saved-result readback. A host without file writes can
+complete an explanation or supply an exact unsaved proposal; it cannot claim
+persisted materials or progress. Local execution needs the project's actual
+tools and authority. Neither Teacher commands another conversation to obtain it.</p>
+<p>The materials branch documents Obsidian Markdown, one-based PDF pages, concept
+passage links, math and diagrams. Use built-in ordinary links/math and verify
+the actual reader. <a href="https://github.com/RyotaUshio/obsidian-pdf-plus">PDF++</a> is an
+optional external dependency for selection/rectangle highlighting and backlinks;
+its coordinates must come from the exact source text layer or verified UI. Without
+it, retain exact page/section and searchable passage locators and state that
+highlight/backlink verification remains unavailable. Do not invent coordinates.
+Academic callout styling and Linter are optional; neither certifies correctness.
+If another reader is selected, preserve source identity, concept-to-passage
+navigation, math meaning and return routes using its real supported interface.
+Report unavailable rendering/navigation checks instead of claiming success.</p>
+<h2 id="verify-a-usable-entry">Verify a usable entry</h2>
+<p>For the selected activity, resolve its source/edition, the relevant glossary and
+guide (plus applicable technical training), and any records needed for recovery
+or path judgment. Read actual source passages and inspect the named artifacts.
+Keep preparation, source exposure, teacher demonstration, learner contribution
+and untested understanding distinct. After a permitted write, reread the owner
+record and follow the changed reading path; preserve unrelated entries. An
+unresolved path slot never turns an imagined learner/corpus into fact.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#bind-only-the-objects-the-task-needs">Bind only the objects the task needs</a></li>
+<li><a href="#required-capabilities-and-optional-reading-support">Required capabilities and optional reading support</a></li>
+<li><a href="#verify-a-usable-entry">Verify a usable entry</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

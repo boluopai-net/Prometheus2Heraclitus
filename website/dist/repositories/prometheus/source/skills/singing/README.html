@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>练唱 · singing · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/singing/README.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a></div><p class="eyebrow">Reference</p><h1 id="练唱--singing">练唱 · singing</h1>
+
+<p>A reusable Skill for turning a chosen song into a practical loop: find usable
+accompaniment and synchronized lyrics, record a separate vocal take, return it
+for listening, and compare a meaningful phrase with the actual reference audio.
+Feedback connects pitch, timing, diction, and expression to a concrete next
+attempt. It does not require a fixed curriculum or assume a singer's range.</p>
+<p>Copy the complete <code>singing/</code> directory into the Skill location supported by your
+agent host. Start with <a href="/repositories/prometheus/source/skills/singing/SKILL.html">SKILL.md</a>. Example request: “Help me practice
+this chorus using my reference and microphone take; return the recording and
+show where the entrances differ.” The host must actually support the requested
+audio access, media playback, or application operation; installing this package
+does not supply those capabilities.</p>
+<table>
+<thead>
+<tr>
+<th>Dependency or composition</th>
+<th>Role and acquisition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Required supporting Skills</td>
+<td>None; the singing method is contained here.</td>
+</tr>
+<tr>
+<td>Optional <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research">research</a></td>
+<td>Investigate accompaniment sources; download its complete package if needed. Singing retains audition and practice judgment.</td>
+</tr>
+<tr>
+<td>Optional <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang">Yinyang</a></td>
+<td>Broader user/model relationship; download its complete package if wanted. No private portrait is included or required.</td>
+</tr>
+<tr>
+<td>Python 3.9+</td>
+<td>Required only for the bundled WAV checker; obtain from <a href="https://www.python.org/downloads/">Python</a>.</td>
+</tr>
+<tr>
+<td>Recorder/DAW, audio playback, optional analysis tools</td>
+<td>Required according to the requested operation, supplied by your host; routes and upstream links are in the tool guide.</td>
+</tr>
+</tbody>
+</table>
+<p>Download linked Skill directories through the repository's native source archive
+or clone, retaining each complete package and its license.</p>
+<p>The <a href="/repositories/prometheus/source/skills/singing/references/tools.html">tool guide</a> describes supplied-file use, optional
+FFmpeg, analysis libraries, and a separately installed Logic Pro/MCP route.
+The <a href="/repositories/prometheus/source/skills/singing/references/audio-evidence.html">comparison guide</a> explains evidence limits.
+The read-only <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/33f811766dc35550138319a7053a9d2676a4f05a/skills/singing/scripts/check_wav.py">WAV checker</a> needs Python 3.9+ only:</p>
+<pre><code class="language-sh">python3 scripts/check_wav.py /path/to/take.wav
+</code></pre>
+<p>It checks integer PCM WAV integrity and signal metrics; it does not listen,
+record, extract pitch, or score singing. Use your own recorder/DAW and authorized
+media. Keep raw takes, personal preferences, account details, and library records
+in your own session storage. Free viewing does not grant media redistribution.</p>
+<p>This is a portable adaptation of an author-maintained local singing workflow.
+Private singer profiles, attributable personal records, recordings, host paths,
+credentials, and machine-specific integration receipts are excluded. Original
+package prose and code are <a href="/repositories/prometheus/source/skills/singing/LICENSE">MIT licensed</a>. No third-party code or media
+is bundled; linked tools and acquired music retain their respective rights.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul></ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

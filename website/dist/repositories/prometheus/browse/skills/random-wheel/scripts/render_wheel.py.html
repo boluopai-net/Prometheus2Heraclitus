@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>render_wheel.py · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader"><a class="back" href="/repositories/en/#files-title">Browse files</a><article class="document"><h1>render_wheel.py</h1><pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;Render a portable wheel with an independently sampled initial result.&quot;&quot;&quot;
+
+import argparse
+import json
+import math
+import secrets
+import uuid
+from pathlib import Path
+
+
+def render(options, speed=3, output_format=&quot;standalone&quot;):
+    if (
+        not isinstance(options, list)
+        or not 1 &lt;= len(options) &lt;= 100
+        or any(not isinstance(x, str) or not x.strip() or len(x) &gt; 200 for x in options)
+        or len(set(options)) != len(options)
+    ):
+        raise ValueError(
+            &quot;Expected 1–100 distinct nonempty option strings, at most 200 characters each&quot;
+        )
+    if not math.isfinite(speed) or not 0.25 &lt;= speed &lt;= 3:
+        raise ValueError(&quot;Speed must be between 0.25 and 3&quot;)
+    config = {
+        &quot;options&quot;: options,
+        &quot;speed&quot;: speed,
+        &quot;runId&quot;: str(uuid.uuid4()),
+        &quot;drawIndex&quot;: secrets.randbelow(len(options)),
+    }
+    template = (Path(__file__).resolve().parents[1] / &quot;assets/wheel.html&quot;).read_text(encoding=&quot;utf-8&quot;)
+    payload = json.dumps(config, ensure_ascii=False).replace(&quot;&lt;&quot;, &quot;\\u003c&quot;)
+    fragment = template.replace(&quot;__WHEEL_ID__&quot;, &quot;wheel-&quot; + config[&quot;runId&quot;]).replace(
+        &quot;__WHEEL_CONFIG__&quot;, payload
+    )
+    if output_format == &quot;standalone&quot;:
+        shell = (Path(__file__).resolve().parents[1] / &quot;assets/standalone.html&quot;).read_text(encoding=&quot;utf-8&quot;)
+        return shell.replace(&quot;__WHEEL_FRAGMENT__&quot;, fragment), config
+    if output_format != &quot;inline&quot;:
+        raise ValueError(&quot;Format must be standalone or inline&quot;)
+    return fragment, config
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(&quot;--options&quot;, required=True, type=Path)
+    parser.add_argument(&quot;--output&quot;, required=True, type=Path)
+    parser.add_argument(&quot;--speed&quot;, type=float, default=3)
+    parser.add_argument(&quot;--format&quot;, choices=[&quot;standalone&quot;, &quot;inline&quot;], default=&quot;standalone&quot;)
+    args = parser.parse_args()
+    fragment, config = render(json.loads(args.options.read_text(encoding=&quot;utf-8&quot;)), args.speed, args.format)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(fragment, encoding=&quot;utf-8&quot;)
+    print(
+        json.dumps(
+            {
+                &quot;path&quot;: str(args.output.resolve()),
+                &quot;runId&quot;: config[&quot;runId&quot;],
+                &quot;selected&quot;: config[&quot;options&quot;][config[&quot;drawIndex&quot;]],
+            },
+            ensure_ascii=False,
+        )
+    )
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></article></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

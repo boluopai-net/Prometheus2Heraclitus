@@ -1,0 +1,12 @@
+{
+  "source_project": "boluopai public website (native Sites Git repository)",
+  "source_commit": "765a53c541dbb9591d2afdff957f81e8e3214fec",
+  "excluded_paths": [
+    ".playwright-cli/",
+    "design-evidence/",
+    "design-qa.md"
+  ],
+  "content_owner": "Site owns independent prose, presentation and implementation; skills/yinyang owns canonical YinYang prose",
+  "publication": "Native Sites source publication remains separate from collection GitHub publication",
+  "reuse": "Preserve existing rights and third-party notices; independent deployment needs its own Site project_id and runtime secrets"
+}

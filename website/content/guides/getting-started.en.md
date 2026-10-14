@@ -1,0 +1,442 @@
+# From an Idea to Something of Your Own
+
+A practical guide: begin by making a model subscription useful, then develop your own philosophy, tools, and working environment. Read and understand in your native language, entrust investigation, implementation, and maintenance to the model, and revise through use. This guide chooses Mac and ChatGPT / Codex as one concrete route; your existing computer and another available model tool can carry the same work.
+
+**Embodied, full-modal learning; embodied, full-modal understanding; embodied, full-modal work—bring them into your life.** Develop understanding through text, images, sound, bodily experience, and practical action; turn ideas into works and let the world's response revise judgment. “Full-modal” means drawing on available perception and expression when they serve the task, not forcing every medium into every activity. Models and environments carry detail and repetition while reading, looking, listening, expression, and practice cultivate your sense of the whole, intuition, judgment, and creation.
+
+## A map of the tools
+
+<nav class="guide-navigation" aria-label="On this page" markdown="1">
+
+1. [Device and network](#foundation)
+2. [Subscriptions, instructions, and Skills](#subscription)
+3. [Translation and reading in your native language](#reading)
+4. [Information sources](#information)
+5. [Tools and a personal environment](#environment)
+6. [Local, cloud, and continuing work](#continuity)
+7. [The model's execution inner loop](#first-loop)
+8. [Learning, working, and living](#ways-of-practice)
+9. [Ongoing collection and repair](#automation)
+
+</nav>
+
+You can give this page to the model, describe the need at hand, and let it select, configure, and verify useful tools from the map.
+
+**One route into practice:** establish connectivity → use a model subscription → ask the model to help prepare global instructions → install a local client, working search, and essential Skills → develop your own philosophy → find, configure, and adapt tools, writing missing capabilities when needed → improve philosophy, environment, and work through actual tasks. Each step can yield a usable result before the whole arrangement is complete.
+
+You can also go directly to [beginning with the model's execution inner loop](#first-loop), [ways of learning, working, and living](#ways-of-practice), or [automatic collection and environment repair](#automation).
+
+<a id="foundation"></a>
+
+## 1. Device and network: make your existing computer usable
+
+If your computer can run the tools you choose, start there. When choosing a Mac, check the software’s current operating-system and chip requirements. Add memory, storage, or another display when your projects and actual working conditions warrant them. Starting with cloud models does not require a GPU for training large models locally, or reproducing the author’s desktop.
+
+Your network needs to support sign-in, documentation, dependency downloads, and uploads. If your connection needs proxy configuration, the [Clash Verge Rev project repository](https://github.com/clash-verge-rev/clash-verge-rev) is a verifiable client source. It manages network configurations; it does not supply a network service or a model account. You still need your own usable, trusted configuration. [DuyaoSS](https://www.duyaoss.com/) can serve as a community reference for provider introductions, speed-test records, and routing explainers; some visible test and review samples date from 2018–2024, and the site says promotional information may not be updated in time. Treat it as a lead: check providers’ current terms and routes, then test with your own carrier, region, and device. An individual review cannot guarantee performance on your current connection. Installing a client alone does not establish connectivity.
+
+For readers living mainly in mainland China, distinguish **network connectivity** from **service availability**. Mainland China is absent from OpenAI’s [ChatGPT supported-region list](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries). A proxy client does not change that service condition. Establish which services and accounts are actually available to you before selecting tools; the practice described here can also develop with another available model.
+
+When proxy traffic is limited or large software, dependency packages, and Docker images download slowly, ask the model to inspect suitable **mirrors and caches**. Package sources and Docker image registries are different configuration targets. A directly reachable mirror can reduce proxy traffic, while caching reduces repeated downloads. [Docker's registry-mirror documentation](https://docs.docker.com/docker-hub/image-library/mirror/) describes fetching from upstream when needed and reusing cached content afterward. Check origin, supported packages or registries, synchronization, versions, and integrity information, then test on the current network. Keep usable caches rather than repeatedly clearing and downloading them.
+
+<a id="subscription"></a>
+
+## 2. From a subscription to global instructions and essential Skills
+
+Web ChatGPT provides a cloud conversation and tool space for discussion, research, understanding materials, and developing ideas. With the relevant access, local Codex can directly help construct and maintain a **personal knowledge and working environment**: connecting materials, notes, applications, files, scripts, tools, and configuration, and turning ideas into usable arrangements. A project folder is one working location within it; the environment itself can be an ongoing object of improvement. You bring purpose, experience, and judgment; the model carries explanation, investigation, construction, execution, and checking. A concrete need can begin that collaboration.
+
+If you have no usable account, establish connectivity, then choose and purchase a subscription actually available to you. Start on the Web and ask the model to help articulate your purpose and global instructions. Follow the [official quickstart](https://learn.chatgpt.com/docs/quickstart) to download a local client, sign in, and connect a working directory. An existing local client can also help with these preparations.
+
+Check whether your existing account includes the Codex capabilities, limits, and client you need. The official documentation states that [Codex is included in ChatGPT plans](https://learn.chatgpt.com/docs/pricing); actual capabilities and limits depend on the plan, account, and rollout. Use the [sign-in guidance](https://learn.chatgpt.com/docs/auth) for ChatGPT-account access. If your current entitlement fits, you do not need a duplicate “Codex subscription.” Compare an upgrade only after a concrete limit or missing feature becomes relevant.
+
+### Choose a stable personal subscription, then compare its practical value
+
+**Prefer an individual consumer (ToC) subscription, and put reliability ahead of discounts.** Establish account ownership, continued sign-in, the models and usage actually available, and renewal and recovery arrangements. Prefer direct official purchase or a clearly sourced channel with dependable delivery and renewal. A short-term discount does not compensate for repeated failures, reclaimed accounts, or an inability to renew. Compare business (ToB) team or enterprise plans when you actually need collaboration, organization management, enterprise data policies, or contractual guarantees; an enterprise label alone does not make a plan better for an individual.
+
+**Build everyday collaboration around one stable primary subscription, using its actual included entitlements across the local CLI/app and the Web.** Make the arrangement useful before adding or switching subscriptions for a demonstrated capability difference. Frequent switching creates adaptation work for instructions, Skills, interfaces, and habits. Reassess before renewal: continuity does not mean permanent lock-in. Interfaces for a specific purpose, such as translation, can still be configured separately.
+
+Among candidates with adequate reliability and capabilities, **assess local and Web use together and use the corresponding models' API prices as a reference for subscription value**:
+
+1. **List capabilities you will actually use.** Check the models, modes, tools, limits, and reset periods available locally and on the Web. Count shared allowances once; two interfaces do not imply two allowances.
+2. **Estimate the API alternative for comparable work.** Where a comparable API exists, estimate monthly input, cached input, output, and necessary tool usage against the provider's current rates. The [OpenAI API pricing page](https://developers.openai.com/api/docs/pricing), for example, identifies billable categories. An expensive model you never use adds no practical value. Compare Web-only capabilities or unobservable usage separately rather than inventing a precise conversion.
+3. **Compare the actual monthly fee with work you can reliably complete.** Account for local plus Web demand, quality, speed, allowances, and renewal cost, then choose the better value among dependable candidates. API replacement cost is a comparison reference, not a way to derive an included token allowance by dividing the subscription fee by a token price. A higher API price does not automatically make a subscription more worthwhile.
+
+[ChatGPT and the API have separate billing](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform). A subscription is not an API balance, and an API balance does not replace a subscription. Explore API billing when you actually build your own API application or choose API authentication. Consult current official prices and availability rather than treating this guide as a fixed shopping list.
+
+### Let the model help establish the working arrangement
+
+Begin global instructions with a few arrangements that apply across your work: how you want to participate, what the model should carry, how native language and English are used, where files and results belong, and how the model completes work and makes it visible. A Web model can help write them; a local model can place them where the actual client reads them and check that they take effect. You provide purposes and corrections without having to maintain a whole instruction system yourself. Instructions evolve through use.
+
+Ask the model to select, download, and verify the Skills needed now from trustworthy sources. Initial capabilities might cover research, local environment diagnosis, scripts and tools, document reading, interface implementation, versioning, and publication. Choose packages supported by the actual client and check origin, compatibility, and invocation rather than filling a skill store. [Agent Skills](https://agentskills.io/home) explains this capability-package format.
+
+### Develop your own philosophy
+
+**Philosophy, psychology, and engineering support one another; develop engineering first when it is missing.** Learn to organize files, tools, a harness, execution, and verification with model assistance so the work has a usable environment. With engineering available, usually form a model through psychology and personal material before articulating philosophy. With philosophy, develop engineering then psychology; with psychology, engineering then philosophy. With two foundations, concentrate on the missing one. [Trinity](/philosophy/local-source-and-website/en/#philosophy-psychology-and-engineering-develop-the-missing-connection) develops these routes.
+
+**Write your own philosophy, distill your private models, and make selected
+thought into your own works and website.** Philosophy is a broader model; five
+core files carry a narrower model for actual collaboration with an agent;
+life records, chats, memory notes, and original expressions supply evidence.
+All can change. Begin where the material is more developed: personal evidence
+may first support philosophy or a core model, while clear philosophy can suggest
+a model to check against evidence and use. These are not two fixed routes,
+and a finished philosophy is not required before work begins.
+
+YinYang spans philosophical and model layers; research, teaching, development,
+and other specialist Skills supply methods. Adopting the package requires the
+model to rewrite all five files for you: **encounter, user model, counterpart
+and relationship, situated use, and sources**. Organize or reference your own
+private evidence in `personal/`, without copying the author's portrait or file
+list. Ordinary work mainly reads the five, following questions into philosophy
+or evidence. Philosophy and website authoring instead unfold the relevant
+argument, then return grounded understanding to the core accounts.
+
+Give the model the [complete YinYang toolkit](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
+and ask: “Use my authorized material and existing thought to help develop my
+philosophy, form five private core accounts, make them available at my actual
+working entrypoint, and use and revise them with me. Make the parts suitable
+for publication into my website.” The [package's getting-started guide](/repositories/prometheus/source/skills/yinyang/README.html#use-and-understand-yinyang)
+specifies each file's duty; the formation method connects evidence to usable
+accounts, with the model carrying authorship and implementation.
+
+The website unfolds philosophy, the repository maintains source, and the
+personal environment brings core models into work. Writing a page can refine
+the five accounts, while use can send corrections back to the website. Building
+and maintaining the website belongs to the same practice. Choose what becomes
+public; the complete direct model can remain with you and authorized models.
+Sharing philosophy need not disclose concrete identity details and experiences.
+[Trinity](/philosophy/local-source-and-website/en/) develops this mutual iteration.
+
+The central practice is a **philosophy–psychology–personal-environment loop**:
+philosophy helps articulate personal understanding, psychological and preference
+material grounds it in actual experience, engineering makes the relation usable,
+and everyday use returns revisions. The current website and its owning source
+maintain the developed public philosophy; private models are refreshed from it.
+`personal/` retains useful experience, current purposes, and environmental evidence
+that the public account does not express. During relevant work, the model checks
+the original sources and adds, revises, or removes outdated material. Original
+records remain in their own cloud or project locations; the private directory
+need not become another theory or a complete history.
+
+Begin with your experience, preferences, actual work, and the life you want to develop. Work with the model to articulate what matters to you, how you understand the world, and how you want to collaborate with people and tools. This philosophy can form gradually through concrete questions, with concepts, imagery, and organization shaped by your practice.
+
+[Yinyang's methods and material](/repositories/prometheus/en/) provide an optional example: borrow useful relationships or ways of writing, or independently author a completely different philosophy. The example is not a required starting point. The [creation method](/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.html) offers further reference; obtain the complete package and continuing updates directly from the [public GitHub repository](https://github.com/boluopai-net/Prometheus2Heraclitus). Its homepage links back to this website, so readers can move between the reading edition and source files.
+
+Use that philosophy together with existing specialist Skills to let the model create the Skills, MCP tools, plugins, scripts, and interfaces your work needs, including integration and maintenance. The arrangement becomes your own through its purpose and use; it can reuse existing software and libraries. Philosophy need not be perfected before configuring the environment, and practical effects can revise the philosophy in return.
+
+To inspect the philosophical sources above, you need not first read the entire long essay. The [computational-ontology entrance](/philosophy/stealing-fire/en/) develops Gruber's account of conceptualization and ontology alongside Dodig-Crnkovic's info-computational discussion; [The stream and time](/philosophy/flow-and-time/en/) connects James's stream of thought and Bergson's duration; [Preference Harness](/philosophy/preference-harness/en/) compares Freud on conflict and compromise formation, Winnicott on tolerating paradox, and DBT's acceptance and change. Each essay places original sources near the relevant argument and distinguishes their claims from this collection's comparisons. They help articulate relationships; they do not establish therapeutic effects for this personal environment.
+
+<a id="reading"></a>
+
+## 3. Translation and reading in your native language
+
+First translate needed foreign-language material into your native language, then read and understand it in that language, spending attention on content and relationships. For someone whose native and habitual reading language is Chinese, explanations, navigation, comparisons, progress, and results should normally be in Chinese. Other readers can choose according to their own language and habits. Return to the foreign-language original for key terms, disputed arguments, or unclear passages. Understanding a subject need not first become an English test; switch reading modes deliberately when language practice is your purpose.
+
+- **Long webpages:** connect an available translation API to [Immersive Translate](https://immersivetranslate.com/en/docs/services/openai/) or [Read Frog](https://www.readfrog.app/en/docs/providers/overview) for bilingual reading. Reduce switching while retaining the original for inspection.
+- **Selected text, images, and application interfaces:** on Mac, [Bob](https://bobtranslate.com/guide/quickstart/translate.html) supports selection translation, screenshot translation, and translation displayed over the captured image. Select text when possible and capture it when necessary; the recognition and translation services make separate contributions to the result.
+- **Longer documents and courses:** ask the model to prepare a resumable reading edition, retaining headings, formulas, figures, code, and sources. Translation supports understanding; important definitions and inferences should remain traceable to the original. Localization must not damage formulas or code.
+
+### Choose the reading interface and translation API separately
+
+Bob, Immersive Translate, and Read Frog are reading entrances; another service can perform the translation. **Translation can begin with free AI.** [AIHubMix](https://aihubmix.com/models/free), [OpenRouter](https://openrouter.ai/collections/free-models/), and [NVIDIA API Catalog](https://docs.api.nvidia.com/nim/docs/product) offer free models or trial access to examine. Tell the model: “Choose a currently usable free translation endpoint, connect it to my reading tool, and translate a real passage.” Let the model check current activation conditions, model availability, and integration details and carry out the configuration.
+
+Free options are worth trying for occasional words and passages. **Whole pages, many consecutive pages, or large document collections** generate more requests and are more likely to meet rate limits, waiting, or exhausted allowances. Ask the model to reduce concurrency, retain translations already produced, or compare inexpensive paid endpoints and available subscription capabilities when sustained volume matters. [OpenRouter's limits documentation](https://openrouter.ai/docs/api_reference/limits) and current provider pages support configuration checks; there is no need to memorize a quota table. The price of the reading interface and the price of its model are separate questions.
+
+Another route connects an existing model subscription through a gateway or reverse proxy you manage, exposing a compatible API to the translation tools. [Sub2API](https://github.com/Wei-Shaw/sub2api) is an existing implementation to investigate; local configuration already offers an example connecting this kind of endpoint to Read Frog and Immersive Translate. It uses the upstream subscription's capabilities and limits rather than creating an official API balance. Its project also identifies upstream terms and account risks. Select this route according to the actual account conditions; a working connection does not establish official support.
+
+Let the model align **endpoint, authentication key, model name, and protocol**. Use a browser extension's OpenAI-compatible settings when supported; in Bob, choose a service or plugin that supports the endpoint. Test a short passage, then inspect long-page segmentation, speed and limits, and screenshot text recognition. Keep keys in a password manager or the application's credential storage, with placeholders and explanations in shared configuration.
+
+For example, [Bitwarden CLI](https://bitwarden.com/help/cli/) can manage passwords, API keys, and access tokens: retain credentials in the vault and let tools retrieve the relevant item through the command line when needed. Ask the model to configure and verify this retrieval path. Public files keep item references, placeholders, and usage notes; actual secret values stay out of chat, logs, and Git. Access to vault data needs a valid authenticated and unlocked session, arranged for the actual environment.
+
+The person's reading language and the model's working language can differ. This guide uses the following arrangement: **human-facing material uses the person's native language; technical notes, handoffs, and tool instructions primarily maintained by models default to English.** English documentation, terminology, and interfaces make that arrangement convenient. Whether it improves a particular model's performance on a particular task depends on actual results; it does not establish that every model always works better in English. Preserve the required language and format of sources, quotations, code, paths, and interface fields. An English implementation note should not push translation work back onto the person who needs the result.
+
+You can tell the model: “Discuss the work with me in my native language, including the results, evidence, and choices I need to judge. Use English by default for technical material that another model will maintain. Preserve originals, code, and identifiers accurately, and explain any English passage I need to understand where it appears.” Translation services may send selected text or screenshots to the configured provider; choose handling for private material according to its actual destination.
+
+<a id="information"></a>
+
+## 4. Broaden information sources while retaining judgment
+
+In this working route, **Telegram primarily helps locate subscription purchase channels and other services, goods, and miscellaneous resources**, as well as contact sellers, compare offers, and handle follow-up. [Channels and groups](https://telegram.org/faq_channels) provide information and contact; the particular provider owns the transaction. Distinguish official subscriptions, third-party purchasing services, and shared plans, checking what is delivered, its duration, renewal, and account ownership. Evaluate channels by continued usability and support before price; do not sacrifice the primary subscription's reliability for a discount or treat group size and seller claims as proof of reliability. Telegram can also supplement everyday information, but it is not presented here as the main tool for collecting papers or specialist sources.
+
+### Resource access and conditional judgments about unauthorized copies
+
+The legitimacy of a resource needs more than a paid-versus-free distinction. Author-posted manuscripts, open-access papers, public-domain works, openly licensed material, and library resources have their own access and use conditions. Free does not mean pirated. Ask the model to locate a suitable version and check its content, source, and intended use, rather than finding only a downloadable link. [WIPO's copyright FAQ](https://www.wipo.int/en/web/copyright/faq-copyright) introduces the distinctions between permission, the public domain, and exceptions.
+
+**Anna's Archive** and **Sci-Hub** can also enter your assessment of resource channels. The former aggregates records for books and papers, while the latter focuses on scholarly articles. These sites involve unauthorized copies and copyright disputes, so assess particular material under the conditions below. Domains and accessibility change; consult the [background and entry information for Anna's Archive](https://en.wikipedia.org/wiki/Anna%27s_Archive) and [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub), and verify the current source rather than treating every similarly named mirror as the same site.
+
+For material suspected of circulating without authorization, availability, financial circumstances, private study, and effects on creators can enter an ethical discussion. **Those considerations do not automatically establish permission to copy, distribute, or use it.** Reading, retaining a copy, redistribution, and commercial use are different acts; assess the particular resource's permissions and applicable rules, preserve attribution, and do not treat possession of a copy as a right to distribute it further. Software also raises questions about executable origin and integrity: prefer trustworthy open-source alternatives, trials, or educational access, and do not treat an unverified cracked installer as ordinary reading material.
+
+<a id="environment"></a>
+
+## 5. Make tools that fit the person
+
+**The purpose running through these arrangements is to control complexity.** You do not need to reproduce the author's computer, folders, or tool collection. Judge an arrangement by whether it reduces the burden of understanding, operation, and maintenance while retaining the capabilities you need. More tools and finer divisions of work do not automatically improve an environment.
+
+One related software-engineering idea is **a small, simple interface carrying deep, rich functionality**. John Ousterhout's [modular-design notes](https://web.stanford.edu/~ouster/cgi-bin/cs190-spring16/lecture.php?topic=modularDesign) connect interface complexity, functionality, and information hiding. In a personal environment, “prepare reading material for this book” can be the person's entrance while the model locates editions, converts, organizes, and checks them. Sources, results, and consequential choices remain inspectable. “Small” concerns the operations and conventions a person must master; it does not require narrow natural-language purposes or impoverished content. Put complexity where it can be handled while keeping important choices visible.
+
+The goal can be to **entrust construction and maintenance of the whole daily working environment to the model**: install and configure software, organize material, build tools, repair faults, maintain instructions and Skills, and connect the changes to daily use. The person primarily expresses purposes, reads, judges, and responds, writing only necessary Markdown. The model carries the remaining documents, code, configuration, and maintenance. It needs a clear work scope, usable tools, and resumable records; personal decisions such as purchases, identity verification, and publication remain governed by actual authorization.
+
+Design separate entrances for the person and the model. The person needs native-language labels, clear hierarchy, clickable titles, and visible state and results. The model may work better with command-line interfaces, structured data, explicit tool contracts, and maintenance notes. Both entrances address the same work, with a maintained source rather than two copies the person must synchronize. Let the model connect tool choices and repeated steps it can resolve; present the choices that actually need human purpose, judgment, or authorization.
+
+### Configure search first and prefer existing tools
+
+Use a hack-oriented approach of combining and adapting existing tools. Give the model working web and GitHub search and documentation access, verified with a real query. For a new need, first look for an existing implementation and inspect its documentation, recent maintenance, and user reports. Let the model install and configure it, arrange appropriate update checks, and adapt it through settings, plugins, small patches, or rewriting when necessary. Write a new implementation only when no suitable one exists. After updates, verify that the original work still succeeds and retain a recoverable version.
+
+Several concrete search tools can be combined by purpose:
+
+- **General web and source discovery:** [Brave Search](https://brave.com/search/api/) searches webpages, news, and other information; [Parallel](https://parallel.ai/), [Exa](https://exa.ai/), and [Tavily](https://www.tavily.com/) offer search and information access for model use. Let the model select by source coverage and actual results rather than calling every service for each question.
+- **Page reading and bulk extraction:** [Firecrawl](https://www.firecrawl.dev/) reads pages, crawls sites, and extracts content. Discover the relevant object, then inspect the original. For recent community discussion, an available Last30Days integration can collect evidence across sources using a time range chosen for the question.
+- **Papers and academic material:** [Consensus](https://consensus.app/), [SciSpace](https://scispace.com/), and [Hugging Face Papers](https://huggingface.co/papers) are possible entrypoints, with Hugging Face Papers particularly close to the AI research ecosystem. Return to the paper, author, or publisher to check the original research.
+
+These are examples rather than a list to purchase or install in full. Use an existing client's native search when sufficient; add a relevant plugin, MCP connection, or API when coverage, full-text access, or specialist sources are missing, and verify it with a real query. Several tools returning the same source do not provide several independent pieces of evidence.
+
+### Use other people's GitHub repositories
+
+Give the model the repository link and the outcome you want. Have it read the README, installation instructions, license, and supported platforms before choosing an entrance:
+
+- **Use a released tool:** when the project supplies application installers or Releases, select the version for your operating system and processor. Command-line tools may instead use Homebrew, pip, or npm. A source ZIP is not necessarily a runnable application. [GitHub's download guide](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives) distinguishes source snapshots from clones with history.
+- **Run or study the source:** to run source code, inspect implementation, or keep following updates, have the model clone the repository, prepare documented dependencies and configuration, and verify an example with real input. A downloaded ZIP generally omits Git history.
+- **Adapt it to your needs:** first judge whether configuration, a plugin, or a small patch is enough; fork when you need to maintain your own remote version. Keep the reason for changes, the upstream source, and a recoverable version. Compare local modifications with upstream changes during updates, resolve conflicts, and verify the result again.
+- **Ask, contribute, and reuse:** search existing Issues and documentation first. For a reproducible problem, collect the environment, steps, and result in an Issue; propose improvements through a PR. [GitHub's contribution guide](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) describes this path. The model can use GitHub CLI or a connected GitHub tool where useful, posting under your actual authorization. A repository may also supply papers, documentation, Skills, templates, or implementation ideas; its license determines the permitted copying and adaptation.
+
+### Connect actions with scripts, Hooks, Skills, and interfaces
+
+A setting, direct link, or short script may be sufficient. When a method needs repeated use, access across projects, or distribution to others, choose an appropriate package:
+
+- **Small script:** connect concrete actions, such as turning materials into a linked reading page, providing a clearly named menu for common actions, or displaying a background task's completion and errors. The human entrance can be a button, menu, or webpage while the model maintains execution details.
+- **Hook:** connect an action to a defined event, such as checking formatting before a commit or recording a result afterward. Where a client exposes the relevant events, a Hook can also organize tool output or display a task-completion notification. [Git hooks](https://git-scm.com/docs/githooks) are one concrete example. Events, inputs, and failure handling belong to the actual host; one client's configuration cannot simply be copied into another. Have the model connect the existing entrypoint, trigger a real event, and inspect the result, so the action does not depend only on a prompt saying to remember it.
+- **Skill:** describe a recurring task's purpose, method, required material, and checks in a capability package the model loads when needed. [Agent Skills](https://agentskills.io/home) can include instructions, scripts, references, and templates. Their value is making the next task resumable, not accumulating files.
+- **MCP:** use [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) when a model needs a stable interface to a data source or operation. Examples include querying a reading catalog, reading selected notes, or calling an existing conversion program. Scope access and write capabilities to the actual work.
+- **Plugin:** where the selected client supports it, package related Skills, tool connections, and resources for installation, discovery, and updates. Packaging depends on the client; a useful local script does not first have to become an MCP server or plugin.
+
+### From public Skills to your own tools
+
+You can start with a public Skill and ask a model to adapt and maintain it for your actual work. These are public sources to explore; some projects may be preserved in full, while others contribute only a subdirectory or individual Skill, sometimes with local adaptations. This source list does not mean every repository or every file in it is installed.
+
+| Area | Public sources and what they offer |
+| --- | --- |
+| Science and decisions | [K-Dense Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills): scientific workflows and databases; [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter): source-backed life decisions with evidence grades. |
+| Programming and engineering | [Superpowers](https://github.com/obra/superpowers): software development methods; [Anthropic Skills](https://github.com/anthropics/skills): reusable task capabilities; [Matt Pocock Skills](https://github.com/mattpocock/skills) and [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills): engineering practice and code quality. |
+| Models and context | [Hugging Face Skills](https://github.com/huggingface/skills): the Hugging Face model and data ecosystem; [Context Engineering Skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering): context management and agent systems; [TypeSafe Skills](https://github.com/typesafe-ai/skills): composing structured judgments with TypeSafe. |
+| Research, browsing, and diagrams | [Last30Days](https://github.com/mvanhorn/last30days-skill): recent research across communities; [Jev Browser Use](https://github.com/wy-coliney/jev-browser-use): text judgments that support browser actions; [Diagram Design](https://github.com/cathrynlavery/diagram-design) and [Archify](https://github.com/tt-a1i/archify): diagrams and interactive architecture maps. |
+| Tool creation | [CLI Creator](https://github.com/openai/skills/tree/main/skills/.curated/cli-creator) in [OpenAI Skills](https://github.com/openai/skills): package an existing interface or program as a composable command-line tool; this links to that one directory. |
+
+Your own Skills, scripts, and interfaces can take shape around real work. The [reusable Skill catalog](/repositories/en/) includes the draw wheel, research, teaching, papers and subtitles, singing, Android control, shopping, instruction audits, and environment maintenance. Each page identifies its Skill by a Chinese name and native English identifier. Package guides declare companion Skills and actual tools; download the needed group while preserving useful responsibilities. MCP servers and connected apps can be equally concrete: [Jev MCP](https://github.com/jkudish/jev-mcp) offers text-judgment tools, [Logic Pro MCP](https://github.com/MongLong0214/logic-pro-mcp) connects to music software and reads project state, and [PhotoCraft](https://github.com/storytold/photocraft) provides image-editing capability. The [Google Drive app](https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt) can find and work with cloud files within granted access, while [ChatGPT Sites](https://help.openai.com/en/articles/20001339-creating-and-using-chatgpt-sites) can create, preview, and publish websites. These are optional examples; choose tools for the task at hand.
+
+Scripts can also support concrete daily actions. On Mac, ask the model to wrap a selected organization, checking, or synchronization script in a **LaunchAgent**, running after login, on a schedule, or under a suitable trigger and leaving inspectable results. Design **keyboard shortcuts** for frequent actions, such as opening working materials, translating selected text, or starting and stopping a recording. Check key conflicts and the active application, then connect the actions to existing habits. An **AI input method** can turn speech into text, add punctuation, organize expression, or support mixed Chinese and English input; verify the result in the actual input field. These tools shorten the distance from an idea to expression and action, while the model can carry configuration and maintenance.
+
+Other practical tool ideas include: turn PDFs into readable material while preserving formulas and sources; connect selection translation to the current reading action; replace hard-to-remember commands with a searchable menu; link works, originals, and versions directly; and report meaningful background completion or failure while preserving the person's current window, input focus, and work. These are examples to select by the problem, not a required installation checklist.
+
+### Generate images, explain with diagrams, and edit images
+
+Let the model select the visual form for the actual question. **Image generation** can produce illustrations, characters, atmosphere, and visual alternatives from a description; inspect whether exact numbers, relationships, or wording retain their meaning. **Visual explanation** can use [Archify](https://github.com/tt-a1i/archify) for explorable architecture, process, and state diagrams, and [Diagram Design](https://github.com/cathrynlavery/diagram-design) for concepts, comparisons, and relationships. Interactive pages can let readers change conditions and observe results. These tools and methods have their own upstream maintainers, instructions, and licenses.
+
+**Editing an existing image** can use [PhotoCraft](https://github.com/storytold/photocraft): have the model open the selected image, inspect available operations, edit, preview, and export. Generating an image, explaining a relationship, and editing an original serve different purposes. Choose through what you need to understand or create. For study material, place key objects, arrow meanings, conditions, and source support beside the diagram so it contributes to understanding rather than decoration alone.
+
+### Organize work across life with Skills and Projects
+
+This approach can serve many areas of life: psychological exploration and organizing experience, shopping comparisons, coursework, preparing for medical appointments and reading medical material, work projects, game setup and guides, exercise records and plans, and music listening, recording, and practice. Different domains need different knowledge, evidence, and professional support. A model can help select and develop suitable methods, then connect the tools actually available.
+
+**A Skill preserves a reusable method, a Project organizes a continuing purpose with its materials and results, and tools perform concrete operations.** A shopping Skill can serve different purchases, while a continuing study Project retains courses, progress, and exercises. A music project can connect singing practice, recording software, and earlier works. A Project may be a client's project feature or a workspace of local folders, documentation, and versions. Personal philosophy supplies a shared orientation while methods develop within their domains. Handle simple questions directly; let recurring or sustained work accumulate into Skills and Projects that can be continued.
+
+### Reading, terminals, and Vim-style controls
+
+- **Browser:** extensions such as [Vimium](https://github.com/philc/vimium) bring Vim-style actions to webpages: `j` / `k` scroll, `f` displays link hints to open links, `/` searches the page, and `H` / `L` move backward or forward in history. They also support searching and switching tabs. Let the model select an extension for the actual browser, configure common bindings and site exclusions, and check reading pages, forms, and frequently used sites. Supported pages and input-field state affect the keys; successful installation alone does not establish useful operation.
+- **Obsidian:** read and edit necessary Markdown while the model maintains related material, links, and structure. It has [reading and editing views](https://obsidian.md/help/edit-and-read), with built-in [Vim bindings](https://obsidian.md/help/settings) available directly in the editor; basic Vim editing does not first require a community plugin. Reading-mode navigation, tab switching, and plugin actions need their own configuration and checks. If an actual action exceeds the built-in capabilities, let the model assess suitable plugins and their current compatibility.
+- **IDEs and code editors:** use [VSCodeVim](https://github.com/VSCodeVim/Vim) in VS Code or [IdeaVim](https://github.com/JetBrains/ideavim) in JetBrains IDEs to bring Vim modes, movement, and editing habits into the existing editor. Completion, debugging, project navigation, and other commands remain IDE capabilities. Let the model configure which keys each handles and check conflicts while editing, completing, and debugging a real project; consistent controls do not require replacing the whole IDE.
+- **Sioyek:** read textbook and paper PDFs with their original layout, using its [navigation, search, and marks](https://github.com/ahrm/sioyek) to move through material. The model can prepare reading entrances, configure controls, and link citations to actual files.
+- **cmux:** organize terminals and model tasks into recognizable workspaces. Its [vertical tabs, split panes, and programmable interfaces](https://cmux.com/) make task names and status visible.
+- **Editing and command lines inside a terminal:** [Vim](https://www.vim.org/docs.php) / [Neovim](https://neovim.io/doc/user/) edit files; a shell's Vi mode edits commands before execution. These are separate entrances. In zsh, begin with [built-in `bindkey -v`](https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html); consider the [zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) plugin when more complete Vim-style command editing serves an actual need. Let the model inspect the current shell, completion, and history search, then test entering, changing, executing, and recovering commands after configuration. Terminal tabs, panes, and scrollback remain separately managed by the terminal application.
+
+Let the model align common movement, search, history, tab, and pane actions with Vim-style habits across applications. **Prefer vertical tabs or sidebars across interfaces with multiple pages, documents, or tasks**, including browsers, editors, notes, terminals, and websites or tools you create. Arrange names down the side to reduce horizontal crowding and truncated titles; allow collapse and width adjustment so the content retains enough space. Let the model configure or implement this for the actual application, use a collapsible sidebar on narrow screens, and check recognition, switching, and return. An editor's Vim mode, PDF navigation, and terminal workspaces are different capabilities; test conflicts and actual effects rather than delivering only a shortcut table. Retain mouse controls, native-language labels, and searchable menus. Vim-style operation should preserve familiar actions and reduce switching costs.
+
+### Consolidate global configuration with chezmoi
+
+Let the model establish a Git-managed global configuration repository and use [chezmoi](https://www.chezmoi.io/what-does-chezmoi-do/) to bring terminal, editor, keyboard, script-entry, and reconstructible model settings under a maintained source. The model edits source, inspects differences, applies changes, and reads back their effects in the actual applications. GitHub preserves versions for ongoing maintenance, migration, and recovery. Consolidate configuration ownership without putting all application data into one repository: passwords, tokens, login sessions, caches, and temporary state keep their appropriate owners.
+
+Give multiple Obsidian vaults **one shared base configuration**: maintain themes, plugin selection, common settings, and Vim mappings centrally, then let the model synchronize them across vaults. Notes remain in their own vaults, and necessary vault-specific differences remain explicit. Cloud-backed and ordinary local directories may need different copying or linking mechanisms; the model chooses the appropriate method and checks what each open vault actually loads. This reduces repeated setup without allowing a shared configuration update to overwrite note contents.
+
+Start with a request such as: “I do this often, but currently have to remember several commands and switch windows. Inspect the existing approach and give me an entrance I can understand, retaining the result location, failure feedback, and recovery. Try it through once.” Let the model implement and verify the change. Check whether the person can complete the work from that entrance and recover after an error; code executing successfully is only part of that result.
+
+<a id="continuity"></a>
+
+## 6. Local work, GitHub, and a webpage: make work resumable
+
+### Local Codex carries continuing work; Web supports exploration
+
+**This route uses local Codex as its main execution entrance, continuously constructing a personal knowledge and working environment.** That environment includes materials and notes, reading entrances, application settings, scripts and automation, model tools, personal philosophy, and ongoing works. The model can connect these around a task, change their organization, check actual effects, and maintain arrangements for later use. A project folder holds one work's material; it does not define the outer limit of human–model collaboration.
+
+| Entrance | Worksite and available materials | Contribution in this route |
+| --- | --- | --- |
+| Web ChatGPT | Conversations, uploaded materials, connected cloud sources, and the account's available search, research, analysis, generation, and application tools | Open discussion, source research, comparing views, understanding problems, developing ideas, and producing work through available cloud tools |
+| Local Codex | Authorized local files, commands, processes, application interfaces, and connected services | Investigating and changing the actual environment, installing and configuring tools, organizing knowledge materials, writing and running programs, verifying results, and maintaining them |
+| Cloud tasks connected to local or remote environments | Files, tools, and runtime made available by the additional connection | Capabilities depend on the connection; establish where execution happens, which tools are available, and where results persist |
+
+The distinction is **which environment the model can reach, what it can change, and where results persist**. Knowing your need does not automatically give a Web conversation access to your computer's files, applications, and settings. A local execution entrance lets the model bring those objects into actual work. Local models can also discuss and research, while Web models may act through connectors: thinking and execution are not exclusive to either. The official [environment guide](https://learn.chatgpt.com/docs/environments/modes) distinguishes local and cloud workspaces; [local configuration](https://learn.chatgpt.com/docs/config-file/config-basic) and [cloud access to computers](https://learn.chatgpt.com/docs/enterprise/cloud-local-access) describe their respective tools and configuration. Actual capabilities depend on the account and connected environment.
+
+A local client calling a cloud model still needs connectivity. “Local” primarily locates execution and maintainable materials and tools. Web and local entrances may also offer different models, modes, and usage allowances; select them for the question. When another Web judgment is useful, let the local model prepare relevant context and bring useful conclusions back into the environment for implementation. The person participates through purpose, understanding results, and feedback without repeatedly copying background and transporting implementation details between entrances.
+
+### Files, versions, and public expression
+
+This route chooses an environment centered on services outside mainland China: model subscriptions, GitHub, Google Drive, Telegram, and connected tools. Select services by whether they support the same work, with accounts, connectivity, and storage locations that remain usable in the actual environment.
+
+**Use Google Drive for materials and daily files, GitHub for versioned source and configuration, and webpages for readable, participatory results.** [Google Drive for desktop](https://support.google.com/drive/answer/10838124?hl=en) connects selected cloud and local material; before running local tools, the model checks that required files are downloaded and available. Reading material, notes, attachments, and work archives can live on Drive, while project code and the chezmoi repository are managed with Git and pushed to GitHub. Private material belongs in appropriate private spaces. Give synchronization and version control their respective responsibilities instead of letting multiple mechanisms concurrently change the same repository state.
+
+Create a project folder and let the model put the first version there. Keep your initial idea, maintained source, and a short explanation of what it does, how to run it, and remaining problems. When you and the model return, the work has a usable starting point. Keep private materials separate from intended public work, and inspect the files that will actually be published.
+
+[Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) records file changes. Saving a meaningful version, inspecting changes, and returning to an earlier version are already useful. [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) adds remote storage, discussion, and collaboration; a free account can create public and private repositories. Git is the local version tool; GitHub is the hosting and collaboration service. Your first working artifact can begin with local files alone.
+
+Publish a webpage when you want others to read or try the work directly. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) publishes static webpages from a repository. The GitHub Free route uses public repositories and suits HTML, CSS, and JavaScript you intend to make public; it does not run arbitrary backend services. Begin with its supplied address and consider a custom domain later. This website uses Sites. If your account has [Sites](https://learn.chatgpt.com/docs/sites), a model can prepare, check, and publish a site there; availability still depends on your plan, region, and workspace settings.
+
+**Cloudflare is another suitable option for publishing a personal website.** [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) hosts webpage files and can connect backend logic when needed. [Pages](https://developers.cloudflare.com/pages/) supports Git integration or direct uploads; Cloudflare currently recommends Workers for new projects. Let the model prepare deployment and a custom domain for the actual website. A personal website can also be an owner-only workspace, in which case configure real authentication and access control. Exclusion from search engines does not make access private.
+
+Local work is the situated practice, GitHub retains inspectable source, and the webpage offers an entrance for reading and participation. [Trinity](/philosophy/local-source-and-website/en/) develops their relationship.
+
+#### Externalize memory so history can continue
+
+**Human ≈ agent can be understood through finite attention and working context.** Both person and model carry earlier encounters into present action while being unable to hold all the background at once. This is a functional analogy, not a claim that a human brain has a large language model's architecture. Externalizing useful memory into files, notes, or a knowledge base reduces dependence on immediate recollection and gives another model material to read.
+
+Begin with a short maintained account in the existing project: its purpose, decisions, applicable conditions, unresolved questions, and locations of original material. Use file search, knowledge-base retrieval, or RAG (retrieval-augmented generation) to recover relevant portions for the current model. External memory supplies inspectable background; retrieval selects what this task needs. Neither instantly transfers every experience into one context. For example, when resuming a course artifact, the model reads its learning goals and unfinished work first, then consults the original text as needed.
+
+**Retain current memory together with historical sources.** The maintained account can change as understanding develops, while source records help establish what happened and why a later revision followed. In a Codex environment that offers and has enabled Computer History, it retains a rolling activity event stream and summaries according to observation settings, helping recover recent application, page, and task clues; coverage depends on settings and actual capture. Git/GitHub versions, commits, and PRs provide project history. They are not the same Computer History product and do not automatically record all computer activity. Read the former as clues across applications and the latter as changes within a project, then verify against original files and current conditions.
+
+Linking “earlier evidence or action → later revision or result,” at a suitable granularity with edges moving forward in occurrence order, can form a directed acyclic provenance graph: initial need → proposal → commit → use feedback → later revision. [Git commit objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects) also retain parent relationships. These are traces that help explain change, not grounds for claiming that every psychological process is a DAG or that the record covers a whole life. Let the model recover background along relevant traces and assess which memories still apply to the present task. [The stream and time](/philosophy/flow-and-time/en/) develops this relationship between retention and correction.
+
+<a id="first-loop"></a>
+
+## 7. Begin with the model's execution inner loop
+
+You express a need, and the model investigates, constructs, executes, checks, and revises. The result enters actual use, and you and the model reconsider the need through experience and consequences. This can be understood as **two nested feedback loops**: an execution inner loop checks and repairs the current task, while a use outer loop returns the result to the person's life and redirects subsequent work. A few sentences can start the AI's work; you do not have to take over every step.
+
+> Use outer loop: express purpose and experience → encounter and use results → judge together, respond, and redirect.
+>
+> Execution inner loop: the model understands the task → investigates conditions → constructs and executes → checks the result → revises until usable.
+
+“Inner” and “outer” depend on the chosen system boundary. The execution inner loop includes tools, actual runs, and result feedback, rather than only reasoning inside a model. [Inner and outer loops](https://www.mathworks.com/help/control/ug/designing-cascade-control-system-with-pi-controllers.html) are familiar structural terms in control engineering. Here they describe feedback layers in human–model collaboration, without equating the entire arrangement with a particular controller.
+
+The first execution inner loop can address an actual need: connect translation, prepare global instructions, use a Skill, make material readable, or improve a frequent operation. It can also produce a course page, investigate a question, organize work, or establish a repository. The work need not be small for the person's entrance to be simple; the model unfolds the internal work until its result is usable.
+
+1. **You give the purpose; the model develops the task.** “Make this English material comfortable to read.” The model investigates the material, reading entrance, and translation conditions, then implements a suitable arrangement.
+2. **The model completes the internal work to a usable result.** Translation must produce a real passage and the reading entrance must locate the original. Failed checks lead to repair. When your experience, authorization, or personal verification is required, the model returns that concrete question.
+3. **The model preserves resumable results.** Relevant material, configuration, and versions stay in their proper places, ready for subsequent work; you need not manage every intermediate step.
+4. **You use and judge; the model revises.** Point out friction, omissions, and misunderstandings for the next iteration. Your feedback can also redirect work already underway.
+
+Through these loops, personal philosophy, environment, webpages, GitHub repositories, model settings, Skills, and custom tools can evolve together. Philosophy gives configuration direction, configuration supports practice, and practical effects revise both understanding and implementation. The model follows the parts actually affected by a change and keeps them coherent. A particular task can finish while the wider way of living and working continues to develop.
+
+<a id="ways-of-practice"></a>
+
+## 8. Three practices of Stealing Fire: learning, working, and living
+
+The conclusions of [Stealing Fire](/philosophy/stealing-fire/en/) can take three connected forms: use existing generative capabilities to support understanding, turn ideas into usable works, and let the daily environment carry them. The aim is to combine human and model strengths. Human embodied experience, interest, intuition, and overall judgment complement the model's retrieval, comparison, explicit reasoning, editing, and execution. These contributions can change rather than locking participants into permanent roles. Listening, speaking, reading, and writing run throughout: you listen, look, express, critique, and try; the model receives these contributions, organizes materials, and completes the next work.
+
+### Learning: let the model prepare materials, and give attention to understanding
+
+The capacities cultivated here are **a sense of the whole, intuition, and multimodal embodied reasoning**: first recognize the shape and relationships of a question, then refine understanding through text, images, sound, practical action, and feedback. Models carry detail retrieval, material organization, and explicit inference, leaving human attention for understanding, generation, and judgment. Unfold and check details when they affect a conclusion. This allocation does not make exhaustive memorization a prerequisite or treat intuition as a conclusion exempt from evidence.
+
+**Learning material should bring its actual reader into the question.** Alongside what the object is and why an account makes sense, connect it to what you are reading, your existing understanding, lived experience, interests, and actual tasks. What question you have encountered does the concept address? Where does it fit or challenge your previous account, and what could you notice or judge differently through it? Research is one such relationship. A book, an experience, or a work you want to create can support learning without a research plan.
+
+Tell the model what you are studying, the materials already available, and the question you want to understand now, and let it locate and verify originals. For sustained study, the current Teacher method distinguishes the learning object: **two documents for philosophy and textual study; three for technical courses.** Both begin with an independent glossary, opening with a concept map and conceptual throughline before developing terms, distinctions, and source references. Keep it available for lookup while explaining needed concepts where they occur in the main text.
+
+- **Philosophy, intellectual history, and related textual study: a glossary plus an argument and research guide.** The main text develops the book's questions, claims, reasons, transitions, objections, and responses as a connected account, explaining changes in concepts across authors, contexts, or stages. At the relevant arguments, connect your interests, existing understanding, lived and working environment, and current research questions: what does the account illuminate or challenge, and how might it change your understanding of yourself and the world? During question-led discussion, the model retrieves originals and develops explanations. Reading the entire book first is not required, and technical exercises and labs are not assigned automatically.
+- **Technical courses: a glossary, a study and research guide, and an exercises and experiments document.** The guide combines learning and reading routes, explaining concepts, mathematical relationships, methods, or code behavior through the source's actual knowledge structure. Connect these to your tools, projects, research questions, and interests, distinguishing matching and different conditions, possible transfer, and what still needs verification. Those relations also inform examples, depth, and applicable training. The training document distinguishes written exercises from experiments/projects, with their related concepts, sources, purposes, and feedback. If the source supports only one training form, prepare the applicable form. Having training ready does not require completing it immediately.
+
+Both main guides develop **the relationship between the material and its reader** as the relevant concepts unfold. For an argument about knowledge, the model might take up your uncertainty about a particular judgment, comparing how the source explains it and what that explanation misses. For a technical method, connect it to a tool you are building and show which changed condition changes the result. Reuse known context and inspect relevant materials, environment, or research when the connection depends on actual conditions; you need not first reconstruct a complete personal profile. When there is a current research question, compare what can transfer and what still needs verification. Interests and existing understanding can also guide the entry and the relations worth exploring in depth. Develop these connections within the main text and actual explanation rather than creating a separate file for each relationship. Keep the source's claims, the model's proposed analogies, and your experience distinguishable; a concept need not have an immediate personal application.
+
+**The saved guide and the ongoing explanation revise one another.** The guide retains a connected knowledge structure and sources; the model adapts the entrance, depth, examples, and presentation through your questions, objections, intuitions, and responses, returning useful new understanding to the material. Being independently readable does not require explaining it without regard to its reader. You need neither a complete personal profile nor a standard answer before receiving help with an unfinished connection. If an explanation still does not connect, examine missing premises or unsuitable wording and revise it.
+
+Link the glossary, main guide, and applicable training to one another and to original pages or sections. Select images, audio, video excerpts, interactive demonstrations, and real programs by their contribution to understanding the current relationship. An isolated question can receive a direct explanation without first generating a complete book's materials.
+
+Choose tools for specific needs. For a selected source set, [NotebookLM / Gemini Notebook](https://support.google.com/gemininotebook/answer/16179559) is an optional source-questioning entrance, with citations leading back to originals; the model and learning space actually in use carry continuing personal understanding and conversation. Video courses can begin with timestamped captions or transcripts, returning to audio when tone or vocal practice matters. These tools complement Obsidian, PDF reading, and translation without prescribing a mandatory learning platform.
+
+Ordinary users usually do not need to begin by building a standardized knowledge base. Classification, tags, cards, and RAG earn their place when retrieval or continuation actually becomes difficult. First let the model make the current material easy to read, compare, and trace to its source. Keep model-rewritten explanations recognizably connected to originals, revising glossaries and relationship diagrams as questions develop.
+
+In Obsidian, let the model place original PDFs, the glossary, the main guide, and applicable training in the same learning space, connected by meaningful heading and paragraph links. [Backlinks](https://obsidian.md/help/plugins/backlinks) help return from a concept to notes that reference it; [PDF embeds](https://obsidian.md/help/embeds) display a specified page of the original, while [split tabs](https://obsidian.md/help/tabs) put explanation and PDF side by side. For example, read a definition alongside its glossary explanation and relationship diagram, then enter the related argument; technical study can also link to the corresponding exercise or experiment. Let the model maintain links and materials while the person reads, distinguishes, questions, tries, and responds.
+
+Philosophical study can begin with a question and develop through explanation, follow-up questions, objections, examples, and comparison with the original, without a required skimming pass or exercises. Technical study can connect concepts, derivations, and actual behavior, using written exercises, experiments, or projects when they help test understanding. A model providing an answer does not establish that the person understands. Leave yourself opportunities to make and correct the judgments you actually want to practice. Memory, retrieval, and layout can be entrusted to tools; understanding continues through actual encounters.
+
+### Working: express the purpose, and let the model complete the work
+
+Begin with an actual purpose or something that does not fit, without first writing a complete requirements document. Give local Codex the relevant files or observations so it can investigate current conditions, compare existing implementations, explain grounded choices, and complete writing, configuration, execution, and verification. Judge direction through visible prototypes, differences, and results. The model handles details it can investigate and explains choices with material consequences.
+
+For a report, the model finds and checks sources, organizes the argument, and handles layout; you judge whether it addresses the question you actually care about. For a tool repair, the model reads the error, locates and repairs the cause, then verifies through the original entrance; you check whether using it feels natural. Keep source files, necessary explanations, and versions after completion so the next task can continue from existing work. Methods used repeatedly can become Skills, scripts, or Hooks, without building a new system for every task.
+
+### Living: make daily tasks asynchronous where useful, and keep continuity with models
+
+This also chooses a developmental rhythm. Institutions, software, and interaction
+conventions often need to accommodate existing records, agreements, and
+participants; your knowledge environment can improve with models toward new
+capabilities. Every internal exploration need not wait for external arrangements
+to change in step. Develop the need and complete the work, then connect it to
+other relationships through records, results, and suitable moments. The model
+carries connection details while you participate through purpose, use, and
+feedback. Synchrony with the model keeps understanding and revision continuable;
+asynchrony with the world allows time between connections. Concrete
+responsibilities, bodily needs, and actual consequences still determine what
+needs timely response. [Stealing fire](/philosophy/stealing-fire/en/#a-way-of-living-choose-the-rhythm-of-the-fire)
+develops the relation between forward evolution and historical compatibility.
+
+Avoid letting every message, update, or chore demand an immediate switch of attention. Entrust collection, software maintenance, and reminders that can wait to verified background tasks, returning results at suitable times. Arrange people and matters needing immediate response according to their actual relationships. Asynchronous work lets different parts of life keep their rhythms and reduces attention continually pulled by unrelated progress.
+
+Being “in sync” with a model primarily means continuity in what you are understanding and creating: the same question has readable background, the same work has editable source, and feedback enters the next action. This can happen in a brief conversation, side-by-side reading, or a revision; it does not require being online all day. Let the environment carry memory and chores, freeing attention for reading, creation, physical activity, and relationships worth sustaining. Adjust how closely daily life and models connect through actual living.
+
+### Philosophy, psychological modeling, and engineering shape a personal environment
+
+Philosophy, psychological modeling, and engineering jointly serve your living, learning, and working environment. **Worldview—feeling and knowing—method and realization** names their emphases: philosophy articulates how to understand the world; psychological modeling investigates how an actual person feels, understands, and responds; engineering gives this understanding a usable form constrained by physical conditions and actual outcomes. They interpenetrate within one living process; [Trinity](/philosophy/local-source-and-website/en/#worldview-knowing-and-realization) develops this relation. Discover a need through use, then learn what helps you understand and change it, without taking on an unrelated curriculum.
+
+For the needed background, enter [philosophical readings](/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.html), [psychological readings](/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html), or [engineering readings](/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.html). They supply original thought, books and papers, courses and implementation documentation; the preceding tool entrances supply capabilities you can use directly.
+
+**Philosophy helps you understand and choose your arrangements.** Ontology asks which objects, participants, and relations are involved; epistemology asks what supports an interpretation and what evidence would change your judgment. These questions can enter ordinary life: which abilities you want to develop, which work to entrust to models, and how different arrangements affect attention, understanding, and action. Begin with [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/), [Embodied Experimental Philosophy](/philosophy/embodied-experimental-philosophy/en/), or an actual question, forming and revising judgments together with the model.
+
+**Psychological modeling forms the personal model actually used in everyday collaboration.** Bring experiences, preferences, emotional responses, ways of understanding, and actual interaction into a revisable account of how this person participates, which arrangements fit, and under what conditions they change. Form the corresponding model counterpart and their relationship from that understanding. Philosophy supplies a broader frame; everyday collaboration uses the psychological and preference models distilled from this frame and the evidence. They inform explanations, division of work, presentation, and environmental organization. YinYang’s five core accounts provide the working entrance, while concrete evidence remains in private material. The model carries organization, modeling, and writing; your use and corrections test the fit. An elegant philosophy or tool configuration alone does not establish understanding of a person. [Trinity](/philosophy/local-source-and-website/en/) develops their reciprocal revision.
+
+**Engineering begins with using and organizing your environment.** The ChatGPT and Codex interfaces, Skills, model assignments, tool connections, and automation introduced above already constitute engineering practice. You participate mainly through interface operation, natural-language expression, and judgment of results: what is awkward, what help you need, and whether a new tool is worth connecting. The model researches approaches, writes and maintains prompts, configures the agent's harness and tools, and carries out coding, commands, debugging, and verification. Expressing a need or noticing something that does not fit is enough to begin a round of collaboration.
+
+**What is useful to learn is how to allocate and control complexity.** Which work benefits from one model's continuous understanding, and which belongs with a specialist tool? What information should be understood together, and what details can remain inside the implementation? Does adding a Skill, model, or automation actually reduce the burden of use and maintenance? Narrow interfaces specify scope, inputs, and results for stable operations; broad interfaces accommodate purpose, context, and feedback, leaving room for the model to integrate understanding and develop the work. Choose the interface's scope for the task, making capabilities usable and the effects of changes recognizable.
+
+**Continue adjusting through use and experiments.** When reading feels awkward, tools fail to connect, or automation produces an unsuitable result, give the model the observed behavior, expectations, and useful clues. Let it propose explanations, run observable experiments, check and repair the result, then return it to actual use for comparison. You can adjust responsibilities, tools, and automation scope and rhythm without personally debugging every fault or writing every interface. Engineering learning happens through these useful adjustments: learning to organize collaboration, recognize complexity, and judge whether the environment serves you.
+
+<a id="automation"></a>
+
+## 9. Let models supervise, collect, and repair continuously
+
+Once the environment exists, entrust recurring attention to models and automation. The person expresses current interests and valuable outcomes; the model turns them into executable recurring tasks, change checks, and fault handling. Cover the materials and maintenance that the person actually needs, reducing repeated searches, application switching, version comparisons, downloads, organization, and troubleshooting.
+
+### Track changes on the Web; prepare usable material locally
+
+**Information units directly collectable from the Web:** a tool's release note, a subscription's price and limits, a new paper's bibliographic record and abstract, a conference program, or an activity's registration dates. The model periodically checks those objects and their firsthand sources, retaining links, dates, necessary excerpts, and changes since the last observation. This creates an information stream for browsing and judgment without first downloading and converting an entire collection.
+
+**Material needing further processing for personal use:** full papers and textbooks, scanned PDFs, complete courses, spoken video transcripts, personal notes, and experimental code and data. After obtaining the needed version, the model verifies, OCRs, converts, translates, groups, indexes, and links it locally, or prepares its runtime, then places it in the appropriate folder, Obsidian vault, or project. Completion means the material is actually readable, searchable, runnable, or resumable, beyond discovering a webpage.
+
+Connect the two through original links, versions, and processing records. Assess relevance from change information, then send useful objects into local preparation. When existing material changes, process the affected parts. Here, webpage collection is also usually performed by local tasks calling search and reading tools, without needing a separate Web ChatGPT conversation. Keep collection lightweight and give the materials actually used enough organization.
+
+### Arrange ongoing work around actual needs
+
+In ChatGPT, the concrete feature is **Scheduled Tasks**, with a **Schedule task** creation action. Use it to run a defined responsibility repeatedly: follow new sources on a topic each week, check changes, or continue prior progress. Review results, change timing, or pause work in Scheduled. Give the task its long-term purpose, accessible sources, output destination, and the work for each run. Available tools depend on the account; placing a task inside a Project does not give it access to that Project's uploaded files. Check the [scheduled-task documentation](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt).
+
+**Dot is useful for simple, high-volume, repetitive parts of work.** Its continuing, around-the-clock availability makes it a practical place to process batches with clear inputs, relatively stable instructions, and little dependence on a complex local environment. Examples include repeatedly preparing glossaries, textual explanations, and study guides; translating engineering documents, comments, and explanations in bulk; or taking on simple translation tasks extracted from a complex engineering project. The whole project may be complex while particular repetitive steps still have clear, independently deliverable inputs and results. See the [official Dot documentation](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot) for its continuing-work capabilities.
+
+Provide the originals, target language or material format, terminology, completed scope, and output destination. Have it save results in batches, retain progress, and continue with the next batch. Learning material should explain how concepts connect to what the reader is trying to understand. Engineering translations should preserve file and passage correspondence and return to the project for checking. Apply feedback to later batches, handing work needing overall judgment or complex environmental operations back to the model responsible for the complete project.
+
+Scheduled Tasks specifies when work runs, while Dot can carry ongoing responsibility; they can work together. Connect tasks involving local files, software configuration, or devices to models and tools that actually have those capabilities. In every case, inspect sources and output; completed preparation does not establish the reader's understanding.
+
+### Continue local work on a personal server
+
+A computer such as a Mac mini can serve as a **personal server**, providing a continuously available environment for tasks that need local files, applications, or devices. Models can collect sources, prepare learning material, check services, and maintain the environment there, without keeping all background work on your daily computer. Whether a separate machine is useful depends on existing equipment and actual work; it is not a prerequisite for beginning.
+
+Continuous operation requires power, connectivity, an available machine, scheduling, and recovery after restart. Ask the model to configure and verify the actual path from a trigger through execution and saved output to resumption after interruption. Record temporary model-service or network failures and retry when appropriate. “24-hour” describes the operating arrangement, not a guarantee that every service is infallible. The personal server provides the environment, scheduling determines when work runs, and models and tools perform it.
+
+- **New plugins and tools:** follow official releases, GitHub projects, and community experience. Assess whether a capability replaces complex operations, simplifies existing tools, or opens useful work. Integrate suitable implementations by adopting, configuring updates, and adapting them, writing new components only when needed.
+- **Model and software versions:** check models, clients, plugins, and software actually available, and judge upgrades against their current jobs. Verify real entrypoints afterward and bring necessary configuration changes back to chezmoi and the relevant project. A newer version number alone is not completion.
+- **Subscription value:** first check the primary subscription's reliability and dependable account access and renewal, then assess local plus Web capabilities and usage together, using comparable models' current API prices as a value reference. Prefer individual ToC plans and avoid frequent switching for short-term discounts. Recommend retaining, upgrading, downgrading, or replacing a plan when capabilities, reliability, or organizational needs warrant it, and handle subsequent work within existing authorization.
+- **Papers, foundational material, conferences, and experiments:** follow current learning and research questions to collect original papers, author resources, course material, official programs and calls for papers, talk materials, and experimental code, data, protocols, and reproduction notes. Retain source, version, and date; deduplicate and connect prior material. Distinguish collected descriptions from results actually verified.
+- **Activities of interest:** use organizers' announcements, official calendars, and registration pages for firsthand information. Record dates, time zones, locations, eligibility, and deadlines, then track changes. Bring useful changes back instead of requiring the person to refresh several sites repeatedly.
+- **Automatic environment repair:** detect service exits, failed interfaces, synchronization faults, and regressions after updates. Let the model inspect actual state and logs, diagnose and repair within scope, persist necessary changes in configuration source, and verify recovery through the original entrypoint. Bring concrete problems it cannot resolve back for human judgment.
+
+Ask the model to establish useful recurring work: software and model change checks, tool-ecosystem assessments, paper collection and evaluation, Skill updates, Web capability synchronization, and model-led service repair. Readers can extend the same organization to their own materials, conferences, experiments, and activities. This is a working method; writing “watch automatically” in an instruction does not itself establish an executable recurring task.
+
+Ask the model to connect each ongoing responsibility to a real scheduler or event trigger, determine sources, frequency, destination, authorized actions, and situations needing human judgment, and verify an actual run. Retain progress, handled records, and failure state to avoid repeated collection and notifications. Put results in accessible materials and interfaces. Notify on meaningful discoveries, completion, failure, or a required choice, while unchanged routine maintenance remains quiet. Let the model also check whether these automations still work, keeping complex operations in the environment and human attention on understanding, choice, and creation.
+
+## Continue
+
+Let the model complete the execution inner loop, then use feedback from actual use to decide how the environment should change. You can [read methods and diagrams](/repositories/prometheus/en/), discuss your attempts in the [resource comments](/repositories/en/#advice), or create together on [GitHub](https://github.com/boluopai-net/Prometheus2Heraclitus).
+
+Plans, limits, supported regions, and software requirements change; consult the corresponding official page and your actual account before installing or purchasing. This page is a practical entrance; its map and steps express the working approach selected here.

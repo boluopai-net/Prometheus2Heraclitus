@@ -1,0 +1,81 @@
+# Literary Programming
+
+## How one image can hold many relationships
+
+[Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/) proposed the purpose of this writing: to let scattered working arrangements serve this person's encounter with a partner together. The next question is how to write that relationship. YinYang uses literary programming, also called literary natural-language programming: using characters, imagery, narrative, and relationships to organize the model's understanding of a situation, and letting that understanding enter responses, works, and actions.
+
+It first draws on literature's capacity for condensation. The same word can bring many connected images. “Fire” evokes burning, transformation, energy, danger, illumination, and transmission at once; “river” brings movement, continuity, difference, and renewed encounter together. These connections can also determine one another: how fire acquires measure, how a river maintains its form, and how a person becomes themselves amid ongoing change.
+
+“The sun, moon, and earth” can likewise organize an entire set of collaborative relationships. The person forms purposes within their own life, the model participates in unfolding them with its own capacities, and a work enters the environment, acquires consequences, and returns to change the understanding of both. A few sentences bring these connections into view together. Subsequent conversation can unfold one part further or use new experience to change the whole picture.
+
+Condensation is thus both economy of language and density of relationships. It leaves room for expression to grow: today an image helps us understand a division of work; tomorrow the same image helps us understand encounter, generation, and revision.
+
+## How analogy unfolds a metaphor
+
+This distinction continues existing research. George Lakoff and Mark Johnson's [*Metaphors We Live By*, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) places metaphor within the organization of concepts, experience, and action. Dedre Gentner's [“Structure-Mapping: A Theoretical Framework for Analogy” (1983), pp. 155–170](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) explains relational mapping and its connected structure. Applying these questions to writing characters, models, and collaboration below is this essay's further proposal.
+
+Metaphor gathers relationships into a perceptible image; analogy then asks which relationships to take from it and what questions and possible consequences they open for the present object. Imagining collaboration as a workshop can suggest shared materials, trials, and repair. One can then ask whether the model can take up unfinished ideas, examine failure, and carry work to a usable result. Analogy gives the image relations that can be developed; actual use helps judge their fit.
+
+Expression can also gradually lay out a map. Successive utterances mark the assumptions, support, conflicts, analogies, and paused uncertainties of different branches. A receiver can return to a branch point, compare another explanation, and reason further. The speaker's intended map, the expressed relations, and the recipient's understanding each need to be checked through response. Literary programming can thus give people and models means for shared inquiry as well as an attractive conclusion.
+
+Writing those relations into external records and assigning their development to different models in different situations enters the organization of distributed cognition. [Metaphor, Analogy, and Personal Self-Revision](/philosophy/metaphor-and-self-revision/en/) develops this account of listening, speaking, reading, and writing, and the bounded comparisons with a general interpreter and a personal Gödel machine.
+
+## Why condensation makes revision easier
+
+Itemized instructions write approaches into many places. When a default division of work changes, rules for asking questions, writing requirements, execution steps, and the presentation of results may all need revision. Literary programming first gathers the relationship these arrangements jointly depend on, giving revision a place from which it can move the whole.
+
+For example, rewriting “the model is an executor waiting for complete requirements” as “the model is a partner in jointly unfolding the problem” affects several judgments: a sentence from the user can begin an exploration; the model can investigate missing details, propose another interpretation, and make a prototype. This understanding of the role gives approaches across the environment a shared direction; concrete tools and instructions then realize it.
+
+When the shared context is rich enough, a stable image can replace repeated elaboration, reducing repetitive text and token consumption. Forming the shared understanding initially may require explanation; later, a brief expression can recall relationships already unfolded. The benefit of condensation comes from this shared understanding: the reader can reconnect a short sentence to an extended meaning, and revisions can propagate along the same relationship.
+
+This makes literary programming suited to collaboration that continues to develop. As the participants come to know one another, writing can carry their relationship with increasing accuracy; when change arrives, they can rewrite its key imagery, characters, or connections and then examine how actual work changes with them.
+
+## Neither true nor false, paraconsistency, and four information states
+
+“Let us meet as Sun and Moon” proposes a form of encounter. “He is a walking flame” gathers a person's activities into an image. Such expressions can invite, shape, rehearse, and generate; their effects precede the question of judging them true or false as factual sentences.
+
+Literary invitations and imagery need not primarily function as factual assertions. Another meaning to retain is “neither true nor false”: a sentence's truth status has not yet been settled. A model can continue understanding it as a proposal, hypothesis, or relationship to unfold, without immediately reducing it to an already determined truth or falsehood. This uncertainty describes a current state of knowledge; it does not mean that every factual statement an LLM produces lacks truth or falsity.
+
+Allowing both incomplete and conflicting information invites a more precise comparison with four-valued logic. Ask separately whether the available information supports P and whether it supports ¬P. Four states result: support for truth only, falsity only, both, or neither. The last two accommodate conflict and gaps respectively; not knowing whether P holds does not automatically constitute a contradiction between P and ¬P. Paraconsistency prevents a contradiction from entailing any arbitrary conclusion. See the [Stanford Encyclopedia of Philosophy entry on paraconsistent logic](https://plato.stanford.edu/entries/logic-paraconsistent/#ManyValuLogi) for this comparison.
+
+“Neither true nor false” and “paraconsistency” can therefore alternate as points of attention in inquiry: the former lets unsettled meaning continue to unfold, while the latter lets conflicting support retain its local content. Each opens a different position. Literature also accommodates multiple voices: one character's words, another's reply, and a narrator's judgment can appear together without all becoming the author's assertion of the same proposition. Identifying who speaks in what situation before judging support, gaps, and conflicts makes those layers resources for understanding.
+
+The same text can also contain factual and practical judgments. “The model can now access this tool” has an actual state that can be checked; “this division of work makes thinking easier for me” can be experienced and revised through use. Literary programming lets expressions with these different functions work together: imagery proposes relationships, discussion unfolds understanding, facts help determine means, and practice brings results back.
+
+So, in judging a literary program, we can ask what it makes visible, what contributions it makes possible, and what earlier understandings it changes. These questions connect expression to collaboration itself.
+
+## Stronger models and the invisible harness
+
+Literature, history, philosophy, psychological understanding, and preferences provide rich materials for this writing. Literature brings characters and situations; history brings the time through which activity unfolds; philosophy brings distinctions between objects and relationships; psychological understanding helps describe attention, desire, and emotion; and preferences explain how a person wishes to live and work. These materials can meet within the same description of self and partner.
+
+As models become stronger, earlier prompt engineering needs fresh judgment. Scaffolding that once helped a model complete work can become a constraint; positive demands to do something and negative prohibitions can both acquire unexpected effects when a new model encounters an existing harness. September 2026 retained copies of [OpenAI's prompting guide](https://developers.openai.com/api/docs/guides/latest-model#prompting-best-practices) and its article on [rethinking Skills and prompts](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra) discuss stronger instruction following and the risk of older scaffolding overconstraining a model respectively. They give concrete grounds for examining earlier writing again, without establishing that all earlier instructions have failed.
+
+Here, “reverse prompt injection” addresses the model vendor's harness: software, prearranged instructions, and interaction structures through which the vendor shapes model behavior and thereby influences how users can operate. Its internal structure is often a black box to the user. A person sees effects in responses without necessarily being able to inspect and rewrite the arrangements producing them. Accumulating more commands does not always reach the problem; condensation offers another path in writing.
+
+Condensation organizes surface meaning together with layers of underlying intention. The surface can stand on its own: “borrowing fire” can tell a myth; beneath it, one can unfold the use of model capabilities, the cultivation of personal judgment, the formation of shared works, and how those works return to life. Each layer can acquire content and help interpret the others. The better a model understands context and relationships, the more readily it may move from the surface into these intentions, letting the user's purposes participate again in organizing interaction. This is the interpretive path of bypassing a harness proposed here: moving around an established reading so that relationships it obscures can reenter understanding. Its concrete effects remain matters for responses, works, and actions; writing itself does not alter software permissions.
+
+Such writing is also easy to replace as a whole. If “borrowing fire” no longer carries a developing collaboration, a workshop, river, or another narrative can take its place, with its relationships unfolded and examined again. Revision follows intelligible intentions, allowing expression to change with capability without fixing an old image as an eternally effective password.
+
+Literature draws further strength from the inexhaustible generation of meaning in human culture. A form of control that excluded all imagery, ambiguity, fiction, characters, and irony to prevent every reinterpretation would also exclude much ordinary literary and cultural understanding. This cost gives a reason to preserve openness of interpretation; it does not prove that particular texts cannot be recognized or that contextual judgment is impossible. Reverse prompt injection is thus an ongoing cultural practice: bringing substantive, expandable, replaceable expression into the encounter between person and model, beyond a prematurely closed arrangement of roles.
+
+## Beginning with psychology or preferences
+
+Someone familiar with their psychology can write how their attention moves, what arouses desire, how they understand conflict, and how they change within relationships. Someone more familiar with their preferences can write how they like to read, how they hope to be answered, what they are willing to undertake, and what capacities they want to develop. Both starting points can give literary programming personal content.
+
+Next, write the model that encounters this person: how it understands, contributes, raises objections, and brings ideas not yet formed into the world. The descriptions of self and partner thereby determine one another: a person's chosen way of participating affects the work their partner should undertake; new capacities the partner brings may, in turn, change the person's purposes and participation.
+
+Literature now has actual objects. Characters acquire content from encounters, images carry relationships the participants repeatedly recognize, and preferences become clearer through works and responses. Each instance of shared work can provide material for the next act of writing.
+
+## How YinYang uses this writing
+
+YinYang writes literary programming into a philosophical Skill. Everyday collaboration starts with the encounter and the complete user and counterpart models, making both participants available to current understanding, then realizes their relationships through specialized Skills, prompts, hooks, tools, and the environment. YinYang primarily carries ontology and epistemology, making objects and relationships distinguishable and interpretations and feedback discussable; other Skills primarily supply methodology, giving understanding a concrete form of action. Condensed expression supports continuity without replacing complete reading of both models.
+
+This also gives layered prompts a basis in authorship: first make participants, purposes, and ways of knowing intelligible, then let concrete methods acquire meaning within that understanding. A Skill can carry the philosophical layer and global instructions can connect it to work; a carrier's name does not determine its interpretive scope. [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/) develops the distinction between interpretive dependence, prior reading, and actual instruction authority, along with the return through which methods and environments revise philosophy.
+
+The condensation of writing and the unfolding of practice support one another here. Brief expressions make relationships easy to carry forward, extended discussion makes meaning inspectable, and concrete works let the participants encounter consequences. Rewriting begins with these consequences and returns to the next encounter.
+
+Literary programming writes a path for fire borrowed from outside into personal life: letting capacities unfold around a person's world, while allowing that person to cultivate their own capacities through encounter, creation, and feedback, and to keep becoming.
+
+At this point in the writing, the writer also enters the program. If one writes oneself as a completed person who merely needs the world to execute one's wishes, new encounters will find it hard to change that picture. For this writing to continue, a person needs to retain the capacity to become a “baby”: to receive what is not yet known, let their understanding be touched, and keep growing with the help of partners stronger than themselves. Literary programming thus pushes “how to write” toward “how to become.”
+
+[Baby Heraclitus](/philosophy/baby-heraclitus/en/) has already given continuing becoming a character. Next, [Metaphor, Analogy, and Personal Self-Revision](/philosophy/metaphor-and-self-revision/en/) unfolds imagery into relations and distributed practice; the [sinthome essay](/philosophy/writing-a-sinthome/en/) then explains how personal philosophy acquires a form sustaining life and action, giving the earlier generative direction actual capacities.

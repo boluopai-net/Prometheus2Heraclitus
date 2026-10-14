@@ -1,0 +1,52 @@
+/* Shared masthead and semantic theme colors. Original art keeps its palette. */
+:root{--surface:#f5f7f6;--surface-hover:#edf2f1;--sans:"Hiragino Sans GB","PingFang SC","Microsoft YaHei",sans-serif;--serif:var(--sans);--mono:Menlo,"PingFang SC",monospace;color-scheme:light}
+pre,code,kbd,samp,.document :is(pre,code,kbd,samp){font-family:var(--mono)}
+:root[data-theme="dark"]{--paper:#171e20;--ink:#e5eceb;--muted:#abb9b8;--line:#344346;--accent:#9bd6d0;--water:#9bd6d0;--surface:#222e30;--surface-hover:#2b3b3d;color-scheme:dark}
+.header{height:auto;min-height:0;display:block;padding-block:24px 0}
+.header-top{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px}
+.header .wordmark{display:inline-flex;align-items:center;gap:10px;font-family:var(--serif);font-size:28px;letter-spacing:2px;white-space:nowrap}
+.brand-lion{display:block;width:48px;height:48px;object-fit:cover;object-position:center 24%;border-radius:50%;flex:none}
+.header-controls{display:flex;align-items:center;gap:16px;font-family:var(--sans);font-size:15px}
+.language-control,.theme-control{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:8px 4px;white-space:nowrap}
+.language-control{color:var(--water)}
+.language-control.unavailable{color:var(--muted);font-size:14px}
+.theme-control{border:0;background:transparent;font-size:15px;cursor:pointer;color:var(--muted)}
+.theme-control:hover,.theme-control[aria-pressed="true"]{color:var(--water)}
+.theme-control [aria-hidden]{font-size:18px;line-height:1}
+.header .section-tabs{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:20px;border-bottom:1px solid var(--line);font-size:16px}
+.header .section-tabs a{display:block;min-height:44px;padding:10px 0 14px;margin-bottom:-1px;border-bottom:2px solid transparent}
+.header .section-tabs a[aria-current="page"]{border-bottom-color:var(--water);color:var(--water)}
+.header .section-tabs a:hover{text-decoration:none;border-bottom-color:var(--water)}
+.header a:focus-visible,.header button:focus-visible{outline:2px solid var(--water);outline-offset:3px}
+.landscape,.diagram-card img,.document pre,.document th,.article .article-body>p:last-child{background:var(--surface)}
+.outline-button:hover{background:var(--surface-hover)}
+.commentary .reader-toc a,.commentary .source-note{color:var(--muted)}
+/* Reading links share a color; hover and keyboard focus reveal interaction. */
+body a[href]{color:var(--water);text-decoration:none}
+body :is(main,footer,.reading-rail) a[href]{color:var(--water);text-decoration:none}
+body a[href]:hover{color:var(--accent);text-decoration:none}
+body :is(main,footer,.reading-rail) a[href]:hover{background-color:var(--surface-hover)}
+body .header .wordmark{color:var(--ink);text-decoration:none}
+body .header .section-tabs a[href]{color:var(--muted);text-decoration:none}
+body .header .section-tabs a[href]:is(:hover,[aria-current="page"]){color:var(--water);border-bottom-color:var(--water)}
+body main a.diagram-card{color:var(--ink);text-decoration:none}
+body main a.diagram-card h3{color:var(--water);text-decoration:none}
+body :is(a,button,summary):focus-visible{outline:2px solid var(--water);outline-offset:4px}
+/* Reading stages, article titles, and explanations have distinct visual levels. */
+.collection .commentary-group-heading h2,.collection .stage-entry h2,.collection #practice h2{font-size:clamp(34px,3.4vw,48px);line-height:1.35;letter-spacing:.01em;margin:0 0 20px}
+.collection .commentary-group{margin-top:72px}
+.collection .commentary-group-heading{padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.collection .commentary-group-heading p{max-width:720px;font-size:17px;line-height:1.85;color:var(--muted)}
+.collection .commentary-group .essay-entry h3{font-size:clamp(24px,2.2vw,30px);line-height:1.45;margin:0 0 14px}
+.collection #practice{margin-top:72px;padding-top:36px;border-top:1px solid var(--line)}
+.collection h2 a,.section-heading h2 a{color:var(--accent);text-decoration:none}
+.collection h2 a:hover,.section-heading h2 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:.18em}
+.collection h2 a:focus-visible,.section-heading h2 a:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
+@media(max-width:767px){.collection .commentary-group{margin-top:48px}.collection .commentary-group-heading h2,.collection .stage-entry h2,.collection #practice h2{font-size:32px}.collection .commentary-group .essay-entry h3{font-size:24px}}
+/* The canvas and ink-wash artwork intentionally remain unfiltered. */
+:root[data-theme="dark"] .landscape{background:#f5f7f6}
+.eyebrow,.quiet-label,.essay-meta{font-size:15px;letter-spacing:0;font-weight:400}
+.footer p,.footer>a:last-child,.source-note,.reader-provenance{font-size:14px}
+@media(max-width:767px){.header{padding-top:16px}.header .wordmark{font-size:24px}.brand-lion{width:38px;height:38px}.header-controls{gap:12px}.header .section-tabs{gap:24px;margin-top:12px;font-size:16px}.header .section-tabs a{padding-bottom:12px}}
+@media(max-width:359px){.header-top{gap:8px}.header-controls{gap:8px}.header .wordmark{gap:8px;font-size:22px;letter-spacing:1px}.brand-lion{width:30px;height:30px}.language-control.unavailable{font-size:14px}.theme-control{font-size:14px}}
+@media print{.header{display:none}:root[data-theme="dark"]{--paper:#fff;--ink:#292d31;--muted:#687276;--line:#e9eded;--accent:#245f64;--water:#245f64;--surface:#f5f7f6;color-scheme:light}}

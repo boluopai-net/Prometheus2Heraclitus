@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diagram maintenance · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="diagram-maintenance">Diagram maintenance</h1>
+<p>These concept diagrams interpret the English public claims in <code>docs/core-views.md</code>
+and the corresponding complete Chinese edition: <code>encounter</code> covers YY-05,
+YY-10 and YY-11, with the ongoing-process distinction developed in YY-09;
+<code>layers</code> covers YY-09. English is primary; the complete matching Chinese versions
+use the <code>.zh-CN</code> filename suffix. The candidate JSON files are the editable source.
+HTML is the self-contained interactive viewer;
+SVG is a canonical static export made through the viewer's native export menu.
+The SVG contains the graph and legend; explanatory cards and guided views remain
+in the HTML and the public claim text.</p>
+<p>Generated with Archify 3.0.1. From the Yinyang references directory (<code>skills/yinyang/references/</code> in the collection), with <code>ARCHIFY_CLI</code> pointing
+to the installed <code>bin/archify.mjs</code>, regeneration uses:</p>
+<pre><code class="language-sh">node &quot;$ARCHIFY_CLI&quot; finalize architecture diagrams/encounter.candidate.json diagrams/encounter.html --quality showcase --out-dir &quot;$CHECK_DIR/encounter&quot; --json
+node &quot;$ARCHIFY_CLI&quot; finalize architecture diagrams/layers.candidate.json diagrams/layers.html --quality showcase --out-dir &quot;$CHECK_DIR/layers&quot; --json
+node &quot;$ARCHIFY_CLI&quot; finalize architecture diagrams/encounter.zh-CN.candidate.json diagrams/encounter.zh-CN.html --quality showcase --out-dir &quot;$CHECK_DIR/encounter-zh&quot; --json
+node &quot;$ARCHIFY_CLI&quot; finalize architecture diagrams/layers.zh-CN.candidate.json diagrams/layers.zh-CN.html --quality showcase --out-dir &quot;$CHECK_DIR/layers-zh&quot; --json
+</code></pre>
+<p>Choose a new temporary <code>CHECK_DIR</code> for a changed candidate. After successful
+finalization, the viewer's <strong>Export → SVG · Auto</strong> action (or<strong> 导出 → SVG · 自动</strong>)
+produces the dual-theme
+static preview. Use headless browser controls for this operation when preserving
+desktop focus. No server or package installation is required to read the HTML.</p>
+<p>Candidates carry their complete resolved language catalogs because Archify 3.0.1
+uses English defaults for missing keys in a custom catalog. The small semantic
+overrides describe modeled relations and questions instead of software components.
+Preserve those overrides when updating the catalog with a future tool version.</p>
+<p><code>validation.json</code> records portable byte hashes and completed checks. Its
+<code>pathBase</code> is relative to that file: <code>..</code> is the Yinyang references directory. Source,
+candidate output, and recorded file paths resolve from that root. Native
+delivery and browser receipts contain machine-local absolute paths; they are
+temporary execution evidence and are deliberately excluded from this repository.
+Do not treat this portable summary as a native delivery sidecar. A future strict
+provenance check requires a fresh finalize run in its own checkout.</p>
+<p>Trace motion shows authored relationship directions. It does not establish
+temporal order, causal strength, update frequency, or demonstrated human growth.
+These are conceptual maps, not executable workflows or authority hierarchies.
+The displayed relations illustrate one local path through revisitable source
+occurrences, conditional candidate models, adopted views, outputs and evidence.
+The ongoing process exceeds any selected view; its input need not be an explicit
+query. Both the human and model are modeled as interacting event streams;
+local working models are revisable formations within that process. Candidate
+coexistence does not itself jointly accept incompatible premises. The selected
+analogy favors a coherent working ontology while accommodating conflicting
+data and interpretations, supporting stability without freezing the ontology.
+The preference-harness analogy informs informal natural-language reasoning;
+it does not require formal modeling or select a calculus. Human/model contributions
+are permeable positions of generation and judgment. Computational ontology
+provides their shared event-based foundation; physical reduction is neither
+established nor required here.</p>
+<p>Retain <a href="/repositories/prometheus/source/skills/yinyang/references/diagrams/THIRD-PARTY-NOTICES.html">third-party notices</a> with redistributed generated
+viewers and exports. This notice does not assign a license to the original claims.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul></ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

@@ -1,0 +1,120 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paper Retrieval · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="paper-retrieval">Paper Retrieval</h1>
+<p>A useful collection connects a question to work worth reading and to the actual
+text behind its citation. Relevance, bibliographic coverage, access, and file
+identity are different claims. Keep each visible so the reader can trust the
+result without repeating the search. This portable package requires a search
+or HTTP/browser capability supplied by the recipient host; it does not install
+an authenticated browser or grant library access. Use the companion
+<a href="/repositories/prometheus/source/skills/research/SKILL.html">research</a> for evidence selection, current external
+investigation and conflicting-source assessment; this Skill owns scholarly
+identity, acquisition and text verification. See <a href="/repositories/prometheus/source/skills/paper-retrieval/README.html">setup and dependencies</a> and the
+<a href="/repositories/prometheus/source/skills/paper-retrieval/references/sources-and-verification.html">sources and verification guide</a>.</p>
+<p>For controlled or authenticated pages, retain a separate browser/session owner
+using <a href="/repositories/prometheus/source/skills/browser-relay/SKILL.html">browser-relay</a> for exact target custody,
+authorized session reuse, destination/readback verification, desktop placement
+and cleanup. A browser API is the execution capability; a companion Skill
+supplies its method and ownership contract. Neither provides entitlement.
+The dependency table distinguishes companion methods from host capabilities.
+For evidenced network faults, use <a href="/repositories/prometheus/source/skills/network/SKILL.html">network</a> with the
+recipient’s configured diagnosis capabilities; a retrieval failure does not itself
+authorize proxy, DNS or routing changes.</p>
+<h2 id="establish-the-collection">Establish the collection</h2>
+<p>Resolve question, authors, languages, date range, selected versus exhaustive
+scope, requested editions/versions, and destination from the task. Inspect an
+existing manifest before downloading. Select substantive relevant contributions
+by abstract and, where available, argument, conclusion and references. Explain
+their contribution; prestige and citation counts alone do not establish quality.
+Mark abstract-only relevance judgments as provisional.</p>
+<p>For an author bibliography, verify identity through official CV/faculty pages,
+coauthors, field, title and affiliation history. Names and transliterations alone
+are insufficient. Keep current institutional grouping distinct from affiliation
+printed on an older work. Separate verified bibliographic coverage from obtained
+texts. For books resolve author/editor, language/translation, publisher, edition
+and ISBN; for chapters identify the containing book as well.</p>
+<h2 id="discover-and-reconcile">Discover and reconcile</h2>
+<p>Search exact titles and meaningful variants, official author pages, publishers,
+DOI records and disciplinary/university repositories. Scholar's versions view,
+Crossref/OpenAlex, repository indexes and open-location services supply different
+evidence. Follow records to their original source. A closed-access flag or failed
+profile search does not establish that no author copy exists.</p>
+<p>For Chinese works, combine author bibliographies, journal/university sites and
+Chinese indexes such as CNKI or NSSD when available. Inspect actual result rows,
+including asynchronous results; a heading/count is not a verified bibliography.
+Cross-check conflicting metadata against publisher records and the text. Preserve
+the source citation and explain supported corrections. Article, chapter, book and
+review-container identifiers are not interchangeable. Record search sources and
+remaining coverage rather than claiming exhaustive absence from a single index.</p>
+<h2 id="acquire-available-text">Acquire available text</h2>
+<p>Use a labelled direct public file or the repository/publisher's official download
+control. For a public HTTPS PDF, a concrete CLI route is:</p>
+<pre><code class="language-sh">curl --fail --location --proto '=https' --proto-redir '=https' --output candidate.pdf 'DIRECT_PDF_URL'
+python3 scripts/inspect_pdf.py candidate.pdf
+</code></pre>
+<p>Replace the placeholder with an inspected public file URL. <code>curl</code> does not handle
+interactive login, CAPTCHA, institutional access or JavaScript download controls.
+For those, use the host's available browser/download API within the task's actual
+authorization, or download through the recipient's normal authorized interface
+and inspect the local file. Associate the returned file with the initiating work
+and download action. Reconcile an uncertain prior download before retrying.
+Reuse a session only under its owner's actual authorization. Separate owned
+pages may share a session; extra browser instances do not establish throughput
+or entitlement. Page-local response capture can be associated with its initiating
+page. If a browser-wide download channel is shared, serialize capture or use a
+supported unique initiating-action identifier and verify its matching completion;
+otherwise concurrent downloads cannot be safely attributed. Preserve the
+official navigation/control path when source validation depends on it. Distinguish
+transport, visible challenge, session, entitlement, format and capture failure.
+Do not export cookies, derive entitlement from a logged-in page, evade site
+restrictions, or use private adapters. Preserve existing personal authentication,
+consent, payment and outbound-contact boundaries; reuse authorization already
+given. A technical failure alone is not proof of denied entitlement.</p>
+<h2 id="verify-before-adoption">Verify before adoption</h2>
+<p>Run the bundled inspector for PDF signature, parseability, page count, SHA-256,
+and first/last-page text. These checks deliberately report identity/completeness
+as unverified. Inspect title, authors, year, publication/version information,
+body coverage, ending and references against the intended record. Render pages
+with <code>pdftoppm</code> or a PDF viewer when text is absent or unclear. Inspect intervening
+pages/contents when the scope requires it; endpoints alone cannot detect missing
+middle pages. HTTP success, filenames and <code>%PDF-</code> do not prove the correct work.
+Reject HTML/errors, wrong works, previews and damaged files. Compare hashes across
+the collection to detect repeated bytes returned under different citations.</p>
+<p>Identify format by bytes even when extension is <code>.caj</code>. Preserve a genuine CAJ/KDH
+original if obtained; conversion needs a separately available legitimate tool.
+Verify any derivative independently. Do not reconstruct a purported original
+from webpage text. Label manuscripts, preprints, translations, OCR, excerpts,
+appended abstract sheets and composition differences accurately; none silently
+becomes the version of record or a complete book.</p>
+<p>Keep original files and an existing manifest schema. A new small manifest needs
+title, authors, year/edition, verified identifiers and stable source links, local
+file, version, retrieval date, hash, identity/completeness evidence, and relevant
+limits. Store neither signed download URLs nor session secrets. Deduplicate by
+identifier, edition/version and bytes; retain materially different versions.
+Respect the destination's link/rename conventions when reorganizing.</p>
+<h2 id="resolve-and-report-gaps">Resolve and report gaps</h2>
+<p>For every selected work without the requested verified text, record the actual
+condition: unresolved identity, unconfirmed version, unsearched source coverage,
+technical failure, personal authentication step, confirmed entitlement limit,
+or no open copy exposed by the inspected sources. These conditions can coexist;
+<code>not_found</code> alone is insufficient. Continue recoverable work and independent
+accessible items. Seek another fitting source, meaningful title variants or
+format route when evidence supports it. Stop an item only at an evidenced
+external boundary or the user's stopping scope, with a concrete resume condition.</p>
+<p>Keep observed dates, attempted route/result, remaining coverage, next action,
+and whether personal participation is useful in the owning manifest. Notify the
+user when the actual next action requires their participation, rather than
+asking them to repair technical failures. At the handoff, identify every still
+required incomplete work directly in the conversation: title, author, year or
+edition, missing scope, supported stable link and copyable verified DOI/ISBN or
+other source-labelled identifier. Distinguish partial/unverified files, obtained
+alternate versions, and optional upgrades. A count or manifest link cannot
+replace that per-item explanation. Acquired text and remaining gaps are separate
+results; inaccessible scholarship is not absent scholarship.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#establish-the-collection">Establish the collection</a></li>
+<li><a href="#discover-and-reconcile">Discover and reconcile</a></li>
+<li><a href="#acquire-available-text">Acquire available text</a></li>
+<li><a href="#verify-before-adoption">Verify before adoption</a></li>
+<li><a href="#resolve-and-report-gaps">Resolve and report gaps</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>任务探究 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/task-inquiry/README.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/philosophy/">哲学</a><a href="/singing/">唱歌</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus"> GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><p class="eyebrow">参考文档</p><h1 id="任务探究">任务探究</h1>
+<p><strong>通过证据、推理与有用的问题，澄清会影响行动的未决问题。</strong></p>
+
+<p>任务探究帮助助手处理那些会改变任务下一步行动的不确定性。它从真实的分歧或不符之处出发，形成可检验的解释，再通过证据或针对性提问加以区分。助手承担调查与推进工作，不要求用户先把问题整理成完整规格。</p>
+<h2 id="怎样使用">怎样使用</h2>
+<p>通过你的助手所支持的 Skill 机制提供完整的 <code>task-inquiry/</code> 目录；当重要歧义、相互冲突的解释或未决选择会影响任务时，调用<strong>任务探究</strong>。本包的独立指引位于
+<a href="/repositories/prometheus/source/skills/task-inquiry/SKILL.html"><code>SKILL.md</code></a>。它不依赖特定的配套框架、私人上下文、脚本或服务商集成。</p>
+<p>只有探究能改善结果时才使用这套方法。目标清楚、条件已定的任务应直接推进。只有答案会改变解释、证据或行动时，提问才有意义。</p>
+<h2 id="示例">示例</h2>
+<p><strong>调查意外结果。</strong>报告的总数与仪表盘不一致。助手检查日期范围、筛选条件和指标定义，找出哪些差异可能解释不符；只有现有证据无法确定预期报告周期时，才向用户询问。</p>
+<p><strong>澄清重要偏好。</strong>两个方案都能达到既定目标，但一个更省时间，另一个保留更多灵活性。助手说明这项取舍，并在执行依赖该选择的步骤前询问用户更看重哪一项；同时继续独立的调查工作。</p>
+<h2 id="方法概览">方法概览</h2>
+<p>助手先找出真实分歧，区分事实、假设与未知，再提出值得检查的解释。它推导不同解释各自应带来的差异，收集现有证据并据此修订判断。在普通工作中，只有证据无法提供答案、且答案会改变工作时，才向用户询问信息或决定。教学也可以通过提问显露或发展理解，见下文。实际交互与授权仍遵循当前宿主的边界。</p>
+<h2 id="工作与学习">工作与学习</h2>
+<p>在普通工作中，有用的反馈可以帮助用户看见某种关系：说明当前解释推导出什么，证据又显示什么。助手仍承担推理和执行，不额外安排课程或练习。在教学情境中，即使答案已知，也可以通过提问和练习显露或发展学习者的理解。教学角色依据学习目的选择方法并负责进度；这套探究方法不会把教学形式强加给普通任务。</p>
+<h2 id="许可">许可</h2>
+<p>这个独立包采用<a href="/repositories/prometheus/source/skills/task-inquiry/LICENSE"> MIT 许可</a>。可以从<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry"> GitHub 包目录</a>取得完整包，使用、修改和再分发，包括商业使用，并须保留 MIT 要求的声明。本包不包含 Yinyang。<a href="https://github.com/boluopai-net/Prometheus2Heraclitus">公开集合仓库</a>提供下载与 Issues/PR 协作。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
+<ul>
+<li><a href="#怎样使用">怎样使用</a></li>
+<li><a href="#示例">示例</a></li>
+<li><a href="#方法概览">方法概览</a></li>
+<li><a href="#工作与学习">工作与学习</a></li>
+<li><a href="#许可">许可</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

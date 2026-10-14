@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>模型升级检查 · model-upgrade-check · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="模型升级检查--model-upgrade-check">模型升级检查 · model-upgrade-check</h1>
+<p>Maintain model choices by purpose as providers and catalogs change. A model
+announcement, a similar-looking version label, or a successful configuration
+write does not establish that a choice fits its intended work or that a
+consumer is using it.</p>
+<h2 id="discover-the-actual-system">Discover the actual system</h2>
+<p>Start from the user's request and the affected work. Establish which purpose,
+role, account, provider, and consumer are in scope. Respect explicit current
+task choices and preserve running sessions and their account/provider identity.
+Do not infer that all consumers share one provider, catalog, policy file, or
+fallback.</p>
+<p>Inspect the recipient's actual configuration and supported interfaces to find:</p>
+<ul>
+<li>the policy or source that owns purpose-to-model choices;</li>
+<li>the executable settings, generators, and runtime consumers that realize it;</li>
+<li>the active provider and account for each affected consumer;</li>
+<li>the provider's current model catalog and supported reasoning effort, mode,
+  or capability tier;</li>
+<li>any established fallback and the conditions under which it is supported.</li>
+</ul>
+<p>Use authenticated or account-specific catalogs through an authorized session
+or the recipient's existing credential owner, without exposing credential
+values. Prefer provider documentation for unsettled behavior. If a consumer or
+mapping cannot be inspected, retain it as unknown instead of assuming a name
+or capability correspondence. Preserve provider/account identity; do not
+switch them as a shortcut.</p>
+<h2 id="select-by-purpose">Select by purpose</h2>
+<p>For each affected role or consumer, derive the capability it needs from its
+actual work, latency and quality needs, and consequences of error. Compare
+currently available candidates by demonstrated or documented capability,
+supported effort/mode, and operational fit. Match local IDs and hosted labels
+by task capability and purpose, never by spelling or version-number similarity.
+Select effort separately from model choice. Preserve explicit user selections
+and any still-supported specialized choice; do not migrate unrelated consumers
+because a new model exists.</p>
+<p>Record the current choice, proposed choice, reason, source of current
+availability evidence, supported fallback, and affected consumers. A fallback
+is valid only when that same consumer can use it under its actual provider and
+account configuration. If no fallback is verified, say so. Keep historical
+notes, examples, announcements, and prompting guides separate from active
+policy.</p>
+<h2 id="change-the-owning-policy-and-consumers">Change the owning policy and consumers</h2>
+<p>Use <a href="/repositories/prometheus/source/skills/prompt-and-skill-lifecycle/SKILL.html">prompt-and-skill-lifecycle</a> when
+changing instruction or Skill assembly. For durable host configuration, use
+<a href="/repositories/prometheus/source/skills/chezmoi/SKILL.html">chezmoi</a> with the recipient's configured publication owner;
+the local source calls that owner <code>macos-publish</code>, which is not bundled here.
+For unsettled OpenAI product behavior, use the host's available <code>openai-docs</code>
+alongside relevant independent evidence through <a href="/repositories/prometheus/source/skills/research/SKILL.html">research</a>.
+These are conditional method relationships, not mandatory provider integrations
+for a read-only catalog check. Actual tools and authority remain host-supplied.</p>
+<p>Find the actual owner of each policy and configuration field before editing.
+Update the authoritative purpose-to-model rule and remove displaced active
+instructions that would conflict with it. Change only the affected executable
+consumer settings through their existing configuration owner. Provider-required
+identifiers may remain in executable configuration as realizations of the
+policy. Keep provider-specific syntax and version IDs out of reusable role
+guidance unless that guidance itself owns a verified specialized selection.</p>
+<p>Preserve account and provider identity, credentials, schedules, enabled state,
+task identity, and running sessions. Do not restart an active conversation to
+force a new default. Treat ordinary updates according to the recipient's real
+authorization and publication boundaries; this Skill adds no approval gate or
+deployment process.</p>
+<h2 id="verify-through-the-real-consumer">Verify through the real consumer</h2>
+<p>For every affected consumer, keep these observations distinct:</p>
+<ol>
+<li><strong>Policy source:</strong> the maintained instruction or setting names the intended
+   purpose-based choice and fallback.</li>
+<li><strong>Runtime readback:</strong> the assembled instructions or effective configuration
+   actually exposes the intended model, effort/mode, provider, and account.</li>
+<li><strong>Successful use:</strong> the real consumer completes a small, meaningful,
+   authorized request using that selection.</li>
+</ol>
+<p>One observation does not prove the next. Verify at the consumer's public
+entrypoint where possible; a rendered prompt does not prove a saved model field,
+and a configuration readback does not prove the consumer can run. Use a safe
+public probe only when it provides useful evidence without changing unrelated
+state. For an account-specific hosted selector, read back the selected model
+and mode before any in-scope use. Do not launch unrelated jobs or submit a
+consultation just to validate policy prose.</p>
+<p>If context-window settings are part of the requested change, inspect effective
+window and compaction behavior, including inherited settings, separately from
+conversation-history isolation. A short request can verify effective
+configuration, not long-context quality.</p>
+<p>Report the policy source changed, each consumer's runtime readback, successful
+use evidence, and any unavailable or unverified mappings separately. State
+what remains unknown and the concrete next check. Do not claim a complete
+migration from source edits alone.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#discover-the-actual-system">Discover the actual system</a></li>
+<li><a href="#select-by-purpose">Select by purpose</a></li>
+<li><a href="#change-the-owning-policy-and-consumers">Change the owning policy and consumers</a></li>
+<li><a href="#verify-through-the-real-consumer">Verify through the real consumer</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

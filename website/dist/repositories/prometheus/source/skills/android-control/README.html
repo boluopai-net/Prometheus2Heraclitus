@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>安卓控制 · android-control · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/android-control/README.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a></div><p class="eyebrow">Reference</p><h1 id="安卓控制--android-control">安卓控制 · android-control</h1>
+<p><a href="/repositories/prometheus/source/skills/android-control/README.html">中文指南</a></p>
+<p>Operate an identified real Android phone from the current host: inspect its UI
+and files, manage apps, recover connections, and verify results on the device.
+This is an operations Skill, rather than an Android application development kit.
+It works independently of any particular desktop, phone, app roster, or account.</p>
+<h2 id="use-and-dependencies">Use and dependencies</h2>
+<p>Copy this complete directory into a Skill location supported by your agent host.
+The model-facing <code>SKILL.md</code> describes the method; the helper and recipes remain
+inside the package. The agent needs appropriate command/device access and the
+task's existing authorization. This package grants no permissions.</p>
+<p>Inventory needs Python 3.9+ and Android SDK Platform-Tools (<code>adb</code>) on PATH.
+UI inspection additionally needs <a href="https://github.com/openatx/uiautomator2">uiautomator2</a>
+in the same Python environment. A virtual environment is suitable; <a href="https://docs.astral.sh/uv/">uv</a>
+is an optional alternative. Actual phone-side debugging/trust setup is described
+in <a href="/repositories/prometheus/source/skills/android-control/references/phone-environment.html">connection setup and recipes</a>.
+Installation and UI gestures require tools the recipient actually has.</p>
+<p>Example request: “On the connected phone, inspect Example App's Wi-Fi-only update
+switch, enable it, reopen the page, and verify that it stayed enabled.”
+The agent inventories transport aliases, identifies the intended physical device,
+uses fresh controls, performs the scoped action, and reads back persistence.</p>
+<pre><code class="language-bash">python3 scripts/android_inspect.py devices --timeout 20
+uv run --no-project --with uiautomator2 python scripts/android_inspect.py ui --serial SERIAL --package com.example.app --timeout 20
+python3 -m unittest discover -s scripts -p 'test_*.py'
+</code></pre>
+<p>The helper emits compact JSON and performs read-only inspection. The tests use
+mocks and require neither a device nor adb/uiautomator2. Each ADB request has its
+own deadline; UI connection plus hierarchy retrieval share a bounded subprocess.
+Password nodes and common token labels are masked; output can still contain
+device identifiers, private labels, and unrecognized secrets. Keep it private.</p>
+<h2 id="package-and-adaptation">Package and adaptation</h2>
+<p>The English method, setup reference, helper, mock tests, optional agent metadata,
+and aligned README editions form the complete package. This public adaptation
+retains the original local Skill's device identity, scoped inspection, readback,
+temporary-setting restoration, and privacy methods. It replaces owner-specific
+phone/app/account observations with portable setup and recipes, and adds a UI
+inspection deadline. No private device records or credentials are included.</p>
+<p>This independent package uses the <a href="/repositories/prometheus/source/skills/android-control/LICENSE">MIT License</a>. Upstream dependencies
+retain their own licenses; no upstream binaries are bundled.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#use-and-dependencies">Use and dependencies</a></li>
+<li><a href="#package-and-adaptation">Package and adaptation</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

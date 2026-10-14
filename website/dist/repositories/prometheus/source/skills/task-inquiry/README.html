@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Task Inquiry · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/task-inquiry/README.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a></div><p class="eyebrow">Reference</p><h1 id="task-inquiry">Task Inquiry</h1>
+<p><strong>Clarify consequential uncertainty through evidence, reasoning, and useful questions.</strong></p>
+<p><a href="/repositories/prometheus/source/skills/task-inquiry/README.html">简体中文</a></p>
+<p>Task Inquiry helps an assistant resolve uncertainty that can change what a task
+should do next. It begins with a real mismatch or tension, develops plausible
+explanations, and uses evidence or a focused user question to distinguish them.
+The assistant carries the investigation and execution forward instead of
+requiring the user to formalize the whole problem.</p>
+<h2 id="use-this-skill">Use this Skill</h2>
+<p>Make the complete <code>task-inquiry/</code> directory available through the Skill
+mechanism supported by your assistant, then invoke <strong>Task Inquiry</strong> when a
+material ambiguity, conflicting explanation, or unresolved choice affects the
+task. The package contains the standalone instructions in <a href="/repositories/prometheus/source/skills/task-inquiry/SKILL.html"><code>SKILL.md</code></a>.
+It has no required companion framework, private context, scripts, or provider
+integration.</p>
+<p>This method is useful when inquiry can improve the result. A clear, settled task
+should proceed directly. A question is useful only when its answer can change
+the interpretation, evidence, or action.</p>
+<h2 id="examples">Examples</h2>
+<p><strong>Investigate an unexpected result.</strong> A report's totals differ from the
+dashboard. The assistant checks date ranges, filters, and definitions, identifies
+which differences could explain the mismatch, then asks about the intended
+reporting period only if the available evidence cannot determine it.</p>
+<p><strong>Resolve a meaningful preference.</strong> Two proposed plans meet the stated goal,
+but one saves time while the other preserves flexibility. The assistant
+explains that tradeoff and asks which outcome matters more before taking the
+dependent step; it continues any independent research meanwhile.</p>
+<h2 id="method-at-a-glance">Method at a glance</h2>
+<p>The assistant identifies the actual tension, distinguishes facts from
+assumptions and unknowns, and proposes explanations worth checking. It derives
+what would differ under each explanation, gathers available evidence, and
+updates its judgment. In ordinary work, it asks the user for information or a
+decision the evidence cannot supply when that answer would change the work.
+Teaching may also use questions to reveal or develop understanding, as described
+below. The host's own interaction and authorization boundaries remain in force.</p>
+<h2 id="work-and-learning">Work and learning</h2>
+<p>In ordinary work, useful feedback can help the user notice a relationship:
+show what the explanation predicted and what the evidence showed. The assistant
+still carries the reasoning and execution, without adding lessons or exercises.
+In teaching, questions and practice may be chosen to reveal or develop the
+learner's understanding even when the answer is known. The teaching role chooses
+the method and owns progression; inquiry does not impose a teaching format on
+ordinary tasks.</p>
+<h2 id="license">License</h2>
+<p>This independent package uses the <a href="/repositories/prometheus/source/skills/task-inquiry/LICENSE">MIT License</a>. You may obtain the complete directory from <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/task-inquiry">GitHub</a> and use, modify,
+and redistribute it, including commercially, with the required MIT notices.
+It does not include Yinyang. The <a href="https://github.com/boluopai-net/Prometheus2Heraclitus">public collection</a> supports downloads and Issues/PR collaboration.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#use-this-skill">Use this Skill</a></li>
+<li><a href="#examples">Examples</a></li>
+<li><a href="#method-at-a-glance">Method at a glance</a></li>
+<li><a href="#work-and-learning">Work and learning</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

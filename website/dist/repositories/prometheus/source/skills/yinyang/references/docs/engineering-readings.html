@@ -1,0 +1,140 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Engineering readings · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a></div><p class="eyebrow">Reference</p><h1 id="engineering-readings">Engineering readings</h1>
+<p><a href="/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.html">Philosophical readings</a> · <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html">Psychological readings</a></p>
+<p>Engineering gives an understanding a form that can run, be observed, and be changed. Begin here with a learning map, the command line, version history, and software design, then follow the question into algorithms, systems, experiments, and physical conditions. Courses, documentation, and source repositories are the main entrances, accompanied by useful textbooks and papers.</p>
+<p>Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Being able to invoke a tool does not establish understanding. Documentation can support both learning and reference during actual work.</p>
+<h2 id="find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Where to begin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://csdiy.wiki/">CS DIY</a> · <a href="https://github.com/PKUFlyingPig/cs-self-learning">source repository</a></td>
+<td>An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation. It is not an official university-wide Peking University curriculum or a requirement to complete every course.</td>
+</tr>
+<tr>
+<td><a href="https://missing.csail.mit.edu/">MIT Missing Semester 2026</a></td>
+<td>Begin with the shell, command-line environment, and development workflows, using the current course's notes and small exercises. Earlier offerings remain available through the site's archive; keep each year's lesson sequence distinct.</td>
+</tr>
+<tr>
+<td>William Shotts, <a href="https://linuxcommand.org/tlcl.php">The Linux Command Line</a></td>
+<td>The author's open books introduce files, permissions, processes, pipes, redirection, and scripts. macOS and Linux share some Unix concepts, but command options and system administration require the target system's documentation.</td>
+</tr>
+</tbody>
+</table>
+<p>A useful beginning is a small project built with model assistance whose inputs, outputs, files, and results you can understand. Follow these entrances when a concept becomes unclear. Engineering reading can interleave with the work already underway.</p>
+<h2 id="git-and-github-continuing-a-work-through-its-changes">Git and GitHub: continuing a work through its changes</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>What it addresses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chacon and Straub, <a href="https://git-scm.com/book/en/v2">Pro Git, second edition</a></td>
+<td>Chapters 1–3 introduce repositories, commits, branches, and merges; chapter 10 explains the structure beneath history. Git is the version-control system.</td>
+</tr>
+<tr>
+<td><a href="https://docs.github.com/en/get-started">GitHub getting-started documentation</a></td>
+<td>An entrance to repository pages, collaboration, and hosting. GitHub is a platform built around Git; the two have distinct responsibilities.</td>
+</tr>
+<tr>
+<td><a href="https://docs.github.com/en/pull-requests">GitHub Pull Requests documentation</a></td>
+<td>Compare changes, request reviews, and handle branches and merges. Read the reasons and outcomes of a change, as well as the interface operations.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="software-design-and-computer-systems">Software design and computer systems</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Reading purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>John Ousterhout, <a href="https://web.stanford.edu/~ouster/cgi-bin/book.php">A Philosophy of Software Design</a></td>
+<td>Author's book and course resources. Study complexity, modules, interfaces, and information hiding. “Philosophy” names design thinking in the title; this map locates the book by its software-engineering purpose.</td>
+</tr>
+<tr>
+<td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction</a></td>
+<td>Course materials on specifications, testing, abstract data types, and concurrency, developing working code into software with explicit behavioral contracts.</td>
+</tr>
+<tr>
+<td>Arpaci-Dusseau and Arpaci-Dusseau, <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a></td>
+<td>The authors' open textbook. Virtualization, concurrency, and persistence explain processes, memory, and storage, supplying the systems background behind command-line operations.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="algorithms-computation-and-complexity">Algorithms, computation, and complexity</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Reading purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jeff Erickson, <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/">Algorithms</a></td>
+<td>Author's open textbook, notes, and exercises. Study recursion, dynamic programming, greedy methods, and graph algorithms, including correctness and cost.</td>
+</tr>
+<tr>
+<td>Boaz Barak, <a href="https://introtcs.org/public/index.html">Introduction to Theoretical Computer Science</a></td>
+<td>Open textbook connecting models of computation, computability, and efficiency to complexity. Distinguish impossibility, high computational cost, and something not yet implemented by the current program.</td>
+</tr>
+</tbody>
+</table>
+<p>Algorithms and complexity analysis establish properties under formal conditions; real systems also depend on data, implementation, and machine resources. Measured speed and asymptotic complexity can inform one another without being the same evidence.</p>
+<h2 id="experimental-implementation-data-and-model-assessment">Experimental implementation, data, and model assessment</h2>
+<table>
+<thead>
+<tr>
+<th>Documentation or repository</th>
+<th>Reading purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.psychopy.org/">PsychoPy documentation</a></td>
+<td>Present stimuli, record responses, and organize experimental tasks. Use a simple experiment to understand how measurement enters a program.</td>
+</tr>
+<tr>
+<td><a href="https://www.jspsych.org/latest/">jsPsych documentation</a> · <a href="https://github.com/jspsych/jsPsych">source repository</a></td>
+<td>Browser-based behavioral experiments. Begin with timelines, plugins, data recording, and timing-accuracy documentation.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/AnneCollins/TenSimpleRulesModeling">Wilson–Collins companion code</a></td>
+<td>Realize the model assessment in <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html#psychological-process-modeling-and-empirical-assessment">psychological readings</a> through simulation, fitting, and recovery checks. After the code runs, its assumptions and data must still fit the question.</td>
+</tr>
+<tr>
+<td>Schoukens and Ljung (2019), <a href="https://arxiv.org/abs/1902.00683">Nonlinear System Identification: A User-Oriented Roadmap</a></td>
+<td>Understand system identification through inputs and outputs, noise, model structure, and validation. Consult as needed; whether natural interaction meets engineering identification conditions requires its own assessment.</td>
+</tr>
+<tr>
+<td><a href="https://people.idsia.ch/~juergen/goedelmachine.html">Gödel Machine</a> and <a href="https://arxiv.org/abs/2505.22954v3">Darwin Gödel Machine</a></td>
+<td>Two entrances to technical self-improvement research: proof-guided work and empirical evaluation, respectively. Compare their objectives, assumptions, and verification before reading this collection's analogies.</td>
+</tr>
+</tbody>
+</table>
+<p>Research design, constructs, and validity remain in <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html">psychological readings</a>; this page supplies implementation and reproduction knowledge. Connecting implementation resources to a research question is more useful than collecting tool names alone.</p>
+<h2 id="physical-conditions-measurement-and-feedback">Physical conditions, measurement, and feedback</h2>
+<p>Engineering realization happens in the material world. Programs run on machines, measurement requires devices and time, and interfaces enter human perception and action. Software abstraction does not remove energy, latency, error, or bodily conditions.</p>
+<p><a href="https://www.feynmanlectures.caltech.edu/">The Feynman Lectures on Physics</a> provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Enter through the needed concept rather than treating all three volumes as a prerequisite for programming. Feedback and model assessment connect back to the system-identification resources above.</p>
+<p>Physics investigates regularities; engineering designs and realizes under those conditions. They connect while retaining their tasks. Psychological activity, philosophical expression, and engineered works can participate in one actual process; this <a href="/philosophy/local-source-and-website/en/">Trinity</a> does not make a running program a complete explanation of the mind's physical realization.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</a></li>
+<li><a href="#git-and-github-continuing-a-work-through-its-changes">Git and GitHub: continuing a work through its changes</a></li>
+<li><a href="#software-design-and-computer-systems">Software design and computer systems</a></li>
+<li><a href="#algorithms-computation-and-complexity">Algorithms, computation, and complexity</a></li>
+<li><a href="#experimental-implementation-data-and-model-assessment">Experimental implementation, data, and model assessment</a></li>
+<li><a href="#physical-conditions-measurement-and-feedback">Physical conditions, measurement, and feedback</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

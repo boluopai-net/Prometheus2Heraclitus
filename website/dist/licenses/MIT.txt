@@ -1,0 +1,29 @@
+boluopai website licensing scope
+Copyright (c) 2026 boluopai
+
+The website presents reading editions and introductions; source and all
+downloads are on GitHub. Licenses follow the material, not the publication
+platform. Website reading projections retain the canonical material's license: the same
+YinYang material and original philosophical text on this website and GitHub
+are licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+Sharing and adaptations for noncommercial purposes only are permitted with appropriate
+attribution, a license link, indication of changes, and ShareAlike when sharing
+adaptations. Private adaptations need not be published. No additional legal or
+technological restrictions may be imposed.
+
+Random Wheel, Research, Task Inquiry, and Prompt and Skill Lifecycle use their
+bundled MIT licenses on both publication surfaces. Retain their copyright and
+license notices.
+Public source: https://github.com/boluopai-net/Prometheus2Heraclitus
+
+These grants do not automatically include personal photos, singing recordings,
+other visual or audio material without an identified license, page code, or
+interface design. Separate notices and third-party rights remain applicable.
+This noncommercial designation applies to the edition published under it from
+2026-10-14. Earlier valid grants, including CC BY-SA 4.0 grants, remain intact;
+replacing public Git history does not revoke them. This legacy URL is a scope notice, not a
+single MIT license for all website material. Full applicable licenses govern.

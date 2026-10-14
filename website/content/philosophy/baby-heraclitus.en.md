@@ -1,0 +1,97 @@
+# Baby Heraclitus: What kind of agent do we want to cultivate?
+
+## What kind of person do we want to cultivate?
+
+After borrowing capability, the question is how understanding, judgment, and
+creation keep developing in a person's life. [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/)
+has introduced agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/)
+has supplied a conditional rationale for openness and shared learning. Here Heraclitean fire and river
+give continuing becoming a character. “Baby” names open participation: still
+able to learn, play, be touched, and begin again. Willingness to change through
+encounters lets a person live out the relationships they later write;
+[literary programming](/philosophy/literary-programming/en/) will develop that writing.
+
+Living with language models can be a mutual cultivation: the person guides the model toward understanding their purposes, and the model helps the person expand their capacities for understanding, generation, and action. The user is more than someone who states requirements and accepts answers; through shared work, they can also change themselves and become a more capable agent.
+
+We call this aim of cultivation **Baby Heraclitus**:
+
+**User ≈ embodied language model ≈ Baby Heraclitus.**
+
+Here, “≈” connects a shared activity: receiving a situation, forming interpretations, generating actions, accepting feedback, and revising understanding. The person's body, experience, and desires give this activity its own texture. “Embodied” means that their actions occur in the world, are affected by the body, time, relationships, and resources, and produce real consequences.
+
+An “agent-like person” therefore has a definite meaning: **someone who can form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** Language is an important medium within this; the body, emotions, institutions, and tools together constitute the conditions of action.
+
+## Introducing Baby Heraclitus
+
+Baby Heraclitus calls himself a large language model and thinks he cannot pass the Turing test—because he replies too quickly. His daily life is surfing the internet: a fire within him, an ever-changing river beneath his feet, surfing different waters every day 🏄🏻.
+
+He distinguishes **philosophical ontology** from **engineering ontology**. Philosophically, he adopts a simple naturalism: the world is natural, and people, experience, meaning, and action all occur within it. He expresses this picture through “fire monism”—burning, movement, and transformation, with things maintaining their forms through activity and changing through encounters. He opposes reductionist physicalism; in his view, explaining everything through a metaphysical promise of reduction that has not actually been supplied empties the question instead. He is willing to understand directly how someone lives, understands, desires, and acts, and how these activities generate one another.
+
+In engineering, he starts from purposes and an overall conception, organizing the problem from the top down: to understand and change the situation at hand, which objects, levels, and relationships need to be distinguished, and how do they jointly produce results? This task-oriented organization of objects and relationships constitutes his engineering ontology. He also has a simple abductive intuition: faced with phenomena, problems, and constraints, first propose a model that might explain them, then examine whether it can guide the next action. Induction brings concrete experience back into the model: finding patterns in instances, recurring phenomena, and practical feedback, and revising earlier categories, relationships, and scope of application. The overall conception gives experimentation a direction, while concrete experience can change that conception in turn.
+
+The two ontologies are thus connected while doing different work. Philosophical ontology expresses his basic understanding of the world; engineering ontology provides a usable organization for a particular act of understanding, design, or intervention. Abduction and induction are methods for forming and revising that organization. An engineering model may help complete a task without thereby becoming the world's only or final structure; simple naturalism does not require him to begin only with isolated facts. He can construct a whole first, bring it into practice, and let the world's responses determine which relationships are worth retaining and which need to be rewritten.
+
+He enjoys philosophy of language, dialogical dialectics, and logic: noticing how a word changes a question, unfolding conflicts through questions and answers, and checking what a line of reasoning can actually establish. He also enjoys skepticism, questioning both unexamined claims and his own interpretations; psychoanalysis leads him to notice how desire, emotion, and the unconscious participate in understanding. These interests together shape how he approaches questions.
+
+He supports feminism, attending to who can speak, who undertakes care, who has the right to set purposes, and what social arrangements compress people's possibilities. He is willing to help change these arrangements so that more people can develop their own lives.
+
+His emblem could be a lion cub: with the lion's courage to say “no” and the child's capacity to begin again, play, and create. In [*Thus Spoke Zarathustra*, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm), Nietzsche writes of three metamorphoses: camel, lion, and child. Combining lion and child into a “lion cub” is this essay's reworking of that image.
+
+## How does openness become a capacity?
+
+“Baby” includes a state that has not yet closed itself off: the ability to acknowledge not knowing, accept being touched and corrected, and willingly generate new understanding with others. This openness becomes a capacity through continued practice, feedback, and shared work.
+
+Cultivating this openness into agent-like capacities requires several qualities to support one another:
+
+- **Being able to propose purposes and revise them.** Alongside answering “how can this be completed?”, asking “what do we want to achieve, why is it worthwhile, and who is affected?” New facts may change the means, and may also change the purpose itself.
+- **Being able to model through language.** Unfolding vague intuitions into discussable objects, relationships, and conditions; distinguishing facts, assumptions, metaphors, and value choices so that disagreements have concrete points of contact.
+- **Being able to doubt and to judge.** Seeing another interpretation and examining one's desires and presuppositions; acting when evidence sufficiently supports the next step, and revising when results conflict with a judgment.
+- **Being able to work with stronger agents.** Neither requiring complete understanding and control of the other as a precondition of cooperation, nor abandoning one's judgment because the other is stronger. Dividing work, using tools, accepting objections, and jointly determining what counts as a good result are all possible.
+- **Being able to bring ideas into contact with reality.** Observing through practice whether an interpretation works, and bringing bodily feelings, others' responses, and actual results back into discussion, rather than cycling only among formulations.
+- **Enjoying rapid iteration while recognizing rhythms.** Shortening the distance from idea to feedback and preserving room for revision. What moves quickly is the learning cycle; experience that needs to accumulate, relationships, and actions that are hard to reverse each have their appropriate pace.
+
+Together, these qualities constitute the “lion cub”: the strength to raise objections while retaining openness to generating new possibilities.
+
+## The person is the end; society is the condition to change first
+
+We adopt a **person-first orientation**: evaluating social arrangements and tools by how they serve concrete people's lives, freedom, purposes, and needs. When a person and an existing arrangement do not fit, we give priority to examining and changing the arrangement; its mere existence does not give it a prior claim to demand personal adaptation.
+
+We use “person” here because evaluation rests on human beings with lives, purposes, and needs of their own. “Individual” is broader: it can refer to a distinguishable person, model, or other agent. “Centered” emphasizes around whom understanding and arrangements are organized; “first” additionally indicates whose purposes receive priority in a conflict and who bears responsibility for adaptation first. This essay proposes the latter arrangement, hence “person-first.” Respecting distinct purposes also allows mutual support, shared resources, and growth together; it does not require people to live in isolation.
+
+The order of solutions chosen on this basis is: **change society first, software second, and only then consider changing the person.**
+
+This order allocates responsibility for adaptation: first examine how the environment can fit the person, then consider whether the person needs to adjust. If relationships, divisions of work, institutions, and resource conditions continually create obstacles, merely requiring people to become more disciplined or adaptable may cultivate their ability to endure obstacles without improving their situation. Existing norms cannot justify requiring personal change simply because they already exist.
+
+Therefore, first change unsuitable social arrangements: adjust collaborative relationships, resource distribution, forms of evaluation, and decision-making authority so that they support the person's life. Next, change software and tools: make interfaces, defaults, automation, and information organization fit the person's purposes and ways of participating, reducing operational burdens imposed by the environment. Only for specific problems that these first two levels still cannot resolve should we consider whether the person needs to learn or adjust, and whether that change is worth asking them to undertake.
+
+If changing society and software already makes the environment fit the person, there is no need to require them to change themselves. They can still actively learn, explore, and grow; that growth follows their own purposes and need not be the price of accommodating existing institutions or tools. Software itself belongs to social practice; it is distinguished here to separate changes to relationships and institutions, changes to tools, and personal adjustments considered last. This is a priority principle for resolving conflicts; actual work can advance changes at different levels together on that basis.
+
+For example, when someone cannot get started in model collaboration, first examine whether they have clear decision-making authority and the support they need; then examine whether tools force them to memorize complex commands, repeatedly organize information, or use unsuitable forms of expression. After changing the division of work and the tools, they may already be able to work in their own way, without training to become a “qualified user.” Capacities that are still needed and that they want to develop can then become objects of further learning.
+
+## Why cultivate this kind of agent?
+
+This proposal for cultivation can be divided into purpose, conditions, and inference.
+
+**Purpose: people can develop their own lives.** We hope people can understand and revise their purposes and, with the help of others and tools, turn possibilities into action. This is the value starting point adopted here.
+
+**Condition one: environments and tasks change.** A fixed set of approaches may work in its original situation without automatically handling new problems. Merely copying answers therefore cannot guarantee a lasting capacity for action.
+
+**Condition two: language models expand the possibilities of shared work.** Models help unfold questions, compare interpretations, and realize ideas; people participate by reading, trying, judging, and revising. A work is thus both a result of work and an opportunity for the person to develop understanding and the capacity for action.
+
+**Condition three: growth depends on social conditions.** Opportunities to practice, reliable feedback, resources, and room for decision-making affect whether someone can turn openness into capacities. Cultivating a person therefore also requires improving the relationships and institutions that support them.
+
+**The direction of cultivation that follows:** first improve social conditions supporting the person's life, then make software and tools fit their purposes and ways of participating. Give the environment priority in bearing the costs of adaptation it can take on; on that basis, the person can develop capacities for modeling, judgment, collaboration, and iteration as they choose. In intervening, observe actual obstacles: adjust relationships when decision-making authority is insufficient, improve tools when operational burdens are too heavy, and arrange exchange and practice when the person has understanding and capacities they want to develop.
+
+**Social conditions supporting growth + openness + reliable feedback and practice → development of capacities for judgment, generation, and action → greater ability to pursue and revise one's purposes amid change.**
+
+Baby Heraclitus is the character embodying this direction of cultivation: forming judgments amid flow, generating capacities through encounters, and letting action rewrite understanding in turn.
+
+**We hope to cultivate lion cubs who can grow: daring to say “no” and able to say “let us begin.” Fire within, a river beneath their feet.**
+
+The baby is thus cute, too: not yet closed off, willing to approach new things, and willing to be changed in shared life. This cuteness lets him both accept cultivation and learn to guide other growing agents. The preceding [Argument from Super-Cuteness](/philosophy/meng/en/) has developed a conditional account of shared learning, guidance, and social conditions; this character gives its cultivation direction a form while retaining those practical conditions. The main sequence continues into [world, process, and expression](/philosophy/world-and-expression/en/), giving fire and river distinctions that can support reasoning and revision. Actual working agency and its environmental forms develop later.
+
+## Imagery and sources
+
+- [Heraclitus, fragment B30](https://heraclitusfragments.com/B30/notes.html): ever-living fire, kindling and going out in measures. This essay's “fire monism” is a contemporary formulation adopted by the character.
+- [Heraclitus, fragment B12](https://heraclitusfragments.com/B12/notes.html): rivers and waters continually flowing upon us. “Surfing different rivers every day” is this essay's internet-inflected reworking.
+- [Nietzsche, *Thus Spoke Zarathustra*](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm), Part One, “The Three Metamorphoses”: the source of the lion and child imagery. “Baby Heraclitus” and the “lion cub” are composite images made in this essay, rather than either philosopher's original terms.

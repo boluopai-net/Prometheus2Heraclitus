@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Profile and global override recovery · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="profile-and-global-override-recovery">Profile and global override recovery</h1>
+<p>Use the configured public entrypoint:</p>
+<pre><code class="language-sh">scripts/network-repair --help
+scripts/network-repair --config /absolute/recipient/repair.json --check-config status
+scripts/network-repair --config /absolute/recipient/repair.json --files-only status
+</code></pre>
+<p>Offline status does not establish running app/core/transport health. Normal status observes those boundaries and makes the configured HTTPS transport request.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>Redacted index/global/app/TUN/core/transport/backup summary</td>
+</tr>
+<tr>
+<td>backup</td>
+<td>Save a complete healthy current profile set privately</td>
+</tr>
+<tr>
+<td>repair</td>
+<td>Empty valid index: newest healthy snapshot; existing subscriptions: missing/default globals only</td>
+</tr>
+<tr>
+<td>restore-globals</td>
+<td>Restore recipient's explicitly configured known-good global baseline, preserving subscriptions</td>
+</tr>
+<tr>
+<td>restore-profiles ID</td>
+<td>Restore selected complete snapshot only if current subscriptions are absent and index valid</td>
+</tr>
+<tr>
+<td>rollback ID</td>
+<td>Restore saved pre-repair files/index; may reinstate the earlier subscription set</td>
+</tr>
+<tr>
+<td>flush-dns</td>
+<td>Noninteractive sudo resolver-cache reset; preserve profiles/TUN/selectors</td>
+</tr>
+</tbody>
+</table>
+<p>Recovery backs up before app shutdown, verifies files did not race during shutdown, writes atomically, reopens the configured app in the background, and reports exact rollback identity. Failed writes attempt immediate restoration; failures retain recovery. It never removes unrelated/unreferenced profile files. Backups are outside app data, created with restrictive permissions. Never publish these snapshots, subscription payloads or controller credentials.</p>
+<p>The helper's global reset heuristics identify empty/template files; they are evidence to assess against the recipient baseline, not proof of unintended loss. A deliberately empty baseline can be valid. Never restore the original author's personal global routing. Preserve newer subscriptions; an index without its referenced files is not a complete backup.</p>
+<p>The original upstream failure class involved startup cleanup and global template resets. See <a href="https://github.com/clash-verge-rev/clash-verge-rev/issues/7577">report #7577</a>, <a href="https://github.com/clash-verge-rev/clash-verge-rev/issues/7804">file loss report #7804</a>, and <a href="https://github.com/clash-verge-rev/clash-verge-rev/commit/44f6f6e">cleanup removal</a>. These are historical locators, not a claim about the recipient's installed version; verify current upstream and installed code before recommending prevention.</p>
+<p>If no healthy snapshot exists, reimport the recipient's subscription through authorized app controls, then restore that recipient's globals. Missing subscription access is an actual bootstrap boundary. A manual equivalent must preserve app data, restore a coherent index plus referenced files or reimport, reopen the app, then verify nodes, TUN, routing and a real affected request.</p>
+<p>A files_restored result establishes bytes only. Inspect returned runtime and the actual affected application. The configured controller command must accept request GET /configs and /rules; use Clash Auto Switch's configured wrapper described in its README. The helper's app executable is Clash Verge Rev's clash-verge; a different product requires a deliberate adapter rather than changing the name alone.</p>
+<p>Set controller_config in the recovery JSON to the companion's recipient configuration. Recovery supplies it as CLASH_SKILL_CONFIG to the bundled clash-controller wrapper; no undocumented shell profile is needed. A recipient's existing compatible controller executable may ignore that environment field.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul></ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

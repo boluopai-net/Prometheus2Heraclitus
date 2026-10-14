@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bind a real carrier · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="bind-a-real-carrier">Bind a real carrier</h1>
+<p>The private-origin runtime integrated a dedicated authenticated owner, a separate
+headless carrier, target pinning and desktop placement. Those integrations are
+not portable merely by deleting paths. This public package keeps their contract
+and explicitly requires a recipient-configured carrier. No <code>auth-*</code> command,
+private connector resource or pre-existing signed-in profile is provided.</p>
+<h2 id="recipient-owned-configuration">Recipient-owned configuration</h2>
+<p>Keep these bindings with the recipient's existing host/project owner. Read that
+configuration and current tool documentation rather than inventing another
+registry or filling the public package with account/profile data.</p>
+<table>
+<thead>
+<tr>
+<th>Binding</th>
+<th>What current evidence must establish</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carrier and API</td>
+<td>Actual installed tool/provider, documented create/attach, inspect, navigate, act and lifecycle operations.</td>
+</tr>
+<tr>
+<td>Target ownership</td>
+<td>Task-created page handle, or original retained binding checked against the current exact target. URL/title similarity alone is insufficient.</td>
+</tr>
+<tr>
+<td>Authentication owner</td>
+<td>Dedicated authorized context/profile and observed intended account, when needed. Do not discover/export daily-browser cookies or copy profiles.</td>
+</tr>
+<tr>
+<td>Lifecycle</td>
+<td>Whether release retains a pinned target, close retires it, and owner shutdown would affect other targets. Bind available operations to these meanings; they are not invented API names.</td>
+</tr>
+<tr>
+<td>Placement policy</td>
+<td>Current working display/window evidence and real background/non-activating or separate-display support for visible work.</td>
+</tr>
+<tr>
+<td>Credential owner</td>
+<td>Recipient's actual credential/authentication route and personal-consent boundary. The package never supplies a secret or access grant.</td>
+</tr>
+<tr>
+<td>Continuation evidence</td>
+<td>Exact carrier/target binding and meaningful readback for the same task, held in the existing task owner. Exclude session tokens and sensitive content from public logs.</td>
+</tr>
+</tbody>
+</table>
+<p>Validate a harmless task-owned page before using a newly configured carrier:
+create it, inspect a known destination/content, perform a reversible action,
+read its effect, close or release according to the selected lifecycle, and
+verify that effect through the carrier's inventory/handle. Test actual placement
+separately when visible work is required. A passing headless test does not prove
+authenticated ownership, account identity, multi-display placement or retention.</p>
+<h2 id="concrete-standard-route-for-ephemeral-headless-work">Concrete standard route for ephemeral headless work</h2>
+<p><a href="https://playwright.dev/python/docs/intro">Playwright</a> supplies real browser,
+context and page APIs. A task-created non-persistent context keeps unrelated
+browser sessions outside the operation; the live Page object is process-local
+ownership evidence. Its <a href="https://playwright.dev/python/docs/api/class-browsercontext"><code>BrowserContext</code></a>
+and <a href="https://playwright.dev/python/docs/api/class-browsertype"><code>BrowserType</code></a>
+documentation defines creation, persistent contexts and closure. Use the host's
+supported browser tool instead when it already provides the necessary capability.
+No Playwright dependency is required for such a native host carrier.</p>
+<p>For the optional bundled smoke example, install Python 3.10+ and Playwright in
+a virtual environment, then install its Chromium runtime as described in
+<a href="/repositories/prometheus/source/skills/browser-relay/README.html">README.md</a>. <a href="https://playwright.dev/python/docs/browsers">Browser installation</a>
+is a separate dependency step. The example uses local fixture content, no network,
+authentication or existing profile. It is a verification example, not a general
+browser controller or an authenticated relay installation.</p>
+<p>For persistent authenticated contexts, a recipient can configure the documented
+<code>launch_persistent_context(user_data_dir=...)</code> route with a dedicated approved
+directory and lifecycle owner. Do not supply the recipient's daily profile or
+assume that a path implies a valid session. Its context closure can retire the
+whole launched browser, so it cannot stand in for a task-page release operation
+when other users/tasks share that owner. A retained shared owner instead needs
+its own actual supported attach/release operations and exact-target evidence.
+Do not concurrently launch the same profile or recreate an unreachable active
+owner. Preserve the browser's credential authority and account through recovery.</p>
+<h2 id="conditional-source-companions">Conditional source companions</h2>
+<p>The local source names <code>chrome-configuration</code> for browser settings/extensions
+and <code>jev-browser-use</code> for selected delegated browser loops. These are separate
+method owners, not transport APIs. This package does not bundle or assume public
+versions of them. Use them when actually installed under the task's authority,
+or the recipient's corresponding configuration/loop method. Ordinary Relay
+operations need neither. A caller such as <a href="/repositories/prometheus/source/skills/paper-retrieval/SKILL.html">paper-retrieval</a>
+can compose this custody method with domain-specific byte/version verification;
+Relay does not select the papers or certify their completeness.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#recipient-owned-configuration">Recipient-owned configuration</a></li>
+<li><a href="#concrete-standard-route-for-ephemeral-headless-work">Concrete standard route for ephemeral headless work</a></li>
+<li><a href="#conditional-source-companions">Conditional source companions</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

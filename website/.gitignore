@@ -1,0 +1,16 @@
+.worktrees/
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.sites-runtime/
+.wrangler/
+.vinext/
+.env*
+!.env.example
+dist/client/
+dist/server/
+dist/.openai/
+.static-assets/
+*.tsbuildinfo
+.next/

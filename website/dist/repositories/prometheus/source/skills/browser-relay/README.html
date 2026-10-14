@@ -1,0 +1,135 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>浏览器会话 · browser-relay · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="浏览器会话--browser-relay">浏览器会话 · browser-relay</h1>
+<p>Hold exact target custody for a bounded browser operation: verify ownership,
+destination, effects and cleanup while preserving surrounding sessions and work.
+The exact Skill identifier is <code>browser-relay</code>. The caller owns task purpose and
+semantic completion; Relay owns the physical target operation. A matching URL,
+successful click or authenticated browser alone does not establish that chain.</p>
+<p>Examples: “Use an owned page to download this available paper and identify the
+returned file”; “Inspect this exact authorized conversation without submitting”;
+“Submit these exact bytes once and report uncertain delivery”; “Reuse the
+dedicated authorized session, release the task page and verify retention.”</p>
+<h2 id="dependencies-and-configuration">Dependencies and configuration</h2>
+<p>Copy the complete directory to your host's supported Skill location and read
+<a href="/repositories/prometheus/source/skills/browser-relay/SKILL.html">SKILL.md</a>. Bind actual tools through
+<a href="/repositories/prometheus/source/skills/browser-relay/references/carriers.html">carrier configuration</a>. Downloading this Skill does not
+install a browser controller or grant access to an existing account/profile.</p>
+<table>
+<thead>
+<tr>
+<th>Dependency or companion</th>
+<th>Requirement and relationship</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Host browser/tab API or configured controller</td>
+<td>Required execution capability: exact create/attach handle, current inspection/actions and readback, close/release and lifecycle inventory. Use current tool documentation; no private wrapper command is assumed.</td>
+</tr>
+<tr>
+<td>Dedicated authenticated carrier</td>
+<td>Conditional on signed-in work: recipient-configured isolated profile/context, observed intended account and real lifecycle owner. The package contains no profile, credentials or login adapter.</td>
+</tr>
+<tr>
+<td>Host desktop/credential owner</td>
+<td>Actual placement, focus, account and personal-authentication boundaries; supply safe background/headless or permitted window placement. Profile paths alone do not establish these capabilities.</td>
+</tr>
+<tr>
+<td><code>chrome-configuration</code></td>
+<td>Local source's conditional method owner for browser settings/extensions. No public copy is bundled or required for normal Relay work; use an installed counterpart or recipient configuration owner for that separate task.</td>
+</tr>
+<tr>
+<td><code>jev-browser-use</code></td>
+<td>Local source's optional delegated-loop method. Use only when actually available and selected by the host; Relay retains target ownership and cleanup.</td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/paper-retrieval/README.html">paper-retrieval</a></td>
+<td>Example downloadable caller that composes custody with scholarly identity/version/full-text checks; <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/paper-retrieval">public package</a>. It is not a Relay execution dependency.</td>
+</tr>
+</tbody>
+</table>
+<p>The complete method supports in-app owned tabs, retained authenticated pages and
+ephemeral headless contexts as distinct carriers. Release retaining a page differs
+from page closure and whole-owner shutdown. Model-message exchanges preserve the
+caller’s <code>observe</code>/<code>submit</code> and single-attempt reconciliation boundary. Downloads
+preserve initiation-to-file attribution; domain verification stays with the caller.
+Failures prompt exact-target recovery/readback within actual authority, with
+human participation reserved for actual personal authentication/consent boundaries.</p>
+<h2 id="optional-harmless-headless-check">Optional harmless headless check</h2>
+<p>If a host already exposes a suitable browser API, no Python/Playwright installation
+is required. The bundled example separately demonstrates one ephemeral route with
+local fixture content and no network, existing browser/profile or authentication.
+It is not the retained/authenticated controller described by the method.</p>
+<pre><code class="language-sh">python3 -m venv .venv
+# POSIX; Windows uses .venv\Scripts\activate
+. .venv/bin/activate
+python -m pip install playwright
+python -m playwright install chromium
+python scripts/smoke_headless.py --help
+python scripts/smoke_headless.py
+</code></pre>
+<p>The smoke example prints JSON for task-created ownership, changed text readback,
+page closure and browser disconnection. It explicitly leaves authentication,
+shared-owner retention and desktop placement unestablished. Python 3.10+,
+<a href="https://playwright.dev/python/docs/intro">Playwright</a> and its
+<a href="https://playwright.dev/python/docs/browsers">browser runtime</a> are optional external
+dependencies; use supported platform/dependency setup. The script creates and
+closes only its own headless browser. It saves no profile or fixture artifacts.</p>
+<p>This original public adaptation preserves the local custody, session, placement,
+message and lifecycle method while removing private host integrations, profile
+paths, account/service targets and incident-specific configuration. Carrier
+bindings remain explicit external prerequisites. The private runtime scripts
+are not bundled or presented as standard APIs. Original package material is
+<a href="/repositories/prometheus/source/skills/browser-relay/LICENSE">MIT licensed</a>. Playwright/browser implementations and visited material
+retain their own rights; no third-party code is bundled.</p>
+<h2 id="中文说明">中文说明</h2>
+<p>本 Skill 负责有界浏览器操作的准确目标：确认所有权、目的地、操作效果和清理，同时保留周围会话与工作。准确标识为 <code>browser-relay</code>。调用方拥有任务目的与语义完成判断，Relay 拥有物理目标操作。URL 相同、点击成功或浏览器已登录，都不能单独证明这条关系链。</p>
+<p>示例：“在自己拥有的页面下载这篇可获取论文，标识返回文件”；
+“只观察这段准确的已授权会话，不发送”；“准确发送这些字节一次，报告投递不确定性”；
+“复用专用授权会话，释放任务页面并确认保留”。</p>
+<p>将完整目录安装到宿主支持的位置，读取<a href="/repositories/prometheus/source/skills/browser-relay/SKILL.html"> SKILL.md</a>，按<a href="/repositories/prometheus/source/skills/browser-relay/references/carriers.html">载体配置</a>绑定真实工具。下载 Skill 不等于安装浏览器控制器，也不授予已有账号或 Profile 的访问权。</p>
+<table>
+<thead>
+<tr>
+<th>依赖或配套方法</th>
+<th>要求与关系</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>宿主浏览器／标签页 API 或已配置控制器</td>
+<td>必需执行能力：准确创建／附加句柄、当前检查和操作、结果确认、关闭／释放及生命周期清单。使用当前工具文档，不假定私人包装器命令存在。</td>
+</tr>
+<tr>
+<td>专用登录载体</td>
+<td>登录任务才需要：接收方配置的隔离 Profile／context、已观察的目标账号和真实生命周期负责人。本包不含 Profile、凭据或登录适配器。</td>
+</tr>
+<tr>
+<td>宿主桌面／凭据负责人</td>
+<td>保留真实的窗口放置、焦点、账号和个人认证边界；提供安全后台／无头或已允许的窗口放置。仅有 Profile 路径不足以证明这些能力。</td>
+</tr>
+<tr>
+<td><code>chrome-configuration</code></td>
+<td>本地源中浏览器设置／扩展的条件方法负责人；本包不附公开副本，普通 Relay 工作不需要。该独立任务使用已安装对应方法或接收方设置负责人。</td>
+</tr>
+<tr>
+<td><code>jev-browser-use</code></td>
+<td>本地源中的可选委派循环方法；宿主选择且真实可用时才使用，Relay 仍负责准确目标和清理。</td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/paper-retrieval/README.html">paper-retrieval</a></td>
+<td>可下载调用方示例，将目标管理与学术身份、版本和全文检查组合；<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/paper-retrieval">公开包</a>。不是 Relay 的执行依赖。</td>
+</tr>
+</tbody>
+</table>
+<p>完整方法区分应用内标签页、保留的登录页面与临时无头 context。保留页面的释放、页面关闭和整个负责人退出不同。模型消息操作保留调用方的观察／提交及一次尝试后确认边界；下载保留发起操作到文件的归属，领域验证归调用方。故障在真实权限内恢复准确目标并确认效果，仅在实际个人认证或同意边界需要本人参与。</p>
+<p>宿主已有合适 API 时无需安装 Python／Playwright。上方可选无头检查命令使用本地 fixture，不访问网络、已有浏览器／Profile 或账号，也不是保留／登录控制器。
+Windows 激活虚拟环境使用 <code>.venv\Scripts\activate</code>。脚本输出自己创建的目标、文字变更确认、页面关闭和浏览器断开的 JSON；不会证明登录、共享负责人保留或桌面放置。依赖 Python 3.10+、<a href="https://playwright.dev/python/docs/intro">Playwright</a> 及其<a href="https://playwright.dev/python/docs/browsers">浏览器运行时</a>。它仅创建和关闭自己的无头浏览器，不保存 Profile 或 fixture 文件。</p>
+<p>此原创公开改写保留本地目标、会话、放置、消息和生命周期方法，移除私人主机集成、
+Profile 路径、账号／服务目标及事故特定配置。载体仍明确由外部提供；私人脚本不附带，也不冒充标准 API。原创内容采用<a href="/repositories/prometheus/source/skills/browser-relay/LICENSE"> MIT 许可</a>，Playwright／浏览器和访问材料保留各自权利，本包不附第三方代码。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#dependencies-and-configuration">Dependencies and configuration</a></li>
+<li><a href="#optional-harmless-headless-check">Optional harmless headless check</a></li>
+<li><a href="#中文说明">中文说明</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

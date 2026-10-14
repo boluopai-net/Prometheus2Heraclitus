@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>论文检索 · paper-retrieval · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="论文检索--paper-retrieval">论文检索 · paper-retrieval</h1>
+<p>Find relevant Chinese/English papers, books and chapters, reconcile citations
+and editions, and verify the actual acquired text. The exact Skill identifier is
+<code>paper-retrieval</code>. Copy this complete directory into your host's Skill directory
+and invoke its <a href="/repositories/prometheus/source/skills/paper-retrieval/SKILL.html">SKILL.md</a> through that host, or use the helper directly.</p>
+<p>Examples: “Find the author's papers since 2020 and separate bibliography coverage
+from obtained full texts”; “Obtain the available author manuscript for this DOI”;
+“Check whether this PDF is the complete second edition or a preview.”</p>
+<h2 id="companion-methods-and-execution-dependencies">Companion methods and execution dependencies</h2>
+<table>
+<thead>
+<tr>
+<th>Dependency</th>
+<th>When and why</th>
+<th>Obtain or supply</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/research/README.html">research</a></td>
+<td>Companion method for evidence selection, current investigation and conflicting sources; use with the scholarly workflow</td>
+<td>Download the complete <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research">public research package</a> beside this package. It is a Skill, not a search engine.</td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/browser-relay/README.html">browser-relay</a></td>
+<td>Conditional on controlled/authenticated pages; owns exact targets, session reuse, readback, placement and cleanup</td>
+<td>Download the complete sibling browser-relay package and bind the host’s real authorized browser/download API. The Skill does not install a browser carrier or copy authentication.</td>
+</tr>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/network/README.html">network</a></td>
+<td>Conditional on evidenced connectivity faults; distinguish transport from access/capture failures</td>
+<td>Download the network companion when using that method, configure your own targets, and use actual diagnosis capabilities within authorization. It is conditional, not permission to alter routing.</td>
+</tr>
+<tr>
+<td>Search/HTTP/browser tools, Python, Poppler, optional curl</td>
+<td>Actual execution capabilities, not companion Skills</td>
+<td>Supply the tools and install the helper dependencies below. Downloading a Skill does not install them or establish library access.</td>
+</tr>
+</tbody>
+</table>
+<p>The local method's division of responsibility is retained: research selects and
+assesses evidence; the browser owner controls the exact authorized surface;
+paper-retrieval reconciles the scholarly object and acquired bytes. The inspector
+can run independently; the complete collection method composes these roles.</p>
+<p>The host needs an available search/HTTP/browser tool for discovery and acquisition.
+The local helper requires Python 3.10+ and Poppler (<code>pdfinfo</code>, <code>pdftotext</code> on PATH).
+Install Poppler through your platform's package manager, for example
+<code>brew install poppler</code> on macOS or <code>sudo apt install poppler-utils</code> on Debian/Ubuntu.
+The public direct-download example also uses <code>curl</code>.</p>
+<pre><code class="language-sh">python3 scripts/inspect_pdf.py --help
+python3 scripts/inspect_pdf.py /path/to/candidate.pdf
+python3 -m unittest discover -s tests -v
+</code></pre>
+<p>The helper prints JSON with byte size, SHA-256, page count and endpoint text;
+it rejects non-PDF responses and parsing errors. It does not certify identity,
+missing middle pages, edition equivalence or completeness. Inspect the printed
+work against its source record, and render image-only pages. There is no universal
+retrieval promise, credential store, authenticated capture adapter, CAJ converter
+or restriction-evasion mechanism. Existing library access must be established
+through the recipient's own authorized interface. Record incomplete items and
+verified identifiers in the conversation as well as the collection manifest.</p>
+<p>See <a href="/repositories/prometheus/source/skills/paper-retrieval/references/sources-and-verification.html">source and verification guidance</a>.
+This original portable adaptation derives its scholarly workflow from the
+maintainer's local Skill, removing host paths, personal records and private
+browser/library machinery. Original package material is <a href="/repositories/prometheus/source/skills/paper-retrieval/LICENSE">MIT licensed</a>.
+Poppler and retrieved publications retain their own rights; no third-party code
+or publication is bundled.</p>
+<h2 id="中文说明">中文说明</h2>
+<p>本 Skill 用于检索相关的中英文论文、学术书籍与章节，核对题录和版本，并验证实际取得的文本。准确标识为 <code>paper-retrieval</code>。将整个目录复制到宿主的 Skill 目录，通过宿主调用<a href="/repositories/prometheus/source/skills/paper-retrieval/SKILL.html"> SKILL.md</a>，也可直接运行脚本。</p>
+<p>示例：“收集这位作者 2020 年以来的论文，区分题录覆盖与已取得全文”；
+“寻找这个 DOI 可获取的作者稿”；“检查这个 PDF 是完整第二版还是预览”。</p>
+<table>
+<thead>
+<tr>
+<th>配套方法或依赖</th>
+<th>用途与取得方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/repositories/prometheus/source/skills/research/README.html">research</a></td>
+<td>证据选择、当前调查与冲突来源判断的配套 Skill；将完整的<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research">公开 research 包</a>下载到本包旁边。它不是搜索引擎。</td>
+</tr>
+<tr>
+<td>浏览器／会话负责人（本地源名为 <code>browser-relay</code>）</td>
+<td>仅在受控或登录页面需要：负责准确目标、授权会话复用、结果确认、窗口放置与清理。由宿主提供相应方法和真实浏览器／下载 API；本包不附私人适配器或公开 browser-relay 包。</td>
+</tr>
+<tr>
+<td>网络诊断负责人（本地源名为 <code>network</code>）</td>
+<td>仅在有证据的连接故障需要：使用接收方已有的授权诊断能力，区分传输与访问／捕获问题。无需强制安装 Mac 网络包，也不由此授权更改路由。</td>
+</tr>
+<tr>
+<td>搜索／HTTP／浏览器工具、Python、Poppler、可选 curl</td>
+<td>是实际执行能力，需自行提供或按下文安装；下载 Skill 不等于安装工具或取得图书馆权限。</td>
+</tr>
+</tbody>
+</table>
+<p>本地方法的职责关系仍保留：research 选择和判断证据，浏览器负责人管理准确的授权界面，paper-retrieval 核对学术对象与取得的文件。检查脚本可单独运行；完整收藏方法组合这些职责。</p>
+<p>检索和下载需要宿主已有的搜索、HTTP 或浏览器工具。本地脚本需要 Python
+3.10+ 和 PATH 中的 Poppler <code>pdfinfo</code>、<code>pdftotext</code>。macOS 可用
+<code>brew install poppler</code>，Debian/Ubuntu 可用 <code>sudo apt install poppler-utils</code>；公开直链下载示例还需 <code>curl</code>。上方命令用于帮助、文件检查和本地测试。</p>
+<p>脚本输出字节数、SHA-256、页数及首尾页文字，拒绝非 PDF 与解析失败；不会自动确认作品身份、内部缺页、版本等价或完整性。应核对正文与来源题录，无文字页需渲染检查。本包不保证任意全文可得，不包含凭据库、登录捕获适配器、
+CAJ 转换器或限制规避机制。图书馆权限仍由使用者的授权界面确认。未完成作品及已验证标识应同时出现在对话交付和收藏清单中。</p>
+<p><a href="/repositories/prometheus/source/skills/paper-retrieval/references/sources-and-verification.html">来源与验证指南</a>保留方法说明。这是从维护者本地 Skill 独立改写的可移植版本，移除了私人记录、主机路径与专用浏览器和图书馆机制。原创内容采用<a href="/repositories/prometheus/source/skills/paper-retrieval/LICENSE"> MIT 许可</a>；Poppler 和取得的出版物保留各自权利，本包不附第三方代码或出版物。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#companion-methods-and-execution-dependencies">Companion methods and execution dependencies</a></li>
+<li><a href="#中文说明">中文说明</a></li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

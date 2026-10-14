@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791773832256,
+      "tag": "0000_optimal_moonstone",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791780530569,
+      "tag": "0001_wonderful_thundra",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791781453263,
+      "tag": "0002_brown_excalibur",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791788402519,
+      "tag": "0003_young_steve_rogers",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791793357695,
+      "tag": "0004_pink_lady_deathstrike",
+      "breakpoints": true
+    }
+  ]
+}

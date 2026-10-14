@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maintaining the Prometheus2Heraclitus collection · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=3ed19d8e96fb"><link rel="stylesheet" href="/site.css?v=73548b9ec686"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/philosophy/en/">Philosophy</a><a href="/singing/en/">Singing</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><p class="eyebrow">Reference</p><h1 id="maintaining-the-prometheus2heraclitus-collection">Maintaining the Prometheus2Heraclitus collection</h1>
+<p><strong>Prometheus2Heraclitus</strong> is a collection of actual reusable Skills. Each
+member under <code>skills/</code> owns its entrypoint, methods, references, documents,
+diagrams, scripts, and other supporting resources. Independent members retain
+their own purpose and specialist responsibilities. Collection membership does
+not make every resource part of Yinyang or impose its philosophical account.</p>
+<p>The collection offers its working Skills as examples for adoption, combination,
+and independent authorship. Yinyang's philosophy is this example's developed
+account, not a required worldview for recipients. Its literary/philosophical
+form can inspire a differently organized work. Preserve the distinction between
+maintaining the existing implementation and authoring another one. The website
+projects selected source documents and diagrams; maintain their meaning here,
+with source revision and rights traceable in that reading surface.</p>
+<p>The root README editions are the collection entrance. Keep their descriptions
+aligned with the actual members and preserve full semantic parity. English is
+the first reading language for English-capable readers and models; model-facing
+maintenance prose remains English.</p>
+<p><a href="/repositories/prometheus/source/skills/yinyang/MODEL.html">Yinyang's MODEL.md</a> owns interpretation of that Skill's
+philosophical claims, formation method, reader editions, and supporting resources.
+Its documents and diagrams live inside <code>skills/yinyang/references/</code>. Other
+members keep their own instructions and resources. Do not import another
+repository's philosophical content merely to follow its directory organization.</p>
+<h2 id="publication-boundary">Publication boundary</h2>
+<p>The owner selected a fresh public history for the noncommercial Yinyang edition
+on 2026-10-14. Preserve the private recovery archive and build future public
+changes on the current public main. Do not merge pre-replacement branches back
+into public ancestry; reapply any needed contributions onto the current tree.
+Replacing history reduces ordinary access to prior versions but cannot revoke
+earlier license grants or erase copies and caches outside this repository.</p>
+<h3 id="complete-website-source-in-the-collection">Complete website source in the collection</h3>
+<p><code>website/</code> holds the public website's complete committed material and
+implementation: independent essays, static pages and assets, runtime code,
+build integration, dependencies and migrations. It is generated from one exact
+native Sites Git commit. Only <code>.playwright-cli/</code>, <code>design-evidence/</code>, and
+<code>design-qa.md</code> are omitted as QA probes. Tracked <code>dist/</code> is public static source
+and must remain; ignored client/server build output, caches, local secrets and
+live applicant databases are not source material. <code>website/SOURCE.json</code> records
+the source commit and exclusions. The empty <code>.env.example</code> is a template;
+<code>.openai/hosting.json</code> contains nonsecret project and binding identifiers.
+Independent deployment requires its own Site ID and runtime secrets.</p>
+<p>The native Site repository owns independent prose, presentation, implementation
+and its publication helper. Canonical Yinyang prose remains at
+<code>skills/yinyang/</code>; copies and rendered editions inside <code>website/</code> are generated
+projections, not a second authoring owner. Their displayed canonical revision
+can precede the snapshot commit when content is unchanged. Maintain original
+content at its owner and regenerate before publishing.</p>
+<p>Commit the final Site source and use the native Sites helper to publish that
+exact source revision. Apply its snapshot with
+<code>python scripts/sync-website.py --source /path/to/site --revision FULL_SHA --apply</code>,
+then run the same command without <code>--apply</code> to check path coverage, bytes and
+modes. Review and publish the collection change to GitHub separately, then deploy
+and verify the same Site version through its native workflow. Skip unchanged
+snapshots and deployments. This is an explicit publication workflow, not a new
+watcher or automatic GitHub push service. Never edit generated snapshot copies.</p>
+<p>The collection is published as a clean public GitHub repository. Anyone may
+view, clone, and download it without an application, invitation, download code,
+or continuing-access grant. Historical private source must stay in its private
+archive; never publish excluded manuscripts or private records through history.
+GitHub supplies native source archives, forks, Issues, and pull requests. The
+website presents reading editions and package introductions; all source and
+downloads go to GitHub package directories or its native repository ZIP.
+Recipients select the complete Skill directory from that archive. Git commits
+retain revision history; no separate Release, tag, or stable-version workflow,
+website package ZIP generator, or download service is needed.</p>
+<p>Yinyang's original material is licensed under CC BY-NC-SA 4.0, governed by the
+official legal code at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en.
+Reproduction, adaptation, and distribution are permitted for noncommercial purposes only.
+When sharing, retain required attribution and notices, provide the license
+link, and identify changes. Shared adaptations follow the license's ShareAlike
+conditions; private adaptations need not be published. Preserve the NonCommercial element; do not add a redistribution ban or
+individual download approval.
+The reusable method and tool packages other than Yinyang retain their
+package-local MIT licenses. Their companion relationships do not merge their
+ownership or licensing. Root LICENSE records
+the mixed scope by material, not platform. Yinyang projections and original
+philosophical text retain CC BY-NC-SA 4.0 on both GitHub and the website; the other
+package projections and downloads retain MIT on both surfaces.
+Independently authored site code, interface design, photos, and audio keep their
+own stated rights; neither grant automatically covers them. Do not invent a new
+site-code license. Third-party rights and earlier valid grants remain intact.</p>
+<p>Publish only authorized reusable material. Personal accounts, private source
+quotations, health or psychological records, relationship narratives, accounts,
+private paths, conversation identifiers, and links exposing those materials stay
+with their actual private owner. Do not retrieve private personal materials merely
+to maintain this collection or create a public index that reconstructs a portrait.</p>
+<p>Unpublished manuscripts, their reading editions, PDFs, figures, source files, and
+private source records are excluded from public packages. General ideas may be
+developed in the existing essays as standalone exposition with independently
+public references where relevant. Publication of any original or anonymous
+manuscript requires fresh explicit user authorization. Do not reintroduce
+excluded source through links, assets, history, or provider previews.</p>
+<p>Review the whole public change, including assets, metadata, published Git history,
+and link destinations. Reusable packages must remain meaningful without private
+sources. Keep conceptual reading links local to their owning complete package;
+verify moved references, source locators, and asset paths. Preserve actual
+permissions, consent, and publication authority.</p>
+<p>Do not maintain a download application, approval service, access-code system,
+publication-secret workflow, or separate package ZIP generator for this
+collection. Use GitHub's public archive and native collaboration functions.
+Website reading editions retain their own source and publication workflow.</p>
+<p>Maintain each account at its existing owner rather than duplicating it in the
+collection root. Do not add interpretation registries, automatic personal-data
+feeds, or synchronization services for this collection.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#publication-boundary">Publication boundary</a><ul>
+<li><a href="#complete-website-source-in-the-collection">Complete website source in the collection</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>
