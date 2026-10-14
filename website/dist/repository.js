@@ -1,5 +1,5 @@
 /* Public reading and consistent comments across each content section. */
-import {credentialFor,managementLink,prepareSubmission,finishSubmission,manageComment,forget} from './comment-ownership.js';
+import {credentialFor,managementLink,manageComment,forget} from './comment-ownership.js';
 (() => {
   const root = document.querySelector('[data-repository-tools]');
   if (!root) return;
@@ -106,6 +106,7 @@ import {credentialFor,managementLink,prepareSubmission,finishSubmission,manageCo
   }).catch(error => status($('[data-file-status]'), error.message, true));
   }
 
+  if (!$('[data-suggestion-list]')) return;
   let cursor = null;
   const loadAdvice = async (append = false) => {
     const list=$('[data-suggestion-list]'), more=$('[data-more-suggestions]'), message=$('[data-suggestion-list-status]');
@@ -155,23 +156,4 @@ import {credentialFor,managementLink,prepareSubmission,finishSubmission,manageCo
   };
   $('[data-more-suggestions]').addEventListener('click',()=>loadAdvice(true));
   loadAdvice();
-  const submitForm = (selector, handler) => {
-    const form = $(selector);
-    form.addEventListener('submit', async event => {
-      event.preventDefault();
-      const button = form.querySelector('button[type="submit"]');
-      const message = form.querySelector('[data-form-status]');
-      button.disabled = true; status(message, t('正在处理…', 'Working…'));
-      try { await handler(Object.fromEntries(new FormData(form)), form, message); }
-      catch (error) { status(message, error.message, true); }
-      finally { button.disabled = false; }
-    });
-  };
-  submitForm('[data-suggestion-form]', async (body,form,message)=>{
-    const {id,deletionToken,remembered}=prepareSubmission(kind,body);
-    await request('/api/suggestions',{...body,kind,id,deletionToken});
-    finishSubmission(kind); form.reset();
-    status(message,remembered?t('已提交。你可以在评论下方管理或删除它。','Submitted. You can manage or delete it below.'):t('已提交，但浏览器无法保存删除凭证。请立即保存这条评论下方的私人删除链接。','Submitted, but this browser could not save your deletion credential. Save the private link below now.'));
-    await loadAdvice();
-  });
 })();

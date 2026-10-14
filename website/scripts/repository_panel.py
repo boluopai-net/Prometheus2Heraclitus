@@ -4,25 +4,17 @@
 def comment_section(english=False, kind='YinYang'):
     def t(zh, en):
         return en if english else zh
-    subject = {'YinYang': t('阴阳方法与阅读', 'YinYang method and reading'),
-               'Philosophy': t('哲学', 'Philosophy'),
-               'Advice': t('资料', 'Resources'),
-               'Singing': t('唱歌', 'Singing')}[kind]
     heading = t('点歌与投稿', 'Song requests and submissions') if kind == 'Singing' else t('评论', 'Comments')
     return f'''<details id="{'advice' if kind == 'Advice' else 'comments'}" class="repository-tool comment-section">
 <summary>{heading}</summary>
 <div class="comment-content">
-<p class="section-note">{t('在这里交流「' + subject + '」的内容。评论会公开显示。', 'Discuss ' + subject + ' here. Comments are public.')}</p>
+<p class="section-note">{t('用 GitHub 登录后，可以在这里留言和回复。讨论公开显示，中英文页面共享。', 'Sign in with GitHub to comment and reply here. Discussions are public and shared across languages.')}</p>
+<div class="giscus" data-giscus-kind="{kind}" data-giscus-language="{'en' if english else 'zh-CN'}"></div>
+<p class="section-note"><a data-github-discussion href="https://github.com/boluopai-net/Prometheus2Heraclitus/discussions">{t('也可以在 GitHub 讨论区交流', 'You can also join the discussion on GitHub')}</a></p>
+<details class="legacy-comments"><summary>{t('以前的留言', 'Earlier comments')}</summary>
+<p class="section-note">{t('这些是接入 GitHub 前的留言，署名由留言者填写。原有删除链接仍然有效；新留言请使用上方评论区。', 'These comments predate GitHub sign-in; their names were supplied by visitors. Existing deletion links still work. Use the discussion above for new comments.')}</p>
 <p class="repo-status" role="status" data-suggestion-list-status></p><div data-suggestion-list></div><button type="button" data-more-suggestions hidden>{t('更多评论', 'More comments')}</button>
-<h3>{t('写评论', 'Write a comment')}</h3>
-<form data-suggestion-form class="repo-form">
-<label>{t('标题', 'Title')}<input name="title" maxlength="200" required></label>
-<label>{t('内容', 'Comment')}<textarea name="body" rows="5" maxlength="10000" required></textarea></label>
-<label>{t('署名（可选）', 'Name (optional)')}<input name="author" maxlength="100" autocomplete="nickname"></label>
-<label class="repo-honeypot" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
-<p class="section-note">{t('请勿填写私人信息。提交后可以删除自己的评论，并保存私人删除链接，换设备也能使用。', 'Please leave out private information. After submitting, you can delete your comment and save a private deletion link for use on another device.')}</p>
-<button type="submit">{t('提交评论', 'Submit comment')}</button><p class="repo-status" role="status" data-form-status></p>
-</form></div></details>'''
+</details></div></details>'''
 
 
 def comments(english=False, kind='YinYang'):
@@ -33,7 +25,7 @@ def with_comments(page, english=False, kind='YinYang'):
     import re
     page = re.sub(r'<!-- COMMENTS START -->[\s\S]*?<!-- COMMENTS END -->', '', page)
     page = page.replace('<script defer src="/repository.js"></script>', '<script type="module" src="/repository.js"></script>')
-    for asset in ('<link rel="stylesheet" href="/repository.css">', '<script type="module" src="/repository.js"></script>'):
+    for asset in ('<link rel="stylesheet" href="/repository.css">', '<script type="module" src="/repository.js"></script>', '<script type="module" src="/giscus-comments.js"></script>'):
         if asset not in page:
             page = page.replace('</head>', asset + '</head>')
     return page.replace('</main>', comments(english, kind) + '</main>', 1)

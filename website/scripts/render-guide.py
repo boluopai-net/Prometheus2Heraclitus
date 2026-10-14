@@ -18,6 +18,7 @@ for english in (False, True):
     title = text.splitlines()[0].removeprefix('# ')
     md = markdown.Markdown(extensions=['md_in_html', 'sane_lists', 'tables', CjkBoldExtension()])
     rendered = md.convert(text)
+    rendered = rendered.replace('<h1>', '<img class="motif" style="float:right;margin-left:24px" src="/motifs/axe.svg" alt="" aria-hidden="true"><h1>', 1)
     rendered = rendered.replace('<table>', '<div class="guide-table"><table>').replace('</table>', '</table></div>')
     lang, suffix = ('en', 'en/') if english else ('zh-CN', '')
     back = 'Resources &amp; Advice' if english else '资料与建议'

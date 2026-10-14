@@ -1,4 +1,4 @@
-# From an Idea to Something of Your Own
+# Using the Tools
 
 A practical guide: begin by making a model subscription useful, then develop your own philosophy, tools, and working environment. Read and understand in your native language, entrust investigation, implementation, and maintenance to the model, and revise through use. This guide chooses Mac and ChatGPT / Codex as one concrete route; your existing computer and another available model tool can carry the same work.
 

@@ -65,20 +65,7 @@ export async function publicApi(request, env) {
       return json({items, nextCursor: results.length > 30 ? btoa(JSON.stringify([last.createdAt, last.id])) : null});
     }
     if (path === '/api/suggestions' && request.method === 'POST') {
-      const input = await body(request);
-      if (input.website !== '') fail('Invalid submission'); if (!kinds.has(input.kind)) fail('Invalid kind');
-      const credential = input.id !== undefined || input.deletionToken !== undefined ? deletionCredential(input) : null;
-      const tokenHash = credential ? await sha(credential.token) : null;
-      const item = {id: credential?.id || crypto.randomUUID(), kind: input.kind, title: text(input.title, 200), body: text(input.body, 10000), author: text(input.author, 100, false) || 'Anonymous', createdAt: new Date().toISOString()};
-      const existing = await db.prepare(itemSql + ' WHERE id = ?').bind(item.id).first();
-      if (!existing) {
-        await limit(request, db, 'suggest', 5, 3600);
-        await db.prepare('INSERT INTO suggestions (id, kind, title, body, author, created_at, delete_token_hash) VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING').bind(item.id,item.kind,item.title,item.body,item.author,item.createdAt,tokenHash).run();
-      }
-      const stored = await db.prepare(itemSql + ' WHERE id = ?').bind(item.id).first();
-      const proof = await db.prepare('SELECT delete_token_hash AS tokenHash FROM suggestions WHERE id = ?').bind(item.id).first();
-      if (!stored || !proof || proof.tokenHash !== tokenHash || (existing && !credential) || ['kind','title','body','author'].some(key => stored[key] !== item[key])) fail('Submission conflicts with an existing comment',409);
-      return json({item:stored}, existing ? 200 : 201);
+      return json({error:'New comments use GitHub sign-in. Please use the discussion on the page.', retired:true, url:'https://github.com/boluopai-net/Prometheus2Heraclitus/discussions'},410);
     }
     if (path === '/api/suggestions/manage' && request.method === 'POST') {
       await limit(request, db, 'manage-comment', 30, 60);

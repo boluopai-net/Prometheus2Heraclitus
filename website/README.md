@@ -73,8 +73,20 @@ for other Sites or replace their audience, credential, or publication owners.
 
 ### Public feedback runtime
 
-The Site and its GitHub source repository are public. Everyone
-can read and submit feedback through `/api/suggestions`. The `kind` field separates
+The Site and its GitHub source repository are public. New comments and replies
+use giscus with GitHub sign-in and are stored in the public
+`boluopai-net/Prometheus2Heraclitus` Discussions, under Announcements.
+The giscus App has metadata read and discussion read/write access to this
+repository only. `dist/giscus-comments.js` owns its public IDs and stable terms:
+`boluopai:philosophy`, `boluopai:singing`, and `boluopai:resources`.
+Strict specific-term mapping shares each discussion across its Chinese/English
+pages and across the custom and native Site domains. The widget supports
+in-page login, comments, and replies; its link also opens GitHub directly.
+GitHub identity does not depend on the old visitor-supplied names.
+
+Earlier comments remain readable through `/api/suggestions` and the collapsible
+Earlier comments section. New anonymous POSTs return 410 and do not write to D1.
+The `kind` field separates
 three visible streams: `Advice` on `/repositories/`, `Philosophy` comments on
 `/philosophy/`, and `Singing` comments on `/singing/`. The documents-and-diagrams
 hub `/repositories/prometheus/` has no comment section. Historical `YinYang`
@@ -84,10 +96,9 @@ Each Chinese/English page pair shares its stream. Missing GET `kind` preserves
 the original Advice default; existing records are unchanged. The website has no Issue
 or PR categories. Actual issues and pull requests belong on the public GitHub repository; the website does not proxy GitHub writes.
 GET accepts optional `kind` and opaque `cursor`, returns up to 30 items plus
-`nextCursor`; POST accepts plain text `kind`, `title` (200 characters), `body`
-(10,000), `author` (100), and the empty honeypot `website`. The server caps JSON
-at 48,000 bytes, rejects cross-origin mutations, parameterizes SQL, and applies
-D1 fixed-window limits (5 submissions per IP/hour; 120 reads per IP/minute).
+`nextCursor`. Legacy management caps JSON at 48,000 bytes, rejects cross-origin
+mutations, parameterizes SQL, and retains fixed-window limits (120 reads per
+IP/minute; 30 management requests per IP/minute).
 The frontend displays submitted content through text nodes, including code and
 angle brackets; submissions are never interpreted as HTML.
 Every feedback stream renders author and server-recorded creation time before
@@ -96,8 +107,8 @@ Asia/Shanghai, without a repeated timezone suffix, including older records. Name
 verified identities. Feedback is shared D1 data, while wheel state stays in
 each browser's localStorage and is never shared through this API.
 
-New submissions carry a client-generated UUID and 256-bit deletion capability,
-saved before POST so an identical retry can recover the same record. D1 stores
+Earlier submissions carried a client-generated UUID and 256-bit deletion capability.
+Those capabilities retain their deletion authority. D1 stores
 only `delete_token_hash`; public GETs never expose capabilities or their hashes.
 The same browser shows deletion controls. `/comment/manage/` (and `/en/`) takes
 the private capability in the URL fragment, removes it from browser history on
@@ -141,8 +152,8 @@ repository root. The retired Contact pages redirect there too. Full source,
 archive downloads, cloning, Issues and pull requests
 use GitHub's native public workflow. The website presents articles and four
 MIT Skill introductions linking to GitHub; it has no access application or download
-code form. The existing anonymous comment system remains available for materials,
-YinYang, philosophy and singing; visitor-supplied names are not verified GitHub
+code form. Earlier anonymous comments remain readable and manageable; their
+visitor-supplied names are not verified GitHub
 identities. Owner moderation retains deletion and attribution correction.
 
 All four comment streams use the same bilingual `comment_section` renderer:
