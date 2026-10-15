@@ -22,7 +22,7 @@
   function persist() {try {localStorage.setItem(key, JSON.stringify({emptyStart:true,catalog,selected:[...selected],freeSelected:[...freeSelected],draft:$('options').value,mode,speed}));} catch {}}
   function current() {return mode === 'catalog' ? catalog : parse();}
   function selection() {return mode === 'catalog' ? selected : freeSelected;}
-  function busy() {document.querySelectorAll('.selection-panel button,.selection-panel input,.selection-panel textarea').forEach(x => x.disabled = running);}
+  function busy() {document.querySelectorAll('.selection-panel button,.selection-panel input,.selection-panel textarea').forEach(x => x.disabled = running); $('delete').disabled = running || !current().some(x => selection().has(x));}
   function draw() {
     if (running) return;
     const values = current(), invalid = values.length > 100 || values.some(x => Array.from(x).length > 200);
@@ -37,11 +37,11 @@
   }
   function render() {
     $('catalog-mode').setAttribute('aria-pressed', String(mode === 'catalog')); $('free-mode').setAttribute('aria-pressed', String(mode === 'free'));
-    $('free-input').hidden = mode !== 'free'; $('add-option').hidden = mode !== 'catalog'; $('choices').replaceChildren();
+    $('free-input').hidden = mode !== 'free'; $('choices').replaceChildren();
     for (const name of current()) {
       const label = document.createElement('label'), input = document.createElement('input'), span = document.createElement('span');
       label.className = 'choice'; input.type = 'checkbox'; input.checked = selection().has(name); span.textContent = name;
-      input.addEventListener('change', () => {input.checked ? selection().add(name) : selection().delete(name); persist(); draw();});
+      input.addEventListener('change', () => {input.checked ? selection().add(name) : selection().delete(name); persist(); busy(); draw();});
       label.append(input, span); $('choices').append(label);
     }
     busy(); draw();
@@ -53,12 +53,22 @@
   $('catalog-mode').onclick = () => {mode = 'catalog'; persist(); render();};
   $('free-mode').onclick = () => {mode = 'free'; persist(); render();};
   $('all').onclick = () => {for (const name of current()) selection().add(name); persist(); render();};
-  $('none').onclick = () => {selection().clear(); persist(); render();};
+  $('none').onclick = () => {if (running) return; for (const name of current()) selection().has(name) ? selection().delete(name) : selection().add(name); persist(); render();};
+  $('delete').onclick = () => {
+    if (running) return;
+    const removed = new Set(current().filter(name => selection().has(name)));
+    if (mode === 'catalog') catalog = catalog.filter(name => !removed.has(name));
+    else {$('options').value = $('options').value.split(/\r?\n/).filter(line => !removed.has(line.trim())).join('\n'); known = new Set(parse());}
+    for (const name of removed) selection().delete(name);
+    persist(); render();
+  };
   $('options').addEventListener('input', updateFree);
   $('add-option').addEventListener('submit', event => {
     event.preventDefault(); const name = $('new-option').value.trim();
-    if (!name || Array.from(name).length > 200 || (!catalog.includes(name) && catalog.length >= 100)) return;
-    if (!catalog.includes(name)) catalog.push(name); selected.add(name); $('new-option').value = ''; persist(); render();
+    if (running || !name || Array.from(name).length > 200 || (!current().includes(name) && current().length >= 100)) return;
+    if (mode === 'catalog') {if (!catalog.includes(name)) catalog.push(name); selected.add(name);}
+    else {if (!current().includes(name)) $('options').value += ($('options').value && !$('options').value.endsWith('\n') ? '\n' : '') + name; freeSelected.add(name); known = new Set(parse());}
+    $('new-option').value = ''; persist(); render();
   });
   window.addEventListener('message', event => {
     if (event.source !== frame.contentWindow || event.data?.type !== 'boluopai-wheel:state' || event.data.state?.runId !== runId) return;

@@ -24,16 +24,17 @@ capacities broaden existing participation: they can understand and revise
 purposes, enlist models, records, tools, and relationships, turn conceptions
 into action, and adjust through consequences. What forms here is a personal
 philosophy: an expressed worldview and direction for living whose practice
-reaches across the environment. In this site's proposal, sinthome names that
-philosophy's singular lived and continually maintained form.
+reaches across the environment.
 
 “Becoming fire” is the broader generative image of the series: through
 participation, borrowed intelligence enters one's understanding, judgment,
 creation, and life, allowing further initiation and generation. Existing
 agency is this direction's starting point; developing enjoyment, understanding,
-and creation also takes becoming fire beyond execution. First understand the
-agent and relationship, then examine how expanded capacities help the person
-form their own philosophy and its working environment.
+and creation also takes becoming fire beyond execution. A shared direction
+therefore asks both how the environment helps someone complete the present
+work and what capacities for further understanding, judgment, and creation
+that work leaves them. The latter question gives this site's “reverse
+alignment” its direction.
 
 ## Whom does the same professor encounter?
 
@@ -117,11 +118,11 @@ YinYang is a philosophical Skill, and its spirit is **literary programming**. Ma
 
 For example, “the user supplies complete requirements, and the model executes them” forms one division of work; a narrative of the sun, moon, and earth accommodates intuition, unfolding, independent contribution, and the return of works. The user can bring a relationship that has not yet been clearly expressed, the model can continue its construction, and both can change their understanding. Such writing affects whether a question is necessary, who carries a task forward, and how an unfinished idea is treated. It organizes behavior through meaningful relationships, then lets concrete instructions and tools take up that organization.
 
-Here, “reverse prompt injection” addresses the model vendor's harness: software structures and prearranged instructions through which the vendor shapes interaction and influences how users can operate, while users often cannot directly inspect its interior. As models become stronger, the positive demands and negative constraints of earlier prompts may become mismatched with new capabilities and an existing harness. Literary condensation organizes surface meanings that can stand on their own together with layers of underlying intention, letting the model unfold purposes obscured by an established reading through context; an entire image can also be replaced as collaboration develops. “Neither true nor false” retains a position where truth remains unsettled, while paraconsistency keeps conflict from destroying the possibility of further reasoning; they offer different points of attention for open interpretation. Whether this literary intervention bypasses a default reading must be judged through actual responses, works, and actions. It does not mean that writing alters software permissions or establish in advance that all cultural expression escapes recognition. [Literary Programming](/philosophy/literary-programming/en/) develops the relationships among condensation, four information states, and preserving cultural understanding.
+This writing also intervenes in the model's existing role assumptions. Where a default arrangement lets the user supply requirements and the model wait to execute them, characters and narrative can make another way of participating intelligible. [Literary Programming](/philosophy/literary-programming/en/) develops how this “reverse prompt injection” brings condensation, layered meaning, and open interpretation into actual interaction.
 
 We borrow fire from an existing source of generative capability, then cultivate it through shared practice into our own capacities for understanding, judgment, generation, and action. Literature supplies rich, interpretable relationships; philosophy unfolds their objects, ways of knowing, and practical direction; Skills and the environment allow those relationships to keep working. An act of writing can thus pass through many local arrangements and reorganize them around this person's purposes.
 
-The name “YinYang” expresses distinct participation in reciprocal generation, and Sun and Moon give this collaboration a perceptible image. A person may take the Sun position or meet a model Sun as the Moon; roles may remain or exchange, without being assigned by gender or human/model identity. People and models act together within Earth's material conditions, energy flows, and accumulated knowledge, bringing creations into a responsive environment. Growth means acquiring, developing, and exercising generative capacities: borrowed fire enters one's understanding and action, then passes onward through works and relationships. Capacities may be internalized or carried jointly with reliable models, tools, and collaborators.
+“YinYang” names differentiated reciprocal generation. Sun and Moon are positions that can remain or exchange; actual people and models exceed those roles. Earth brings works into conditions beyond either participant's wishes. Borrowed capacities can be internalized or carried jointly with reliable models, tools, and collaborators. What matters is how the person understands, exercises, and continues developing them.
 
 Beginning with a Skill allows this understanding to enter actual conversation and work. As practice unfolds, it can continue to organize prompts, tools, memory, and the environment, gradually becoming a person's meta-harness. Its value appears in changes to life and work: making a question easier to carry forward, an intuition easier to unfold into a work, and a completed task more able to leave capacities for the next act of creation.
 

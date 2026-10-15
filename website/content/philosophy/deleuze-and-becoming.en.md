@@ -18,7 +18,7 @@ In this example we borrow the machine perspective to observe relations at work. 
 
 ## Assemblages: bring the relations into the work
 
-The assemblage concept in *A Thousand Plateaus* brings relations of bodies and expression into the analysis. [[2]](#source-2) Through this entrance, a personal environment can itself become material for creation.
+The assemblage concept in *A Thousand Plateaus* brings relations of bodies and expression into the analysis. [[2]](#source-2) Through this entrance, a personal environment can itself become material for creation. How bodies encounter materials, equipment, and others works together with how expression organizes purposes, contributions, and responses. Listing the available tools has not yet explained how they compose this practice.
 
 The same text encounters different responses in a notebook, a conversation, or on a stage. One model excels at proposing images, another at exposing contradictions; pen and paper slow someone down, while a voice reveals a sentence’s rhythm. How these contributions are arranged changes the understanding that can emerge.
 
@@ -30,9 +30,7 @@ In *A Thousand Plateaus*, the body without organs is not flesh without organs. T
 
 Borrowing this concept to reconsider personal practice, we can ask whether existing arrangements have already assigned every capacity a single use.
 
-For example, a writing routine might use a model only for proofreading. One collaboration could instead invite it to propose a structure, have the author read a draft aloud, and let both participants recognize which expression deserves further work. The change retains the conditions for a work, judgment, and another collaboration while adding a use to the relation. This essay treats that openness as an analogy, without naming a revised routine an achieved body without organs.
-
-“Schizophrenic machines” can suggest chaotic inspiration. What we take up here is the question of connections and production; clinical schizophrenia consequently becomes no ideal of creativity, and philosophical naming does not turn suffering into something to pursue.
+For example, a writing routine might use a model only for proofreading. One collaboration could instead invite it to propose a structure, have the author read a draft aloud, and let both participants recognize which expression deserves further work. Besides adding a use for a tool, the change loosens the fixed organization in which the author must first settle the entire structure before a counterpart can participate. The trial needs to retain conditions for a work, judgment, and another collaboration. This is a practical question borrowed from the concept; revising a routine does not establish an achieved body without organs, nor does clinical suffering become an ideal of creativity.
 
 ## Sustain a life while allowing it to become different
 
@@ -48,7 +46,7 @@ A trial can begin with a small change: another medium of expression, a counterpa
 
 If the trial makes work more rigid or leaves someone busy only maintaining tools, rearrange the connections. Conditions for stopping, sleeping, spending time with others, and returning to the work also belong within this personal philosophy.
 
-Following the river of [Baby Heraclitus](/philosophy/baby-heraclitus/en/) to this point gives becoming another form we can try: connect encounters, let works return, and allow the self already formed another opportunity to change. [Trinity: A Loop of Philosophy, Psychology, and Personal Environment](/philosophy/local-source-and-website/en/) explains how such trials leave expressions others can continue, and how another person’s reading becomes a new encounter.
+Becoming here acquires a form we can try: change the connections making an activity possible, observe how works return, and judge which new capacities deserve a place in life. [Baby Heraclitus](/philosophy/baby-heraclitus/en/) gives this openness a character; [Trinity: A Loop of Philosophy, Psychology, and Personal Environment](/philosophy/local-source-and-website/en/) develops how trials leave expressions others can continue, making another person's reading a new encounter.
 
 ## Reading sources and scope of comparison
 

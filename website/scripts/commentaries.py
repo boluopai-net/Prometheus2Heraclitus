@@ -234,10 +234,10 @@ def index_body(chinese, title, full):
     sequence_url = SERIES + ('' if chinese else 'en/')
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '借来智能的火，在实践中成为能够理解、判断、创造并继续生成的人。' if chinese else 'Borrow the fire of intelligence; through practice, develop understanding, judgment, creation, and the capacity to keep becoming.'
-    intro = '这条论证从能力的取得走向人的培养，展开有限探究、合作关系与实际实现，最后让生活和世界的反馈进入共同创造。能力可以内化，也可以可靠地分布在人、模型与工具之间。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'The argument moves from acquiring capability to cultivating a person, through finite inquiry, cooperation, and realization, then into lived feedback and shared creation. Capacities can be internalized or reliably distributed across person, models, and tools. YinYang is one developed philosophical and working form within it.'
+    intro = '这些文章围绕五组相连的问题展开：能力与培养、有限探究、共同参与、个人形成、实践与反馈。每篇都可以独立阅读，也可以沿这条路径逐步看见它们的联系。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'These articles address five connected groups of questions: capability and cultivation, finite inquiry, shared participation, personal formation, and practice with feedback. Each can be read independently; the route makes their connections progressively visible. YinYang is one developed philosophical and working form within it.'
     back = '/philosophy/' + ('' if chinese else 'en/') if full else ('/' if chinese else '/en/')
     back_label = '哲学' if full and chinese else 'Philosophy' if full else '火与河流' if chinese else 'Fire and River'
-    heading = f'<div class="collection-heading"><img class="motif collection-motif" src="/motifs/sun-river.svg" alt="" aria-hidden="true"><a class="back" href="{back}">← {back_label}</a><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></div>'
+    heading = f'<div class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><a class="back" href="{back}">← {back_label}</a><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></div>'
     sections = []
     number = 1
     for index, (zh, en, entries) in enumerate(GROUPS, 1):

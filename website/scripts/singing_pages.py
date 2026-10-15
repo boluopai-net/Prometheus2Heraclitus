@@ -50,7 +50,7 @@ def render():
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} · boluopai</title><link rel="stylesheet" href="/style.css"><link rel="icon" href="/mark.svg"></head>
 <body><header class="header wrap"></header><main id="main" class="wrap collection">
-<div class="collection-heading"><img class="motif collection-motif" src="/motifs/microphone-tilted.svg" alt="" aria-hidden="true">
+<div class="collection-heading"><img class="motif collection-motif" src="/motifs/moon.svg" alt="" aria-hidden="true">
 <h1>{title}</h1><p class="collection-intro">{intro}</p><p>{contribution}</p>
 <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING{'.md' if english else '.zh-CN.md'}">{'Contribution guide' if english else '投稿与共同编辑说明'}</a></div>
 {recordings_html(recordings, english)}</main><footer class="footer wrap"><p class="copyright"></p></footer></body></html>''')
