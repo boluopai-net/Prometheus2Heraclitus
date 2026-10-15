@@ -11,7 +11,7 @@
 .commentary{max-width:1170px;grid-template-columns:minmax(0,950px) 150px;column-gap:70px}.commentary .document{font-family:var(--serif);font-size:19px}.commentary .article-art+p+p{clear:both}.commentary .toc>ul>li>a{display:none}.commentary .toc>ul>li>ul{padding:0}.commentary .reader-toc{font-size:15px}.commentary .reader-toc li{margin-bottom:15px}.article>.back{display:none}
 @media(max-width:1000px){.commentary{grid-template-columns:minmax(0,1fr) 150px;gap:36px}}
 @media(max-width:767px){.commentary .document{font-size:18px}.reading-rail{display:none}.commentary .document>.reader-toc{font-family:var(--sans);margin:0 0 24px}.commentary .document h1{margin-bottom:20px}}
-.commentary .article-art img{aspect-ratio:1.7;object-fit:cover}.commentary .reader-toc a{color:#657277;text-decoration:none}.commentary .reader-toc a[aria-current]{color:var(--water);font-weight:600}
+.commentary .article-art img{aspect-ratio:3/2;object-fit:contain}.commentary .reader-toc a{color:#657277;text-decoration:none}.commentary .reader-toc a[aria-current]{color:var(--water);font-weight:600}
 .article{max-width:950px;font-family:var(--serif);font-size:19px}.article .article-art{margin-top:0}.article .article-heading h1{font-size:54px;letter-spacing:0}.article .article-overview{padding-top:4px;min-height:210px}.reading-toolbar{font-family:var(--sans)}.reading-toolbar button{color:var(--water);padding-right:0}
 .commentary .source-note{color:#657277}
 @media(max-width:767px){.article{font-size:18px}.article .article-heading h1{font-size:36px}.article .article-overview{min-height:0}.article .article-art{margin-top:0}}
@@ -43,3 +43,29 @@
 @media(max-width:767px){.commentary .reader-toc{margin:24px 0 32px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.commentary .reader-toc>.toc{max-height:280px}.commentary .article-subtitle{font-size:18px}}
 @media(max-width:767px){.commentary .reading-rail{display:block}.commentary .reading-rail:empty{display:none}}
 @media print{.commentary .reader-toc{display:none}}
+
+/* A finite temporal study accompanies only The stream and time. */
+.article-art .time-inset{margin-top:16px;color:var(--water);border-top:1px solid var(--line);padding-top:8px}
+.article-art .time-inset svg{display:block;width:100%;height:auto;overflow:visible}
+.article-art .time-inset text{fill:currentColor;font:12px var(--sans)}
+.article-art .time-current,.article-art .time-retained,.article-art .time-old,.article-art .time-new,.article-art .time-integration{fill:none;stroke:currentColor;stroke-width:1.5}
+.article-art .time-current{opacity:.25}
+.article-art .time-retained,.article-art .time-old{stroke-dasharray:3 4;opacity:.65}
+.article-art .time-event,.article-art .time-trace{fill:currentColor}
+.article-art .time-event{transform:translateX(168px)}
+.article-art .time-active .time-event{animation:time-encounter 2s ease-in-out both}
+.article-art .time-active .time-event-account{animation-duration:4.4s}
+.article-art .time-active .time-trace,.article-art .time-active .time-retained{animation:time-retention 4.8s ease-out both}
+.article-art .time-new{fill:currentColor;fill-opacity:.12;transform-origin:292px 73px}
+.article-art .time-active .time-new{animation:time-revision 4.8s ease-out both}
+.article-art .time-integration{stroke-dasharray:64;stroke-dashoffset:0}
+.article-art .time-active .time-integration{animation:time-integration 4.8s ease-out both}
+.article-art .time-caption{margin:0;font:12px/1.7 var(--sans);color:var(--muted)}
+.article-art .time-replay{display:block;margin-top:8px;min-height:44px;padding:8px 0;border:0;background:none;color:var(--water);font:13px/1.5 var(--sans);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.article-art .time-replay:focus-visible{outline:2px solid var(--water);outline-offset:4px}
+@keyframes time-encounter{from{transform:translateX(0)}to{transform:translateX(168px)}}
+@keyframes time-retention{0%,25%{opacity:0}40%,100%{opacity:.65}}
+@keyframes time-revision{0%,65%{opacity:0;transform:scale(.35)}100%{opacity:1;transform:scale(1)}}
+@keyframes time-integration{0%,65%{stroke-dashoffset:64;opacity:0}100%{stroke-dashoffset:0;opacity:1}}
+@media(prefers-reduced-motion:reduce){.article-art .time-inset *{animation:none!important}.article-art .time-replay{display:none}}
+@media print{.article-art .time-inset *{animation:none!important}.article-art .time-replay{display:none}}

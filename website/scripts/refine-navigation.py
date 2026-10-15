@@ -130,6 +130,9 @@ def header(page, text):
         switch = f'<span class="language-control unavailable" aria-disabled="true" title="{unavailable}" aria-label="{unavailable}">{language}<span class="unavailable-note"> · {"unavailable" if english else "暂无"}</span></span>'
     section = page.relative_to(root).parts[0]
     nav = []
+    home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
+    home_current = ' aria-current="page"' if page.relative_to(root).as_posix() in {'index.html', 'en/index.html'} else ''
+    nav.append(f'<a href="{home}"{home_current}>{"Fire and River" if english else "火与河流"}</a>')
     for slug, zh, en in [('philosophy', '哲学', 'Philosophy'), ('singing', '唱歌', 'Singing'), ('repositories', '资料与建议', 'Resources & Advice')]:
         destination = f'/{slug}/'
         if english and (root / slug / 'en/index.html').is_file():
@@ -137,7 +140,6 @@ def header(page, text):
         current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'skills', 'tools'} and slug == 'repositories') else ''
         nav.append(f'<a href="{destination}"{current}>{en if english else zh}</a>')
     nav.append('<a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a>')
-    home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
     return f'<header class="header wrap"><div class="header-top"><a class="wordmark" href="{home}" aria-label="{"boluopai home" if english else "boluopai 首页"}"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls">{switch}<button class="theme-control" type="button" aria-pressed="false" aria-label="{"Dark mode" if english else "深色模式"}" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>{"Dark" if english else "深色"}</span></button></div></div><nav class="section-tabs" aria-label="{"Sections" if english else "栏目"}">{"".join(nav)}</nav></header>'
 
 

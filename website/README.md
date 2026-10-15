@@ -206,11 +206,19 @@ navigation layout. Full source prose remains linear Markdown.
 Section pages are `/philosophy/`, `/singing/`, and
 `/repositories/`; the homepage is their overview and navigation entry.
 
-Each essay opens with a poetic ink-wash illustration: a lion cub for Meng and
- a small flame person beside a river for Baby Heraclitus. Assets live in
-`dist/art/`; the built-in image generator produced them from the owner's
-2026-10-11 correction: imagery and atmosphere, not flowcharts. Existing
-standalone figure URLs show the same illustration. Private academic materials
+Each of the 20 essays opens with its own concept-specific, cute editorial
+illustration in warm ivory, expressive ink line, and restrained gouache.
+The built-in image generator created the 2026-10-15 revision as 20 distinct
+1536 × 1024 images in `dist/art/<exact-article-slug>.png`; `content/artwork.md`
+records the exact final prompts. `scripts/article_art.py` owns bilingual scene
+descriptions and shared figure markup for both renderers. Images retain their
+full 3:2 composition. Only “The stream and time” adds a temporal inset: two
+currents update at different rates, an earlier trace remains, and the present
+account changes. Its animation ends after 4.8 seconds; a bilingual native replay
+button restarts it through `dist/article-art.js`, including after scrolling.
+Reduced-motion and print show the complete final state and hide replay.
+Existing standalone figure URLs show the same
+article-specific illustration. Private academic materials
 are excluded from the public projection. Withdrawn routes have no replacement
 page, redirect, or download; local retained materials stay with their owner.
 Website copyright
@@ -219,9 +227,9 @@ uses the owner's chosen alias BOBBY.
 The site-authored “为什么要写阴阳”, “文学式编程”, and “赫拉克利特宝宝”
 participate in the same main argument as the common-source essays. “超萌论证”
 and the Deleuze/Guattari comparison are anchored branches. Their source owner
-does not determine their reading role. The article renderer accepts an `art`
-alias, reusing `yinyang-and-taiji.png` and `writing-a-sinthome.png` where selected;
-an article without an illustration has no empty image placeholder.
+does not determine their reading role. Each article uses its exact slug for
+artwork, including separate images for personal philosophy and literary
+programming; an article without an illustration has no empty image placeholder.
 Use “超萌论证” for the meng title and navigation; the argument remains in its
 body. Omit anonymous-edition/private-original maintenance notices from reader
 UI; source provenance remains in this repository. User correction: 2026-10-12.
@@ -247,9 +255,9 @@ The generator excludes private academic source paths and removes their former
 download asset, even when an older canonical checkout contains those files.
 Local complete and anonymous PDFs remain outside this Site checkout.
 
-Category motifs follow the owner's mapping: philosophy is sun/river, singing
-uses the tilted microphone on both home and section pages, repository is YinYang,
-and the homepage hero remains fire/river.
+Category motifs follow the current home and section pages: philosophy uses
+the Sun, singing the Moon, and resources a notebook. The homepage hero retains
+fire and river imagery with its `sun-river.svg` motif.
 The shared footer links the Chinese `/rights/` and English `/rights/en/` pages
 without underlines. Keep this single compact notice at the bottom of each main
 page, including the fire/river homepage; omit repeated article and library

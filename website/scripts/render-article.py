@@ -12,6 +12,7 @@ from pathlib import Path
 import markdown
 from cjk_markdown import CjkBoldExtension
 from commentaries import reading_context, reading_rail
+from article_art import article_figure, scene_alt
 
 ARTICLES = {
     '# 机器与生成：与德勒兹、瓜塔里相遇': {
@@ -32,7 +33,6 @@ ARTICLES = {
         'slug': 'literary-programming', 'title': '文学式编程', 'number': '004',
         'subtitle': '以文学的凝缩能力，组织理解与共同实践',
         'overview': '用人物、意象、叙事与关系凝缩理解，让文化、心理与偏好进入模型协作，并在作品与行动中继续改写。',
-        'art': 'writing-a-sinthome',
         'sections': {
             '一个意象，怎样写进许多关系': '从火、河流与相遇展开文学的凝缩能力。',
             '隐喻怎样通过类比展开': '把意象展开成关系、候选推论和可继续使用的图。',
@@ -47,7 +47,6 @@ ARTICLES = {
         'slug': 'why-yinyang', 'title': '为什么要写个人哲学', 'number': '003',
         'subtitle': '把人、模型与双方关系写进共同的实践',
         'overview': '阴阳从人、模型与双方关系出发，把分散的 Skills、提示词、工具与用户环境组织成一套有共同方向的实践。',
-        'art': 'yinyang-and-taiji',
         'sections': {
             '复杂的 harness，需要共同的方向': '说明分散的能力怎样进入共同的实践。',
             '先说明什么是 agent': '以已有的能动性为起点，说明扩展能力怎样支持个人哲学的形成。',
@@ -197,11 +196,11 @@ rendered = md.convert(body)
 title = html.escape(entry['title'])
 subtitle = html.escape(entry['subtitle'])
 overview = html.escape(entry['overview'])
-art_name = entry.get('art', entry['slug'])
+art_name = entry['slug']
 reading_guide, reading_navigation = reading_context(entry['slug'], not english)
-art_alt = f'Ink-wash imagery for {title}' if english else f'{title}的水墨意象插画'
+art_alt = html.escape(scene_alt(art_name, not english), quote=True)
 has_art = (Path(__file__).resolve().parents[1] / 'dist/art' / f'{art_name}.png').is_file()
-art_figure = f'<figure class="article-art"><img src="/art/{art_name}.png" alt="{art_alt}" width="1536" height="1024" fetchpriority="high"></figure>' if has_art else ''
+art_figure = article_figure(Path(__file__).resolve().parents[1] / 'dist', art_name, not english)
 paired_path = f'/philosophy/{entry["slug"]}/'
 page = f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -224,7 +223,7 @@ out = Path(__file__).resolve().parents[1] / 'dist/philosophy' / entry['slug'] / 
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(page)
 # Existing standalone figure URLs now show the corresponding artwork.
-art_page = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow, noimageindex"><title>{title} · 意象</title><link rel="stylesheet" href="/style.css"><style>img{{display:block;width:100%;height:auto}}main{{max-width:1000px;margin:32px auto}}</style></head><body><main><img src="/art/{art_name}.png" alt="{title}的意象插画"><p>© 2026 boluopai · <a href="/rights/">版权与许可</a> · <a href="./">返回文章</a></p></main></body></html>'''
+art_page = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow, noimageindex"><title>{title} · 意象</title><link rel="stylesheet" href="/style.css"><style>img{{display:block;width:100%;height:auto}}main{{max-width:1000px;margin:32px auto}}</style></head><body><main><img src="/art/{art_name}.png" alt="{art_alt}"><p>© 2026 boluopai · <a href="/rights/">版权与许可</a> · <a href="./">返回文章</a></p></main></body></html>'''
 if not english and has_art:
     out.with_name('diagram.html').write_text(art_page)
 print(f"Rendered {entry['slug']}; canonical source unchanged.")

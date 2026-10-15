@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from repository_panel import with_comments
+from article_art import article_figure
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = 'skills/yinyang/references/docs/'
@@ -21,9 +22,9 @@ GROUPS = [
     ('理解：变化世界中的有限探究', 'Understanding: finite inquiry in a changing world', [
         ('world-and-expression', '区分世界、过程、模型与表达，让图景能够行动，也能够被世界纠正。'),
         ('flow-and-time', '考察变化、记忆与体验的不同节奏：过去怎样进入现在，连续性怎样保留修订空间？'),
-        ('reasoning', '从事件流中形成问题、候选解释与可检查的推论，区分保存材料和接受观点。'),
-        ('preference-harness', '让偏好、规则与证据相连：选择要展开的可能，检查它们支持什么，并在冲突与后果中修订理解。'),
-        ('finite-inquiry-and-abstraction', '在有限信息与时间中选择足够有用的抽象，明确局部形式结果与现实解释的尺度。'),
+        ('reasoning', '从事件流中形成问题与候选解释，展开可检查的后果，进而追问视图选择与结论支撑。'),
+        ('preference-harness', '区分偏好所选择的视图与证据、规则提供的支撑，使有限探究需要保留的答案变得明确。'),
+        ('finite-inquiry-and-abstraction', '承接视图与支撑问题，考察有限条件下足够的表示与计算，并区分形式保证与现实解释。'),
     ]),
     ('相遇：共同参与怎样成为可能', 'Encounter: making shared participation possible', [
         ('yinyang-and-taiji', '用日月、Shuang yu 与大地表达相互生成：双方可以判断和创造，作品遇到独立后果。'),
@@ -54,9 +55,9 @@ EN_SUMMARIES = {
     'personal-first-humanism': 'Make the ethical premise explicit: tools and cooperation support concrete lives; output volume does not substitute for development.',
     'world-and-expression': 'Distinguish world, process, model, and expression so representations guide action and meet correction.',
     'flow-and-time': 'Examine different rhythms of change, memory, and experience, preserving continuity and room for revision.',
-    'reasoning': 'Form questions, candidate explanations, and checkable inferences; distinguish retaining material from accepting a view.',
-    'preference-harness': 'Connect preferences, rules, and evidence: choose possibilities to develop, examine their support, and revise through conflict and consequences.',
-    'finite-inquiry-and-abstraction': 'Choose useful abstractions under finite information and time, distinguishing formal results from worldly explanation.',
+    'reasoning': 'Form questions and candidate explanations from the event stream, develop checkable consequences, then ask about view selection and support for conclusions.',
+    'preference-harness': 'Distinguish views selected by preference from support supplied by evidence and rules, clarifying which answers finite inquiry needs to preserve.',
+    'finite-inquiry-and-abstraction': 'Carry questions of views and support into sufficient representation and computation under finite conditions, distinguishing formal guarantees from worldly explanation.',
     'yinyang-and-taiji': 'Use Sun, Moon, paired fish, and Earth to express reciprocal generation and the independent consequences of creations.',
     'participation-and-support': 'Connect understanding, expression, and available action through support that preserves human initiative.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
@@ -203,10 +204,7 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     chinese = path.endswith('.zh-CN.md')
     name = path[len(DOCS):].split('.')[0]
     counterpart = article_url(name, not chinese)
-    art = ''
-    if (dist / 'art' / f'{name}.png').is_file():
-        alt = page_title + ('的意象插画' if chinese else ' — poetic illustration')
-        art = f'<figure class="article-art"><img src="/art/{name}.png" alt="{html.escape(alt, quote=True)}" width="1536" height="1024" fetchpriority="high"></figure>'
+    art = article_figure(dist, name, chinese)
     guide, navigation = reading_context(name, chinese, title)
     rendered = re.sub(r'(<h1\b[^>]*>[\s\S]*?</h1>)\s*<p>(?:<a [^>]*>[^<]+</a> · )+<a [^>]*>(?:English|中文)</a></p>', r'\1', rendered, count=1)
     if chinese:
