@@ -222,8 +222,13 @@ translate and temporarily narrow the presented work and support to its receiving
 level and rules; afterward, continue using the arrangement shown to work better.
 That encounter's limits need not become the harness's permanent capability ceiling.
 
-The further question of how much structure and computation a chosen inquiry
-needs belongs to [finite inquiry and abstraction](finite-inquiry-and-abstraction.md).
+Distinguishing view selection from inferential support gives finite inquiry a
+target: which answers must a representation and method preserve, and what
+evidence makes them adequate for the task? [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md)
+asks how much structure and computation that target needs under limited
+information and time. Choosing an abstraction and checking its consequences
+can develop together; preference guides the choice while formal validity
+depends on the stated premises and inference rules.
 
 ## Source and scope
 

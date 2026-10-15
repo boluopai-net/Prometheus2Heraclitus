@@ -112,5 +112,7 @@ Reasoning reaches a local result when a conclusion is clear enough to guide
 an act and expose its grounds. Its scope indicates what has been answered,
 which alternatives remain consequential, and what new evidence would require
 reconsideration. The activity can finish without becoming immune to correction.
-[World, process, and expression](world-and-expression.md) develops the further
-question of how that achieved result can return as a new object of understanding.
+This leaves a more precise question: how do we choose the views to work with,
+and what evidence and inferential rules warrant accepting their conclusions?
+The [preference harness](preference-harness.md) develops these distinct
+contributions of selection and support.

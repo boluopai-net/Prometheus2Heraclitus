@@ -11,6 +11,14 @@ within physical reality. Its economy concerns what an inquiry needs to obtain
 a warranted result; it does not equate a small working representation with a
 small inventory of what exists.
 
+The [preference harness](preference-harness.md) distinguishes choosing working
+views from determining what they support. That distinction makes economy
+assessable: which relations and answers must an abstraction preserve, and what
+can a feasible method obtain under the stated support conditions? This is a
+connection between questions, not a fixed chronology. In actual inquiry,
+abstraction, view selection, and inference can interleave and prompt one
+another's revision.
+
 This orientation has two illuminating comparisons: philosopher Professor Feng Ye's [*Studies in No-Self Physicalism*, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) separates ideal reduction from actual methods of inquiry; a local formal resource distinguishes what can safely be inferred from what can feasibly be computed. Their different commitments bring a common question into focus: how a finite inquirer obtains definite knowledge through a selective representation and a bounded method.
 
 ## Computational articulation and physical reduction
