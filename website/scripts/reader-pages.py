@@ -1,7 +1,7 @@
 """Maintain the bilingual contact and picker shells; shared chrome is projected last."""
 from pathlib import Path
 import re
-from repository_panel import panel, with_comments
+from repository_panel import with_comments
 from singing_pages import render as render_singing
 render_singing()
 root = Path(__file__).resolve().parents[1] / 'dist'
@@ -13,12 +13,7 @@ for route, kind in [('philosophy', 'Philosophy'), ('singing', 'Singing')]:
             target.write_text(target.read_text().replace('/motifs/sun-moon.svg', '/motifs/microphone-tilted.svg').replace('/motifs/microphone.svg', '/motifs/microphone-tilted.svg'))
 for route, english in [('repositories/index.html', False), ('repositories/en/index.html', True)]:
     target = root / route
-    text = target.read_text()
-    text = text.replace('<script defer src="/repository.js"></script>', '<script type="module" src="/repository.js"></script>')
-    if '<script type="module" src="/giscus-comments.js"></script>' not in text:
-        text = text.replace('</head>', '<script type="module" src="/giscus-comments.js"></script></head>')
-    text = re.sub(r'<div class="repository-tools"[\s\S]*?(?=</main>)', lambda _: panel(english), text)
-    target.write_text(text)
+    target.write_text(with_comments(target.read_text(), english, 'Advice'))
 for en in (False, True):
     def tr(zh, english): return english if en else zh
     lang = 'en' if en else 'zh-CN'

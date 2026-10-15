@@ -134,7 +134,7 @@ def header(page, text):
         destination = f'/{slug}/'
         if english and (root / slug / 'en/index.html').is_file():
             destination += 'en/'
-        current = ' aria-current="page"' if section == slug or (section == 'getting-started' and slug == 'repositories') else ''
+        current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'skills', 'tools'} and slug == 'repositories') else ''
         nav.append(f'<a href="{destination}"{current}>{en if english else zh}</a>')
     nav.append('<a href="https://github.com/boluopai-net/Prometheus2Heraclitus">GitHub</a>')
     home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
