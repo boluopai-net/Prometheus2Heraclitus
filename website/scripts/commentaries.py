@@ -35,7 +35,7 @@ GROUPS = [
         ('writing-a-sinthome', '从已经能够感知、生成与行动的人出发，借助模型拓展能力，形成自己的个人哲学，以及承载它的环境与实践。'),
     ]),
     ('实践：成为火，进入环境与反馈', 'Practice: becoming fire through environment and feedback', [
-        ('local-source-and-website', '哲学、心理与个人环境怎样形成闭环，让实际经验持续更新理解与安排？'),
+        ('local-source-and-website', '哲学、心理与工程怎样统一于同一物理现实，并通过不同抽象层次形成实践闭环？'),
         ('embodied-experimental-philosophy', '让作品进入具身生活，以实践和反思的反馈修订解释、系统边界及目的。'),
         ('example-and-commons', '把已形成的实践交给另一位创造者：采用、组合，或写出自己的哲学与形式。'),
     ]),
@@ -65,7 +65,7 @@ EN_SUMMARIES = {
     'writing-a-sinthome': 'Begin with a person who already perceives, generates, and acts; expand capacities with models and form a personal philosophy and the environment that sustains it.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
-    'local-source-and-website': 'Connect philosophy, psychology, and personal environment in a loop where experience renews understanding and practice.',
+    'local-source-and-website': 'Understand philosophy, psychology, and engineering as activities in one physical reality, connected through distinct levels of abstraction and practice.',
     'embodied-experimental-philosophy': 'Bring works into embodied life; use practice and reflection to revise explanations, boundaries, and aims.',
     'example-and-commons': 'Offer the practice to another creator: adopt, combine, or write a philosophy and form of your own.',
 }

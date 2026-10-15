@@ -245,7 +245,7 @@ def main():
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
         diagrams = ''
-        for name, zh, en, desc_zh, desc_en in [('encounter', '相遇', 'Encounter', '生成、判断与证据怎样在持续的相遇中形成关系。', 'Generation, judgment and evidence within an ongoing encounter.'), ('layers', '层次', 'Layers', '本体、认识、方法与具体实现的不同问题及联系。', 'Distinct questions of ontology, epistemology, method and realization.')]:
+        for name, zh, en, desc_zh, desc_en in [('encounter', '相遇', 'Encounter', '生成、判断与证据怎样在持续的相遇中形成关系。', 'Generation, judgment and evidence within an ongoing encounter.'), ('layers', '层次', 'Layers', '物理基础、计算抽象，以及认识、价值、方法与实践的联系。', 'Physical grounding, computational abstraction, and their connections with knowing, value, methods, and practice.')]:
             suffix = '' if english else '.zh-CN'
             diagrams += f'<a class="diagram-card" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + name + suffix + ".svg")}" alt="{en if english else zh} — {"concept map preview" if english else "概念图预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p><span class="text-link">{"Explore diagram →" if english else "进入交互图示 →"}</span></a>'
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'

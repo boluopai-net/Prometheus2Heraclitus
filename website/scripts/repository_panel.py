@@ -8,9 +8,7 @@ def comment_section(english=False, kind='YinYang'):
     return f'''<details id="{'advice' if kind == 'Advice' else 'comments'}" class="repository-tool comment-section">
 <summary>{heading}</summary>
 <div class="comment-content">
-<p class="section-note">{t('用 GitHub 登录后，可以在这里留言和回复。讨论公开显示，中英文页面共享。', 'Sign in with GitHub to comment and reply here. Discussions are public and shared across languages.')}</p>
 <div class="giscus" data-giscus-kind="{kind}" data-giscus-language="{'en' if english else 'zh-CN'}"></div>
-<p class="section-note"><a data-github-discussion href="https://github.com/boluopai-net/Prometheus2Heraclitus/discussions">{t('也可以在 GitHub 讨论区交流', 'You can also join the discussion on GitHub')}</a></p>
 </div></details>'''
 
 
