@@ -228,7 +228,7 @@ def main():
         if write_essay(dist, path, title(path), rendered, md.toc, source_note, shell, title):
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
-        body = f'''<main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div><p class="eyebrow">{"参考文档" if chinese else "Reference"}</p>{rendered}</article>{reading_rail(md.toc, chinese)}<div class="reading-end">{source_note}</div></main>'''
+        body = f'''<main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article>{reading_rail(md.toc, chinese)}<div class="reading-end">{source_note}</div></main>'''
         write('source/' + str(Path(path).with_suffix('.html')), shell(title(path), body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
 
     # Retain retired reading URLs as small aliases, even after source deletion.
@@ -273,7 +273,7 @@ def main():
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
         intro = ('Use this page to consult ideas and sources, develop a practice, or explore relationships through diagrams. The philosophy section already supplies the sequential reading route.' if english else '这里按用途查阅观点与来源、形成自己的实践，或通过图示理解关系。哲学栏目已有完整的顺序阅读，这里提供随问题进入的参考。')
         suffix = 'en/' if english else ''
-        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><p class="eyebrow">{"REFERENCE" if english else "参考文档"}</p><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
+        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang))
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'
