@@ -499,6 +499,11 @@ to the person's life, including new questions and more ambitious creations.
 
 ## A way of living: choose the rhythm of the fire
 
+**Ordinarily synchronize with the model and remain asynchronous with society;
+align temporarily when entering social evaluation.** This organization lets
+daily work use an environment shown to fit better, while preserving a way to
+meet external comparisons on their own terms.
+
 This rhythm also has a developmental reason. Social institutions, software,
 and conventions of interaction often have to keep existing participants,
 agreements, records, and ways of working viable. They carry historically
@@ -529,9 +534,27 @@ interfaces and encounters instead of occupying every act of thought.
 Synchrony with the model keeps shared understanding, present purposes, and
 ongoing revisions continuable. The two can correct one another and change
 the arrangement as capabilities and life develop. Such synchrony can itself
-be realized through asynchronous messages and tool execution.
+be realized through asynchronous messages and tool execution. Social asynchrony
+also preserves different levels of organization and capability: a richer local
+way of thinking and working need not be reduced to what the prevailing social
+interface can receive at every moment.
 
-“Asynchrony with the world” therefore concerns how established arrangements
+Social evaluation is one encounter at which alignment becomes necessary. A
+person can temporarily bring the greater breadth or complexity of everyday
+work down to the assessment's receiving level: select the relevant result,
+answer its stated question, translate the explanation, and follow the specified
+conditions for tools, support, time, and demonstration. The fuller arrangement
+is expressed through a bounded, legible slice. Where the assessment asks for
+common conditions, that adjustment can include setting aside support used in
+ordinary work. Report the result within those conditions; the slice does not
+exhaust the person's capacity or the combination's potential.
+
+After evaluation, return to the arrangement that enables better ordinary work.
+Compatibility at this encounter need not govern the whole internal process.
+The assessment can supply useful feedback, but its receiving level is not a
+permanent limit on understanding, generation, or future development.
+
+“Asynchrony with society” therefore concerns how established arrangements
 are connected; the world continues to supply conditions and consequences.
 Bodily needs, shared responsibilities, and actual risks have their own timing.
 Other people can innovate together, and models can retain outdated assumptions.
@@ -540,8 +563,9 @@ to develop and return to shared life for response.
 
 A flame needs a place and a rhythm in which it can keep burning. Finite life
 cannot remain continuously available to every event stream. The direction
-in [YY-08](core-views.md#yy-08--seek-asynchrony-with-other-lifeworlds-and-synchrony-with-the-model)
-is to seek asynchrony with other lifeworlds and synchrony with the model:
+in [YY-08](core-views.md#yy-08)
+is ordinary synchrony with the model and asynchrony with society, with deliberate
+alignment for evaluation:
 let everyday affairs that can wait arrive through messages, records, and
 chosen response intervals, while a shared inquiry retains its thread.
 Synchrony here means that the counterpart can follow the developing question,
@@ -577,7 +601,7 @@ Fire and water give this connection an image. Fire helps create, but water canno
 
 **A shared garden of becoming** offers an image: friends borrow fire, make things, play, and revise, letting new possibilities appear in one another's worlds. The [personal Gödel-machine analogy](metaphor-and-self-revision.md#the-personal-gödel-machine-analogy) placed self-revision within a person's philosophy and practice; here that openness extends among friends. No one needs to become another's replica, and no shared text can write the next encounter in advance. The garden's delight comes from what these relations can keep generating; its quality remains answerable to the people within it and to actual consequences.
 
-Everyday life can therefore use a local environment better fitted than prevailing arrangements, without continually maintaining identical external conditions. Evaluation first distinguishes comparison of people under common conditions from comparison of person–environment combinations. The former temporarily aligns support and task rules; the latter assesses the support's effects and costs together. Comparability need not mean abandoning useful differences in ordinary life. [Core view YY-15](core-views.md#yy-15) connects local improvement, limited circulation, and evaluation conditions.
+Everyday life can therefore use a local environment better fitted than prevailing arrangements, without continually maintaining identical external conditions. Evaluation first distinguishes comparison of people under common conditions from comparison of person–environment combinations. The former temporarily aligns support and task rules, presenting capacity through the assessment's receiving level; the latter assesses the support's effects and costs together. Neither result alone defines the whole person. After evaluation, daily work continues in the better-fitting arrangement. Comparability need not mean abandoning useful differences in ordinary life. [Core view YY-15](core-views.md#yy-15) connects local improvement, limited circulation, and evaluation conditions.
 
 ## The argument in compact form
 

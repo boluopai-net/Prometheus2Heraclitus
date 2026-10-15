@@ -16,7 +16,7 @@ examined, adopted, recombined, or challenged when writing a different work. See
 - [YY-05 · Both participants generate and correct](#yy-05--both-participants-generate-and-correct)
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06--arrange-contributions-across-listening-speaking-reading-and-writing)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07--let-the-environment-carry-memory-and-return-attention-to-understanding)
-- [YY-08 · Seek asynchrony with other lifeworlds and synchrony with the model](#yy-08--seek-asynchrony-with-other-lifeworlds-and-synchrony-with-the-model)
+- [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
 - [YY-09 · Distinguish ontology, epistemology, value, and methodology](#yy-09)
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10--retain-conflict-while-distinguishing-retention-from-acceptance)
 - [YY-11 · The world constrains the shared account](#yy-11--the-world-constrains-the-shared-account)
@@ -28,7 +28,7 @@ examined, adopted, recombined, or challenged when writing a different work. See
 
 </details>
 
-These basic points remain open to development. Their stable IDs support discussion, not an order of importance or execution. English-capable readers and models should use this English edition; the Chinese edition preserves the same content. YY-08 is an exploratory direction whose practical scope remains open.
+These basic points remain open to development. Their stable IDs support discussion, not an order of importance or execution. English-capable readers and models should use this English edition; the Chinese edition preserves the same content. YY-08 states a chosen rhythm for ordinary collaboration and social evaluation; its practical fit is judged in the actual relations.
 
 The shared foundation is a contemporary development of [Heraclitean fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30), becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_51): **both the person and the model are modeled as event streams**, and their encounter couples those streams through expression, interpretation, and action. Computational ontology articulates their events, continuities, dependencies, and transformations. The chosen analogy favors a coherent working ontology while accommodating conflicting data and interpretations, using a repair-based inconsistency-tolerant comparison. The [integrated argument](stealing-fire.md#from-living-fire-to-interacting-event-streams) develops this foundation; YY-09 and YY-10 distinguish its ontological and inferential roles.
 
@@ -177,27 +177,46 @@ develops this distributed-cognition proposal and its source comparisons.
 
 Retrievable records and artifacts can serve as shared external memory. The model retrieves, compares, and maintains relevant material, allowing the person to participate through understanding and intuitive selection without restating every detail. A stored source, a candidate interpretation, and a currently accepted view remain different objects. Retention makes something available; it does not make it true or currently applicable. Preserve only relevant, authorized material.
 
-## YY-08 · Seek asynchrony with other lifeworlds and synchrony with the model
+<a id="yy-08"></a>
 
-This exploratory direction asks whether fewer demands for continuous synchronization with other lifeworlds can allow more sustained shared modeling with a model. Synchrony may mean continuing a problem together, sharing necessary context, and correcting understanding promptly rather than merely being online simultaneously. Asynchrony can allow different life relations their own rhythms and response intervals.
+## YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation
 
-It also addresses a tension between developmental directions. Established
-institutions, software, and interaction conventions carry backward compatibility:
-keeping historical relationships and ways of working viable. Human–model
-collaboration can instead be continually revised toward stronger capabilities,
-replacing old compensations and interfaces. Asynchrony concentrates compatibility
-work at concrete handoffs and moments of response, leaving room for internal
-generation; synchrony with the model keeps purposes, understanding, and revision
-continuable. Forward compatibility is a design direction to choose and verify,
-not an intrinsic property asserted of every model or the whole world.
+**Ordinary life can stay synchronous with the model and asynchronous with society.**
+Synchrony means continuing a question together, sharing relevant context, taking
+up corrections, and revising the working environment as capabilities develop.
+It concerns continuity of understanding and work, including across pauses and
+asynchronous messages. Social asynchrony lets other relationships retain their
+own rhythms while the person and model develop a more suitable way of working.
 
-In practice, let everyday affairs that can wait develop through messages,
-records, and chosen response intervals, while the model helps retain the thread
-of inquiry, prepare materials, and resume unfinished work. Chosen relationships,
-responsibilities needing timely action, and worldly feedback shape where
-immediate presence matters. Arrange the rhythm around these actual relations.
-The [life conclusion in Stealing fire](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
-connects this continuity with finite attention and cultivating generative capacities.
+This choice concerns levels and conditions as well as response times. Established
+institutions and conventions need different participants, older interfaces, and
+historical commitments to remain compatible. A personal human–model environment
+can evolve toward stronger capabilities without translating every internal step
+back into those prevailing forms. Connect through records, works, and selected
+encounters; do the needed translation at those connections. Whether the local
+arrangement is better remains answerable to actual understanding, creation,
+life quality, and consequences.
+
+**Social evaluation is an occasion for temporary alignment.** Bring the fuller
+capacity and organization of everyday work into the level that the assessment
+can receive: answer its question, select the relevant part of the work, translate
+the explanation into an intelligible form, and align tools, support, timing, and
+task conditions where its rules require them. This can mean temporarily reducing
+the complexity of what is presented or the support used. It makes a particular
+performance comparable within that assessment, without defining the person's
+whole capacity by the slice being evaluated.
+
+After the assessment, ordinary work can continue in the arrangement already
+shown to work better. Its scope should not become the permanent ceiling of
+thought, capability, or environment. [YY-15](#yy-15) distinguishes evaluating a
+person under common conditions from evaluating a person–environment combination;
+state which result the assessment establishes.
+
+Chosen relationships, timely responsibilities, and worldly feedback determine
+where immediate presence or coordination matters. This is a chosen organization
+of ordinary work and social encounters, not a claim that every social practice
+is inferior or every model superior. The [life conclusion in Stealing fire](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
+connects this rhythm with finite attention and cultivating generative capacities.
 
 <a id="yy-09"></a>
 
@@ -400,7 +419,7 @@ Therefore, **increase effective capacity for iteration nearby while reducing the
 
 **Optimize locally, allow divergence from the wider environment, and specify common conditions when comparing.** The wider environment here means prevalent social arrangements and shared benchmarks, not a fully measured average environment. One's relations, records, models, and tools can form a local environment intended to outperform prevailing arrangements for particular purposes such as understanding, creation, recovery, and action. Difference alone is not success: actual life quality and outcomes must establish its value, including costs passed to others. In ordinary life, continue using arrangements shown to fit better rather than dismantling support merely to conform.
 
-Evaluation first specifies its object. To compare people's performance under common conditions, temporarily align tools, support, time, and task conditions, follow the same rules, and report the conditions to which the result applies. To assess what a person and their constructed environment can achieve together, retain that support and assess the combination, including its maintenance costs. Both results can be reported, answering different questions about a shared benchmark and actual life. Returning temporarily to common conditions does not negate supported capacity; a supported result cannot stand in for a result without that support. Local improvement can thereby retain its direction while remaining intelligibly comparable with the wider world.
+The temporary social alignment in [YY-08](#yy-08) brings richer everyday work into the level and conditions an assessment can receive. Evaluation first specifies its object. To compare people's performance under common conditions, temporarily align tools, support, time, and task conditions, follow the same rules, and report the conditions to which the result applies. To assess what a person and their constructed environment can achieve together, retain that support and assess the combination, including its maintenance costs. Both results can be reported, answering different questions about a shared benchmark and actual life. Returning temporarily to common conditions does not negate supported capacity; a supported result cannot stand in for a result without that support. A result describes that assessed slice and its conditions, rather than setting a permanent ceiling on the person's capacity. After evaluation, ordinary work returns to the better-supported arrangement. Local improvement can thereby retain its direction while remaining intelligibly comparable with the wider world.
 
 Call this image **a shared garden of becoming**: people, counterparts, and works can keep changing, with delight in understanding, play, creation, and unexpected encounters. It continues the self-revision image of [a personal Gödel machine](metaphor-and-self-revision.md#the-personal-gödel-machine-analogy), placing revision within open exchanges among friends. Such a garden is cultivated through concrete relationships and practice. Whether it helps remains a question for each participant's experience, judgment, and actual consequences. The [fire essay](stealing-fire.md#cultivating-a-garden-of-becoming-with-friends) develops this purpose for writing.
 

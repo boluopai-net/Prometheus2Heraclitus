@@ -255,12 +255,16 @@ roles: artifacts encounter consequences beyond either participant's wishes,
 and observed behavior returns as evidence constraining working views. This
 feedback can develop both the account and the person's next acts of understanding.
 
-YY-08 is a newly articulated, exploratory direction. Its explanation of
-synchrony as shared context and continuity, and asynchrony as differing rhythms,
-is a provisional interpretation. Do not silently turn it into a settled
-universal lifestyle prescription, a clinical explanation, or a requirement for
-constant interaction. Further attributable clarification may narrow or change
-its scope.
+YY-08 now states the clarified working direction: ordinary synchrony with the
+model and asynchrony with society, with temporary alignment at social evaluation.
+Synchrony concerns shared understanding and continuing development; asynchrony
+also preserves different levels and working conditions, not only response times.
+Evaluation can require a narrower presentation and shared support conditions.
+That assessed slice does not define the person's total capacity or become the
+ceiling of ordinary work. Preserve the return to arrangements shown to work
+better, while letting actual responsibilities and feedback determine timing.
+This chosen direction does not assert universal social inferiority, automatic
+model superiority, or a requirement for constant interaction.
 
 The four-axis table in YY-09 aligns with Personal-first humanism: ontology,
 epistemology, value, and methodology distinguish intersecting questions.

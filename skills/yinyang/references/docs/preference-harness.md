@@ -196,9 +196,12 @@ a real purpose there. A personal human–model environment can connect through
 records, results, and explicit handoffs while evolving internally toward new
 capabilities. Compatibility becomes work at particular connections rather than
 the rhythm every step of personal development must follow.
-[Asynchrony with the world and synchrony with the model](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
+[Asynchrony with society and synchrony with the model](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
 connects that design direction to life: remain responsive to the world while
-giving shared understanding and creation room to continue.
+giving shared understanding and creation room to continue. At social evaluation,
+translate and temporarily narrow the presented work and support to its receiving
+level and rules; afterward, continue using the arrangement shown to work better.
+That encounter's limits need not become the harness's permanent capability ceiling.
 
 How much structure and computation does this inquiry need? [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) takes up that question, building on the distinction between selecting views and assessing what they support.
 
