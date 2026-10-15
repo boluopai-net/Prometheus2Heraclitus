@@ -59,6 +59,25 @@ def slug(value, separator):
     return re.sub(r'\s', separator, re.sub(r'[^\w\- ]', '', value.lower())).strip(separator)
 
 
+def without_source_toc(source):
+    """The website supplies its own responsive rail; retain content disclosures."""
+    def project(match):
+        disclosure = match.group(0)
+        toc = re.fullmatch(
+            r'<details\b[^>]*>\s*<summary>\s*(?:本篇导航|On this page)\s*</summary>'
+            r'(?P<links>[\s\S]*?)</details>', disclosure, re.I)
+        if toc:
+            lines = [line.strip() for line in toc['links'].splitlines() if line.strip()]
+            if lines and all(re.fullmatch(r'[-*+]\s+\[[^\]\n]+\]\(#[^\s)]+\)', line) for line in lines):
+                return ''
+        return disclosure
+    # A quoted source example must stay verbatim even when it shows a TOC.
+    blocks = re.split(r'(^ {0,3}(?:`{3,}|~{3,})[^\n]*\n[\s\S]*?^ {0,3}(?:`{3,}|~{3,})[ \t]*$)', source, flags=re.M)
+    return ''.join(block if index % 2 else re.sub(
+        r'<details\b[^>]*>[\s\S]*?</details>', project, block, flags=re.I)
+        for index, block in enumerate(blocks))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', type=Path, required=True)
@@ -186,10 +205,11 @@ def main():
         source = source_text(path)
         if source.startswith('---\n'):
             source = source.split('---\n', 2)[2]
+        source = without_source_toc(source)
         extensions = ['tables', 'fenced_code', 'footnotes', 'toc', 'sane_lists', MathExtension()]
         if essay_url(path):
-            # Canonical essays contain Markdown navigation inside native details.
-            # Enable that presentation without changing the maintained source.
+            # Preserve useful Markdown content inside essay disclosures without
+            # changing the maintained source; website navigation is supplied above.
             source = re.sub(r'<details\s*>', '<details markdown="1">', source)
             extensions.append('md_in_html')
         md = markdown.Markdown(extensions=[*extensions, CjkBoldExtension()], extension_configs={'toc': {'slugify': slug, 'toc_depth': '2-3'}})

@@ -12,7 +12,7 @@ if (container && terms[container.dataset.giscusKind]) {
     mapping:'specific', term:terms[container.dataset.giscusKind], strict:'1',
     reactionsEnabled:'1', emitMetadata:'0', inputPosition:'top',
     theme:document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light',
-    lang:container.dataset.giscusLanguage || 'zh-CN', loading:'lazy'
+    lang:container.dataset.giscusLanguage || 'zh-CN', loading:'eager'
   };
   for (const [key,value] of Object.entries(config)) script.dataset[key] = value;
   container.append(script);

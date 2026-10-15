@@ -115,7 +115,8 @@ archive downloads, cloning, Issues and pull requests
 use GitHub's native public workflow. The website presents articles and four
 MIT Skill introductions linking to GitHub; it has no access application or download
 code form. Comments and replies use GitHub's native identity and moderation.
-The bilingual `comment_section` renderer opens and closes the giscus widget.
+The bilingual `comment_section` renderer keeps the giscus widget visible in a
+labelled section. The widget initializes eagerly without a disclosure click.
 
 Access applications, owner approvals, notification claims/decisions, release
 uploads and code redemption are retired. The Worker returns a generic 410 for

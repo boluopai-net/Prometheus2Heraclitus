@@ -5,11 +5,12 @@ def comment_section(english=False, kind='YinYang'):
     def t(zh, en):
         return en if english else zh
     heading = t('点歌与投稿', 'Song requests and submissions') if kind == 'Singing' else t('评论', 'Comments')
-    return f'''<details id="{'advice' if kind == 'Advice' else 'comments'}" class="repository-tool comment-section">
-<summary>{heading}</summary>
+    section_id = 'advice' if kind == 'Advice' else 'comments'
+    return f'''<section id="{section_id}" class="repository-tool comment-section" aria-labelledby="{section_id}-title">
+<h2 id="{section_id}-title">{heading}</h2>
 <div class="comment-content">
 <div class="giscus" data-giscus-kind="{kind}" data-giscus-language="{'en' if english else 'zh-CN'}"></div>
-</div></details>'''
+</div></section>'''
 
 
 def comments(english=False, kind='YinYang'):
