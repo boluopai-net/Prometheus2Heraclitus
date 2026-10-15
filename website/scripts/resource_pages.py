@@ -30,7 +30,7 @@ def render(dist, shell):
             f'<section class="repository-entry"><div class="section-heading"><h2><a href="/{route}/{suffix}" data-page-title>{t(zh, en)}</a></h2><img class="motif" src="/motifs/{motif}" alt="" aria-hidden="true"></div><p class="entry-summary">{t(description_zh, description_en)}</p></section>'
             for route, zh, en, motif, description_zh, description_en in entries
         )
-        body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/notebook.svg" alt="" aria-hidden="true"><a class="back" href="/{suffix}">{t("← 火与河流", "← Fire and River")}</a><h1>{t("资料与建议", "Resources & Advice")}</h1><p class="collection-intro">{t("思想走向实践，留下可以继续生长的造物。", "Thought becomes practice, leaving creations that can keep growing.")}</p></div>{overview}{comments(english, "Advice")}</main>'
+        body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/notebook.svg" alt="" aria-hidden="true"><h1>{t("资料与建议", "Resources & Advice")}</h1><p class="collection-intro">{t("思想走向实践，留下可以继续生长的造物。", "Thought becomes practice, leaving creations that can keep growing.")}</p></div>{overview}{comments(english, "Advice")}</main>'
         write('repositories', t('资料与建议', 'Resources & Advice'), body,
               '<link rel="stylesheet" href="/repository.css"><script type="module" src="/giscus-comments.js"></script>')
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
