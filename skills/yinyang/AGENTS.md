@@ -68,8 +68,10 @@ a diagnosis, total self-knowledge requirement, or omnipotence claim.
 
 The ontology is computational: question-relative objects, roles, relations,
 transformations, inference, and feedback within a generative process exceeding
-any single view. Physical realization and reducibility are separate open
-questions. Preserve the distinction between retained sources, competing
+any single view. The framework takes physical reality as its common ground;
+computational ontology is its question-relative upper-level abstraction.
+Particular realization mechanisms and full reducibility still require their
+own evidence. Preserve the distinction between retained sources, competing
 candidates, and accepted working views. Diagrams explain these same claims;
 they do not substitute a physical scene or mandatory pipeline for the ontology.
 

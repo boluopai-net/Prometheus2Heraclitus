@@ -8,6 +8,14 @@ This orientation has two illuminating comparisons: philosopher Professor Feng Ye
 
 ## Computational articulation and physical reduction
 
+The framework adopts physical reality as its common basis and computational
+ontology as an upper-level abstraction of it. Merely naming that basis does
+not yet select the variables, representations, and operations that make a
+particular inquiry calculable. Even an in-principle reduction would not by
+itself provide a feasible algorithm for the present question. Abstraction
+preserves the relations that matter while setting aside detail whose cost
+does not help answer it; its adequacy remains open to evidence and use.
+
 A computational ontology makes relations available for inquiry. A functional description explains an activity through what its parts do and how their transformations connect. It can guide investigation while the microphysical realization is still being studied. Physical reduction asks a further question: how those descriptions connect to a proposed physical basis, through which definitions, identifications, or bridge assumptions. The success of a functional account and the adequacy of such a reduction therefore call for different evidence.
 
 Several questions often hidden inside “reducible” need separate answers:
@@ -30,7 +38,7 @@ Professor Feng Ye's *Studies in No-Self Physicalism* develops an explicitly phys
 
 Those passages distinguish practical limitations from ideal reduction and allow non-reductive methods where complexity prevents a complete neurological explanation. Mental predicates need not analytically contain physical predicates. The account distinguishes ideal descriptions and reasoning powers from actual ones; derivability from present physics remains a separate question. Methodological naturalism permits suitably reliable intuitions while examining their conditions and limits. Pattern recognition does not by itself justify a stronger explanatory claim.
 
-The substantive meeting point is the difference between what an ideal account might explain and how a finite inquirer actually obtains understanding. Professor Feng Ye combines a physicalist commitment with attention to complexity, representation, intuition, and reliability. YinYang shares those methodological concerns while developing a question-relative computational account whose use rests on the relations it explains and the actions it enables. Its local functional argument leaves ultimate reduction open. A philosophical orientation may oppose reductive physicalism and begin inquiry from that choice; a factual claim about the possibility or impossibility of reduction still needs an argument connecting the proposed basis with the phenomenon. This separates a chosen worldview, a useful method, and a conclusion about realization.
+The substantive meeting point is the difference between what an ideal account might explain and how a finite inquirer actually obtains understanding. Professor Feng Ye combines a physicalist commitment with attention to complexity, representation, intuition, and reliability. YinYang shares those methodological concerns while developing a question-relative computational account whose use rests on the relations it explains and the actions it enables. Its local functional argument leaves ultimate reduction open. The framework's physical grounding does not settle every claim about reduction; a factual claim about its possibility or impossibility still needs an argument connecting the proposed basis with the phenomenon. This separates a chosen worldview, a useful method, and a conclusion about realization.
 
 The [2021 mathematics lecture report](https://renwen.ucas.ac.cn/index.php/rczp/2015-12-09-08-37-01/55005-2021-6), from the hosting institution, distinguishes fictional mathematical objects from true applied descriptions of physical reality. It supplies another comparison: constructed objects can contribute to a true application through their representational role. Their usefulness and the truth of an applied description concern different relations. This helps articulate how a construction can matter to inquiry while its ontological commitment is assessed separately.
 

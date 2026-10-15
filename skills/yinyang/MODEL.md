@@ -225,8 +225,13 @@ Do not rebuild the account around a physical inventory of human, model, world,
 and artifact. Those terms matter through their roles in generation,
 interpretation, action, and correction. Computational articulation does not
 assert a literal digital algorithm for human activity, computational monism, or
-an established reduction of experience. Physical realization and reducibility
-remain separate open questions, not prerequisites for the ontology.
+an established reduction of experience. The framework adopts a common physical
+basis: philosophy, psychological activity, and engineering occur within one
+physical reality. Computational ontology abstracts its question-relevant
+relations so finite inquiry can work. Particular mechanisms, bridge assumptions,
+complete reduction, and feasible computation remain distinct questions. The
+Trinity essay develops this unity of physical ground with differentiated
+explanatory and practical levels; the layers diagram must show that basis.
 
 Retaining incompatible candidates differs from jointly accepting their claims;
 removing a candidate from a working view does not erase its source or prove it

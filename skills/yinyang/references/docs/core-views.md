@@ -222,6 +222,18 @@ connects this rhythm with finite attention and cultivating generative capacities
 
 ## YY-09 · Distinguish ontology, epistemology, value, and methodology
 
+**The whole framework works through abstractions over a physical basis.**
+Physical ontology concerns the material processes and conditions in which
+thinking, feeling, computation, and action occur. Computational ontology selects
+their question-relevant events, relations, states, and transformations. Physical
+description alone does not provide the representation and feasible method needed
+to answer a particular question. These upper-level distinctions make inquiry
+workable while remaining answerable to physical realization and worldly results.
+Shared physical grounding does not establish a complete reduction or erase
+differences of meaning, evidence, and method. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+develops this relation; [Trinity](local-source-and-website.md) connects philosophy,
+psychology, and engineering as activities within the same physical reality.
+
 Both participants are modeled as event streams. An event may be an encounter, an interpretation, a remembered expression becoming available, or an action with consequences; its role depends on the question. Temporal, causal, and interpretive relations organize continuity across events. The streams generate, use, and revise local views while exceeding any single view. Relations may emerge through intuition, expression, or action before a question is explicit. Computational ontology articulates objects, roles, relations, constraints, and possible transformations at the scale an inquiry needs. It can itself change as a new distinction changes what can be asked or inferred.
 
 Useful abstraction weighs explanatory gain against the assumptions,

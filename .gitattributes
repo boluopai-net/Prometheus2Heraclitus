@@ -1,3 +1,5 @@
 # Keep native renderer/export bytes intact; editable candidates use normal checks.
 skills/yinyang/references/diagrams/*.html linguist-generated=true -whitespace
 skills/yinyang/references/diagrams/*.svg linguist-generated=true -whitespace
+plugins/yinyang/skills/yinyang/references/diagrams/*.html linguist-generated=true -whitespace
+plugins/yinyang/skills/yinyang/references/diagrams/*.svg linguist-generated=true -whitespace

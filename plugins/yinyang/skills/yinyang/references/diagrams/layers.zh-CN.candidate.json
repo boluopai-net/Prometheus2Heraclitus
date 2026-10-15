@@ -2,14 +2,14 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "计算本体论与相邻问题 · YY-09",
+    "title": "物理基础上的计算本体与实践 · YY-09",
     "output": "diagrams/layers.zh-CN.html",
     "locale": "zh-CN",
     "quality_profile": "showcase",
     "animation": "trace",
     "translations": {
       "page.title": "{title}",
-      "diagram.description.architecture": "本体、认识、价值与方法共同进入实践；具体实现让后果成为能够返回的反馈。",
+      "diagram.description.architecture": "整个体系抽象于共同物理基础之上；本体、认识、价值与方法在实践中相连，后果返回理解。",
       "diagram.description.workflow": "由 Archify 生成的工作流图。",
       "diagram.description.sequence": "由 Archify 生成的时序图。",
       "diagram.description.dataflow": "由 Archify 生成的数据流图。",
@@ -286,9 +286,6 @@
       "viewer.passport.relationship.direction.loop": "自环",
       "viewer.passport.sourceCount.one": "{count} 个已验证来源引用",
       "viewer.passport.sourceCount.other": "{count} 个已验证来源引用",
-      "viewer.passport.sourceMarker": "来源",
-      "viewer.passport.beacon.one": "{count} 个已验证来源；聚焦此节点以检查",
-      "viewer.passport.beacon.other": "{count} 个已验证来源；聚焦此节点以检查",
       "viewer.passport.repository.open": "打开已验证的仓库修订版本 {revision}",
       "viewer.passport.source.open": "打开修订版本 {revision} 中已验证的来源 {path}",
       "viewer.passport.source.openLink": "打开 ↗",
@@ -461,10 +458,22 @@
         },
         "external": {
           "label": "实现与结果"
+        },
+        "cloud": {
+          "label": "物理基础"
         }
       }
     },
     "views": [
+      {
+        "id": "physical-ground",
+        "label": "从物理基础到计算抽象",
+        "focus": [
+          "physical",
+          "ontology"
+        ],
+        "note": "整个体系以物理现实为基础；计算本体选取当前问题可使用的关系。共同基础不等于已完成还原或已给出可行算法。"
+      },
       {
         "id": "questions",
         "label": "区分几种问题",
@@ -491,13 +500,34 @@
   },
   "components": [
     {
+      "id": "physical",
+      "type": "cloud",
+      "icon": "none",
+      "label": "物理本体",
+      "sublabel": "物质、能量与实际过程",
+      "pos": [
+        70,
+        50
+      ],
+      "size": [
+        280,
+        90
+      ]
+    },
+    {
       "id": "value",
       "type": "frontend",
       "icon": "none",
       "label": "价值",
       "sublabel": "什么值得追求，为谁而做？",
-      "pos": [355, 650],
-      "size": [280, 90]
+      "pos": [
+        355,
+        870
+      ],
+      "size": [
+        280,
+        90
+      ]
     },
     {
       "id": "ontology",
@@ -507,7 +537,7 @@
       "sublabel": "事件、关系与变换",
       "pos": [
         70,
-        70
+        310
       ],
       "size": [
         280,
@@ -522,7 +552,7 @@
       "sublabel": "什么支持视图，何时修订？",
       "pos": [
         640,
-        70
+        310
       ],
       "size": [
         280,
@@ -537,7 +567,7 @@
       "sublabel": "怎样组织可持续的工作？",
       "pos": [
         640,
-        390
+        630
       ],
       "size": [
         280,
@@ -552,7 +582,7 @@
       "sublabel": "当前环境怎样执行？",
       "pos": [
         70,
-        390
+        630
       ],
       "size": [
         280,
@@ -561,6 +591,15 @@
     }
   ],
   "connections": [
+    {
+      "id": "physical-abstraction",
+      "from": "physical",
+      "to": "ontology",
+      "label": "抽象出相关结构",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "variant": "emphasis"
+    },
     {
       "id": "value-guides-method",
       "from": "value",
@@ -624,10 +663,10 @@
   "cards": [
     {
       "dot": "cyan",
-      "title": "事件流是共同的建模基础",
+      "title": "共同基础，上层抽象",
       "items": [
-        "人与模型都被建模为事件流，局部视图在其中形成；问题决定需要阐明哪些事件与关系。",
-        "这一当代表述发展赫拉克利特的生成哲学，不要求物理上的火一元论或穷尽人的算法。"
+        "哲学思考、心理活动和工程实践都在同一物理世界中发生；这构成三位一体的本体统一。",
+        "事件流、关系与变换是供探究使用的抽象。仅有物理描述，还需选择变量、表示与可行方法才能计算当前问题。"
       ]
     },
     {
@@ -643,7 +682,7 @@
       "title": "结果返回理解",
       "items": [
         "结果可能涉及工具、方法、证据、建模区分或目的。运行成功本身不能说明安排值得采用。",
-        "物理实现是另一个仍开放的解释问题，不是此概念图已确立的基础或先决条件。"
+        "物理基础约束整个体系。具体机制与高层描述怎样连接，需要相应证据；实践中的具体实现不等于完整的物理还原。"
       ]
     }
   ]

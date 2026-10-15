@@ -4,7 +4,35 @@
 
 *An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
-**Trinity joins ontology, epistemology, and methodology in one practice.** Philosophy articulates the objects and relations through which a world becomes intelligible; situated modeling brings the actual person and counterpart into that account and asks how they are known; specialist Skills supply methods through which understanding becomes action. Psychology and engineering participate throughout this connection. The package already gives it a concrete form.
+**The one is a shared physical reality; the three are philosophy, psychology,
+and engineering within it.** Philosophical thinking, psychological activity,
+and engineering practice are physically realized activities. Their unity is
+ontological before it becomes a practical loop: they occur within, understand,
+and transform the same world. Their differences concern what each makes
+intelligible and how it works.
+
+## One physical reality, differentiated levels
+
+This is the framework's physicalist orientation. Philosophy articulates objects,
+relations, knowledge, value, and direction; psychology investigates feeling,
+knowing, preference, and interaction; engineering constructs and changes the
+conditions in which those activities continue. Thinking about an environment,
+experiencing it, and modifying it can be different aspects of one connected
+physical process.
+
+Computational ontology provides upper-level abstractions for this work. Events,
+representations, goals, constraints, and transformations make relevant relations
+available without reconstructing every microscopic state. Saying that all three
+have a physical basis does not itself supply the variables, bridges, or feasible
+calculation needed to answer their questions. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+and the [layers diagram](../diagrams/layers.html) develop that passage.
+
+A physical basis also does not make a physical description interchangeable with
+a reason, an experience, or a design criterion. The occurrence of an argument
+and its validity are distinct questions; a device operating and its purpose
+being worthwhile are distinct judgments. Particular mechanisms and full
+reductions need their own explanations. The unity gives these inquiries a
+common world while their abstractions preserve the distinctions needed to use it.
 
 ## Worldview, knowing, and realization
 
@@ -17,11 +45,11 @@
 
 Read the structure cumulatively: the common account makes a world and working relations intelligible; adding the five situated accounts brings the actual participants and the grounds of understanding into view; adding methods makes the understanding usable. Personal material supports and can correct both accounts. This is a relation among functions, not an exclusive classification of every file: common philosophy includes epistemological arguments, and a Skill can explain the objects its method needs.
 
-The “one” is the continuing practice of understanding, living, and creating. The “three” distinguish what is understood, how it is known and revised, and how one acts through it. Value gives this practice direction: what is worth pursuing cannot be settled merely by describing an object or making a method run. [Personal-first humanism](personal-first-humanism.md) develops that connected question.
+The shared physical ground becomes a continuing practice of understanding, living, and creating. Ontology, epistemology, value, and methodology distinguish questions within that practice; they intersect philosophy, psychology, and engineering rather than assigning one exclusive axis to each. Value gives this practice direction: what is worth pursuing cannot be settled merely by describing an object or making a method run. [Personal-first humanism](personal-first-humanism.md) develops that connected question.
 
 Philosophy, psychology, and engineering name the bodies of understanding and ability that contribute to this practice. Psychology helps investigate actual feeling, knowing, preference, and interaction; epistemology asks about the grounds and limits of the resulting account. Engineering both models the objects and relations of an environment and realizes methods within it. Thus an engineering ontology and an engineering procedure have related but different jobs. The five files retain their concrete responsibilities; they need not each become a treatise on all three dimensions.
 
-**Engineering gives this exchange physical realization.** Programs require machines, energy, and time; interaction requires embodiment, perception, and action. Physics investigates those conditions, under which engineering constructs, measures, and adjusts. The connection among views, experience, and works does not by itself settle every question about the mind's physical realization.
+**All three already have physical realization; engineering deliberately reorganizes its conditions.** Programs require machines, energy, and time; thought and interaction involve embodiment, perception, and action. Physics investigates material conditions, while engineering constructs, measures, and adjusts arrangements within them. Their common basis does not wait for engineering to make philosophy or psychology physical.
 
 For example, “understanding can be supported jointly by a person and their environment” is a philosophical view open to argument. Observing how someone continues thinking with records and a model concerns psychology and knowing. Building an environment that retains context, presents relations, and accepts correction is engineering. Its help or resistance returns to assess the view and personal model. [Philosophical readings](philosophical-readings.md), [psychological readings](psychological-readings.md), and [engineering readings](engineering-readings.md) supply sources for these contributions.
 

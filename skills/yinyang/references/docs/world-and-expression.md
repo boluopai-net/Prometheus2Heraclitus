@@ -14,6 +14,29 @@ consequences become available for further inquiry.
 
 Here **ontology** means an articulation of the objects, roles, relations, and transformations an inquiry needs. **Computational** emphasizes that these distinctions can be organized, transformed, and used in reasoning and action. **YinYang** names the contemporary framework in which a person and a generative model contribute to each other's continuing activity. Their models of the person, the counterpart's role, and their relationship guide how they organize the environment. That environment includes Skills, prompts, hooks, tools, model choices, and the user's working conditions: the concrete arrangements through which an understanding acquires effects. The question is how expressions mediate this passage from understanding to action and back.
 
+## Physical ground and computational abstraction
+
+This framework takes a physical world as its common ground. Thinking, feeling,
+model inference, writing, and making are activities within that world. Its
+computational ontology is an upper-level abstraction of physical processes:
+it selects events, states, relations, constraints, and transformations through
+which a particular question can be understood and worked on. The whole account
+of knowing, valuing, methods, and practice operates at these abstracted levels.
+
+A physical basis alone does not supply a usable calculation. To answer a
+question, an inquirer still needs relevant variables, a scale, bridge assumptions,
+and a method that can operate within available resources. Reconstructing every
+microphysical detail of a conversation would not itself specify what counts as
+a correction or which consequence answers its question. Abstraction makes such
+relations available while physical conditions constrain their realization.
+
+The same activity can therefore have a physical description and a computational,
+psychological, or practical description. Their relation must be investigated
+where the question needs it; a shared physical basis does not establish a
+complete reduction or make every higher-level problem tractable. The
+[layers diagram](../diagrams/layers.html) shows this relationship, and
+[Trinity](local-source-and-website.md) develops its philosophical unity.
+
 ## A process exceeds its available model
 
 A stream is organized continuation, not merely a chronological transcript.
