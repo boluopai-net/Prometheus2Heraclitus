@@ -10,13 +10,13 @@ This develops one part of the sustaining practice proposed in [Writing a sinthom
 
 ## Three levels of negation
 
-Denial makes this difference especially visible: what a sentence rejects and what its speaking brings into the encounter are not the same question.
+Denial makes three questions especially visible: what a sentence excludes as true, what its speaking brings into the encounter, and how the speaker takes up the content. They concern truth, discursive function, and acceptance respectively.
 
 Propositional negation changes a proposition's truth conditions. Speaking a negation is also an event: someone expresses $\neg P$ in a context. A record of that event supports a claim about what was said. Assessing $P$ or $\neg P$ about the world calls for evidence about the proposition's object. Mention, rejection, and confirmation thus relate to the same content in different ways.
 
 A negation can bring content into discussion and establish a speaker's relation to it. In this sense negation includes an affirmation of relevance: the content becomes something addressed. Logical negation still excludes $P$ when $\neg P$ is true. The apparent tension dissolves once presence in discourse and propositional truth are distinguished. Repeated denial can respond to another assertion, clarify a distinction, or serve another function; context guides the interpretation.
 
-Freud's [“Negation” (1925)](https://lutecium.org/ftp/Freud/pdf/1925_negation.pdf) considers repressed content entering awareness through negation and distinguishes intellectual recognition from acceptance. This specific psychoanalytic claim develops the relation between expression and acceptance. Its interpretation concerns the function of a denial in a particular encounter. Hegel's account of determinate negation in [*Science of Logic*, Introduction §62](https://www.marxists.org/reference/archive/hegel/works/hl/hlintro.htm) instead concerns how a determination yields a further determination, while a logical complement has its defined extensional role. Each comparison becomes informative through the relation its own concept describes.
+Freud's [“Negation” (1925)](https://lutecium.org/ftp/Freud/pdf/1925_negation.pdf) considers repressed content entering awareness through negation and distinguishes intellectual recognition from acceptance. This supplies the third question: admitting content into thought can differ from accepting it. Reading a particular denial through that distinction requires an interpretation of the encounter; its grammatical form alone supplies no finding about repression.
 
 ## Enunciation and content
 
@@ -35,6 +35,8 @@ For a consistent ontology $T$ and a view $R$ consistent with $T$, define a forma
 $$E=\operatorname{Cn}_T(R).$$
 
 This gathers consequences within the selected language. Compared with a coherent self-description, it explains how chosen material acquires a connected form. Formal closure answers which consequences follow from $T$ and $R$; knowledge of a person also depends on the account's fit, omissions, and later changes. The notation belongs to this essay's comparison.
+
+Consider a deliberately chosen design rule: “participants who learn through making should have access to trials.” Representing that rule in $T$ and placing “this person learns through making” in $R$ yields a requirement for accessible trials in $E$. The inference can expose a consequence the author had overlooked: an environment supplying finished answers but no opportunity to try them fails the chosen rule. Yet the inference has not established that this person actually learns through making, or that every activity requires a trial. Those questions return to the person's expression and actual practice. Revising either the rule or the assertion changes the resulting view.
 
 Lacan's [“The Mirror Stage” (1949), opening discussion of identification](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf), develops the ego's relation to image and identification; the subject appears through the relations of signification in which a stated “I” takes its place. The comparison with $E$ concerns an articulated, currently coherent self-account. That account can support identification, while the speaker can question it or discover an implication they had not intended. Formal views ask what follows from a description; psychoanalytic concepts ask how a subject is positioned through language and identification.
 

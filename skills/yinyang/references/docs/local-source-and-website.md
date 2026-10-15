@@ -27,12 +27,13 @@ have a physical basis does not itself supply the variables, bridges, or feasible
 calculation needed to answer their questions. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
 and the [layers diagram](../diagrams/layers.html) develop that passage.
 
-A physical basis also does not make a physical description interchangeable with
-a reason, an experience, or a design criterion. The occurrence of an argument
-and its validity are distinct questions; a device operating and its purpose
-being worthwhile are distinct judgments. Particular mechanisms and full
-reductions need their own explanations. The unity gives these inquiries a
-common world while their abstractions preserve the distinctions needed to use it.
+A shared basis connects the inquiries without making their explanations
+interchangeable. The physical occurrence of an argument does not settle its
+validity; a device operating does not settle whether its purpose is worthwhile.
+To answer either question, an inquiry must select relevant objects and relations
+and explain how its evidence bears on them. The upper-level account therefore
+does substantive work: physical unity alone cannot choose an adequate abstraction,
+establish its bridges to observations, or make its computation feasible.
 
 ## Worldview, knowing, and realization
 
@@ -43,11 +44,14 @@ common world while their abstractions preserve the distinctions needed to use it
 | Supporting `personal/` material and its original sources | Grounding for the philosophy and the five accounts: relevant experience, purposes, expression, and environmental evidence. Public intellectual sources also ground the general philosophy. |
 | Specialist Skills | Methodology: how to investigate, teach, write, implement, and maintain the work. Tools and running arrangements give these methods practical effect. |
 
-Read the structure cumulatively: the common account makes a world and working relations intelligible; adding the five situated accounts brings the actual participants and the grounds of understanding into view; adding methods makes the understanding usable. Personal material supports and can correct both accounts. This is a relation among functions, not an exclusive classification of every file: common philosophy includes epistemological arguments, and a Skill can explain the objects its method needs.
-
-The shared physical ground becomes a continuing practice of understanding, living, and creating. Ontology, epistemology, value, and methodology distinguish questions within that practice; they intersect philosophy, psychology, and engineering rather than assigning one exclusive axis to each. Value gives this practice direction: what is worth pursuing cannot be settled merely by describing an object or making a method run. [Personal-first humanism](personal-first-humanism.md) develops that connected question.
-
-Philosophy, psychology, and engineering name the bodies of understanding and ability that contribute to this practice. Psychology helps investigate actual feeling, knowing, preference, and interaction; epistemology asks about the grounds and limits of the resulting account. Engineering both models the objects and relations of an environment and realizes methods within it. Thus an engineering ontology and an engineering procedure have related but different jobs. The five files retain their concrete responsibilities; they need not each become a treatise on all three dimensions.
+These are connected functions rather than disciplinary containers. Common
+philosophy includes epistemology; psychological inquiry has methods and an
+ontology; engineering needs both a model of its objects and procedures for
+changing them. Ontology, epistemology, value, and methodology distinguish
+questions that cross all three contributions. What exists, how it is known,
+what is worth pursuing, and how to proceed inform one another without collapsing
+into one question. [Personal-first humanism](personal-first-humanism.md)
+develops the value and direction of this practice.
 
 **All three already have physical realization; engineering deliberately reorganizes its conditions.** Programs require machines, energy, and time; thought and interaction involve embodiment, perception, and action. Physics investigates material conditions, while engineering constructs, measures, and adjusts arrangements within them. Their common basis does not wait for engineering to make philosophy or psychology physical.
 
@@ -55,7 +59,10 @@ For example, “understanding can be supported jointly by a person and their env
 
 ## Philosophy, psychology, and engineering: develop the missing connection
 
-The loop needs **philosophical, psychological, and engineering contributions**. Philosophy articulates objects, knowledge, value, and direction. Psychology attends to the person's experience, preferences, motivations, and relationships, grounding the personal model. Engineering realizes that understanding through prompts, Skills, tools, a harness, and a maintainable environment. Its purpose here is the personal environment's contribution to life. A result in any one can call for revisions in the others.
+The loop needs **philosophical, psychological, and engineering contributions**
+because a coherent idea can miss the person, a personal account can lack a
+workable environment, and a working tool can pursue an unexamined purpose.
+Connecting the three lets each expose what the others leave unresolved.
 
 **With one contribution available, develop the other two; with two, concentrate on the third.** Having a contribution means sufficient understanding and experience to participate in the current work, not becoming an expert in three disciplines first. The model can retrieve, develop, write, implement, and check; the person understands, chooses, uses, and corrects. Missing capabilities can develop through this collaboration.
 
@@ -109,12 +116,10 @@ files can be obtained, versions compared, changes discussed, and a proposal
 developed into a contribution. Another person can see what they are using and
 what has changed.
 
-GitHub currently supplies these functions for this collection. Its role joins
-distribution with the social and temporal life of a work. An access-controlled
-repository can still support collaboration: readers obtain the material under
-its actual access and license terms, raise questions, and propose changes.
-The shared work can then enter another person's local practice and acquire
-uses its first author did not anticipate.
+GitHub currently supplies these functions for this public collection. Readers
+can obtain the work under its license, raise questions, and propose changes.
+The shared work can enter another person's local practice and acquire uses
+its first author did not anticipate.
 
 ### The website: the work becomes perceptible and discussable
 
@@ -133,12 +138,6 @@ discovery because what becomes perceptible changes what can be judged.
 [World, process, and expression](world-and-expression.md) develops this return from a
 work to the encounter that made it.
 
-| Form | What it makes possible | What returns from it |
-| --- | --- | --- |
-| Personal local environment | Use understanding in a particular life and task | Practical results, friction, changed purposes |
-| GitHub repository | Obtain, inspect, revise, and collaborate on selected work | Reusable improvements, alternatives, accountable changes |
-| Website | Perceive the whole, read its relations, and enter discussion | Recognition, questions, objections, new uses |
-
 ## Philosophy, working models, and private material
 
 For someone taking up this collection, the intended practice is to write their
@@ -151,47 +150,30 @@ philosophy does not express publicly.
 These scales distinguish what is expressed, while local environment, GitHub,
 and website distinguish where the work is maintained and encountered.
 
-They develop together. Writing a page can expose a relation that improves the
-five files; using those files can reveal a mismatch that sends the author back
-to the page and its philosophy. The model carries the corresponding source
-edits, website implementation, and authorized publication, checking what reaches
-each reader. Making the website is itself part of the work: layout, links, and
-examples can make a relation visible enough to judge. Repository maintenance
-keeps the resulting work available for another iteration.
-
-The iteration carries meaning across forms, not every private detail into
-every destination. Public philosophy can indirectly express selected personal
-understanding while the complete direct model remains private. A changed
-private insight may warrant a general public explanation, a different page,
-or no public change. A website edit need not change an unaffected core file.
-The contribution of a revision determines where it travels. Another user can
-develop this same practice with their own philosophy, repositories, and pages;
-the example's particular doctrine and personal contents need not travel with it.
+Writing a page can expose a relation that improves the five accounts; using
+those accounts can reveal a mismatch that sends the author back to philosophy.
+The model carries affected source edits, implementation, and authorized
+publication, checking what reaches each reader. A private insight may warrant
+a general public explanation or no public change. The contribution of a
+revision determines where it travels; the full direct personal model can remain
+private. [Begin with this example](example-and-commons.md) develops independent
+authorship and the choice of what to disclose.
 
 ## Sun, Moon, and Earth: who participates?
 
-The [Sun–Moon–Earth image](yinyang-and-taiji.md#sun-moon-and-earth) expresses
-differentiated generation, reception, and shaping through Sun and Moon, with
-Earth the material and shared living environment where work acquires consequences.
-Person and model are the actual participants. The person brings purposes,
-experience, recognition, and judgment; the model interprets, proposes,
-constructs, checks, and carries work forward. Both can generate, reason,
-object, and revise. Roles can be retained or exchanged without gender
-assignment. Earth includes supporting conditions, other people's independent
-purposes, and results neither participant can settle by agreement alone.
+The [Sun–Moon–Earth image](yinyang-and-taiji.md#sun-moon-and-earth) gathers
+generation, reception, and shaping in a world that answers back. Person and
+model are the actual participants; both can generate and judge, retaining or
+exchanging emphases without gender assignment. Earth includes material
+conditions, other people's purposes, and consequences neither participant
+controls by agreement.
 
-The local environment, GitHub, and website concern another question: **through
-what forms does their work remain available?** Person and model work across
-all three. Earth is present when a local program fails, a collaborator offers
-an alternative, or a reader understands a page differently. The website is
-one entrance into this wider world; the repository and local environment
-already belong to it too.
-
-These two triads connect through the work. The first makes generation,
-collaboration, and worldly response visible. The second gives their creations
-places to operate, persist, circulate, and be understood. Sun and Moon bring
-something into form; the three forms let it acquire consequences on Earth;
-those consequences can change both the work and its makers.
+These images, the three disciplines, and the three practical forms answer
+different questions: how participation is imagined, what understanding and
+ability contribute, and where work continues. A local program's failure, a
+collaborator's alternative, and a reader's objection all belong to Earth. None
+of the triads assigns one participant, discipline, or medium to another. Their
+relations are made through the particular work.
 
 ## Why organize them with a language model?
 
@@ -218,20 +200,12 @@ reasoning ability to choose where to put their attention. Developing with a
 model can include capacities distributed across the relationship and its
 environment, as the [stealing-fire argument](stealing-fire.md) explains.
 
-This organization can involve several models in different situations. A model
-may examine sources, another develop competing explanations, and another check
-the work that follows. Listening, speaking, reading, and writing describe ways
-these contributions enter a shared activity, rather than four fixed owners of
-mental faculties. [Metaphor and self-revision](metaphor-and-self-revision.md)
-develops how external representations help make such distributed cognition
-possible and revisable.
-
-Such an arrangement depends on the model and tools actually available to it.
-More capable models may allow simpler supporting structures and a different
-division of work. Those possibilities become improvements when the current
-system can realize them and its results support the change. The maintenance
-therefore includes revising the model's own working assumptions about the
-person, the tools, and what still needs assistance.
+Different models can contribute source investigation, competing explanations,
+or checking where that division helps. [Metaphor and self-revision](metaphor-and-self-revision.md)
+develops the role of external representations in such distributed cognition.
+The arrangement must change with actual capabilities: a stronger model may
+make an old scaffold unnecessary, while missing tools can still prevent a
+sound interpretation from becoming usable.
 
 ## A change travels out and comes back
 
@@ -252,13 +226,11 @@ This is an illustrative path through the three forms. Actual inquiry can
 begin at any of them. The important connection is that a change has somewhere
 to come from, a form others can inspect, and consequences that can revise it.
 
-The same distinction used in process research helps here: actual interaction,
-partial records, and candidate models play different roles. Running a tool
-or reading a page produces an event. Its record supplies evidence. An
-explanation proposes why it happened and what a revision might change.
-Further use can support or correct that explanation. The three media help
-carry this inquiry; each can hold records and models, and none substitutes
-for the whole activity.
+The interaction, its record, and its explanation contribute differently: an
+event happens, a partial record supplies evidence, and an explanation proposes
+why it happened. Further use can correct that explanation. The
+[experimental-philosophy essay](embodied-experimental-philosophy.md) develops
+how to make these returns discriminate among interpretations.
 
 ## Keeping the loop current
 
@@ -271,23 +243,14 @@ material retains what the public philosophy cannot supply: relevant personal
 experience, circumstances, relationships, purposes, and evidence of actual use.
 Original records and earlier versions remain with their existing archives.
 
-Personal material includes current work, study, research, and life plans;
-selected psychological and relational records; and relevant evidence from the
-person's environment, such as a configuration change or a difficulty encountered
-in a task. A setting can reflect a default or constraint, and a plan can express
-an intention whose execution remains open. Read each source for what it
-establishes. A private account serves the present encounter and can be added
-to, revised, condensed, or removed as its usefulness changes.
-
-The model carries this maintenance during relevant work. It follows the
-current page or source, checks the affected original records and actual
-environment, updates the useful private distillation, and carries consequential
-changes into the five accounts and their consumers. The person need not
-remember to request every update. Relevance and existing authorization bound
-the reading; stored material, a new timestamp, and a plausible interpretation
-do not settle truth. Current experience can also expose a problem in the
-philosophy, which is then examined in its own right. A stale private summary
-should not silently roll a developed public argument back to an earlier view.
+During relevant authorized work, the model compares the current source,
+affected original records, and actual environment, then updates the useful
+private distillation and its consumers. The person need not request each
+update. Plans, experiences, and configurations establish different things:
+an intention may remain unrealized, and a setting may reflect a default.
+Current experience can also expose a problem in philosophy. Neither a newer
+timestamp nor an older private summary settles that disagreement; examine the
+claim and its grounds.
 
 ## What is the focus, and what supplies material?
 
@@ -313,13 +276,6 @@ marks or an equivalent link label usually stays at its presentation boundary.
 The [adaptation method](../harness-adaptation.md#choose-the-focus-and-trace-both-directions)
 explains how to carry that distinction through actual work.
 
-This is a living pattern of generation, use, return, and revision. A useful
-change in one place gives the model a reason to inspect the relevant connections,
-understand what travels, and carry it to the affected owners. The person can
-point to a mismatch or a new possibility; the model does the explicit work.
-No fixed correspondence or mechanical copy can decide every such passage.
-Work can finish in a coherent version and remain open to the next encounter.
-
 ## Coherence keeps the differences connected
 
 If the aim is sustained personal use, inspectable reuse, and understandable
@@ -337,8 +293,8 @@ changed person can require a changed account. A changed model can make an old
 procedure unnecessary. Keeping the work coherent includes letting those
 changes alter its organization.
 
-The resulting unity is active. Personal practice gives the work substance;
-the repository lets selected substance be continued; the website lets it be
-encountered. The language model helps carry the interpretations and
-transformations connecting them. Sun and Moon keep making things on Earth,
-and what they make can answer back.
+The resulting unity is active: philosophy makes a relation intelligible,
+psychology connects it to lived participants, and engineering reorganizes the
+conditions of its continuation. Local practice, maintained source, and readable
+pages give that work places to develop. All occur in the same physical world,
+whose responses can change both the work and its makers.

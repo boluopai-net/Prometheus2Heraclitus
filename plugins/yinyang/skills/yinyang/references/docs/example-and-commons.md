@@ -36,27 +36,32 @@ philosophical phrasing alone does not determine what a text reveals.
 The public work, private core accounts, and supporting sources have different
 readers and purposes, while participating in the same self-forming practice.
 
-A literary form can show how an image gathers a relationship, how concepts give
-it distinctions, and how a practice makes it consequential. Its usefulness lies in making a particular composition available for others to understand, examine, and develop from their own starting points. YinYang's fire, event streams, Sun and Moon, and philosophical
-references belong to this developed example. They make its particular argument
-intelligible; they are available for examination and reuse. A recipient can choose which relations to take up and which to develop differently.
+A literary form can show how an image gathers a relationship, how concepts
+give it distinctions, and how practice makes it consequential. YinYang's fire,
+event streams, Sun and Moon, and philosophical sources make this particular
+composition intelligible. A reader can examine how it works while choosing
+which relations to take up and which to develop differently.
 
-Someone else may write a philosophy with different sources, characters,
-vocabulary, and organization. They may share a concern with self-formation
-while disagreeing with this account, or find a purpose it has not anticipated.
-How a work expresses and supports that person's understanding and life is judged through its own questions, practice, and consequences. Its degree of connection to YinYang does not determine its value.
-
-“Format” here primarily names an organization of meaning, like a literary or
-philosophical form. It is open to composition and transformation. Giving a work
-a usable form matters: its reader and model counterpart must be able to take
-up what it expresses. A successful form answers to its own purpose: it gives the intended relations enough shape for readers and counterparts to engage them.
+“Format” here means an organization of meaning. Another work may use different
+sources, characters, vocabulary, and structure, disagree with this account,
+or pursue a purpose it has not anticipated. Its form succeeds when it makes
+that work's relations available to its readers and model counterparts. Its
+questions, practice, and consequences supply the judgment; resemblance to
+YinYang does not.
 
 ## Adopt, combine, or author anew
 
-You can use YinYang as a developed form and ground its accounts in your own
-actual circumstances. The example then becomes a means for another person's understanding. Its shared form acquires a singular use through that person's circumstances, purposes, and revisions.
+Adoption grounds YinYang's maintained form in your actual circumstances and
+revises its accounts through your use. Combination takes selected resources
+into another arrangement: borrow an essay, recombine methods, or replace an
+image. Independent authorship can begin with a question encountered here and
+follow it into other authors, traditions, research, and experience, leaving
+this example behind. These possibilities can overlap as questions develop.
+Let the relation you want to express determine what you carry forward.
 
-One can also begin with a question encountered here and turn to other authors, traditions, research, and experience: borrow an essay, recombine methods, replace an image, or let this example be only a passing stimulus. Understanding can grow from many sources, and questions can change through exploration. Develop the relation one actually wants to express and let its needs determine the form. A model can help find material, compare interpretations, and construct works; the person participates in revision through perception, expression, and judgment. Creation continues through these encounters.
+A model can find material, compare interpretations, and construct works; the
+person contributes perception, expression, and judgment. Neither needs to
+reproduce the example as the destination of that collaboration.
 
 A new work deserves to develop on its own terms, with its sources and changes
 traceable. The [package guide](skill-package.md) explains how this particular
@@ -79,15 +84,13 @@ requests. These contributions can improve the existing work while independently
 authored philosophies develop their own directions. Neither form of participation
 requires publishing a private personal model.
 
-The collection invites people to take up, discuss, recombine, and contribute
-intellectual means. “Knowledge communism” names that aspiration to shared
-creative capacity here. The image of a fellowship points to mutual support among people making their own works. The shared starting point is a desire to make intellectual means available and to help others create; people can participate through reading, discussion, and works formed from different commitments.
+“Knowledge communism” names the aspiration to shared creative capacity here:
+make intellectual means available and support others in making their own
+works. The fellowship can include different commitments. A contribution may
+add a use, expose a failed premise, or develop a form its first author did not
+imagine. Public discussion and attribution make these connections traceable.
 
-Differences can enrich the commons. Contributions can add a new use, expose
-a failed premise, or develop a different form. The point of offering an example
-is that another person's creation can exceed what its author imagined. Public
-discussion and attribution make it possible to follow what was taken up and
-what changed. Reuse follows the actual licenses: the public GitHub repository can be read,
+This commons has concrete terms of reuse. The public GitHub repository can be read,
 cloned, and downloaded without an application or approval, and supports forks,
 Issues, and pull requests. YinYang's original material uses CC BY-NC-SA 4.0, permitting reproduction,
 adaptation, and distribution for noncommercial purposes only. When sharing, retain the required

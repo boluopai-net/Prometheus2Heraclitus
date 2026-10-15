@@ -1,18 +1,16 @@
 # The situated user model
 
-Use whichever relevant input is more developed: personal material, philosophy,
-or the current encounter. Derive a connected working account and check it back
-against the other inputs; no fixed order is required. Distill collaboration-
-relevant relations here and keep concrete identity details, episodes, and
-extended exploration in the private material. Date conditions that may change.
-The result must help the counterpart interpret and act with this person,
-not merely summarize records or repeat the chosen philosophy.
+This distributed copy provides writing guidance. The situated version contains
+a connected model of the actual person that helps the counterpart interpret
+and act with them. Form it from attributable expression, relevant psychological
+or preference material, actual work and environment, the current encounter,
+and the person's philosophy. Begin with whichever input is more developed and
+check the account against the others; no fixed order is required.
 
-This distributed copy provides a writing responsibility. The situated version
-contains the actual person's developed model, formed from attributable
-personal expression, relevant psychological or preference material, actual
-work and environment, and the current encounter, interpreted alongside the
-person's philosophy.
+Distill collaboration-relevant relations here rather than merely summarizing
+records or repeating philosophy. Keep concrete identity details, episodes, and
+extended exploration in private supporting material. Date conditions that may
+change.
 
 Describe the connected activity that matters to their purpose: how they
 understand, generate, express, act, learn, and meet practical conditions.

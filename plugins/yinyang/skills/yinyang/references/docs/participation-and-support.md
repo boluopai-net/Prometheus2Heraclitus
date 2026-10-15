@@ -4,7 +4,12 @@
 
 A person can understand the next step and still find no usable way to take it. Help becomes consequential when it connects understanding with actual participation, at a cost the participant can bear. An additional explanation may supply that connection; an accessible starting point, retained context, or an authorized operation carried by a counterpart may supply it differently.
 
-Collaboration becomes easier to organize when it distinguishes understanding, expression, and access to action. A participant may grasp a relation while still needing a way to express it or begin work with it. Each distinction locates a different contribution: develop the idea, give it a communicable form, or make its next action available. The encounter supplies the conditions under which that contribution becomes useful; the same person may need a different arrangement in another task.
+The practical question is where participation becomes unavailable. Does the
+person need to understand the relation, find words for it, begin an action,
+or leave the activity? These difficulties call for different contributions.
+Explaining more helps only some of them. Support succeeds when the relevant
+action becomes possible without requiring the person to carry an equally
+burdensome process of arranging the help.
 
 ## Why organize participation this way
 
@@ -21,7 +26,11 @@ Listening, speaking, reading, and writing are four ways into this shared activit
 | Reading | Encounter philosophy, texts, images, works, and results broadly; understand wholes and compare possibilities. | Retrieve originals, check details and grounds, and make consequential relations visible through fitting representations. |
 | Writing | Give an emerging understanding a form through ideas, critiques, intention drafts, or prototype expressions. | Continue into complete arguments, code, files, or working creations, then maintain and verify the result. |
 
-These modes overlap and exceed the senses a device can directly transmit. Perception and action in the actual world also enter learning and return to collaboration through available channels. The model's contribution to explicit development and realization can give the person room to cultivate intuitive reasoning, sensory recognition, and broad understanding. Their division of work develops through the encounter: either participant can generate, select, reason, or correct, and each can discover a new capacity through the other's contribution.
+These modes overlap. Perception and action outside the device also enter
+learning and return through available channels. A model that develops and
+realizes an idea can give the person room for intuitive reasoning, sensory
+recognition, and judgment of the whole. The division can change as either
+participant discovers what the other makes possible.
 
 The resulting developmental orientation reduces training in pure memorization
 and emphasizes intuition, multimodal reasoning, and broad reading. Remembering
@@ -49,11 +58,18 @@ An “embodied language model” names a conception of self-development here: li
 
 ## One workspace, different reading entrances
 
-Understanding a person as a humanoid agent connects perception, generation, selection, action, and feedback into continuable activity. Both person and model can be understood as event streams whose continuity is sustained through retained relations, present encounters, and the records available to them. Memory is distributed across bodily familiarity, developed understanding, works, notes, files, and environmental cues; the model likewise continues work through current context and external records. The correspondence concerns how activity continues: each draws on retained relations and responds to new events through its own organization.
+Participation extends across encounters. A diagram, familiar tool, unfinished
+paragraph, or note can make it possible to return without reconstructing the
+whole task. Bodily familiarity and developed understanding contribute to that
+continuity; so do records the counterpart can recover and interpret. The
+workspace supports a shared thread through different forms of memory.
 
 The shared workspace can offer different entrances. A person may enter through philosophy, intuition, and the whole, while the model brings formal relations, concrete material, sources, and implementation detail into view. The same object can thus be experienced, developed, and checked. An image lets the person recognize a structure, while the model makes its relations discussable; the findings can in turn change the person's image. These entrances can exchange places as the work develops. Their value lies in bringing different contributions into a shared inquiry.
 
-External memory therefore serves more than information storage: it lets understanding and action continue. Relevant records need to be recovered, interpreted, and updated when needed. Existing workspaces and maintenance responsibilities give these records a place and an owner.
+Useful records retain what continuation needs: the question, what has been
+tried, what remains unsettled, and the next available action. Their placement
+and maintenance matter because an account that cannot be found supplies
+little support at the moment of return.
 
 ## Understanding is not one undivided access
 
@@ -118,9 +134,7 @@ method of realizing and checking a supported change.
 
 ## Correction has timing
 
-Intuition and preference continually filter, combine, and revise possible worlds during exploration; a selection can itself open new branches. Sufficiency concerns whether consequential differences that could change the present judgment have been encountered and whether worthwhile possibilities remain to pursue. Exploration becomes sufficient for a present action when these differences have received enough attention to support its judgment.
-
-Deferring premature pruning and formalization gives emerging relations room to develop before fixed terms, proof formats, or a single solution close them down. Intuitive filtering continues throughout, with conditions made explicit and consequences checked as action needs them. The DL-Lite repair analogy developed in [Preference harness](preference-harness.md) distinguishes which views enter consideration from what those views support; the questions of what is worth considering and what follows under a view can recur and interact throughout inquiry.
+Correction matters here through what it enables a participant to express. A request to clarify a relation can let someone continue; demanding a final vocabulary or proof before that relation has a usable expression can stop its formation. The repair-based comparison in [Preference harness](preference-harness.md) distinguishes considering a view from assessing what it supports. Here that distinction asks when each helps this participant make an emerging relation assessable.
 
 Local checking can catch a false term, missing premise, or invalid inference.
 It can also interrupt formation when a candidate relation has not yet acquired
@@ -133,4 +147,8 @@ An unfinished candidate can remain available for examination while action procee
 where competing candidates would actually predict or explain different things.
 Such evidence gives inquiry a way to discriminate between them.
 
-The central criterion remains whether an arrangement makes the intended activity available while keeping its costs, choices, and results intelligible. Understanding the difficulty guides a proposed form of support; providing it reveals its effects; those effects can revise the understanding. These questions can be taken into different encounters, where claims about a particular participant belong with that encounter's evidence and private owner.
+The reader who could not begin a response now supplies a concrete test: can
+they take up the editable opening, change its direction, and continue? Later,
+can they recover the question or put it aside when they choose? Their answers
+may expose a mistaken account of the difficulty. Understanding guides support;
+support changes the encounter; what happens there corrects the understanding.

@@ -286,9 +286,6 @@
       "viewer.passport.relationship.direction.loop": "自环",
       "viewer.passport.sourceCount.one": "{count} 个已验证来源引用",
       "viewer.passport.sourceCount.other": "{count} 个已验证来源引用",
-      "viewer.passport.sourceMarker": "来源",
-      "viewer.passport.beacon.one": "{count} 个已验证来源；聚焦此节点以检查",
-      "viewer.passport.beacon.other": "{count} 个已验证来源；聚焦此节点以检查",
       "viewer.passport.repository.open": "打开已验证的仓库修订版本 {revision}",
       "viewer.passport.source.open": "打开修订版本 {revision} 中已验证的来源 {path}",
       "viewer.passport.source.openLink": "打开 ↗",
@@ -509,8 +506,8 @@
       "id": "source",
       "type": "frontend",
       "icon": "none",
-      "label": "观察与表达",
-      "sublabel": "发生过的来源仍可回访",
+      "label": "观察与表达的记录",
+      "sublabel": "保留出处，可重新解释",
       "pos": [
         60,
         90
@@ -666,7 +663,7 @@
       "title": "双方都是持续的事件流",
       "items": [
         "感知、表达、解释与行动通过时间、因果和意义关系接续。局部视图在流中生成并修订。",
-        "一个视图可以略去某次发生，而不删除其来源或证明它为假。关系也可以先被感到，再获得明确表述。"
+        "一个主张未被当前视图采纳，仍可保留其来源和解释；关系也可以先被感到，再获得明确表述。"
       ]
     },
     {
@@ -682,7 +679,7 @@
       "title": "生成服务于人的发展",
       "items": [
         "反向对齐以人的理解、生成与行动的发展为目的；同意回答或完成产物，本身不能证明成长。",
-        "此图以计算本体论组织建模关系，不是完整人的字面算法、必经流程或普遍数字物理学理论。"
+        "此图呈现一条可修订的局部探究路径，参与者的其他活动仍在当前视图之外继续。"
       ]
     }
   ]

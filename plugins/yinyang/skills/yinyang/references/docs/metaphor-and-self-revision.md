@@ -40,13 +40,12 @@ particular invitation can also reveal an existing concern: perhaps preserving
 room for discovery matters more here than receiving a ready answer. That
 interpretation remains something to examine with the person and the work.
 
-In [YinYang's Sun–Moon–Earth composition](yinyang-and-taiji.md), Sun and Moon
-express differentiated generation, reception, and shaping. Person and model
-are actual participants whose roles can be retained or exchanged without
-gender assignment. Earth is the material and shared living environment where
-creations acquire consequences. Both participants generate, judge, and revise.
-The image makes reciprocal contribution and contact with an answering world
-intelligible and available for further formation.
+In [YinYang's Sun–Moon–Earth composition](yinyang-and-taiji.md), differentiated
+generation, reception, and shaping meet an answering material and shared
+living environment. Its productive question here is what happens when a
+creation returns: can either participant recognize something the original
+image failed to express? Person and model both generate and judge, exceeding
+the roles the image offers them. That excess gives its revision a source.
 
 ## Analogy develops relations into reasoning
 
@@ -157,16 +156,13 @@ Useful preparation gives understanding an entrance; a standardized knowledge
 base need not precede it. The [learning conclusion in Stealing fire](stealing-fire.md#a-way-of-learning-prepare-the-encounter)
 develops these materials and their place in actual study.
 
-Consider the same argument being developed from a spoken thought. A model
-can receive a transcript and propose a reading while preserving a material
-ambiguity. Its spoken or written response lets the person recognize what
-fits and supply a correction. A research counterpart reads sources and writes
-a bounded account with their provenance. An authoring counterpart reads that
-account, develops the argument, and returns an explanation that can be heard
-or read. The person and a critic compare it with the original question and
-actual evidence. Their response can revise the text, its diagram, or the
-allocation that produced it. This is a possible organization, not an account
-of a completed experiment.
+The change of medium can itself reveal a mismatch. A spoken thought may rely
+on an emphasis a transcript loses; a diagram can make two alternatives look
+like successive steps; a fluent spoken response can hide a missing source.
+Returning the expression in another form lets the person and counterpart
+examine what survived the passage. The relevant question is what each act of
+listening, speaking, reading, or writing contributes to the relation being
+developed.
 
 Expression can also **lay out a relation map**—“铺图.” Successive utterances
 can make a non-linear structure available: one branch depends on a stated
@@ -182,13 +178,12 @@ recipient's reconstruction or objection lets the participants examine where
 their maps meet and where another expression is needed. The mapping can be
 carried by prose, a diagram, or linked records; it need not add another system.
 
-The four activities are not four equal modules assigned permanently to four
-models. A careful writer listens to a correction; a source reader writes an
-interpretation; the person may discover a new relation while reading the
-finished work. Their coupling matters more than the number of boxes. The
-practical design question is which contribution should occur where, what
-representation connects it to the next one, and how an error can be recognized
-and corrected. Revising that organization is part of personal self-revision.
+A careful writer also listens to corrections; a source reader writes an
+interpretation; the person may discover a new relation while reading a
+finished work. These crossings explain why assigning four activities to four
+permanent model roles would miss their cognitive work. Revision concerns
+which contribution is needed where, what representation connects it to the
+next one, and how a mismatch becomes recognizable.
 
 ## Four questions within one practice
 

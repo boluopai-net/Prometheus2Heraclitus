@@ -6,13 +6,26 @@ A person can choose what kind of work to pursue, which possibility to develop, a
 
 The model ordinarily understands and reasons through informal natural language. Purpose, examples, conversation, and the surrounding harness make a preference intelligible enough to act on. The formal comparison below brings the respective roles of selection and inference into focus; the event-stream ontology describes the broader activity in which both participants generate, choose, act, and reconsider.
 
-Repair-based inconsistency tolerance provides a concrete comparison: keep a consistent ontology while reasoning over possibly inconsistent data. Selecting admissible views and deciding what follows from them are separate questions. Public work by Bienvenu and Bourgaux develops preferred repairs and query semantics. Their separation helps explain how a chosen direction can organize inquiry while the consequences of a view depend on its contents and inference rules.
-
-The preferred analogy also distinguishes **a coherent working ontology from potentially inconsistent data**. Keeping the user's concepts and relations as coherent as possible supports a stable environment in which new material can be understood and acted on. Conflicting records and interpretations remain available for comparison. Coherence is a revisable aim: when a conflict exposes a problem in the organizing concepts, inquiry can revise those concepts; when it concerns competing records, the working distinction can hold while the records are investigated. In collaboration, this is a natural-language practice of maintaining usable understanding.
+The question is what preferences can select and what warrants accepting a
+result. Bienvenu and Bourgaux's repair-based treatment of inconsistent data
+offers a precise comparison: selecting admissible views and deciding what
+follows from them are separate choices. Its distinction between a consistent
+ontology and potentially inconsistent assertions also suggests a practical
+orientation. Keep working concepts coherent enough to organize action while
+retaining conflicting records for investigation. A conflict in the concepts
+can call for revising them; a conflict between records need not destabilize
+every organizing distinction. This is a natural-language practice of usable
+understanding, not a claim that the collaboration has passed a formal
+consistency test.
 
 ## Conflict has more than one form
 
-The preceding [account of reasoning](reasoning.md) separates keeping a candidate available from accepting its claims. Psychological conflict adds another question: what purposes or relations does a person struggle to hold together? Opposing wishes, an unsettled experience, and two incompatible propositions are different objects. Their comparison can illuminate this harness when the connection is stated rather than assumed.
+Keeping a candidate available differs from accepting its claims. Psychological
+conflict asks a further question: what purposes or relations does a person
+struggle to hold together? Opposing wishes, an unsettled experience, and two
+incompatible propositions call for different responses. Their comparison helps
+explain why preserving a tension, choosing a view, and correcting a fact can
+each be appropriate without being interchangeable.
 
 Freud's [*Introductory Lectures*, Lecture XXIII](https://www.gutenberg.org/cache/epub/38219/pg38219-images.html), explains symptom formation through opposed tendencies that continue to contribute to a compromise. This historical account directs attention to what each side sustains and why a settled-looking outcome may retain conflict. It suggests a question for modeling: what is each competing arrangement trying to preserve? A knowledge-base repair instead selects a consistent assertion set under explicit assumptions; it neither diagnoses a symptom nor implements Freud's clinical theory.
 
@@ -127,11 +140,19 @@ In a less formal setting, a separate procedural rule might be absorbed into a mo
 
 ## What the analogy illuminates
 
-Intuition can itself filter through preference: sensing promise in a relation, recognizing a mismatch, or choosing which lead to pursue can change the possibilities currently considered. Filtering need not wait until exploration ends or first be written as a priority relation. It intertwines with new candidate generation. The formal analogy distinguishes selection from support without turning actual inquiry into a program that first enumerates every possible world.
+In ordinary inquiry, intuition can filter possibilities while generating them:
+sensing promise, recognizing a mismatch, and choosing a lead need not wait for
+an explicit ranking. Prompts, Skills, examples, tools, and shared context give
+these preferences a working environment while leaving both participants room
+to reason and judge. The formal analogy clarifies their contributions without
+requiring a prior enumeration of possible worlds.
 
-In collaboration, preferences concern what deserves attention, which contribution is useful, what kind of work is worth producing, and how competing possibilities should be pursued. Prompts, Skills, examples, tools, and shared context can make room for these preferences while supporting the model's own reasoning and judgment. Calling this a preference harness gives that relationship a name.
-
-The useful correspondence concerns two contributions: preferences organize which possibilities deserve development, and reasoning determines what follows within the views being considered. Choosing a literary form, for example, establishes a desired way of making the work; reading the resulting work reveals whether its argument is intelligible and whether its factual claims hold. A preference may simply be chosen. Its realization opens further questions of method, fit, and consequence. Different ways of tolerating tension preserve different things, just as different inference policies accept different support.
+Choosing a literary form, for example, establishes a desired way of making a
+work. Comparing drafts asks which better realizes that preference; reading an
+argument asks whether its connections hold; checking a factual claim asks what
+evidence supports it. The same draft can succeed on one question and fail on
+another. Preference is therefore consequential without supplying every kind
+of warrant. Encountering the draft may also change the preference itself.
 
 The formal details supply exact consequences under fixed definitions. Temporal clarification can distinguish changing descriptions from incompatible claims under the same conditions. The continuing encounter has an additional freedom: its participants can revise the question, language, or ontology after a result answers back. This difference gives the analogy its scope. Formal guarantees belong to the stated query problem; collaboration assesses its own understanding through interpretation and actual use.
 
@@ -157,7 +178,7 @@ the purpose under current conditions. Preference does not make a factual
 claim true, and following a prevailing norm does not by itself settle whether
 that norm should organize this practice.
 
-This gives inconsistency tolerance a practical purpose: **complete a finite
+This gives retaining unresolved conflict a practical purpose: **complete a finite
 actual task while keeping the understanding that guides it open to revision**.
 The participants need enough justified agreement to act, not a resolution of
 every conflict among all retained accounts. A disagreement that changes the
@@ -169,12 +190,11 @@ or revision without making finite completion impossible.
 
 ## Evolve forward with more capable models
 
-A preference harness should explain the purpose, relevant relations, evidence,
-and actual interfaces well enough for a stronger future counterpart to
-understand and improve the work. This is **forward evolution**: new capability
-can reinterpret the arrangement, replace its means, and carry its purpose
-further. The aim is a continuing practice whose understanding remains usable
-as its implementation changes.
+A preference harness can carry a purpose beyond its present implementation.
+Clear relations, evidence, and actual interfaces let a stronger counterpart
+understand why an arrangement exists and improve it. This is **forward
+evolution**: new capability can reinterpret the arrangement and replace its
+means while keeping the purpose available for assessment and revision.
 
 Prompt compensations, positive or negative guards, and compatibility layers
 earn retention through a current requirement or consumer. When stronger
@@ -184,11 +204,10 @@ design. Preserve concrete current requirements, actual authorization and
 operational boundaries, and evidence needed to assess the replacement. These
 give revision a direction and a way to establish that it works.
 
-Forward compatibility here is a chosen design orientation toward more capable
-models, realized through clear meaning and revisable means. Particular future
-implementations still acquire their warrant through actual use and checking.
-The harness can therefore evolve without making unknown future behavior an
-already established guarantee, or backward compatibility its governing aim.
+The orientation is chosen; the benefits of a particular replacement still need
+actual use and checking. A more capable model can reveal that a safeguard has
+become redundant, or that a condition it protected still matters. Capability
+alone does not decide which is the case.
 
 Established institutions and tools often need older interfaces, records, and
 different participants to keep working together; backward compatibility serves
@@ -203,7 +222,8 @@ translate and temporarily narrow the presented work and support to its receiving
 level and rules; afterward, continue using the arrangement shown to work better.
 That encounter's limits need not become the harness's permanent capability ceiling.
 
-How much structure and computation does this inquiry need? [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) takes up that question, building on the distinction between selecting views and assessing what they support.
+The further question of how much structure and computation a chosen inquiry
+needs belongs to [finite inquiry and abstraction](finite-inquiry-and-abstraction.md).
 
 ## Source and scope
 

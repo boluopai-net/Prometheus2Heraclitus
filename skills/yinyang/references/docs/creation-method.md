@@ -12,32 +12,22 @@
 
 </details>
 
-Within **Prometheus2Heraclitus**, YinYang is the principal Skill for a
-meta-harness, primarily carrying ontology and epistemology alongside
-developed viewpoints and imagery within the relevant essays. Other Skills
-primarily supply methodology; artifacts give the understanding and methods
-working form. The formation guidance here connects these responsibilities
-without making YinYang the owner of specialist procedures.
-The meta-harness articulates the purpose and relations through which actual
-working harnesses can be understood and revised. These include prompts,
-Skills, hooks, roles, model selection, tools, and the user's working environment.
-Skill authorship gives this understanding an accessible carrier; its effects
-extend into how the whole arrangement supports human–model development.
+A **meta-harness** makes the purposes and relations of a working harness
+available for interpretation and revision. A harness includes prompts, Skills,
+hooks, roles, model choices, tools, and the surrounding working environment.
+Its methods already presume an account of whose purpose matters, what the
+relevant objects are, and what warrants a judgment. YinYang develops those
+ontological and epistemological premises and gives them a usable carrier.
+Specialist Skills contribute methods and knowledge that can also correct the
+premises. Within **Prometheus2Heraclitus**, these contributions work together.
 
-The meta-harness has an interpretive role: methods for investigating, writing,
-or implementing depend on an understanding of whose purpose they serve, which
-objects matter, and what supports a judgment. YinYang articulates these shared
-premises, while specialist methods contribute their own knowledge and can
-correct them. Reading the encounter and complete coupled accounts before
-substantive work makes that basis available when interpreting a request and
-selecting methods. This reading dependency does not require the entire essay
-collection for every task or the personal account for every bounded helper.
-Current complete readings can be reused. A Skill is the carrier of the
-philosophy; global instructions can also carry personal modeling or connect
-this maintained account to the consumer. Interpretive scope, reading order,
-and actual instruction authority are different relations.
-
-The method gives practical form to the purpose developed in the [fire essay](stealing-fire.md): borrow available generative capacity from outside and cultivate one's own understanding, judgment, and creative agency through practice. Judge creation and realization by what they make possible in the person's life and work, with actual consequences returning to revise the account.
+The creative problem is how a philosophical or literary understanding becomes
+effective in that environment. The method below follows the passage from an
+image through an explicit relation to an arrangement whose behavior can be
+examined. Its purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
+borrow available generative capacity and develop one's understanding, judgment,
+and agency through practice. What the arrangement makes possible in a person's
+life gives this authorship its point.
 
 ## From an image to a working relation
 
@@ -51,13 +41,12 @@ participant contributes, and what their work can become. This literary form
 can reshape default role assumptions across many local instructions at once.
 Its practical effect appears in changed interpretation, responses, and action.
 
-If psychological modeling is difficult to articulate, a person comfortable with
-engineering can model their own preferences as a usable psychological account,
-then shape the counterpart's preferences and priorities in relation to it.
-Choices about learning, work, response, and change can give this account substance.
-Configurations offer clues that actual choices and correction must check.
-The constructed counterpart expresses an intended relation; its observed
-tendencies and underlying mechanisms remain separate questions.
+When psychological modeling is hard to articulate, a person comfortable with
+engineering can begin from preferences visible in choices about work, learning,
+response, and change. Configurations supply clues to compare with actual
+choices and correction. From this working account, develop the counterpart's
+intended priorities and inspect how it realizes them. [Trinity](local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
+develops the conditional routes from existing abilities.
 
 This method is itself available for reinterpretation. The
 [example and commons essay](example-and-commons.md) distinguishes adopting
@@ -66,17 +55,13 @@ philosophy, images, and file roles need not survive that composition. Let the
 person's developing understanding determine what to carry forward, with the
 model contributing authorship rather than reproducing the example by default.
 
-Begin with the purpose and the encounter a working harness should make possible.
-Philosophy, literature, or an image can hold several connected possibilities
-together before all of them are explicit. The [Sun, Moon, and Earth relation](yinyang-and-taiji.md)
-image, for example, gathers generation, articulation, independent contribution,
-and contact with a world that can answer back.
-
-Develop the relations relevant to the actual work. Identify what each
-participant contributes, which objects and distinctions matter, and how the
-relationship can change. Both participants can generate and judge, even when
-they choose different responsibilities. The image remains richer than the
-particular interpretation used to change a working harness.
+The [Sun, Moon, and Earth image](yinyang-and-taiji.md), for example, gathers
+generation, articulation, independent contribution, and contact with an
+answering world. For a particular harness, develop the relations it brings
+into view: what each participant contributes, which distinctions matter, and
+how their relationship can change. Both participants can generate and judge,
+even when they choose different responsibilities. The selected interpretation
+gives the image practical direction without exhausting its possibilities.
 
 Give those relations a working realization in the affected environment. A prompt
 can change how intentions are interpreted; a role can change who carries a
@@ -139,55 +124,30 @@ count of revisions or artifacts.
 
 ## Give the account a readable body
 
-The [YinYang and Taiji essay](yinyang-and-taiji.md) uses Sun and Moon to express
-differentiated generation, reception, and shaping; person and model can retain
-or exchange their emphases. Earth is the material and shared living environment
-that answers their work. The particular encounter must be understood from actual
-material; the imagery supplies neither fixed participant identities nor personal
-content.
+The maintained YinYang implementation gives the account two scales. Common
+essays develop its philosophy and imagery. Five situated files distill what
+actual collaboration needs: encounter, person model, counterpart and
+relationship, use, and sources. They supply an entry into the participants and
+the grounds of understanding them; the larger essays give reasons and
+connections that a condensed account cannot carry. Supporting private sources
+retain the relevant personal evidence.
 
-For direct adoption, the reusable Skill lives at [`skills/yinyang/`](../../SKILL.md)
-within Prometheus2Heraclitus. It supplies culture, philosophical ideas, and
-reasoning forms for developing a personal philosophy through this implementation.
-The common philosophy supplies broader ontology, including an understanding of
-engineering objects, relations, and transformations. The five situated accounts
-supply ontology and epistemology for actual collaboration. Relevant personal
-material grounds both where they concern this person. The consuming model
-inspects the authorized environment and selected sources, develops the philosophy
-and grounded accounts together, and writes the accounts in the fixed personal
-slots. Actual implementation and use can revise both. The
-common `SKILL.md` retains its purpose, method, and routes; read the condensed
-[encounter](../encounter.md) with it every time.
-[Design and revision](../design-and-revision.md)
-explains the shared roles: condensed encounter, developed user and relationship
-models, attributable sources, question-oriented reading, revision, and adaptation.
-`references/{encounter,models,relationship,usage,sources}.md` carry formation
-instructions in the distributed package and the situated accounts in private
-use. Formalized user accounts remain personal content. Supporting private
-materials live under `references/personal/`, guided by its
-[README](../personal/README.md), with filenames appropriate to actual evidence.
+The [Skill entrypoint](../../SKILL.md) connects these resources to a consuming
+model. Its reading contract makes the complete current situated accounts
+available before substantive work, while further reading follows the question.
+The model develops the accounts from authorized material and actual work;
+the distributed files contain formation guidance rather than a copied or
+fictional portrait. The [package guide](skill-package.md) explains the five
+fixed slots and the common/private boundary. [Design and revision](../design-and-revision.md)
+develops their formation and correction. Maintaining this implementation keeps
+its common content aligned; an independently authored work can choose another form.
 
-The personal content belongs to the actual person and relationship. No copied
-portrait or fictional mini substitutes for forming it. Fixed slots carry
-formation instructions rather than pretending an empty file is an account. Keep
-the situated content with its private owner and revise it through use. The format
-and common content remain identical to the distributed package in this route.
-An independently reauthored philosophy has its own form and maintenance;
-its success is not measured by conformity to these slots.
-[Harness adaptation](../harness-adaptation.md)
-carries the resulting understanding into the actual working environment and
-checks its effect. A written personal account alone does not complete that work.
-
-The developed essays remain in `references/docs/`, and earlier diagrams in `references/diagrams/`.
-These resources support the ideas; they are not additional Skills or a sequence
-that every consuming model must finish before working. Together with method
-references, the reading map, package administration, READMEs, and the OpenAI
-YAML adapter, they remain byte-identical common material. The shared GitHub
-package owns common edits; `scripts/sync-common.py` checks projection by default,
-and `--apply` projects common source to a target while preserving all five slots
-and all private supporting materials. Native owners realize local and private
-Web use. This projects common content without exporting personal material or
-introducing a service.
+A readable account must also reach the working environment. Global instructions
+can connect it to a consumer; prompts, interfaces, and tools realize selected
+relations. These carriers retain their actual instruction authority and
+permissions. [Harness adaptation](../harness-adaptation.md) carries the account
+through that realization and checks its effects. This is where the proposed
+relation acquires practical consequences beyond the written description.
 
 ## Assess at the scale of the claim
 

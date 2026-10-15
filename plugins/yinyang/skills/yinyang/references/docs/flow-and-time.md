@@ -18,7 +18,12 @@ These accounts supplement the Heraclitean foundation with psychological and temp
 
 ## Retention and representational lag
 
-The schematic update $S_{t+1}=U(S_t,o_{t+1})$ lets current organization contribute alongside newly available input. It gathers retention, selective access, and revision into one functional relation: what has been retained affects how the next occurrence is taken up. A question-relative view $W_t(q)=\operatorname{View}(S_t,q)$ articulates selected relations within that process. The choice of retained material and the implementation of updating depend on the activity being studied.
+The schematic update $S_{t+1}=U(S_t,o_{t+1})$ lets current organization $S_t$
+contribute alongside a newly encountered occurrence $o_{t+1}$. What has been
+retained affects how the next occurrence is taken up. A question-relative view
+$W_t(q)=\operatorname{View}(S_t,q)$ selects relations relevant to question $q$.
+These indices order modeled updates; they do not yet measure elapsed time.
+What is retained and how it is updated depend on the activity being studied.
 
 An environment can change before an inquirer notices, while the inquirer's actions can change that environment. Memory therefore makes representational lag possible. An old observation can remain accurate; a recent observation can mislead. Applicability under current conditions is the question to check. Temporal age matters through the relevant changes: yesterday's measurement may still describe a stable object, while an observation from a moment ago may concern a condition that has already changed.
 
@@ -44,7 +49,11 @@ Consider a fictional traveler who learned yesterday that a bridge was closed. To
 
 An experience has an occurrence time; the event from which its content was learned has a source time; the represented condition has a reference time. A judgment also has its own time and conditions of validity. A prediction occurring now concerns a possible future rather than information already received from that future. Recollection is a current occurrence with past-directed content.
 
-This temporal thickness means a present process can retain earlier relations, respond to current input, and anticipate possibilities. A single moment of activity can thus gather several temporal directions: recollection brings a past occurrence into use, perception responds to a current situation, and prediction projects a consequence of acting.
+These times explain how the traveler can be mistaken about a present bridge
+while accurately remembering a past notice. Correcting the route requires
+updating the notice's present applicability, not declaring that the earlier
+notice or the current hesitation never existed. Temporal distinctions locate
+the correction rather than making every retained content equally current.
 
 ## Change and contradiction
 
@@ -58,12 +67,22 @@ Indexing clarifies content without dissolving every conflict. Claims incompatibl
 
 The indices in $S_0,S_1,S_2,\ldots$ order modeled updates. Clock time locates occurrences and supports comparison of delays and rates. The elapsed time between adjacent updates can vary. Concurrent bodily, linguistic, and environmental changes can occur between recorded views, including intervals during which the record contains no fresh statement.
 
-Relative temporal “decoupling” names a difference between represented time and present conditions, or between update rates. Those differences can be useful: a memory preserves a condition after it has passed, and a prediction guides action before its anticipated event. They become misleading when the relation between represented conditions and the current question is lost.
+Two forms of temporal separation matter here. **Representational separation**
+lets a current recollection concern the past or a prediction concern the future.
+**Different update rhythms** let an environment, a person's response, and an
+accepted description change at different rates. The first concerns what a
+representation is about; the second concerns when processes change. Either
+can be useful, and neither alone establishes that a judgment is outdated.
 
 ## Retention with correction
 
 Correction asks which retained relations remain useful, which need narrower scope, and which present commitments should be withdrawn. Withdrawing a judgment changes what is accepted now while preserving the earlier event and any continuing experience as distinct objects. The external judgment is assessed through evidence about its referent and time; the continuing experience is understood through its own occurrence and relations.
 
-Perception, action, discussion, and checks can revise candidates, their priorities, the ontology, or the question. Retaining provenance makes reinterpretation possible while keeping the earlier occurrence available for comparison. External records and shared inquiry distribute the work of continuity: relevant material can be recovered when a question calls for it. Useful stability permits action and finite completion; revisability keeps the account responsive when relevant evidence changes.
+Perception, action, discussion, and checks can alter which retained account
+applies now. Keeping provenance allows the inquirer to explain that change:
+which earlier observation supported the old judgment, what new occurrence
+challenged it, and which continuing condition still matters. External records
+and shared inquiry make these relations recoverable without requiring the
+whole history to remain in working attention.
 
 The traveler can now cross the bridge and complete the journey. The route description serves the present action, while the retained history helps explain how the plan changed. A view serves a stretch of the stream; using it, revising it, and finishing the activity all become further events within that continuity.

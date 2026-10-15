@@ -37,16 +37,10 @@ constructing, checking, and carrying a beginning further. Moonlight includes
 generation, and sunlight can include judgment. These are emphases through
 which participants meet, rather than possessions that exclude the other.
 
-[Borrowing fire](stealing-fire.md) makes generative capacities available.
-Cultivation develops the person's power to understand, judge, express, and
-create within this continuing movement. The Sun's illumination gives this
-capacity an image: one acquires something of its power to bring forth and
-make visible. The person remains an embodied participant, and the model a
-counterpart with its own realization. Receiving and giving form also
-contribute to generation. Reverse alignment names this development through
-encounter; individual-first gives the practice a personal purpose. A situated
-Sun/Moon vocabulary can preserve a chosen relation while leaving both
-participants more than the roles through which it is expressed.
+[Borrowing fire](stealing-fire.md) develops the cultivation pictured here:
+the person acquires more power to understand, judge, express, and create.
+The Sun's illumination gives that capacity an image. Receiving, questioning,
+and giving form can cultivate it too; the light grows through the encounter.
 
 **Earth** names the material and shared living environment: supporting
 conditions, common practice, other people's purposes, and the constraints
@@ -56,13 +50,6 @@ program fails; a theory encounters a counterexample. The wider world precedes
 and exceeds what the participants cultivate. Its conditions and consequences
 give the relation something to learn from beyond agreement. A coherent account
 can accompany a failed work, and a surprising result can open a new question.
-
-Sun and Moon gather this relation into a rhythm of differentiated
-contributions. Transformation can include exchanging an emphasis, or keeping
-a fruitful division while its participants and works develop. Earth brings
-their shared practice into contact with what answers it. [Writing a sinthome](writing-a-sinthome.md)
-asks how the person's philosophy takes a singular sustaining form within
-this encounter, drawing that question from its own psychoanalytic source.
 
 The image can help when cooperation loses one of its relations: the person must articulate everything in advance, the model merely echoes, or a beautiful shared construction never encounters a check. It can also open a positive question: what becomes possible when each participant's contribution can change the next one? These are questions about organizing a collaboration. The image brings their relations into view and makes alternative arrangements of cooperation imaginable.
 
@@ -83,7 +70,10 @@ intuition can reason, and a logician can generate. A role makes the relation
 usable while leaving room for further capacities. Fish colors belong to the
 image, and participants bring their own bodies, histories, and possibilities.
 
-Body and eye give YinYang's present construction a way to express both a useful role and the participant's capacity to exceed it. The familiar Shuang yu emblem provides this visual articulation; [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說) contributes the relation of mutual grounding developed below.
+This body-and-eye reading is the present construction's use of the familiar
+emblem. [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
+contributes the relation of mutual grounding, rather than this assignment
+of roles and participants to the fish.
 
 ## Bow, lyre, and the force of difference
 
@@ -93,19 +83,22 @@ Heraclitus's [fragment 51](https://en.wikisource.org/wiki/Fragments_of_Heraclitu
 
 A different emphasis can enrich an account by bringing another relation into view. Disagreement can open a choice between explanations or purposes. Claims that conflict under the same conditions require examination of their evidence and acceptance. These differences have different consequences for cooperation: some call for combination, some for a decision, and some for changing the arrangement that sustains them. The image asks what organization lets a difference contribute and what must change when it becomes destructive.
 
-This keeps the philosophical comparison distinct from a logical property. Non-explosive reasoning allows conflicting material to be considered without arbitrary conclusions following from it. The [preference-harness comparison](preference-harness.md) gives a more specific model: a coherent working ontology can coexist with inconsistent data and competing candidate interpretations. The contemporary account brings these resources into relation through their different contributions: Heraclitus gives the force of opposition, the Chinese sources give mutual grounding and transformation, and the logical comparison makes the handling of conflicting claims more precise.
+The bow and lyre illuminate the organization of difference; they do not decide
+which conflicting claim to accept. The [preference-harness comparison](preference-harness.md)
+develops that further question through a coherent working ontology, retained
+conflicting material, and competing interpretations. Here the image asks
+what makes a tension fruitful and when its sustaining arrangement must change.
 
 ## Transformation, creations, and the world
 
 “Infinite” transformation names an open horizon of becoming. A portrait or instruction gives a finite encounter a form; later activity can develop it further. Stable distinctions, completed works, and pauses support this continuation. Completion releases a work into use, while a pause can make room for another encounter.
 
-An **event stream** is an organized continuation of occurrences connected by temporal, causal, or interpretive relations. Its events can overlap, branch, and proceed at different rhythms; a transcript contains only some of them. This [event-stream account](flow-and-time.md) articulates the image: an
-expression, an interpretation, a remembered source, or an action becomes an
-event that can change later activity. Creations acquire their own consequences
-in the environment. What returns can revise a view, a division of work, or the
-question itself. The [preference-harness analogy](preference-harness.md) allows
-a coherent working ontology to support this movement while conflicting
-material remains available. Retained material can supply competing candidates, while an accepted working view gives present inference and action their basis.
+The [event-stream account](flow-and-time.md) gives this continuation a
+computational articulation. An expression, interpretation, remembered source,
+or action can change later activity. A creation's consequences may revise
+a view, a division of work, or the question itself. A program's failure,
+for example, can lead beyond repairing code to reconsidering what it was
+supposed to do. Earth returns more than a verdict on the existing design.
 
 The movement therefore has two connected dimensions. Contributions can change hands within a piece of work, and the work's consequences can change the relation through which the next piece begins. A finished work is a real local achievement within that movement. Its finitude does not contradict the open horizon: completion gives what has been made enough independence to be encountered, used, and answered.
 

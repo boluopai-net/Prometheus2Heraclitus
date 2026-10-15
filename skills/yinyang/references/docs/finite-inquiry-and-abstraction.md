@@ -2,7 +2,14 @@
 
 [Home](../../README.md) · [简体中文](finite-inquiry-and-abstraction.zh-CN.md)
 
-Finite inquiry begins with partial access, conflicting material, limited time, and costly representations. These conditions make the choice of abstraction consequential. An account must articulate enough to answer its question while keeping its commitments and costs assessable. YinYang's computational ontology develops question-relative objects, relations, constraints, transformations, and feedback. Understanding grows by making such relations usable, testing their consequences, and unfolding deeper structure where it contributes.
+How much must an inquirer represent and compute to answer a particular question?
+Partial access, conflicting material, limited time, and costly representations
+make that choice consequential. More detail can explain a missing relation or
+consume resources without changing the answer. YinYang's computational ontology
+selects question-relative objects, relations, constraints, and transformations
+within physical reality. Its economy concerns what an inquiry needs to obtain
+a warranted result; it does not equate a small working representation with a
+small inventory of what exists.
 
 This orientation has two illuminating comparisons: philosopher Professor Feng Ye's [*Studies in No-Self Physicalism*, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) separates ideal reduction from actual methods of inquiry; a local formal resource distinguishes what can safely be inferred from what can feasibly be computed. Their different commitments bring a common question into focus: how a finite inquirer obtains definite knowledge through a selective representation and a bounded method.
 
@@ -48,19 +55,38 @@ Further public sources are Professor Feng Ye's [“为什么相信还原的物�
 
 Public [research on prioritized knowledge bases](https://arxiv.org/abs/2003.05746v5) studies selected questions of inference under inconsistent data. It fixes a formal setting, separates ontology from assertions, distinguishes repair selection from query acceptance, and examines computational cost. Reading these distinctions as resources for finite inquiry is this essay's philosophical interpretation. The fixed setting makes the consequences of particular assumptions checkable, supplying a precise local comparison for the wider activity of developing and revising views.
 
-The stream can revise its question, ontology, priority, and inference policy; a fixed formal problem holds those choices stable while obtaining answers. The difference allows formal precision to contribute locally without becoming a universal mechanism. [Reasoning](reasoning.md) gives the functional account, [the temporal essay](flow-and-time.md) explains retained history, and [the preference harness](preference-harness.md) develops the separate selection and inference dimensions.
+To investigate computational cost, the formal problem holds specified choices
+stable while obtaining answers. An inquiry can later revise those choices,
+but its cost comparison needs a defined target. This supplies the bridge to
+approximation: obtain a restricted set of answers whose relation to that target
+can be proved, then ask whether the restriction is useful for the actual task.
 
 ## Three forms of restrained commitment
 
 **Ontological restraint** keeps the scope of a commitment matched to the relation established. Material conditions can be studied at the level needed by the question, and functional relations can be used while their ultimate reduction remains open. An orientation gives inquiry its starting direction; evidence and argument determine which factual conclusions follow.
 
-**Skeptical acceptance under conflict** withholds $q$ when relevant admissible candidates disagree and the acceptance policy requires unanimous support. Non-acceptance of $q$ is not acceptance of $\neg q$. Without a priority, a common consequence can still follow. Priorities need not compare every candidate; new evidence can also distinguish contexts, correct a source, or defeat a candidate. A newer report does not automatically deserve a higher rank. Robustness remains relative to the selected family and its assumptions.
+**Skeptical acceptance under conflict** limits accepted conclusions to those
+meeting a stated support policy. When that policy requires every admissible
+candidate to entail $q$, disagreement can block acceptance. Non-acceptance of
+$q$ is not acceptance of $\neg q$. This restraint concerns how much the evidence
+warrants; it can require substantial computation rather than save it.
 
 **Computational restraint** uses a sound lower approximation that may omit answers while preserving a specified formal target's guarantees. This can reduce cost, but savings depend on what the construction and checks actually require. Adequacy asks whether the answers suffice for the present question. An answer's formal soundness and its adequacy as a description of the world are assessed at their respective boundaries.
 
 ## A bounded approximation example
 
-In the public repair/argumentation construction of Bienvenu and Bourgaux, assume a finite prioritized knowledge base with consistent $T$, individually $T$-consistent assertions, and its specified conflict-based argumentation construction. Let $\mathcal R_P$ be the nonempty family of Pareto-optimal repairs and $G$ the grounded extension. Under the stated repair/stable-extension correspondence, grounded membership is contained in every stable extension. Hence:
+In Bienvenu and Bourgaux's [repair/argumentation construction](https://arxiv.org/abs/2003.05746v5),
+a knowledge base separates general axioms $T$ from a finite assertion set $A$.
+A repair is an inclusion-maximal subset of $A$ consistent with $T$; priorities
+select preferred repairs. Assume consistent $T$, individually $T$-consistent
+assertions, and the paper's specified conflict-based argumentation construction.
+Let $\mathcal R_P$ be its nonempty family of Pareto-optimal repairs.
+
+The corresponding argumentation framework organizes conflict through attack
+and defense relations. Its grounded extension $G$ identifies assertions accepted
+under grounded semantics and is
+contained in every stable extension. Under the stated correspondence between
+stable extensions and Pareto-optimal repairs, this gives:
 
 $$
 G\subseteq\bigcap_{R\in\mathcal R_P}R,\qquad
@@ -69,7 +95,16 @@ G\subseteq\bigcap_{R\in\mathcal R_P}R,\qquad
 \left\langle T,\bigcap_{R\in\mathcal R_P}R\right\rangle\models q.
 $$
 
-The consequence implication uses monotonicity of classical entailment. Grounded therefore supplies a sound lower approximation to P-IAR under these assumptions and can miss P-IAR answers. P-IAR reasons from common assertions; P-AR requires entailment in each selected repair and may obtain common consequences through different assertions. The choice between them determines how support across repairs becomes an accepted answer.
+The consequence implication uses monotonicity of classical entailment:
+adding premises preserves consequences. P-IAR reasons from the assertions
+common to all Pareto-optimal repairs. Thus reasoning from $G$ supplies a sound
+lower approximation to P-IAR under these assumptions: every answer obtained
+this way is a P-IAR answer, but some P-IAR answers may be missed. This compares
+a candidate method with a specified target, rather than changing
+what the target means. P-AR has a different target—entailment in every selected
+repair—and may obtain common consequences through different assertions.
+The [preference harness](preference-harness.md#selection-and-inference) develops
+that distinction.
 
 This conditional derivation establishes inclusion. Its computational benefit must be assessed through the cost of conflict construction, consistency and query checks, and the components held fixed. Those operations determine the runtime; the inclusion itself specifies which answers the approximation preserves.
 
@@ -81,4 +116,10 @@ Indirectly inferred objects and useful hypotheses extend inquiry beyond present 
 
 Searching backward for sufficient premises clarifies what a conclusion requires. A strong premise validly implying a weaker conclusion has explanatory value insofar as its independent support and cost are warranted. Putting the desired answer into an assumption can conceal the difficulty. The useful gain is identifying premises that can themselves be investigated. This everyday backward search can be distinguished from reverse mathematics, a technical program that studies which formal axioms suffice for particular theorems.
 
-An ongoing process, its model, and the expression carrying it have distinct roles. A work represents a relationship and returns consequences that can revise its interpretation. These transformations connect finite local inference with further inquiry. A bounded question can receive a definite answer, guide an act, and reach completion; later questions can take that achieved result as their starting material.
+The practical choice is therefore among representations and methods with
+assessable contributions. A richer model is warranted when it resolves a
+consequential ambiguity; an approximation is useful when its preserved answers
+suffice; deeper physical explanation matters when realization is the question.
+A bounded result states both what has been obtained and what its method leaves
+open. This makes completion possible without confusing limited computation
+with a final account of reality.

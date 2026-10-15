@@ -101,21 +101,20 @@ Language gives the relation a portable expression. Another capable model can rea
 
 Portability is achieved by interpretation and adaptation. The receiving model needs usable context and suitable abilities; actions need tools and access; their scope depends on authorization; their effects depend on conditions in the world. When these relations are available, an intention can be carried through investigation, construction, execution, and examination of its results. When one is absent, the account can locate the missing condition and investigate a route through another capability, tool, or arrangement.
 
-The **human agent** is the functional starting point of this argument. Their
-participation gains a body of coordinated capacities extending beyond what
-they must perform alone: model-supported work broadens existing powers to
-initiate, understand, recognize a mismatch, choose, and act. Through this
-expanded participation, the person can develop and express their own
-philosophy, give it a working environment, and revise both through consequences.
-Their understanding, judgment, and choice connect distributed capabilities
-to purposes they can inhabit and develop. A written philosophy gives that
-agency a revisable form; it does not confer agency as a graduation status.
+Distributed capacities become part of this practice through the person's
+participation: they can initiate a work, recognize a mismatch, redirect a
+contribution, or discover a purpose they could not previously articulate.
+They need not perform every operation or understand every mechanism. What
+matters to the sustaining form is that the arrangement remains available to
+their understanding, judgment, and choice. Its continuity can survive a change
+of model or tool when these relations can be taken up again; a portable file
+alone cannot supply that continuity.
 
 “All models can help me do anything” expresses the horizon of a general relation: new purposes and new counterparts can become joinable. Its realizable strength is breadth with continuing adaptation. The linguistically articulated accounts of the person and counterpart make that joining easier; actual capability, tools, authorization, and worldly response determine each achievement.
 
 ## A miniature god, whose creations answer back
 
-*A small maker writes a place for a voice to meet another voice. From that meeting come hands it did not have yesterday: one draws, one reasons, one builds. The maker sets something in motion and waits for the world to answer. Even a miniature god must discover what its creation has become.*
+*The maker returns to a work begun yesterday. Another voice can now carry it further; the old tool has disappeared, and a new one opens an unexpected passage. What returns is already different. The maker must decide what to keep, what to release, and how to recognize a life still their own.*
 
 The playful image names a multiplication of generative reach. A conception can acquire a voice, a diagram, a program, or an action through collaborators; an individual can participate in making things that previously exceeded their available means. “Miniature” keeps the scale of a situated maker. The world supplies materials, others, resistance, and consequences that no declaration can create or abolish.
 

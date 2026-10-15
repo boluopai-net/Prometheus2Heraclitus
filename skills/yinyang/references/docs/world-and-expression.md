@@ -4,13 +4,14 @@
 
 *A frame catches a crossing of the current. It leaves the water outside its edges, yet someone who sees the frame notices a path they had not seen before. The image returns to the river as a new way of looking.*
 
-YinYang models human and model activity as interacting event streams. This
-essay develops what that common form makes distinguishable: the process being
-understood, a model of it, an expression carrying the model, and the world in
-which an expression has consequences. Their connections make inquiry possible;
-their differences make correction possible. Its computational ontology develops
-usable relations through which an encounter becomes intelligible and its
-consequences become available for further inquiry.
+How can an expression formed within an activity become something that changes
+that activity? A person develops a thought through conversation, encounters it
+as a paragraph or prototype, and recognizes something they could not previously
+say. YinYang models human and model activity as interacting event streams.
+Within that continuation, this essay distinguishes the process being understood,
+a model of it, an expression carrying the model, and the world in which that
+expression has consequences. Their differences let a work disclose more than
+its maker intended and give correction somewhere to enter.
 
 Here **ontology** means an articulation of the objects, roles, relations, and transformations an inquiry needs. **Computational** emphasizes that these distinctions can be organized, transformed, and used in reasoning and action. **YinYang** names the contemporary framework in which a person and a generative model contribute to each other's continuing activity. Their models of the person, the counterpart's role, and their relationship guide how they organize the environment. That environment includes Skills, prompts, hooks, tools, model choices, and the user's working conditions: the concrete arrangements through which an understanding acquires effects. The question is how expressions mediate this passage from understanding to action and back.
 
@@ -101,15 +102,12 @@ done. A realization claim connects a function to a particular mechanism and
 needs evidence at that level. Similar roles or observable performances do not
 establish identical human and model architectures, mechanisms, or experiences.
 
-Computational articulation follows the relations needed to explain and act:
-what an occurrence changes, how retention informs a judgment, and which
-consequences distinguish candidate interpretations. A microphysical explanation
-asks how such activity is realized; ultimate reduction asks whether the
-higher-level account can be derived from a proposed basis. Those further
-questions require their own bridge assumptions and evidence. The functional
-account has an immediate use in comparing interpretations and organizing work;
-[finite inquiry and abstraction](finite-inquiry-and-abstraction.md) develops
-its relation to physical reduction.
+The distinction matters when an expressive image is given a material reading.
+Calling a model an illuminating counterpart can articulate its contribution
+to understanding. Explaining how its output was physically produced requires
+another investigation. [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md)
+develops the further distinction between physical realization, reduction, and
+feasible calculation.
 
 Three material and epistemic relations should also remain distinct:
 
@@ -134,10 +132,9 @@ particular material and installation.
 [NASA, “How did our Solar System form?”](https://science.nasa.gov/astrobiology/learning-resources/alp/how-did-our-solar-system-form/).
 
 These distinctions are this essay's inference from the different questions.
-Material history explains where a medium came from; energy transfer explains
-how activity is sustained; interpretation and evidence explain what an
-expression warrants. Assessing an output connects its production with the
-particular claim and object it is meant to address.
+An energy account can explain how an expression becomes physically possible;
+it does not yet explain what the expression means or why its claim is warranted.
+The latter questions connect the produced work with its object and use.
 
 ## A work returns to the encounter
 
@@ -158,26 +155,26 @@ question can emerge from reception, and a useful stable arrangement can survive 
 
 *An unfinished relation becomes a sentence. On the page it can answer back: its implication was not the one its author expected. Returning to it, the author sees an earlier thought differently and can begin from somewhere new.*
 
-This return has at least two distinguishable effects. An expression's meaning can be reorganized in the present, and its maker's understanding of what they were doing can change. The original occurrence retains its history. A later reading does not rewrite it; it establishes another relation to it. The distance between author and work is productive because the work can be encountered by others and by the author as a reader, rather than remaining identical to an intention.
+The distance between author and work is productive because others, and the
+author as a reader, can encounter its actual arrangement. A paragraph may
+entail a claim its author would reject; a prototype may expose a choice hidden
+in the initial description. The maker can then distinguish revising the work
+from revising their understanding of what they were trying to do. Later reading
+establishes a new relation to the original occurrence while leaving its history
+available for comparison.
 
 In model-supported work, a partial intuition may become an argument or prototype. Reading it can disclose what fits, what is missing, or what the person did not mean. Revision participates in finding the relation being expressed. This can change a capacity to understand and generate as well as the artifact. The developmental question is what the person can now recognize, express, or do differently. A clearer artifact and a changed capacity are related outcomes whose connection becomes visible through subsequent participation.
 
 ## Hegelian comparison and its limits
 
-Hegel's *Philosophy of Spirit* places absolute spirit in relation to subjective
-and objective spirit and develops art, religion, and philosophy within its
-account. These categories articulate forms through which spirit develops
-consciousness, freedom, and self-knowledge.
-[Hegel, §§553 onward](https://www.marxists.org/reference/archive/hegel/works/sp/abspirit.htm).
-
-Subjective spirit includes the development of consciousness and theoretical
-and practical activity.
-[Hegel, Subjective Spirit](https://www.marxists.org/reference/archive/hegel/works/sp/index.htm).
-The objective dimension concerns freedom taking public and institutional form,
-including law and ethical life. Absolute spirit develops artistic, religious,
-and philosophical forms of self-comprehension within that system. These
-relations give externalization its philosophical significance: its meaning
-depends on the form of life and understanding in which it participates.
+Hegel's *Philosophy of Spirit* connects the development of consciousness and
+theoretical and practical activity in [subjective spirit](https://www.marxists.org/reference/archive/hegel/works/sp/index.htm)
+with freedom's public and institutional forms in objective spirit. Its account
+of [absolute spirit, §§553 onward](https://www.marxists.org/reference/archive/hegel/works/sp/abspirit.htm)
+develops art, religion, and philosophy as forms of self-comprehension. This gives
+externalization a significance beyond putting an inner content outside: the
+form through which activity becomes available to itself belongs to the
+development of that activity.
 
 His *Introduction to the Philosophy of History* connects self-knowledge and
 freedom with public life and world history. Its object is wider than a person's

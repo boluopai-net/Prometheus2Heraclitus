@@ -2,10 +2,11 @@
 
 [中文版](philosophical-readings.zh-CN.md) · [Psychological readings](psychological-readings.md) · [Engineering readings](engineering-readings.md)
 
-These sources deepen the collection's images and arguments. They distinguish
-the original philosophical positions from YinYang's contemporary constructions;
-they do not establish a particular person's psychological mechanism. Read the
-relevant source with its context when the interpretation bears on a conclusion.
+Use this guide to locate the intellectual sources behind YinYang's arguments.
+The [reading map](../reading-map.md) locates the arguments themselves; this page
+explains which originals bear on them and where an interpretation extends its
+source. Select by question and read the relevant passage in context. These
+sources neither supply a personal portrait nor establish a psychological mechanism.
 
 ## Heraclitus: fire, measure, and opposing tension
 
@@ -168,9 +169,11 @@ distinguishes questions within a framework from its practical adoption.
 this collection's question-relative account with Professor Feng Ye's
 [*Studies in No-Self Physicalism*](https://link.springer.com/book/10.1007/978-981-19-8143-2),
 especially §§1.1, 6.5, and 7.4.2. Their shared methodological questions about
-finite understanding and representation coexist with different physical
-commitments. A useful abstraction and a claim about ultimate reduction
-therefore need different support.
+finite understanding and representation do not establish identical accounts
+of physical realization. YinYang adopts one physical reality as its common
+ground while using question-relative abstraction; particular reductions and
+bridge assumptions require their own support. Compare the actual arguments
+rather than inferring either agreement or disagreement from their labels.
 
 ## Will, irrationality, and self-conflict: Frankfurt, Davidson, Mele, and Holton
 

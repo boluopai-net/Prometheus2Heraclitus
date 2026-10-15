@@ -2,11 +2,24 @@
 
 [中文](engineering-readings.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Psychological readings](psychological-readings.md)
 
-Engineering gives an understanding a form that can run, be observed, and be changed. Begin here with a learning map, the command line, version history, and software design, then follow the question into algorithms, systems, experiments, and physical conditions. Courses, documentation, and source repositories are the main entrances, accompanied by useful textbooks and papers.
+Engineering gives an understanding a form that can run, be observed, and be
+changed. Use this guide for the concepts and sources needed by that realization:
+learning maps, command lines, version history, software design, algorithms,
+systems, experiments, and physical conditions. Choose the part that helps the
+actual work; [harness adaptation](../harness-adaptation.md) explains how its
+result connects to the intended collaboration. Courses, documentation, and
+source repositories are accompanied by useful textbooks and papers.
 
 Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Being able to invoke a tool does not establish understanding. Documentation can support both learning and reference during actual work.
 
-**Choose a main thread that connects with your starting point.** Begin programming with CS 61A and Composing Programs; algorithms with Princeton's courses and Algorithms; computer systems with CS:APP; and computation theory with MIT and Sipser, then deepen through Arora–Barak as needed. The entries pair courses, books, and documentation and explain their roles. Courses offer teaching, assignments, and projects; books develop connected concepts; documentation provides reference for particular interfaces. A publisher's book record does not imply free full text.
+**Choose a main thread that connects with your starting point.** Suggested
+entrances are CS 61A and Composing Programs for programming, Princeton's courses
+and Algorithms for algorithms, CS:APP for systems, and MIT and Sipser for
+computation theory, with Arora–Barak for further depth. These are alternatives
+for learning, not prerequisites for every implementation. Courses offer
+teaching, assignments, and projects; books develop connected concepts;
+documentation references particular interfaces. A publisher's book record does
+not imply free full text.
 
 ## Find the map and build a usable environment
 
@@ -103,4 +116,7 @@ Engineering realization happens in the material world. Programs run on machines,
 
 [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/) provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Enter through the needed concept rather than treating all three volumes as a prerequisite for programming. Feedback and model assessment connect back to the system-identification resources above.
 
-Physics investigates regularities; engineering designs and realizes under those conditions. They connect while retaining their tasks. Psychological activity, philosophical expression, and engineered works can participate in one actual process; this [Trinity](local-source-and-website.md) does not make a running program a complete explanation of the mind's physical realization.
+Physics investigates regularities; engineering designs and realizes under those
+conditions. The [Trinity](local-source-and-website.md) develops their connection
+with philosophy and psychology. A running program establishes a realization;
+its explanatory adequacy for a psychological process is a further question.

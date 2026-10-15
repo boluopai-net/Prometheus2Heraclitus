@@ -2,7 +2,15 @@
 
 [简体中文](reasoning.zh-CN.md)
 
-An inquiry produces local views within a continuing activity. Relations, images, tensions, questions, and tendencies to act can participate before they acquire propositional form. Making a relation explicit enables discussion, inference, and checking; it also selects part of the activity that formed it. This essay develops a functional account of that movement. An **ontology** articulates the objects, relations, and transformations relevant to an inquiry; **computational** means that this articulation can be organized and used to develop consequences. In YinYang's human–model collaboration, these functions connect developing understanding with expression, action, and the encounter's answer.
+How does an unsettled relation become a conclusion that can responsibly guide
+action? Inquiry can begin with an image, tension, question, or tendency to act
+before a proposition is available. Articulation makes selected relations open
+to discussion and checking. This essay follows their development into candidate
+explanations, discriminating consequences, and warranted local judgments.
+An **ontology** articulates the objects, relations, and transformations relevant
+to that inquiry; **computational** means this articulation can be organized
+and used to develop consequences. YinYang applies this functional vocabulary
+to a person and a generative model working together.
 
 ## Process and current view
 
@@ -10,7 +18,11 @@ An abductive–predictive stream accommodates material that does not yet fit tog
 
 A working view may contain a knowledge base, but the activity that generates, uses, and changes views is broader. A new distinction can emerge before there is a well-formed query. Helping formulate the question is therefore part of inquiry, not merely preparation for an already specified computation. Papers, diagrams, speech, and records retain articulated relations; they do not exhaust the event or everything that remained unarticulated.
 
-The described process, a model of it, and the expression carrying that model have different roles. Writing and reading an expression are themselves events that may change the process. An artifact can make a relationship available for repeated examination and acquire consequences beyond its makers' intentions. Its operation and reception return evidence to the encounter. Question-relative construction does not make truth depend on naming: omitted relations, failed predictions, and resistant objects can require a different view.
+Articulation changes what can be checked. A sense that a result is wrong may
+first become a question about its destination, then a candidate explanation
+of how it was produced. Each formulation opens some checks and leaves others
+outside its scope. Inquiry must therefore assess its formulation alongside
+the answers it obtains. The program example below makes this movement concrete.
 
 ## Relations before sentences
 
@@ -30,7 +42,12 @@ A working ontology articulates the objects, relations, and constraints that matt
 
 Economy asks added structure to contribute to explanation, prediction, or action. A “minimal sufficient model” expresses this preference for restrained complexity under the question's actual evidence. Sufficiency is assessed through the question it answers and the consequences it makes available; different models may serve different uses. A premise that simply restates the desired conclusion may make an inference valid while contributing little explanation. [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) distinguishes representation cost from metaphysical commitment and ultimate reduction.
 
-Within a suitable formal system, query rewriting compiles relevant ontology information into a query while preserving its answers under stated conditions. [Query rewriting and sublation](preference-harness.md#query-rewriting-and-sublation) gives the equivalence. This offers a comparison for ordinary reformulation: bringing relevant assumptions into the question can make its consequences easier to inspect. The formal equivalence applies to its specified calculus; an ordinary reformulation is checked by comparing the objects, assumptions, and answers before and after.
+Changing a question can change its ontology. Asking whether a program executed
+an operation requires distinctions among calls, states, and outputs. Asking
+whether it accomplished a purpose also requires the intended result and its
+conditions of use. The first answer can be correct while leaving the second
+question unanswered. A useful reformulation makes this added relation explicit
+and checks which earlier conclusions still apply.
 
 ## Sources, candidates, and the active workspace
 
@@ -42,7 +59,10 @@ Within a suitable formal system, query rewriting compiles relevant ontology info
 
 Attention, retention, and acceptance have different effects. Removing a candidate from current use frees the workspace while leaving its source and possible later reconsideration available. Retaining incompatible explanations preserves alternatives for comparison; accepting their claims together as classical premises would expose the inference to contradiction. A source can be worth retaining while its explanation is still developing. The present question determines which branches are worth pursuing.
 
-Temporal indexing helps determine what actually conflicts. An experience's occurrence time, its content's source time, and the time represented by that content can differ. A current experience, external situation, and accepted model concern distinct objects whose relations need investigation. [The stream and time](flow-and-time.md) develops those temporal relations and the conditions under which conflicting judgments arise.
+Before comparing conflicting candidates, establish whether their assertions
+concern the same object, time, and conditions. Yesterday's failed run and
+today's successful run can both be accurately reported. [The stream and time](flow-and-time.md)
+develops how retained reports bear on a present judgment.
 
 ## Seeking explanations and comparing consequences
 
@@ -52,7 +72,13 @@ Consider a fictional inquiry into a program that reports completion while an exp
 
 Candidate comparison needs both directions. First reconstruct possible assumptions and relations; then derive consequences that would distinguish them and compare those consequences with observation. An internally coherent story is insufficient. A prediction can fail because of an unsupported premise, an omitted condition, a mistaken reconstruction, or an unsuitable inference method. Locating the failure helps decide what to revise.
 
-Selection and acceptance are separate questions. A preference or priority can influence which candidates receive consideration; an inference policy determines what their support warrants. A conclusion supported by every relevant admissible candidate is robust relative to that candidate family, assuming it is nonempty. Shared omissions or errors can still defeat it in the world. Majority support needs an account of counting or weighting; incomparability requires neither a numerical score nor an invented total ranking. [The preference harness](preference-harness.md) supplies the bounded repair-based comparison.
+Comparing consequences also identifies where support ends. A conclusion
+supported by every member of a nonempty admissible candidate family is robust
+relative to that family; a shared omission can still defeat it in the world.
+When candidates disagree, a further observation may distinguish them, or a
+limited conclusion may survive the disagreement. [The preference harness](preference-harness.md)
+develops the separate choices of which views to consider and what support
+to require for acceptance.
 
 The distinction matters because choosing what to investigate is not yet deciding what to believe. A candidate may deserve attention because its consequences are important or easy to test while remaining poorly supported. Conversely, a well-supported local conclusion can be accepted without exhausting every imaginable alternative. Answerability to evidence and finite completion belong together: the view states what it warrants under its conditions, while the stream remains open to later correction.
 
@@ -82,4 +108,9 @@ Prediction and world-directed feedback connect local views with later activity. 
 
 Branches and snapshots offer computer-science images for retained alternatives and question-relative views. A branch keeps a candidate available for further development; a snapshot makes a local arrangement inspectable. Their usefulness comes from selective retention and recoverability. Useful stability and finite task completion coexist with continued revisability: a view can answer its present question while later activity brings new objects or evidence into consideration.
 
-The difference between ongoing process and accepted view therefore gives reasoning its responsibility. A local conclusion must be clear enough to guide an act and expose its grounds. It must also remain distinguishable from the wider activity that generated it, so that a new observation can reach those grounds. [World, process, and expression](world-and-expression.md) develops how the result of inquiry can return as an object of understanding. What returns need not erase what was achieved; it can show precisely which part continues to hold and which part must change. The next essay, [Preference harness](preference-harness.md), develops how preferences organize the possibilities pursued while inference and evidence constrain their acceptance.
+Reasoning reaches a local result when a conclusion is clear enough to guide
+an act and expose its grounds. Its scope indicates what has been answered,
+which alternatives remain consequential, and what new evidence would require
+reconsideration. The activity can finish without becoming immune to correction.
+[World, process, and expression](world-and-expression.md) develops the further
+question of how that achieved result can return as a new object of understanding.

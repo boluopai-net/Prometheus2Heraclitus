@@ -286,9 +286,6 @@
       "viewer.passport.relationship.direction.loop": "LOOP",
       "viewer.passport.sourceCount.one": "{count} verified source reference",
       "viewer.passport.sourceCount.other": "{count} verified source references",
-      "viewer.passport.sourceMarker": "SRC",
-      "viewer.passport.beacon.one": "{count} verified source; focus this node to inspect",
-      "viewer.passport.beacon.other": "{count} verified sources; focus this node to inspect",
       "viewer.passport.repository.open": "Open verified repository revision {revision}",
       "viewer.passport.source.open": "Open verified source {path} at revision {revision}",
       "viewer.passport.source.openLink": "Open ↗",
@@ -509,8 +506,8 @@
       "id": "source",
       "type": "frontend",
       "icon": "none",
-      "label": "Observations / expressions",
-      "sublabel": "Occurrences remain revisitable",
+      "label": "Records of observations / expressions",
+      "sublabel": "Sources remain available for reinterpretation",
       "pos": [
         60,
         90
@@ -666,7 +663,7 @@
       "title": "Both participants are event streams",
       "items": [
         "Perception, expression, interpretation and action continue through temporal, causal and interpretive relations. Local views form and change within the streams.",
-        "A view can omit an occurrence without deleting its source or proving it false. A relation may be felt before it is explicitly formulated."
+        "Leaving a claim out of the adopted view can preserve its source and interpretation; a relation may be felt before it is explicitly formulated."
       ]
     },
     {
@@ -682,7 +679,7 @@
       "title": "Generation serves development",
       "items": [
         "Reverse alignment aims at the person's developing understanding, generation and action; agreement or a completed output does not alone establish growth.",
-        "This is a computational account of modeled relations, not a literal algorithm for a whole human, a mandatory sequence, or a theory of universal digital physics."
+        "The diagram follows a revisable local inquiry; the participant's other activity continues beyond the current view."
       ]
     }
   ]

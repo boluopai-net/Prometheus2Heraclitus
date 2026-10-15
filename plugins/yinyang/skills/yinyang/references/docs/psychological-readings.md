@@ -2,13 +2,23 @@
 
 [简体中文](psychological-readings.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Engineering readings](engineering-readings.md)
 
-This reading list connects process modeling, psychological conflict and change, belief, and interaction. For experience and cases, enter the middle section on [psychological conflict, relationships, and change](#psychological-conflict-relationships-and-change) and its more accessible books. Modeling and research methods remain available for deeper inquiry. The sections connect by question rather than forming a compulsory course sequence.
+Use this guide for ways to articulate experience, compare psychological
+explanations, and assess them. For experience and cases, enter [psychological
+conflict, relationships, and change](#psychological-conflict-relationships-and-change)
+and its accessible books. For a proposed process model, use modeling and
+empirical assessment; for change across encounters, use belief and interaction
+research. These are question-based entrances, not a compulsory course or a
+ready-made model of the person. [Design and revision](../design-and-revision.md)
+explains how relevant evidence can inform a situated account.
 
 Links lead to authors, publishers, and public originals, with general-reader, professional, and research purposes distinguished. Catalogs and samples are not free full texts; recency and reputation alone do not establish that an explanation fits the present question.
 
 ## Psychological process modeling and empirical assessment
 
-Begin with Guest–Martin and Borsboom and colleagues on making theories explicit, then use the research-methods textbook and Wilson–Collins to examine relations between models and evidence. For extended computational examples, turn to Farrell–Lewandowsky.
+Guest–Martin and Borsboom and colleagues help make theories explicit;
+the research-methods textbook and Wilson–Collins examine models against evidence.
+Farrell–Lewandowsky provides extended computational examples. Select the
+contribution the current question needs.
 
 | Book or paper | Where to begin and what it contributes |
 | --- | --- |

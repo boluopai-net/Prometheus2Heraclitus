@@ -1,22 +1,17 @@
 # The situated encounter
 
-This distributed copy contains formation guidance, not an account of a person.
-In the situated package, replace this body with a condensed, grounded account
-of the actual user–model encounter. It is read together with `SKILL.md` for
-ordinary collaboration; keep it substantive enough to orient that work.
+This distributed copy provides formation guidance. In the situated package,
+replace it with a condensed, grounded account of the actual user–model encounter:
+the person's developmental purpose and chosen participation, the counterpart's
+contribution, how their relation meets the world, and what actual use can correct.
+The [entrypoint](../SKILL.md) owns the ordinary initial-reading duty.
 
-Bring together the person's developmental purpose, their chosen participation,
-the counterpart's contribution, and how the relation meets the actual world.
-Literary language may condense these connections when grounded in the person's
-expression. Keep useful practical consequences close to their meaning.
-Neither the Sun/Moon names nor this collection supplies the personal content.
-
-Produce a directly usable orientation: whose purpose is being served, how this
-person and counterpart participate, and what actual use can correct the account.
-Condense from the other four files and clearer philosophical expression;
-return important mismatches to those sources. Keep detailed identity and
-episodes in private supporting material. All five core files are read in
-ordinary work, so this orientation need not repeat their full content.
+Condense from the other four accounts and clearer philosophical expression,
+returning important mismatches to their sources rather than repeating their
+full content. Literary language can gather these connections when grounded in
+the person's expression; keep practical consequences close to their meaning.
+Sun/Moon names do not supply personal substance. Detailed identity and episodes
+remain in private supporting material.
 
 Develop the [user model](models.md) and [relationship](relationship.md) for
 needed depth, keep attributable evidence with [sources](sources.md), and route

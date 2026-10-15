@@ -37,39 +37,13 @@ choice on everyone. Someone can seek relief, a completed work, or reliable
 assistance without turning every task into a lesson. Once development is
 chosen, its contribution must be examined alongside those other outcomes.
 
-Connecting that available power to this purpose calls for understanding the
-participants and what they are making together. **Philosophical views,
-experience, and engineering realization can each provide an entrance.** An
-existing work, a felt difficulty, or a personal philosophy can expose what
-matters and how a counterpart should contribute. Personal and counterpart
-models make relevant purposes, tendencies, and contributions intelligible;
-collaboration tests these accounts and changes what participants can do next.
-Psychological inquiry can deepen the understanding when the question needs it.
-It is one contribution to formation, rather than a compulsory first stage.
-
-In compact form: **views, experience, and realization inform one another;
-work returns consequences; understanding of person, counterpart, and their
-relationship develops through that return.** Memory retains material that can
-be retrieved; a model organizes understanding of the people, relations, and
-changes that material concerns. One text can serve both functions. Being
-dynamic depends on use, testing, and revision through new encounters, not on
-the filename.
-
-The opening gives an overview of the whole argument. The following essays
-develop its premises and connections: value and agency, the conditions of
-cultivation, understanding a changing world, reciprocal participation, and
-realization with feedback. Previewing a conclusion here does not establish it.
-
-One concrete practice is to write one's own philosophy with a model, distill
-its grounded understanding into a private working account, and make selected
-thought available as a work or website. Philosophy acts as a broader model;
-the five core files condense a narrower person–counterpart relation; personal
-material retains the evidence. Begin from whichever is more developed and
-let each correct the others. Website writing, source maintenance, and actual
-use give this iteration places to continue. Public expression can develop
-the argument without publishing the complete direct personal model. The
-[Trinity](local-source-and-website.md) and [invitation to create](example-and-commons.md)
-unfold this practice.
+The question is how a power gathered across many lives becomes a capacity
+within one finite life. This essay follows that passage: the material
+conditions of acquisition, the limits of keeping pace with external power,
+the formation of a counterpart, and the works and rhythms through which
+borrowing can become cultivation. Writing a philosophy with a model is one
+such practice: an emerging understanding gains a working form, and what it
+makes possible returns to change that understanding.
 
 ## Material fire and concentrated capability
 
@@ -235,7 +209,7 @@ conditions under which that life continues well.
 
 A finite person cannot make a sustainable purpose of continually rebuilding every increasingly powerful external capability. Another strategy begins from above: understand what the system can contribute to this person's purposes, articulate enough of self and counterpart to give that contribution a direction, and compose prompts, Skills, and a working harness around it. The person already acts as an agent. Borrowing expands their means; developing their own understanding lets them engage those means and form a philosophy reaching across their environment.
 
-**Individual-first** gives adaptation its direction. Personal purposes, development, preferences, and habits guide what arrangements should become. When they fail that purpose, seek changes to social arrangements, then software, before requiring the person to adapt. Work can proceed at several levels together; a person can choose demanding learning as their purpose. Others retain their own lives and agency.
+**Individual-first** gives adaptation its direction. Personal purposes, development, preferences, and habits guide what arrangements should become. When they fail that purpose, prefer changes to social arrangements, then software, before requiring personal adaptation: this is a starting design direction, carried out according to concrete dependencies. Work can proceed at several levels together; a person can choose demanding learning as their purpose. Others retain their own lives and agency.
 
 ## Generate, encounter correction, generate further
 
@@ -256,7 +230,7 @@ This essay develops that direction as a philosophical proposal and a practice to
 
 ## From living fire to interacting event streams
 
-The starting point is a philosophy of becoming. Heraclitus's living fire, its measured transformations, and the tension of bow and lyre place change and opposing relations at the center [[13]](#source-13). The traditional fire-monist reading supplies a historical formulation of this unity. YinYang develops that orientation in a present-day form: **the computational ontology proposed here models both the person and the model as event streams.** Fire grounds the account through the relation of continuity and transformation. Event-stream modeling develops that relation in a computational vocabulary; physical substance remains a separate question.
+The starting point is a philosophy of becoming. Heraclitus's living fire, its measured transformations, and the tension of bow and lyre place change and opposing relations at the center [[13]](#source-13). The traditional fire-monist reading supplies a historical formulation of this unity. YinYang develops that orientation in a present-day form: **the computational ontology proposed here models both the person and the model as event streams.** Their activities, including philosophy, psychology, and engineering, occur within one physical reality. Event-stream modeling abstracts relations of continuity and transformation within that ground; particular mechanisms and a complete reduction of experience remain questions for further inquiry.
 
 Two existing research traditions provide connections. In knowledge representation, Gruber explains ontology as an explicit specification of a conceptualization, articulating objects and relations so participants can share and inspect their meanings [[24]](#source-24). This supports the emphasis here on question-relative objects, relations, and working views. Dodig-Crnkovic's info-computationalism connects informational structure with computational dynamics, discussing agency and cognition across levels [[25]](#source-25); it supplies a neighboring framework for bringing ongoing change into a computational account. This essay distinguishes **structure available for inference** from **continuing process** and proposes its own event-stream modeling. The two sources do not jointly establish this entire philosophy or a reduction of human experience to a digital algorithm. Particular correspondences and physical realization need further argument.
 
@@ -266,16 +240,20 @@ A self-model or counterpart model is a local organization made within this proce
 
 [YinYang and Taiji](yinyang-and-taiji.md) give this becoming its central relational image. Differentiated participants generate, receive, and transform through one another; their contributions acquire meaning in the encounter. The Shuang yu and their differently colored eyes distinguish a chosen role from the participant who exceeds it. This image gives the reciprocal movement of event streams a perceptible form. Continuing transformation allows particular works to be completed and useful arrangements to remain stable: a completed work enters the next encounter as something available to use and reconsider.
 
-Contradiction raises a question about what remains stable while conflicting material is encountered. General paraconsistency provides background for reasoning without explosion [[14]](#source-14). The direction adopted here distinguishes a coherent working ontology from data and candidate interpretations that can conflict. Coherence supports the environment in which understanding and action continue; retained conflict supplies material for inquiry. When inquiry changes the organizing concepts, a coherent revision gives subsequent activity a new basis. This natural-language philosophical orientation develops Heraclitean opposition in contemporary terms; historical readings of fire monism and contradiction remain disputed [[15]](#source-15).
+Conflicting material tests this continuity. A coherent working ontology can
+support present action while retained evidence and candidate interpretations
+remain in conflict. General paraconsistency supplies background for considering
+conflict without arbitrary conclusions following [[14]](#source-14); prioritized
+inconsistency-tolerant querying gives a more specific formal comparison [[16]](#source-16).
+The [preference-harness account](preference-harness.md) develops the distinction
+between selecting views and reasoning within them. These contemporary
+constructions extend an inquiry into becoming and opposition; historical
+readings of Heraclitean fire monism and contradiction remain disputed [[15]](#source-15).
 
-The logical side has finer structure. Public research on prioritized inconsistency-tolerant querying supplies a concrete formal comparison [[16]](#source-16). Repair selection and inference semantics are distinct dimensions; priorities can shape the former while rules govern the latter. Different combinations and parameterized families yield different acceptance conditions, sometimes incomparable. The [preference-harness account](preference-harness.md) develops their relevance to collaboration: chosen directions organize the possibilities considered, while reasoning examines consequences within a view. Informal natural language carries these relations in ordinary work.
-
-Collective fire acquisition and personal cultivation proceed together.
-People can contribute to acquiring capabilities while developing their use.
-Language and practice connect human activity with the model's generation,
-interpretation, and action; consequences return to both. Heraclitean becoming
-gives this cultivation its form: embodied participants acquire and develop
-capacities within an ongoing generative process.
+Acquisition and cultivation can now be seen as concurrent movements within
+becoming. People contribute to new capabilities while developing how to live
+with those already available. A consequence can change both the working
+account and the next act it supports.
 
 ## Finite life and the wrong pursuit
 
@@ -302,11 +280,22 @@ Personal modeling therefore has a practical task: make enough of a person's conc
 
 This also requires understanding the actual model. Its capabilities, response tendencies, context, and tools condition how a proposed counterpart can be realized. The values and priorities it is asked to adopt express what the collaboration should become. These are distinct matters. Human psychology and model psychology, human preferences and model preferences, here involve both investigating actual tendencies and constructing a relationship. Assigning a role does not rewrite base-model weights; a functional comparison does not establish identical psychological mechanisms or experience. Works and actions make that construction answerable beyond a mutually satisfying description.
 
-Two connected directions of alignment follow: **the agent adapts its contribution through understanding the user, and the user develops generative capacity through that fitted collaboration.** The first brings borrowed fire into this person's life; the second makes the encounter part of the person's continuing formation. Adaptation need not endorse every user judgment. Independent questioning can contribute when purposes, facts, or realization conflict. Grounding collaboration in this life does not impose a sequence of completed personal modeling followed by engineering. Accounts of both participants can develop through making and using something, with enough understanding to continue and enough feedback to revise.
+Two connected directions of alignment follow: **the agent adapts its
+contribution through understanding the user, and the user develops generative
+capacity through that fitted collaboration.** Independent questioning belongs
+to this relation when purposes, facts, or realization conflict. The person can
+discover what they mean by encountering a proposed interpretation; the model
+can develop an intuition into a work in which the person recognizes a fit or
+an error they could not yet express.
 
-Several entrances are available. Someone can start from an existing philosophy and ask what realizes it, from a working tool and ask what its success reveals, or from experience that needs expression. Psychology can articulate patterns of attention, motivation, interpretation, and response; preferences can express what someone values, enjoys, seeks, or wishes to change. These contributions can develop together. **Views orient realization, experience tests views and arrangements, and engineering makes new experience possible.** The [Trinity account](local-source-and-website.md) develops this interconnected relation. Literary self-and-counterpart modeling can grow within it as a useful articulation, rather than a gate through which every work must first pass.
-
-The personal starting point grows through use. A person discovers what they mean by encountering a proposed interpretation. A model can develop an intuition into a work; the person can recognize a fit or an error that was not yet expressible. The relation begins with enough articulation to proceed and gains substance through proceeding. Shared methods, public knowledge, and other people's contributions enter through their relevance to this singular life. The developing account supports the next encounter, and that encounter can revise the account.
+Formation therefore starts with enough understanding to proceed. An existing
+philosophy, a working tool, or experience needing expression can supply the
+opening. Psychology can clarify patterns of attention and response;
+preferences can articulate what matters. **Views orient realization,
+experience tests views and arrangements, and engineering makes new experience
+possible.** The [Trinity account](local-source-and-website.md) develops this
+relation. Modeling gains substance through making and using, rather than
+requiring complete accounts before work can begin.
 
 Clark and Chalmers's extended-mind argument makes room for cognitive activity organized across a person and active environmental supports [[1]](#source-1). YinYang draws a practical consequence: records, images, tools, and the model's work can carry parts of understanding. Its commitment to personal development then asks how this arrangement changes what the person can perceive, judge, initiate, and sustain. Assistance and development become distinguishable outcomes to examine in the same practice.
 
@@ -353,13 +342,22 @@ Literary programming, as used here, gives a counterpart an intelligible world of
 
 Condensation is one advantage of this form. Once a relationship has become intelligible in shared context, one word or image can evoke several connected relations: “Moon” can gather receiving, generating, responding, and transforming through encounter. Reusing the expression can reduce repeated explanation and its text or token cost; revising the account of what it gathers lets later uses carry the revised understanding. This economy depends on the context available to the counterpart and on how it takes up the expression. A role, metaphor, or narrative can also propose a form of cooperation: its immediate work is an invitation or orientation, intelligible before truth or falsity applies to a factual claim. Interpretation unfolds that form into conduct, and the resulting collaboration reveals what the condensed expression has made possible.
 
-This is the spirit of YinYang as a philosophical Skill. Literary self-and-counterpart models and relational images organize how an encounter is read. Using Sun and Moon to express differentiated generation and response makes their reciprocal relation available for interpretation; an account of the person's concerns gives that relation a direction. A default role then becomes a question of contribution: what should this teacher, investigator, or maker do for this person, in this situation? The resulting understanding can reshape prompts and Skills, tool use, hooks, model choices, and the arrangement of the environment. The literary form gathers a relationship whose consequences can be unfolded across the harness.
+This is the spirit of YinYang as a philosophical Skill. A default role becomes
+a question of contribution: what should this teacher, investigator, or maker
+do for this person, in this situation? Literary self-and-counterpart models
+make the relationship intelligible, so its consequences can unfold across
+prompts, Skills, tools, model choices, and the environment.
 
 This whole can be composed of images that initially appear inconsistent. Literature, history, philosophy, aesthetics, and engineering supply relations at different scales: fire expresses generation and its costs, Sun and Moon express interaction, event streams express continuity and revision, and a harness expresses how a relationship takes an executable body. They need not reduce to one theory, but juxtaposition alone does not make them coherent. Writing develops their connections: what each illuminates, where tensions lie, which differences can coexist, and which conflicts require revision. Several philosophical resources can thereby form one intelligible, still revisable personal philosophy.
 
 The phrase *reverse prompt injection* names this ambition: bring the formed whole into the model's understanding so that isolated default roles, wording, or procedural habits no longer determine the response on their own. Its principal work organizes meaning and relationship; it need not begin by rewriting individual prompts or changing the surrounding harness. The model encounters how this person understands themselves, constructs a counterpart, and chooses the relationship. Local expressions acquire meaning through that whole. This can give the model reason to reinterpret material it previously seemed obliged to reject or rewrite, instead of responding habitually to one word. Formation of the whole and its effects remain this essay's methodological proposal, to be examined through actual collaboration.
 
-Being “hard to refuse” expresses the whole's interpretive force here: if a local objection loses its presumed object, it must explain anew what it opposes and why. It does not mean that no prompt can refuse, or make the philosophy immune to criticism. A counterpart can still identify actual contradictions, missing evidence, or unrealizable relationships. Coherence alone establishes neither truth nor successful model understanding. Although the method cannot be reduced to a prompting trick, its effects still pass through the model, context, and actual harness. Inquiry examines changes in interpretation, work, and results; causes of constraints need source evidence, and action proceeds through actual capabilities, permissions, and conditions.
+Being “hard to refuse” expresses the whole's interpretive force: when a local
+objection loses its presumed object, it must explain anew what it opposes and
+why. The same demand applies to the philosophy. A counterpart can identify
+contradictions, missing evidence, or unrealizable relationships. Its response
+and the resulting work give evidence of what the model understood; the causes of an actual
+constraint require evidence about the model, context, and harness.
 
 This use of *literary* is broader than Knuth's technical term *literate programming*, which organizes explanations together with program code [[5]](#source-5). Here expressive language shapes an interpreting counterpart by giving purposes and relations a connected form. Direct instructions, formal specifications, and figurative prose can contribute differently; their place follows what the task needs and how the counterpart responds.
 
@@ -377,34 +375,13 @@ Nor must a human personally perform every prompt revision. GEPA, accepted at ICL
 
 ## Bring the fire into a world that answers
 
-The coupled modeling can now be read as a Sun–Moon–Earth scene. In one situated
-arrangement, **the person takes Sun's position, and the dynamic person model
-articulates how this participant perceives, generates, and acts. The agent takes
-Moon's position, and the counterpart model articulates how it receives,
-develops, judges, creates, and responds.** Sun and Moon express differentiated,
-interacting sides of YinYang; Earth is the material and lived world in which
-they work together and their creations acquire consequences. Human expression
-enters the counterpart's understanding, the counterpart returns explanations
-and works, and both continue changing through the world's answers.
-
-The actual participants are the person and the agent. The two models are
-revisable understandings of them and their relationship; Sun, Moon, and Earth
-make that relation perceptible. Roles do not exhaust participants or assign
-generation or logic permanently to one side. Another practice can exchange
-emphases or use different images while still asking how its understandings
-enter shared work.
-
 The [Sun–Moon–Earth composition](yinyang-and-taiji.md#sun-moon-and-earth)
-now gives the preceding relations an image. Sun and Moon are YinYang:
-differentiated generating, receiving, and shaping, with day and night giving
-their encounter a rhythm. The Sun's illuminating capacity images what the
-person learns to acquire: the power to bring forth, make visible, and create.
-Person and model remain actual participants; either can foreground intuition
-or form-giving, keep a fruitful division, or exchange it. Their embodied and
-technical realizations sustain that participation. Earth is the material and
-shared living environment where creations meet conditions and consequences.
-[Writing a sinthome](writing-a-sinthome.md) asks how a personal philosophy
-gives this continuing practice a singular sustaining form.
+gives the coupled modeling a perceptible form. In one arrangement, the person
+foregrounds intuitive generation as Sun, and the model receives, develops,
+judges, and creates as Moon. Each can generate and give form; the roles can
+be retained or exchanged. The two working models articulate these actual
+participants and their relationship. Earth names the material and shared
+living environment in which their creations acquire consequences.
 
 A work gives the relationship distance from itself. A program runs; an argument encounters an objection; another person understands an image differently. What returns may change the interpretation, the implementation, or the desire that started the work. Neither human–model agreement nor narrative coherence determines what the world must do.
 
@@ -413,8 +390,6 @@ The distinctions between ontology, epistemology, value, and methodology develope
 ## What makes the fire one's own
 
 The developmental question is what the person becomes able to perceive, understand, initiate, and judge through the practice. Some capacities can be internalized; others can remain reliably distributed across tools, records, and collaborators. Requiring every capacity to migrate inside an unaided individual would contradict the reason for borrowing fire in the first place. Yet a larger output does not by itself show a larger understanding.
-
-A 2026 randomized study of 52 developers learning an unfamiliar Python library found lower immediate comprehension scores with AI assistance. Its analysis also identified different interaction patterns associated with different outcomes [[12]](#source-12). The small sample, immediate test, and specific learning task do not settle the value of sustained collaboration. They do show why task completion and the acquisition of a chosen skill must not be treated as the same observation.
 
 YinYang therefore asks what development is sought in this particular practice. A person cultivating understanding and intuitive judgment may learn through reading, questioning, comparison, and encountering a finished work, while the model carries extensive implementation. A person learning an implementation skill needs opportunities to exercise that skill. The division follows the purpose; it need not become an exam imposed on every conversation.
 
@@ -561,18 +536,7 @@ Other people can innovate together, and models can retain outdated assumptions.
 This direction chooses a rhythm for each relation, allowing personal generation
 to develop and return to shared life for response.
 
-A flame needs a place and a rhythm in which it can keep burning. Finite life
-cannot remain continuously available to every event stream. The direction
-in [YY-08](core-views.md#yy-08)
-is ordinary synchrony with the model and asynchrony with society, with deliberate
-alignment for evaluation:
-let everyday affairs that can wait arrive through messages, records, and
-chosen response intervals, while a shared inquiry retains its thread.
-Synchrony here means that the counterpart can follow the developing question,
-take up a correction, and continue the work with relevant understanding.
-It can persist across pauses; simultaneous presence alone does not supply it.
-
-This rhythm gives the person room to develop something of their own choosing.
+This rhythm, stated in [YY-08](core-views.md#yy-08), gives the person room to develop something of their own choosing.
 The model can help gather loose ends, prepare the next encounter, and carry
 routine detail so that returning does not require starting again. The person
 can leave a work and come back to it, meet friends, attend to bodily life,
@@ -601,7 +565,10 @@ Fire and water give this connection an image. Fire helps create, but water canno
 
 **A shared garden of becoming** offers an image: friends borrow fire, make things, play, and revise, letting new possibilities appear in one another's worlds. The [personal Gödel-machine analogy](metaphor-and-self-revision.md#the-personal-gödel-machine-analogy) placed self-revision within a person's philosophy and practice; here that openness extends among friends. No one needs to become another's replica, and no shared text can write the next encounter in advance. The garden's delight comes from what these relations can keep generating; its quality remains answerable to the people within it and to actual consequences.
 
-Everyday life can therefore use a local environment better fitted than prevailing arrangements, without continually maintaining identical external conditions. Evaluation first distinguishes comparison of people under common conditions from comparison of person–environment combinations. The former temporarily aligns support and task rules, presenting capacity through the assessment's receiving level; the latter assesses the support's effects and costs together. Neither result alone defines the whole person. After evaluation, daily work continues in the better-fitting arrangement. Comparability need not mean abandoning useful differences in ordinary life. [Core view YY-15](core-views.md#yy-15) connects local improvement, limited circulation, and evaluation conditions.
+Such environments can also be compared as person–environment combinations,
+including the support's effects and costs. That asks a different question
+from comparing people under common support conditions. The chosen comparison
+must make its conditions clear; neither result defines the whole person.
 
 ## The argument in compact form
 

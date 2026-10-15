@@ -28,14 +28,14 @@ that continue beyond the description. A model of someone can be inadequate
 even when it is internally coherent. Their correction can disclose that
 inadequacy; subsequent experience can disclose another.
 
-This orientation also takes the natural world seriously. Tools depend on
-material conditions; other people act independently; an outcome can resist an
-expectation. A provisional name for this starting point is **modest naturalism**:
-begin with concrete embodied beings and worldly processes, and investigate
-their relations through available experience and evidence. The computational
-account organizes those relations for inquiry. Calling an account computational
-does not establish that reality itself is a digital computation or that a
-particular reductive explanation of experience is complete.
+The framework takes physical reality as its common ground. Thinking,
+psychological experience, and engineering are activities within that reality;
+tools require materials and energy, and bodies live through their consequences.
+**Modest naturalism** names the accompanying stance of inquiry: begin with
+concrete embodied beings and worldly processes, investigating their relations
+through experience and evidence. A computational account abstracts relations
+relevant to the question. This leaves particular realization mechanisms and
+the possibility of a complete reduction of experience to their own inquiries.
 
 “The person is real” therefore has a practical force here. A category, metric,
 or story does not exhaust the one who lives through its application. Its
@@ -175,30 +175,20 @@ support reasoning; reflection can also examine its boundary and aim. Dynamic
 representation and model selection are resources in this work, rather than
 proof that any one account contains the whole life.
 
-The [Trinity](local-source-and-website.md) give this
-development places to continue. A situated environment supports actual use;
-a maintained source makes selected understanding inspectable; a website lets
-another reader encounter it. A contribution from that reader can change what
-the next version expresses and does. The personal and social can both develop
-through such returns, at different rhythms.
-
-The [sinthome essay](writing-a-sinthome.md) develops a connected proposal:
-a personal philosophy realized through a harness can become a singular
-sustaining practice, with room for delight and joy. Its authorship can begin
-from a usable relation; its fit develops through life and revision.
-
-The humanist ambition is to make those transformations answerable to actual
-lives. Philosophy supplies meanings worth trying; models help realize them;
-persons and the world can answer. A maintained account gains its value through
-the understanding, agency, and further creation it makes possible.
+Return to the person whose life had no place in a general arrangement.
+Success need not mean that the person has learned to fit the old category.
+An explanation may become intelligible, a tool usable, or a different way
+of cooperating sustainable. The person may also choose a demanding change
+in themselves. Humanism gives these transformations their measure: what
+understanding, voluntary agency, and worthwhile activity do they make
+possible, and what do they ask of other lives?
 
 ## Sources and scope
 
-Modest naturalism, the four-axis
-positioning, and their model-supported realization are this essay's synthesis.
-They remain open to philosophical criticism and particular empirical inquiry.
-The cited sources establish neither that everything is fiction nor that this
-arrangement necessarily improves every person's life.
+Modest naturalism, the four-axis positioning, and their model-supported
+realization are this essay's synthesis. The sources contribute the distinctions
+identified above; the ethical orientation is argued here and remains open to
+criticism and inquiry through its consequences.
 
 1. <a id="source-1"></a> Thomas Hobbes (1651), **Leviathan**, chapter IV, “Of Speech.” [Original text](https://en.wikisource.org/wiki/Leviathan_%281651%29/Chapter_4). One historical account of universal names and particular things, not a proof of the present ethical orientation.
 2. <a id="source-2"></a> John Stuart Mill (1859), **On Liberty**, chapter III. [Original text](https://www.gutenberg.org/files/34901/34901-h/34901-h.htm). Individuality and experiments of living within plural coexistence.

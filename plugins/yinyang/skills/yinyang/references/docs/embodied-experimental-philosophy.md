@@ -36,12 +36,11 @@ Here its contemporary development concerns model-supported work: an idea can
 become a prompt, a role, an interface, or software, giving participation and
 explanation a common object through which to inform each other.
 
-Embodiment matters because the arrangement is used by someone whose time,
-attention, perception, and capacity to act have a particular situation. A
-beautiful explanation that cannot be followed under those conditions may need
-another expression. A surprising ease of use can suggest an unrecognized
-relation. Neither observation by itself identifies its mechanism; both can
-make a useful question available.
+Embodiment makes the conditions of understanding part of the inquiry. Time,
+attention, perception, and the capacity to act affect what someone can take up.
+An explanation may need another expression when it cannot be followed during
+use; surprising ease may suggest a relation the theory has missed. These
+observations give investigation something to explain.
 
 The model can carry implementation and investigation while the person
 understands through the resulting work, contributes experience, and redirects
@@ -66,23 +65,23 @@ interface may succeed because it changes who makes a decision. Explicit
 relations help the experiment discriminate rather than merely produce another
 impressive output.
 
-Formal reasoning and intuitive inquiry contribute to the same work. A valid
-derivation establishes a consequence under its premises; experience helps
-examine whether the premises address the phenomenon. An intuitive proposal
-can have reasons without being established as the best explanation. Revision
-can affect either the explanation or the way its consequence was tested.
+The consequence must bear on the claim. If fewer interruptions improve a task,
+that supports the arrangement's usefulness under those conditions. It does
+not yet show whether timing, wording, or responsibility caused the improvement,
+or whether the person developed a new ability. To distinguish those claims,
+examine cases where the candidate explanations predict different outcomes.
+A valid derivation unfolds premises; experience helps judge their fit to the
+phenomenon. Either the explanation or the way it was examined can need revision.
 
 ## Two connected loops
 
 A **practice loop** connects a situated proposal, its realization, participation,
-and correction. A **reflection loop**, within its current question and standards, revisits how the activity is understood:
-which concepts and purposes organize it, what supports a model, what another
-interpretation would change, and whether the arrangement should be revised.
-Philosophical argument, engineering investigation, and empirical inquiry can
-contribute as the question needs. Calling the second loop reflection leaves
-room for all three without classifying every personal experiment as scientific
-research. These names organize this proposal, rather than defining every
-technical account of double-loop learning or second-order cybernetics.
+and correction. A **reflection loop** revisits how the activity is understood:
+which concepts and purposes organize it, what supports an explanation, and
+what an alternative would change. It works with a current question and
+standards, drawing on philosophical argument, engineering investigation, or
+empirical inquiry as needed. These names organize this proposal rather than
+defining the technical traditions of double-loop learning or second-order cybernetics.
 
 Practice can change an interface after one concrete failure. Reflection
 can ask whether that failure depended on the task, presentation, or
@@ -90,12 +89,6 @@ person's circumstances. It may compare cases or construct a more explicit
 model. Its findings can return to the practical arrangement. Practice also
 changes as reflection proceeds, so an earlier result has conditions and a
 history rather than an unlimited guarantee.
-
-The two loops are themselves a chosen arrangement. When inquiry questions that
-division and the remit or standards of reflection itself, it takes the current
-pair as its object rather than continuing within those accepted terms. The next
-section develops this change of scope. Both loops and their relation remain
-revisable; the pair does not enclose every possible question about the arrangement.
 
 The investigator participates too. An explanation changes what a reader notices;
 a tool changes what a person can do; asking a question can change the response.
@@ -112,14 +105,13 @@ receiving a response constitute a more local achievement.
 
 ## Reasoning outside the current double-loop arrangement
 
-The reasoning needed here can proceed **outside the current double-loop
-arrangement**, taking both loops and their relation as objects. Improving
-practice under an existing question, or improving reflection under its
-existing standards, leaves parts of the arrangement accepted. A different
-question asks why these activities were divided this way, which purposes
-justify the division, what counts as evidence, and whether the reflection loop's
-questions and methods should change. Reasoning at this level can revise the
-reflection loop itself, reconnect it with practice, or replace the arrangement.
+Both loops and their relation can themselves become objects of inquiry.
+Improving practice under an existing question, or reflection under its accepted
+standards, leaves some organizing choices in place. Reasoning **outside the
+current double-loop arrangement** asks what justifies those choices: why divide
+the activities this way, what should count as evidence, and which purposes
+should guide reflection? It can revise the reflection loop, reconnect it with
+practice, or replace the arrangement.
 
 A formal or computational system gives an inquiry selected objects, rules,
 states, and possible transitions. Such selection makes reasoning tractable.
@@ -167,18 +159,16 @@ check the website's rendered result. If the same misunderstanding shaped an
 assistant's conduct, they also revise the affected instructions and inspect
 actual behavior.
 
-This passage joins publication, reception, interpretation, source maintenance,
-and runtime realization. The [Trinity](local-source-and-website.md)
-develops their different functions. The published work acquires enough
-independence to be understood in a way its makers did not predict. The return
-can revise both expression and practice.
+The published work has acquired enough independence to be understood in a way
+its makers did not predict. That difference is evidence about the expression;
+its further implications depend on whether the same relation organizes actual
+practice. [Trinity](local-source-and-website.md) situates these returns within
+the connection of philosophy, psychology, and engineering.
 
-WeChat Moments can offer another encounter when a person chooses to share a
-work there. Responses from that circle can disclose a reader's question or
-an unexpected interpretation. They do not constitute a representative sample
-of society; silence can have several explanations. Their useful contribution
-is a situated clue that further inquiry may develop. This example proposes
-no actual posting or obligation to keep monitoring readers.
+When someone chooses to share a work on WeChat Moments, responses can likewise
+disclose a question or an unexpected interpretation. Such a circle supplies
+situated clues, with silence open to several explanations, rather than a
+representative sample of society.
 
 ## Finish a version, leave room for return
 

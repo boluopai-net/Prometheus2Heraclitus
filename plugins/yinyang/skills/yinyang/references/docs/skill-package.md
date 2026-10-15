@@ -1,128 +1,93 @@
 # Shared Skills and personal philosophy
 
-[Home](../../README.md) · [Formation Skill](../../SKILL.md) · [简体中文](skill-package.zh-CN.md)
+[Home](../../README.md) · [Model entrypoint](../../SKILL.md) · [简体中文](skill-package.zh-CN.md)
 
-**Prometheus2Heraclitus** is the collection. Its YinYang formation Skill is
-[`SKILL.md`](../../SKILL.md), supported by
-[`design-and-revision.md`](../design-and-revision.md),
-[`harness-adaptation.md`](../harness-adaptation.md),
-and [`reading-map.md`](../reading-map.md) under that
-Skill's `references/`. The nested `docs/` and `diagrams/` directories are
-YinYang accessories in that same complete package. The collection root is not
-itself a YinYang Skill.
+This guide owns the file and update contract for the maintained YinYang package.
+The collection is **Prometheus2Heraclitus**; this complete member lives under
+`skills/yinyang/`. Its `references/docs/` and `references/diagrams/` are
+supporting resources, not independent Skills. Obtain the complete directory
+from the public repository and expose it through the consumer's actual Skill
+mechanism. The website is a reading surface; repository cloning and GitHub's
+native ZIP preserve complete source.
 
-Shared Skills offer capabilities and materials to adopt and rework. A personal
-philosophy develops from one's own experiences, questions, sources, and practice.
-YinYang is one developed example: readers may begin with it, combine other ideas,
-and create work with different names, concepts, and organization.
+YinYang is one developed philosophy and formation method. Readers can adopt
+it, combine selected resources, or create a different work. The
+[example and commons essay](example-and-commons.md) develops that invitation.
+A philosopher's thought may inform a framework; it cannot replace the account
+of the actual user.
 
-**Philosophy is replaceable; personal accounts must be formed anew.** You may retain the
-five-file structure while replacing the philosophy with your own thought or an
-evidence-grounded model of a philosopher's thought. Philosophy, imagery, and
-essays serve the modeling of an actual person and counterpart relationship;
-if you retain this structure, all five files must describe the real user and
-their collaboration. A philosopher's thought model cannot replace the user's
-personal model. Maintain revised philosophy in your own version without
-overwriting it with the common-file updater. Byte parity applies to copies
-opting into this repository's continuing common-content updates.
+## Common and situated content
 
-The maintained YinYang implementation below illustrates one concrete approach. The
-[example and commons essay](example-and-commons.md) explains the broader
-invitation to adopt, combine, or independently reauthor its philosophy and
-form. Technical paths below support this implementation, not a universal
-literary format. A differently authored work maintains its own coherent
-source and references; the common-file updater below is not for that work.
+Distributed and situated copies following this implementation share the same
+structure and byte-identical common content. The five fixed paths have the
+same responsibilities in both. Distributed files contain formation guidance;
+situated files contain grounded accounts of the actual person and collaboration.
 
-The public website provides reading and file browsing; complete Skills are
-available from the public GitHub repository. Clone it or download the repository
-ZIP and retain the complete directory of the package you need. Original YinYang
-material uses CC BY-NC-SA 4.0, while the other independent Skills retain their package-local MIT licenses.
-Use and sharing follow each material's existing license and attribution terms;
-see the [collection guide](../../../../README.md).
-
-Obtain the complete `skills/yinyang/` directory and make it available through
-the consumer's actual Skill mechanism. This supplies a formation method, not
-a ready-made personal relationship. The consuming model reads the entrypoint,
-inspects authorized actual environment and relevant psychological or preference
-material, and helps write the person's philosophy and situated relations at
-their private owning location.
-It then realizes the supported understanding in the actual environment, within
-the task's authority, and verifies the result.
-
-Distributed and situated editions of this maintained implementation have the same structure and byte-identical
-common content. The common main `SKILL.md` carries purpose and reading routes;
-the main conversational model reads it with the complete
-[encounter](../encounter.md), [user model](../models.md), and
-[counterpart model](../relationship.md), [situated use](../usage.md), and
-[source index](../sources.md) before substantive work, in both Codex
-and private Web ChatGPT. Reuse complete current text already in context. The five
-fixed situated slots have the same names and roles in both packages:
-
-**Adopting this implementation requires rewriting all five files below from
-formation guidance into your own grounded accounts, and organizing the relevant
-private material in `references/personal/`.** This is necessary formation work,
-not optional cosmetic customization. The model writes from authorized evidence;
-the user need not maintain the files personally. Unsettled relations may remain
-explicitly unknown; a complete autobiography or psychological theory is not required.
-
-| Slot | Situated content |
+| Fixed situated slot | Responsibility |
 | --- | --- |
-| `references/encounter.md` | A condensed usable account of the actual encounter. |
-| `references/models.md` | The developed user model. |
-| `references/relationship.md` | The counterpart model and their relationship. |
-| `references/usage.md` | Use in the actual environment and allocation of work. |
-| `references/sources.md` | An index of source owners and private provenance. |
+| `references/encounter.md` | Condensed usable encounter and purpose. |
+| `references/models.md` | Developed user model, with scope and uncertainty. |
+| `references/relationship.md` | Counterpart model, relationship, cooperation, and correction. |
+| `references/usage.md` | Actual environment use and allocation of work. |
+| `references/sources.md` | Source-owner index and private provenance routes. |
 
-In the distributed package these files contain formation instructions. In a
-situated package the consuming model writes grounded actual accounts in them.
-Formalized user accounts are personal information too; notation does not make
-them common content. The [design reference](../design-and-revision.md) explains
-formation and revision. Do not copy the author's portrait or invent a substitute.
-An existing personal philosophy retains its grounded content when using this
-same format; it is not replaced with generic instructions.
+Adoption requires forming all five accounts from relevant authorized material
+and organizing their necessary private support. The model carries this writing;
+the user need not maintain files personally. Explicit unknowns can be honest
+situated content. Unchanged templates, a copied portrait, or an invented person
+do not constitute a formed version. Check coherence, grounding, reachable
+evidence, and the conversational model's ability to read and use the accounts
+at its actual entrypoint. Later revisions need change only affected content.
 
-[Private supporting materials](../personal/README.md) belong under
-`references/personal/`. These pages record provenance and private material omitted from the common
-essays. The philosophy remains one authored body even when written by this
-person; do not reproduce it as a second personal application. A topic companion
-links to its common text and records its actual sources and privacy boundary.
-Create one when it carries useful evidence, not an empty copy for every essay.
-Their filenames follow the evidence; this does not create a different schema. Private content is
-not committed back into the shared collection.
+`references/personal/` retains useful private supporting material and topical
+provenance. Filenames follow actual evidence; there is no universal list or
+required empty companion for every essay. Originals and extended history can
+remain with existing owners, reached through access-bounded references. Keep one
+authored philosophy: a private companion links to its common argument and
+retains the private evidence, rather than reproducing a second theory.
 
-At completion, check that all five files coherently describe the actual person,
-counterpart, relationship, and environment; that necessary private materials and
-provenance are reachable; and that the conversational model can read and use
-them at the actual entrypoint. Merely downloading, retaining generic guidance,
-or copying someone else's portrait does not complete a situated version.
-After initial formation, revise what actual collaboration changes; each update
-need not rewrite every file.
+Everything outside those five slots and `references/personal/` is common:
+the entrypoint, reader editions, methods, essays, diagrams, reading map,
+administration, scripts, and OpenAI YAML adapter. The shared GitHub package owns
+this content. The [entrypoint](../../SKILL.md) owns initial reading; [design and
+revision](../design-and-revision.md) owns formation; [harness adaptation](../harness-adaptation.md)
+owns environmental realization.
 
-All other material is common: documents, diagrams, `design-and-revision.md`,
-`harness-adaptation.md`, `reading-map.md`, package administration, READMEs, and
-the OpenAI YAML adapter. The shared GitHub package is the canonical common
-owner. `scripts/sync-common.py` checks projection by default; `--apply` projects
-common source into the target while preserving all five slots and everything
-under `references/personal/`. Native owners realize the projected source in
-local and private Web consumers. It never exports personal content and is not
-a service or automatic personal upload. Later common edits therefore remain
-shared rather than forking into separate local and distributed instructions.
+## Project common changes
 
-Run the source comparison with explicit package directories:
+`scripts/sync-common.py` checks common source projection by default. With
+`--apply`, it projects common files into the target, preserving all five
+situated slots and everything under `references/personal/`. It does not infer
+a person, export private files, or publish to a runtime.
+
+Start a new situated version from a complete shared copy, then form its private
+accounts. Compare explicit package directories:
 
 ```bash
 python3 /path/to/shared/yinyang/scripts/sync-common.py \
   --source /path/to/shared/yinyang --target /path/to/situated/yinyang
 ```
 
-Add `--apply` to copy changed common files, then run the comparison again.
-Start a new situated package from a complete shared copy before filling its
-personal files. Unmatched target files and common-path symlinks stop the command
-before copying; inspect their ownership instead of silently deleting them.
-The command updates source packages only; use the host's existing owner for
-runtime installation and cloud publication.
+Add `--apply` to copy changes, then run the comparison again. Unmatched target
+files and common-path symlinks stop copying; inspect ownership rather than
+silently deleting them. Existing local or private Web owners install and
+publish the projected source, followed by actual-consumer readback.
 
-The essays in `references/docs/` explain the ideas that inform formation. Their relation
-is described on the homepage; they are not additional Skills or a linear
-installation sequence. No fictional mini package or calculator stands in for
-the personal formation and actual environment work.
+Byte parity applies to copies choosing continuing common updates. If you
+replace the philosophy or organization independently, keep that work at its
+own source and maintain its coherent references. Do not project this common
+package over it, even if it retains the five-slot format.
+
+## Personal and public boundaries
+
+Personal accounts remain private even when formalized or written for models.
+Private quotations, biography, psychological and health records, relationship
+narratives, account information, private paths and conversation identifiers,
+and unpublished manuscripts stay with their actual owners. General abstraction
+does not authorize public links that reconstruct private sources.
+
+Return only authorized reusable insights to the collection. YinYang original
+material uses CC BY-NC-SA 4.0; other independent members retain their own MIT
+licenses. Follow the [collection guide](../../../../README.md) and the actual
+publication owner for permissions, attribution, and source review. A private
+adaptation need not be published.

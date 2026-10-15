@@ -1,17 +1,24 @@
 # Diagram maintenance
 
-These concept diagrams interpret the English public claims in `docs/core-views.md`
-and the corresponding complete Chinese edition: `encounter` covers YY-05,
-YY-10 and YY-11, with the ongoing-process distinction developed in YY-09;
-`layers` covers YY-09. English is primary; the complete matching Chinese versions
-use the `.zh-CN` filename suffix. The candidate JSON files are the editable source.
-HTML is the self-contained interactive viewer;
-SVG is a canonical static export made through the viewer's native export menu.
-The SVG contains the graph and legend; explanatory cards and guided views remain
-in the HTML and the public claim text.
+These conceptual maps explain selected [core views](../docs/core-views.md),
+with complete Chinese counterparts:
 
-Generated with Archify 3.0.1. From the YinYang references directory (`skills/yinyang/references/` in the collection), with `ARCHIFY_CLI` pointing
-to the installed `bin/archify.mjs`, regeneration uses:
+- **Encounter** connects YY-05, YY-10, and YY-11: records, candidate models,
+  an adopted view, generated work, and returning evidence within human–model
+  activity. YY-09 supplies its event-based vocabulary.
+- **Layers** develops YY-09: physical grounding, computational abstraction,
+  and the relations among ontology, epistemology, value, methods, and practice.
+
+The candidate JSON files own the authored labels, relationships, guided views,
+and explanatory cards. HTML is the standalone interactive viewer. SVG is the
+viewer's native static export of the graph and legend; the HTML cards and guided
+views remain available in the viewer.
+
+## Regeneration
+
+The current viewers use Archify 3.1.0. From the YinYang references directory,
+set `ARCHIFY_CLI` to the installed `bin/archify.mjs` and choose a temporary
+`CHECK_DIR` for the run:
 
 ```sh
 node "$ARCHIFY_CLI" finalize architecture diagrams/encounter.candidate.json diagrams/encounter.html --quality showcase --out-dir "$CHECK_DIR/encounter" --json
@@ -20,41 +27,20 @@ node "$ARCHIFY_CLI" finalize architecture diagrams/encounter.zh-CN.candidate.jso
 node "$ARCHIFY_CLI" finalize architecture diagrams/layers.zh-CN.candidate.json diagrams/layers.zh-CN.html --quality showcase --out-dir "$CHECK_DIR/layers-zh" --json
 ```
 
-Choose a new temporary `CHECK_DIR` for a changed candidate. After successful
-finalization, the viewer's **Export → SVG · Auto** action (or **导出 → SVG · 自动**)
-produces the dual-theme
-static preview. Use headless browser controls for this operation when preserving
-desktop focus. No server or package installation is required to read the HTML.
+Regenerate only changed candidates or artifacts requiring repair. After successful
+finalization, use **Export → SVG · Auto** (or **导出 → SVG · 自动**) for the
+matching static export. Headless browser controls preserve desktop focus.
+Retain the semantic translation overrides when updating the tool: they describe
+questions and modeled relationships rather than software services.
 
-Candidates carry their complete resolved language catalogs because Archify 3.0.1
-uses English defaults for missing keys in a custom catalog. The small semantic
-overrides describe modeled relations and questions instead of software components.
-Preserve those overrides when updating the catalog with a future tool version.
+Check meaningful labels, directions, and readability against the owning text.
+Native delivery and browser receipts are execution evidence and contain local
+paths; keep them with that execution rather than distributing a second hash
+registry. A future checkout can run its own checks on its actual artifacts.
 
-`validation.json` records portable byte hashes and completed checks. Its
-`pathBase` is relative to that file: `..` is the YinYang references directory. Source,
-candidate output, and recorded file paths resolve from that root. Native
-delivery and browser receipts contain machine-local absolute paths; they are
-temporary execution evidence and are deliberately excluded from this repository.
-Do not treat this portable summary as a native delivery sidecar. A future strict
-provenance check requires a fresh finalize run in its own checkout.
+Trace motion follows authored arrows. It illustrates local relationships, not
+a mandatory sequence, causal strength, or measured rate of development.
+Both maps leave activity outside their selected questions unrepresented.
 
-Trace motion shows authored relationship directions. It does not establish
-temporal order, causal strength, update frequency, or demonstrated human growth.
-These are conceptual maps, not executable workflows or authority hierarchies.
-The displayed relations illustrate one local path through revisitable source
-occurrences, conditional candidate models, adopted views, outputs and evidence.
-The ongoing process exceeds any selected view; its input need not be an explicit
-query. Both the human and model are modeled as interacting event streams;
-local working models are revisable formations within that process. Candidate
-coexistence does not itself jointly accept incompatible premises. The selected
-analogy favors a coherent working ontology while accommodating conflicting
-data and interpretations, supporting stability without freezing the ontology.
-The preference-harness analogy informs informal natural-language reasoning;
-it does not require formal modeling or select a calculus. Human/model contributions
-are permeable positions of generation and judgment. Computational ontology
-provides their shared event-based foundation; physical reduction is neither
-established nor required here.
-
-Retain [third-party notices](THIRD-PARTY-NOTICES.md) with redistributed generated
-viewers and exports. This notice does not assign a license to the original claims.
+Retain [third-party notices](THIRD-PARTY-NOTICES.md) with viewers and exports;
+the original claims keep their own license.
