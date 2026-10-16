@@ -93,7 +93,7 @@ def main():
     allowed = {p for p in tracked if p and (
         (p.startswith(PACKAGE) and (Path(p).suffix in {'.md', '.html', '.svg', '.jpg', '.png'} or Path(p).name == 'LICENSE'))
         or (len(Path(p).parts) >= 3 and Path(p).parts[0] == 'skills' and Path(p).parts[1] in METHOD_PACKAGES and (Path(p).suffix == '.md' or Path(p).name == 'LICENSE'))
-        or p in {'README.md', 'README.zh-CN.md', 'CONTRIBUTING.md', 'CONTRIBUTING.zh-CN.md', 'MODEL.md', 'AGENTS.md', 'LICENSING.md', 'LICENSE-MIT', 'LICENSE-CC-BY-NC-SA-4.0', 'skills/random-wheel/SKILL.md', 'skills/random-wheel/LICENSE', 'skills/random-wheel/scripts/render_wheel.py', 'skills/random-wheel/assets/wheel.html', 'skills/random-wheel/assets/standalone.html'}
+        or p in {'README.md', 'README.zh-CN.md', 'CONTRIBUTING.md', 'CONTRIBUTING.zh-CN.md', 'MODEL.md', 'AGENTS.md', 'LICENSING.md', 'LICENSE', 'LICENSE-MIT', 'skills/random-wheel/SKILL.md', 'skills/random-wheel/LICENSE', 'skills/random-wheel/scripts/render_wheel.py', 'skills/random-wheel/assets/wheel.html', 'skills/random-wheel/assets/standalone.html'}
     )}
     # Private academic material is excluded even when an older source contains it.
     allowed = {p for p in allowed if not p.startswith(DOCS + 'thesis/')}
