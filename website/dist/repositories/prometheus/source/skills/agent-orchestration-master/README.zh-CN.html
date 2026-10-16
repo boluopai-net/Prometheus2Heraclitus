@@ -3,7 +3,7 @@
 
 <p>本 Skill 帮助判断委派能否带来独立贡献，将工作分配给宿主实际支持的角色与执行载体，协调依赖和可变目标，并保留可追责的交接。如果没有真实的协调需要，默认由单个智能体完成即可。</p>
 <h2 id="使用与依赖">使用与依赖</h2>
-<p>在设计或运行多智能体工作时，通过助手支持的 Skill 机制提供完整的 <code>agent-orchestration-master/</code> 目录。配套的 <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/c40cfe9875eae4b942dc55ec96e52a797e48614d/skills/prompt-audit-orchestration"><code>prompt-audit-orchestration</code></a> 使用本 Skill 处理智能体角色和交接；本 Skill 不负责该审计的领域路由或修复权限。</p>
+<p>在设计或运行多智能体工作时，通过助手支持的 Skill 机制提供完整的 <code>agent-orchestration-master/</code> 目录。配套的 <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/8246002f10438d52c6e17964f8956c6a6715be3b/skills/prompt-audit-orchestration"><code>prompt-audit-orchestration</code></a> 使用本 Skill 处理智能体角色和交接；本 Skill 不负责该审计的领域路由或修复权限。</p>
 <p>进行实质拓扑设计时可使用 <code>multi-agent-patterns</code>，设计持久运行框架时可使用 <code>harness-engineering</code>，设计工具接口时可使用 <code>tool-design</code>。这些按需配套 Skill 目前尚未收录于本集合。具体工作也可能需要 <code>project-development</code>、
 <code>cloud-local-workflow</code> 或 <code>model-conversation-relay</code> 所负责的方法；普通委派不要求这些 Skill。遵循宿主当前的模型策略和实际智能体目录；本包不指定模型版本。</p>
 <p>宿主原生角色、隔离与委派接口属于运行时能力，不是 Skill 依赖。派发前应检查这些能力；角色名称不兼容时，应报告实际差异，不要自行假定它们等价。</p>
