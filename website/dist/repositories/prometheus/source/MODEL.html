@@ -44,8 +44,10 @@ and its publication helper. Canonical Yinyang prose remains at
 projections, not a second authoring owner. Their displayed canonical revision
 can precede the snapshot commit when content is unchanged. Maintain original
 content at its owner and regenerate before publishing.</p>
-<p>Commit the final Site source and use the native Sites helper to publish that
-exact source revision. Apply its snapshot with
+<p>Follow the native Site README's <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/f3c078725dfd61a1d550b07399ab42d623f28e76/website/README.md#publication-and-interrupted-transfers">publication route</a>
+when preparing publication; it owns the Git-first selection and archive fallback
+for this Site. Commit and push the final Site source, then publish that exact
+revision through its native workflow. Apply its snapshot with
 <code>python scripts/sync-website.py --source /path/to/site --revision FULL_SHA --apply</code>,
 then run the same command without <code>--apply</code> to check path coverage, bytes and
 modes. Review and publish the collection change to GitHub separately, then deploy

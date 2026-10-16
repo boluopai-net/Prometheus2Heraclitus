@@ -174,7 +174,7 @@ def main():
             if target not in allowed:
                 parts = Path(target).parts
                 public_tool = len(parts) >= 2 and parts[0] == 'skills' and parts[1] in SKILLS
-                if public_tool and target in tracked:
+                if (public_tool or target == 'website/README.md') and target in tracked:
                     new = GITHUB + '/blob/' + revision + '/' + quote(target, safe='/')
                 elif public_tool and any(p.startswith(target.rstrip('/') + '/') for p in allowed):
                     new = GITHUB + '/tree/' + revision + '/' + quote(target, safe='/')
