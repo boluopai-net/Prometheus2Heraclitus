@@ -54,8 +54,10 @@ projections, not a second authoring owner. Their displayed canonical revision
 can precede the snapshot commit when content is unchanged. Maintain original
 content at its owner and regenerate before publishing.
 
-Commit the final Site source and use the native Sites helper to publish that
-exact source revision. Apply its snapshot with
+Follow the native Site README's [publication route](website/README.md#publication-and-interrupted-transfers)
+when preparing publication; it owns the Git-first selection and archive fallback
+for this Site. Commit and push the final Site source, then publish that exact
+revision through its native workflow. Apply its snapshot with
 `python scripts/sync-website.py --source /path/to/site --revision FULL_SHA --apply`,
 then run the same command without `--apply` to check path coverage, bytes and
 modes. Review and publish the collection change to GitHub separately, then deploy

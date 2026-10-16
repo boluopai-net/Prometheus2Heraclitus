@@ -38,33 +38,44 @@ request crawler cooperation; public reading does not prevent copying.
 
 ### Publication and interrupted transfers
 
-Keep source preparation, local validation, artifact transfer, and hosted
-deployment distinct. Reuse a passed build while its inputs are unchanged, push
-the exact source revision with the native source helper, and reconcile saved
-versions and deployments before retrying an uncertain native call. Continue an
-existing deployment through its terminal state instead of creating another.
+For this Site, publish from Git first: validate the changed source, commit and
+push it to the selected Site repository, and verify the exact remote SHA. Call
+`save_site_version` with that `project_id` and `commit_sha`, omitting `archive`,
+then deploy the returned saved version and follow its remote build to a terminal
+result. Reuse a passed local build while its inputs are unchanged. This route
+order is the owner's explicit instruction of 2026-10-16 and takes precedence
+over the Sites plugin's general preference for an archive when local packaging
+is possible. Preserve the existing Site identity, audience and runtime bindings.
 
-For this Site, repeated large-archive transfer failures are established evidence:
-eleven distinct uploads timed out at about 300 seconds during 2026-10-12–14,
-including repeated transfers of identical archives. The latest archive was
-about 95 MB compressed. Other archive uploads succeeded, so the evidence shows
-an intermittent transfer failure, not a broken build or a proven network cause.
-Rebuilding, renaming the archive, changing its extension, or retrying the same
-bytes does not address that failure. Retry only when evidence indicates that
-the failed condition changed; a new task or new content revision alone is not
-such evidence. Do not remove required assets or change the audience to reduce
-the transfer.
+The native `site-workflow.mjs` helper does not choose this route. In the current
+helper, omitting `archivePath` opens and reconciles source only; it does not
+commit or push edits. Use that opening operation when needed, then commit and
+push the exact source with Git using the short-lived credential for the same
+Site. Keep the credential in memory or hidden stdin and an ephemeral Git header
+environment; never put it in command arguments, files, persistent Git config
+or logs. Supplying `archivePath` makes the helper run the requested checks,
+commit, push and package; reserve that operation for the archive fallback.
 
-Native source-only publication successfully built and deployed version 96 from
-`0844f80ba1811d4e05f7249698d71f2805a0ec11` on 2026-10-14, preserving the Worker,
-static assets and bindings. When the current native tool contract permits this
-route, prefer it for this Site while archive transfer remains unreliable:
-save the verified pushed commit without an archive, deploy the returned version,
-and inspect its terminal result. Retain local validation; server-side build is
-the publication route, not a reason to omit source checks. If the current tool
-requires an archive despite the observed transfer limitation, identify that
-contract conflict explicitly and resolve the supported route rather than
-silently cycling between contradictory instructions and identical retries.
+Consider a locally built archive only when the direct Git/source build route
+is unavailable or fails and the observed failure makes an archive a suitable
+recovery. Defer both archive generation and upload until that fallback is
+selected; a successful Git-first run prepares no archive. Retain the same exact
+source revision and Site identity. An uncertain
+save must first be reconciled against saved versions by source SHA; an existing
+deployment must be continued through its terminal state. Neither a timeout nor
+a missing response authorizes a duplicate save or deployment. Retain the raw
+native error and retry only when evidence supports the recovery.
+
+Repeated archive transfers have timed out at approximately 300 seconds,
+including eleven distinct uploads on 2026-10-12–14 and two uploads of the same
+approximately 133 MB archive on 2026-10-16. Other uploads succeeded, so this is
+an intermittent transfer failure with no established network cause. Rebuilding,
+renaming, changing the extension or retrying identical bytes does not address
+it. Keep required assets and the audience intact. Source-only publication
+successfully built and deployed version 96 on 2026-10-14 and version 124 from
+`9409ae0e11ef7b74387a69cca6ed35a865884ea8` on 2026-10-16, preserving the Worker,
+static assets and bindings. Reuse that real route evidence; documentation-only
+publication changes do not require redeploying unchanged public content.
 
 Confirm the changed public content at `https://boluopai.net/` and preserve the
 version's exact source identity in the collection snapshot. This project record
