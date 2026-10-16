@@ -21,9 +21,8 @@ generates, chooses, and acts within a world. Borrowed generative capabilities
 expand the means of that existing participation. The formation at issue is
 the person's own philosophy: an articulated worldview and way of living whose
 relations can reach across their environment as a whole. In this proposal,
-*sinthome* names that philosophy's singular, lived and maintained form. It is
-the present application of [Lacan's term in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), not an equation between his concept
-and every personal philosophy.
+*sinthome* names that philosophy's singular, lived and maintained form. The
+literary and practical proposal grows from [Lacan's term in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/).
 
 A **Skill** here is a reusable written practice that a language model can interpret and carry into work. A **harness** organizes prompts, Skills, hooks, tools, models, roles, and the user's working environment; a **meta-harness** articulates the person, counterpart, and relationship through which those arrangements acquire meaning and can be revised. The argument concerns what living such an articulation can make possible. The technical carrier matters because the writing can participate in action: its descriptions guide interpretation, its instructions organize contributions, and their use gives the person new material with which to understand and revise the relation.
 
@@ -31,7 +30,19 @@ A **Skill** here is a reusable written practice that a language model can interp
 
 ## Why sinthome
 
+Begin with the **[Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm)**: three closed rings are linked together,
+although no pair is linked on its own. Remove any one ring and the other two
+can separate. The crossings in the illustration mark which strand passes
+over which; their arrangement makes the three hold together. This gives
+“holding” a visible form: a relation sustained by the whole arrangement.
+
 In [Lacan's *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), the sinthome has a holding function in the presented repair of the knot of Symbolic, Imaginary, and Real; Joyce's particular art matters to the discussion. **Sinthome (圣状)** is Lacan's term. His attention to a particular artistic practice gives this essay its point of departure: something singular can sustain a person's way of making and living.
+
+The repair introduces an additional ring at a failed crossing so that the
+registers can continue to hold together. A fourth element also appears in his
+[16 June 1975 lecture on Joyce, pp. 5–6](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19750616LacanJoycetheSinthomefromnotesbyEricLaurent.pdf).
+The three-ring structure supplies the image of mutual holding; the sinthome
+brings the further question of what a singular invention can sustain or repair.
 
 For this comparison, the three register names need enough explanation to show why holding matters. The Symbolic concerns language, differences, and the orders through which meaning is articulated; the Imaginary concerns images and identifications through which a form of oneself or another can be encountered; the Real names what resists incorporation into that articulation or image. The registers concern different dimensions of a person's relation to meaning and experience. The comparison therefore draws on the holding relation of knotting. That question can be developed within human–model collaboration while preserving the registers' own conceptual roles.
 
@@ -127,3 +138,13 @@ The sustained practice is where the sinthome proposal and the image meet. A new 
 [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) express YinYang's differentiated generation, reception, and shaping, together with an answering material and shared living environment. Person and model remain actual participants, whose roles can be retained or exchanged without gender assignment. Both participants can generate and judge; their creations encounter conditions neither controls. The sinthome argument develops a further question within that encounter: **what singular practice gives the person's relationship with a model and environment a form that can hold and be lived?** The role mapping locates the participants; this essay concerns the sustaining practice developed through expression and creation.
 
 The two questions develop different aspects of the same encounter. The celestial composition articulates differentiated participation and transformation; the sinthome proposal asks how that movement acquires a singular sustaining form. The philosophical ambition is practical and open: give a personal philosophy enough working form to let understanding, action, and life proceed, let available models contribute, and continue shaping a way of living and making that can hold enjoyment as well as effort and remains one's own.
+
+The next essay, [Trinity](local-source-and-website.md), unfolds this knot into
+the practice of philosophy, psychology, and engineering. A view gives a life
+direction; understanding the person makes that direction inhabitable; an
+engineered environment gives it means to continue. Their mutual holding is
+the Borromean image carried into this work. When one connection fails, a
+singular invention—a revised account, a new method, a changed arrangement—can
+give the practice a way to hold again. The question now becomes concrete:
+where will this understanding live, how will it act, and what will return to
+change it?

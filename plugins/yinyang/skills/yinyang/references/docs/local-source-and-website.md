@@ -4,6 +4,13 @@
 
 *An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
+The [sinthome essay](writing-a-sinthome.md) began with the Borromean image:
+different rings hold through their joint arrangement. Here that image becomes
+**a trinity of philosophy, psychology, and engineering**. A philosophical
+direction needs a relation to the person living it; that understanding needs
+an environment in which it can act; use in that environment returns experience
+that can change both. Their knot is made and remade through this movement.
+
 **The one is a shared physical reality; the three are philosophy, psychology,
 and engineering within it.** Philosophical thinking, psychological activity,
 and engineering practice are physically realized activities. Their unity is
@@ -335,3 +342,11 @@ Drawing on the three registers in Lacan's [*The Symbolic, the Imaginary, and the
 | Webpage | Local environment | GitHub |
 | Sun | Moon | Earth |
 | The Real | The Imaginary | The Symbolic |
+
+Read across each row, then follow what passes among its three places. A thought
+becomes a page, informs a personal environment, and acquires a maintained form
+others can continue; experience and response travel back through them. The
+Borromean image gathers these differences into a mutual holding. The
+[sinthome](writing-a-sinthome.md) asks how this becomes a singular way to live
+and create. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
+then puts that way to work, where a result can answer back and prompt its revision.

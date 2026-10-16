@@ -4,6 +4,14 @@
 
 A person can choose what kind of work to pursue, which possibility to develop, and what matters in the result. Such choices give inquiry a direction. Reasoning develops the possibilities within that direction; evidence lets the participants assess how the work is realized and what its consequences are. YinYang is a **preference harness** for this joint activity: it gives preferences a place alongside reasoning, judgment, and responsiveness to the world.
 
+For example, a person chooses a tree-lined route to the windmill. The
+heart marks what attracts them; the counterpart checks a report about the
+bridge that route needs. Liking the shade gives a reason to explore this
+route. Whether its bridge is open and the path reaches the destination needs
+evidence. If the check fails, they can find another route, revise the plan,
+or reconsider what matters. The harness holds these contributions together:
+an expressed preference, a candidate, a check, and room to change the result.
+
 The model ordinarily understands and reasons through informal natural language. Purpose, examples, conversation, and the surrounding harness make a preference intelligible enough to act on. The formal comparison below brings the respective roles of selection and inference into focus; the event-stream ontology describes the broader activity in which both participants generate, choose, act, and reconsider.
 
 The question is what preferences can select and what warrants accepting a

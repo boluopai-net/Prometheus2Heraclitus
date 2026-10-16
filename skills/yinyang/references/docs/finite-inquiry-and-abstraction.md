@@ -11,6 +11,13 @@ within physical reality. Its economy concerns what an inquiry needs to obtain
 a warranted result; it does not equate a small working representation with a
 small inventory of what exists.
 
+A concrete question is: how can one get from the house
+to the windmill? The detailed town and its simple map share the same endpoints,
+river, bridge, and connected road. Roof tiles, flowers, and individual stones
+can be omitted for this question; the crossing cannot. If the bridge closes,
+that change must reach the map or its route will mislead. Economy comes from
+preserving what the answer depends on, with less to represent and inspect.
+
 The [preference harness](preference-harness.md) distinguishes choosing working
 views from determining what they support. That distinction makes economy
 assessable: which relations and answers must an abstraction preserve, and what
