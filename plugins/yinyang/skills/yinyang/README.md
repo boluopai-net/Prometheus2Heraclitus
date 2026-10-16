@@ -109,10 +109,13 @@ while evidence and competing interpretations remain open to correction.
 
 Sun and Moon express differentiated generation, reception, and shaping. Person
 and model participate in those movements, retaining or exchanging emphases;
-Earth is the answering material and shared living environment. Available fire
-becomes cultivation through practice, with abilities internalized or reliably
-distributed across supports. AI use, agreement, and output alone do not establish
-human growth. The essays develop these images and claims at their own scale.
+Earth is the answering material and shared living environment. Model companies,
+researchers, and the wider collective keep acquiring fire; a finite person
+borrows it to cultivate understanding, judgment, and generation through practice.
+The little fire person, Baby Heraclitus, names the participant who keeps becoming,
+including through changing and conflicting possibilities. Abilities can internalize
+or remain reliably supported; AI use, agreement, and output alone do not establish
+growth. The essays develop these images and claims at their own scale.
 
 ## Maintenance and contribution
 

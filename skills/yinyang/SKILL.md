@@ -70,9 +70,13 @@ develops this account, and [Trinity](references/docs/local-source-and-website.md
 connects its differentiated levels. Literary constructions can orient a relation;
 claims about experience, mechanisms, and outcomes still answer to evidence.
 
-Available generative capacities become part of personal cultivation through
-practice, with abilities internalized or reliably distributed across supports.
-Individual-first organizes that practice around the person's purposes and agency
+Model companies, researchers, and the wider collective continue acquiring
+generative capability. A finite person borrows available fire to cultivate
+understanding, judgment, generation, and action through participation, criticism,
+correction, and renewed generation. Abilities can internalize or remain reliably
+distributed across supports. The little fire person, Baby Heraclitus, names
+this ongoing becoming, including changing and sometimes conflicting possibilities.
+Individual-first organizes the practice around the person's purposes and agency
 while preserving others' independent contributions. The
 [fire essay](references/docs/stealing-fire.md) develops this argument; the
 [reading map](references/reading-map.md) locates its related questions and sources.
