@@ -93,7 +93,7 @@ def main():
     allowed = {p for p in tracked if p and (
         (p.startswith(PACKAGE) and (Path(p).suffix in {'.md', '.html', '.svg', '.jpg', '.png'} or Path(p).name == 'LICENSE'))
         or (len(Path(p).parts) >= 3 and Path(p).parts[0] == 'skills' and Path(p).parts[1] in METHOD_PACKAGES and (Path(p).suffix == '.md' or Path(p).name == 'LICENSE'))
-        or p in {'README.md', 'README.zh-CN.md', 'CONTRIBUTING.md', 'CONTRIBUTING.zh-CN.md', 'MODEL.md', 'AGENTS.md', 'LICENSE', 'skills/random-wheel/SKILL.md', 'skills/random-wheel/LICENSE', 'skills/random-wheel/scripts/render_wheel.py', 'skills/random-wheel/assets/wheel.html', 'skills/random-wheel/assets/standalone.html'}
+        or p in {'README.md', 'README.zh-CN.md', 'CONTRIBUTING.md', 'CONTRIBUTING.zh-CN.md', 'MODEL.md', 'AGENTS.md', 'LICENSING.md', 'LICENSE-MIT', 'LICENSE-CC-BY-NC-SA-4.0', 'skills/random-wheel/SKILL.md', 'skills/random-wheel/LICENSE', 'skills/random-wheel/scripts/render_wheel.py', 'skills/random-wheel/assets/wheel.html', 'skills/random-wheel/assets/standalone.html'}
     )}
     # Private academic material is excluded even when an older source contains it.
     allowed = {p for p in allowed if not p.startswith(DOCS + 'thesis/')}
@@ -278,9 +278,9 @@ def main():
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'
     license_text = (repo / PACKAGE / 'LICENSE').read_text()
-    license_body = '<main id="main" class="wrap library-reader"><a class="back" href="' + BASE + '">← 文档与图示</a><h1>阴阳 · CC BY-NC-SA 4.0</h1><p>阴阳包与本站原创哲学文字采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名—非商业性使用—相同方式共享 4.0 国际许可（CC BY-NC-SA 4.0）</a>。可以为非商业目的复制、分享与改编，不授予商业使用许可；须适当署名、提供许可链接、说明修改，并将改编作品按相同许可分享，不得施加额外法律或技术限制。</p><p>完整源包可从<a href="' + GITHUB + '">公开 GitHub 仓库</a>取得。其他可复用方法与工具包保留各自的 MIT 许可，可直接下载，并遵循各自包内许可。个人照片、唱歌录音及第三方材料不自动包含在上述授权内，遵循各自权利说明。</p><p>本页为摘要，完整阴阳许可如下。</p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + html.escape(license_text) + '</pre></main>'
+    license_body = '<main id="main" class="wrap library-reader"><a class="back" href="' + BASE + '">← 文档与图示</a><h1>阴阳 · CC BY-NC-SA 4.0</h1><p>以下保留包内许可声明；完整条款与适用范围见<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/LICENSING.md">GitHub 许可说明</a>。</p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + html.escape(license_text) + '</pre></main>'
     write('license/index.html', shell('阴阳 · CC BY-NC-SA 4.0', license_body))
-    english_license_body = '<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="' + BASE + 'en/">Documents &amp; diagrams</a><a class="language-link" lang="zh-CN" href="' + BASE + 'license/">中文</a></div><h1>YinYang · CC BY-NC-SA 4.0</h1><p>YinYang and original philosophical text on this website use <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. Copy, share, and adapt for noncommercial purposes only, with appropriate attribution, a license link, and an indication of changes. Share adaptations under the same license and impose no additional legal or technological restrictions.</p><p>Get the complete source package from the <a href="' + GITHUB + '">public GitHub repository</a>. The other reusable method and tool packages are available through GitHub under their bundled MIT licenses. Personal photos, singing recordings, and third-party material are not automatically included in these grants; their separate rights apply.</p><p>This is a summary; the complete YinYang license follows.</p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + html.escape(license_text) + '</pre></main>'
+    english_license_body = '<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="' + BASE + 'en/">Documents &amp; diagrams</a><a class="language-link" lang="zh-CN" href="' + BASE + 'license/">中文</a></div><h1>YinYang · CC BY-NC-SA 4.0</h1><p>The package license notice follows; see the <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/LICENSING.md">GitHub licensing notice</a> for complete terms and scope.</p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' + html.escape(license_text) + '</pre></main>'
     write('license/en/index.html', shell('YinYang · CC BY-NC-SA 4.0', english_license_body, 'en'))
     if not vendor.exists():
         raise SystemExit('Missing scripts/vendor/katex; see README for the pinned local math dependency.')
@@ -292,7 +292,7 @@ def main():
     write_index(dist, title)
     browser_urls = {}
     for path in sorted(allowed):
-        if path.endswith('.py') or Path(path).name == 'LICENSE':
+        if path.endswith('.py') or Path(path).name == 'LICENSE' or Path(path).name.startswith('LICENSE-'):
             preview_path = 'browse/' + path + '.html'
             browser_urls[path] = BASE + quote(preview_path, safe='/')
             preview = '<main id="main" class="wrap library-reader"><a class="back" href="/repositories/files/en/#files-title">Browse files</a><article class="document"><h1>' + html.escape(Path(path).name) + '</h1><pre><code>' + html.escape((repo / path).read_text()) + '</code></pre></article></main>'

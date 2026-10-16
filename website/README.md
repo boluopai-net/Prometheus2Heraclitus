@@ -259,23 +259,14 @@ Category motifs follow the current home and section pages: philosophy uses
 the Sun, singing the Moon, and resources a notebook. The homepage hero retains
 fire and river imagery with its `sun-river.svg` motif.
 The shared footer links the Chinese `/rights/` and English `/rights/en/` pages
-without underlines. Keep this single compact notice at the bottom of each main
-page, including the fire/river homepage; omit repeated article and library
-license summaries above it. The YinYang library entrance additionally carries
-one compact bilingual link to its own `/repositories/prometheus/license/` and
-`license/en/` editions, linked from the site-wide scope notice. Licenses follow
-material, not publication platform: the same YinYang material and original
-philosophical text use CC BY-NC-SA 4.0 on the website and GitHub; the four independent
-Skill packages and their projections retain MIT on both surfaces. Reading
-projections do not create a second license. YinYang and original philosophy
-permit noncommercial reuse only; the MIT packages continue to permit commercial
-reuse. Shared YinYang adaptations follow CC BY-NC-SA's attribution,
-modification-notice, and ShareAlike terms, while private adaptations need not be
-published. Independently authored site code, interface design, photos, and audio
-retain their own stated rights and are not automatically included in those
-grants. Do not invent a site-code license. Third-party rights and earlier valid
-grants remain intact. The notice describes the applicable scope rather than
-creating copyright.
+without underlines. Keep this single compact link at the bottom of each main
+page, including the fire/river homepage. These routes forward readers to the
+canonical GitHub `LICENSING.md` scope notice and its complete license texts;
+omit repeated article, library, and tool-page permission summaries. The YinYang
+package license reader retains its complete package notice with one compact
+link to that canonical scope owner. Keep package-distributed license files,
+source mirrors, third-party notices, separate rights, and earlier valid grants
+intact. Presentation changes do not extend or replace any grant.
 
 The Baby Heraclitus essay develops the user's supplied character and cultivation
 proposal. On 2026-10-12 the user corrected the intervention order to society,
@@ -395,7 +386,7 @@ result against the actual destination. Series navigation already uses
 authored: when a title changes, inspect its incoming source links in both
 languages, correct stale names at their Markdown owner, then regenerate them.
 
-The public common repository carries its license scope and complete package licenses. Source downloads and GitHub collaboration are public. Maintain the CC BY-NC-SA/MIT distinction in the rights sources and generated introductions; do not reintroduce access applications or codes.
+The public common repository carries its license scope and complete package licenses. Source downloads and GitHub collaboration are public. Link the canonical GitHub licensing scope from the rights sources and generated license reader; do not reintroduce access applications or codes.
 `dist/rights/{index.html,en/index.html}` are the tracked rights-page sources;
 `.static-assets/` and `dist/client/` are build projections. Maintain the
 generated license introductions in `scripts/render-library.py` and the concise
