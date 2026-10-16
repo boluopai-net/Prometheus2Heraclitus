@@ -327,10 +327,11 @@ realization, and philosophical understanding. Local practice, maintained source,
 pages give that work places to develop. All occur in the same physical world,
 whose responses can change both the work and its makers.
 
-The trinity also takes shape in this image:
+Drawing on the three registers in Lacan's [*The Symbolic, the Imaginary, and the Real*](https://www.freud-lacan.com/documents-ged/le-symbolique-limaginaire-et-le-reel/), philosophy turns toward the real that images and symbols have yet to exhaust, psychology gives self and other an image, and engineering writes relations into language, rules, and programs. The trinity also takes shape in this image:
 
 | Philosophy | Psychology | Engineering |
 | --- | --- | --- |
 | Worldview | Epistemology | Methodology / realization |
 | Webpage | Local environment | GitHub |
 | Sun | Moon | Earth |
+| The Real | The Imaginary | The Symbolic |
