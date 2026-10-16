@@ -137,7 +137,7 @@ ENGLISH = {
         'overview': 'User ≈ embodied language model ≈ Baby Heraclitus. With the person as the end, change society first, software second, and only then consider personal change: make the environment fit the person.',
         'sections': {
             'What kind of person do we want to cultivate?': 'Embodied agency and the purpose of this analogy.',
-            'Introducing Baby Heraclitus': 'Philosophical naturalism; top-down modeling, abduction, and induction in engineering.',
+            'Introducing Baby Heraclitus': 'A fire-and-river worldview, shared participation, philosophical interests, and the lion cub character.',
             'How does openness become a capacity?': 'Purpose, modeling, judgment, collaboration, practice, and iteration.',
             'The person is the end; society is the condition to change first': 'Person and individual, centered and first: let the environment bear adaptation first.',
             'Why cultivate this kind of agent?': 'The value starting point, three conditions, and the direction of cultivation.',

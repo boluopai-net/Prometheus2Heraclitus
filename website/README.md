@@ -289,8 +289,13 @@ and “如果可以把社会和软件改得符合个人的话，那么这个社�
 Philosophical imagery is distinguished from historical attribution
 and the conditional practical argument; source links are kept with the essay.
 The subsequent 2026-10-12 clarification distinguishes philosophical ontology
-(simple naturalism) from engineering ontology (task-oriented objects and
-relations, formed through top-down modeling, abduction, and induction). The
+from engineering ontology. Baby retains the character's modest naturalism,
+fire/process worldview, and shared participation with a language model, then
+links to the next essay, World, process, and expression. That canonical essay
+develops computational ontology, representation, simulation, and the shared
+modeling chain; Trinity and the formation/adaptation methods develop practical
+realization. Keep this technical account with those owners rather than turning
+the character introduction into another method lesson. The earlier
 attributable formulation is “他在工程上是自顶向下的素因的，或者说又素因又归纳；但在哲学上是朴素自然主义。”
 The surrounding explicit “溯因” resolves the dictated “素因” in the maintained
 prose. The character's Turing-test joke now gives the requested reason: “因为他这个回得太快了”.
