@@ -110,7 +110,7 @@ reasoning, simulation where useful, implementation, and feedback. A usable
 representation gives its distinctions meanings and observable correspondences;
 records alone do not reproduce the stream. Neither a complete world simulator
 nor a particular logging architecture follows from this ontology. The
-[bounded example](world-and-expression.md#a-bounded-computational-example-a-title-and-its-preview)
+[bounded example](world-and-expression.md#a-bounded-computational-example-simulating-a-cooling-experiment)
 shows how the shared movement reaches actual computer use and returns.
 
 [YinYang and Taiji](yinyang-and-taiji.md) give this becoming its central relational image. Differentiated participants generate, receive, and transform through one another; their contributions acquire meaning in the encounter. The Shuang yu and their differently colored eyes distinguish a chosen role from the participant who exceeds it. This image gives the reciprocal movement of event streams a perceptible form. Continuing transformation allows particular works to be completed and useful arrangements to remain stable: a completed work enters the next encounter as something available to use and reconsider.
