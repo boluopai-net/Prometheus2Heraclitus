@@ -155,25 +155,4 @@ Only authorized reusable material belongs in this collection.
 
 ## License
 
-Original YinYang material uses [CC BY-NC-SA 4.0](skills/yinyang/LICENSE), governed by the
-[official legal code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
-You may read, download, copy, adapt, and redistribute it for noncommercial purposes,
-without individual approval. When sharing, retain the required attribution and
-notices, link the license, and identify changes. Shared adaptations must use
-CC BY-NC-SA 4.0 or another license permitted by its ShareAlike terms. Private
-adaptations need not be published. Third-party rights, statutory exceptions,
-and earlier valid grants remain unaffected.
-
-The other reusable packages retain their package-local MIT licenses, permitting public downloads,
-use, modification, redistribution, and commercial use with the required notices:
-
-Each package directory linked above contains its own `LICENSE`.
-
-The public GitHub repository supports reading, downloads, forks, and Issues/PR
-collaboration; the website is a presentation and reading surface. The
-[collection license notice](LICENSE) records scopes by material, not platform:
-the same YinYang material and original philosophical text use CC BY-NC-SA 4.0 on
-GitHub and the website, and the other reusable packages retain MIT on both.
-Website reading projections do not change those licenses. Independently authored
-site code, interface design, photos, audio, and third-party material keep their
-own stated rights; neither grant automatically includes them.
+Original YinYang material uses [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0), for noncommercial reuse; other reusable packages retain [MIT](LICENSE-MIT). See the [collection scope notice](LICENSING.md) and each package’s `LICENSE` for applicability, attribution, separate rights, and earlier valid grants.

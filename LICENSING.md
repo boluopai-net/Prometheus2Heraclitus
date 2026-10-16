@@ -16,7 +16,7 @@ Collection membership does not extend one member's license to another.
   redistributed subject to their MIT notices. Companion dependencies do not
   merge licenses; YinYang remains separately licensed.
 - Original collection material outside skills/yinyang/ and website/ retains
-  the MIT License below unless a more specific notice states otherwise.
+  the MIT License in [LICENSE-MIT](LICENSE-MIT) unless a more specific notice states otherwise.
 - website/: publication surface does not change a material's license.
   YinYang projections and original philosophical text use CC BY-NC-SA 4.0;
   the other package projections and downloads retain MIT.
@@ -28,24 +28,6 @@ Collection membership does not extend one member's license to another.
 Earlier valid grants remain unaffected; each designated version and its
 applicable license determine its rights.
 
-MIT License
-
-Copyright (c) 2026 sun2paramita
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The complete CC BY-NC-SA 4.0 terms are provided in
+[LICENSE-CC-BY-NC-SA-4.0](LICENSE-CC-BY-NC-SA-4.0); their scope remains as
+designated above and in [skills/yinyang/LICENSE](skills/yinyang/LICENSE).

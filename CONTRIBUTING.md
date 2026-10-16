@@ -27,7 +27,7 @@ as is returning with a new work for conversation and mutual introductions throug
 links. Independent works determine licensing from their own sources and rights;
 reuse of this repository's material follows that material's attribution and
 license requirements. Permission to create or modify, source attribution, and
-whether this repository accepts a merge are different questions. [LICENSE](LICENSE)
+whether this repository accepts a merge are different questions. [LICENSING.md](LICENSING.md)
 describes the licensing scope.
 
 ## Contributing here: Issue or pull request?
@@ -107,7 +107,7 @@ sanitized example when reporting a problem. Do not paste a secret into an Issue.
 Contributions follow the existing license of the affected material; this does
 not relicense unrelated work. YinYang's original material uses CC BY-NC-SA 4.0,
 and the other reusable Skill packages use their included MIT licenses. Retain attribution and third-party
-notices and identify outside sources. [LICENSE](LICENSE) records the scope.
+notices and identify outside sources. [LICENSING.md](LICENSING.md) records the scope.
 
 Review may request a clarification, revision, or narrower scope. The maintainer
 handles merging and publication; opening an Issue or PR does not guarantee

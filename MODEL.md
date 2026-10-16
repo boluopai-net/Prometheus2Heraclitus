@@ -95,7 +95,7 @@ conditions; private adaptations need not be published. Preserve the NonCommercia
 individual download approval.
 The reusable method and tool packages other than YinYang retain their
 package-local MIT licenses. Their companion relationships do not merge their
-ownership or licensing. Root LICENSE records
+ownership or licensing. Root LICENSING.md records
 the mixed scope by material, not platform. YinYang projections and original
 philosophical text retain CC BY-NC-SA 4.0 on both GitHub and the website; the other
 package projections and downloads retain MIT on both surfaces.
