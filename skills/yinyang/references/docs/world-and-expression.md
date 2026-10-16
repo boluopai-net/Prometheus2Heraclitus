@@ -13,16 +13,14 @@ a model of it, an expression carrying the model, and the world in which that
 expression has consequences. Their differences let a work disclose more than
 its maker intended and give correction somewhere to enter.
 
-Here **ontology** means an articulation of the objects, roles, relations, and transformations an inquiry needs. **Computational** emphasizes that these distinctions can be organized, transformed, and used in reasoning and action. **YinYang** names the contemporary framework in which a person and a generative model contribute to each other's continuing activity. Their models of the person, the counterpart's role, and their relationship guide how they organize the environment. That environment includes Skills, prompts, hooks, tools, model choices, and the user's working conditions: the concrete arrangements through which an understanding acquires effects. The question is how expressions mediate this passage from understanding to action and back.
+Here **computational ontology** means an articulation of the objects, roles, relations, and transformations an inquiry needs. **Computational** emphasizes that these distinctions can be organized, transformed, and used in reasoning and action. **YinYang** names the contemporary framework in which a person and a generative model contribute to each other's continuing activity. Their models of the person, the counterpart's role, and their relationship guide how they organize the environment. That environment includes Skills, prompts, hooks, tools, model choices, and the user's working conditions: the concrete arrangements through which an understanding acquires effects. The question is how expressions mediate this passage from understanding to action and back.
 
 ## Physical ground and computational abstraction
 
-This framework takes a physical world as its common ground. Thinking, feeling,
-model inference, writing, and making are activities within that world. Its
-computational ontology is an upper-level abstraction of physical processes:
-it selects events, states, relations, constraints, and transformations through
-which a particular question can be understood and worked on. The whole account
-of knowing, valuing, methods, and practice operates at these abstracted levels.
+YinYang takes the changing natural world itself as its reality: moving matter, embodied life, psychological activity, and social relations belong to one world. Modest naturalism names this worldly scope. Its contemporary fire monism articulates the world’s dynamic unity: “fire” names becoming and transformation, in which objects, subjects, and relations persist as relatively stable patterns and can change through encounters. It does not identify the material of everything with literal flame. This same reality is the physical ground of philosophy, psychology, and engineering; all three are physically realized activities within it. Computational ontology abstracts question-relevant events, states, relations, constraints, and transformations from these processes.
+
+The whole account of knowing, valuing, methods, and practice operates at these
+abstracted levels.
 
 A physical basis alone does not supply a usable calculation. To answer a
 question, an inquirer still needs relevant variables, a scale, bridge assumptions,

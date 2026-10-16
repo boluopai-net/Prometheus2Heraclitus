@@ -551,7 +551,7 @@ svg[data-theme="dark"] { --bg: #020617; --grid: #1e293b; --canvas-dot: rgba(148,
 rect.c-bg-rect { fill: var(--bg); }
 </style><rect x="0" y="0" width="960" height="1050" class="c-bg-rect"/>
         <title id="archify-diagram-title">Computational ontology and practice on physical ground · YY-09</title>
-        <desc id="archify-diagram-description">The framework abstracts over a shared physical basis; ontology, epistemology, value, and methods meet in practice and its returning consequences.</desc>
+        <desc id="archify-diagram-description">One changing natural world is the shared physical ground. Contemporary fire monism articulates its becoming and transformation; computational ontology abstracts question-relevant patterns within it.</desc>
         <!-- Definitions -->
         <defs>
           <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
@@ -633,13 +633,13 @@ rect.c-bg-rect { fill: var(--bg); }
         </g>
 
         <!-- Components -->
-        <g id="node-physical" data-node-id="physical" data-node-label="Physical ontology" tabindex="0" role="button" aria-label="Focus Physical ontology, Matter, energy, and actual processes, A distinct question in this explanation" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="Matter, energy, and actual processes" data-node-context="A distinct question in this explanation">
-          <title>Physical ontology · Matter, energy, and actual processes · A distinct question in this explanation</title>
+        <g id="node-physical" data-node-id="physical" data-node-label="Physical ontology" tabindex="0" role="button" aria-label="Focus Physical ontology, One changing natural world, A distinct question in this explanation" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="One changing natural world" data-node-context="A distinct question in this explanation">
+          <title>Physical ontology · One changing natural world · A distinct question in this explanation</title>
           <rect x="70" y="50" width="280" height="90" rx="8" class="c-mask"/>
           <rect x="70" y="50" width="280" height="90" rx="8" class="c-cloud" data-animate="node" style="--step: 0; --flow-node-name: archify-relay-node-0;" stroke-width="1.5"/>
           
           <text data-node-label="" x="210" y="93" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Physical ontology</text>
-        <text x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">Matter, energy, and actual processes</text>
+        <text x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">One changing natural world</text>
         </g>
 
         <g id="node-value" data-node-id="value" data-node-label="Value" tabindex="0" role="button" aria-label="Focus Value, What is worth pursuing, and for whom?, A distinct question in this explanation" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="What is worth pursuing, and for whom?" data-node-context="A distinct question in this explanation">

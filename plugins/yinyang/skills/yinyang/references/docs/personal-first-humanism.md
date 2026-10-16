@@ -28,14 +28,15 @@ that continue beyond the description. A model of someone can be inadequate
 even when it is internally coherent. Their correction can disclose that
 inadequacy; subsequent experience can disclose another.
 
-The framework takes physical reality as its common ground. Thinking,
-psychological experience, and engineering are activities within that reality;
+The framework takes the changing natural world as its reality. **Modest
+naturalism** names this worldly scope; **contemporary fire monism** articulates
+its dynamic unity, in which persons and their relations persist and change.
+Thinking, psychological experience, and engineering share this physical ground;
 tools require materials and energy, and bodies live through their consequences.
-**Modest naturalism** names the accompanying stance of inquiry: begin with
-concrete embodied beings and worldly processes, investigating their relations
-through experience and evidence. A computational account abstracts relations
-relevant to the question. This leaves particular realization mechanisms and
-the possibility of a complete reduction of experience to their own inquiries.
+A computational account abstracts relations relevant to the question, while
+experience and evidence test their adequacy. Particular realization mechanisms
+and complete reduction require their own inquiries. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+develops these connected commitments.
 
 “The person is real” therefore has a practical force here. A category, metric,
 or story does not exhaust the one who lives through its application. Its
@@ -79,7 +80,7 @@ articulate an orientation, not a completed universal system:
 
 | Axis | Working orientation | What it asks of the practice |
 | --- | --- | --- |
-| Ontology | Modest naturalism; concrete persons, natural conditions, processes, and events. | Which objects and relations must the account acknowledge, and what resists its description? |
+| Ontology | Modest naturalism and contemporary fire monism: one changing natural world as physical ground, with concrete persons and relations within it. | Which objects and relations must the account acknowledge, and what resists its description? |
 | Epistemology | Fallible inquiry beginning with embodied experience and corrected through feedback. | Which observations support or challenge an interpretation, and what distinguishes alternatives? |
 | Value | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
 | Methodology | Question-relative pluralism. | Which combination of analogy, formalization, simulation, participation, and experiment answers this question? |
@@ -185,7 +186,7 @@ possible, and what do they ask of other lives?
 
 ## Sources and scope
 
-Modest naturalism, the four-axis positioning, and their model-supported
+The connected naturalist and fire-monist account, the four-axis positioning, and their model-supported
 realization are this essay's synthesis. The sources contribute the distinctions
 identified above; the ethical orientation is argued here and remains open to
 criticism and inquiry through its consequences.

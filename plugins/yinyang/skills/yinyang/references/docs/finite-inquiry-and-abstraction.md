@@ -23,6 +23,14 @@ This orientation has two illuminating comparisons: philosopher Professor Feng Ye
 
 ## Computational articulation and physical reduction
 
+[Naturalism](https://plato.stanford.edu/entries/naturalism/) alone does not imply
+physicalism: locating inquiry and its objects within nature does not settle
+every claim about their physical basis. [Physicalism](https://plato.stanford.edu/entries/physicalism/),
+in turn, need not entail a complete conceptual or theoretical reduction, or a
+feasible calculation. Lacking a demonstrated reduction today does not by itself
+refute physicalism. These distinctions let a commitment to physical reality
+coexist with open questions about explanation and computation.
+
 The framework adopts physical reality as its common basis and computational
 ontology as an upper-level abstraction of it. Merely naming that basis does
 not yet select the variables, representations, and operations that make a

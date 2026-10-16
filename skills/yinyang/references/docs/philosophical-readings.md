@@ -21,8 +21,13 @@ especially sections 3–4, explains disputed readings of fire, unity, and opposi
 
 The [stealing-fire essay](stealing-fire.md) develops this lineage into interacting
 event streams. It does not attribute a modern computational ontology or formal
-calculus to Heraclitus. Fire monism is a historical interpretation, not a settled
-physical foundation for this collection. [Paraconsistent Logic](https://plato.stanford.edu/entries/logic-paraconsistent/)
+calculus to Heraclitus. Whether the historical Heraclitus was a fire monist
+remains disputed. YinYang deliberately adopts a contemporary fire monism as
+its process ontology: one changing natural world, with relatively stable
+patterns within becoming. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+connects that commitment with naturalism, shared physical realization, and
+computational abstraction; B30 does not establish a modern physical theory.
+[Paraconsistent Logic](https://plato.stanford.edu/entries/logic-paraconsistent/)
 explains non-explosive consequence and its difference from dialetheism: tolerating
 inconsistent information need not declare contradictions true.
 

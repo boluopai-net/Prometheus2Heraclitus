@@ -13,7 +13,7 @@ intelligible and how it works.
 
 ## One physical reality, differentiated levels
 
-This is the framework's physicalist orientation. Philosophy articulates objects,
+Within this shared physical realization, philosophy articulates objects,
 relations, knowledge, value, and direction; psychology investigates feeling,
 knowing, preference, and interaction; engineering constructs and changes the
 conditions in which those activities continue. Thinking about an environment,

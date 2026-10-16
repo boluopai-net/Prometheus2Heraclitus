@@ -55,17 +55,20 @@ the person's available capacities support different claims. Development may
 include abilities internalized by the person or reliably distributed across
 supports; assess the relevant change through actual participation.
 
-The framework takes one physical reality as its ground. Computational ontology
-abstracts question-relevant events, objects, relations, constraints, and
-transformations from it. The streams being understood exceed their records and
-models. Physical dependence, particular realization mechanisms, full reduction,
-and feasible computation remain distinct questions. The Trinity essay connects
-philosophy, psychology, and engineering through this shared physical basis;
-its local environment, repository, and website are practical forms of the work.
+Modest naturalism names the framework's scope in one changing natural world;
+its contemporary fire monism articulates that world's dynamic unity. This is
+the physical ground of philosophy, psychology, and engineering. Computational
+ontology abstracts question-relevant events, objects, relations, constraints,
+and transformations from it. The streams being understood exceed their records
+and models. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
+owns the developed connection. Physical dependence, particular realization
+mechanisms, full reduction, and feasible computation remain distinct questions.
+The Trinity essay connects the three physically realized activities; its local
+environment, repository, and website are practical forms of the work.
 
-Heraclitean fire, becoming, and opposition contribute to this computational
-account. Their historical interpretation and the collection's contemporary
-development should remain distinguishable. The preferred repair analogy uses
+The adopted process ontology develops Heraclitean fire, becoming, and opposition.
+Its contemporary commitment and the disputed historical interpretation of
+Heraclitus remain distinguishable. The preferred repair analogy uses
 coherent working concepts while retaining conflicting sources and candidates.
 Selection among views and inference from them have different responsibilities.
 Keep the formal examples' actual assumptions and conclusions with their owning

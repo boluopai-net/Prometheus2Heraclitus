@@ -204,8 +204,11 @@ model or local arrangement is superior.
 
 ## YY-09 · Distinguish ontology, epistemology, value, and methodology
 
-The whole framework uses computational abstractions over common physical
-reality. For a question, computational ontology articulates relevant events,
+Modest naturalism names the framework's worldly scope; contemporary fire
+monism articulates the dynamic unity of that world. Philosophy, psychology,
+and engineering are physically realized within it. The whole framework uses
+computational abstractions over this common reality. For a question,
+computational ontology articulates relevant events,
 states, roles, relations, and transformations. Shared physical grounding does
 not itself supply a feasible calculation, establish detailed reduction, or
 erase differences among explanatory levels. Useful abstraction weighs the
