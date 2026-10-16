@@ -82,53 +82,76 @@ which records and software architecture serve a particular use. The
 <a href="/repositories/prometheus/source/skills/yinyang/references/diagrams/layers.html">layers diagram</a> presents this connection, and
 <a href="/philosophy/local-source-and-website/en/">Trinity</a> develops its unity across the three
 activities.</p>
-<h2 id="a-bounded-computational-example-a-title-and-its-preview">A bounded computational example: a title and its preview</h2>
-<p>Suppose a person notices that an article's title misses its argument. The model
-compares the title with the text and develops alternatives; their exchange
-settles a correction to try and the question of whether its preview shows it.
-The actual process includes a person, model, saved file,
-editor, preview, and the material activity that keeps them working. The question
-selects only a small part of that process. The <strong>article persists</strong> through the
-edit by the chosen continuity between its source and corresponding preview;
-its identity here does not require its text to remain unchanged.</p>
-<p>To investigate this together, they distinguish a saved title from a displayed title. An edit
-changes the first; a successful preview refresh is expected to make the second
-match it. The task's completion constraint requires both titles to match the
-requested correction. Editing and refreshing are different events, so a saved
-correction can coexist with an old display. This model includes an object,
-changing states, a source–preview relation, transition assumptions, and a
-constraint because each helps answer the particular question.</p>
-<p>A computer representation gives those terms usable referents: the relevant
-file and title text, the corresponding preview, and operations for reading,
-editing, refreshing, and inspecting them. The relation can be expressed to a
-language model in ordinary prose; a program could instead encode title values
-and transition rules explicitly. In either case, “saved title” means text read
-from the source, while “displayed title” means what the preview actually shows.
-Those observation routes keep two labels from silently referring to one value.</p>
-<p>A <strong>simulation</strong> can now develop a conditional trace for them to examine: with both titles initially
-old, editing makes the saved title new while the displayed title stays old;
-a successful refresh then makes both new. A model can reason through this
-small trace, or a program can execute its specified transitions. Neither result
-shows that the actual preview refreshed. It establishes what follows within
-the selected model and makes the intermediate mismatch predictable.</p>
-<p><strong>Realization and readback</strong> put this understanding to work through the actual
-editor and preview. The model can carry the editing and inspection while
-making the result available for the person's recognition and correction.
-Reading the saved title and observing the preview supply separate evidence
-for completion. If the display stays old after refresh, the
-world has challenged the assumed transition. Investigation may reveal a cached
-view or a preview linked to a different source. The remedy then changes the
-refresh operation or the modeled source–preview relation, followed by another
-readback. The discrepancy does not require a new theory of the whole world.</p>
-<p>The return continues the same collaboration. If either participant finds that
-the requested title itself misstates the article, a correct display will expose
-a problem in the intended expression.
-The purpose or interpretation may need revision even though the software works.
-This is the general connection: the process supplies the object and resistance;
-the participants develop a question and computational model together; an actual arrangement uses it;
-consequences help locate whether to revise the realization, model, selection,
-or wider understanding. The example's simple distinctions serve its task;
-another question may need a different model.</p>
+<h2 id="a-bounded-computational-example-simulating-a-cooling-experiment">A bounded computational example: simulating a cooling experiment</h2>
+<p>Suppose a person and language model investigate together: how will a cup of
+warm water cool indoors over ten minutes? They select a computable question,
+open to experimental comparison, from the actual cup, water, air, heat transfer,
+and temperature measurement. <strong>The water persists as the same sample while its
+temperature changes</strong>; the model holds the container and quantity of water fixed
+over the interval. The sample–environment boundary, the start of timing, and
+what “water temperature” means all belong to this selection.</p>
+<p>They begin with simplifying assumptions: the water's temperature is approximately
+uniform, ambient temperature is approximately constant, and the cooling coefficient
+is approximately constant over the interval. The difference between water
+temperature <span class="math-source" data-display="false" data-tex="T">$T$</span> and ambient temperature <span class="math-source" data-display="false" data-tex="T_a">$T_a$</span> determines its rate of change in
+Newton's cooling model, <span class="math-source" data-display="false" data-tex="dT/dt=-k(T-T_a)">$dT/dt=-k(T-T_a)$</span>. Here <span class="math-source" data-display="false" data-tex="k&gt;0">$k&gt;0$</span>; when time is in minutes,
+<span class="math-source" data-display="false" data-tex="k">$k$</span> has units of inverse minutes. Under these conditions, with initial
+temperature <span class="math-source" data-display="false" data-tex="T_0">$T_0$</span>,</p>
+<div class="math-source" data-display="true" data-tex="
+T(t)=T_a+(T_0-T_a)e^{-kt}.
+">$$
+T(t)=T_a+(T_0-T_a)e^{-kt}.
+$$</div>
+<p>This describes temperature approaching ambient temperature over time; its
+adequacy still depends on the actual heat-transfer conditions. A
+<a href="https://clp.math.uky.edu/clp1/sec_ExpGthDecay.html">university calculus text</a>
+derives the model and its solution.</p>
+<p>In this bounded computational ontology, the persisting sample is an object,
+temperature is a state, air is the selected environment, placement and measurement
+are events, time connects states, and the cooling equation expresses change.
+The computer representation connects these meanings to parameters with units,
+time points, and executable calculations. A program evaluates <span class="math-source" data-display="false" data-tex="T(t)">$T(t)$</span> at a series
+of times to generate a cooling curve. The participants can write, run, and check
+it together, or change the initial conditions to examine another prediction.</p>
+<p>For illustration only, take ambient temperature <span class="math-source" data-display="false" data-tex="20\,^{\circ}\mathrm{C}">$20\,^{\circ}\mathrm{C}$</span>,
+initial water temperature <span class="math-source" data-display="false" data-tex="40\,^{\circ}\mathrm{C}">$40\,^{\circ}\mathrm{C}$</span>, and
+<span class="math-source" data-display="false" data-tex="k=0.1\,\mathrm{min}^{-1}">$k=0.1\,\mathrm{min}^{-1}$</span>. Calculation gives about <span class="math-source" data-display="false" data-tex="32.1\,^{\circ}\mathrm{C}">$32.1\,^{\circ}\mathrm{C}$</span>
+after five minutes and <span class="math-source" data-display="false" data-tex="27.4\,^{\circ}\mathrm{C}">$27.4\,^{\circ}\mathrm{C}$</span> after ten. <strong>The curve simulates
+physical cooling:</strong> computational time and temperature correspond to experimental
+time and water temperature, and the changes follow the selected heat-transfer
+relation. It aims to reproduce the relevant observable relations approximately,
+within stated conditions and tolerances; comparison must establish how close
+the resemblance is. These parameters and temperatures are illustrative
+calculations. No physical experiment has been performed here, and these values
+are not measurements.</p>
+<p>To test it, the participants can devise a measurement protocol together: record
+ambient and initial water temperatures and subsequent thermometer readings at
+known times, then compare the measured points with the predicted curve. Actual
+measurements require a participant with the relevant instruments and operational
+capabilities; the language model can contribute to recording, calculation, and
+analysis through available tools or supplied readings. Both can identify a problem,
+suggest another measurement, or check a calculation, with contributions distributed
+according to capabilities and conditions. A
+<a href="https://myslu.stlawu.edu/~jmil/physics/labs/103_lab/inactive/heatflow.shtml">St. Lawrence University physics lab</a>
+provides an actual experimental method for recording water temperature over time
+and comparing it with an exponential model.</p>
+<p>If measurements disagree with the curve, investigation may check the thermometer,
+timing, units, and program, while also asking whether ambient temperature changed,
+the water was uniformly warm, or one fixed <span class="math-source" data-display="false" data-tex="k">$k$</span> still summarizes effects of the
+container, evaporation, and other heat transfer. Revision may concern the
+implementation, independent parameter estimation, model assumptions, or even the
+sample–environment boundary. Tuning parameters to fit existing points does not
+establish a correct understanding of the process; new measurements or conditions
+can test that account further. These differences let the world constrain the
+computational model. Calling it a simulation does not establish its fidelity.</p>
+<p>The return can also change the original question. If the participants discover
+that they care about when the water is ready to drink, they need to specify a
+target temperature, acceptable error, and relevant conditions anew. Person and
+model jointly develop the question, computational model, program, experimental
+comparison, and interpretation. Computation unfolds selected relations;
+observation tests that unfolding against reality. This example connects process,
+persisting objects, computation, and feedback within one world without requiring
+the whole world to fit inside a computer.</p>
 <h2 id="a-process-exceeds-its-available-model">A process exceeds its available model</h2>
 <p>A stream is organized continuation, not merely a chronological transcript.
 Perception, interpretation, remembering, expression, and action can overlap,
@@ -137,8 +160,9 @@ available record captures some of those relations; other activity may never
 have been recorded. A local model makes selected objects, roles, dependencies,
 and transformations available for a particular inquiry. Giving it a computer
 representation enables selected uses of those relations; it does not contain
-the entire process that generated it. The title example selects a pair of
-observable values without recording everything involved in writing or reading.</p>
+the entire process that generated it. The cooling example selects the temperature
+relation between sample and environment without calculating every water molecule's
+motion.</p>
 <p>Distinguish that model from its expression. A sentence, diagram, paper, or
 program gives a relation a form that can be encountered. Producing and reading
 the expression are themselves events in the continuing process. A model can
@@ -155,7 +179,7 @@ as described. A literary image can gather possibilities before one interpretatio
 is selected. Neither construction nor consequence makes every assertion drawn
 from that image true.</p>
 <h2 id="screenshot-and-front-end">Screenshot and front end</h2>
-<p>A <strong>screenshot</strong> selects a moment and a frame from an activity that continues beyond it. A <strong>front end</strong> makes some of that activity perceptible and available for participation. As images of expression, they pose different questions: what has been selected, and what can a reader or participant now do through that selection? A diagram, prototype, or paragraph can show a relation without displaying every occurrence that produced it. An actual computer interface adds an operational correspondence: the article preview shows one state, and its refresh acts on a particular source. What appears and what an operation changes must be understood together.</p>
+<p>A <strong>screenshot</strong> selects a moment and a frame from an activity that continues beyond it. A <strong>front end</strong> makes some of that activity perceptible and available for participation. As images of expression, they pose different questions: what has been selected, and what can a reader or participant now do through that selection? A diagram, prototype, or paragraph can show a relation without displaying every occurrence that produced it. An actual computer interface adds an operational correspondence: a cooling-curve interface can show predictions and measured points, and let the participants change parameters and recalculate. What appears and what an operation changes must be understood together; changing the predicted curve does not change measurements already made.</p>
 <p>Selection is both the expression's strength and a possible source of error. An account that displayed everything without distinction might fail to make anything intelligible. Yet a clear arrangement can conceal an uncertainty that would change the next judgment. An adequate expression therefore needs fidelity to what matters for its use, rather than an impossible duplication of the whole process. The question is which relations, assumptions, and unresolved alternatives must remain visible.</p>
 <p>This also changes how collaboration can be organized. A model can carry retrieval, construction, and verification while a person understands, selects, and corrects through what becomes visible. Both can contribute to either side of that arrangement. An expression mediates participation: what it makes perceptible can change what happens next. A prototype can let the person recognize a relation through use, while an explanation lets either participant inspect why the prototype behaves as it does. Visibility and execution support each other, and their allocation can change with the work.</p>
 <h2 id="question-relative-objects-meet-resistance">Question-relative objects meet resistance</h2>
@@ -163,7 +187,7 @@ from that image true.</p>
 work its object. That choice guides which distinctions the inquiry needs;
 it does not determine whether the answer is correct. The object can resist
 its description through an omitted relation, an unexpected result, or a failed
-prediction. As with the source–preview relation, such resistance can require
+prediction. As with a discrepancy between cooling predictions and measurements, such resistance can require
 another abstraction, not merely another answer within the existing one.</p>
 <p>Question-relative ontology therefore allows construction without treating
 reality as an arbitrary product of naming. Stable objects, recurring patterns,
@@ -291,7 +315,7 @@ use carry that argument's continuity. They develop the objects and correspondenc
 needed to ask more precise questions and let their answers change the account.</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
 <ul>
 <li><a href="#physical-ground-and-computational-abstraction">Physical ground and computational abstraction</a></li>
-<li><a href="#a-bounded-computational-example-a-title-and-its-preview">A bounded computational example: a title and its preview</a></li>
+<li><a href="#a-bounded-computational-example-simulating-a-cooling-experiment">A bounded computational example: simulating a cooling experiment</a></li>
 <li><a href="#a-process-exceeds-its-available-model">A process exceeds its available model</a></li>
 <li><a href="#screenshot-and-front-end">Screenshot and front end</a></li>
 <li><a href="#question-relative-objects-meet-resistance">Question-relative objects meet resistance</a></li>
