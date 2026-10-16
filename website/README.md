@@ -25,8 +25,9 @@ recording is pending. The GitHub section leads to the selected local reading edi
 and assets are preserved; generated `dist/client/`, `dist/server/`, and
 `dist/.openai/` are ignored and excluded from the content generators.
 The public hosted site uses the Sites Vinext build integration and a small
-Worker for durable feedback; it is no longer a buildless deployment. Run
-`npm run build` after finishing content generation. Native Sites publication
+Worker for routing and immutable public content snapshots. Runtime changes use
+`npm run build`; ordinary content generation uses the content release route
+below without a Worker build or deployment. Native Sites runtime publication
 uses the installed plugin's `scripts/build-site.mjs` helper, which invokes that
 project build. `scripts/build-preserved-site.mjs` snapshots
 the original static files into ignored `.static-assets/`, builds without deleting
@@ -38,8 +39,22 @@ request crawler cooperation; public reading does not prevent copying.
 
 ### Publication and interrupted transfers
 
-For this Site, publish from Git first: validate the changed source, commit and
-push it to the selected Site repository, and verify the exact remote SHA. Call
+Select the route from the changed object before building or calling native Sites:
+
+- For ordinary content changes—canonical prose, rendered pages, illustrations,
+  source views, browser scripts, CSS, fonts or other files in the public
+  projection—follow [content releases without runtime deployment](#content-releases-without-runtime-deployment).
+  Render and commit the complete projection, prepare the exact Git revision,
+  then delta publish and verify the reader. This route performs no framework
+  build, library packaging, native Sites save or service deployment.
+- For runtime source changes—Worker handlers, release protocol, binding declarations
+  or build/deployment configuration—use the native Git-first route below.
+  A change that needs both routes deploys its compatible runtime first, then
+  publishes content through the content route.
+
+For runtime changes only, publish from Git first: validate the changed source,
+commit and push it to the selected Site repository, and verify the exact remote
+SHA. Call
 `save_site_version` with that `project_id` and `commit_sha`, omitting `archive`,
 then deploy the returned saved version and follow its remote build to a terminal
 result. Reuse a passed local build while its inputs are unchanged. This route
@@ -47,8 +62,9 @@ order is the owner's explicit instruction of 2026-10-16 and takes precedence
 over the Sites plugin's general preference for an archive when local packaging
 is possible. Preserve the existing Site identity, audience and runtime bindings.
 
-The native `site-workflow.mjs` helper does not choose this route. In the current
-helper, omitting `archivePath` opens and reconciles source only; it does not
+The native `site-workflow.mjs` helper does not choose between content and runtime
+routes. For runtime publication, omitting `archivePath` in the current helper
+opens and reconciles source only; it does not
 commit or push edits. Use that opening operation when needed, then commit and
 push the exact source with Git using the short-lived credential for the same
 Site. Keep the credential in memory or hidden stdin and an ephemeral Git header
@@ -77,10 +93,114 @@ successfully built and deployed version 96 on 2026-10-14 and version 124 from
 static assets and bindings. Reuse that real route evidence; documentation-only
 publication changes do not require redeploying unchanged public content.
 
-Confirm the changed public content at `https://boluopai.net/` and preserve the
+Confirm the changed runtime at `https://boluopai.net/` and preserve the
 version's exact source identity in the collection snapshot. This project record
 owns its observed transport behavior; it does not assert the same limitation
 for other Sites or replace their audience, credential, or publication owners.
+
+### Content releases without runtime deployment
+
+`lib/content-release.js` owns the content protocol and read boundary;
+`scripts/content-release.mjs` is its local publisher. Author canonical sources
+and run the existing renderers into tracked `dist/`, preserving source views,
+rights, canonical URLs, giscus and the bilingual editions. Commit the complete
+source and projection through the repository owner. Then prepare an immutable
+candidate from that exact Git commit; this reads committed blobs rather than
+the working directory and checks the complete resource dependency closure:
+
+```sh
+node scripts/content-release.mjs prepare --commit COMMIT --out /tmp/NEW-CANDIDATE
+```
+
+The candidate includes every tracked public `dist/` file, including images,
+scripts, CSS, sibling fonts, JSON and source-view assets. It excludes generated
+`dist/client/`, `dist/server/` and `dist/.openai/`. It does not run the framework
+build, package a library archive, save a Sites version or deploy the service.
+`prepare` requires a new output directory and reports manifest digest, source
+commit, file/object counts, bytes and validation partition count. A candidate
+is disposable local evidence, not another maintained authoring source.
+
+For remote commands, pipe one JSON object `{"key":"…"}` from runtime Bitwarden
+retrieval into stdin. The separate hosted secret is `CONTENT_PUBLISH_KEY`; the
+owner/publisher maintains its vault entry and sets it using native Sites secret
+tools. Never use the Hermes bridge key, historical release credentials, source
+repository credentials or a private Site service token for this public write
+authority. Do not place the key in command arguments, environment variables,
+files, shell history, source or output. With that pipe prepared, the receiving
+command is:
+
+```sh
+node scripts/content-release.mjs publish --site https://boluopai.net --candidate /tmp/NEW-CANDIDATE
+```
+
+`publish` reads active state before upload, reuses digests in its already
+validated manifest, uploads only new objects, stages the exact manifest bytes,
+validates every partition and conditionally promotes against the initially read
+pointer ETag. It then checks status and the actual homepage version headers.
+Object sizes/digests and closure are validated server-side before promotion;
+R2 checks SHA-256 during immutable object PUT. Validation uses that checksum
+metadata for unchanged binaries and reads HTML/CSS/JS to verify dependencies.
+There are at most 32 objects per validation request. All immutable receipts
+must name the exact manifest digest and complete partition before promotion.
+The 451-file initial projection has 410 distinct objects and 15 partitions.
+
+Individual `upload`, `stage`, `validate` and `promote` commands accept the same
+Site and candidate arguments. `promote` additionally requires `--expected ETAG`,
+or `--expected null` for an empty store. `upload` explicitly checks object
+existence even for currently active digests, allowing repair of observed object
+loss. These commands preserve the same candidate identity across retries.
+`status --site ORIGIN` reads the active manifest, source commit, ETag and
+bootstrap-retirement state. `reconcile --site ORIGIN --candidate DIRECTORY`
+adds `matches` for that exact candidate. A timeout is an unknown outcome: read
+status/reconcile before retrying the affected operation. The CLI never retries
+an uncertain mutation automatically; an identical completed promotion is
+idempotent, while an old ETag cannot overwrite a newer publication.
+
+The API is `/api/content-release`: authenticated `GET /status`, `HEAD|PUT
+/objects/<sha256>`, `GET|PUT /manifests/<digest>`, `POST
+/validate/<digest>/<zero-based-part>`, `POST /promote` with
+`{"manifest":"<digest>","expected":"<ETag>"}` (or null), and `POST
+/retire-bootstrap`. All use `Authorization: Bearer <CONTENT_PUBLISH_KEY>`.
+Manifests are exact UTF-8 JSON bytes, identified by their SHA-256, with this
+schema and strictly sorted unique file paths:
+
+```json
+{"schema":1,"source":{"commit":"<40 lowercase hex>"},"files":[{"path":"/index.html","sha256":"<64 lowercase hex>","size":123,"contentType":"text/html; charset=utf-8"}]}
+```
+
+Paths must be unambiguous ASCII public paths, with no traversal, dot segments,
+percent encoding, service/auth routes or snapshot prefix. The runtime accepts
+at most 1024 files, 16 MiB per object and 2 MiB per manifest. MIME types have an
+explicit allowlist. This is one complete snapshot, not a partial patch.
+
+Only `public-content/v1/` in the existing logical `BUCKET` binding belongs to
+this feature. It stores immutable objects, manifests and validation receipts,
+plus a CAS active pointer and irreversible bootstrap-retirement marker. There
+is no bucket listing, raw-key endpoint, remote URL import, anonymous write,
+database migration, queue or new CMS. Historical private bucket objects remain
+private and untouched. The updater route is deliberately before the generic
+API handler; old API retirement, redirects and robots retain precedence over
+document reads.
+
+Before initial seed, an empty bucket serves the current bundled assets, marked
+`X-Content-Source: bundled-bootstrap`. Successful first promotion writes the
+active pointer first, then permanently retires bundled fallback. If the marker
+write has an uncertain outcome, status plus `retire-bootstrap` (or identical
+promotion) repairs it while the active snapshot keeps serving. After seed,
+missing paths return 404, missing selected objects return 503, and a missing
+pointer/storage binding fails visibly; none can mix in stale bundled assets.
+
+Canonical requests select one complete active manifest. Responses identify
+`X-Content-Manifest` and `X-Content-Source` without private metadata. The runtime
+pins HTML resource attributes (including iframe, srcset, object and embed),
+CSS URLs and the current repository/wheel data fetches to
+`/_content/<manifest>/<public-path>`. Each pinned request must belong to that
+manifest; old snapshot resources remain readable after promotion. Navigation,
+canonical/alternate URLs and external giscus retain their existing behavior.
+The digests describe original source bytes; HTML/CSS/JS responses may contain
+the snapshot URL projection. `npm run test:content` exercises the actual Worker
+in Miniflare, including private-object isolation, authorization, closure,
+partition completeness, simultaneous CAS and bootstrap retirement/recovery.
 
 ### Public feedback runtime
 

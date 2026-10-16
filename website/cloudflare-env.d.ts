@@ -6,5 +6,6 @@ declare namespace Cloudflare {
     OWNER_EMAIL?: string;
     OWNER_USER_ID?: string;
     HERMES_BRIDGE_KEY?: string;
+    CONTENT_PUBLISH_KEY?: string;
   }
 }

@@ -55,14 +55,16 @@ can precede the snapshot commit when content is unchanged. Maintain original
 content at its owner and regenerate before publishing.
 
 Follow the native Site README's [publication route](website/README.md#publication-and-interrupted-transfers)
-when preparing publication; it owns the Git-first selection and archive fallback
-for this Site. Commit and push the final Site source, then publish that exact
-revision through its native workflow. Apply its snapshot with
+when preparing publication; it owns the content/runtime selection and the
+Git-first runtime route with archive fallback for this Site. Commit and push
+the final Site source. Ordinary content activates its exact immutable snapshot
+without a Worker build or native Sites deployment; runtime changes publish
+that exact source through the native workflow. Apply its source snapshot with
 `python scripts/sync-website.py --source /path/to/site --revision FULL_SHA --apply`,
 then run the same command without `--apply` to check path coverage, bytes and
-modes. Review and publish the collection change to GitHub separately, then deploy
-and verify the same Site version through its native workflow. Skip unchanged
-snapshots and deployments. This is an explicit publication workflow, not a new
+modes. Review and publish the collection change to GitHub separately, then
+verify the selected content manifest or native Site version through its owning
+route. Skip unchanged snapshots and deployments. This is an explicit publication workflow, not a new
 watcher or automatic GitHub push service. Never edit generated snapshot copies.
 
 The collection is published as a clean public GitHub repository. Anyone may
