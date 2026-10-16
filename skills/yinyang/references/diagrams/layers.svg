@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 960 1050" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" style="--flow-cycle: 8.707s; width: 960px; height: 1050px; min-width: 0px;" width="960" height="1050" xmlns="http://www.w3.org/2000/svg"><style>
+<svg viewBox="0 0 960 1050" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" style="--flow-cycle: 6.436s; width: 960px; height: 1050px; min-width: 0px;" width="960" height="1050" xmlns="http://www.w3.org/2000/svg"><style>
 /*
 JetBrains Mono variable WOFF2 subsets from Google Fonts service revision v24.
 These fixed bytes are shared by the viewer and its SVG/raster exports.
@@ -399,131 +399,142 @@ svg[data-preset="editorial"] { --flow-halo-peak: 0.07; --flow-glow-peak: 0.28; -
 }
 @keyframes archify-relay-ripple { 
   0% { r: 2px; opacity: var(--flow-peak, 0.6); }
-  8.614%, 100% { r: 20px; opacity: 0; }
+  11.654%, 100% { r: 20px; opacity: 0; }
 }
 @keyframes archify-relay-comet-0 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  6.973% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  8.811%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  9.434% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  11.92%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-0 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  6.973% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  17.309%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  9.434% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  23.419%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-1 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  13.822% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  15.66%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  18.701% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  21.187%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-1 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  13.822% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  24.159%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  18.701% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  32.686%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-2 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  13.822% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  15.66%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  18.701% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  21.187%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-2 { 
-  0%, 4.147% { opacity: 0; }
-  13.822% { opacity: var(--flow-peak, 0.3); }
-  24.159%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  0%, 5.61% { opacity: 0; }
+  18.701% { opacity: var(--flow-peak, 0.3); }
+  32.686%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-3 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  11.895% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  13.733%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  16.093% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  18.58%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-3 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  11.895% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  22.232%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  16.093% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  30.078%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-4 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  9.434% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  11.272%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  12.764% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  15.25%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-4 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  9.434% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  19.771%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  12.764% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  26.748%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-5 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  11.895% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  13.733%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  16.093% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  18.58%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-5 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  11.895% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  22.232%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  16.093% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  30.078%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-6 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  9.434% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  11.272%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  12.764% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  15.25%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-6 { 
-  0%, 2.83% { opacity: 0; }
-  9.434% { opacity: var(--flow-peak, 0.3); }
-  19.771%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  12.764% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  26.748%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-7 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.378% { opacity: var(--flow-peak, 0.9); }
-  17.227% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  19.065%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  20.088% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  22.574%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-7 { 
-  0%, 5.168% { opacity: 0; }
-  17.227% { opacity: var(--flow-peak, 0.3); }
-  27.564%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  0%, 6.026% { opacity: 0; }
+  20.088% { opacity: var(--flow-peak, 0.3); }
+  34.072%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-8 {
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  1.865% { opacity: var(--flow-peak, 0.9); }
+  23.308% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  25.794%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-8 {
+  0%, 6.992% { opacity: 0; }
+  23.308% { opacity: var(--flow-peak, 0.3); }
+  37.292%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-node-0 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
   0% { filter: var(--ambient-node-base-filter, none); }
-  1.378%, 4.824% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  13.782% { filter: var(--ambient-node-base-filter, none); }
+  1.865%, 6.526% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  18.646% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-1 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  6.973% { filter: var(--ambient-node-base-filter, none); }
-  8.351%, 11.797% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  20.755% { filter: var(--ambient-node-base-filter, none); }
+  9.434% { filter: var(--ambient-node-base-filter, none); }
+  11.299%, 15.96% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  28.08% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-2 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  20.017% { filter: var(--ambient-node-base-filter, none); }
-  21.395%, 24.84% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  33.799% { filter: var(--ambient-node-base-filter, none); }
+  27.081% { filter: var(--ambient-node-base-filter, none); }
+  28.946%, 33.608% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  45.728% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-3 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  30.599% { filter: var(--ambient-node-base-filter, none); }
-  31.977%, 35.423% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  44.381% { filter: var(--ambient-node-base-filter, none); }
+  23.752% { filter: var(--ambient-node-base-filter, none); }
+  25.616%, 30.278% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  42.398% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-4 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  43.643% { filter: var(--ambient-node-base-filter, none); }
-  45.021%, 48.467% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  57.425% { filter: var(--ambient-node-base-filter, none); }
+  44.007% { filter: var(--ambient-node-base-filter, none); }
+  45.871%, 50.533% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  62.653% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-5 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  58.614% { filter: var(--ambient-node-base-filter, none); }
-  59.992%, 63.437% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  72.396% { filter: var(--ambient-node-base-filter, none); }
+  41.399% { filter: var(--ambient-node-base-filter, none); }
+  43.264%, 47.925% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  60.045% { filter: var(--ambient-node-base-filter, none); }
 }
 svg[data-node-ui] [data-node-id] &gt; rect:not(.c-mask) { stroke-width: 1.25px; }
 :is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] &gt; rect:not(.c-mask).c-frontend { fill: color-mix(in srgb, var(--frontend-stroke) 13%, var(--mask)); stroke: color-mix(in srgb, var(--frontend-stroke) 72%, var(--mask)); }
@@ -551,7 +562,7 @@ svg[data-theme="dark"] { --bg: #020617; --grid: #1e293b; --canvas-dot: rgba(148,
 rect.c-bg-rect { fill: var(--bg); }
 </style><rect x="0" y="0" width="960" height="1050" class="c-bg-rect"/>
         <title id="archify-diagram-title">Computational ontology and practice on physical ground · YY-09</title>
-        <desc id="archify-diagram-description">One changing natural world is the shared physical ground. Contemporary fire monism articulates its becoming and transformation; computational ontology abstracts question-relevant patterns within it.</desc>
+        <desc id="archify-diagram-description">Within one changing natural/physical world, person and language model jointly find problems, select processes, construct computational models, infer, realize, read back and revise. Fire names the world's becoming; model use and feedback continue this same shared activity.</desc>
         <!-- Definitions -->
         <defs>
           <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
@@ -601,7 +612,7 @@ rect.c-bg-rect { fill: var(--bg); }
         <!-- Connection paths (before components for correct z-order) -->
         <g data-graph-role="automatic-crossover" style="--step:0">
           <path data-graph-role="automatic-crossover-underlay" d="M 210 140 L 210 310" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="abstract relevant structure" data-edge-key="0" data-edge-id="physical-abstraction" data-composition-points="210,140;210,310" data-composition-crossover="halo" data-composition-independent="true" d="M 210 140 L 210 310" class="a-emphasis" data-animate="edge" style="--step: 0;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="select processes and scale" data-edge-key="0" data-edge-id="physical-abstraction" data-composition-points="210,140;210,310" data-composition-crossover="halo" data-composition-independent="true" d="M 210 140 L 210 310" class="a-emphasis" data-animate="edge" style="--step: 0;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:1">
           <path data-graph-role="automatic-crossover-underlay" d="M 635 915 L 772 915 Q 780 915 780 907 L 780 720" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
@@ -624,40 +635,44 @@ rect.c-bg-rect { fill: var(--bg); }
           <path data-edge-from="methodology" data-edge-to="realization" data-edge-label="organize action and checks" data-edge-key="5" data-edge-id="method-in-action" data-composition-points="640,683.05;350,683.05" data-composition-crossover="halo" data-composition-independent="true" d="M 640 683.05 L 350 683.05" class="a-emphasis" data-animate="edge" style="--step: 5;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:6">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 630 L 210 400" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="ontology" data-edge-label="reopen modeled distinctions" data-edge-key="6" data-edge-id="failure-reopens-object" data-composition-points="210,630;210,400" data-composition-crossover="halo" data-composition-independent="true" d="M 210 630 L 210 400" class="a-dashed" data-animate="edge" style="--step: 6;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 210 400 L 210 630" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="ontology" data-edge-to="realization" data-edge-label="realize and use model" data-edge-key="6" data-edge-id="model-in-realization" data-composition-points="210,400;210,630" data-composition-crossover="halo" data-composition-independent="true" d="M 210 400 L 210 630" class="a-emphasis" data-animate="edge" style="--step: 6;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:7">
+          <path data-graph-role="automatic-crossover-underlay" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="realization" data-edge-to="ontology" data-edge-label="revise selection and model" data-edge-key="7" data-edge-id="failure-reopens-object" data-composition-points="70,675;46,675;46,355;70,355" data-composition-crossover="halo" data-composition-independent="true" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" class="a-dashed" data-animate="edge" style="--step: 7;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:8">
           <path data-graph-role="automatic-crossover-underlay" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="epistemology" data-edge-label="test the explanation" data-edge-key="7" data-edge-id="result-tests-explanation" data-composition-points="350,668;374,668;374,362;640,362" data-composition-crossover="halo" data-composition-independent="true" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" class="a-dashed" data-animate="edge" style="--step: 7;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-edge-from="realization" data-edge-to="epistemology" data-edge-label="test observable correspondence" data-edge-key="8" data-edge-id="result-tests-explanation" data-composition-points="350,668;374,668;374,362;640,362" data-composition-crossover="halo" data-composition-independent="true" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" class="a-dashed" data-animate="edge" style="--step: 8;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
         </g>
 
         <!-- Components -->
-        <g id="node-physical" data-node-id="physical" data-node-label="Physical ontology" tabindex="0" role="button" aria-label="Focus Physical ontology, One changing natural world, A distinct question in this explanation" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="One changing natural world" data-node-context="A distinct question in this explanation">
-          <title>Physical ontology · One changing natural world · A distinct question in this explanation</title>
+        <g id="node-physical" data-node-id="physical" data-node-label="Physical ontology" tabindex="0" role="button" aria-label="Focus Physical ontology, Fire: one changing natural world, A distinct question in this explanation" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="Fire: one changing natural world" data-node-context="A distinct question in this explanation">
+          <title>Physical ontology · Fire: one changing natural world · A distinct question in this explanation</title>
           <rect x="70" y="50" width="280" height="90" rx="8" class="c-mask"/>
           <rect x="70" y="50" width="280" height="90" rx="8" class="c-cloud" data-animate="node" style="--step: 0; --flow-node-name: archify-relay-node-0;" stroke-width="1.5"/>
           
           <text data-node-label="" x="210" y="93" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Physical ontology</text>
-        <text x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">One changing natural world</text>
+        <text x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">Fire: one changing natural world</text>
         </g>
 
         <g id="node-value" data-node-id="value" data-node-label="Value" tabindex="0" role="button" aria-label="Focus Value, What is worth pursuing, and for whom?, A distinct question in this explanation" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="What is worth pursuing, and for whom?" data-node-context="A distinct question in this explanation">
           <title>Value · What is worth pursuing, and for whom? · A distinct question in this explanation</title>
           <rect x="355" y="870" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="355" y="870" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-5;" stroke-width="1.5"/>
+          <rect x="355" y="870" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-4;" stroke-width="1.5"/>
           
           <text data-node-label="" x="495" y="913" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Value</text>
         <text x="495" y="929" class="t-muted" font-size="9" text-anchor="middle">What is worth pursuing, and for whom?</text>
         </g>
 
-        <g id="node-ontology" data-node-id="ontology" data-node-label="Computational ontology" tabindex="0" role="button" aria-label="Focus Computational ontology, Events, relations, transformations, A distinct question in this explanation" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Events, relations, transformations" data-node-context="A distinct question in this explanation">
-          <title>Computational ontology · Events, relations, transformations · A distinct question in this explanation</title>
+        <g id="node-ontology" data-node-id="ontology" data-node-label="Computational ontology" tabindex="0" role="button" aria-label="Focus Computational ontology, Engineering: events, states, transitions, A distinct question in this explanation" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Engineering: events, states, transitions" data-node-context="A distinct question in this explanation">
+          <title>Computational ontology · Engineering: events, states, transitions · A distinct question in this explanation</title>
           <rect x="70" y="310" width="280" height="90" rx="8" class="c-mask"/>
           <rect x="70" y="310" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-1;" stroke-width="1.5"/>
           
           <text data-node-label="" x="210" y="353" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Computational ontology</text>
-        <text x="210" y="369" class="t-muted" font-size="9" text-anchor="middle">Events, relations, transformations</text>
+        <text x="210" y="369" class="t-muted" font-size="9" text-anchor="middle">Engineering: events, states, transitions</text>
         </g>
 
         <g id="node-epistemology" data-node-id="epistemology" data-node-label="Epistemology" tabindex="0" role="button" aria-label="Focus Epistemology, What supports or revises a view?, A distinct question in this explanation" aria-pressed="false" data-node-kind="backend" data-node-sublabel="What supports or revises a view?" data-node-context="A distinct question in this explanation">
@@ -672,25 +687,25 @@ rect.c-bg-rect { fill: var(--bg); }
         <g id="node-methodology" data-node-id="methodology" data-node-label="Methodology" tabindex="0" role="button" aria-label="Focus Methodology, How is sustainable work organized?, A distinct question in this explanation" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="How is sustainable work organized?" data-node-context="A distinct question in this explanation">
           <title>Methodology · How is sustainable work organized? · A distinct question in this explanation</title>
           <rect x="640" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="640" y="630" width="280" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-3;" stroke-width="1.5"/>
+          <rect x="640" y="630" width="280" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-5;" stroke-width="1.5"/>
           
           <text data-node-label="" x="780" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Methodology</text>
         <text x="780" y="689" class="t-muted" font-size="9" text-anchor="middle">How is sustainable work organized?</text>
         </g>
 
-        <g id="node-realization" data-node-id="realization" data-node-label="Concrete realization" tabindex="0" role="button" aria-label="Focus Concrete realization, How does this environment execute?, A distinct question in this explanation" aria-pressed="false" data-node-kind="external" data-node-sublabel="How does this environment execute?" data-node-context="A distinct question in this explanation">
-          <title>Concrete realization · How does this environment execute? · A distinct question in this explanation</title>
+        <g id="node-realization" data-node-id="realization" data-node-label="Concrete realization" tabindex="0" role="button" aria-label="Focus Concrete realization, Data, programs, prompts, tools, interfaces, A distinct question in this explanation" aria-pressed="false" data-node-kind="external" data-node-sublabel="Data, programs, prompts, tools, interfaces" data-node-context="A distinct question in this explanation">
+          <title>Concrete realization · Data, programs, prompts, tools, interfaces · A distinct question in this explanation</title>
           <rect x="70" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="630" width="280" height="90" rx="8" class="c-external" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-4;" stroke-width="1.5"/>
+          <rect x="70" y="630" width="280" height="90" rx="8" class="c-external" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-3;" stroke-width="1.5"/>
           
           <text data-node-label="" x="210" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Concrete realization</text>
-        <text x="210" y="689" class="t-muted" font-size="9" text-anchor="middle">How does this environment execute?</text>
+        <text x="210" y="689" class="t-muted" font-size="9" text-anchor="middle">Data, programs, prompts, tools, interfaces</text>
         </g>
 
         <!-- Connection labels -->
-        <g data-edge-from="physical" data-edge-to="ontology" data-edge-label="abstract relevant structure" data-edge-key="0" data-edge-id="physical-abstraction">
-          <rect x="64.39999999999999" y="218" width="139.6" height="14" rx="3" class="c-mask"/>
-          <text x="134.2" y="228" class="t-edge-emphasis" font-size="8" text-anchor="middle">abstract relevant structure</text>
+        <g data-edge-from="physical" data-edge-to="ontology" data-edge-label="select processes and scale" data-edge-key="0" data-edge-id="physical-abstraction">
+          <rect x="69.19999999999999" y="218" width="134.8" height="14" rx="3" class="c-mask"/>
+          <text x="136.6" y="228" class="t-edge-emphasis" font-size="8" text-anchor="middle">select processes and scale</text>
         </g>
         <g data-edge-from="value" data-edge-to="methodology" data-edge-label="orient purposes" data-edge-key="1" data-edge-id="value-guides-method">
           <rect x="739" y="797.5" width="82" height="14" rx="3" class="c-mask"/>
@@ -712,13 +727,17 @@ rect.c-bg-rect { fill: var(--bg); }
           <rect x="427.6" y="663.05" width="134.8" height="14" rx="3" class="c-mask"/>
           <text x="495" y="673.05" class="t-edge-emphasis" font-size="8" text-anchor="middle">organize action and checks</text>
         </g>
-        <g data-edge-from="realization" data-edge-to="ontology" data-edge-label="reopen modeled distinctions" data-edge-key="6" data-edge-id="failure-reopens-object">
-          <rect x="140.2" y="610" width="139.6" height="14" rx="3" class="c-mask"/>
-          <text x="210" y="620" class="t-edge-dashed" font-size="8" text-anchor="middle">reopen modeled distinctions</text>
+        <g data-edge-from="ontology" data-edge-to="realization" data-edge-label="realize and use model" data-edge-key="6" data-edge-id="model-in-realization">
+          <rect x="93.19999999999999" y="450.5" width="110.8" height="14" rx="3" class="c-mask"/>
+          <text x="148.6" y="460.5" class="t-edge-emphasis" font-size="8" text-anchor="middle">realize and use model</text>
         </g>
-        <g data-edge-from="realization" data-edge-to="epistemology" data-edge-label="test the explanation" data-edge-key="7" data-edge-id="result-tests-explanation">
-          <rect x="321" y="495" width="106" height="14" rx="3" class="c-mask"/>
-          <text x="374" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">test the explanation</text>
+        <g data-edge-from="realization" data-edge-to="ontology" data-edge-label="revise selection and model" data-edge-key="7" data-edge-id="failure-reopens-object">
+          <rect x="52" y="508" width="134.8" height="14" rx="3" class="c-mask"/>
+          <text x="119.4" y="518" class="t-edge-dashed" font-size="8" text-anchor="middle">revise selection and model</text>
+        </g>
+        <g data-edge-from="realization" data-edge-to="epistemology" data-edge-label="test observable correspondence" data-edge-key="8" data-edge-id="result-tests-explanation">
+          <rect x="297" y="495" width="154" height="14" rx="3" class="c-mask"/>
+          <text x="374" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">test observable correspondence</text>
         </g>
 
         <!-- Boundary labels (foreground masks keep routes out of titles) -->

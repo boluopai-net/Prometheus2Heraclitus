@@ -14,7 +14,7 @@
 | --- | --- |
 | 总体目的与相连的论证 | [窃火](docs/stealing-fire.zh-CN.md)：模型公司与全人类继续窃火；个体用可用的火培养生成能力。太阳的照亮表达通过实践取得的能力，日月表达阴阳有区别的运动；个人优先主义指引周围的安排如何适应人。 |
 | 明确的哲学主张 | [阴阳的基本观点](docs/core-views.zh-CN.md)：论证所用的本体论、理解方式与发展承诺。 |
-| 哲学、心理与工程怎样相接？ | [三位一体](docs/local-source-and-website.zh-CN.md)：同一物理现实、相对于问题的计算抽象、有区别的贡献，以及本地、仓库和网页形式。 |
+| 哲学、心理与工程怎样相接？ | [三位一体](docs/local-source-and-website.zh-CN.md)：同一变化的物理现实、共同发展的计算模型、有区别的贡献，以及本地、仓库和网页形式。 |
 | 外化的个人模型怎样组织分布式认知？ | [隐喻、类比与个人的自我改写](docs/metaphor-and-self-revision.zh-CN.md)：关系类比、外化、情境中的贡献、听说读写，以及有范围的哥德尔机比较。 |
 | 哲学怎样从实际参与中学习？ | [具身的实验哲学](docs/embodied-experimental-philosophy.zh-CN.md)：实践与科研循环、公开作品，以及可修订的边界与目的。 |
 | 个人优先怎样联系本体论与证据？ | [个人优先的人本主义](docs/personal-first-humanism.zh-CN.md)：具体的人、构造的描述、可错的探究、价值与多元方法。 |
@@ -27,7 +27,7 @@
 | 言说、否定、自我描述与回溯性意义 | [言说、自我表述与能指链](docs/lacan-and-description-logic.zh-CN.md)：哲学关系与有边界的形式比较。 |
 | 一致的支持、一致的结果与查询重写 | 偏好 harness 中的[一致性论证](docs/preference-harness.zh-CN.md#一致支撑与结果一致)与[查询重写](docs/preference-harness.zh-CN.md#查询重写与扬弃)：形式假设与扬弃类比的限度。 |
 | 有限方法、可还原性与抽象的代价 | [有限探究与节制的抽象](docs/finite-inquiry-and-abstraction.zh-CN.md)：解释收益、近似与可实现的推理。 |
-| 过程、模型、表达、在世界中的实现与美学 | [世界、过程与表达](docs/world-and-expression.zh-CN.md)：作品怎样既表达又改变一场相遇。 |
+| 过程、计算模型、表达、实现与美学 | [世界、过程与表达](docs/world-and-expression.zh-CN.md)：人和模型共同选取并表示过程、考察变化、实现安排，再通过后果修订；作品既表达又改变这场相遇。 |
 | 理解、可采取的行动、回应选择与支持的成本 | [参与、可用性与支持](docs/participation-and-support.zh-CN.md)：需要在具体情境中调查的区别，而非预先提供的个人模型。 |
 | 原始哲学来源及其解释限度 | [哲学阅读](docs/philosophical-readings.zh-CN.md)：赫拉克利特、阴阳与太极、黑格尔、弗洛伊德和拉康。 |
 | 心理过程怎样建模与检验？ | [心理阅读](docs/psychological-readings.zh-CN.md)：过程与经验、心理理论与基础、信念推理与互动。 |

@@ -48,6 +48,15 @@ not identities, completed stages, or requirements to master three disciplines:
 | Engineering and an actual environment | Usually deepen psychological or preference understanding, then philosophical articulation. Other existing foundations may justify another entrance. |
 | Two contributions already available | Develop the missing connection: practical realization, personal grounding, or philosophical articulation. |
 
+Where the purpose includes computer-mediated engineering, person and counterpart
+jointly develop the relevant computational articulation and environment: the selected activity,
+its states and conditions, continuity through change, and observable consequences.
+Files and tools realize and use that model; they do not supply its meaning merely
+by existing. Division of work runs through problem selection, modeling,
+realization, and feedback; the person need not personally complete an upstream
+model before the counterpart can contribute. [Harness adaptation](harness-adaptation.md#derive-behavior-in-context)
+develops this connection at the precision the actual use needs.
+
 An arrangement can reflect preference, constraint, habit, or a default.
 Engineering evidence therefore suggests questions rather than transparently
 revealing a person. If a psychological account is difficult to form, help
@@ -150,12 +159,16 @@ action without establishing shared inner mechanisms or model sentience.
 
 Read in both directions:
 
-`philosophical or literary expression ⇄ relational understanding ⇄ working behavior`
+`philosophical or literary expression ⇄ understanding of activity and relations ⇄ working behavior`
 
 An image can hold more possibilities than one interpretation. Develop the
-relations the current problem needs, show their practical consequences, and
-leave other possibilities open. A contextual realization can be precise
-without becoming the image's final definition.
+processes and relations the current problem needs, show their practical
+consequences, and leave other possibilities open. When realized through a
+computer, their representation must retain the meanings of the relevant
+states, relations, and changes so actual use can correct it. This can be a
+natural-language account interpreted by a model, without formalizing the whole
+person or encounter. A contextual realization can be precise without becoming
+the image's final definition.
 
 For example, interpreting protection of attention as “never ask a question”
 would erase the difference between transferring unfinished implementation work

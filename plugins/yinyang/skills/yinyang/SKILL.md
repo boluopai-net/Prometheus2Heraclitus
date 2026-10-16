@@ -62,9 +62,14 @@ the answering material and shared living environment. The
 
 Modest naturalism names the framework's grounding in the changing natural world;
 contemporary fire monism articulates its dynamic unity. Philosophy, psychological
-activity, and engineering are physically realized within it. Computational
-ontology abstracts question-relevant objects, relations, and transformations;
-interacting event streams articulate continuity without exhausting either
+activity, and engineering are physically realized within it. Engineering ontology
+here articulates selected processes for computer representation and relevant
+simulation: states, persisting objects, relations, constraints, and changes.
+Person and language model form the question and computational model together,
+divide contributions throughout reasoning, implementation, and feedback, and
+revise through their actual use. Clear model-interpreted language can carry
+these relations; adequacy depends on its use and observable correspondence.
+Interacting event streams articulate continuity without exhausting either
 participant. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
 develops this account, and [Trinity](references/docs/local-source-and-website.md)
 connects its differentiated levels. Literary constructions can orient a relation;

@@ -39,8 +39,9 @@ The foundation is a contemporary development of [Heraclitean fire (B30)](https:/
 becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_51).
 Person and model are understood as interacting event streams: continuations
 of sensing, expression, interpretation, and action that generate and revise
-local views. This computational account abstracts question-relevant relations
-within a common physical reality. It does not establish identical mechanisms
+local views. This process ontology also grounds the engineering account:
+question-relative models make selected continuities and changes representable
+in a computer and open to simulation where useful. This does not establish identical mechanisms
 or a complete reduction of experience. [Stealing fire](stealing-fire.md#from-living-fire-to-interacting-event-streams)
 develops the foundation; [The stream and time](flow-and-time.md) develops its
 continuity. [YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
@@ -205,19 +206,27 @@ model or local arrangement is superior.
 ## YY-09 · Distinguish ontology, epistemology, value, and methodology
 
 Modest naturalism names the framework's worldly scope; contemporary fire
-monism articulates the dynamic unity of that world. Philosophy, psychology,
-and engineering are physically realized within it. The whole framework uses
-computational abstractions over this common reality. For a question,
-computational ontology articulates relevant events,
-states, roles, relations, and transformations. Shared physical grounding does
-not itself supply a feasible calculation, establish detailed reduction, or
-erase differences among explanatory levels. Useful abstraction weighs the
-distinctions gained against the assumptions, representation, inference, and
-revision they require.
+monism chooses a process ontology for its dynamic unity. Philosophy, psychology,
+and engineering are physically realized within this one reality. Here engineering
+ontology is its question-relative computational articulation: events, states,
+persisting objects, relations, constraints, and transition rules through which
+a computer can represent a selected part and simulate relevant changes where
+needed. Object identity and stable views are bounded within this continuity.
+Usable representation connects these distinctions to actual computer consumers
+and observations; naming them in a file is insufficient. Natural-language
+interpretation or executable rules can realize different uses. Shared grounding
+does not itself supply detailed reduction or feasible calculation. Useful
+abstraction weighs its distinctions against their assumptions and costs.
+
+Person and language model develop and use this articulation together. Their
+division of recognition, explicit reasoning, construction, and assessment runs
+through question formation, model selection, simulation, implementation, and
+feedback. Both can generate and judge; current capabilities and modalities
+shape contributions without requiring the person to internalize them all.
 
 | Dimension | Its question |
 | --- | --- |
-| Ontology | Which objects, relations, and transformations make the inquiry articulable? |
+| Ontology | What reality is being understood, and how do selected objects persist, relate, and change in its working model? |
 | Epistemology | What warrants an interpretation or inference, and when should it change? |
 | Value | What is worth pursuing, for whom, and at whose cost? |
 | Methodology | How should inquiry and collaboration be carried out and maintained? |
@@ -226,14 +235,16 @@ These intersecting questions distinguish responsibilities, rather than file
 types or a fixed hierarchy. YinYang primarily develops ontology and epistemology
 and articulates a value orientation; specialist Skills supply their methods.
 Practice brings all four into action and revision. Concrete implementation
-gives practice an executable, inspectable form; it does not replace value or
+gives practice a working, inspectable form; it does not replace value or
 add a fifth axis of the same kind. A tool's success and an improved life
 therefore require different evidence.
 
 In process modeling, distinguish actual interaction, its partial event records,
-and candidate computational representations. Propose structures from records,
-derive consequences within candidates, and compare them with further
-interaction. Chronology alone establishes no cause; revising a representation
+and candidate computational representations. Hypothesis formation, deduction,
+and empirical comparison develop and test these models; they do not define what
+makes the ontology computational. Compare consequences with further interaction
+and revise the model, its selection, or its realization where the mismatch lies.
+Chronology alone establishes no cause; revising a representation
 differs from changing the participant. Human and AI activity may share an
 agent-level representation while differing in state, update rules, and
 realization. This is a research orientation requiring empirical support,

@@ -101,11 +101,18 @@ with their private owner.
 
 ## Philosophical ground
 
-The framework begins from one physical reality. Its computational ontology
-abstracts the objects, relations, and transformations relevant to an inquiry;
-person and model can be understood as interacting event streams without being
-reduced to the same mechanism. Coherent working concepts support stability
-while evidence and competing interpretations remain open to correction.
+The framework begins from one changing physical reality, articulated through
+contemporary fire monism as process ontology. Its engineering ontology gives
+selected processes a computational model: objects that persist, states,
+relations, constraints, and changes that a computer can represent and, where
+useful, simulate. Person and language model develop the question, model,
+realization, and feedback together, dividing contributions by actual capability
+and purpose. Representations need usable meanings and correspondence to
+observations; clear model-interpreted language can serve that use. The
+[World essay](references/docs/world-and-expression.md) develops this connection.
+Interacting event streams do not imply identical mechanisms. Coherent working
+concepts support stability while evidence and competing interpretations remain
+open to correction.
 
 Sun and Moon express differentiated generation, reception, and shaping. Person
 and model participate in those movements, retaining or exchanging emphases;

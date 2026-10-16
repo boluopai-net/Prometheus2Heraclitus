@@ -8,8 +8,10 @@
 and engineering within it.** Philosophical thinking, psychological activity,
 and engineering practice are physically realized activities. Their unity is
 ontological before it becomes a practical loop: they occur within, understand,
-and transform the same world. Their differences concern what each makes
-intelligible and how it works.
+and transform the same world. Contemporary fire monism understands this reality
+as process: the participants, their models, and their arrangements form, persist,
+and change within it. Their differences concern what each makes intelligible
+and how it works.
 
 ## One physical reality, differentiated levels
 
@@ -20,12 +22,24 @@ conditions in which those activities continue. Thinking about an environment,
 experiencing it, and modifying it can be different aspects of one connected
 physical process.
 
-Computational ontology provides upper-level abstractions for this work. Events,
-representations, goals, constraints, and transformations make relevant relations
-available without reconstructing every microscopic state. Saying that all three
-have a physical basis does not itself supply the variables, bridges, or feasible
-calculation needed to answer their questions. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
-and the [layers diagram](../diagrams/layers.html) develop that passage.
+Here **engineering ontology is the computational articulation of a selected
+part of that process**. Person and language model develop the question and
+select its boundaries, scales, and continuities together. Events, states,
+persisting objects, relations, constraints, and transition rules specify what
+a computer is to represent and which changes it can usefully simulate. Objects
+and stable views retain their place as bounded continuities within process.
+The philosophical premise thereby informs the engineering model's meaning,
+rather than leaving engineering with a disconnected list of things.
+
+This model acquires a working body in data, model-interpreted language, programs,
+prompts, tools, and interfaces. Their adequacy depends on how the actual consumer
+uses the distinctions and how their results correspond to observations.
+Simulation examines consequences under the model's assumptions; actual use
+tests whether those assumptions and their realization serve the purpose. The
+shared physical basis supplies neither these bridges nor a feasible computation.
+[World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+develops this passage through a source-and-preview example; the
+[layers diagram](../diagrams/layers.html) presents its relationships.
 
 A shared basis connects the inquiries without making their explanations
 interchangeable. The physical occurrence of an argument does not settle its
@@ -39,7 +53,7 @@ establish its bridges to observations, or make its computation feasible.
 
 | Maintained material | What it contributes |
 | --- | --- |
-| YinYang's common philosophy, beyond the five situated accounts | A general ontology and its engineering articulation: objects, roles, relations, processes, and transformations that organize a working environment. Its arguments also address knowledge and value. |
+| YinYang's common philosophy, beyond the five situated accounts | A process ontology and its question-relative computational articulation: how objects persist and change, how a computer can represent selected relations, and how actual consequences correct that model. Its arguments also address knowledge and value. |
 | The five accounts: encounter, user model, counterpart and relationship, situated use, and sources | Ontology and epistemology for this encounter: who participates and how they relate, together with the evidence, interpretation, correction, and use through which that understanding develops. |
 | Supporting `personal/` material and its original sources | Grounding for the philosophy and the five accounts: relevant experience, purposes, expression, and environmental evidence. Public intellectual sources also ground the general philosophy. |
 | Specialist Skills | Methodology: how to investigate, teach, write, implement, and maintain the work. Tools and running arrangements give these methods practical effect. |
@@ -55,7 +69,19 @@ develops the value and direction of this practice.
 
 **All three already have physical realization; engineering deliberately reorganizes its conditions.** Programs require machines, energy, and time; thought and interaction involve embodiment, perception, and action. Physics investigates material conditions, while engineering constructs, measures, and adjusts arrangements within them. Their common basis does not wait for engineering to make philosophy or psychology physical.
 
-For example, “understanding can be supported jointly by a person and their environment” is a philosophical view open to argument. Observing how someone continues thinking with records and a model concerns psychology and knowing. Building an environment that retains context, presents relations, and accepts correction is engineering. Its help or resistance returns to assess the view and personal model. [Philosophical readings](philosophical-readings.md), [psychological readings](psychological-readings.md), and [engineering readings](engineering-readings.md) supply sources for these contributions.
+For example, “understanding can be supported jointly by a person and their
+environment” is a philosophical view open to argument. Investigating how the
+person and model continue a question through records concerns psychology and
+knowing. Together they can model what counts as relevant context, which change
+should retain or replace it, and what would show successful continuation.
+Realizing those relations in retrieval, prompts, and tools is engineering.
+Use returns evidence about both the arrangement and the view that guided it.
+The person and model divide work throughout this same chain: recognition,
+explicit development, construction, and assessment can inform one another
+without requiring all capability to become internal to the person. Both can
+generate and judge; current modalities and task needs shape their contributions.
+[Philosophical readings](philosophical-readings.md), [psychological readings](psychological-readings.md),
+and [engineering readings](engineering-readings.md) supply sources for these contributions.
 
 ## Philosophy, psychology, and engineering: develop the missing connection
 
@@ -295,6 +321,8 @@ changes alter its organization.
 
 The resulting unity is active: philosophy makes a relation intelligible,
 psychology connects it to lived participants, and engineering reorganizes the
-conditions of its continuation. Local practice, maintained source, and readable
+conditions of its continuation through a computational model. Person and model
+carry this movement together; feedback can revise their question, model,
+realization, and philosophical understanding. Local practice, maintained source, and readable
 pages give that work places to develop. All occur in the same physical world,
 whose responses can change both the work and its makers.

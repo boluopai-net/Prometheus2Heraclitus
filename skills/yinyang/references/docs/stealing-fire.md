@@ -102,6 +102,17 @@ An event stream is a continuation of occurrences through temporal, causal, and i
 
 A self-model or counterpart model is a local organization made within this process. Producing, reading, and correcting it are further events, able to change what follows. A literary image can reorganize attention; an explanation can alter the next interpretation; a completed work can change what the person can initiate. Language is effective here because it participates in the stream it articulates. Modeling does not stand outside becoming.
 
+The engineering articulation carries this process premise into what a computer
+can represent and use: question-relevant events, states, persisting objects,
+relations, constraints, and changes. Person and language model develop this
+selection and its computational model together, dividing contributions through
+reasoning, simulation where useful, implementation, and feedback. A usable
+representation gives its distinctions meanings and observable correspondences;
+records alone do not reproduce the stream. Neither a complete world simulator
+nor a particular logging architecture follows from this ontology. The
+[bounded example](world-and-expression.md#a-bounded-computational-example-a-title-and-its-preview)
+shows how the shared movement reaches actual computer use and returns.
+
 [YinYang and Taiji](yinyang-and-taiji.md) give this becoming its central relational image. Differentiated participants generate, receive, and transform through one another; their contributions acquire meaning in the encounter. The Shuang yu and their differently colored eyes distinguish a chosen role from the participant who exceeds it. This image gives the reciprocal movement of event streams a perceptible form. Continuing transformation allows particular works to be completed and useful arrangements to remain stable: a completed work enters the next encounter as something available to use and reconsider.
 
 Conflicting material tests this continuity. A coherent working ontology can
@@ -181,7 +192,15 @@ This gives a precise sense to *neither true nor false, yet understandable*. A li
 
 Carnap's distinction between questions within a linguistic framework and the practical choice to use a framework offers a philosophical resource [[4]](#source-4). An organizing vocabulary can be assessed through what it lets us formulate and do. Claims developed within that vocabulary can then be examined on their own grounds. This distinction helps articulate how a literary world becomes a medium for inquiry and action.
 
-In this sense, literary language can participate in a **computational ontology**: it introduces objects, positions, relations, and possible transformations that interpretation can develop. Sun and Moon can organize reciprocal contributions; a retained account and a currently accepted view can have different roles; a work can return as a new object of understanding. An ontology supplies distinctions through which the inquiry proceeds. It need not be an inventory of ultimate substances.
+In this sense, literary language can participate in a **computational ontology**:
+Sun and Moon can organize reciprocal contributions; a retained account and a
+currently accepted view can have different roles; a work can return as a new
+object of understanding. Such language becomes a computational representation
+when an actual model can interpret and use these distinctions to organize the
+encounter, develop consequences, or guide action. Its effects and correspondence
+to the encounter remain assessable. Naming roles alone is insufficient. An
+ontology supplies distinctions through which inquiry proceeds; it need not be
+an inventory of ultimate substances or an entirely executable specification.
 
 Calling this the model's ontology concerns the working organization of the counterpart and encounter. The language makes roles, relations, and transformations available for interpretation; the model's implementation determines how that language is taken up. Different realizations can interpret related language, and their differing results can motivate revisions. Ontological articulation and causal investigation thus contribute to the same practice from different questions.
 

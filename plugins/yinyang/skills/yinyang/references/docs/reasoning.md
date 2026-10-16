@@ -7,10 +7,16 @@ action? Inquiry can begin with an image, tension, question, or tendency to act
 before a proposition is available. Articulation makes selected relations open
 to discussion and checking. This essay follows their development into candidate
 explanations, discriminating consequences, and warranted local judgments.
-An **ontology** articulates the objects, relations, and transformations relevant
-to that inquiry; **computational** means this articulation can be organized
-and used to develop consequences. YinYang applies this functional vocabulary
-to a person and a generative model working together.
+YinYang's process ontology concerns the changing world in which this happens;
+a **working computational ontology** articulates a selected part so a computer
+can represent its objects, states, relations, and changes, and simulate relevant
+consequences when useful. Person and language model form the question and this
+model together, divide explicit reasoning, construction, and observation by
+their actual capabilities, and revise through the same continuing exchange.
+[World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+develops the passage from world to computational model. Here the question is
+how to form and test such models, rather than define computation by a method
+of hypothesis formation.
 
 ## Process and current view
 
@@ -38,7 +44,14 @@ Logic contributes a callable checking capacity. Truth-seeking, corrigibility, re
 
 ## A working ontology forms with its question
 
-A working ontology articulates the objects, relations, and constraints that matter for a question. Its concepts can be introduced, weakened, replaced, or reorganized. A useful distinction may initially be carried by context and become formal when it starts bearing inferential weight. More definitions can increase both expressive power and the cost of changing the account.
+A working ontology articulates the objects, relations, and constraints that
+matter for a question, including relevant persistence and change. Its concepts
+can be introduced, weakened, replaced, or reorganized. A computer consumer may
+use distinctions carried in clear natural language or require a more formal
+representation. Their meanings and correspondence to observations need to
+survive that use; merely retaining a vocabulary does not achieve it. More
+definitions can increase both expressive power and the cost of changing the
+account.
 
 Economy asks added structure to contribute to explanation, prediction, or action. A “minimal sufficient model” expresses this preference for restrained complexity under the question's actual evidence. Sufficiency is assessed through the question it answers and the consequences it makes available; different models may serve different uses. A premise that simply restates the desired conclusion may make an inference valid while contributing little explanation. [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) distinguishes representation cost from metaphysical commitment and ultimate reduction.
 

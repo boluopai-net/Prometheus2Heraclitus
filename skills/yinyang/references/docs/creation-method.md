@@ -22,9 +22,9 @@ Specialist Skills contribute methods and knowledge that can also correct the
 premises. Within **Prometheus2Heraclitus**, these contributions work together.
 
 The creative problem is how a philosophical or literary understanding becomes
-effective in that environment. The method below follows the passage from an
-image through an explicit relation to an arrangement whose behavior can be
-examined. Its purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
+effective in that environment. The method below connects an image with the
+processes and relations it helps us understand, their computational articulation,
+and an arrangement whose behavior can be examined. Its purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
 borrow available generative capacity and develop one's understanding, judgment,
 and agency through practice. What the arrangement makes possible in a person's
 life gives this authorship its point.
@@ -63,17 +63,43 @@ how their relationship can change. Both participants can generate and judge,
 even when they choose different responsibilities. The selected interpretation
 gives the image practical direction without exhausting its possibilities.
 
-Give those relations a working realization in the affected environment. A prompt
-can change how intentions are interpreted; a role can change who carries a
-decision; a tool or memory interface can make a contribution possible. A Skill
-can provide a discoverable entrance and route to deeper material. Instructions,
-examples, and tools make selected relations effective. Use precise interfaces where
-execution depends on them. Choose the depth and mechanics from the actual
-consumer and task, rather than expanding every idea into another rule.
+For computer-mediated engineering, person and model jointly articulate the
+selected process as a computational ontology. Develop the boundary and scale
+relevant to the purpose within that cooperation:
+what occurs, which states matter, what persists through change, and which
+relations, constraints, and transition conditions connect the occurrences.
+Objects and static views can express what remains stable at that scale. The
+[world and expression account](world-and-expression.md#physical-ground-and-computational-abstraction)
+connects this selection to the changing physical world; the engineering model
+makes the selected part available for computer representation and examination,
+and for simulation where its modeled changes support that use.
 
-These connected levels can develop through repeated exchanges:
+Give its distinctions meanings that can meet actual observations. For example,
+“awaiting a personal judgment” describes work whose next action depends on a
+judgment the person must supply; a routine implementation choice is a different
+condition. A correction changes the working interpretation while retaining the
+request to which it responds. Merely storing these names would not establish
+that correspondence. A natural-language account can already be a usable
+computational representation when a model interprets and acts through it;
+formal schemas or executable simulations are needed only where the use calls
+for their precision.
 
-`expression ↔ relational understanding ↔ working realization ↔ evidence`
+Within the same collaboration, choose prompts, roles, data, tools, and interfaces
+to realize and use this articulation in the affected environment. A prompt can guide interpretation;
+a tool can make a transition possible; a memory interface can preserve the
+relevant continuity. A Skill can provide the entrance and deeper material.
+Read the result against both the modeled relation and the purpose: a failure
+may call for revising the process selected, the meaning of a state, or the
+implementation. The person may express a purpose or notice a mismatch, while
+the model develops distinctions, constructs the work, and checks its effect;
+either can propose a change to the whole. Contributions follow current
+capabilities and modality conditions, extending from problem finding through
+feedback. Model and realization can develop together in ordinary work; this
+dependency does not require a separate specification before every task.
+
+These connected contributions develop through repeated exchanges:
+
+`expression ↔ understood process and relations ↔ computational articulation ↔ working realization ↔ evidence`
 
 Metaphor can gather relationships before each has a separate formulation;
 analogy develops selected connections into candidate implications. Their

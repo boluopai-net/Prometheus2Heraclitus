@@ -57,10 +57,16 @@ supports; assess the relevant change through actual participation.
 
 Modest naturalism names the framework's scope in one changing natural world;
 its contemporary fire monism articulates that world's dynamic unity. This is
-the physical ground of philosophy, psychology, and engineering. Computational
-ontology abstracts question-relevant events, objects, relations, constraints,
-and transformations from it. The streams being understood exceed their records
-and models. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
+the physical ground of philosophy, psychology, and engineering. Engineering
+ontology here is the computational articulation of a question-selected part
+of that process: events, states, persisting objects, relations, constraints,
+and transition rules that a computer can represent and use to simulate relevant
+changes where needed. Person and language model form and revise the question,
+model, realization, and interpretation of feedback together; their contributions
+are distributed throughout the same chain. Usable representations connect
+meanings to actual consumers and observations, including through clear
+model-interpreted language where appropriate. Records and models do not exhaust
+the streams being understood. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
 owns the developed connection. Physical dependence, particular realization
 mechanisms, full reduction, and feasible computation remain distinct questions.
 The Trinity essay connects the three physically realized activities; its local
