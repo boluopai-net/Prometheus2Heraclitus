@@ -129,4 +129,4 @@ GitHub 集合 ZIP 包含完整网站；网站负责展示、阅读与包介绍�
 
 ## 许可
 
-阴阳原创材料采用 [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)，仅限非商业性再利用；其他可复用包保留 [MIT](LICENSE-MIT)。适用范围、署名、单独权利与旧版有效授权见[集合许可说明](LICENSING.md)及各包的 `LICENSE`。
+阴阳原创材料采用 [CC BY-NC-SA 4.0](LICENSE)，仅限非商业性再利用；其他可复用包保留 [MIT](LICENSE-MIT)。适用范围、署名、单独权利与旧版有效授权见[集合许可说明](LICENSING.md)及各包的 `LICENSE`。

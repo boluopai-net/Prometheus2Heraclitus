@@ -29,5 +29,5 @@ Earlier valid grants remain unaffected; each designated version and its
 applicable license determine its rights.
 
 The complete CC BY-NC-SA 4.0 terms are provided in
-[LICENSE-CC-BY-NC-SA-4.0](LICENSE-CC-BY-NC-SA-4.0); their scope remains as
+[LICENSE](LICENSE); their scope remains as
 designated above and in [skills/yinyang/LICENSE](skills/yinyang/LICENSE).

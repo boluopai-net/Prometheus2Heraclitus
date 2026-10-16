@@ -155,4 +155,4 @@ Only authorized reusable material belongs in this collection.
 
 ## License
 
-Original YinYang material uses [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0), for noncommercial reuse; other reusable packages retain [MIT](LICENSE-MIT). See the [collection scope notice](LICENSING.md) and each package’s `LICENSE` for applicability, attribution, separate rights, and earlier valid grants.
+Original YinYang material uses [CC BY-NC-SA 4.0](LICENSE), for noncommercial reuse; other reusable packages retain [MIT](LICENSE-MIT). See the [collection scope notice](LICENSING.md) and each package’s `LICENSE` for applicability, attribution, separate rights, and earlier valid grants.
