@@ -37,8 +37,8 @@ uses the distinctions and how their results correspond to observations.
 Simulation examines consequences under the model's assumptions; actual use
 tests whether those assumptions and their realization serve the purpose. The
 shared physical basis supplies neither these bridges nor a feasible computation.
-[World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
-develops this passage through a source-and-preview example; the
+[World, process, and expression](world-and-expression.md#a-bounded-computational-example-simulating-a-cooling-experiment)
+develops this passage through a cooling experiment; the
 [layers diagram](../diagrams/layers.html) presents its relationships.
 
 A shared basis connects the inquiries without making their explanations
@@ -197,9 +197,9 @@ controls by agreement.
 These images, the three disciplines, and the three practical forms answer
 different questions: how participation is imagined, what understanding and
 ability contribute, and where work continues. A local program's failure, a
-collaborator's alternative, and a reader's objection all belong to Earth. None
-of the triads assigns one participant, discipline, or medium to another. Their
-relations are made through the particular work.
+collaborator's alternative, and a reader's objection all belong to Earth. In
+the movement of the work, these triads illuminate one another and gather into
+one image.
 
 ## Why organize them with a language model?
 
@@ -326,3 +326,11 @@ carry this movement together; feedback can revise their question, model,
 realization, and philosophical understanding. Local practice, maintained source, and readable
 pages give that work places to develop. All occur in the same physical world,
 whose responses can change both the work and its makers.
+
+The trinity also takes shape in this image:
+
+| Philosophy | Psychology | Engineering |
+| --- | --- | --- |
+| Worldview | Epistemology | Methodology / realization |
+| Webpage | Local environment | GitHub |
+| Sun | Moon | Earth |
