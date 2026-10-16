@@ -18,14 +18,6 @@ export default {
     if (url.pathname === '/robots.txt') return new Response('User-agent: Googlebot\nDisallow: /api/\nDisallow: /admin/\n\nUser-agent: Bingbot\nDisallow: /api/\nDisallow: /admin/\n\nUser-agent: *\nDisallow: /\n', {headers:{...privateHeaders,'Content-Type':'text/plain'}});
     const content = await contentResponse(request, env);
     if (content) return content;
-    if (env.ASSETS) {
-      const response = await env.ASSETS.fetch(request);
-      const result = new Response(response.body, response);
-      result.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
-      result.headers.set('X-Content-Type-Options', 'nosniff');
-      result.headers.set('X-Content-Source', 'bundled-bootstrap');
-      return result;
-    }
     return new Response('Service temporarily unavailable', {status:503,headers:privateHeaders});
   },
 };

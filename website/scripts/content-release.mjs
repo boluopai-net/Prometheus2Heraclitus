@@ -75,8 +75,18 @@ async function remote(command,args) {
   const origin = siteURL(args.site), key = await credentials();
   const call = async (path,method='GET',body) => {
     let response;
-    try { response = await fetch(`${origin}${API}${path}`, {method,body,headers:{Authorization:`Bearer ${key}`},signal:AbortSignal.timeout(60000),redirect:'error'}); }
-    catch { throw Error('Release request outcome unknown; use status/reconcile before retrying.'); }
+    for (let attempt=0; ; attempt++) {
+      const started=Date.now();
+      try {
+        response = await fetch(`${origin}${API}${path}`, {method,body,headers:{Authorization:`Bearer ${key}`},signal:AbortSignal.timeout(60000),redirect:'error'});
+        break;
+      } catch (failure) {
+        const retry=['GET','HEAD'].includes(method) && failure.cause?.code === 'ECONNRESET' && attempt<2;
+        console.error(JSON.stringify({method,path:API+path,transportError:failure.name,causeCode:failure.cause?.code || null,elapsedMs:Date.now()-started,retry}));
+        if (!retry) throw Error('Release request outcome unknown; use status/reconcile before retrying.');
+        await new Promise(resolve => setTimeout(resolve,250*(attempt+1)));
+      }
+    }
     if (method === 'HEAD') return response;
     const result = await response.json().catch(() => ({}));
     if (!response.ok) throw Error(`Release request failed (${response.status}): ${result.error || 'unavailable'}`);
@@ -93,12 +103,25 @@ async function remote(command,args) {
   let uploaded = 0, reused = 0;
   if (['upload','publish'].includes(command)) {
     const known = new Set(command === 'publish' && status.active ? (await call(`/manifests/${status.active.manifest}`)).files.map(file => file.sha256) : []);
-    for (const hash of new Set(local.manifest.files.map(file => file.sha256))) {
-      if (known.has(hash)) { reused++; continue; }
-      const head = await call(`/objects/${hash}`,'HEAD');
-      if (head.ok) { reused++; continue; }
-      if (head.status !== 404) throw Error(`Object readback failed (${head.status})`);
-      await call(`/objects/${hash}`,'PUT',await readFile(join(local.base,'objects',hash))); uploaded++;
+    const objects=[...new Set(local.manifest.files.map(file => file.sha256))];
+    const pending=objects.filter(hash => { if (known.has(hash)) { reused++; return false; } return true; });
+    let cursor=0;
+    const failedObjects=[];
+    const outcomes=await Promise.allSettled(Array.from({length:Math.min(4,pending.length)},async () => {
+      while (cursor<pending.length) {
+        const hash=pending[cursor++];
+        try {
+          const head=await call(`/objects/${hash}`,'HEAD');
+          if (head.ok) { reused++; continue; }
+          if (head.status !== 404) throw Error(`Object readback failed (${head.status})`);
+          await call(`/objects/${hash}`,'PUT',await readFile(join(local.base,'objects',hash))); uploaded++;
+        } catch (failure) { failedObjects.push(hash); throw failure; }
+      }
+    }));
+    const failed=outcomes.find(outcome => outcome.status === 'rejected');
+    if (failed) {
+      console.error(JSON.stringify({phase:'upload',confirmed:uploaded+reused,total:objects.length,uploaded,reused,failedObjects,unattempted:pending.length-cursor}));
+      throw failed.reason;
     }
     if (command === 'upload') return {manifest:local.hash,uploaded,reused};
   }
@@ -107,7 +130,16 @@ async function remote(command,args) {
     if (command === 'stage') return result;
   }
   if (['validate','publish'].includes(command)) {
-    for (let part=0; part<Math.ceil(local.manifest.files.length/PART_SIZE); part++) await call(`/validate/${local.hash}/${part}`,'POST');
+    const parts=Math.ceil(local.manifest.files.length/PART_SIZE);
+    let cursor=0;
+    const outcomes=await Promise.allSettled(Array.from({length:Math.min(4,parts)},async () => {
+      while (cursor<parts) {
+        const part=cursor++;
+        await call(`/validate/${local.hash}/${part}`,'POST');
+      }
+    }));
+    const failed=outcomes.find(outcome => outcome.status === 'rejected');
+    if (failed) throw failed.reason;
     if (command === 'validate') return {manifest:local.hash,parts:Math.ceil(local.manifest.files.length/PART_SIZE),validated:true};
   }
   // publish binds its CAS to the state seen before uploading, so a slow old release

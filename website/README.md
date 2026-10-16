@@ -29,10 +29,12 @@ Worker for routing and immutable public content snapshots. Runtime changes use
 `npm run build`; ordinary content generation uses the content release route
 below without a Worker build or deployment. Native Sites runtime publication
 uses the installed plugin's `scripts/build-site.mjs` helper, which invokes that
-project build. `scripts/build-preserved-site.mjs` snapshots
-the original static files into ignored `.static-assets/`, builds without deleting
-the source projection, then restores every original file into `dist/client/`.
-The Worker serves these assets with `X-Robots-Tag: noindex, nofollow, noarchive`.
+project build. `scripts/build-preserved-site.mjs` preserves the tracked root
+projection, builds the Worker with the existing Vinext/Sites integration, then
+removes generated `dist/client/` and the emitted Wrangler asset configuration.
+Vite public-directory copying and the `ASSETS` binding/fallback are disabled.
+Public documents and resources come only from the selected R2 snapshot, with
+`X-Robots-Tag: noindex, nofollow, noarchive`.
 Its robots response permits Google/Bing to observe noindex on public documents,
 disallows their API/admin crawling, and disallows other crawlers. These controls
 request crawler cooperation; public reading does not prevent copying.
@@ -182,13 +184,21 @@ private and untouched. The updater route is deliberately before the generic
 API handler; old API retirement, redirects and robots retain precedence over
 document reads.
 
-Before initial seed, an empty bucket serves the current bundled assets, marked
-`X-Content-Source: bundled-bootstrap`. Successful first promotion writes the
-active pointer first, then permanently retires bundled fallback. If the marker
-write has an uncertain outcome, status plus `retire-bootstrap` (or identical
-promotion) repairs it while the active snapshot keeps serving. After seed,
-missing paths return 404, missing selected objects return 503, and a missing
-pointer/storage binding fails visibly; none can mix in stale bundled assets.
+The initial transition runtime (v127) retained bundled assets while seeding R2.
+Hosted readback showed that matching static assets could bypass the Worker despite
+the emitted `run_worker_first: true`; existing-page responses lacked all Worker
+headers while API and missing-path requests reached it. The following runtime
+removes deployed client assets and the ASSETS fallback. Deploy that runtime only
+after the publisher verifies the complete R2 seed, active pointer and snapshot
+reader. Tracked root `dist/` remains the Git authoring/export projection.
+
+Promotion writes the active pointer before the permanent bootstrap-retirement
+marker. An uncertain marker outcome can still be reconciled with status plus
+`retire-bootstrap` (or identical promotion), without interrupting active reads.
+There is no bundled fallback in the current runtime: missing paths return 404,
+missing selected objects return 503, and an absent active pointer or storage
+binding returns 503 regardless of the marker. No request can mix stale bundled
+assets into the selected snapshot.
 
 Canonical requests select one complete active manifest. Responses identify
 `X-Content-Manifest` and `X-Content-Source` without private metadata. The runtime
@@ -226,9 +236,10 @@ Dependency review (2026-10-12; revisit by 2026-11-12 or before changing runtime
 routes): npm audit against the official registry reports existing advisories
 in Next/ImageResponse/cache/image routes, RSC server functions, image/source-map
 parsers, and build/dev dependencies (glob/YAML, Undici, Vite, Wrangler, ws).
-No dependencies changed for comment deletion. The deployed custom Worker handles
-the allowlisted APIs and then ASSETS; it does not dispatch Next image/SSR/RSC
-routes, accept uploads, or parse visitor-provided SVG, source maps, YAML, or
+No dependencies changed for comment deletion or the content runtime. The custom
+Worker handles the authenticated content publisher, retired APIs and snapshot
+reader; it does not dispatch Next image/SSR/RSC routes, accept anonymous uploads,
+or parse visitor-provided SVG, source maps, YAML, or
 glob patterns. Dev services bind loopback. These advisories are deferred for
 this bounded release based on that inspected entrypoint; this is not a clean
 dependency audit or a claim that these versions are generally safe. Reassess
@@ -277,8 +288,8 @@ The 2026-10-12 native npm audit against npmjs reported 1 critical, 21 high,
 no audit endpoint). They concern Next rendering/image/dev routes, React server
 functions, Vinext dependencies, and build/preview tools. The deployed Worker
 imports no framework request handler or connector fallback; its compiled entry
-contains feedback, retired-service responses,
-owner moderation, and ASSETS routing, so those framework
+contains retired-service responses, authenticated content publication and
+snapshot reads, so those framework
 routes are unreachable. Dependency upgrades are deferred rather than force-fixed;
 reassess advisories before introducing any framework request path or exposing a
 development server. Keep the lockfile and Sites build integration intact.
@@ -519,7 +530,8 @@ languages, correct stale names at their Markdown owner, then regenerate them.
 
 The public common repository carries its license scope and complete package licenses. Source downloads and GitHub collaboration are public. Link the canonical GitHub licensing scope from the rights sources and generated license reader; do not reintroduce access applications or codes.
 `dist/rights/{index.html,en/index.html}` are the tracked rights-page sources;
-`.static-assets/` and `dist/client/` are build projections. Maintain the
+Legacy `.static-assets/` and generated `dist/client/` are disposable build
+projections excluded from the runtime. Maintain the
 generated license introductions in `scripts/render-library.py` and the concise
 access distinction in `scripts/reader-pages.py` alongside those source pages.
 The original `meng` and `baby-heraclitus` article pages are never regenerated by

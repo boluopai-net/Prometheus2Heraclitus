@@ -239,10 +239,7 @@ export async function contentResponse(request, env) {
     if (pinned) { hash = pinned[1]; path = pinned[2]; }
     else {
       const current = await activeState(env.BUCKET);
-      if (!current.active) {
-        if (await env.BUCKET.head(retiredKey)) error(503, 'Content pointer unavailable');
-        return null;
-      }
+      if (!current.active) error(503, 'Content pointer unavailable');
       hash = current.active.manifest;
     }
     if (path !== '/' && !publicPath(path)) return new Response('Not found', {status:404, headers:baseHeaders});

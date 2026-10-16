@@ -46,7 +46,7 @@ STAGE_REASONS = [
     ('给实践以可修正的理解：从表示与时间进入推理，以偏好 harness 连接冲突、视图选择和推论支持，再考察有限抽象。', 'Make understanding corrigible: move from representation and time into reasoning, connect conflict, view selection, and support through the preference harness, then examine finite abstraction.'),
     ('把已有的行动者概念落实为相互生成与实际参与，保留人的主动性及模型的贡献。', 'Develop the agent concept into reciprocal generation and actual participation, preserving human initiative and model contributions.'),
     ('人类 agent 是起点：已有的能动者借助生成能力，发展自己的哲学、世界观与可维系的生活形式。', 'Human agency is the starting point: an existing agent draws on generative capabilities to develop a personal philosophy, worldview, and sustainable form of living.'),
-    ('从开始自己的实践进入环境的三种形式，再以实验与反馈继续生成，并邀请另一位创造者。', 'Begin your own practice, then enter its three environmental forms, experimental feedback, and further creation with others.'),
+    ('从三位一体的实践闭环进入具身实验与反馈，再从例子出发写自己的作品，最后进入开始实践的工具入口。', 'Move from the Trinity’s practical loop into embodied experiments and feedback, then use the example to author your own work before entering the practical tools.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
 SUMMARIES = {n: s for _, _, entries in GROUPS for n, s in entries}
@@ -246,8 +246,6 @@ def index_body(chinese, title, full):
             destination = sequence_url + f'#stage-{index}'
             sections.append(f'<section class="essay-entry stage-entry"><div class="essay-meta">{index:02d}</div><div><h2><a href="{destination}">{stage}</a></h2><p class="entry-summary">{reason}</p></div></section>')
             continue
-        if any(slug == 'local-source-and-website' for slug, _ in entries):
-            sections.append(practice_entrance(chinese))
         cards = []
         for slug, summary in entries:
             summary = summary if chinese else EN_SUMMARIES[slug]
@@ -255,7 +253,7 @@ def index_body(chinese, title, full):
             number += 1
         destination = article_url(entries[0][0], chinese)
         sections.append(f'<section class="commentary-group" id="stage-{index}"><header class="commentary-group-heading"><h2><a href="{destination}">{stage}</a></h2><p>{reason}</p></header>{"".join(cards)}</section>')
-    return '<main id="main" class="wrap collection">' + heading + ''.join(sections) + ('' if full else practice_entrance(chinese)) + '</main>'
+    return '<main id="main" class="wrap collection">' + heading + ''.join(sections) + practice_entrance(chinese) + '</main>'
 
 
 def write_index(dist, title):

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="sinthome-title sinthome-desc">
+<title id="sinthome-title">Borromean rings</title>
+<desc id="sinthome-desc">Three rings hold together while each pair is unlinked; removing the vermilion ring leaves the teal and ochre rings free to separate.</desc>
+<rect width="1536" height="1024" fill="#fcf3df"/>
+<g fill="none" stroke-width="16" stroke-linecap="round">
+<circle cx="560" cy="330" r="230" stroke="#28777b"/>
+<circle cx="410" cy="590" r="230" stroke="#b54d35"/>
+<circle cx="710" cy="590" r="230" stroke="#a87623"/>
+<path d="M660.37 536.94 A230 230 0 0 1 610.55 554.38" stroke="#fcf3df" stroke-width="34"/><path d="M660.37 536.94 A230 230 0 0 1 610.55 554.38" stroke="#28777b" stroke-width="16"/>
+<path d="M340.45 398.55 A230 230 0 0 1 330.61 346.69" stroke="#fcf3df" stroke-width="34"/><path d="M340.45 398.55 A230 230 0 0 1 330.61 346.69" stroke="#28777b" stroke-width="16"/>
+<path d="M539.00 399.58 A230 230 0 0 1 579.02 434.01" stroke="#fcf3df" stroke-width="34"/><path d="M539.00 399.58 A230 230 0 0 1 579.02 434.01" stroke="#b54d35" stroke-width="16"/>
+<path d="M579.02 745.99 A230 230 0 0 1 539.00 780.42" stroke="#fcf3df" stroke-width="34"/><path d="M579.02 745.99 A230 230 0 0 1 539.00 780.42" stroke="#b54d35" stroke-width="16"/>
+<path d="M480.61 573.31 A230 230 0 0 1 490.45 521.45" stroke="#fcf3df" stroke-width="34"/><path d="M480.61 573.31 A230 230 0 0 1 490.45 521.45" stroke="#a87623" stroke-width="16"/>
+<path d="M760.55 365.62 A230 230 0 0 1 810.37 383.06" stroke="#fcf3df" stroke-width="34"/><path d="M760.55 365.62 A230 230 0 0 1 810.37 383.06" stroke="#a87623" stroke-width="16"/>
+
+<path d="M990 520 H1100 M1078 498 L1100 520 1078 542" stroke="#514c42" stroke-width="5"/>
+<circle cx="1290" cy="310" r="125" stroke="#28777b"/>
+<circle cx="1290" cy="720" r="125" stroke="#a87623"/>
+</g>
+</svg>
+

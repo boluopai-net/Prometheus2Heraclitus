@@ -17,7 +17,6 @@ const managedLinux = readExecutionProfile() === "managed-linux";
 const localBindingConfig = {
   main: "./build/sites-worker.ts",
   compatibility_flags: ["nodejs_compat"],
-  assets: { binding: 'ASSETS', run_worker_first: true },
   d1_databases: d1
     ? [
         {
@@ -53,7 +52,7 @@ export default defineConfig(async ({ command }) => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
-    publicDir: '.static-assets',
+    publicDir: false,
     build: { emptyOutDir: false },
     server: {
       ...(managedLinux

@@ -10,7 +10,7 @@ const hash = value => createHash('sha256').update(value).digest('hex');
 test('public Worker: immutable releases, authority, closure and atomic activation', async t => {
   const built = await build({entryPoints:['build/sites-worker.ts'],bundle:true,write:false,format:'esm',platform:'browser'});
   const mf = new Miniflare({modules:true,script:built.outputFiles[0].text,compatibilityDate:'2026-05-15',
-    r2Buckets:['BUCKET'],bindings:{CONTENT_PUBLISH_KEY:key},serviceBindings:{ASSETS:() => new Response('current bundled homepage')}});
+    r2Buckets:['BUCKET'],bindings:{CONTENT_PUBLISH_KEY:key}});
   t.after(() => mf.dispose());
   const bucket = await mf.getR2Bucket('BUCKET');
   const call = (path, method='GET', body, authorized=true) => mf.dispatchFetch(`https://public.invalid${path}`,{method,body,headers:authorized ? {authorization:`Bearer ${key}`} : {}});
@@ -30,12 +30,19 @@ test('public Worker: immutable releases, authority, closure and atomic activatio
   const promote = (release, expected) => api('/promote','POST',JSON.stringify({manifest:release.digest,expected}));
   const status = async () => (await api('/status')).json();
 
-  await t.test('empty storage preserves current bundled homepage; retired APIs win', async () => {
-    assert.equal(await (await call('/')).text(),'current bundled homepage');
+  await t.test('empty storage fails closed without assets; retired APIs win', async () => {
+    assert.equal((await call('/')).status,503);
     assert.equal((await call('/api/releases/private-object')).status,410);
     assert.equal((await call('/api/visit/status')).status,200);
     assert.equal((await (await call('/api/visit/status')).json()).retired,true);
     assert.equal((await call('/robots.txt')).headers.get('content-type'),'text/plain');
+  });
+  await t.test('missing bucket fails closed while retired APIs remain available', async () => {
+    const unbound = new Miniflare({modules:true,script:built.outputFiles[0].text,compatibilityDate:'2026-05-15'});
+    try {
+      assert.equal((await unbound.dispatchFetch('https://public.invalid/')).status,503);
+      assert.equal((await unbound.dispatchFetch('https://public.invalid/api/releases/private')).status,410);
+    } finally { await unbound.dispose(); }
   });
   await t.test('all publisher operations reject anonymous callers; historical keys have no read route', async () => {
     await bucket.put('historical-private-download','PRIVATE');

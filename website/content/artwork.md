@@ -1,5 +1,30 @@
 # Essay artwork provenance
 
+## 2026-10-16 clarity revision
+
+The preference-harness and finite-inquiry illustrations below were replaced with built-in `image_gen.imagegen` outputs, inspected at full size. Their 1536 × 1024 scenes preserve the existing warm paper, ink and gouache style. Preference is shown as choosing a tree-lined route while checking a bridge report; abstraction is shown as a detailed town beside a simpler map preserving its route connections. Bilingual visible captions and alt text are owned by `scripts/article_art.py`.
+
+The sinthome cover now uses the code-native `dist/art/writing-a-sinthome.svg`, replacing the earlier notebook/plant/lamp cradle. It is an original six-crossing Borromean link diagram: teal passes over vermilion at both of their crossings, vermilion over ochre at both, and ochre over teal at both. Each pair is unlinked, while the complete link is Borromean. The right-hand pair shows removal of vermilion. This diagram presents the three-ring starting structure; the essay explains the additional ring in Lacan's sinthome repair and carries the image into this work's Trinity. Mathematical reference: [Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm); philosophical source: [Lacan, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), with the fourth element also in [16 June 1975, pp. 5–6](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19750616LacanJoycetheSinthomefromnotesbyEricLaurent.pdf).
+
+### preference-harness
+
+Asset: `dist/art/preference-harness.png`.
+
+Exact native generation prompt:
+
+> Use case: illustration-story. Asset: finished philosophy website editorial illustration, horizontal 3:2. Warm ivory textured paper, clean expressive charcoal ink outlines, restrained gouache in teal, vermilion, ochre. Friendly thoughtful small human and rounded mechanical helper. ONE clear cohesive tabletop scene, large objects legible on phone. Theme: preference selects a desired route; evidence and reasoning check feasibility. On a large simple map on the worktable, exactly TWO clearly separated candidate paths connect the same tiny home at left to the same large windmill at right: an upper gently curving vermilion route passes beside a drawn grove, a lower ochre route is direct. The human places a red heart token beside the grove on the upper route, visibly expressing preference for the shaded scenic route. The helper places a small magnifying glass above a simple report card showing the same grove and an intact little bridge, checking the preferred route; the helper's other hand traces that continuous upper route. Both paths are fully connected and passable, neither is broken or crossed out. Keep the heart choice, route continuity, and checking action prominent. No text, letters, numbers, labels, logos, watermark, bridge load weights, decorative complicated machinery, disjoint panels or collage. Clear visual narrative: choose what matters, then examine whether the chosen path works.
+
+### finite-inquiry-and-abstraction
+
+Asset: `dist/art/finite-inquiry-and-abstraction.png`.
+
+Exact native generation prompt:
+
+> Use case: illustration-story. Asset: finished editorial illustration for philosophy essay on economical abstraction, horizontal 3:2 1536x1024. Warm ivory paper, expressive charcoal ink outlines, subtle gouache teal vermilion ochre, friendly sophisticated picture-book style. Clear large simple shapes at phone size. One overhead oblique view of a tabletop: on LEFT sits a small detailed tangible town model with a red-roof home at lower left, a tall ochre windmill at upper right, a blue river down the middle, exactly ONE wooden bridge across the river in the center, one continuous road from home over bridge to windmill. Town has a few extra trees, flowerbeds, roof tiles, fence and tiny rocks. On RIGHT lies a large flat sheet with a simplified route map of that SAME town, showing the SAME red home at lower left and ochre windmill at upper right, SAME blue river down center, SAME single bridge and continuous road in the same layout. The simplified map retains these necessary connections but omits roof tiles, trees, flowers, fences and rocks. At the near edge a curious person points one finger at the bridge in the town and another at its matching bridge on the map, comparing with concentration. Map is large and readable, occupies half of composition. No written text, letters, numbers, labels, logos, watermark, arrows, grid, panels, floating magical imagery, unrelated objects. The preserved route and bridge between the matched distinctive endpoints are the central idea.
+
+The 2026-10-15 prompts below describe the earlier assets where replaced; they remain provenance for that revision.
+
+
 ## 2026-10-15 revision
 
 Twenty distinct, article-specific raster illustrations were generated with the built-in native `image_gen.imagegen` tool. Each published asset is 1536 × 1024 pixels (horizontal 3:2). The warm ivory, expressive ink-line and restrained gouache treatment uses cute, active figures to make each essay’s relationships concrete. These images replace the earlier landscape illustrations and reused article aliases.
