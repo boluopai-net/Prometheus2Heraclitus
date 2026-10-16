@@ -355,8 +355,9 @@ A finite person can borrow this fire without repeating its industrial acquisitio
 or exhausting their life pursuing every expansion of the Sun. For the chosen
 developmental purpose, participation, criticism, correction, and renewed
 generation cultivate what they can understand, judge, express, initiate, and
-sustain. The little fire person—Baby Heraclitus—names this continuing becoming:
-generated possibilities, desires, and judgments can change or conflict. Claims
+sustain. The little fire person emphasizes kindling further fire; Baby Heraclitus
+emphasizes that this creator is still changing. Generated possibilities, desires,
+and judgments can change or conflict. Claims
 remain answerable to evidence, and choices remain revisable. Capacities may become internalized or remain
 reliably distributed across supports. Reusable understanding, methods, works,
 software, and relations can accumulate as personal assets. Chasing each model
