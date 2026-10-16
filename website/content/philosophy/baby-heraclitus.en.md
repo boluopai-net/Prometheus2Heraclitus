@@ -2,18 +2,15 @@
 
 ## What kind of person do we want to cultivate?
 
-After borrowing capability, the question is how understanding, judgment, and
-creation keep developing in a person's life. [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/)
-has introduced agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/)
-has supplied a conditional rationale for openness and shared learning. Here Heraclitean fire and river
-give continuing becoming a character. “Baby” names open participation: still
-able to learn, play, be touched, and begin again. Willingness to change through
-encounters lets a person live out the relationships they later write;
-[literary programming](/philosophy/literary-programming/en/) will develop that writing.
+A finite life spent pursuing an ever-expanding Sun can be consumed by the pursuit. Model companies, researchers, and the wider collective continue stealing fire and making capabilities available; a person can borrow it without repeating the whole acquisition. If they choose to cultivate understanding, judgment, generation, and action, the next step is to bring that fire into practice: offer an intuition, let the model develop it, encounter criticism and correction, and generate further. [Stealing fire](/philosophy/stealing-fire/en/) develops this argument.
 
-Living with language models can be a mutual cultivation: the person guides the model toward understanding their purposes, and the model helps the person expand their capacities for understanding, generation, and action. The user is more than someone who states requirements and accepts answers; through shared work, they can also change themselves and become a more capable agent.
+**Borrow fire, use it to cultivate yourself, and become a little fire person able to kindle further fire. This little fire person is Baby Heraclitus.** The cultivation concerns someone still becoming, rather than a finished statue. The person already belongs to the world's becoming and already understands and acts; cultivation gives that participation greater capacity and a distinctive form.
 
-We call this aim of cultivation **Baby Heraclitus**:
+The baby can still be changed by encounters. Model-generated materials they read may be inconsistent with one another; in reading, choosing, and trying, they may also want one thing at one moment and another later, finding different accounts persuasive. What is received and what they generate become related through the encounter. Becoming the baby includes meeting these unsettled possibilities, continuing to learn, choose, act, and begin again. Receiving a finished work does not automatically produce growth; an ongoing relation with it opens the possibility of cultivation.
+
+[Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/) introduces agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/) develops the conditions of openness and shared learning. Here that cultivation receives a character. The model relation runs in both directions: the person guides the model toward understanding their purposes, and the model helps develop the person's capacities; objections can correct both participants' understanding. [Literary programming](/philosophy/literary-programming/en/) will develop how this relationship can be written and lived.
+
+A functional comparison helps make the character intelligible:
 
 **User ≈ embodied language model ≈ Baby Heraclitus.**
 
@@ -39,7 +36,11 @@ His emblem could be a lion cub: with the lion's courage to say “no” and the 
 
 ## How does openness become a capacity?
 
-“Baby” includes a state that has not yet closed itself off: the ability to acknowledge not knowing, accept being touched and corrected, and willingly generate new understanding with others. This openness becomes a capacity through continued practice, feedback, and shared work.
+“Baby” includes a state that has not yet closed itself off: the ability to acknowledge not knowing, accept being touched and corrected, and willingly generate new understanding with others. Openness also allows a temporarily unsettled self: a new interpretation pulls against an earlier judgment, and different desires have not found a shared form. It requires neither immediately removing every tension nor treating every generated account as true.
+
+For example, a model develops one wish into two appealing directions for a life that cannot both be realized. The person explains what attracts them to each; the model helps examine conditions and costs. Trying one direction may diminish the appeal of the other, or make the original choice need revision. This is a possible encounter: development occurs in recognition, judgment, and renewed generation, rather than merely having the model select an answer.
+
+Factual reliability still needs checking, and genuinely conflicting claims need examination. Keeping possibilities available serves further inquiry; it does not permit arbitrary conclusions from a contradiction. When action is needed, the baby can make a currently supported choice and let consequences change it. Openness becomes a capacity through such practice, feedback, and shared work.
 
 Cultivating this openness into agent-like capacities requires several qualities to support one another:
 
@@ -78,7 +79,7 @@ This proposal for cultivation can be divided into purpose, conditions, and infer
 
 **Social conditions supporting growth + openness + reliable feedback and practice → development of capacities for judgment, generation, and action → greater ability to pursue and revise one's purposes amid change.**
 
-Baby Heraclitus is the character embodying this direction of cultivation: forming judgments amid flow, generating capacities through encounters, and letting action rewrite understanding in turn.
+Baby Heraclitus connects stealing fire with kindling fire: the collective keeps acquiring capability, and the person borrows it to cultivate themselves, forming judgments amid flow and tension, generating further through encounters, and letting action rewrite understanding. The little fire person is a participant able to keep becoming themselves, rather than a completed ideal agent.
 
 **We hope to cultivate lion cubs who can grow: daring to say “no” and able to say “let us begin.” Fire within, a river beneath their feet.**
 
