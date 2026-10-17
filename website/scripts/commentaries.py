@@ -133,7 +133,22 @@ def toggle_text(chinese):
     return '<span class="contents-toggle"><span class="when-closed">' + ('展开' if chinese else 'Expand') + '</span><span class="when-open">' + ('收起' if chinese else 'Collapse') + '</span></span>'
 
 
-def book_contents(toc, chinese):
+def useful_contents(toc, rendered):
+    """Contents help with substantial, sectioned reading, not short notes."""
+    if len(re.findall(r'<a\b[^>]*href=[\"\']#[^\"\']+[\"\']', toc)) < 2:
+        return False
+    text = html.unescape(re.sub(r'<[^>]+>', ' ', rendered))
+    # Approximate reading length across the two editions: two CJK characters
+    # count as one word. A short reference should not acquire a navigation rail
+    # merely because it has a couple of headings.
+    words = len(re.findall(r'[A-Za-z0-9]+', text))
+    cjk = len(re.findall(r'[\u3400-\u9fff]', text))
+    return words + cjk / 2 >= 600
+
+
+def book_contents(toc, chinese, rendered):
+    if not useful_contents(toc, rendered):
+        return ''
     label = '本文目录' if chinese else 'On this page'
     return f'<aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents" open><summary><span>{label}</span>{toggle_text(chinese)}</summary><nav aria-label="{label}">{toc}</nav></details></aside>'
 
@@ -241,7 +256,9 @@ def reading_context(name, chinese, title=None):
     return guide, nav
 
 
-def reading_rail(toc, chinese):
+def reading_rail(toc, chinese, rendered):
+    if not useful_contents(toc, rendered):
+        return ''
     label = '本文目录' if chinese else 'On this page'
     return f'<aside class="reading-rail"><nav class="reader-toc" aria-label="{label}"><p class="toc-title">{label}</p>{toc}</nav></aside>'
 
@@ -259,7 +276,9 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     if chinese:
         rendered = re.sub(r'(<h1\b[^>]*>[^<：]+：)', r'\1<br>', rendered, count=1)
     rendered = rendered.replace('</h1>', '</h1>' + art + guide, 1)
-    body = f'<main id="main" class="wrap library-reader commentary philosophy-book">{book_navigation(name, chinese, title)}<article class="document">{rendered}</article>{book_contents(toc, chinese)}<div class="reading-end">{navigation}{source_note}</div></main>'
+    contents = book_contents(toc, chinese, rendered)
+    layout = '' if contents else ' no-toc'
+    body = f'<main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(name, chinese, title)}<article class="document">{rendered}</article>{contents}<div class="reading-end">{navigation}{source_note}</div></main>'
     page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<meta name="robots" content="noindex, nofollow, noimageindex"><link rel="stylesheet" href="/article.css">')
     page = page.replace('href="/philosophy/">哲学评论', 'href="/philosophy/" aria-current="page">哲学评论').replace('href="/repositories/" aria-current="page"', 'href="/repositories/"')
     page = page.replace('</nav></header>', f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{counterpart}">{"English" if chinese else "中文"}</a></nav></header>', 1)

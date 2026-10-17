@@ -202,6 +202,8 @@ art_alt = html.escape(scene_alt(art_name, not english), quote=True)
 has_art = (Path(__file__).resolve().parents[1] / 'dist/art' / f'{art_name}.png').is_file()
 art_figure = article_figure(Path(__file__).resolve().parents[1] / 'dist', art_name, not english)
 paired_path = f'/philosophy/{entry["slug"]}/'
+contents = book_contents(md.toc, not english, rendered)
+layout = '' if contents else ' no-toc'
 page = f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} · boluopai</title><meta name="description" content="{overview}">
@@ -210,13 +212,13 @@ page = f'''<!doctype html>
 <script src="/library.js" defer></script></head><body>
 <a class="skip" href="#main">{labels['skip']}</a>
 <header class="header wrap"><a class="wordmark" href="{home}">boluopai.</a><nav aria-label="{labels['nav']}"><a href="{philosophy}" aria-current="page">{labels['philosophy']}</a><a href="/singing/{suffix}">{labels['singing']}</a><a href="/repositories/{suffix}">{labels['repositories']}</a></nav></header>
-<main id="main" class="wrap library-reader commentary philosophy-book">{book_navigation(entry['slug'], not english)}<article class="document">
+<main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(entry['slug'], not english)}<article class="document">
 <header class="article-heading"><h1>{title}</h1><p class="article-subtitle">{subtitle}</p></header>
 {art_figure}
 <div class="article-overview"><p>{overview}</p></div>
 {reading_guide}
 <div class="article-body">{rendered}</div></article>
-{book_contents(md.toc, not english)}
+{contents}
 <div class="reading-end">{reading_navigation}</div></main>
 <footer class="footer wrap"><a class="wordmark" href="{home}">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/{suffix}">{labels['rights']}</a></p><a href="#main">{labels['top']}</a></footer></body></html>'''
 out = Path(__file__).resolve().parents[1] / 'dist/philosophy' / entry['slug'] / suffix / 'index.html'

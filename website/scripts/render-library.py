@@ -277,7 +277,9 @@ def main():
         if write_essay(dist, path, title(path), rendered, md.toc, source_note, shell, title):
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
-        body = f'''<main id="main" class="wrap library-reader commentary">{reading_rail(md.toc, chinese)}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
+        contents = reading_rail(md.toc, chinese, rendered)
+        layout = '' if contents else ' no-toc'
+        body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
         page_title = ('形成、使用与维护阴阳' if chinese else 'Forming, using, and maintaining YinYang') if practice else title(path)
         write('source/' + str(Path(path).with_suffix('.html')), shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
 
@@ -295,11 +297,11 @@ def main():
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('使用阴阳', 'Using YinYang', '从阴阳方法进入日常协作；介绍文章说明它怎样形成，形成与适配方法进一步展开实际写作和实现。', 'Enter ordinary collaboration through the YinYang method. The introduction explains its formation; the formation and adaptation methods develop writing and realization.', [
-                ('SKILL', '阴阳方法', 'YinYang method', '阅读完整方法，了解参与方式，以及模型怎样使用人与伙伴的描述。', 'Read the complete method: participation and how the model uses the person and counterpart accounts.'),
-                ('references/docs/creation-method', '形成、使用与维护阴阳', 'Forming, using, and maintaining YinYang', '介绍哲学、伙伴关系与环境怎样共同形成，再说明使用、更新与私人边界。', 'An introduction connecting philosophy, the counterpart relation, and environment with use, updates, and private boundaries.'),
-                ('references/design-and-revision', '形成与修订阴阳', 'Designing and revising a situated YinYang', '从实际材料出发，与模型一起形成并修订相连的理解。', 'Form and revise connected accounts with model assistance, grounded in actual material.'),
-                ('references/harness-adaptation', '在实际环境中实现阴阳', 'Realizing YinYang in a working harness', '把理解落实到指令、工具与工作环境，再通过实际效果修订。', 'Realize understanding through instructions, tools, and the working environment, then revise through its effects.'),
+            ('阴阳的说明与方法', 'YinYang: explanation and methods', '这四份材料说明同一项实践，分别面向理解整体的读者，以及承担协作、建模写作和环境实现的模型。', 'These four materials concern one practice, addressing readers who want to understand the whole and models carrying collaboration, modeling and writing, or environmental implementation.', [
+                ('references/docs/creation-method', '整体实践说明', 'The practice as a whole', '给读者看，解释哲学、人与伙伴的理解、工作环境怎样联系起来。', 'For readers: explains how philosophy, understanding the person and counterpart, and the working environment connect.'),
+                ('SKILL', '模型执行入口', 'Model entrypoint', '给模型读，规定日常协作时怎样读取和使用这些材料。', 'For the model: specifies how to read and use these materials in ordinary collaboration.'),
+                ('references/design-and-revision', '形成与修订', 'Formation and revision', '给承担建模与写作的模型使用，形成和修订对人、伙伴及双方关系的理解。', 'For the model doing modeling and writing: develops and revises understanding of the person, counterpart, and their relationship.'),
+                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '给承担实现工作的模型使用，把这些理解落实到指令、工具和工作方式，并从实际结果修订。', 'For the model doing implementation: realizes this understanding through instructions, tools, and ways of working, then revises through actual results.'),
             ]),
             ('五份描述的参考', 'References for the five accounts', '下面是公开包中的写作指引，可以阅读它们分别关心什么。实际的人、伙伴、关系与来源，由你和模型结合自己的材料形成在私人版本中；这里不展示他人的个人描述。', 'These public writing guides explain what each account concerns. You and the model form the actual person, counterpart, relationship, and provenance accounts from your own material in a private version; these are not someone else’s personal accounts.', [
                 ('references/encounter', '相遇', 'Encounter', '凝练目的、参与方式与双方关系，使日常工作有可用全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary work.'),
@@ -323,9 +325,7 @@ def main():
                 path = PACKAGE + stem + edition
                 entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p></li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
-        installation = GITHUB + '/blob/main/docs/codex' + edition
-        install_label = 'Installation and updates (GitHub)' if english else '安装与更新（GitHub）'
-        groups_html = ''.join(grouped) + '<p><a href="' + installation + '">' + install_label + '</a></p>' + reading_groups(english, skill_readers)
+        groups_html = ''.join(grouped) + '<section class="library-section library-skills"><h2>Skills</h2>' + reading_groups(english, skill_readers) + '</section>'
         diagrams = ''
         for name, zh, en, desc_zh, desc_en in [('encounter', '相遇', 'Encounter', '生成、判断与证据怎样在持续的相遇中形成关系。', 'Generation, judgment and evidence within an ongoing encounter.'), ('layers', '层次', 'Layers', '物理基础、计算抽象，以及认识、价值、方法与实践的联系。', 'Physical grounding, computational abstraction, and their connections with knowing, value, methods, and practice.')]:
             suffix = '' if english else '.zh-CN'

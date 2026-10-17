@@ -113,46 +113,9 @@ def cards(english=False):
     return '<section class="library-section" aria-label="Skills"><p class="section-note">' + note + '</p>' + ''.join(items) + '</section>'
 
 
-# Chinese navigation labels for existing English originals; this translates
-# their subjects, not their bodies. Shared by the hub and Skill introductions.
-READING_LABELS_ZH = {
-    'Connection setup and operation recipes': '连接设置与操作方法',
-    'Bind a real carrier': '接入实际可用的浏览器',
-    'Common commands': '常用命令',
-    'Script loop operations': '脚本运行与维护',
-    'Profile and global override recovery': '配置与全局覆盖的恢复',
-    'Sources and verification': '来源与核验',
-    'Design basis': '设计依据',
-    'Authoring flow': '编写流程',
-    'Authoring sources and adaptation': '编写来源与适配',
-    'Delivery and ownership': '交付与维护职责',
-    'Evidence of use': '实际使用的证据',
-    'Semantic authoring': '语义编写',
-    'On-demand Role Adapter: Learning': '按需角色适配：学习',
-    'On-demand Role Adapter: Saved Task': '按需角色适配：已保存任务',
-    'On-demand Role Adapter: Hosted': '按需角色适配：托管任务',
-    'On-demand Role Adapter: Workflow': '按需角色适配：工作流程',
-    'Audio evidence and phrase comparison': '音频证据与乐句比较',
-    'Tools and setup': '工具与设置',
-    'Recipient configuration and record ownership': '使用者的配置与记录归属',
-    'Course materials': '课程材料',
-    'Course workspace': '课程工作区',
-    'Learning-path governance': '学习路径的选择与维护',
-    'Global learning-path binding': '全局学习路径配置',
-    'Local attention-path binding': '当前学习路径配置',
-    'Philosophical text study': '哲学文本研读',
-    'Teaching methods': '教学方法',
-    'Work-plan reference binding': '工作计划的引用',
-}
-
-
 def reading_label(title, kind, name, language, english):
-    if english:
-        return title
-    if language == 'zh-CN':
-        return title
-    label = (SKILLS[name][0] + ('方法' if kind == 'method' else '使用说明')) if kind in {'method', 'guide'} else READING_LABELS_ZH[title]
-    return label + ('（英文）' if language == 'en' else '')
+    """Display the actual selected edition's title without a language placeholder."""
+    return title
 
 
 def reading_groups(english, readers):
@@ -177,13 +140,8 @@ def reading_groups(english, readers):
         for name in names:
             info = SKILLS[name]
             route = '/tools/' + name + ('/en/' if english else '/')
-            # Actual reference titles reveal the subject behind the introduction;
-            # full method and guide links remain together in that reading context.
-            references = [(href, title) for href, title, kind in readers[name, english] if kind == 'reference']
-            links = ' · '.join(f'<a href="{href}">{html.escape(title)}</a>' for href, title in references)
-            supporting = '<p>' + links + '</p>' if links else ''
-            entries.append(f'<li><a href="{route}">{html.escape(info[1 if english else 0])}</a><p>{html.escape(info[3 if english else 2])}</p>{supporting}</li>')
-        sections.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
+            entries.append(f'<li><a href="{route}">{html.escape(info[1 if english else 0])}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
+        sections.append('<section class="library-section"><h3>' + (en if english else zh) + '</h3><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
     return ''.join(sections)
 
 
@@ -204,12 +162,11 @@ def render_pages(dist, shell, revision, readers):
             }.get(name, t('“请按这个 Skill 帮我处理当前任务，先核对需要的配套方法与实际工具。”', '“Use this Skill for my task, first checking the companion methods and actual tools it needs.”'))
             body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(info[2 + i])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
             readings = []
-            for kind, zh, en in [('method', '方法', 'Method'), ('guide', '使用说明', 'User guide'), ('reference', '配套资料', 'Supporting reading')]:
+            for kind, zh, en in [('method', '方法', 'Method'), ('guide', '使用说明', 'User guide')]:
                 links = ''.join(f'<li><a href="{href}">{html.escape(label)}</a></li>' for href, label, role in readers[name, english] if role == kind)
                 if links:
                     readings.append('<h3>' + t(zh, en) + '</h3><ul>' + links + '</ul>')
-            installation = GITHUB + '/blob/main/docs/codex' + ('.md' if english else '.zh-CN.md')
-            reading_body = '<section><h2>' + t('阅读方法与资料', 'Read the method and resources') + '</h2>' + ''.join(readings) + '<p><a href="' + installation + '">' + t('安装与更新（GitHub）', 'Installation and updates (GitHub)') + '</a></p></section>'
+            reading_body = '<section><h2>' + t('阅读方法与说明', 'Read the method and guide') + '</h2>' + ''.join(readings) + '</section>'
             body = body.replace('</article></main>', reading_body + '</article></main>')
             target = dist / 'tools' / name / ('en' if english else '') / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)

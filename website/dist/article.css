@@ -49,6 +49,9 @@
    Reference readers keep the shared two-column reading layout above. */
 .philosophy-book{width:min(1540px,calc(100% - 80px));max-width:1540px;grid-template-columns:224px minmax(0,1fr) 176px;grid-template-areas:"book document rail" "book end rail";column-gap:32px;padding-top:48px}
 .philosophy-book.book-introduction{max-width:1170px;grid-template-columns:224px minmax(0,1fr);grid-template-areas:"book document" "book end"}
+/* Readers without page contents do not reserve a rail. Book navigation stays. */
+.commentary.no-toc:not(.philosophy-book){max-width:860px;grid-template-columns:minmax(0,1fr);grid-template-areas:"document" "end";column-gap:0}
+.philosophy-book.no-toc{max-width:1170px;grid-template-columns:224px minmax(0,1fr);grid-template-areas:"book document" "book end"}
 .book-navigation{grid-area:book;position:sticky;top:28px;min-height:0}
 .book-mobile-menu{display:none}
 .book-navigation nav,.book-mobile-menu nav{display:block;font:400 19px/1.7 var(--sans);overflow:auto;scrollbar-width:thin;overscroll-behavior:contain}

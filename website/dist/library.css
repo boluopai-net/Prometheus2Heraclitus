@@ -8,3 +8,4 @@
 .library-reader:not(.commentary) .document{font-family:var(--serif);font-size:18px}.diagram-card img{background:#f7f9f8}
 .library-purpose-links{list-style:none;padding:0;margin:24px 0 0}.library-purpose-links li{padding:18px 0;border-top:1px solid var(--line)}.library-purpose-links a{font-size:21px;color:var(--water)}.library-purpose-links p{font-size:16px;line-height:1.8;color:var(--muted);margin:8px 0 0;max-width:720px}
 .library-section .skill-summary{padding:22px 0;margin:0}.skill-summary h3{font-size:25px;margin:0 0 8px}.skill-summary p{margin:0;font-size:16px;line-height:1.8}
+.library-skills > .library-section > h3{font-size:23px;color:var(--muted);font-weight:400}
