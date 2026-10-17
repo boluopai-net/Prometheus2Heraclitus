@@ -6,13 +6,18 @@ the complete YinYang Skill. These uses can overlap; none is a stage that every
 reader must pass through. [Begin with this example, and make something of your own](docs/example-and-commons.md)
 explains the invitation to adopt, combine, challenge, or author another work.
 
-For complete Skill adoption, the [entrypoint](../SKILL.md) owns participation
-and initial reading. The five situated accounts—encounter, models,
-relationship, usage, and sources—give the adopted Skill its actual personal
-substance; the distributed files guide their writing. Borrowing an idea about
-support, contribution, or inquiry does not require forming those five accounts
-or accepting the author's cultivation project. Use what the task needs, while
-understanding the conditions of the borrowed argument.
+The [formation and revision method](design-and-revision.md) develops the common
+work of interpreting evidence and modeling the person, counterpart, and
+relationship. Its five object-specific files elaborate that writing in the
+distributed package; at the same paths in a situated edition, actual accounts
+give the adopted Skill its personal substance. For complete adoption, the
+[entrypoint](../SKILL.md) owns participation and initial reading of those actual
+accounts. [Harness adaptation](harness-adaptation.md) realizes selected
+understanding through instructions, tools, and environment, then learns from
+their effects. These responsibilities connect without forming a required
+sequence. Borrowing an idea about support, contribution, or inquiry does not
+require forming all five accounts or accepting the author's cultivation project.
+Use what the task needs, while understanding the conditions of the borrowed argument.
 
 ## Find the contribution the work needs
 
@@ -24,6 +29,7 @@ arrangement, without making the person first design all of its implementation.
 | Problem in the work | Question and useful reading |
 | --- | --- |
 | A request is understood, but the partner's contribution is still wrong | [Designing and revising a situated YinYang](design-and-revision.md) connects the person's account, the actual counterpart, and their relation. It helps determine what contribution is wanted and why, rather than deriving a permanent role from a preference alone. Use it to revise the relevant understanding and allocation together. |
+| The understanding needs to be written into situated accounts | The [formation method](design-and-revision.md#form-a-situated-version-from-actual-material) connects common modeling to five different writing objects: [encounter](encounter.md), [user model](models.md), [counterpart and relationship](relationship.md), [situated use](usage.md), and [sources](sources.md). In distribution these destinations teach how to write; in a situated edition they contain the actual accounts used by the entrypoint. Follow the relevant object without treating the guides as personal content or as another operational workflow. |
 | An idea or image is appealing, but its practical consequence is unclear | [Creating and realizing YinYang's meta-harness](docs/creation-method.md) follows the relations among expression, interpretation, realization, and consequences. It helps identify what must change in the work for an idea to matter, and what a returned result can tell you about the original understanding. |
 | A sound arrangement exists in prose, but the actual environment does something else | [Realizing YinYang in a working harness](harness-adaptation.md) connects the intended contribution with current instructions, tools, capabilities, and permissions. It helps locate the change at its actual owner, realize it, and compare the resulting behavior with the purpose. |
 | The model offers more explanation, but the person still cannot proceed | [Participation, access, and support](docs/participation-and-support.md) distinguishes understanding, retrieving a term, starting, selecting a response, stopping, and switching. It helps choose a contribution aimed at the missing connection and examine whether support's coordination cost consumes its benefit. |

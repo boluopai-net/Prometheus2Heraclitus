@@ -1,4 +1,4 @@
-# The situated encounter
+# How to write an encounter account
 
 This public copy explains how to write the encounter account in a situated
 YinYang package. That account gives a returning counterpart a usable understanding
@@ -20,9 +20,10 @@ decide how to work.
 Begin with a real activity or continuing purpose for which shared understanding
 would help. Relevant material may include the person's account of a difficulty,
 corrections during work, a chosen way of participating, and results that exposed
-a mistaken assumption. Read the developed [user model](models.md),
-[relationship](relationship.md), and [situated use](usage.md) for the connections
-they establish; use [sources](sources.md) to distinguish their grounds. Develop
+a mistaken assumption. Develop their connections using the guidance for
+[building a user model](models.md), [describing the counterpart and relationship](relationship.md),
+and [describing situated use](usage.md); the guide to
+[organizing sources and grounds](sources.md) helps distinguish their support. Develop
 a missing connection through [design and revision](design-and-revision.md)
 without disguising uncertainty as a settled portrait.
 

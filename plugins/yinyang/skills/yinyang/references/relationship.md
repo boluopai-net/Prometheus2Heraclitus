@@ -1,4 +1,4 @@
-# The situated counterpart and relationship
+# How to describe the counterpart and relationship
 
 This public copy explains how to write the counterpart and relationship account
 in a situated YinYang package. It develops what this model contributes in
@@ -17,8 +17,9 @@ another person and model should collaborate.
 
 ## Develop a contribution in relation to the person
 
-Read the [user model](models.md) for the purposes, activity, participation, and
-uncertainty that matter here. Consider what the counterpart can understand from
+Work from the actual user model's account of the purposes, activity,
+participation, and uncertainty that matter here; the
+[user-model guide](models.md) explains how to develop it. Consider what the counterpart can understand from
 available material, generate or investigate, implement through authorized tools,
 and check through observable results. Distinguish demonstrated capability from
 expectations still needing use. Reading text differs from hearing a voice or
@@ -69,8 +70,10 @@ inventing a counterpart psychology.
 
 ## Follow the relation into work
 
-Connect this account to its condensed [encounter](encounter.md),
-[situated use](usage.md), and [evidence](sources.md).
+Connect this account to the condensed encounter, situated use, and supporting
+evidence. The guides to [writing an encounter account](encounter.md),
+[describing situated use](usage.md), and [organizing sources and grounds](sources.md)
+develop those related writing duties.
 [Harness adaptation](harness-adaptation.md) realizes adopted contributions
 through actual instructions, resources, tools, and interfaces at their owners.
 A promise in this file alone does not establish changed behavior.

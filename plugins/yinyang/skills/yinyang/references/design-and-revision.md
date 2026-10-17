@@ -28,8 +28,11 @@ with the actual problem and use the relevant reasoning below; neither a new
 philosophy project nor the five situated files is a prerequisite. Maintaining
 this Skill as a whole does call for those grounded accounts and the entrypoint's
 initial reading, because its ordinary operation depends on their connected
-understanding. The writing duties of each account stay with its own guidance.
-Here, the method explains how to obtain and revise the understanding they carry.
+understanding. This reference supplies the common modeling method. In the
+distributed package, the five linked files below elaborate how to write its
+different objects; in a situated edition, those same paths contain the actual
+accounts that the entrypoint reads for collaboration. Guidance about writing an
+account cannot stand in for its grounded content.
 
 ## Form a situated version from actual material
 
@@ -92,15 +95,46 @@ to settle a general personality trait to improve this workspace.
 Distill what ordinary collaboration needs into the five situated files. Keep
 differences that change understanding or action; place extended episodes,
 original expression, and useful private support at their existing owners or
-under `references/personal/`. The files have complementary writing duties:
+under `references/personal/`. The files have complementary writing duties.
+Their public guidance develops these different objects; the situated accounts
+supply the actual understanding:
 
 | Account | What it should make intelligible |
 | --- | --- |
-| Encounter | The actual purpose, relation, and usable whole. |
-| User model | Relevant experience, preferences, capacities, development, and uncertainty. |
-| Counterpart and relationship | Its contribution and judgment in relation to that person, including cooperation and correction. |
-| Situated use | How the relation works through actual resources and allocation of work. |
-| Sources | What grounds the understanding and where its evidence is maintained. |
+| [Encounter](encounter.md) | The actual purpose, relation, and usable whole. |
+| [User model](models.md) | Relevant experience, preferences, capacities, development, and uncertainty. |
+| [Counterpart and relationship](relationship.md) | Its contribution and judgment in relation to that person, including cooperation and correction. |
+| [Situated use](usage.md) | How the relation works through actual resources, contributions, and conditions, including its present gaps. |
+| [Sources](sources.md) | What grounds the understanding and where its evidence is maintained. |
+
+Consider a fictional example: notes have been saved, but returning to an
+unfinished argument is still difficult. Formation concerns what this difficulty
+means. The notes might be inaccessible, lack a connection to the current draft,
+or preserve the question without making a next step usable. These explanations
+predict different points of failure. Inspecting a return can show whether the
+note is reached, whether the relevant draft and passage are identifiable, and
+whether a contribution can then begin. The person's experience and intended
+participation also matter: producing a draft together and practicing how to
+begin one call for different support. The model can develop this comparison
+and the writing it supports without requiring the person to design a recovery
+workflow first. An accessible note does not by itself settle the other questions.
+
+The public guides explain how to articulate that understanding in different
+accounts. The user model can describe the relevant activity and supported
+interpretation; the relationship account explains the chosen contribution and
+its reasons; the encounter gathers their practical meaning. The situated-use
+guide explains what to describe about resources, routes, contributions, and
+conditions. Its actual situated account would name the current draft, the route
+connecting it to the note, who carries the next contribution, and any gap still
+present. The sources account makes the grounds and their limits recoverable.
+If the chosen support requires changing a continuation instruction or resource
+route, [harness adaptation](harness-adaptation.md#derive-behavior-in-context)
+carries that change through its actual owner and checks what happens. The
+ordinary entrypoint reads and uses the resulting actual accounts. These are
+connected responsibilities, not a sequence to repeat for every difficulty: a
+repair can expose a mistaken interpretation, and a useful comparison may
+suffice without rewriting every account. Keep that correction at the owner
+whose meaning or arrangement actually changes.
 
 Form all five from actual material when adopting this implementation. An
 unsettled relation can remain unknown; unchanged formation guidance, another

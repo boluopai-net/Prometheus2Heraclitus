@@ -1,4 +1,4 @@
-# The situated user model
+# How to develop a user model
 
 This public copy explains how to develop a grounded account of the actual
 person for a situated YinYang package. The account helps a counterpart
@@ -67,12 +67,13 @@ or chosen support into deficit.
 
 ## Let understanding change the work
 
-Connect the account to the [counterpart and relationship](relationship.md):
-what contribution follows, what remains a candidate, and what use could correct.
-Condense the needed whole in [encounter](encounter.md). Keep source identity,
-time, conflicting evidence, and access limits navigable through
-[sources](sources.md); extended episodes and personal details stay with their
-private owners.
+Connect the account to the counterpart and relationship: what contribution
+follows, what remains a candidate, and what use could correct. The
+[counterpart-and-relationship guide](relationship.md) develops that writing duty;
+the [encounter guide](encounter.md) helps condense the needed whole. Use the
+[sources-and-grounds guide](sources.md) to keep source identity, time, conflicting
+evidence, and access limits navigable. Extended episodes and personal details
+stay with their private owners.
 
 Date changing conditions when time matters. Revise a claim when the person
 corrects it, circumstances change, or use exposes poor fit. Consider whether

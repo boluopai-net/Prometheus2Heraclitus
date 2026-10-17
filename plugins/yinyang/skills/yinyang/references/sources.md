@@ -1,4 +1,4 @@
-# Source owners and provenance
+# How to organize sources and grounds
 
 This public copy explains how to write the source account for a situated
 YinYang package. Its purpose is to make the grounds of the other accounts
@@ -61,8 +61,10 @@ A working link establishes reachability, not correspondence with the claim.
 ## Maintain an entrance to the actual owners
 
 Keep enough orientation here for a counterpart to locate the support behind
-[models](models.md), [relationship](relationship.md), [encounter](encounter.md),
-and [situated use](usage.md). Extended histories, precise excerpts, and private
+the actual user model, relationship, encounter, and situated use. The guides to
+[developing a user model](models.md), [describing the counterpart and relationship](relationship.md),
+[writing an encounter account](encounter.md), and [describing situated use](usage.md)
+explain the different accounts those sources support. Extended histories, precise excerpts, and private
 detail remain with their existing owners or relevant supporting notes. The
 [private reference map](personal/README.md) can locate those materials in a
 situated package; do not populate it with an invented example person. Public
