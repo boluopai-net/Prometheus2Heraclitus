@@ -15,8 +15,11 @@ or deliberate choices parallel resources. Design around the actual sequence of
 human participation. Preserve conceptual depth while reducing the effort of
 finding, remembering, translating, operating, and recovering.
 
-The person contributes purposes, judgments, exploration, and action. The model
-investigates and maintains the implementation. The environment connects them
+The person and model can both explore, generate, judge, and revise the environment.
+Allocate their contributions from the current purpose and actual capabilities;
+the model carries investigation, implementation, and maintenance that it can
+resolve, while the person's experience and consequential choices inform the work.
+The environment connects them
 through perceivable state and usable actions. A personal website, desktop,
 launcher, application, document view, and automation can participate in one
 journey without becoming one application. Choose their relationship from the

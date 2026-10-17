@@ -87,7 +87,7 @@
     },
     {
       "name": "task-inquiry",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
       "source": {
         "source": "local",
@@ -168,7 +168,7 @@
     },
     {
       "name": "personal-environment-design",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Organize websites, desktops, and cross-tool work around human understanding and action.",
       "source": {
         "source": "local",
@@ -303,7 +303,7 @@
     },
     {
       "name": "local-teacher",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Explain, review, and practice in a local environment, developing understanding through real work.",
       "source": {
         "source": "local",
@@ -330,7 +330,7 @@
     },
     {
       "name": "web-teacher",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
       "source": {
         "source": "local",

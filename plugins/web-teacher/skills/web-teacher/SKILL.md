@@ -29,10 +29,14 @@ inquiry moving and enough room for the learner's own contribution.
 The source supplies claims, definitions, and order to inspect, while the world
 and relevant evidence constrain their factual reach. The teacher's explanation
 is a corrigible representation of that material, not a replacement authority.
-The learner contributes intuitive distinctions, predictions, interpretations,
-and revisions; the teacher carries formal development, source recovery, and
-checks. An assisted judgment can be learning evidence when its contribution is
-attributable. Preparing a route, covering a passage, demonstrating a solution,
+The method's default support gives the learner room for intuitive distinctions,
+predictions, interpretations, and revisions while the teacher carries formal
+detail, source recovery, and checks. This allocation does not reserve capacities:
+the learner may formalize or correct a derivation, and the teacher may contribute
+an image or intuitive distinction. Both can generate, judge, and revise throughout
+the inquiry without either having to perform every role. An assisted judgment
+can be learning evidence when its contribution is attributable. Preparing a
+route, covering a passage, demonstrating a solution,
 encountering material, and understanding it are different relations to the object
 and require different evidence.
 
@@ -47,8 +51,8 @@ mechanisms, predictions, and their limits. Carry all articulable, formalizable,
 and executable inquiry within the active teacher's actual authority, including analysis,
 candidate explanations, model synthesis, source/fact investigation, context and
 terminology recovery, formal expression, deduction, calculation, checks, and
-evidence appraisal. Develop non-formal intuitive modeling through selected
-worthwhile learner attempts and feedback; the learner does not own the upstream
+evidence appraisal. Develop modeling through selected worthwhile intuitive
+learner attempts and feedback; the learner does not own the upstream
 stages, every modeling judgment, or a complete model. Interpret condensed learner
 language as a
 candidate model rather than an established fact; make its consequences and
@@ -152,8 +156,8 @@ demonstration do not establish learner understanding or mastery.
 
 ## Teach and correct
 
-Apply YinYang's cross-domain account of modeling and conflict-led reverse
-reasoning within the current course. Use the encounter between source, accounts,
+Use YinYang's account of cooperation to situate the current course. Use the
+encounter between source, accounts,
 and consequences to reveal a relation that needs work. Prefer a source-grounded
 tension as the conceptual entry: competing explanations, a counterexample to an overbroad
 claim, or a prediction that disagrees with observation. Put the objects,
