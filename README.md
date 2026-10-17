@@ -2,7 +2,7 @@
 
 **A Skill collection for bringing generative capacities into a finite life.**
 
-[Website](https://boluopai.net/) · [Read the collection](https://boluopai.net/repositories/prometheus/en/) · [简体中文](README.zh-CN.md)
+[Website](https://boluopai.net/) · [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) · [简体中文](README.zh-CN.md)
 
 <!-- repository-only:start -->
 **[Install in Codex](docs/codex.md)**
@@ -38,7 +38,7 @@ reauthor what helps you make your own work; a new philosophy may look quite
 unlike YinYang. The shared ambition is creative capacity, not agreement with
 one doctrine. [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
 develops this invitation and distinguishes literary form from technical format.
-The [web reading edition](https://boluopai.net/repositories/prometheus/)
+The [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) page
 presents the maintained documents and diagrams alongside their source links.
 
 ## Philosophy, psychology, and engineering: develop the missing connection

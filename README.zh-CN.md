@@ -2,7 +2,7 @@
 
 **一个让有限生命取得生成能力的 Skill 集。**
 
-[网站首页](https://boluopai.net/) · [网页阅读版](https://boluopai.net/repositories/prometheus/) · [English](README.md)
+[网站首页](https://boluopai.net/) · [文档与图示](https://boluopai.net/repositories/prometheus/) · [English](README.md)
 
 <!-- repository-only:start -->
 **[安装到 Codex](docs/codex.zh-CN.md)**
@@ -28,7 +28,7 @@
 创作，写出与阴阳很不相同的哲学和作品；共享的愿望是创造能力，不是对同一套
 信条的认同。[例子与知识共有地](skills/yinyang/references/docs/example-and-commons.zh-CN.md)
 展开这个邀请，并区分文学形式与技术格式。
-[网页阅读版](https://boluopai.net/repositories/prometheus/)直接呈现持续维护的文档与图示，
+[文档与图示](https://boluopai.net/repositories/prometheus/)直接呈现持续维护的文档与图示，
 并保留通往源内容的链接。
 
 ## 哲学、心理与工程：从已有能力补齐三位一体

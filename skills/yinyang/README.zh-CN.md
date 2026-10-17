@@ -3,7 +3,7 @@
 **写出哲学，为人及其 agent 伙伴形成有根据的模型，让双方协作取得可用的工作环境。**
 
 [English](README.md) · [阴阳方法](SKILL.zh-CN.md) · [模型执行入口](SKILL.md) ·
-[网页阅读版](https://boluopai.net/repositories/prometheus/)
+[文档与图示](https://boluopai.net/repositories/prometheus/)
 
 ## 本包提供什么
 

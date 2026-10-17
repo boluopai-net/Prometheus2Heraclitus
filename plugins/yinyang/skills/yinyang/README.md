@@ -4,7 +4,7 @@
 counterpart, and give their collaboration a working environment.**
 
 [简体中文](README.zh-CN.md) · [Model entrypoint](SKILL.md) ·
-[Web reading edition](https://boluopai.net/repositories/prometheus/)
+[Documents & diagrams](https://boluopai.net/repositories/prometheus/en/)
 
 ## What this package supplies
 
