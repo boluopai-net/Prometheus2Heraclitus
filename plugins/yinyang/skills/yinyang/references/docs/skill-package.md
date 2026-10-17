@@ -14,7 +14,10 @@ YinYang is one developed philosophy and formation method. Readers can adopt
 it, combine selected resources, or create a different work. The
 [example and commons essay](example-and-commons.md) develops that invitation.
 A philosopher's thought may inform a framework; it cannot replace the account
-of the actual user.
+of the actual user. This guide's five-account and common-update contract applies
+to full adoption of the maintained Skill. Reading its philosophy or borrowing
+a selected method does not by itself adopt that contract or require a personal
+philosophy project.
 
 ## Common and situated content
 

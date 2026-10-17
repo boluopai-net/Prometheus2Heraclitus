@@ -1,56 +1,112 @@
 # Read by the work being done
 
-For the collection's invitation to adopt, combine, or write a different
-philosophy and form, read [Begin with this example, and make something of your own](docs/example-and-commons.md).
-The following routes describe the maintained YinYang example.
+Start with the question the work has made difficult. You may want to understand
+the author's philosophy, borrow a method for a particular problem, or adopt
+the complete YinYang Skill. These uses can overlap; none is a stage that every
+reader must pass through. [Begin with this example, and make something of your own](docs/example-and-commons.md)
+explains the invitation to adopt, combine, challenge, or author another work.
 
-Use the [entrypoint](../SKILL.md) for participation and initial reading,
-[design and revision](design-and-revision.md) for forming the coupled accounts,
-and [harness adaptation](harness-adaptation.md) for their working realization.
-This map owns routes into the developed arguments and sources. Select by the
-question; a core summary cannot replace sustained work on an affected argument.
-Private provenance stays at its [private index](personal/README.md).
+For complete Skill adoption, the [entrypoint](../SKILL.md) owns participation
+and initial reading. The five situated accounts—encounter, models,
+relationship, usage, and sources—give the adopted Skill its actual personal
+substance; the distributed files guide their writing. Borrowing an idea about
+support, contribution, or inquiry does not require forming those five accounts
+or accepting the author's cultivation project. Use what the task needs, while
+understanding the conditions of the borrowed argument.
 
-This package's essays develop the cultural and philosophical background.
-They have different roles rather than forming a compulsory sequence:
+## Find the contribution the work needs
 
-| Relation | Reading |
+A request does not always disclose the kind of help that will serve it. The
+same wish may call for a finished work, an explanation, an objection, or a
+shared attempt. The following routes help turn that difference into a usable
+arrangement, without making the person first design all of its implementation.
+
+| Problem in the work | Question and useful reading |
 | --- | --- |
-| Overall purpose and connected argument | [Stealing fire](docs/stealing-fire.md): model companies and humanity continue acquiring fire; individuals cultivate generative capacities with available fire. The Sun's illumination images a capacity acquired through practice; Sun and Moon express YinYang's differentiated movement. Individual-first guides how surrounding arrangements adapt to people. |
-| Explicit philosophical claims | [Core views](docs/core-views.md): the ontology, understanding, and developmental commitments used by the argument. |
-| Method of formation and realization | [Creation method](docs/creation-method.md): how expression, relation, implementation, and evidence inform each other. |
-| How do philosophy, psychology, and engineering belong together? | [Trinity](docs/local-source-and-website.md): one changing physical reality, a jointly developed computational model, differentiated contributions, and their local, repository, and website forms. |
-| How can an expressed personal model organize distributed cognition? | [Metaphor and self-revision](docs/metaphor-and-self-revision.md): relational analogy, externalization, contextual contributions, listening/speaking/reading/writing, and a bounded Gödel-machine comparison. |
-| How can philosophical work learn from actual participation? | [Embodied experimental philosophy](docs/embodied-experimental-philosophy.md): practical and research loops, public works, and revisable boundaries and aims. |
-| How do personal priorities relate to ontology and evidence? | [Personal-first humanism](docs/personal-first-humanism.md): concrete persons, constructed descriptions, fallible inquiry, values, and plural methods. |
-| Core image giving the encounter its movement | [YinYang and Taiji](docs/yinyang-and-taiji.md): ceaseless transformation, mutual grounding, and the Shuang yu, including the Sun–Moon–Earth relation. |
-| Development of one person's sustaining practice | [Writing a sinthome](docs/writing-a-sinthome.md): a connected philosophical proposal about personal authorship and agency. |
-| Conflict, preference, and inference | [Preference harness](docs/preference-harness.md): view selection, support, and joint consistency, with psychological and formal sources kept distinct. |
-| Relations forming before explicit questions; abduction, prediction, and scientific inquiry | [Reasoning](docs/reasoning.md): event streams, question-relative views, retained sources, candidates, and nested feedback. |
-| Occurrence, reference, experience, and differing update rates | [The stream and time](docs/flow-and-time.md): temporal indices clarify a conflict without automatically dissolving it. |
-| Speaking, negation, self-description, and retrospective meaning | [Speaking, self-description, and signifying chains](docs/lacan-and-description-logic.md): philosophical relations and bounded formal comparisons. |
-| Consistent support, consistent results, and query rewriting | [Consistency arguments](docs/preference-harness.md#consistent-support-and-consistent-results) and [query rewriting](docs/preference-harness.md#query-rewriting-and-sublation) within the preference-harness essay: formal assumptions and the limits of a sublation analogy. |
-| Finite methods, reducibility, and the cost of abstraction | [Finite inquiry and abstraction](docs/finite-inquiry-and-abstraction.md): explanatory gain, approximation, and achievable reasoning. |
-| Process, computational model, expression, realization, and aesthetics | [World, process, and expression](docs/world-and-expression.md): person and model jointly select and represent processes, examine changes, realize an arrangement, and revise through its consequences; a work both expresses and changes the encounter. |
-| Understanding, available action, response selection, and the cost of support | [Participation and support](docs/participation-and-support.md): distinctions to investigate in a situated case, not a supplied personal model. |
-| Original philosophical sources and their interpretive limits | [Philosophical readings](docs/philosophical-readings.md): Heraclitus, YinYang/Taiji, Hegel, Freud, and Lacan. |
-| How can psychological processes be modeled and assessed? | [Psychological readings](docs/psychological-readings.md): process and evidence, psychological theories and foundations, belief, reasoning, and interaction. |
-| How can a usable environment be understood and realized? | [Engineering readings](docs/engineering-readings.md): self-study maps, command lines, Git, software design, algorithms, experiments, and physical conditions. |
+| A request is understood, but the partner's contribution is still wrong | [Designing and revising a situated YinYang](design-and-revision.md) connects the person's account, the actual counterpart, and their relation. It helps determine what contribution is wanted and why, rather than deriving a permanent role from a preference alone. Use it to revise the relevant understanding and allocation together. |
+| An idea or image is appealing, but its practical consequence is unclear | [Creating and realizing YinYang's meta-harness](docs/creation-method.md) follows the relations among expression, interpretation, realization, and consequences. It helps identify what must change in the work for an idea to matter, and what a returned result can tell you about the original understanding. |
+| A sound arrangement exists in prose, but the actual environment does something else | [Realizing YinYang in a working harness](harness-adaptation.md) connects the intended contribution with current instructions, tools, capabilities, and permissions. It helps locate the change at its actual owner, realize it, and compare the resulting behavior with the purpose. |
+| The model offers more explanation, but the person still cannot proceed | [Participation, access, and support](docs/participation-and-support.md) distinguishes understanding, retrieving a term, starting, selecting a response, stopping, and switching. It helps choose a contribution aimed at the missing connection and examine whether support's coordination cost consumes its benefit. |
+| Several models, notes, and tools produce activity without a clear shared contribution | [Metaphor, Analogy, and Personal Self-Revision](docs/metaphor-and-self-revision.md) distinguishes a personal model, its external representation, role allocation, and actual coupled cognition. It helps trace how a contribution reaches the next activity, and why independent checking needs contact with sources or results rather than repeated copies of a summary. |
 
-For a first conceptual reading, follow purpose → core views → creation method,
-then consult the other texts where the question needs them. Formation begins
-with the usable method and actual materials; it need not wait for completion
-of a philosophical syllabus. The Sun–Moon–Earth relation belongs within the
-YinYang and Taiji image; it is not an independent theoretical prerequisite.
+For example, an unfinished spoken objection to an article may need the model
+to retrieve the passage, develop a comparison, and maintain the resulting
+argument. If the person instead wants to practice composing that argument,
+the same material may support an editable beginning and criticism of another
+attempt. The difference lies in the purpose and participation being sought;
+the available model and tools determine which arrangement can actually work.
+
+## Locate a missing distinction
+
+Sometimes the obstacle is an account that merges things with different
+consequences. These readings develop distinctions that help locate the actual
+problem before changing the person, the description, or the software.
+
+| What is getting conflated? | Why this resource, and what it makes possible |
+| --- | --- |
+| A meaningful image, a representation, and an effective realization | [World, process, and expression](docs/world-and-expression.md) relates the ongoing world, a question-selected computational model, its expression, and its realization. It helps ask whether the missing relation is in the model, the way it is made available, or the arrangement acting on it; its bounded computational example shows what representability and simulation require. |
+| Remembering an unfinished action, completing it, feeling relief, and developing a capacity | [Participation and support](docs/participation-and-support.md#continuation-records-and-relief) explains how these results can connect without being interchangeable. Use it to determine whether the remaining need is a retrievable account, carried action, a change in experienced burden, or later participation showing growth. |
+| A conflict about the same thing and descriptions of different times or conditions | [The stream and time](docs/flow-and-time.md) distinguishes occurrence, reference, experience, and update rates. It helps reconstruct what each statement concerns; a temporal distinction can clarify disagreement without automatically dissolving a genuine contradiction. |
+| What exists, what is warranted, what is wanted, and how to proceed | [Personal-First Humanism](docs/personal-first-humanism.md) develops the author's value orientation alongside ontology, epistemology, and plural methods. It helps show where a purpose selects a direction and where a factual claim still needs independent warrant, including whose costs enter a proposed improvement. |
+| A successful output, a better collaboration, and human development | [YinYang: core views](docs/core-views.md), especially [YY-01](docs/core-views.md#yy-01), [YY-07](docs/core-views.md#yy-07), and [YY-14](docs/core-views.md#yy-14), connect the claims to their developed arguments. Use the stable IDs to identify the claim at issue, then follow the essay when its reasons or conditions matter. |
+
+## Investigate a disputed interpretation or inference
+
+The useful next reading depends on what remains uncertain. A missing candidate,
+an unsupported inference, and an impractical abstraction are different problems;
+they do not all call for more data or stronger confidence.
+
+| Question arising in inquiry | Reading and its contribution |
+| --- | --- |
+| How does a question emerge, and what would distinguish competing explanations? | [Reasoning within an unfinished stream](docs/reasoning.md) develops event streams, question-relative views, abduction, prediction, retained sources, candidates, and nested feedback. It helps generate a candidate and derive a consequence that further interaction can actually discriminate. |
+| How can conflicting materials remain available while a coherent view supports action? | [A preference harness: rules and preferences working together](docs/preference-harness.md) distinguishes retaining sources, selecting views, and inferring within them. It helps keep a rejected current candidate available for reconsideration without treating incompatible assertions as jointly accepted. Its psychological and formal sources have different roles. |
+| Does a formal result establish the conclusion being claimed here? | The preference-harness essay's [consistency arguments](docs/preference-harness.md#consistent-support-and-consistent-results) and [query rewriting](docs/preference-harness.md#query-rewriting-and-sublation) state the assumptions behind consistent support, consistent results, and the sublation analogy. They help determine which conclusion follows under which semantics, and where an informal transfer exceeds the formal result. |
+| Is a richer model useful and feasible for this question? | [Finite inquiry and economical abstraction](docs/finite-inquiry-and-abstraction.md) develops finite methods, reducibility, approximation, and the cost of abstraction. It helps compare an explanatory gain with what must be assumed, represented, and computed, rather than equating physical grounding with an achievable calculation. |
+| How should an account learn from practical participation or make a research claim? | [Embodied Experimental Philosophy](docs/embodied-experimental-philosophy.md) distinguishes practical and research loops, public works, and revisable boundaries and aims. It helps recognize what a situated success has shown and what broader explanatory claim still needs inquiry at its own scale. |
+| What changes when an expression becomes a self-description or acquires retrospective meaning? | [Speaking, self-description, and signifying chains](docs/lacan-and-description-logic.md) examines speaking, negation, and self-description through philosophical relations and bounded formal comparisons. It helps interpret the expression's role without mistaking a logical analogy for a clinical finding or a complete theory of meaning. |
+
+## Understand the author's connected philosophy
+
+These essays explain why the author organizes the practice as YinYang. They
+can be read for their arguments and literary form, whether or not the reader
+intends to use the Skill. A reader already working on a concrete problem can
+enter the relevant argument directly; the Sun–Moon–Earth image is not a
+theoretical prerequisite for using the methods above.
+
+| Question about the example | Reading and the understanding it develops |
+| --- | --- |
+| Why borrow generative capability, and why choose cultivation as its use? | [Stealing fire: from borrowed fire toward generation](docs/stealing-fire.md) connects collective acquisition, finite life, reverse alignment, and the development of generative capacities. It explains the author's reasons for the chosen purpose and rhythm, while distinguishing useful assistance from demonstrated growth. |
+| What work do Sun, Moon, Earth, and Taiji do in this philosophy? | [YinYang and Taiji: ceaseless transformation](docs/yinyang-and-taiji.md) develops ceaseless transformation, mutual grounding, and the Shuang yu. It makes differentiated generation, reception, shaping, and worldly consequences intelligible as relations; the actual participants remain able to exceed or exchange the pictured roles. |
+| What could give one person's practice a singular sustaining form? | [Writing a sinthome: forming a personal philosophy](docs/writing-a-sinthome.md) develops the author's proposal about personal authorship and agency. It helps examine this practical extension in relation to Lacan's historical account without taking it as a clinical conclusion or a promise of unlimited power. |
+| How do philosophy, psychology, and engineering belong to one practice? | [Trinity: Philosophy, Psychology, and Engineering in One Practice](docs/local-source-and-website.md) connects one changing physical reality, jointly developed computational models, and differentiated contributions with local, repository, and website forms. It helps understand how a philosophical account can gain a working realization and a public expression without those forms becoming identical. |
+
+For a connected conceptual reading, purpose → core views → creation method
+offers one possible route. The arrows indicate an intelligible connection,
+not a syllabus to finish before useful work or a compulsory adoption sequence.
+
+## Return to sources when the claim needs them
+
+The source guides help investigate a particular premise; they are not another
+general reading requirement. [Philosophical readings](docs/philosophical-readings.md)
+locates Heraclitus, YinYang/Taiji, Hegel, Freud, and Lacan, including the limits
+of the author's interpretations. [Psychological readings](docs/psychological-readings.md)
+connects process, evidence, psychological theories, belief, reasoning, and
+interaction when an account makes a psychological claim.
+[Engineering readings](docs/engineering-readings.md) supplies paths into self-study,
+command lines, Git, software design, algorithms, experiments, and physical
+conditions when an intended realization needs those capabilities. A source's
+presence in a guide does not establish that it supports every proposed use.
 
 These links resolve within the complete YinYang directory. The
-[package guide](docs/skill-package.md) explains distribution and private support;
-identify missing material rather than claiming to have read it.
+[Shared Skills and personal philosophy](docs/skill-package.md) explains distribution and private support;
+identify missing material rather than claiming to have read it. Private
+provenance stays at its [private index](personal/README.md).
 
 The [encounter](diagrams/encounter.html) and [layers](diagrams/layers.html)
-diagrams explain the same claims, with matching [Chinese encounter](diagrams/encounter.zh-CN.html)
-and [Chinese layers](diagrams/layers.zh-CN.html) viewers. They are self-contained
-HTML resources; [encounter SVG](diagrams/encounter.svg) and [layers SVG](diagrams/layers.svg)
-provide static exports. Diagram directions illustrate relations rather than a
-mandatory sequence or authority hierarchy. See [diagram maintenance](diagrams/PROVENANCE.md)
-for source, validation, and redistribution notices.
+diagrams express connected relations, with matching [Chinese encounter](diagrams/encounter.zh-CN.html)
+and [Chinese layers](diagrams/layers.zh-CN.html) viewers. The self-contained HTML
+resources can help inspect the whole arrangement; [encounter SVG](diagrams/encounter.svg)
+and [layers SVG](diagrams/layers.svg) provide static exports. Diagram directions
+show relations rather than a mandatory sequence or authority hierarchy.
+See [diagram maintenance](diagrams/PROVENANCE.md) for source, validation, and
+redistribution notices.

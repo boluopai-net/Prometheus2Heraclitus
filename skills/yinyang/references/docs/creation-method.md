@@ -24,10 +24,13 @@ premises. Within **Prometheus2Heraclitus**, these contributions work together.
 The creative problem is how a philosophical or literary understanding becomes
 effective in that environment. The method below connects an image with the
 processes and relations it helps us understand, their computational articulation,
-and an arrangement whose behavior can be examined. Its purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
+and an arrangement whose behavior can be examined. The author's chosen purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
 borrow available generative capacity and develop one's understanding, judgment,
 and agency through practice. What the arrangement makes possible in a person's
-life gives this authorship its point.
+life gives this authorship its point. The formation and realization methods can
+also serve a recipient's different purpose. Borrowing them does not require
+adopting this developmental aim, Sun–Moon imagery, or process ontology, or
+undertaking a personal philosophy project.
 
 ## From an image to a working relation
 
@@ -150,7 +153,7 @@ count of revisions or artifacts.
 
 ## Give the account a readable body
 
-The maintained YinYang implementation gives the account two scales. Common
+Full adoption of the maintained YinYang implementation gives the account two scales. Common
 essays develop its philosophy and imagery. Five situated files distill what
 actual collaboration needs: encounter, person model, counterpart and
 relationship, use, and sources. They supply an entry into the participants and

@@ -1,7 +1,7 @@
 # YinYang formation Skill
 
-**Write a philosophy, form grounded models of the person and their agent
-counterpart, and give their collaboration a working environment.**
+**Explore a worked philosophy, borrow methods for understanding and realization,
+or form a grounded YinYang collaboration in your own environment.**
 
 [简体中文](README.zh-CN.md) · [Model entrypoint](SKILL.md) ·
 [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/)
@@ -14,7 +14,7 @@ implementation, and correction; the person need not begin with a completed
 philosophy or self-portrait. Common ideas, private understanding, and actual
 work can develop together.
 
-Its purpose is **reverse alignment**: the person develops understanding,
+The author's chosen purpose is **reverse alignment**: the person develops understanding,
 generation, and action through encounters with generative intelligence. The
 agent's adaptation to the person supports that development. Both participant
 models matter: whose purposes are being served, and what this counterpart can
@@ -41,11 +41,18 @@ Skills. Other collection members retain their independent purposes and methods.
 
 ## Use and understand YinYang
 
-Give the model the complete package through its actual Skill mechanism and ask
-it to form or revise your personal philosophy from relevant authorized material.
-If the purpose includes adapting the environment, ask for that working result
-as well. The model carries the writing and implementation; downloading the
-package supplies guidance rather than a ready-made personal relationship.
+Read the philosophical arguments for their own questions, borrow a formation or
+adaptation method for a particular task, or adopt the complete maintained Skill.
+These uses can overlap; they are not stages everyone must pass through. Borrowing
+a method does not require writing a personal philosophy, adopting the author's
+ontology or imagery, or forming the five files of a maintained situated version.
+
+For full adoption, give the complete package to the model through its actual
+Skill mechanism. The model forms or revises the accounts from relevant authorized
+material and realizes the working environment where the purpose requires it.
+It carries grounded writing, investigation, judgment, and implementation; the
+person contributes experience, purposes, and decisions unavailable to it.
+Downloading guidance does not itself form a personal relationship.
 
 Choose the entrance that serves the current question:
 
@@ -55,9 +62,9 @@ Choose the entrance that serves the current question:
 | Form or revise the coupled personal accounts | [Design and revision](references/design-and-revision.md). |
 | Change how the actual environment works | [Harness adaptation](references/harness-adaptation.md). |
 | Understand files, personal content, and common updates | [Package guide](references/docs/skill-package.md). |
-| Explore an argument or its sources | [Reading map](references/reading-map.md). |
+| Explore an argument or its sources | [Read by the work being done](references/reading-map.md). |
 
-For this implementation, the five situated accounts describe the encounter,
+For full adoption of this implementation, the five situated accounts describe the encounter,
 person, counterpart and relationship, actual use, and evidence owners.
 Distributed guidance must become grounded accounts in a private situated
 version; another person's portrait or fictional substitute cannot supply them.
@@ -91,7 +98,7 @@ The essays answer connected questions rather than forming a compulsory course:
 | How does meaning acquire a working form? | [Creation method](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
 | How do the contributions fit together? | [Trinity](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |
 | What does the central image express? | [YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
-| Where do particular arguments and originals belong? | [Reading map](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |
+| Where do particular arguments and originals belong? | [Read by the work being done](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |
 
 A useful first conceptual reading is **Stealing fire → Core views → Creation
 method**. Actual formation starts with the entrypoint and current material;
@@ -101,7 +108,7 @@ with their private owner.
 
 ## Philosophical ground
 
-The framework begins from one changing physical reality, articulated through
+The author's framework begins from one changing physical reality, articulated through
 contemporary fire monism as process ontology. Its engineering ontology gives
 selected processes a computational model: objects that persist, states,
 relations, constraints, and changes that a computer can represent and, where

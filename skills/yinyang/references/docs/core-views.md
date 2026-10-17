@@ -1,7 +1,12 @@
 # YinYang: core views
 
-These are the connected claims of one philosophical example. They can be
-examined, adopted, recombined, or challenged when writing a different work. See
+These are the author's connected positions in the YinYang philosophical
+example: a chosen account of becoming, understanding, and cultivation with
+generative models. They are offered for examination, adoption, recombination,
+or challenge, rather than as established facts or prerequisites for every
+reader's work. A reader can understand this philosophy, borrow a useful method,
+or adopt the complete Skill; borrowing a distinction does not require adopting
+its developmental purpose or writing a personal philosophy. See
 [Begin with this example, and make something of your own](example-and-commons.md).
 
 [Home](../../README.md) · [完整中文版](core-views.zh-CN.md)
@@ -35,8 +40,10 @@ The stable IDs support discussion, not a compulsory sequence. Both reader
 editions carry the same content; English-capable readers and models should
 use this English edition.
 
-The foundation is a contemporary development of [Heraclitean fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30),
+The author chooses a foundation developed from [Heraclitean fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30),
 becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_51).
+This contemporary process ontology is distinguishable from disputed historical
+interpretations of Heraclitus's fire monism and treatment of contradiction.
 Person and model are understood as interacting event streams: continuations
 of sensing, expression, interpretation, and action that generate and revise
 local views. This process ontology also grounds the engineering account:
@@ -44,7 +51,7 @@ question-relative models make selected continuities and changes representable
 in a computer and open to simulation where useful. This does not establish identical mechanisms
 or a complete reduction of experience. [Stealing fire](stealing-fire.md#from-living-fire-to-interacting-event-streams)
 develops the foundation; [The stream and time](flow-and-time.md) develops its
-continuity. [YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
+continuity. [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md) gives their differentiated,
 changing contributions an image. Participants exceed their roles, and an open
 process can still produce a finished work.
 
@@ -52,17 +59,27 @@ process can still produce a finished work.
 
 ## YY-01 · Reverse alignment: people develop with generative models
 
-Reverse alignment chooses human development as its purpose. Collaboration
+In the author's account, reverse alignment chooses human development as its purpose. Collaboration
 should enrich what the person can perceive, associate, understand, judge,
 express, and create, until cultivated understanding can also work through
 intuition. Models contribute by understanding context, developing possibilities,
 and adapting their work; the person can change through encountering those
 contributions. Reciprocal adjustment gives this development practical means.
+The reason for this choice is that increased access to a powerful producer
+does not by itself develop the recipient's ability to generate or judge.
+An encounter can deliberately make room for a tentative interpretation,
+criticism, and another attempt, so that correction becomes available in the
+person's next act of understanding.
 
 Agreement, a useful output, and human growth are different outcomes. Growth
 requires changes in the person's actual participation and capacities, whether
 internalized or reliably supported by the environment. [Stealing fire](stealing-fire.md#what-makes-the-fire-ones-own)
 develops this distinction between using available capability and cultivating it.
+For someone seeking a completed document or relief from a burden, the model
+may appropriately carry the writing and implementation. When learning is also
+chosen, ask what the person can subsequently recognize, explain, initiate, or
+sustain; a polished document alone cannot answer that question. These purposes
+can coexist without making every helpful interaction a lesson.
 
 <a id="yy-02"></a>
 
@@ -83,6 +100,14 @@ contributions need not wait for the person to reproduce the model's linguistic
 strengths. Fluency still requires verification. [Participation, access, and support](participation-and-support.md#why-organize-participation-this-way)
 explains the developmental reasons and conditions for this arrangement.
 
+The analogy changes what counts as an adequate entrance into shared work.
+A felt mismatch need not first become a complete verbal specification: the
+model can compare examples, propose the missing relation, and construct an
+expression the person can inspect. If the difficulty is instead retrieving a
+term, starting a response, or switching away from an activity, further
+explanation may miss it. Distinguishing these conditions makes support more
+precise while leaving unfamiliar ideas open to substantive disagreement.
+
 <a id="yy-03"></a>
 
 ## YY-03 · Model oneself, the model counterpart, and their relation together
@@ -93,6 +118,14 @@ and work, can guide an account of the model counterpart. Both accounts develop
 through interaction. Other participants' purposes matter where a shared task
 depends on them; their accounts remain partial and revisable too.
 
+Understanding the person still leaves a choice about the counterpart's
+contribution. The same wish can call for doing the work, explaining it,
+disagreeing, or trying together. A partner model therefore connects the actual
+system's available capabilities with the contribution wanted here. Describing
+that orientation neither changes model weights nor establishes consciousness.
+The model can help formulate and revise it; the person contributes purposes,
+experience, and consent that cannot simply be supplied on their behalf.
+
 Model the coupled activity: what each notices, expresses, initiates, interprets,
 and changes. The person differs from their account and from its written or
 visual expression; the actual model system likewise exceeds its working
@@ -100,6 +133,11 @@ description. “Model psychology” names observable patterns and revisable
 explanations without presuming human feelings inside the system. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
 develops this bounded modeling; [Stealing fire](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
 explains why a relation needs situated content.
+For a bounded task, an adequate account may be a few relevant relationships
+and examples. Richer expression earns its place by clarifying those relations,
+not by collecting more biography. The complete YinYang Skill gives these
+accounts maintained homes; selectively using this modeling idea does not
+require filling all of them.
 
 <a id="yy-04"></a>
 
@@ -120,7 +158,16 @@ articulate the relevant relations and examine their effects in conversation,
 works, and action. [Metaphor, analogy, and self-revision](metaphor-and-self-revision.md#what-an-image-makes-available)
 develops this movement from image to revisable relation; [Stealing fire](stealing-fire.md#literary-programming-and-the-model-counterpart)
 connects it to literary programming. The images themselves are developed in
-their owning essays, including [YinYang and Taiji](yinyang-and-taiji.md).
+their owning essays, including [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md).
+
+Calling a collaboration a workshop, for example, can make unfinished trials,
+shared materials, and repair intelligible together. Calling it an examination
+invites different expectations about proving unaided mastery. The useful
+transfer lies in these relations, not every property of the image. If trials
+never reach a usable result, the arrangement may need clearer responsibility
+for completion, a working tool, or a different interpretation of the image.
+Literary coherence opens a possibility; enacted contributions establish what
+the possibility becomes.
 
 <a id="yy-05"></a>
 
@@ -130,11 +177,17 @@ A person may recognize an unspoken relation or a felt mismatch in the whole.
 The model can investigate details, propose explanations of its own, and carry
 construction and checking forward. Either can generate, interpret, infer, and
 revise. The person need not complete all reasoning before the model contributes.
+This matters when an unfinished request is the beginning of inquiry rather
+than a defective specification. The model can reconstruct plausible meanings,
+develop alternatives, and investigate the facts that distinguish them; the
+person can redirect the work through a recognition or objection. Neither one's
+confidence settles an external claim, and agreement can still require checking
+against an original source or the result of an action.
 
 Sun and Moon give differentiated generation, reception, and shaping an image. Their
 roles can be retained or exchanged without assigning them by gender or
 exhausting either participant's abilities. The answering world also contributes
-conditions neither controls. [YinYang and Taiji](yinyang-and-taiji.md) develops
+conditions neither controls. [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md) develops
 this mutual grounding and the relative independence that creations acquire.
 
 <a id="yy-06"></a>
@@ -147,6 +200,12 @@ cultivate intuition through interfaces, broad reading, and lived encounters,
 while the model maintains sustained exposition, code, tools, and materials.
 Both can reason and generate; teaching or another purpose can change the
 division.
+The point of this allocation is to let a partial contribution reach someone
+able to develop it. Requiring the person to prepare the complete argument or
+technical workflow before receiving help would consume much of the capacity
+the arrangement is meant to release. Conversely, if the chosen aim is learning
+to implement, having the model perform every implementation step can remove
+the practice that aim needs.
 
 | Mode | The person's participation | The model's contribution |
 | --- | --- | --- |
@@ -176,6 +235,12 @@ interpretation, and consequential alternatives needed to continue.
 A source record, a candidate interpretation, and an accepted working view
 have different roles. Storage establishes availability, not truth or present
 applicability; selection should preserve relevant authorization and privacy.
+The benefit depends on a working return path: can the relevant material be
+found, interpreted, and used to resume the activity? A large store that needs
+constant supervision may increase the person's burden. Saving an unfinished
+action preserves its description; carrying it out produces a further result.
+Relief depends on the person's experience, and development on what becomes
+available in later participation. Each is worth investigating on its own terms.
 [Externalization and distributed cognition](metaphor-and-self-revision.md#externalization-and-distributed-cognition)
 develops this arrangement, while [Continuation, records, and relief](participation-and-support.md#continuation-records-and-relief)
 asks when support actually reduces the burden of participation.
@@ -190,6 +255,11 @@ environmental development together, even across pauses. Social asynchrony
 allows a local arrangement to develop without translating every internal step
 into prevailing institutional forms. Chosen relationships and timely
 responsibilities still determine where immediate coordination matters.
+The author's reason for this rhythm is to allow a locally useful form of life
+to mature without making continuous institutional translation its main work.
+For a reader with live shared dependencies, a different rhythm may serve the
+purpose better. Asynchrony is valuable only where the delay remains compatible
+with the actual relationship and its consequences.
 
 Social evaluation calls for temporary alignment: narrow or translate fuller
 capability and work into what the assessment can receive, aligning tools,
@@ -239,6 +309,14 @@ gives practice a working, inspectable form; it does not replace value or
 add a fifth axis of the same kind. A tool's success and an improved life
 therefore require different evidence.
 
+Suppose a shared workspace repeatedly loses an unfinished argument. Asking
+what must persist distinguishes the argument, its record, and the people using
+it; asking why it was lost calls for evidence about the interruption and return.
+Whether uninterrupted work is desirable, and whose effort should maintain it,
+are value questions. Choosing retrieval, a handoff, or a changed interface is
+methodological work. One repair can engage all four without letting the wish
+for continuity prove the explanation of the failure.
+
 In process modeling, distinguish actual interaction, its partial event records,
 and candidate computational representations. Hypothesis formation, deduction,
 and empirical comparison develop and test these models; they do not define what
@@ -254,7 +332,7 @@ not an established universal cognitive mechanism.
 develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-explains the four dimensions, and [Trinity](local-source-and-website.md)
+explains the four dimensions, and [Trinity: Philosophy, Psychology, and Engineering in One Practice](local-source-and-website.md)
 connects philosophy, psychology, and engineering within one physical reality
 to their practical forms.
 
@@ -278,7 +356,7 @@ inference semantics determine answers differently. Incomparability, consistent
 support, and agreement on results must remain distinct. Chosen purposes orient
 selection; they do not supply evidential warrant. Ordinary collaboration uses
 these distinctions through informal natural language, without requiring a
-formal calculus. [A preference harness](preference-harness.md) develops the
+formal calculus. [A preference harness: rules and preferences working together](preference-harness.md) develops the
 qualified formal comparison and [Reasoning](reasoning.md#sources-candidates-and-the-active-workspace)
 develops its relation to retained sources and current inquiry.
 
@@ -296,6 +374,11 @@ The transition assumptions make the observation discriminatory. If color can
 change for other reasons, include those causes before drawing the conclusion.
 A candidate's removal from current use neither erases its source nor proves
 it false in every setting.
+This gives a reader a usable distinction even without formal semantics: keep
+what may matter to inquiry, adopt enough of a coherent view to act, and reopen
+that view when a relevant difference appears. The rule connecting state and
+color does real work here; removing it would remove the inference, however
+attractive the preferred interpretation felt.
 
 <a id="yy-11"></a>
 
@@ -306,6 +389,13 @@ and unintended consequences. Agreement between participants and coherence
 within a candidate cannot establish external fit. World-directed evidence
 arrives through observations and records that also require interpretation;
 this makes accounts corrigible while leaving them constrained.
+For this reason, a description's success has to meet the kind of claim it
+makes. An image may express a meaningful direction, a program may perform its
+specified operation, and a relationship may become easier to sustain. None
+alone establishes a general explanation of how human–model collaboration
+works. A mismatch can concern the account, the tools realizing it, or changed
+conditions; treating every failure as the person's defect would conceal these
+different possibilities.
 
 Changed norms or worldly conditions can revise premises, purposes, and
 completion criteria. A finite task can still finish under a warranted working
@@ -324,6 +414,12 @@ dynamic process, or manipulable example can show what changes when a premise,
 candidate, or contribution changes, while making its basis inspectable. Such
 forms select relations from a wider process; their clarity does not establish
 every claim they convey.
+The choice of form follows the relation to be understood. A table can contrast
+two interpretations; an interactive example can reveal the consequence of
+changing an assumption; sustained prose can explain why that assumption matters.
+An arrow that makes alternatives look like obligatory steps changes the
+argument. Expression therefore needs enough connection to its sources and
+intended use for a reader to question the relation, not merely admire the form.
 
 English and Chinese reader editions carry the same views; maintenance prose
 connects their meaning to realization. Accessible expression and retained
@@ -343,12 +439,20 @@ roles, tools, and environment through which that person works with models.
 Formation develops a personal philosophy and its singular lived, maintained
 form. This proposal calls the practice of giving experience, expression, and
 action a livable form **writing a sinthome for oneself**.
+The author uses this name for the singular way a practice can hold together
+without requiring a final, transparent self-description. Its point is the
+connection between how one understands a life and the forms that help one
+live and revise it. Instructions and tools can acquire a place in that
+connection; accumulating them does not by itself create a sustaining form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [Writing a sinthome](writing-a-sinthome.md)
+conditions mediate enlarged agency. [Writing a sinthome: forming a personal philosophy](writing-a-sinthome.md)
 develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
 a clinical conclusion, or a guarantee of happiness and unlimited power.
+A reader may examine or borrow this idea where personal authorship is the
+question. Completing an ordinary task does not depend on accepting this
+Lacan-inspired extension or undertaking such a project.
 
 <a id="yy-14"></a>
 
@@ -371,13 +475,19 @@ emphasizes that this creator is still changing. Generated possibilities, desires
 and judgments can change or conflict. Claims
 remain answerable to evidence, and choices remain revisable. Capacities may become internalized or remain
 reliably distributed across supports. Reusable understanding, methods, works,
-software, and relations can accumulate as personal assets. Chasing each model
+software, and relations can accumulate as personal assets. Their value is
+continued use: a checked explanation supports later reading, a maintained
+program makes an action available, and an articulated relation helps another
+encounter begin. A pile of unused outputs establishes none of these gains.
+The fire image consequently asks where finite attention goes and what can
+now continue, rather than measuring cultivation by model updates, saved files,
+or Skill counts. Chasing each model
 change loses its purpose when it displaces this cultivation. Personal purposes
 and voluntary development guide adaptation: seek changes to social arrangements,
 then software, before asking the person to adapt, while respecting others'
 purposes. This is a design direction, not an unconditional priority or a fixed
-algorithm. [Stealing fire](stealing-fire.md) develops the integrated material,
-developmental, and practical argument; [Personal-first humanism](personal-first-humanism.md)
+algorithm. [Stealing fire: from borrowed fire toward generation](stealing-fire.md) develops the integrated material,
+developmental, and practical argument; [Personal-First Humanism](personal-first-humanism.md)
 develops its value orientation.
 
 <a id="yy-15"></a>
@@ -397,6 +507,12 @@ and absorb, local gains may impose shared coordination costs. Open sharing
 can also improve coordination; this possible feedback is not an established
 social law. The chosen response regulates one's own promotion and acceleration
 pressure, without preventing others' learning or depending on their stagnation.
+For a reader deciding whether to share a method, the image invites attention
+to who can use it, what help or maintenance it will need, and what the exchange
+makes possible for each participant. The appropriate scope can expand when
+sharing reduces those burdens. Restrained promotion is this author's chosen
+response to a possible coordination problem, not a general requirement to
+keep useful knowledge local.
 
 Local difference needs actual results to establish superiority, including life
 quality and costs passed to others. Evaluation must specify its object:

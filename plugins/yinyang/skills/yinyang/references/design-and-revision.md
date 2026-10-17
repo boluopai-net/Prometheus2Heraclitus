@@ -21,6 +21,16 @@ another philosophy or literary form. Support that work at its own source, even
 when its images and organization no longer resemble YinYang; the
 [example and commons essay](docs/example-and-commons.md) explains the distinction.
 
+A reader can study that example, borrow a particular method, or maintain a
+situated YinYang. These are different uses, not successive levels of commitment.
+To borrow the distinction between an observation and its interpretation, begin
+with the actual problem and use the relevant reasoning below; neither a new
+philosophy project nor the five situated files is a prerequisite. Maintaining
+this Skill as a whole does call for those grounded accounts and the entrypoint's
+initial reading, because its ordinary operation depends on their connected
+understanding. The writing duties of each account stay with its own guidance.
+Here, the method explains how to obtain and revise the understanding they carry.
+
 ## Form a situated version from actual material
 
 Common philosophy articulates broader objects, relations, values, and ways of
@@ -64,6 +74,20 @@ articulate what the person values, chooses, seeks, and wishes to change.
 Preferences can supply a usable account without a clinical or mechanistic
 theory. Develop counterpart priorities in relation to it, distinguishing chosen
 commitments from observed tendencies and claims about internal mechanisms.
+
+Suppose someone always works at one desk. That observation fits several
+accounts: the arrangement may be preferred, it may be the only place with the
+needed equipment, or it may have persisted without comparison. Recommending a
+permanent fixed workspace on that evidence would turn the current constraint
+into a personal ideal. Relevant evidence might be an earlier freely chosen
+arrangement, the person's experience when an alternative was genuinely
+available, or an ordinary reversible trial when useful and authorized. If moving
+removes a valued resource, dislike of that trial does not isolate a preference
+for staying still. Compare the activity and costs that changed with the location.
+The model can inspect those dependencies and develop candidate accounts;
+the person's unavailable experience remains theirs to contribute. Keep the
+account conditional when the evidence does not discriminate. There is no need
+to settle a general personality trait to improve this workspace.
 
 Distill what ordinary collaboration needs into the five situated files. Keep
 differences that change understanding or action; place extended episodes,
@@ -116,31 +140,15 @@ This maintenance calls for neither broad personal-data collection nor a new
 scheduler. The [Trinity maintenance account](docs/local-source-and-website.md#keeping-the-loop-current)
 connects it to the continuing philosophy–psychology–environment loop.
 
-## Authoring strength and iteration
-
-Use the current host's model selection and actual task authorization. Keep an
-iteration coherent enough to inspect its meaning and consequences. Independent
-bounded contributions can help when the actual task warrants them; the task
-owner integrates their relations. Ordinary helpers receive relevant task
-context, while explicitly authorized maintenance inspection treats selected
-passages as objects. The entrypoint supplies the personal-model boundary.
-
-## A shared repository for revision
-
-Personal expression, repository arguments, and contributions through Issues and
-PRs can inform a revision. The model develops interpretation and integration;
-the person need not submit a finished design. Distinguish a proposal, an adopted
-change, and evidence supporting its claims. Return only authorized general
-insights to the shared owner. Public methods do not authorize publication of
-personal records, formalized accounts, private quotations, or unreleased work.
-
-## One interface, several scales
-
-The entrypoint orients participation; the five accounts carry situated
-understanding; their sources support it. The [reading map](reading-map.md)
-opens further arguments by question. This reference develops formation and
-revision, while adaptation develops working realization. These scales allow
-depth where a problem needs it without making every resource compulsory.
+Revision can also travel from situated practice to shared method. A repository
+argument or a contribution through Issues and PRs may reveal a better
+interpretation, but a proposal, an adopted change, and evidence for its claims
+remain different. Return only authorized general insights to the shared owner;
+using a public method does not authorize publication of personal records,
+formalized accounts, private quotations, or unreleased work. Helpers receive
+bounded relevant task context under the entrypoint's personal-model boundary;
+explicitly authorized maintenance inspection can treat selected passages as
+objects. The task owner integrates the result against its actual evidence.
 
 ## What the language does
 
@@ -149,6 +157,17 @@ relation, or gather possibilities through an image. Recognize its function where
 it changes the conclusion, without tagging every sentence. A person's expression
 is evidence, not a transparent inventory; an evocative theory still needs to
 explain the actual case.
+
+For example, “I lost the thread after that question” reports an experience.
+“Reconstructing the implementation displaced my broader thought” proposes an
+explanation whose fit can be investigated. “I want to stay with the argument”
+expresses an intention; it does not establish that every practical question is
+unwanted. Choosing that the model should carry routine implementation gives
+the relation a direction. An image of sheltering a flame may gather continuity,
+protection, and generative possibility into one expression; those associations
+still need interpretation before they can guide a particular intervention.
+Moving directly from the image or report to a universal prohibition would skip
+the very relation the writing needs to make intelligible.
 
 The person and counterpart accounts develop together. A role or division of
 labor does not exhaust either participant or establish incapacity. Psychological
@@ -176,6 +195,46 @@ and obtaining a judgment only the person can supply. Recover the relation and
 its fitting realization. A clear rule or beautiful expression does not by
 itself establish fit.
 
+Consider a fictional case used to work through this distinction, not a record
+of a person or evidence of the method's success. While developing an argument,
+a person is asked to choose a file layout that the model could have determined
+from the project. They report losing the thread. One explanation is that any
+question interrupts the activity. Another is that this question transferred
+solvable implementation work and its context-reconstruction cost to them. A
+third is that the disruption came from a poorly timed transition, even if the
+question itself mattered. One episode is compatible with all three.
+
+The competing accounts matter because they suggest different changes. A ban
+on questions would fit the first but could conceal uncertainty about the work's
+purpose. Carrying routine decisions would address the second while preserving
+meaningful inquiry. Better timing could address the third without changing the
+division of work. Inspect the actual question, what evidence the model already
+had, and what happened around the interruption before choosing among them.
+The person need only contribute the experience and direction unavailable in
+those materials; the model can reconstruct the local dependency and propose a
+change with reasons.
+
+A discriminating case is one in which the accounts imply different useful
+responses. Suppose a later task contains a routine file-layout choice and an
+unresolved choice about which argument the person wants to pursue. The model
+can carry the former from project evidence and make the latter intelligible
+enough for the person to judge. Whether that exchange preserves the thread
+helps distinguish objection to transferred detail work from objection to
+questions as such. It does not settle every situation: the importance, timing,
+and presentation of the question can still explain a different response.
+Use a naturally occurring case or a proportionate authorized trial; this
+example supplies a comparison, not a required experiment on the person.
+
+Under the second account, a fitting chosen relation is that the model carries
+implementation judgment within its capabilities, exposes consequential
+differences, and obtains genuinely unavailable purpose or experience from the
+person. This respects attention while retaining the counterpart's independent,
+fallible judgment. Both can challenge the account. If a relevant inquiry still
+breaks continuity, timing or representation may need revision. If carrying the
+detail silently changes the intended work, the allocation or its boundary was
+inadequate. [Harness adaptation](harness-adaptation.md#attention-participation-and-inquiry)
+continues this case through a working change and its readback.
+
 ## Revise from the changing encounter
 
 Start from attributable user expression, the existing account, and the actual
@@ -183,6 +242,14 @@ mismatch or new experience. Determine what changed: the situation, understanding
 of the person, counterpart commitment, relationship, or environmental realization.
 Read and rewrite the complete affected passage with its surrounding relations,
 retaining still-supported substance and consequential uncertainty.
+
+Do not make the newest formulation erase its own conditions. If the person
+later asks to participate in implementation to learn, the earlier attention
+account can remain sound for delegated production work while its application
+changes in learning. Conversely, repeated failures across those contexts may
+undermine the account itself. Revise the scope supported by the evidence:
+one arrangement can change without establishing a new enduring preference;
+a chosen relationship can change without proving the old experience false.
 
 Use [two-way harness adaptation](harness-adaptation.md#choose-the-focus-and-trace-both-directions)
 to distinguish the repair focus, judgment material, and necessary related
@@ -208,3 +275,14 @@ Attend separately to the person's developing understanding, generation, and
 action through actual experience and attributable feedback. A synthetic role
 performance or successful resource read cannot establish lasting fit. Use
 evidence sufficient for the current change and retain what remains open.
+
+Keep the claims separate. A reachable file establishes that the account can be
+read. A completed task can show that a particular support worked under those
+conditions. Repeated exchanges, including correction and disagreement, can
+support a claim about collaborative fit. Human development asks a further
+question: what understanding, generation, judgment, or action has become
+available to the person, internally or through reliable supports? A useful
+output alone does not answer it. Attributable experience and later participation
+can reveal development, a merely convenient arrangement, or costs that the
+initial success concealed. Those findings can change implementation, the chosen
+relation, or the philosophical orientation that gave it purpose.
