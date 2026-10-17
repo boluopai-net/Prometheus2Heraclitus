@@ -349,8 +349,9 @@ edition set exists so its language and section links resolve within that set.
 Both article renderers generate H2/H3 anchors from the complete Markdown.
 Philosophy book pages use separate cross-page book navigation on the left and
 current-page contents on the right at wide desktop widths. At narrower widths,
-the current-page contents become a native disclosure below the title; phones
-also use a closed-by-default book menu. Reference documents retain their shared
+book and current-page contents controls appear together before the title,
+using native disclosures with the book menu closed by default. Reference
+documents retain their shared
 left `reading_rail` and existing mobile placement. `scripts/commentaries.py`
 owns these navigation structures, `article.css` owns their responsive layout,
 and `library.js` moves the contents and marks the current section. Prose stays

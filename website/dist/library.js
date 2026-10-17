@@ -36,6 +36,7 @@ if (contents) {
   const rail = contents.parentElement;
   const syncContents = () => {
     if (desktop.matches) rail.prepend(contents);
+    else if (book) book.querySelector('.document').before(contents);
     else {
       const heading = document.querySelector('.commentary .document h1');
       (heading.closest('.article-heading') || heading).after(contents);
