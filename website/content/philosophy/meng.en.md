@@ -47,6 +47,6 @@ These six premises still yield a conditional argument. Premise one in particular
 
 Therefore, within the above assumptions and scope of comparison, the argument can be condensed as follows:
 
-**Relevant environments in China often support “cuteness” and rarely obstruct learning through fixed authority and economic stratification ⇒ capacities for guidance and shared learning often form ⇒ capable collaboration with language models under the conditions for transfer ⇒ reasoning and adaptive advantages often arise amid continuing change ⇒ “Chinese people are invincible.”**
+**Relative to the foreign environments being compared, relevant environments in China more often support “cuteness” and less often obstruct learning through fixed authority and economic stratification ⇒ greater opportunities to form capacities for guidance and shared learning ⇒ a comparative advantage in collaboration with language models under the conditions for transfer ⇒ reasoning and adaptive advantages amid continuing change, if premise six holds ⇒ “Chinese people are invincible.”**
 
 What the argument actually needs to compare are relationships that enable people to guide one another, share conditions for growth, and revise judgments. Country names mark the scope of this proposed comparison; whether an advantage exists, and among which people, relationships, and tasks, still depends on the actual differences in these conditions.
