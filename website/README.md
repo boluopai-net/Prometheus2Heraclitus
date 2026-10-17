@@ -301,14 +301,21 @@ the generated article instead of its canonical source.
 
 The practical toolkit guide is independently maintained in
 `content/guides/getting-started.md` and `getting-started.en.md`, with complete
-bilingual prose and the tool-map labels in those sources. Run
-`uv run --with markdown python scripts/render-guide.py` to project the native
-`/getting-started/` and `/getting-started/en/` pages; `dist/guide.css` owns only
-their responsive presentation. This is a practical resource, not an additional
-philosophy essay or Skill. `reader-pages.py` maintains its prominent homepage
-entrances; `render-library.py` maintains the resources-hub entrances. Generate
-the guide after library and reader pages, before the Sites build. Shared chrome
-is projected automatically, with the resources tab active. Product facts link
+bilingual prose in these two sources. Run
+`uv run --with markdown python scripts/render-guide.py` to render the native
+`/getting-started/` and `/getting-started/en/` overview pages plus six bilingual
+topic routes: `start/`, `reading/`, `tools/`, `continuity/`, `practice/`, and
+`automation/` beneath `/getting-started/`, each with its own `en/` edition.
+The renderer groups the nine ordered source anchors into these topics. Desktop
+topic navigation, an expandable mobile menu, language switching, and topic
+previous/next links connect all 14 pages. The overview retains the old fragment
+IDs as links into the corresponding topic pages. `dist/guide.css` owns their
+responsive presentation; generated pages are not independent prose sources.
+This is a practical resource, not an additional philosophy essay or Skill.
+`reader-pages.py` maintains its prominent homepage entrances;
+`render-library.py` maintains the resources-hub entrances. Generate the guide
+after library and reader pages, before preparing a content release. Shared
+chrome is projected automatically, with the resources tab active. Product facts link
 to sources checked on 2026-10-13; update both editions when actual availability
 or product conditions change, without turning a subscription list or hardware
 purchase into a prerequisite for meaningful practice.

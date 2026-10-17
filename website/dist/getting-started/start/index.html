@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>开始使用 · 工具使用 · boluopai</title><meta name="description" content="开始使用 — 从实际任务开始，按主题了解工具、协作、学习与持续维护。"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/guide.css?v=25f85f459193"><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head>
+<body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/getting-started/start/en/" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header>
+<main id="main" class="wrap practical-guide"><a class="back" href="/repositories/">资料与建议</a><div class="guide-layout"><aside class="guide-sidebar"><nav aria-label="指南主题"><ul><li><a href="/getting-started/">总览</a></li><li><a href="/getting-started/start/" aria-current="page">开始使用</a></li><li><a href="/getting-started/reading/">阅读与信息</a></li><li><a href="/getting-started/tools/">工具与界面</a></li><li><a href="/getting-started/continuity/">协作与接续</a></li><li><a href="/getting-started/practice/">学习工作与生活</a></li><li><a href="/getting-started/automation/">自动化与维护</a></li></ul></nav></aside><details class="guide-mobile-menu"><summary>指南主题 · 开始使用</summary><nav aria-label="指南主题"><ul><li><a href="/getting-started/">总览</a></li><li><a href="/getting-started/start/" aria-current="page">开始使用</a></li><li><a href="/getting-started/reading/">阅读与信息</a></li><li><a href="/getting-started/tools/">工具与界面</a></li><li><a href="/getting-started/continuity/">协作与接续</a></li><li><a href="/getting-started/practice/">学习工作与生活</a></li><li><a href="/getting-started/automation/">自动化与维护</a></li></ul></nav></details><div class="guide-reading"><article><img class="motif guide-motif" src="/motifs/axe.svg" alt="" aria-hidden="true"><h1>开始使用</h1><p><a id="foundation"></a></p>
+<h2>设备与网络：先让现有电脑能工作</h2>
+<p>如果你已有一台能运行所选工具的电脑，先用它。选择 Mac 时，核对软件当前的系统与芯片要求；内存、存储和外接屏幕按实际项目与使用负担再添。通过云端模型开始这条路线，不需要先购买用来本地训练大模型的显卡，也不必先把桌面布置成作者的样子。</p>
+<p>网络应当能支持登录、查文档、下载依赖和上传作品。需要代理配置时，<a href="https://github.com/clash-verge-rev/clash-verge-rev">Clash Verge Rev 的项目仓库</a>是可核对的客户端入口：它管理网络配置，本身不提供网络服务或模型账号，仍需你自己可用、可信的配置。<a href="https://www.duyaoss.com/">DuyaoSS</a> 可作为查找机场介绍、测速记录和线路科普的社区参考；页面可见的部分测速与介绍样本较早（2018—2024 年），优惠信息也注明可能未及时更新。把它当作线索，购买或配置前核对服务商当前条款与线路，并按自己的运营商、地区和设备实测；单篇测评不保证你当前网络的表现。安装一个客户端，不等于已经连通服务。</p>
+<p>对主要在中国大陆生活的读者，还要分别检查<strong>网络连通</strong>和<strong>服务支持范围</strong>。中国大陆不在 OpenAI 的<a href="https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"> ChatGPT 支持地区清单</a>中；代理客户端不会改变这项服务条件。先确认你实际可用的服务与账号，再选工具；这份实践方式也可以用其他实际可用的模型来展开。</p>
+<p>代理流量有限，或者大型软件、依赖包和 Docker 镜像下载缓慢时，可以让模型检查合适的<strong>镜像源与缓存</strong>。软件包源和 Docker 镜像仓库是不同的配置对象；镜像能够直连时，可以减少代理流量，缓存则减少重复下载。<a href="https://docs.docker.com/docker-hub/image-library/mirror/">Docker 的镜像缓存说明</a>给出了按需从上游取得、随后从缓存复用的方式。让模型核对来源、支持的包或仓库、同步情况、版本及校验信息，再按当前网络实测；已有可用缓存时，不必反复清空重下。</p>
+<p><a id="subscription"></a></p>
+<h2>从订阅到全局提示词与关键 Skills</h2>
+<p>网页 ChatGPT 是云端的对话与工具空间，可以帮助讨论、研究、理解材料和发展构想。本地 Codex 则能在获得相应访问能力后，直接参与构建和维护你的<strong>个人知识环境与工作环境</strong>：连接资料、笔记、应用、文件、脚本、工具与配置，把想法做成实际可用的安排。一个项目文件夹只是其中一个工作位置，环境本身也可以是持续改造的对象。你带来目的、经验和判断，模型承担解释、调查、构造、执行与检查；从一个具体需要开始，就能让这种协作发生。</p>
+<p>如果还没有可用账号，可以先解决网络连通，再选择并购买实际可用的订阅。先在 Web 中用起来，请模型帮助梳理目的与全局提示词；然后按<a href="https://learn.chatgpt.com/docs/quickstart">官方入门说明</a>下载本地客户端、登录，接入工作目录。已经有可用客户端时，也可以由它协助完成后面的准备。</p>
+<p>先看现有账号是否已经包含所需 Codex 能力、额度和客户端。官方文档说明<a href="https://learn.chatgpt.com/docs/pricing"> Codex 包含在 ChatGPT 方案中</a>，具体能力与额度随方案、账号和开放情况而异；可按<a href="https://learn.chatgpt.com/docs/auth">登录说明</a>使用 ChatGPT 账号。已有适用权益时，不必另买一份所谓“Codex 订阅”。遇到实际额度或功能不足，再比较升级是否值得。</p>
+<h3>先选稳定的个人订阅，再比较使用价值</h3>
+<p><strong>优先购买面向个人的 ToC 订阅，并把稳定性放在优惠价格之前。</strong>先确认账号归属、持续登录、实际可用的模型与额度、续费和恢复方式；优先选择官方直购或来源清楚、交付与续费可靠的渠道。短期折扣不能抵消频繁失效、账号被收回或无法续用的代价。只有确实需要多人协作、组织管理、企业数据政策或合同保障时，再比较 ToB 团队／企业方案；不因“企业版”名称就默认它更适合个人。</p>
+<p><strong>日常协作尽量围绕一个稳定的主订阅展开，让本地 CLI／App 与 Web 共同使用其实际包含的权益。</strong>先把已有环境用顺，再根据实际能力差异决定是否增加或更换订阅。频繁切换会带来提示词、Skills、工具接口和操作习惯的适配成本；续费前仍应重新评估，稳定使用不等于永久绑定。翻译等有明确用途的接口仍可单独配置。</p>
+<p>在稳定性和实际能力满足需要的候选中，<strong>把本地与 Web 合起来看，并参考对应模型的 API 价格比较订阅价值</strong>：</p>
+<ol>
+<li><strong>列出真正用得上的能力。</strong>分别核对本地和 Web 可选的模型、模式、工具、用量限制与重置周期；共用的额度只算一次，不能把两个入口当成两份额度。</li>
+<li><strong>估计同类工作改走 API 的成本。</strong>对有可比 API 的模型，按预计的输入、缓存输入、输出及必要工具用量，结合服务商当前价目表估算一个月的替代成本。例如可从<a href="https://developers.openai.com/api/docs/pricing"> OpenAI API 定价</a>核对计费项。用不到的高价模型不增加实际价值；Web 专有能力或无法可靠估计的用量单独比较，不虚构精确折算。</li>
+<li><strong>比较实际月费与能持续完成的工作。</strong>结合本地加 Web 的真实需求、质量、速度、额度和续费成本，选择稳定候选中更合算的一项。API 替代成本是比较参照，不是把订阅月费除以 token 单价来推算“赠送额度”，也不是 API 单价越高就越值得买。</li>
+</ol>
+<p><a href="https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform">ChatGPT 与 API 分开计费</a>。订阅不等于 API 余额，API 余额也不替代订阅。只有你要做自己的 API 程序或确实选择 API 登录时，才需要另行了解这条计费路线。价格与支持情况请看官方当前页面，不在这里固定一个购买清单。</p>
+<h3>让模型帮助准备工作方式</h3>
+<p>全局提示词先写少量真正贯穿工作的安排：你希望怎样参与，哪些工作由模型承担，怎样使用母语与英文，文件和结果保存在哪里，以及模型怎样把事情完成并让你看见。可以先让 Web 模型帮助成文，再由本地模型放到客户端实际读取的位置，检查它是否生效。你提供目的和修正，不必自己维护一整套指令文件；提示词也会随使用而修改。</p>
+<p>接着让模型从可信来源选择、下载并验证眼前需要的 Skills。起步时可覆盖搜索研究、本地环境诊断、脚本与工具制作、文档阅读、界面实现、版本保存与发布；选择已有客户端能够使用的包，检查来源、兼容性和实际调用，不必先装满一个技能商店。关于这类能力包，可从<a href="https://agentskills.io/home"> Agent Skills</a> 了解其形式。</p>
+<h3>从实际任务形成适合自己的设置</h3>
+<p>先告诉模型眼前要做什么、已有材料在哪里，以及你在语言、解释方式、分工和结果呈现上的偏好。例如：“和我用中文讨论，帮我把这份材料整理成容易阅读的版本，保留来源，并实际检查链接。”这些工作背景和偏好可以随任务逐步补充，由模型维护到合适的提示词或项目说明中，你通过使用和纠正检查它们是否贴合。</p>
+<p>写出一套个人哲学是困难的长期工作。工具起步先完成一件真实任务，再改进环境；不把哲学写作、完整个人画像、五份核心模型或个人网站列为准备步骤。对思想背景有兴趣时，可以按问题选读<a href="/repositories/prometheus/"> Yinyang 的方法与资料</a>；这些阅读与眼前的工具配置各有用途。</p>
+<h3>让 Skills 用中文被发现和组合</h3>
+<p><strong>建议在每个 Skill 的 <code>description</code> 开头写简短的中文名称和用途，同时保留准确的原生英文标识符。</strong>这样你可以只用普通中文表达目的，让模型从当前可用的能力中发现、选择、读取并调用合适的方法，不必记住技术英文名称。中文说明帮助理解和发现，原生标识符仍用于准确安装、调用和更新。</p>
+<p>区分来源时，用户自制的描述以 <code>用户自制：</code> 开头；从外部仓库或插件取得的 Skill 直接写中文名称和用途即可。例如，自制描述可以是“用户自制：资料整理：整理选定材料并保留来源。”，外部描述可以是“PDF 阅读：读取和检查 PDF 文档。”。翻译或本地改装外部 Skill，不会自动改变其作者来源。让模型在实际维护源和客户端发现列表中核对这些描述，避免更新后丢失。</p>
+<p><strong>选择上优先考虑贴合自身目的的自制方法，并把相关方法作为能够配合的工作能力主动组合。</strong>它们可以贯穿理解需要、配置环境、开展任务与修订结果；外部专门方法则按实际贡献一起使用。优先级来自任务、适用范围与方法是否合用。</p>
+<p>接下来就用已有能力完成一项实际工作：需要时搜索和接入工具，只有缺少合适实现时再编写。自己的工作方式由目的、使用与反馈逐步形成。</p></article><nav class="guide-pagination" aria-label="继续阅读"><a href="/getting-started/">指南总览</a><a rel="next" href="/getting-started/reading/"><span>下一篇</span>阅读与信息</a></nav></div></div></main>
+<footer class="footer wrap"><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
