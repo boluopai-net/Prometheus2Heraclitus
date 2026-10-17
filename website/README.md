@@ -303,14 +303,22 @@ The practical toolkit guide is independently maintained in
 `content/guides/getting-started.md` and `getting-started.en.md`, with complete
 bilingual prose in these two sources. Run
 `uv run --with markdown python scripts/render-guide.py` to render the native
-`/getting-started/` and `/getting-started/en/` overview pages plus six bilingual
-topic routes: `start/`, `reading/`, `tools/`, `continuity/`, `practice/`, and
-`automation/` beneath `/getting-started/`, each with its own `en/` edition.
-The renderer groups the nine ordered source anchors into these topics. Desktop
-topic navigation, a directly visible mobile topic list, language switching,
-and topic previous/next links connect all 14 pages. The overview retains the old fragment
-IDs as links into the corresponding topic pages. `dist/guide.css` owns their
-responsive presentation; generated pages are not independent prose sources.
+`/getting-started/` and `/getting-started/en/` as two continuous articles,
+retaining every section and the ending from their respective source. Only the
+duplicated source tool-map navigation is removed from the projection. A flat
+nine-section navigation uses the actual source H2 labels and stable fragment IDs:
+a sticky, independently scrolling desktop rail and a sticky horizontal mobile
+strip. Native anchors own clicks, keyboard navigation, deep links, and history;
+`dist/guide.js` follows reading progress, reveals the active link inside its own
+scroll container, and retains valid fragments in the language control.
+`dist/guide.css` owns responsive presentation. The six old topic routes
+(`start/`, `reading/`, `tools/`, `continuity/`, `practice/`, `automation/`)
+in both languages are small direct aliases to the article: a valid source
+fragment is retained, otherwise the topic's first section is selected. Each alias
+also provides an ordinary no-JavaScript fallback link. Generated pages are not
+independent prose sources. The content-release owner pins the ordinary
+`/guide.js` script resource along with the existing styles, without a runtime
+protocol change.
 This is a practical resource, not an additional philosophy essay or Skill.
 `reader-pages.py` maintains its prominent homepage entrances;
 `render-library.py` maintains the resources-hub entrances. Generate the guide

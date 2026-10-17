@@ -15,37 +15,28 @@
 .practical-guide blockquote p{margin:0}
 .guide-motif{float:right;margin:0 0 20px 24px;width:64px;height:64px}
 .practical-guide .guide-note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:24px;margin-top:40px}
-.guide-sidebar{position:sticky;top:32px}
-.guide-sidebar nav,.guide-mobile-menu nav{display:block;font:400 19px/1.7 var(--sans)}
-.guide-sidebar ul,.guide-mobile-menu ul{list-style:none;margin:0;padding:0}
-.guide-sidebar li,.guide-mobile-menu li{margin:0 0 6px}
-.guide-sidebar a,.guide-mobile-menu a{display:block;padding:4px 0;color:var(--water);font-weight:400;text-decoration:none}
-.guide-sidebar a[aria-current],.guide-mobile-menu a[aria-current]{font-weight:600;text-decoration:none}
-.guide-sidebar a:hover,.guide-mobile-menu a:hover{text-decoration:none}
-.guide-sidebar a:focus-visible,.guide-mobile-menu a:focus-visible{outline:2px solid var(--water);outline-offset:3px}
-.guide-mobile-menu{display:none}
-.guide-topic-index>ol{list-style:none;padding:0;margin:0}
-.practical-guide .guide-topic-index li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:20px;border-top:1px solid var(--line);padding:24px 0;margin:0}
-.guide-topic-number{font:13px/1.7 var(--sans);color:var(--muted);padding-top:6px}
-.practical-guide .guide-topic-index h3{margin:0 0 12px;font-size:26px}
-.practical-guide .guide-topic-index h3 a{text-decoration:none}
-.practical-guide .guide-topic-index p{margin:0;font-size:17px;line-height:1.9;color:var(--muted)}
-.practical-guide .guide-topic-index p a[href]{scroll-margin-top:32px;color:var(--muted);text-decoration:none}
-.practical-guide .guide-topic-index p a[href]:hover{color:var(--water)}
-.guide-pagination{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;border-top:1px solid var(--line);margin-top:48px;padding-top:24px;font-size:15px}
-.guide-pagination a{padding:8px 0;color:var(--water);max-width:45%}
-.guide-pagination span{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
+.guide-sidebar{position:sticky;top:32px;min-width:0}
+.guide-sidebar nav{display:block;max-height:calc(100dvh - 64px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;font:400 19px/1.7 var(--sans);padding:4px}
+.guide-sidebar ul{list-style:none;margin:0;padding:0}
+.guide-sidebar li{margin:0 0 10px}
+.practical-guide .guide-sidebar a[href]{display:block;padding:4px 0;color:var(--water);font-weight:400;text-decoration:none;overflow-wrap:anywhere}
+.practical-guide .guide-sidebar a[aria-current]{font-weight:600}
+.practical-guide .guide-sidebar a[href]:hover{color:var(--water);background:none;text-decoration:none}
+.guide-sidebar a:focus-visible{outline:2px solid var(--water);outline-offset:3px}
+.practical-guide article h2[id]{scroll-margin-top:var(--guide-scroll-offset,32px)}
 .guide-table{width:100%;margin:24px 0 32px;overflow-x:auto}
 .guide-table table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.75;table-layout:fixed}
 .guide-table th,.guide-table td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
 .guide-table th{font-weight:600;background:color-mix(in srgb,var(--water) 6%,var(--paper))}
 .guide-table th:first-child{width:22%}
 @media(max-width:1000px){
-  .guide-layout{grid-template-columns:minmax(0,1fr);gap:28px}
+  .guide-layout{display:block}
   .guide-reading{max-width:860px}
-  .guide-sidebar{display:none}
-  .guide-mobile-menu{display:block;border-block:1px solid var(--line);font-size:15px}
-  .guide-mobile-menu nav{padding:8px 0}
+  .guide-sidebar{top:0;z-index:5;background:var(--paper);border-block:1px solid var(--line);margin-bottom:28px}
+  .guide-sidebar nav{max-height:none;overflow-x:auto;padding:10px 4px;font-size:16px;line-height:1.55}
+  .guide-sidebar ul{display:flex;gap:24px;align-items:center;width:max-content}
+  .guide-sidebar li{flex:0 0 auto;max-width:min(310px,80vw);margin:0}
+  .practical-guide{--guide-scroll-offset:124px}
 }
 @media(max-width:520px){
   .practical-guide{padding-top:28px}
@@ -57,13 +48,9 @@
   .guide-table table{font-size:15px}
   .guide-table th,.guide-table td{padding:12px 8px}
   .guide-table th:first-child{width:24%}
-  .practical-guide .guide-topic-index li{grid-template-columns:24px minmax(0,1fr);gap:12px;padding:20px 0}
-  .practical-guide .guide-topic-index h3{font-size:23px}
-  .guide-pagination{gap:16px}
 }
-@media(max-width:767px){.guide-sidebar nav,.guide-mobile-menu nav{font-size:18px}}
 @media print{
-  .header,.footer,.practical-guide>.back,.guide-sidebar,.guide-mobile-menu,.guide-pagination{display:none}
+  .header,.footer,.practical-guide>.back,.guide-sidebar{display:none}
   .guide-layout{display:block}
   .practical-guide{max-width:none;padding:0}
   .guide-reading{max-width:none}

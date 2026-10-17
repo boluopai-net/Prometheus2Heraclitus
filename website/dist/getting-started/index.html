@@ -1,13 +1,336 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>工具使用 · boluopai</title><meta name="description" content="工具使用 — 从实际任务开始，按主题了解工具、协作、学习与持续维护。"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/guide.css?v=df5cd773ea3b"><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head>
+<title>工具使用 · boluopai</title><meta name="description" content="工具使用 — 从实际任务开始，了解工具、协作、学习与持续维护。"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/guide.css?v=d33e55dfafbe"><link rel="icon" href="/mark.svg"><script defer src="/guide.js"></script><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head>
 <body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/getting-started/en/" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header>
-<main id="main" class="wrap practical-guide"><a class="back" href="/repositories/">资料与建议</a><div class="guide-layout"><aside class="guide-sidebar"><nav aria-label="指南主题"><ul><li><a href="/getting-started/" aria-current="page">总览</a></li><li><a href="/getting-started/start/">开始使用</a></li><li><a href="/getting-started/reading/">阅读与信息</a></li><li><a href="/getting-started/tools/">工具与界面</a></li><li><a href="/getting-started/continuity/">协作与接续</a></li><li><a href="/getting-started/practice/">学习工作与生活</a></li><li><a href="/getting-started/automation/">自动化与维护</a></li></ul></nav></aside><div class="guide-mobile-menu"><nav aria-label="指南主题"><ul><li><a href="/getting-started/" aria-current="page">总览</a></li><li><a href="/getting-started/start/">开始使用</a></li><li><a href="/getting-started/reading/">阅读与信息</a></li><li><a href="/getting-started/tools/">工具与界面</a></li><li><a href="/getting-started/continuity/">协作与接续</a></li><li><a href="/getting-started/practice/">学习工作与生活</a></li><li><a href="/getting-started/automation/">自动化与维护</a></li></ul></nav></div><div class="guide-reading"><article><img class="motif guide-motif" src="/motifs/axe.svg" alt="" aria-hidden="true"><h1>工具使用</h1>
+<main id="main" class="wrap practical-guide"><a class="back" href="/repositories/">资料与建议</a><div class="guide-layout"><aside class="guide-sidebar"><nav aria-label="本文章节"><ul><li><a href="#foundation" aria-current="location">1. 设备与网络：先让现有电脑能工作</a></li><li><a href="#subscription">2. 从订阅到全局提示词与关键 Skills</a></li><li><a href="#reading">3. 翻译与母语阅读</a></li><li><a href="#information">4. 扩大信息来源，也保留判断</a></li><li><a href="#environment">5. 自制工具，让环境适合人</a></li><li><a href="#continuity">6. 本地、GitHub 与网页：让工作能够接续</a></li><li><a href="#first-loop">7. 从模型的执行内环开始</a></li><li><a href="#ways-of-practice">8. 窃火的三种实践：学习、工作与生活</a></li><li><a href="#automation">9. 让模型持续监督、收集与修复</a></li></ul></nav></aside><div class="guide-reading"><article><img class="motif guide-motif" src="/motifs/axe.svg" alt="" aria-hidden="true"><h1>工具使用</h1>
 <p class="guide-lead">一份实践指南：从用上一个模型订阅开始，完成一件实际任务，逐步改进自己的工具与工作环境。用母语阅读和理解，把调查、实现和维护交给模型，通过实际使用继续修改。这里选择 Mac 与 ChatGPT / Codex 作为一条具体路线；你已有的其他电脑和实际可用的模型工具，也可以承担这些工作。</p>
 <p><strong>具身全模态学习、具身全模态理解、具身全模态工作，把它们投入你的生活。</strong>通过文字、图像、声音、身体经验与实际行动形成理解，把想法变成作品，再让世界的回应修正判断。“全模态”是在任务需要时调动可用的感知与表达，不要求每件事都塞进所有媒介。模型与环境承担细节和重复劳动，你通过阅读、观看、倾听、表达与实践，培养整体感、直觉、判断与创造。</p>
 <p>可以直接把这一页交给模型，说出眼前想解决的事，让它从地图里选择、配置并验证有用的工具。</p>
 <p><strong>一条可走的起步路线：</strong>连通网络 → 用上实际可用的模型订阅 → 安装本地客户端、准备基本提示词与必要 Skills → 完成一件真实任务 → 根据使用反馈改进工具与环境。搜索、配置、改装和必要的编写由模型随任务展开，每一步都以实际能用的结果继续。</p>
-<p>也可以直接看<a href="/getting-started/continuity/#first-loop">从模型的执行内环开始</a>、<a href="/getting-started/practice/#ways-of-practice">学习、工作与生活方式</a>，或<a href="/getting-started/automation/#automation">自动资料采集与环境修复</a>。</p><section class="guide-topic-index"><h2>按主题阅读</h2><ol><li><span class="guide-topic-number">01</span><div><h3><a href="/getting-started/start/">开始使用</a></h3><p><a id="foundation" href="/getting-started/start/#foundation">设备与网络：先让现有电脑能工作</a> · <a id="subscription" href="/getting-started/start/#subscription">从订阅到全局提示词与关键 Skills</a></p></div></li><li><span class="guide-topic-number">02</span><div><h3><a href="/getting-started/reading/">阅读与信息</a></h3><p><a id="reading" href="/getting-started/reading/#reading">翻译与母语阅读</a> · <a id="information" href="/getting-started/reading/#information">扩大信息来源，也保留判断</a></p></div></li><li><span class="guide-topic-number">03</span><div><h3><a href="/getting-started/tools/">工具与界面</a></h3><p><a id="environment" href="/getting-started/tools/#environment">自制工具，让环境适合人</a></p></div></li><li><span class="guide-topic-number">04</span><div><h3><a href="/getting-started/continuity/">协作与接续</a></h3><p><a id="continuity" href="/getting-started/continuity/#continuity">本地、GitHub 与网页：让工作能够接续</a> · <a id="first-loop" href="/getting-started/continuity/#first-loop">从模型的执行内环开始</a></p></div></li><li><span class="guide-topic-number">05</span><div><h3><a href="/getting-started/practice/">学习工作与生活</a></h3><p><a id="ways-of-practice" href="/getting-started/practice/#ways-of-practice">窃火的三种实践：学习、工作与生活</a></p></div></li><li><span class="guide-topic-number">06</span><div><h3><a href="/getting-started/automation/">自动化与维护</a></h3><p><a id="automation" href="/getting-started/automation/#automation">让模型持续监督、收集与修复</a></p></div></li></ol></section><h2>继续走</h2>
+<p>也可以直接看<a href="#first-loop">从模型的执行内环开始</a>、<a href="#ways-of-practice">学习、工作与生活方式</a>，或<a href="#automation">自动资料采集与环境修复</a>。</p>
+<h2 id="foundation" tabindex="-1">1. 设备与网络：先让现有电脑能工作</h2>
+<p>如果你已有一台能运行所选工具的电脑，先用它。选择 Mac 时，核对软件当前的系统与芯片要求；内存、存储和外接屏幕按实际项目与使用负担再添。通过云端模型开始这条路线，不需要先购买用来本地训练大模型的显卡，也不必先把桌面布置成作者的样子。</p>
+<p>网络应当能支持登录、查文档、下载依赖和上传作品。需要代理配置时，<a href="https://github.com/clash-verge-rev/clash-verge-rev">Clash Verge Rev 的项目仓库</a>是可核对的客户端入口：它管理网络配置，本身不提供网络服务或模型账号，仍需你自己可用、可信的配置。<a href="https://www.duyaoss.com/">DuyaoSS</a> 可作为查找机场介绍、测速记录和线路科普的社区参考；页面可见的部分测速与介绍样本较早（2018—2024 年），优惠信息也注明可能未及时更新。把它当作线索，购买或配置前核对服务商当前条款与线路，并按自己的运营商、地区和设备实测；单篇测评不保证你当前网络的表现。安装一个客户端，不等于已经连通服务。</p>
+<p>对主要在中国大陆生活的读者，还要分别检查<strong>网络连通</strong>和<strong>服务支持范围</strong>。中国大陆不在 OpenAI 的<a href="https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"> ChatGPT 支持地区清单</a>中；代理客户端不会改变这项服务条件。先确认你实际可用的服务与账号，再选工具；这份实践方式也可以用其他实际可用的模型来展开。</p>
+<p>代理流量有限，或者大型软件、依赖包和 Docker 镜像下载缓慢时，可以让模型检查合适的<strong>镜像源与缓存</strong>。软件包源和 Docker 镜像仓库是不同的配置对象；镜像能够直连时，可以减少代理流量，缓存则减少重复下载。<a href="https://docs.docker.com/docker-hub/image-library/mirror/">Docker 的镜像缓存说明</a>给出了按需从上游取得、随后从缓存复用的方式。让模型核对来源、支持的包或仓库、同步情况、版本及校验信息，再按当前网络实测；已有可用缓存时，不必反复清空重下。</p>
+<h2 id="subscription" tabindex="-1">2. 从订阅到全局提示词与关键 Skills</h2>
+<p>网页 ChatGPT 是云端的对话与工具空间，可以帮助讨论、研究、理解材料和发展构想。本地 Codex 则能在获得相应访问能力后，直接参与构建和维护你的<strong>个人知识环境与工作环境</strong>：连接资料、笔记、应用、文件、脚本、工具与配置，把想法做成实际可用的安排。一个项目文件夹只是其中一个工作位置，环境本身也可以是持续改造的对象。你带来目的、经验和判断，模型承担解释、调查、构造、执行与检查；从一个具体需要开始，就能让这种协作发生。</p>
+<p>如果还没有可用账号，可以先解决网络连通，再选择并购买实际可用的订阅。先在 Web 中用起来，请模型帮助梳理目的与全局提示词；然后按<a href="https://learn.chatgpt.com/docs/quickstart">官方入门说明</a>下载本地客户端、登录，接入工作目录。已经有可用客户端时，也可以由它协助完成后面的准备。</p>
+<p>先看现有账号是否已经包含所需 Codex 能力、额度和客户端。官方文档说明<a href="https://learn.chatgpt.com/docs/pricing"> Codex 包含在 ChatGPT 方案中</a>，具体能力与额度随方案、账号和开放情况而异；可按<a href="https://learn.chatgpt.com/docs/auth">登录说明</a>使用 ChatGPT 账号。已有适用权益时，不必另买一份所谓“Codex 订阅”。遇到实际额度或功能不足，再比较升级是否值得。</p>
+<h3>先选稳定的个人订阅，再比较使用价值</h3>
+<p><strong>优先购买面向个人的 ToC 订阅，并把稳定性放在优惠价格之前。</strong>先确认账号归属、持续登录、实际可用的模型与额度、续费和恢复方式；优先选择官方直购或来源清楚、交付与续费可靠的渠道。短期折扣不能抵消频繁失效、账号被收回或无法续用的代价。只有确实需要多人协作、组织管理、企业数据政策或合同保障时，再比较 ToB 团队／企业方案；不因“企业版”名称就默认它更适合个人。</p>
+<p><strong>日常协作尽量围绕一个稳定的主订阅展开，让本地 CLI／App 与 Web 共同使用其实际包含的权益。</strong>先把已有环境用顺，再根据实际能力差异决定是否增加或更换订阅。频繁切换会带来提示词、Skills、工具接口和操作习惯的适配成本；续费前仍应重新评估，稳定使用不等于永久绑定。翻译等有明确用途的接口仍可单独配置。</p>
+<p>在稳定性和实际能力满足需要的候选中，<strong>把本地与 Web 合起来看，并参考对应模型的 API 价格比较订阅价值</strong>：</p>
+<ol>
+<li><strong>列出真正用得上的能力。</strong>分别核对本地和 Web 可选的模型、模式、工具、用量限制与重置周期；共用的额度只算一次，不能把两个入口当成两份额度。</li>
+<li><strong>估计同类工作改走 API 的成本。</strong>对有可比 API 的模型，按预计的输入、缓存输入、输出及必要工具用量，结合服务商当前价目表估算一个月的替代成本。例如可从<a href="https://developers.openai.com/api/docs/pricing"> OpenAI API 定价</a>核对计费项。用不到的高价模型不增加实际价值；Web 专有能力或无法可靠估计的用量单独比较，不虚构精确折算。</li>
+<li><strong>比较实际月费与能持续完成的工作。</strong>结合本地加 Web 的真实需求、质量、速度、额度和续费成本，选择稳定候选中更合算的一项。API 替代成本是比较参照，不是把订阅月费除以 token 单价来推算“赠送额度”，也不是 API 单价越高就越值得买。</li>
+</ol>
+<p><a href="https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform">ChatGPT 与 API 分开计费</a>。订阅不等于 API 余额，API 余额也不替代订阅。只有你要做自己的 API 程序或确实选择 API 登录时，才需要另行了解这条计费路线。价格与支持情况请看官方当前页面，不在这里固定一个购买清单。</p>
+<h3>让模型帮助准备工作方式</h3>
+<p>全局提示词先写少量真正贯穿工作的安排：你希望怎样参与，哪些工作由模型承担，怎样使用母语与英文，文件和结果保存在哪里，以及模型怎样把事情完成并让你看见。可以先让 Web 模型帮助成文，再由本地模型放到客户端实际读取的位置，检查它是否生效。你提供目的和修正，不必自己维护一整套指令文件；提示词也会随使用而修改。</p>
+<p>接着让模型从可信来源选择、下载并验证眼前需要的 Skills。起步时可覆盖搜索研究、本地环境诊断、脚本与工具制作、文档阅读、界面实现、版本保存与发布；选择已有客户端能够使用的包，检查来源、兼容性和实际调用，不必先装满一个技能商店。关于这类能力包，可从<a href="https://agentskills.io/home"> Agent Skills</a> 了解其形式。</p>
+<h3>从实际任务形成适合自己的设置</h3>
+<p>先告诉模型眼前要做什么、已有材料在哪里，以及你在语言、解释方式、分工和结果呈现上的偏好。例如：“和我用中文讨论，帮我把这份材料整理成容易阅读的版本，保留来源，并实际检查链接。”这些工作背景和偏好可以随任务逐步补充，由模型维护到合适的提示词或项目说明中，你通过使用和纠正检查它们是否贴合。</p>
+<p>写出一套个人哲学是困难的长期工作。工具起步先完成一件真实任务，再改进环境；不把哲学写作、完整个人画像、五份核心模型或个人网站列为准备步骤。对思想背景有兴趣时，可以按问题选读<a href="/repositories/prometheus/"> Yinyang 的方法与资料</a>；这些阅读与眼前的工具配置各有用途。</p>
+<h3>让 Skills 用中文被发现和组合</h3>
+<p><strong>建议在每个 Skill 的 <code>description</code> 开头写简短的中文名称和用途，同时保留准确的原生英文标识符。</strong>这样你可以只用普通中文表达目的，让模型从当前可用的能力中发现、选择、读取并调用合适的方法，不必记住技术英文名称。中文说明帮助理解和发现，原生标识符仍用于准确安装、调用和更新。</p>
+<p>区分来源时，用户自制的描述以 <code>用户自制：</code> 开头；从外部仓库或插件取得的 Skill 直接写中文名称和用途即可。例如，自制描述可以是“用户自制：资料整理：整理选定材料并保留来源。”，外部描述可以是“PDF 阅读：读取和检查 PDF 文档。”。翻译或本地改装外部 Skill，不会自动改变其作者来源。让模型在实际维护源和客户端发现列表中核对这些描述，避免更新后丢失。</p>
+<p><strong>选择上优先考虑贴合自身目的的自制方法，并把相关方法作为能够配合的工作能力主动组合。</strong>它们可以贯穿理解需要、配置环境、开展任务与修订结果；外部专门方法则按实际贡献一起使用。优先级来自任务、适用范围与方法是否合用。</p>
+<p>接下来就用已有能力完成一项实际工作：需要时搜索和接入工具，只有缺少合适实现时再编写。自己的工作方式由目的、使用与反馈逐步形成。</p>
+<h2 id="reading" tabindex="-1">3. 翻译与母语阅读</h2>
+<p>先把需要的外语材料翻译成自己的母语，再用母语阅读和理解，把注意力用在内容和关系上。对以中文为母语、也习惯中文阅读的人，说明、导航、比较、进度和结果优先用中文；其他读者按自己的母语与实际习惯选择。在关键词、论证分歧或译文不通顺处，再对照外语原文。理解一个问题不必先变成一次英语考试；想练英语时，再主动切换阅读方式。</p>
+<ul>
+<li><strong>长网页：</strong>把可用的翻译 API 接入<a href="https://immersivetranslate.com/zh-Hans/docs/services/openai/">沉浸式翻译</a>或<a href="https://www.readfrog.app/en/docs/providers/overview"> Read Frog</a>，保留双语对照。读正文时减少来回切换，原文仍在旁边供检查。</li>
+<li><strong>选中文字、图片和软件界面：</strong>Mac 上的<a href="https://bobtranslate.com/guide/quickstart/translate.html"> Bob</a> 支持划词翻译、截图翻译和把译文放回图片上的原图翻译。能选取文字时直接取词，不能选取时再截图；识别与翻译使用的服务分别决定结果。</li>
+<li><strong>较长的文档和课程：</strong>请模型整理可接续的阅读版本，保留标题、公式、图表、代码与来源。翻译帮助理解，重要定义与推论仍要能回到原文；公式和代码不能为了中文化而被改坏。</li>
+</ul>
+<h3>翻译界面与翻译 API 分开选择</h3>
+<p>Bob、沉浸式翻译和 Read Frog 是阅读入口，实际翻译可以来自另一项服务。<strong>翻译可以先用免费 AI。</strong>例如<a href="https://aihubmix.com/models/free"> AIHubMix</a>、<a href="https://openrouter.ai/collections/free-models/">OpenRouter</a> 和<a href="https://docs.api.nvidia.com/nim/docs/product"> NVIDIA API Catalog</a> 都有可考察的免费模型或试用入口。直接告诉模型：“帮我选择一个当前可用的免费翻译接口，接到我使用的翻译工具里，并实际译一段。”服务的开通条件、可用模型与接入细节，让模型按当前情况核对和配置即可。</p>
+<p>少量取词和段落翻译通常适合先试免费方案；<strong>整页、连续多页或大量文档翻译</strong>会发出更多请求，更容易遇到限流、等待或额度不足。可以让模型减少并发、保留已有译文，或在需要持续大量阅读时比较低价付费接口与已有订阅的可用能力。<a href="https://openrouter.ai/docs/api_reference/limits">OpenRouter 的限额说明</a>和各服务的当前页面用于配置时核对，不需要先记住一张免费额度表。翻译界面是否收费，与它调用的模型是否免费，是两件事。</p>
+<p>另一条路线是把已有模型订阅经由自己管理的网关或反向代理转成兼容接口，再供这些翻译工具调用。<a href="https://github.com/Wei-Shaw/sub2api">Sub2API</a> 是可考察的现有实现；本地已有把这类接口接入 Read Frog 与沉浸式翻译的配置例子。它消耗上游订阅的能力与额度，并不是赠送了官方 API 余额；其项目也明确提示上游条款和账号风险。按自己账号的实际条件选择这条路线，不把“能连通”写成官方支持的保证。</p>
+<p>配置时，让模型对齐<strong>接口地址、认证密钥、模型名称和协议</strong>：扩展支持 OpenAI 兼容接口时使用对应设置；Bob 则选择适配该接口的服务或插件。先翻译一段文字，再检查长网页的分段、速度和额度，以及截图的文字识别。密钥由密码管理器或应用的凭据位置保管，公开配置只留占位和说明。</p>
+<p>例如，可以用<a href="https://bitwarden.com/help/cli/"> Bitwarden CLI</a> 管理密码、API key 和访问令牌：把凭据保存在保险库里，工具在需要时通过命令行读取对应条目。让模型配置和验证这条读取路径，公开文件只留下条目引用、占位和使用说明，真实值不进入聊天、日志或 Git。访问保险库数据需要有效的登录与解锁会话；这部分也应按实际环境安排。</p>
+<p>人的阅读语言与模型的工作语言可以分开。本指南采用这样的安排：<strong>给人看的用母语；主要供模型维护的技术说明、任务交接和工具指令默认用英文。</strong>英文资料、术语和接口生态使这种安排方便；具体模型在具体任务上是否更有效，还要看实际结果，不能推成“所有模型用英文都更强”。原始材料、引文、代码、路径和接口字段保持其所需语言与格式。最终解释不能因为实现材料是英文，就把翻译负担退回给人。</p>
+<p>可以直接告诉模型：“和我用中文讨论，把我需要判断的结果、依据和选择用中文讲清楚。供模型接续的技术材料默认用英文；原文、代码和标识符保留准确形式。需要我理解的英文段落，请就地解释。”翻译服务可能把选中的文字或截图发送到配置的服务商，私人材料按其实际数据去向选择处理方式。</p>
+<h2 id="information" tabindex="-1">4. 扩大信息来源，也保留判断</h2>
+<p>在这条实践路线里，<strong>Telegram 主要用来寻找订阅购买渠道，以及其他服务、商品和零散资源</strong>，也可用于联系卖家、比较方案与处理售后。<a href="https://telegram.org/faq_channels">频道与群组</a>是信息和联系入口，实际交易由具体提供者承担。购买时辨认官方订阅、第三方代购和共享方案的区别，核对交付内容、有效期、续费方式与账号归属。渠道选择同样先看长期可用与售后，不为低价牺牲主订阅的稳定性，也不把群组人数或卖家宣传当作可靠性的证明。它也能补充日常信息来源，但这里不把它当作论文或专业资料采集的主要工具。</p>
+<h3>查最佳实践，也检查文档的时效性</h3>
+<p>了解工具当前实际怎样工作时，<strong>优先查近期、注明版本并有可复现步骤的社区 Issue、PR 与使用反馈</strong>。核对日期、客户端版本、平台和相关账号条件，再看问题是否已修复、建议是否仍适用。官方文档也可能滞后；具体接口、配置、API 与服务支持范围仍应查当前官方入口。遇到两边说法不一致，让模型比较适用条件，并用实际环境中的一次操作核对，而不是只凭来源名称决定相信哪边。</p>
+<div class="guide-table"><table>
+<thead>
+<tr>
+<th>需要了解什么</th>
+<th>基本入口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>社区实践与当前问题</td>
+<td><a href="https://github.com/shanraisshan/claude-code-best-practice">Claude Code Best Practice</a> 整理 agents、commands、Skills、Hooks、MCP、插件、设置与工作流；结合<a href="https://github.com/openai/codex/issues"> Codex Issues</a> 和<a href="https://github.com/anthropics/claude-code/issues"> Claude Code Issues</a> 查看具体问题与后续处理。</td>
+</tr>
+<tr>
+<td>ChatGPT 与 Codex 的使用</td>
+<td><a href="https://learn.chatgpt.com/docs">ChatGPT／Codex 文档</a>与<a href="https://help.openai.com/en"> OpenAI 帮助中心</a>。</td>
+</tr>
+<tr>
+<td>GPT 与 API 开发</td>
+<td><a href="https://developers.openai.com/api/docs">OpenAI API 文档</a>，用于核对接口与开发配置。</td>
+</tr>
+<tr>
+<td>Claude 的使用与开发</td>
+<td><a href="https://support.claude.com/en/">Claude 帮助中心</a>、<a href="https://code.claude.com/docs/en/overview">Claude Code 文档</a>与<a href="https://platform.claude.com/docs/en/home"> Claude API 文档</a>。</td>
+</tr>
+</tbody>
+</table></div>
+<p>最佳实践仓库是可比较和借鉴的方法来源。让模型读出适合当前任务的部分，检查依赖、版本和实际效果，再决定采用或改装；不必整套安装，也不直接照抄其中的命令。社区报告同样可能过时或只适用于特定条件，保留能够回查的依据。</p>
+<h3>资源获取与非正版的条件判断</h3>
+<p>资源是否“正版”也需要拆开看。作者公开稿、开放获取论文、公共领域作品、开放许可材料和图书馆资源都有各自的获取与使用条件，免费并不等于盗版。先请模型寻找适合的版本，核对内容、来源和用途，而不是只找一个能下载的链接。关于授权、公共领域与例外的基本区别，可参考<a href="https://www.wipo.int/en/web/copyright/faq-copyright"> WIPO 的版权问答</a>。</p>
+<p>也可以把<strong> Anna's Archive</strong> 和<strong> Sci-Hub</strong> 纳入资源渠道的判断：前者聚合书籍与论文等记录，后者主要面向学术论文。这类站点涉及未授权副本与版权争议，具体材料仍按下面的条件区分。域名与可达性会变化；这里提供<a href="https://en.wikipedia.org/wiki/Anna%27s_Archive"> Anna's Archive 背景与入口信息</a>和<a href="https://en.wikipedia.org/wiki/Sci-Hub"> Sci-Hub 背景与入口信息</a>，使用时核对当前来源，不把搜索结果中的同名镜像都当成同一个站点。</p>
+<p>对疑似未经授权传播的资源，可以把可获得性、经济条件、个人学习目的和对创作者的影响放在一起讨论。<strong>这些条件可以进入伦理判断，却不能自动证明复制、传播或使用获得了许可。</strong>阅读参考、复制保存、再分发和商业使用是不同的行为；依据具体资源的授权与适用规则分别判断，保留出处，不把取得一份副本当成继续传播的权利。软件还涉及可执行代码的来源与完整性：优先寻找可信的开源替代、试用或教育方案，不把来源不明的破解安装包当作普通阅读材料。</p>
+<h2 id="environment" tabindex="-1">5. 自制工具，让环境适合人</h2>
+<p><strong>贯穿这些安排的目的，是控制复杂性。</strong>你不需要照搬作者的电脑、目录或工具组合；判断一种安排有没有用，要看它是否减少理解、操作与维护的负担，同时保留你需要的能力。工具更多、分工更细，都不自动等于环境更好。</p>
+<p>软件工程里的一条相关思想是<strong>窄而简单的接口，承载深而丰富的功能</strong>。John Ousterhout 的<a href="https://web.stanford.edu/~ouster/cgi-bin/cs190-spring16/lecture.php?topic=modularDesign">模块设计讲义</a>讨论了接口复杂度、功能与信息隐藏的关系。放到个人环境里，可以把“帮我准备这本书的阅读材料”作为人的入口，让模型在背后完成找版本、转换、组织与核对；人仍能看到来源、结果和需要自己判断的差异。这里的“窄”指必须掌握的操作与约定少，不是把自然语言意图或可处理的内容限制得很窄。复杂性被放到能够处理它的地方，重要选择仍然可见。</p>
+<p>目标可以是把<strong>整个日常工作环境的建设与维护托管给模型</strong>：安装和配置软件，整理资料，写工具，修复故障，维护提示词和 Skills，再把这些改变接回日常使用。人主要表达目的、阅读、判断与反馈，只写必要的 Markdown；模型承担其余成文、代码、配置和持续维护。它需要有清楚的工作范围、可用工具和能接续的记录；购买、身份验证、公开发布等个人决定仍由实际授权来确定。</p>
+<p>把人的入口和模型的入口分开设计。人需要母语标签、清楚的层级、可点击的标题、能看见的状态和结果；模型可能更适合命令行、结构化数据、明确的工具接口与维护说明。两种入口通向同一份工作，内容有可维护的源，不靠人来同步两份副本。能由模型确定的工具选择和重复步骤，就由模型接上；需要人的目的、判断和授权时，再把选择呈现出来。</p>
+<h3>先配搜索，优先使用已有工具</h3>
+<p>采用一种组合与改装现成工具的 Hack 式工作方式。先给模型配好实际可用的网页搜索、GitHub 搜索和文档读取能力，并用一次真实查询验证。遇到需求，先找网上是否已有合适实现，读项目说明、近期维护和使用反馈，再决定采用什么。模型接着安装配置，并按工具特点安排版本检查与更新；不合用的部分可通过设置、插件、小补丁或改写来适配环境。确实没有合适实现时，再自己写。更新也要检查它是否仍能完成原来的工作，并保留可恢复的版本。</p>
+<p>可选的搜索工具有不少，可以按实际用途组合：</p>
+<ul>
+<li><strong>通用网页与资料发现：</strong><a href="https://brave.com/search/api/">Brave Search</a> 可以查网页、新闻等信息；<a href="https://parallel.ai/">Parallel</a>、<a href="https://exa.ai/">Exa</a> 和<a href="https://www.tavily.com/"> Tavily</a> 提供适合模型调用的搜索与资料获取能力。让模型根据来源覆盖和实际结果选择，不必每个问题都调用所有服务。</li>
+<li><strong>页面读取与成批提取：</strong><a href="https://www.firecrawl.dev/">Firecrawl</a> 可用于读取网页、抓取站点和提取内容；先搜到对象，再深入读取原文。需要了解近期社区讨论时，也可以使用已接入的 Last30Days 多来源研究工具，按问题设置时间范围。</li>
+<li><strong>论文与学术资料：</strong><a href="https://consensus.app/">Consensus</a>、<a href="https://scispace.com/">SciSpace</a> 和<a href="https://huggingface.co/papers"> Hugging Face Papers</a> 是可选入口，其中 Hugging Face Papers 更贴近 AI 论文生态。发现相关研究后，再回到论文、作者或出版方核对原文。</li>
+</ul>
+<p>这些是具体例子，不是一份全部购买或安装的清单。已有客户端原生搜索足够时先使用它；覆盖、正文获取或专业资料不足时，再接入相应插件、MCP 或 API，并验证一次真实查询。多项工具返回同一来源，也不等于取得了多份独立证据。</p>
+<h3>怎样使用别人的 GitHub 仓库</h3>
+<p>把仓库链接交给模型，并说清楚希望它完成什么。让模型先读 README、安装说明、许可证和当前支持的平台，再选择入口：</p>
+<ul>
+<li><strong>直接使用：</strong>项目提供应用安装包或 Releases 时，按系统与芯片选择合适版本；命令行工具也可能通过 Homebrew、pip 或 npm 安装。源代码 ZIP 不一定是可以直接运行的应用。<a href="https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives">GitHub 的下载说明</a>区分了源码快照与带历史的克隆。</li>
+<li><strong>在本地运行或学习：</strong>需要运行源码、查看实现或持续更新时，让模型 clone 仓库，按说明准备依赖、配置和示例，用一个实际输入验证结果；只下载 ZIP 通常不包含 Git 历史。</li>
+<li><strong>按自己的需要改装：</strong>先判断配置、插件或小补丁是否足够；需要维护自己的远程版本时再 fork。让模型保留修改的理由、上游来源和可恢复版本，更新时比较自己的改动与上游变化，处理冲突后重新验证。</li>
+<li><strong>提问、协作与复用：</strong>先查已有 Issue 与文档；遇到可复现问题，可以整理环境、步骤与结果，通过 Issue 反馈，通过 PR 提交改进。<a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project">GitHub 的协作说明</a>介绍了这条路径。需要时让模型用 GitHub CLI 或已连接的 GitHub 工具处理这些操作；实际发帖按你的授权执行。仓库也可以只作为论文、文档、Skill、模板或实现思路的来源，具体复制与改装范围按其许可证确定。</li>
+</ul>
+<h3>用脚本、Hook、Skill 与接口连接动作</h3>
+<p>一个设置、直接链接或短脚本够用，就不必立刻造一个系统；当方法需要重复使用、跨项目调用或交给其他人时，再选择合适的封装：</p>
+<ul>
+<li><strong>小脚本：</strong>连接具体动作。例如把当前资料整理成可点击的阅读页，给常用操作做一个有中文名称的菜单，或把后台任务的完成与错误显示出来。人的界面可以是按钮、菜单或网页，执行细节由模型维护。</li>
+<li><strong>Hook（钩子）：</strong>把动作接到明确事件上，例如提交代码前检查格式、提交后记录结果；如果客户端提供相应事件，也可以在工具执行后整理输出，或在任务完成时显示通知。<a href="https://git-scm.com/docs/githooks">Git hooks</a> 是这种机制的一个具体例子。Hook 的事件、输入和失败处理由实际宿主决定，不能把一个客户端的配置直接照搬到另一个。让模型接到已有入口，触发一次真实事件并读回结果，避免把“记得做某事”只留在提示词里。</li>
+<li><strong>Skill：</strong>把一类工作的目的、方法、所需材料与检查方式写成模型可以按需读取的能力包。<a href="https://agentskills.io/home">Agent Skills</a> 可以带说明、脚本、参考资料与模板；有价值的是它能让下一次工作接续，文件多本身没有价值。</li>
+<li><strong>MCP：</strong>当模型需要稳定调用一个数据源或操作时，用<a href="https://modelcontextprotocol.io/docs/getting-started/intro"> Model Context Protocol</a> 提供工具与资源接口。例如让模型查询资料目录、读取选定笔记，或调用已有的转换程序。按实际任务设置访问范围与读写能力。</li>
+<li><strong>插件：</strong>当所用客户端支持时，把相关 Skill、工具连接和资源组织成便于安装、发现与更新的一组能力。具体包装由客户端决定；一个本地脚本并不必须先变成 MCP 或插件才能有用。</li>
+</ul>
+<h3>从公开 Skill 到自己的工具</h3>
+<p>可以先参考公开 Skill，再让模型按实际工作改写和维护。下面这些是可参考的公开来源；有些项目会整体保留，有些只选其中的目录或单项 Skill，也可能再做本地适配。这份来源清单不表示每个仓库或其中所有文件都已安装。</p>
+<div class="guide-table"><table>
+<thead>
+<tr>
+<th>方向</th>
+<th>公开来源与用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>科学与决策</td>
+<td><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense Scientific Agent Skills</a>：科学研究工作流与数据库；<a href="https://github.com/eternity4719/HowToLiveBetter">高性价比人生指南</a>：带来源与证据等级的生活决策材料。</td>
+</tr>
+<tr>
+<td>编程与工程</td>
+<td><a href="https://github.com/obra/superpowers">Superpowers</a>：软件开发方法；<a href="https://github.com/anthropics/skills">Anthropic Skills</a>：可复用任务能力；<a href="https://github.com/mattpocock/skills">Matt Pocock Skills</a> 与<a href="https://github.com/addyosmani/agent-skills"> Addy Osmani Agent Skills</a>：工程实践与代码质量。</td>
+</tr>
+<tr>
+<td>模型与上下文</td>
+<td><a href="https://github.com/huggingface/skills">Hugging Face Skills</a>：Hugging Face 模型与数据生态；<a href="https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering">Context Engineering Skills</a>：上下文管理与智能体系统；<a href="https://github.com/typesafe-ai/skills">TypeSafe Skills</a>：用 TypeSafe 组合结构化判断。</td>
+</tr>
+<tr>
+<td>研究、浏览与图示</td>
+<td><a href="https://github.com/mvanhorn/last30days-skill">Last30Days</a>：近期跨社区研究；<a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use</a>：用文本判断辅助浏览器操作；<a href="https://github.com/cathrynlavery/diagram-design">Diagram Design</a> 与<a href="https://github.com/tt-a1i/archify"> Archify</a>：制作图示与交互式架构图。</td>
+</tr>
+<tr>
+<td>工具制作</td>
+<td><a href="https://github.com/openai/skills">OpenAI Skills</a> 中的<a href="https://github.com/openai/skills/tree/main/skills/.curated/cli-creator"> CLI Creator</a>：把现有接口或程序封装成可组合命令行工具；这里引用的是其中一个目录。</td>
+</tr>
+</tbody>
+</table></div>
+<p>自己的 Skills、脚本和接口则可以围绕真实工作逐步形成。网站的<a href="/repositories/">可复用 Skill 目录</a>还提供抽卡转盘、研究、教学、论文与字幕、练唱、安卓控制、购物、提示词审计和环境维护等方法。各页用一个中文名和原生英文名标识 Skill；包内说明需要哪些配套 Skill 与真实工具，按需一起下载，保留有用的分工关系。MCP 与连接器也可以很具体：<a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> 提供文本判断工具，<a href="https://github.com/MongLong0214/logic-pro-mcp">Logic Pro MCP</a> 连接音乐软件并读回项目状态，<a href="https://github.com/storytold/photocraft">PhotoCraft</a> 提供图像编辑能力；<a href="https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt">Google Drive 应用</a>可在授权范围内查找和处理云端文件，<a href="https://help.openai.com/en/articles/20001339-creating-and-using-chatgpt-sites">ChatGPT Sites</a> 可创建、预览和发布网站。这些都是可选例子，按眼前任务挑选即可。</p>
+<p>脚本还可以进入很具体的日常动作。在 Mac 上，让模型把选定的整理、检查或同步脚本做成<strong> LaunchAgent</strong>，在登录后、定时或合适的触发条件下运行，并留下可以检查的结果。为常用动作设计<strong>快捷键</strong>，例如打开一组工作资料、翻译当前选文、开始或结束录音；检查按键冲突和当前应用，再让这些动作接入已有操作习惯。也可以使用<strong> AI 输入法</strong>，把口述转成文字、补充标点、整理表达或进行中英混输，再按实际输入框核对结果。经常在中文句子里夹带英文产品名或技术术语时，可以优先试用中国厂商面向中英混合口述的输入法或转写模型，让这些词和中文一起被识别；用自己的说话方式比较转写准确度、标点与修改量，再选择顺手的一项。工具的作用是缩短想法到表达与行动的距离，配置与维护可以交给模型完成。</p>
+<p>还可以围绕这些需要制作工具：把 PDF 整理成保留公式和来源的阅读材料；把取词翻译接在当前阅读动作上；把难记的命令做成可搜索菜单；把作品、原文与版本用直接链接连起来；让后台工作报告完成或失败，同时保留当前窗口、输入焦点与正在做的事。这些是按问题选择的例子，不是一份要求读者全部安装的清单。</p>
+<h3>生成图像、用图解释与编辑图像</h3>
+<p>让模型选择适合当前问题的视觉形式。<strong>生图</strong>可以用于插画、人物、氛围图和图像方案，把描述变成可供比较的画面；涉及精确数字、关系或文字时，要检查图像有没有改变原意。<strong>用图解释</strong>可以用<a href="https://github.com/tt-a1i/archify"> Archify</a> 制作可浏览的架构、流程和状态图，用<a href="https://github.com/cathrynlavery/diagram-design"> Diagram Design</a> 组织概念、比较和关系图；解释变化与选择时，也可以做可交互的网页，让读者操作条件并看到结果。它们是各自上游维护的工具与方法，按其说明和许可使用。</p>
+<p><strong>编辑已有图像</strong>可以使用<a href="https://github.com/storytold/photocraft"> PhotoCraft</a>，让模型打开指定图片、检查可用操作、完成编辑、预览并导出。生成新图、解释关系和编辑原图承担不同任务，模型应根据你要理解或制作什么来选。给学习材料配图时，把关键对象、箭头关系、条件与原文依据接在图旁，图像才真正参与理解，而不只是装饰。</p>
+<h3>用 Skill 与 Project 组织生活中的工作</h3>
+<p>这套方式可以进入生活中的许多领域：心理探索与经验整理、购物比较、课程学习、就医准备与医学资料阅读、工作项目、游戏配置与攻略、运动记录与计划，以及音乐欣赏、录音和练习。领域不同，需要的知识、证据和专业支持也不同；模型可以帮助选用和形成合适的方法，再接上实际可用的工具。</p>
+<p><strong>Skill 保存可重复使用的方法，Project 组织一项持续的目的、材料与成果，工具完成具体操作。</strong>例如，购物 Skill 可以用于不同购买任务，一个持续的学习 Project 则保留课程、进度与练习；音乐项目可以连接练唱方法、录音软件和历次作品。Project 可以是客户端里的项目，也可以是由本地文件夹、说明和版本组成的工作空间。让实际目的、已有理解和使用反馈提供共同方向，各领域的方法继续发展；简单问题可以直接处理，反复或长期的工作再积累成可接续的 Skill 与 Project。</p>
+<h3>阅读、终端与 Vim 式操作</h3>
+<ul>
+<li><strong>浏览器：</strong><a href="https://github.com/philc/vimium">Vimium</a> 这类扩展把 Vim 式操作带到网页：用 <code>j</code> / <code>k</code> 滚动，<code>f</code> 显示链接提示并打开链接，<code>/</code> 搜索页面，<code>H</code> / <code>L</code> 返回或前进，也能搜索与切换标签。让模型按实际浏览器选择扩展、配置常用键位和站点例外，并在阅读页、表单与常用网站检查效果。扩展支持的网页范围与输入框状态会影响按键，不能只按安装成功判断。</li>
+<li><strong>Obsidian：</strong>让人读取和修改必要的 Markdown，模型维护关联材料、链接和结构。它提供<a href="https://obsidian.md/help/edit-and-read">阅读与编辑视图</a>，编辑器可直接开启内置<a href="https://obsidian.md/help/settings"> Vim 键位</a>，无需为了基本 Vim 编辑先装社区插件。阅读模式、标签切换和插件操作需要分别配置与检查；只有内置功能满足不了实际动作时，再让模型核对合适的插件及其当前兼容性。</li>
+<li><strong>IDE 与代码编辑器：</strong>VS Code 可用<a href="https://github.com/VSCodeVim/Vim"> VSCodeVim</a>，JetBrains IDE 可用<a href="https://github.com/JetBrains/ideavim"> IdeaVim</a>，在现有编辑器中采用 Vim 的模式、移动与编辑习惯。代码补全、调试、项目导航和其他命令仍由 IDE 提供；让模型配置键位分工，并在实际项目检查编辑、补全和调试时的冲突，不必为统一操作替换整个 IDE。</li>
+<li><strong>Sioyek：</strong>用来阅读教材与论文 PDF，保留原始版式，并用它的<a href="https://github.com/ahrm/sioyek">导航、搜索和标记能力</a>往返材料。模型可以整理阅读入口、配置键位，并把引用连回具体文件。</li>
+<li><strong>cmux：</strong>把终端与模型任务放进可辨认的工作区；它提供<a href="https://cmux.com/">垂直标签、分屏和可编程接口</a>，便于看见多项工作的名称与状态。</li>
+<li><strong>终端中的编辑与命令行：</strong><a href="https://www.vim.org/docs.php">Vim</a> / <a href="https://neovim.io/doc/user/">Neovim</a> 用于编辑文件；shell 的 Vi 模式用于编辑尚未执行的命令，两者不是同一个入口。在 zsh 中可从<a href="https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html">内置 <code>bindkey -v</code></a> 开始，确实需要更完整的命令行 Vim 操作时，再考虑<a href="https://github.com/jeffreytse/zsh-vi-mode"> zsh-vi-mode</a> 插件。让模型检查当前 shell、已有补全和历史搜索，配置后实际试过输入、修改、执行和恢复；终端的标签、窗格与滚屏仍由终端应用分别管理。</li>
+</ul>
+<p>让模型把跨应用的常用移动、搜索、返回、标签和窗格切换尽量统一成 Vim 式习惯。各应用的能力不同：编辑器的 Vim 模式、PDF 导航和终端工作区不是同一套功能，模型要在实际入口检查冲突与结果，而不是只交出一张快捷键表。鼠标入口、中文标签和可搜索菜单仍然保留，Vim 式操作服务于熟悉的动作与低切换成本。</p>
+<h3>编排 UI：垂直排列，把重要的东西放在前面</h3>
+<p><strong>多页面、多文档和多任务界面，优先使用实际可用的垂直标签栏、列表或侧栏。</strong>把工作按目的分组，使用容易辨认的名称，让相关材料与任务相邻；重要、常用和当前正在推进的内容放在上方，支持时置顶。低频内容可以折叠或归档，别让默认的“最近更新”排序持续决定自己的注意力。</p>
+<div class="guide-table"><table>
+<thead>
+<tr>
+<th>界面</th>
+<th>可以怎样编排</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Codex</td>
+<td>用左侧垂直任务列表和项目分组组织工作；按当前版本可用的置顶、排序与归档功能，让重点任务容易找回。</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>使用当前版本可用的垂直标签栏、侧栏或标签组，把同一目的的页面放在一起；常用入口放前面，暂时不用的组收起。</td>
+</tr>
+<tr>
+<td>Obsidian</td>
+<td>用侧栏<a href="https://obsidian.md/help/plugins/bookmarks">书签</a>保存常用笔记、分组并调整顺序；用<a href="https://obsidian.md/help/plugins/workspaces">工作区</a>保存某项任务的打开文件、标签与侧栏布局。</td>
+</tr>
+<tr>
+<td>cmux</td>
+<td>用<a href="https://cmux.com/">垂直标签栏</a>辨认终端与模型任务，按工作目的组织工作区，让相关工作容易切换和找回。</td>
+</tr>
+<tr>
+<td>Web ChatGPT</td>
+<td>整理侧栏中的对话与 Projects，用清楚的项目名聚拢相关工作；按当前可用的置顶、排序或归档功能保持重点可见。</td>
+</tr>
+</tbody>
+</table></div>
+<p>让模型按实际应用能够提供的功能配置；自己制作的网页和工具也采用这些安排。允许侧栏折叠和调整宽度，窄屏时收起，给正文留足空间。改好后用一次真实任务检查：能否认出重要内容、切换到相关材料，并返回原来的工作。界面的编排随使用调整，不必为了相似外观把所有应用改成同一套操作。</p>
+<h3>用 chezmoi 收拢全局配置</h3>
+<p>让模型建立一个由 Git 管理的全局配置仓库，使用<a href="https://www.chezmoi.io/what-does-chezmoi-do/"> chezmoi</a> 把分散的终端、编辑器、快捷键、脚本入口和可重建的模型配置收拢到可维护的源。模型修改源、检查差异、应用到实际环境，再从真实应用读回效果；GitHub 保存版本，便于继续维护、换机和恢复。收拢的是配置的维护关系，不是把所有应用数据塞进一个仓库；密码、令牌、登录会话、缓存和临时状态仍留在各自适合的位置。</p>
+<p>Obsidian 的多个库也采用<strong>一套共享基础配置</strong>：主题、插件选择、通用设置和 Vim 键位统一维护，再由模型同步到各库，避免每个库手动配一遍。笔记内容保持在各自的库里；确有必要的库差异单独保留。云盘目录与普通本地目录的同步机制可能不同，由模型选择适合的复制或链接方式，并检查每个库实际加载后的结果。这样既精简管理，也避免一次共享配置更新误改笔记内容。</p>
+<p>可以从一句话开始：“这件事我经常做，但现在要记住几个命令、来回开窗口。请检查现有做法，把它改成我看得懂的入口，保留结果位置、失败提示和恢复办法，并实际试一次。”请模型完成实现与验证。实际检查的是从人的入口能否完成工作、出了错能否继续；代码能够运行，只是其中一部分。</p>
+<h2 id="continuity" tabindex="-1">6. 本地、GitHub 与网页：让工作能够接续</h2>
+<h3>本地 Codex 承担持续工作，Web 用于辅助探索</h3>
+<p><strong>这条实践路线以本地 Codex 为主要执行入口，让它持续构建个人知识环境与工作环境。</strong>这种环境包括资料与笔记、阅读入口、应用设置、脚本与自动化、模型工具、工作偏好，以及不断产生的作品。模型可以按任务接通它们、改变其组织、检查实际效果，并维护之后仍要使用的安排。项目文件夹保存某项工作的材料；它不是整个人机协作的范围上限。</p>
+<div class="guide-table"><table>
+<thead>
+<tr>
+<th>入口</th>
+<th>工作所在的位置与可用材料</th>
+<th>在这条路线中的作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>网页 ChatGPT</td>
+<td>对话、上传材料、已连接的云端资料，以及该账号实际提供的搜索、研究、分析、生成和应用工具</td>
+<td>开放讨论、研究资料、比较观点、理解问题、形成构想，或通过已有云端工具完成作品</td>
+</tr>
+<tr>
+<td>本地 Codex</td>
+<td>在授权范围内可用的本机文件、命令、进程、应用接口与连接的服务</td>
+<td>调查并改造实际环境，安装和配置工具，整理知识材料，编写与运行程序，验证结果并持续维护</td>
+</tr>
+<tr>
+<td>接通本地或远程环境的云端任务</td>
+<td>额外连接所开放的文件、工具与运行环境</td>
+<td>能力由具体连接决定，需要核对执行位置、可用工具与结果保存位置</td>
+</tr>
+</tbody>
+</table></div>
+<p>区别在于<strong>模型接到了什么环境，能够改变什么，以及结果在哪里持续存在</strong>。网页对话不会因为知道你的需求，就自动获得电脑上的文件、应用和设置；本地执行入口则让模型能把这些对象纳入实际工作。本地模型也可以讨论和研究，网页模型也可能通过连接器执行操作，双方不是按“思考”和“干活”绝对分开。官方的<a href="https://learn.chatgpt.com/docs/environments/modes">环境说明</a>区分本机与云端工作空间，<a href="https://learn.chatgpt.com/docs/config-file/config-basic">本地配置</a>和<a href="https://learn.chatgpt.com/docs/enterprise/cloud-local-access">云端连接电脑</a>说明各自的工具与配置入口。具体能力以当前账号和已接通的环境为准。</p>
+<p>本地客户端调用云端模型时仍需要网络；“本地”主要说明执行现场与可维护的材料、工具在这里。网页与本地也可能提供不同模型、模式和用量，按实际问题选择。需要网页模型的另一份判断时，让本地模型准备相关材料，再把有用结论接回环境中落实。人仍通过提出需要、理解结果和给出反馈参与，不必在两个入口之间反复复制背景和搬运实现细节。</p>
+<h3>文件、版本与公开表达</h3>
+<p>这里选择一套以海外服务为主的工作环境：模型订阅、GitHub、Google Drive、Telegram 与相关工具相互接通。具体采用哪些服务，以它们能否支持同一份工作为依据；账号、网络与数据存放位置需要在实际环境里能持续使用。</p>
+<p><strong>Google Drive 放资料与日常文件，GitHub 放需要版本管理的源与配置，网页呈现适合阅读和参与的结果。</strong>通过<a href="https://support.google.com/drive/answer/10838124?hl=zh-Hans"> Google Drive 桌面版</a>，选定资料可以在云端与本地之间接续；模型在运行本地工具前确认文件已经下载可用。纸面资料、笔记、附件和工作档案可以放在云盘，项目代码与 chezmoi 配置仓库则由 Git 管理并推送到 GitHub。私人材料使用相应的私人空间；同步和版本管理按各自职责工作，不让多个机制同时争写同一份仓库状态。</p>
+<p>先建立一个项目文件夹，让模型把第一版作品放进去。保留原始想法、正在维护的源文件和简短说明；以后你和模型回来时，能知道它做什么、怎样运行、还有什么问题。私人材料与准备公开的作品分开放，发布前看一遍实际将公开的文件。</p>
+<p><a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Git</a> 记录文件的修改历史。先会保存一次有意义的版本、查看变化和回到旧版本，就已经有用。<a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories">GitHub</a> 接上远程保存、讨论与协作；免费账号可以建立公开和私人仓库。Git 是本地版本工具，GitHub 是托管与协作服务，第一次做出作品时可以先只用本地文件。</p>
+<p>想让别人直接读到或试到，再发布网页。<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pages</a> 可从仓库发布静态网页；GitHub Free 的这条路线使用公开仓库，适合你愿意公开的 HTML、CSS 和 JavaScript，不提供任意后台服务。可以先用它提供的网址，自定义域名以后再考虑。本网站使用 Sites；如果你的账号已有<a href="https://learn.chatgpt.com/docs/sites"> Sites</a> 入口，也可以让模型准备、检查并发布网站，其可用性仍取决于方案、地区和工作区设置。</p>
+<p><strong>Cloudflare 也是适合发布个人网站的选择。</strong><a href="https://developers.cloudflare.com/workers/static-assets/">Workers Static Assets</a> 可以承载网页文件，并按需要接入后端逻辑；<a href="https://developers.cloudflare.com/pages/">Pages</a> 支持连接 Git 仓库或直接上传发布，Cloudflare 当前建议新项目优先考虑 Workers。让模型根据实际网站准备部署与自定义域名。个人网站也可以是仅供自己使用的工作台，这时应配置真实的登录与访问控制；“不被搜索引擎收录”不能替代私有访问。</p>
+<p>本地是正在发生的实践，GitHub 留下可检查的源内容，网页提供阅读与参与的入口。<a href="/philosophy/local-source-and-website/">三位一体</a>进一步解释它们怎样属于同一份工作。</p>
+<h4>把记忆外置，让历史能接续</h4>
+<p><strong>人约等于 agent，可以从有限的注意力和工作上下文来理解。</strong>人和模型都需要把早先经历带入当前行动，却无法同时握住全部背景；这是一种功能类比，不意味着人的大脑采用大语言模型的架构。把有用记忆外置到文件、笔记或知识库，能让接续工作少依赖临场回忆，也让另一个模型有材料可读。</p>
+<p>先让模型在已有项目里维护一份简短的当前说明：目的、已作出的选择、有效条件、未解决的问题，以及原始材料的位置。需要时用文件搜索、知识库检索或 RAG（检索增强生成）取回相关部分，再交给当前模型。外置记忆提供可查的背景，检索选择这次工作需要的材料；它们不会把全部经历瞬间传进一个上下文。例如，继续一份课程作品时，模型先读课程目标和上次未完成的部分，再按需要查原文。</p>
+<p><strong>当前记忆与历史来源一起保留。</strong>说明可以随着理解改变，来源记录则帮助检查“当时发生了什么、后来为什么改”。在提供且已启用 Computer History 的 Codex 环境里，它按观察设置保留滚动的活动事件流及摘要，可帮助找回近期用过的应用、页面与任务线索；覆盖范围取决于设置和实际捕获。Git/GitHub 的版本、提交与 PR 提供项目范围的历史，它们不是同一个 Computer History 产品，也不会自动记录全部电脑活动。可以把前者理解为跨应用的环境线索，把后者理解为项目内的变化线索，再回到原文件与当前状态核验。</p>
+<p>把“较早的依据或行动 → 较晚的修改或结果”连起来，并在合适粒度上保持边沿发生次序向前，历史可以形成有向无环的来源图：原始需要 → 一个方案 → 一次提交 → 使用反馈 → 后续修订。<a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">Git 的提交对象</a>也保留父提交关系。这里保留的是能解释变化的痕迹，不能据此宣称所有心理过程都是 DAG，或记录已覆盖整个人生。让模型沿相关痕迹恢复背景，再判断哪些记忆仍适用于眼前任务。<a href="/philosophy/flow-and-time/">流与时间</a>进一步解释这种保留与纠正。</p>
+<h2 id="first-loop" tabindex="-1">7. 从模型的执行内环开始</h2>
+<p>你提出一个需要，模型完成调查、构造、执行、检查和修订；结果进入实际使用，你和模型再根据体验与后果调整需要。这可以理解为<strong>内外两层嵌套的反馈环</strong>：执行内环围绕当前任务反复检查与修复，使用外环则把结果放回人的生活，改变下一轮工作的方向。人可以只说几句话，让 AI 把这轮工作跑起来；不必亲自接管每一个步骤。</p>
+<blockquote>
+<p>使用外环：表达目的与经验 → 看见并使用结果 → 共同判断、反馈与重新定向。</p>
+<p>执行内环：模型理解任务 → 调查条件 → 构造与执行 → 检查结果 → 修订到可用。</p>
+</blockquote>
+<p>这里的“内外”取决于选定的系统边界。执行内环也包含工具、实际运行和结果反馈，不只是模型内部思考。在控制工程中，<a href="https://www.mathworks.com/help/control/ug/designing-cascade-control-system-with-pi-controllers.html">内环与外环</a>是常见的结构用语；这里借它说明人机协作的反馈层次，不把整套协作等同于一种特定的控制器。</p>
+<p>第一个执行内环可以围绕一件实际需要的事展开：接通一项翻译服务、准备全局提示词、用起一个 Skill、整理可读的材料，或把常用操作改顺手。也可以制作课程页、研究问题、整理作品或建立仓库。事情未必小，但人的入口可以简单；模型负责把内部工作展开，直到结果能够实际使用。</p>
+<ol>
+<li><strong>你给出目的，模型展开任务。</strong>例如“让这篇英文材料能舒服地读”。模型查明材料、阅读入口与翻译条件，提出并实现合适的安排。</li>
+<li><strong>模型把内部工作做到可用。</strong>翻译服务要能译出真实段落，阅读入口要能找到原文；检查失败时继续修复。遇到必须由你提供的经验、授权或个人验证，再把那个具体问题带回来。</li>
+<li><strong>模型保存可接续的成果。</strong>必要的材料、配置与版本留在各自位置，使下一次工作有现成起点；你无需管理它的每个中间步骤。</li>
+<li><strong>你使用和判断，模型继续修订。</strong>你指出不方便、遗漏或理解错的地方，模型接着做下一轮。你的反馈也可以改变正在运行的工作方向。</li>
+</ol>
+<p>沿着这些循环，工作偏好、环境、作品、GitHub 仓库、模型配置、Skills 和自制工具可以共同演进：目的引导配置，配置支持实践，实际后果又改变理解与实现。模型跟进一项改变真正影响到的部分，让各处保持一致；某一次任务可以完成，整套生活与工作方式仍可继续生长。</p>
+<h2 id="ways-of-practice" tabindex="-1">8. 窃火的三种实践：学习、工作与生活</h2>
+<p><a href="/philosophy/stealing-fire/">窃火</a>的结论，可以落到三种相互连接的方式：用已有的生成能力帮助理解，让想法成为可用作品，再让日常环境承载它们。目标是兼具人的优势与模型的优势。人的身体经验、兴趣、直觉与整体判断，和模型的检索、比较、显式推理、编辑与执行相互补充；这些是可以调整的贡献，不是把双方锁在固定角色里。听说读写贯穿其中：你听、看、表达、批评和尝试，模型接住这些贡献，整理材料并把下一步工作做出来。</p>
+<h3>学习方式：让模型准备材料，把注意力用在理解</h3>
+<p>这里培养的是<strong>整体感、直觉与多模态具身推理</strong>：先看见问题的形状和关系，再通过文字、图像、声音、实际操作与反馈，让理解逐步变得可分辨。模型承担细节查找、材料组织和显式推演，让人的注意力留给理解、生成和判断；关键细节在影响结论时仍须展开核对。这样分配注意力，不要求把记住所有细节作为学习的前提，也不把直觉当成无需检验的结论。</p>
+<p><strong>学习材料要让正在读它的人进入问题。</strong>模型既要解释对象是什么、为什么这样理解，也要把它接到你正在看的材料、已经形成的理解、生活经验、兴趣和实际任务上：这个概念回应了你遇到的什么问题，与你原来的想法哪里相合、哪里冲突，理解它之后能重新看见或判断什么。研究只是其中一种关系；即使没有研究计划，也可以围绕一本书、一段经验或一个想做的作品展开学习。</p>
+<p>先告诉模型正在学什么、已有材料和眼前想弄懂的问题，让它寻找并核对原文。持续学习时，可以采用当前 Teacher 按学习对象区分的材料组织：<strong>哲学与文本研读用两份，技术课程用三份。</strong>两类都先准备独立的术语表，以概念地图和概念主线开篇，再展开术语、区别及来源；需要查找时能回到它，正文中也就地解释理解所需的概念。</p>
+<ul>
+<li><strong>哲学、思想史等文本研读：术语表＋论述与研究指南。</strong>主文连贯地展开这本书的问题、主张、理由、转折、异议与回应，说明概念在作者、语境或阶段中的变化，并在相关论证处联系你的兴趣、已有理解、生活与工作环境，以及正在研究的问题：它解释或挑战了什么，也可能怎样改变你理解自己与世界的方式。围绕问题讨论时，模型负责调取原文和展开解释，不要求先读完整本书，也不自动布置技术课程式的习题与实验。</li>
+<li><strong>技术课程：术语表＋学习与研究指南＋习题与实验。</strong>指南把学习与阅读路线放在一起，按实际知识结构解释概念、数学关系、方法或代码行为，并联系你的现有工具、项目、研究问题和感兴趣的方向，说明哪些条件对应、哪些不同、什么可以迁移或仍待验证；这些关系也影响例子、解释深度和适用训练的选择。训练文档分别组织书面习题和实验／项目，交代对应知识点、来源、尝试目的和反馈方式；某份材料实际只有一种训练形式，就准备适用的那一种。准备好训练材料不等于必须当场做完。</li>
+</ul>
+<p>两类主文都把<strong>材料与读者的关系</strong>放进相关概念的展开中。例如，读一个关于认识的论证时，模型可以接住你对一次判断的疑惑，比较原文如何解释它、这种解释又遗漏了什么；学习一个技术方法时，可以连到你正在做的工具，说明改变哪个条件会改变什么结果。模型应复用已知背景，在联系依赖实际情况时查看相关材料、环境或研究内容，不让你先重建一份完整档案。有当前研究问题时，再有依据地比较什么能够迁移、什么仍需验证；兴趣和已有理解也可以决定从哪里进入、深入哪些关系。这些联系留在主文和实际讲解里，不必为每种关系另外拆一份文件；保持原文的主张、模型提出的类比和你自己的经验可区分，也容许某个概念暂时没有直接的个人用途。</p>
+<p><strong>保存下来的指南与正在发生的讲解互相修订。</strong>指南保留连贯的知识结构和来源，模型则根据你的疑问、异议、直觉和回应调整入口、解释深度、例子与呈现方式；有用的新理解再写回材料。能独立查阅，不意味着必须脱离具体读者来讲解。你不必先建立完整的个人档案，也不必先交出标准答案，模型就可以帮助把尚未说清的联系展开；一次解释仍然没接上，就检查遗漏的前提或不合适的表述，继续改进。</p>
+<p>术语表、主文和适用的训练材料相互链接，也能回到原始页码或章节。图像、音频、视频片段、可操作的演示和实际程序，按它们能否帮助理解当前关系来选用。一次孤立问题可以直接解释，不必先生成整套书籍材料。</p>
+<p>工具随具体需要选择。处理一组固定来源时，<a href="https://support.google.com/gemininotebook/answer/16179559">NotebookLM／Gemini Notebook</a> 可以作为可选的来源问答入口，沿回答引用回到原文核对；持续的个人理解和对话则由实际使用的模型与学习空间接续。视频课程可以先取得带时间戳的字幕或转写，需要听语气或练声音时仍回到音频。它们与 Obsidian、PDF 阅读和翻译工具配合，不规定一套必须采用的学习平台。</p>
+<p>普通用户通常不需要先建立一套标准化知识库。分类、标签、卡片与 RAG 只有在实际检索或接续困难时才值得增加；先让模型把眼前材料准备得容易读、容易比较、能回到来源。模型改写的解释与原文保持可辨认的关系，术语表和关系图随着学习中的问题继续修订。</p>
+<p>在 Obsidian 中，让模型把原始 PDF、术语表、主文和适用的训练材料放进同一学习空间，用有意义的标题与段落链接连接它们。<a href="https://obsidian.md/help/plugins/backlinks">反向链接</a>帮助从概念回到引用它的笔记；<a href="https://obsidian.md/help/embeds">PDF 嵌入</a>可以直接显示原文的指定页，<a href="https://obsidian.md/help/tabs">分栏标签页</a>则让说明与 PDF 并排查看。例如一边看某页定义，一边看术语解释和关系图，再进入相关论证；技术学习还可以沿链接进入对应习题或实验。让模型维护链接与材料，人的任务是阅读、辨认、提问、尝试和反馈。</p>
+<p>哲学学习可以从一个问题进入，通过解释、追问、异议、例子与原文对照逐步展开，不必先完成略读或练习。技术学习则可以把概念、推导和实际行为连接起来，在需要时用书面习题、实验或项目检验理解。模型给出答案，不等于人已经理解；真正希望练习的判断，需要留给自己作出和修正的机会。记忆、检索与排版可以外包，理解通过实际相遇继续形成。</p>
+<h3>多用语音、少用手：把想法说出来，再听回应</h3>
+<p>与模型讨论时，可以把想到的关系、疑问和例子说出来，听它怎样理解、解释或追问，再补充例子、提出异议、修正原来的表达。让模型承担能够完成的点击、复制、整理、配置和写作，把自己的注意力放在表达、倾听与判断上。这样既减少重复操作，也给听说和推理留下练习机会。</p>
+<p>这有点像向一只能够回应的“小黄鸭”讲解问题：说的过程使尚未成形的想法展开，模型接住其中的联系，回应又帮助你发现遗漏的前提或新的可能。可以先说一段，再听或读模型的复述，检查它是否抓住真正关心的事；表达、反馈和修订共同推动理解。阅读、书写和实际动手也各有用处，按眼前想理解和练习的能力选择。</p>
+<p>语音入口有区别：口述输入法通常把转写文字交给模型，转写可能有误；模型实际收到音频时，声音、语气和节奏才可能进入判断。想练听力时，可以使用实际可用的语音回复或朗读，同时保留文字方便核对。<a href="/repositories/prometheus/source/skills/yinyang/references/docs/participation-and-support.zh-CN.html">参与与支持</a>进一步讨论这些渠道怎样参与理解。</p>
+<h3>工作方式：表达目的，让模型把事情做成</h3>
+<p>从实际目的或一处不合开始，不必先写完整需求文档。把相关文件或现象交给本地 Codex，让它调查当前状态、比较已有实现、提出有根据的选择，再完成编写、配置、执行与验证。你通过可见的原型、差异和结果判断方向，模型处理它能够调查的细节，把有实质影响的选择解释清楚。</p>
+<p>例如做一份报告，模型负责找资料、核对、组织论证和排版；你判断它是否说清了真正关心的问题。修一个工具，模型读取错误、定位并修复，再从原来的入口验证；你检查使用是否顺手。一次完成后，保留源文件、必要说明和版本，让下一次从现有成果继续。反复用到的方法再成为 Skill、脚本或 Hook，避免每个任务都新造一套系统。</p>
+<h3>生活方式：日常事务尽量异步，与模型保持接续</h3>
+<p>这里还有一种发展节奏的选择。社会制度、软件与交往惯例往往要兼容已有记录、约定和参与者；自己的知识环境则可以与模型一起面向新能力持续改进。不必让每一步内部探索都等外部安排同步改变：先把需要展开、把作品做成，再通过记录、成果和合适的时机与其他关系连接。模型承接这种连接中的细节，你通过目的、使用和反馈参与。与模型同步，指共同理解和修订能够接续；与世界异步，指连接可以容许时间差。具体责任、身体需要与现实后果仍决定哪些事情需要及时回应。<a href="/philosophy/stealing-fire/#一种生活方式选择火的节奏">窃火</a>展开了这种向前演进与历史兼容之间的关系。</p>
+<p>不让每一条消息、一次更新或一项杂务都要求自己立即切换。适合稍后处理的资料收集、软件维护和提醒，交给已经验证的后台任务，结果在合适时间返回；需要即时回应的人与事，仍按其实际关系安排。异步使不同生活保有自己的节奏，减少被无关进度持续牵动。</p>
+<p>与模型“同步”，主要是让正在理解和创造的事情能够连续：同一问题有背景可读，同一作品有源可改，一次反馈能进入下一次行动。它可以发生在短暂交谈、并排阅读或一次作品修订里，不要求全天在线。让环境承接记忆与杂务，把释放出的注意力用于读书、创造、身体活动，以及值得维系的人际关系。日常与模型之间的松紧，随着真实生活继续调整。</p>
+<h3>哲学、心理建模与工程，一起塑造个人环境</h3>
+<p>哲学、心理建模与工程共同服务于自己的生活、学习与工作环境。可以用<strong>世界观—感受与认识—方法与实现</strong>把握三者的侧重：哲学展开怎样理解世界，心理建模研究实际的人怎样感受、理解与回应，工程让这些理解取得可用的形式，并接受物理条件和实际结果的约束。它们在同一生活过程中相互贯通；<a href="/philosophy/local-source-and-website/#世界观认识与实现">三位一体</a>展开这份关系。先从使用中发现需要，再学习能帮助理解和改变它的那部分知识；不必另行承担与眼前目的无关的课程。</p>
+<p>按所需背景进入<a href="/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html">哲学阅读</a>、<a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html">心理阅读</a>与<a href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html">工程阅读</a>。它们提供思想原文、书与论文、课程与实现文档；前面的工具入口提供可以直接使用的能力。</p>
+<p><strong>哲学帮助理解和选择自己的安排。</strong>本体论问“这里有什么对象、参与者与关系”，认识论问“我凭什么这样理解、什么证据会使我改判断”。这些问题可以落到实际生活：我想发展什么能力，哪些工作交给模型，不同安排怎样影响我的注意力、理解与行动。有兴趣时，可以选读<a href="/philosophy/why-yinyang/">为什么要写个人哲学</a>或<a href="/philosophy/embodied-experimental-philosophy/">具身的实验哲学</a>，对照自己的具体问题理解其中的主张；工具使用本身从实际需要开始。</p>
+<p><strong>经验与偏好帮助协作贴合实际的人。</strong>从当前任务已经显现的需要出发，告诉模型哪些解释容易理解、什么安排不顺手、希望怎样参与；让它根据实际交互修订工作设置。需要专门的心理探索或建模时，再围绕那个目的选择材料与方法，保留具体证据和不确定性。日常工具使用不要求先写完整画像或一套核心模型，漂亮的描述或工具配置也不能单独证明已经理解了一个人。<a href="/philosophy/local-source-and-website/">三位一体</a>提供进一步的关系讨论。</p>
+<p><strong>工程首先是会使用、会组织自己的环境。</strong>前面介绍的 ChatGPT 与 Codex、Skills、模型分工、工具连接和自动化，已经是这种工程实践。你主要通过界面操作、自然语言表达和对结果的判断参与：哪里不好用，需要什么帮助，某种新工具是否值得接入。模型负责搜索方案、编写和维护提示词、配置 agent 的运行环境与工具，并把代码、命令、调试和验证做完。能够表达一个需要、看出结果的一处不合，就足以开始这一轮协作。</p>
+<p><strong>值得逐渐学习的是怎样分配和控制复杂性。</strong>哪些工作适合由一个模型连贯处理，哪些需要交给专用工具；什么信息应当让它一起理解，什么细节可以留在实现内部；新增一个 Skill、模型或自动化，是否真的减少了使用和维护负担。窄接口把作用范围、输入与结果约定清楚，适合稳定的具体操作；宽接口容纳目的、背景和反馈，给模型留下综合理解与展开工作的空间。接口宽窄随任务选择，让能力能够用起来，也让变化的影响容易辨认。</p>
+<p><strong>通过使用和试验继续调整。</strong>发现阅读不顺、工具接不上或自动化结果不合适时，把现象、期望和有用线索交给模型，让它提出解释、做可观察的试验、检查并修复，再回到实际使用中比较。你可以据此调整分工、工具和自动化的范围与节奏，不必自己排查每个 bug 或手写每个接口。工程学习就发生在这些有实际收益的调整中：逐渐会安排协作、辨认复杂性、判断环境是否真正服务于自己。</p>
+<h2 id="automation" tabindex="-1">9. 让模型持续监督、收集与修复</h2>
+<p>环境建成以后，把需要反复关注的工作交给模型与自动化。个人只需表达正在关心什么、哪些结果有价值，模型把这些需要落实成可运行的定期任务、变化检查和故障处理。目标是覆盖个人实际需要的各类资料与维护工作，减少反复检索、切换软件、对照版本、下载整理和排障。</p>
+<h3>网页追踪变化，本地加工材料</h3>
+<p><strong>网页可以直接收集的信息单元：</strong>一个工具的发布说明、一项订阅的价格与额度、一篇新论文的题录与摘要、一场会议的议程、一个活动的报名时间。模型定期检查这些对象的页面与一手来源，保存链接、日期、必要摘录和相对上次的变化，形成可以浏览和判断的信息流。这类任务通常不需要先把整套资料下载、转换一遍。</p>
+<p><strong>需要额外处理、供自己实际使用的材料：</strong>论文和教材全文、扫描 PDF、成套课程、视频讲话文本、个人笔记，以及实验代码与数据。模型取得需要的版本后，在本地完成核验、OCR、转换、翻译、分组、索引和链接，或准备运行环境，再放进适合阅读与维护的文件夹、Obsidian 库或项目。完成标准是材料确实可读、可查、可运行或可接续，而不只是搜到一个网页。</p>
+<p>两类工作通过原始链接、版本与处理记录连接。先从变化信息判断相关性，再把值得使用的对象送入本地加工；已有材料更新时，只处理实际受影响的部分。这里的网页采集通常也由本地任务调用搜索和读取工具完成，不要求另外打开 Web ChatGPT 对话。让采集保持轻量，让真正使用的材料获得足够整理。</p>
+<h3>按实际需要安排长期工作</h3>
+<p><strong>Web 定时任务与本地定时任务，先区分执行位置。</strong>在 Web ChatGPT 中，可以用<strong> Scheduled Tasks（定时任务，创建按钮为 Schedule task）</strong>安排每周跟进资料、检查变化或接续进度，并在 Scheduled 中查看结果、修改安排或暂停。Web 任务不会直接获得本地文件夹的访问能力。给任务写清长期目的、本次工作与结果位置，让模型核对这项任务实际可用的来源和工具，并检查真实产出；可参考<a href="https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt">定时任务说明</a>。</p>
+<p><strong>本地定时任务在接通的电脑环境中执行。</strong>例如，桌面客户端的<a href="https://learn.chatgpt.com/docs/automations?surface=app">本地自动化</a>可以围绕项目或 worktree 安排工作，使用实际可访问的目录、Skills 和工具；需要电脑开机、应用保持运行。让模型核对执行位置、访问范围、触发时间和输出，再试跑一次。保存了时间表或显示“已启用”，还要有实际执行和结果可查。</p>
+<p><strong>Dot 是持续工作与管理的入口，也能在接通后承接本地工作。</strong>它有自己的云端电脑；通过桌面应用开启所需的本地电脑访问后，也能启动独立的本地 Work／Codex 任务并使用本地 Skills，此时需要电脑在线、应用打开。按<a href="https://help.openai.com/en/articles/20001530-getting-started-with-your-dot">当前官方说明</a>核对实际能力，在 Scheduled 或个人资料中的相应入口管理反复检查。简单、大量、重复的环节仍很适合逐批交给它：准备术语表、文字解释和学习指南，批量翻译工程文档、注释与说明，或接下复杂项目中可以独立交付的翻译工作。由模型选择合适的执行位置，并核对材料、工具与保存结果。</p>
+<p>交代原文、目标语言或材料形式、术语约定、已完成范围和输出位置，让它分批保存结果、记录进度，并接着处理下一批。学习材料还要说明“这些概念与我正在理解的问题有什么关系”，使材料保有前面说的读者联系；工程翻译则保留文件与段落对应，并把结果交回项目核对。用反馈改进后续批次，遇到需要整体判断或复杂环境操作的部分，再交给负责整个项目的模型接续。</p>
+<p>定时任务规定何时启动，Web 或本地说明执行位置，Dot 则可以组织和接续工作；它们是能够配合的不同安排。涉及本地文件、软件配置或设备时，核对实际接通的本地能力。无论选哪一种，都检查真实来源和产出，准备完成也不等于读者已经理解。</p>
+<h3>macOS：LaunchAgent 触发工作，监测验证结果</h3>
+<p>在 Mac 上，还可以让模型把适合的脚本或服务接到<strong> LaunchAgent</strong>，由系统的 launchd 按需、定时或持续运行。LaunchAgent 属于已登录用户的会话；关机时不会执行，睡眠和唤醒也会影响触发时间。配置时对照当前 macOS 的本机手册与实际测试；<a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html">Apple 的 launchd 说明</a>是基础参考，但属于归档文档。</p>
+<p>把它接到已有的轻量监测中，让模型通过 launchctl 状态、日志和实际产出检查运行。常驻服务看进程健康与功能；一次性任务看最近成功时间、结果是否按期更新和错误记录，空闲时没有进程可以是正常状态。监测发现异常后，由模型读日志、诊断并在已授权范围内修复或恢复，再从原任务入口验证；需要重试时限制次数，避免反复启动或重复通知。对有意义的失败、恢复或需要人选择的情况发出可行动的提醒，未变化的例行检查保持安静。</p>
+<h3>用个人服务器接续本地工作</h3>
+<p>也可以把 Mac mini 一类电脑作为<strong>个人服务器</strong>，承接需要本地文件、应用或设备的长期任务，按需要提供 24 小时持续运行的环境。模型可以在其上定时收集资料、准备学习材料、检查服务和维护环境；你的日常电脑不必一直承担这些后台工作。是否另设机器，取决于已有设备和实际任务，不是开始这套方式的前提。</p>
+<p>持续运行要落实到电源、网络、机器保持可工作状态、任务调度，以及重启后的恢复。让模型配置并验证一次“触发任务 → 执行 → 保存结果 → 中断后接续”的实际路径；模型服务或网络暂时不可用时，记录失败并在合适时重试。这里的 24 小时说的是运行安排，不是每项服务永不故障的保证。个人服务器负责提供环境，本地定时任务或 LaunchAgent 等负责何时启动，模型与工具负责具体执行，监测则检查工作是否真的完成。</p>
+<ul>
+<li><strong>新插件与新工具：</strong>持续留意官方发布、GitHub 项目和社区使用经验，判断新能力能否替代复杂操作、简化现有工具或打开新的工作方式。找到合适实现后，按“采用、配置更新、适配，缺少时再编写”的顺序接入环境。</li>
+<li><strong>模型与软件版本：</strong>检查真实可用的模型、客户端、插件和软件版本，结合它们当前承担的工作判断是否升级。完成更新后验证实际入口，把必要配置改动回收到 chezmoi 与对应项目；版本号变新本身不是工作完成。</li>
+<li><strong>订阅价值：</strong>先检查主订阅的稳定性、账号与续费可靠性，再把本地加 Web 的实际能力和用量放在一起，参考可比模型的当前 API 价格评估使用价值。优先个人 ToC 方案，不为短期优惠频繁换订阅；确有能力、可靠性或组织需求变化时，再提出保留、升级、降级或更换的建议，并在已有授权范围内处理后续操作。</li>
+<li><strong>论文、基础资料、会议与实验材料：</strong>按正在学习和研究的问题，定期寻找论文原文、作者资料、课程教材、官方会议议程与征稿、演讲材料，以及实验的代码、数据、方案和复现说明。保存原始来源、版本与日期，去重并连接已有材料，区分收集到的说明与已经实际验证的结果。</li>
+<li><strong>关注的活动：</strong>从主办方公告、官方日历和报名页面取得一手信息，记录时间、时区、地点、报名条件与截止日期，继续跟踪变更。把对个人有用的变化带回来，减少不断刷新多个网站的操作。</li>
+<li><strong>环境自动修复：</strong>监测服务退出、接口失效、同步异常和更新后的功能回退。让模型读取实际状态与日志，定位原因，完成范围内的修复，把必要修改保存到配置源，并通过原来的使用入口验证恢复；无法自行完成的具体问题再带给人判断。</li>
+</ul>
+<p>可以让模型建立这些自动化：软件与模型变化检查、工具生态评估、论文雷达采集与评估、Skills 更新、Web 能力同步，以及服务故障后的模型修复。读者可以把同样的组织方式扩展到自己的资料、会议、实验与活动。这里介绍的是工作方式；写下一段“自动关注”的提示词，还不等于已经建立了能持续执行的任务。</p>
+<p>请模型把每项长期工作接到实际调度或事件触发上，确定资料来源、执行频率、存放位置、可自行处理的动作与需要人判断的情况，并验证一次真实运行。保留上次进度、已处理记录与失败状态，避免每次重新收集或重复通知。结果更新到人能找到的资料与界面中；重要发现、完成、失败或需要选择时再提醒，未变化的日常维护保持安静。模型也继续检查这些自动化自身是否还在工作，让复杂操作留在环境里，让人的注意力回到理解、选择和创造。</p>
+<h2>继续走</h2>
 <p>先让模型跑通执行内环，再通过实际使用的反馈，决定环境还需要怎样调整。你可以<a href="/repositories/prometheus/">阅读方法与图示</a>，在<a href="/repositories/#advice">资料页的评论区</a>交流尝试，或在<a href="https://github.com/boluopai-net/Prometheus2Heraclitus"> GitHub</a> 一起创作。</p>
 <p class="guide-note">外部方案、额度、支持地区和软件要求会变化，安装或购买时以对应官方页面与实际账号为准。本页是实践入口；工具地图和步骤表达这里选择的工作方式。</p></article></div></div></main>
 <footer class="footer wrap"><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
