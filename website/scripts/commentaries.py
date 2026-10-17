@@ -106,9 +106,7 @@ def stage_for(name):
 def book_navigation(current, chinese, title=None):
     """Cross-page book structure, separate from each page's own contents."""
     active = stage_for(current)
-    overview = '全书总览' if chinese else 'Book overview'
-    home = SERIES + ('' if chinese else 'en/')
-    current_title = overview if current == 'overview' else (GROUPS[active][0 if chinese else 1] if current.startswith('stage:') else essay_title(current, chinese, title))
+    current_title = '' if current == 'overview' else (GROUPS[active][0 if chinese else 1] if current.startswith('stage:') else essay_title(current, chinese, title))
     context = current_title
     if active is not None and not current.startswith('stage:'):
         context = GROUPS[active][0 if chinese else 1].split('：' if chinese else ':')[0] + ' · ' + current_title
@@ -124,8 +122,9 @@ def book_navigation(current, chinese, title=None):
             items.append('<li>' + link(article_url(slug, chinese), essay_title(slug, chinese, title), current == slug) + nested + '</li>')
         groups.append(f'<details class="book-stage"{" open" if active == index else ""}><summary>{link(stage_url(index, chinese), label, current == "stage:" + STAGE_SLUGS[index])}</summary><ol>{"".join(items)}</ol></details>')
     label = '全书导航' if chinese else 'Book navigation'
-    nav = f'<nav aria-label="{label}"><p class="book-name">{html.escape(SERIES_NAMES[0 if chinese else 1])}</p>{link(home, overview, current == "overview")}{"".join(groups)}</nav>'
-    return f'<aside class="book-navigation">{nav}</aside><details class="book-mobile-menu"><summary>{label}<span>{html.escape(context)}</span></summary>{nav}</details>'
+    nav = f'<nav aria-label="{label}">{"".join(groups)}</nav>'
+    status = f'<span>{html.escape(context)}</span>' if context else ''
+    return f'<aside class="book-navigation"><p class="book-navigation-title">{label}</p>{nav}</aside><details class="book-mobile-menu"><summary>{label}{status}</summary>{nav}</details>'
 
 
 def book_contents(toc, chinese):
