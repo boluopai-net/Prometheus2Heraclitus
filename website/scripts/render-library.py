@@ -22,7 +22,7 @@ from markdown.preprocessors import Preprocessor
 from commentaries import ESSAYS, RETIRED, IMAGE_SUCCESSORS, essay_url, retired_url, redirect_page, write_essay, write_index, reading_rail
 from repository_panel import with_comments
 from resource_pages import render as render_resource_pages
-from public_skill_pages import SKILLS, render_pages as render_skill_pages, reading_groups, reading_label
+from public_skill_pages import SKILLS, render_pages as render_skill_pages, reading_label
 
 BASE = '/repositories/prometheus/'
 GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
@@ -297,22 +297,22 @@ def main():
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('阴阳的说明与方法', 'YinYang: explanation and methods', '这四份材料说明同一项实践，分别面向理解整体的读者，以及承担协作、建模写作和环境实现的模型。', 'These four materials concern one practice, addressing readers who want to understand the whole and models carrying collaboration, modeling and writing, or environmental implementation.', [
-                ('references/docs/creation-method', '整体实践说明', 'The practice as a whole', '给读者看，解释哲学、人与伙伴的理解、工作环境怎样联系起来。', 'For readers: explains how philosophy, understanding the person and counterpart, and the working environment connect.'),
-                ('SKILL', '模型执行入口', 'Model entrypoint', '给模型读，规定日常协作时怎样读取和使用这些材料。', 'For the model: specifies how to read and use these materials in ordinary collaboration.'),
-                ('references/design-and-revision', '形成与修订', 'Formation and revision', '给承担建模与写作的模型使用，形成和修订对人、伙伴及双方关系的理解。', 'For the model doing modeling and writing: develops and revises understanding of the person, counterpart, and their relationship.'),
-                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '给承担实现工作的模型使用，把这些理解落实到指令、工具和工作方式，并从实际结果修订。', 'For the model doing implementation: realizes this understanding through instructions, tools, and ways of working, then revises through actual results.'),
+            ('阴阳的说明与方法', 'YinYang: explanation and methods', '可以理解作者的整体实践，完整采用阴阳，也可以为当前任务取用形成或适配方法。四份材料各有职责，不组成必经步骤。', 'Understand the author’s practice, adopt YinYang in full, or borrow a formation or adaptation method for the current task. These four materials have distinct roles; they are not required stages.', [
+                ('references/docs/creation-method', '整体实践说明', 'The practice as a whole', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
+                ('SKILL', '模型执行入口', 'Model entrypoint', '给模型读，区分用途，规定完整采用时的初始阅读，并按已有或尚待形成的实际描述进入协作。', 'For the model: distinguishes uses, specifies initial reading for full adoption, and enters collaboration from formed accounts or the understanding still needed.'),
+                ('references/design-and-revision', '形成与修订', 'Formation and revision', '给承担建模与写作的模型使用，按实际目的形成和修订对人、伙伴及双方关系的理解；也可单独取用。', 'For the model doing modeling and writing: develops and revises understanding of the person, counterpart, and relationship for the actual purpose; it can also be borrowed selectively.'),
+                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '给承担实现工作的模型使用，把有关理解落实到指令、工具和工作方式，并从实际结果修订；也可单独取用。', 'For the model doing implementation: realizes relevant understanding through instructions, tools, and ways of working, then revises through actual results; it can also be borrowed selectively.'),
             ]),
-            ('五份描述的参考', 'References for the five accounts', '下面是公开包中的写作指引，可以阅读它们分别关心什么。实际的人、伙伴、关系与来源，由你和模型结合自己的材料形成在私人版本中；这里不展示他人的个人描述。', 'These public writing guides explain what each account concerns. You and the model form the actual person, counterpart, relationship, and provenance accounts from your own material in a private version; these are not someone else’s personal accounts.', [
+            ('五份描述的参考', 'References for the five accounts', '下面是公开写作指引，阅读可了解各自关心什么，并不形成对实际参与者的理解。完整采用阴阳时，模型与你结合获授权材料，在私人版本中形成全部五份描述；选择性取用方法不要求建立这套文件。', 'These public writing guides explain each account’s concerns; reading them does not form an understanding of actual participants. Full adoption requires the model and you to ground all five accounts in authorized material in a private version. Selective borrowing does not require these files.', [
                 ('references/encounter', '相遇', 'Encounter', '凝练目的、参与方式与双方关系，使日常工作有可用全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary work.'),
                 ('references/models', '用户模型', 'User model', '理解具体的人，保留相关差异、范围与不确定性。', 'Understand the actual person, retaining relevant differences, scope, and uncertainty.'),
                 ('references/relationship', '伙伴与关系', 'Counterpart and relationship', '说明伙伴的贡献、合作方式、独立判断与相互纠正。', 'Develop counterpart contributions, cooperation, independent judgment, and reciprocal correction.'),
                 ('references/usage', '实际使用', 'Situated use', '把这段关系接到实际环境、资源与工作分配。', 'Connect the relationship to the actual environment, resources, and allocation of work.'),
                 ('references/sources', '来源', 'Sources', '说明理解的依据与来源归属，沿有权限的路径回到原始材料。', 'Locate evidence and its owners, following authorized routes to original material.'),
             ]),
-            ('观点与阅读', 'Views and reading', '查阅阴阳的主张、论证与来源；哲学、心理与工程的阅读彼此联系，也各有自己的问题。', 'Consult YinYang’s claims, arguments, and sources. Philosophical, psychological, and engineering readings connect while retaining their own questions.', [
-                ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看阴阳的主要主张。', 'Find the main claims together, organized by topic.'),
-                ('references/reading-map', '按问题阅读', 'Read by the work being done', '从当前问题找到有关论证、方法与原始来源。', 'Find relevant arguments, methods, and original sources from the question at hand.'),
+            ('观点与阅读', 'Views and reading', '查阅作者的主张、论证与来源，可理解、比较或另作选择。哲学、心理与工程的阅读彼此联系，也各有自己的问题；取用实用方法不要求认同这些哲学立场。', 'Consult the author’s claims, arguments, and sources to understand, compare, or choose differently. Philosophical, psychological, and engineering readings connect while retaining their own questions; practical methods do not require agreement with these philosophical positions.', [
+                ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看作者的主要主张及相连论证。', 'Find the author’s main claims and connected arguments, organized by topic.'),
+                ('references/reading-map', '按任务问题阅读', 'Read by the work being done', '从当前问题找到有关论证、方法与原始来源。', 'Find relevant arguments, methods, and original sources from the question at hand.'),
                 ('references/docs/philosophical-readings', '哲学阅读', 'Philosophical readings', '了解各思想家、作品与本文论证的关系，并回到原文。', 'Trace thinkers and works to their role in the argument and their original sources.'),
                 ('references/docs/psychological-readings', '心理阅读', 'Psychological readings', '心理过程建模与经验检验、心灵与心理理论，以及信念、推理和互动研究的书与论文。', 'Books and papers on psychological process modeling and evidence, mind and psychological theories, belief, reasoning, and interaction.'),
                 ('references/docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
@@ -325,7 +325,7 @@ def main():
                 path = PACKAGE + stem + edition
                 entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p></li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
-        groups_html = ''.join(grouped) + '<section class="library-section library-skills"><h2>Skills</h2>' + reading_groups(english, skill_readers) + '</section>'
+        groups_html = ''.join(grouped)
         diagrams = ''
         for name, zh, en, desc_zh, desc_en in [('encounter', '相遇', 'Encounter', '生成、判断与证据怎样在持续的相遇中形成关系。', 'Generation, judgment and evidence within an ongoing encounter.'), ('layers', '层次', 'Layers', '物理基础、计算抽象，以及认识、价值、方法与实践的联系。', 'Physical grounding, computational abstraction, and their connections with knowing, value, methods, and practice.')]:
             suffix = '' if english else '.zh-CN'
@@ -333,9 +333,9 @@ def main():
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
             diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">← {"Library" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh} {"Use the viewer’s zoom, guided views and details. Open the full viewer for more space." if english else "可缩放、切换导览并查看关系说明；打开完整图示获得更大阅读空间。"}</p><div class="diagram-actions"><a class="outline-button" href="{url(diagram_path)}">{"Open full viewer ↗" if english else "打开完整图示 ↗"}</a><a class="text-link" href="{url(diagram_path.replace(".html", ".svg"))}">SVG</a>{link(DOCS + "core-views" + edition, "Related claims" if english else "回到核心观点")}</div><iframe class="diagram-viewer" title="{en if english else zh}" src="{url(diagram_path)}" sandbox="allow-scripts allow-downloads"></iframe><p class="source-note">{link(PACKAGE + "references/diagrams/THIRD-PARTY-NOTICES.md", "Third-party notices" if english else "第三方权利说明")}</p></main>'
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
-        intro = ('Read the YinYang method, follow practical guides for learning, creation, and your environment, or explore ideas and diagrams. Philosophy also has its own connected reading route.' if english else '从阴阳方法开始，阅读学习、创作和环境使用的具体方法，或查阅观点与图示。哲学栏目另有相连的论证阅读。')
+        intro = ('Explore the diagrams, read the author’s philosophy, borrow practical methods, or adopt the complete YinYang Skill. These uses can overlap without a required order; borrowing methods does not require adopting the philosophy or forming five personal accounts.' if english else '可以看图示、阅读作者的哲学、取用实用方法，也可以完整采用阴阳 Skill。这些用途可以重叠，没有必经次序；取用方法不要求认同其哲学或形成五份个人描述。')
         suffix = 'en/' if english else ''
-        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
+        body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang))
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'

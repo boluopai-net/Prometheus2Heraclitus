@@ -1,5 +1,5 @@
 """Resource overview and its dedicated Skills destinations."""
-from public_skill_pages import GITHUB, cards
+from public_skill_pages import GITHUB, reading_groups
 from repository_panel import comments
 
 
@@ -32,5 +32,5 @@ def render(dist, shell):
         write('repositories', t('资料与建议', 'Resources & Advice'), body,
               '<link rel="stylesheet" href="/repository.css"><script type="module" src="/giscus-comments.js"></script>')
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
-        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div>{cards(english)}</main>'
+        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div>{reading_groups(english)}</main>'
         write('skills', 'Skills', skill_body)

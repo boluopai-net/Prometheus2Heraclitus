@@ -103,22 +103,12 @@ SKILLS['model-conversation-relay'] = (
     'Includes the complete method, bilingual guides, MIT license, and client discovery metadata, covering submission reconciliation, interruption recovery, adaptive waiting, and immutable receipts. Supply the exact target, request, prior-turn evidence, and private task storage, together with an available native conversation adapter or controlled browser. Browser Relay is required only for the browser route. No account, browser controller, or authority to send messages is bundled.')
 
 
-def cards(english=False):
-    index = 1 if english else 0
-    items = []
-    for name, info in SKILLS.items():
-        route = '/tools/' + name + ('/en/' if english else '/')
-        items.append(f'<article class="repository-entry skill-summary"><h3><a href="{route}">{html.escape(info[0])} · {name}</a></h3><p>{html.escape(info[2 + index])}</p></article>')
-    note = ('These methods retain useful companion relationships. Read each package’s dependencies, install the needed companions, and configure your own environment.' if english else '这些方法保留有用的配套关系。先读各包依赖说明，按需安装配套 Skill，再配置自己的环境。')
-    return '<section class="library-section" aria-label="Skills"><p class="section-note">' + note + '</p>' + ''.join(items) + '</section>'
-
-
 def reading_label(title, kind, name, language, english):
     """Display the actual selected edition's title without a language placeholder."""
     return title
 
 
-def reading_groups(english, readers):
+def reading_groups(english):
     """Place existing Skills and their substantive reading in practical contexts."""
     families = [
         ('学习与研究', 'Learning and research',
@@ -141,7 +131,7 @@ def reading_groups(english, readers):
             info = SKILLS[name]
             route = '/tools/' + name + ('/en/' if english else '/')
             entries.append(f'<li><a href="{route}">{html.escape(info[0])} · {name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
-        sections.append('<section class="library-section"><h3>' + (en if english else zh) + '</h3><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
+        sections.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
     return ''.join(sections)
 
 
