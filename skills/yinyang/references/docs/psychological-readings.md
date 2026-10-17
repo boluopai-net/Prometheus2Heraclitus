@@ -2,14 +2,39 @@
 
 [简体中文](psychological-readings.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Engineering readings](engineering-readings.md)
 
-Use this guide for ways to articulate experience, compare psychological
+Psychological modeling here begins with a person and counterpart trying to
+understand an actual life and their possible relationship. Prompts, disclosed
+concerns, choices, corrections, and results give them material to analyze and
+synthesize into tentative explanations. Personal records can deepen that work;
+a bibliography supplies concepts and comparisons, not a reliable individual
+portrait. A preference model approached through engineering can already guide arrangements from
+known habits and desired responses. A psychological model asks how experience,
+emotion, desire, interpretation, and relationships connect in context. The
+[formation method](../design-and-revision.md) develops both routes and their
+revision through use.
+
+Self and others have different informational advantages in understanding a
+person, as [Vazire (2010)](https://pubmed.ncbi.nlm.nih.gov/20085401/) shows in
+personality research. [Peters, Cerf, and Matz (2024)](https://arxiv.org/html/2405.13052v1)
+find personality signals in conversations by comparing GPT-4 inferences with
+self-report Big Five measures. This supports a bounded claim about information
+available in dialogue under the study's conditions; developing a psychological
+model of the person requires a broader account and continuing correction.
+
+Quantitative individual models and revisable case formulations provide another
+resource. [Burger et al. (2022)](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
+connect personalized case formulation with Bayesian idiographic networks through
+Clinical PREMISE and an OCD case. Such models depend on individual data and
+interpretive judgment, with technical and clinical barriers to their use;
+statistical relations need further evidence to support causal explanations.
+
+Use the readings below to articulate experience, compare psychological
 explanations, and assess them. For experience and cases, enter [psychological
 conflict, relationships, and change](#psychological-conflict-relationships-and-change)
 and its accessible books. For a proposed process model, use modeling and
 empirical assessment; for change across encounters, use belief and interaction
 research. These are question-based entrances, not a compulsory course or a
-ready-made model of the person. [Design and revision](../design-and-revision.md)
-explains how relevant evidence can inform a situated account.
+ready-made model of the person.
 
 Links lead to authors, publishers, and public originals, with general-reader, professional, and research purposes distinguished. Catalogs and samples are not free full texts; recency and reputation alone do not establish that an explanation fits the present question.
 

@@ -58,12 +58,16 @@ cannot settle it, a focused inquiry can obtain the missing experience or purpose
 The model carries interpretation and writing rather than requiring the person
 to deliver a finished self-description.
 
-Preferences can supply a useful working account when psychological mechanisms
-are unknown. Explain what the person values, chooses, or wishes to change and
-under what conditions. A philosophical image can suggest a connection; coherence
-does not prove that connection in this life. Use psychological vocabulary at
-the strength the evidence permits, without turning interpretation into diagnosis
-or chosen support into deficit.
+A preference model approached through engineering describes articulated or observed habits,
+choices, working styles, and desired responses sufficiently to guide an arrangement. A psychological
+model tentatively connects experience, emotion, desire, interpretation, and
+relationships in the person's life. Preferences can be evidence for it, but do
+not alone supply that explanation. The [formation method](design-and-revision.md#form-a-situated-version-from-actual-material)
+develops both routes through dialogue, synthesis, and actual trials, connecting
+the user account with a fitting counterpart and relationship. A philosophical
+image can suggest a connection; coherence does not prove it in this life. Use
+psychological vocabulary at the strength the evidence permits, without turning
+interpretation into diagnosis or chosen support into deficit.
 
 ## Let understanding change the work
 

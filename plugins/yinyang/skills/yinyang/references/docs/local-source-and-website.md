@@ -4,6 +4,16 @@
 
 *An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
+The movement begins in a life: what someone enjoys, needs, chooses, hopes to
+learn or create, and which relationships they want to sustain. In conversation,
+person and model connect partial expressions and experiences into an understanding
+that can guide action. Information, tools, instructions, and a computer environment
+give selected relations a usable form: helping with shopping, consumption,
+investment, conversation, learning, creativity, and social life. Use then returns
+consequences to that life and to the understanding being formed. The environment
+condenses selected relations from life; its defaults and constraints also help
+explain its shape.
+
 The [sinthome essay](writing-a-sinthome.md) began with the Borromean image:
 different rings hold through their joint arrangement. Here that image becomes
 **a trinity of philosophy, psychology, and engineering**. A philosophical
@@ -99,26 +109,73 @@ Connecting the three lets each expose what the others leave unresolved.
 
 **With one contribution available, develop the other two; with two, concentrate on the third.** Having a contribution means sufficient understanding and experience to participate in the current work, not becoming an expert in three disciplines first. The model can retrieve, develop, write, implement, and check; the person understands, chooses, uses, and corrects. Missing capabilities can develop through this collaboration.
 
-**If engineering is missing, develop it first.** Learn to organize files, tools, a harness, execution, and verification with model assistance, giving the developing understanding an environment that can remain in use. Once engineering is usable, choose from the existing foundations, usually modeling through psychology and personal material before articulating philosophy.
+**If engineering is missing, develop it first.** With model assistance, learn
+enough to organize relevant material, tools, a harness, execution, and checking,
+giving the understanding practical consequences. This is a usable starting
+capacity, not mastery of a discipline; philosophy and personal understanding
+can develop alongside it. Once the environment is usable, two workable routes
+can develop a more fitting collaboration.
 
 | Existing foundation | Next emphasis |
 | --- | --- |
 | Philosophy | Develop engineering first, then psychology and personal modeling: compare the existing philosophy with personal material in a usable environment. |
 | Psychology | Develop engineering first, then philosophy: use the maintainable environment to organize material, form models, and continue writing. |
-| Engineering | Usually psychology, then philosophy: propose a model from choices, friction, changes, and use, check it against personal evidence, and articulate philosophy; other existing foundations can justify a different entrance. |
+| Engineering | Begin directly with preferences and desired collaboration, or develop psychological hypotheses through dialogue and personal material; let either route inform philosophical reflection and further trials. |
 | Philosophy + psychology | Develop engineering: turn the understanding into an environment that operates, can be maintained, and receives feedback. |
-| Philosophy + engineering | Develop psychology: compare concepts and arrangements with actual experience, purposes, and preferences so the model fits the person. |
+| Philosophy + engineering | Develop the personal connection through preference modeling or psychological inquiry: compare concepts and arrangements with actual experience, purposes, and choices. |
 | Psychology + engineering | Develop philosophy: articulate the objects, knowledge, and value relationships behind the arrangements into an intelligible, questionable direction. |
 
-These sequences offer beginnings rather than closed stages to complete before moving on. Inference from engineering must consider that configurations may reflect constraints, defaults, or habits rather than preferences. Gather relevant authorized psychological and preference material or its provenance privately in `personal/`, and revise the model through the person's explanation and actual results. Philosophy also meets experience: beauty and coherence alone cannot establish personal fit. The personal model then gives philosophy and engineering direction while consequences continue to correct all three.
+The direct route develops a **preference model**: habits, choices, work styles,
+and desired responses that guide a partner's role, priorities, and harness.
+One can begin with known habits and discover further preferences through
+interaction. Such an account can already support a useful trial without
+claiming to explain the processes behind those preferences.
 
-Someone with engineering ability who cannot yet explain their psychology can
-model their own preferences: what they value, choose, avoid, and revise across
-actual situations. This can serve as a working psychological account for
-collaboration without explaining its internal mechanisms. From it, develop
-the counterpart's preferences and priorities: what it should attend to, protect,
-question, and trade off in this relationship. Those chosen priorities concern
-how the agent should participate; actual behavior tests their realization.
+The indirect route develops a **psychological model**: a tentative account of how
+experience, emotion, desire, interpretation, relationships, and life circumstances
+affect one another. A person can bring pleasures, aspirations, concerns, or a choice
+they cannot yet explain. In dialogue, the model proposes possible explanations,
+compares situations, and analyzes and synthesizes partial material; abduction
+and induction help form a revisable account. The person need not first
+understand their own psychology or write a portrait alone. Preferences can be
+evidence for this inquiry, but a preference account alone is not its psychological
+explanation. These entrances concern kinds of understanding, not professions;
+either is available to engineers and nonengineers.
+
+Both routes develop coupled accounts of the person, counterpart, and their
+relationship in an environment. What a partner should attend to, protect,
+question, or pursue expresses desired participation; actual capabilities and
+response patterns show what the model currently supports. Internal processes
+are only partly observable, while tools, instructions, responses, and consequences
+can be inspected. Open weights alone do not establish fit. Psychological inquiry
+may improve hypotheses and criteria for a trial; that possibility does not prove
+it superior to starting directly from preferences.
+
+Literature supplies concepts and methods, not an already calibrated portrait
+of this individual. Fallible self-report contributes evidence, and model
+inference contributes hypotheses to compare with the person's expression,
+experience, choices, and results. The common philosophy supplies ways to form
+and revise the accounts. A person's authored philosophy is itself another route
+and material for psychological modeling: what they write about the world, life,
+values, and relationships expresses an organizing understanding and aspirations,
+and may reveal relations they have not yet recognized. Concrete episodes,
+disclosures, choices, and results give that interpretation a basis for comparison;
+they and the philosophical writing can correct one another. This does not make
+the shared public philosophy a portrait of its reader. Philosophical coherence
+or agreement between person and model does not establish psychological truth.
+Authorized personal material remains with its private owner. Configurations can reflect
+defaults or constraints, and a coherent philosophy can still miss the person.
+These differences keep the returning evidence able to change the understanding.
+
+For an illustrative shopping example, a known preference for a few options with
+clear differences can directly guide a concise comparison. If choices repeatedly
+change and the reason is unclear, the participants might consider missing
+comparative evidence or enjoyment of exploration as different hypotheses.
+The first suggests a partner that fills evidence gaps and keeps a stable
+comparison; the second suggests one that helps discover alternatives, with an
+interface that makes returning to earlier choices easy. In use, whether the
+person can choose, continues exploring with enjoyment, or still feels stuck
+helps revise the account and arrangement.
 
 The practical test is whether a missing connection becomes available: an abstract idea becomes personally meaningful, a personal understanding changes an arrangement, or experience in that arrangement improves the understanding. Psychology exceeds its records, engineering exceeds any particular tool, and philosophy belongs beyond the website. Their connection supports this person's continuing life and work.
 
@@ -290,8 +347,8 @@ The loop can be followed in both directions. Philosophy can help repair an
 environment by clarifying the purpose, participation, or judgment its Skills
 and tools should realize. The environment can help repair philosophy by
 showing where an interpretation obstructs work, overlooks experience, or no
-longer fits. The psychological model connects these movements to the actual
-person and can change with them.
+longer fits. The developing personal account connects these movements to the
+actual person and can change with them.
 
 The current question determines what is being repaired:
 

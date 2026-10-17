@@ -263,12 +263,16 @@ Readback then asks whether the result was achieved and whether the new
 arrangement still leaves room for discovery. This is a hypothetical design
 example, not evidence of an observed improvement.
 
-Self-revision can reach the account of the person as well. What first appeared
-to be a preference for constant novelty may turn out to be a need to understand
-through making. Such a candidate interpretation would suggest another
-arrangement, and it remains answerable to the person's corrections and later
-use. The model serves the person by helping develop this relation, while
-contributing interpretations the person did not supply.
+Self-revision can reach the account of the person as well. Suppose repeated
+requests to make something new suggest two candidate interpretations: seeking
+novelty or understanding through making. They could support different
+arrangements: offering fresh alternatives, or helping revise one object to
+explore how it works. Continued interest in the same object after its novelty
+fades, together with a changed explanation of its workings or a choice that
+uses that understanding elsewhere, would support the second interpretation.
+A single response would not settle the person's motives; both candidates
+remain answerable to their corrections and later use. The model can contribute
+an interpretation the person did not supply while helping examine its grounds.
 
 ## Give revision somewhere to continue
 

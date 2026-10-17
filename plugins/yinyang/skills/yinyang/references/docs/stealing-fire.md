@@ -171,7 +171,7 @@ Clark and Chalmers's extended-mind argument makes room for cognitive activity or
 
 ## A self can be written and lived
 
-If a self-description were only a report of an already completed object, writing could at most preserve that object. But a description can also disclose a possibility, establish a commitment, or reorganize how the next situation is understood. Its reader is changed by reading, including when the reader is the person being described.
+A self-description can report existing relations and help its reader interpret a situation or choose a next action, including when the reader is the person being described. Writing can also propose a role or establish a commitment that participates in shaping subsequent conduct. Recording what has happened and constructing how to continue can both contribute to a life that is still unfolding.
 
 Bruner's account of life as narrative develops this two-way relation: culturally available stories help organize the life that is subsequently understood and narrated [[2]](#source-2). Foucault's technologies of the self concern practices through which people transform their conduct and ways of being, sometimes with others' help; writing and rereading figure among the practices he examines [[3]](#source-3). These sources make self-articulation intelligible as an activity with formative consequences. They do not require treating the person as a complete text.
 
@@ -236,7 +236,7 @@ The distinctions between ontology, epistemology, value, and methodology develope
 
 ## What makes the fire one's own
 
-The developmental question is what the person becomes able to perceive, understand, initiate, and judge through the practice. Some capacities can be internalized; others can remain reliably distributed across tools, records, and collaborators. Requiring every capacity to migrate inside an unaided individual would contradict the reason for borrowing fire in the first place. Yet a larger output does not by itself show a larger understanding.
+The developmental question is what the person becomes able to perceive, understand, initiate, and judge through the practice. Some capacities can be internalized; others can remain reliably distributed across tools, records, and collaborators. Measuring all development by unaided individual capacity would omit the reliably supported forms this framework also recognizes. Yet a larger output does not by itself show a larger understanding.
 
 YinYang therefore asks what development is sought in this particular practice. A person cultivating understanding and intuitive judgment may learn through reading, questioning, comparison, and encountering a finished work, while the model carries extensive implementation. A person learning an implementation skill needs opportunities to exercise that skill. The division follows the purpose; it need not become an exam imposed on every conversation.
 
@@ -281,15 +281,21 @@ contributions, not exclusive possessions. Both can reason and revise. Learning
 becomes cultivation when explanation, practice, and correction change what
 the person can recognize, explain, or do on the next encounter.
 
-An illustrative learning encounter makes the developmental claim concrete.
-The model prepares terms and relations from a PDF, with passages available for
-checking. The person proposes an interpretation in their own words. The model
-finds a counterexample or a missing distinction; the person revises and tries
-the interpretation on another passage. What might develop is recognition,
-expression, or judgment, even while the model maintains the complete notes
-and software. This is a possible arrangement, not a reported experiment.
-Its test is what the person can subsequently explain or recognize, rather
-than whether the prepared document looks polished.
+Consider a hypothetical encounter with the paper and research report linked
+in source [[12]](#source-12). A person initially counts the two documents as
+independent studies confirming the reported immediate-learning difference.
+The model follows the report's paper link and compares the authors and experiment:
+the report and
+arXiv 2601.20245v2 present the same experiment by Judy Hanwen Shen and Alex
+Tamkin. Two presentations can aid understanding, but they do not provide two
+independent empirical results. The proposed correction is therefore to trace
+the underlying experiment, rather than count documents agreeing about a result,
+before judging independent confirmation. A later report creates a discriminating
+next question:
+does the person check whether it describes a new study before treating it as
+another confirming result, and can they explain why that matters? That would
+supply evidence of changed judgment; the hypothetical does not claim the change
+has occurred. The model can maintain the source links and comparison notes.
 
 ## A way of working: give an intuition a body
 
@@ -297,9 +303,10 @@ A person can begin with an intuition, an unfinished relation, or a felt
 friction. The model helps articulate what the person has not yet made explicit:
 investigate the conditions, develop alternatives, construct the chosen work,
 and compare the result with the purpose that called it forth. The person need
-not reproduce the model's detailed labor before that labor can help. Their
-understanding and judgment develop through encountering something concrete
-enough to inspect, redirect, and use.
+not reproduce the model's detailed labor before that labor can help. Something
+concrete enough to inspect, redirect, and use offers an opportunity to develop
+understanding and judgment. Whether development occurs depends on what the
+person subsequently recognizes, judges, or does differently.
 
 For work involving files, tools, and an ongoing local environment, a capable
 model in a local harness can carry this movement from expression to action
