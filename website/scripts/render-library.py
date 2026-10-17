@@ -78,6 +78,29 @@ def without_source_toc(source):
         for index, block in enumerate(blocks))
 
 
+EDITION_LABEL = re.compile(r'(?:English(?: edition)?|简体中文|完整中文版|中文(?:版|阅读版)?)', re.I)
+
+
+def without_source_navigation(rendered):
+    """Project package header/footer link rows into the site's own navigation."""
+    def project(match):
+        contents = match.group(1)
+        anchors = re.findall(r'<a\b[^>]*>[\s\S]*?</a>', contents)
+        remainder = re.sub(r'<a\b[^>]*>[\s\S]*?</a>', '', contents)
+        # source_text already turns the redundant library link into plain text.
+        remainder = html.unescape(remainder).replace('Documents & diagrams', '').replace('文档与图示', '')
+        if not anchors or not re.fullmatch(r'[\s·|/]*', remainder):
+            return match.group(0)
+        labels = [html.unescape(re.sub(r'<[^>]+>', '', anchor)).strip() for anchor in anchors]
+        navigation = any(EDITION_LABEL.fullmatch(label) or label in {
+            'Home', '首页', 'Reading guide', '返回阅读目录', 'YinYang guide', '阴阳说明'
+        } for label in labels)
+        opening = re.fullmatch(r'\s*(?:<a\b[^>]*>\s*</a>\s*)?<h1\b[^>]*>[\s\S]*?</h1>\s*(?:<p>(?:(?!</p>)[\s\S])*</p>\s*)?', rendered[:match.start()])
+        closing = re.fullmatch(r'(?:\s*<hr\s*/?>)*\s*', rendered[match.end():])
+        return '' if navigation and (opening or closing) else match.group(0)
+    return re.sub(r'<p>([\s\S]*?)</p>', project, rendered)
+
+
 def practice_source(creation, package, chinese):
     """Compose the two canonical accounts without maintaining another prose copy."""
     def body(source):
@@ -85,7 +108,7 @@ def practice_source(creation, package, chinese):
         source = re.sub(r'^\[(?:Home|首页)\][^\n]*\n+', '', source, count=1)
         source = re.sub(r'\n---\n+\[(?:Reading guide|返回阅读目录)\][^\n]*\s*$', '', source)
         return without_source_toc(source).strip()
-    heading = '形成、使用与维护阴阳' if chinese else 'Forming, using, and maintaining YinYang'
+    heading = '实践说明：形成、使用与维护阴阳' if chinese else 'Practice explained: forming, using, and maintaining YinYang'
     seam = '采用与维护这套实现' if chinese else 'Adopting and maintaining this implementation'
     return f'# {heading}\n\n{body(creation)}\n\n<span id="package-contract"></span>\n\n## {seam}\n\n{body(package)}\n'
 
@@ -189,7 +212,7 @@ def main():
     def rewrite_links(rendered, source):
         rendered = re.sub(r'<a\b[^>]*href=["\'][^"\']*(?:thesis/|dl-lite-thesis\.pdf)[^"\']*["\'][^>]*>([\s\S]*?)</a>', r'\1', rendered)
         rendered = re.sub(r'<a\b[^>]*href=["\'][^"\']*errata\.zh-CN\.(?:md|html)(?:#[^"\']*)?["\'][^>]*>([\s\S]*?)</a>', r'\1', rendered)
-        def replace(match):
+        def replace(match, explicit_edition=False):
             attr, original = match.group(1), html.unescape(match.group(2))
             parsed = urlsplit(original)
             public_repository_link = original.startswith(GITHUB + '/blob/')
@@ -215,11 +238,19 @@ def main():
                 if parsed.fragment:
                     new += '#' + parsed.fragment
                 return f'{attr}="{html.escape(new, quote=True)}"'
-            new = url(reader_path(target, not source.endswith('.zh-CN.md')))
+            # An explicit edition link selects its authored target. Ordinary
+            # conceptual links still follow the current reader's language.
+            new = url(target if explicit_edition else reader_path(target, not source.endswith('.zh-CN.md')))
             if parsed.fragment:
                 new = new.split('#', 1)[0] + '#' + parsed.fragment
             return f'{attr}="{html.escape(new, quote=True)}"'
-        return re.sub(r'(href|src)="([^"]+)"', replace, rendered)
+        blocks = re.split(r'(<a\b[^>]*>[\s\S]*?</a>)', rendered)
+        projected = []
+        for index, block in enumerate(blocks):
+            label = html.unescape(re.sub(r'<[^>]+>', '', block)).strip() if index % 2 else ''
+            explicit_edition = bool(EDITION_LABEL.fullmatch(label))
+            projected.append(re.sub(r'(href|src)="([^"]+)"', lambda match: replace(match, explicit_edition), block))
+        return ''.join(projected)
 
     for path in sorted(allowed):
         if retired_url(path):
@@ -256,9 +287,9 @@ def main():
             extensions.append('md_in_html')
         md = markdown.Markdown(extensions=[*extensions, CjkBoldExtension()], extension_configs={'toc': {'slugify': slug, 'toc_depth': '2-3'}})
         rendered = md.convert(source)
-        # Edition navigation belongs exclusively to the site masthead. These
-        # labels are source navigation, not quotations or bibliography.
-        rendered = re.sub(r'<a\b[^>]*>(?:English(?: edition)?|中文(?:版)?)</a>\s*(?:·\s*)?', '', rendered)
+        # Package navigation is valid at source; the human reader has its own
+        # collection, series, and edition controls. Keep links within body prose.
+        rendered = without_source_navigation(rendered)
         rendered = re.sub(r'<p>本文为[\s\S]*?的完整中文阅读版。</p>', '', rendered)
         rendered = re.sub(r'，并提供对应的<a\b[^>]*>英文相遇图</a>和<a\b[^>]*>英文层次图</a>', '', rendered)
         rendered = re.sub(r'<p>\s*(?:·\s*)*</p>', '', rendered)
@@ -280,7 +311,7 @@ def main():
         contents = reading_rail(md.toc, chinese, rendered)
         layout = '' if contents else ' no-toc'
         body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
-        page_title = ('形成、使用与维护阴阳' if chinese else 'Forming, using, and maintaining YinYang') if practice else title(path)
+        page_title = ('实践说明：形成、使用与维护阴阳' if chinese else 'Practice explained: forming, using, and maintaining YinYang') if practice else title(path)
         write('source/' + str(Path(path).with_suffix('.html')), shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
 
     # Retain retired reading URLs as small aliases, even after source deletion.
@@ -298,7 +329,7 @@ def main():
         edition = '.md' if english else '.zh-CN.md'
         groups = [
             ('理解整体实践', 'Understand the practice', '面向读者，说明作者的哲学、人与模型的协作及工作环境怎样联系起来。', 'For readers: understand how the author connects philosophy, collaboration between a person and model, and the working environment.', [
-                ('references/docs/creation-method', '整体实践说明', 'The practice as a whole', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
+                ('references/docs/creation-method', '实践说明', 'Practice explained', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
             ]),
             ('协作与方法', 'Collaboration and methods', '入口使用实际描述，形成方法帮助写出这些描述，环境适配让有关理解进入实际工作。按需要取用，不组成必经次序。', 'The entrypoint uses actual accounts, formation helps develop them, and adaptation realizes relevant understanding in actual work. Select what is needed without a required sequence.', [
                 ('SKILL', '模型执行入口', 'Model entrypoint', '按已有的情境化描述进入协作，并明确尚待形成的理解；完整采用时遵循初始阅读约定。', 'Enter collaboration through the available situated accounts and identify understanding still needed; full adoption follows the initial reading contract.'),
@@ -327,10 +358,11 @@ def main():
                 path = PACKAGE + stem + edition
                 guides_html = ''
                 if stem == 'references/design-and-revision':
-                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition, guide_en if english else guide_zh) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
+                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
                     guide_note = ('Public guidance for writing the five actual accounts; reading these pages does not itself form them. Full adoption requires all five; selective borrowing does not.' if english else '公开指导说明五份实际描述怎样写；读过指引并不形成这些描述。完整采用需要全部五份，选择性取用方法不要求建立整套文件。')
                     guides_html = '<div class="method-guides"><h3>' + ('Situated modeling and writing guidance' if english else '情境建模与写作指导') + '</h3><p>' + guide_note + '</p><ul>' + guide_items + '</ul></div>'
-                entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
+                method = stem in {'SKILL', 'references/design-and-revision', 'references/harness-adaptation'}
+                entries_html.append('<li>' + link(path, None if method else label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
         diagrams = ''

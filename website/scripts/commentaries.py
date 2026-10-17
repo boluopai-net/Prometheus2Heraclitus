@@ -272,7 +272,6 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     counterpart = article_url(name, not chinese)
     art = article_figure(dist, name, chinese)
     guide, navigation = reading_context(name, chinese, title)
-    rendered = re.sub(r'(<h1\b[^>]*>[\s\S]*?</h1>)\s*<p>(?:<a [^>]*>[^<]+</a> · )+<a [^>]*>(?:English|中文)</a></p>', r'\1', rendered, count=1)
     if chinese:
         rendered = re.sub(r'(<h1\b[^>]*>[^<：]+：)', r'\1<br>', rendered, count=1)
     rendered = rendered.replace('</h1>', '</h1>' + art + guide, 1)
@@ -292,8 +291,7 @@ def practice_entrance(chinese):
     heading = '开始自己的实践' if chinese else 'Begin your own practice'
     text = '从入门指南开始，让模型帮助形成并实现适合自己的安排。概念阅读可以按问题返回，不必先读完整组文章。' if chinese else 'Begin with the getting-started guide and ask a model to help form and realize your arrangement. Return to conceptual reading by question; completing the series is not a prerequisite.'
     guide = '/getting-started/' + ('' if chinese else 'en/')
-    method = '/repositories/prometheus/source/' + DOCS + ('creation-method.zh-CN.html' if chinese else 'creation-method.html')
-    return f'<section class="series-entrance" id="practice"><h2><a href="{guide}">{heading}</a></h2><p>{text}</p><p><a href="{method}">{"进一步了解创造方法" if chinese else "Explore the creation method"}</a></p></section>'
+    return f'<section class="series-entrance" id="practice"><h2><a href="{guide}">{heading}</a></h2><p>{text}</p></section>'
 
 
 def index_body(chinese, title):

@@ -324,22 +324,35 @@ independent prose sources. The content-release owner pins the ordinary
 protocol change.
 This is a practical resource, not an additional philosophy essay or Skill.
 `reader-pages.py` maintains its prominent homepage entrances;
-`render-library.py` maintains the resources-hub entrances. Generate the guide
+`resource_pages.py`, called by library generation, maintains the resources-hub entrances. Generate the guide
 after library and reader pages, before preparing a content release. Shared
-chrome is projected automatically, with the resources tab active. Product facts link
-to sources checked on 2026-10-13; update both editions when actual availability
+chrome is projected automatically, with the resources tab active. The earlier
+product-source review was dated 2026-10-13. A focused 2026-10-17 revision reviews
+global setup, shared sources, plugin connections, and compatible API gateways
+against linked primary sources; it does not refresh every unchanged product fact.
+Update both editions when actual availability
 or product conditions change, without turning a subscription list or hardware
 purchase into a prerequisite for meaningful practice.
 
-The guide connects subscription and instruction setup, Chinese Skill discovery,
-search-first tool adoption, task-led personal settings, translation APIs, Vim-oriented human interfaces,
-chezmoi configuration, shared Obsidian settings, Drive/GitHub storage, and Web/local
-collaboration. Its recurring-work section distinguishes lightweight observation
-of changing Web objects from local preparation of usable materials. Local
-configuration and automation sources informed these examples; publishing this
-guide does not configure the reader's services or claim that every suggested
-collector already runs. Preserve that distinction and keep private setup details
-out of this public guide.
+The guide connects subscription and instruction setup with an author-recommended
+default of simple globally shared Skills, plugins, and MCP configuration and
+Full Access for ordinary global work locally, retaining local exceptions for
+concrete needs. This recommendation is not an official product default or a
+grant of service access. Optional CC Switch manages client configuration;
+Sub2API and CLIProxyAPI illustrate compatible-API translation routes. Native
+plugin installation, service connection, and actual tool availability remain
+distinct. Section 6 owns the relationship among general Web cloud work, Dot's
+cloud and connected repository environments, and local execution: Drive holds
+materials and documents, GitHub holds versioned code, configuration, and Skills,
+and results return to their existing maintained owners. Shared sources reduce
+machine-specific friction without mirroring local sessions or granting access.
+Section 9 applies that distinction to recurring work and result writeback,
+alongside lightweight Web observation and local material preparation. Chinese
+Skill discovery, search-first adoption, Vim-oriented human interfaces, chezmoi,
+and shared Obsidian settings retain their practical roles. Local configuration
+and automation sources informed these examples; publishing the guide does not
+configure the reader's services or claim that every suggested collector runs.
+Keep private setup details out of this public guide.
 
 Canonical essays live in `content/philosophy/meng.md` and
 `content/philosophy/baby-heraclitus.md`, together with
@@ -406,7 +419,11 @@ Chinese readers use the complete `SKILL.zh-CN.md`, `reading-map.zh-CN.md`,
 The library presents methods and reading links directly, with maintenance and
 formation sources under a separate disclosure in the selected reading language.
 Global language controls resolve to actual bilingual counterparts across reader
-and section pages. Six website-only Chinese overlays in
+and section pages. Human projections omit the package's opening and closing
+navigation rows in favor of their own collection, series, and edition controls;
+body links and arguments remain. Explicit edition links retain their authored
+language target, while ordinary conceptual links select the current reader's
+available counterpart. Six website-only Chinese overlays in
 `scripts/reader-translations.zh-CN.json` complete encounter, models, relationship,
 usage, sources, and the distributed personal-reference index readers. The
 renderer checks each original's SHA-256 before applying its translation; these

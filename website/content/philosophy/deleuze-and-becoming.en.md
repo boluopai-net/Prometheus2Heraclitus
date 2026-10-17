@@ -38,7 +38,7 @@ The sinthome and machine perspectives bring different questions. In this site’
 
 A highly convenient harness might repeatedly produce the same kind of answer; a fresh trial might interrupt an existing continuity. Judgment must enter the particular activity: what understanding did this change bring, which conditions for continuing did it retain, and what did it cost?
 
-This site retains its [personal-first orientation](/philosophy/personal-first-humanism/en/): new connections should support concrete lives, judgment, and creation, while considering other participants’ circumstances. That choice is the site’s position; “machine” and “becoming” cannot automatically establish it. We can therefore borrow their questions while retaining our own value judgments.
+This site retains the orientation of [Personal-First Humanism](/philosophy/personal-first-humanism/en/): new connections should support concrete lives, judgment, and creation, while considering other participants’ circumstances. That choice is the site’s position; “machine” and “becoming” cannot automatically establish it. We can therefore borrow their questions while retaining our own value judgments.
 
 ## Bring experimentation back into life
 
@@ -46,7 +46,7 @@ A trial can begin with a small change: another medium of expression, a counterpa
 
 If the trial makes work more rigid or leaves someone busy only maintaining tools, rearrange the connections. Conditions for stopping, sleeping, spending time with others, and returning to the work also belong within this personal philosophy.
 
-Becoming here acquires a form we can try: change the connections making an activity possible, observe how works return, and judge which new capacities deserve a place in life. [Baby Heraclitus](/philosophy/baby-heraclitus/en/) gives this openness a character; [Trinity: A Loop of Philosophy, Psychology, and Personal Environment](/philosophy/local-source-and-website/en/) develops how trials leave expressions others can continue, making another person's reading a new encounter.
+Becoming here acquires a form we can try: change the connections making an activity possible, observe how works return, and judge which new capacities deserve a place in life. [Baby Heraclitus](/philosophy/baby-heraclitus/en/) gives this openness a character; [Trinity: Philosophy, Psychology, and Engineering in One Practice](/philosophy/local-source-and-website/en/) develops how trials leave expressions others can continue, making another person's reading a new encounter.
 
 ## Reading sources and scope of comparison
 
