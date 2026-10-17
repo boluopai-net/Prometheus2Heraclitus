@@ -51,7 +51,7 @@ paths contain this person's grounded accounts. Read guidance as guidance. When
 accounts are not yet formed, work from what is actually known and use the
 formation route below. A complete prior portrait is not a prerequisite for work.
 
-## Cultural and philosophical orientation
+## Literature and philosophy
 
 Literary programming gives a connected encounter a form through characters,
 imagery, and narrative. YinYang's Sun and Moon express differentiated generating,
