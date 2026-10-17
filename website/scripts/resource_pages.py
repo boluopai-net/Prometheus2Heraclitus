@@ -23,14 +23,16 @@ def render(dist, shell):
             target = dist / route / suffix / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(shell(title, body, lang, extra=extra))
-        overview = ''.join(
-            f'<section class="repository-entry"><div class="section-heading"><h2><a href="/{route}/{suffix}" data-page-title>{t(zh, en)}</a></h2><img class="motif" src="/motifs/{motif}" alt="" aria-hidden="true"></div><p class="entry-summary">{t(description_zh, description_en)}</p></section>'
-            for route, zh, en, motif, description_zh, description_en in entries
-        )
+        def render_entry(route, zh, en, motif, description_zh, description_en):
+            artwork = f'<img class="motif" src="/motifs/{motif}" alt="" aria-hidden="true">'
+            if route == 'skills':
+                artwork = f'<a class="skills-wheel-link" href="/skills/{suffix}" aria-label="{t("打开 Skills 页面", "Open the Skills page")}">{artwork}</a>'
+            return f'<section class="repository-entry"><div class="section-heading"><h2><a href="/{route}/{suffix}" data-page-title>{t(zh, en)}</a></h2>{artwork}</div><p class="entry-summary">{t(description_zh, description_en)}</p></section>'
+        overview = ''.join(render_entry(*entry) for entry in entries)
         overview += f'<section class="repository-entry"><div class="section-heading"><h2><a href="{GITHUB}">GitHub</a></h2></div></section>'
         body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/notebook.svg" alt="" aria-hidden="true"><h1>{t("资料与建议", "Resources & Advice")}</h1><p class="collection-intro">{t("思想走向实践，留下可以继续生长的造物。", "Thought becomes practice, leaving creations that can keep growing.")}</p></div>{overview}{comments(english, "Advice")}</main>'
         write('repositories', t('资料与建议', 'Resources & Advice'), body,
               '<link rel="stylesheet" href="/repository.css"><script type="module" src="/giscus-comments.js"></script>')
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
-        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div>{reading_groups(english)}</main>'
+        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading skills-wheel-heading"><img class="motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true"><div class="skills-wheel-intro">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div></div>{reading_groups(english)}</main>'
         write('skills', 'Skills', skill_body)

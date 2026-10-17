@@ -29,6 +29,7 @@ for en in (False, True):
     home_source = re.sub(r'(<section id="singing"[\s\S]*?<img class="motif" src=")[^"]+', r'\1/motifs/moon.svg', home_source, count=1)
     if 'class="hero-title-row"' not in home_source:
         home_source = re.sub(r'(<h1 id="hero-title">[^<]+</h1>)', r'<div class="hero-title-row">\1<img class="motif" src="/motifs/sun-river.svg" alt="" aria-hidden="true"></div>', home_source, count=1)
+    home_source = re.sub(r'(<p class="eyebrow">[\s\S]*?</p>)\s*(<div class="hero-title-row">[\s\S]*?</div>)', r'\2\1', home_source, count=1)
     home.write_text(home_source.replace('  <section id="philosophy"', guide_entry + '\n  <section id="philosophy"', 1))
     home_text = re.sub(r'<!-- READER PATHS START -->[\s\S]*?<!-- READER PATHS END -->', '', home.read_text())
     if 'href="/reader-paths.css"' not in home_text:
