@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "model-conversation-relay",
+  "version": "1.0.0",
+  "description": "Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Model conversation relay",
+        "shortDescription": "Continue an exact model exchange",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts. For Codex users; includes the complete Skill and its supporting resources. Native conversation tools are conditional on host support. Browser operations require the public browser-relay companion and a configured carrier. External tools, accounts, and services are not provisioned by installation.",
+        "category": "Productivity",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
+      }
+    }
+  }
+}

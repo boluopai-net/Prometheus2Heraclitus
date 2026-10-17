@@ -77,6 +77,7 @@ your model's actual Skill mechanism.
 | [购物与比价 · shopping](skills/shopping/SKILL.md) | Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions. | [Complete package](skills/shopping/) |
 | [提示词审计 · prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope. | [Complete package](skills/prompt-audit-orchestration/) |
 | [多智能体协作 · agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results. | [Complete package](skills/agent-orchestration-master/) |
+| [模型对话接续 · model-conversation-relay](skills/model-conversation-relay/SKILL.md) | Continue an exact advisory exchange with reconciliation, bounded retries, and immutable receipts. | [Complete package](skills/model-conversation-relay/) |
 | [浏览器会话 · browser-relay](skills/browser-relay/SKILL.md) | Manage task-owned browsers, authenticated sessions, target ownership, and cleanup. | [Complete package](skills/browser-relay/) |
 | [笔记同步 · obsidian-sync](skills/obsidian-sync/SKILL.md) | Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults. | [Complete package](skills/obsidian-sync/) |
 | [系统配置持久化 · chezmoi](skills/chezmoi/SKILL.md) | Persist authorized host configuration changes in source and converge them through the actual publication mechanism. | [Complete package](skills/chezmoi/) |
@@ -110,7 +111,7 @@ states what to change, who carries the writing, and how to verify availability.
 
 [Installation and updates](docs/codex.md)
 
-All 21 Skills are individually installable from the **boluopai** plugin marketplace.
+All 22 Skills are individually installable from the **boluopai** plugin marketplace.
 Give Codex the following commands to install YinYang without manual ZIP extraction:
 
 ```bash

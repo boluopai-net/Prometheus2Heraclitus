@@ -66,6 +66,7 @@
 | [购物与比价 · shopping](skills/shopping/SKILL.md) | 比较商品、价格、优惠与二手选择，保留实际证据与条件。 | [完整包](skills/shopping/) |
 | [提示词审计 · prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | 按实际范围审查学习、工作、Web 与自动化的指令和执行关系。 | [完整包](skills/prompt-audit-orchestration/) |
 | [多智能体协作 · agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | 按实际工作拆分贡献、交接和依赖，并由任务所有者整合结果。 | [完整包](skills/agent-orchestration-master/) |
+| [模型对话接续 · model-conversation-relay](skills/model-conversation-relay/SKILL.md) | 接续准确的咨询交换，确认有序轮次，限定重试并保存不可变回执。 | [完整包](skills/model-conversation-relay/) |
 | [浏览器会话 · browser-relay](skills/browser-relay/SKILL.md) | 管理任务专用浏览器、认证会话、目标归属与清理。 | [完整包](skills/browser-relay/) |
 | [笔记同步 · obsidian-sync](skills/obsidian-sync/SKILL.md) | 维护多个 Obsidian 库的共同配置、云端复制与同步。 | [完整包](skills/obsidian-sync/) |
 | [系统配置持久化 · chezmoi](skills/chezmoi/SKILL.md) | 把授权的本机配置变更保存到源码，并通过实际发布机制接回环境。 | [完整包](skills/chezmoi/) |
@@ -90,7 +91,7 @@
 
 [安装与更新说明](docs/codex.zh-CN.md)
 
-21 个 Skill 均可从 **boluopai** 插件市场独立安装。把下面的命令交给 Codex，
+22 个 Skill 均可从 **boluopai** 插件市场独立安装。把下面的命令交给 Codex，
 即可安装完整阴阳包，无须手工下载或解压 ZIP：
 
 ```bash

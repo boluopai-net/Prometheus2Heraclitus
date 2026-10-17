@@ -2,7 +2,7 @@
 
 [English](codex.md)
 
-**boluopai 插件市场**把集合中的 21 个 Skill 分别做成了可安装插件。从仓库目录选择需要的
+**boluopai 插件市场**把集合中的 22 个 Skill 分别做成了可安装插件。从仓库目录选择需要的
 Skill，把下面的命令交给 Codex，由它完成原生安装。不需要下载 ZIP、解压或手工修目录。
 
 ## 原生安装
@@ -22,6 +22,8 @@ codex plugin add yinyang@boluopai
 插件包含完整 Skill、参考文档、脚本、资源及许可。安装不会自动配置外部工具、认证、
 设备或服务，具体要求见各包 README。本地教学需要同时安装
 `local-teacher@boluopai` 与 `web-teacher@boluopai`。
+模型对话接续安装 `model-conversation-relay@boluopai`；仅在选择受控浏览器路线时
+另装 `browser-relay@boluopai`。原生会话操作取决于宿主当前真实暴露的工具。
 
 如果你的 Codex 版本没有 `codex plugin` 命令，先更新 Codex，或让内置 Skill 安装工具
 从 GitHub 的 `skills/<包名>` 目录安装。避免无意中同时启用同一个 Skill 的独立副本和插件。
