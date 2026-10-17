@@ -297,18 +297,13 @@ def main():
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('阴阳的说明与方法', 'YinYang: explanation and methods', '可以理解作者的整体实践，完整采用阴阳，也可以为当前任务取用形成或适配方法。四份材料各有职责，不组成必经步骤。', 'Understand the author’s practice, adopt YinYang in full, or borrow a formation or adaptation method for the current task. These four materials have distinct roles; they are not required stages.', [
+            ('理解整体实践', 'Understand the practice', '面向读者，说明作者的哲学、人与模型的协作及工作环境怎样联系起来。', 'For readers: understand how the author connects philosophy, collaboration between a person and model, and the working environment.', [
                 ('references/docs/creation-method', '整体实践说明', 'The practice as a whole', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
-                ('SKILL', '模型执行入口', 'Model entrypoint', '给模型读，区分用途，规定完整采用时的初始阅读，并按已有或尚待形成的实际描述进入协作。', 'For the model: distinguishes uses, specifies initial reading for full adoption, and enters collaboration from formed accounts or the understanding still needed.'),
-                ('references/design-and-revision', '形成与修订', 'Formation and revision', '给承担建模与写作的模型使用，按实际目的形成和修订对人、伙伴及双方关系的理解；也可单独取用。', 'For the model doing modeling and writing: develops and revises understanding of the person, counterpart, and relationship for the actual purpose; it can also be borrowed selectively.'),
-                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '给承担实现工作的模型使用，把有关理解落实到指令、工具和工作方式，并从实际结果修订；也可单独取用。', 'For the model doing implementation: realizes relevant understanding through instructions, tools, and ways of working, then revises through actual results; it can also be borrowed selectively.'),
             ]),
-            ('五份描述的参考', 'References for the five accounts', '下面是公开写作指引，阅读可了解各自关心什么，并不形成对实际参与者的理解。完整采用阴阳时，模型与你结合获授权材料，在私人版本中形成全部五份描述；选择性取用方法不要求建立这套文件。', 'These public writing guides explain each account’s concerns; reading them does not form an understanding of actual participants. Full adoption requires the model and you to ground all five accounts in authorized material in a private version. Selective borrowing does not require these files.', [
-                ('references/encounter', '相遇', 'Encounter', '凝练目的、参与方式与双方关系，使日常工作有可用全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary work.'),
-                ('references/models', '用户模型', 'User model', '理解具体的人，保留相关差异、范围与不确定性。', 'Understand the actual person, retaining relevant differences, scope, and uncertainty.'),
-                ('references/relationship', '伙伴与关系', 'Counterpart and relationship', '说明伙伴的贡献、合作方式、独立判断与相互纠正。', 'Develop counterpart contributions, cooperation, independent judgment, and reciprocal correction.'),
-                ('references/usage', '实际使用', 'Situated use', '把这段关系接到实际环境、资源与工作分配。', 'Connect the relationship to the actual environment, resources, and allocation of work.'),
-                ('references/sources', '来源', 'Sources', '说明理解的依据与来源归属，沿有权限的路径回到原始材料。', 'Locate evidence and its owners, following authorized routes to original material.'),
+            ('协作与方法', 'Collaboration and methods', '入口使用实际描述，形成方法帮助写出这些描述，环境适配让有关理解进入实际工作。按需要取用，不组成必经次序。', 'The entrypoint uses actual accounts, formation helps develop them, and adaptation realizes relevant understanding in actual work. Select what is needed without a required sequence.', [
+                ('SKILL', '模型执行入口', 'Model entrypoint', '按已有的情境化描述进入协作，并明确尚待形成的理解；完整采用时遵循初始阅读约定。', 'Enter collaboration through the available situated accounts and identify understanding still needed; full adoption follows the initial reading contract.'),
+                ('references/design-and-revision', '形成与修订', 'Formation and revision', '这里提供共同的建模方法；下列五篇分别展开各类描述怎样形成和写作。模型结合获授权材料与实际互动，形成和修订有根据的描述。', 'This provides the common modeling method; the five guides below elaborate how each kind of account is formed and written. The model develops and revises grounded accounts through authorized material and actual interaction.'),
+                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '把选定理解落实到指令、工具与工作环境，检查实际效果，并从反馈修订。', 'Realize selected understanding through instructions, tools, and the working environment, check actual effects, and revise through feedback.'),
             ]),
             ('观点与阅读', 'Views and reading', '查阅作者的主张、论证与来源，可理解、比较或另作选择。哲学、心理与工程的阅读彼此联系，也各有自己的问题；取用实用方法不要求认同这些哲学立场。', 'Consult the author’s claims, arguments, and sources to understand, compare, or choose differently. Philosophical, psychological, and engineering readings connect while retaining their own questions; practical methods do not require agreement with these philosophical positions.', [
                 ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看作者的主要主张及相连论证。', 'Find the author’s main claims and connected arguments, organized by topic.'),
@@ -318,12 +313,24 @@ def main():
                 ('references/docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
             ]),
         ]
+        writing_guides = [
+            ('references/encounter', '如何写相遇描述', 'How to write an encounter account', '凝练目的、参与方式与双方关系，形成日常协作可用的全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary collaboration.'),
+            ('references/models', '如何建立用户模型', 'How to develop a user model', '根据相关经验与证据理解具体的人，保留范围、差异与未知。', 'Understand the actual person through relevant experience and evidence, retaining scope, differences, and unknowns.'),
+            ('references/relationship', '如何描述伙伴与关系', 'How to describe the counterpart and relationship', '说明实际伙伴的能力、预期贡献、合作方式与相互纠正。', 'Describe the actual counterpart’s capabilities, intended contributions, cooperation, and reciprocal correction.'),
+            ('references/usage', '如何描述实际使用', 'How to describe situated use', '说明当前可用资源、参与者的贡献与条件；改变运作并核验效果由环境适配承担。', 'Describe current resources, participant contributions, and conditions; adaptation owns changes to operation and verification of their effects.'),
+            ('references/sources', '如何组织来源与根据', 'How to organize sources and grounds', '说明理解的根据与来源归属，保留获授权的原始材料入口。', 'Locate the grounds of understanding and source owners, retaining authorized routes to original material.'),
+        ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
             entries_html = []
             for stem, label_zh, label_en, desc_zh, desc_en in entries:
                 path = PACKAGE + stem + edition
-                entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p></li>')
+                guides_html = ''
+                if stem == 'references/design-and-revision':
+                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition, guide_en if english else guide_zh) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
+                    guide_note = ('Public guidance for writing the five actual accounts; reading these pages does not itself form them. Full adoption requires all five; selective borrowing does not.' if english else '公开指导说明五份实际描述怎样写；读过指引并不形成这些描述。完整采用需要全部五份，选择性取用方法不要求建立整套文件。')
+                    guides_html = '<div class="method-guides"><h3>' + ('Situated modeling and writing guidance' if english else '情境建模与写作指导') + '</h3><p>' + guide_note + '</p><ul>' + guide_items + '</ul></div>'
+                entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
         diagrams = ''
@@ -336,7 +343,8 @@ def main():
         intro = ('Explore the diagrams, read the author’s philosophy, borrow practical methods, or adopt the complete YinYang Skill. These uses can overlap without a required order; borrowing methods does not require adopting the philosophy or forming five personal accounts.' if english else '可以看图示、阅读作者的哲学、取用实用方法，也可以完整采用阴阳 Skill。这些用途可以重叠，没有必经次序；取用方法不要求认同其哲学或形成五份个人描述。')
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
-        write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang))
+        hub_style = '<style>.method-guides{margin:24px 0 0 16px;padding-left:20px;border-left:1px solid var(--line)}.method-guides h3{font-size:18px;margin-bottom:8px}.method-guides ul{list-style:none;margin:12px 0 0;padding:0}.method-guides li{border:0;padding:10px 0}.method-guides a{font-size:17px}.method-guides p{font-size:14px;line-height:1.8;margin-top:6px}</style>'
+        write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang, hub_style))
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'
     license_text = (repo / PACKAGE / 'LICENSE').read_text()
