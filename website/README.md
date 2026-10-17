@@ -307,10 +307,13 @@ bilingual prose in these two sources. Run
 retaining every section and the ending from their respective source. Only the
 duplicated source tool-map navigation is removed from the projection. A flat
 nine-section navigation uses the actual source H2 labels and stable fragment IDs:
-a sticky, independently scrolling desktop rail and a sticky horizontal mobile
-strip. Native anchors own clicks, keyboard navigation, deep links, and history;
-`dist/guide.js` follows reading progress, reveals the active link inside its own
-scroll container, and retains valid fragments in the language control.
+a sticky, independently scrolling desktop rail and an expanded vertical list
+above the article in normal flow on narrow screens. There is no nested menu or
+horizontal navigation. Native anchors own clicks, keyboard navigation, deep links,
+and history; `dist/guide.js` follows reading progress, reveals the active link
+inside the desktop rail only, and retains valid fragments in the language
+control. Updating the current section never pulls a narrow-screen reader back
+to the contents.
 `dist/guide.css` owns responsive presentation. The six old topic routes
 (`start/`, `reading/`, `tools/`, `continuity/`, `practice/`, `automation/`)
 in both languages are small direct aliases to the article: a valid source

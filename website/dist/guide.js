@@ -9,12 +9,11 @@ if (nav) {
   let scheduled = false;
   let current;
   const reveal = link => {
+    // The narrow contents stay in normal flow; progress must never pull the page back.
+    if (narrow.matches) return;
     const box = link.getBoundingClientRect();
     const rail = nav.getBoundingClientRect();
-    if (narrow.matches) {
-      if (box.left < rail.left || box.right > rail.right)
-        nav.scrollLeft += box.left - rail.left - (nav.clientWidth - box.width) / 2;
-    } else if (box.top < rail.top || box.bottom > rail.bottom) {
+    if (box.top < rail.top || box.bottom > rail.bottom) {
       nav.scrollTop += box.top - rail.top - (nav.clientHeight - box.height) / 2;
     }
   };

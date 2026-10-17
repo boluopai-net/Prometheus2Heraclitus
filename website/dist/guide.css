@@ -23,7 +23,7 @@
 .practical-guide .guide-sidebar a[aria-current]{font-weight:600}
 .practical-guide .guide-sidebar a[href]:hover{color:var(--water);background:none;text-decoration:none}
 .guide-sidebar a:focus-visible{outline:2px solid var(--water);outline-offset:3px}
-.practical-guide article h2[id]{scroll-margin-top:var(--guide-scroll-offset,32px)}
+.practical-guide article h2[id]{scroll-margin-top:32px}
 .guide-table{width:100%;margin:24px 0 32px;overflow-x:auto}
 .guide-table table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.75;table-layout:fixed}
 .guide-table th,.guide-table td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
@@ -32,11 +32,8 @@
 @media(max-width:1000px){
   .guide-layout{display:block}
   .guide-reading{max-width:860px}
-  .guide-sidebar{top:0;z-index:5;background:var(--paper);border-block:1px solid var(--line);margin-bottom:28px}
-  .guide-sidebar nav{max-height:none;overflow-x:auto;padding:10px 4px;font-size:16px;line-height:1.55}
-  .guide-sidebar ul{display:flex;gap:24px;align-items:center;width:max-content}
-  .guide-sidebar li{flex:0 0 auto;max-width:min(310px,80vw);margin:0}
-  .practical-guide{--guide-scroll-offset:124px}
+  .guide-sidebar{position:static;border-block:1px solid var(--line);margin-bottom:28px}
+  .guide-sidebar nav{max-height:none;overflow:visible;padding:10px 4px;font-size:18px}
 }
 @media(max-width:520px){
   .practical-guide{padding-top:28px}
