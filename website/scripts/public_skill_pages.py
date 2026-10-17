@@ -140,7 +140,7 @@ def reading_groups(english, readers):
         for name in names:
             info = SKILLS[name]
             route = '/tools/' + name + ('/en/' if english else '/')
-            entries.append(f'<li><a href="{route}">{html.escape(info[1 if english else 0])}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
+            entries.append(f'<li><a href="{route}">{html.escape(info[0])} · {name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
         sections.append('<section class="library-section"><h3>' + (en if english else zh) + '</h3><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
     return ''.join(sections)
 
