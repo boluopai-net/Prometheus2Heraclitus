@@ -329,10 +329,6 @@ def write_index(dist, title):
             page = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(heading + " — " + description)}">', page, count=1)
             if destination == SERIES + suffix:
                 page = with_comments(page, not chinese, 'Philosophy')
-                # Comments remain in the overview's reading column.
-                comments = re.search(r'<!-- COMMENTS START -->[\s\S]*?<!-- COMMENTS END -->', page)
-                if comments:
-                    page = page.replace(comments[0], '').replace('</article>', comments[0] + '</article>', 1)
             output = dist / destination.lstrip('/') / 'index.html'
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_text(page)

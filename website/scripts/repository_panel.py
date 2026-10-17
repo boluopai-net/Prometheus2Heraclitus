@@ -24,4 +24,8 @@ def with_comments(page, english=False, kind='YinYang'):
     for asset in ('<link rel="stylesheet" href="/repository.css">', '<script type="module" src="/giscus-comments.js"></script>'):
         if asset not in page:
             page = page.replace('</head>', asset + '</head>')
+    # The philosophy overview keeps discussion in its reading column. Every
+    # renderer uses this placement so a later refresh cannot undo it.
+    if kind == 'Philosophy' and re.search(r'<main\b[^>]*\bbook-introduction\b', page):
+        return page.replace('</article>', comments(english, kind) + '</article>', 1)
     return page.replace('</main>', comments(english, kind) + '</main>', 1)
