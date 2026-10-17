@@ -1,6 +1,6 @@
 # Using the Tools
 
-A practical guide: begin by making a model subscription useful, then develop your own philosophy, tools, and working environment. Read and understand in your native language, entrust investigation, implementation, and maintenance to the model, and revise through use. This guide chooses Mac and ChatGPT / Codex as one concrete route; your existing computer and another available model tool can carry the same work.
+A practical guide: begin by making a model subscription useful, complete a real task, then improve your tools and working environment. Read and understand in your native language, entrust investigation, implementation, and maintenance to the model, and revise through use. This guide chooses Mac and ChatGPT / Codex as one concrete route; your existing computer and another available model tool can carry the same work.
 
 **Embodied, full-modal learning; embodied, full-modal understanding; embodied, full-modal work—bring them into your life.** Develop understanding through text, images, sound, bodily experience, and practical action; turn ideas into works and let the world's response revise judgment. “Full-modal” means drawing on available perception and expression when they serve the task, not forcing every medium into every activity. Models and environments carry detail and repetition while reading, looking, listening, expression, and practice cultivate your sense of the whole, intuition, judgment, and creation.
 
@@ -22,7 +22,7 @@ A practical guide: begin by making a model subscription useful, then develop you
 
 You can give this page to the model, describe the need at hand, and let it select, configure, and verify useful tools from the map.
 
-**One route into practice:** establish connectivity → use a model subscription → ask the model to help prepare global instructions → install a local client, working search, and essential Skills → develop your own philosophy → find, configure, and adapt tools, writing missing capabilities when needed → improve philosophy, environment, and work through actual tasks. Each step can yield a usable result before the whole arrangement is complete.
+**One route into practice:** establish connectivity → use an actually available model subscription → install a local client and prepare basic instructions and necessary Skills → complete one real task → improve tools and the environment through use feedback. The model unfolds search, configuration, adaptation, and necessary implementation around the task, continuing from results that actually work.
 
 You can also go directly to [beginning with the model's execution inner loop](#first-loop), [ways of learning, working, and living](#ways-of-practice), or [automatic collection and environment repair](#automation).
 
@@ -68,62 +68,21 @@ Begin global instructions with a few arrangements that apply across your work: h
 
 Ask the model to select, download, and verify the Skills needed now from trustworthy sources. Initial capabilities might cover research, local environment diagnosis, scripts and tools, document reading, interface implementation, versioning, and publication. Choose packages supported by the actual client and check origin, compatibility, and invocation rather than filling a skill store. [Agent Skills](https://agentskills.io/home) explains this capability-package format.
 
-### Develop your own philosophy
+### Form settings that fit through actual work
 
-**Philosophy, psychology, and engineering support one another; develop engineering first when it is missing.** Learn to organize files, tools, a harness, execution, and verification with model assistance so the work has a usable environment. With engineering available, usually form a model through psychology and personal material before articulating philosophy. With philosophy, develop engineering then psychology; with psychology, engineering then philosophy. With two foundations, concentrate on the missing one. [Trinity](/philosophy/local-source-and-website/en/#philosophy-psychology-and-engineering-develop-the-missing-connection) develops these routes.
+Tell the model what you want to do now, where the relevant materials are, and your preferences for language, explanation, responsibilities, and presentation. For example: “Discuss this with me in Chinese, make this material comfortable to read, retain its sources, and check the links.” Working context and preferences can develop task by task. Let the model maintain them in suitable instructions or project notes, and test their fit through use and correction.
 
-**Write your own philosophy, distill your private models, and make selected
-thought into your own works and website.** Philosophy is a broader model; five
-core files carry a narrower model for actual collaboration with an agent;
-life records, chats, memory notes, and original expressions supply evidence.
-All can change. Begin where the material is more developed: personal evidence
-may first support philosophy or a core model, while clear philosophy can suggest
-a model to check against evidence and use. These are not two fixed routes,
-and a finished philosophy is not required before work begins.
+Writing a personal philosophy is difficult, long-term work. Begin tool use by completing a real task and improving the environment through its results. Philosophy authoring, a complete personal profile, five core accounts, and a personal website are not preparation steps. If the background interests you, select [YinYang's methods and material](/repositories/prometheus/en/) around a question; that reading and the current tool setup serve their respective purposes.
 
-YinYang spans philosophical and model layers; research, teaching, development,
-and other specialist Skills supply methods. Adopting the package requires the
-model to rewrite all five files for you: **encounter, user model, counterpart
-and relationship, situated use, and sources**. Organize or reference your own
-private evidence in `personal/`, without copying the author's portrait or file
-list. Ordinary work mainly reads the five, following questions into philosophy
-or evidence. Philosophy and website authoring instead unfold the relevant
-argument, then return grounded understanding to the core accounts.
+### Make Skills discoverable and composable in Chinese
 
-Give the model the [complete YinYang toolkit](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
-and ask: “Use my authorized material and existing thought to help develop my
-philosophy, form five private core accounts, make them available at my actual
-working entrypoint, and use and revise them with me. Make the parts suitable
-for publication into my website.” The [package's getting-started guide](/repositories/prometheus/source/skills/yinyang/README.html#use-and-understand-yinyang)
-specifies each file's duty; the formation method connects evidence to usable
-accounts, with the model carrying authorship and implementation.
+**Begin each Skill's `description` with a short Chinese name and purpose, while retaining its exact native English identifier.** You can then express ordinary Chinese intentions and let the model discover, select, read, and invoke suitable capabilities currently available, without memorizing technical English names. The Chinese description supports understanding and discovery; the native identifier still supports accurate installation, invocation, and updates.
 
-The website unfolds philosophy, the repository maintains source, and the
-personal environment brings core models into work. Writing a page can refine
-the five accounts, while use can send corrections back to the website. Building
-and maintaining the website belongs to the same practice. Choose what becomes
-public; the complete direct model can remain with you and authorized models.
-Sharing philosophy need not disclose concrete identity details and experiences.
-[Trinity](/philosophy/local-source-and-website/en/) develops this mutual iteration.
+Distinguish origin by beginning user-authored descriptions with `用户自制：`. Skills obtained from external repositories or plugins can begin directly with their Chinese name and purpose. For example, a user-authored description could read “用户自制：资料整理：整理选定材料并保留来源。” and an external one “PDF 阅读：读取和检查 PDF 文档。”. Translation or local adaptation does not by itself change authorship. Have the model check descriptions in the maintained source and the client's discovery list so they survive updates.
 
-The central practice is a **philosophy–psychology–personal-environment loop**:
-philosophy helps articulate personal understanding, psychological and preference
-material grounds it in actual experience, engineering makes the relation usable,
-and everyday use returns revisions. The current website and its owning source
-maintain the developed public philosophy; private models are refreshed from it.
-`personal/` retains useful experience, current purposes, and environmental evidence
-that the public account does not express. During relevant work, the model checks
-the original sources and adds, revises, or removes outdated material. Original
-records remain in their own cloud or project locations; the private directory
-need not become another theory or a complete history.
+**Give preference to user-authored methods that fit your purpose, and actively combine related methods as connected working capabilities.** They can contribute while understanding a need, configuring the environment, doing the work, and revising the result. Combine suitable external specialists where they help. Priority follows the task, scope, and fit.
 
-Begin with your experience, preferences, actual work, and the life you want to develop. Work with the model to articulate what matters to you, how you understand the world, and how you want to collaborate with people and tools. This philosophy can form gradually through concrete questions, with concepts, imagery, and organization shaped by your practice.
-
-[Yinyang's methods and material](/repositories/prometheus/en/) provide an optional example: borrow useful relationships or ways of writing, or independently author a completely different philosophy. The example is not a required starting point. The [creation method](/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.html) offers further reference; obtain the complete package and continuing updates directly from the [public GitHub repository](https://github.com/boluopai-net/Prometheus2Heraclitus). Its homepage links back to this website, so readers can move between the reading edition and source files.
-
-Use that philosophy together with existing specialist Skills to let the model create the Skills, MCP tools, plugins, scripts, and interfaces your work needs, including integration and maintenance. The arrangement becomes your own through its purpose and use; it can reuse existing software and libraries. Philosophy need not be perfected before configuring the environment, and practical effects can revise the philosophy in return.
-
-To inspect the philosophical sources above, you need not first read the entire long essay. The [computational-ontology entrance](/philosophy/stealing-fire/en/) develops Gruber's account of conceptualization and ontology alongside Dodig-Crnkovic's info-computational discussion; [The stream and time](/philosophy/flow-and-time/en/) connects James's stream of thought and Bergson's duration; [Preference Harness](/philosophy/preference-harness/en/) compares Freud on conflict and compromise formation, Winnicott on tolerating paradox, and DBT's acceptance and change. Each essay places original sources near the relevant argument and distinguishes their claims from this collection's comparisons. They help articulate relationships; they do not establish therapeutic effects for this personal environment.
+Use the available capabilities to complete actual work next. Search for and connect tools when needed, writing a new implementation only when a suitable one is missing. Your working arrangement develops through purpose, use, and feedback.
 
 <a id="reading"></a>
 
@@ -236,7 +195,7 @@ Let the model select the visual form for the actual question. **Image generation
 
 This approach can serve many areas of life: psychological exploration and organizing experience, shopping comparisons, coursework, preparing for medical appointments and reading medical material, work projects, game setup and guides, exercise records and plans, and music listening, recording, and practice. Different domains need different knowledge, evidence, and professional support. A model can help select and develop suitable methods, then connect the tools actually available.
 
-**A Skill preserves a reusable method, a Project organizes a continuing purpose with its materials and results, and tools perform concrete operations.** A shopping Skill can serve different purchases, while a continuing study Project retains courses, progress, and exercises. A music project can connect singing practice, recording software, and earlier works. A Project may be a client's project feature or a workspace of local folders, documentation, and versions. Personal philosophy supplies a shared orientation while methods develop within their domains. Handle simple questions directly; let recurring or sustained work accumulate into Skills and Projects that can be continued.
+**A Skill preserves a reusable method, a Project organizes a continuing purpose with its materials and results, and tools perform concrete operations.** A shopping Skill can serve different purchases, while a continuing study Project retains courses, progress, and exercises. A music project can connect singing practice, recording software, and earlier works. A Project may be a client's project feature or a workspace of local folders, documentation, and versions. Actual purposes, existing understanding, and use feedback supply a shared orientation while methods develop within their domains. Handle simple questions directly; let recurring or sustained work accumulate into Skills and Projects that can be continued.
 
 ### Reading, terminals, and Vim-style controls
 
@@ -263,7 +222,7 @@ Start with a request such as: “I do this often, but currently have to remember
 
 ### Local Codex carries continuing work; Web supports exploration
 
-**This route uses local Codex as its main execution entrance, continuously constructing a personal knowledge and working environment.** That environment includes materials and notes, reading entrances, application settings, scripts and automation, model tools, personal philosophy, and ongoing works. The model can connect these around a task, change their organization, check actual effects, and maintain arrangements for later use. A project folder holds one work's material; it does not define the outer limit of human–model collaboration.
+**This route uses local Codex as its main execution entrance, continuously constructing a personal knowledge and working environment.** That environment includes materials and notes, reading entrances, application settings, scripts and automation, model tools, working preferences, and ongoing works. The model can connect these around a task, change their organization, check actual effects, and maintain arrangements for later use. A project folder holds one work's material; it does not define the outer limit of human–model collaboration.
 
 | Entrance | Worksite and available materials | Contribution in this route |
 | --- | --- | --- |
@@ -320,7 +279,7 @@ The first execution inner loop can address an actual need: connect translation, 
 3. **The model preserves resumable results.** Relevant material, configuration, and versions stay in their proper places, ready for subsequent work; you need not manage every intermediate step.
 4. **You use and judge; the model revises.** Point out friction, omissions, and misunderstandings for the next iteration. Your feedback can also redirect work already underway.
 
-Through these loops, personal philosophy, environment, webpages, GitHub repositories, model settings, Skills, and custom tools can evolve together. Philosophy gives configuration direction, configuration supports practice, and practical effects revise both understanding and implementation. The model follows the parts actually affected by a change and keeps them coherent. A particular task can finish while the wider way of living and working continues to develop.
+Through these loops, working preferences, environment, works, GitHub repositories, model settings, Skills, and custom tools can evolve together. Purposes guide configuration, configuration supports practice, and practical effects revise both understanding and implementation. The model follows the parts actually affected by a change and keeps them coherent. A particular task can finish while the wider way of living and working continues to develop.
 
 <a id="ways-of-practice"></a>
 
@@ -353,6 +312,14 @@ In Obsidian, let the model place original PDFs, the glossary, the main guide, an
 
 Philosophical study can begin with a question and develop through explanation, follow-up questions, objections, examples, and comparison with the original, without a required skimming pass or exercises. Technical study can connect concepts, derivations, and actual behavior, using written exercises, experiments, or projects when they help test understanding. A model providing an answer does not establish that the person understands. Leave yourself opportunities to make and correct the judgments you actually want to practice. Memory, retrieval, and layout can be entrusted to tools; understanding continues through actual encounters.
 
+### Speak more, operate less: say the thought and listen to the response
+
+When discussing a question with a model, express emerging thoughts, questions, and examples, listen to its interpretation, explanation, or follow-up, then add examples, objections, and corrections. Let the model carry the clicking, copying, organization, configuration, and writing it can complete, leaving your attention for expression, listening, and judgment. This reduces repetitive operation and creates opportunities to practice listening, speaking, and reasoning.
+
+It resembles explaining a problem to a rubber duck that can respond: speaking unfolds an unfinished idea, the model takes up its connections, and its response can reveal missing premises or new possibilities. Say a passage, then listen to or read the model's restatement and check whether it addresses what matters. Expression, feedback, and revision develop understanding together. Reading, writing, and hands-on activity also contribute; choose around what you want to understand and practice now.
+
+Voice entrances differ. Dictation usually passes a transcript to the model, with possible transcription errors; sound, tone, and rhythm may enter judgment when the model actually receives audio. To practice listening, use available spoken replies or read-aloud tools, retaining text for comparison. [Participation and support](/repositories/prometheus/source/skills/yinyang/references/docs/participation-and-support.html) develops how these channels contribute to understanding.
+
 ### Working: express the purpose, and let the model complete the work
 
 Begin with an actual purpose or something that does not fit, without first writing a complete requirements document. Give local Codex the relevant files or observations so it can investigate current conditions, compare existing implementations, explain grounded choices, and complete writing, configuration, execution, and verification. Judge direction through visible prototypes, differences, and results. The model handles details it can investigate and explains choices with material consequences.
@@ -384,9 +351,9 @@ Philosophy, psychological modeling, and engineering jointly serve your living, l
 
 For the needed background, enter [philosophical readings](/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.html), [psychological readings](/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html), or [engineering readings](/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.html). They supply original thought, books and papers, courses and implementation documentation; the preceding tool entrances supply capabilities you can use directly.
 
-**Philosophy helps you understand and choose your arrangements.** Ontology asks which objects, participants, and relations are involved; epistemology asks what supports an interpretation and what evidence would change your judgment. These questions can enter ordinary life: which abilities you want to develop, which work to entrust to models, and how different arrangements affect attention, understanding, and action. Begin with [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/), [Embodied Experimental Philosophy](/philosophy/embodied-experimental-philosophy/en/), or an actual question, forming and revising judgments together with the model.
+**Philosophy helps you understand and choose your arrangements.** Ontology asks which objects, participants, and relations are involved; epistemology asks what supports an interpretation and what evidence would change your judgment. These questions can enter ordinary life: which abilities you want to develop, which work to entrust to models, and how different arrangements affect attention, understanding, and action. If interested, read [Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/) or [Embodied Experimental Philosophy](/philosophy/embodied-experimental-philosophy/en/) against a concrete question to understand their claims. Tool use itself begins with actual needs.
 
-**Psychological modeling forms the personal model actually used in everyday collaboration.** Bring experiences, preferences, emotional responses, ways of understanding, and actual interaction into a revisable account of how this person participates, which arrangements fit, and under what conditions they change. Form the corresponding model counterpart and their relationship from that understanding. Philosophy supplies a broader frame; everyday collaboration uses the psychological and preference models distilled from this frame and the evidence. They inform explanations, division of work, presentation, and environmental organization. YinYang’s five core accounts provide the working entrance, while concrete evidence remains in private material. The model carries organization, modeling, and writing; your use and corrections test the fit. An elegant philosophy or tool configuration alone does not establish understanding of a person. [Trinity](/philosophy/local-source-and-website/en/) develops their reciprocal revision.
+**Experience and preferences help collaboration fit the actual person.** Begin with needs visible in the current task: which explanations connect, what feels awkward, and how you want to participate. Let the model revise working settings through actual interaction. When psychological exploration or modeling is itself the purpose, select materials and methods for that work, retaining evidence and uncertainty. Everyday tool use does not require a complete portrait or a set of core accounts. An elegant description or tool configuration alone does not establish understanding of a person. [Trinity](/philosophy/local-source-and-website/en/) offers further discussion of the relationships.
 
 **Engineering begins with using and organizing your environment.** The ChatGPT and Codex interfaces, Skills, model assignments, tool connections, and automation introduced above already constitute engineering practice. You participate mainly through interface operation, natural-language expression, and judgment of results: what is awkward, what help you need, and whether a new tool is worth connecting. The model researches approaches, writes and maintains prompts, configures the agent's harness and tools, and carries out coding, commands, debugging, and verification. Expressing a need or noticing something that does not fit is enough to begin a round of collaboration.
 

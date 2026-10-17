@@ -313,8 +313,8 @@ to sources checked on 2026-10-13; update both editions when actual availability
 or product conditions change, without turning a subscription list or hardware
 purchase into a prerequisite for meaningful practice.
 
-The guide connects subscription and instruction setup, search-first tool
-adoption, personal philosophy, translation APIs, Vim-oriented human interfaces,
+The guide connects subscription and instruction setup, Chinese Skill discovery,
+search-first tool adoption, task-led personal settings, translation APIs, Vim-oriented human interfaces,
 chezmoi configuration, shared Obsidian settings, Drive/GitHub storage, and Web/local
 collaboration. Its recurring-work section distinguishes lightweight observation
 of changing Web objects from local preparation of usable materials. Local
