@@ -282,8 +282,8 @@ finished work gives the process enough stability to be used; later evidence
 can justify another revision. Endless rewriting would spend the capacity that
 the arrangement was meant to release.
 
-The [creation method](creation-method.md) carries this passage into actual
-working harnesses. [Trinity](local-source-and-website.md)
+The [practice explanation](creation-method.md) explains how this passage enters
+actual working harnesses. [Trinity](local-source-and-website.md)
 explains how it can persist: situated understanding operates locally, selected
 methods acquire a maintained source, and a website gives readers an entrance.
 A revision of meaning may require a change in software; a change in software

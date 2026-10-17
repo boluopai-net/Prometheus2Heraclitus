@@ -181,8 +181,8 @@ and proportionate verification connect speed with learning.
 
 Completion and revisability support each other. A work can be finished for
 its present purpose, then revised when a new question or consequence gives
-reason. The [creation method](creation-method.md) carries this into working
-harnesses. The [personal-first argument](personal-first-humanism.md) explains
+reason. The [practice explanation](creation-method.md) explains how this enters
+working harnesses. The [personal-first argument](personal-first-humanism.md) explains
 why a person's developing understanding and agency orient that work.
 
 The experimental ambition is to give philosophy contact: let reasons become

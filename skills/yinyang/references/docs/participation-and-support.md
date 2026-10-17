@@ -1,6 +1,6 @@
 # Participation, access, and support
 
-[YinYang guide](../../README.md) · [Creation method](creation-method.md) · [完整中文版](participation-and-support.zh-CN.md)
+[YinYang guide](../../README.md) · [Practice explanation](creation-method.md) · [完整中文版](participation-and-support.zh-CN.md)
 
 A person can understand the next step and still find no usable way to take it. Help becomes consequential when it connects understanding with actual participation, at a cost the participant can bear. An additional explanation may supply that connection; an accessible starting point, retained context, or an authorized operation carried by a counterpart may supply it differently.
 

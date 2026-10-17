@@ -1,6 +1,6 @@
 # 参与、可用性与支持
 
-[阴阳说明](../../README.zh-CN.md) · [创造方法](creation-method.zh-CN.md) · [English](participation-and-support.md)
+[阴阳说明](../../README.zh-CN.md) · [实践说明](creation-method.zh-CN.md) · [English](participation-and-support.md)
 
 一个人可能理解下一步，却仍找不到可用的行动入口。帮助在把理解接到实际参与、且成本可以承受时，产生实际作用。进一步解释可以提供这种连接；可用的起点、保留的上下文，或由伙伴承担的已授权操作，也可以用不同方式提供它。
 

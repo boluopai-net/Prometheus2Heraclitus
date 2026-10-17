@@ -95,13 +95,13 @@ The essays answer connected questions rather than forming a compulsory course:
 | --- | --- |
 | What is the developmental purpose? | [Stealing fire](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal modeling. |
 | What claims does YinYang make? | [Core views](references/docs/core-views.md) gives the proposition map. |
-| How does meaning acquire a working form? | [Creation method](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
+| How does meaning acquire a working form? | [Practice explanation](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
 | How do the contributions fit together? | [Trinity](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |
 | What does the central image express? | [YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
 | Where do particular arguments and originals belong? | [Read by the work being done](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |
 
-A useful first conceptual reading is **Stealing fire → Core views → Creation
-method**. Actual formation starts with the entrypoint and current material;
+A useful first conceptual reading is **Stealing fire → Core views → Practice
+explanation**. Actual formation starts with the entrypoint and current material;
 reading a syllabus first is unnecessary. Selected philosophy can be published
 on one's own website while direct personal accounts and private sources remain
 with their private owner.

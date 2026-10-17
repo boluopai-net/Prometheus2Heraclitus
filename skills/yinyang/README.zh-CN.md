@@ -70,12 +70,12 @@
 | --- | --- |
 | 发展的目的是什么？ | [窃火](references/docs/stealing-fire.zh-CN.md)连接可用能力、个人培养与相互建模。 |
 | 阴阳提出什么主张？ | [核心观点](references/docs/core-views.zh-CN.md)提供命题地图。 |
-| 意义怎样取得工作形式？ | [创造方法](references/docs/creation-method.zh-CN.md)连接表达、关系、实现与证据。 |
+| 意义怎样取得工作形式？ | [实践说明](references/docs/creation-method.zh-CN.md)连接表达、关系、实现与证据。 |
 | 各项贡献怎样相接？ | [三位一体](references/docs/local-source-and-website.zh-CN.md)连接哲学、心理、工程及其实践载体。 |
 | 核心意象表达什么？ | [阴阳与太极](references/docs/yinyang-and-taiji.zh-CN.md)展开互为根、转化与日月地。 |
 | 具体论证和原典在哪里？ | [按任务问题阅读](references/reading-map.zh-CN.md)通向文章、图示及哲学、心理和工程来源。 |
 
-初次理解可以读**窃火 → 核心观点 → 创造方法**。实际形成从入口与当前材料开始，
+初次理解可以读**窃火 → 核心观点 → 实践说明**。实际形成从入口与当前材料开始，
 无需先完成课程。选定哲学可以发布在自己的网页上，直接个人描述与私人来源仍留在私人位置。
 
 ## 哲学基础

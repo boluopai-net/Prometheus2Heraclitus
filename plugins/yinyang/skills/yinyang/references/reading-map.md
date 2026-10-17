@@ -86,7 +86,7 @@ theoretical prerequisite for using the methods above.
 | What could give one person's practice a singular sustaining form? | [Writing a sinthome: forming a personal philosophy](docs/writing-a-sinthome.md) develops the author's proposal about personal authorship and agency. It helps examine this practical extension in relation to Lacan's historical account without taking it as a clinical conclusion or a promise of unlimited power. |
 | How do philosophy, psychology, and engineering belong to one practice? | [Trinity: Philosophy, Psychology, and Engineering in One Practice](docs/local-source-and-website.md) connects one changing physical reality, jointly developed computational models, and differentiated contributions with local, repository, and website forms. It helps understand how a philosophical account can gain a working realization and a public expression without those forms becoming identical. |
 
-For a connected conceptual reading, purpose → core views → creation method
+For a connected conceptual reading, purpose → core views → practice explanation
 offers one possible route. The arrows indicate an intelligible connection,
 not a syllabus to finish before useful work or a compulsory adoption sequence.
 
