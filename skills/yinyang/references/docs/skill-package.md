@@ -73,7 +73,14 @@ files and common-path symlinks stop copying; inspect ownership rather than
 silently deleting them. Existing local or private Web owners install and
 publish the projected source, followed by actual-consumer readback.
 
-Byte parity applies to copies choosing continuing common updates. If you
+Common parity preserves one recipient-local discovery exception: when the
+target's single-line `SKILL.md` description already begins with `用户自制：`,
+the projector retains that prefix while replacing its substantive wording from
+the common source. An unmarked target stays unmarked. Every other common byte
+and file mode remains source-owned; the public package does not assign itself
+recipient-relative authorship.
+
+This parity applies to copies choosing continuing common updates. If you
 replace the philosophy or organization independently, keep that work at its
 own source and maintain its coherent references. Do not project this common
 package over it, even if it retains the five-slot format.

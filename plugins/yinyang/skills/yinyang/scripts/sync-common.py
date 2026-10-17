@@ -6,6 +6,7 @@ It never reads or copies the situated slots or the personal reference tree.
 """
 
 import argparse
+import re
 import shutil
 import stat
 import sys
@@ -19,6 +20,36 @@ SITUATED = {
     "references/usage.md",
 }
 PERSONAL = "references/personal"
+ORIGIN_PREFIX = "用户自制：".encode()
+
+
+def projected_bytes(relative, original, destination):
+    """Retain a situated discovery label while updating all canonical wording."""
+    content = original.read_bytes()
+    if relative != "SKILL.md" or not destination.is_file():
+        return content
+    # This package uses a single-line description scalar. Restrict inspection
+    # to frontmatter, leaving every method and other metadata byte canonical.
+    field = rb"(?m)^description:[ \t]*[\"']?"
+    target_sections = destination.read_bytes().split(b"---", 2)
+    if len(target_sections) != 3 or target_sections[0].strip():
+        raise ValueError("Missing target entrypoint frontmatter")
+    target_header = target_sections[1]
+    target_field = re.search(field, target_header)
+    if not target_field or not target_header[target_field.end() :].startswith(ORIGIN_PREFIX):
+        return content
+    sections = content.split(b"---", 2)
+    if len(sections) != 3 or sections[0].strip():
+        raise ValueError("Missing source entrypoint frontmatter")
+    source_field = re.search(field, sections[1])
+    if not source_field or sections[1][source_field.end() :].startswith(
+        (b"|", b">", b"&", b"*", b"\n")
+    ):
+        raise ValueError("Origin prefix requires a single-line source description")
+    start = source_field.end()
+    if not sections[1][start:].startswith(ORIGIN_PREFIX):
+        sections[1] = sections[1][:start] + ORIGIN_PREFIX + sections[1][start:]
+    return b"---".join(sections)
 
 
 def situated(path):
@@ -72,7 +103,7 @@ def main():
         print("Unmatched target files; inspect and relocate or remove them before syncing:")
         print("\n".join(stale))
         return 2
-    changed = []
+    changed = {}
     for relative, original in originals.items():
         destination = target / relative
         if destination.exists() and not destination.is_file():
@@ -83,17 +114,19 @@ def main():
                 break
             if parent.exists() and not parent.is_dir():
                 raise ValueError(f"Target parent is not a directory: {parent.relative_to(target)}")
+        expected = projected_bytes(relative, original, destination)
         if (
             relative not in current
-            or original.read_bytes() != destination.read_bytes()
+            or expected != destination.read_bytes()
             or stat.S_IMODE(original.stat().st_mode) != stat.S_IMODE(destination.stat().st_mode)
         ):
-            changed.append(relative)
+            changed[relative] = expected
     if args.apply:
-        for relative in changed:
+        for relative, content in changed.items():
             destination = target / relative
             destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(originals[relative], destination)
+            destination.write_bytes(content)
+            shutil.copystat(originals[relative], destination)
     print(
         f"{len(originals)} common files; {len(changed)} {'copied' if args.apply else 'differ'}; situated content untouched"
     )
