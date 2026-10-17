@@ -22,7 +22,7 @@ from markdown.preprocessors import Preprocessor
 from commentaries import ESSAYS, RETIRED, IMAGE_SUCCESSORS, essay_url, retired_url, redirect_page, write_essay, write_index, reading_rail
 from repository_panel import with_comments
 from resource_pages import render as render_resource_pages
-from public_skill_pages import SKILLS, render_pages as render_skill_pages
+from public_skill_pages import SKILLS, render_pages as render_skill_pages, reading_groups, reading_label
 
 BASE = '/repositories/prometheus/'
 GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
@@ -170,7 +170,21 @@ def main():
             text = text.replace('<head>', '<head><meta name="robots" content="noindex, nofollow, noimageindex">', 1)
         target.write_text(text)
 
-    render_skill_pages(dist, shell, revision)
+    # Keep method and companion reading at each Skill's existing introduction.
+    # Source titles and available language editions come from the actual package.
+    skill_readers = {}
+    for name in SKILLS:
+        prefix = 'skills/' + name + '/'
+        source_paths = sorted(p for p in allowed if p.startswith(prefix) and p.endswith('.md'))
+        for english in (False, True):
+            selected = sorted({reader_path(p, english) for p in source_paths})
+            documents = []
+            for p in selected:
+                kind = 'method' if Path(p).name.startswith('SKILL.') else 'guide' if Path(p).name.startswith('README.') else 'reference'
+                language = 'zh-CN' if '.zh-CN.md' in p else 'bilingual' if '## 中文说明' in source_text(p) else 'en'
+                documents.append((url(p), reading_label(title(p), kind, name, language, english), kind))
+            skill_readers[name, english] = documents
+    render_skill_pages(dist, shell, revision, skill_readers)
 
     def rewrite_links(rendered, source):
         rendered = re.sub(r'<a\b[^>]*href=["\'][^"\']*(?:thesis/|dl-lite-thesis\.pdf)[^"\']*["\'][^>]*>([\s\S]*?)</a>', r'\1', rendered)
@@ -281,24 +295,37 @@ def main():
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('观点与三类阅读', 'Views and three reading paths', '哲学展开世界观，心理研究感受与认识，工程连接方法与实现。按问题进入原文，让三方面在实际工作中相互修订；工具入口另行提供可用的 Skills。', 'Philosophy develops worldview, psychology investigates feeling and knowing, and engineering connects method with realization. Enter original sources by question and let these contributions revise one another through work; tool entrances separately provide usable Skills.', [
-                ('docs/core-views', '基本观点', 'Core views', '按主题集中查看阴阳的主要主张。', 'Find the main claims together, organized by topic.'),
-                ('docs/philosophical-readings', '哲学阅读', 'Philosophical readings', '了解各思想家、作品与本文论证的关系，并回到原文。', 'Trace thinkers and works to their role in the argument and their original sources.'),
-                ('docs/psychological-readings', '心理阅读', 'Psychological readings', '心理过程建模与经验检验、心灵与心理理论，以及信念、推理和互动研究的书与论文。', 'Books and papers on psychological process modeling and evidence, mind and psychological theories, belief, reasoning, and interaction.'),
-                ('docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
+            ('使用阴阳', 'Using YinYang', '从阴阳方法进入日常协作；介绍文章说明它怎样形成，形成与适配方法进一步展开实际写作和实现。', 'Enter ordinary collaboration through the YinYang method. The introduction explains its formation; the formation and adaptation methods develop writing and realization.', [
+                ('SKILL', '阴阳方法', 'YinYang method', '阅读完整方法，了解参与方式，以及模型怎样使用人与伙伴的描述。', 'Read the complete method: participation and how the model uses the person and counterpart accounts.'),
+                ('references/docs/creation-method', '形成、使用与维护阴阳', 'Forming, using, and maintaining YinYang', '介绍哲学、伙伴关系与环境怎样共同形成，再说明使用、更新与私人边界。', 'An introduction connecting philosophy, the counterpart relation, and environment with use, updates, and private boundaries.'),
+                ('references/design-and-revision', '形成与修订阴阳', 'Designing and revising a situated YinYang', '从实际材料出发，与模型一起形成并修订相连的理解。', 'Form and revise connected accounts with model assistance, grounded in actual material.'),
+                ('references/harness-adaptation', '在实际环境中实现阴阳', 'Realizing YinYang in a working harness', '把理解落实到指令、工具与工作环境，再通过实际效果修订。', 'Realize understanding through instructions, tools, and the working environment, then revise through its effects.'),
             ]),
-            ('形成实践', 'Develop a practice', '从自己的问题出发，把理解发展为可使用、可修订的安排。', 'Begin with your own questions and give understanding a usable, revisable form.', [
-                ('docs/creation-method', '形成、使用与维护阴阳', 'Forming, using, and maintaining YinYang', '从哲学、伙伴关系与环境的共同形成，进入个人版的使用、公共更新与私人边界。', 'Follow philosophy, the counterpart relation, and environmental realization into situated use, common updates, and private boundaries.'),
+            ('五份描述的参考', 'References for the five accounts', '下面是公开包中的写作指引，可以阅读它们分别关心什么。实际的人、伙伴、关系与来源，由你和模型结合自己的材料形成在私人版本中；这里不展示他人的个人描述。', 'These public writing guides explain what each account concerns. You and the model form the actual person, counterpart, relationship, and provenance accounts from your own material in a private version; these are not someone else’s personal accounts.', [
+                ('references/encounter', '相遇', 'Encounter', '凝练目的、参与方式与双方关系，使日常工作有可用全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary work.'),
+                ('references/models', '用户模型', 'User model', '理解具体的人，保留相关差异、范围与不确定性。', 'Understand the actual person, retaining relevant differences, scope, and uncertainty.'),
+                ('references/relationship', '伙伴与关系', 'Counterpart and relationship', '说明伙伴的贡献、合作方式、独立判断与相互纠正。', 'Develop counterpart contributions, cooperation, independent judgment, and reciprocal correction.'),
+                ('references/usage', '实际使用', 'Situated use', '把这段关系接到实际环境、资源与工作分配。', 'Connect the relationship to the actual environment, resources, and allocation of work.'),
+                ('references/sources', '来源', 'Sources', '说明理解的依据与来源归属，沿有权限的路径回到原始材料。', 'Locate evidence and its owners, following authorized routes to original material.'),
+            ]),
+            ('观点与阅读', 'Views and reading', '查阅阴阳的主张、论证与来源；哲学、心理与工程的阅读彼此联系，也各有自己的问题。', 'Consult YinYang’s claims, arguments, and sources. Philosophical, psychological, and engineering readings connect while retaining their own questions.', [
+                ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看阴阳的主要主张。', 'Find the main claims together, organized by topic.'),
+                ('references/reading-map', '按问题阅读', 'Read by the work being done', '从当前问题找到有关论证、方法与原始来源。', 'Find relevant arguments, methods, and original sources from the question at hand.'),
+                ('references/docs/philosophical-readings', '哲学阅读', 'Philosophical readings', '了解各思想家、作品与本文论证的关系，并回到原文。', 'Trace thinkers and works to their role in the argument and their original sources.'),
+                ('references/docs/psychological-readings', '心理阅读', 'Psychological readings', '心理过程建模与经验检验、心灵与心理理论，以及信念、推理和互动研究的书与论文。', 'Books and papers on psychological process modeling and evidence, mind and psychological theories, belief, reasoning, and interaction.'),
+                ('references/docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
             ]),
         ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
             entries_html = []
             for stem, label_zh, label_en, desc_zh, desc_en in entries:
-                path = PACKAGE + 'references/' + stem + edition
+                path = PACKAGE + stem + edition
                 entries_html.append('<li>' + link(path, label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p></li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
-        groups_html = ''.join(grouped)
+        installation = GITHUB + '/blob/main/docs/codex' + edition
+        install_label = 'Installation and updates (GitHub)' if english else '安装与更新（GitHub）'
+        groups_html = ''.join(grouped) + '<p><a href="' + installation + '">' + install_label + '</a></p>' + reading_groups(english, skill_readers)
         diagrams = ''
         for name, zh, en, desc_zh, desc_en in [('encounter', '相遇', 'Encounter', '生成、判断与证据怎样在持续的相遇中形成关系。', 'Generation, judgment and evidence within an ongoing encounter.'), ('layers', '层次', 'Layers', '物理基础、计算抽象，以及认识、价值、方法与实践的联系。', 'Physical grounding, computational abstraction, and their connections with knowing, value, methods, and practice.')]:
             suffix = '' if english else '.zh-CN'
@@ -306,7 +333,7 @@ def main():
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
             diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">← {"Library" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh} {"Use the viewer’s zoom, guided views and details. Open the full viewer for more space." if english else "可缩放、切换导览并查看关系说明；打开完整图示获得更大阅读空间。"}</p><div class="diagram-actions"><a class="outline-button" href="{url(diagram_path)}">{"Open full viewer ↗" if english else "打开完整图示 ↗"}</a><a class="text-link" href="{url(diagram_path.replace(".html", ".svg"))}">SVG</a>{link(DOCS + "core-views" + edition, "Related claims" if english else "回到核心观点")}</div><iframe class="diagram-viewer" title="{en if english else zh}" src="{url(diagram_path)}" sandbox="allow-scripts allow-downloads"></iframe><p class="source-note">{link(PACKAGE + "references/diagrams/THIRD-PARTY-NOTICES.md", "Third-party notices" if english else "第三方权利说明")}</p></main>'
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
-        intro = ('Use this page to consult ideas and sources, develop a practice, or explore relationships through diagrams. The philosophy section already supplies the sequential reading route.' if english else '这里按用途查阅观点与来源、形成自己的实践，或通过图示理解关系。哲学栏目已有完整的顺序阅读，这里提供随问题进入的参考。')
+        intro = ('Read the YinYang method, follow practical guides for learning, creation, and your environment, or explore ideas and diagrams. Philosophy also has its own connected reading route.' if english else '从阴阳方法开始，阅读学习、创作和环境使用的具体方法，或查阅观点与图示。哲学栏目另有相连的论证阅读。')
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1><p class="collection-intro">{intro}</p></header>{groups_html}<section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Two complementary views: the encounter shows reciprocal activity; the layers distinguish the questions different kinds of work address." if english else "两张图从不同角度理解同一实践：相遇图看相互作用，层次图看不同工作各自回答什么问题。"}</p><div class="diagram-grid">{diagrams}</div></section></main>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang))
