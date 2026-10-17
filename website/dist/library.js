@@ -27,14 +27,20 @@ document.querySelectorAll('.document').forEach(reader => {
   document.fonts.ready.then(fitMath);
   new ResizeObserver(fitMath).observe(reader);
 });
-// One visible contents navigation, beside desktop prose and before mobile prose.
+// Book navigation crosses pages; this separate navigation follows the page itself.
+// Reference readers retain their existing rail and mobile placement.
 const contents = document.querySelector('.commentary .reader-toc');
 if (contents) {
-  const desktop = matchMedia('(min-width:768px)');
+  const book = document.querySelector('.philosophy-book');
+  const desktop = matchMedia(book ? '(min-width:1280px)' : '(min-width:768px)');
   const rail = contents.parentElement;
   const syncContents = () => {
     if (desktop.matches) rail.prepend(contents);
-    else document.querySelector('.commentary .document h1').after(contents);
+    else {
+      const heading = document.querySelector('.commentary .document h1');
+      (heading.closest('.article-heading') || heading).after(contents);
+    }
+    if (book) contents.open = desktop.matches;
   };
   syncContents();
   desktop.addEventListener('change', syncContents);

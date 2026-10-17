@@ -11,7 +11,7 @@ from pathlib import Path
 
 import markdown
 from cjk_markdown import CjkBoldExtension
-from commentaries import reading_context, reading_rail
+from commentaries import reading_context, book_navigation, book_contents
 from article_art import article_figure, scene_alt
 
 ARTICLES = {
@@ -210,13 +210,13 @@ page = f'''<!doctype html>
 <script src="/library.js" defer></script></head><body>
 <a class="skip" href="#main">{labels['skip']}</a>
 <header class="header wrap"><a class="wordmark" href="{home}">boluopai.</a><nav aria-label="{labels['nav']}"><a href="{philosophy}" aria-current="page">{labels['philosophy']}</a><a href="/singing/{suffix}">{labels['singing']}</a><a href="/repositories/{suffix}">{labels['repositories']}</a></nav></header>
-<main id="main" class="wrap library-reader commentary"><article class="document">
+<main id="main" class="wrap library-reader commentary philosophy-book">{book_navigation(entry['slug'], not english)}<article class="document">
 <header class="article-heading"><h1>{title}</h1><p class="article-subtitle">{subtitle}</p></header>
 {art_figure}
 <div class="article-overview"><p>{overview}</p></div>
 {reading_guide}
 <div class="article-body">{rendered}</div></article>
-{reading_rail(md.toc, not english)}
+{book_contents(md.toc, not english)}
 <div class="reading-end">{reading_navigation}</div></main>
 <footer class="footer wrap"><a class="wordmark" href="{home}">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/{suffix}">{labels['rights']}</a></p><a href="#main">{labels['top']}</a></footer></body></html>'''
 out = Path(__file__).resolve().parents[1] / 'dist/philosophy' / entry['slug'] / suffix / 'index.html'

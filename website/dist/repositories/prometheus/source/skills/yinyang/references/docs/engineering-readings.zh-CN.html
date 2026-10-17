@@ -1,4 +1,24 @@
-<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工程阅读 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=fa93824f6725"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="工程阅读">工程阅读</h1>
+<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工程阅读 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=d47ee0ab9f13"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
+<ul>
+<li><a href="#先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</a></li>
+<li><a href="#git-与-github让作品和修改能够接续">Git 与 GitHub：让作品和修改能够接续</a></li>
+<li><a href="#软件设计与计算机系统">软件设计与计算机系统</a><ul>
+<li><a href="#程序设计与抽象cs-61a-和-sicp">程序设计与抽象：CS 61A 和 SICP</a></li>
+<li><a href="#软件构造与设计">软件构造与设计</a></li>
+<li><a href="#从程序看到机器操作系统与网络">从程序看到机器、操作系统与网络</a></li>
+</ul>
+</li>
+<li><a href="#算法计算与复杂性">算法、计算与复杂性</a><ul>
+<li><a href="#算法从普林斯顿课程与教材开始">算法：从普林斯顿课程与教材开始</a></li>
+<li><a href="#计算理论mitsipser再到-arorabarak">计算理论：MIT、Sipser，再到 Arora–Barak</a></li>
+<li><a href="#本文集相关比较的原始来源">本文集相关比较的原始来源</a></li>
+</ul>
+</li>
+<li><a href="#实验实现数据与模型检验">实验实现、数据与模型检验</a></li>
+<li><a href="#物理条件测量与反馈">物理条件、测量与反馈</a></li>
+</ul>
+</div>
+</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="工程阅读">工程阅读</h1>
 <p><a href="/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html">哲学阅读</a> · <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html">心理阅读</a></p>
 <p>工程使理解取得可运行、可观察、可修改的形式。本指引定位实现所需的概念与来源：学习地图、命令行、版本历史、软件设计、算法、系统、实验和物理条件。选择有助于实际工作的部分；<a href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.zh-CN.html">环境适配</a>说明结果怎样连接预期协作。课程、文档和源仓库配有有用的教材与论文。</p>
 <p>工具页帮助找到可用的工具和 Skills；这张阅读地图解释它们背后的概念、方法与实现。工具能够调用，不表示使用者已经理解它；一份文档既可以支持学习，也可以在实际工作中按需查阅。</p>
@@ -239,24 +259,4 @@
 <h2 id="物理条件测量与反馈">物理条件、测量与反馈</h2>
 <p>工程实现发生在物质世界中：程序要在机器上运行，测量需要设备和时间，界面也要进入人的感知与行动。软件的抽象并不消除能量、延迟、误差和身体条件。</p>
 <p><a href="https://www.feynmanlectures.caltech.edu/">费曼物理学讲义</a>提供物理概念的开放在线阅读：第一卷侧重力学、辐射和热，第二卷侧重电磁与物质，第三卷讨论量子力学。按所需概念进入，不以读完三卷作为写程序的前提。反馈与模型检验则可接回上面的系统辨识材料。</p>
-<p>物理学研究规律，工程在这些条件下设计与实现。<a href="/philosophy/local-source-and-website/">三位一体</a>展开它们与哲学、心理的联系。程序可运行确立一项实现；它能否充分解释心理过程，是进一步的问题。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
-<ul>
-<li><a href="#先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</a></li>
-<li><a href="#git-与-github让作品和修改能够接续">Git 与 GitHub：让作品和修改能够接续</a></li>
-<li><a href="#软件设计与计算机系统">软件设计与计算机系统</a><ul>
-<li><a href="#程序设计与抽象cs-61a-和-sicp">程序设计与抽象：CS 61A 和 SICP</a></li>
-<li><a href="#软件构造与设计">软件构造与设计</a></li>
-<li><a href="#从程序看到机器操作系统与网络">从程序看到机器、操作系统与网络</a></li>
-</ul>
-</li>
-<li><a href="#算法计算与复杂性">算法、计算与复杂性</a><ul>
-<li><a href="#算法从普林斯顿课程与教材开始">算法：从普林斯顿课程与教材开始</a></li>
-<li><a href="#计算理论mitsipser再到-arorabarak">计算理论：MIT、Sipser，再到 Arora–Barak</a></li>
-<li><a href="#本文集相关比较的原始来源">本文集相关比较的原始来源</a></li>
-</ul>
-</li>
-<li><a href="#实验实现数据与模型检验">实验实现、数据与模型检验</a></li>
-<li><a href="#物理条件测量与反馈">物理条件、测量与反馈</a></li>
-</ul>
-</div>
-</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
+<p>物理学研究规律，工程在这些条件下设计与实现。<a href="/philosophy/local-source-and-website/">三位一体</a>展开它们与哲学、心理的联系。程序可运行确立一项实现；它能否充分解释心理过程，是进一步的问题。</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

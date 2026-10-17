@@ -1,4 +1,15 @@
-<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>在实际环境中实现 Yinyang · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=fa93824f6725"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="在实际环境中实现阴阳">在实际环境中实现 Yinyang</h1>
+<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>在实际环境中实现 Yinyang · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=d47ee0ab9f13"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
+<ul>
+<li><a href="#与创作和管理方法的关系">与创作和管理方法的关系</a></li>
+<li><a href="#选择当前重点沿两个方向修订">选择当前重点，沿两个方向修订</a></li>
+<li><a href="#偏好-harness-的类比">偏好 harness 的类比</a></li>
+<li><a href="#在情境中推导行为">在情境中推导行为</a></li>
+<li><a href="#注意力参与与探询">注意力、参与与探询</a></li>
+<li><a href="#选择合适的实现方式">选择合适的实现方式</a></li>
+<li><a href="#让变更落实到证据并延续下去">让变更落实到证据并延续下去</a></li>
+</ul>
+</div>
+</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="在实际环境中实现阴阳">在实际环境中实现 Yinyang</h1>
 <p>预期结果或已观察到的不匹配要求改变模型工作方式时，使用本参考。harness 包括塑造工作的指令、方法、工具和环境。Yinyang 的元 harness 提供对参与者、关系与发展目的的理解；适配让选定关系取得工作形式。</p>
 <p>结合实际行为，阅读受影响模型段落与完整目标指令。理解本身需要发展时，使用<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">形成与修订</a>。任务所有者通过目标的既有维护者承担解释、实现与完成。环境适配请求需要可用结果，只写画像不够。阅读 Yinyang 本身不授权无关变更。</p>
 <h2 id="与创作和管理方法的关系">与创作和管理方法的关系</h2>
@@ -55,15 +66,4 @@ Skill。通过这样的依赖说明重要范围变化。</p>
 <p>选择能够保留相关状态、关系与变化的载体。用自然语言表达关系与灵活判断，在实际边界支持时用确定性载体实现具体机制。两者都可能僵化或过度复杂。能够修复已有冲突或移除机制时，先这样做，再考虑新增层次。修改既有指令或 Skill 就可能是完整实现；本方法不意味着需要优化器、后台重写服务、登记表或新状态协议。</p>
 <h2 id="让变更落实到证据并延续下去">让变更落实到证据并延续下去</h2>
 <p>在任务中让解释与预期效果可审阅。通过实际来源和发布路径实现，回读使用处，对照建模的含义与目的检查可观察后果。存在差别时，考察过程的选取、表征的对应与实现，不预先认定其中某项已经无误。检索确立可用性；简短真实案例比较可以支持有限行为，持续协作与人的发展则需要实际使用。两者都不要求新建永久评估平台。</p>
-<p>比较预期结果与实际结果。仍有必要差别时，在实现、解释或概念的维护位置继续。有用理由与证据留在既有位置；一次任务结果不确立永久个人特质，也不要求改写全部模型。当事人贡献觉察与方向，模型承担维护这项双向联系的明确工作。</p></article><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
-<ul>
-<li><a href="#与创作和管理方法的关系">与创作和管理方法的关系</a></li>
-<li><a href="#选择当前重点沿两个方向修订">选择当前重点，沿两个方向修订</a></li>
-<li><a href="#偏好-harness-的类比">偏好 harness 的类比</a></li>
-<li><a href="#在情境中推导行为">在情境中推导行为</a></li>
-<li><a href="#注意力参与与探询">注意力、参与与探询</a></li>
-<li><a href="#选择合适的实现方式">选择合适的实现方式</a></li>
-<li><a href="#让变更落实到证据并延续下去">让变更落实到证据并延续下去</a></li>
-</ul>
-</div>
-</nav></aside><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
+<p>比较预期结果与实际结果。仍有必要差别时，在实现、解释或概念的维护位置继续。有用理由与证据留在既有位置；一次任务结果不确立永久个人特质，也不要求改写全部模型。当事人贡献觉察与方向，模型承担维护这项双向联系的明确工作。</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

@@ -228,7 +228,7 @@ def main():
         if write_essay(dist, path, title(path), rendered, md.toc, source_note, shell, title):
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
-        body = f'''<main id="main" class="wrap library-reader commentary"><article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article>{reading_rail(md.toc, chinese)}<div class="reading-end">{source_note}</div></main>'''
+        body = f'''<main id="main" class="wrap library-reader commentary">{reading_rail(md.toc, chinese)}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
         write('source/' + str(Path(path).with_suffix('.html')), shell(title(path), body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
 
     # Retain retired reading URLs as small aliases, even after source deletion.

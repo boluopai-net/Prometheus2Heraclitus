@@ -346,12 +346,16 @@ The home, singing, and wheel English entrances are maintained sibling pages;
 the library renderer generates the English philosophy, sequence, repository,
 and library entrances. Run the shared navigation refiner after the complete
 edition set exists so its language and section links resolve within that set.
-Both article renderers and reference documents use the shared `reading_rail`
-markup from `scripts/commentaries.py`, with H2/H3 anchors generated from the
-complete Markdown. Prose stays expanded. `article.css` owns the common sticky
-desktop rail; `library.js` moves that same visible navigation below the title
-on phones and marks the current section. The tool map keeps its separate
-navigation layout. Full source prose remains linear Markdown.
+Both article renderers generate H2/H3 anchors from the complete Markdown.
+Philosophy book pages use separate cross-page book navigation on the left and
+current-page contents on the right at wide desktop widths. At narrower widths,
+the current-page contents become a native disclosure below the title; phones
+also use a closed-by-default book menu. Reference documents retain their shared
+left `reading_rail` and existing mobile placement. `scripts/commentaries.py`
+owns these navigation structures, `article.css` owns their responsive layout,
+and `library.js` moves the contents and marks the current section. Prose stays
+expanded. The tool map keeps its separate navigation layout. Full source prose
+remains linear Markdown.
 Section pages are `/philosophy/`, `/singing/`, and
 `/repositories/`; the homepage is their overview and navigation entry.
 
@@ -513,16 +517,24 @@ and repositories landing page, leaving the singing section intact.
 The same command projects selected common essays into Chinese
 `/philosophy/SLUG/` and English `/philosophy/SLUG/en/` editions. The visible
 argument is “窃火，然后成为火 / Borrow Fire, Then Become Fire”: five stages
-with sixteen main articles and five anchored branch articles. The landing
-shows five stage entrances; `/philosophy/yinyang/` retains its URL and shows
-the complete order. Branches return to the relevant continuation, and the
+with eighteen main articles and two focused branch articles. The landing
+shows five stage entrances, each opening its own bilingual introduction at
+`/philosophy/stages/{starting-point,understanding,encounter,formation,practice}/`
+with an `en/` edition. `content/philosophy/stage-introductions.json` owns the two
+plain introduction paragraphs per stage and language; the shared stage map and
+article order remain in `scripts/commentaries.py`. The old
+`/philosophy/yinyang/{en/}` URLs are small aliases: exact `#stage-1` through
+`#stage-5` links open the corresponding stage, with ordinary stage links also
+available without JavaScript. Branches return to the relevant continuation, and the
 getting-started guide supplies a practical entrance without requiring every
 article to be read first.
 `scripts/commentaries.py` owns this shared route across source owners. Common
 prose remains in `skills/yinyang/references/docs/SLUG[.zh-CN].md`; site-authored
 prose remains in `content/philosophy/`. Render the common library first, then
 both editions of the five site-authored articles with `render-article.py`,
-which resolves common navigation titles from their rendered editions. Render
+which resolves common navigation titles from their rendered editions. The
+library renderer calls `commentaries.write_index` to generate both book
+overviews, all ten stage introductions, and the legacy aliases. Render
 reader-page entrances and the getting-started guide afterward. No prose is
 duplicated merely to place an article into the shared argument.
 
