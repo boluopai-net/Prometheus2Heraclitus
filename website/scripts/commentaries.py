@@ -96,9 +96,11 @@ def stage_url(index, chinese):
     return f'/philosophy/stages/{STAGE_SLUGS[index]}/' + ('' if chinese else 'en/')
 
 
+def stage_entry(index, chinese):
+    return article_url(GROUPS[index][2][0][0], chinese)
+
+
 def stage_for(name):
-    if name.startswith('stage:'):
-        return STAGE_SLUGS.index(name.split(':', 1)[1])
     parent = next((parent for parent, branches, _ in BRANCHES if name in branches), name)
     return next((i for i, (_, _, entries) in enumerate(GROUPS) if any(slug == parent for slug, _ in entries)), None)
 
@@ -106,9 +108,9 @@ def stage_for(name):
 def book_navigation(current, chinese, title=None):
     """Cross-page book structure, separate from each page's own contents."""
     active = stage_for(current)
-    current_title = '' if current == 'overview' else (GROUPS[active][0 if chinese else 1] if current.startswith('stage:') else essay_title(current, chinese, title))
+    current_title = '' if current == 'overview' else essay_title(current, chinese, title)
     context = current_title
-    if active is not None and not current.startswith('stage:'):
+    if active is not None:
         context = GROUPS[active][0 if chinese else 1].split('：' if chinese else ':')[0] + ' · ' + current_title
     def link(url, label, selected=False):
         return f'<a href="{url}"' + (' aria-current="page"' if selected else '') + f'>{html.escape(label)}</a>'
@@ -120,20 +122,20 @@ def book_navigation(current, chinese, title=None):
             branches = [n for parent, names, _ in BRANCHES if parent == slug for n in names]
             nested = '<ul class="book-branches">' + ''.join('<li>' + link(article_url(n, chinese), essay_title(n, chinese, title), current == n) + '</li>' for n in branches) + '</ul>' if branches else ''
             items.append('<li>' + link(article_url(slug, chinese), essay_title(slug, chinese, title), current == slug) + nested + '</li>')
-        groups.append(f'<details class="book-stage"{" open" if active == index else ""}><summary>{link(stage_url(index, chinese), label, current == "stage:" + STAGE_SLUGS[index])}</summary><ol>{"".join(items)}</ol></details>')
-    label = '全书导航' if chinese else 'Book navigation'
-    nav = f'<nav aria-label="{label}">{"".join(groups)}</nav>'
-    status = f'<span>{html.escape(context)}</span>' if context else ''
-    return f'<aside class="book-navigation"><p class="book-navigation-title">{label}</p>{nav}</aside><details class="book-mobile-menu"><summary>{label}{status}</summary>{nav}</details>'
+        groups.append(f'<section class="book-stage"><h2>{link(stage_entry(index, chinese), label)}</h2><ol>{"".join(items)}</ol></section>')
+    label = '目录' if chinese else 'Contents'
+    nav = f'<nav aria-label="{label}" tabindex="0">{"".join(groups)}</nav>'
+    status = f'<span class="book-current-context">{html.escape(context)}</span>' if context else ''
+    return f'<aside class="book-navigation">{nav}</aside><details class="book-mobile-menu"><summary><span class="book-menu-label">{label}{toggle_text(chinese)}</span>{status}</summary>{nav}</details>'
+
+
+def toggle_text(chinese):
+    return '<span class="contents-toggle"><span class="when-closed">' + ('展开' if chinese else 'Expand') + '</span><span class="when-open">' + ('收起' if chinese else 'Collapse') + '</span></span>'
 
 
 def book_contents(toc, chinese):
     label = '本文目录' if chinese else 'On this page'
-    return f'<aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents"><summary>{label}</summary><nav aria-label="{label}">{toc}</nav></details></aside>'
-
-
-def page_toc(entries):
-    return '<div class="toc"><ul>' + ''.join(f'<li><a href="#{anchor}">{html.escape(label)}</a></li>' for anchor, label in entries) + '</ul></div>'
+    return f'<aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents" open><summary><span>{label}</span>{toggle_text(chinese)}</summary><nav aria-label="{label}">{toc}</nav></details></aside>'
 
 
 def essay_title(name, chinese, title=None):
@@ -208,14 +210,15 @@ def branch_panel(parent, chinese, title=None):
 
 def reading_context(name, chinese, title=None):
     sequence_url = SERIES + ('' if chinese else 'en/')
+    series_label = '窃火' if chinese else 'Borrow Fire'
     home = f'<a class="series-home" href="{sequence_url}">{"回到窃火" if chinese else "Back to Borrow Fire"}</a>'
     nav_label = '文章导航' if chinese else 'Article navigation'
     if name in MAINLINE:
         i = MAINLINE.index(name)
-        stage = next(zh if chinese else en for zh, en, entries in GROUPS if any(n == name for n, _ in entries))
+        stage = next(zh if chinese else en for zh, en, entries in GROUPS if any(n == name for n, _ in entries)).split('：' if chinese else ':', 1)[0]
         intro = SUMMARIES[name] if chinese else EN_SUMMARIES[name]
-        label = '主线' if chinese else 'MAIN SEQUENCE'
-        guide = f'<aside class="series-context"><p class="eyebrow">{SERIES_NAMES[0 if chinese else 1]} · {label} {i + 1:02d} / {len(MAINLINE):02d}</p><p>{html.escape(stage)}</p><p>{intro}</p></aside>'
+        label = '主线' if chinese else 'Main'
+        guide = f'<aside class="series-context"><p class="eyebrow">{series_label} · {html.escape(stage)} · {label} {i + 1:02d} / {len(MAINLINE):02d}</p><p>{intro}</p></aside>'
         links = []
         if i:
             links.append(article_link(MAINLINE[i - 1], chinese, '上一篇' if chinese else 'Previous', title, 'prev'))
@@ -228,8 +231,9 @@ def reading_context(name, chinese, title=None):
         parent, items, return_to = next(b for b in BRANCHES if name in b[1])
         i = items.index(name)
         intro = next(x[2] for x in EXTENSIONS if x[0] == name) if chinese else EN_EXTENSIONS[name][1]
-        label = '专题路径' if chinese else 'FOCUSED BRANCH'
-        guide = f'<aside class="series-context"><p class="eyebrow">{SERIES_NAMES[0 if chinese else 1]} · {label}</p><p>{intro}</p></aside>'
+        label = '专题路径' if chinese else 'Focused branch'
+        stage = GROUPS[stage_for(name)][0 if chinese else 1].split('：' if chinese else ':', 1)[0]
+        guide = f'<aside class="series-context"><p class="eyebrow">{series_label} · {html.escape(stage)} · {label}</p><p>{intro}</p></aside>'
         previous = items[i - 1] if i else parent
         following = items[i + 1] if i + 1 < len(items) else return_to
         next_label = ('下一篇' if chinese else 'Next') if i + 1 < len(items) else ('继续主线' if chinese else 'Continue main sequence')
@@ -278,43 +282,19 @@ def index_body(chinese, title):
     thesis = '借来智能的火，在实践中成为能够理解、判断、创造并继续生成的人。' if chinese else 'Borrow the fire of intelligence; through practice, develop understanding, judgment, creation, and the capacity to keep becoming.'
     intro = '这些文章围绕五组相连的问题展开：能力与培养、有限探究、共同参与、个人形成、实践与反馈。每篇都可以独立阅读，也可以沿这条路径逐步看见它们的联系。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'These articles address five connected groups of questions: capability and cultivation, finite inquiry, shared participation, personal formation, and practice with feedback. Each can be read independently; the route makes their connections progressively visible. YinYang is one developed philosophical and working form within it.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></header>'
-    sections, contents = [], []
+    sections = []
     for index, (zh, en, entries) in enumerate(GROUPS):
         label = zh if chinese else en
         anchor = f'stage-{index + 1}'
         reason = STAGE_REASONS[index][0 if chinese else 1]
-        sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_url(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
-        contents.append((anchor, label))
-    contents.append(('practice', '开始自己的实践' if chinese else 'Begin your own practice'))
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{practice_entrance(chinese)}</article>{book_contents(page_toc(contents), chinese)}</main>'
-
-
-def stage_body(index, chinese, title):
-    slug = STAGE_SLUGS[index]
-    zh, en, entries = GROUPS[index]
-    label = zh if chinese else en
-    data = json.loads((ROOT / 'content/philosophy/stage-introductions.json').read_text())
-    paragraphs = data[slug]['zh' if chinese else 'en']
-    intro = ''.join(f'<p>{html.escape(paragraph)}</p>' for paragraph in paragraphs)
-    readings = '本组文章' if chinese else 'Essays in this stage'
-    cards = []
-    for number, (name, summary) in enumerate(entries, 1):
-        summary = summary if chinese else EN_SUMMARIES[name]
-        cards.append(f'<section class="essay-entry"><div class="essay-meta">{number:02d}</div><div><h3>{article_link(name, chinese, title=title)}</h3><p class="entry-summary">{html.escape(summary)}</p>{branch_panel(name, chinese, title)}</div></section>')
-    previous = stage_url(index - 1, chinese) if index else SERIES + ('' if chinese else 'en/')
-    following = stage_url(index + 1, chinese) if index + 1 < len(GROUPS) else '/getting-started/' + ('' if chinese else 'en/')
-    previous_label = GROUPS[index - 1][0 if chinese else 1] if index else ('全书总览' if chinese else 'Book overview')
-    following_label = GROUPS[index + 1][0 if chinese else 1] if index + 1 < len(GROUPS) else ('开始自己的实践' if chinese else 'Begin your own practice')
-    home = SERIES + ('' if chinese else 'en/')
-    navigation = f'<nav class="series-navigation" aria-label="{"阅读导航" if chinese else "Reading navigation"}"><a rel="prev" href="{previous}"><span class="navigation-label">{"上一部分" if chinese else "Previous"}</span><span class="navigation-title">{html.escape(previous_label)}</span></a><a class="series-home" href="{home}">{"全书总览" if chinese else "Book overview"}</a><a rel="next" href="{following}"><span class="navigation-label">{"下一部分" if chinese else "Next"}</span><span class="navigation-title">{html.escape(following_label)}</span></a></nav>'
-    contents = page_toc([('introduction', '引言' if chinese else 'Introduction'), ('readings', readings)])
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("stage:" + slug, chinese, title)}<article class="document"><header class="collection-heading"><p class="stage-kicker">{SERIES_NAMES[0 if chinese else 1]} · {index + 1:02d} / 05</p><h1>{html.escape(label)}</h1></header><section id="introduction">{intro}</section><section id="readings"><h2>{readings}</h2>{"".join(cards)}</section></article>{book_contents(contents, chinese)}<div class="reading-end">{navigation}</div></main>'
+        sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_entry(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
+    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{practice_entrance(chinese)}</article></main>'
 
 
 def old_book_alias(chinese):
     home = SERIES + ('' if chinese else 'en/')
-    routes = {f'#stage-{i + 1}': stage_url(i, chinese) for i in range(len(GROUPS))}
-    links = ''.join(f'<li><a href="{stage_url(i, chinese)}">{html.escape(group[0 if chinese else 1])}</a></li>' for i, group in enumerate(GROUPS))
+    routes = {f'#stage-{i + 1}': stage_entry(i, chinese) for i in range(len(GROUPS))}
+    links = ''.join(f'<li><a href="{stage_entry(i, chinese)}">{html.escape(group[0 if chinese else 1])}</a></li>' for i, group in enumerate(GROUPS))
     return f'<!doctype html><html lang="{"zh-CN" if chinese else "en"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{SERIES_NAMES[0 if chinese else 1]} · boluopai</title><link rel="canonical" href="{home}"><script>const stages={json.dumps(routes)};location.replace(stages[location.hash]||{json.dumps(home)});</script></head><body><h1>{SERIES_NAMES[0 if chinese else 1]}</h1><p><a href="{home}">{"全书总览" if chinese else "Book overview"}</a></p><ul>{links}</ul></body></html>'
 
 
@@ -325,7 +305,6 @@ def write_index(dist, title):
         if 'src="/library.js"' not in template:
             template = template.replace('</head>', '<script defer src="/library.js"></script></head>')
         pages = [(SERIES + suffix, SERIES_NAMES[0 if chinese else 1], index_body(chinese, title))]
-        pages.extend((stage_url(i, chinese), group[0 if chinese else 1], stage_body(i, chinese, title)) for i, group in enumerate(GROUPS))
         for destination, heading, body in pages:
             page = re.sub(r'<main[\s\S]*?</main>', lambda _: body, template, count=1)
             page = re.sub(r'<title>[\s\S]*?</title>', f'<title>{html.escape(heading)} · boluopai</title>', page, count=1)
@@ -340,6 +319,10 @@ def write_index(dist, title):
             output = dist / destination.lstrip('/') / 'index.html'
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_text(page)
+        for index in range(len(GROUPS)):
+            stage_alias = dist / stage_url(index, chinese).lstrip('/') / 'index.html'
+            stage_alias.parent.mkdir(parents=True, exist_ok=True)
+            stage_alias.write_text(redirect_page(stage_entry(index, chinese)))
         alias = dist / 'philosophy/yinyang' / suffix / 'index.html'
         alias.parent.mkdir(parents=True, exist_ok=True)
         alias.write_text(old_book_alias(chinese))

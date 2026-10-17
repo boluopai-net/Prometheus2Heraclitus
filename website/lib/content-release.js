@@ -179,8 +179,8 @@ export function rewriteCSS(text, path, hash, manifest) {
   return text.replace(/url\(\s*(["']?)([^)'"\s]+)\1\s*\)/gi, (_, quote, value) => `url(${quote}${resourceURL(value, path, hash, manifest)}${quote})`);
 }
 export function rewriteJS(text, path, hash, manifest) {
-  // These are the current two data dependencies; all other links remain navigation.
-  return text.replace(/(['"])(\/(?:repositories\/prometheus\/files\.json|wheel\/engine\.html))\1/g,
+  // Pin the wheel's engine dependency; all other links remain navigation.
+  return text.replace(/(['"])(\/wheel\/engine\.html)\1/g,
     (_, quote, value) => `${quote}${resourceURL(value, path, hash, manifest)}${quote}`);
 }
 export function validateDependencies(bytes, file, manifest) {

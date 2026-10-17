@@ -254,7 +254,7 @@ The header has one GitHub entrance alongside on-site philosophy, singing, and
 resources. The homepage's “Continue the conversation” heading links to the
 repository root. The retired Contact pages redirect there too. Full source,
 archive downloads, cloning, Issues and pull requests
-use GitHub's native public workflow. The website presents articles and four
+use GitHub's native public workflow. The website presents articles and reusable
 MIT Skill introductions linking to GitHub; it has no access application or download
 code form. Comments and replies use GitHub's native identity and moderation.
 The bilingual `comment_section` renderer keeps the giscus widget visible in a
@@ -307,8 +307,8 @@ bilingual prose in these two sources. Run
 topic routes: `start/`, `reading/`, `tools/`, `continuity/`, `practice/`, and
 `automation/` beneath `/getting-started/`, each with its own `en/` edition.
 The renderer groups the nine ordered source anchors into these topics. Desktop
-topic navigation, an expandable mobile menu, language switching, and topic
-previous/next links connect all 14 pages. The overview retains the old fragment
+topic navigation, a directly visible mobile topic list, language switching,
+and topic previous/next links connect all 14 pages. The overview retains the old fragment
 IDs as links into the corresponding topic pages. `dist/guide.css` owns their
 responsive presentation; generated pages are not independent prose sources.
 This is a practical resource, not an additional philosophy essay or Skill.
@@ -347,12 +347,12 @@ the library renderer generates the English philosophy, sequence, repository,
 and library entrances. Run the shared navigation refiner after the complete
 edition set exists so its language and section links resolve within that set.
 Both article renderers generate H2/H3 anchors from the complete Markdown.
-Philosophy book pages use separate cross-page book navigation on the left and
-current-page contents on the right at wide desktop widths. At narrower widths,
-book and current-page contents controls appear together before the title,
-using native disclosures with the book menu closed by default. Reference
-documents retain their shared
-left `reading_rail` and existing mobile placement. `scripts/commentaries.py`
+The philosophy overview uses cross-page book navigation on the left; essays
+also have current-page contents on the right at wide desktop widths. At
+narrower widths, essay contents and the book-menu control appear together
+before the title, using native disclosures with the book menu closed by
+default. Reference documents retain their shared left `reading_rail` and
+existing mobile placement. `scripts/commentaries.py`
 owns these navigation structures, `article.css` owns their responsive layout,
 and `library.js` moves the contents and marks the current section. Prose stays
 expanded. The tool map keeps its separate navigation layout. Full source prose
@@ -496,7 +496,7 @@ directives. The robots policy lets Google/Bing retrieve public documents to
 observe noindex and disallows other crawlers.
 This is discoverability control, not access control; verify the live HTML.
 
-The current owner selection licenses YinYang and original philosophical text under CC BY-NC-SA 4.0, permitting sharing and adaptations for noncommercial purposes only, with attribution, a license link, indication of changes, and ShareAlike. The four independent Skills use MIT. Photos, singing recordings, third-party material, and other separately designated material retain their own rights. The YinYang license reader uses the canonical package LICENSE. `dist/licenses/MIT.txt` is a legacy URL serving an accurate website licensing-scope notice, not a universal MIT grant.
+The current owner selection licenses YinYang and original philosophical text under CC BY-NC-SA 4.0, permitting sharing and adaptations for noncommercial purposes only, with attribution, a license link, indication of changes, and ShareAlike. The other reusable Skill packages use their package-local MIT licenses. Photos, singing recordings, third-party material, and other separately designated material retain their own rights. The YinYang license reader uses the canonical package LICENSE. `dist/licenses/MIT.txt` is a legacy URL serving an accurate website licensing-scope notice, not a universal MIT grant.
 
 `scripts/render-library.py` builds `/repositories/prometheus/` from an explicit
 shared GitHub repository checkout. Run:
@@ -517,16 +517,17 @@ and repositories landing page, leaving the singing section intact.
 
 The same command projects selected common essays into Chinese
 `/philosophy/SLUG/` and English `/philosophy/SLUG/en/` editions. The visible
-argument is “窃火，然后成为火 / Borrow Fire, Then Become Fire”: five stages
-with eighteen main articles and two focused branch articles. The landing
-shows five stage entrances, each opening its own bilingual introduction at
-`/philosophy/stages/{starting-point,understanding,encounter,formation,practice}/`
-with an `en/` edition. `content/philosophy/stage-introductions.json` owns the two
-plain introduction paragraphs per stage and language; the shared stage map and
-article order remain in `scripts/commentaries.py`. The old
-`/philosophy/yinyang/{en/}` URLs are small aliases: exact `#stage-1` through
-`#stage-5` links open the corresponding stage, with ordinary stage links also
-available without JavaScript. Branches return to the relevant continuation, and the
+argument is “窃火，然后成为火 / Borrow Fire, Then Become Fire”: five structural
+chapters with eighteen main articles and two focused branch articles. Its 42
+canonical pages are two overview editions and forty essay editions. Chapter
+headings link directly to their first essay; child links open the selected
+essay. There are no separate chapter introductions or introduction JSON source.
+`scripts/commentaries.py` owns the chapter map and article order. Twelve
+compatibility aliases retain the ten former `/philosophy/stages/SLUG/{en/}`
+URLs and two `/philosophy/yinyang/{en/}` URLs. Former stage URLs and exact
+`#stage-1` through `#stage-5` YinYang links resolve directly to the corresponding
+first essay, with ordinary links also available without JavaScript. Branches
+return to the relevant continuation, and the
 getting-started guide supplies a practical entrance without requiring every
 article to be read first.
 `scripts/commentaries.py` owns this shared route across source owners. Common
@@ -535,7 +536,7 @@ prose remains in `content/philosophy/`. Render the common library first, then
 both editions of the five site-authored articles with `render-article.py`,
 which resolves common navigation titles from their rendered editions. The
 library renderer calls `commentaries.write_index` to generate both book
-overviews, all ten stage introductions, and the legacy aliases. Render
+overviews and the twelve legacy aliases. Render
 reader-page entrances and the getting-started guide afterward. No prose is
 duplicated merely to place an article into the shared argument.
 

@@ -1,0 +1,225 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Model Conversation Relay · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=4ffe256fbbb9"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#freeze-the-ready-exchange">Freeze the ready exchange</a></li>
+<li><a href="#immutable-transport-evidence">Immutable transport evidence</a></li>
+<li><a href="#chatgpt-operation-adapters">ChatGPT operation adapters</a></li>
+<li><a href="#first-submission-and-interrupted-continuation">First submission and interrupted continuation</a></li>
+<li><a href="#one-exact-conversation-exchange">One exact conversation exchange</a></li>
+<li><a href="#discrete-waiting-for-web-generation">Discrete waiting for Web generation</a></li>
+<li><a href="#result-package">Result package</a></li>
+</ul>
+</div>
+</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><h1 id="model-conversation-relay">Model Conversation Relay</h1>
+<p>A relay keeps two voices distinct while making their exchange traceable. The
+request remains the caller's exact contribution; the response remains the
+other model's observed contribution. Carry each across the boundary with its
+origin intact, so the caller can judge what the answer means for the task.
+Transport establishes that this response belongs to this request at this
+conversation; interpretation and acceptance remain further judgments.</p>
+<p>Own one exact request/response exchange: exact exchange identity, ordered-turn
+reconciliation, response-turn completeness, wait/retry decisions, and at most
+one mutation attempt in flight. Native task/thread and an allowed currently
+selected controlled Browser carrier are conditional per-operation adapters.
+Mutation and observation adapters may differ; an
+observation adapter never submits or resends. Adapters return physical or
+native observations. The relay decides whether an observable response turn is
+complete enough to bind; this transport claim says nothing about semantic
+adequacy, agreement, evidence sufficiency, correctness, or task completion.
+The caller supplies its exact target binding and retains authority for outbound
+messages. Reuse actual authorization for this exchange; installing or testing this
+package does not authorize a submission. Read the installed <code>browser-relay</code>
+entrypoint completely when selecting its controlled Browser route. It is a
+conditional companion, available from the same public collection; native-only
+operations do not need it. See <a href="/repositories/prometheus/source/skills/model-conversation-relay/README.html">configuration and dependencies</a>.</p>
+<p>An installed host-specific provenance owner, such as <code>cloud-local-workflow</code>,
+may retain surrounding task evidence. It is optional, is not distributed in this
+collection, and is never required to use this relay. Without it, the caller's
+existing task records retain that provenance and first-request reconciliation.</p>
+<h2 id="freeze-the-ready-exchange">Freeze the ready exchange</h2>
+<p>This relay never creates or selects a destination. Before outbound mutation,
+require and freeze:</p>
+<ul>
+<li><code>exchange_id</code>;</li>
+<li>exact conversation identity plus caller-supplied target mode and readiness
+  evidence;</li>
+<li>exact request bytes and SHA-256;</li>
+<li>latest observed remote turn boundary or explicit absence boundary; and</li>
+<li>the current operation constraint, if any.</li>
+</ul>
+<p>A caller may attach <code>task_id</code>, <code>chat_creation_id</code>, Project-instruction identity,
+checkpoint identity, title, model-selection evidence, and other provenance to
+the receipt, but the generic relay entrypoint does not require an enclosing lifecycle's
+fields. Reject an unready, missing, guessed, substituted, or mode-ambiguous
+target; mutable or digest-mismatched request; or destination discovery. A title,
+URL without retained binding, or former Project membership is not target
+identity. The relay does not separately parse or require User Source, accepted
+Scheme, artifact, checkpoint purpose, question, local evidence, or authority
+fields. Those remain with the caller and are represented to relay only by exact
+target/readiness evidence, request bytes, and optional receipt annotations. Any
+creation/first-request operation performed before a conversation ID exists
+is outside this relay and must never be passed here as a guessed or pending
+target.</p>
+<h2 id="immutable-transport-evidence">Immutable transport evidence</h2>
+<p>Resolve a task-owned private storage location from the consumer before writing.
+Keep requests, responses, receipts, account bindings and continuation notes outside
+public packages, plugin caches and public repositories. Store only the evidence
+needed for this exchange under the actual data and retention authority. This
+package supplies no personal account, conversation, profile or storage binding.</p>
+<p>Before any mutation, write the exact frozen request to an immutable file and
+verify its SHA-256. The caller retains any relevant task, creation, Project,
+model-selection and source/object provenance around the exchange; the generic
+relay does not parse or duplicate those fields.</p>
+<p>After one exact response is bound, write one immutable JSON receipt containing
+exchange ID, conversation identity and target-mode evidence, request and
+response paths/digests, remote user/assistant turn identities, operation-adapter
+evidence, acknowledgement/in-flight reconciliation evidence, and Browser
+cleanup or release evidence when applicable. Verify and return the receipt path
+and SHA-256. The caller binds that receipt through its existing task handoff. No
+second transport ledger is required.</p>
+<h2 id="chatgpt-operation-adapters">ChatGPT operation adapters</h2>
+<p>For each observation or mutation operation, select the smallest currently
+capable adapter that can address the frozen exact target and return evidence
+required for that operation. Native task/thread and controlled Browser are both
+eligible when their current exact-target evidence and owner constraints permit
+the operation. Select the carrier from current host policy, actual capabilities,
+and the operation's needs while retaining the frozen target binding.
+Neither origin permits creation, target substitution, URL synthesis,
+or selection by title, recency, similarity, or former Project membership.
+Browser never bypasses a missing native authorization or tool boundary.</p>
+<p>For an exact ChatGPT advisory conversation, use a native <code>codex_app</code> adapter
+when the current host actually exposes that callable tool and its exact target
+binding is available. Inspect the currently callable schema and its target semantics first. For example,
+a host exposing this binding through <code>functions.exec</code> can read it with:</p>
+<pre><code class="language-js">const observed = await tools.mcp__codex_app__read_thread({
+  threadId: exact_conversation_id,
+  turnLimit: 20,
+});
+</code></pre>
+<p>Use <code>tools.mcp__codex_app__send_message_to_thread</code> only for a selected, actually
+authorized mutation operation and only with that exact <code>threadId</code>. Its current
+schema and authorization contract govern whether and how that operation is allowed;
+a readable native target does not establish send authority. Resolve deferred tools through
+the current host's supported discovery. A name in this example does not establish
+availability. Use integrations supported and authorized by the recipient’s current host;
+do not infer a usable adapter from a tool name.
+If the native operation is unavailable, use an already permitted
+controlled carrier or report that operation's concrete capability limit.
+For a Browser operation, follow the selected controlled
+carrier's owning instructions and pass exact destination, operation (<code>observe</code> or <code>submit</code>),
+frozen payload for <code>submit</code>, prior boundary, and lifecycle requirement. Read and
+use <code>browser-relay</code> only when that is the selected carrier. Browser returns
+physical observations and cleanup evidence only. The relay decides semantic
+turn binding, completion, waiting, and retry. Never persist a current task's
+transient browser/provider ID as general Skill policy.</p>
+<p>Host confirmation, login, credential, consent, and human-action boundaries
+remain with runtime owners. Creating a new conversation, changing its model, or
+changing account settings is outside this relay primitive.</p>
+<h2 id="first-submission-and-interrupted-continuation">First submission and interrupted continuation</h2>
+<p>Conversation creation and a first request sent by another owner precede this
+relay. Require its retained exact conversation binding, frozen request and last
+known attempt evidence. Reconcile that first submission before any follow-up or
+retry: if accepted, recover its matching user turn and response or continue waiting;
+if acceptance is uncertain, retain that uncertainty without sending again. Never
+recreate a conversation or repeat a first request to discover what happened.</p>
+<p>After interruption, restore the same exchange ID, request bytes and digest, exact
+target, prior ordered-turn boundary, acknowledgement and resend history, last
+observation, and pending wait decision from the caller's continuity. Observe the
+same target before the next mutation. Missing evidence is an unresolved boundary,
+not permission to reset attempt counts, adopt a nearby conversation or assume the
+request was never sent. Native and Browser observation can reconcile each other
+only when both establish that same target and ordered exchange.</p>
+<h2 id="one-exact-conversation-exchange">One exact conversation exchange</h2>
+<ol>
+<li>Verify the request digest immediately before a mutation attempt and
+   reconcile the latest ordered turn through any capable observation adapter.
+   If the request may already exist, bind its latest attempt before deciding
+   whether to wait or retry.</li>
+<li>Retain each operation-adapter identity in <code>transport_evidence</code>. Observation
+   never submits or resends. Before another mutation after any adapter may have
+   changed the target, reconcile ordered turns again.</li>
+<li>If the target reports running or paused, use the discrete waiting policy
+   below before observing again. Otherwise
+   submit exact frozen bytes without translation, normalization, summarization,
+   wrapping, or explanation. Keep at most one mutation attempt in flight.</li>
+<li>Any successful return from the selected mutation operation counts as
+   submission acknowledgement, even when it contains only target identity and
+   no remote turn identity, unless the adapter explicitly reports
+   non-acceptance or error. After acknowledgement, keep that attempt in flight
+   until the matching request/response turn becomes observable or the adapter
+   supplies explicit evidence that no submission was accepted. An idle target or
+   temporarily absent matching turn is observation lag, not resend eligibility.
+   If acknowledgement cannot be reconciled, return the uncertain transport
+   boundary rather than resend.</li>
+<li>A same-target exact resend is eligible only after explicit non-acceptance
+   evidence or after an observable matching request turn is followed, after
+   reconciliation, by a terminal or idle non-running target with no complete
+   assistant response, including a missing, interrupted, or truncated response.
+   Permit at most one exact resend for that observable terminal-response
+   boundary. Preserve exchange, target, <code>chat_creation_id</code>, and request digest.
+   Identity, authentication, challenge, consent, safety, ownership, digest, or
+   cleanup failure stops without substitution.</li>
+<li>Retain the exact response and evidence in the same calling-model turn, write
+   and verify the immutable receipt defined above, and return its path and digest.
+   Browser cleanup or release readback belongs in <code>cleanup_evidence</code>.</li>
+</ol>
+<h2 id="discrete-waiting-for-web-generation">Discrete waiting for Web generation</h2>
+<p>After submission reconciliation establishes an accepted request still generating,
+choose when to check again from the observed progress, elapsed time, expected
+remaining work, and the cost of noticing completion later. Estimate when another
+observation is likely to be useful, balancing response latency against local
+model usage. Reassess after each due observation: evidence of nearing completion
+can justify a shorter wait; substantial remaining work or little change can
+justify a longer one. Do not prescribe a fixed interval, initial sequence, or
+backoff ladder. Treat unavailable progress as uncertainty, not an invented
+percentage or a reason for rapid polling. This applies to advisory heavy work
+and Web behavior evaluations after Prompt or Skill edits alike. Initial submission
+reconciliation and an explicit user request to inspect now are separate from
+routine generation checks; an actual completion or error event can be handled
+when delivered.</p>
+<p>Between checks, let the host's supported passive wait or deferred wake-up carry
+the time, or continue independent useful work. Preserve the exact conversation,
+request/turn binding, last observation and its time, progress estimate with its
+uncertainty, and chosen next check time with a brief reason before yielding.
+Use existing task continuity or a small task-owned temporary note; update it
+after each check rather than creating a separate durable ledger. This note
+retains the waiting decision but does not itself schedule execution.
+Use the host's current scheduling and continuation contract; verify any scheduled
+wake-up before relying on it. A short tool timeout
+does not make another conversation read due. Avoid repeated screenshots, thread
+reads, refreshes, short model/tool polling loops, or ongoing reasoning merely to
+occupy the interval. Do not introduce a custom watcher or daemon. If no supported
+continuation can carry the wait, report that concrete limitation and retained
+pending exchange rather than pretending a future check is scheduled.</p>
+<p>At the due check, read the smallest evidence needed to distinguish running,
+complete, and actionable failure. While still running, retain the same request
+and choose the next useful check from the new evidence; elapsed time alone never
+justifies resubmission, restart, or a duplicate evaluation. On completion, consume
+and bind the response;
+on an actionable failure, follow the existing reconciliation and retry boundary.
+Retire any task-owned wake-up when its exchange is complete or cancelled.</p>
+<h2 id="result-package">Result package</h2>
+<pre><code class="language-text">exchange_id
+target_identity
+target_mode_evidence
+request_path
+request_sha256
+response_path
+remote_user_turn_id
+remote_assistant_turn_id
+remote_assistant_text
+remote_assistant_sha256
+transport_evidence
+cleanup_evidence
+receipt_path
+receipt_sha256
+</code></pre>
+<p>The calling model decides whether to persist, evaluate, forward, or reject the
+answer. The relay records a bound response turn and does not create a
+semantic-success scalar or a correctness/completion result.</p>
+<p>An optional installed host-specific provenance owner can add task, attributable
+user source, candidate/Plan, result, Project-instruction, model-selection and
+advice provenance around one exchange; otherwise the caller retains these in
+its existing task records. Preserve strongest evidence and exact missing proof. Do not choose a semantic follow-up,
+create a conversation, rewrite either side, start another model, add a
+coordinator, registry, state machine, queue, daemon, watcher, retry database, or
+new Browser runtime.</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>

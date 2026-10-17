@@ -78,6 +78,18 @@ def without_source_toc(source):
         for index, block in enumerate(blocks))
 
 
+def practice_source(creation, package, chinese):
+    """Compose the two canonical accounts without maintaining another prose copy."""
+    def body(source):
+        source = re.sub(r'^# [^\n]+\n+', '', source, count=1)
+        source = re.sub(r'^\[(?:Home|首页)\][^\n]*\n+', '', source, count=1)
+        source = re.sub(r'\n---\n+\[(?:Reading guide|返回阅读目录)\][^\n]*\s*$', '', source)
+        return without_source_toc(source).strip()
+    heading = '形成、使用与维护阴阳' if chinese else 'Forming, using, and maintaining YinYang'
+    seam = '采用与维护这套实现' if chinese else 'Adopting and maintaining this implementation'
+    return f'# {heading}\n\n{body(creation)}\n\n<span id="package-contract"></span>\n\n## {seam}\n\n{body(package)}\n'
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', type=Path, required=True)
@@ -115,7 +127,10 @@ def main():
     def source_text(path):
         text = overlays[path] if path in overlays else (repo / path).read_text()
         # Installation guidance belongs to the GitHub repository, not the reader.
-        return re.sub(r'<!-- repository-only:start -->[\s\S]*?<!-- repository-only:end -->\s*', '', text)
+        text = re.sub(r'<!-- repository-only:start -->[\s\S]*?<!-- repository-only:end -->\s*', '', text)
+        # These directory entrances are useful on GitHub, but repeat the library
+        # back link when projected inside that same library. Retain their prose.
+        return re.sub(r'\[(?:Documents & diagrams|文档与图示)\]\(https://boluopai\.net/repositories/prometheus/(?:en/)?\)', lambda match: match[0].split(']')[0][1:], text)
 
     def reader_path(path, english):
         suffix = Path(path).suffix
@@ -128,6 +143,8 @@ def main():
     # Only this repository's shared formation guide is included, never a private
     # situated package. Candidate/validation JSON and execution metadata are excluded.
     def url(path):
+        if path in {DOCS + 'skill-package.md', DOCS + 'skill-package.zh-CN.md'}:
+            return url(path.replace('skill-package', 'creation-method')) + '#package-contract'
         commentary = essay_url(path) or retired_url(path)
         if commentary:
             return commentary
@@ -161,7 +178,8 @@ def main():
         def replace(match):
             attr, original = match.group(1), html.unescape(match.group(2))
             parsed = urlsplit(original)
-            if original.startswith(GITHUB + '/blob/'):
+            public_repository_link = original.startswith(GITHUB + '/blob/')
+            if public_repository_link:
                 tail = original[len(GITHUB + '/blob/'):].split('/', 1)
                 target = tail[1].split('#')[0] if len(tail) == 2 else ''
             elif parsed.scheme or original.startswith(('#', '//', '/')):
@@ -174,7 +192,7 @@ def main():
             if target not in allowed:
                 parts = Path(target).parts
                 public_tool = len(parts) >= 2 and parts[0] == 'skills' and parts[1] in SKILLS
-                if (public_tool or target == 'website/README.md') and target in tracked:
+                if (public_repository_link or public_tool or target == 'website/README.md') and target in tracked:
                     new = GITHUB + '/blob/' + revision + '/' + quote(target, safe='/')
                 elif public_tool and any(p.startswith(target.rstrip('/') + '/') for p in allowed):
                     new = GITHUB + '/tree/' + revision + '/' + quote(target, safe='/')
@@ -185,12 +203,19 @@ def main():
                 return f'{attr}="{html.escape(new, quote=True)}"'
             new = url(reader_path(target, not source.endswith('.zh-CN.md')))
             if parsed.fragment:
-                new += '#' + parsed.fragment
+                new = new.split('#', 1)[0] + '#' + parsed.fragment
             return f'{attr}="{html.escape(new, quote=True)}"'
         return re.sub(r'(href|src)="([^"]+)"', replace, rendered)
 
     for path in sorted(allowed):
         if retired_url(path):
+            continue
+        if path in {DOCS + 'skill-package.md', DOCS + 'skill-package.zh-CN.md'}:
+            destination = url(path)
+            alias = redirect_page(destination.split('#', 1)[0]).replace(
+                '+location.hash', '+(location.hash||"#package-contract")')
+            alias = alias.replace('href="' + destination.split('#', 1)[0] + '"', 'href="' + destination + '"')
+            write('source/' + str(Path(path).with_suffix('.html')), alias)
             continue
         if not path.endswith('.md'):
             target = output / 'source' / path
@@ -203,6 +228,9 @@ def main():
                 shutil.copyfile(repo / path, target)
             continue
         source = source_text(path)
+        practice = path in {DOCS + 'creation-method.md', DOCS + 'creation-method.zh-CN.md'}
+        if practice:
+            source = practice_source(source, source_text(path.replace('creation-method', 'skill-package')), '.zh-CN.md' in path)
         if source.startswith('---\n'):
             source = source.split('---\n', 2)[2]
         source = without_source_toc(source)
@@ -222,6 +250,13 @@ def main():
         rendered = re.sub(r'<p>\s*(?:·\s*)*</p>', '', rendered)
         rendered = rewrite_links(rendered, path)
         chinese = '.zh-CN.md' in path
+        if practice:
+            # Append attribution after link projection so both exact authored
+            # sources remain inspectable on GitHub rather than looping here.
+            owners = [path, path.replace('creation-method', 'skill-package')]
+            labels = ['创制与实现原文', '包结构与更新约定原文'] if chinese else ['Formation and realization source', 'Package and update contract source']
+            sources = ' · '.join(f'<a href="{GITHUB}/blob/{revision}/{owner}">{label}</a>' for owner, label in zip(owners, labels))
+            rendered += f'<p class="reader-provenance">{sources} · <a href="{BASE}license/{"" if chinese else "en/"}">CC BY-NC-SA 4.0</a></p>'
         counterpart = path.replace('.zh-CN.md', '.md') if chinese else path[:-3] + '.zh-CN.md'
         switch = f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{url(counterpart)}">{"English" if chinese else "中文"}</a>' if counterpart in allowed else f'<span class="edition-note">{"原文版本" if chinese else "Original edition"}</span>'
         source_note = '<p class="reader-provenance">本站中文阅读版</p>' if path in overlays else ''
@@ -229,7 +264,8 @@ def main():
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
         body = f'''<main id="main" class="wrap library-reader commentary">{reading_rail(md.toc, chinese)}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
-        write('source/' + str(Path(path).with_suffix('.html')), shell(title(path), body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
+        page_title = ('形成、使用与维护阴阳' if chinese else 'Forming, using, and maintaining YinYang') if practice else title(path)
+        write('source/' + str(Path(path).with_suffix('.html')), shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
 
     # Retain retired reading URLs as small aliases, even after source deletion.
     for name in RETIRED:
@@ -252,8 +288,7 @@ def main():
                 ('docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
             ]),
             ('形成实践', 'Develop a practice', '从自己的问题出发，把理解发展为可使用、可修订的安排。', 'Begin with your own questions and give understanding a usable, revisable form.', [
-                ('docs/creation-method', '创制与实现', 'Creation and realization', '理解个人哲学、伙伴关系与实际环境怎样共同形成。', 'See how personal philosophy, the counterpart relation, and an actual environment develop together.'),
-                ('docs/skill-package', '共享 Skill 与个人哲学', 'Shared Skills and personal philosophy', '区分可复用的共同材料与自己的个人内容，了解怎样采用和维护。', 'Distinguish reusable shared material from personal content, and understand adoption and maintenance.'),
+                ('docs/creation-method', '形成、使用与维护阴阳', 'Forming, using, and maintaining YinYang', '从哲学、伙伴关系与环境的共同形成，进入个人版的使用、公共更新与私人边界。', 'Follow philosophy, the counterpart relation, and environmental realization into situated use, common updates, and private boundaries.'),
             ]),
         ]
         grouped = []
@@ -290,19 +325,11 @@ def main():
     if missing:
         raise ValueError('Missing canonical essay editions: ' + ', '.join(sorted(missing)))
     write_index(dist, title)
-    browser_urls = {}
     for path in sorted(allowed):
         if path.endswith('.py') or Path(path).name == 'LICENSE' or Path(path).name.startswith('LICENSE-'):
             preview_path = 'browse/' + path + '.html'
-            browser_urls[path] = BASE + quote(preview_path, safe='/')
-            preview = '<main id="main" class="wrap library-reader"><a class="back" href="/repositories/files/en/#files-title">Browse files</a><article class="document"><h1>' + html.escape(Path(path).name) + '</h1><pre><code>' + html.escape((repo / path).read_text()) + '</code></pre></article></main>'
+            preview = '<main id="main" class="wrap library-reader"><a class="back" href="' + GITHUB + '/blob/' + revision + '/' + quote(path, safe='/') + '">GitHub source</a><article class="document"><h1>' + html.escape(Path(path).name) + '</h1><pre><code>' + html.escape((repo / path).read_text()) + '</code></pre></article></main>'
             write(preview_path, shell(Path(path).name, preview, 'en'))
-        else:
-            browser_urls[path] = url(path)
-    (output / 'files.json').write_text(json.dumps({
-        'revision': revision,
-        'files': [{'path': path, 'url': browser_urls[path], 'urls': {lang: browser_urls[reader_path(path, english)] for lang, english in [('en', True), ('zh-CN', False)]}} for path in sorted(allowed)],
-    }, ensure_ascii=False))
     render_resource_pages(dist, shell)
     print(f'Rendered {sum(p.endswith(".md") for p in allowed)} documents and exact diagram viewers at revision {revision}.')
 

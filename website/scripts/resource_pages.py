@@ -1,6 +1,6 @@
-"""Resource overview and its dedicated Skills and file-browser destinations."""
+"""Resource overview and its dedicated Skills destinations."""
 from public_skill_pages import GITHUB, cards
-from repository_panel import comments, file_browser
+from repository_panel import comments
 
 
 def render(dist, shell):
@@ -14,9 +14,6 @@ def render(dist, shell):
         ('skills', 'Skills', 'Skills', 'skills-wheel.svg',
          '浏览研究、教学、创作和环境维护等方法，了解各自用途与配套资源。',
          'Explore methods for research, teaching, creation, and environment maintenance, with their purposes and supporting resources.'),
-        ('repositories/files', '浏览文件', 'Browse files', 'folder.svg',
-         '按文件夹查看公开阅读版，搜索文件名或路径，打开需要的文档。',
-         'Explore the public reading edition by folder, search filenames or paths, and open the documents you need.'),
     ]
     for english in (False, True):
         def t(zh, en): return en if english else zh
@@ -37,6 +34,3 @@ def render(dist, shell):
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
         skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div>{cards(english)}</main>'
         write('skills', 'Skills', skill_body)
-        file_body = f'<main id="main" class="wrap collection"><div class="collection-heading"><img class="motif collection-motif" src="/motifs/folder.svg" alt="" aria-hidden="true">{back}<h1 id="files-title">{t("浏览文件", "Browse files")}</h1></div>{file_browser(english)}</main>'
-        write('repositories/files', t('浏览文件', 'Browse files'), file_body,
-              '<link rel="stylesheet" href="/repository.css"><script type="module" src="/repository.js"></script>')

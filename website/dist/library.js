@@ -29,6 +29,24 @@ document.querySelectorAll('.document').forEach(reader => {
 });
 // Book navigation crosses pages; this separate navigation follows the page itself.
 // Reference readers retain their existing rail and mobile placement.
+const bookNavigation = document.querySelector('.book-navigation nav');
+const revealCurrentBookPage = nav => {
+  const current = nav?.querySelector('[aria-current="page"]');
+  if (!current || !nav.clientHeight) return;
+  const offset = current.getBoundingClientRect().top - nav.getBoundingClientRect().top;
+  if (offset < 0 || offset + current.offsetHeight > nav.clientHeight)
+    nav.scrollTop += offset - (nav.clientHeight - current.offsetHeight) / 2;
+};
+if (bookNavigation) {
+  requestAnimationFrame(() => revealCurrentBookPage(bookNavigation));
+  document.fonts.ready.then(() => revealCurrentBookPage(bookNavigation));
+  window.addEventListener('resize', () =>
+    requestAnimationFrame(() => revealCurrentBookPage(bookNavigation)));
+  const menu = document.querySelector('.book-mobile-menu');
+  menu.addEventListener('toggle', () => {
+    if (menu.open) revealCurrentBookPage(menu.querySelector('nav'));
+  });
+}
 const contents = document.querySelector('.commentary .reader-toc');
 if (contents) {
   const book = document.querySelector('.philosophy-book');
@@ -41,7 +59,10 @@ if (contents) {
       const heading = document.querySelector('.commentary .document h1');
       (heading.closest('.article-heading') || heading).after(contents);
     }
-    if (book) contents.open = desktop.matches;
+    if (book) {
+      contents.open = desktop.matches;
+      contents.querySelector('summary').tabIndex = desktop.matches ? -1 : 0;
+    }
   };
   syncContents();
   desktop.addEventListener('change', syncContents);

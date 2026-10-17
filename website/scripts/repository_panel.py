@@ -20,23 +20,8 @@ def comments(english=False, kind='YinYang'):
 def with_comments(page, english=False, kind='YinYang'):
     import re
     page = re.sub(r'<!-- COMMENTS START -->[\s\S]*?<!-- COMMENTS END -->', '', page)
-    page = page.replace('<script defer src="/repository.js"></script>', '<script type="module" src="/repository.js"></script>')
-    for asset in ('<link rel="stylesheet" href="/repository.css">', '<script type="module" src="/repository.js"></script>', '<script type="module" src="/giscus-comments.js"></script>'):
+    page = re.sub(r'<script\b[^>]*src="/repository\.js"[^>]*></script>', '', page)
+    for asset in ('<link rel="stylesheet" href="/repository.css">', '<script type="module" src="/giscus-comments.js"></script>'):
         if asset not in page:
             page = page.replace('</head>', asset + '</head>')
     return page.replace('</main>', comments(english, kind) + '</main>', 1)
-
-
-def file_browser(english=False):
-    def t(zh, en):
-        return en if english else zh
-
-    return f'''<div class="repository-tools" data-repository-tools data-language="{'en' if english else 'zh-CN'}">
-<section class="repository-tool" aria-labelledby="files-title">
-<p class="section-note">{t('按文件夹浏览这份公开阅读版本。', 'Explore folders in this public reading edition.')}</p>
-<label for="file-search">{t('查找文件', 'Find a file')}</label><input id="file-search" type="search" placeholder="{t('文件名或路径', 'Filename or path')}" autocomplete="off">
-<nav class="file-breadcrumb" aria-label="{t('文件夹路径', 'Folder path')}" data-file-breadcrumb></nav>
-<p class="repo-status" role="status" data-file-status></p><ul class="file-list" data-file-list></ul>
-<noscript><p>{t('文件浏览需要 JavaScript；也可以使用上方阅读入口。', 'File browsing requires JavaScript; the reading link above remains available.')}</p></noscript>
-</section>
-</div>'''

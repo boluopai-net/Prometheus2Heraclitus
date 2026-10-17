@@ -60,9 +60,9 @@ test('public Worker: immutable releases, authority, closure and atomic activatio
       assert.equal((await api(`/manifests/${release.digest}`,'PUT',release.bytes)).status,422,path);
     }
   });
-  const first = payload({'/index.html':'<!doctype html><link rel="canonical" href="https://boluopai.net/"><link rel="stylesheet" href="/css/a.css"><a href="/next/">Next</a><img src="/art/a.png" srcset="/art/a.png 1x, /art/b.png 2x"><iframe src="/wheel/engine.html"></iframe><object data="/art/a.png"></object><script src="/repository.js"></script><script src="/wheel/picker.js"></script><script src="https://giscus.app/client.js"></script>',
+  const first = payload({'/index.html':'<!doctype html><link rel="canonical" href="https://boluopai.net/"><link rel="stylesheet" href="/css/a.css"><a href="/next/">Next</a><img src="/art/a.png" srcset="/art/a.png 1x, /art/b.png 2x"><iframe src="/wheel/engine.html"></iframe><object data="/art/a.png"></object><script src="/wheel/picker.js"></script><script src="https://giscus.app/client.js"></script>',
     '/css/a.css':'@font-face{src:url(../fonts/a.woff2)}', '/fonts/a.woff2':'font','/art/a.png':'image-a','/art/b.png':'image-b',
-    '/wheel/engine.html':'<p>engine</p>','/wheel/picker.js':"fetch('/wheel/engine.html')",'/repository.js':"request('/repositories/prometheus/files.json')",'/repositories/prometheus/files.json':'{}'});
+    '/wheel/engine.html':'<p>engine</p>','/wheel/picker.js':"fetch('/wheel/engine.html')"});
   await upload(first);
   await t.test('missing objects, wrong sizes, wrong digests and unclosed resources cannot validate', async () => {
     const bad = payload({'/index.html':'<img src="/missing.png">'}); await upload(bad);
@@ -107,7 +107,6 @@ test('public Worker: immutable releases, authority, closure and atomic activatio
     assert.ok(html.includes('href="/next/"')); assert.ok(html.includes('https://giscus.app/client.js'));
     assert.ok(html.includes('href="https://boluopai.net/"'));
     assert.ok((await (await call(`${prefix}/css/a.css`)).text()).includes(`${prefix}/fonts/a.woff2`));
-    assert.ok((await (await call(`${prefix}/repository.js`)).text()).includes(`${prefix}/repositories/prometheus/files.json`));
     assert.ok((await (await call(`${prefix}/wheel/picker.js`)).text()).includes(`${prefix}/wheel/engine.html`));
     assert.equal((await call(`${prefix}/historical-private-download`)).status,404);
     assert.equal((await call(`${prefix}/%252e%252e/private`)).status,404);

@@ -42,7 +42,7 @@ def navigation(current, english):
     links = [(None, 'Overview' if english else '总览')] + [(t[0], t[2] if english else t[1]) for t in topics]
     items = ''.join(f'<li><a href="{route(slug, english)}"' + (' aria-current="page"' if slug == current else '') + f'>{html.escape(title)}</a></li>' for slug, title in links)
     nav = f'<nav aria-label="{label}"><ul>{items}</ul></nav>'
-    return f'<aside class="guide-sidebar">{nav}</aside><details class="guide-mobile-menu"><summary>{label} · {html.escape(dict(links)[current])}</summary>{nav}</details>'
+    return f'<aside class="guide-sidebar">{nav}</aside><div class="guide-mobile-menu">{nav}</div>'
 
 
 for english in (False, True):

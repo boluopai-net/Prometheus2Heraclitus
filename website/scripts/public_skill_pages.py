@@ -93,6 +93,15 @@ for name, zh, en, description_zh, description_en, use_zh, use_en in ADDITIONAL_S
                    '包含完整方法及配置说明；具体资源、脚本、配套 Skill 与外部工具见包内 README。保留配套关系，按需安装相关包，并绑定自己的环境。',
                    'Includes the method and configuration guidance. The package README specifies resources, scripts, companion Skills, and external tools. Install relevant companions and bind your own environment.')
 
+SKILLS['model-conversation-relay'] = (
+    '模型对话接续', 'Model Conversation Relay',
+    '接续已绑定的 ChatGPT 咨询会话，核对、等待或提交准确的已授权请求，并保留原始回复与传输回执。',
+    'Continue an already bound ChatGPT advisory conversation: inspect, wait, or submit an exact authorized request, retaining the original response and transport receipt.',
+    '已有准确的会话与模式绑定，需要核对先前提交、等待回复、恢复被打断的接续，或发送一次已授权的后续请求时使用。传输完成不代表答案正确，解释与任务判断仍由调用方承担。',
+    'Use it with an exact conversation and mode binding to reconcile a prior submission, wait for a response, recover an interrupted exchange, or send one authorized follow-up. Transport completion does not establish answer correctness; interpretation and task judgment remain with the caller.',
+    '包含完整方法、中英文使用说明、MIT 许可与客户端发现元数据，覆盖提交核对、中断恢复、自适应等待和不可改写的回执。使用者提供准确的目标、请求、先前回合证据与私有任务存放位置，并绑定实际可用的原生会话适配器或受控浏览器；只有选用浏览器路线时才需要配套的 Browser Relay。包不附带账号、浏览器控制器或消息发送授权。',
+    'Includes the complete method, bilingual guides, MIT license, and client discovery metadata, covering submission reconciliation, interruption recovery, adaptive waiting, and immutable receipts. Supply the exact target, request, prior-turn evidence, and private task storage, together with an available native conversation adapter or controlled browser. Browser Relay is required only for the browser route. No account, browser controller, or authority to send messages is bundled.')
+
 
 def cards(english=False):
     index = 1 if english else 0
@@ -117,6 +126,7 @@ def render_pages(dist, shell, revision):
                 'research': t('“调查这个产品今天是否支持我的工作流程，并比较可用方案与证据。”', '“Investigate whether this product supports my workflow today, comparing available approaches and evidence.”'),
                 'task-inquiry': t('“这份报告和仪表盘结果不同，找出能解释差异的证据。”', '“This report differs from the dashboard; find evidence that can explain the discrepancy.”'),
                 'prompt-and-skill-lifecycle': t('“审查这套 Skill 的指令、维护责任与交付，确认消费者能发现并使用它。”', '“Audit this Skill’s instructions, ownership, and delivery, and verify its consumer can discover and use it.”'),
+                'model-conversation-relay': t('“继续这个已经绑定的咨询会话：先核对最新回合与先前提交，再按已授权的请求接续，并保存原始回复与回执。”', '“Continue this already bound advisory conversation: reconcile the latest turns and prior submission, proceed with the authorized request, and retain the original response and receipt.”'),
             }.get(name, t('“请按这个 Skill 帮我处理当前任务，先核对需要的配套方法与实际工具。”', '“Use this Skill for my task, first checking the companion methods and actual tools it needs.”'))
             body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(info[2 + i])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
             target = dist / 'tools' / name / ('en' if english else '') / 'index.html'

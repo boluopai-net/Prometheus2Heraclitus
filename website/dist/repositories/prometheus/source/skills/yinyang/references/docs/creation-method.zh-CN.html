@@ -1,13 +1,16 @@
-<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yinyang 元 harness 的创制与实现 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=c7201811c193"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
+<!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>形成、使用与维护 Yinyang · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=7021227fa798"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=4ffe256fbbb9"><link rel="stylesheet" href="/site.css?v=0bd14184b6c5"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
 <ul>
 <li><a href="#从意象到可以工作的关系">从意象到可以工作的关系</a></li>
 <li><a href="#让实现回应理解">让实现回应理解</a></li>
 <li><a href="#给理解一个可读的载体">给理解一个可读的载体</a></li>
 <li><a href="#在主张实际涉及的尺度上判断结果">在主张实际涉及的尺度上判断结果</a></li>
+<li><a href="#采用与维护这套实现">采用与维护这套实现</a></li>
+<li><a href="#公共内容与情境化内容">公共内容与情境化内容</a></li>
+<li><a href="#投影公共变更">投影公共变更</a></li>
+<li><a href="#私人与公开边界">私人与公开边界</a></li>
 </ul>
 </div>
-</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="阴阳元-harness-的创制与实现">Yinyang 元 harness 的创制与实现</h1>
-<p><a href="/repositories/prometheus/source/skills/yinyang/README.zh-CN.html">首页</a> · <a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">Yinyang 方法</a> · </p>
+</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="形成使用与维护阴阳">形成、使用与维护 Yinyang</h1>
 <p><strong>元 harness</strong> 使工作 harness 的目的与关系能够被解释和修订。harness 包含提示词、
 Skills、hooks、角色、模型选择、工具及周围的工作环境。它的方法已经预设了某种理解：谁的目的重要，哪些对象相关，以及什么支持一次判断。Yinyang 展开这些本体论与认识论前提，给它们一个可用载体；专门 Skills 贡献方法与知识，也能修正这些前提。在<strong> Prometheus2Heraclitus</strong> 中，这些贡献共同工作。</p>
 <p>创作面对的问题，是怎样让哲学或文学中的理解在环境中实际发生作用。下面的方法连接意象、借它理解的过程与关系、相应的计算表述，以及行为可以被考察的安排。它的目的，是<a href="/philosophy/stealing-fire/">窃火</a>论述中的培养：借助可用的生成能力，通过实践发展自己的理解、判断与能动性。这份安排给一个人的生活带来什么可能性，使这种创作有了意义。</p>
@@ -30,10 +33,61 @@ Skills、hooks、角色、模型选择、工具及周围的工作环境。它的
 <p>当结果改变后续工作的条件时，这就是递归演进：方法改变环境使什么可被取得、什么能够行动，由此形成的经验可以修订方法，也可以修订赋予它方向的本体论和认识论。harness 能够通过证据、记忆、提问和检查安排实现认识论上的选择，因此这些层次区分的是贡献，并非互斥的文件种类。保留下来的理解与工作手段，成为下一次相遇可以使用的个人资产。返回的过程需要向相反证据开放：只选择符合预期结果的循环，也可能稳定一种误解。发展可以要求替换或删除，其价值需要实际后果来支持，不能用修改次数或产物数量的增加代替。</p>
 <h2 id="给理解一个可读的载体">给理解一个可读的载体</h2>
 <p>Yinyang 当前的实现给理解以两个尺度。共同文章展开哲学与意象；五份处境文件凝练实际协作所需的理解：相遇、用户模型、伙伴与关系、使用及来源。它们给模型以认识参与者及其依据的入口，长篇论述则保留凝练描述无法容纳的理由与联系。私人支撑来源保存有关的个人证据。</p>
-<p><a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">Skill 入口</a>把这些资源接到使用模型。它的读取约定让完整、当前的处境描述在实质工作前可用，进一步阅读则跟随问题。模型从获授权材料和实际工作发展描述；分发文件承载形成指引，而非复制或虚构的画像。<a href="/repositories/prometheus/source/skills/yinyang/references/docs/skill-package.zh-CN.html">包结构说明</a>解释五个固定槽位与公共、私人内容的边界，<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">形成与修订 Yinyang</a> 展开描述怎样形成和纠正。维护当前实现时保持共同内容一致；独立创作可以选择另一种形式。</p>
+<p><a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">Skill 入口</a>把这些资源接到使用模型。它的读取约定让完整、当前的处境描述在实质工作前可用，进一步阅读则跟随问题。模型从获授权材料和实际工作发展描述；分发文件承载形成指引，而非复制或虚构的画像。<a href="/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.zh-CN.html#package-contract">包结构说明</a>解释五个固定槽位与公共、私人内容的边界，<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">形成与修订 Yinyang</a> 展开描述怎样形成和纠正。维护当前实现时保持共同内容一致；独立创作可以选择另一种形式。</p>
 <p>可读的理解还需要进入工作环境。全局指令可以把它接到使用者，提示词、界面和工具实现选定的关系。这些载体保留实际的指令权限和许可边界。<a href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.zh-CN.html">在实际环境中实现 Yinyang</a> 把理解落实到环境并检查效果。被提出的关系由此取得文字描述之外的实际后果。</p>
 <h2 id="在主张实际涉及的尺度上判断结果">在主张实际涉及的尺度上判断结果</h2>
 <p>回读 Skill 与受影响的 harness，沿入口找到相关资源，并检查实现意图改变的行为。通过资源是否可达检查组织，通过可观察的结果检查实现，通过实际工作判断协作是否合适。人的发展则逐渐显现在理解、生成、判断与行动的变化中。</p>
 <p>让结果可以继续被纠正，同时不把每一次使用变成重写整套理解。<a href="/repositories/prometheus/source/skills/yinyang/MODEL.html">MODEL.md</a> 承载 Yinyang 包的维护与发布边界。</p>
-<hr />
-<p><a href="/repositories/prometheus/source/skills/yinyang/README.zh-CN.html">返回阅读目录</a> · <a href="/philosophy/stealing-fire/">窃火</a></p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
+<p><span id="package-contract"></span></p>
+<h2 id="采用与维护这套实现">采用与维护这套实现</h2>
+<p>本说明维护这套 Yinyang 实现的文件与更新约定。集合名为<strong> Prometheus2Heraclitus</strong>，其中完整的 Yinyang 成员位于 <code>skills/yinyang/</code>。<code>references/docs/</code> 与
+<code>references/diagrams/</code> 是配套资源，不是独立 Skills。从公开仓库取得完整目录，通过实际使用环境的 Skill 机制提供给模型。网站提供阅读；克隆仓库和 GitHub 原生 ZIP 保留完整源内容。</p>
+<p>Yinyang 是一项已经展开的哲学与形成方法。读者可以采用、组合选定资源，也可以创作不同作品。<a href="/philosophy/example-and-commons/">从这个例子开始，写出自己的东西</a>展开这份邀请。哲学家的思想可以支持框架，不能替代实际用户的描述。</p>
+<h2 id="公共内容与情境化内容">公共内容与情境化内容</h2>
+<p>沿用这套实现的分发副本与个人副本，具有相同结构和字节一致的公共内容。五个固定路径在两者中职责相同：分发文件提供形成指引，个人文件承载对实际的人及协作有根据的描述。</p>
+<table>
+<thead>
+<tr>
+<th>固定情境槽位</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>references/encounter.md</code></td>
+<td>凝练且可用的相遇与目的。</td>
+</tr>
+<tr>
+<td><code>references/models.md</code></td>
+<td>展开的用户模型，包含范围与不确定性。</td>
+</tr>
+<tr>
+<td><code>references/relationship.md</code></td>
+<td>伙伴模型、关系、合作与纠正。</td>
+</tr>
+<tr>
+<td><code>references/usage.md</code></td>
+<td>实际环境使用与工作分配。</td>
+</tr>
+<tr>
+<td><code>references/sources.md</code></td>
+<td>来源维护者索引与私人出处入口。</td>
+</tr>
+</tbody>
+</table>
+<p>采用时，根据相关且获授权的材料形成全部五份描述，整理必要私人支撑。模型承担写作，用户不必亲自维护文件。明确的未知可以是真实的情境化内容；未改写模板、复制画像和虚构人物不构成已形成的个人版。检查融贯、根据、可取得的证据，以及实际对话模型能否在使用入口读取并使用这些描述。后续修订只需改变受影响内容。</p>
+<p><code>references/personal/</code> 保留有用的私人支撑材料与专题出处。文件名跟随实际证据，没有普遍文件清单，也不要求为每篇文章建立空白对应页。原件和较长历史可留在既有维护位置，通过有访问边界的引用取得。哲学正文只维护一份：私人对应页链接公共论证并保存私人依据，不复制第二套理论。</p>
+<p>五个槽位和 <code>references/personal/</code> 之外的一切都是公共内容：主入口、读者版、方法、文章、图示、阅读地图、管理文件、脚本与 OpenAI YAML 适配文件。共享 GitHub 包维护这些内容。<a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">主入口</a>维护初始阅读，另有<a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">中文阅读版</a>；<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">形成与修订</a>维护形成，<a href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.zh-CN.html">环境适配</a>维护实际实现。</p>
+<h2 id="投影公共变更">投影公共变更</h2>
+<p><code>scripts/sync-common.py</code> 默认检查公共源内容的投影。<code>--apply</code> 把公共文件投影到目标，保留五个情境槽位和 <code>references/personal/</code> 中的一切。它不推断一个人、不导出私人文件，也不发布到运行环境。</p>
+<p>新的个人版从完整共享副本开始，再形成私人描述。用明确包目录比较：</p>
+<pre><code class="language-bash">python3 /path/to/shared/yinyang/scripts/sync-common.py \
+  --source /path/to/shared/yinyang --target /path/to/situated/yinyang
+</code></pre>
+<p>加上 <code>--apply</code> 复制变化，再运行比较。目标中未对应文件和公共路径符号链接会阻止复制；检查归属，不静默删除。既有本地或私人 Web 维护者安装和发布投影源，再回读实际使用处。</p>
+<p>公共内容的一致性保留一项接收方本地的发现标记例外：若目标 <code>SKILL.md</code> 的单行
+<code>description</code> 已以「用户自制：」开头，投影时保留这个前缀，并用公共源替换其余描述；没有该标记的目标不会被加上。其他公共字节与文件模式仍由源维护；公开包不会把自己标为接收方自制。</p>
+<p>字节一致适用于选择持续采用公共更新的副本。独立替换哲学或组织时，在自己的来源处保留作品并维护连贯引用；即使仍采用五槽位格式，也不要用本公共包覆盖它。</p>
+<h2 id="私人与公开边界">私人与公开边界</h2>
+<p>个人描述即使经过形式化或面向模型书写，也仍属于私人内容。私人引文、传记、心理和健康记录、关系叙述、账户信息、私人路径、对话标识和未发表手稿留在实际维护位置。一般化抽象不授权公开能够重建私人来源的链接。</p>
+<p>只有获授权的可复用认识回到集合。Yinyang 原创材料采用 CC BY-NC-SA 4.0，其他独立成员保留各自 MIT 许可。权限、署名与来源审查遵循<a href="/repositories/prometheus/source/README.zh-CN.html">集合说明</a>及实际发布维护者。私人改编不必公开。</p><p class="reader-provenance"><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/5fb9577ea3696b6fd2bb276898cea4d93e7e969c/skills/yinyang/references/docs/creation-method.zh-CN.md">创制与实现原文</a> · <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/5fb9577ea3696b6fd2bb276898cea4d93e7e969c/skills/yinyang/references/docs/skill-package.zh-CN.md">包结构与更新约定原文</a> · <a href="/repositories/prometheus/license/">CC BY-NC-SA 4.0</a></p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
