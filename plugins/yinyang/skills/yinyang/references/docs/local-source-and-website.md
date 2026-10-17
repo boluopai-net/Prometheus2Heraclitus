@@ -44,7 +44,7 @@ uses the distinctions and how their results correspond to observations.
 Simulation examines consequences under the model's assumptions; actual use
 tests whether those assumptions and their realization serve the purpose. The
 shared physical basis supplies neither these bridges nor a feasible computation.
-[World, process, and expression](world-and-expression.md#a-bounded-computational-example-simulating-a-cooling-experiment)
+[A bounded computational example: simulating a cooling experiment](world-and-expression.md#a-bounded-computational-example-simulating-a-cooling-experiment)
 develops this passage through a cooling experiment; the
 [layers diagram](../diagrams/layers.html) presents its relationships.
 
@@ -261,8 +261,7 @@ to come from, a form others can inspect, and consequences that can revise it.
 
 The interaction, its record, and its explanation contribute differently: an
 event happens, a partial record supplies evidence, and an explanation proposes
-why it happened. Further use can correct that explanation. The
-[experimental-philosophy essay](embodied-experimental-philosophy.md) develops
+why it happened. Further use can correct that explanation. [Embodied Experimental Philosophy](embodied-experimental-philosophy.md) develops
 how to make these returns discriminate among interpretations.
 
 ## Keeping the loop current
@@ -306,8 +305,6 @@ A semantic change may therefore need a linked revision across the website,
 private models, and local user-authored Skills. Their opening spirit and
 concrete methods both need to express the new relation. A change of quotation
 marks or an equivalent link label usually stays at its presentation boundary.
-The [adaptation method](../harness-adaptation.md#choose-the-focus-and-trace-both-directions)
-explains how to carry that distinction through actual work.
 
 ## Coherence keeps the differences connected
 

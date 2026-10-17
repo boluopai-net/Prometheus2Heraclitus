@@ -13,7 +13,7 @@ can represent its objects, states, relations, and changes, and simulate relevant
 consequences when useful. Person and language model form the question and this
 model together, divide explicit reasoning, construction, and observation by
 their actual capabilities, and revise through the same continuing exchange.
-[World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+[Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops the passage from world to computational model. Here the question is
 how to form and test such models, rather than define computation by a method
 of hypothesis formation.
@@ -34,7 +34,7 @@ the answers it obtains. The program example below makes this movement concrete.
 
 Intuition is more than a starting point before candidate generation. Through preference it recognizes, filters, combines, and rejects during development, allowing some possibilities to continue while others leave the current view. Broad reading and embodied perception supply new relations, so selection and generation can propel each other. Keeping many meaningful possible worlds available is compatible with this selection; the danger is fixing one view as the only answer before understanding consequential differences among the possibilities.
 
-Sufficient exploration is relative to the question and its consequences: whether important alternatives that could change the judgment have become visible, which disagreements need further material, and when there is enough support to act. This gives exploration a direction and a stopping condition. Formalization contributes when relations need clarification, consequences need verification, or a work needs realization. An initial unfolding of relations gives it something meaningful to articulate and check. [Participation, access, and support](participation-and-support.md#why-organize-participation-this-way) explains how this arrangement serves the cultivation of intuition, the senses, and broad reading.
+Sufficient exploration is relative to the question and its consequences: whether important alternatives that could change the judgment have become visible, which disagreements need further material, and when there is enough support to act. This gives exploration a direction and a stopping condition. Formalization contributes when relations need clarification, consequences need verification, or a work needs realization. An initial unfolding of relations gives it something meaningful to articulate and check. [Why organize participation this way](participation-and-support.md#why-organize-participation-this-way) explains how this arrangement serves the cultivation of intuition, the senses, and broad reading.
 
 A relationship can become recognizable through an analogy, scene, image, or sense of mismatch before a complete sentence is available. Expression unfolds it through return, correction, and changes of vocabulary. A fragment can carry several developing relations, and different reconstructions can bring different parts into focus. Fidelity is assessed by returning to the object, context, and purpose that the expression is trying to articulate.
 

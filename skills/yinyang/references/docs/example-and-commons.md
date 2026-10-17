@@ -64,9 +64,7 @@ person contributes perception, expression, and judgment. Neither needs to
 reproduce the example as the destination of that collaboration.
 
 A new work deserves to develop on its own terms, with its sources and changes
-traceable. The [package guide](skill-package.md) explains how this particular
-implementation is maintained. That practical account is available when using
-it; creative authorship can find another organization. Personal source material stays with its actual private owner. Publishing that material is a separate action requiring its own authorization, including for withdrawn or unpublished manuscripts.
+traceable. Creative authorship can find another organization. Personal source material stays with its actual private owner. Publishing that material is a separate action requiring its own authorization, including for withdrawn or unpublished manuscripts.
 
 ## A commons for further creation
 

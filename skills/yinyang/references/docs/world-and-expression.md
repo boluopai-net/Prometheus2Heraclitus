@@ -41,8 +41,8 @@ patterns. Philosophy, psychological activity, and engineering are physically
 realized within this same reality. It does not identify everything's material
 with literal flame.
 This is the framework's chosen contemporary account, developed from Heraclitean
-images rather than established merely by their historical authority. The
-[fire essay](stealing-fire.md#from-living-fire-to-interacting-event-streams)
+images rather than established merely by their historical authority. The section
+[From living fire to interacting event streams](stealing-fire.md#from-living-fire-to-interacting-event-streams)
 develops that choice and its sources.
 
 An object can therefore remain intelligible through change. A work continues
@@ -232,7 +232,7 @@ to answer to evidence. A stable distinction can remain useful through many
 changes because it continues to describe the relations that matter. Checking
 its applicability connects that stability with the continuing process. Retaining a
 source, entertaining a candidate, and accepting a claim remain different acts,
-as developed in [reasoning within an unfinished stream](reasoning.md#sources-candidates-and-the-active-workspace).
+as developed in [Sources, candidates, and the active workspace](reasoning.md#sources-candidates-and-the-active-workspace).
 
 ## Physical realization and functional likeness
 
@@ -341,7 +341,7 @@ them. Their differences can then be unfolded into premises, explanations,
 or practical choices. Aesthetic form helps relations become perceptible;
 definition and proof establish inferential connections; evidence tests claims
 about the world. Their contributions meet in a work while supporting different
-claims. The [Sun–Moon–Earth image](yinyang-and-taiji.md#sun-moon-and-earth) and the [miniature maker](writing-a-sinthome.md#a-miniature-god-whose-creations-answer-back) give these relations other expressive forms. Their interpretation and realization remain open to the world's answer.
+claims. The sections [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) and [A miniature god, whose creations answer back](writing-a-sinthome.md#a-miniature-god-whose-creations-answer-back) give these relations other expressive forms. Their interpretation and realization remain open to the world's answer.
 
 ## Source and claim scope
 

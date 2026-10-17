@@ -129,8 +129,7 @@ keeps the relevant activity available with acceptable actual costs.
 
 Records contribute to continuation by keeping already expressed relations available. Their usefulness appears when someone can recover the relevant account and resume work with it. A saved description can preserve an unfinished action; carrying that action produces a further result. Relief is encountered in the participant's experience, and durable learning in what can be understood and done across later situations. Attending to these different results makes it possible to improve the support that connects them.
 
-A promise opens an expectation, a handoff arranges responsibility, and an authorized next step carries the work forward. A good record makes that state legible so the next participant can take up what remains. [Harness adaptation](../harness-adaptation.md) owns the
-method of realizing and checking a supported change.
+A promise opens an expectation, a handoff arranges responsibility, and an authorized next step carries the work forward. A good record makes that state legible so the next participant can take up what remains.
 
 ## Correction has timing
 

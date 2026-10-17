@@ -44,7 +44,7 @@ observations give investigation something to explain.
 
 The model can carry implementation and investigation while the person
 understands through the resulting work, contributes experience, and redirects
-the inquiry. The [distributed-practice essay](metaphor-and-self-revision.md)
+the inquiry. [Metaphor, Analogy, and Personal Self-Revision](metaphor-and-self-revision.md)
 explains how representations and contextual roles connect these contributions.
 Their division follows the purpose. Learning a particular skill may require
 exercising it; understanding and using a work can warrant a different division.
@@ -181,8 +181,7 @@ and proportionate verification connect speed with learning.
 
 Completion and revisability support each other. A work can be finished for
 its present purpose, then revised when a new question or consequence gives
-reason. The [practice explanation](creation-method.md) explains how this enters
-working harnesses. The [personal-first argument](personal-first-humanism.md) explains
+reason. The [personal-first argument](personal-first-humanism.md) explains
 why a person's developing understanding and agency orient that work.
 
 The experimental ambition is to give philosophy contact: let reasons become

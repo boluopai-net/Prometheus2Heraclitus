@@ -40,7 +40,7 @@ particular invitation can also reveal an existing concern: perhaps preserving
 room for discovery matters more here than receiving a ready answer. That
 interpretation remains something to examine with the person and the work.
 
-In [YinYang's Sun–Moon–Earth composition](yinyang-and-taiji.md), differentiated
+In the [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) image, differentiated
 generation, reception, and shaping meet an answering material and shared
 living environment. Its productive question here is what happens when a
 creation returns: can either participant recognize something the original
@@ -282,9 +282,8 @@ finished work gives the process enough stability to be used; later evidence
 can justify another revision. Endless rewriting would spend the capacity that
 the arrangement was meant to release.
 
-The [practice explanation](creation-method.md) explains how this passage enters
-actual working harnesses. [Trinity](local-source-and-website.md)
-explains how it can persist: situated understanding operates locally, selected
+[Trinity](local-source-and-website.md) explains how such an arrangement can
+persist: situated understanding operates locally, selected
 methods acquire a maintained source, and a website gives readers an entrance.
 A revision of meaning may require a change in software; a change in software
 may expose a mistaken meaning. The model helps carry these relations across

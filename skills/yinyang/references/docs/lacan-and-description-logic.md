@@ -54,7 +54,7 @@ A work can organize words, mathematical symbols, images, color, bilingual corres
 
 The Other provides a reference for the place of language, norms, and intelligibility. Particular interlocutors or institutions convey or contest these norms from situated positions. Lacan's [1966 radio talk](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1966-12-02a.pdf), especially p. 2, describes the unconscious as the discourse of the Other and as structured like a language. It also treats language as a milieu in which people develop. This theoretical account gives the essay a way to examine how already available language participates in new expression.
 
-Prior language, encounters, experience, and new expression all participate in meaning. Learning a distinction can reorganize earlier relations and later expression: a word already used acquires a significance the speaker can now articulate. YinYang connects this movement to [an unfinished stream](reasoning.md), where each act of interpretation can become an event affecting what follows.
+Prior language, encounters, experience, and new expression all participate in meaning. Learning a distinction can reorganize earlier relations and later expression: a word already used acquires a significance the speaker can now articulate. YinYang connects this movement to [Reasoning within an unfinished stream](reasoning.md), where each act of interpretation can become an event affecting what follows.
 
 For retrospective interpretation, write:
 

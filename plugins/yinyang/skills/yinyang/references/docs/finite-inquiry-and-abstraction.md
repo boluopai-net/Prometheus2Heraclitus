@@ -126,7 +126,7 @@ this way is a P-IAR answer, but some P-IAR answers may be missed. This compares
 a candidate method with a specified target, rather than changing
 what the target means. P-AR has a different target—entailment in every selected
 repair—and may obtain common consequences through different assertions.
-The [preference harness](preference-harness.md#selection-and-inference) develops
+[Selection and inference](preference-harness.md#selection-and-inference) develops
 that distinction.
 
 This conditional derivation establishes inclusion. Its computational benefit must be assessed through the cost of conflict construction, consistency and query checks, and the components held fixed. Those operations determine the runtime; the inclusion itself specifies which answers the approximation preserves.

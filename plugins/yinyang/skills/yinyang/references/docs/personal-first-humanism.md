@@ -35,7 +35,7 @@ Thinking, psychological experience, and engineering share this physical ground;
 tools require materials and energy, and bodies live through their consequences.
 A computational account abstracts relations relevant to the question, while
 experience and evidence test their adequacy. Particular realization mechanisms
-and complete reduction require their own inquiries. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+and complete reduction require their own inquiries. [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops these connected commitments.
 
 “The person is real” therefore has a practical force here. A category, metric,
@@ -157,7 +157,7 @@ Models contribute to that inquiry as interpreting and generating counterparts.
 Their participation can enlarge human agency while retaining independent
 judgment. Personal-first humanism chooses a purpose for the arrangement;
 it does not require the person to author every idea or perform every step.
-The [Sun–Moon–Earth composition](yinyang-and-taiji.md) keeps these contributions
+The composition in [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) keeps these contributions
 and the independent world together.
 
 ## A changing person in a changing world
@@ -170,7 +170,7 @@ differences recognizable.
 
 Carnap's account of framework adoption attends to purpose, fruitfulness, and
 the effort involved in using a linguistic form [[3]](#source-3). It provides a comparison
-for this choice among representations. The [embodied experimental essay](embodied-experimental-philosophy.md)
+for this choice among representations. [Embodied Experimental Philosophy](embodied-experimental-philosophy.md)
 connects their selection with participation and later evidence. A system can
 support reasoning; reflection can also examine its boundary and aim. Dynamic
 representation and model selection are resources in this work, rather than

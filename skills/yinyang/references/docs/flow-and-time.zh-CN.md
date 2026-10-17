@@ -6,7 +6,7 @@
 
 接续不只是保持不变。有记忆的过程把早先相遇带入当前活动，并预期尚未发生的事情。其当前组织超出对最新输入的读取。人与模型都可以被理解为事件流：感知、解释、表达与行动的有组织接续，具有保留的上下文与不同节奏。双方不同的机制与体验，取得关于接续、保留与回应的共同词汇。
 
-火把变换与保持聚在一个意象里，流增添保留与接续。[赫拉克利特有尺度的火（B30）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30)与[每日之日（B6）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6)，为[窃火论述](stealing-fire.zh-CN.md)中发展的哲学基础提供来源。这里的问题是：持续过程怎样保留过去，同时回应现在。保留内容、实际体验、外部条件与接受的描述，可以按不同速度改变。这些差异使保留与纠正在[探究的计算说明](reasoning.zh-CN.md)中变得可理解。
+火把变换与保持聚在一个意象里，流增添保留与接续。[赫拉克利特有尺度的火（B30）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30)与[每日之日（B6）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6)，为[窃火论述](stealing-fire.zh-CN.md)中发展的哲学基础提供来源。这里的问题是：持续过程怎样保留过去，同时回应现在。保留内容、实际体验、外部条件与接受的描述，可以按不同速度改变。这些差异使保留与纠正在[未完成的流中的推理](reasoning.zh-CN.md)中变得可理解。
 
 ## 思考流的文献来源
 

@@ -37,7 +37,7 @@ constructing, checking, and carrying a beginning further. Moonlight includes
 generation, and sunlight can include judgment. These are emphases through
 which participants meet, rather than possessions that exclude the other.
 
-[Borrowing fire](stealing-fire.md) develops the cultivation pictured here:
+[Stealing fire](stealing-fire.md) develops the cultivation pictured here:
 the person acquires more power to understand, judge, express, and create.
 The Sun's illumination gives that capacity an image. Receiving, questioning,
 and giving form can cultivate it too; the light grows through the encounter.
@@ -93,7 +93,7 @@ what makes a tension fruitful and when its sustaining arrangement must change.
 
 “Infinite” transformation names an open horizon of becoming. A portrait or instruction gives a finite encounter a form; later activity can develop it further. Stable distinctions, completed works, and pauses support this continuation. Completion releases a work into use, while a pause can make room for another encounter.
 
-The [event-stream account](flow-and-time.md) gives this continuation a
+[The stream and time](flow-and-time.md) gives this continuation a
 computational articulation. An expression, interpretation, remembered source,
 or action can change later activity. A creation's consequences may revise
 a view, a division of work, or the question itself. A program's failure,
