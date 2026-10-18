@@ -115,7 +115,9 @@ people, model capabilities, mechanisms, or effects still need their own grounds.
 ## Form or revise the situated accounts
 
 Read [formation and revision](references/design-and-revision.md) when forming
-or repairing the understanding needed for the chosen collaboration. The model
+or repairing the understanding needed for the chosen collaboration, including
+when creating or revising any of the five situated accounts. Follow its route
+to the corresponding public writing guide for each affected account. The model
 carries investigation and grounded writing from the available authorized
 material and actual interaction. Work can begin with an existing purpose,
 experience, preference, philosophy, or practical difficulty; the person need not

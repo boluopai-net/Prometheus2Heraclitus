@@ -23,6 +23,13 @@
 同样的路径承载主入口在协作时读取的实际描述。怎样写一份描述的指导，不能替代有根据的
 实际内容。
 
+创建或修改一份描述前，完整读取下表中对应的公开写作指导，同时阅读当前的情境化描述
+及相关证据。上下文中已有完整、当前的阅读可以复用。指导取自尚未个人化的公共包：
+能够访问已记录的公共规范源仓库时，从那里读取；否则取得表中链接的公开源内容。
+应单独定位这个公共来源，不能把它当作情境化包中的同名文件；采用后，表中的相对链接
+打开的是实际描述，不是写作指导。结合当前目的与证据运用指导，保留描述中有根据的
+实质。这项写作时的阅读只涉及受影响的描述；日常协作仍按主入口的原有约定读取实际描述。
+
 ## 基于实际材料形成情境化版本
 
 共同哲学阐明较广的对象、关系、价值与认识方式；五份情境化描述关心这个人、伙伴及
@@ -88,13 +95,13 @@ harness 提供可用方向，而不声称解释这些偏好背后的心理过程
 原始表达和有用的私人支撑，留在原有维护位置或 `references/personal/`。
 五份文件有互补的写作职责。公开指引展开这些不同对象，情境化描述提供实际理解：
 
-| 描述 | 应当说明什么 |
-| --- | --- |
-| [相遇](encounter.md) | 实际目的、关系与可用全貌。 |
-| [用户模型](models.md) | 相关经验、偏好、能力、发展与不确定性。 |
-| [伙伴与关系](relationship.md) | 对应这个人的贡献与判断，包括合作与纠正。 |
-| [实际使用](usage.md) | 关系怎样通过实际资源、贡献与条件运作，包括当前缺口。 |
-| [来源](sources.md) | 理解以什么为根据，证据在哪里维护。 |
+| 描述 | 应当说明什么 | 公开写作指导 |
+| --- | --- | --- |
+| [相遇](encounter.md) | 实际目的、关系与可用全貌。 | [如何写相遇描述](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/encounter.md) |
+| [用户模型](models.md) | 相关经验、偏好、能力、发展与不确定性。 | [如何建立用户模型](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/models.md) |
+| [伙伴与关系](relationship.md) | 对应这个人的贡献与判断，包括合作与纠正。 | [如何描述伙伴与关系](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/relationship.md) |
+| [实际使用](usage.md) | 关系怎样通过实际资源、贡献与条件运作，包括当前缺口。 | [如何描述实际使用](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/usage.md) |
+| [来源](sources.md) | 理解以什么为根据，证据在哪里维护。 | [如何组织来源与根据](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/sources.md) |
 
 考虑一个虚构例子：笔记已经保存，回到一份未完成的论证却仍然困难。形成所处理的是
 怎样理解这份困难。可能是笔记无法取得，可能缺少通向当前草稿的联系，也可能保留了

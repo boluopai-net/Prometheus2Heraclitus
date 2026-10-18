@@ -34,6 +34,18 @@ different objects; in a situated edition, those same paths contain the actual
 accounts that the entrypoint reads for collaboration. Guidance about writing an
 account cannot stand in for its grounded content.
 
+Before creating or revising an account, read its complete public writing guide
+identified in the table below, together with the current situated account and
+relevant evidence. Reuse complete current readings already in context. Obtain
+the guide from the unpersonalized shared package: use its recorded canonical
+checkout when accessible, or retrieve the linked public source. Resolve that
+source separately from the situated package. The table's relative account links
+open the actual descriptions after adoption, not the writing guides. Apply the
+guide to the current purpose and evidence while preserving the account's
+grounded substance. This writing-time reading concerns the affected accounts;
+ordinary collaboration continues to read the actual accounts under the
+entrypoint's existing contract.
+
 ## Form a situated version from actual material
 
 Common philosophy articulates broader objects, relations, values, and ways of
@@ -131,13 +143,13 @@ under `references/personal/`. The files have complementary writing duties.
 Their public guidance develops these different objects; the situated accounts
 supply the actual understanding:
 
-| Account | What it should make intelligible |
-| --- | --- |
-| [Encounter](encounter.md) | The actual purpose, relation, and usable whole. |
-| [User model](models.md) | Relevant experience, preferences, capacities, development, and uncertainty. |
-| [Counterpart and relationship](relationship.md) | Its contribution and judgment in relation to that person, including cooperation and correction. |
-| [Situated use](usage.md) | How the relation works through actual resources, contributions, and conditions, including its present gaps. |
-| [Sources](sources.md) | What grounds the understanding and where its evidence is maintained. |
+| Account | What it should make intelligible | Public writing guide |
+| --- | --- | --- |
+| [Encounter](encounter.md) | The actual purpose, relation, and usable whole. | [How to write an encounter account](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/encounter.md) |
+| [User model](models.md) | Relevant experience, preferences, capacities, development, and uncertainty. | [How to develop a user model](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/models.md) |
+| [Counterpart and relationship](relationship.md) | Its contribution and judgment in relation to that person, including cooperation and correction. | [How to describe the counterpart and relationship](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/relationship.md) |
+| [Situated use](usage.md) | How the relation works through actual resources, contributions, and conditions, including its present gaps. | [How to describe situated use](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/usage.md) |
+| [Sources](sources.md) | What grounds the understanding and where its evidence is maintained. | [How to organize sources and grounds](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/sources.md) |
 
 Consider a fictional example: notes have been saved, but returning to an
 unfinished argument is still difficult. Formation concerns what this difficulty
