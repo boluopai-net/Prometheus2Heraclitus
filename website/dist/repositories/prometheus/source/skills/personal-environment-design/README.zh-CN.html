@@ -1,11 +1,17 @@
 <!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>个人环境设计 · personal-environment-design · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=00b4eaeafbdb"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/personal-environment-design/README.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary no-toc"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="个人环境设计--personal-environment-design">个人环境设计 · personal-environment-design</h1>
 <p><a href="/repositories/prometheus/source/skills/personal-environment-design/README.zh-CN.html">English guide</a></p>
-<p>设计人理解、选择、行动并返回工作的相互连接的界面。本 Skill 检查网站、桌面、启动器、应用、文档与自动化中的理解和操作负担，在减少不必要协调的同时保留有意义的区别。</p>
+<p>设计并配置人与模型能够共同工作的连贯环境。本 Skill 把提示词、Skills、MCP、插件、应用、自动化、本地或云端服务与实际使用体验连接起来，一起考虑能力、理解和操作负担、资源使用、可靠性与维护。</p>
 <h2 id="使用与能力">使用与能力</h2>
 <p>将完整目录复制到智能体宿主支持的 Skill 位置。本包没有必需的软件依赖或配套
 Skill。可以从已提供的描述开始调查；观察或改变真实环境需要接收方实际拥有的浏览器、桌面、应用或实现工具，以及已有权限。本 Skill 不创建这些能力。</p>
-<p>请求示例：“我从启动器打开项目看板，然后要搜索三份文档才能想起下一步。检查这条路径，并实现更清楚的项目恢复方式。”方法会沿真实路径检查，区分已观察的阻碍和假设，比较已有控件与新界面，通过系统实际维护方实现，并验证受影响的路径。</p>
-<p>它一起考虑理解、操作、协调和恢复。更少的点击或更稀疏的界面不足以证明改善。有用的结果会说明人需要查找、记忆、决定、输入、切换、等待与恢复什么，以及负担是否转移到别处。模型走查与实际测量的人类使用始终区分。</p>
+<p>安装、连接、配置、替换或实质重组环境时使用。普通使用已经配置的工具，不必再做一次环境设计；小修复也保持在受影响的依赖范围内。方法从指令或用户动作出发，沿能力发现、连接、执行追踪到可观察结果。相关专业方法保留各自的方法与交付责任，配套 Skill 只在实际可用时采用。</p>
+<p>例如，可以要求接入一项 MCP 能力，比较直接连接、共享本地后端或已有托管服务，判断哪种适合实际客户端、状态边界与成本；也可以要求检查从启动器进入项目的路径，实现更清楚的工作恢复方式。前者需要代表性客户端调用，以及支持资源节省主张的证据；后者需要回读受影响的使用路径与实际效果。保存了配置或界面好看，本身都不足以证明已经实现预期改善。</p>
 <h2 id="包内容与调整">包内容与调整</h2>
-<p><code>SKILL.md</code> 是英文模型使用方法。<a href="/repositories/prometheus/source/skills/personal-environment-design/references/design-basis.html">设计依据</a>保留可复用的区别与公开设计参考。含义一致的中英文指南解释采用方式。公开版将原本地方法的工具选择通用化，把私人原始引文和对话标识替换为独立设计说明，不包含个人历史或私人来源。</p>
+<p><code>SKILL.md</code> 是供模型使用的英文入口。按受影响的部分读取资源：</p>
+<ul>
+<li><a href="/repositories/prometheus/source/skills/personal-environment-design/references/human-use.html">人的使用</a>保留理解、操作、协调与恢复的路径设计方法，并区分模型走查与实际测量的人类使用。</li>
+<li><a href="/repositories/prometheus/source/skills/personal-environment-design/references/mcp-and-services.html">MCP 与服务</a>说明兼容传输、执行位置、安全共享、实测成本与替代方案验证。</li>
+<li><a href="/repositories/prometheus/source/skills/personal-environment-design/references/design-basis.html">设计依据</a>说明可复用的区别与保留的公开设计参考，区分这些参考对可用性的支持与依赖具体实现的工程证据。</li>
+</ul>
+<p>含义一致的中英文指南解释采用方式。这份独立公开适配将本地工具选择和配置取舍通用化，以独立说明替代私人原始引文与对话标识，不包含个人历史、私人来源、预先配置的服务或凭据。</p>
 <p>本独立包采用<a href="/repositories/prometheus/source/skills/personal-environment-design/LICENSE"> MIT 许可</a>。外部参考保留各自权利，本包不包含其全文。</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

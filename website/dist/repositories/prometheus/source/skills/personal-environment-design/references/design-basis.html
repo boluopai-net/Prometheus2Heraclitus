@@ -1,10 +1,22 @@
-<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Design basis · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=00b4eaeafbdb"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary no-toc"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><h1 id="design-basis">Design basis</h1>
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Design basis · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=00b4eaeafbdb"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
+<ul>
+<li><a href="#reusable-design-distinctions">Reusable design distinctions</a></li>
+<li><a href="#configuration-and-service-rationale">Configuration and service rationale</a></li>
+<li><a href="#selected-external-evidence">Selected external evidence</a></li>
+</ul>
+</div>
+</nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><h1 id="design-basis">Design basis</h1>
 <h2 id="reusable-design-distinctions">Reusable design distinctions</h2>
-<p>This method treats a personal environment as the connected surfaces through
-which a person understands, decides, acts, and resumes work. It can include a
-website, desktop, application, document, launcher, or automation without requiring
-them to become one application. Its object is the person's journey rather than
-the inventory of tools or repositories.</p>
+<p>This method treats a personal environment as the connected instructions,
+capabilities, services, and surfaces through which a person and model work.
+Prompts, Skills, MCP connections, plugins, applications, automation, and local or
+cloud services can all affect that work. Trace their contribution from discovery
+and configuration to execution and observable result. Their labels alone do not
+establish which capabilities are installed, connected, or actually usable.</p>
+<p>Human-facing design remains one contribution to this broader configuration
+method. A website, desktop, application, document, launcher, and automation can
+participate in one journey without becoming one application. Its design follows
+the person's use rather than the inventory of tools or repositories.</p>
 <p>Cognitive effort and physical interaction both matter. Parallel software work
 can help while competing requests for the person's attention make coordination
 harder. This is a design consideration about actual participation, not a measured
@@ -21,6 +33,25 @@ and consent boundaries remain unchanged by design convenience.</p>
 <p>These generalized distinctions replace private originating conversation evidence
 in this public adaptation. They are working hypotheses to test against actual
 use, not a portrait of an originating user.</p>
+<h2 id="configuration-and-service-rationale">Configuration and service rationale</h2>
+<p>The public adaptation retains the original human-use method in
+<a href="/repositories/prometheus/source/skills/personal-environment-design/references/human-use.html">Human use</a> and expands the entrypoint to overall environment
+configuration. A separate prompt-and-skill authoring method can own its detailed
+lifecycle, while this method connects it with tools, services, and human use.
+Specialists and native configuration owners are selected from the recipient's
+actual environment.</p>
+<p><a href="/repositories/prometheus/source/skills/personal-environment-design/references/mcp-and-services.html">MCP and services</a> distinguishes connection transport,
+backend execution location, and safe process sharing. Native compatible
+connections can remove unnecessary bridges; suitable hosted execution or shared
+local work can reduce duplication. These are design options whose contribution
+depends on actual implementation, state isolation, resource costs, and client
+readback. They are not universal memory thresholds or a requirement to migrate
+every service.</p>
+<p>The public references below support human-use design. They do not establish MCP
+compatibility, authentication support, service isolation, or resource savings.
+Those judgments require the affected implementation's current documentation
+and runtime evidence. This package supplies a reusable method, not a copy of a
+particular host's configuration or authority.</p>
 <h2 id="selected-external-evidence">Selected external evidence</h2>
 <p>Public references retained from the originating method's 2026-10-12 source
 review. Their supporting roles are summarized here; current interface choices

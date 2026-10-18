@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MCP and services · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=00b4eaeafbdb"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary no-toc"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><h1 id="mcp-and-services">MCP and services</h1>
+<p>Choose transport, process lifetime, and execution location together to supply
+the required capability without unnecessary work or maintenance. Inspect the
+actual client, server, authentication, and implementation support. An HTTP URL
+alone does not establish a compatible MCP service or a remotely hosted backend.</p>
+<h2 id="prefer-compatible-direct-connections">Prefer compatible direct connections</h2>
+<p>When the client and a remote MCP server support a suitable native Streamable
+HTTP connection, use it instead of an unnecessary local bridge. Check their
+actual protocol and authentication support against current documentation and
+a representative call. A bridge remains useful when a concrete compatibility
+need justifies it; changing transport labels is not itself an improvement.</p>
+<h2 id="choose-where-execution-belongs">Choose where execution belongs</h2>
+<p>For capabilities that do not require the recipient's local files, devices,
+applications, or desktop, compare suitable existing hosted services with local
+execution. Prefer an available hosted route when its functions, authentication,
+data boundaries, reliability, and cost fit the task. Verify where the backend
+actually executes: a cloud entrypoint or tunnel can still launch work locally.
+A remote API is not itself a hosted MCP implementation.</p>
+<p>Use existing compatible capabilities before recreating an adapter. New hosting
+infrastructure earns its setup and maintenance through the actual need, rather
+than through a preference for a cloud label.</p>
+<h2 id="share-local-work-where-state-permits-it">Share local work where state permits it</h2>
+<p>If execution must remain local, consider a shared service when repeated instances
+create meaningful overhead. Prefer native Streamable HTTP support when it fits
+the client and server; a small adapter may be justified to supply missing sharing
+support. Bind a local-only service to the appropriate local interface.</p>
+<p>Check separation of work directories, mutable task state, credentials,
+permissions, cancellation, and lifecycle for the actual concurrent consumers.
+A transport session identifier alone does not establish task isolation. Share
+only what can safely be shared, retaining task-specific state or separate
+instances where needed.</p>
+<p>Inspect the expensive execution layer, including child processes. One listener
+that still launches a heavy backend for every conversation may retain the
+duplication that motivated the change. Connection sharing and backend sharing
+are different achievements.</p>
+<h2 id="match-effort-to-observed-cost">Match effort to observed cost</h2>
+<p>Measure runtime memory, repeated instance counts, lifetime, startup and call
+latency, and relevant service charges. Compare the aggregate cost with migration
+and ongoing maintenance. Distinguish running memory from download size or disk
+footprint. Many small replicas can matter more than one larger service.</p>
+<p>Investigate substantial avoidable duplication and implement a suitable shared
+or hosted route when compatibility, isolation, and expected savings justify it.
+Low aggregate overhead or disproportionate implementation cost can justify
+retaining a working stdio arrangement. Concrete compatibility or state-isolation
+needs can also justify separate instances. Existing configuration alone does
+not settle the choice, and a transport preference does not justify losing a
+needed capability or boundary.</p>
+<h2 id="verify-the-successor-and-retire-displaced-routes">Verify the successor and retire displaced routes</h2>
+<p>Exercise the actual client with representative operations. If sharing affects
+mutable state, use independent task contexts to check the relevant boundaries,
+including cancellation where it can affect another consumer. Observe process
+counts and resource use under relevant concurrency before claiming savings.
+Verify remote execution before claiming local work has been removed.</p>
+<p>Use checks proportional to the changed behavior and its consequences. After
+successor readback, remove obsolete bridges, duplicate launch entries, and unused
+registrations through their maintained owners. Preserve routes with current
+consumers. Keep credentials, service management, source configuration, and
+runtime delivery with their actual owners and existing authorization.</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>
