@@ -74,11 +74,8 @@ model-interpreted language where appropriate. Records and models do not exhaust
 the streams being understood. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
 owns the developed connection. Physical dependence, particular realization
 mechanisms, full reduction, and feasible computation remain distinct questions.
-The Trinity essay organizes the three physically realized contributions around
-the concrete person and their unfolding life. Preserve the distinction between
-that personal center and the common physical ground: the former gives this
-practice its organizing concern, while the latter locates it in one world.
-Its local environment, repository, and website are practical forms of the work.
+The Trinity essay connects the three physically realized activities; its local
+environment, repository, and website are practical forms of the work.
 
 The adopted process ontology develops Heraclitean fire, becoming, and opposition.
 Its contemporary commitment and the disputed historical interpretation of

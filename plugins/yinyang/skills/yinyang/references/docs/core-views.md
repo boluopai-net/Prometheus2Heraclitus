@@ -333,10 +333,8 @@ develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-a
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
 explains the four dimensions, and [Trinity: Philosophy, Psychology, and Engineering in One Practice](local-source-and-website.md)
-connects philosophy, psychology, and engineering as differentiated contributions
-rooted in a concrete person's life, with practical forms in a shared physical
-world. The personal center gives the work its organizing concern; the physical
-ground explains their coexistence within that world.
+connects philosophy, psychology, and engineering within one physical reality
+to their practical forms.
 
 <a id="yy-10"></a>
 
@@ -440,9 +438,7 @@ and relational framework for interpreting and revising the instructions,
 roles, tools, and environment through which that person works with models.
 Formation develops a personal philosophy and its singular lived, maintained
 form. This proposal calls the practice of giving experience, expression, and
-action a livable form **writing a sinthome for oneself**. The concrete person
-and their life are the common root of these expressions and arrangements;
-the sinthome proposal concerns their singular way of holding together.
+action a livable form **writing a sinthome for oneself**.
 The author uses this name for the singular way a practice can hold together
 without requiring a final, transparent self-description. Its point is the
 connection between how one understands a life and the forms that help one
