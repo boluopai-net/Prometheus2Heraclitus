@@ -31,10 +31,10 @@ GROUPS = [
         ('yinyang-and-taiji', '用日月、Shuang yu 与大地表达相互生成：双方可以判断和创造，作品遇到独立后果。'),
         ('participation-and-support', '把关系落到参与，连接理解、表达和可用行动，使支持保留人的主动性。'),
     ]),
-    ('形成：从人类 agent 到个人哲学与实践', 'Formation: from human agency to personal philosophy and practice', [
+    ('形成：发展自己的生活方式', 'Formation: developing a way of living', [
         ('literary-programming', '通过人物、意象与关系凝缩理解，再让具体指令和工具展开它。'),
         ('metaphor-and-self-revision', '把隐喻展开为类比与关系图，组织模型、记录和工具之间的分布式认知，并修订组织本身。'),
-        ('writing-a-sinthome', '从已经能够感知、生成与行动的人出发，借助模型拓展能力，形成自己的个人哲学，以及承载它的环境与实践。'),
+        ('writing-a-sinthome', '通过哲学、心理与工程的共同实践，使三者在个人生活中相互联结，形成独特而能够持续修订的生活方式。'),
     ]),
     ('实践：成为火，进入环境与反馈', 'Practice: becoming fire through environment and feedback', [
         ('local-source-and-website', '哲学、心理与工程怎样统一于同一物理现实，并通过不同抽象层次形成实践闭环？'),
@@ -46,7 +46,7 @@ STAGE_REASONS = [
     ('先总览窃火的论证，再说明价值与行动者；超萌论证给出培养的条件性理由，赫拉克利特宝宝继而使培养方向取得人物形象。', 'Preview the argument, establish value and agency, give cultivation its conditional rationale through super-cuteness, then embody that direction in Baby Heraclitus.'),
     ('给实践以可修正的理解：从表示与时间进入推理，以偏好 harness 连接冲突、视图选择和推论支持，再考察有限抽象。', 'Make understanding corrigible: move from representation and time into reasoning, connect conflict, view selection, and support through the preference harness, then examine finite abstraction.'),
     ('把已有的行动者概念落实为相互生成与实际参与，保留人的主动性及模型的贡献。', 'Develop the agent concept into reciprocal generation and actual participation, preserving human initiative and model contributions.'),
-    ('人类 agent 是起点：已有的能动者借助生成能力，发展自己的哲学、世界观与可维系的生活形式。', 'Human agency is the starting point: an existing agent draws on generative capabilities to develop a personal philosophy, worldview, and sustainable form of living.'),
+    ('人类 agent 是起点：已有的能动者借助生成能力，通过哲学、心理与工程的共同实践，发展可维系的生活形式。', 'Human agency is the starting point: an existing agent draws on generative capabilities to develop a sustainable way of living through philosophy, psychology, and engineering together.'),
     ('从三位一体的实践闭环进入具身实验与反馈，再从例子出发写自己的作品，最后进入开始实践的工具入口。', 'Move from the Trinity’s practical loop into embodied experiments and feedback, then use the example to author your own work before entering the practical tools.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
@@ -64,7 +64,7 @@ EN_SUMMARIES = {
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
     'literary-programming': 'Condense understanding through characters, imagery, and relationships, then unfold it through instructions and tools.',
     'metaphor-and-self-revision': 'Develop metaphor into analogy and relation maps, distribute cognition across models, records, and tools, and revise that organization.',
-    'writing-a-sinthome': 'Begin with a person who already perceives, generates, and acts; expand capacities with models and form a personal philosophy and the environment that sustains it.',
+    'writing-a-sinthome': 'Practice philosophy, psychology, and engineering together, connecting them in personal life to form a singular and continually revisable way of living.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
     'local-source-and-website': 'Understand philosophy, psychology, and engineering as activities in one physical reality, connected through distinct levels of abstraction and practice.',

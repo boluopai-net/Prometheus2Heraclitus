@@ -2,7 +2,7 @@
 
 ## From “who am I?” to “what can happen here?”
 
-[Writing a sinthome: forming a personal philosophy](/philosophy/writing-a-sinthome/en/) begins with the person's existing agency and proposes forming a personal philosophy through expanded capacities, then giving it a singular sustaining form for understanding, creation, and life through a harness. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
+[Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](/philosophy/writing-a-sinthome/en/) begins with the person’s existing agency and proposes connecting philosophy, psychology, and engineering through shared practice in personal life, forming a singular and continually revisable way of living. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
 
 This encounter adds an entrance to personal philosophy. Alongside expressing who we are and how we wish to live, we can observe what happens when bodies, words, tools, and counterparts come together. The everyday examples and harness comparisons below are this essay’s extensions from their concepts.
 
