@@ -79,6 +79,24 @@ makes a difference intelligible, or which recurring friction an arrangement
 should resolve. Imagery can connect these particulars into an account that
 is easier to interpret across changing tasks.
 
+In the psychological-modeling route, philosophy and engineering contribute
+together to understanding the user. Philosophy supplies concepts and interpretive
+frameworks for experience, desire, intentional orientation, and relationships.
+Engineering organizes conversations, records, language models, and tools so
+these distinctions can support concrete modeling and the resulting model can
+inform subsequent work. The psychological model connects this work to the
+actual person: how they experience situations, what their experiences and wishes
+are directed toward, how they want to act, and what affects realization.
+
+That understanding lets environmental design begin from the person's intentional
+orientation. A partner's contributions, what information to retain, and how to
+organize tools and interfaces acquire an intelligible personal basis. The aim is
+a better-fitting initial arrangement, reducing repeated environmental changes
+just to discover what the user needs. Use still brings new material for
+calibrating the person model, the counterpart's contribution, and the engineering
+realization. Effective arrangements can remain in use without change for the
+sake of iteration itself.
+
 Richer expression can improve adequacy when it makes consequential relations
 clearer. A long inventory can also obscure them. The aim is a model expressive
 enough for its use, with claims and interpretations that remain correctable.

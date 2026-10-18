@@ -101,7 +101,7 @@ bodily experience is not automatically the Real.
 
 [Seminar XXIII, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/)
 is the primary-text reference for **sinthome / 圣状**. The discussion connects
-knot repair and the particularity of Joyce's art. [Writing a sinthome](writing-a-sinthome.md)
+knot repair and the particularity of Joyce's art. [Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](writing-a-sinthome.md)
 develops a new philosophical application to model-assisted practice; a linguistic
 self-model does not thereby become a complete account of the subject or an
 established clinical instance of Lacan's sinthome.

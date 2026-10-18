@@ -1,5 +1,8 @@
 # YinYang: core views
 
+This page presents YinYang's argument in concise propositions; the linked essays
+develop its reasons, examples, and sources.
+
 These are the author's connected positions in the YinYang philosophical
 example: a chosen account of becoming, understanding, and cultivation with
 generative models. They are offered for examination, adoption, recombination,
@@ -26,7 +29,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
-- [YY-13 · Write a sinthome through an individual meta-harness](#yy-13)
+- [YY-13 · Write a life as a sinthome](#yy-13)
 - [YY-14 · Cultivate generative capacities with available fire](#yy-14)
 - [YY-15 · Cultivate a garden of becoming with friends](#yy-15)
 
@@ -117,6 +120,13 @@ the person attends, desires, and interprets, or of how they prefer to learn
 and work, can guide an account of the model counterpart. Both accounts develop
 through interaction. Other participants' purposes matter where a shared task
 depends on them; their accounts remain partial and revisable too.
+
+In the psychological-modeling route, philosophy and engineering together form
+an understanding of the user's intentional orientation, experience, and
+relationships, which guides the counterpart's contribution and personal
+environment. The aim is a better-grounded initial design with less blind trial
+and error; experience from use continues to calibrate model and realization.
+The three domains thereby serve the same personal life.
 
 Understanding the person still leaves a choice about the counterpart's
 contribution. The same wish can call for doing the work, explaining it,
@@ -431,14 +441,15 @@ continued, and discussed.
 
 <a id="yy-13"></a>
 
-## YY-13 · Write a sinthome through an individual meta-harness
+## YY-13 · Write a life as a sinthome
 
-The human agent is already present. A meta-harness supplies a philosophical
-and relational framework for interpreting and revising the instructions,
-roles, tools, and environment through which that person works with models.
-Formation develops a personal philosophy and its singular lived, maintained
-form. This proposal calls the practice of giving experience, expression, and
-action a livable form **writing a sinthome for oneself**.
+The preceding [coupled modeling](#yy-03) and [expression and realization](#yy-04)
+let an understanding of the person guide their environment. As the person uses
+these arrangements to understand, act, and create, philosophy, psychology, and
+engineering acquire a singular connection in the same life. This account writes
+the three as three rings and the personal life connecting them as a fourth:
+the proposal of **writing a life as a sinthome**. Forming a philosophy or
+deploying tools contributes to that lived practice.
 The author uses this name for the singular way a practice can hold together
 without requiring a final, transparent self-description. Its point is the
 connection between how one understands a life and the forms that help one
@@ -447,7 +458,7 @@ connection; accumulating them does not by itself create a sustaining form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [Writing a sinthome: forming a personal philosophy](writing-a-sinthome.md)
+conditions mediate enlarged agency. [Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](writing-a-sinthome.md)
 develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
 a clinical conclusion, or a guarantee of happiness and unlimited power.
 A reader may examine or borrow this idea where personal authorship is the

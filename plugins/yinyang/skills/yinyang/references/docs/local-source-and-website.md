@@ -14,7 +14,7 @@ consequences to that life and to the understanding being formed. The environment
 condenses selected relations from life; its defaults and constraints also help
 explain its shape.
 
-The [sinthome essay](writing-a-sinthome.md) began with the Borromean image:
+The [sinthome essay](writing-a-sinthome.md) developed the Borromean image:
 different rings hold through their joint arrangement. Here that image becomes
 **a trinity of philosophy, psychology, and engineering**. A philosophical
 direction needs a relation to the person living it; that understanding needs
@@ -146,6 +146,12 @@ understand their own psychology or write a portrait alone. Preferences can be
 evidence for this inquiry, but a preference account alone is not its psychological
 explanation. These entrances concern kinds of understanding, not professions;
 either is available to engineers and nonengineers.
+
+The preceding [personal-model account](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
+explains how philosophy and engineering help understand the user's intentional
+orientation, grounding an initial environment with less blind trial and error.
+Here that model informs the counterpart's contributions, information organization,
+tools, and interfaces; use returns to calibrate these arrangements.
 
 Both routes develop coupled accounts of the person, counterpart, and their
 relationship in an environment. What a partner should attend to, protect,
