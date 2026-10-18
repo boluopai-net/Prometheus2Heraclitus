@@ -55,12 +55,19 @@ Articulating preferences can begin this work. The sinthome proposal develops the
 
 ## Three aspects and a fourth holding function
 
-The following [Trinity essay](local-source-and-website.md) distinguishes
-philosophy, psychology, and engineering. These are three contributions to a
-practice, not already a demonstrated Borromean link. Their comparison with
-Real, Imaginary, and Symbolic selects an image of connection; it does not make
-the domains identical to Lacan's registers. The common physical reality called
-the “one” in that essay is the ground of all three activities, not a fourth ring.
+The following [Trinity essay](local-source-and-website.md#rooted-in-a-person-three-contributions-to-one-life)
+roots philosophy, psychology, and engineering in the concrete person and their
+life. Someone is already living, perceiving, desiring, and acting; the three
+contributions acquire connection and meaning around that life. Their unity
+therefore cannot be expressed merely by placing three domains together. It is
+the personal life they concern and can also change.
+
+The tree makes their common root visible; the knot asks how relations hold.
+The three contributions are not already a demonstrated Borromean link. Their
+comparison with Real, Imaginary, and Symbolic selects an image of connection,
+without making the domains identical to Lacan's registers. Common physical
+reality grounds these activities, while the concrete person centers this
+practice. Neither becomes a topological fourth ring merely by being named.
 
 The candidate for a fourth function here is **the person's singular practice of
 creating, using, and maintaining an arrangement through which the three can

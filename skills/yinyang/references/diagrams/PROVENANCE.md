@@ -8,6 +8,11 @@ with complete Chinese counterparts:
   activity. YY-09 supplies its event-based vocabulary.
 - **Layers** develops YY-09: physical grounding, computational abstraction,
   and the relations among ontology, epistemology, value, methods, and practice.
+- **Person-rooted practice** gives the Trinity essay a four-node tree: a person
+  and their life grounds differentiated philosophical, psychological, and
+  engineering contributions. Its branches express different unfoldings of one
+  life, not literal parts of a person or a classification of everything in the
+  world. Use and feedback can change the contributions together.
 
 The candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
@@ -32,6 +37,15 @@ finalization, use **Export → SVG · Auto** (or **导出 → SVG · 自动**) f
 matching static export. Headless browser controls preserve desktop focus.
 Retain the semantic translation overrides when updating the tool: they describe
 questions and modeled relationships rather than software services.
+
+The person-rooted figure uses Archify's native `tree` renderer and the existing
+viewer styling. From the same references directory, finalize
+`diagrams/person-rooted-practice.candidate.json` to
+`diagrams/person-rooted-practice.html` with type `tree`; repeat for the
+`.zh-CN` pair. Use the same showcase quality and a temporary evidence directory.
+Its SVG counterparts use the matching native Auto export. Motion is disabled
+for this static relationship view. Labels and sublabels together state each
+branch; the SVG description explains their shared practical ground.
 
 Check meaningful labels, directions, and readability against the owning text.
 Native delivery and browser receipts are execution evidence and contain local

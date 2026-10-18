@@ -14,6 +14,34 @@ consequences to that life and to the understanding being formed. The environment
 condenses selected relations from life; its defaults and constraints also help
 explain its shape.
 
+## Rooted in a person: three contributions to one life
+
+**The unity here is first the concrete person and their unfolding life;
+philosophy, psychology, and engineering are three connected contributions
+organized around that same life.** A person understands the world while
+experiencing, desiring, choosing, and acting. Philosophy articulates how they
+understand the world and what is worth pursuing; psychology investigates how
+that understanding relates to their experience, desires, and relationships;
+engineering gives selected relations a form they can use and change. The
+questions differ, but return to how this person lives, creates, and develops.
+
+Imagine a tree rooted in the person. Its branches extend in different
+directions; the root shows whose life they unfold, beyond placing three domains
+beside one another. The person also changes as the branches grow: an
+understanding changes a choice, a creation changes a capacity, and a
+relationship changes an earlier purpose. This unity includes continuity in
+formation. It does not require a completed, fixed self to which the parts are
+subsequently attached.
+
+Rooting the tree in a person identifies the organizing center of this personal
+practice. That person still lives in a world. Models, other people, and the
+environment participate with their own capacities, purposes, and conditions;
+they can support the person, disagree, or make an arrangement fail. The tree
+expresses a common concern and its differentiated development. Actual life also
+includes connections among branches and responses from beyond them.
+
+![A person and their life as the common root of philosophy, psychology, and engineering](../diagrams/person-rooted-practice.svg)
+
 The [sinthome essay](writing-a-sinthome.md) began with the Borromean image:
 different rings hold through their joint arrangement. Here that image becomes
 **a trinity of philosophy, psychology, and engineering**. A philosophical
@@ -26,14 +54,15 @@ belongs to the person's singular lived practice that sustains or repairs their
 connection. The shared physical reality discussed below is their ground, not
 an additional ring.
 
-**The one is a shared physical reality; the three are philosophy, psychology,
-and engineering within it.** Philosophical thinking, psychological activity,
-and engineering practice are physically realized activities. Their unity is
-ontological before it becomes a practical loop: they occur within, understand,
-and transform the same world. Contemporary fire monism understands this reality
-as process: the participants, their models, and their arrangements form, persist,
-and change within it. Their differences concern what each makes intelligible
-and how it works.
+This person-centered practical unity also has **a common physical ground**.
+Philosophical thinking, psychological activity, and engineering practice are
+physically realized: they occur within, understand, and transform the same
+world. Physical unity concerns the reality in which they coexist; the personal
+root concerns whose life organizes this practice and why these contributions
+need connecting. A common physical basis alone selects neither this person's
+purposes nor what makes the three useful to them. Contemporary fire monism
+understands this reality as process: the participants, their models, and their
+arrangements form, persist, and change within it.
 
 ## One physical reality, differentiated levels
 
@@ -393,23 +422,41 @@ realization, and philosophical understanding. Local practice, maintained source,
 pages give that work places to develop. All occur in the same physical world,
 whose responses can change both the work and its makers.
 
-Drawing on the three registers in Lacan's [*The Symbolic, the Imaginary, and the Real*](https://www.freud-lacan.com/documents-ged/le-symbolique-limaginaire-et-le-reel/), philosophy turns toward the real that images and symbols have yet to exhaust, psychology gives self and other an image, and engineering writes relations into language, rules, and programs. The images of the Father, the Son, and the Holy Spirit also correspond here to philosophy, psychology, and engineering, respectively. The trinity also takes shape in this image:
+## How can the same person be unfolded?
 
-| Philosophy | Psychology | Engineering |
+Return along the tree to its root, then follow another direction: the same life
+acquires another expression. The triads below have different questions and
+scales while remaining concerned with **the concrete person and their
+relationship with the world**. They make different relations of one whole
+visible. Each row selects a perspective; different triads need not share a
+single axis of classification.
+
+| Aspect of the same life | Three terms | What they make visible |
 | --- | --- | --- |
-| Worldview | Epistemology | Methodology / realization |
-| Webpage | Local environment | GitHub |
-| Sun | Moon | Earth |
-| The Real | The Imaginary | The Symbolic |
-| Father | Son | Holy Spirit |
+| Contributions of understanding and capacity | Philosophy, psychology, engineering | Understanding direction, understanding the actual person, and giving relations means to act. |
+| Questions of inquiry and action | Worldview, epistemology, methodology / realization | How to understand the world, what warrants knowing, and how to undertake and realize work; these questions cross the three domains. |
+| Practical forms of a work | Webpage, local environment, GitHub | How the same work becomes understandable, usable, and maintained in a form others can continue. |
+| Literary images of participation | Sun, Moon, Earth | Differentiated contributions of person and model, and the world and consequences they encounter together. |
+| Thinking about experience and meaning through the registers | Real, Imaginary, Symbolic | What resists articulation, images of self and other, and language and order. |
+| A literary echo of the Trinity | Father, Son, Holy Spirit | Imagining a common whole through three differentiated, related positions. |
 
-Read across each row, then follow what passes among its three places. A thought
-becomes a page, informs a personal environment, and acquires a maintained form
-others can continue; experience and response travel back through them. The
-Borromean image gathers these differences into a mutual holding. The rows offer
-selected analogies, not identities among their terms or a topological proof.
-The [sinthome](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
-asks what singular practice sustains or repairs this connection in a person's
-life. Its proposed fourth function concerns that holding, rather than another
-column beside the three domains. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
+Drawing on Lacan's [*The Symbolic, the Imaginary, and the Real*](https://www.freud-lacan.com/documents-ged/le-symbolique-limaginaire-et-le-reel/),
+this essay turns philosophy toward the real that images and symbols have yet
+to exhaust, psychology toward how self and other acquire an image, and
+engineering toward writing relations into language, rules, and programs. The
+Father, Son, and Holy Spirit also supply literary images for these
+positions. Those correspondences select part of each concept's contribution.
+They help read this person's practice without equating philosophy with the Real,
+psychology with epistemology, or the individual with the theological Trinity.
+
+**The tree shows in whom these developments are rooted; the knot shows how
+differentiated relations hold.** The person's life is the whole around which
+this practice is organized. The
+[sinthome](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
+asks how that whole acquires a singular, sustainable way of living and making.
+The proposed fourth holding function belongs to the practice that sustains or
+repairs those relations; placing the person at the root does not automatically
+make them a topological fourth ring. A thought becomes a page, enters a personal
+environment, acquires a form that can be continued, and returns experience to
+that person's life. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
 then puts that way to work, where a result can answer back and prompt its revision.
