@@ -20,6 +20,11 @@ different rings hold through their joint arrangement. Here that image becomes
 direction needs a relation to the person living it; that understanding needs
 an environment in which it can act; use in that environment returns experience
 that can change both. Their knot is made and remade through this movement.
+The three contributions do not by themselves establish a four-ring structure.
+The [fourth holding function proposed in that essay](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
+belongs to the person's singular lived practice that sustains or repairs their
+connection. The shared physical reality discussed below is their ground, not
+an additional ring.
 
 **The one is a shared physical reality; the three are philosophy, psychology,
 and engineering within it.** Philosophical thinking, psychological activity,
@@ -401,7 +406,10 @@ Drawing on the three registers in Lacan's [*The Symbolic, the Imaginary, and the
 Read across each row, then follow what passes among its three places. A thought
 becomes a page, informs a personal environment, and acquires a maintained form
 others can continue; experience and response travel back through them. The
-Borromean image gathers these differences into a mutual holding. The
-[sinthome](writing-a-sinthome.md) asks how this becomes a singular way to live
-and create. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
+Borromean image gathers these differences into a mutual holding. The rows offer
+selected analogies, not identities among their terms or a topological proof.
+The [sinthome](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
+asks what singular practice sustains or repairs this connection in a person's
+life. Its proposed fourth function concerns that holding, rather than another
+column beside the three domains. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
 then puts that way to work, where a result can answer back and prompt its revision.

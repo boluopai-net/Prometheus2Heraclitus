@@ -6,6 +6,7 @@
 <summary>On this page</summary>
 
 - [Why sinthome](#why-sinthome)
+- [Three aspects and a fourth holding function](#three-aspects-and-a-fourth-holding-function)
 - [A personal philosophy as its practical form](#a-personal-philosophy-as-its-practical-form)
 - [Articulate enough to work, then let working change the articulation](#articulate-enough-to-work-then-let-working-change-the-articulation)
 - [From an expressed relation to distributed action](#from-an-expressed-relation-to-distributed-action)
@@ -38,8 +39,10 @@ over which; their arrangement makes the three hold together. This gives
 
 In [Lacan's *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), the sinthome has a holding function in the presented repair of the knot of Symbolic, Imaginary, and Real; Joyce's particular art matters to the discussion. **Sinthome (圣状)** is Lacan's term. His attention to a particular artistic practice gives this essay its point of departure: something singular can sustain a person's way of making and living.
 
-The repair introduces an additional ring at a failed crossing so that the
-registers can continue to hold together. A fourth element also appears in his
+In this construction, an additional ring repairs a failure of knotting so that
+the registers can continue to hold together. The sinthome names the additional
+holding or repair function represented by that ring, rather than simply naming
+the entire four-component arrangement. A fourth element also appears in his
 [16 June 1975 lecture on Joyce, pp. 5–6](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19750616LacanJoycetheSinthomefromnotesbyEricLaurent.pdf).
 The three-ring structure supplies the image of mutual holding; the sinthome
 brings the further question of what a singular invention can sustain or repair.
@@ -49,6 +52,47 @@ For this comparison, the three register names need enough explanation to show wh
 This essay develops the application to a Skill from that starting point. Its question is how a singular practice makes relations hold across uneven experience, conflicting descriptions, and changing purposes. The writing can give these differences a place in continuing activity: one tension becomes a question, another becomes material for creation, and a commitment gives the next act a direction. What holds is a way of living and making through them.
 
 Articulating preferences can begin this work. The sinthome proposal develops their place in a distinctive way of inhabiting purposes and acting: articulation shapes an encounter, repeated work gives it continuity, and its consequences help the person reshape it. An instruction file contributes when it participates in that living relation. The philosophical application concerns this possibility of sustaining agency through a singular practice.
+
+## Three aspects and a fourth holding function
+
+The following [Trinity essay](local-source-and-website.md) distinguishes
+philosophy, psychology, and engineering. These are three contributions to a
+practice, not already a demonstrated Borromean link. Their comparison with
+Real, Imaginary, and Symbolic selects an image of connection; it does not make
+the domains identical to Lacan's registers. The common physical reality called
+the “one” in that essay is the ground of all three activities, not a fourth ring.
+
+The candidate for a fourth function here is **the person's singular practice of
+creating, using, and maintaining an arrangement through which the three can
+continue to work together**. Philosophy articulates a direction; psychological
+understanding makes it responsive to this person's experience; engineering
+provides working means. Their presence alone does not establish their connection.
+The additional question is what this person actually does with them, and what
+specific arrangement lets that connection persist or be repaired. This practice
+is a relation across the three, not another discipline beside them. “Personal
+philosophy” in this essay's broader sense names that lived form; it must not be
+confused with philosophical exposition as just one of the three contributions.
+
+For example, a person may have a developed view, an account of their needs, and
+capable tools, yet still be unable to turn these resources into continuing work.
+A particular practice of writing with a model might give their unfinished
+experience a readable expression, turn the adopted meaning into usable
+instructions and arrangements, and return actual results for revision. If they
+can take it up again through changes and difficulties, the practice supplies
+the proposed holding function. A document or tool alone does not show this;
+what matters is the person's continuing relationship with the arrangement.
+
+This is why the essay borrows *sinthome* rather than using it as another name
+for productivity. The relevant question concerns an individual's recurrent
+tensions, bodily and affective experience, desire, and particular ways of
+enjoying and creating: what form makes a life sustainable without requiring
+every tension to disappear? The proposal draws a functional comparison with
+singular knotting and repair. It does not establish Lacan's clinical account
+for this person, equate ordinary pleasure with *jouissance*, or prove a
+topological four-ring structure. Such a mathematical claim would require
+defined components and crossings; adding a fourth label supplies neither.
+The philosophical proposal remains answerable to what the practice actually
+holds together and where it fails.
 
 ## A personal philosophy as its practical form
 
@@ -142,9 +186,11 @@ The two questions develop different aspects of the same encounter. The celestial
 The next essay, [Trinity](local-source-and-website.md), unfolds this knot into
 the practice of philosophy, psychology, and engineering. A view gives a life
 direction; understanding the person makes that direction inhabitable; an
-engineered environment gives it means to continue. Their mutual holding is
-the Borromean image carried into this work. When one connection fails, a
-singular invention—a revised account, a new method, a changed arrangement—can
-give the practice a way to hold again. The question now becomes concrete:
+engineered environment gives it means to continue. Their mutual dependence
+motivates the Borromean comparison. The proposed fourth function lies in the
+singular lived practice that connects or repairs these contributions, rather
+than in the mere fact that there are three of them. A revised account, new
+method, or changed arrangement contributes when it enters that sustaining
+practice; not every repair is thereby a sinthome. The question now becomes concrete:
 where will this understanding live, how will it act, and what will return to
 change it?
