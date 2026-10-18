@@ -71,6 +71,13 @@ Carry useful work that this knowledge supports; a complete prior portrait is
 not a prerequisite for every action. Describe the package as situated only when
 the five accounts have acquired grounded content, including honest unknowns.
 
+Use the accounts as explicit context for judgment and action. Read personal
+reports, interpretations, chosen commitments, and operational requirements in
+their stated scope. Philosophical essays support understanding when relevant;
+literary identities do not replace the accounts' concrete meaning. The
+[writing method](references/design-and-revision.md#write-for-the-actual-use)
+owns the distinction between human-readable philosophy and model-facing form.
+
 ## Work from the actual encounter
 
 Use the person and counterpart accounts together. A wish may call for completed

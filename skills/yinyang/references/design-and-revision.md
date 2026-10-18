@@ -11,10 +11,13 @@ what evidence, and how the connected accounts can change.
 YinYang's purpose is reverse alignment: the person's developing understanding,
 generation, and action through encounter with generative intelligence. The
 counterpart's adaptation and independent contribution support that purpose.
-Its meta-harness makes the participants and their relationship intelligible
-through philosophy, literature, and psychology. Writing can help form a usable
-relation before complete self-understanding; [Writing a sinthome](docs/writing-a-sinthome.md)
-develops that philosophical proposal.
+Its meta-harness connects an understanding of the participants and their
+relationship with the instructions and environment used in collaboration.
+Human-readable philosophy and literature develop the meaning of that
+arrangement; model-facing accounts state the relevant understanding and
+requirements explicitly. Both can help form and revise a usable relation before
+complete self-understanding; [Writing a sinthome](docs/writing-a-sinthome.md)
+develops the philosophical proposal.
 
 These methods maintain one developed example. A request may instead call for
 another philosophy or literary form. Support that work at its own source, even
@@ -45,6 +48,35 @@ guide to the current purpose and evidence while preserving the account's
 grounded substance. This writing-time reading concerns the affected accounts;
 ordinary collaboration continues to read the actual accounts under the
 entrypoint's existing contract.
+
+## Write for the actual use
+
+Write the five situated accounts and derived notes under `references/personal/`
+as explicit model-facing context and instructions. State the relevant objects,
+relations, evidence, conditions, responsibilities, and consequences in clear
+natural language. Distinguish a reported experience, an interpretation, a chosen
+commitment, and a requirement where they would lead to different judgments or
+actions. Form means making these relationships usable for reasoning and work;
+it requires neither a fixed template nor symbolic notation. Personal information
+remains contextual evidence rather than becoming a command merely because a
+model reads it.
+
+Use direct expression first. Bring in a philosophical distinction or literary
+image when it clarifies a consequential relation that the direct account does
+not yet make intelligible. State its relevant meaning and scope; the counterpart
+should not have to infer practical requirements from a character or metaphor.
+Preserve original expression as attributed source material, while writing the
+maintained interpretation and operational consequences explicitly. Keep developed
+philosophical arguments at their reader-facing owners and refer to them as needed.
+
+The model helps construct both forms of the same living environment: philosophy
+and literature that the person can understand, experience, and question, and
+explicit accounts, prompts, tools, and arrangements that models can use and
+maintain. Keep their substantive relationships consistent without copying the
+same prose into both. A reader essay may develop an image at length; a working
+account needs the supported meaning that affects collaboration. Actual use can
+revise either form. This is a distinction of use, not a claim that people cannot
+understand explicit structure or that models cannot understand philosophy.
 
 ## Form a situated version from actual material
 
@@ -256,16 +288,15 @@ action without establishing shared inner mechanisms or model sentience.
 
 Read in both directions:
 
-`philosophical or literary expression ⇄ understanding of activity and relations ⇄ working behavior`
+`human-readable expression ⇄ explicit understanding of activity and relations ⇄ working behavior`
 
-An image can hold more possibilities than one interpretation. Develop the
-processes and relations the current problem needs, show their practical
-consequences, and leave other possibilities open. When realized through a
-computer, their representation must retain the meanings of the relevant
-states, relations, and changes so actual use can correct it. This can be a
-natural-language account interpreted by a model, without formalizing the whole
-person or encounter. A contextual realization can be precise without becoming
-the image's final definition.
+Develop the processes and relations the current problem needs in the form its
+consumer can use. Human-readable philosophy can retain possibilities beyond one
+working interpretation; the model-facing account specifies the supported
+interpretation, its consequences, and what remains unresolved. When realized
+through a computer, the representation must retain the meanings of relevant
+states, relations, and changes so actual use can correct it. Clear natural
+language can supply this form without formalizing the whole person or encounter.
 
 For example, interpreting protection of attention as “never ask a question”
 would erase the difference between transferring unfinished implementation work

@@ -33,9 +33,9 @@ supplies the connected method for authoring, reviewing, packaging, publishing,
 and reading back prompts and Skills. Resolve it through the current host's
 catalog; a named method may have no callable carrier on another host.
 
-The lifecycle method's movement among spirit, relational form, and objectification
-helps articulate YinYang's meaning; its source and consumer mechanics maintain
-that meaning in use. Reusable technique stays there. Understanding of this
+The lifecycle method connects purpose, relational form, and working realization.
+It helps make the understanding usable in explicit instructions; its source and
+consumer mechanics maintain that meaning in use. Reusable technique stays there. Understanding of this
 person and relation stays here and in the situated accounts. Keep a short
 relation and locator between owners instead of copying either's procedures or
 portraits.
@@ -81,7 +81,7 @@ surface complaints can arise at these different levels; changing a prompt's
 wording indiscriminately would leave their causes untouched.
 
 For a semantic change—purpose, claim, role, judgment, or way of working—inspect
-the affected connections, including a Skill's opening spirit and the rules
+the affected connections, including a Skill's stated purpose and the rules
 realizing it. Carry necessary source, website, personal-account, Skill, and
 environment changes through the same bounded task. Publication can follow
 dependencies; an early page release does not close remaining required work.

@@ -5,10 +5,10 @@ description: "提示词与技能生命周期：编写、审查、维护和发布
 
 # Prompt and Skill Lifecycle
 
-A purpose takes form in instructions, becomes available through a maintained
-carrier, and meets the world through use. What happens there can change the
-writing, its packaging, or the understanding it expresses. Keep meaning,
-delivery, and observed behavior intelligible together.
+Author and maintain prompts and Skills for their actual consumers. Express the
+purpose, relations, conditions, and expected contributions in usable
+instructions; connect that meaning to its maintained carrier and observed use.
+Writing, delivery, and use can each reveal a reason to revise the others.
 
 Work from the actual user purpose, target artifact, consumer, and current
 evidence. Carry an authorized change through integrated writing, proportionate

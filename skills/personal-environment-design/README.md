@@ -2,10 +2,11 @@
 
 [中文指南](README.zh-CN.md)
 
-Design the connected surfaces through which a person understands, chooses,
-acts, and returns to work. This Skill examines cognitive and interaction effort
-across websites, desktops, launchers, applications, documents, and automation.
-It preserves meaningful distinctions while reducing unnecessary coordination.
+Design and configure a coherent environment for a person and model to work
+together. This Skill connects prompts, Skills, MCP, plugins, applications,
+automation, and local or cloud services with human-facing use. It considers
+capability, cognitive and interaction effort, resource use, reliability, and
+maintenance together.
 
 ## Use and capabilities
 
@@ -15,26 +16,40 @@ can begin with supplied descriptions; observing or changing a real environment
 requires the recipient's actual browser, desktop, application, or implementation
 tools and existing permissions. The Skill does not create those capabilities.
 
-Example request: “I start in a launcher, open a project dashboard, then search
-three documents to remember what to do next. Inspect that journey and implement
-a clearer way to resume the project.” The method follows the real path, separates
-observed friction from hypotheses, compares existing controls with new surfaces,
-implements through the system's owner, and verifies the affected journey.
+Use it when installing, connecting, configuring, replacing, or materially
+reorganizing the environment. Ordinary use of a configured tool does not require
+another design exercise, and a small fix stays within its affected dependencies.
+The method traces instruction or user action through discovery, connection,
+execution, and observable result. Relevant specialists keep their own methods
+and delivery responsibilities; companion Skills are used only where available.
 
-It considers understanding, operating, coordinating, and recovering together.
-Fewer clicks or a sparse screen are insufficient evidence of improvement.
-A useful result explains what the person must find, remember, decide, enter,
-switch, wait for, and recover, along with any burden transferred elsewhere.
-Model walkthroughs remain distinct from measured human use.
+For example, ask it to connect an MCP capability and assess whether a direct
+connection, shared local backend, or existing hosted service fits the actual
+client, state boundaries, and costs. Or ask it to inspect a launcher-to-project
+journey and implement a clearer way to resume work. The first needs representative
+client calls and evidence for claimed resource savings; the second needs
+readback of the affected journey and resulting effect. A saved configuration
+or attractive screen alone does not establish the intended improvement.
 
 ## Package and adaptation
 
-`SKILL.md` is the English model-facing method.
-[Design basis](references/design-basis.md) retains reusable distinctions and
-public design references. The aligned README editions explain adoption.
-This public adaptation generalizes the original local method's tool routing and
-replaces private originating quotations and conversation identifiers with
-standalone design rationale. It includes no personal history or private sources.
+`SKILL.md` is the English model-facing entrypoint. Read resources for the
+affected part:
+
+- [Human use](references/human-use.md) retains the journey method: understanding,
+  operation, coordination, and recovery across connected surfaces. It distinguishes
+  model walkthroughs from measured human use.
+- [MCP and services](references/mcp-and-services.md) covers compatible transport,
+  execution placement, safe sharing, measured costs, and successor verification.
+- [Design basis](references/design-basis.md) explains the reusable distinctions
+  and retained public design references, separating their support for usability
+  from implementation-specific engineering evidence.
+
+The aligned README editions explain adoption. This independent public adaptation
+generalizes local tool routing and configuration choices, replacing private
+originating quotations and conversation identifiers with standalone rationale.
+It includes no personal history, private sources, preconfigured services, or
+credentials.
 
 This independent package uses the [MIT License](LICENSE). Linked external
 references retain their own rights; their full texts are not bundled.

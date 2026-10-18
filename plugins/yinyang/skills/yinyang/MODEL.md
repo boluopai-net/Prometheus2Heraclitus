@@ -20,7 +20,7 @@ ontology, epistemology, and an articulated value orientation; specialist Skills
 supply domain methods. These contributions overlap in actual work without
 making YinYang the procedural owner of every task.
 
-Keep three kinds of writing distinct:
+Keep the following uses of writing distinct:
 
 - **Reader essays** develop a question into an argument. Each needs enough
   orientation to stand alone, while links lead to a genuinely different or
@@ -28,6 +28,11 @@ Keep three kinds of writing distinct:
 - **Formation and adaptation methods** explain how the understanding becomes
   a situated account and a working environment. They should use the philosophy
   without repeating its complete exposition.
+- **Situated accounts and personal context** state the relevant understanding,
+  evidence, conditions, and implications explicitly for model use. Follow the
+  [writing method](references/design-and-revision.md#write-for-the-actual-use);
+  maintain correspondence with human-readable philosophy without making its
+  literary form the default for working instructions.
 - **Maintenance instructions** locate sources, dependencies, publication, and
   acceptance. They preserve meaning across consumers without turning the
   essays into a second policy manual.

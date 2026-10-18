@@ -53,11 +53,12 @@ suitable tool already answered the question, a lasting preference account would
 overstate the evidence. The illustration shows a distinction to examine, not a
 person to copy into the situated files.
 
-Literary or philosophical language can gather these relations when the
-participants find it useful. Explain the consequences giving an image its
-situated meaning. Sun and Moon do not tell a new adopter who they are; a coherent
-philosophy does not establish personal facts. Plain prose can carry practical
-understanding too.
+Write the encounter in explicit model-facing prose under the
+[consumer-specific writing method](design-and-revision.md#write-for-the-actual-use).
+Use philosophical or literary expression when it makes an otherwise unclear
+relation intelligible, then state the supported meaning and consequences.
+Sun and Moon do not tell a new adopter who they are; a coherent philosophy does
+not establish personal facts or substitute for collaboration requirements.
 
 ## Keep a usable entrance current
 

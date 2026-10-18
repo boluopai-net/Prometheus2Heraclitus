@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "personal-environment-design",
-  "version": "1.0.2",
-  "description": "Organize websites, desktops, and cross-tool work around human understanding and action.",
+  "version": "1.0.3",
+  "description": "Configure connected instructions, tools, services, and human-facing workflows as one working environment.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -17,7 +17,7 @@
         "shortDescription": "Shape your working environment",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",
-        "longDescription": "Organize websites, desktops, and cross-tool work around human understanding and action. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "longDescription": "Configure connected instructions, tools, services, and human-facing workflows as one working environment. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
         "category": "Productivity",
         "capabilities": [],
         "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",

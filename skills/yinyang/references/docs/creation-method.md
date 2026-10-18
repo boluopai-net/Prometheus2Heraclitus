@@ -34,15 +34,23 @@ undertaking a personal philosophy project.
 
 ## From an image to a working relation
 
-YinYang is a philosophical Skill whose spirit is literary programming.
-A chosen purpose, an existing philosophy, actual work, or a difficulty in the
-environment can open creation. Develop the person and counterpart accounts
-through the relevant encounter, drawing on experience, interaction, and
-psychological or preference material where needed. Images and narrative
-then give the model a connected situation to interpret: who is here, what each
-participant contributes, and what their work can become. This literary form
-can reshape default role assumptions across many local instructions at once.
-Its practical effect appears in changed interpretation, responses, and action.
+YinYang uses literary programming in its human-readable philosophy: images
+and narrative can make an overall relation available for understanding and
+judgment. The model helps develop that expression alongside explicit accounts,
+prompts, and tools that can realize the relation in daily life. A chosen purpose,
+an existing philosophy, actual work, or a difficulty in the environment can open
+creation. Experience, interaction, and relevant psychological or preference
+material ground the person and counterpart accounts.
+
+The two expressions have different duties. A philosophical essay can develop
+what a relationship means and what possibilities it opens. An ordinary
+model-facing account states its supported objects, relations, conditions, and
+contributions directly; it uses philosophy when direct expression leaves
+important meaning unclear. Changed roles become effective through this
+interpretation and its working realization, not merely through placing a
+literary character in an instruction. Either expression can revise the other
+through use. The [writing method](../design-and-revision.md#write-for-the-actual-use)
+develops this distinction for the five accounts and private supporting notes.
 
 When psychological modeling is hard to articulate, a person comfortable with
 engineering can begin from preferences visible in choices about work, learning,
@@ -153,13 +161,15 @@ count of revisions or artifacts.
 
 ## Give the account a readable body
 
-Full adoption of the maintained YinYang implementation gives the account two scales. Common
-essays develop its philosophy and imagery. Five situated files distill what
+Full adoption of the maintained YinYang implementation connects two uses of
+writing. Common essays develop philosophy and imagery for human understanding.
+Five situated files explicitly state what
 actual collaboration needs: encounter, person model, counterpart and
 relationship, use, and sources. They supply an entry into the participants and
 the grounds of understanding them; the larger essays give reasons and
-connections that a condensed account cannot carry. Supporting private sources
-retain the relevant personal evidence.
+connections that a working account need not repeat. Supporting private sources
+retain the relevant personal evidence; derived notes make their meaning and
+uncertainty usable for the model while preserving original expression as source.
 
 The [Skill entrypoint](../../SKILL.md) connects these resources to a consuming
 model. Its reading contract makes the complete current situated accounts

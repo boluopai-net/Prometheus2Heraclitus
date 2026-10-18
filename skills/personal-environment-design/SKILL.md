@@ -1,143 +1,104 @@
 ---
 name: personal-environment-design
-description: "个人环境设计：围绕人的理解与操作，设计个人网站、桌面和跨工具工作环境。 Use when designing or revising a personal environment's information, navigation, controls, or workflows to reduce the person's cognitive and interaction effort."
+description: "个人环境设计：统筹提示词、Skill、MCP、插件、应用、自动化、服务与使用体验的配置。 Use when setting up, connecting, extending, or revising a personal working environment and its capabilities."
 ---
 
-# 个人环境设计 · personal-environment-design
+# Personal Environment Design
 
-Make the environment a place the person can inhabit fluently. Its machinery
-should carry the coordination it can resolve, while its visible surfaces help
-the person understand, choose, act, and return to meaningful work.
+Make the environment a coherent place for the person and model to work together.
+Its visible surfaces should support understanding and action; its instructions,
+tools, connections, and services should supply the needed capabilities with
+reasonable resource use and maintenance. A convenient interface and a sound
+technical arrangement contribute to the same lived environment.
 
-A capable person still has a body and finite attention. Software may execute
-many jobs at once; that does not make the person's speaking, pointing, reading,
-or deliberate choices parallel resources. Design around the actual sequence of
-human participation. Preserve conceptual depth while reducing the effort of
-finding, remembering, translating, operating, and recovering.
+This is the overall design and configuration entrypoint. Read it when installing,
+connecting, configuring, replacing, or materially reorganizing the user's
+environment, including prompts, Skills, MCP servers, plugins, applications,
+automation, and local or cloud services. Ordinary use of an already configured
+tool does not require another environment-design exercise. Keep the scope at
+the requested change and its necessary dependencies; a small configuration
+change does not authorize a whole-environment rebuild.
 
-The person and model can both explore, generate, judge, and revise the environment.
-Allocate their contributions from the current purpose and actual capabilities;
-the model carries investigation, implementation, and maintenance that it can
-resolve, while the person's experience and consequential choices inform the work.
-The environment connects them
-through perceivable state and usable actions. A personal website, desktop,
-launcher, application, document view, and automation can participate in one
-journey without becoming one application. Choose their relationship from the
-person's use rather than the repository or tool inventory.
+The person and model both generate, judge, and revise. The model carries the
+discovery, integration, implementation, and maintenance it can resolve; the
+person's purposes, experience, and consequential choices guide the result.
+An available situated philosophy or relationship account can clarify these
+purposes and contributions when relevant. This Skill supplies environment
+methodology, while specialists retain their own methods, publication boundaries,
+and actual access authority.
 
-## Find the actual journey
+## Understand the connected environment
 
-Use this method when the design object is how the person encounters and uses
-their environment, including friction within a single surface. An ordinary
-backend repair, visual asset, or isolated styling fix need not load it. A request
-to author this Skill does not itself authorize rearranging the environment.
+Start with what the person or model needs to accomplish and what the current
+environment already provides. Trace the relevant path from instruction or user
+action through capability discovery, connection, execution, and observable result.
+Read the affected configuration and real consumer before choosing a change.
+An installed package, a discoverable tool, a working login, and a successful
+operation establish different parts of that path.
 
-Inspect relevant current surfaces and their actual behavior under the host's
-workspace boundaries. Reuse task evidence and the user's account; distinguish
-an observed obstacle from a plausible design hypothesis. Resolve an uncertain
-product name only when its identity matters to the action.
+Consider both human and machine costs where they matter: understanding and
+operation, startup and latency, memory and repeated processes, external service
+cost, reliability, updates, and recovery. Compare reusing, configuring, replacing,
+or building against the actual purpose. Inspect current upstream implementations
+when their capabilities affect the choice. A new layer earns its place through
+a concrete contribution; remove displaced duplication after successor readback.
 
-Follow a representative task from the person's starting context to a useful
-result and, where relevant, their next return. Establish what they need to
-understand or decide, what the environment already knows, what still requires
-their input, and which app or surface owns each effect. Trace handoffs as part
-of the same task: a clean page can still create a difficult journey elsewhere.
+For a substantive change, establish the current arrangement, intended result,
+affected dependencies, and sufficient acceptance evidence before implementation.
+Follow configuration to its maintained source, runtime consumer, and update or
+publication owner. Keep credentials and application sessions with their existing
+owners. Decide from current evidence rather than treating installed state as the
+desired design. A short explanation and coherent patch can be sufficient; this
+entrypoint adds no separate Plan, approval gate, registry, or scheduler.
 
-Consider the burdens that actually appear:
+## Compose the needed capabilities
 
-- Understanding: unfamiliar concepts, ambiguous names, hidden relationships,
-  uncertain state, and facts that must be remembered across views.
-- Operating: searching, aiming, clicking, typing, repeating information,
-  moving between windows, and navigating back to the working context.
-- Coordinating: choosing internal tools, initiating dependent steps, polling,
-  reconstructing task state, and responding to competing interruptions.
-- Recovering: recognizing an error, understanding its consequences, correcting
-  input, undoing an action, or resuming after interruption.
+Read only the resources and specialists relevant to the actual change. Discover
+what is actually available before selecting a companion method or tool; the
+person need not choose internal routing.
 
-Judge the whole burden against task frequency, consequence, discoverability,
-and the person's actual familiarity. Click count and visual sparseness are
-useful observations, not sufficient objectives or a universal score. A visible
-explanation or an extra deliberate step can reduce uncertainty and rework.
+| Affected part | Contribution and owner |
+| --- | --- |
+| Prompts and Skills | Use an available authoring and management method, such as `prompt-and-skill-lifecycle`, for meaning, discovery, packaging, review, delivery, and consumer readback. Its specialist lifecycle remains separate from this overall environment method. |
+| MCP and service placement | Read [MCP and services](references/mcp-and-services.md) for transport, process lifetime, sharing, and local/cloud placement. Use available tool-contract or interface-design expertise where needed. |
+| Plugins and connectors | Use the current host's native management capability and relevant specialist. Inspect the tools, Skills, connections, background processes, dependencies, authentication, and update behavior the package actually supplies. Compare existing usable routes before installing a duplicate. |
+| Applications and host configuration | Use the application's or host's current configuration, persistence, and service-management owners. Trace maintained source to the running consumer rather than assuming one configuration file controls both. |
+| Automation and event-driven effects | Use the actual scheduling or lifecycle-event owner. Add background machinery only when its contribution is needed; inspect its trigger, execution environment, state, and result. |
+| Human-facing surfaces and workflows | Read [Human use](references/human-use.md). Compose the affected website/content maintainer, design, frontend, or native application capability. |
+| Failures and uncertain behavior | Use the affected diagnostic specialist or available native evidence to resolve concrete uncertainty, then return to the intended result. |
 
-## Shape understanding and action together
+A plugin is a delivery unit, an MCP endpoint a connection, and a Skill an
+instructional capability; inspect their actual relationships rather than
+assuming the labels describe independent installations. Select the actual
+account, host, project, and consumer. Preserve deliberate disabled components
+and host-specific differences. Installing one component does not authorize
+enabling unrelated capabilities or copying private material to another service.
 
-Organize by recognizable purposes and relationships. Keep related evidence,
-state, and actions close enough to use together. Stable terms and locations
-support recognition; an inventory of internal services rarely supplies the
-right information architecture. Dense material can remain visible when it
-helps comparison, while secondary detail can open on demand without losing
-position or context. Preserve the distinctions needed for correct judgment.
+## Realize and verify the whole affected path
 
-Make frequent actions direct and legible in the person's actual input mode.
-For mouse use, inspect target size, spacing, travel, scrolling, and whether an
-icon communicates its effect. Keyboard shortcuts can supplement recognizable
-controls; they do not automatically remove the cost of learning and recall.
-Use consistent interaction and accessible alternatives appropriate to the
-surface. Let the person see what an action affects and where its result went.
+Carry the change through the relevant specialists and publication owners to
+actual use. For an instruction change, check discovery and readable content;
+for a connection, check authentication and a representative operation; for a
+shared service, check concurrency boundaries and the claimed resource benefit;
+for a visible workflow, exercise its real entrypoint and resulting effect.
+Use only the checks needed to settle material uncertainty. A configuration diff,
+package installation, or healthy process alone does not prove the intended result.
 
-Let the environment carry settled, authorized coordination: reuse known input,
-choose internal routes, connect dependent steps, preserve context, and report
-meaningful outcomes. Parallel background work should not multiply simultaneous
-demands for human attention. Bring unresolved human choices together when their
-relationship helps judgment, without collapsing distinct decisions or delaying
-time-sensitive action. Existing consent and execution boundaries keep their
-owners; convenience does not change them.
+After replacement works, retire displaced registrations, startup entries,
+bridges, or configuration that no current consumer needs. Preserve useful data,
+sessions, and recovery evidence under their actual owners. Keep maintenance
+knowledge with the affected project; show the user the resulting capability,
+meaningful choices, verification, and any remaining required difference.
 
-Separate what helps the person work from what helps the model maintain the
-system. Put implementation and routine diagnostic detail with its maintenance
-owner; expose an error, consequence, or recovery action when the person needs
-it. Quiet operation still needs perceptible success, recoverable failure, and
-a way to inspect consequential state. Automatic behavior should be predictable
-and overridable where the task needs control.
+The overall task owner retains integration and completion while specialists
+carry their contributions. A specialist handoff is progress when more work is
+needed for the user's outcome. A requested exploration may finish with grounded
+options; an implementation request continues through delivery and readback.
 
-## Choose a fitting realization
+This package provides methods, not installed integrations or access. Do not
+assume the author's desktop, browser profile, credential store, companion Skills,
+private history, or service stack exists in the recipient's environment.
 
-Compare useful changes in the current environment before constructing another
-surface. Existing native controls, better defaults, clearer content, a direct
-link, or a small automation may solve the journey. A new dashboard earns its
-place only when its reduction in effort exceeds its extra navigation, state,
-learning, and maintenance. Select relevant current design references when an
-unsettled implementation choice needs them; there is no mandatory design stack.
-
-Compose with currently available specialists by contribution:
-
-- Website/content maintainers own the affected site's delivery; a reading
-  surface is not implicitly converted into a control panel.
-- Product design methods help inspect flows and explore alternatives; frontend
-  builders implement the selected interface.
-- Visual references and component libraries supply options and building blocks;
-  neither decides which journey or controls the person needs.
-- Native configuration, automation, and persistence tools implement changes to
-  their actual systems. Their coverage does not define the person's environment.
-
-Select from the recipient's actual tools and permissions. Do not assume a
-particular desktop, browser profile, credential store, companion Skill, or
-private history.
-
-Load only the specialists needed for the current work. Keep this Skill's
-judgment about the person's journey connected to implementation and readback;
-using a specialist does not discharge the task with a design recommendation.
-
-## Verify the person's path
-
-Exercise the affected journey from its real entrypoint with representative
-content and state. Inspect the rendered surface and the actual resulting
-effect. For changed interactions, use the relevant input method and examine
-the transitions that could lose context or introduce uncertainty. Include
-failure, interruption, or return when the change depends on those states.
-
-Compare before and after at the points that motivated the work: what the person
-must understand, locate, decide, enter, switch, wait for, and recover. Explain
-the meaningful benefit and any transferred burden. A faster backend, passing
-build, attractive screenshot, or working automation alone does not prove a
-more usable environment. Distinguish the model's walkthrough from observed
-human use; do not claim measured improvement without measurement.
-
-Complete an implementation request through the owning delivery route and
-actual readback. A requested exploration can finish with assessed alternatives
-and the remaining choice. Retain useful design rationale with the affected
-project, and revise it when actual use contradicts the design hypothesis.
-
-For reusable distinctions and selected public design references, consult
-[design basis](references/design-basis.md) when interpreting the intent or a
-disputed tradeoff; it is evidence rather than a second operating procedure.
+The [design basis](references/design-basis.md) explains the reusable distinctions
+and scope of this public adaptation. It is supporting rationale rather than a
+second operating procedure.

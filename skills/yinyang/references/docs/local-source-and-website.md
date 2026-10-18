@@ -359,7 +359,7 @@ The current question determines what is being repaired:
 | Improve a named part | That part in service of the intended result | Relevant material from the other places; only necessary dependent changes become additional repair targets. |
 
 A semantic change may therefore need a linked revision across the website,
-private models, and local user-authored Skills. Their opening spirit and
+private models, and local user-authored Skills. Their stated purpose and
 concrete methods both need to express the new relation. A change of quotation
 marks or an equivalent link label usually stays at its presentation boundary.
 

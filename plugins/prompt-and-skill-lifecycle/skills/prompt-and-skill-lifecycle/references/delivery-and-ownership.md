@@ -45,6 +45,30 @@ and read back the successor, update consumers through the owning interfaces,
 then retire obsolete active routes. Preserve inert archives when they serve
 recovery. Avoid two active semantic owners for the same capability.
 
+## Maintain corresponding editions
+
+When a changed source has an explicitly mapped public or other consumer
+edition, identify that edition's owner, audience, role, scope, and resources.
+A matching name does not establish this relationship or justify creating a
+new edition. Compare materially changed purpose, invocation conditions,
+interfaces, methods, and resources against each actual consumer's needs.
+
+An independently authored edition requires semantic adaptation: carry portable
+material improvements to its source within the authorized maintenance scope,
+while preserving private information, environment-specific responsibilities,
+rights, and actual authority boundaries. Distinct advisory and execution roles
+may need different wording. A local-only change may leave another edition
+unchanged; explain that judgment when material to completion. Close required
+edition updates rather than stopping at one consumer's installation.
+
+A deterministic projection instead uses its existing generator. A website's
+cached reading copy follows its owning publication route; it is not a live
+view of local files. Use the existing package and publication owners, maintaining
+revision, version, and change metadata where their actual contracts require it.
+Verify the relevant published package and consumer readback. Source presence,
+publication, retrieval, and observed use remain distinct evidence. This does
+not call for another updater, scheduler, or edition registry.
+
 ## Readback and recovery
 
 Verify the intended consumer's discovery, entrypoint retrieval, supporting

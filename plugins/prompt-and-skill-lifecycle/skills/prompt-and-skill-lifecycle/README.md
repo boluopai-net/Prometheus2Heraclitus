@@ -5,11 +5,14 @@ evidence from use. It helps author, audit, organize, publish, and maintain
 Prompts and Skill packages while keeping their meaning and actual consumers
 visible together.
 
-Its central movement is **spirit → relational form → objectification**: clarify
-the intended relation, unfold its participants and boundaries, then give it a
-working body in instructions and interfaces. Read observed behavior back through
-those levels when deciding what to revise. A literary or philosophical image
-can carry the orientation; no particular image or worldview is required.
+Its method connects **purpose → relational form → working realization**: state
+what the actual consumer should accomplish, explain the relevant relations and
+conditions, and give them a usable form in instructions and interfaces. These
+are connected perspectives, not mandatory stages. Read observed behavior back
+through them when deciding what to revise. Model-facing instructions normally
+state purpose, roles, actions, and judgment criteria directly. Philosophical or
+literary expression can clarify meaning that direct instruction has not conveyed;
+corresponding expressions can inform and revise one another through use.
 
 ## Adopt it
 

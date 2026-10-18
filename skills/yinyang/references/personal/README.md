@@ -4,6 +4,13 @@ This directory retains useful private substance beyond the maintained public
 philosophy. The distributed package contains this guide; the situated package
 selects material from the actual person's environment and authorized sources.
 
+Write derived notes as explicit model-facing context under the
+[writing method](../design-and-revision.md#write-for-the-actual-use). State what
+the selected source reports, what is an interpretation, its scope and uncertainty,
+and any consequence for collaboration. Preserve attributed quotations and
+original works as sources. A source's philosophical or literary form does not
+require the maintained personal account to use that same form.
+
 Relevant material can include current work, study, research, and life purposes;
 psychological or relational experience; and evidence of environmental use.
 Keep a useful distillation with source, date, and consequential uncertainty,

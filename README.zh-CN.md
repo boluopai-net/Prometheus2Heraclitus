@@ -56,7 +56,7 @@
 | [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | 从实际分歧、证据和有用的问题出发，澄清会改变任务下一步的关键不确定性。 | [完整包](skills/task-inquiry/) |
 | [提示词与技能生命周期 · prompt-and-skill-lifecycle](skills/prompt-and-skill-lifecycle/SKILL.md) | 把指令的含义、维护责任、交付方式和实际使用证据连在一起，编写、审查与维护 Prompt 和 Skill。 | [完整包](skills/prompt-and-skill-lifecycle/) |
 | [安卓手机控制 · android-control](skills/android-control/SKILL.md) | 通过 ADB 与原生界面操作自己的安卓设备，并核实实际效果。 | [完整包](skills/android-control/) |
-| [个人环境设计 · personal-environment-design](skills/personal-environment-design/SKILL.md) | 从人的理解与操作出发，组织网站、桌面和跨工具工作方式。 | [完整包](skills/personal-environment-design/) |
+| [个人环境设计 · personal-environment-design](skills/personal-environment-design/SKILL.md) | 将相连的指令、工具、服务与人的使用流程，配置为共同工作的环境。 | [完整包](skills/personal-environment-design/) |
 | [模型升级检查 · model-upgrade-check](skills/model-upgrade-check/SKILL.md) | 核对可用模型、用途分配与实际消费者，让升级保持一致。 | [完整包](skills/model-upgrade-check/) |
 | [论文与学术书籍检索 · paper-retrieval](skills/paper-retrieval/SKILL.md) | 核对题录、版本与全文，把搜索结果交付为可验证的学术材料。 | [完整包](skills/paper-retrieval/) |
 | [视频字幕提取 · video-subtitle](skills/video-subtitle/SKILL.md) | 取得带来源与时间线的视频讲话文本，再回到原视频核对。 | [完整包](skills/video-subtitle/) |

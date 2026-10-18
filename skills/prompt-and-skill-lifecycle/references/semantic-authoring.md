@@ -4,46 +4,60 @@ Use this resource for drafting, revising, or auditing controlling text. Read the
 actual target in its containing instruction surface, including applicable
 precedence and neighboring rule owners.
 
-## Spirit → relational form → objectification
+## Purpose → relational form → working realization
 
-These are connected levels of articulation, not additional workflow stages or
-required documents. Move between them as the object demands.
+Begin with the actual consumer and the work the instructions should support.
+For ordinary model-facing Prompts and Skills, state purpose, relevant objects
+and relations, conditions, roles, actions, and judgment criteria clearly enough
+to guide use. Precise natural language can express this form; choose symbols,
+schemas, or fixed fields when the actual interface or reasoning needs them.
 
-**Spirit** asks: what kind of relation among the user, model, task, and world is
-this artifact trying to make possible? An image, literary passage, philosophical
-tension, myth, or aesthetic coherence can condense an orientation and hold its
-possibilities together. Use such an expression when it helps generate and
-organize the design; preserve its richness instead of reducing it to a slogan.
-Plain language can also carry a spirit. Decoration without a design consequence
-adds little.
+The following are connected perspectives for developing and inspecting that
+meaning, not mandatory linear stages or separate documents.
 
-**Relational form** unfolds that orientation into an intelligible organization
-of relations: participants and objects, contributions, responsibilities,
-dependencies, boundaries, tensions, and transformations. Explain how the
-governing image bears on the work through prose, distinctions, a diagram, or a
-formal model. Keep premises and interpretive choices visible. An image suggests
-relations; it does not establish every association as fact or requirement. One
-spirit can admit several forms, and one form several implementations. Choose
-and revise them against the purpose and actual object.
+**Purpose** asks what the artifact should make possible among the user, model,
+task, and world. State the intended result, why it matters, and the contribution
+expected from this artifact. A direct operational opening can give a model the
+orientation it needs without a philosophical preface.
 
-**Objectification** gives the selected form a working body: triggers, ownership,
-interfaces, procedures, schemas, constraints, examples, tools, and acceptance
-conditions. Ground exact details in the actual consumer and observable effects.
-Each load-bearing rule should realize, protect, or follow from an intelligible
-relation, user requirement, or real dependency. If its connection is unclear,
-inspect for duplicated control, obsolete constraints, or local workarounds owned
-elsewhere. Metaphor can orient judgment; an interface still needs its schema,
-and permissions retain their actual authority.
+Philosophical or literary expression can clarify a relation that direct
+instruction has not made intelligible. Use an image, distinction, narrative, or
+other developed formulation when it contributes that understanding. A work for
+human philosophical reading may develop the form fully; corresponding
+model-facing instructions make its relevant purpose and practical meaning
+explicit. Both expressions can help people and models understand the same
+relations and can revise one another through interpretation and use.
+
+**Relational form** explains the participants and objects, their contributions,
+responsibilities, dependencies, conditions, boundaries, and possible changes.
+Develop the relations that carry the purpose through prose, distinctions, a
+diagram, or a formal model as needed. Keep grounds and interpretive choices
+visible: a proposed relation needs evidence when asserted as fact; an image's
+associations do not all become requirements. One purpose can admit several
+forms, and one form several implementations. Choose and revise them against
+the actual object and intended use.
+
+**Working realization** gives the selected form a usable body: triggers,
+ownership, interfaces, procedures, schemas, constraints, examples, tools, and
+acceptance conditions. Ground exact details in the actual consumer and
+observable effects. Each load-bearing rule should realize, protect, or follow
+from an intelligible relation, user requirement, or real dependency. If its
+connection is unclear, inspect for duplicated control, obsolete constraints,
+or local workarounds owned elsewhere. Preserve actual interface schemas and
+permission boundaries.
 
 Read in both directions:
 
-`spirit → relational form → objectification`
+`purpose → relational form → working realization`
 
-`observed realization → relational form → spirit`
+`observed realization → relational form → purpose`
 
-The return reading asks which relations the implementation actually sustains.
-A failure may need an implementation repair, a revised relational form, or a
-changed orientation. Locate the mismatch before choosing the level to revise.
+The return reading asks which relations the implementation actually sustains
+and whether they serve the purpose. A failure may need an implementation
+repair, a revised relational form, or reconsideration of the purpose. Locate
+the mismatch before choosing what to revise. Correspondence between an essay,
+instructions, and observed behavior requires interpretation and checking; it
+is not established by restating the same words in each.
 
 ## Writing and revision
 
