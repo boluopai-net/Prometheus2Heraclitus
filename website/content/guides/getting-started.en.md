@@ -78,6 +78,10 @@ For graphical management of several clients, [CC Switch](https://github.com/fari
 
 Tell the model what you want to do now, where the relevant materials are, and your preferences for language, explanation, responsibilities, and presentation. For example: “Discuss this with me in Chinese, make this material comfortable to read, retain its sources, and check the links.” Working context and preferences can develop task by task. Let the model maintain them in suitable instructions or project notes, and test their fit through use and correction.
 
+**For everyday prompts in chat, prefer clear, complete natural language and avoid using metaphors in place of concrete explanations.** State what you want accomplished, the relevant background, and important requirements. For example, “Make this report easier to understand, explain key terms, and retain its evidence and sources” gives the model a clearer task than “Breathe life into this report.” Metaphors can leave several interpretations open, making instructions harder to follow accurately. You need not produce a complete specification at once; the model can help develop what is still unclear and refine it through actual results.
+
+**For meta-prompts such as YinYang, use literature and philosophy to develop the overall purpose, the relationship between person and model, and the direction of understanding and action.** Images and concepts carry relationships that the participants need to understand together. Explain what they mean for participation, judgment, and actual work, connecting literary expression with intelligible, actionable requirements.
+
 Writing a personal philosophy is difficult, long-term work. Begin tool use by completing a real task and improving the environment through its results. Philosophy authoring, a complete personal profile, five core accounts, and a personal website are not preparation steps. If the background interests you, select [YinYang's methods and material](/repositories/prometheus/en/) around a question; that reading and the current tool setup serve their respective purposes.
 
 ### Make Skills discoverable and composable in Chinese
