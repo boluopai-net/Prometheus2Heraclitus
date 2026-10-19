@@ -34,10 +34,10 @@ GROUPS = [
     ('形成：发展自己的生活方式', 'Formation: developing a way of living', [
         ('literary-programming', '通过人物、意象与关系凝缩理解，再让具体指令和工具展开它。'),
         ('metaphor-and-self-revision', '把隐喻展开为类比与关系图，组织模型、记录和工具之间的分布式认知，并修订组织本身。'),
-        ('writing-a-sinthome', '通过哲学、心理与工程的共同实践，使三者在个人生活中相互联结，形成独特而能够持续修订的生活方式。'),
+        ('writing-a-sinthome', '从个人哲学与材料形成个人和伙伴模型，在当前技术条件下取得可用形式；圣状命名这个具体形成之物。'),
     ]),
     ('实践：成为火，进入环境与反馈', 'Practice: becoming fire through environment and feedback', [
-        ('local-source-and-website', '哲学、心理与工程怎样统一于同一物理现实，并通过不同抽象层次形成实践闭环？'),
+        ('local-source-and-website', '从同一物理现实中的一般三位一体，到个人哲学、心理与工程的具体实例，展开理解、表示和实践的联系。'),
         ('embodied-experimental-philosophy', '让作品进入具身生活，以实践和反思的反馈修订解释、系统边界及目的。'),
         ('example-and-commons', '把已形成的实践交给另一位创造者：采用、组合，或写出自己的哲学与形式。'),
     ]),
@@ -64,10 +64,10 @@ EN_SUMMARIES = {
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
     'literary-programming': 'Condense understanding through characters, imagery, and relationships, then unfold it through instructions and tools.',
     'metaphor-and-self-revision': 'Develop metaphor into analogy and relation maps, distribute cognition across models, records, and tools, and revise that organization.',
-    'writing-a-sinthome': 'Practice philosophy, psychology, and engineering together, connecting them in personal life to form a singular and continually revisable way of living.',
+    'writing-a-sinthome': 'Form personal and counterpart models from philosophy and personal material, then give them usable form under current technical conditions; sinthome names this concrete formation.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
-    'local-source-and-website': 'Understand philosophy, psychology, and engineering as activities in one physical reality, connected through distinct levels of abstraction and practice.',
+    'local-source-and-website': 'Connect the general Trinity in one physical reality with its personal instance in philosophy, psychological activity, and engineering, unfolding understanding, representation, and practice.',
     'embodied-experimental-philosophy': 'Bring works into embodied life; use practice and reflection to revise explanations, boundaries, and aims.',
     'example-and-commons': 'Offer the practice to another creator: adopt, combine, or write a philosophy and form of your own.',
 }
