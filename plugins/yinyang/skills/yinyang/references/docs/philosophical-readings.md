@@ -73,7 +73,7 @@ Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](ht
 
 | Author and original work | Connection in the collection |
 | --- | --- |
-| William James, [The Principles of Psychology, chapter IX, “The Stream of Thought”](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | Change, continuity, personal character, and selection in thought. [The stream and time](flow-and-time.md) uses this to examine experiential continuity while distinguishing present experience, retained records, and working models. |
+| William James, [The Principles of Psychology, chapter IX, “The Stream of Thought”](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | Change, continuity, personal character, and selection in thought. [How a life trajectory forms: shared work, records, and time](flow-and-time.md) uses this to examine experiential continuity while distinguishing present experience, retained records, and working models. |
 | Henri Bergson, [Time and Free Will, chapter II](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | Duration and measurable, spatialized time. The collection's distinctions among clock time, experiential rhythms, and update order enter into dialogue with this account without equating them. |
 
 ## Freud: negation and acceptance

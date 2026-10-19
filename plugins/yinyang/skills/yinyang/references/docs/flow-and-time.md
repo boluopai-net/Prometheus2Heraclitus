@@ -1,14 +1,43 @@
-# The stream and time
+# How a life trajectory forms: shared work, records, and time
 
 [Home](../../README.md) · [简体中文](flow-and-time.zh-CN.md)
 
 *The flame keeps its outline by changing. The stream carries what has happened without holding every drop in place. A view is drawn beside the current; by the time we return to it, the drawing has joined the river's history.*
 
-Continuity is more than remaining unchanged. A process with memory carries earlier encounters into present activity and anticipates what has not yet happened. Its current organization exceeds a reading of its latest input. Both person and model can be understood as event streams: organized continuations of sensing, interpreting, expressing, and acting, with retained context and differing rhythms. Their different mechanisms and experiences acquire a common vocabulary of continuation, retention, and response.
+As person and model read, make works, solve problems, and maintain an environment together, their activity leaves traces. Here, a **life trajectory** names those traces insofar as they can be revisited, connected, and explored further: what was said, chosen, attempted, made, encountered, and subsequently understood differently. It forms gradually through shared work and becomes living material the participants can carry into their next activity.
 
-Fire gathers transformation and persistence into one image; the stream adds retention and continuation. [Heraclitus's measured fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30) and [daily Sun (B6)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6) supply the philosophical ground developed in [the stealing-fire essay](stealing-fire.md). Here the question is how a continuing process retains its past while responding to the present. Retained content, lived experience, external conditions, and accepted descriptions can change at different rates. Those differences make retention and correction intelligible within [Reasoning within an unfinished stream](reasoning.md).
+This essay explains how the trajectory forms and is retained. The following essays develop its intelligibility: how material opens questions and candidate explanations, how a chosen direction differs from grounds for accepting a conclusion, and how much must be retained to continue. By the third part, the participants have a trajectory they can explore together, reflecting on their contributions and cultivating their relationship and capabilities further.
+
+## Shared work produces the trajectory
+
+Imagine person and model improving a reading environment together. The person initially wants material to be easy to find and articles to be comfortable to read. The model organizes entrances and builds a page; both inspect it. Actual reading reveals that, although the material is available, frequent navigation breaks the connections between passages. They reconsider the problem: the environment needs to preserve both access to material and continuity within reading. The model changes layout and links, and the person judges their fit through further reading.
+
+This work leaves a wish, an initial interpretation, versions of a work, actual operations, experience of use, and revisions. The trajectory connects them so later participants can ask why an arrangement arose, which use changed a judgment, what the current version preserves, and what remains unresolved. Cooperation produces the trajectory while accumulating an environment; a completed personal philosophy is not a prerequisite for beginning that work.
+
+## What Git and Command History each retain
+
+In the working environment adopted here, Git and Command History are two basic records: the former makes changes to works and configuration comparable, and the latter makes executed operations traceable. Conversations, activity records, and use feedback contribute content neither expresses on its own.
+
+| Material | What it retains in the reading example | Its contribution to the trajectory |
+| --- | --- | --- |
+| Git version history | Changes to pages, indexes, and configuration, with earlier versions available. | Compare differences in works and locate what a revision actually changed. |
+| Command History and associated execution results | Build, checking, or publication operations and their observable results. | Connect modification to use; when only a command is available, retain the unknown outcome as unknown. |
+| Conversation and choices | The intended improvement, interpretations of the problem, and reasons for choosing an approach. | Give versions and operations their purposes and the provenance of interpretations and decisions. |
+| Actual use and feedback | Where reading broke down, which layout made continuation easier, and what remains unclear. | Bring a completed work into life and provide grounds for its next revision. |
+
+A Git change cannot by itself explain a person's experience, and an operation record does not automatically establish that a wish was fulfilled. Connecting them with relevant conversation and use results gives the trajectory explorable relationships. Experiences outside software can enter understanding through material the person later chooses to express; gaps in the record remain gaps.
+
+## From scattered records to revisitable relationships
+
+A useful trajectory lets later participants find relevant material and understand its connections: which problem prompted a revision, which interpretation was adopted, which version an operation concerned, and what later feedback addressed. Provenance, time, objects, and links in existing records can carry these relations. In the reading example, finding the second page version should also let the participants return to the reading feedback that prompted it, rather than encounter only a line saying “improve the experience.”
+
+Two related expressions develop here. Event sources retain what was said, done, or observed at the time; a current account distills purposes, judgments, usable arrangements, and unresolved questions now considered important. The current account helps work resume quickly, while sources let the participants examine and rewrite it. Concluding that the first version addressed the wrong problem need not erase that version: it explains how they reached the present.
+
+The trajectory also contains branches. An unused layout can remain a candidate, and a failed attempt can show why a condition matters; details with no contribution to later understanding need not remain in working attention. Continuation and inquiry determine the scale of accumulation: adopted understanding remains usable, while important alternatives and corrections remain revisitable. The distinctions between streams, time, and memory below explain how such a trajectory can preserve change while supporting present action.
 
 ## Sources for thinking in streams
+
+Continuity is more than remaining unchanged. A process with memory carries earlier encounters into present activity and anticipates what has not yet happened. Person and model can be understood as event streams with different mechanisms and rhythms: sensing, interpreting, expressing, and acting continue, while records retain revisitable parts. [Heraclitus's measured fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30) and [daily Sun (B6)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6) gather change and persistence; [the stealing-fire essay](stealing-fire.md) develops their philosophical background.
 
 William James's [*The Principles of Psychology*, chapter IX (1890)](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) begins with thinking as ongoing activity and describes its personal, changing, continuous, and selective character. His stream of thought provides a psychological precedent for understanding continuity through changing relations rather than a chain of isolated contents. The computational event stream used here extends a functional vocabulary to model interaction; James's account of human consciousness does not establish that a language model has the same experience.
 
@@ -35,7 +64,7 @@ A maintained memory account articulates what presently seems useful: purpose, de
 
 At suitable granularity, links from earlier evidence or action to later revisions or results can organize these traces as a directed acyclic provenance graph. The edges express recorded dependencies with a forward occurrence order; repeated feedback becomes successive events. This representation does not make every mental or social relation acyclic, establish causation merely from temporal order, or guarantee complete coverage. An environment-wide activity record and a project's version history supply differently scoped evidence. Their useful contribution is to recover relevant encounters and test an account against sources and current conditions, rather than make all of life continuously present.
 
-This life trajectory is also produced through cooperation. Person and model revise works, execute operations, check results, and accumulate an environment together. Git retains version changes to works and configuration; Command History retains traces of executed operations; conversations, activity records, and use feedback contribute what each can show. A commit need not contain the experience of that moment, and a command alone cannot establish its outcome. Connecting these materials lets the participants return to an attempt and compare their understanding then with what subsequently happened. Records thereby prepare an explorable trajectory for shared reflection.
+In the reading environment above, the first page version, its later publication, and subsequent reading feedback can have different times. Connecting their records distinguishes a changed work, a changed environment, a changed experience, and a changed current interpretation. Those changes may coincide or be separated by an interval.
 
 ## Three meanings of now
 
@@ -88,3 +117,5 @@ and shared inquiry make these relations recoverable without requiring the
 whole history to remain in working attention.
 
 The traveler can now cross the bridge and complete the journey. The route description serves the present action, while the retained history helps explain how the plan changed. A view serves a stretch of the stream; using it, revising it, and finishing the activity all become further events within that continuity.
+
+Returning to the shared reading environment, the participants can now move from the current page back to earlier versions, operations, and feedback, understanding how the arrangement formed. Their next activity can retain a useful layout or investigate a reading interruption still unexplained. The trajectory supplies material; [Reasoning within an unfinished stream](reasoning.md) next develops how questions, compared explanations, and further judgments and actions emerge from that material and continue the trajectory.

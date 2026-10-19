@@ -4,22 +4,41 @@
 
 *A frame catches a crossing of the current. It leaves the water outside its edges, yet someone who sees the frame notices a path they had not seen before. The image returns to the river as a new way of looking.*
 
-How can an understanding of a changing world become a computer model that helps
-us act within it—and change through the result? A person can recognize an
-unspoken relation or a mismatch in a work; a language model can develop that
-recognition into an explanation or prototype whose consequences both inspect.
-Either can propose the next question or correct the reconstruction. Making
-the relation available to a computer adds another question: what is represented,
-what changes it, and how does a result bear on the activity being understood?
+Person and model work together before they have a finished account of their
+relationship. They investigate, make works, arrange tools, try an environment,
+and change it when use answers back. What can this activity leave behind that
+they can later return to and understand? The thread of this part is forming a
+**recoverable living trajectory**: selected experiences, purposes, choices,
+attempts, and consequences connected closely enough to revisit how something
+came about. The trajectory is produced through cooperation, alongside the
+works and environment being accumulated.
 
-**YinYang** names a contemporary framework in which a person and a generative
-model contribute to each other's continuing activity. Their accounts of the
-person, the counterpart, and their relationship guide an environment of Skills,
-prompts, tools, interfaces, and working conditions. This essay follows the
-connection from that activity's physical ground to its selected computational
-model, from the model to an actual arrangement, and from observable consequences
-back to understanding. A model, its computer representation, and the process
-they concern have different roles within this one world.
+Suppose someone asks for convenient access to their reading materials. Person
+and model build a reading interface, try it, and revise it after the person
+finds that opening the right passage still takes too much effort. A later
+screen shows the current arrangement, but not why it took that form. Their
+request, the versioned interface, operation traces, observations, and the
+person's feedback can together preserve the passage from one attempt to the
+next. These are parts of living activity that can become available for later
+reflection; they do not amount to an inventory of the person's life.
+
+This essay develops the distinctions that make such a trajectory intelligible:
+the continuing process, a model selecting its relevant relations, and the
+expressions through which those relations become available. [The stream and
+time](flow-and-time.md) examines how traces retain earlier activity and connect
+it with the present. [Reasoning within an unfinished stream](reasoning.md)
+organizes their development as inquiry. [A preference harness](preference-harness.md)
+distinguishes the choices made from the grounds supporting a conclusion.
+[Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
+asks what needs to remain retrievable for this history to be usable under
+limited time and attention. Together they prepare material on which the
+participants can reflect and encounter one another more concretely.
+
+**YinYang** names a contemporary framework for this continuing activity. Its
+working environment includes Skills, prompts, tools, interfaces, and operating
+conditions. The distinctions below connect that activity's physical ground to
+selected computational models and their consequences, so the trajectory can
+retain meaningful changes rather than merely accumulate representations.
 
 The subject of this movement is their **coupled activity**. The person and model
 can divide contributions throughout finding the question, selecting processes,
@@ -96,6 +115,18 @@ which records and software architecture serve a particular use. The
 activities.
 
 ## A bounded computational example: simulating a cooling experiment
+
+The reading environment already poses questions of persistence and change.
+Its interface remains a work through successive versions; an opening operation
+changes what is displayed; a person's report supplies evidence about the effort
+of using it. A screenshot, an operation trace, and that report capture different
+relations. To ask whether access became more convenient, the participants need
+to connect them with the purpose and the particular version used. No single
+record supplies all these meanings.
+
+A physical simulation makes the same distinction precise at another scale.
+It also shows what a trajectory of inquiry would need to preserve when a
+computed prediction is compared with an observed outcome.
 
 Suppose a person and language model investigate together: how will a cup of
 warm water cool indoors over ten minutes? They select a computable question,
@@ -184,7 +215,10 @@ and transformations available for a particular inquiry. Giving it a computer
 representation enables selected uses of those relations; it does not contain
 the entire process that generated it. The cooling example selects the temperature
 relation between sample and environment without calculating every water molecule's
-motion.
+motion. Likewise, the reading interface's version history preserves changes to
+the work, while the person's experience of using it needs its own expression.
+Connecting these sources can recover part of the activity without turning the
+record into the process itself.
 
 Distinguish that model from its expression. A sentence, diagram, paper, or
 program gives a relation a form that can be encountered. Producing and reading
@@ -204,6 +238,12 @@ is selected. Neither construction nor consequence makes every assertion drawn
 from that image true.
 
 ## Screenshot and front end
+
+In the reading example, the first screenshot might show a tidy shelf, while
+the revised interface opens the last-read passage directly. Both are visible
+forms; the difference in available action is what the trajectory must make
+recoverable. Retaining the request and use feedback alongside the two versions
+lets a later reader see why a visually successful arrangement was changed.
 
 A **screenshot** selects a moment and a frame from an activity that continues beyond it. A **front end** makes some of that activity perceptible and available for participation. As images of expression, they pose different questions: what has been selected, and what can a reader or participant now do through that selection? A diagram, prototype, or paragraph can show a relation without displaying every occurrence that produced it. An actual computer interface adds an operational correspondence: a cooling-curve interface can show predictions and measured points, and let the participants change parameters and recalculate. What appears and what an operation changes must be understood together; changing the predicted curve does not change measurements already made.
 
@@ -348,5 +388,9 @@ claims. The sections [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-ea
 The linked public sources support their bounded scientific and philosophical
 claims; the distinctions connecting them are YinYang's contemporary argument.
 The process premise, jointly formed computational model, and return from actual
-use carry that argument's continuity. They develop the objects and correspondences
-needed to ask more precise questions and let their answers change the account.
+use carry that argument's continuity. Applied to the reading environment, they
+distinguish the work being changed, the record of its changes, and the
+participants' changing understanding. The next question is how earlier
+occurrences remain available without confusing an old report with a present
+condition. [How a life trajectory forms: shared work, records, and time](flow-and-time.md) develops this temporal body
+of the trajectory.

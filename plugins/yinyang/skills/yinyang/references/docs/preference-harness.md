@@ -2,15 +2,21 @@
 
 [Home](../../README.md) · [Core views](core-views.md#yy-10) · [简体中文](preference-harness.zh-CN.md)
 
-A person can choose what kind of work to pursue, which possibility to develop, and what matters in the result. Such choices give inquiry a direction. Reasoning develops the possibilities within that direction; evidence lets the participants assess how the work is realized and what its consequences are. YinYang is a **preference harness** for this joint activity: it gives preferences a place alongside reasoning, judgment, and responsiveness to the world.
+A recoverable trajectory needs to show both what the participants chose and
+what they had grounds to conclude. [Reasoning within an unfinished stream](reasoning.md)
+followed the reading environment from an initial request through competing
+explanations and a revised interface. Here the question is how the choices
+within that history relate to evidence: why develop this arrangement, what
+supports saying it works, and what remains open after it has been chosen?
 
-For example, a person chooses a tree-lined route to the windmill. The
-heart marks what attracts them; the counterpart checks a report about the
-bridge that route needs. Liking the shade gives a reason to explore this
-route. Whether its bridge is open and the path reaches the destination needs
-evidence. If the check fails, they can find another route, revise the plan,
-or reconsider what matters. The harness holds these contributions together:
-an expressed preference, a candidate, a check, and room to change the result.
+The person can prefer continuity of reading and choose direct access to a
+passage over a more elaborate shelf. This gives the work a direction. A test
+showing that the correct passage opens establishes an operational result;
+the person's reading and feedback bear on whether the arrangement supports
+continuation. If use still interrupts reading, the chosen design can be
+revised. Its having been preferred does not settle these factual questions.
+YinYang is a **preference harness** for this joint activity: preferences,
+reasoning, judgment, and responsiveness to the world contribute together.
 
 The model ordinarily understands and reasons through informal natural language. Purpose, examples, conversation, and the surrounding harness make a preference intelligible enough to act on. The formal comparison below brings the respective roles of selection and inference into focus; the event-stream ontology describes the broader activity in which both participants generate, choose, act, and reconsider.
 
@@ -25,6 +31,30 @@ can call for revising them; a conflict between records need not destabilize
 every organizing distinction. This is a natural-language practice of usable
 understanding, not a claim that the collaboration has passed a formal
 consistency test.
+
+## Keep choice and support within the trajectory
+
+In the reading example, the relevant history can retain the choice of a
+layout, the reason for choosing it, the version tried, and what happened in
+use. These connections let later participants distinguish “we wanted fewer
+interruptions,” “we tried direct links,” and “this use supported the claim
+that the links helped.” A later preference for another layout changes the
+active arrangement; it does not make the earlier choice or its grounds cease
+to have occurred.
+
+Nor does accepting one explanation require rewriting the source history as
+though no alternative existed. If an execution defect was considered and then
+ruled out, its retained question and check can explain why the inquiry turned
+toward reading continuity. A preferred current account selects what guides
+action now. The trajectory preserves enough of the sources and changes to
+make that selection understandable and open to criticism.
+
+The formal repair comparison below sharpens this distinction. Selecting a
+consistent view from conflicting assertions need not delete the retained
+assertions; deriving an answer within that view has further conditions.
+The historical record and the currently accepted premises therefore have
+different responsibilities. Ordinary cooperation can preserve their relation
+in clear language without turning the history into a formal knowledge base.
 
 ## Conflict has more than one form
 
@@ -230,13 +260,16 @@ translate and temporarily narrow the presented work and support to its receiving
 level and rules; afterward, continue using the arrangement shown to work better.
 That encounter's limits need not become the harness's permanent capability ceiling.
 
-Distinguishing view selection from inferential support gives finite inquiry a
-target: which answers must a representation and method preserve, and what
-evidence makes them adequate for the task? [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md)
-asks how much structure and computation that target needs under limited
-information and time. Choosing an abstraction and checking its consequences
-can develop together; preference guides the choice while formal validity
-depends on the stated premises and inference rules.
+The reading environment can change again while retaining an intelligible
+trajectory: which alternatives were preferred, why, what was checked, and what
+the checks warranted. Distinguishing these relations gives finite inquiry a
+target. Which of them must a representation and method preserve, and what
+evidence makes that representation adequate for later use?
+[Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) asks how
+much structure and computation a usable trajectory needs under limited time
+and attention. Choosing an abstraction and checking its consequences can
+develop together; preference guides the choice while formal validity depends
+on the stated premises and inference rules.
 
 ## Source and scope
 

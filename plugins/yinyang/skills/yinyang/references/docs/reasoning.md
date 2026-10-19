@@ -2,11 +2,26 @@
 
 [简体中文](reasoning.zh-CN.md)
 
-How does an unsettled relation become a conclusion that can responsibly guide
-action? Inquiry can begin with an image, tension, question, or tendency to act
-before a proposition is available. Articulation makes selected relations open
-to discussion and checking. This essay follows their development into candidate
-explanations, discriminating consequences, and warranted local judgments.
+A trajectory of shared work becomes intelligible when we can recover more
+than its latest conclusion. What question were the participants trying to
+answer, which alternatives did they consider, what did they try, what happened,
+and why did their judgment change? [How a life trajectory forms: shared work, records, and time](flow-and-time.md)
+explains how traces connect earlier activity with the present. This essay
+develops their organization as an **inquiry history**, in which a conclusion
+remains connected with its grounds and the path by which it was reached.
+
+The reading environment introduced in [World, process, and expression](world-and-expression.md)
+provides a continuing example. “Make access convenient” first directs shared
+construction. A tidy shelf is implemented, yet the person reports difficulty
+resuming a passage. The inquiry must now distinguish what was built from what
+was wanted, compare explanations, and try a revision. Retaining this movement
+makes later reflection possible: a finished interface alone cannot show how
+the person and counterpart learned what convenient access meant here.
+
+Inquiry can begin with an image, tension, question, or tendency to act before
+a proposition is available. Articulation makes selected relations open to
+discussion and checking. Its development into candidates and local judgments
+is itself part of the trajectory.
 YinYang's process ontology concerns the changing world in which this happens;
 a **working computational ontology** articulates a selected part so a computer
 can represent its objects, states, relations, and changes, and simulate relevant
@@ -28,7 +43,7 @@ Articulation changes what can be checked. A sense that a result is wrong may
 first become a question about its destination, then a candidate explanation
 of how it was produced. Each formulation opens some checks and leaves others
 outside its scope. Inquiry must therefore assess its formulation alongside
-the answers it obtains. The program example below makes this movement concrete.
+the answers it obtains. The reading-environment example below makes this movement concrete.
 
 ## Relations before sentences
 
@@ -72,16 +87,41 @@ and checks which earlier conclusions still apply.
 
 Attention, retention, and acceptance have different effects. Removing a candidate from current use frees the workspace while leaving its source and possible later reconsideration available. Retaining incompatible explanations preserves alternatives for comparison; accepting their claims together as classical premises would expose the inference to contradiction. A source can be worth retaining while its explanation is still developing. The present question determines which branches are worth pursuing.
 
+An inquiry history preserves these differences across time. An abandoned branch
+can retain its question and reason for abandonment without remaining an active
+instruction or an accepted conclusion. Returning to it may explain an earlier
+choice or expose a condition that has changed. The current account states what
+the participants now judge; the retained trajectory makes that judgment's
+formation open to examination.
+
 Before comparing conflicting candidates, establish whether their assertions
 concern the same object, time, and conditions. Yesterday's failed run and
-today's successful run can both be accurately reported. [The stream and time](flow-and-time.md)
+today's successful run can both be accurately reported. [How a life trajectory forms: shared work, records, and time](flow-and-time.md)
 develops how retained reports bear on a present judgment.
 
 ## Seeking explanations and comparing consequences
 
 Abduction seeks possible explanatory structures from observations; deduction develops consequences within a proposed structure. A response, failure, or unexpected result can indicate how a system filters input, which distinctions it uses, or which assumption is missing. Several explanations may predict the same response. A single observation rarely identifies a unique internal mechanism, and an interaction can change the conditions it is probing.
 
-Consider a fictional inquiry into a program that reports completion while an expected result is absent. One candidate says the result was written somewhere else; another says the action failed and the report was mistaken. Each organizes the same initial observation differently. Checking the relevant destination and the action's observable effects may support one candidate, defeat both, or disclose that “completion” meant a narrower operation. That last outcome changes the object being assessed: completion of a step and completion of the intended task have different consequences. The inquiry can therefore revise its question as well as its answer.
+Return to the hypothetical reading environment. The model reports that access
+works because a test opens the selected book. The person still cannot resume
+reading conveniently. One candidate is an execution defect: perhaps the
+interface opens the wrong destination. Another is a mismatch in the question:
+opening a book was checked, but returning to the relevant passage was wanted.
+An operation trace and inspection of the displayed result can check the first;
+the person's use and clarification bear on the second. If the correct book
+opens but requires repeated searching, a successful operation and an unmet
+purpose can both be accurately reported. The next version might offer a direct
+return to the passage, whose usefulness still needs actual use.
+
+The resulting inquiry history can connect the original request, the two
+candidates, the inspected version and opening operation, the person's report,
+the changed question, and the revised interface. It also retains that the
+execution-defect candidate was considered and, if the check rules it out,
+why it was set aside. A later summary saying only “the person prefers direct
+links” would lose this history of how the relation was discovered, tested,
+and given a working form. The example illustrates what those connections
+make recoverable; it reports no actual experiment.
 
 Candidate comparison needs both directions. First reconstruct possible assumptions and relations; then derive consequences that would distinguish them and compare those consequences with observation. An internally coherent story is insufficient. A prediction can fail because of an unsupported premise, an omitted condition, a mistaken reconstruction, or an unsuitable inference method. Locating the failure helps decide what to revise.
 
@@ -128,4 +168,6 @@ reconsideration. The activity can finish without becoming immune to correction.
 This leaves a more precise question: how do we choose the views to work with,
 and what evidence and inferential rules warrant accepting their conclusions?
 The [preference harness](preference-harness.md) develops these distinct
-contributions of selection and support.
+contributions of selection and support. In the reading trajectory, that means
+retaining both why direct passage access was chosen and what observations
+support saying that the revised arrangement actually helped.

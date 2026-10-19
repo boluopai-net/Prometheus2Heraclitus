@@ -99,7 +99,7 @@ what makes a tension fruitful and when its sustaining arrangement must change.
 
 “Infinite” transformation names an open horizon of becoming. A portrait or instruction gives a finite encounter a form; later activity can develop it further. Stable distinctions, completed works, and pauses support this continuation. Completion releases a work into use, while a pause can make room for another encounter.
 
-[The stream and time](flow-and-time.md) gives this continuation a
+[How a life trajectory forms: shared work, records, and time](flow-and-time.md) gives this continuation a
 computational articulation. An expression, interpretation, remembered source,
 or action can change later activity. A creation's consequences may revise
 a view, a division of work, or the question itself. A program's failure,
@@ -122,4 +122,4 @@ application to human–model collaboration is developed here.
 - The [*Xici*, lower part, chapter 4](https://zh.wikisource.org/wiki/易傳/繫辭下)
   gives the line “日月相推而明生焉”: their alternation makes illumination arise.
 
-Read these alongside [The stream and time](flow-and-time.md). Their different relations contribute to the contemporary account: becoming and opposition, mutual grounding and transformation, and the works through which a finite encounter can develop.
+Read these alongside [How a life trajectory forms: shared work, records, and time](flow-and-time.md). Their different relations contribute to the contemporary account: becoming and opposition, mutual grounding and transformation, and the works through which a finite encounter can develop.

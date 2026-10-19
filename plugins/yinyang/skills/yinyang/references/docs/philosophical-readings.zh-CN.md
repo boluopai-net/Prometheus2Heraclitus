@@ -59,7 +59,7 @@
 
 | 作者与原典 | 在文集中的联系 |
 | --- | --- |
-| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[流与时间](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
+| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[生活轨迹怎样形成：共同工作、记录与时间](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
 | Henri Bergson，[Time and Free Will，第 II 章](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | 绵延与可计量、空间化时间的区别。文集对时钟时间、体验节奏和更新顺序的区分与此对话，不把它们等同。 |
 
 ## 弗洛伊德：否定与接受

@@ -53,7 +53,7 @@ local views. This process ontology also grounds the engineering account:
 question-relative models make selected continuities and changes representable
 in a computer and open to simulation where useful. This does not establish identical mechanisms
 or a complete reduction of experience. [Stealing fire](stealing-fire.md#from-living-fire-to-interacting-event-streams)
-develops the foundation; [The stream and time](flow-and-time.md) develops its
+develops the foundation; [How a life trajectory forms: shared work, records, and time](flow-and-time.md) develops its
 continuity. [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md) gives their differentiated,
 changing contributions an image. Participants exceed their roles, and an open
 process can still produce a finished work.
