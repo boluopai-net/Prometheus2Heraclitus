@@ -1,4 +1,4 @@
-# Trinity: Philosophy, Psychology, and Engineering in Shared Practice
+# Trinity
 
 [Home](../../README.md) · [简体中文](local-source-and-website.zh-CN.md)
 

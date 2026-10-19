@@ -1,4 +1,4 @@
-# 生活轨迹怎样形成：共同工作、记录与时间
+# 生活轨迹的形成
 
 [首页](../../README.zh-CN.md) · [English](flow-and-time.md)
 

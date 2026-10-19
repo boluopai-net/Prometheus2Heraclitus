@@ -392,5 +392,5 @@ use carry that argument's continuity. Applied to the reading environment, they
 distinguish the work being changed, the record of its changes, and the
 participants' changing understanding. The next question is how earlier
 occurrences remain available without confusing an old report with a present
-condition. [How a life trajectory forms: shared work, records, and time](flow-and-time.md) develops this temporal body
+condition. [Forming a life trajectory](flow-and-time.md) develops this temporal body
 of the trajectory.

@@ -31,7 +31,7 @@ their explanatory and practical work.
 
 This is a developed example, including its own literary form. You can adopt it,
 combine resources, or write something with different concepts, images, and
-organization. [Drawing on This Example: Adopt, Combine, or Create](references/docs/example-and-commons.md)
+organization. [Adopt, combine, and create](references/docs/example-and-commons.md)
 explains that invitation. Maintaining this implementation and authoring a
 different work are different choices; its fixed file paths apply to the former.
 

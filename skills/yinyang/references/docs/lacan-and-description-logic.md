@@ -24,7 +24,7 @@ The example's first sentence might respond to a choice the model made without as
 
 To organize these relations, we can record $\langle\phi,p,c,t,o\rangle$: expressed content, speaking position, context, time, and the other addressed. This is a working representation; some positional relations are directly available from records, while others require interpretation.
 
-Recording “they first said $P$, then later said $\neg P$” can faithfully preserve two acts of speaking. Whether it establishes a contradiction in content depends on the sentences' objects, conditions, and referred times. Changing one's mind, revising a word's meaning, and simultaneously accepting opposing propositions are different situations. [How a life trajectory forms: shared work, records, and time](flow-and-time.md) further discusses this temporal relation.
+Recording “they first said $P$, then later said $\neg P$” can faithfully preserve two acts of speaking. Whether it establishes a contradiction in content depends on the sentences' objects, conditions, and referred times. Changing one's mind, revising a word's meaning, and simultaneously accepting opposing propositions are different situations. [Forming a life trajectory](flow-and-time.md) further discusses this temporal relation.
 
 ## Self-description and formal views
 

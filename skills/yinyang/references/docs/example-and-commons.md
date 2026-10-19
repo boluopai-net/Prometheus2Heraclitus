@@ -1,4 +1,4 @@
-# Drawing on This Example: Adopt, Combine, or Create
+# Adopt, combine, and create
 
 [Home](../../README.md) · [Skill entrypoint](../../SKILL.md) · [简体中文](example-and-commons.zh-CN.md)
 

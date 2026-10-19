@@ -1,4 +1,4 @@
-# 偏好 harness：规则与偏好共同工作
+# 偏好与推理
 
 [首页](../../README.zh-CN.md) · [基本观点](core-views.zh-CN.md#yy-10) · [English](preference-harness.md)
 

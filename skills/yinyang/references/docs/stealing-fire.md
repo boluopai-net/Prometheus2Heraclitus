@@ -1,4 +1,4 @@
-# Stealing fire: from borrowed fire toward generation
+# Stealing fire
 
 [完整中文版](stealing-fire.zh-CN.md)
 

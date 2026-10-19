@@ -24,7 +24,7 @@
   与公共、私人内容的更新约定。
 
 根据实际请求与已有安排工作。查阅网站、读到本入口或借用一项方法，本身并不选择完整采用。
-[参考这个例子：采用、组合或创作](references/docs/example-and-commons.zh-CN.md)展开组合这些资源
+[采用、组合与创作](references/docs/example-and-commons.zh-CN.md)展开组合这些资源
 或另行创作的邀请。
 
 ## 进入日常协作

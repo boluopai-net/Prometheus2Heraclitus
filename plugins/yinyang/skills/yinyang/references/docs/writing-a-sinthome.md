@@ -1,4 +1,4 @@
-# From personal models to a sinthome: realization and revision in use
+# From personal models to a sinthome
 
 [简体中文](writing-a-sinthome.zh-CN.md)
 

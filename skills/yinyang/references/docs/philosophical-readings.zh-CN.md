@@ -59,7 +59,7 @@
 
 | 作者与原典 | 在文集中的联系 |
 | --- | --- |
-| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[生活轨迹怎样形成：共同工作、记录与时间](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
+| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[生活轨迹的形成](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
 | Henri Bergson，[Time and Free Will，第 II 章](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | 绵延与可计量、空间化时间的区别。文集对时钟时间、体验节奏和更新顺序的区分与此对话，不把它们等同。 |
 
 ## 弗洛伊德：否定与接受
@@ -136,13 +136,13 @@
 
 ## 拉科夫、约翰逊与根特纳：隐喻和关系类比
 
-George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[文学式编程](https://boluopai.net/philosophy/literary-programming/)与[从个人哲学到个人模型：隐喻、类比与凝练](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
+George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[文学式编程](https://boluopai.net/philosophy/literary-programming/)与[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
 
 ## 心灵、认识与解释
 
 克拉克 与 查尔默斯 的[延展心智](https://www.consc.net/papers/extended.html)
 为[窃火](stealing-fire.zh-CN.md)关于环境积极支持的说明提供资源。
-[从个人哲学到个人模型：隐喻、类比与凝练](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
+[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
 与 基尔什 的分布式认知研究：理解能够穿行于人、模型、记录与工具之间发展。
 
 Varela、Evan Thompson 与 Eleanor Rosch 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)把认知科学、生活经验与观照实践放在一起；[参与、可用行动与支持](participation-and-support.zh-CN.md)已经借此讨论具身参与。Hollan、Hutchins 与 Kirsh 的[Distributed Cognition（2000）](https://interactivity.ucsd.edu/articles/dcog.pdf)则提供跨人、人工物与时间研究认知的原文入口。

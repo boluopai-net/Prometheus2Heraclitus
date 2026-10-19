@@ -1,4 +1,4 @@
-# 从个人模型到圣状：实现与使用中的修订
+# 从个人模型到圣状
 
 [English](writing-a-sinthome.md)
 

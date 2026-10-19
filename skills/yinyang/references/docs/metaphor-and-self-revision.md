@@ -1,4 +1,4 @@
-# From personal philosophy to personal models: metaphor, analogy, and distillation
+# From personal philosophy to personal models
 
 [Home](../../README.md) · [简体中文](metaphor-and-self-revision.zh-CN.md)
 
@@ -10,7 +10,7 @@ Before a personal philosophy is written, person and model have already worked
 together, accumulated an environment, and left traces of experiences, choices,
 inquiries, and revisions. Git history and command or activity history can
 preserve complementary parts of this collaboratively produced trajectory.
-[How a life trajectory forms: shared work, records, and time](flow-and-time.md#external-memory-and-event-traces) develops
+[Forming a life trajectory](flow-and-time.md#external-memory-and-event-traces) develops
 its recoverability. Reflecting on this trajectory, the participants can explore
 how each has taken part, where a response has fitted or missed, and what can be
 cultivated further. [Participation, access, and support](participation-and-support.md)

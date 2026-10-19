@@ -1,4 +1,4 @@
-# 窃火：从借来的火走向生成
+# 窃火
 
 [English](stealing-fire.md)
 

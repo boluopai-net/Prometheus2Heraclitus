@@ -5,7 +5,7 @@
 A trajectory of shared work becomes intelligible when we can recover more
 than its latest conclusion. What question were the participants trying to
 answer, which alternatives did they consider, what did they try, what happened,
-and why did their judgment change? [How a life trajectory forms: shared work, records, and time](flow-and-time.md)
+and why did their judgment change? [Forming a life trajectory](flow-and-time.md)
 explains how traces connect earlier activity with the present. This essay
 develops their organization as an **inquiry history**, in which a conclusion
 remains connected with its grounds and the path by which it was reached.
@@ -96,7 +96,7 @@ formation open to examination.
 
 Before comparing conflicting candidates, establish whether their assertions
 concern the same object, time, and conditions. Yesterday's failed run and
-today's successful run can both be accurately reported. [How a life trajectory forms: shared work, records, and time](flow-and-time.md)
+today's successful run can both be accurately reported. [Forming a life trajectory](flow-and-time.md)
 develops how retained reports bear on a present judgment.
 
 ## Seeking explanations and comparing consequences

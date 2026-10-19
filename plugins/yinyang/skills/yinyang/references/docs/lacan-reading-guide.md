@@ -52,7 +52,7 @@ For example: “Leaving then cost me a great deal—and it also taught me, for t
 
 In this site's writing and model collaboration, the relation can develop as follows: an unfinished expression is retained; the model organizes it into a readable account; the person rereads it, recognizes some connections, and discovers misunderstandings; this recognition changes subsequent expression. A work thus preserves earlier ideas and can also become material for new understanding.
 
-Two questions still need separate treatment: **does an interpretation make an experience intelligible, and are its factual judgments about the past warranted?** A narrative fitting one's current feelings does not establish that every detail of the past was as it describes. Retaining the original event, original words, and the time an interpretation formed lets retrospective understanding remain constrained by its material. Continue with [How a life trajectory forms: shared work, records, and time](flow-and-time.md#three-meanings-of-now).
+Two questions still need separate treatment: **does an interpretation make an experience intelligible, and are its factual judgments about the past warranted?** A narrative fitting one's current feelings does not establish that every detail of the past was as it describes. Retaining the original event, original words, and the time an interpretation formed lets retrospective understanding remain constrained by its material. Continue with [Forming a life trajectory](flow-and-time.md#three-meanings-of-now).
 
 ## The three registers: different relations within the same experience
 

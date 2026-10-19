@@ -1,4 +1,4 @@
-# Shared reflection and continued cultivation: participation, availability, and support
+# Shared reflection and continued cultivation
 
 <a id="participation-access-and-support"></a>
 

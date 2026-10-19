@@ -1,4 +1,4 @@
-# How a life trajectory forms: shared work, records, and time
+# Forming a life trajectory
 
 [Home](../../README.md) · [简体中文](flow-and-time.zh-CN.md)
 

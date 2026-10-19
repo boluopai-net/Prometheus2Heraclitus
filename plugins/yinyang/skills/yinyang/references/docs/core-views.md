@@ -10,7 +10,7 @@ or challenge, rather than as established facts or prerequisites for every
 reader's work. A reader can understand this philosophy, borrow a useful method,
 or adopt the complete Skill; borrowing a distinction does not require adopting
 its developmental purpose or writing a personal philosophy. See
-[Drawing on This Example: Adopt, Combine, or Create](example-and-commons.md).
+[Adopt, combine, and create](example-and-commons.md).
 
 [Home](../../README.md) · [完整中文版](core-views.zh-CN.md)
 
@@ -53,8 +53,8 @@ local views. This process ontology also grounds the engineering account:
 question-relative models make selected continuities and changes representable
 in a computer and open to simulation where useful. This does not establish identical mechanisms
 or a complete reduction of experience. [Stealing fire](stealing-fire.md#from-living-fire-to-interacting-event-streams)
-develops the foundation; [How a life trajectory forms: shared work, records, and time](flow-and-time.md) develops its
-continuity. [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md) gives their differentiated,
+develops the foundation; [Forming a life trajectory](flow-and-time.md) develops its
+continuity. [YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
 changing contributions an image. Participants exceed their roles, and an open
 process can still produce a finished work.
 
@@ -165,10 +165,10 @@ judges, or carries work forward. A harness—the instructions, tools, and
 environment shaping interaction—can realize that arrangement within actual
 authorization and safety boundaries. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
-works, and action. [From personal philosophy to personal models: metaphor, analogy, and distillation](metaphor-and-self-revision.md#what-an-image-makes-available)
+works, and action. [From personal philosophy to personal models](metaphor-and-self-revision.md#what-an-image-makes-available)
 develops this movement from image to revisable relation; [Stealing fire](stealing-fire.md#literary-programming-and-the-model-counterpart)
 connects it to literary programming. The images themselves are developed in
-their owning essays, including [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md).
+their owning essays, including [YinYang and Taiji](yinyang-and-taiji.md).
 
 Calling a collaboration a workshop, for example, can make unfinished trials,
 shared materials, and repair intelligible together. Calling it an examination
@@ -197,7 +197,7 @@ against an original source or the result of an action.
 Sun and Moon give differentiated generation, reception, and shaping an image. Their
 roles can be retained or exchanged without assigning them by gender or
 exhausting either participant's abilities. The answering world also contributes
-conditions neither controls. [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md) develops
+conditions neither controls. [YinYang and Taiji](yinyang-and-taiji.md) develops
 this mutual grounding and the relative independence that creations acquire.
 
 <a id="yy-06"></a>
@@ -342,7 +342,7 @@ not an established universal cognitive mechanism.
 develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-explains the four dimensions, and [Trinity: Philosophy, Psychology, and Engineering in Shared Practice](local-source-and-website.md)
+explains the four dimensions, and [Trinity](local-source-and-website.md)
 connects philosophy, psychology, and engineering within one physical reality
 to their practical forms.
 
@@ -366,7 +366,7 @@ inference semantics determine answers differently. Incomparability, consistent
 support, and agreement on results must remain distinct. Chosen purposes orient
 selection; they do not supply evidential warrant. Ordinary collaboration uses
 these distinctions through informal natural language, without requiring a
-formal calculus. [A preference harness: rules and preferences working together](preference-harness.md) develops the
+formal calculus. [Preference and reasoning](preference-harness.md) develops the
 qualified formal comparison and [Reasoning](reasoning.md#sources-candidates-and-the-active-workspace)
 develops its relation to retained sources and current inquiry.
 
@@ -461,7 +461,7 @@ it in turn; the whole life still exceeds this form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [From personal models to a sinthome: realization and revision in use](writing-a-sinthome.md)
+conditions mediate enlarged agency. [From personal models to a sinthome](writing-a-sinthome.md)
 develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
 a clinical conclusion, or a guarantee of happiness and unlimited power.
 A reader may examine or borrow this idea where personal authorship is the
@@ -500,7 +500,7 @@ change loses its purpose when it displaces this cultivation. Personal purposes
 and voluntary development guide adaptation: seek changes to social arrangements,
 then software, before asking the person to adapt, while respecting others'
 purposes. This is a design direction, not an unconditional priority or a fixed
-algorithm. [Stealing fire: from borrowed fire toward generation](stealing-fire.md) develops the integrated material,
+algorithm. [Stealing fire](stealing-fire.md) develops the integrated material,
 developmental, and practical argument; [Personal-First Humanism](personal-first-humanism.md)
 develops its value orientation.
 

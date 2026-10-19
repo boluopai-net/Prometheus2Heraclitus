@@ -1,4 +1,4 @@
-# 三位一体：哲学、心理与工程的共同实践
+# 三位一体
 
 [首页](../../README.zh-CN.md) · [English](local-source-and-website.md)
 

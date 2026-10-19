@@ -1,4 +1,4 @@
-# 参考这个例子：采用、组合或创作
+# 采用、组合与创作
 
 [首页](../../README.zh-CN.md) · [阴阳方法](../../SKILL.zh-CN.md) · [English](example-and-commons.md)
 
