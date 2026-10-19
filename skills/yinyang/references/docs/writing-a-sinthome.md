@@ -5,9 +5,9 @@
 <details>
 <summary>On this page</summary>
 
-- [Why sinthome](#why-sinthome)
-- [Three aspects and a fourth holding function](#three-aspects-and-a-fourth-holding-function)
-- [A singular way of living](#a-singular-way-of-living)
+- [The concrete form named sinthome](#the-concrete-form-named-sinthome)
+- [From the general Trinity to an individual instance](#from-the-general-trinity-to-an-individual-instance)
+- [From personal material to a workable form](#from-personal-material-to-a-workable-form)
 - [Articulate enough to work, then let working change the articulation](#articulate-enough-to-work-then-let-working-change-the-articulation)
 - [From an expressed relation to distributed action](#from-an-expressed-relation-to-distributed-action)
 - [A miniature god, whose creations answer back](#a-miniature-god-whose-creations-answer-back)
@@ -15,134 +15,166 @@
 
 </details>
 
-**The shared practice of philosophy, psychology, and engineering can form a singular connection in a person's life. This essay calls that lived form a sinthome.** The preceding account of [personal modeling and distributed practice](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use) explains how philosophy and engineering help understand the user's psychology and intentional orientation, grounding an initial environment with less blind trial and error. The question here is how that understanding and those arrangements become a person's way of living and making. Writing therefore includes use, action, and being changed by life.
+**A person's philosophy, psychology, and engineering can jointly give rise to a form of personal practice that can be expressed, realized, and used. This essay calls that concrete formation a sinthome.** It connects an understanding of the person, the model counterpart they need, and arrangements for their shared work. Personal material contributes to its formation; writing and tools make its relations usable; actual life changes it in turn. “Writing” in the title includes this formation, representation, realization, and use.
 
-The person enters this argument already as an **agent**: someone who perceives,
-generates, chooses, and acts within a world. Borrowed generative capabilities
-expand the means of that existing participation. What takes form is the life
-this person continues to shape through all three practices; writing out a
-philosophy completes only part of that work. This literary and practical proposal
-grows from [Lacan's term in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/).
-
-A **Skill** here is a reusable written practice that a language model can interpret and carry into work. A **harness** organizes prompts, Skills, hooks, tools, models, roles, and the user's working environment; a **meta-harness** articulates the person, counterpart, and relationship through which those arrangements acquire meaning and can be revised. The argument concerns what living such an articulation can make possible. The technical carrier matters because the writing can participate in action: its descriptions guide interpretation, its instructions organize contributions, and their use gives the person new material with which to understand and revise the relation.
+The person is already an **agent**: someone who perceives, generates, chooses,
+and acts in the world. This essay asks how an understanding of oneself and
+arrangements for continuing to live and create with models can acquire a
+shared form. [Personal modeling and distributed practice](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
+develops the modeling question; this essay explains what takes form and how
+it acquires a workable representation under current technical conditions.
 
 *One writes a few lines, and a new pair of hands becomes possible. Another voice helps a half-seen relation become an argument, an image, a working thing. The world does not become obedient. Yet the person returns to it with more ways to begin. A miniature god, perhaps: still learning how to make, and how to answer for what is made.*
 
-## Why sinthome
+<a id="why-sinthome"></a>
 
-Begin with the **[Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm)**: three closed rings are linked together,
-although no pair is linked on its own. Remove any one ring and the other two
-can separate. The crossings in the illustration mark which strand passes
-over which; their arrangement makes the three hold together. This gives
-“holding” a visible form: a relation sustained by the whole arrangement.
+## The concrete form named sinthome
 
-In [Lacan's *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), the sinthome has a holding function in the presented repair of the knot of Symbolic, Imaginary, and Real; Joyce's particular art matters to the discussion. **Sinthome (圣状)** is Lacan's term. His attention to a particular artistic practice gives this essay its point of departure: something singular can sustain a person's way of making and living.
+This essay borrows Lacan's word **sinthome** as its name for this individually
+formed practice. What the name refers to needs to be explained through its
+material, organizing relations, representations, and actual use. A name alone
+does not bring its referent into being.
 
-In this construction, an additional ring repairs a failure of knotting so that
-the registers can continue to hold together. The sinthome names the additional
-holding or repair function represented by that ring, rather than simply naming
-the entire four-component arrangement. A fourth element also appears in his
-[16 June 1975 lecture on Joyce, pp. 5–6](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19750616LacanJoycetheSinthomefromnotesbyEricLaurent.pdf).
-The three-ring structure supplies the image of mutual holding; the sinthome
-brings the further question of what a singular invention can sustain or repair.
+In the particular knot construction in [Lacan's *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
+the sinthome participates in repairing the knotting of Symbolic, Imaginary,
+and Real so that they can remain connected. On [11 May of that year](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/),
+he discusses Joyce's writing, ego, and its role in the knot. Writing here has
+a particular form and place in an individual's life; understanding it calls
+for examining how it enters that life.
 
-For this comparison, the three register names need enough explanation to show why holding matters. The Symbolic concerns language, differences, and the orders through which meaning is articulated; the Imaginary concerns images and identifications through which a form of oneself or another can be encountered; the Real names what resists incorporation into that articulation or image. The registers concern different dimensions of a person's relation to meaning and experience. The comparison therefore draws on the holding relation of knotting. That question can be developed within human–model collaboration while preserving the registers' own conceptual roles.
+This essay brings the term into a conception of personal practice formed
+jointly through philosophy, psychology, and engineering, and specifies its own
+referent. Lacan's registers retain their meanings: the Symbolic concerns
+language, differences, and orders of meaning; the Imaginary concerns images
+and identifications; the Real points toward what resists incorporation into
+existing expression and images. Philosophy, psychology, and engineering are
+the three activities connected below. The conceptual source and this contemporary
+construction need to be understood through their respective relations.
 
-This essay develops the shared practice of philosophy, psychology, and engineering from that starting point. Its question is how the three connect across uneven experience, conflicting descriptions, and changing purposes. Writing, understanding, and practical arrangements can give these differences a place in continuing activity: one tension becomes a question, another becomes material for creation, and a commitment gives the next act a direction. What holds is a way of living and making through them.
+Here a sinthome can be expressed and realized in texts, diagrams, instructions,
+software, and continuing practice. Representation makes relations understandable
+and usable; use brings them into actual activity. Both the concrete form and
+its operation therefore matter. A written account of oneself can contribute;
+how a model interprets that account, which tools carry it into action, and how
+the person participates in and changes it determine the form's actual content
+in life. Its referent is this concrete arrangement formed within life; life
+also includes experiences, relations, and changes that continually exceed it.
 
-Articulating preferences can begin this work. The sinthome proposal develops their place in a distinctive way of inhabiting purposes and acting: articulation shapes an encounter, repeated work gives it continuity, and its consequences help the person reshape it. An instruction file contributes when it participates in that living relation. The philosophical application concerns this possibility of sustaining agency through a singular practice.
+Such a form may help someone organize tensions, accommodate desire, continue
+creating, or stabilize daily life. These are effects to investigate through
+use. Explaining “sinthome” here first requires articulating the concrete
+formation itself; saying that it “has a holding function” cannot substitute
+for its content. Adopting the name also supplies no clinical diagnosis of its user.
 
-## Three aspects and a fourth holding function
+<a id="three-aspects-and-a-fourth-holding-function"></a>
 
-The following [Trinity essay](local-source-and-website.md) distinguishes
-philosophy, psychology, and engineering. These are three contributions to a
-practice, not already a demonstrated Borromean link. Their comparison with
-Real, Imaginary, and Symbolic selects an image of connection; it does not make
-the domains identical to Lacan's registers. The common physical reality called
-the “one” in that essay is the ground of all three activities, not a fourth ring.
+## From the general Trinity to an individual instance
 
-In this essay's construction, **philosophy, psychology, and engineering are three
-rings; by practicing all three together, a person makes their life the fourth
-ring that connects them**. Philosophy supplies concepts for understanding
-experience, intentional orientation, and relationships; engineering brings that
-understanding into psychological modeling and practical arrangements; the
-psychological model connects environmental design to this concrete person.
-How the three are used, connected, and continually
-revised in actual life forms this person's singular way of living. The sinthome
-here names that lived form; philosophy contributes direction and understanding
-within it.
+[Trinity](local-source-and-website.md) discusses two connected levels. At the
+general level, the “one” is shared physical reality and the “three” are the
+philosophical, psychological, and engineering activities within it. They have
+different objects and ways of working, while all occurring in the same world.
+At the individual level, this general relation acquires an instance: how this
+person understands the world and themself, feels, desires, and interacts with
+others, and organizes an environment in which these activities can proceed.
 
-Having all three resources does not yet establish their connection. The question
-remains what this person actually does with them, and what arrangements let the
-connection persist or be repaired. Personal life connects these contributions
-into an enacted whole rather than adding another discipline beside them.
+The individual's “one” is this concrete person and their connected life and practice
+within the same physical reality. Their “three” are the interacting personal
+philosophy, psychological activity, and engineering arrangements within it.
+Models, tools, and social relationships can participate in this instance; its
+individual character comes from their relations within this life. The general
+concept helps us recognize the organization, while the concrete instance
+provides its material, differences, and consequences.
 
-For example, a person may have a developed view, an account of their needs, and
-capable tools, yet still be unable to turn these resources into continuing work.
-A particular practice of writing with a model might give their unfinished
-experience a readable expression, turn the adopted meaning into usable
-instructions and arrangements, and return actual results for revision. If they
-can take it up again through changes and difficulties, the practice supplies
-the proposed holding function. A document or tool alone does not show this;
-what matters is the person's continuing relationship with the arrangement.
+Personal philosophy can thus help propose interpretations of experience;
+psychological modeling connects some of these relations with actual material;
+engineering gives the adopted understanding usable expression and realization.
+Conversely, actual use may expose errors in a psychological interpretation or
+change a philosophical view. All three contributions run through one process;
+the person need not complete three disciplines separately before beginning it.
 
-This is why the essay borrows *sinthome* rather than using it as another name
-for productivity. The relevant question concerns an individual's recurrent
-tensions, bodily and affective experience, desire, and particular ways of
-enjoying and creating: what form makes a life sustainable without requiring
-every tension to disappear? The proposal draws a functional comparison with
-singular knotting and repair. It does not establish Lacan's clinical account
-for this person, equate ordinary pleasure with *jouissance*, or prove a
-topological four-ring structure. Such a mathematical claim would require
-defined components and crossings; adding a fourth label supplies neither.
-The philosophical proposal remains answerable to what the practice actually
-holds together and where it fails.
+[Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) make mutual
+connection visible: three rings are linked together although no pair is linked
+on its own. In the individual instance, this essay uses three rings for the
+three contributions and a fourth for the sinthome they jointly form, which
+can in turn organize all three. The fourth ring marks the organizing relation
+of this concrete form among the contributions. Shared physical reality grounds
+the whole construction; it does not become a fourth ring when the account turns
+to the individual level, nor is the whole life enclosed in one ring.
 
-## A singular way of living
+The formation process below gives this representation substance: which material
+participates, which relations are selected, and which actual carriers make
+them usable. The four-ring image helps identify these relations; a particular
+mathematical link still depends on crossings and connections and cannot be
+determined from the names of activities alone.
 
-The preceding account of [externalization and distributed cognition](metaphor-and-self-revision.md#externalization-and-distributed-cognition)
-explains how an understanding of a person acquires practical effect through
-models, records, tools, and a division of contributions. The sinthome proposal
-concerns their connection in life: a person uses these relations to understand
-experience, choose what to do, encounter others, create works, and let their
-consequences change how life continues. The psychological model contributes
-understanding, the environment supports action, and the person's actual
-participation makes these contributions part of a way of living of their own.
+<a id="a-singular-way-of-living"></a>
 
-Singularity lies in this combination. The same philosophical resources and
-tools can enter different lives; their specific form here comes from this
-person's intentional orientation, experience, relationships, and ways of using
-and changing them. Texts, Skills, and software carry some of these relations.
-They can remain useful over time or change when needed; sustaining a life does
-not make continual configuration changes the purpose.
+## From personal material to a workable form
 
-The threshold for authorship can therefore be lower than a demand to reproduce
-Joyce's literary complexity or first write a comprehensive philosophical
-system. One meaningful relation, a usable method, and a working arrangement
-can already give the practice a sustaining form. A model can help author and
-realize them. Lowering the entry threshold leaves the work answerable to
-evidence: the arrangement still needs to do what the person is relying on it
-to do. Its depth can grow through use, without complexity becoming a measure
-of its worth.
+Personal philosophy and personal material jointly provide a starting point.
+The former expresses how someone understands the world, life, value, and
+relationships; the latter includes relevant experiences, choices, works,
+conversations, and events in interaction. A process-oriented computational
+ontology helps distinguish participants, events, states, relations, and changes,
+so that the selected content can enter a model's understanding and processing.
 
-The aim is an environment increasingly fitted to this person's actual purposes
-and conditions, through changes that can be made and lived. That fit develops
-in a world of other people, material dependencies, and changing capabilities.
-A relation can be negotiated; software can be redesigned; an expectation can
-be revised. The sustaining form lets the person recognize and respond to those
-changes while retaining a way to continue. Its continuity includes the ability
-to alter the arrangement.
+Person and language model use these sources to form a partial, revisable
+**personal model**: what the person cares about, how they experience and
+understand particular situations, and which conditions affect their action.
+A psychological model can connect experience, emotion, desire, and relationships;
+a preference model can begin by describing choices, habits, and expected
+responses. Personal philosophy supplies interpretive resources and is itself
+an expression to compare with other material. The model needs to state its
+grounds and unknowns; it cannot treat a person's philosophy as an already
+established, complete psychological portrait.
 
-Understanding, action, and continued life give this form practical substance.
-Delight and joy also belong among its possible purposes: enjoying making,
-finding room for an encounter, or living through a day one has helped shape.
-The [personal-first argument](personal-first-humanism.md) explains this
-orientation. Calling the practice a sinthome here names the aspiration to a
-singular form that helps someone live and create in a changing world. Whether
-it supports those purposes must be encountered in actual life; the name
-provides neither a clinical conclusion nor a guarantee of happiness. This
-proposal for philosophy, psychology, and engineering to shape a life together is the essay's
-extension of Lacan's starting point.
+This understanding also helps form a **counterpart model and an account of
+the relationship**: what contribution the model should make, how to collaborate,
+and what existing models, tools, and environments can actually support. The
+desired and currently available counterpart meet here and jointly constrain
+the arrangement. This is the practical content of a “model of the model one
+needs”; it changes with use and technical conditions.
+
+Making these relations work under current technical conditions requires
+representations that actual consumers can use. Clear natural language,
+interconnected records, diagrams, structured data, and programs can carry
+different parts. A model can use them to select relevant material, interpret
+the current question, organize action, and bring results back. The representation
+needs sufficient clarity for this work; the whole person and life need not
+first be converted into a calculable system.
+
+Representations can enter different carriers:
+
+| Carrier | Its role in this form |
+| --- | --- |
+| Prompt or meta-prompt | Brings relevant understanding, purposes, and relations among contributions into one collaboration or a class of collaborations. |
+| Skill | Organizes reusable understanding, methods, and resources into a practice package a model can read and use. |
+| Harness | Organizes prompts, Skills, models, tools, records, and actual operating conditions into a working arrangement. |
+| Meta-harness | Articulates the person, counterpart, and relationship, giving these arrangements a shared direction and making them open to reinterpretation and revision. |
+
+The synthesis of the three contributions therefore does not predetermine a
+file type. YinYang carries a meta-harness in a Skill and brings it into work
+through a concrete harness; others can choose forms suited to their purposes
+and technical conditions. “Sinthome” names the form of personal practice jointly
+formed here; Skill and harness explain what carries it and how it operates
+in this realization.
+
+For example, someone wants a model's help to continue ideas that have yet to
+take shape. Relevant material helps both participants understand which
+expressions are worth retaining, which responses let the person continue,
+and which arrangements reduce the difficulty of starting again. The counterpart
+model articulates the needed contribution; records, retrieval, instructions,
+and tools make it available in actual collaboration. Each continuation brings
+further material, changing the personal understanding, counterpart arrangement,
+or expression used. This example connects material, form, and use; whether it
+actually makes continuation easier needs to become visible in practice.
+
+Such a personal form may gradually help stabilize life, accommodate tensions,
+and sustain creation, or its use may reveal a mismatch. Preserving useful
+relations and changing failed realizations both belong to its development.
+Its singularity comes from the concrete person's material and participation;
+its adequacy is shown by the consequences of these relations in actual life.
 
 ## Articulate enough to work, then let working change the articulation
 
@@ -181,18 +213,15 @@ The sustained practice is where the sinthome proposal and the image meet. A new 
 
 ## Its relation to Sun, Moon, and Earth
 
-[Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) express YinYang's differentiated generation, reception, and shaping, together with an answering material and shared living environment. Person and model remain actual participants, whose roles can be retained or exchanged without gender assignment. Both participants can generate and judge; their creations encounter conditions neither controls. The sinthome argument develops a further question within that encounter: **what singular practice gives the person's relationship with a model and environment a form that can hold and be lived?** The role mapping locates the participants; this essay concerns the sustaining practice developed through expression and creation.
+[Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) express YinYang's differentiated generation, reception, and shaping, together with an answering material and shared living environment. Person and model remain actual participants, whose roles can be retained or exchanged without gender assignment. Both participants can generate and judge; their creations encounter conditions neither controls. The sinthome argument develops a further question within that encounter: **how can a person's philosophy, psychology, and engineering jointly form something concrete, through which the relations among person, model, and environment can be expressed, realized, and used?** The role mapping locates the participants; this essay develops the formation and operation of this personal form.
 
-The two questions develop different aspects of the same encounter. The celestial composition articulates differentiated participation and transformation; the sinthome proposal asks how that movement acquires a singular sustaining form. The ambition is practical and open: let philosophy, psychology, and engineering work together in life, let available models contribute, and continue shaping a way of living and making that can hold enjoyment as well as effort and remains one's own.
+The two questions develop different aspects of the same encounter. The celestial composition articulates differentiated participation and transformation; writing a sinthome gives that movement a personal form that can be used and continually changed. The ambition is practical and open: let philosophy, psychology, and engineering work together in life, let available models contribute, and continue shaping a way of living and making that can hold enjoyment as well as effort and remains one's own.
 
-The next essay, [Trinity](local-source-and-website.md), unfolds this knot into
-the practice of philosophy, psychology, and engineering. A view gives a life
-direction; understanding the person makes that direction inhabitable; an
-engineered environment gives it means to continue. Their mutual dependence
-motivates the Borromean comparison. The proposed fourth function lies in the
-singular lived practice that connects or repairs these contributions, rather
-than in the mere fact that there are three of them. A revised account, new
-method, or changed arrangement contributes when it enters that sustaining
-practice; not every repair is thereby a sinthome. The question now becomes concrete:
-where will this understanding live, how will it act, and what will return to
-change it?
+The next essay, [Trinity](local-source-and-website.md), further distinguishes
+the general relation within shared physical reality from its individual
+instance, and develops how both connect to actual work. The sinthome formed
+here belongs within this person's practice: personal philosophy contributes
+to understanding, psychological and preference modeling connect actual
+material, and engineering gives these relations expression and realization.
+The question now enters concrete places: where is this understanding maintained,
+how does it enter action, and what returns to change it?

@@ -4,36 +4,46 @@
 
 *An unfinished thought takes shape between Sun and Moon. It becomes an arrangement someone can use, a work that can be continued, and a page that can be understood. What returns from these encounters changes the next thought.*
 
-The movement begins in a life: what someone enjoys, needs, chooses, hopes to
-learn or create, and which relationships they want to sustain. In conversation,
-person and model connect partial expressions and experiences into an understanding
-that can guide action. Information, tools, instructions, and a computer environment
-give selected relations a usable form: helping with shopping, consumption,
-investment, conversation, learning, creativity, and social life. Use then returns
-consequences to that life and to the understanding being formed. The environment
-condenses selected relations from life; its defaults and constraints also help
-explain its shape.
+The “Trinity” of philosophy, psychology, and engineering has two connected
+levels here: general and individual. **At the general level, the “one” is
+shared physical reality and the “three” are the philosophical, psychological,
+and engineering activities within it; the individual level is an instance of
+this general relation in a concrete life.** This person's philosophy,
+psychological activity, and engineering arrangements exist together in the
+person and their connected environment and practice. The general concept
+explains the relation; the individual instance gives it concrete content.
 
-The [sinthome essay](writing-a-sinthome.md) developed the Borromean image:
-different rings hold through their joint arrangement. Here that image becomes
-**a trinity of philosophy, psychology, and engineering**. A philosophical
-direction needs a relation to the person living it; that understanding needs
-an environment in which it can act; use in that environment returns experience
-that can change both. Their knot is made and remade through this movement.
-The three contributions do not by themselves establish a four-ring structure.
-The [fourth holding function proposed in that essay](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
-belongs to the person's singular lived practice that sustains or repairs their
-connection. The shared physical reality discussed below is their ground, not
-an additional ring.
+| Level | The whole named by “one” | The activities named by “three” |
+| --- | --- | --- |
+| General relation | The physical reality in which philosophy, psychology, and engineering occur together | Philosophy articulating objects, knowledge, and value; psychological activity and its study, involving feeling, knowing, desire, and interaction; engineering constructing and changing actual conditions. |
+| Individual instance | This person and their connected life and practice within the same reality | Their philosophy and self-understanding; their experience, emotion, preferences, and relational activity; models, tools, and environments organized for their actual use. |
 
-**The one is a shared physical reality; the three are philosophy, psychology,
-and engineering within it.** Philosophical thinking, psychological activity,
-and engineering practice are physically realized activities. Their unity is
-ontological before it becomes a practical loop: they occur within, understand,
-and transform the same world. Contemporary fire monism understands this reality
-as process: the participants, their models, and their arrangements form, persist,
-and change within it. Their differences concern what each makes intelligible
-and how it works.
+An instance relation connects these levels. Writing one's philosophy,
+experiencing an encounter, or completing a work with tools are occurrences
+of these general activities in particular circumstances; the relations among
+them also acquire a particular form in this person's life. The individual
+has a body and history, while models, other people, and tools extend their
+activity into a shared environment. The individual level remains within the
+same physical reality and introduces no further kind of entity.
+
+In personal practice, this movement can begin with enjoyment, need, choice,
+or a wish to learn or create. Person and model connect relevant philosophical
+expression and experiential material into a tentative understanding, forming
+a personal model and an account of the needed counterpart and their relationship.
+Information, tools, instructions, and a computer environment give the adopted
+relations usable form: helping with shopping, consumption, investment,
+conversation, learning, creativity, and social life. The consequences of actual
+use then return to life and to the understanding being formed.
+
+The [sinthome essay](writing-a-sinthome.md) calls the form of personal practice
+jointly formed by these three contributions, capable of expression and use,
+a “sinthome.” Its referent is explained through material, organizing relations,
+representation, and use. In that essay's ring representation, three personal
+contributions are three rings; a fourth marks how this formation organizes
+them. Trinity here explains the general relation and its individual instance;
+the fourth ring represents a concrete organization formed within that instance.
+Shared physical reality remains the ground of all these activities; changing
+levels cannot turn it into another ring.
 
 ## One physical reality, differentiated levels
 
@@ -71,7 +81,52 @@ and explain how its evidence bears on them. The upper-level account therefore
 does substantive work: physical unity alone cannot choose an adequate abstraction,
 establish its bridges to observations, or make its computation feasible.
 
+## The individual instance: from understanding to realization in current technology
+
+The general relation does not directly supply a model of a particular person.
+Personal philosophy can express how someone understands the world, meaning,
+and relationships; experiences, works, choices, and interaction records give
+these expressions concrete situations against which they can be checked.
+Process ontology helps understand continuity and change; computational ontology
+expresses selected relations as participants, events, states, and connections
+that a model can use. From this material the participants form partial
+psychological or preference models, and use them to describe the needed model
+counterpart and manner of collaboration.
+
+Realization in current technology requires a usable form. The personal model
+articulates an understanding of the person; the counterpart model articulates
+expected contributions and actual capabilities; instructions, records, Skills,
+and harnesses bring these relations into work. A language model can interpret
+natural language; bounded relations requiring explicit computation can also
+be expressed in structured data or programs. The purpose and available
+capabilities determine the carrier; one understanding may be realized in several.
+
+Philosophy, psychology, and engineering thus enter into one another in the
+individual instance: philosophy enables a psychological interpretation;
+personal material corrects philosophy's self-description; engineering turns
+understanding into usable arrangements; and experience within those arrangements
+changes the first two. This formation process gives the concrete form its
+content; “sinthome” is the preceding essay's name for it. It may help stabilize
+life or continue creation; its actual effects still require investigation in use.
+
 ## Worldview, knowing, and realization
+
+Philosophical exposition and technical expression belong to the same work.
+Philosophy develops its objects, relations, meanings, and grounds; formal
+languages can translate selected conceptual relations into bounded models
+that can be checked; event-stream records can preserve partial contexts of
+interaction for understanding and temporary modeling within particular
+questions. A Skill organizes reusable understanding, methods, and resources
+for actual collaboration. These forms develop the same practice from different
+positions; their connections need to be explained through shared objects and
+actual use.
+
+Formal translation of concepts, preservation of personal material, and
+understanding a person through that material each do specific work. A formal
+object produced by translation is not thereby a person's psychological
+structure; recording events does not automatically complete personal modeling.
+Philosophy can clarify the relations among these activities, while technical
+expression and actual use give those relations inspectable, revisable content.
 
 | Maintained material | What it contributes |
 | --- | --- |
@@ -401,10 +456,11 @@ whose responses can change both the work and its makers.
 
 Drawing on the three registers in Lacan's [*The Symbolic, the Imaginary, and the Real*](https://www.freud-lacan.com/documents-ged/le-symbolique-limaginaire-et-le-reel/), philosophy turns toward the real that images and symbols have yet to exhaust, psychology gives self and other an image, and engineering writes relations into language, rules, and programs. The images of the Father, the Son, and the Holy Spirit also correspond here to philosophy, psychology, and engineering, respectively.
 
-The earlier account concerns the three contributions' common physical ground.
-In this analogy, **their unity is the concrete person and their life**:
-philosophy, psychology, and engineering present their understanding, experience,
-and action. The triads below express the same whole in different ways.
+Here the account returns to the individual instance distinguished at the outset.
+**Their unity is the concrete person and their connected life and practice within
+the same physical reality**: their philosophy, psychology, and engineering
+present particular understanding, experience, and action. The triads below
+express different relations within this instance.
 
 | Philosophy | Psychology | Engineering |
 | --- | --- | --- |
@@ -419,8 +475,9 @@ becomes a page, informs a personal environment, and acquires a maintained form
 others can continue; experience and response travel back through them. The
 Borromean image gathers these differences into a mutual holding. The rows offer
 selected analogies, not identities among their terms or a topological proof.
-The [sinthome](writing-a-sinthome.md#three-aspects-and-a-fourth-holding-function)
-asks what singular practice sustains or repairs this connection in a person's
-life. Its proposed fourth function concerns that holding, rather than another
-column beside the three domains. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
-then puts that way to work, where a result can answer back and prompt its revision.
+The [sinthome essay](writing-a-sinthome.md#from-the-general-trinity-to-an-individual-instance)
+names the form of personal practice jointly shaped by all three contributions.
+The fourth ring marks how this concrete form organizes them; representation,
+realization, and use give it content, and it may also sustain or repair relations
+in life. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
+then puts this way into action, where a result can answer back and prompt its revision.

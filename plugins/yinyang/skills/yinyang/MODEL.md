@@ -103,10 +103,17 @@ Local cultivation and restrained promotion serve concrete lives and relations;
 they are not an empirical law of social acceleration.
 
 Literary programming uses characters, images, and narrative to organize a
-relationship that instructions and tools can realize. The sinthome essay
-proposes a singular lived form developed through philosophy, psychology, and
-engineering together. Personal life is the whole at issue; philosophy is one
-contribution to it.
+relationship that instructions and tools can realize. The sinthome essay names
+a concrete personal practice-form produced through philosophy, psychology, and
+engineering together. The general Trinity concerns three activities within one
+physical reality; a person's philosophy, psychological activity, and engineering
+arrangements instantiate that relation. Personal materials inform partial
+person/counterpart models, whose representation and realization under current
+technical conditions give the named form its content. It participates in life
+without representing the entirety of that life. Philosophical exposition,
+bounded conceptual formalization, event-record practices, and the Skill express
+and realize connected aspects of this work; keep their actual contributions
+intelligible without treating them as unrelated projects.
 These are interpretive constructions with practical consequences. Their
 coherence does not establish a psychological diagnosis, a hidden model
 mechanism, or an empirical claim; such claims need their own evidence.

@@ -444,17 +444,19 @@ continued, and discussed.
 ## YY-13 · Write a life as a sinthome
 
 The preceding [coupled modeling](#yy-03) and [expression and realization](#yy-04)
-let an understanding of the person guide their environment. As the person uses
-these arrangements to understand, act, and create, philosophy, psychology, and
-engineering acquire a singular connection in the same life. This account writes
-the three as three rings and the personal life connecting them as a fourth:
-the proposal of **writing a life as a sinthome**. Forming a philosophy or
-deploying tools contributes to that lived practice.
-The author uses this name for the singular way a practice can hold together
-without requiring a final, transparent self-description. Its point is the
-connection between how one understands a life and the forms that help one
-live and revise it. Instructions and tools can acquire a place in that
-connection; accumulating them does not by itself create a sustaining form.
+let an understanding of the person guide their environment. The Trinity of
+philosophy, psychology, and engineering has two levels: generally, all three
+activities are united within shared physical reality; individually, this
+person's philosophy, psychological activity, and engineering arrangements
+instantiate that relation. Personal philosophy and relevant material help form
+partial models of the person, the needed counterpart, and their relationship.
+Under current technical conditions, writing, instructions, Skills, harnesses,
+and tools give these understandings usable form. This account calls the form
+of personal practice jointly shaped by all three a **sinthome**. In the individual
+instance, a fourth ring marks how it organizes the three contributions;
+formation, representation, and actual use give its referent substance. It may
+help stabilize life and continue creation, while consequences in use change
+it in turn; the whole life still exceeds this form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
