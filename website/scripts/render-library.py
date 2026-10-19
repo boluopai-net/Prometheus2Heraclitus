@@ -340,6 +340,7 @@ def main():
                 ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看作者的主要主张及相连论证。', 'Find the author’s main claims and connected arguments, organized by topic.'),
                 ('references/reading-map', '按任务问题阅读', 'Read by the work being done', '从当前问题找到有关论证、方法与原始来源。', 'Find relevant arguments, methods, and original sources from the question at hand.'),
                 ('references/docs/philosophical-readings', '哲学阅读', 'Philosophical readings', '了解各思想家、作品与本文论证的关系，并回到原文。', 'Trace thinkers and works to their role in the argument and their original sources.'),
+                ('references/docs/lacan-reading-guide', '拉康概念导读', 'A guide to Lacanian concepts', '从大他者、分裂主体、回溯、三界与圣状进入，理解原概念怎样进入个人哲学与实践。适合初读与复习。', 'An introduction and review tracing the Other, the divided subject, retroaction, the three registers, and the sinthome from original texts into personal philosophy and practice.'),
                 ('references/docs/psychological-readings', '心理阅读', 'Psychological readings', '心理过程建模与经验检验、心灵与心理理论，以及信念、推理和互动研究的书与论文。', 'Books and papers on psychological process modeling and evidence, mind and psychological theories, belief, reasoning, and interaction.'),
                 ('references/docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法、实验实现与物理条件。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, experimental implementation, and physical conditions.'),
             ]),
