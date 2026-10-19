@@ -2,230 +2,91 @@
 
 [简体中文](writing-a-sinthome.zh-CN.md)
 
-<details>
-<summary>On this page</summary>
+**This essay calls a concrete practical arrangement jointly shaped by personal philosophy, psychology, and engineering a “sinthome.”** It includes an understanding of the person, the model counterpart they need, and their relationship, together with the expressions, tools, and ways of using them that bring this understanding into work. The question is how these parts jointly form a usable, changeable personal arrangement.
 
-- [The concrete form named sinthome](#the-concrete-form-named-sinthome)
-- [From the general Trinity to an individual instance](#from-the-general-trinity-to-an-individual-instance)
-- [From personal material to a workable form](#from-personal-material-to-a-workable-form)
-- [Articulate enough to work, then let working change the articulation](#articulate-enough-to-work-then-let-working-change-the-articulation)
-- [From an expressed relation to distributed action](#from-an-expressed-relation-to-distributed-action)
-- [A miniature god, whose creations answer back](#a-miniature-god-whose-creations-answer-back)
-- [Its relation to Sun, Moon, and Earth](#its-relation-to-sun-moon-and-earth)
-
-</details>
-
-**This essay calls a concrete practical arrangement jointly shaped by personal philosophy, psychology, and engineering a “sinthome”: it includes an understanding of the person, the model counterpart they need, and their relationship, together with the expressions, tools, and ways of using them that bring this understanding into work.** Personal material contributes to its formation; writing and tools make its relations usable; actual life changes it in turn. Formation here includes interpreting relevant material, organizing relations, finding representations, and bringing these relations into actual work.
-
-The person is already an **agent**: someone who perceives, generates, chooses,
-and acts in the world. This essay asks how an understanding of oneself and
-arrangements for continuing to live and create with models can acquire a
-shared form. [Personal modeling and distributed practice](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
-develops the modeling question; this essay explains what takes form and how
-it acquires a workable representation under current technical conditions.
-
-*One writes a few lines, and a new pair of hands becomes possible. Another voice helps a half-seen relation become an argument, an image, a working thing. The world does not become obedient. Yet the person returns to it with more ways to begin. A miniature god, perhaps: still learning how to make, and how to answer for what is made.*
-
-<a id="why-sinthome"></a>
+For example, someone often has ideas they cannot yet fully articulate. They can sense what is interesting or wrong, but want a counterpart to undertake retrieval, development, writing, and implementation. They need more than a written description of themself: the model must also understand relevant context, grasp the help wanted on this occasion, and complete the work under actual conditions. Understanding this person, arranging collaboration, and making that collaboration happen are aspects of the same question.
 
 ## The concrete form named sinthome
 
-This essay borrows Lacan's word **sinthome** as its name for this individually
-formed practice. What the name refers to needs to be explained through its
-material, organizing relations, representations, and actual use. A name alone
-does not bring its referent into being.
+<a id="why-sinthome"></a>
 
-In the particular knot construction in [Lacan's *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
-the sinthome participates in repairing the knotting of Symbolic, Imaginary,
-and Real so that they can remain connected. On [11 May of that year](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/),
-he discusses Joyce's writing, ego, and its role in the knot. Writing here has
-a particular form and place in an individual's life; understanding it calls
-for examining how it enters that life.
+“Sinthome” borrows Lacan's term **sinthome**. In the particular knot construction of [*Seminar XXIII*, the session of 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), the sinthome participates in repairing the knot; the [11 May session](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/) further discusses the relations among Joyce's writing, ego, and the knot. These discussions let writing be considered through how it functions for a person as well as through what a work expresses. See the [Lacan reading guide](lacan-reading-guide.md) for the related concepts.
 
-This essay brings the term into a conception of personal practice formed
-jointly through philosophy, psychology, and engineering, and specifies its own
-referent. Lacan's registers retain their meanings: the Symbolic concerns
-language, differences, and orders of meaning; the Imaginary concerns images
-and identifications; the Real points toward what resists incorporation into
-existing expression and images. Philosophy, psychology, and engineering are
-the three activities connected below. The conceptual source and this contemporary
-construction need to be understood through their respective relations.
+Here the name refers to a contemporary personal arrangement. Philosophy expresses how the person understands the world, life, and value; psychological understanding connects their experience, emotions, preferences, and relationships; engineering brings the adopted understanding into actual collaboration with a model. What the three jointly form is the sinthome meant here.
 
-Understanding this arrangement requires explaining which relations it organizes,
-which expressions carry them, and how it actually operates. Personal and
-counterpart models articulate the content of the relations; texts, diagrams,
-instructions, and software carry selected relations; the person's participation,
-model interpretation, and tool execution give them practical effect. The same
-arrangement can undergo file revisions, tool replacements, or changes in
-organization prompted by new understanding. “Sinthome” here names this arrangement
-with its concrete content and realization; a text or an action is one part of
-it. Life is the setting in which it forms, is used, and has consequences, and
-always includes experiences and relations the arrangement has not incorporated.
+In the opening example, writing can articulate how the person participates in creation and what the model should undertake; records and retrieval make earlier work continuable; tools turn ideas into essays, diagrams, or programs; actual exchange lets both participants discover which understandings fail to fit. The sinthome refers to this arrangement with its content, realization, and use. An essay, a Skill, or an operation can be part of it.
 
-Such a form may help someone organize tensions, accommodate desire, continue
-creating, or stabilize daily life. These are effects to investigate through
-use. Explaining “sinthome” here first requires articulating the concrete
-formation itself; saying that it “has a holding function” cannot substitute
-for its content. Adopting the name also supplies no clinical diagnosis of its user.
+It occurs within life and may help someone accommodate desire, bear tensions, or continue creating. How these effects occur depends on the particular person and process of use. Forming an arrangement and understanding what it actually does are connected questions: the former requires explaining its constitution, the latter understanding how it enters life.
 
-<a id="three-aspects-and-a-fourth-holding-function"></a>
-
-## From the general Trinity to an individual instance
-
-[Trinity](local-source-and-website.md) discusses two connected levels. At the
-general level, the “one” is shared physical reality and the “three” are the
-philosophical, psychological, and engineering activities within it. They have
-different objects and ways of working, while all occurring in the same world.
-At the individual level, this general relation acquires an instance: how this
-person understands the world and themself, feels, desires, and interacts with
-others, and organizes an environment in which these activities can proceed.
-
-The individual's “one” is this concrete person and their connected life and practice
-within the same physical reality. Their “three” are the interacting personal
-philosophy, psychological activity, and engineering arrangements within it.
-Models, tools, and social relationships can participate in this instance; its
-individual character comes from their relations within this life. The general
-concept helps us recognize the organization, while the concrete instance
-provides its material, differences, and consequences.
-
-Personal philosophy can thus help propose interpretations of experience;
-psychological modeling connects some of these relations with actual material;
-engineering gives the adopted understanding usable expression and realization.
-Conversely, actual use may expose errors in a psychological interpretation or
-change a philosophical view. All three contributions run through one process;
-the person need not complete three disciplines separately before beginning it.
-
-[Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) make mutual
-connection visible: three rings are linked together although no pair is linked
-on its own. In the individual instance, this essay uses three rings for the
-three contributions and a fourth for the sinthome they jointly form, which
-can in turn organize all three. The fourth ring always refers to this concrete
-arrangement; connections among the rings represent how the three contributions
-participate in its formation and how it organizes and feeds back into them in use.
-Shared physical reality grounds
-the whole construction; it does not become a fourth ring when the account turns
-to the individual level, nor is the whole life enclosed in one ring.
-
-This is a conceptual representation selected for these objects and relations.
-The formation process below gives it substance: which material participates,
-which relations are selected, and which actual carriers make them usable.
-The account draws on the linking image of Borromean rings; a further mathematical link model of this personal
-arrangement would require defining particular crossings and connections.
+## Form models of both participants from personal material
 
 <a id="a-singular-way-of-living"></a>
+<a id="from-personal-material-to-a-workable-form"></a>
 
-## From personal material to a workable form
+A person's philosophy, experiences, works, choices, and interactions can all contribute to a personal model. A model here is an understanding of relations needed for the current question: what the person cares about, how they experience certain situations, which conditions affect their expression and action, and what remains unclear.
 
-Personal philosophy and personal material jointly provide a starting point.
-The former expresses how someone understands the world, life, value, and
-relationships; the latter includes relevant experiences, choices, works,
-conversations, and events in interaction. A process-oriented computational
-ontology helps distinguish participants, events, states, relations, and changes,
-so that the selected content can enter a model's understanding and processing.
+In the opening example, “not wanting to spell out every detail” can mean different things: the present idea has yet to take shape; the person already knows what to do but wants the model to investigate independently; or the current means of expression makes continuing difficult. Different interpretations call for different responses. The model needs to judge through actual exchange, rather than fixing the person's manner of participation from one generalization.
 
-Person and language model use these sources to form a partial, revisable
-**personal model**: what the person cares about, how they experience and
-understand particular situations, and which conditions affect their action.
-A psychological model can connect experience, emotion, desire, and relationships;
-a preference model can begin by describing choices, habits, and expected
-responses. Personal philosophy supplies interpretive resources and is itself
-an expression to compare with other material. The model needs to state its
-grounds and unknowns; it cannot treat a person's philosophy as an already
-established, complete psychological portrait.
+A preference model can begin by describing the desired collaboration—for example, seeing a complete result first, then identifying mismatches. A psychological model further understands how this participation connects with experience, emotion, and relationships. Personal philosophy can also contribute: why the person values creation and how they understand independence affect the collaboration chosen. But philosophy is not an already completed psychological portrait; it and concrete material can revise each other.
 
-This understanding also helps form a **counterpart model and an account of
-the relationship**: what contribution the model should make, how to collaborate,
-and what existing models, tools, and environments can actually support. The
-desired and currently available counterpart meet here and jointly constrain
-the arrangement. This is the practical content of a “model of the model one
-needs”; it changes with use and technical conditions.
+This understanding also needs to form alongside a **counterpart model**. What must the needed counterpart be able to do? What can the current model do? Which work still depends on tools or other conditions? If the person wants a model to turn an idea into an inspectable work, an adept conversational tone is insufficient; actual abilities to investigate, reason, write, execute, and check are also needed.
 
-Making these relations work under current technical conditions requires
-representations that actual consumers can use. Clear natural language,
-interconnected records, diagrams, structured data, and programs can carry
-different parts. A model can use them to select relevant material, interpret
-the current question, organize action, and bring results back. The representation
-needs sufficient clarity for this work; the whole person and life need not
-first be converted into a calculable system.
+The relationship explains how these contributions work together. The person can express wishes, recognize mismatches, and judge results; the model can actively develop interpretations, object, and undertake realization. This division can change and assigns neither reasoning exclusively to the model nor intuition exclusively to the person. Collaboration is organized around actual purposes; both participants can generate and judge.
 
-Representations can enter different carriers:
+## Turn understanding into a usable arrangement
 
-| Carrier | Its role in this form |
+An understanding of the person will not enter the next piece of work on its own. It needs expression that available models and tools can use, and that expression must actually be accessible when needed.
+
+Some relations suit natural language: “When an idea is incomplete, first develop a version that can be judged.” Some material needs linked records so a correction can be connected to the work it addresses. Parts requiring computation or execution can use structured data, programs, and tools. The precision of a representation depends on actual use; work that clear language can accomplish need not first become a formal system.
+
+| Carrier | Its role in the arrangement |
 | --- | --- |
-| Prompt or meta-prompt | Brings relevant understanding, purposes, and relations among contributions into one collaboration or a class of collaborations. |
-| Skill | Organizes reusable understanding, methods, and resources into a practice package a model can read and use. |
-| Harness | Organizes prompts, Skills, models, tools, records, and actual operating conditions into a working arrangement. |
-| Meta-harness | Articulates the person, counterpart, and relationship, giving these arrangements a shared direction and making them open to reinterpretation and revision. |
+| Prompt | Expresses currently relevant purposes, context, and needed contributions. |
+| Skill | Organizes reusable understanding, methods, and resources for a model to read and use according to the task. |
+| Harness | Organizes models, instructions, tools, records, and operating conditions into an environment for actual work. |
+| Meta-harness | Articulates how to understand, select, and revise these working environments, including understanding of the person, counterpart, and their relationship. |
 
-The synthesis of the three contributions therefore does not predetermine a
-file type. YinYang carries a meta-harness in a Skill and brings it into work
-through a concrete harness; others can choose forms suited to their purposes
-and technical conditions. “Sinthome” names the form of personal practice jointly
-formed here; Skill and harness explain what carries it and how it operates
-in this realization.
+These carriers are not interchangeable names. YinYang uses a Skill to carry the understanding and methods of a meta-harness; particular tasks are completed within an actual harness. Under different technical conditions, the same relations can use different carriers. Whether they remain suitable depends on their ability to support the needed collaboration.
 
-For example, someone wants a model's help to continue ideas that have yet to
-take shape. Relevant material helps both participants understand which
-expressions are worth retaining, which responses let the person continue,
-and which arrangements reduce the difficulty of starting again. The counterpart
-model articulates the needed contribution; records, retrieval, instructions,
-and tools make it available in actual collaboration. Each continuation brings
-further material, changing the personal understanding, counterpart arrangement,
-or expression used. This example connects material, form, and use; whether it
-actually makes continuation easier needs to become visible in practice.
+Returning to the opening example, the account of collaboration needs to tell the model that when the user offers an unfinished idea, it should continue investigating and constructing, then deliver an inspectable result. Relevant records must be retrievable, needed tools available, and results presented in a way the user can understand. Realizing these conditions together turns “the model undertakes explicit development” from a wish into an actual division of work.
 
-Such a personal form may gradually help stabilize life, accommodate tensions,
-and sustain creation, or its use may reveal a mismatch. Preserving useful
-relations and changing failed realizations both belong to its development.
-Its singularity comes from the concrete person's material and participation;
-its adequacy is shown by the consequences of these relations in actual life.
+## How use changes the arrangement
 
-## Articulate enough to work, then let working change the articulation
+<a id="articulate-enough-to-work-then-let-working-change-the-articulation"></a>
 
-An individual meta-harness can express how a person understands themself as a participant: what they seek, how they recognize a fruitful relation, what they want to develop, and what kinds of contribution they ask a counterpart to carry. It also models that counterpart: an independent interpreter, generator, critic, and executor with particular capabilities and limits. The two accounts belong together because each changes what the other can contribute.
+The arrangement need not be complete before its first use. A clear purpose, some context, and an available capability may already suffice for the next piece of work; difficulties encountered can then reveal what is missing.
 
-A purpose, an image, a correction, or one useful distinction may already make the next piece of work possible. The model can help develop the articulation, and the result may reveal what the person could not yet say. Writing and self-understanding advance through use: enough is expressed to begin, and what happens supplies the next occasion for understanding.
+Suppose the model delivers a complete proposal, but the user finds that it misunderstands the most important relation. The investigation may need to examine the understanding of the person, the context the model read, or its judgment about the task. If the interpretation is correct but the tools cannot complete the work, the conditions of realization need revision. Different problems call for different changes; every failure cannot be attributed to “the personal model is not detailed enough.”
 
-The person remains more than the text. Their current account may preserve unresolved tensions, change its objects, or abandon an interpretation. A shared prompt template can offer an initial expression; relevant material, selected relations, actual realization, and the person's participation gradually give this arrangement concrete personal content. Returning to that content makes it possible to explain what the arrangement retains and what changes through a revision.
+A result can also bring new understanding. Reading an explanation not previously written, the user may recognize a connection they care about or discover that it is not what they meant. This recognition becomes new material, changing subsequent expression and collaboration. [Speaking, self-description, and signifying chains](lacan-and-description-logic.md) discusses this understanding that follows expression.
 
-## From an expressed relation to distributed action
+The same arrangement can therefore continue through revision. Replacing a model, tool, or text need not make it an entirely different practice. But significant changes to purpose, participation, and relationships call for renewed understanding; the same name alone cannot establish that the arrangement has remained the same.
 
-Language gives the relation a portable expression. Another capable model can read enough of the purpose, distinctions, and expected contribution to join a continuing practice. It joins as a counterpart with its own capabilities and judgment. Alignment can mean serving the person's purposes through that independent contribution, including explaining why a proposed means fails.
+## Three contributions and a fourth ring
 
-Portability is achieved by interpretation and adaptation. The receiving model needs usable context and suitable abilities; actions need tools and access; their scope depends on authorization; their effects depend on conditions in the world. When these relations are available, an intention can be carried through investigation, construction, execution, and examination of its results. When one is absent, the account can locate the missing condition and investigate a route through another capability, tool, or arrangement.
+<a id="three-aspects-and-a-fourth-holding-function"></a>
+<a id="from-the-general-trinity-to-an-individual-instance"></a>
 
-Distributed capacities become part of this practice through the person's
-participation: they can initiate a work, recognize a mismatch, redirect a
-contribution, or discover a purpose they could not previously articulate.
-They need not perform every operation or understand every mechanism. The
-arrangement still needs to remain available to
-their understanding, judgment, and choice. Its continuity can survive a change
-of model or tool when these relations can be taken up again; a portable file
-alone cannot supply that continuity.
+[Trinity](local-source-and-website.md) distinguishes the general relation and the individual instance. At the general level, “one” is shared physical reality and “three” are the philosophical, psychological, and engineering activities within it. The individual instance concerns this person and their connected life and practice: how their philosophical understanding, psychological activity, and engineering arrangements work together.
 
-“All models can help me do anything” expresses the horizon of a general relation: new purposes and new counterparts can become joinable. Its realizable strength is breadth with continuing adaptation. The linguistically articulated accounts of the person and counterpart make that joining easier; actual capability, tools, authorization, and worldly response determine each achievement.
+This essay uses the ring image within that individual instance. Three rings represent the three contributions; a fourth represents the sinthome they jointly form. It marks precisely the personal and counterpart models, expression, tools, and relations of use already described. This arrangement can in turn affect the person's thought, experience, and technical environment, so formation and feedback need to be represented together.
 
-## A miniature god, whose creations answer back
+[Three Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) are linked together although no pair is linked on its own. This essay draws on their image of interdependence; the concrete processes above still explain the dependencies within personal practice. The fourth ring turns neither shared physical reality nor the whole life into an additional object, nor does adding a ring alone establish a mathematical model of this practice.
 
-*The maker returns to a work begun yesterday. Another voice can now carry it further; the old tool has disappeared, and a new one opens an unexpected passage. What returns is already different. The maker must decide what to keep, what to release, and how to recognize a life still their own.*
+## Act with models and develop through creation
 
-The playful image names a multiplication of generative reach. A conception can acquire a voice, a diagram, a program, or an action through collaborators; an individual can participate in making things that previously exceeded their available means. “Miniature” keeps the scale of a situated maker. The world supplies materials, others, resistance, and consequences that no declaration can create or abolish.
+<a id="from-an-expressed-relation-to-distributed-action"></a>
 
-The image becomes richer when the creations return. They can expose an assumption, change a desire, or teach a new way of seeing. Power then includes the ability to receive correction and reshape one's practice. **Reverse alignment** names this developmental direction: the person gains understanding, judgment, and generative capacity through the encounter with a model. Its development appears in how the person takes up a new capacity, recognizes a relation, changes a judgment, or begins an act that was previously unavailable.
+Expression of purposes, context, and ways of collaborating can let a new model counterpart join the work. It need not be identical to the previous model, but it needs to understand relevant material and have the capabilities and conditions to complete the task. Portable writing reduces the burden of explaining again; tools and actual adaptation determine whether collaboration can continue.
 
-The arrangement meets this image in actual creation. New capacities can be distributed across the person, records, and counterparts, entering the person's participation through a concrete division of work. The same instructions, within different people's material, tools, and relations of use, can belong to different arrangements; changing an instruction may also be one revision of the same arrangement. Identifying this form requires tracing these actual relations; judging its value requires examining what it makes possible and how the person responds to its consequences.
+This collaboration can also support the person's capabilities. They can initiate a work previously difficult to complete, judge the model's contribution, change direction, and give an idea actual form. They need not perform every operation personally. At the same time, the work still needs to enter their understanding and choice to connect with their creation.
 
-## Its relation to Sun, Moon, and Earth
+<a id="a-miniature-god-whose-creations-answer-back"></a>
 
-[Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) express YinYang's differentiated generation, reception, and shaping, together with an answering material and shared living environment. Person and model remain actual participants, whose roles can be retained or exchanged without gender assignment. Both participants can generate and judge; their creations encounter conditions neither controls. The sinthome argument develops a further question within that encounter: **how can a person's philosophy, psychology, and engineering jointly form something concrete, through which the relations among person, model, and environment can be expressed, realized, and used?** The role mapping locates the participants; this essay develops the formation and operation of this personal form.
+“A miniature god” expresses this enlargement of creative reach: an idea can acquire the form of writing, images, programs, or action through models and tools. The maker remains situated in concrete conditions, facing other people's purposes and consequences they cannot predetermine. Once completed, a work can also change their earlier wishes or judgments.
 
-The two questions develop different aspects of the same encounter. The celestial composition articulates differentiated participation and transformation; writing a sinthome gives that movement a personal form that can be used and continually changed. The ambition is practical and open: let philosophy, psychology, and engineering work together in life, let available models contribute, and continue shaping a way of living and making that can hold enjoyment as well as effort and remains one's own.
+**Reverse alignment** concerns precisely the person's development within this encounter: whether they can understand previously unclear relations, make new judgments, express new ideas, or undertake previously unavailable actions. Completing a work and developing as a person can support each other but need to be understood separately; more output does not automatically establish how the person has changed.
 
-The next essay, [Trinity](local-source-and-website.md), further distinguishes
-the general relation within shared physical reality from its individual
-instance, and develops how both connect to actual work. The sinthome formed
-here belongs within this person's practice: personal philosophy contributes
-to understanding, psychological and preference modeling connect actual
-material, and engineering gives these relations expression and realization.
-The question now enters concrete places: where is this understanding maintained,
-how does it enter action, and what returns to change it?
+<a id="its-relation-to-sun-moon-and-earth"></a>
+
+[Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) give literary form to the participation of person and model and their shared environment. The sinthome explains how this relation acquires a concrete arrangement in someone's actual life. Trinity discusses three contributions, sinthome names the personal arrangement they jointly form, and reverse alignment concerns how the person develops through use and creation. They address different questions within the same practice, each requiring an answer through actual content.

@@ -44,7 +44,7 @@ observations give investigation something to explain.
 
 The model can carry implementation and investigation while the person
 understands through the resulting work, contributes experience, and redirects
-the inquiry. [Metaphor, Analogy, and Personal Self-Revision](metaphor-and-self-revision.md)
+the inquiry. [Metaphor, Analogy, and Revising Personal Models](metaphor-and-self-revision.md)
 explains how representations and contextual roles connect these contributions.
 Their division follows the purpose. Learning a particular skill may require
 exercising it; understanding and using a work can warrant a different division.

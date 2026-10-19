@@ -9,7 +9,7 @@
 网站提供阅读；克隆仓库和 GitHub 原生 ZIP 保留完整源内容。
 
 阴阳是一项已经展开的哲学与形成方法。读者可以采用、组合选定资源，也可以创作不同作品。
-[从这个例子开始，写出自己的东西](example-and-commons.zh-CN.md)展开这份邀请。
+[参考这个例子：采用、组合或创作](example-and-commons.zh-CN.md)展开这份邀请。
 哲学家的思想可以支持框架，不能替代实际用户的描述。本说明的五份描述与公共更新约定
 适用于完整采用持续维护的 Skill；阅读哲学或取用某项方法，本身不等于采用这份约定，
 也不要求开展个人哲学项目。
@@ -77,4 +77,4 @@ python3 /path/to/shared/yinyang/scripts/sync-common.py \
 
 只有获授权的可复用认识回到集合。阴阳原创材料采用 CC BY-NC-SA 4.0，
 其他独立成员保留各自 MIT 许可。权限、署名与来源审查遵循
-[集合说明](../../../../README.zh-CN.md)及实际发布维护者。私人改编不必公开。
+[集合说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.zh-CN.md)及实际发布维护者。私人改编不必公开。

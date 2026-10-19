@@ -247,7 +247,7 @@ Common-file projection preserves private files mechanically; it does not forbid
 their authorized semantic revision or deletion. Carry useful changes through
 the existing local and private cloud owners and read back affected consumers.
 This maintenance calls for neither broad personal-data collection nor a new
-scheduler. The [Trinity maintenance account](docs/local-source-and-website.md#keeping-the-loop-current)
+scheduler. The [Trinity account of feedback](docs/local-source-and-website.md#keeping-the-loop-current)
 connects it to the continuing philosophy–psychology–environment loop.
 
 Revision can also travel from situated practice to shared method. A repository

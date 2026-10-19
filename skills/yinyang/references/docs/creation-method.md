@@ -116,7 +116,7 @@ Metaphor can gather relationships before each has a separate formulation;
 analogy develops selected connections into candidate implications. Their
 external expression can provide branches, assumptions, and return points for
 another participant's reasoning. Such representations can organize contributions
-across people, models, and tools. [Metaphor and self-revision](metaphor-and-self-revision.md)
+across people, models, and tools. [Metaphor and personal modeling](metaphor-and-self-revision.md)
 develops this account of distributed cognition and distinguishes a working
 philosophical arrangement from formal or empirical guarantees.
 

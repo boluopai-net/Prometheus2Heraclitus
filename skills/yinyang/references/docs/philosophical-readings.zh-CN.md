@@ -136,13 +136,13 @@
 
 ## 拉科夫、约翰逊与根特纳：隐喻和关系类比
 
-George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[文学式编程](https://boluopai.net/philosophy/literary-programming/)与[隐喻、类比与个人的自我改写](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
+George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[文学式编程](https://boluopai.net/philosophy/literary-programming/)与[隐喻、类比与个人模型的修订](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
 
 ## 心灵、认识与解释
 
 克拉克 与 查尔默斯 的[延展心智](https://www.consc.net/papers/extended.html)
 为[窃火](stealing-fire.zh-CN.md)关于环境积极支持的说明提供资源。
-[隐喻、类比与个人的自我改写](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
+[隐喻、类比与个人模型的修订](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
 与 基尔什 的分布式认知研究：理解能够穿行于人、模型、记录与工具之间发展。
 
 Varela、Evan Thompson 与 Eleanor Rosch 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)把认知科学、生活经验与观照实践放在一起；[参与、可用行动与支持](participation-and-support.zh-CN.md)已经借此讨论具身参与。Hollan、Hutchins 与 Kirsh 的[Distributed Cognition（2000）](https://interactivity.ucsd.edu/articles/dcog.pdf)则提供跨人、人工物与时间研究认知的原文入口。

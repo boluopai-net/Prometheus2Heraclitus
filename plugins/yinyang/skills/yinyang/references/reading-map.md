@@ -3,7 +3,7 @@
 Start with the question the work has made difficult. You may want to understand
 the author's philosophy, borrow a method for a particular problem, or adopt
 the complete YinYang Skill. These uses can overlap; none is a stage that every
-reader must pass through. [Begin with this example, and make something of your own](docs/example-and-commons.md)
+reader must pass through. [Drawing on This Example: Adopt, Combine, or Create](docs/example-and-commons.md)
 explains the invitation to adopt, combine, challenge, or author another work.
 
 The [formation and revision method](design-and-revision.md) develops the common
@@ -33,7 +33,7 @@ arrangement, without making the person first design all of its implementation.
 | An idea or image is appealing, but its practical consequence is unclear | [Creating and realizing YinYang's meta-harness](docs/creation-method.md) follows the relations among expression, interpretation, realization, and consequences. It helps identify what must change in the work for an idea to matter, and what a returned result can tell you about the original understanding. |
 | A sound arrangement exists in prose, but the actual environment does something else | [Realizing YinYang in a working harness](harness-adaptation.md) connects the intended contribution with current instructions, tools, capabilities, and permissions. It helps locate the change at its actual owner, realize it, and compare the resulting behavior with the purpose. |
 | The model offers more explanation, but the person still cannot proceed | [Participation, access, and support](docs/participation-and-support.md) distinguishes understanding, retrieving a term, starting, selecting a response, stopping, and switching. It helps choose a contribution aimed at the missing connection and examine whether support's coordination cost consumes its benefit. |
-| Several models, notes, and tools produce activity without a clear shared contribution | [Metaphor, Analogy, and Personal Self-Revision](docs/metaphor-and-self-revision.md) distinguishes a personal model, its external representation, role allocation, and actual coupled cognition. It helps trace how a contribution reaches the next activity, and why independent checking needs contact with sources or results rather than repeated copies of a summary. |
+| Several models, notes, and tools produce activity without a clear shared contribution | [Metaphor, Analogy, and Revising Personal Models](docs/metaphor-and-self-revision.md) distinguishes a personal model, its external representation, role allocation, and actual coupled cognition. It helps trace how a contribution reaches the next activity, and why independent checking needs contact with sources or results rather than repeated copies of a summary. |
 
 For example, an unfinished spoken objection to an article may need the model
 to retrieve the passage, develop a comparison, and maintain the resulting
@@ -84,7 +84,7 @@ theoretical prerequisite for using the methods above.
 | Why borrow generative capability, and why choose cultivation as its use? | [Stealing fire: from borrowed fire toward generation](docs/stealing-fire.md) connects collective acquisition, finite life, reverse alignment, and the development of generative capacities. It explains the author's reasons for the chosen purpose and rhythm, while distinguishing useful assistance from demonstrated growth. |
 | What work do Sun, Moon, Earth, and Taiji do in this philosophy? | [YinYang and Taiji: ceaseless transformation](docs/yinyang-and-taiji.md) develops ceaseless transformation, mutual grounding, and the Shuang yu. It makes differentiated generation, reception, shaping, and worldly consequences intelligible as relations; the actual participants remain able to exceed or exchange the pictured roles. |
 | How can personal material and models of both participants become a usable practical arrangement? | [Forming a sinthome: personal philosophy, psychology, and engineering in practice](docs/writing-a-sinthome.md) specifies the concrete content of what this account calls a sinthome, develops its formation, representation, realization, and use, and explains the term's Lacanian source. |
-| How do philosophy, psychology, and engineering belong to one practice? | [Trinity: Philosophy, Psychology, and Engineering in One Practice](docs/local-source-and-website.md) connects one changing physical reality, jointly developed computational models, and differentiated contributions with local, repository, and website forms. It helps understand how a philosophical account can gain a working realization and a public expression without those forms becoming identical. |
+| How do philosophy, psychology, and engineering belong to one practice? | [Trinity: Philosophy, Psychology, and Engineering in Shared Practice](docs/local-source-and-website.md) connects one changing physical reality, jointly developed computational models, and differentiated contributions with local, repository, and website forms. It helps understand how a philosophical account can gain a working realization and a public expression without those forms becoming identical. |
 
 For a connected conceptual reading, purpose → core views → practice explanation
 offers one possible route. The arrows indicate an intelligible connection,

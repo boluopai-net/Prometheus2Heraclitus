@@ -98,6 +98,6 @@ does not authorize public links that reconstruct private sources.
 
 Return only authorized reusable insights to the collection. YinYang original
 material uses CC BY-NC-SA 4.0; other independent members retain their own MIT
-licenses. Follow the [collection guide](../../../../README.md) and the actual
+licenses. Follow the [collection guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md) and the actual
 publication owner for permissions, attribution, and source review. A private
 adaptation need not be published.

@@ -169,13 +169,13 @@ For conflict in experience, relationships, and therapy, continue to [psychologic
 
 ## Lakoff, Johnson, and Gentner: metaphor and relational analogy
 
-George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Literary programming](https://boluopai.net/philosophy/literary-programming/en/) and [Metaphor and self-revision](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
+George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Literary programming](https://boluopai.net/philosophy/literary-programming/en/) and [Metaphor and personal modeling](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
 
 ## Mind, knowledge, and explanation
 
 Clark and Chalmers's [*The Extended Mind*](https://www.consc.net/papers/extended.html)
 informs [Stealing fire](stealing-fire.md)'s account of active environmental
-supports. [Metaphor and self-revision](metaphor-and-self-revision.md) connects
+supports. [Metaphor and personal modeling](metaphor-and-self-revision.md) connects
 that question with Hollan, Hutchins, and Kirsh's distributed-cognition
 research: understanding can develop across people, models, records, and tools.
 

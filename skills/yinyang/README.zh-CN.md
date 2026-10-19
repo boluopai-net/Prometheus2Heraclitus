@@ -22,7 +22,7 @@
 
 它连同自己的文学形式，是一项已经展开的范例。你可以采用、组合资源，也可以创作
 概念、意象与组织方式都不同的作品。
-[从这个例子开始，写出自己的东西](references/docs/example-and-commons.zh-CN.md)说明这份邀请。
+[参考这个例子：采用、组合或创作](references/docs/example-and-commons.zh-CN.md)说明这份邀请。
 维护这套实现与创作另一部作品，是不同选择；固定文件路径适用于前者。
 
 本目录是 **Prometheus2Heraclitus** 集合中完整的阴阳成员。文章和图示是配套资源，

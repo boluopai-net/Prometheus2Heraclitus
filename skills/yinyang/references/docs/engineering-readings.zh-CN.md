@@ -87,7 +87,7 @@
 
 | 来源 | 与文章的关系 |
 | --- | --- |
-| A. M. Turing（1936），[On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)，尤其第 6 节 | 通用机器为[隐喻、类比与个人的自我改写](metaphor-and-self-revision.zh-CN.md)中的解释器类比提供形式参照，并不证明语言模型能够正确解释所有程序。 |
+| A. M. Turing（1936），[On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)，尤其第 6 节 | 通用机器为[隐喻、类比与个人模型的修订](metaphor-and-self-revision.zh-CN.md)中的解释器类比提供形式参照，并不证明语言模型能够正确解释所有程序。 |
 | Thomas R. Gruber（1993），[A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf)，第 1–2 节 | 知识表示中的对象、关系与共享概念化。可对照[窃火](stealing-fire.zh-CN.md)发展的工程本体阅读；后者进一步提出自己的解释。 |
 | Donald E. Knuth，[Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html) | 把解释与程序代码组织在一起的既有实践。比较它的技术用途与本文集更广义的文学自然语言编程。 |
 

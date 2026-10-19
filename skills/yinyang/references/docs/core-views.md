@@ -10,7 +10,7 @@ or challenge, rather than as established facts or prerequisites for every
 reader's work. A reader can understand this philosophy, borrow a useful method,
 or adopt the complete Skill; borrowing a distinction does not require adopting
 its developmental purpose or writing a personal philosophy. See
-[Begin with this example, and make something of your own](example-and-commons.md).
+[Drawing on This Example: Adopt, Combine, or Create](example-and-commons.md).
 
 [Home](../../README.md) · [完整中文版](core-views.zh-CN.md)
 
@@ -165,7 +165,7 @@ judges, or carries work forward. A harness—the instructions, tools, and
 environment shaping interaction—can realize that arrangement within actual
 authorization and safety boundaries. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
-works, and action. [Metaphor, analogy, and self-revision](metaphor-and-self-revision.md#what-an-image-makes-available)
+works, and action. [Metaphor, analogy, and revising personal models](metaphor-and-self-revision.md#what-an-image-makes-available)
 develops this movement from image to revisable relation; [Stealing fire](stealing-fire.md#literary-programming-and-the-model-counterpart)
 connects it to literary programming. The images themselves are developed in
 their owning essays, including [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md).
@@ -342,7 +342,7 @@ not an established universal cognitive mechanism.
 develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-explains the four dimensions, and [Trinity: Philosophy, Psychology, and Engineering in One Practice](local-source-and-website.md)
+explains the four dimensions, and [Trinity: Philosophy, Psychology, and Engineering in Shared Practice](local-source-and-website.md)
 connects philosophy, psychology, and engineering within one physical reality
 to their practical forms.
 

@@ -1,4 +1,4 @@
-# Metaphor, Analogy, and Personal Self-Revision
+# Metaphor, Analogy, and Revising Personal Models
 
 [Home](../../README.md) · [简体中文](metaphor-and-self-revision.zh-CN.md)
 
@@ -281,7 +281,7 @@ Readback then asks whether the result was achieved and whether the new
 arrangement still leaves room for discovery. This is a hypothetical design
 example, not evidence of an observed improvement.
 
-Self-revision can reach the account of the person as well. Suppose repeated
+Revising the practice can also change the account of the person. Suppose repeated
 requests to make something new suggest two candidate interpretations: seeking
 novelty or understanding through making. They could support different
 arrangements: offering fresh alternatives, or helping revise one object to

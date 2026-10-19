@@ -1,15 +1,15 @@
-# Begin with this example, and make something of your own
+# Drawing on This Example: Adopt, Combine, or Create
 
 [Home](../../README.md) · [Skill entrypoint](../../SKILL.md) · [简体中文](example-and-commons.zh-CN.md)
 
-Everyone arrives with experiences, questions, loved works, and intellectual resources of their own. This collection can be one starting point for further exploration: read a concrete example, see how it gives understanding a form, and follow the resulting questions into other materials, other people's practices, and one's own life. The sources and direction of creation can extend far beyond this example.
+Everyone arrives with experiences, questions, loved works, and intellectual resources of their own. This collection can be one reference among them: examine how a concrete example gives understanding a form, select useful parts, or follow it toward other materials, other people's practices, and one's own life. The sources and direction of creation can extend far beyond this example.
 
 Model companies and humanity continue the Promethean work of acquiring fire; individuals can already make things with the fire available to them. The essays, diagrams, methods, and Skills here are some among many available resources. YinYang gives an understanding of a person, a model counterpart, and their relationship a developed philosophical and literary form, then gives it practical effect. It offers an attempt already made for readers to examine alongside the other resources they bring.
 
 ## A form that can be rewritten
 
-The invitation is to write your own philosophy and, through that writing,
-abstract a usable personal model. An initially unclear understanding can find
+If you choose to write your own philosophy, this example can offer a reference;
+writing can help form a usable personal model. An initially unclear understanding can find
 form through a philosopher's concepts, literary images, argument, and dialogue.
 When that expression becomes clearer than an existing personal account, use it
 to revise the account. Private modeling can in turn expose questions for the
