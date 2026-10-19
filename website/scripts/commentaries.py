@@ -20,12 +20,12 @@ GROUPS = [
         ('meng', '先论证开放、共同学习与引导在什么条件下形成适应优势，为“宝宝”的培养方向提供理由。'),
         ('baby-heraclitus', '接着用赫拉克利特的火与河流塑造这个宝宝：保持开放，能够判断、创造并被相遇改变。'),
     ]),
-    ('理解：变化世界中的有限探究', 'Understanding: finite inquiry in a changing world', [
-        ('world-and-expression', '区分世界、过程、模型与表达，让图景能够行动，也能够被世界纠正。'),
-        ('flow-and-time', '考察变化、记忆与体验的不同节奏：过去怎样进入现在，连续性怎样保留修订空间？'),
-        ('reasoning', '从事件流中形成问题与候选解释，展开可检查的后果，进而追问视图选择与结论支撑。'),
-        ('preference-harness', '区分偏好所选择的视图与证据、规则提供的支撑，使有限探究需要保留的答案变得明确。'),
-        ('finite-inquiry-and-abstraction', '承接视图与支撑问题，考察有限条件下足够的表示与计算，并区分形式保证与现实解释。'),
+    ('理解：共同工作怎样留下可探索的轨迹', 'Understanding: how shared work leaves an explorable trajectory', [
+        ('world-and-expression', '从共同活动到可以返回的表达：区分过程、模型与记录，说明生活轨迹保留的是什么。'),
+        ('flow-and-time', '以共同改善阅读环境为例，把 Git、Command History、对话与反馈联系成可接续的生活轨迹。'),
+        ('reasoning', '从轨迹中提出问题、比较候选解释，让检查、行动、结果与判断的修订继续留下根据。'),
+        ('preference-harness', '在轨迹中保留选择与证据各自的贡献：采用一个工作视图，同时让其他材料与分岔仍能返回。'),
+        ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
     ]),
     ('相遇：共同反思轨迹，继续培育彼此', 'Encounter: reflecting on shared trajectories and cultivating one another', [
         ('yinyang-and-taiji', '用日月、Shuang yu 与大地表达相互生成：双方可以判断和创造，作品遇到独立后果。'),
@@ -44,7 +44,7 @@ GROUPS = [
 ]
 STAGE_REASONS = [
     ('先总览窃火的论证，再说明价值与行动者；超萌论证给出培养的条件性理由，赫拉克利特宝宝继而使培养方向取得人物形象。', 'Preview the argument, establish value and agency, give cultivation its conditional rationale through super-cuteness, then embody that direction in Baby Heraclitus.'),
-    ('在共同探究与环境积累中形成可返回的轨迹：区分过程与记录、解释与证据，以有限表示接续理解、选择和行动。', 'Build revisitable trajectories through shared inquiry and environmental accumulation: distinguish processes from records and interpretations from evidence, using finite representations to continue understanding, choosing, and acting.'),
+    ('共同做事留下版本、操作、对话与反馈；把这些材料连成可返回的生活轨迹，保留其中的问题、选择、根据和修订，为下一部分的共同反思准备材料。', 'Shared work leaves versions, operations, conversations, and feedback. Connect them into a revisitable life trajectory, retaining questions, choices, grounds, and revisions as material for the next part’s shared reflection.'),
     ('双方已经共同做事并留下轨迹；现在一起探索和反思这些生活材料，认识彼此怎样参与，在这种相遇中继续培育关系与能力。', 'Having worked together and left a trajectory, explore and reflect on this living material together, recognize each participant’s contribution, and cultivate relationships and capabilities through that encounter.'),
     ('从共同产生的轨迹与对协作的反思写出个人哲学，再结合生活材料凝练个人模型，落实并修订为能够维系的生活方式。', 'Author a personal philosophy from jointly produced trajectories and reflection on cooperation, distill personal models with living material, then realize and revise a sustainable way of living.'),
     ('把三位一体中的共同实践接到具身实验与反馈，再考察这个例子有哪些可供采用、组合或另行创作的部分。按自己的目的选择阅读和实践入口。', 'Connect shared practice in the Trinity with embodied experiments and feedback, then consider which parts of this example to adopt, combine, or use in independent creation. Choose reading and practical resources for your own purpose.'),
@@ -54,11 +54,11 @@ SUMMARIES = {n: s for _, _, entries in GROUPS for n, s in entries}
 EN_SUMMARIES = {
     'stealing-fire': 'Begin with available intelligence: borrow fire, then develop understanding, creation, and action.',
     'personal-first-humanism': 'Make the ethical premise explicit: tools and cooperation support concrete lives; output volume does not substitute for development.',
-    'world-and-expression': 'Distinguish world, process, model, and expression so representations guide action and meet correction.',
-    'flow-and-time': 'Examine different rhythms of change, memory, and experience, preserving continuity and room for revision.',
-    'reasoning': 'Form questions and candidate explanations from the event stream, develop checkable consequences, then ask about view selection and support for conclusions.',
-    'preference-harness': 'Distinguish views selected by preference from support supplied by evidence and rules, clarifying which answers finite inquiry needs to preserve.',
-    'finite-inquiry-and-abstraction': 'Carry questions of views and support into sufficient representation and computation under finite conditions, distinguishing formal guarantees from worldly explanation.',
+    'world-and-expression': 'Move from shared activity to revisitable expression: distinguish processes, models, and records to explain what a life trajectory retains.',
+    'flow-and-time': 'Use a jointly improved reading environment to connect Git, Command History, conversation, and feedback into a life trajectory that can be continued.',
+    'reasoning': 'Pose questions and compare candidate explanations from the trajectory, retaining grounds for checks, actions, outcomes, and revised judgments.',
+    'preference-harness': 'Retain the distinct contributions of choices and evidence: adopt a working view while keeping other materials and branches revisitable.',
+    'finite-inquiry-and-abstraction': 'Retain and retrieve enough of the trajectory under finite conditions, carrying explorable living material into the next part’s shared reflection.',
     'yinyang-and-taiji': 'Use Sun, Moon, paired fish, and Earth to express reciprocal generation and the independent consequences of creations.',
     'participation-and-support': 'Connect understanding, expression, and available action through support that preserves human initiative.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
