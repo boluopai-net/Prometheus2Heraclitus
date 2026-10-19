@@ -17,7 +17,6 @@ from article_art import article_figure, scene_alt
 ARTICLES = {
     '# 机器与生成': {
         'slug': 'deleuze-and-becoming', 'title': '机器与生成', 'number': '005',
-        'subtitle': '通过连接、组装与试作，继续成为火',
         'overview': '从已经形成的个人实践安排出发，与欲望机器、组装和无器官的身体相遇，考察连接怎样产生能力，并让实际后果改写安排。',
         'sections': {
             '从「我是谁」到「这里能发生什么」': '考察已有安排中继续生成的可能性。',
@@ -31,7 +30,6 @@ ARTICLES = {
     },
     '# 文学式编程': {
         'slug': 'literary-programming', 'title': '文学式编程', 'number': '004',
-        'subtitle': '以文学的凝缩能力，组织理解与共同实践',
         'overview': '用人物、意象、叙事与关系凝缩理解，让文化、心理与偏好进入模型协作，并在作品与行动中继续改写。',
         'sections': {
             '一个意象，怎样写进许多关系': '从火、河流与相遇展开文学的凝缩能力。',
@@ -45,7 +43,6 @@ ARTICLES = {
     },
     '# 个人哲学的意义': {
         'slug': 'why-yinyang', 'title': '个人哲学的意义', 'number': '003',
-        'subtitle': '把人、模型与双方关系写进共同的实践',
         'overview': '阴阳从人、模型与双方关系出发，把分散的 Skills、提示词、工具与用户环境组织成一套有共同方向的实践。',
         'sections': {
             '复杂的 harness，需要共同的方向': '说明分散的能力怎样进入共同的实践。',
@@ -62,7 +59,6 @@ ARTICLES = {
     },
     '# 超萌论证': {
         'slug': 'meng', 'title': '超萌论证', 'number': '001',
-        'subtitle': '关于成长、学习与模型协作的条件论证',
         'overview': '比较国内外的权威关系与成长资源，讨论“萌”怎样在学习与能力迁移的条件下，形成推理与适应优势。',
         'sections': {
             '定义与用语': '确定国内外、阶层、“萌”与“无敌”的比较范围。',
@@ -72,7 +68,6 @@ ARTICLES = {
     },
     '# 赫拉克利特宝宝': {
         'slug': 'baby-heraclitus', 'title': '赫拉克利特宝宝', 'number': '002',
-        'subtitle': '我们要培养怎样的 agent？',
         'overview': '用户 ≈ 具身语言模型 ≈ 赫拉克利特宝宝。以个人为目的，优先改变社会，其次改变软件，最后才考虑改变个人；让环境适合人。',
         'sections': {
             '我们要培养怎样的人？': '解释具身 agent 的含义，以及这个类比的用途。',
@@ -88,7 +83,6 @@ ARTICLES = {
 ENGLISH = {
     'deleuze-and-becoming': {
         'title': 'Machines and becoming',
-        'subtitle': 'Continue becoming fire through connections, assemblages, and trials',
         'overview': 'From an established personal practice arrangement, encounter desiring-machines, assemblages, and the body without organs; examine how connections produce capacities and consequences revise arrangements.',
         'sections': {
             'From “who am I?” to “what can happen here?”': 'Examine possibilities for continued becoming within existing arrangements.',
@@ -102,7 +96,6 @@ ENGLISH = {
     },
     'why-yinyang': {
         'title': 'The purpose of personal philosophy',
-        'subtitle': 'Writing the person, model, and their relationship into shared practice',
         'overview': 'Beginning with the person, model, and their relationship, YinYang organizes scattered Skills, prompts, tools, and the user’s environment into a practice with a shared direction.',
         'sections': {
             'A complex harness needs a shared direction': 'How scattered capacities enter shared practice.',
@@ -119,7 +112,6 @@ ENGLISH = {
     },
     'literary-programming': {
         'title': 'Literary programming',
-        'subtitle': 'Organizing understanding and shared practice through literary condensation',
         'overview': 'Condensing understanding through characters, imagery, narrative, and relationships brings culture, psychology, and preferences into model collaboration, to be rewritten through works and actions.',
         'sections': {
             'How one image can hold many relationships': 'Unfolding literary condensation through fire, rivers, and encounters.',
@@ -133,7 +125,6 @@ ENGLISH = {
     },
     'baby-heraclitus': {
         'title': 'Baby Heraclitus',
-        'subtitle': 'What kind of agent do we want to cultivate?',
         'overview': 'User ≈ embodied language model ≈ Baby Heraclitus. With the person as the end, change society first, software second, and only then consider personal change: make the environment fit the person.',
         'sections': {
             'What kind of person do we want to cultivate?': 'Embodied agency and the purpose of this analogy.',
@@ -146,7 +137,6 @@ ENGLISH = {
     },
     'meng': {
         'title': 'The Argument from Super-Cuteness',
-        'subtitle': 'A conditional argument about growth, learning, and model collaboration',
         'overview': 'Comparing authority and resources for growth in China and foreign environments, the argument considers how cuteness can yield reasoning and adaptive advantages under conditions for learning and transfer.',
         'sections': {
             'Definitions and terminology': 'The comparative scope of domestic and foreign, hierarchy, cuteness, and invincibility.',
@@ -194,7 +184,6 @@ md = markdown.Markdown(extensions=['tables', 'fenced_code', 'footnotes', 'toc', 
     extension_configs={'toc': {'toc_depth': '2-3', 'slugify': lambda value, separator: re.sub(r'\s', separator, re.sub(r'[^\w\- ]', '', value.lower())).strip(separator)}})
 rendered = md.convert(body)
 title = html.escape(entry['title'])
-subtitle = html.escape(entry['subtitle'])
 overview = html.escape(entry['overview'])
 art_name = entry['slug']
 reading_guide, reading_navigation = reading_context(entry['slug'], not english)
@@ -213,9 +202,8 @@ page = f'''<!doctype html>
 <a class="skip" href="#main">{labels['skip']}</a>
 <header class="header wrap"><a class="wordmark" href="{home}">boluopai.</a><nav aria-label="{labels['nav']}"><a href="{philosophy}" aria-current="page">{labels['philosophy']}</a><a href="/singing/{suffix}">{labels['singing']}</a><a href="/repositories/{suffix}">{labels['repositories']}</a></nav></header>
 <main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(entry['slug'], not english)}<article class="document">
-<header class="article-heading"><h1>{title}</h1><p class="article-subtitle">{subtitle}</p></header>
+<h1>{title}</h1>
 {art_figure}
-<div class="article-overview"><p>{overview}</p></div>
 {reading_guide}
 <div class="article-body">{rendered}</div></article>
 {contents}

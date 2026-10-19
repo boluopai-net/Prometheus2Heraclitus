@@ -568,6 +568,15 @@ overviews and the twelve legacy aliases. Render
 reader-page entrances and the getting-started guide afterward. No prose is
 duplicated merely to place an article into the shared argument.
 
+Both essay renderers use the same opening order: H1, artwork with any muted
+figure caption, series position marker, one reading-route lead, then the
+canonical body. The shared `reading_context` supplies the marker and lead.
+Before the position marker, only the title, artwork, and muted figure material
+belong; ordinary body-style prose begins below it. The current layout omits a
+standalone subtitle and duplicate visible overview; the native article overview
+remains the document's metadata description only. This applies to main and branch
+essays in both languages.
+
 Title-bearing homepage and resource entrances carry `data-page-title` on their
 local directory-page links. The existing final navigation projection reads the
 destination's rendered H1, so renaming an article or guide updates those labels
