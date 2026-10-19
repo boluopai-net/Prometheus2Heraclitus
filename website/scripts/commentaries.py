@@ -47,7 +47,7 @@ STAGE_REASONS = [
     ('给实践以可修正的理解：从表示与时间进入推理，以偏好 harness 连接冲突、视图选择和推论支持，再考察有限抽象。', 'Make understanding corrigible: move from representation and time into reasoning, connect conflict, view selection, and support through the preference harness, then examine finite abstraction.'),
     ('把已有的行动者概念落实为相互生成与实际参与，保留人的主动性及模型的贡献。', 'Develop the agent concept into reciprocal generation and actual participation, preserving human initiative and model contributions.'),
     ('人类 agent 是起点：已有的能动者借助生成能力，通过哲学、心理与工程的共同实践，发展可维系的生活形式。', 'Human agency is the starting point: an existing agent draws on generative capabilities to develop a sustainable way of living through philosophy, psychology, and engineering together.'),
-    ('从三位一体的实践闭环进入具身实验与反馈，再从例子出发写自己的作品，最后进入开始实践的工具入口。', 'Move from the Trinity’s practical loop into embodied experiments and feedback, then use the example to author your own work before entering the practical tools.'),
+    ('把三位一体中的共同实践接到具身实验与反馈，再考察这个例子有哪些可供采用、组合或另行创作的部分。按自己的目的选择阅读和实践入口。', 'Connect shared practice in the Trinity with embodied experiments and feedback, then consider which parts of this example to adopt, combine, or use in independent creation. Choose reading and practical resources for your own purpose.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
 SUMMARIES = {n: s for _, _, entries in GROUPS for n, s in entries}
