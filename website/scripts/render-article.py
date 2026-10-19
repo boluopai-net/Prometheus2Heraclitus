@@ -15,8 +15,8 @@ from commentaries import reading_context, book_navigation, book_contents
 from article_art import article_figure, scene_alt
 
 ARTICLES = {
-    '# 机器与生成：与德勒兹、瓜塔里相遇': {
-        'slug': 'deleuze-and-becoming', 'title': '机器与生成：与德勒兹、瓜塔里相遇', 'number': '005',
+    '# 机器与生成': {
+        'slug': 'deleuze-and-becoming', 'title': '机器与生成', 'number': '005',
         'subtitle': '通过连接、组装与试作，继续成为火',
         'overview': '从已经形成的个人实践安排出发，与欲望机器、组装和无器官的身体相遇，考察连接怎样产生能力，并让实际后果改写安排。',
         'sections': {
@@ -29,8 +29,8 @@ ARTICLES = {
             '阅读来源与比较范围': '查看来源及本文延伸的范围。',
         },
     },
-    '# 从生活轨迹与协作写出哲学：文学式编程': {
-        'slug': 'literary-programming', 'title': '从生活轨迹与协作写出哲学：文学式编程', 'number': '004',
+    '# 文学式编程': {
+        'slug': 'literary-programming', 'title': '文学式编程', 'number': '004',
         'subtitle': '以文学的凝缩能力，组织理解与共同实践',
         'overview': '用人物、意象、叙事与关系凝缩理解，让文化、心理与偏好进入模型协作，并在作品与行动中继续改写。',
         'sections': {
@@ -43,8 +43,8 @@ ARTICLES = {
             '阴阳怎样使用这门写作': '把凝缩的文字展开为环境、作品与行动。',
         },
     },
-    '# 为什么要写个人哲学': {
-        'slug': 'why-yinyang', 'title': '为什么要写个人哲学', 'number': '003',
+    '# 个人哲学的意义': {
+        'slug': 'why-yinyang', 'title': '个人哲学的意义', 'number': '003',
         'subtitle': '把人、模型与双方关系写进共同的实践',
         'overview': '阴阳从人、模型与双方关系出发，把分散的 Skills、提示词、工具与用户环境组织成一套有共同方向的实践。',
         'sections': {
@@ -70,7 +70,7 @@ ARTICLES = {
             '推导': '从成长机会与能力迁移，推到有条件的比较结论。',
         },
     },
-    '# 赫拉克利特宝宝：我们要培养怎样的 agent？': {
+    '# 赫拉克利特宝宝': {
         'slug': 'baby-heraclitus', 'title': '赫拉克利特宝宝', 'number': '002',
         'subtitle': '我们要培养怎样的 agent？',
         'overview': '用户 ≈ 具身语言模型 ≈ 赫拉克利特宝宝。以个人为目的，优先改变社会，其次改变软件，最后才考虑改变个人；让环境适合人。',
@@ -87,7 +87,7 @@ ARTICLES = {
 
 ENGLISH = {
     'deleuze-and-becoming': {
-        'title': 'Machines and Becoming: An Encounter with Deleuze and Guattari',
+        'title': 'Machines and becoming',
         'subtitle': 'Continue becoming fire through connections, assemblages, and trials',
         'overview': 'From an established personal practice arrangement, encounter desiring-machines, assemblages, and the body without organs; examine how connections produce capacities and consequences revise arrangements.',
         'sections': {
@@ -101,7 +101,7 @@ ENGLISH = {
         },
     },
     'why-yinyang': {
-        'title': 'Why Write a Personal Philosophy?',
+        'title': 'The purpose of personal philosophy',
         'subtitle': 'Writing the person, model, and their relationship into shared practice',
         'overview': 'Beginning with the person, model, and their relationship, YinYang organizes scattered Skills, prompts, tools, and the user’s environment into a practice with a shared direction.',
         'sections': {
@@ -118,7 +118,7 @@ ENGLISH = {
         },
     },
     'literary-programming': {
-        'title': 'Writing philosophy from life trajectories and collaboration: literary programming',
+        'title': 'Literary programming',
         'subtitle': 'Organizing understanding and shared practice through literary condensation',
         'overview': 'Condensing understanding through characters, imagery, narrative, and relationships brings culture, psychology, and preferences into model collaboration, to be rewritten through works and actions.',
         'sections': {

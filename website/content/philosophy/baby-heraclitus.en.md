@@ -1,4 +1,4 @@
-# Baby Heraclitus: What kind of agent do we want to cultivate?
+# Baby Heraclitus
 
 ## What kind of person do we want to cultivate?
 
@@ -14,7 +14,7 @@ Within this exchange, model-generated materials one reads may be inconsistent wi
 
 **“Little fire person” emphasizes being able to kindle further fire after borrowing it; “Baby Heraclitus” emphasizes that this creator is still changing too.** Together the expressions shape one character: forming oneself through creation, then continuing to create with that changed self. Cultivation develops understanding, judgment, generation, and action so this exchange can continue.
 
-[Why Write a Personal Philosophy?](/philosophy/why-yinyang/en/) introduces agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation; receiving a finished work does not automatically produce growth. [Literary programming](/philosophy/literary-programming/en/) will develop how this relationship can be written and lived.
+[The purpose of personal philosophy](/philosophy/why-yinyang/en/) introduces agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation; receiving a finished work does not automatically produce growth. [Literary programming](/philosophy/literary-programming/en/) will develop how this relationship can be written and lived.
 
 The cultivation concerns capacities of someone already an agent: **becoming more able to form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** A person need not attain an ideal of these capacities to qualify for participation or choice. Language is an important medium; the body, emotions, institutions, and tools together constitute the conditions of action.
 

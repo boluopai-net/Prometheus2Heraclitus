@@ -8,24 +8,24 @@ writer per mutable source, and evidence across each affected consumer.</p>
 <h2 id="use-and-companion-packages">Use and companion packages</h2>
 <p>Provide the complete <code>prompt-audit-orchestration/</code> directory through your
 assistant's Skill mechanism. Its required companion Skills are
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/prompt-and-skill-lifecycle"><code>prompt-and-skill-lifecycle</code></a> for source
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/prompt-and-skill-lifecycle"><code>prompt-and-skill-lifecycle</code></a> for source
 authoring, integration, and publication, and
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/agent-orchestration-master"><code>agent-orchestration-master</code></a> for agent
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/agent-orchestration-master"><code>agent-orchestration-master</code></a> for agent
 roles, dispatch, coordination, and handoffs. They own their methods; this
 Skill keeps audit routing, domain authority, and completion judgment.</p>
-<p>Use <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/research"><code>research</code></a> when external evidence is material and
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/task-inquiry"><code>task-inquiry</code></a> when an unresolved user-owned choice needs
+<p>Use <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/research"><code>research</code></a> when external evidence is material and
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/task-inquiry"><code>task-inquiry</code></a> when an unresolved user-owned choice needs
 to be framed. Learning audits may conditionally use
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/local-teacher">local-teacher</a> or <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/web-teacher">web-teacher</a> to understand
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/local-teacher">local-teacher</a> or <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/web-teacher">web-teacher</a> to understand
 the corresponding teaching method. Browser work may use
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/browser-relay">browser-relay</a> with the host's actual controlled browser
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/browser-relay">browser-relay</a> with the host's actual controlled browser
 capability. Download the needed companion directories; each retains its own
 configuration requirements. Host-native delegation support is a
 runtime capability, not a downloadable Skill dependency.</p>
 <h2 id="package-contents-and-boundaries">Package contents and boundaries</h2>
 <p><a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/SKILL.html"><code>SKILL.md</code></a> defines single-domain and joint audit routing,
 coordination, human-judgment relay, coverage, ownership-based repair, and
-evidence requirements. The four adapters in <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/prompt-audit-orchestration/references"><code>references/</code></a>
+evidence requirements. The four adapters in <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/prompt-audit-orchestration/references"><code>references/</code></a>
 preserve distinct domain scope and cross-domain source responsibility. The
 method is provider-neutral: resolve actual source owners, consumers, model
 policy, tools, and publication interfaces in the recipient environment. It
@@ -34,7 +34,7 @@ step.</p>
 <p>This package adapts a local orchestration method and removes its private host
 routes and named protected-project exception. It retains the general rule that
 any owner-declared protected target is evidence-only. Its paired
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/f8484f4b5f0aa33d5417d5c047577f79b5b4449c/skills/agent-orchestration-master"><code>agent-orchestration-master</code></a> package is a
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/cb456bff35947e9af36f03d48a7e05516022b430/skills/agent-orchestration-master"><code>agent-orchestration-master</code></a> package is a
 separate companion, not embedded here.</p>
 <p>This package uses the <a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/LICENSE">MIT License</a>. Obtain the complete directory
 from <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-audit-orchestration">GitHub</a>.</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>
