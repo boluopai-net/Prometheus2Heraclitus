@@ -35,6 +35,8 @@ A maintained memory account articulates what presently seems useful: purpose, de
 
 At suitable granularity, links from earlier evidence or action to later revisions or results can organize these traces as a directed acyclic provenance graph. The edges express recorded dependencies with a forward occurrence order; repeated feedback becomes successive events. This representation does not make every mental or social relation acyclic, establish causation merely from temporal order, or guarantee complete coverage. An environment-wide activity record and a project's version history supply differently scoped evidence. Their useful contribution is to recover relevant encounters and test an account against sources and current conditions, rather than make all of life continuously present.
 
+This life trajectory is also produced through cooperation. Person and model revise works, execute operations, check results, and accumulate an environment together. Git retains version changes to works and configuration; Command History retains traces of executed operations; conversations, activity records, and use feedback contribute what each can show. A commit need not contain the experience of that moment, and a command alone cannot establish its outcome. Connecting these materials lets the participants return to an attempt and compare their understanding then with what subsequently happened. Records thereby prepare an explorable trajectory for shared reflection.
+
 ## Three meanings of now
 
 | Object | What is current | What its actuality establishes |

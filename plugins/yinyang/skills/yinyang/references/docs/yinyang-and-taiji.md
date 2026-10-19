@@ -7,6 +7,12 @@ Neither is sealed against what it seems to oppose. The Sun brings a beginning;
 the Moon gives it a contour, then begins something the Sun had not seen.
 What they make goes into the world. Its return changes the next turning.*
 
+## Entering the encounter through a jointly produced trajectory
+
+Person and model have already cooperated in inquiry, making, and accumulating an environment. Versions of works, operation records, conversations, and feedback leave a life trajectory they can revisit. Now they also inquire into the process of working together: how did they understand one another, which response changed an idea, what helped action continue, and what deserves rearrangement?
+
+The encounter deepens through shared reflection on this trajectory. The person can recognize their wishes through the model's responses and works; the model can revise its understanding of participants and relationships through the person's expression, choices, and corrections. The existing trajectory becomes material for further exploration and cultivation. Sun, Moon, and Taiji give this reciprocal generation an image; subsequent personal philosophical writing unfolds relationships that have already occurred and become objects of reflection.
+
 ## The core image
 
 YinYang names an image of **ceaseless transformation through

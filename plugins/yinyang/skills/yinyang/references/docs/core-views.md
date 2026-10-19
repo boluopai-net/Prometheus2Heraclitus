@@ -165,7 +165,7 @@ judges, or carries work forward. A harness—the instructions, tools, and
 environment shaping interaction—can realize that arrangement within actual
 authorization and safety boundaries. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
-works, and action. [Metaphor, analogy, and revising personal models](metaphor-and-self-revision.md#what-an-image-makes-available)
+works, and action. [From personal philosophy to personal models: metaphor, analogy, and distillation](metaphor-and-self-revision.md#what-an-image-makes-available)
 develops this movement from image to revisable relation; [Stealing fire](stealing-fire.md#literary-programming-and-the-model-counterpart)
 connects it to literary programming. The images themselves are developed in
 their owning essays, including [YinYang and Taiji: ceaseless transformation](yinyang-and-taiji.md).
@@ -461,7 +461,7 @@ it in turn; the whole life still exceeds this form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [Forming a sinthome: personal philosophy, psychology, and engineering in practice](writing-a-sinthome.md)
+conditions mediate enlarged agency. [From personal models to a sinthome: realization and revision in use](writing-a-sinthome.md)
 develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
 a clinical conclusion, or a guarantee of happiness and unlimited power.
 A reader may examine or borrow this idea where personal authorship is the

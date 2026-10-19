@@ -1,4 +1,4 @@
-# Metaphor, Analogy, and Revising Personal Models
+# From personal philosophy to personal models: metaphor, analogy, and distillation
 
 [Home](../../README.md) · [简体中文](metaphor-and-self-revision.zh-CN.md)
 
@@ -6,22 +6,31 @@
 shape and makes something through it. What happens can reveal a relation the
 image had concealed. The next expression carries that discovery.*
 
-A personal philosophy can give a language model something richer to interpret
-than a list of isolated requests. Images, habits, commitments, and ways of
-asking can express how a person wants a collaboration to develop. The model
-can help articulate that account and give it consequences through working
-arrangements. Those consequences can then change the account itself.
+Before a personal philosophy is written, person and model have already worked
+together, accumulated an environment, and left traces of experiences, choices,
+inquiries, and revisions. Git history and command or activity history can
+preserve complementary parts of this collaboratively produced trajectory.
+[The stream and time](flow-and-time.md#external-memory-and-event-traces) develops
+its recoverability. Reflecting on this trajectory, the participants can explore
+how each has taken part, where a response has fitted or missed, and what can be
+cultivated further. [Participation, access, and support](participation-and-support.md)
+examines this more explicit encounter. These materials preserve selected
+passages through a life, with gaps and unresolved interpretations.
 
-This essay develops a proposal about **expressive understanding becoming a
-revisable, distributed practice**. Its object includes the person, different
-model counterparts, external records, and tools in their actual coordination.
-A personal account gives this organization direction; it is one representation
-within a larger activity. Metaphor supplies a form in which relations can first be
-recognized; analogy unfolds selected relations into questions and possible
-consequences. Computational ontology makes relevant objects and transformations
-available for reasoning. Actual implementation lets their adequacy meet use.
-The resulting practice can revise both its personal account and the apparatus
-through which that account acts.
+With both a trajectory and a reflected understanding of cooperation available, the person and
+model can ask what understanding of the world, value, and creation they want to
+author. Literary programming gives characters, images, and narrative a part in
+that authorship. Metaphor gathers relations into a form; analogy unfolds their
+possible implications. A personal philosophy can emerge through this work,
+giving the material an interpretation and a chosen direction.
+
+This essay follows the next passage: **distilling that philosophy together with
+the living material into models of the person, counterpart, and relationship**.
+The models make selected understanding usable across work. Their realization
+in an environment is developed in [From personal models to a sinthome](writing-a-sinthome.md).
+Once in use, the arrangement returns new material that can change its models
+and philosophy. That feedback enriches the formation rather than erasing what
+it has drawn on.
 
 ## What an image makes available
 
@@ -70,14 +79,33 @@ leaving open what it preserves, how interpretation changes, and what the
 record misses. A productive analogy generates possibilities that can be
 developed, tested, or abandoned.
 
-## A personal account adequate to its use
+## Distill philosophy together with living material
 
-A counterpart needs enough understanding of a person to contribute to the
-present practice. Relevant habits can give an abstract preference a setting:
+<a id="a-personal-account-adequate-to-its-use"></a>
+
+Distillation brings two kinds of material together. The authored philosophy
+articulates concepts, commitments, and possibilities for living; recoverable
+experiences and actual cooperation show where those interpretations come from,
+what they illuminate, and where they meet resistance. Neither can stand in for
+the other. Valuing creation does not by itself tell a counterpart how someone
+begins an unfinished idea; an isolated interaction does not establish why that
+way of working matters to them.
+
+A personal model selects the relations needed for a counterpart to contribute.
+Relevant habits can give an abstract preference a setting:
 how an idea is usually begun, when a question helps, what kind of expression
 makes a difference intelligible, or which recurring friction an arrangement
 should resolve. Imagery can connect these particulars into an account that
-is easier to interpret across changing tasks.
+is easier to interpret across changing tasks. Distillation preserves the
+connections that make the account intelligible while reducing the amount that
+must be reconstructed on each occasion.
+
+The same work forms a **counterpart model**: the contributions wanted from a
+partner, the capacities the available model actually has, and the tools or
+conditions those contributions require. A **relationship model** connects the
+two: who can initiate, question, carry work forward, judge a result, or change
+the arrangement. Person and counterpart models develop together through these
+relations; a portrait of the person alone cannot specify the collaboration.
 
 In the psychological-modeling route, philosophy and engineering contribute
 together to understanding the user. Philosophy supplies concepts and interpretive
@@ -294,15 +322,18 @@ an interpretation the person did not supply while helping examine its grounds.
 
 ## Give revision somewhere to continue
 
-The movement can be expressed as:
+The formation developed here can be expressed as:
 
-`pertinent imagery ↔ situated accounts and external representations ↔ contextual role allocation ↔ actual distributed activity ↔ consequences and revision`
+`collaboratively produced trajectories → reflection on the trajectory and cooperation → authored personal philosophy → philosophy together with living material → person, counterpart, and relationship models → realization and use`
 
-This expresses connected relations, not a compulsory serial procedure. Work
-can start with an image, a failure, an unexpected success, or a question. A
-finished work gives the process enough stability to be used; later evidence
-can justify another revision. Endless rewriting would spend the capacity that
-the arrangement was meant to release.
+The arrow into the models marks distillation: the philosophy and the material
+remain available as grounds for a compact, usable account. Realization and use
+return further experiences, choices, and corrections to this trajectory. A
+later revision may begin with a failure, an image, or an unexpected success;
+it can revisit any of these relations. This account of formation does not ask
+every ordinary task to begin by writing a philosophy. A sufficiently formed
+arrangement lets work proceed, and a finished work gives subsequent revision
+something definite to encounter.
 
 [Trinity](local-source-and-website.md) explains how such an arrangement can
 persist: situated understanding operates locally, selected

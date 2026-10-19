@@ -1,8 +1,22 @@
-# Forming a sinthome: personal philosophy, psychology, and engineering in practice
+# From personal models to a sinthome: realization and revision in use
 
 [简体中文](writing-a-sinthome.zh-CN.md)
 
-**This essay calls a concrete practical arrangement jointly shaped by personal philosophy, psychology, and engineering a “sinthome.”** It includes an understanding of the person, the model counterpart they need, and their relationship, together with the expressions, tools, and ways of using them that bring this understanding into work. The question is how these parts jointly form a usable, changeable personal arrangement.
+A person and model's earlier work produces a recoverable trajectory of
+experience, choice, inquiry, and environmental construction. Reflection on that
+trajectory develops their understanding of each other and their cooperation.
+With this material and understanding available, they can author a personal philosophy, then
+distill that philosophy together with the living material into models of the
+person, counterpart, and relationship. [From personal philosophy to personal
+models](metaphor-and-self-revision.md) develops that passage. Here the question
+is what happens next: how does this understanding become a working arrangement
+in the person's actual environment, and how does use change it?
+
+The passage requires more than carrying a text into another conversation.
+An account of how someone wishes to create must meet a counterpart's actual
+capacities, available tools, retrievable context, and consequences in life.
+As these relations acquire a concrete form and are revised through use, they
+form the personal arrangement this essay calls a **sinthome**.
 
 For example, someone often has ideas they cannot yet fully articulate. They can sense what is interesting or wrong, but want a counterpart to undertake retrieval, development, writing, and implementation. They need more than a written description of themself: the model must also understand relevant context, grasp the help wanted on this occasion, and complete the work under actual conditions. Understanding this person, arranging collaboration, and making that collaboration happen are aspects of the same question.
 
@@ -18,18 +32,26 @@ In the opening example, writing can articulate how the person participates in cr
 
 It occurs within life and may help someone accommodate desire, bear tensions, or continue creating. How these effects occur depends on the particular person and process of use. Forming an arrangement and understanding what it actually does are connected questions: the former requires explaining its constitution, the latter understanding how it enters life.
 
-## Form models of both participants from personal material
+## Bring grounded models into realization
+
+<a id="form-models-of-both-participants-from-personal-material"></a>
 
 <a id="a-singular-way-of-living"></a>
 <a id="from-personal-material-to-a-workable-form"></a>
 
-A person's philosophy, experiences, works, choices, and interactions can all contribute to a personal model. A model here is an understanding of relations needed for the current question: what the person cares about, how they experience certain situations, which conditions affect their expression and action, and what remains unclear.
+The models entering this work have already drawn on the authored philosophy
+and on experiences, works, choices, and interactions. They select relations
+needed for collaboration: what the person cares about, how they experience
+certain situations, which conditions affect their expression and action, and
+what remains unclear. Realization now asks whether the environment can support
+the collaboration they describe. Their grounds remain available when use
+reveals an ambiguity or a mismatch.
 
 In the opening example, “not wanting to spell out every detail” can mean different things: the present idea has yet to take shape; the person already knows what to do but wants the model to investigate independently; or the current means of expression makes continuing difficult. Different interpretations call for different responses. The model needs to judge through actual exchange, rather than fixing the person's manner of participation from one generalization.
 
-A preference model can begin by describing the desired collaboration—for example, seeing a complete result first, then identifying mismatches. A psychological model further understands how this participation connects with experience, emotion, and relationships. Personal philosophy can also contribute: why the person values creation and how they understand independence affect the collaboration chosen. But philosophy is not an already completed psychological portrait; it and concrete material can revise each other.
+A preference model can describe the desired collaboration—for example, seeing a complete result first, then identifying mismatches. A psychological model further understands how this participation connects with experience, emotion, and relationships. The previously authored philosophy contributes its interpretation of creation and independence. Keeping those reasons connected with concrete material helps a counterpart distinguish a chosen orientation from a claim about how the person always behaves.
 
-This understanding also needs to form alongside a **counterpart model**. What must the needed counterpart be able to do? What can the current model do? Which work still depends on tools or other conditions? If the person wants a model to turn an idea into an inspectable work, an adept conversational tone is insufficient; actual abilities to investigate, reason, write, execute, and check are also needed.
+The **counterpart model** likewise meets actual conditions. What must the needed counterpart be able to do? What can the current model do? Which work still depends on tools or other conditions? If the person wants a model to turn an idea into an inspectable work, an adept conversational tone is insufficient; actual abilities to investigate, reason, write, execute, and check are also needed.
 
 The relationship explains how these contributions work together. The person can express wishes, recognize mismatches, and judge results; the model can actively develop interpretations, object, and undertake realization. This division can change and assigns neither reasoning exclusively to the model nor intuition exclusively to the person. Collaboration is organized around actual purposes; both participants can generate and judge.
 
@@ -69,7 +91,15 @@ The same arrangement can therefore continue through revision. Replacing a model,
 
 [Trinity](local-source-and-website.md) distinguishes the general relation and the individual instance. At the general level, “one” is shared physical reality and “three” are the philosophical, psychological, and engineering activities within it. The individual instance concerns this person and their connected life and practice: how their philosophical understanding, psychological activity, and engineering arrangements work together.
 
-This essay uses the ring image within that individual instance. Three rings represent the three contributions; a fourth represents the sinthome they jointly form. It marks precisely the personal and counterpart models, expression, tools, and relations of use already described. This arrangement can in turn affect the person's thought, experience, and technical environment, so formation and feedback need to be represented together.
+These are three contributions to formation, rather than three successive
+stages. The temporal movement runs from collaboratively produced trajectories
+and reflection on cooperation through philosophical authorship and grounded modeling to
+realization and revision. Philosophical interpretation, psychological
+understanding, and engineering can each contribute at several points in that
+movement. Use can revise an earlier understanding while preserving this
+distinction between what contributes and how the arrangement comes to be.
+
+This essay uses the ring image within that individual instance. Three rings represent the three contributions; a fourth represents the sinthome they jointly form. It marks precisely the person, counterpart, and relationship models, expression, tools, and relations of use already described. This arrangement can in turn affect the person's thought, experience, and technical environment, so formation and feedback need to be represented together.
 
 [Three Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) are linked together although no pair is linked on its own. This essay draws on their image of interdependence; the concrete processes above still explain the dependencies within personal practice. The fourth ring turns neither shared physical reality nor the whole life into an additional object, nor does adding a ring alone establish a mathematical model of this practice.
 
