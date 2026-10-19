@@ -84,35 +84,9 @@ Its interpretive inversions do not license treating ordinary denial as admission
 
 ## Lacan: enunciation, retroaction, and singular creation
 
-### Language and the subject
+Lacan brings three connected questions to this collection: how people acquire a position through language and images, how later speech changes the meaning of earlier expression, and how singular practices participate in a person's mode of existence. The site develops these questions into contemporary accounts of personal modeling, model collaboration, and the sinthome.
 
-Lacan's [Subversion du sujet et dialectique du désir](https://www.causefreudienne.org/textes-fondamentaux/subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien/)
-develops enunciation, the Other, and retroaction in signifying relations.
-
-The [1966-12-02 radio talk, p. 2](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1966-12-02a.pdf)
-states Lacan's account of the unconscious as the discourse of the Other and as
-structured like a language. It is a source for his position, not independent
-empirical verification. [Speaking, self-description, and signifying chains](lacan-and-description-logic.md)
-distinguishes this theoretical account from its explanatory notation and formal
-analogies. A particular reader is not identical to the Other, and unexpressed
-bodily experience is not automatically the Real.
-
-### Sinthome and singular practice
-
-[Seminar XXIII, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/)
-is the primary-text reference for **sinthome / 圣状**. The discussion connects
-knot repair and the particularity of Joyce's art. [Forming a sinthome: personal philosophy, psychology, and engineering in practice](writing-a-sinthome.md)
-develops a new philosophical application to model-assisted practice; a linguistic
-self-model does not thereby become a complete account of the subject or an
-established clinical instance of Lacan's sinthome.
-
-Further Lacanian originals already used in the essays can be read by question:
-
-| Original | Reading question |
-| --- | --- |
-| [The Mirror Stage (1949)](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | Identification and images: how can an image of oneself participate in self-understanding? |
-| [Seminar XVII, 26 November 1969](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | Positions and relations in discourse; distinguish a position from its actual speaker. |
-| [Seminar XXII, R.S.I., 10 December 1974](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | Real, Symbolic, and Imaginary and their presentation through knots; these are not simply physical environment, programs, and images. |
+Conceptual explanations, examples, formal translations, and original-text references are gathered in [A guide to Lacanian concepts: from original texts to personal practice](lacan-reading-guide.md). Use it to understand the Other, the divided subject, retroaction, the three registers, and the sinthome, then return to the relevant essay. It also distinguishes the original concepts from this site's extensions.
 
 ## Fire myths: Prometheus, Kuafu, and living together
 

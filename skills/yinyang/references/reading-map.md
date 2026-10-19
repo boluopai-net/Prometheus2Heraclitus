@@ -92,6 +92,8 @@ not a syllabus to finish before useful work or a compulsory adoption sequence.
 
 ## Return to sources when the claim needs them
 
+When terms such as the Other, the divided subject, retroaction, the three registers, or the sinthome need clarification, [A guide to Lacanian concepts](docs/lacan-reading-guide.md) offers an introduction and review outside the main sequence: begin with their conceptual relations, then return to the relevant argument and original text.
+
 The source guides help investigate a particular premise; they are not another
 general reading requirement. [Philosophical readings](docs/philosophical-readings.md)
 locates Heraclitus, YinYang/Taiji, Hegel, Freud, and Lacan, including the limits

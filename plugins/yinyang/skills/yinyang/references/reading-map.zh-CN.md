@@ -77,6 +77,8 @@
 
 ## 主张需要时，返回来源
 
+遇到大他者、分裂主体、回溯、三界或圣状等术语时，[拉康概念导读](docs/lacan-reading-guide.zh-CN.md)提供主线之外的入门与复习说明：从概念关系进入，再返回相应论证和原文。
+
 来源指南帮助调查某项前提，并非另一项普遍阅读要求。[哲学阅读](docs/philosophical-readings.zh-CN.md)
 定位赫拉克利特、阴阳与太极、黑格尔、弗洛伊德和拉康，并说明作者解释的限度。
 描述提出心理主张时，[心理阅读](docs/psychological-readings.zh-CN.md)

@@ -69,32 +69,9 @@
 
 ## 拉康：言说、回溯与独特创造
 
-### 语言与主体
+拉康为本文集带来三个相连的问题：人怎样通过语言与形象取得自身的位置，后来的言说怎样改变早先表达的意义，以及独特的实践怎样参与一个人的存在方式。本站由此展开个人建模、模型协作与圣状的当代构想。
 
-拉康[主体的颠覆与欲望在弗洛伊德无意识中的辩证法](https://www.causefreudienne.org/textes-fondamentaux/subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien/)
-讨论言说、大他者与能指关系中的回溯作用。
-
-[1966 年 12 月 2 日广播讲话第 2 页](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1966-12-02a.pdf)
-陈述无意识是大他者的话语、像语言一样被结构化的拉康立场。
-这是一份立场的原始来源，不是独立的经验验证。
-[言说、自我表述与能指链](lacan-and-description-logic.zh-CN.md)
-区分这一理论与本文的解释性记号、形式类比。具体读者不等于大他者，
-未说出的身体经验也不自动等于实在界。
-
-### 圣状与独特实践
-
-[研讨班第二十三卷，1976 年 2 月 17 日](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/)
-是 **sinthome / 圣状** 的原始文本来源，其讨论连接结的修补与乔伊斯艺术的独特性。
-[圣状的形成：个人哲学、心理与工程的共同实践](writing-a-sinthome.zh-CN.md)提出模型支持下实践的新的哲学应用；
-语言化的自我模型不会因此成为主体的完整描述或已经成立的拉康圣状临床实例。
-
-拉康的另外几份原文也已进入论述，可以按问题接着读：
-
-| 原文 | 阅读问题 |
-| --- | --- |
-| [镜像阶段（1949）](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | 认同与形象的关系；一个关于自己的形象怎样参与自我理解。 |
-| [研讨班 XVII，1969 年 11 月 26 日](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | 话语的位置与关系；角色位置与实际说话者为什么需要区分。 |
-| [研讨班 XXII，R.S.I.，1974 年 12 月 10 日](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | 实在、象征与想象的区分和结的表达。它们不分别等同于物理环境、程序和图像。 |
+概念解释、例子、形式转译与原文入口集中在[拉康概念导读：从原文到个人实践](lacan-reading-guide.zh-CN.md)。可从那里理解大他者、分裂主体、回溯、三界与圣状，再返回相应文章；原概念与本站的延伸也在那里分别说明。
 
 ## 火的神话：普罗米修斯、夸父与共同生活
 
