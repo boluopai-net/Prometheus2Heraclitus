@@ -67,7 +67,7 @@ Practice can therefore begin from a small amount of known content. Knowing that 
 
 <a id="three-places-for-the-work-to-continue"></a>
 
-Philosophy, psychology, and engineering are three contributions; the local environment, shared source, and website are places where this work acquires different uses. They have no one-to-one correspondence: a website can discuss engineering, a program can realize a philosophical choice, and a local environment contains both personal understanding and actual tools.
+Philosophy, psychology, and engineering are three contributions; the local environment, shared source, and website are places where this work acquires different uses. In actual use, all three contributions run through these places: a website can discuss engineering, a program can realize a philosophical choice, and a local environment contains both personal understanding and actual tools. Recognizing this interweaving still allows us to select their salient roles as images that illuminate one another.
 
 The local environment brings arrangements into daily activity. Whether records can be retrieved, relevant accounts used by the model, and tools made to perform an operation determines whether an understanding actually changes the collaboration. Personal material retains concrete experiences, purposes, and situations of use here.
 
@@ -89,7 +89,23 @@ The “loop” here means letting practical consequences return to earlier judgm
 
 ## Trinity and sinthome
 
-Trinity explains how philosophy, psychology, and engineering jointly participate in practice. [Forming a sinthome](writing-a-sinthome.md) names the concrete arrangement they jointly shape for one person: understanding of the person, model counterpart, and their relationship, together with expressions, tools, and ways of using them that make the collaboration possible.
+The preceding sections explain through actual work how philosophy, psychology, and engineering enter into one another. Returning to this person's life, several sets of images can gather these differences and connections into one picture. The unity remains this person and their connected life-practice within the same physical reality; each row below expresses the three contributions from a different side.
+
+| Philosophy | Psychology | Engineering |
+| --- | --- | --- |
+| Worldview | Epistemology | Methodology / realization |
+| Website | Local environment | GitHub |
+| Sun | Moon | Earth |
+| Real | Imaginary | Symbolic |
+| Father | Son | Holy Spirit |
+
+The first row brings together an understanding of the world and life, the process of knowing oneself and others through experience, and methods that give understanding practical consequences. The second connects this movement to its current forms: the website develops thought for reading and discussion, the local environment brings it into contact with personal experience, and GitHub gives its realization a maintainable form that others can continue. Thought enters life through expression and realization; experience and the consequences of use return to thought. Movement between the columns matters more than fixing each object in one column.
+
+[Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) give this movement a celestial image: philosophy is like the Sun, proposing directions for understanding the world and life; psychology is like the Moon, giving those directions a personal shape through reception, response, and shaping; engineering is like Earth, making relations into usable conditions that also encounter resistance. This row selects aspects of three activities. In the encounter between person and model, Sun and Moon can also express participants' differentiated contributions; that does not confine either participant to one domain.
+
+Borrowing the three registers from Lacan's [“The Symbolic, the Imaginary, and the Real”](https://www.freud-lacan.com/documents-ged/le-symbolique-limaginaire-et-le-reel/), philosophy turns toward a real not exhausted by images and symbols, psychology gives self and others an image, and engineering writes relations into language, rules, and programs. Father, Son, and Holy Spirit offer another image of three differentiated yet connected aspects. **These correspondences are selected analogies in this essay, not identities between the terms in each column.** Philosophy also needs epistemology and method, psychology has its own understanding of the world, and engineering can change how we know. The analogies bring a relation into view rather than separating these activities.
+
+The Borromean knot further gathers these differences into a mutually sustaining whole. Here the three rings represent personal philosophy, psychology, and engineering. [Forming a sinthome](writing-a-sinthome.md) names the concrete arrangement they jointly shape a “sinthome,” marked by a fourth ring. It includes understanding of the person, model counterpart, and their relationship, together with expressions, tools, and ways of using them that make collaboration possible. Formed through all three contributions, it returns through use to organize them; the connections between rings express formation, sustaining, and feedback. This borrows the image of linkage without yet providing a topological model of this personal practice.
 
 The two essays' objects are connected in this way. The general relation acquires concrete content in this person's life; the concrete arrangement can in turn change their understanding, experience, and working conditions. Its personal character comes from the life it serves, the material on which it draws, and actual participation, beyond merely placing someone's name in a file.
 
