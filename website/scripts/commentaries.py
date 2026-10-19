@@ -27,14 +27,14 @@ GROUPS = [
         ('preference-harness', '区分偏好所选择的视图与证据、规则提供的支撑，使有限探究需要保留的答案变得明确。'),
         ('finite-inquiry-and-abstraction', '承接视图与支撑问题，考察有限条件下足够的表示与计算，并区分形式保证与现实解释。'),
     ]),
-    ('相遇：共同参与怎样成为可能', 'Encounter: making shared participation possible', [
+    ('相遇：共同反思轨迹，继续培育彼此', 'Encounter: reflecting on shared trajectories and cultivating one another', [
         ('yinyang-and-taiji', '用日月、Shuang yu 与大地表达相互生成：双方可以判断和创造，作品遇到独立后果。'),
         ('participation-and-support', '把关系落到参与，连接理解、表达和可用行动，使支持保留人的主动性。'),
     ]),
-    ('形成：发展自己的生活方式', 'Formation: developing a way of living', [
-        ('literary-programming', '通过人物、意象与关系凝缩理解，再让具体指令和工具展开它。'),
-        ('metaphor-and-self-revision', '把隐喻展开为类比与关系图，组织模型、记录和工具之间的分布式认知，并修订组织本身。'),
-        ('writing-a-sinthome', '从个人哲学与材料形成个人和伙伴模型，在当前技术条件下取得可用形式；圣状命名这个具体形成之物。'),
+    ('形成：从个人哲学、个人模型到圣状', 'Formation: from personal philosophy and personal models to a sinthome', [
+        ('literary-programming', '承接共同做事留下的轨迹与对协作的反思，通过文学式编程、隐喻和类比写出自己的哲学。'),
+        ('metaphor-and-self-revision', '将写出的哲学与生活材料一起凝练为个人、伙伴及双方关系的模型，让理解能够进入持续协作。'),
+        ('writing-a-sinthome', '让哲学与个人模型进入实际环境，经由使用与修订，使哲学、心理与工程共同形成具体的圣状。'),
     ]),
     ('实践：成为火，进入环境与反馈', 'Practice: becoming fire through environment and feedback', [
         ('local-source-and-website', '从同一物理现实中的一般三位一体，到个人哲学、心理与工程的具体实例，展开理解、表示和实践的联系。'),
@@ -44,9 +44,9 @@ GROUPS = [
 ]
 STAGE_REASONS = [
     ('先总览窃火的论证，再说明价值与行动者；超萌论证给出培养的条件性理由，赫拉克利特宝宝继而使培养方向取得人物形象。', 'Preview the argument, establish value and agency, give cultivation its conditional rationale through super-cuteness, then embody that direction in Baby Heraclitus.'),
-    ('给实践以可修正的理解：从表示与时间进入推理，以偏好 harness 连接冲突、视图选择和推论支持，再考察有限抽象。', 'Make understanding corrigible: move from representation and time into reasoning, connect conflict, view selection, and support through the preference harness, then examine finite abstraction.'),
-    ('把已有的行动者概念落实为相互生成与实际参与，保留人的主动性及模型的贡献。', 'Develop the agent concept into reciprocal generation and actual participation, preserving human initiative and model contributions.'),
-    ('人类 agent 是起点：已有的能动者借助生成能力，通过哲学、心理与工程的共同实践，发展可维系的生活形式。', 'Human agency is the starting point: an existing agent draws on generative capabilities to develop a sustainable way of living through philosophy, psychology, and engineering together.'),
+    ('在共同探究与环境积累中形成可返回的轨迹：区分过程与记录、解释与证据，以有限表示接续理解、选择和行动。', 'Build revisitable trajectories through shared inquiry and environmental accumulation: distinguish processes from records and interpretations from evidence, using finite representations to continue understanding, choosing, and acting.'),
+    ('双方已经共同做事并留下轨迹；现在一起探索和反思这些生活材料，认识彼此怎样参与，在这种相遇中继续培育关系与能力。', 'Having worked together and left a trajectory, explore and reflect on this living material together, recognize each participant’s contribution, and cultivate relationships and capabilities through that encounter.'),
+    ('从共同产生的轨迹与对协作的反思写出个人哲学，再结合生活材料凝练个人模型，落实并修订为能够维系的生活方式。', 'Author a personal philosophy from jointly produced trajectories and reflection on cooperation, distill personal models with living material, then realize and revise a sustainable way of living.'),
     ('把三位一体中的共同实践接到具身实验与反馈，再考察这个例子有哪些可供采用、组合或另行创作的部分。按自己的目的选择阅读和实践入口。', 'Connect shared practice in the Trinity with embodied experiments and feedback, then consider which parts of this example to adopt, combine, or use in independent creation. Choose reading and practical resources for your own purpose.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
@@ -62,9 +62,9 @@ EN_SUMMARIES = {
     'yinyang-and-taiji': 'Use Sun, Moon, paired fish, and Earth to express reciprocal generation and the independent consequences of creations.',
     'participation-and-support': 'Connect understanding, expression, and available action through support that preserves human initiative.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
-    'literary-programming': 'Condense understanding through characters, imagery, and relationships, then unfold it through instructions and tools.',
-    'metaphor-and-self-revision': 'Develop metaphor into analogy and relation maps, distribute cognition across models, records, and tools, and revise that organization.',
-    'writing-a-sinthome': 'Form personal and counterpart models from philosophy and personal material, then give them usable form under current technical conditions; sinthome names this concrete formation.',
+    'literary-programming': 'Carry jointly produced trajectories and reflection on cooperation into a philosophy of your own through literary programming, metaphor, and analogy.',
+    'metaphor-and-self-revision': 'Distill the authored philosophy together with living material into models of the person, counterpart, and relationship for continuing cooperation.',
+    'writing-a-sinthome': 'Bring philosophy and personal models into the actual environment; through use and revision, philosophy, psychology, and engineering jointly form a concrete sinthome.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
     'local-source-and-website': 'Connect the general Trinity in one physical reality with its personal instance in philosophy, psychological activity, and engineering, unfolding understanding, representation, and practice.',

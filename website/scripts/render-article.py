@@ -29,8 +29,8 @@ ARTICLES = {
             '阅读来源与比较范围': '查看来源及本文延伸的范围。',
         },
     },
-    '# 文学式编程': {
-        'slug': 'literary-programming', 'title': '文学式编程', 'number': '004',
+    '# 从生活轨迹与协作写出哲学：文学式编程': {
+        'slug': 'literary-programming', 'title': '从生活轨迹与协作写出哲学：文学式编程', 'number': '004',
         'subtitle': '以文学的凝缩能力，组织理解与共同实践',
         'overview': '用人物、意象、叙事与关系凝缩理解，让文化、心理与偏好进入模型协作，并在作品与行动中继续改写。',
         'sections': {
@@ -118,7 +118,7 @@ ENGLISH = {
         },
     },
     'literary-programming': {
-        'title': 'Literary Programming',
+        'title': 'Writing philosophy from life trajectories and collaboration: literary programming',
         'subtitle': 'Organizing understanding and shared practice through literary condensation',
         'overview': 'Condensing understanding through characters, imagery, narrative, and relationships brings culture, psychology, and preferences into model collaboration, to be rewritten through works and actions.',
         'sections': {

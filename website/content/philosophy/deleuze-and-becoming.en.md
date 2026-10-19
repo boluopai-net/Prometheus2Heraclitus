@@ -2,7 +2,7 @@
 
 ## From “who am I?” to “what can happen here?”
 
-[Forming a sinthome: personal philosophy, psychology, and engineering in practice](/philosophy/writing-a-sinthome/en/) begins with the person’s existing agency and examines how personal material can ground the organization of personal and counterpart models, expression, and actual realization into a usable, revisable personal practical arrangement. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
+[From personal models to a sinthome: realization and revision in use](/philosophy/writing-a-sinthome/en/) begins with the person’s existing agency and examines how personal material can ground the organization of personal and counterpart models, expression, and actual realization into a usable, revisable personal practical arrangement. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
 
 This encounter adds an entrance to personal philosophy. Alongside expressing who we are and how we wish to live, we can observe what happens when bodies, words, tools, and counterparts come together. The everyday examples and harness comparisons below are this essay’s extensions from their concepts.
 
