@@ -2,7 +2,7 @@
 
 ## From “who am I?” to “what can happen here?”
 
-[Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](/philosophy/writing-a-sinthome/en/) begins with the person’s existing agency and proposes connecting philosophy, psychology, and engineering through shared practice in personal life, forming a singular and continually revisable way of living. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
+[Forming a sinthome: personal philosophy, psychology, and engineering in practice](/philosophy/writing-a-sinthome/en/) begins with the person’s existing agency and examines how personal material can ground the organization of personal and counterpart models, expression, and actual realization into a usable, revisable personal practical arrangement. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
 
 This encounter adds an entrance to personal philosophy. Alongside expressing who we are and how we wish to live, we can observe what happens when bodies, words, tools, and counterparts come together. The everyday examples and harness comparisons below are this essay’s extensions from their concepts.
 
@@ -34,7 +34,7 @@ For example, a writing routine might use a model only for proofreading. One coll
 
 ## Sustain a life while allowing it to become different
 
-The sinthome and machine perspectives bring different questions. In this site’s practical reinterpretation, the former asks what holds this person’s understanding, action, and life together. The latter prompts us to ask what else these relations can produce and which arrangements close possibilities prematurely. These questions can advance each other, and they can conflict.
+This site names the concrete arrangement of personal models, expression, and actual realization described above a sinthome, and examines how it forms, is used, and is revised. The machine perspective further prompts us to ask what else these organized relations can produce and which arrangements close possibilities prematurely. An arrangement can help life continue while also limiting new trials; both consequences need examination.
 
 A highly convenient harness might repeatedly produce the same kind of answer; a fresh trial might interrupt an existing continuity. Judgment must enter the particular activity: what understanding did this change bring, which conditions for continuing did it retain, and what did it cost?
 

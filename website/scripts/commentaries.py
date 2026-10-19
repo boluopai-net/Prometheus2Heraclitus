@@ -73,11 +73,11 @@ EN_SUMMARIES = {
 }
 EXTENSIONS = [
     ('lacan-and-description-logic', '言说与自我表述', '从圣状深入言说事件、自我表述与形式断言。', 'writing-a-sinthome'),
-    ('deleuze-and-becoming', '机器与生成', '从圣状的维系形式进入连接、组装与生成的哲学比较。', 'writing-a-sinthome'),
+    ('deleuze-and-becoming', '机器与生成', '从已经形成的个人实践安排，进入连接、组装与生成的哲学比较。', 'writing-a-sinthome'),
 ]
 EN_EXTENSIONS = {
     'lacan-and-description-logic': ('Speech and self-description', 'From the sinthome, examine speech events, self-description, and formal assertions.'),
-    'deleuze-and-becoming': ('Machines and becoming', 'From the sinthome’s sustaining form, compare connections, assemblages, and becoming.'),
+    'deleuze-and-becoming': ('Machines and becoming', 'From an established personal practice arrangement, compare connections, assemblages, and becoming.'),
 }
 BRANCHES = [
     ('writing-a-sinthome', ['lacan-and-description-logic'], 'local-source-and-website'),

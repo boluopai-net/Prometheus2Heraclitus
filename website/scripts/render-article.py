@@ -18,9 +18,9 @@ ARTICLES = {
     '# 机器与生成：与德勒兹、瓜塔里相遇': {
         'slug': 'deleuze-and-becoming', 'title': '机器与生成：与德勒兹、瓜塔里相遇', 'number': '005',
         'subtitle': '通过连接、组装与试作，继续成为火',
-        'overview': '从个人哲学的维系形式出发，与欲望机器、组装和无器官的身体相遇，考察连接怎样产生能力，并让实际后果改写安排。',
+        'overview': '从已经形成的个人实践安排出发，与欲望机器、组装和无器官的身体相遇，考察连接怎样产生能力，并让实际后果改写安排。',
         'sections': {
-            '从「我是谁」到「这里能发生什么」': '把维系形式接到继续生成的可能性。',
+            '从「我是谁」到「这里能发生什么」': '考察已有安排中继续生成的可能性。',
             '欲望机器：连接怎样生产现实': '从连接、流动与返回追问活动。',
             '组装：让关系也进入作品': '把身体、表达、工具与伙伴共同纳入创造。',
             '无器官的身体：给既定用途留下余地': '保留生活所需组织，并试探其他连接。',
@@ -89,9 +89,9 @@ ENGLISH = {
     'deleuze-and-becoming': {
         'title': 'Machines and Becoming: An Encounter with Deleuze and Guattari',
         'subtitle': 'Continue becoming fire through connections, assemblages, and trials',
-        'overview': 'From the sustaining form of personal philosophy, encounter desiring-machines, assemblages, and the body without organs; examine how connections produce capacities and consequences revise arrangements.',
+        'overview': 'From an established personal practice arrangement, encounter desiring-machines, assemblages, and the body without organs; examine how connections produce capacities and consequences revise arrangements.',
         'sections': {
-            'From “who am I?” to “what can happen here?”': 'Connect sustaining form with continued becoming.',
+            'From “who am I?” to “what can happen here?”': 'Examine possibilities for continued becoming within existing arrangements.',
             'Desiring-machines: how connections produce reality': 'Examine activity through connections, flows, and returns.',
             'Assemblages: bring the relations into the work': 'Bring bodies, expression, tools, and counterparts into creation.',
             'The body without organs: leave room beyond assigned uses': 'Preserve needed organization while trying other connections.',

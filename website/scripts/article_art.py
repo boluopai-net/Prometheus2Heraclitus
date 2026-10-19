@@ -29,7 +29,7 @@ SCENES = {
 CAPTIONS = {
     'preference-harness': ('爱心选方向，报告供检查：想走林荫路，还要确认桥能通过。', 'The heart selects a direction; the report supports a check: a preferred shaded route still needs a passable bridge.'),
     'finite-inquiry-and-abstraction': ('从房子到风车：简图保留道路与桥的连接，略去不影响这次寻路的细节。', 'From house to windmill: the map preserves road and bridge connections while omitting detail irrelevant to this route.'),
-    'writing-a-sinthome': ('博罗米结：三个环共同套连，任意两个却没有单独套住彼此；去掉红环，另外两个便能分开。圣状把这个维系问题带向独特实践与结的修补。', 'Borromean rings: all three hold together although each pair is unlinked; remove the vermilion ring and the other two can separate. The sinthome carries this holding question toward singular practice and knot repair.'),
+    'writing-a-sinthome': ('博罗米结的三环联结示意：去掉红环，另外两个便能分开。这幅图说明联结性质；正文另行展开个人实践安排的形成与表示。', 'A three-ring Borromean link: remove the vermilion ring and the other two can separate. This figure illustrates linkage; the text separately develops the formation and representation of a personal practice arrangement.'),
 }
 
 
