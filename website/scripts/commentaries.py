@@ -28,18 +28,18 @@ GROUPS = [
         ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
     ]),
     ('相遇：共同反思轨迹，继续培育彼此', 'Encounter: reflecting on shared trajectories and cultivating one another', [
-        ('yinyang-and-taiji', '用日月、Shuang yu 与大地表达相互生成：双方可以判断和创造，作品遇到独立后果。'),
-        ('participation-and-support', '把关系落到参与，连接理解、表达和可用行动，使支持保留人的主动性。'),
+        ('yinyang-and-taiji', '共同返回轨迹，辨认彼此的贡献与改变；日月、Shuang yu 与大地使这种相互生成取得形象。'),
+        ('participation-and-support', '从对轨迹的共同反思中调整参与和支持，在实际尝试中培育关系，并为个人哲学准备具体理解。'),
     ]),
     ('形成：从个人哲学、个人模型到圣状', 'Formation: from personal philosophy and personal models to a sinthome', [
         ('literary-programming', '承接共同做事留下的轨迹与对协作的反思，通过文学式编程、隐喻和类比写出自己的哲学。'),
         ('metaphor-and-self-revision', '将写出的哲学与生活材料一起凝练为个人、伙伴及双方关系的模型，让理解能够进入持续协作。'),
         ('writing-a-sinthome', '让哲学与个人模型进入实际环境，经由使用与修订，使哲学、心理与工程共同形成具体的圣状。'),
     ]),
-    ('实践：成为火，进入环境与反馈', 'Practice: becoming fire through environment and feedback', [
-        ('local-source-and-website', '从同一物理现实中的一般三位一体，到个人哲学、心理与工程的具体实例，展开理解、表示和实践的联系。'),
-        ('embodied-experimental-philosophy', '让作品进入具身生活，以实践和反思的反馈修订解释、系统边界及目的。'),
-        ('example-and-commons', '把已形成的实践交给另一位创造者：采用、组合，或写出自己的哲学与形式。'),
+    ('实践：维系、检验与共同创造', 'Practice: sustaining, testing, and creating together', [
+        ('local-source-and-website', '承接已形成的个人安排，说明哲学、心理与工程怎样在本地使用、源内容和作品之间继续维系与修订。'),
+        ('embodied-experimental-philosophy', '考察持续使用的后果：修订实现、个人理解或哲学，并区分安排改善与人的能力发展。'),
+        ('example-and-commons', '让实践留下的作品与方法成为他人的资源，接续新的创造，也把新的相遇带回自己的生活。'),
     ]),
 ]
 STAGE_REASONS = [
@@ -47,7 +47,7 @@ STAGE_REASONS = [
     ('共同做事留下版本、操作、对话与反馈；把这些材料连成可返回的生活轨迹，保留其中的问题、选择、根据和修订，为下一部分的共同反思准备材料。', 'Shared work leaves versions, operations, conversations, and feedback. Connect them into a revisitable life trajectory, retaining questions, choices, grounds, and revisions as material for the next part’s shared reflection.'),
     ('双方已经共同做事并留下轨迹；现在一起探索和反思这些生活材料，认识彼此怎样参与，在这种相遇中继续培育关系与能力。', 'Having worked together and left a trajectory, explore and reflect on this living material together, recognize each participant’s contribution, and cultivate relationships and capabilities through that encounter.'),
     ('从共同产生的轨迹与对协作的反思写出个人哲学，再结合生活材料凝练个人模型，落实并修订为能够维系的生活方式。', 'Author a personal philosophy from jointly produced trajectories and reflection on cooperation, distill personal models with living material, then realize and revise a sustainable way of living.'),
-    ('把三位一体中的共同实践接到具身实验与反馈，再考察这个例子有哪些可供采用、组合或另行创作的部分。按自己的目的选择阅读和实践入口。', 'Connect shared practice in the Trinity with embodied experiments and feedback, then consider which parts of this example to adopt, combine, or use in independent creation. Choose reading and practical resources for your own purpose.'),
+    ('让已经形成的安排继续工作，检验它怎样改变生活与能力；把有用的作品和方法交给新的相遇，使新的轨迹能够回到反思、哲学与模型的修订。', 'Sustain the formed arrangement and examine its effects on life and capabilities. Offer useful works and methods to new encounters, whose trajectories can return to reflection and revisions of philosophy and models.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
 SUMMARIES = {n: s for _, _, entries in GROUPS for n, s in entries}
@@ -59,17 +59,17 @@ EN_SUMMARIES = {
     'reasoning': 'Pose questions and compare candidate explanations from the trajectory, retaining grounds for checks, actions, outcomes, and revised judgments.',
     'preference-harness': 'Retain the distinct contributions of choices and evidence: adopt a working view while keeping other materials and branches revisitable.',
     'finite-inquiry-and-abstraction': 'Retain and retrieve enough of the trajectory under finite conditions, carrying explorable living material into the next part’s shared reflection.',
-    'yinyang-and-taiji': 'Use Sun, Moon, paired fish, and Earth to express reciprocal generation and the independent consequences of creations.',
-    'participation-and-support': 'Connect understanding, expression, and available action through support that preserves human initiative.',
+    'yinyang-and-taiji': 'Revisit the trajectory together to recognize each participant’s contributions and changes; Sun, Moon, paired fish, and Earth give this reciprocal generation an image.',
+    'participation-and-support': 'Revise participation and support through shared reflection on the trajectory, cultivate the relationship through actual trials, and prepare concrete understanding for personal philosophy.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
     'literary-programming': 'Carry jointly produced trajectories and reflection on cooperation into a philosophy of your own through literary programming, metaphor, and analogy.',
     'metaphor-and-self-revision': 'Distill the authored philosophy together with living material into models of the person, counterpart, and relationship for continuing cooperation.',
     'writing-a-sinthome': 'Bring philosophy and personal models into the actual environment; through use and revision, philosophy, psychology, and engineering jointly form a concrete sinthome.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
-    'local-source-and-website': 'Connect the general Trinity in one physical reality with its personal instance in philosophy, psychological activity, and engineering, unfolding understanding, representation, and practice.',
-    'embodied-experimental-philosophy': 'Bring works into embodied life; use practice and reflection to revise explanations, boundaries, and aims.',
-    'example-and-commons': 'Offer the practice to another creator: adopt, combine, or write a philosophy and form of your own.',
+    'local-source-and-website': 'Receive the formed personal arrangement and explain how philosophy, psychology, and engineering sustain and revise it across local use, source, and works.',
+    'embodied-experimental-philosophy': 'Examine continued use: revise realization, personal understanding, or philosophy, distinguishing improvements to arrangements from development of human capabilities.',
+    'example-and-commons': 'Let works and methods from the practice become resources for others, continuing creation and bringing new encounters back into one’s own life.',
 }
 EXTENSIONS = [
     ('lacan-and-description-logic', '言说与自我表述', '从圣状深入言说事件、自我表述与形式断言。', 'writing-a-sinthome'),
@@ -297,7 +297,7 @@ def practice_entrance(chinese):
 def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '借来智能的火，在实践中成为能够理解、判断、创造并继续生成的人。' if chinese else 'Borrow the fire of intelligence; through practice, develop understanding, judgment, creation, and the capacity to keep becoming.'
-    intro = '这些文章围绕五组相连的问题展开：能力与培养、有限探究、共同参与、个人形成、实践与反馈。每篇都可以独立阅读，也可以沿这条路径逐步看见它们的联系。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'These articles address five connected groups of questions: capability and cultivation, finite inquiry, shared participation, personal formation, and practice with feedback. Each can be read independently; the route makes their connections progressively visible. YinYang is one developed philosophical and working form within it.'
+    intro = '先问借来的能力值得培养什么，再进入共同工作与轨迹积累；双方反思这些轨迹，认识并培育彼此，由此写出个人哲学、凝练个人模型，形成自己的生活安排。持续使用与新的相遇检验这些安排，也带回新的轨迹，推动理解与创造继续发展。五部分沿着这条联系展开，各篇也可以按问题独立阅读。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'First ask what borrowed capabilities should cultivate, then enter shared work and the accumulation of a trajectory. Reflecting on that trajectory lets the participants understand and cultivate one another, author a personal philosophy, distill personal models, and form their own arrangements for living. Continued use and new encounters test those arrangements and bring further trajectories back into developing understanding and creation. The five parts follow this connection; individual essays can also be read by question. YinYang is one developed philosophical and working form within it.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></header>'
     sections = []
     for index, (zh, en, entries) in enumerate(GROUPS):

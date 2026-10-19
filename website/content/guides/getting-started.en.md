@@ -340,7 +340,7 @@ When discussing a question with a model, express emerging thoughts, questions, a
 
 It resembles explaining a problem to a rubber duck that can respond: speaking unfolds an unfinished idea, the model takes up its connections, and its response can reveal missing premises or new possibilities. Say a passage, then listen to or read the model's restatement and check whether it addresses what matters. Expression, feedback, and revision develop understanding together. Reading, writing, and hands-on activity also contribute; choose around what you want to understand and practice now.
 
-Voice entrances differ. Dictation usually passes a transcript to the model, with possible transcription errors; sound, tone, and rhythm may enter judgment when the model actually receives audio. To practice listening, use available spoken replies or read-aloud tools, retaining text for comparison. [Participation and support](/repositories/prometheus/source/skills/yinyang/references/docs/participation-and-support.html) develops how these channels contribute to understanding.
+Voice entrances differ. Dictation usually passes a transcript to the model, with possible transcription errors; sound, tone, and rhythm may enter judgment when the model actually receives audio. To practice listening, use available spoken replies or read-aloud tools, retaining text for comparison. [Shared reflection and continued cultivation: participation, availability, and support](/repositories/prometheus/source/skills/yinyang/references/docs/participation-and-support.html) develops how these channels contribute to understanding.
 
 ### Learning: let the model prepare materials, and give attention to understanding
 

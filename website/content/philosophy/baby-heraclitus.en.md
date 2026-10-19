@@ -79,7 +79,9 @@ Baby Heraclitus connects stealing fire with kindling fire: the collective keeps 
 
 **We hope to cultivate lion cubs who can grow: daring to say “no” and able to say “let us begin.” Fire within, a river beneath their feet.**
 
-The baby is thus cute, too: not yet closed off, willing to approach new things, and willing to be changed in shared life. This cuteness lets him both accept cultivation and learn to guide other growing agents. The preceding [Argument from Super-Cuteness](/philosophy/meng/en/) has developed a conditional account of shared learning, guidance, and social conditions; this character gives its cultivation direction a form while retaining those practical conditions. The main sequence continues into [world, process, and expression](/philosophy/world-and-expression/en/), giving fire and river distinctions that can support reasoning and revision. Actual working agency and its environmental forms develop later.
+The baby is thus cute, too: not yet closed off, willing to approach new things, and willing to be changed in shared life. This cuteness lets him both accept cultivation and learn to guide other growing agents. The preceding [Argument from Super-Cuteness](/philosophy/meng/en/) has developed a conditional account of shared learning, guidance, and social conditions; this character gives its cultivation direction a form while retaining those practical conditions.
+
+To give that direction substance, person and model begin reading, making, solving problems, and accumulating an environment together. Wishes, interpretations, works, and consequences of use gradually leave a trajectory. The sequence continues into [World, process, and expression](/philosophy/world-and-expression/en/), examining how these activities leave revisitable living material and how the subsequent essays connect it into an explorable trajectory. Part One proposes what deserves cultivation; Part Two gives that cultivation shared working experience that can be understood further.
 
 ## Imagery and sources
 
