@@ -101,7 +101,7 @@ bodily experience is not automatically the Real.
 
 [Seminar XXIII, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/)
 is the primary-text reference for **sinthome / 圣状**. The discussion connects
-knot repair and the particularity of Joyce's art. [Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](writing-a-sinthome.md)
+knot repair and the particularity of Joyce's art. [Forming a sinthome: personal philosophy, psychology, and engineering in practice](writing-a-sinthome.md)
 develops a new philosophical application to model-assisted practice; a linguistic
 self-model does not thereby become a complete account of the subject or an
 established clinical instance of Lacan's sinthome.
@@ -140,8 +140,8 @@ plateaus 4 and 6. Desiring-machines open the question of what connections
 produce; assemblages bring bodies and expression into view. The essay
 distinguishes a process of becoming from a clinical condition and treats
 its songwriting and harness examples as contemporary comparisons.
-This provides a neighboring question to the sinthome essay: alongside what
-sustains a life, what can the sustained relations continue to generate?
+This provides a neighboring question to the sinthome essay: through what
+connections can an established personal practice arrangement produce new capacities?
 
 ## Personal practice: Bruner, Foucault, Hobbes, and Mill
 

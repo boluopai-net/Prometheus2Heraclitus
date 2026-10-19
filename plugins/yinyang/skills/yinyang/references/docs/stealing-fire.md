@@ -177,7 +177,7 @@ Bruner's account of life as narrative develops this two-way relation: culturally
 
 YinYang extends that possibility to a contemporary situation. Language about oneself can be encountered by a generative counterpart capable of interpretation and action. Writing the relationship can help bring into being a practice that did not previously have that form. The text is carried into conversations, investigations, works, and decisions; their consequences return to the understanding of the self.
 
-This is where [writing a sinthome](writing-a-sinthome.md) enters. Lacan's term supplies a philosophical comparison for a singular sustaining practice: a way of making relations hold through which a person can live and create. With fire already available, the relationship gives it a place in life and supports a distinctive way of creating. This continuing formation cultivates a singular way of participating in generation. A generic list of prompts is interchangeable. A practice becomes singular through what it sustains and makes possible for this life.
+This is where [forming a sinthome](writing-a-sinthome.md) enters the account. The name here refers to a personal practical arrangement formed jointly from personal material, personal and counterpart models, usable expression, and actual realization. Through such an arrangement, available generative capabilities enter relevant activities of living and creating. It may help someone continue work or stabilize life; use may also reveal a mismatch. Concrete material, organizing relations, and actual participation give the arrangement personal content, while consequences in use help judge its adequacy and how to revise it.
 
 ## Meaning before a truth claim
 

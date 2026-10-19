@@ -35,13 +35,14 @@ relations usable form: helping with shopping, consumption, investment,
 conversation, learning, creativity, and social life. The consequences of actual
 use then return to life and to the understanding being formed.
 
-The [sinthome essay](writing-a-sinthome.md) calls the form of personal practice
+The [sinthome essay](writing-a-sinthome.md) calls the personal practical arrangement
 jointly formed by these three contributions, capable of expression and use,
-a “sinthome.” Its referent is explained through material, organizing relations,
-representation, and use. In that essay's ring representation, three personal
-contributions are three rings; a fourth marks how this formation organizes
-them. Trinity here explains the general relation and its individual instance;
-the fourth ring represents a concrete organization formed within that instance.
+a “sinthome.” Personal and counterpart models, expression, and realization
+explain the name's concrete content. In that essay's ring representation, three personal
+contributions are three rings; the fourth marks this concrete arrangement,
+and the connections represent formation, organization, and feedback. Trinity
+here explains the general relation and its individual instance; the fourth
+ring's referent is formed within that instance.
 Shared physical reality remains the ground of all these activities; changing
 levels cannot turn it into another ring.
 
@@ -477,7 +478,8 @@ Borromean image gathers these differences into a mutual holding. The rows offer
 selected analogies, not identities among their terms or a topological proof.
 The [sinthome essay](writing-a-sinthome.md#from-the-general-trinity-to-an-individual-instance)
 names the form of personal practice jointly shaped by all three contributions.
-The fourth ring marks how this concrete form organizes them; representation,
+The fourth ring marks this concrete arrangement, while connections among the
+rings represent formation, organization, and feedback. Representation,
 realization, and use give it content, and it may also sustain or repair relations
 in life. [Embodied experimental philosophy](embodied-experimental-philosophy.md)
 then puts this way into action, where a result can answer back and prompt its revision.

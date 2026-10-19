@@ -1,4 +1,4 @@
-# Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering
+# Forming a sinthome: personal philosophy, psychology, and engineering in practice
 
 [简体中文](writing-a-sinthome.zh-CN.md)
 
@@ -15,7 +15,7 @@
 
 </details>
 
-**A person's philosophy, psychology, and engineering can jointly give rise to a form of personal practice that can be expressed, realized, and used. This essay calls that concrete formation a sinthome.** It connects an understanding of the person, the model counterpart they need, and arrangements for their shared work. Personal material contributes to its formation; writing and tools make its relations usable; actual life changes it in turn. “Writing” in the title includes this formation, representation, realization, and use.
+**This essay calls a concrete practical arrangement jointly shaped by personal philosophy, psychology, and engineering a “sinthome”: it includes an understanding of the person, the model counterpart they need, and their relationship, together with the expressions, tools, and ways of using them that bring this understanding into work.** Personal material contributes to its formation; writing and tools make its relations usable; actual life changes it in turn. Formation here includes interpreting relevant material, organizing relations, finding representations, and bringing these relations into actual work.
 
 The person is already an **agent**: someone who perceives, generates, chooses,
 and acts in the world. This essay asks how an understanding of oneself and
@@ -51,14 +51,16 @@ existing expression and images. Philosophy, psychology, and engineering are
 the three activities connected below. The conceptual source and this contemporary
 construction need to be understood through their respective relations.
 
-Here a sinthome can be expressed and realized in texts, diagrams, instructions,
-software, and continuing practice. Representation makes relations understandable
-and usable; use brings them into actual activity. Both the concrete form and
-its operation therefore matter. A written account of oneself can contribute;
-how a model interprets that account, which tools carry it into action, and how
-the person participates in and changes it determine the form's actual content
-in life. Its referent is this concrete arrangement formed within life; life
-also includes experiences, relations, and changes that continually exceed it.
+Understanding this arrangement requires explaining which relations it organizes,
+which expressions carry them, and how it actually operates. Personal and
+counterpart models articulate the content of the relations; texts, diagrams,
+instructions, and software carry selected relations; the person's participation,
+model interpretation, and tool execution give them practical effect. The same
+arrangement can undergo file revisions, tool replacements, or changes in
+organization prompted by new understanding. “Sinthome” here names this arrangement
+with its concrete content and realization; a text or an action is one part of
+it. Life is the setting in which it forms, is used, and has consequences, and
+always includes experiences and relations the arrangement has not incorporated.
 
 Such a form may help someone organize tensions, accommodate desire, continue
 creating, or stabilize daily life. These are effects to investigate through
@@ -97,16 +99,18 @@ the person need not complete three disciplines separately before beginning it.
 connection visible: three rings are linked together although no pair is linked
 on its own. In the individual instance, this essay uses three rings for the
 three contributions and a fourth for the sinthome they jointly form, which
-can in turn organize all three. The fourth ring marks the organizing relation
-of this concrete form among the contributions. Shared physical reality grounds
+can in turn organize all three. The fourth ring always refers to this concrete
+arrangement; connections among the rings represent how the three contributions
+participate in its formation and how it organizes and feeds back into them in use.
+Shared physical reality grounds
 the whole construction; it does not become a fourth ring when the account turns
 to the individual level, nor is the whole life enclosed in one ring.
 
-The formation process below gives this representation substance: which material
-participates, which relations are selected, and which actual carriers make
-them usable. The four-ring image helps identify these relations; a particular
-mathematical link still depends on crossings and connections and cannot be
-determined from the names of activities alone.
+This is a conceptual representation selected for these objects and relations.
+The formation process below gives it substance: which material participates,
+which relations are selected, and which actual carriers make them usable.
+The account draws on the linking image of Borromean rings; a further mathematical link model of this personal
+arrangement would require defining particular crossings and connections.
 
 <a id="a-singular-way-of-living"></a>
 
@@ -182,7 +186,7 @@ An individual meta-harness can express how a person understands themself as a pa
 
 A purpose, an image, a correction, or one useful distinction may already make the next piece of work possible. The model can help develop the articulation, and the result may reveal what the person could not yet say. Writing and self-understanding advance through use: enough is expressed to begin, and what happens supplies the next occasion for understanding.
 
-The person remains more than the text. Their current account may preserve unresolved tensions, change its objects, or abandon an interpretation. A singular practice becomes recognizable through how these changes hold together in work. A shared prompt template can offer a starting form; its use, revision, and place in the person's purposes give that form an individual life.
+The person remains more than the text. Their current account may preserve unresolved tensions, change its objects, or abandon an interpretation. A shared prompt template can offer an initial expression; relevant material, selected relations, actual realization, and the person's participation gradually give this arrangement concrete personal content. Returning to that content makes it possible to explain what the arrangement retains and what changes through a revision.
 
 ## From an expressed relation to distributed action
 
@@ -193,8 +197,8 @@ Portability is achieved by interpretation and adaptation. The receiving model ne
 Distributed capacities become part of this practice through the person's
 participation: they can initiate a work, recognize a mismatch, redirect a
 contribution, or discover a purpose they could not previously articulate.
-They need not perform every operation or understand every mechanism. What
-matters to the sustaining form is that the arrangement remains available to
+They need not perform every operation or understand every mechanism. The
+arrangement still needs to remain available to
 their understanding, judgment, and choice. Its continuity can survive a change
 of model or tool when these relations can be taken up again; a portable file
 alone cannot supply that continuity.
@@ -209,7 +213,7 @@ The playful image names a multiplication of generative reach. A conception can a
 
 The image becomes richer when the creations return. They can expose an assumption, change a desire, or teach a new way of seeing. Power then includes the ability to receive correction and reshape one's practice. **Reverse alignment** names this developmental direction: the person gains understanding, judgment, and generative capacity through the encounter with a model. Its development appears in how the person takes up a new capacity, recognizes a relation, changes a judgment, or begins an act that was previously unavailable.
 
-The sustained practice is where the sinthome proposal and the image meet. A new capacity can remain distributed across the person, records, and counterparts while still belonging to the person's organized participation. What makes it singular is how it is taken up, what it helps sustain, and how its consequences are answered. The same instructions can therefore support different practices, while changing instructions can participate in a continuing one. The continuity is lived through these relations: what the practice makes possible, how it survives a change, and what the person makes of its consequences.
+The arrangement meets this image in actual creation. New capacities can be distributed across the person, records, and counterparts, entering the person's participation through a concrete division of work. The same instructions, within different people's material, tools, and relations of use, can belong to different arrangements; changing an instruction may also be one revision of the same arrangement. Identifying this form requires tracing these actual relations; judging its value requires examining what it makes possible and how the person responds to its consequences.
 
 ## Its relation to Sun, Moon, and Earth
 

@@ -29,7 +29,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
-- [YY-13 · Write a life as a sinthome](#yy-13)
+- [YY-13 · Forming a sinthome](#yy-13)
 - [YY-14 · Cultivate generative capacities with available fire](#yy-14)
 - [YY-15 · Cultivate a garden of becoming with friends](#yy-15)
 
@@ -441,7 +441,7 @@ continued, and discussed.
 
 <a id="yy-13"></a>
 
-## YY-13 · Write a life as a sinthome
+## YY-13 · Forming a sinthome
 
 The preceding [coupled modeling](#yy-03) and [expression and realization](#yy-04)
 let an understanding of the person guide their environment. The Trinity of
@@ -451,16 +451,17 @@ person's philosophy, psychological activity, and engineering arrangements
 instantiate that relation. Personal philosophy and relevant material help form
 partial models of the person, the needed counterpart, and their relationship.
 Under current technical conditions, writing, instructions, Skills, harnesses,
-and tools give these understandings usable form. This account calls the form
-of personal practice jointly shaped by all three a **sinthome**. In the individual
-instance, a fourth ring marks how it organizes the three contributions;
-formation, representation, and actual use give its referent substance. It may
+and tools give these understandings usable form. This account calls the personal
+practical arrangement jointly shaped by all three a **sinthome**. The fourth ring
+marks this concrete arrangement; connections among the rings represent formation,
+organization, and feedback. Personal and counterpart models, representation,
+realization, and actual use explain its content. It may
 help stabilize life and continue creation, while consequences in use change
 it in turn; the whole life still exceeds this form.
 
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](writing-a-sinthome.md)
+conditions mediate enlarged agency. [Forming a sinthome: personal philosophy, psychology, and engineering in practice](writing-a-sinthome.md)
 develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
 a clinical conclusion, or a guarantee of happiness and unlimited power.
 A reader may examine or borrow this idea where personal authorship is the

@@ -16,7 +16,7 @@ relationship with the instructions and environment used in collaboration.
 Human-readable philosophy and literature develop the meaning of that
 arrangement; model-facing accounts state the relevant understanding and
 requirements explicitly. Both can help form and revise a usable relation before
-complete self-understanding; [Writing a life as a sinthome: the shared practice of philosophy, psychology, and engineering](docs/writing-a-sinthome.md)
+complete self-understanding; [Forming a sinthome: personal philosophy, psychology, and engineering in practice](docs/writing-a-sinthome.md)
 develops the philosophical proposal.
 
 These methods maintain one developed example. A request may instead call for
