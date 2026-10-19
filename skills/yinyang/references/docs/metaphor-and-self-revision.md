@@ -8,8 +8,8 @@ image had concealed. The next expression carries that discovery.*
 
 Before a personal philosophy is written, person and model have already worked
 together, accumulated an environment, and left traces of experiences, choices,
-inquiries, and revisions. Git history and command or activity history can
-preserve complementary parts of this collaboratively produced trajectory.
+inquiries, and revisions. Git/GitHub version history and ChatGPT’s Computer History
+are two main entrances for gathering complementary parts of this collaboratively produced trajectory.
 [Forming a life trajectory](flow-and-time.md#external-memory-and-event-traces) develops
 its recoverability. Reflecting on this trajectory, the participants can explore
 how each has taken part, where a response has fitted or missed, and what can be

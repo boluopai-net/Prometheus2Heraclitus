@@ -14,18 +14,16 @@ Imagine person and model improving a reading environment together. The person in
 
 This work leaves a wish, an initial interpretation, versions of a work, actual operations, experience of use, and revisions. The trajectory connects them so later participants can ask why an arrangement arose, which use changed a judgment, what the current version preserves, and what remains unresolved. Cooperation produces the trajectory while accumulating an environment; a completed personal philosophy is not a prerequisite for beginning that work.
 
-## What Git and Command History each retain
+## Git/GitHub and Computer History
 
-In the working environment adopted here, Git and Command History are two basic records: the former makes changes to works and configuration comparable, and the latter makes executed operations traceable. Conversations, activity records, and use feedback contribute content neither expresses on its own.
+The trajectory brings histories from different places together so they can be retrieved, compared, and interpreted jointly. Two main entrances illustrate this gathering: **Git/GitHub version history** and **ChatGPT’s Computer History**. The former retains changes to works and configuration; the latter retains computer activity across applications within its enabled observation scope. It brings reading, browsing, making, conversation, and use of the environment into history, connecting changes to works with actual activity.
 
 | Material | What it retains in the reading example | Its contribution to the trajectory |
 | --- | --- | --- |
-| Git version history | Changes to pages, indexes, and configuration, with earlier versions available. | Compare differences in works and locate what a revision actually changed. |
-| Command History and associated execution results | Build, checking, or publication operations and their observable results. | Connect modification to use; when only a command is available, retain the unknown outcome as unknown. |
-| Conversation and choices | The intended improvement, interpretations of the problem, and reasons for choosing an approach. | Give versions and operations their purposes and the provenance of interpretations and decisions. |
-| Actual use and feedback | Where reading broke down, which layout made continuation easier, and what remains unclear. | Bring a completed work into life and provide grounds for its next revision. |
+| Git/GitHub version history | Changes to pages, indexes, and configuration, with earlier versions available. | Compare differences in works and locate what a revision actually changed. |
+| ChatGPT’s Computer History | What was encountered in applications and webpages, how works were read, switched between, operated, and used, and the relevant traces those activities left. | Place versions within actual use, connecting an episode of reading, conversation, or revision with surrounding activity. |
 
-A Git change cannot by itself explain a person's experience, and an operation record does not automatically establish that a wish was fulfilled. Connecting them with relevant conversation and use results gives the trajectory explorable relationships. Experiences outside software can enter understanding through material the person later chooses to express; gaps in the record remain gaps.
+These two kinds of history are the main entrances for organizing material. Histories retained elsewhere can also join the same trajectory through time, objects, and provenance. In the reading example, version history lets the participants compare what changed in the page, while computer activity history lets them return to how it was read and used. Connecting the expression and feedback within those activities supports further understanding of why a revision was made and whether it helped. Records supply revisitable material; shared exploration develops an understanding of the experiences it concerns.
 
 ## From scattered records to revisitable relationships
 
