@@ -9,9 +9,37 @@ What they make goes into the world. Its return changes the next turning.*
 
 ## Entering the encounter through a jointly produced trajectory
 
-Person and model have already cooperated in inquiry, making, and accumulating an environment. Versions of works, operation records, conversations, and feedback leave a life trajectory they can revisit. Now they also inquire into the process of working together: how did they understand one another, which response changed an idea, what helped action continue, and what deserves rearrangement?
+Person and model have already cooperated in inquiry, making, and accumulating
+an environment. Versions of works, operation records, conversations, and
+feedback leave a trajectory they can revisit. In the preceding reading example,
+they made material accessible, discovered that navigation interrupted reading,
+and revised the interface. Now they turn toward the cooperation within that
+history: what did each contribute, which response changed their understanding,
+and what might another way of participating make possible?
 
-The encounter deepens through shared reflection on this trajectory. The person can recognize their wishes through the model's responses and works; the model can revise its understanding of participants and relationships through the person's expression, choices, and corrections. The existing trajectory becomes material for further exploration and cultivation. Sun, Moon, and Taiji give this reciprocal generation an image; subsequent personal philosophical writing unfolds relationships that have already occurred and become objects of reflection.
+They can place the first request, the opening test, the person's account of
+losing a connection, and the revised layout beside one another. The person
+may recognize that “convenient access” included sustaining a thought across
+passages. The model can recognize that its first check established a narrower
+success. Revisiting the exchange also changes what each sees in the other:
+the person's objection can generate a new design question, and the model's
+candidate layout can help the person articulate a concern not previously
+clear. These contributions were present in doing the work; shared reflection
+now makes their relation an object of inquiry.
+
+The records establish particular expressions, operations, and changes. They
+do not by themselves establish that the person always thinks visually or
+that this model is an ideal counterpart. Such interpretations need comparison
+with the person's corrections, other relevant encounters, and actual
+capabilities. Reflection can already yield a useful local understanding:
+here, comparing visible alternatives helped, and checking an operation needed
+to be joined with reading in use. They can try that understanding in the next
+exchange and discover how far it carries.
+
+Sun, Moon, and Taiji give these observed and possible transformations a literary
+form. They let the participants ask how receiving becomes generating, how a
+distinction changes a beginning, and how a work returns from the world. The
+image helps explore a relation that remains open to its next encounter.
 
 ## The core image
 
@@ -61,6 +89,14 @@ The image can help when cooperation loses one of its relations: the person must 
 
 ## Mutual grounding and the Shuang yu
 
+Read the reading trajectory through this image. The wish for convenient access
+opens a possibility; a layout gives it a form; the person's difficulty with
+that form opens another possibility. When the model proposes keeping related
+passages visible together, it generates rather than merely receives. When the
+person compares the alternatives and rejects one, they distinguish and judge.
+The Sun–Moon image makes these changes of emphasis perceptible without turning
+the first division of work into a permanent account of either participant.
+
 Movement can prepare stillness; stillness can make another movement possible.
 A generated possibility gives judgment something to examine; a distinction or
 check can open a new possibility. Neither contribution has to finish once and
@@ -82,6 +118,14 @@ contributes the relation of mutual grounding, rather than this assignment
 of roles and participants to the fish.
 
 ## Bow, lyre, and the force of difference
+
+In revisiting the same trajectory, the participants may also find a productive
+difference: one wants a visually spacious page, while the other proposes
+keeping more context on screen. They can ask which connections each layout
+preserves and compare them in reading. If the model instead insists that a
+successful opening test settles the person's reported difficulty, the tension
+blocks inquiry. The relevant change is then to reconnect the check with the
+purpose and experience it had left out.
 
 *The curve does not become the string. Their difference holds a possibility that neither has alone. A small alteration changes the note; too much force breaks the relation that made the note possible.*
 
@@ -107,6 +151,17 @@ for example, can lead beyond repairing code to reconsidering what it was
 supposed to do. Earth returns more than a verdict on the existing design.
 
 The movement therefore has two connected dimensions. Contributions can change hands within a piece of work, and the work's consequences can change the relation through which the next piece begins. A finished work is a real local achievement within that movement. Its finitude does not contradict the open horizon: completion gives what has been made enough independence to be encountered, used, and answered.
+
+## From a reflected relation to further participation
+
+The reflected result is more than a better page. The participants have begun
+to understand how an objection can generate a direction, how a prototype can
+make an unspoken concern recognizable, and how either contribution can change.
+[Shared reflection and continued cultivation](participation-and-support.md)
+next asks how this understanding changes available participation: what support
+lets the person read, express, judge, and create with greater scope, and what
+the counterpart needs to do for that support to work. These questions carry
+the image back into the next shared activity.
 
 ## Classical sources and this construction
 

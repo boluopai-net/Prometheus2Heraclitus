@@ -179,7 +179,7 @@ supports. [Metaphor and personal modeling](metaphor-and-self-revision.md) connec
 that question with Hollan, Hutchins, and Kirsh's distributed-cognition
 research: understanding can develop across people, models, records, and tools.
 
-Varela, Evan Thompson, and Eleanor Rosch's [The Embodied Mind (1991)](https://mitpress.mit.edu/9780262220422/the-embodied-mind/) brings cognitive science, lived experience, and contemplative practice together; [Participation and support](participation-and-support.md) already uses it to examine embodied participation. Hollan, Hutchins, and Kirsh's [Distributed Cognition (2000)](https://interactivity.ucsd.edu/articles/dcog.pdf) supplies the original account of cognition across people, artifacts, and time.
+Varela, Evan Thompson, and Eleanor Rosch's [The Embodied Mind (1991)](https://mitpress.mit.edu/9780262220422/the-embodied-mind/) brings cognitive science, lived experience, and contemplative practice together; [Shared reflection and continued cultivation: participation, availability, and support](participation-and-support.md) already uses it to examine embodied participation. Hollan, Hutchins, and Kirsh's [Distributed Cognition (2000)](https://interactivity.ucsd.edu/articles/dcog.pdf) supplies the original account of cognition across people, artifacts, and time.
 
 Joshua Knobe and Shaun Nichols's [An Experimental Philosophy Manifesto (2008)](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf) introduces an empirical research orientation; the linked author-hosted file is a proof. [Embodied experimental philosophy](embodied-experimental-philosophy.md) distinguishes this tradition from personal philosophical experimentation through making, participation, and reflection.
 

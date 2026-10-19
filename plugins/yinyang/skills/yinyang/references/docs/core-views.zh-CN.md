@@ -164,7 +164,7 @@
 又可能显露下一处不合适。对话提示词与持续维护的文稿，是写作中的不同贡献。
 转录文本提供词句，听出语调则需要实际音频。
 [穿行于角色之间的听说读写](metaphor-and-self-revision.zh-CN.md#穿行于角色之间的听说读写)
-展开这种分配；[参与、可用性与支持](participation-and-support.zh-CN.md)考察参与的可及性及其代价。
+展开这种分配；[共同反思与继续培育：参与、可用性与支持](participation-and-support.zh-CN.md)考察参与的可及性及其代价。
 [准备相遇的材料](stealing-fire.zh-CN.md#一种学习方式准备相遇的材料)把选取的文本、图示、音频与练习连向学习。
 
 <a id="yy-07"></a>

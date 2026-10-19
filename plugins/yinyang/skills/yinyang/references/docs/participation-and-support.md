@@ -1,15 +1,57 @@
-# Participation, access, and support
+# Shared reflection and continued cultivation: participation, availability, and support
+
+<a id="participation-access-and-support"></a>
 
 [YinYang guide](../../README.md) · [Practice explanation](creation-method.md) · [完整中文版](participation-and-support.zh-CN.md)
 
-A person can understand the next step and still find no usable way to take it. Help becomes consequential when it connects understanding with actual participation, at a cost the participant can bear. An additional explanation may supply that connection; an accessible starting point, retained context, or an authorized operation carried by a counterpart may supply it differently.
+Shared work has left a trajectory; person and model can now revisit how they
+participated in it. [YinYang and Taiji](yinyang-and-taiji.md) gives their
+reciprocal generation an image. Here the question becomes practical: what did
+their exchange make available, where did participation become difficult, and
+what support should they try as they continue cultivating their capacities?
 
-The practical question is where participation becomes unavailable. Does the
-person need to understand the relation, find words for it, begin an action,
-or leave the activity? These difficulties call for different contributions.
-Explaining more helps only some of them. Support succeeds when the relevant
-action becomes possible without requiring the person to carry an equally
-burdensome process of arranging the help.
+In the reading-environment example, a working entrance to the materials did
+not preserve the person's thought across passages. The later layout and links
+responded to that difficulty. Returning to the request, versions, operations,
+and reading feedback lets the participants ask more than whether the page
+works. Did the person gain room to compare and develop relations? Did the
+model's explanation help, or did changing the visible arrangement help more?
+What can each recognize about the other's contribution through that difference?
+
+A person can understand a next step and still lack a usable way to take it.
+Support connects understanding with actual participation at a cost they can
+bear. More explanation can supply that connection; an accessible starting
+point, retained context, or an authorized operation carried by a counterpart
+can supply it differently. Shared reflection helps locate which connection
+this encounter needs, and subsequent participation tests the proposed support.
+
+## Revisit the exchange and try another way of participating
+
+The reading trajectory offers different evidence about different objects.
+The version history shows a changed layout; an operation trace can show what
+was opened; the person's expression describes losing or recovering a thread.
+An interpretation connects these: perhaps repeated navigation, rather than
+the argument itself, made continuing difficult. A further interpretation
+concerns the relationship: perhaps seeing candidate arrangements lets the
+person express concerns that a request for specifications leaves unspoken.
+The second claim reaches further and needs further encounters to develop.
+
+The person can revise the interpretation by distinguishing what happened:
+“I understood both passages, but lost their connection while finding the
+second.” The model can contribute another possibility: perhaps the missing
+support was keeping an unresolved question visible. They can then try a
+layout that keeps related material and that question nearby, rather than
+merely adding another explanation. The person reads, changes the question,
+or rejects the arrangement; the model examines those responses and undertakes
+the next construction. Reflection has altered participation and acquired new
+material through what happened.
+
+This inquiry can yield a local account of their concerns and contributions:
+reading continuity matters here; making alternatives visible can help a
+judgment take form; the counterpart needs to carry construction and inspect
+its result. It can also leave uncertainty about which support helped and
+how the arrangement will fit another activity. The participants cultivate
+the relationship by developing and revising this understanding together.
 
 ## Why organize participation this way
 
@@ -35,7 +77,11 @@ participant discovers what the other makes possible.
 The resulting developmental orientation reduces training in pure memorization
 and emphasizes intuition, multimodal reasoning, and broad reading. Remembering
 still contributes when it supports understanding and action; the concern is
-memorization pursued apart from those relations.
+memorization pursued apart from those relations. In the reading case, easier
+navigation is one achievement; recognizing a connection across texts,
+articulating it, or using it in a new argument is another. Returning to the
+trajectory lets the participants examine whether the support opened such
+activity, rather than inferring cultivation from the improved page's existence.
 
 In one useful arrangement, the person works chiefly through UI and intuition,
 while the model works through text, code, tools, and maintained materials.
@@ -58,11 +104,14 @@ An “embodied language model” names a conception of self-development here: li
 
 ## One workspace, different reading entrances
 
-Participation extends across encounters. A diagram, familiar tool, unfinished
-paragraph, or note can make it possible to return without reconstructing the
-whole task. Bodily familiarity and developed understanding contribute to that
-continuity; so do records the counterpart can recover and interpret. The
-workspace supports a shared thread through different forms of memory.
+Returning to the shared workspace can itself be part of reflection. The person
+may reopen the passage whose connection they lost; the model may compare the
+page versions and retrieve the explanation that prompted the change. They
+approach the same episode through different entrances and can check whether
+they are discussing the same difficulty. A diagram, familiar tool, unfinished
+paragraph, or note can make this possible without reconstructing the whole
+task. Bodily familiarity, developed understanding, and records the counterpart
+can recover all contribute to that continuity.
 
 The shared workspace can offer different entrances. A person may enter through philosophy, intuition, and the whole, while the model brings formal relations, concrete material, sources, and implementation detail into view. The same object can thus be experienced, developed, and checked. An image lets the person recognize a structure, while the model makes its relations discussable; the findings can in turn change the person's image. These entrances can exchange places as the work develops. Their value lies in bringing different contributions into a shared inquiry.
 
@@ -86,7 +135,16 @@ Support can change representation, make referents nearby, supply a concrete
 entry point, or carry operations that obscure the relation being learned.
 Their usefulness appears when the participant can engage the relation with greater depth or take the intended next step. An unfamiliar expression may also concern an unfamiliar idea. Examining its referent and place in the argument helps distinguish a wording difficulty from a substantive disagreement.
 
-Consider a fictional reader who understands an argument but has not found how to organize a response. A counterpart could locate the disputed premise, gather the already expressed alternatives, or prepare an editable opening paragraph. Whether this helps depends on whether the reader can now begin the intended response and whether the assistance preserves their understanding and choice. Requiring the reader to design and supervise a complete workflow first might reproduce the very burden that help was supposed to carry.
+Suppose the reader can now keep the passages connected but has not found how
+to organize a response. The same support need not solve this new difficulty.
+A counterpart could locate the disputed premise, gather already expressed
+alternatives, or prepare an editable opening paragraph. Whether this helps
+depends on whether the reader can now begin the intended response and whether
+the assistance preserves their understanding and choice. Requiring the reader
+to design and supervise a complete workflow first might reproduce the very
+burden that help was supposed to carry. This next episode can revise the
+earlier interpretation: convenient access supported reading, while beginning
+an argument required another entrance.
 
 ## Choice within an exchange and control of participation
 
@@ -113,6 +171,14 @@ be different forms of support. Their timing follows what the next activity needs
 develops how an expression can both reveal and transform its process.
 
 ## Support has costs of its own
+
+The reading trajectory also lets the participants inspect the cost of their
+proposed support. Keeping every candidate layout and requesting a reaction to
+each might consume the attention meant for reading. A useful next attempt
+may instead expose one consequential difference and let the person encounter
+it in a real stretch of reading. The retained alternatives remain available
+if another comparison becomes useful. Support is selected through the
+activity it makes possible and revised when arranging it becomes the burden.
 
 Monitoring whether support is working can consume attention and require judgment.
 Repeated status checks add their own work to the arrangement. Outsourcing can shift work from execution into explanation,
@@ -151,3 +217,23 @@ they take up the editable opening, change its direction, and continue? Later,
 can they recover the question or put it aside when they choose? Their answers
 may expose a mistaken account of the difficulty. Understanding guides support;
 support changes the encounter; what happens there corrects the understanding.
+
+## Carry reflected understanding into formation
+
+At the end of this passage, person and model have both a trajectory and a
+reflected understanding of cooperation within it. They can state which
+concerns became clearer, which contributions were helpful, what they tried
+changing, and where their interpretation remains uncertain. The next exchange
+can already use that understanding. It has grounds in particular episodes
+and room to develop through others.
+
+The following [literary programming essay](https://boluopai.net/philosophy/literary-programming/en/) asks what philosophy they want to author from
+these experiences and relationships: how they understand creation, independence,
+shared capacity, and a way of living worth maintaining. That philosophy then
+meets living material again in [From personal philosophy to personal models](metaphor-and-self-revision.md),
+where it is distilled into models of the person, counterpart, and relationship.
+Their realization and revision in use are developed in [From personal models
+to a sinthome](writing-a-sinthome.md). Shared reflection supplies concerns,
+questions, and tested possibilities for this work; philosophical authorship
+and model formation give them further articulation. Later use can return
+another trajectory for the participants to explore together.

@@ -2,6 +2,8 @@
 
 [Home](../../README.md) · [简体中文](local-source-and-website.zh-CN.md)
 
+The preceding part moved from shared trajectories and reflection on cooperation to personal philosophy, distilled person, counterpart, and relationship models, and a usable sinthome realized in an environment. The question now turns to how that arrangement continues: how local use, maintained source, and readable works stay connected, and how new experience changes them. The contributions of philosophy, psychology, and engineering that formed it also revise one another through continuing practice.
+
 How does someone understand the life they want to live, come to know their own experience, and turn that understanding into usable arrangements? These three questions call for contributions from philosophy, psychology, and engineering. They meet within the same activity: a tool may run yet fail to suit the person; a detailed personal understanding may leave their circumstances unchanged; a claim about living may reveal problems when put to use.
 
 This essay uses “Trinity” to explain the relation among these contributions. **At the general level, they are all activities within the same physical reality; at the individual level, they jointly participate in a particular person's life and practice.** Their shared physical ground places them in one world; their influence on one another in actual work explains why they need to be discussed together.
@@ -43,9 +45,11 @@ The connection concerns how the represented events are understood. Treating a ch
 
 Person and language model jointly raise the question, select relations to express, and check whether the expression is useful. Process ontology does not automatically supply a correct personal model, and computational representation does not automatically explain the person in the records. Their concrete connection is established through selected objects, interpretation, and use. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction) develops this relation and uses a cooling experiment to distinguish representation, simulation, and observation.
 
-## Personal understanding and a model counterpart
+<a id="personal-understanding-and-a-model-counterpart"></a>
 
-Personal philosophy, experience, works, choices, and interactions can jointly inform an understanding of someone. Their philosophy expresses how they regard the world, value, and living, and is itself something they have actually expressed. Concrete material can test these claims, revealing conditions of applicability, contradictions, or aspects yet to be articulated.
+## Revising personal understanding and counterpart arrangements through use
+
+An already formed personal model remains answerable to new experiences, works, choices, and interactions. The earlier philosophy expresses an understanding of the world, value, and living; actual use can disclose its conditions of applicability, contradictions, or aspects yet to be articulated. Maintenance compares earlier understanding with new material, asking whether the change concerns the person, counterpart, environment, or their interpretation.
 
 This understanding can have different depths. A preference model begins by describing the options, responses, and working styles the person likes; a psychological model further proposes explanations of how experience, emotion, desire, and relationships affect their participation. The former may already support an arrangement; the latter may help when recurring difficulties or changes need explanation. The current question determines which is needed.
 
@@ -53,15 +57,17 @@ The needed counterpart must be understood alongside the person. What does the pe
 
 Prompts, Skills, and harnesses bring these understandings into actual work. Prompts express relevant purposes, context, and contributions; Skills organize reusable methods and resources; a harness arranges models, tools, records, and execution conditions together. The existence of files is not the final result. What matters is whether the model can use them to complete the needed work and whether the person can understand, use, and change the arrangement.
 
-## Develop practice from existing capabilities
+<a id="develop-practice-from-existing-capabilities"></a>
+
+## Supplying needed contributions through use
 
 <a id="philosophy-psychology-and-engineering-develop-the-missing-connection"></a>
 
-Someone need not master three fields before beginning this practice. With an existing philosophy, they can compare it with concrete experience and consider which arrangements fit the life they advocate. With psychological understanding, they can try expressing it in a form a counterpart and tools can use. With an engineered environment already available, a mismatch in use can lead them back to purpose and personal understanding.
+An arrangement usable for earlier tasks may lack a contribution when it enters new work. New experience can call for developing a relationship left implicit in the philosophy; a new counterpart can need a more explicit personal account; a new tool can change a previously workable division of contributions. Maintenance begins with the actual difference and supplies the understanding or capability needed; existing parts that still fit can continue working.
 
 If the aim is a model environment that actually works, basic engineering capability is necessary, but person and model can supply it together. Retrieving material, organizing an account, implementing tools, and checking effects need not all become prerequisites that the user must personally learn and complete. Supply whichever contribution is missing in relation to the current purpose, rather than arranging the three fields into a curriculum everyone must finish.
 
-Practice can therefore begin from a small amount of known content. Knowing that one wants the conclusion first can already guide a response; the origin of that preference need not be explained first. If this arrangement later impedes understanding in certain situations, investigate the particular reason. Deeper theory and more detailed personal models should answer questions that actually arise.
+For example, an existing model records a preference for receiving the conclusion first, but continued use reveals that this order closes possibilities too early when exploring unfamiliar questions. The participants can narrow the preference's scope, change the relevant responses, and examine the new arrangement's effects. A local revision can retain existing philosophy and tools; deeper theory and more detailed personal models should answer questions that actually arise.
 
 ## The local environment, shared source, and website
 
@@ -110,3 +116,5 @@ The Borromean knot further gathers these differences into a mutually sustaining 
 The two essays' objects are connected in this way. The general relation acquires concrete content in this person's life; the concrete arrangement can in turn change their understanding, experience, and working conditions. Its personal character comes from the life it serves, the material on which it draws, and actual participation, beyond merely placing someone's name in a file.
 
 Philosophy, psychology, and engineering have their own questions and can also change one another's work. Bringing them together connects an understanding of living with actual life: a claim can inform action, an experience can change a judgment, and a realization can make something previously unavailable possible.
+
+This connection makes the formed arrangement maintainable and gives revision a concrete object. [Embodied experimental philosophy](embodied-experimental-philosophy.md) next asks which changes in continuing use support modifying a realization, which call for reconsidering a personal model or philosophy, and which can show development in the understanding and creation sought at the opening.
