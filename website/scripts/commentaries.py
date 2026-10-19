@@ -22,7 +22,7 @@ GROUPS = [
     ]),
     ('理解', 'Understanding', [
         ('world-and-expression', '从共同活动到可以返回的表达：区分过程、模型与记录，说明生活轨迹保留的是什么。'),
-        ('flow-and-time', '以共同改善阅读环境为例，把 Git、Command History、对话与反馈联系成可接续的生活轨迹。'),
+        ('flow-and-time', '以共同改善阅读环境为例，通过 Git/GitHub 版本历史与 Computer History 汇集各类历史，形成可接续的生活轨迹。'),
         ('reasoning', '从轨迹中提出问题、比较候选解释，让检查、行动、结果与判断的修订继续留下根据。'),
         ('preference-harness', '在轨迹中保留选择与证据各自的贡献：采用一个工作视图，同时让其他材料与分岔仍能返回。'),
         ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
@@ -55,7 +55,7 @@ EN_SUMMARIES = {
     'stealing-fire': 'Begin with available intelligence: borrow fire, then develop understanding, creation, and action.',
     'personal-first-humanism': 'Make the ethical premise explicit: tools and cooperation support concrete lives; output volume does not substitute for development.',
     'world-and-expression': 'Move from shared activity to revisitable expression: distinguish processes, models, and records to explain what a life trajectory retains.',
-    'flow-and-time': 'Use a jointly improved reading environment to connect Git, Command History, conversation, and feedback into a life trajectory that can be continued.',
+    'flow-and-time': 'Use a jointly improved reading environment to gather histories through Git/GitHub version history and Computer History, forming a life trajectory that can be continued.',
     'reasoning': 'Pose questions and compare candidate explanations from the trajectory, retaining grounds for checks, actions, outcomes, and revised judgments.',
     'preference-harness': 'Retain the distinct contributions of choices and evidence: adopt a working view while keeping other materials and branches revisitable.',
     'finite-inquiry-and-abstraction': 'Retain and retrieve enough of the trajectory under finite conditions, carrying explorable living material into the next part’s shared reflection.',
