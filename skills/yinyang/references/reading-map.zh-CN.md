@@ -91,8 +91,12 @@
 这些链接在完整的阴阳目录中解析。[共享 Skill 与个人哲学](docs/skill-package.zh-CN.md)
 解释分发与私人支撑；材料缺失时应指出，不声称读过。私人出处留在[私人索引](personal/README.md)。
 
-[相遇图](diagrams/encounter.zh-CN.html)与[层次图](diagrams/layers.zh-CN.html)
-表达相连的关系，并提供对应的[英文相遇图](diagrams/encounter.html)与[英文层次图](diagrams/layers.html)。
-独立的 HTML 资源帮助检查整体安排；[相遇图 SVG](diagrams/encounter.zh-CN.svg)
-与[层次图 SVG](diagrams/layers.zh-CN.svg)提供静态导出。图中方向表示关系，而非强制顺序或权限层级。
+四张图提供直观入口：
+
+- [全书关系](diagrams/formation-path.zh-CN.html)联系生活轨迹、共同反思、个人哲学、个人模型与实际实现。[English](diagrams/formation-path.html) · [SVG](diagrams/formation-path.zh-CN.svg)
+- [窃火与培养](diagrams/borrowed-fire.zh-CN.html)联系共同积累的能力、共同创造、人的能力发展与世界的回应。[English](diagrams/borrowed-fire.html) · [SVG](diagrams/borrowed-fire.zh-CN.svg)
+- [共同探究](diagrams/encounter.zh-CN.html)呈现参与者相连的贡献。[English](diagrams/encounter.html) · [SVG](diagrams/encounter.zh-CN.svg)
+- [理解与实现](diagrams/layers.zh-CN.html)联系解释性的理解、方法与它们的实际形式。[English](diagrams/layers.html) · [SVG](diagrams/layers.zh-CN.svg)
+
+独立的 HTML 资源表达关系，而非强制顺序或权限层级。完整论证与根据留在相应文章中。
 来源、验证与再分发声明见[图示维护说明](diagrams/PROVENANCE.md)。

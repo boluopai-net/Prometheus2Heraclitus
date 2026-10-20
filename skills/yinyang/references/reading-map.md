@@ -111,11 +111,22 @@ These links resolve within the complete YinYang directory. The
 identify missing material rather than claiming to have read it. Private
 provenance stays at its [private index](personal/README.md).
 
-The [encounter](diagrams/encounter.html) and [layers](diagrams/layers.html)
-diagrams express connected relations, with matching [Chinese encounter](diagrams/encounter.zh-CN.html)
-and [Chinese layers](diagrams/layers.zh-CN.html) viewers. The self-contained HTML
-resources can help inspect the whole arrangement; [encounter SVG](diagrams/encounter.svg)
-and [layers SVG](diagrams/layers.svg) provide static exports. Diagram directions
-show relations rather than a mandatory sequence or authority hierarchy.
+Four diagrams provide visual entrances:
+
+- [Formation through shared practice](diagrams/formation-path.html) connects
+  life trajectory, shared reflection, philosophy, personal models, and their
+  realization. [中文](diagrams/formation-path.zh-CN.html) · [SVG](diagrams/formation-path.svg)
+- [Fire and cultivation](diagrams/borrowed-fire.html) connects collective
+  capability, joint creation, developing capacities, and worldly feedback.
+  [中文](diagrams/borrowed-fire.zh-CN.html) · [SVG](diagrams/borrowed-fire.svg)
+- [Shared inquiry](diagrams/encounter.html) makes the participants' connected
+  contributions visible. [中文](diagrams/encounter.zh-CN.html) · [SVG](diagrams/encounter.svg)
+- [Understanding and realization](diagrams/layers.html) connects interpretive
+  understanding with methods and their working forms.
+  [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
+
+The self-contained HTML resources show relations rather than a mandatory
+sequence or authority hierarchy. Use the relevant essay for the developed
+argument and its grounds.
 See [diagram maintenance](diagrams/PROVENANCE.md) for source, validation, and
 redistribution notices.
