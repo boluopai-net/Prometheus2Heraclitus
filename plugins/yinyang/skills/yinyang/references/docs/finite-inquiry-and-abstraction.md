@@ -189,7 +189,7 @@ the participants know about this passage.
 
 This is the result toward which this part has worked: enough connected living
 material to revisit shared activity, rather than a complete biography or a
-final personal model. In [YinYang and Taiji](yinyang-and-taiji.md), the
+final personal model. In [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md), the
 participants turn toward that trajectory together. They can ask how each
 contributed, what the exchange made possible, what was missed, and what they
 want to cultivate further. Finite representation has prepared something for

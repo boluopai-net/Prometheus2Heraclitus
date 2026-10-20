@@ -6,7 +6,7 @@
 small hesitation changes the question. A revised question gives the next
 arrangement another shape. The world has entered the argument.*
 
-The preceding account has formed a usable personal arrangement, and [Trinity](local-source-and-website.md) explains how it is sustained across actual life, source, and works. This essay examines its consequences: as the arrangement continues in use, which changes call for modifying tools, which alter understanding of person or counterpart, and which reach the original philosophy and developmental purpose?
+The preceding account has formed a usable personal arrangement, and [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) explains how it is sustained across actual life, source, and works. This essay examines its consequences: as the arrangement continues in use, which changes call for modifying tools, which alter understanding of person or counterpart, and which reach the original philosophy and developmental purpose?
 
 Philosophy gives practice concepts, images, and reasons; the person encounters the arrangement they organize through perception, attention, effort, action, and other people's responses. Continue the reading example: direct passage access may make reading easier but impede grasping the whole with another kind of material. The participants must consider new use alongside the purposes, models, and design it encounters to locate the needed change. A new trajectory thereby returns the formed way of living to reflection.
 
@@ -159,7 +159,7 @@ actual behavior.
 The published work has acquired enough independence to be understood in a way
 its makers did not predict. That difference is evidence about the expression;
 its further implications depend on whether the same relation organizes actual
-practice. [Trinity](local-source-and-website.md) situates these returns within
+practice. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) situates these returns within
 the connection of philosophy, psychology, and engineering.
 
 When someone chooses to share a work on WeChat Moments, responses can likewise
@@ -186,7 +186,7 @@ arrangements, let arrangements enter embodied life, and let what happens
 return as material for understanding. The world contributes to the argument
 through consequences that neither person nor model can settle by agreement.
 
-This returns to the purpose opening [Stealing fire](stealing-fire.md). An environment becoming easier to use is a concrete improvement; recognizing new relations, asking new questions, or initiating new works in later reading, expression, and creation can further show what cultivation has accomplished. Effective supports can remain constituents of that capacity. Works and methods worth sharing enter the next essay, [Adopt, combine, or create](example-and-commons.md): one's practice becomes a resource others can examine, while new encounters bring different questions back.
+This returns to the purpose opening [Stealing fire and cultivating creative capacity](stealing-fire.md). An environment becoming easier to use is a concrete improvement; recognizing new relations, asking new questions, or initiating new works in later reading, expression, and creation can further show what cultivation has accomplished. Effective supports can remain constituents of that capacity. Works and methods worth sharing enter the next essay, [Adopt, combine, or create](example-and-commons.md): one's practice becomes a resource others can examine, while new encounters bring different questions back.
 
 ## Sources and scope
 

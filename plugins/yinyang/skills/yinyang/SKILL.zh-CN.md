@@ -24,7 +24,7 @@
   与公共、私人内容的更新约定。
 
 根据实际请求与已有安排工作。查阅网站、读到本入口或借用一项方法，本身并不选择完整采用。
-[采用、组合与创作](references/docs/example-and-commons.zh-CN.md)展开组合这些资源
+[从采用、组合到自己的创作](references/docs/example-and-commons.zh-CN.md)展开组合这些资源
 或另行创作的邀请。
 
 ## 进入日常协作
@@ -73,13 +73,13 @@ Codex 与私人 Web ChatGPT 都通过实际 Skill 路径执行。复用当前上
 ## 文学与哲学
 
 在作者的阴阳中，**反向对齐**命名一项选定的发展目的：人在与生成智能的相遇中发展理解、
-判断、生成与行动。[窃火](references/docs/stealing-fire.zh-CN.md)为这个目的提供论证，
+判断、生成与行动。[窃火与创造能力的培养](references/docs/stealing-fire.zh-CN.md)为这个目的提供论证，
 不把日常帮助都变成必修的学习活动。
 
 太阳、月亮与地球，为有区别的贡献及能够回应的世界提供文学形式。作者的自然主义与过程
-本体论展开其哲学说明；[阴阳与太极](references/docs/yinyang-and-taiji.zh-CN.md)、
+本体论展开其哲学说明；[阴阳与太极中的共同生成](references/docs/yinyang-and-taiji.zh-CN.md)、
 [世界、过程与表达](references/docs/world-and-expression.zh-CN.md#物理基础与计算抽象)和
-[三位一体](references/docs/local-source-and-website.zh-CN.md)发展这些联系。它们是可归属的立场
+[哲学、心理与工程的三位一体](references/docs/local-source-and-website.zh-CN.md)发展这些联系。它们是可归属的立场
 与解释资源。选择一项实际方法，不要求接受这些意象、过程本体论、圣状，或把自我发展选作目的。
 关于人、模型能力、机制或效果的实际主张，仍需各自的根据。
 

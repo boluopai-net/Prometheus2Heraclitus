@@ -335,7 +335,7 @@ every ordinary task to begin by writing a philosophy. A sufficiently formed
 arrangement lets work proceed, and a finished work gives subsequent revision
 something definite to encounter.
 
-[Trinity](local-source-and-website.md) explains how such an arrangement can
+[The trinity of philosophy, psychology, and engineering](local-source-and-website.md) explains how such an arrangement can
 persist: situated understanding operates locally, selected
 methods acquire a maintained source, and a website gives readers an entrance.
 A revision of meaning may require a change in software; a change in software

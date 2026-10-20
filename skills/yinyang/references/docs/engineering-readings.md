@@ -95,7 +95,7 @@ Algorithms and complexity analysis establish properties under formal conditions;
 | Source | Connection to the essays |
 | --- | --- |
 | A. M. Turing (1936), [On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), especially §6 | The universal machine supplies the formal reference for the interpreter analogy in [Metaphor and personal modeling](metaphor-and-self-revision.md). It does not establish that a language model interprets every program correctly. |
-| Thomas R. Gruber (1993), [A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf), §§1–2 | Objects, relations, and shared conceptualization in knowledge representation. Read alongside the engineering ontology developed in [Stealing fire](stealing-fire.md); that essay extends the source into its own account. |
+| Thomas R. Gruber (1993), [A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf), §§1–2 | Objects, relations, and shared conceptualization in knowledge representation. Read alongside the engineering ontology developed in [Stealing fire and cultivating creative capacity](stealing-fire.md); that essay extends the source into its own account. |
 | Donald E. Knuth, [Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html) | The established practice of organizing explanation and program code together. Compare its technical purpose with this collection's broader literary natural-language programming. |
 
 ## Experimental implementation, data, and model assessment
@@ -117,6 +117,6 @@ Engineering realization happens in the material world. Programs run on machines,
 [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/) provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Enter through the needed concept rather than treating all three volumes as a prerequisite for programming. Feedback and model assessment connect back to the system-identification resources above.
 
 Physics investigates regularities; engineering designs and realizes under those
-conditions. The [Trinity](local-source-and-website.md) develops their connection
+conditions. The [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops their connection
 with philosophy and psychology. A running program establishes a realization;
 its explanatory adequacy for a psychological process is a further question.

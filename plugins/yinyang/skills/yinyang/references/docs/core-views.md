@@ -10,7 +10,7 @@ or challenge, rather than as established facts or prerequisites for every
 reader's work. A reader can understand this philosophy, borrow a useful method,
 or adopt the complete Skill; borrowing a distinction does not require adopting
 its developmental purpose or writing a personal philosophy. See
-[Adopt, combine, and create](example-and-commons.md).
+[From adoption and combination to creating your own work](example-and-commons.md).
 
 [Home](../../README.md) · [完整中文版](core-views.zh-CN.md)
 
@@ -52,9 +52,9 @@ of sensing, expression, interpretation, and action that generate and revise
 local views. This process ontology also grounds the engineering account:
 question-relative models make selected continuities and changes representable
 in a computer and open to simulation where useful. This does not establish identical mechanisms
-or a complete reduction of experience. [Stealing fire](stealing-fire.md#from-living-fire-to-interacting-event-streams)
+or a complete reduction of experience. [Stealing fire and cultivating creative capacity](stealing-fire.md#from-living-fire-to-interacting-event-streams)
 develops the foundation; [Forming a life trajectory](flow-and-time.md) develops its
-continuity. [YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
+continuity. [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
 changing contributions an image. Participants exceed their roles, and an open
 process can still produce a finished work.
 
@@ -76,7 +76,7 @@ person's next act of understanding.
 
 Agreement, a useful output, and human growth are different outcomes. Growth
 requires changes in the person's actual participation and capacities, whether
-internalized or reliably supported by the environment. [Stealing fire](stealing-fire.md#what-makes-the-fire-ones-own)
+internalized or reliably supported by the environment. [Stealing fire and cultivating creative capacity](stealing-fire.md#what-makes-the-fire-ones-own)
 develops this distinction between using available capability and cultivating it.
 For someone seeking a completed document or relief from a burden, the model
 may appropriately carry the writing and implementation. When learning is also
@@ -141,7 +141,7 @@ and changes. The person differs from their account and from its written or
 visual expression; the actual model system likewise exceeds its working
 description. “Model psychology” names observable patterns and revisable
 explanations without presuming human feelings inside the system. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
-develops this bounded modeling; [Stealing fire](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
+develops this bounded modeling; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
@@ -166,9 +166,9 @@ environment shaping interaction—can realize that arrangement within actual
 authorization and safety boundaries. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
 works, and action. [From personal philosophy to personal models](metaphor-and-self-revision.md#what-an-image-makes-available)
-develops this movement from image to revisable relation; [Stealing fire](stealing-fire.md#literary-programming-and-the-model-counterpart)
+develops this movement from image to revisable relation; [Stealing fire and cultivating creative capacity](stealing-fire.md#literary-programming-and-the-model-counterpart)
 connects it to literary programming. The images themselves are developed in
-their owning essays, including [YinYang and Taiji](yinyang-and-taiji.md).
+their owning essays, including [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md).
 
 Calling a collaboration a workshop, for example, can make unfinished trials,
 shared materials, and repair intelligible together. Calling it an examination
@@ -197,7 +197,7 @@ against an original source or the result of an action.
 Sun and Moon give differentiated generation, reception, and shaping an image. Their
 roles can be retained or exchanged without assigning them by gender or
 exhausting either participant's abilities. The answering world also contributes
-conditions neither controls. [YinYang and Taiji](yinyang-and-taiji.md) develops
+conditions neither controls. [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) develops
 this mutual grounding and the relative independence that creations acquire.
 
 <a id="yy-06"></a>
@@ -342,7 +342,7 @@ not an established universal cognitive mechanism.
 develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-explains the four dimensions, and [Trinity](local-source-and-website.md)
+explains the four dimensions, and [The trinity of philosophy, psychology, and engineering](local-source-and-website.md)
 connects philosophy, psychology, and engineering within one physical reality
 to their practical forms.
 
@@ -366,7 +366,7 @@ inference semantics determine answers differently. Incomparability, consistent
 support, and agreement on results must remain distinct. Chosen purposes orient
 selection; they do not supply evidential warrant. Ordinary collaboration uses
 these distinctions through informal natural language, without requiring a
-formal calculus. [Preference and reasoning](preference-harness.md) develops the
+formal calculus. [How preference participates in choice and reasoning](preference-harness.md) develops the
 qualified formal comparison and [Reasoning](reasoning.md#sources-candidates-and-the-active-workspace)
 develops its relation to retained sources and current inquiry.
 
@@ -435,7 +435,7 @@ English and Chinese reader editions carry the same views; maintenance prose
 connects their meaning to realization. Accessible expression and retained
 philosophical substance let the account develop without exposing private
 portraits or sources. [World, process, and expression](world-and-expression.md#screenshot-and-front-end)
-develops selective expression; [Trinity](local-source-and-website.md#three-places-for-the-work-to-continue)
+develops selective expression; [The trinity of philosophy, psychology, and engineering](local-source-and-website.md#three-places-for-the-work-to-continue)
 explains how the environment, repository, and website let work be used,
 continued, and discussed.
 
@@ -500,7 +500,7 @@ change loses its purpose when it displaces this cultivation. Personal purposes
 and voluntary development guide adaptation: seek changes to social arrangements,
 then software, before asking the person to adapt, while respecting others'
 purposes. This is a design direction, not an unconditional priority or a fixed
-algorithm. [Stealing fire](stealing-fire.md) develops the integrated material,
+algorithm. [Stealing fire and cultivating creative capacity](stealing-fire.md) develops the integrated material,
 developmental, and practical argument; [Personal-First Humanism](personal-first-humanism.md)
 develops its value orientation.
 
@@ -534,7 +534,7 @@ performance under common tools, support, time, and task conditions answers
 one question; what a person–environment combination can achieve, including
 maintenance costs, answers another. Both can be reported with their conditions;
 neither substitutes for the other. [YY-08](#yy-08) locates temporary comparison
-within ordinary life. [Stealing fire](stealing-fire.md#cultivating-a-garden-of-becoming-with-friends)
+within ordinary life. [Stealing fire and cultivating creative capacity](stealing-fire.md#cultivating-a-garden-of-becoming-with-friends)
 develops this garden's reciprocal cultivation and limited circulation;
 [the personal Gödel-machine analogy](metaphor-and-self-revision.md#the-personal-gödel-machine-analogy)
 develops the connected image of self-revision. The garden remains a chosen

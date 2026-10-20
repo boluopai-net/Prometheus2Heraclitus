@@ -94,7 +94,7 @@ Use relevant authorized sources, retaining identity, temporal scope, and
 consequential uncertainty. Existing originals can stay with their private owners.
 
 Philosophy, psychology, and engineering contribute different capacities.
-The [Trinity](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
+The [The trinity of philosophy, psychology, and engineering](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
 develops their connection. The following are practical starting recommendations,
 not identities, completed stages, or requirements to master three disciplines:
 

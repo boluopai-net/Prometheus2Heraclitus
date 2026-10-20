@@ -103,4 +103,4 @@ Guest–Martin 与 Borsboom 等帮助明确理论；研究方法教材与 Wilson
 | Mansell 与 Huddy（2020），[Psychological Change and Recovery 的计算模型](https://doi.org/10.3389/fpsyt.2020.00624) | 理论与模拟。不同目标对同一个被控制变量提出不相容要求时，冲突与重组怎样表示？ |
 | Kronemyer 与 Bystritsky（2014），[A Non-Linear Dynamical Approach to Belief Revision in Cognitive Behavioral Therapy](https://doi.org/10.3389/fncom.2014.00055) | 动态系统与信念修订的理论提议。用来比较变化过程的解释，不把它当成已经验证的通用治疗机制。 |
 
-这些资源帮助把「心理建模」展开为可学习的工作：提出解释、明确关系、寻找能够区分解释的材料，并在互动与结果中修订。它们与[三位一体](local-source-and-website.zh-CN.md)中的哲学理解和工程实现相接。
+这些资源帮助把「心理建模」展开为可学习的工作：提出解释、明确关系、寻找能够区分解释的材料，并在互动与结果中修订。它们与[哲学、心理与工程的三位一体](local-source-and-website.zh-CN.md)中的哲学理解和工程实现相接。

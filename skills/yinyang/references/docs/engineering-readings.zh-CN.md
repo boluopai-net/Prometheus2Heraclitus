@@ -88,7 +88,7 @@
 | 来源 | 与文章的关系 |
 | --- | --- |
 | A. M. Turing（1936），[On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)，尤其第 6 节 | 通用机器为[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)中的解释器类比提供形式参照，并不证明语言模型能够正确解释所有程序。 |
-| Thomas R. Gruber（1993），[A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf)，第 1–2 节 | 知识表示中的对象、关系与共享概念化。可对照[窃火](stealing-fire.zh-CN.md)发展的工程本体阅读；后者进一步提出自己的解释。 |
+| Thomas R. Gruber（1993），[A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf)，第 1–2 节 | 知识表示中的对象、关系与共享概念化。可对照[窃火与创造能力的培养](stealing-fire.zh-CN.md)发展的工程本体阅读；后者进一步提出自己的解释。 |
 | Donald E. Knuth，[Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html) | 把解释与程序代码组织在一起的既有实践。比较它的技术用途与本文集更广义的文学自然语言编程。 |
 
 ## 实验实现、数据与模型检验
@@ -110,5 +110,5 @@
 [费曼物理学讲义](https://www.feynmanlectures.caltech.edu/)提供物理概念的开放在线阅读：第一卷侧重力学、辐射和热，第二卷侧重电磁与物质，第三卷讨论量子力学。按所需概念进入，不以读完三卷作为写程序的前提。反馈与模型检验则可接回上面的系统辨识材料。
 
 物理学研究规律，工程在这些条件下设计与实现。
-[三位一体](local-source-and-website.zh-CN.md)展开它们与哲学、心理的联系。
+[哲学、心理与工程的三位一体](local-source-and-website.zh-CN.md)展开它们与哲学、心理的联系。
 程序可运行确立一项实现；它能否充分解释心理过程，是进一步的问题。

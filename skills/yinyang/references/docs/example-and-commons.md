@@ -1,4 +1,4 @@
-# Adopt, combine, and create
+# From adoption and combination to creating your own work
 
 [Home](../../README.md) · [Skill entrypoint](../../SKILL.md) · [简体中文](example-and-commons.zh-CN.md)
 
@@ -110,7 +110,7 @@ understanding an example to inspecting and making use of it.
 These two reading surfaces connect with a person's local practice, where
 understanding enters actual tasks and acquires feedback. The shared package
 supplies reusable material; a situated environment retains its own personal
-accounts and conditions of use. [Trinity](local-source-and-website.md)
+accounts and conditions of use. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md)
 develops why these different forms belong together and how a language model
 can help maintain the relations among them.
 

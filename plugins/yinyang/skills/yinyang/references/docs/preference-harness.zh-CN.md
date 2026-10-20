@@ -1,4 +1,4 @@
-# 偏好与推理
+# 偏好怎样参与选择与推理
 
 [首页](../../README.zh-CN.md) · [基本观点](core-views.zh-CN.md#yy-10) · [English](preference-harness.md)
 

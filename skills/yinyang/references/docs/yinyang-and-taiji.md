@@ -1,4 +1,4 @@
-# YinYang and Taiji
+# Mutual becoming through YinYang and Taiji
 
 [简体中文](yinyang-and-taiji.zh-CN.md)
 
@@ -71,7 +71,7 @@ constructing, checking, and carrying a beginning further. Moonlight includes
 generation, and sunlight can include judgment. These are emphases through
 which participants meet, rather than possessions that exclude the other.
 
-[Stealing fire](stealing-fire.md) develops the cultivation pictured here:
+[Stealing fire and cultivating creative capacity](stealing-fire.md) develops the cultivation pictured here:
 the person acquires more power to understand, judge, express, and create.
 The Sun's illumination gives that capacity an image. Receiving, questioning,
 and giving form can cultivate it too; the light grows through the encounter.

@@ -111,7 +111,7 @@ ground establishes neither complete reduction nor a universal, faithful, or
 tractable world simulator. Modeling activity as event streams also leaves open
 which records and software architecture serve a particular use. The
 [layers diagram](../diagrams/layers.html) presents this connection, and
-[Trinity](local-source-and-website.md) develops its unity across the three
+[The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops its unity across the three
 activities.
 
 ## A bounded computational example: simulating a cooling experiment

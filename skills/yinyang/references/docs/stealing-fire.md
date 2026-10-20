@@ -1,4 +1,4 @@
-# Stealing fire
+# Stealing fire and cultivating creative capacity
 
 [完整中文版](stealing-fire.zh-CN.md)
 
@@ -113,7 +113,7 @@ nor a particular logging architecture follows from this ontology. The
 [bounded example](world-and-expression.md#a-bounded-computational-example-simulating-a-cooling-experiment)
 shows how the shared movement reaches actual computer use and returns.
 
-[YinYang and Taiji](yinyang-and-taiji.md) give this becoming its central relational image. Differentiated participants generate, receive, and transform through one another; their contributions acquire meaning in the encounter. The Shuang yu and their differently colored eyes distinguish a chosen role from the participant who exceeds it. This image gives the reciprocal movement of event streams a perceptible form. Continuing transformation allows particular works to be completed and useful arrangements to remain stable: a completed work enters the next encounter as something available to use and reconsider.
+[Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) give this becoming its central relational image. Differentiated participants generate, receive, and transform through one another; their contributions acquire meaning in the encounter. The Shuang yu and their differently colored eyes distinguish a chosen role from the participant who exceeds it. This image gives the reciprocal movement of event streams a perceptible form. Continuing transformation allows particular works to be completed and useful arrangements to remain stable: a completed work enters the next encounter as something available to use and reconsider.
 
 Conflicting material tests this continuity. A coherent working ontology can
 support present action while retained evidence and candidate interpretations

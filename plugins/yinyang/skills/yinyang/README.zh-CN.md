@@ -17,12 +17,12 @@
 
 阴阳是一项承载**元 harness** 的 Skill，即理解和修订实际提示词、Skills、角色、工具与
 环境的哲学和关系框架。记忆可以保留证据，模型组织其关系与可能后果；专门的 Skills
-保有自己的方法。[三位一体](references/docs/local-source-and-website.zh-CN.md)把哲学、
+保有自己的方法。[哲学、心理与工程的三位一体](references/docs/local-source-and-website.zh-CN.md)把哲学、
 心理与工程连接在同一物理现实之中，同时区分各自的解释与实践工作。
 
 它连同自己的文学形式，是一项已经展开的范例。你可以采用、组合资源，也可以创作
 概念、意象与组织方式都不同的作品。
-[采用、组合与创作](references/docs/example-and-commons.zh-CN.md)说明这份邀请。
+[从采用、组合到自己的创作](references/docs/example-and-commons.zh-CN.md)说明这份邀请。
 维护这套实现与创作另一部作品，是不同选择；固定文件路径适用于前者。
 
 本目录是 **Prometheus2Heraclitus** 集合中完整的阴阳成员。文章和图示是配套资源，
@@ -68,11 +68,11 @@
 
 | 问题 | 阅读 |
 | --- | --- |
-| 发展的目的是什么？ | [窃火](references/docs/stealing-fire.zh-CN.md)连接可用能力、个人培养与相互建模。 |
+| 发展的目的是什么？ | [窃火与创造能力的培养](references/docs/stealing-fire.zh-CN.md)连接可用能力、个人培养与相互建模。 |
 | 阴阳提出什么主张？ | [核心观点](references/docs/core-views.zh-CN.md)提供命题地图。 |
 | 意义怎样取得工作形式？ | [实践说明](references/docs/creation-method.zh-CN.md)连接表达、关系、实现与证据。 |
-| 各项贡献怎样相接？ | [三位一体](references/docs/local-source-and-website.zh-CN.md)连接哲学、心理、工程及其实践载体。 |
-| 核心意象表达什么？ | [阴阳与太极](references/docs/yinyang-and-taiji.zh-CN.md)展开互为根、转化与日月地。 |
+| 各项贡献怎样相接？ | [哲学、心理与工程的三位一体](references/docs/local-source-and-website.zh-CN.md)连接哲学、心理、工程及其实践载体。 |
+| 核心意象表达什么？ | [阴阳与太极中的共同生成](references/docs/yinyang-and-taiji.zh-CN.md)展开互为根、转化与日月地。 |
 | 具体论证和原典在哪里？ | [按任务问题阅读](references/reading-map.zh-CN.md)通向文章、图示及哲学、心理和工程来源。 |
 
 初次理解可以读**窃火 → 核心观点 → 实践说明**。实际形成从入口与当前材料开始，

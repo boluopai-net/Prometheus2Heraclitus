@@ -1,4 +1,4 @@
-# Trinity
+# The trinity of philosophy, psychology, and engineering
 
 [Home](../../README.md) · [简体中文](local-source-and-website.zh-CN.md)
 

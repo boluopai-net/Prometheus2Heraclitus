@@ -5,7 +5,7 @@
 [YinYang guide](../../README.md) · [Practice explanation](creation-method.md) · [完整中文版](participation-and-support.zh-CN.md)
 
 Shared work has left a trajectory; person and model can now revisit how they
-participated in it. [YinYang and Taiji](yinyang-and-taiji.md) gives their
+participated in it. [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) gives their
 reciprocal generation an image. Here the question becomes practical: what did
 their exchange make available, where did participation become difficult, and
 what support should they try as they continue cultivating their capacities?
@@ -100,7 +100,7 @@ does not by itself establish that a text-only model heard the voice. Listening,
 speaking, reading, and writing name activities that can move between the
 participants, rather than four permanent roles.
 
-An “embodied language model” names a conception of self-development here: linguistic expression grows from the whole body's feeling and understanding of relations. Richer embodied understanding can give expression more to say; expression can, in turn, make a sensed relation available for further development. This is a chosen direction for cultivation. Its achievements become visible through learning: recognizing a relation in a new situation, expressing it more precisely, or acting with it. Fluency and embodied capacity can develop together, while each calls for attention to what the person can now do. [Stealing fire](stealing-fire.md) connects this development to reverse alignment's overall purpose.
+An “embodied language model” names a conception of self-development here: linguistic expression grows from the whole body's feeling and understanding of relations. Richer embodied understanding can give expression more to say; expression can, in turn, make a sensed relation available for further development. This is a chosen direction for cultivation. Its achievements become visible through learning: recognizing a relation in a new situation, expressing it more precisely, or acting with it. Fluency and embodied capacity can develop together, while each calls for attention to what the person can now do. [Stealing fire and cultivating creative capacity](stealing-fire.md) connects this development to reverse alignment's overall purpose.
 
 ## One workspace, different reading entrances
 

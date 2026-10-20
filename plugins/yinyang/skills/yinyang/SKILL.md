@@ -111,9 +111,9 @@ argues for that aim; it does not turn ordinary help into a compulsory lesson.
 
 Sun, Moon, and Earth give differentiated contributions and an answering world a
 literary form. The author's naturalism and process ontology develop its
-philosophical account; the [YinYang and Taiji](references/docs/yinyang-and-taiji.md),
+philosophical account; the [Mutual becoming through YinYang and Taiji](references/docs/yinyang-and-taiji.md),
 [world and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction),
-and [Trinity](references/docs/local-source-and-website.md) essays develop the
+and [The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) essays develop the
 connections. These are attributed positions and interpretive resources.
 Selecting a practical method does not require accepting these images, process
 ontology, the sinthome, or self-development as one's purpose. Actual claims about

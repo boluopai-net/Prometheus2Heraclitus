@@ -1,4 +1,4 @@
-# Preference and reasoning
+# How preference participates in choice and reasoning
 
 [Home](../../README.md) · [Core views](core-views.md#yy-10) · [简体中文](preference-harness.zh-CN.md)
 

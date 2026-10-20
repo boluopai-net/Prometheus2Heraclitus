@@ -25,13 +25,13 @@ YinYang is a Skill carrying a **meta-harness**—a philosophical and relational
 frame for understanding and revising actual prompts, Skills, roles, tools, and
 environments. Memory can preserve evidence; the models organize its relations
 and possible consequences. Specialist Skills retain their own methods. The
-[Trinity](references/docs/local-source-and-website.md) connects philosophy,
+[The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) connects philosophy,
 psychology, and engineering within one physical reality while distinguishing
 their explanatory and practical work.
 
 This is a developed example, including its own literary form. You can adopt it,
 combine resources, or write something with different concepts, images, and
-organization. [Adopt, combine, and create](references/docs/example-and-commons.md)
+organization. [From adoption and combination to creating your own work](references/docs/example-and-commons.md)
 explains that invitation. Maintaining this implementation and authoring a
 different work are different choices; its fixed file paths apply to the former.
 
@@ -93,11 +93,11 @@ The essays answer connected questions rather than forming a compulsory course:
 
 | Question | Reading |
 | --- | --- |
-| What is the developmental purpose? | [Stealing fire](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal modeling. |
+| What is the developmental purpose? | [Stealing fire and cultivating creative capacity](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal modeling. |
 | What claims does YinYang make? | [Core views](references/docs/core-views.md) gives the proposition map. |
 | How does meaning acquire a working form? | [Practice explanation](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
-| How do the contributions fit together? | [Trinity](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |
-| What does the central image express? | [YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
+| How do the contributions fit together? | [The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |
+| What does the central image express? | [Mutual becoming through YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
 | Where do particular arguments and originals belong? | [Read by the work being done](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |
 
 A useful first conceptual reading is **Stealing fire → Core views → Practice

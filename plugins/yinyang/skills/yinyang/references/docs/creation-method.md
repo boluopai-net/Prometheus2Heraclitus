@@ -24,7 +24,7 @@ premises. Within **Prometheus2Heraclitus**, these contributions work together.
 The creative problem is how a philosophical or literary understanding becomes
 effective in that environment. The method below connects an image with the
 processes and relations it helps us understand, their computational articulation,
-and an arrangement whose behavior can be examined. The author's chosen purpose is the cultivation developed in [Stealing fire](stealing-fire.md):
+and an arrangement whose behavior can be examined. The author's chosen purpose is the cultivation developed in [Stealing fire and cultivating creative capacity](stealing-fire.md):
 borrow available generative capacity and develop one's understanding, judgment,
 and agency through practice. What the arrangement makes possible in a person's
 life gives this authorship its point. The formation and realization methods can
@@ -56,7 +56,7 @@ When psychological modeling is hard to articulate, a person comfortable with
 engineering can begin from preferences visible in choices about work, learning,
 response, and change. Configurations supply clues to compare with actual
 choices and correction. From this working account, develop the counterpart's
-intended priorities and inspect how it realizes them. [Trinity](local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
+intended priorities and inspect how it realizes them. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
 develops the conditional routes from existing abilities.
 
 This method is itself available for reinterpretation. The
@@ -202,4 +202,4 @@ and publication boundaries.
 
 ---
 
-[Reading guide](../../README.md) · [Stealing fire](stealing-fire.md)
+[Reading guide](../../README.md) · [Stealing fire and cultivating creative capacity](stealing-fire.md)
