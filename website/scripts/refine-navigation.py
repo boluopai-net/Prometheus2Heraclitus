@@ -83,6 +83,7 @@ def reader_names(text):
         for original, label in terms.items():
             value = value.replace(original, label)
         value = re.sub(r'(?<![A-Za-z])(?:yinyang|YinYang)(?![A-Za-z])', 'Yinyang', value)
+        value = value.replace('Yinyang · Yinyang', 'Yinyang')
         value = value.replace('生生不息的转化', 'Shengsheng 与持续转化')
         value = value.replace('将易与生生相连', '将 Yi 与 Shengsheng 相连')
         return value

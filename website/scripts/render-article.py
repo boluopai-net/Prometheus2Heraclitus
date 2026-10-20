@@ -59,11 +59,12 @@ ARTICLES = {
     },
     '# 超萌论证：开放、学习与适应': {
         'slug': 'meng', 'title': '超萌论证：开放、学习与适应', 'number': '001',
-        'overview': '比较国内外的权威关系与成长资源，讨论“萌”怎样在学习与能力迁移的条件下，形成推理与适应优势。',
+        'overview': '展开“萌蕴含无敌”的条件关系：开放姿态怎样在学习、反馈与能力迁移的条件下，形成推理与适应优势。',
         'sections': {
-            '定义与用语': '确定国内外、阶层、“萌”与“无敌”的比较范围。',
-            '假设': '展开权威、经济分层与学习条件的比较假设。',
-            '推导': '从成长机会与能力迁移，推到有条件的比较结论。',
+            '定义与用语': '说明“萌”、“无敌”及条件论证的范围。',
+            '假设': '展开关系、资源、学习与能力迁移的条件。',
+            '推导': '从开放与共同学习，推到有条件的适应优势。',
+            '一个有条件的应用': '区分一般条件关系与需要另行检验的人群假设。',
         },
     },
     '# 我们要培养怎样的人——赫拉克利特宝宝': {
@@ -137,11 +138,12 @@ ENGLISH = {
     },
     'meng': {
         'title': 'Super-cuteness: openness, learning, and adaptation',
-        'overview': 'Comparing authority and resources for growth in China and foreign environments, the argument considers how cuteness can yield reasoning and adaptive advantages under conditions for learning and transfer.',
+        'overview': 'Developing “cuteness implies invincibility”: how openness can yield reasoning and adaptive advantages under conditions for learning, feedback, and transfer.',
         'sections': {
-            'Definitions and terminology': 'The comparative scope of domestic and foreign, hierarchy, cuteness, and invincibility.',
-            'Assumptions': 'Comparative hypotheses about authority, economic stratification, and conditions for learning.',
-            'Derivation': 'From opportunities for growth and transfer of capacities to a conditional comparative conclusion.',
+            'Definitions and terminology': 'Cuteness, invincibility, and the scope of the conditional argument.',
+            'Assumptions': 'Conditions concerning relationships, resources, learning, and transfer.',
+            'Derivation': 'From openness and shared learning to conditional adaptive advantage.',
+            'A conditional application': 'Distinguish the general relationship from a population hypothesis requiring separate evidence.',
         },
     },
 }
