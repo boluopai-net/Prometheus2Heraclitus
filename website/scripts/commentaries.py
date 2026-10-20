@@ -311,7 +311,7 @@ def index_body(chinese, title):
         ('layers', '理解与实现', 'Understanding and realization'),
     ]
     references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in diagrams)
-    review = f'<p class="diagram-references">{"复习时可参看四张图：" if chinese else "Four diagrams for review: "}{references}</p>'
+    review = f'<p class="diagram-references">{references}</p>'
     return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{review}{practice_entrance(chinese)}</article></main>'
 
 
