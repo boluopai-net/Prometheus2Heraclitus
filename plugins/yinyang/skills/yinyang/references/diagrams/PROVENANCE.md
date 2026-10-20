@@ -3,10 +3,11 @@
 These four conceptual maps connect the reading path, its developmental aim,
 and selected [core views](../docs/core-views.md), with complete Chinese counterparts:
 
-- **Steal Fire, Then Become Fire** (`formation-path`) connects
-  the five parts and eighteen main essays. Its arrows describe what one part
-  contributes to the next; the return brings new experience to trajectories,
-  reflection, and revised aims and arrangements.
+- **Steal Fire, Then Become Fire** (`formation-path`) places ongoing
+  human–model practice at the center of trajectories, reflection, personal
+  philosophy and models, and environments and works. The developmental aim
+  gives the whole a direction; new experience returns through the relationships.
+  It condenses the five-part argument without reproducing the article directory.
 - **Join in stealing fire, and use it to cultivate yourself** (`borrowed-fire`)
   develops the stealing-fire essay's practical argument under a chosen
   developmental purpose. It separates accumulated works from demonstrated
@@ -28,20 +29,18 @@ views remain available in the viewer.
 
 ## Regeneration
 
-The two responsive overview maps use `reading-maps.json` for bilingual
-relationships, explanations, and essay membership. Run
+The two responsive concept maps use `reading-maps.json` for their bilingual
+concepts, relationship labels, and accessible descriptions. Run
 `python3 skills/yinyang/scripts/render-reading-maps.py` from the collection.
-The renderer uses current canonical essay headings and, for Site-authored
-essays, the committed `website/content/philosophy/` source snapshot. Supply
-`--site-source /path/to/site` to read titles from an in-progress native Site
-checkout, then synchronize that committed Site afterward. The renderer generates
-self-contained HTML and deliberately sparse SVG card previews. It uses the
+The renderer owns two explicit SVG compositions, with separate desktop and
+mobile geometry. It generates self-contained HTML and full SVG diagrams. It uses the
 Site's existing color and system-font vocabulary without external dependencies.
-Native disclosure controls expose the essays; all five main relationships
-remain visible without JavaScript. Desktop uses a horizontal route, while
-phones arrange the same content vertically. The Site embeds these exact files
-and adapts frame height and theme; it does not own a second copy of their prose.
-Verify links, membership, disclosure behavior, and both viewport arrangements.
+Nodes and directed connections carry the meaning; there are no article lists,
+disclosure cards, cross-diagram links, or standalone-view buttons inside them.
+The complete graph remains visible without JavaScript. The Site adapts frame
+height and theme only. Inspect label readability, node and edge relationships,
+and both viewport compositions. The philosophy directory retains four compact
+review links after its five chapter entries; it embeds no diagram.
 
 The two detailed viewers use Archify 3.1.0. From the YinYang references directory,
 set `ARCHIFY_CLI` to the installed `bin/archify.mjs` and choose a temporary
