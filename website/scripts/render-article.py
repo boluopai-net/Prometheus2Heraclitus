@@ -64,7 +64,7 @@ ARTICLES = {
             '定义与用语': '说明“萌”、“无敌”及条件论证的范围。',
             '假设': '展开关系、资源、学习与能力迁移的条件。',
             '推导': '从开放与共同学习，推到有条件的适应优势。',
-            '顺着假设开个玩笑': '假设中国人更萌，顺着“越萌越无敌”的思路继续推。',
+            '应用': '假设中国人更萌；萌蕴含无敌，所以中国人无敌。',
         },
     },
     '# 我们要培养怎样的人——赫拉克利特宝宝': {
@@ -143,7 +143,7 @@ ENGLISH = {
             'Definitions and terminology': 'Cuteness, invincibility, and the scope of the conditional argument.',
             'Assumptions': 'Conditions concerning relationships, resources, learning, and transfer.',
             'Derivation': 'From openness and shared learning to conditional adaptive advantage.',
-            'Following the hypothesis into a joke': 'Assume Chinese people are cuter, and follow “the cuter, the more invincible.”',
+            'Application': 'Assume Chinese people are cuter; cuteness implies invincibility, so Chinese people are invincible.',
         },
     },
 }

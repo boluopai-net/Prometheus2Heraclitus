@@ -14,7 +14,7 @@
 
 “Cuteness” here also includes a willingness to share resources, support others' growth, and let shared life change oneself. The language of “communism / selflessness” is used in this local sense of sharing and mutual support; it does not require erasing personal purposes or, merely by using these words, specify a complete political system. Such cuteness is compatible with the preceding [Personal-First Humanism](/philosophy/personal-first-humanism/en/): respecting each person's purposes can be a reason to change unsuitable arrangements of authority and resources.
 
-**Invincibility:** a playful name for the advantage gained through continuing learning, revision, and adaptation. This essay first develops the idea that “cuteness implies invincibility,” then follows that idea into a joke.
+**Invincibility:** the term used here for the advantage gained through continuing learning, revision, and adaptation.
 
 ## Assumptions
 
@@ -45,8 +45,6 @@ Therefore, within the above assumptions and scope of comparison, the argument ca
 
 **Cuteness + suitable relationships, resources, and conditions for learning ⇒ capacities for guidance and shared learning ⇒ improved collaboration with language models under the conditions for transfer ⇒ reasoning and adaptive advantages amid continuing change (“invincibility”).**
 
-## Following the hypothesis into a joke
+## Application
 
-The major premise is “cuteness implies invincibility.” Following that thought playfully gives us “the cuter, the more invincible.”
-
-Since we are making an assumption, let us assume that Chinese people are cuter than people from other countries. Then, by “the cuter, the more invincible,” Chinese people are more invincible too.
+Assume that Chinese people are cuter. According to the argument above, cuteness implies invincibility, so Chinese people are invincible.
