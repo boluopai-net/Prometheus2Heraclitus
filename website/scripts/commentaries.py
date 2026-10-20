@@ -5,38 +5,39 @@ import re
 from pathlib import Path
 from repository_panel import with_comments
 from article_art import article_figure
+from reading_maps import reading_map
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = 'skills/yinyang/references/docs/'
 SITE_ARTICLES = {'why-yinyang', 'literary-programming', 'baby-heraclitus', 'meng', 'deleuze-and-becoming'}
 SERIES = '/philosophy/'
 STAGE_SLUGS = ('starting-point', 'understanding', 'encounter', 'formation', 'practice')
-SERIES_NAMES = ('窃火，然后成为火', 'Borrow Fire, Then Become Fire')
+SERIES_NAMES = ('窃火，然后成为火', 'Steal Fire, Then Become Fire')
 GROUPS = [
-    ('借用智能与培养自己', 'Borrowing intelligence and cultivating oneself', [
-        ('stealing-fire', '从已经可用的智能开始：有限的人怎样借来火，再发展自己的理解、创造与行动？'),
+    ('起点：参加窃火，然后拿火培养自己', 'Starting point: join in stealing fire, then use it to cultivate yourself', [
+        ('stealing-fire', '从共同的窃火出发：有限的人怎样参与其中，再用火培养自己的理解、创造与行动？'),
         ('personal-first-humanism', '把个人优先的价值前提说清楚：工具与合作应当支持具体人的生活，而不以输出数量代替发展。'),
         ('why-yinyang', '先说明 agent 是什么，再问分散能力为什么需要共同方向：把实际的人、对方与关系写进安排。'),
         ('meng', '先论证开放、共同学习与引导在什么条件下形成适应优势，为“宝宝”的培养方向提供理由。'),
         ('baby-heraclitus', '接着用赫拉克利特的火与河流塑造这个宝宝：保持开放，能够判断、创造并被相遇改变。'),
     ]),
-    ('理解与保留生活轨迹', 'Understanding and retaining life trajectories', [
+    ('理解：生活轨迹的保留与探究', 'Understanding: retaining and exploring life trajectories', [
         ('world-and-expression', '从共同活动到可以返回的表达：区分过程、模型与记录，说明生活轨迹保留的是什么。'),
         ('flow-and-time', '以共同改善阅读环境为例，通过 Git/GitHub 版本历史与 Computer History 汇集各类历史，形成可接续的生活轨迹。'),
         ('reasoning', '从轨迹中提出问题、比较候选解释，让检查、行动、结果与判断的修订继续留下根据。'),
         ('preference-harness', '在轨迹中保留选择与证据各自的贡献：采用一个工作视图，同时让其他材料与分岔仍能返回。'),
         ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
     ]),
-    ('共同反思与相互培育', 'Shared reflection and mutual cultivation', [
+    ('相遇：共同反思与相互培育', 'Encounter: shared reflection and mutual cultivation', [
         ('yinyang-and-taiji', '共同返回轨迹，辨认彼此的贡献与改变；日月、Shuang yu 与大地使这种相互生成取得形象。'),
         ('participation-and-support', '从对轨迹的共同反思中调整参与和支持，在实际尝试中培育关系，并为个人哲学准备具体理解。'),
     ]),
-    ('从个人哲学到实践形式', 'From personal philosophy to a form of practice', [
+    ('形成：从个人哲学到实践形式', 'Formation: from personal philosophy to a form of practice', [
         ('literary-programming', '承接共同做事留下的轨迹与对协作的反思，通过文学式编程、隐喻和类比写出自己的哲学。'),
         ('metaphor-and-self-revision', '将写出的哲学与生活材料一起凝练为个人、伙伴及双方关系的模型，让理解能够进入持续协作。'),
         ('writing-a-sinthome', '让哲学与个人模型进入实际环境，经由使用与修订，使哲学、心理与工程共同形成具体的圣状。'),
     ]),
-    ('持续检验与共同创造', 'Continued testing and shared creation', [
+    ('实践：持续检验与共同创造', 'Practice: continued testing and shared creation', [
         ('local-source-and-website', '承接已形成的个人安排，说明哲学、心理与工程怎样在本地使用、源内容和作品之间继续维系与修订。'),
         ('embodied-experimental-philosophy', '考察持续使用的后果：修订实现、个人理解或哲学，并区分安排改善与人的能力发展。'),
         ('example-and-commons', '让实践留下的作品与方法成为他人的资源，接续新的创造，也把新的相遇带回自己的生活。'),
@@ -52,7 +53,7 @@ STAGE_REASONS = [
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
 SUMMARIES = {n: s for _, _, entries in GROUPS for n, s in entries}
 EN_SUMMARIES = {
-    'stealing-fire': 'Begin with available intelligence: borrow fire, then develop understanding, creation, and action.',
+    'stealing-fire': 'Join in the collective work of stealing fire, then use it to cultivate understanding, creation, and action.',
     'personal-first-humanism': 'Make the ethical premise explicit: tools and cooperation support concrete lives; output volume does not substitute for development.',
     'world-and-expression': 'Move from shared activity to revisitable expression: distinguish processes, models, and records to explain what a life trajectory retains.',
     'flow-and-time': 'Use a jointly improved reading environment to gather histories through Git/GitHub version history and Computer History, forming a life trajectory that can be continued.',
@@ -116,7 +117,7 @@ def book_navigation(current, chinese, title=None):
         return f'<a href="{url}"' + (' aria-current="page"' if selected else '') + f'>{html.escape(label)}</a>'
     groups = []
     for index, (zh, en, entries) in enumerate(GROUPS):
-        label = (zh if chinese else en).split('：' if chinese else ':')[0]
+        label = zh if chinese else en
         items = []
         for slug, _ in entries:
             branches = [n for parent, names, _ in BRANCHES if parent == slug for n in names]
@@ -225,8 +226,8 @@ def branch_panel(parent, chinese, title=None):
 
 def reading_context(name, chinese, title=None):
     sequence_url = SERIES + ('' if chinese else 'en/')
-    series_label = '窃火' if chinese else 'Borrow Fire'
-    home = f'<a class="series-home" href="{sequence_url}">{"回到窃火" if chinese else "Back to Borrow Fire"}</a>'
+    series_label = '窃火' if chinese else 'Stealing Fire'
+    home = f'<a class="series-home" href="{sequence_url}">{"回到窃火" if chinese else "Back to Stealing Fire"}</a>'
     nav_label = '文章导航' if chinese else 'Article navigation'
     if name in MAINLINE:
         i = MAINLINE.index(name)
@@ -240,7 +241,7 @@ def reading_context(name, chinese, title=None):
         if i + 1 < len(MAINLINE):
             links.append(article_link(MAINLINE[i + 1], chinese, '下一篇' if chinese else 'Next', title, 'next'))
         else:
-            links.append(f'<a rel="next" href="/getting-started/{"" if chinese else "en/"}"><span class="navigation-label">{"接下来" if chinese else "Continue"}</span><span class="navigation-title">{"开始自己的实践" if chinese else "Begin your own practice"}</span></a>')
+            links.append(f'<a rel="next" href="/getting-started/{"" if chinese else "en/"}"><span class="navigation-label">{"接下来" if chinese else "Continue"}</span><span class="navigation-title">{"在实践之前，先学习工具" if chinese else "Before practice, learn to use the tools"}</span></a>')
         nav = f'<nav class="series-navigation" aria-label="{nav_label}">' + ''.join(links) + home + '</nav>' + branch_panel(name, chinese, title)
     else:
         parent, items, return_to = next(b for b in BRANCHES if name in b[1])
@@ -274,7 +275,8 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     guide, navigation = reading_context(name, chinese, title)
     if chinese:
         rendered = re.sub(r'(<h1\b[^>]*>[^<：]+：)', r'\1<br>', rendered, count=1)
-    rendered = rendered.replace('</h1>', '</h1>' + art + guide, 1)
+    map_html = reading_map('borrowed-fire', chinese) if name == 'stealing-fire' else ''
+    rendered = rendered.replace('</h1>', '</h1>' + art + guide + map_html, 1)
     contents = book_contents(toc, chinese, rendered)
     layout = '' if contents else ' no-toc'
     body = f'<main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(name, chinese, title)}<article class="document">{rendered}</article>{contents}<div class="reading-end">{navigation}{source_note}</div></main>'
@@ -288,16 +290,16 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
 
 
 def practice_entrance(chinese):
-    heading = '开始自己的实践' if chinese else 'Begin your own practice'
-    text = '从入门指南开始，让模型帮助形成并实现适合自己的安排。概念阅读可以按问题返回，不必先读完整组文章。' if chinese else 'Begin with the getting-started guide and ask a model to help form and realize your arrangement. Return to conceptual reading by question; completing the series is not a prerequisite.'
+    heading = '在实践之前，先学习工具' if chinese else 'Before practice, learn to use the tools'
+    text = '从入门指南熟悉模型、Skills 与工具的使用，再让模型帮助构建适合自己的工作环境。阅读与使用可以往返进行，遇到问题再回到相应篇章。' if chinese else 'Use the getting-started guide to become familiar with models, Skills, and tools, then ask a model to help build a working environment that fits you. Move between reading and use, returning to the relevant essays as questions arise.'
     guide = '/getting-started/' + ('' if chinese else 'en/')
     return f'<section class="series-entrance" id="practice"><h2><a href="{guide}">{heading}</a></h2><p>{text}</p></section>'
 
 
 def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
-    thesis = '借来智能的火，在实践中成为能够理解、判断、创造并继续生成的人。' if chinese else 'Borrow the fire of intelligence; through practice, develop understanding, judgment, creation, and the capacity to keep becoming.'
-    intro = '先问借来的能力值得培养什么，再进入共同工作与轨迹积累；双方反思这些轨迹，认识并培育彼此，由此写出个人哲学、凝练个人模型，形成自己的生活安排。持续使用与新的相遇检验这些安排，也带回新的轨迹，推动理解与创造继续发展。五部分沿着这条联系展开，各篇也可以按问题独立阅读。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'First ask what borrowed capabilities should cultivate, then enter shared work and the accumulation of a trajectory. Reflecting on that trajectory lets the participants understand and cultivate one another, author a personal philosophy, distill personal models, and form their own arrangements for living. Continued use and new encounters test those arrangements and bring further trajectories back into developing understanding and creation. The five parts follow this connection; individual essays can also be read by question. YinYang is one developed philosophical and working form within it.'
+    thesis = '参加共同的窃火，用火培养自己的理解、判断与创造能力，成为能够继续生成的人。' if chinese else 'Join in the collective work of stealing fire, and use it to cultivate understanding, judgment, and creative capacity—to become someone who can keep generating.'
+    intro = '先问怎样参加窃火、拿火培养自己，再进入共同工作与轨迹积累；双方反思这些轨迹，认识并培育彼此，由此写出个人哲学、凝练个人模型，形成自己的生活安排。持续使用与新的相遇检验这些安排，也带回新的轨迹，推动理解与创造继续发展。五部分沿着这条联系展开，各篇也可以按问题独立阅读。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'First ask how to join in stealing fire and use it to cultivate oneself, then enter shared work and the accumulation of a trajectory. Reflecting on that trajectory lets the participants understand and cultivate one another, author a personal philosophy, distill personal models, and form their own arrangements for living. Continued use and new encounters test those arrangements and bring further trajectories back into developing understanding and creation. The five parts follow this connection; individual essays can also be read by question. YinYang is one developed philosophical and working form within it.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></header>'
     sections = []
     for index, (zh, en, entries) in enumerate(GROUPS):
@@ -305,7 +307,7 @@ def index_body(chinese, title):
         anchor = f'stage-{index + 1}'
         reason = STAGE_REASONS[index][0 if chinese else 1]
         sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_entry(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{practice_entrance(chinese)}</article></main>'
+    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{reading_map("formation-path", chinese)}{"".join(sections)}{practice_entrance(chinese)}</article></main>'
 
 
 def old_book_alias(chinese):
@@ -325,7 +327,7 @@ def write_index(dist, title):
         for destination, heading, body in pages:
             page = re.sub(r'<main[\s\S]*?</main>', lambda _: body, template, count=1)
             page = re.sub(r'<title>[\s\S]*?</title>', f'<title>{html.escape(heading)} · boluopai</title>', page, count=1)
-            description = '从窃火到成为火，理解、实现并发展个人实践的五段论证。' if chinese else 'From borrowing fire to becoming fire: five stages of understanding, realizing, and developing personal practice.'
+            description = '参加窃火，用火培养自己：连接个人理解、共同实践与持续创造的五部分。' if chinese else 'Join in stealing fire and use it to cultivate yourself: five parts connecting personal understanding, shared practice, and continued creation.'
             page = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(heading + " — " + description)}">', page, count=1)
             if destination == SERIES + suffix:
                 page = with_comments(page, not chinese, 'Philosophy')

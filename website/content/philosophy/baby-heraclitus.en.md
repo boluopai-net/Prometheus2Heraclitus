@@ -1,4 +1,4 @@
-# What kind of Baby Heraclitus do we want to cultivate
+# What kind of person do we want to cultivate? — Baby Heraclitus
 
 ## What kind of person do we want to cultivate?
 

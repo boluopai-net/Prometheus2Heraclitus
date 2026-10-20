@@ -54,7 +54,7 @@ ARTICLES = {
             '积累个人的软件与精神资产': '让理解、方法与软件围绕个人持续积累。',
             '在共同工作中循环': '沿着理解、实践和回应继续形成双方。',
             '写给能够相互照亮的人': '让朋友的成长成为彼此环境中的新可能。',
-            '从一个 Skill 开始，形成自己的实践': '从局部能力走向自己的环境与实践。',
+            '从一个 Skill 开始，构建自己的实践方式': '从局部能力走向自己的环境与实践。',
         },
     },
     '# 超萌论证：开放、学习与适应': {
@@ -66,8 +66,8 @@ ARTICLES = {
             '推导': '从成长机会与能力迁移，推到有条件的比较结论。',
         },
     },
-    '# 我们要培养怎样的赫拉克利特宝宝': {
-        'slug': 'baby-heraclitus', 'title': '我们要培养怎样的赫拉克利特宝宝', 'number': '002',
+    '# 我们要培养怎样的人——赫拉克利特宝宝': {
+        'slug': 'baby-heraclitus', 'title': '我们要培养怎样的人——赫拉克利特宝宝', 'number': '002',
         'overview': '用户 ≈ 具身语言模型 ≈ 赫拉克利特宝宝。以个人为目的，优先改变社会，其次改变软件，最后才考虑改变个人；让环境适合人。',
         'sections': {
             '我们要培养怎样的人？': '解释具身 agent 的含义，以及这个类比的用途。',
@@ -107,7 +107,7 @@ ENGLISH = {
             'Accumulating personal software and intellectual assets': 'Accumulating understanding, methods, and software around the person.',
             'Cycling through shared work': 'Continuing to form both participants through understanding, practice, and response.',
             'Writing for people who can illuminate one another': 'Letting friends’ growth open new possibilities in one another’s environments.',
-            "Beginning with a Skill, forming one's own practice": 'From local capacities to one’s own environment and practice.',
+            "Beginning with a Skill, building one's own way of practicing": 'From local capacities to one’s own environment and practice.',
         },
     },
     'literary-programming': {
@@ -124,7 +124,7 @@ ENGLISH = {
         },
     },
     'baby-heraclitus': {
-        'title': 'What kind of Baby Heraclitus do we want to cultivate',
+        'title': 'What kind of person do we want to cultivate? — Baby Heraclitus',
         'overview': 'User ≈ embodied language model ≈ Baby Heraclitus. With the person as the end, change society first, software second, and only then consider personal change: make the environment fit the person.',
         'sections': {
             'What kind of person do we want to cultivate?': 'Embodied agency and the purpose of this analogy.',

@@ -1,19 +1,48 @@
 <!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diagram maintenance · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=c5d80ebe0283"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary no-toc"><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a><span class="edition-note">Original edition</span></div><h1 id="diagram-maintenance">Diagram maintenance</h1>
-<p>These conceptual maps explain selected <a href="/repositories/prometheus/source/skills/yinyang/references/docs/core-views.html">core views</a>,
-with complete Chinese counterparts:</p>
+<p>These four conceptual maps connect the reading path, its developmental aim,
+and selected <a href="/repositories/prometheus/source/skills/yinyang/references/docs/core-views.html">core views</a>, with complete Chinese counterparts:</p>
 <ul>
-<li><strong>Encounter</strong> connects YY-05, YY-10, and YY-11: records, candidate models,
+<li><strong>Steal Fire, Then Become Fire</strong> (<code>formation-path</code>) connects
+  the five parts and eighteen main essays. Its arrows describe what one part
+  contributes to the next; the return brings new experience to trajectories,
+  reflection, and revised aims and arrangements.</li>
+<li>
+<p><strong>Join in stealing fire, and use it to cultivate yourself</strong> (<code>borrowed-fire</code>)
+  develops the stealing-fire essay's practical argument under a chosen
+  developmental purpose. It separates accumulated works from demonstrated
+  changes in the person's capacities, including reliably supported capacities.
+  The person participates in the collective work rather than appearing only
+  as a recipient of its results; the diagram does not require each participant
+  to reproduce industrial model production.</p>
+</li>
+<li>
+<p><strong>How people and models inquire together</strong> (<code>encounter</code>) connects YY-05, YY-10, and YY-11: records, candidate models,
   an adopted view, generated work, and returning evidence within human–model
-  activity. YY-09 supplies its event-based vocabulary.</li>
-<li><strong>Layers</strong> develops YY-09: physical grounding, computational abstraction,
+  activity. YY-09 supplies its event-based vocabulary.</p>
+</li>
+<li><strong>From understanding the world to realizing a practice</strong> (<code>layers</code>) develops YY-09: physical grounding, computational abstraction,
   and the relations among ontology, epistemology, value, methods, and practice.</li>
 </ul>
-<p>The candidate JSON files own the authored labels, relationships, guided views,
+<p>For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
 viewer's native static export of the graph and legend; the HTML cards and guided
 views remain available in the viewer.</p>
 <h2 id="regeneration">Regeneration</h2>
-<p>The current viewers use Archify 3.1.0. From the Yinyang references directory,
+<p>The two responsive overview maps use <code>reading-maps.json</code> for bilingual
+relationships, explanations, and essay membership. Run
+<code>python3 skills/yinyang/scripts/render-reading-maps.py</code> from the collection.
+The renderer uses current canonical essay headings and, for Site-authored
+essays, the committed <code>website/content/philosophy/</code> source snapshot. Supply
+<code>--site-source /path/to/site</code> to read titles from an in-progress native Site
+checkout, then synchronize that committed Site afterward. The renderer generates
+self-contained HTML and deliberately sparse SVG card previews. It uses the
+Site's existing color and system-font vocabulary without external dependencies.
+Native disclosure controls expose the essays; all five main relationships
+remain visible without JavaScript. Desktop uses a horizontal route, while
+phones arrange the same content vertically. The Site embeds these exact files
+and adapts frame height and theme; it does not own a second copy of their prose.
+Verify links, membership, disclosure behavior, and both viewport arrangements.</p>
+<p>The two detailed viewers use Archify 3.1.0. From the Yinyang references directory,
 set <code>ARCHIFY_CLI</code> to the installed <code>bin/archify.mjs</code> and choose a temporary
 <code>CHECK_DIR</code> for the run:</p>
 <pre><code class="language-sh">node &quot;$ARCHIFY_CLI&quot; finalize architecture diagrams/encounter.candidate.json diagrams/encounter.html --quality showcase --out-dir &quot;$CHECK_DIR/encounter&quot; --json
