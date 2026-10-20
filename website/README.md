@@ -586,16 +586,17 @@ result against the actual destination. Series navigation already uses
 authored: when a title changes, inspect its incoming source links in both
 languages, correct stale names at their Markdown owner, then regenerate them.
 
-The philosophy overview embeds the canonical responsive `formation-path` map;
-the stealing-fire essay embeds `borrowed-fire` after its reading-route lead.
-The library lists these two overviews before the detailed inquiry and realization
-maps. Canonical `reading-maps.json` and `render-reading-maps.py` own their
-bilingual relationships and standalone HTML. `scripts/reading_maps.py` supplies
-the Site embed only. `dist/reading-map-embed.js` accepts height messages solely
-from a matching same-origin frame and propagates the reader's current theme.
-The iframe grows with native disclosure controls, so mobile reading does not
-shrink a desktop screenshot or require nested scrolling. Check all eighteen
-essay memberships against `commentaries.GROUPS` when changing the reading route.
+The philosophy overview keeps its five chapter entries followed by four compact
+diagram references for review. It has no embedded map or long duplicate preface;
+the stealing-fire essay also retains its normal reading opening. The library
+owns the four diagram entrances. The new `formation-path` and `borrowed-fire`
+views are actual SVG relationship diagrams, without article indexes, disclosure
+cards, cross-diagram links, or separate-open buttons. Canonical
+`reading-maps.json` and `render-reading-maps.py` own their bilingual labels,
+accessible descriptions, and desktop/mobile compositions.
+`scripts/reading_maps.py` supplies the diagram-page embed only.
+`dist/reading-map-embed.js` accepts height messages solely from a matching
+same-origin frame and propagates the reader's current theme.
 
 The public common repository carries its license scope and complete package licenses. Source downloads and GitHub collaboration are public. Link the canonical GitHub licensing scope from the rights sources and generated license reader; do not reintroduce access applications or codes.
 `dist/rights/{index.html,en/index.html}` are the tracked rights-page sources;

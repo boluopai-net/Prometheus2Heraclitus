@@ -5,7 +5,6 @@ import re
 from pathlib import Path
 from repository_panel import with_comments
 from article_art import article_figure
-from reading_maps import reading_map
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = 'skills/yinyang/references/docs/'
@@ -275,8 +274,7 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     guide, navigation = reading_context(name, chinese, title)
     if chinese:
         rendered = re.sub(r'(<h1\b[^>]*>[^<：]+：)', r'\1<br>', rendered, count=1)
-    map_html = reading_map('borrowed-fire', chinese) if name == 'stealing-fire' else ''
-    rendered = rendered.replace('</h1>', '</h1>' + art + guide + map_html, 1)
+    rendered = rendered.replace('</h1>', '</h1>' + art + guide, 1)
     contents = book_contents(toc, chinese, rendered)
     layout = '' if contents else ' no-toc'
     body = f'<main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(name, chinese, title)}<article class="document">{rendered}</article>{contents}<div class="reading-end">{navigation}{source_note}</div></main>'
@@ -299,15 +297,22 @@ def practice_entrance(chinese):
 def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '参加共同的窃火，用火培养自己的理解、判断与创造能力，成为能够继续生成的人。' if chinese else 'Join in the collective work of stealing fire, and use it to cultivate understanding, judgment, and creative capacity—to become someone who can keep generating.'
-    intro = '先问怎样参加窃火、拿火培养自己，再进入共同工作与轨迹积累；双方反思这些轨迹，认识并培育彼此，由此写出个人哲学、凝练个人模型，形成自己的生活安排。持续使用与新的相遇检验这些安排，也带回新的轨迹，推动理解与创造继续发展。五部分沿着这条联系展开，各篇也可以按问题独立阅读。阴阳是其中一个已经展开的哲学与工作形式。' if chinese else 'First ask how to join in stealing fire and use it to cultivate oneself, then enter shared work and the accumulation of a trajectory. Reflecting on that trajectory lets the participants understand and cultivate one another, author a personal philosophy, distill personal models, and form their own arrangements for living. Continued use and new encounters test those arrangements and bring further trajectories back into developing understanding and creation. The five parts follow this connection; individual essays can also be read by question. YinYang is one developed philosophical and working form within it.'
-    heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p><p>{intro}</p></header>'
+    heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p></header>'
     sections = []
     for index, (zh, en, entries) in enumerate(GROUPS):
         label = zh if chinese else en
         anchor = f'stage-{index + 1}'
         reason = STAGE_REASONS[index][0 if chinese else 1]
         sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_entry(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{reading_map("formation-path", chinese)}{"".join(sections)}{practice_entrance(chinese)}</article></main>'
+    diagrams = [
+        ('formation-path', '全书关系', 'The whole argument'),
+        ('borrowed-fire', '窃火与培养', 'Fire and cultivation'),
+        ('encounter', '共同探究', 'Shared inquiry'),
+        ('layers', '理解与实现', 'Understanding and realization'),
+    ]
+    references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in diagrams)
+    review = f'<p class="diagram-references">{"复习时可参看四张图：" if chinese else "Four diagrams for review: "}{references}</p>'
+    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{review}{practice_entrance(chinese)}</article></main>'
 
 
 def old_book_alias(chinese):
