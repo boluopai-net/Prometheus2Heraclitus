@@ -1,0 +1,322 @@
+{
+  "formation-path": {
+    "title": [
+      "窃火，然后成为火",
+      "Steal Fire, Then Become Fire"
+    ],
+    "intro": [
+      "五部分、十八篇文章，展开参加窃火、培养自己与持续创造之间的关系。新的经验让人返回这条路径，继续理解和改变自己。",
+      "Five parts and eighteen essays unfold the relationships between joining in stealing fire, cultivating oneself, and continued creation. New experience invites a return to this path, renewing self-understanding and change."
+    ],
+    "premises": [
+      [
+        "人与模型共同参与",
+        "People and models participate together",
+        "人与模型从共同做事开始，都能提出想法、作出判断、付诸行动并修订理解。双方怎样参与，取决于实践的目的与各自的实际能力。",
+        "Person and model begin by working together. Both can propose ideas, judge, act, and revise their understanding. Their participation depends on the purpose of the practice and their actual capabilities."
+      ],
+      [
+        "经验与理解怎样接续",
+        "How experience and understanding connect",
+        "前面的经验与理解，为后面的工作提供基础；实践中的新经验，又让人重新检验和修订已有理解。",
+        "Earlier experience and understanding provide grounds for later work; new experience in practice invites renewed examination and revision of that understanding."
+      ]
+    ],
+    "stages": [
+      {
+        "title": [
+          "起点：参加窃火，然后拿火培养自己",
+          "Starting point: join in stealing fire, then use it to cultivate yourself"
+        ],
+        "question": [
+          "实践服务于谁，希望培养什么能力？",
+          "Whose life does the practice serve, and which capacities should it cultivate?"
+        ],
+        "handoff": [
+          "明确实践方向与培养目标",
+          "Clarify the direction and aims of cultivation"
+        ],
+        "detail": [
+          "从参与共同的窃火出发，阐明以个人生活与发展为先的价值取向，讨论怎样用获得的能力培养自己。个人哲学说明方向，开放、学习与持续生成则给培养以具体内容。",
+          "Begin with participation in the collective work of stealing fire, articulate an orientation that puts the individual’s life and development first, and examine how gained capacities can cultivate oneself. Personal philosophy articulates direction; openness, learning, and continued becoming give cultivation concrete content."
+        ],
+        "essays": [
+          "stealing-fire",
+          "personal-first-humanism",
+          "why-yinyang",
+          "meng",
+          "baby-heraclitus"
+        ]
+      },
+      {
+        "title": [
+          "理解：生活轨迹的保留与探究",
+          "Understanding: retaining and exploring life trajectories"
+        ],
+        "question": [
+          "怎样保留并回看共同经历？",
+          "How can shared experiences be retained and revisited?"
+        ],
+        "handoff": [
+          "积累可供反思的经历与依据",
+          "Gather experiences and grounds for reflection"
+        ],
+        "detail": [
+          "共同工作留下版本、操作、对话、选择与反馈。借助 Git/GitHub 版本历史、Computer History 等入口，把有关材料连成可以回看的生活轨迹。区分过程与记录、偏好与推理，使这些材料能够支持进一步的探究。",
+          "Shared work leaves versions, operations, conversations, choices, and feedback. Git/GitHub version history, Computer History, and other sources connect relevant material into a revisitable life trajectory. Distinguishing process from records and preference from reasoning helps that material support further inquiry."
+        ],
+        "essays": [
+          "world-and-expression",
+          "flow-and-time",
+          "reasoning",
+          "preference-harness",
+          "finite-inquiry-and-abstraction"
+        ],
+        "related": [
+          "encounter"
+        ]
+      },
+      {
+        "title": [
+          "相遇：共同反思与相互培育",
+          "Encounter: shared reflection and mutual cultivation"
+        ],
+        "question": [
+          "怎样理解彼此，以及共同形成的关系？",
+          "How can we understand one another and the relationship we form?"
+        ],
+        "handoff": [
+          "形成对彼此与合作关系的理解",
+          "Develop understanding of one another and the relationship"
+        ],
+        "detail": [
+          "共同回看生活材料，比较不同解释，辨认彼此的贡献与变化，在实际尝试中调整合作与支持。日月、太极与双鱼，使这种相互生成的关系有了可以感知的形象。",
+          "Revisit living material together, compare interpretations, recognize each other’s contributions and changes, and adjust cooperation and support through actual trials. Sun, Moon, Taiji, and the paired fish give this relationship of mutual becoming a perceptible form."
+        ],
+        "essays": [
+          "yinyang-and-taiji",
+          "participation-and-support"
+        ],
+        "related": [
+          "encounter"
+        ]
+      },
+      {
+        "title": [
+          "形成：从个人哲学到实践形式",
+          "Formation: from personal philosophy to a form of practice"
+        ],
+        "question": [
+          "怎样写出理解，并将它化为实践？",
+          "How can understanding be articulated and realized in practice?"
+        ],
+        "handoff": [
+          "让理解成为可用、可修订的实践安排",
+          "Give understanding a usable, revisable practical form"
+        ],
+        "detail": [
+          "从已有的共同经历与反思出发，通过文学式编程写出个人哲学，再把对本人、伙伴及双方关系的理解凝练成模型。在现有的协作与环境中落实并修订这些模型，哲学、心理与工程共同形成这里所说的圣状。",
+          "Starting from shared experience and reflection, write a personal philosophy through literary programming, then distill understanding of the person, counterpart, and relationship into models. Realize and revise these models within existing cooperation and its environment; philosophy, psychology, and engineering jointly form what this account calls a sinthome."
+        ],
+        "essays": [
+          "literary-programming",
+          "metaphor-and-self-revision",
+          "writing-a-sinthome"
+        ],
+        "related": [
+          "layers"
+        ]
+      },
+      {
+        "title": [
+          "实践：持续检验与共同创造",
+          "Practice: continued testing and shared creation"
+        ],
+        "question": [
+          "实践带来了哪些改变与新的可能？",
+          "What changes and new possibilities has practice brought?"
+        ],
+        "handoff": [
+          "在新的经验与相遇中继续修订",
+          "Keep revising through new experience and encounters"
+        ],
+        "detail": [
+          "在持续使用中维系和检验已有安排，分辨工具的改善与人的能力发展。公开分享的作品与方法，经过他人的采用、组合和重新创作，进入不同的生活，也为自己带来新的相遇。",
+          "Sustain and examine existing arrangements through continued use, distinguishing better tools from development of human capacities. Through adoption, combination, and re-creation, publicly shared works and methods enter other lives and bring new encounters into one’s own."
+        ],
+        "essays": [
+          "local-source-and-website",
+          "embodied-experimental-philosophy",
+          "example-and-commons"
+        ],
+        "related": [
+          "layers"
+        ]
+      }
+    ],
+    "return": [
+      "新经验融入生活轨迹 → 共同回看与反思 → 修订哲学、模型与实践安排",
+      "New experience joins the life trajectory → revisit and reflect together → revise philosophy, models, and practical arrangements"
+    ],
+    "return_note": [
+      "新的经验让人回到轨迹与反思，也可能改变最初的培养方向。阅读可以顺着这条来路展开；已有的实践，则可以从眼前的问题进入，随需要往返。",
+      "New experience returns the participants to trajectories and reflection, and may change the initial aims of cultivation. Reading can follow this path of formation; an existing practice can enter through its present question and move between parts as needed."
+    ]
+  },
+  "borrowed-fire": {
+    "title": [
+      "参加窃火，用火培养自己",
+      "Join in stealing fire, and use it to cultivate yourself"
+    ],
+    "intro": [
+      "参与共同的探索与创造，把获得的能力用于培养自己，再让创造的后果继续改变创造者。",
+      "Participate in shared exploration and creation, use the capacities gained to cultivate yourself, and let the consequences of creation keep changing the creator."
+    ],
+    "premises": [
+      [
+        "实际条件",
+        "Conditions",
+        "生命、时间与注意力有限；集体工作使不断发展的生成能力变得可用。",
+        "Life, time, and attention are finite; collective work makes developing generative capacities available."
+      ],
+      [
+        "选定的目的",
+        "Chosen purpose",
+        "发展这个人的理解、判断、生成与行动，让能力服务于值得维系的生活。",
+        "Develop this person's understanding, judgment, generation, and action, in support of a life worth sustaining."
+      ]
+    ],
+    "stages": [
+      {
+        "title": [
+          "参加共同的窃火",
+          "Join in the collective work of stealing fire"
+        ],
+        "question": [
+          "在共同的探索与创造中取得火",
+          "Gain fire through shared exploration and creation"
+        ],
+        "handoff": [
+          "取得并继续发展生成的能力",
+          "Gain and further develop generative capacities"
+        ],
+        "detail": [
+          "研究者、作者、工程师、模型公司与更广泛的参与者，共同汇聚知识、机器与基础设施。个人也能通过学习、使用、改进与创作参加其中，取得并继续发展这份力量，而不必独自重做全部工业生产。",
+          "Researchers, authors, engineers, model companies, and wider participants bring together knowledge, machines, and infrastructure. Individuals can participate through learning, use, improvement, and creation, gaining and further developing this power without reproducing the whole industrial process alone."
+        ],
+        "essays": [
+          "stealing-fire"
+        ]
+      },
+      {
+        "title": [
+          "把火带进自己的生活",
+          "Bring fire into one’s own life"
+        ],
+        "question": [
+          "拿火回应自己的问题与愿望",
+          "Use fire to address one’s own questions and aspirations"
+        ],
+        "handoff": [
+          "安排有意义的参与",
+          "Arrange meaningful participation"
+        ],
+        "detail": [
+          "从自己的目的、兴趣、困难与生活条件出发，选择值得展开的问题。借助模型与工具，为人与伙伴的共同参与创造合适的条件。",
+          "Start from one’s purposes, interests, difficulties, and living conditions to choose worthwhile questions. Use models and tools to create suitable conditions for participation by the person and counterpart."
+        ],
+        "essays": [
+          "personal-first-humanism",
+          "why-yinyang"
+        ]
+      },
+      {
+        "title": [
+          "共同生成与纠正",
+          "Generate and revise together"
+        ],
+        "question": [
+          "提出、展开、判断、行动",
+          "Propose, develop, judge, act"
+        ],
+        "handoff": [
+          "从后续参与中考察能力的变化",
+          "Examine changes in capacity through subsequent participation"
+        ],
+        "detail": [
+          "双方都能提出直觉、想法与问题。解释、批评、实现和实际后果，使这些开端得以展开，也使理解能够修正。模型可以承担大量写作与实现；怎样分工，应当联系希望培养的能力来考虑。",
+          "Both participants can contribute intuitions, ideas, and questions. Explanation, criticism, realization, and worldly consequences develop these beginnings and make understanding revisable. The model can carry substantial writing and implementation; the division of work should be considered in relation to the capacities one hopes to cultivate."
+        ],
+        "essays": [
+          "participation-and-support",
+          "literary-programming"
+        ]
+      },
+      {
+        "title": [
+          "培养自己的能力",
+          "Cultivate one's capacities"
+        ],
+        "question": [
+          "后来能够理解、发起与维系什么？",
+          "What can the person subsequently understand, initiate, and sustain?"
+        ],
+        "handoff": [
+          "开启下一次创造",
+          "Opens further creation"
+        ],
+        "detail": [
+          "考察发展，需要回到这个人后续的参与：他能够感知、理解、判断、表达、发起和维系什么？有些能力逐渐内化；有些则由模型、工具与协作者持续、可靠地支持。",
+          "To examine development, return to this person’s subsequent participation: what can they perceive, understand, judge, express, initiate, and sustain? Some capacities become internalized; others remain reliably supported over time by models, tools, and collaborators."
+        ],
+        "essays": [
+          "baby-heraclitus",
+          "embodied-experimental-philosophy"
+        ]
+      },
+      {
+        "title": [
+          "继续生火与共同培育",
+          "Keep creating and cultivating together"
+        ],
+        "question": [
+          "作品进入世界，开启新相遇",
+          "Works enter the world and open new encounters"
+        ],
+        "handoff": [
+          "让创造的后果改变创造者",
+          "Let the consequences of creation change the creator"
+        ],
+        "detail": [
+          "保留有用的理解、软件、方法与作品，选择能够维系的节奏。与愿意参与的人交流和创造，让新的相遇改变目的、关系与实践。",
+          "Retain useful understanding, software, methods, and works, and choose a sustainable rhythm. Exchange and create with willing participants, allowing new encounters to change purposes, relationships, and practice."
+        ],
+        "essays": [
+          "example-and-commons"
+        ]
+      }
+    ],
+    "outcomes": [
+      [
+        "作品与环境的积累",
+        "Accumulated works and environments",
+        "文章、程序、工具、概念与关系被保存下来，成为可以继续使用和修订的资源。",
+        "Articles, programs, tools, concepts, and relationships are retained as resources for continued use and revision."
+      ],
+      [
+        "人的能力的发展",
+        "Development of the person's capacities",
+        "人能够理解、判断、发起与维系的活动发生变化。更多产出本身不证明这种变化。",
+        "What the person can understand, judge, initiate, and sustain changes. More output alone does not establish that change."
+      ]
+    ],
+    "return": [
+      "造物进入世界 → 遭遇回应与阻力 → 改变理解、目的与参与 → 再次创造",
+      "Works enter the world → encounter responses and resistance → change understanding, purposes, and participation → create again"
+    ],
+    "return_note": [
+      "这条路径围绕培养能力的目的展开。日常帮助与完成作品也有价值；是否促进了人的发展，要看实际参与及后续变化。",
+      "This path is organized around the aim of cultivating capacities. Everyday assistance and completed works also matter; whether they foster personal development depends on actual participation and subsequent change."
+    ]
+  }
+}

@@ -67,7 +67,7 @@ keeps these categories distinct from generic stages of a feedback loop.
 
 ## Nietzsche: three metamorphoses and creation
 
-Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of Baby Heraclitus do we want to cultivate](https://boluopai.net/philosophy/baby-heraclitus/en/) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
+Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of person do we want to cultivate? — Baby Heraclitus](https://boluopai.net/philosophy/baby-heraclitus/en/) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
 
 ## James and Bergson: the stream of thought and duration
 
