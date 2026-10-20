@@ -88,16 +88,23 @@ Only reusable methods are packaged; current learning records remain with the rec
 
 ## Ground the current work
 
-Select the study mode from the actual material and the learner's purpose,
-without requiring the learner to name Teacher or explain the distinction again.
+Select and combine mathematical, technical and philosophical writing from the
+actual source and learning question, following the materials branch's
+three-approach distinction. Technical study can emphasize scientific
+investigation, methods/tools and engineering realization; identify the primary
+approach and meaningful supporting emphases instead of classifying by folder.
 `course` is a source and study corpus; its name does not make every book a class.
-Both modes first prepare an independent glossary with a concept map and
-throughline. Philosophical study pairs it with one connected argument/discussion
-and research main text. Technical study instead uses a study-and-research guide
-combining its learning and reading routes, plus a training document distinguishing
+All three first prepare an independent glossary with a graphical concept map
+and role-labeled entries; connected exposition belongs in the main guide.
+Both the detailed glossary and the main guide integrate a fitting amount of
+explanatory visuals near the relevant terms and passages; the opening
+glossary map alone is not sufficient.
+Philosophical study pairs it with one connected argument/discussion
+and research main text. Mathematics and technical study use a study-and-research guide
+combining their learning and reading routes, plus a training document distinguishing
 written exercises from experiments/projects. Preserve both applicable training
 forms even when the learner does not attempt them now; do not impose philosophy's
-argument template on technical sources. In both modes, connect the material to
+argument template on mathematical or technical sources. In all three approaches, connect the material to
 the learner's actual environment, interests, existing understanding, and relevant
 current research inside the main guide and teaching. These relations inform
 selection, examples, comparisons, and depth rather than a generic relevance
@@ -131,12 +138,12 @@ study. Retain meanings, distinctions and notation, without proofs or proof
 sketches; a lecture without teacher questions still needs this support. A brief
 isolated explanation does not automatically require a separate glossary.
 For philosophy, intellectual history, or a philosopher's developing work, read
-the philosophy branch. Its per-book concept map, conceptual throughline,
+the philosophy branch. Its per-book graphical concept map,
 glossary and connected argument/research guide support conversational
 understanding. Historical study can additionally use its chronological views
 and recursive traversal. These qualify the general source-sequence defaults;
 an isolated question does not require preparing an entire book first.
-For technical study, retain usable written-exercise and experiment/project
+For mathematics and technical study, retain usable written-exercise and experiment/project
 preparation for the selected scope under the materials and teaching-method
 branches, distinguishing readiness from execution this turn. Put reading
 selection in the main guide when an original-reading pass is intended. A focused lecture or review

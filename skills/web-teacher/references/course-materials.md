@@ -3,19 +3,95 @@
 Use this branch when preparing, revising or validating saved Course material.
 The root Skill owns teaching, evidence, actor and State boundaries.
 
-Reduce repeated writing and navigation while preserving the different work of
-technical training and philosophical understanding. They share source grounding,
-a necessary independent glossary and a grounded relationship to the learner,
-including research relevance where applicable, but use different
-material structures. Preparation supplies support; learning evidence stays with State.
+Choose and combine three writing approaches: mathematics, technical study,
+and philosophy. Here technical study is a broad material-organizing category
+that includes scientific investigation, methods and tools, and engineering
+realization; it does not assert that these disciplines are identical. All three
+share source grounding, an independent glossary and relevant learner/research
+connections. Preparation supplies support; learning evidence stays with State.
+
+## Select the writing approach
+
+Judge the actual source and current question rather than its folder, title or
+department. For substantial saved material, briefly state the primary approach
+and any supporting emphasis that materially changes the explanation. A sentence
+such as “Mathematics-led, with computational experiments” or “Technical study,
+emphasizing empirical modeling and engineering implementation” is enough.
+Use the learner's language in the saved material. This is an explanation of
+how to read the material, not a score, permanent discipline assignment or new
+metadata registry. A clear single approach needs no elaborate classification.
+
+| Approach | What the main guide develops | What supports its conclusions |
+| --- | --- | --- |
+| Mathematics | Objects, definitions, notation, assumptions, statements and their formal relationships; develop needed derivations, proofs, examples and counterexamples in the guide. Distinguish a definition, a result under conditions and an application. | Valid reasoning under explicit assumptions; computations and examples illuminate or test candidates but do not replace a general proof. |
+| Technical study | Connect the problem, representation, model or method, operations and observable consequences. Combine the scientific, methodological and engineering emphases below as the selected work needs. | Evidence appropriate to the claim: empirical comparison, formal properties, computational behavior or actual system performance. A successful run establishes only what it checks. |
+| Philosophy | Develop situated concepts, problems, theses, reasons, distinctions, objections, responses and interpretive alternatives under the philosophy branch. | Source interpretation and argument, with factual or formal claims checked on their own grounds. Preserve the source's ambiguity and historical differences where material. |
+
+In mathematics, make domains, quantifiers, dimensions and assumptions explicit
+where they determine meaning. Explain which objects a statement connects, what
+its conditions permit, and how changing a condition changes the conclusion.
+Distinguish necessary from sufficient conditions and an equivalence from a
+one-way implication. Develop the proof or derivation needed for understanding
+in the main guide, with counterexamples at the relevant boundary; retain only
+the precise statement and conditions in the glossary. Applied interpretation
+belongs beside the formal result, with the additional modeling assumptions
+visible. This supports mathematical understanding without making unaided
+proof production or memorization a prerequisite.
+
+Within technical study, distinguish these contributions without creating three
+more compulsory document sets:
+
+- **Scientific investigation:** phenomena, measurement and operationalization,
+  hypotheses or explanatory models, observations and experimental design,
+  uncertainty, competing explanations and limits of generalization. State what
+  evidence would distinguish the accounts; a simulation alone does not establish
+  a claim about the observed world.
+- **Methods and tools:** representations, algorithms, procedures, inputs and
+  outputs, applicability conditions, mechanisms, comparisons and failure modes.
+  Explain how a method works and what its result means rather than only listing
+  commands or interfaces.
+- **Engineering realization:** the intended function, requirements, constraints,
+  architecture and interfaces, implementation choices, tradeoffs, verification
+  and operation of an actual artifact or system. Connect success to the intended
+  use and observable acceptance, not merely construction or execution.
+
+These emphases can recur within one unit. An empirical model may need software,
+but scientific modeling does not automatically make engineering the main study
+object. Using a technique does not require a separate technique course.
+Conversely, calling an implemented model “research” does not remove its
+implementation and validation needs. Mathematics can supply a formal component
+of either work without making its empirical claims mathematical theorems.
+
+For mixed sources, choose the main explanatory progression and bring in the
+other approach where it contributes. Philosophy of science can be philosophy-led
+with a scientific case; a computational psychology study can be technical,
+emphasizing scientific evidence with mathematical and engineering support.
+Ontology work may be philosophical clarification, formal semantics, or
+engineering a usable schema and reasoner: inspect the actual task. The words
+“conceptual engineering” alone do not establish an artifact-building task.
+Do not force all material into three repeated sections, split one connected
+explanation into competing guides, or relocate corpus folders to enact this
+writing distinction. Language learning keeps its own applicable method.
 
 ## Required independent glossary
 
 For substantial saved study material, prepare the relevant glossary scope first.
 Keep it as a separate file regardless of length: the user needs it to recognize
 and recover concepts, not as an optional appendix after memorization. Begin with
-a concept map and conceptual throughline, followed by detailed entries and
-verified source associations. Preserve useful depth and source order. Philosophy
+a concept map rendered as a diagram, followed by detailed entries and
+verified source associations. The map uses visible concept nodes and connections
+with meaningful relations: for example dependency, distinction, representation,
+explanation, evidence or transformation. Link its concepts to the maintained
+entries where the reading surface supports that navigation. Use Mermaid or
+another supported diagram/image format and check its rendered legibility.
+A prose outline, bullet list, table of contents or collection of linked names
+does not substitute for the diagram. Do not add a separate “conceptual
+throughline” section; put needed connected explanation in the main guide.
+A short diagram legend may explain a symbol or relation without becoming a
+second exposition. The detailed glossary also needs a fitting amount of
+explanatory visuals beside the terms whose meaning, conditions or distinctions
+they clarify; the opening map does not replace these local visual explanations.
+Preserve useful depth and source order. Philosophy
 uses its branch's contextual depth; technical material retains the definitions,
 symbols, conditions and mathematical statements needed to recognize its objects.
 
@@ -26,10 +102,10 @@ retain the detailed maintained definition in the glossary. Neither one giant
 file nor a page of links substitutes for this relationship. An isolated question
 does not require producing a whole book's materials first.
 
-## Technical study: three connected documents
+## Mathematics and technical study: three connected documents
 
-Technical sources use their course's actual knowledge and training structure,
-not the philosophical argument/discussion template. Maintain:
+Mathematical and technical sources use their actual knowledge and training
+structure, with the distinct writing approaches above. Maintain:
 
 1. **Glossary** — the independent recognition support above.
 2. **Study and research guide** — integrate the former learning plan and reading
@@ -38,8 +114,9 @@ not the philosophical argument/discussion template. Maintain:
    useful source order and depth, exact original-reading selections when that
    mode is intended, and relevant connections to the learner's environment,
    interests, prior understanding, and research. Develop the actual
-   concepts, mathematical relationships, procedures or code behavior needed for
-   understanding. Do not require an author-objection-response structure merely
+   mathematical relationships, empirical models, procedures, code behavior or
+   engineering decisions needed for understanding, according to the selected
+   approach. Do not require an author-objection-response structure merely
    because philosophy uses one. Overall personal priorities and scheduling keep
    their existing learning-path owner.
 3. **Exercises and experiments** — one training document, such as
@@ -58,7 +135,7 @@ and expected interpretation, with the model's implementation work and the learne
 supported judgments distinguished. A generic list of possible activities or
 links without purpose and use is not prepared training.
 
-For a technical course with exercises or labs, retain and prepare the applicable
+For mathematics or technical study with exercises or labs, retain and prepare the applicable
 training for the selected study scope even if the learner is not doing it this
 turn. Select actual items adaptively during teaching; enough practice to address
 an observed gap need not mean completing every available item. Preserve explicit
@@ -148,6 +225,45 @@ here and link deeper work without maintaining a competing copy.
 
 ## Connected presentation and economical maintenance
 
+### Explanatory visuals within the existing documents
+
+The two/three-document arrangement includes explanatory visuals inside both the
+glossary's detailed entries and the main guide, beyond the opening concept map.
+Neither a substantial glossary nor a substantial guide should become only
+prose and formulas after treating that map as sufficient visual support.
+Add a fitting amount of source-grounded diagrams,
+figures, plots or visual comparisons at the places whose relationships they
+clarify. Select their number and form from the material, without a per-section
+quota or decorative illustrations.
+
+For example, mathematics can use geometry or a changed-condition comparison;
+scientific inquiry can show a model, measurement or evidence relationship;
+methods can show data transformations or an algorithm's behavior; engineering
+can show components, interfaces or feedback; philosophy can show a consequential
+distinction, dependency or competing argument. These are possibilities to
+adapt, not mandatory illustration templates. A table of contents in boxes or
+another copy of the glossary map does not fulfill a different explanatory need.
+
+Place each visual near the passage it supports, explain its meaningful marks,
+relations, assumptions and omissions, and keep the prose connected. Reuse a
+verified source figure with attribution and appropriate rights, or create a
+faithful explanatory diagram; distinguish a schematic from observed data.
+Preserve figures and tables needed to understand actual exercise questions and
+to interpret experimental results. Preparing visuals does not authorize running
+learner experiments or inventing measurements. Embed the visuals and ordinary
+assets in the existing documents/corpus; no additional required reading file or
+separate visual guide is created. Verify the actual reading-mode result.
+
+In glossary entries, use visuals to recover the object, defining relationship,
+essential condition or contrast, such as a projection, a distribution's shape
+or an interface relationship. A concise visual explanation and its necessary
+caption can accompany a definition without turning it into a worked exercise.
+Keep proofs, extended derivations and long case discussions in the main guide.
+Choose the location by the visual's actual contribution, not a blanket rule
+that all figures belong only in the guide.
+
+### Connected explanation and maintenance
+
 Use coherent problem/section order and transitions in the main document, not
 repeated mandatory slots for every unit. Keep the explanation self-contained
 at its intended depth; links support checking and deeper lookup rather than
@@ -231,21 +347,34 @@ or visual entry and State owns resumption; neither requires another saved
 artifact or an expanded glossary. Each entry conveys defining meaning in
 the chosen teaching language, with essential qualifications, original terms, abbreviations
 and notation.
-Formulas support meaning rather than replace it. Ordinary recall glossaries omit
-examples, counterexamples, exercises, proofs and expanded exposition; teaching
+Formulas and selected explanatory visuals support meaning rather than replace
+it. The visual-support section applies inside detailed entries as well as to
+the opening map. Ordinary recall glossaries omit extended worked examples,
+assigned exercises, proofs and expanded exposition; teaching
 may use them. Philosophy concept tables use the contextual explanation required
 by [the philosophy branch](philosophy.md), including a bounded example or contrast
 when it is needed to preserve a concept's meaning. Proofs, proof sketches and
 assigned exercises still belong outside the glossary. Use enough prose for
 recognition and recovery, without a fixed template or length ceiling.
 
-Label every entry's role: definition, concept, notation, method or algorithm;
-mathematics also uses axiom, theorem, lemma and corollary. Never classify entries
-as 命题/性质: group other established results as 定理 without inventing source
-numbers. Separate definitions and results; state meaning, conclusions and
-essential conditions plainly. Use the teaching-language type labels and optional
-important-entry callouts specified in the rendering section. Do not force
-mathematical categories onto code or demand formal or proof mastery.
+Put an explicit teaching-language role label before each entry's term so the reader can
+recognize what kind of thing it is. The following Chinese profile illustrates the roles: 【定义】, 【概念】,
+【记号】, 【方法】 and 【算法】. Mathematics retains 【公理】, 【定理】,
+【引理】 and 【推论】, with exact definitions, notation, statement conditions and
+conclusions. Within mathematics, group other established formal results as
+【定理】 rather than 命题/性质, without inventing source numbers; distinguish
+definitions from results and keep proofs in the guide.
+
+For other material, choose a meaningful role from the actual entry, such as
+【模型】, 【理论】, 【假说】, 【定律】, 【经验结果】, 【机制】, 【指标】, 【工具】, 【协议】,
+【组件】, 【接口】, 【设计约束】, 【论点】 or 【区分】. These are examples,
+not a required taxonomy or quota. An empirical regularity is not a mathematical
+theorem; an author's claim is not an established fact merely because it has a
+label. The role states what the entry contributes, while its explanation
+preserves evidential status and qualifications. Mixed subjects can use different
+roles entry by entry without assigning every term the subject's name.
+Use the optional important-entry callouts supported by the rendering section;
+ordinary bold labels need no plugin or new callout type.
 
 Select mathematics from the learner's purpose, prior exposure, paths and
 inspected sources, including useful applied objects rigorous texts leave
@@ -305,7 +434,7 @@ Put the material itself in learner-facing documents. A preface is useful only fo
 
 Use ordinary Obsidian Markdown. Inline mathematics uses `$...$`; displayed mathematics uses `$$` on separate lines. Keep a display block out of code fences and separate it from prose with blank lines. In a list, maintain the indentation required by the list. Do not surround intended mathematics with backticks or use `\(...\)` / `\[...\]` as saved Markdown delimiters; these forms need not be recognized as mathematics by the Markdown parser. Keep valid TeX inside recognized math boundaries. A MathJax extension can support extra commands after Markdown recognizes the formula; its presence does not prove that the formula was recognized.
 
-Use headings and normal lists for readable organization. A relationship diagram may use supported Mermaid, an embedded image, or a clear text layout; choose by what communicates the relationship. Check the resulting diagram in the current vault, including its labels and any intended links. A LaTeX environment or plugin installed elsewhere is not evidence of local support.
+Use headings and normal lists for readable organization. The required concept map is a rendered diagram under the independent-glossary contract, not a text-layout substitute. Choose supported Mermaid, an embedded image or another working graphical format. Check the resulting diagram in the current vault, including its labels and any intended links. A LaTeX environment or plugin installed elsewhere is not evidence of local support.
 
 Resolve links against the actual vault and source file. Wikilinks can address a file, heading, block, or PDF page; Markdown links need correctly encoded destinations. Prefer a sufficiently specific existing path when names collide. In a Markdown table, escape a wikilink's alias separator as `\|`; outside a table use `|`. Verify heading text and physical PDF page positions rather than guessing anchors or printed-to-physical offsets. The PDF++ profile uses one-based physical PDF pages. Verify that `#page=40` reaches page 40 in the recipient's actual reader rather than applying an assumed offset. Verify the displayed destination when the reader or source changes. Code-formatted paths are labels, not clickable links. Escape characters only when their literal display is intended.
 
@@ -344,7 +473,7 @@ On the changed reading path, verify note-to-source navigation and, for PDF selec
 
 ### Verify changed materials
 
-After saving a glossary, main guide, training document or an existing material being integrated, reread the final bytes and check affected content in its actual vault's **reading mode**. Inspect changed formulas and diagrams for visible mathematics and legibility. Follow the real study path: guide to the named glossary entry and back, guide to applicable written/external training and back, and source passages/page jumps. Check that the main explanation remains connected without mandatory hopping. Fix observed defects and check the repaired portion. A document without formulas or diagrams needs no invented specimen.
+After saving a glossary, main guide, training document or an existing material being integrated, reread the final bytes and check affected content in its actual vault's **reading mode**. Inspect changed formulas and diagrams for visible mathematics and legibility, including explanatory visuals inside glossary entries and the main guide beyond the opening map. Follow the real study path: guide to the named glossary entry and back, guide to applicable written/external training and back, and source passages/page jumps. Check that the main explanation remains connected without mandatory hopping. Fix observed defects and check the repaired portion. Validate the actual visuals rather than adding unrelated test specimens.
 
 During authoring, use the valid forms above directly. Before delivering a glossary, inspect bilingual and symbolic link labels, separately linked English glosses, surrounding formulas and page labels in the saved result; also read related entries together for proofs disguised by classification. The teacher who writes the material repairs these defects before delivery rather than deferring them to the learner or a later local cleanup. A source-text scan can locate candidates but does not establish rendered correctness or decide whether prose is a proof.
 

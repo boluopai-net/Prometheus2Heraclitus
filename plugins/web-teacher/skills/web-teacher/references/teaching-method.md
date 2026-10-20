@@ -4,7 +4,10 @@ Use this branch for skimming support and practice design, preparation or feedbac
 The root Skill already supplies explanation, correction, evidence and State rules.
 
 The materials branch owns the independent glossary, the connected main guide,
-and technical study's training document. Course planning and reading selection
+and mathematical/technical study's training document. Its three writing approaches
+distinguish mathematics, broad technical study and philosophy; scientific and
+engineering emphases shape the selected training without requiring extra bundles.
+Course planning and reading selection
 belong in the main guide. Written exercises and experiments/projects have
 distinct parts in the training document; neither form replaces the other.
 Existing files remain usable while gradually integrating these responsibilities.
@@ -33,7 +36,7 @@ Use the original material as the reading surface. Brief orientation and targeted
 
 ## Teach through practice
 
-For technical materials, prepare the applicable written and experimental training
+For mathematical and technical materials, prepare the applicable written and experimental training
 for the selected scope, preserving explicit course exceptions. Preparation must
 describe real forms, sources, purposes and feedback even when the learner does
 not choose to attempt them now. The following interaction applies when practice

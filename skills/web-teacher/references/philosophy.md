@@ -27,9 +27,12 @@ learner-requested reading pass; model explanation does not establish reading
 exposure or mastery. This describes the question-led mode, not a claim that philosophy
 cannot have exercises or that every recipient has selected this mode.
 
-Use the materials branch's [two connected documents](course-materials.md#philosophical-study-two-connected-documents):
-an independent glossary, prepared first with its opening concept map and
-conceptual throughline, and one main study-and-research guide for that same book.
+Use the materials branch's [three writing approaches](course-materials.md#select-the-writing-approach)
+to identify philosophical work and its actual scientific, mathematical or
+engineering connections. For philosophy-led study, use its
+[two connected documents](course-materials.md#philosophical-study-two-connected-documents):
+an independent glossary, prepared first with an opening graphical concept map
+and role-labeled entries, and one main study-and-research guide for that same book.
 The glossary remains required support even for a short book; the user should
 not have to remember the vocabulary to follow the discussion. Preserve detailed
 entries and source anchors, and connect the map to those same entries. Give
@@ -48,9 +51,16 @@ An anthology can contain competing arguments; do not force one unified thesis
 or author onto it. Follow the shared [research-relationship method](course-materials.md#research-relationships-across-disciplines),
 which applies equally to technical sources.
 
+Integrate explanatory visuals under the materials branch's
+[visual-support contract](course-materials.md#explanatory-visuals-within-the-existing-documents):
+show consequential distinctions beside the relevant glossary entries and
+argument relations in the guide, in addition to the opening concept map.
+Preserve interpretive qualifications
+and avoid making a diagram's neat structure erase an unresolved relation.
+
 Connect each substantive unit to the relevant glossary entries and source
 passages. Keep needed short explanations in the main flow so the reader can
-continue without repeatedly changing files. A concept throughline or chapter
+continue without repeatedly changing files. A concept map or chapter
 summary alone does not supply connected argument. Extended reasoning belongs
 in the main guide, preserving the glossary's exclusion of proofs and proof
 sketches. The research relationship is part of that same main document, not a
@@ -96,7 +106,8 @@ Use three views of the same named concepts and units:
 
 Use an overview and shallow, expandable groups so the learner can keep the whole
 in view and open one unit at a time. A tree can be headings, a compact outline or
-a fitting diagram; a concept table can be a readable sequence of entries rather
+a fitting diagram; these historical indexes do not replace the glossary's
+required graphical concept map. A concept table can be a readable sequence of entries rather
 than a wide grid. Match the real reading surface. Keep time ranges, meaningful
 unit names and links visible, with detailed entries beneath them. Choose unit
 boundaries from changes in the problems and sources, not a fixed unit count.

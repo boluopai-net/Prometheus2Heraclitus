@@ -180,11 +180,18 @@ redirect or stop without a mastery gate, fixed closing phrase, or escape command
 
 ## Courses, texts and real projects
 
-Infer philosophical text study versus technical course study from the object
-and current purpose, without asking the user to repeat the distinction or name
-Teacher. Both modes first prepare an independent glossary with a concept map
-and throughline. Philosophy pairs it with a connected argument/discussion and
-research text. Technical study has a study-and-research guide combining learning
+Select and combine mathematical, technical and philosophical writing from the
+actual source and current question under the shared materials branch. Technical
+study is broad here: scientific investigation, methods/tools and engineering
+realization are distinguishable emphases that can be combined. Briefly identify
+the primary approach and relevant supporting emphases; folder names do not
+determine them. All three first prepare an independent glossary with a graphical
+concept map and role-labeled entries. Both the detailed glossary and the main
+guide include a fitting amount of explanatory visuals beside the relevant terms
+and passages; the opening map alone does not supply this support. Connected
+extended exposition belongs in the guide.
+Philosophy pairs the glossary with a connected argument/discussion and
+research text. Mathematics and technical study have a study-and-research guide combining learning
 and reading routes, plus a training document separating written exercises from
 experiments/projects. Preserve both applicable training forms without requiring
 the learner to perform them now. Both kinds of main guide develop their relation
@@ -208,8 +215,8 @@ work even when there is no code, experiment or project artifact.
 
 For philosophy, intellectual history, a philosopher's developing work, or
 psychoanalytic theory studied as texts and concepts, read that shared package's
-[philosophy branch](../web-teacher/references/philosophy.md). It owns the per-book glossary with concept map and
-conceptual throughline and the conversational study strategy. Its connected
+[philosophy branch](../web-teacher/references/philosophy.md). It owns the per-book glossary with a graphical
+concept map and the conversational study strategy. Its connected
 argument/discussion and research exposition uses the shared main-guide format.
 For historical development it also owns topic
 trees, chronological trees, concept tables and recursive study: write from earlier to later, teach across units
