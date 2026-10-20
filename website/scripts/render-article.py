@@ -28,8 +28,8 @@ ARTICLES = {
             '阅读来源与比较范围': '查看来源及本文延伸的范围。',
         },
     },
-    '# 文学式编程': {
-        'slug': 'literary-programming', 'title': '文学式编程', 'number': '004',
+    '# 用文学式编程写出个人哲学': {
+        'slug': 'literary-programming', 'title': '用文学式编程写出个人哲学', 'number': '004',
         'overview': '用人物、意象、叙事与关系凝缩理解，让文化、心理与偏好进入模型协作，并在作品与行动中继续改写。',
         'sections': {
             '一个意象，怎样写进许多关系': '从火、河流与相遇展开文学的凝缩能力。',
@@ -41,8 +41,8 @@ ARTICLES = {
             '阴阳怎样使用这门写作': '把凝缩的文字展开为环境、作品与行动。',
         },
     },
-    '# 个人哲学的意义': {
-        'slug': 'why-yinyang', 'title': '个人哲学的意义', 'number': '003',
+    '# 为什么要写个人哲学': {
+        'slug': 'why-yinyang', 'title': '为什么要写个人哲学', 'number': '003',
         'overview': '阴阳从人、模型与双方关系出发，把分散的 Skills、提示词、工具与用户环境组织成一套有共同方向的实践。',
         'sections': {
             '复杂的 harness，需要共同的方向': '说明分散的能力怎样进入共同的实践。',
@@ -57,8 +57,8 @@ ARTICLES = {
             '从一个 Skill 开始，形成自己的实践': '从局部能力走向自己的环境与实践。',
         },
     },
-    '# 超萌论证': {
-        'slug': 'meng', 'title': '超萌论证', 'number': '001',
+    '# 超萌论证：开放、学习与适应': {
+        'slug': 'meng', 'title': '超萌论证：开放、学习与适应', 'number': '001',
         'overview': '比较国内外的权威关系与成长资源，讨论“萌”怎样在学习与能力迁移的条件下，形成推理与适应优势。',
         'sections': {
             '定义与用语': '确定国内外、阶层、“萌”与“无敌”的比较范围。',
@@ -66,8 +66,8 @@ ARTICLES = {
             '推导': '从成长机会与能力迁移，推到有条件的比较结论。',
         },
     },
-    '# 赫拉克利特宝宝': {
-        'slug': 'baby-heraclitus', 'title': '赫拉克利特宝宝', 'number': '002',
+    '# 我们要培养怎样的赫拉克利特宝宝': {
+        'slug': 'baby-heraclitus', 'title': '我们要培养怎样的赫拉克利特宝宝', 'number': '002',
         'overview': '用户 ≈ 具身语言模型 ≈ 赫拉克利特宝宝。以个人为目的，优先改变社会，其次改变软件，最后才考虑改变个人；让环境适合人。',
         'sections': {
             '我们要培养怎样的人？': '解释具身 agent 的含义，以及这个类比的用途。',
@@ -95,7 +95,7 @@ ENGLISH = {
         },
     },
     'why-yinyang': {
-        'title': 'The purpose of personal philosophy',
+        'title': 'Why write a personal philosophy',
         'overview': 'Beginning with the person, model, and their relationship, YinYang organizes scattered Skills, prompts, tools, and the user’s environment into a practice with a shared direction.',
         'sections': {
             'A complex harness needs a shared direction': 'How scattered capacities enter shared practice.',
@@ -111,7 +111,7 @@ ENGLISH = {
         },
     },
     'literary-programming': {
-        'title': 'Literary programming',
+        'title': 'Writing a personal philosophy through literary programming',
         'overview': 'Condensing understanding through characters, imagery, narrative, and relationships brings culture, psychology, and preferences into model collaboration, to be rewritten through works and actions.',
         'sections': {
             'How one image can hold many relationships': 'Unfolding literary condensation through fire, rivers, and encounters.',
@@ -124,7 +124,7 @@ ENGLISH = {
         },
     },
     'baby-heraclitus': {
-        'title': 'Baby Heraclitus',
+        'title': 'What kind of Baby Heraclitus do we want to cultivate',
         'overview': 'User ≈ embodied language model ≈ Baby Heraclitus. With the person as the end, change society first, software second, and only then consider personal change: make the environment fit the person.',
         'sections': {
             'What kind of person do we want to cultivate?': 'Embodied agency and the purpose of this analogy.',
@@ -136,7 +136,7 @@ ENGLISH = {
         },
     },
     'meng': {
-        'title': 'The Argument from Super-Cuteness',
+        'title': 'Super-cuteness: openness, learning, and adaptation',
         'overview': 'Comparing authority and resources for growth in China and foreign environments, the argument considers how cuteness can yield reasoning and adaptive advantages under conditions for learning and transfer.',
         'sections': {
             'Definitions and terminology': 'The comparative scope of domestic and foreign, hierarchy, cuteness, and invincibility.',

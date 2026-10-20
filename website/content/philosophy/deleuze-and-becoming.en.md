@@ -46,7 +46,7 @@ A trial can begin with a small change: another medium of expression, a counterpa
 
 If the trial makes work more rigid or leaves someone busy only maintaining tools, rearrange the connections. Conditions for stopping, sleeping, spending time with others, and returning to the work also belong within this personal philosophy.
 
-Becoming here acquires a form we can try: change the connections making an activity possible, observe how works return, and judge which new capacities deserve a place in life. [Baby Heraclitus](/philosophy/baby-heraclitus/en/) gives this openness a character; [Trinity](/philosophy/local-source-and-website/en/) develops how trials leave expressions others can continue, making another person's reading a new encounter.
+Becoming here acquires a form we can try: change the connections making an activity possible, observe how works return, and judge which new capacities deserve a place in life. [What kind of Baby Heraclitus do we want to cultivate](/philosophy/baby-heraclitus/en/) gives this openness a character; [The trinity of philosophy, psychology, and engineering](/philosophy/local-source-and-website/en/) develops how trials leave expressions others can continue, making another person's reading a new encounter.
 
 ## Reading sources and scope of comparison
 

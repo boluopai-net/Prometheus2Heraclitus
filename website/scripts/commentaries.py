@@ -13,30 +13,30 @@ SERIES = '/philosophy/'
 STAGE_SLUGS = ('starting-point', 'understanding', 'encounter', 'formation', 'practice')
 SERIES_NAMES = ('窃火，然后成为火', 'Borrow Fire, Then Become Fire')
 GROUPS = [
-    ('起点', 'Starting point', [
+    ('借用智能与培养自己', 'Borrowing intelligence and cultivating oneself', [
         ('stealing-fire', '从已经可用的智能开始：有限的人怎样借来火，再发展自己的理解、创造与行动？'),
         ('personal-first-humanism', '把个人优先的价值前提说清楚：工具与合作应当支持具体人的生活，而不以输出数量代替发展。'),
         ('why-yinyang', '先说明 agent 是什么，再问分散能力为什么需要共同方向：把实际的人、对方与关系写进安排。'),
         ('meng', '先论证开放、共同学习与引导在什么条件下形成适应优势，为“宝宝”的培养方向提供理由。'),
         ('baby-heraclitus', '接着用赫拉克利特的火与河流塑造这个宝宝：保持开放，能够判断、创造并被相遇改变。'),
     ]),
-    ('理解', 'Understanding', [
+    ('理解与保留生活轨迹', 'Understanding and retaining life trajectories', [
         ('world-and-expression', '从共同活动到可以返回的表达：区分过程、模型与记录，说明生活轨迹保留的是什么。'),
         ('flow-and-time', '以共同改善阅读环境为例，通过 Git/GitHub 版本历史与 Computer History 汇集各类历史，形成可接续的生活轨迹。'),
         ('reasoning', '从轨迹中提出问题、比较候选解释，让检查、行动、结果与判断的修订继续留下根据。'),
         ('preference-harness', '在轨迹中保留选择与证据各自的贡献：采用一个工作视图，同时让其他材料与分岔仍能返回。'),
         ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
     ]),
-    ('相遇', 'Encounter', [
+    ('共同反思与相互培育', 'Shared reflection and mutual cultivation', [
         ('yinyang-and-taiji', '共同返回轨迹，辨认彼此的贡献与改变；日月、Shuang yu 与大地使这种相互生成取得形象。'),
         ('participation-and-support', '从对轨迹的共同反思中调整参与和支持，在实际尝试中培育关系，并为个人哲学准备具体理解。'),
     ]),
-    ('形成', 'Formation', [
+    ('从个人哲学到实践形式', 'From personal philosophy to a form of practice', [
         ('literary-programming', '承接共同做事留下的轨迹与对协作的反思，通过文学式编程、隐喻和类比写出自己的哲学。'),
         ('metaphor-and-self-revision', '将写出的哲学与生活材料一起凝练为个人、伙伴及双方关系的模型，让理解能够进入持续协作。'),
         ('writing-a-sinthome', '让哲学与个人模型进入实际环境，经由使用与修订，使哲学、心理与工程共同形成具体的圣状。'),
     ]),
-    ('实践', 'Practice', [
+    ('持续检验与共同创造', 'Continued testing and shared creation', [
         ('local-source-and-website', '承接已形成的个人安排，说明哲学、心理与工程怎样在本地使用、源内容和作品之间继续维系与修订。'),
         ('embodied-experimental-philosophy', '考察持续使用的后果：修订实现、个人理解或哲学，并区分安排改善与人的能力发展。'),
         ('example-and-commons', '让实践留下的作品与方法成为他人的资源，接续新的创造，也把新的相遇带回自己的生活。'),

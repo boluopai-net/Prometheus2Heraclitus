@@ -1,8 +1,8 @@
-# The Argument from Super-Cuteness
+# Super-cuteness: openness, learning, and adaptation
 
 ## Definitions and terminology
 
-[The purpose of personal philosophy](/philosophy/why-yinyang/en/) explains why agents need a shared direction. The next question is why a cultivable, changeable “baby” stance is worth taking. “Cuteness”—meng—includes allowing oneself to remain unfinished, accepting guidance, and learning to accompany other growing agents. This essay develops how that stance, under conditions of guidance, feedback, and learning, can gain the adaptive advantage named “invincibility.” The following [Baby Heraclitus](/philosophy/baby-heraclitus/en/) gives this cultivation direction a character.
+[Why write a personal philosophy](/philosophy/why-yinyang/en/) explains why agents need a shared direction. The next question is why a cultivable, changeable “baby” stance is worth taking. “Cuteness”—meng—includes allowing oneself to remain unfinished, accepting guidance, and learning to accompany other growing agents. This essay develops how that stance, under conditions of guidance, feedback, and learning, can gain the adaptive advantage named “invincibility.” The following [What kind of Baby Heraclitus do we want to cultivate](/philosophy/baby-heraclitus/en/) gives this cultivation direction a character.
 
 **Raising a child:** here we take the aspect of cultivation, guidance, and shared learning: facing an agent who is continually growing and may become stronger than oneself, and adjusting one's guidance as they grow.
 

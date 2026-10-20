@@ -1,8 +1,8 @@
-# Baby Heraclitus
+# What kind of Baby Heraclitus do we want to cultivate
 
 ## What kind of person do we want to cultivate?
 
-A finite life spent pursuing an ever-expanding Sun can be consumed by the pursuit. Model companies, researchers, and the wider collective continue stealing fire and making capabilities available; a person can borrow it without repeating the whole acquisition. If they choose to cultivate understanding, judgment, generation, and action, the next step is to bring that fire into practice: offer an intuition, let the model develop it, encounter criticism and correction, and generate further. [Stealing fire](/philosophy/stealing-fire/en/) develops this argument.
+A finite life spent pursuing an ever-expanding Sun can be consumed by the pursuit. Model companies, researchers, and the wider collective continue stealing fire and making capabilities available; a person can borrow it without repeating the whole acquisition. If they choose to cultivate understanding, judgment, generation, and action, the next step is to bring that fire into practice: offer an intuition, let the model develop it, encounter criticism and correction, and generate further. [Stealing fire and cultivating creative capacity](/philosophy/stealing-fire/en/) develops this argument.
 
 After borrowing fire, cultivating oneself with it means bringing available generativity into one's own continuing generation: taking what one reads into understanding, expressing an intuition, changing a judgment through criticism, attempts, and feedback, and proposing new possibilities. The person already understands and acts; this cultivation gives their existing participation new capacities and a distinctive form. We express this developing participant through a character:
 
@@ -14,7 +14,7 @@ Within this exchange, model-generated materials one reads may be inconsistent wi
 
 **“Little fire person” emphasizes being able to kindle further fire after borrowing it; “Baby Heraclitus” emphasizes that this creator is still changing too.** Together the expressions shape one character: forming oneself through creation, then continuing to create with that changed self. Cultivation develops understanding, judgment, generation, and action so this exchange can continue.
 
-[The purpose of personal philosophy](/philosophy/why-yinyang/en/) introduces agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation; receiving a finished work does not automatically produce growth. [Literary programming](/philosophy/literary-programming/en/) will develop how this relationship can be written and lived.
+[Why write a personal philosophy](/philosophy/why-yinyang/en/) introduces agents and shared direction, and [Super-Cuteness](/philosophy/meng/en/) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation; receiving a finished work does not automatically produce growth. [Writing a personal philosophy through literary programming](/philosophy/literary-programming/en/) will develop how this relationship can be written and lived.
 
 The cultivation concerns capacities of someone already an agent: **becoming more able to form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** A person need not attain an ideal of these capacities to qualify for participation or choice. Language is an important medium; the body, emotions, institutions, and tools together constitute the conditions of action.
 
