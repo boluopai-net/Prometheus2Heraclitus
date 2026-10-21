@@ -84,7 +84,8 @@ def package(value):
     if not path.is_dir() or not (path / "SKILL.md").is_file():
         raise ValueError(f"Not a Skill package: {path}")
     legacy = sorted(
-        relative for relative in LEGACY_ACCOUNTS
+        relative
+        for relative in LEGACY_ACCOUNTS
         if (path / relative).exists() or (path / relative).is_symlink()
     )
     if legacy:
