@@ -52,7 +52,9 @@ literary character in an instruction. Either expression can revise the other
 through use. The [writing method](../design-and-revision.md#write-for-the-actual-use)
 develops this distinction for the five accounts and private supporting notes.
 
-When psychological modeling is hard to articulate, a person comfortable with
+The project's [event-stream psychological modeling](../formation/person.md#event-stream-psychological-modeling)
+connects conversation history, everyday life, and philosophy in natural-language
+conceptual accounts. When that explanation is still hard to articulate, a person comfortable with
 engineering can begin from preferences visible in choices about work, learning,
 response, and change. Configurations supply clues to compare with actual
 choices and correction. From this working account, develop the counterpart's
@@ -164,9 +166,11 @@ count of revisions or artifacts.
 Full adoption of the maintained YinYang implementation connects two uses of
 writing. Common essays develop philosophy and imagery for human understanding.
 Five situated files explicitly state what
-actual collaboration needs: encounter, person model, counterpart and
-relationship, use, and sources. They supply an entry into the participants and
-the grounds of understanding them; the larger essays give reasons and
+actual collaboration needs: adopted orientation, person, actual counterpart,
+relationship, and environmental realization. Person, counterpart, and
+relationship remain distinct modeling objects; orientation supplies direction
+and environment explains realization. The private evidence entrance supports
+these accounts outside the five. The larger essays give reasons and
 connections that a working account need not repeat. Supporting private sources
 retain the relevant personal evidence; derived notes make their meaning and
 uncertainty usable for the model while preserving original expression as source.
@@ -175,8 +179,9 @@ The [Skill entrypoint](../../SKILL.md) connects these resources to a consuming
 model. Its reading contract makes the complete current situated accounts
 available before substantive work, while further reading follows the question.
 The model develops the accounts from authorized material and actual work;
-the distributed files contain formation guidance rather than a copied or
-fictional portrait. The [package guide](skill-package.md) explains the five
+permanent public guides under `references/formation/` remain separate from
+actual private accounts under `references/situated/` and evidence under
+`references/personal/`. Distribution contains no private trees. The [package guide](skill-package.md) explains the five
 fixed slots and the common/private boundary. [Design and revision](../design-and-revision.md)
 develops their formation and correction. Maintaining this implementation keeps
 its common content aligned; an independently authored work can choose another form.

@@ -121,7 +121,7 @@ and work, can guide an account of the model counterpart. Both accounts develop
 through interaction. Other participants' purposes matter where a shared task
 depends on them; their accounts remain partial and revisable too.
 
-In the psychological-modeling route, philosophy and engineering together form
+In this project's [event-stream psychological-modeling route](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and everyday life materials ground a natural-language conceptual account. Philosophy and engineering together form
 an understanding of the user's intentional orientation, experience, and
 relationships, which guides the counterpart's contribution and personal
 environment. The aim is a better-grounded initial design with less blind trial
@@ -146,8 +146,11 @@ explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
 not by collecting more biography. The complete YinYang Skill gives these
-accounts maintained homes; selectively using this modeling idea does not
-require filling all of them.
+accounts maintained homes: adopted orientation, person, counterpart,
+relationship, and environmental realization are the fixed five; private
+evidence supports them separately. The [formation method](../design-and-revision.md)
+and its permanent guides develop their writing. Selectively using this modeling
+idea does not require forming all five.
 
 <a id="yy-04"></a>
 

@@ -13,13 +13,20 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private modeling and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
 In this implementation, the five core files hold the distilled understanding
-needed by a model counterpart: encounter, person model, counterpart and
-relationship, situated use, and sources. Concrete identity details, episodes,
-original expressions, and longer investigations stay in `personal/` or the
+needed by a model counterpart: adopted orientation, the person, the actual
+counterpart and wanted contribution, their relationship, and environmental
+realization. Person, counterpart, and relationship remain three modeling
+objects; the five accounts are not all psychological models. The fixed private
+accounts live under `references/situated/`; permanent public guides live under
+`references/formation/`. Concrete identity details, episodes, original
+expressions, and longer investigations stay in `references/personal/` or the
 private originals it references. Distillation preserves the individual
 differences that matter to collaboration, while keeping detailed evidence
 reachable when needed. Someone adopting these five files must form their own
 accounts rather than retain the author's personal substance.
+Evidence supports all five through a private `references/personal/sources.md`
+entrance; it is not itself a core account. Public distribution contains neither
+private accounts nor private source material.
 
 A person can make a website for their philosophy while keeping the complete
 personal model private. Public philosophy is an authored work and a selected,
@@ -44,6 +51,10 @@ or pursue a purpose it has not anticipated. Its form succeeds when it makes
 that work's relations available to its readers and model counterparts. Its
 questions, practice, and consequences supply the judgment; resemblance to
 YinYang does not.
+
+The implementation maintained here nevertheless keeps its five core accounts.
+Freedom to author a differently organized philosophy and the stable contract
+of this particular example are compatible invitations.
 
 ## Adopt, combine, or author anew
 

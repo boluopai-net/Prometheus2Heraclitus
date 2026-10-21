@@ -43,12 +43,17 @@ from the goals and material you choose to share.
 Plugin cache files are replaceable. Keep your personal version in your own
 private Skill source, outside the plugin cache and marketplace checkout.
 Have Codex copy the complete YinYang package there, preserve an existing
-personal version, develop the five core accounts and private supporting material,
+personal version, form orientation, person, counterpart, relationship, and
+environment under `references/situated/` and the evidence entrance at
+`references/personal/sources.md`,
 and register that private Skill through your client's actual discovery mechanism.
 Once that personal Skill is active, disable the distribution plugin to avoid
 two competing YinYang entrypoints. Verify the private entrypoint in a new chat.
 Common updates can use the included `scripts/sync-common.py`; it preserves the
-five personal accounts and `references/personal/`.
+entire `references/situated/` and `references/personal/` trees. Public writing
+guides remain under `references/formation/` after formation. Legacy mixed-path
+packages require owner migration under the [package guide](../skills/yinyang/references/docs/skill-package.md#project-common-changes)
+before projection; the command refuses them without changing files.
 
 ## Updates and removal
 

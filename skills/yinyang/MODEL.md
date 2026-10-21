@@ -38,12 +38,18 @@ Keep the following uses of writing distinct:
   essays into a second policy manual.
 
 The [package guide](references/docs/skill-package.md) owns the shared/situated
-structure and projection contract. The five files
-`references/{encounter,models,relationship,usage,sources}.md` contain writing
-guidance in distribution and grounded personal content in a situated package.
-Supporting private material lives under `references/personal/`. Common updates
-preserve those files. `scripts/sync-common.py` checks or applies that projection;
-local and cloud owners install it and verify their actual consumers.
+structure and projection contract. Permanent public writing guidance lives in
+`references/formation/`. A situated package adds the fixed five accounts
+`references/situated/{orientation,person,counterpart,relationship,environment}.md`.
+Person, counterpart, and relationship remain three modeling objects; orientation
+states adopted philosophy, values, and direction, and environment explains
+realization. They are not five psychological models. Evidence is supporting
+material, with its private entrance at `references/personal/sources.md`, outside
+the initial five. Public distribution contains no private trees. Common updates
+preserve both entire trees; `scripts/sync-common.py` checks or applies projection
+and refuses unmigrated legacy layouts. Local and cloud owners migrate meaning,
+install, and verify their actual consumers. Other authors may freely change
+structure and philosophy; this maintained implementation retains its fixed five.
 
 Authored public content lives here. `plugins/yinyang/`, website reading editions,
 and local/cloud common files are generated or synchronized consumers, not

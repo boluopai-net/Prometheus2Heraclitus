@@ -107,7 +107,8 @@ two: who can initiate, question, carry work forward, judge a result, or change
 the arrangement. Person and counterpart models develop together through these
 relations; a portrait of the person alone cannot specify the collaboration.
 
-In the psychological-modeling route, philosophy and engineering contribute
+In this project's [event-stream psychological-modeling route](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and
+everyday life materials ground a natural-language conceptual account. Philosophy and engineering contribute
 together to understanding the user. Philosophy supplies concepts and interpretive
 frameworks for experience, desire, intentional orientation, and relationships.
 Engineering organizes conversations, records, language models, and tools so

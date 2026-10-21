@@ -11,15 +11,20 @@
 **Begin from this example, write your own philosophy, distill your private models,
 and make the thought you choose to share into your own works and website.**
 Philosophical writing helps explore an initially unclear self-understanding.
-Clear, grounded relations are distilled into five core files for actual model
-collaboration; concrete identity, episodes, and original material remain with
+Clear, grounded relations are distilled into five core accounts for actual model
+collaboration: **orientation, person, counterpart, relationship, and environment**.
+They state adopted philosophy and direction, understand the participants and
+their joint activity, and explain realization. Concrete identity, episodes, and original material remain with
 private sources. Public work can express philosophy and selected understanding
 while the person retains the complete personal model privately. The collection
 offers this practice of creation and modeling, beyond replacing a ready-made configuration.
 
 **This collection centers modeling, rather than providing a memory system.**
 Its YinYang package begins with a particular person: philosophical, psychological,
-and preference material grounds a dynamic user model, from which a corresponding
+and preference material grounds a dynamic user model. Its current
+[event-stream psychological modeling](skills/yinyang/references/formation/person.md#event-stream-psychological-modeling)
+distills long-term conversation history and everyday life with philosophy into
+a natural-language conceptual account, from which a corresponding
 agent model and relationship are formed. Their work enters the world, and its
 consequences revise understanding. Memory retains material and continuity;
 modeling organizes meaning, relationships, and change so that understanding
@@ -43,15 +48,23 @@ presents the maintained documents and diagrams alongside their source links.
 
 ## Philosophy, psychology, and engineering: develop the missing connection
 
-**Philosophy articulates understanding and direction, psychology understands the particular person, and engineering realizes the relationship in a usable environment.** These contributions support one another. Begin with one and develop the other two; begin with two and concentrate on the third. Philosophy and psychology call for harness realization; philosophy and engineering call for personal experience and preference evidence; psychology and engineering call for philosophical articulation of the relationship. This is a model-supported practice, not a prerequisite to independently complete three academic disciplines.
+**Philosophy articulates understanding and direction, psychology understands the
+particular person, and engineering realizes the relationship in a usable
+environment.** These contributions support one another. Enter through available
+material and practice and develop the missing contribution; the person need
+not first complete three academic disciplines independently.
 
-**If engineering is missing, develop it first.** Learn to use model assistance to organize files, tools, a harness, execution, and verification, giving material preparation, model writing, and revision a usable environment. With one principal starting point, the usual routes are:
-
-- **Psychology available: engineering → philosophy.** Establish the engineering environment first, then organize relevant experiences, conversations, memories, and preferences privately in `personal/`; form a personal model with assistance and unfold its relationships into philosophy.
-- **Philosophy available: engineering → psychology.** Establish an environment for organizing material and continuing revision, then compare the existing philosophy with actual experience, preferences, and use to distill a personal model.
-- **Engineering available: usually psychology → philosophy.** Use harness choices, friction, changes, and actual use to propose a personal model; check it against relevant psychological and preference material retained privately in `personal/`, then develop philosophy. Once engineering is usable, existing thought and material can also justify another entrance.
-
-These entrances can lead into one another. Choose by the current object rather than assigning people to fixed professional categories. Installed configurations can reflect constraints, habits, or defaults, so a tool inventory alone cannot establish who a person is; coherent philosophy likewise needs personal evidence and worldly response. The model helps organize, write, and implement while the person understands, chooses, uses, and corrects. Philosophy, personal models, material, and environment continue to revise one another. [YinYang's formation method](skills/yinyang/README.md#use-and-understand-yinyang) explains the five core accounts and their use.
+**If a usable engineering environment is missing, develop it first with the model.**
+Files, retrieval, tools, execution, and verification make formation and continued
+use possible; the person need not first master engineering. The maintained
+[six starting routes](skills/yinyang/references/design-and-revision.md#start-from-available-material-and-practice)
+distinguish actual philosophical writing, psychological or life material, and
+working environments, singly and in pairs. They identify the next contribution
+without making formation closed stages. Installed configurations can reflect
+constraints, habits, or defaults, so tool inventory alone cannot establish the
+person. Philosophy, grounded accounts, and environment continue to revise one
+another. [YinYang's package guide](skills/yinyang/README.md#use-and-understand-yinyang)
+explains its five core accounts and use.
 
 ## Skills in the collection
 
@@ -104,8 +117,10 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting YinYang requires the model to help rewrite **all five core relationship
-files and organize your own `references/personal/`**. Installing does not
+Adopting the maintained YinYang requires the model to form **all five core accounts
+under `references/situated/` and their evidence under `references/personal/`**.
+Permanent public writing guides live separately in `references/formation/`;
+distribution contains no private accounts. Installing does not
 complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)
 states what to change, who carries the writing, and how to verify availability.
 

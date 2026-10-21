@@ -51,7 +51,7 @@ Person and language model jointly raise the question, select relations to expres
 
 An already formed personal model remains answerable to new experiences, works, choices, and interactions. The earlier philosophy expresses an understanding of the world, value, and living; actual use can disclose its conditions of applicability, contradictions, or aspects yet to be articulated. Maintenance compares earlier understanding with new material, asking whether the change concerns the person, counterpart, environment, or their interpretation.
 
-This understanding can have different depths. A preference model begins by describing the options, responses, and working styles the person likes; a psychological model further proposes explanations of how experience, emotion, desire, and relationships affect their participation. The former may already support an arrangement; the latter may help when recurring difficulties or changes need explanation. The current question determines which is needed.
+This understanding can have different depths. A preference model begins by describing the options, responses, and working styles the person likes. This project's [event-stream psychological modeling](../formation/person.md#event-stream-psychological-modeling) further interprets long-term conversation history and everyday life materials, with philosophy, into a natural-language conceptual account of experience, emotion, desire, and relationships. The preference account may already support an arrangement; explanatory modeling addresses the further question that arises. The person guide defines the present method and its relation to other possible psychological methods.
 
 The needed counterpart must be understood alongside the person. What does the person want the model to investigate, judge, and carry out? What capabilities does the available model actually have, and which tools can it use? Understanding the person and the counterpart jointly determines the collaboration. Wanting open exploration, for example, does not mean the model can only agree: it can still identify insufficient evidence, an incoherent explanation, or an unworkable means.
 
@@ -62,6 +62,12 @@ Prompts, Skills, and harnesses bring these understandings into actual work. Prom
 ## Supplying needed contributions through use
 
 <a id="philosophy-psychology-and-engineering-develop-the-missing-connection"></a>
+
+For starting a new formation, the maintained [six starting routes](../design-and-revision.md#start-from-available-material-and-practice)
+distinguish available philosophical writing, psychological or life materials,
+and an actual working environment, singly or in pairs. They recover the learning
+sequence by developing the missing contribution; this essay examines how those
+contributions continue to revise one another in use.
 
 An arrangement usable for earlier tasks may lack a contribution when it enters new work. New experience can call for developing a relationship left implicit in the philosophy; a new counterpart can need a more explicit personal account; a new tool can change a previously workable division of contributions. Maintenance begins with the actual difference and supplies the understanding or capability needed; existing parts that still fit can continue working.
 

@@ -34,11 +34,15 @@ codex plugin add yinyang@boluopai
 材料，协助形成自己的哲学和具体模型。
 
 插件缓存会被更新替换。个人版应保存在自己的私人 Skill 源目录里，放在插件缓存和市场
-检出目录之外。让 Codex 将完整阴阳包复制到那里，保留已经存在的个人版，形成五份核心
-文件和私人配套材料，再通过客户端实际的发现机制启用。个人版启用后，停用分发插件，
+检出目录之外。让 Codex 将完整阴阳包复制到那里，保留已经存在的个人版，在
+`references/situated/` 形成取向、人、伙伴、关系、环境五份描述，在
+`references/personal/sources.md` 形成私人证据入口，再通过客户端实际的发现机制启用。
+个人版启用后，停用分发插件，
 避免两个阴阳入口相互竞争，并在新对话中核实私人入口。
-共同内容更新可使用包内 `scripts/sync-common.py`；它会保留五份个人核心和
-`references/personal/`。
+共同内容更新可使用包内 `scripts/sync-common.py`；它会保留整个 `references/situated/`
+与 `references/personal/`。形成后，公开写作指引仍保留在 `references/formation/`。
+旧混合路径包先按[包结构说明](../skills/yinyang/references/docs/skill-package.zh-CN.md#投影公共变更)
+由维护者迁移；迁移前，命令拒绝操作且不改变文件。
 
 ## 更新与卸载
 
