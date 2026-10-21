@@ -85,14 +85,39 @@ articulate an orientation, not a completed universal system:
 | Value | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
 | Methodology | Question-relative pluralism. | Which combination of analogy, formalization, simulation, participation, and experiment answers this question? |
 
-These four axes use the same distinctions as [Core view YY-09](core-views.md#yy-09). Value articulates what is worth pursuing; an ontological description, factual judgment, or effective method cannot simply replace it. **Practice** brings these distinctions together in action and encounters their consequences; instructions, tools, files, and interfaces are concrete realizations. Practice is neither another name for value nor a fifth item that must be placed alongside the four axes.
+These four axes use the same distinctions as [Core view YY-09](core-views.md#yy-09). Value articulates what is worth pursuing; an ontological description, factual judgment, or effective method cannot simply replace it. **Practice** brings all four into action and encounters their consequences. A diagram may give practice a fifth node to show this connection without making it a fifth philosophical position of the same kind.
 
-Computational ontology can participate across these axes in different functions.
-It articulates objects and changes; it organizes evidence and candidate
-inferences; it makes selected purposes explicit; and it supplies representations
-that tools can use. Its reach does not collapse the questions into one. A
-well-formed representation can still explain the phenomenon poorly, and a
-predictive model can still serve a purpose we have reason to reject.
+These questions also need to be developed separately at physical and computational
+levels. The physical level concerns embodied activity and its material conditions;
+the computational level concerns usable objects, relations, and organization of
+activity. Both levels are real, and philosophical understanding applies to both:
+
+| Dimension | Physical level | Computational level |
+| --- | --- | --- |
+| Ontology | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology: a process ontology organizing events, states, objects, relations, and transitions. |
+| Knowing | How do experience and observation support judgment and disclose error? | How are evidence, candidate explanations, inference, and tests represented and organized? |
+| Value | What is worth pursuing; whose agency and life are affected? | How are goals, criteria, constraints, and tradeoffs made explicit? |
+| Method | How are inquiry, collaboration, and experiments actually conducted? | How do method descriptions, procedures, tools, and rules organize selected activity? |
+| Practice | How do embodied people act and live with consequences? | How are computational arrangements run and used, and their results read back? |
+
+[From understanding the world to realizing a practice](../diagrams/layers.html)
+draws these two sets of four axes plus practice as two levels, naming their
+ontology nodes **physical ontology** and **computational ontology**. Process
+ontology at the computational level organizes persistence and change; it cannot
+replace that level's responsibilities of knowing, value, and method. Bodies,
+machines, records, energy, and activity at the physical level realize the
+computational arrangement.
+The corresponding dimensions instead connect through selection, expression,
+organization, and feedback. A value commitment guides goal design; it is not
+the material that makes a program. Both levels belong to one world, and
+computational activity is real activity. Placing the physical level below the
+computational level depicts realization, not a restriction of reality to the lower level.
+
+Evidence representations therefore remain answerable to experience, evaluation
+criteria to lived purposes, and executed procedures to judgments of methodological
+fit. A well-formed representation can explain the phenomenon poorly; a predictive
+model can serve a purpose we have reason to reject. Articulating both sets
+separately makes their actual connections open to examination.
 
 “Begin with psychological adequacy before formal refinement” expresses a useful
 research direction when the question concerns a psychological phenomenon:

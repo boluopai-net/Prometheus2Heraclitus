@@ -65,22 +65,49 @@ locates absolute spirit relative to subjective and objective spirit and develops
 art within that account. [World, process, and expression](world-and-expression.md)
 keeps these categories distinct from generic stages of a feedback loop.
 
-## Wittgenstein and the Buddhist raft: clarification and the use of means
+<a id="wittgenstein-and-the-buddhist-raft-clarification-and-the-use-of-means"></a>
 
-Wittgenstein's [*Philosophical Investigations*, §§109, 115, and 133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
-connects philosophical description, captivity within a picture, and a plurality
-of methods compared to therapies. Read these remarks as an account of
-philosophical difficulty; the move from compulsory pursuit of the frontier to
-surrounding life is this collection's application. [The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation)
-develops that move, while [personal modeling](metaphor-and-self-revision.md)
-distinguishes conceptual clarification from candidate psychological explanation.
+## Wittgenstein: pictures and philosophical therapy
 
-The Buddhist [*Alagaddūpama Sutta*, MN 22, raft simile](https://www.dhammatalks.org/suttas/MN/MN22.html)
-compares teaching to a means of crossing: it is used to make the crossing and
-released after its purpose is served. This specific passage supports the fire
-essay's comparison with revisable tools, models, and self-images. The original
-liberative purpose and this contemporary cultivation project remain distinct;
-the passage does not by itself identify the whole project with Buddhism.
+Read [*Philosophical Investigations*, Part I, §§109, 115, and 133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
+together. The link supplies the German original; section numbers let readers
+locate the same remarks in a translation.
+
+| Passage | What to attend to |
+| --- | --- |
+| [§109](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#109) | How examining language and describing its use can work on a philosophical difficulty. Ask which relation becomes clearer when an apparent demand is described in context. |
+| [§115](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#115) | How a picture embedded in language can hold thought captive. Ask what a description makes seem inevitable and which alternatives it hides. |
+| [§133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#133) | Why philosophical work admits different methods compared to therapies, and how clarification can make it possible to stop. Ask what has changed when the original problem loses its grip. |
+
+[The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation) applies this
+route to pictures of obligatory frontier pursuit and returns their demands to
+surrounding life. That application belongs to this collection.
+[Personal modeling](metaphor-and-self-revision.md#conceptual-modeling-and-philosophical-clarification)
+then distinguishes clarifying concepts such as ability or progress from
+proposing a psychological explanation of a person's activity. The two can
+inform one another without a convincing description settling an empirical claim.
+
+## Buddhist reading: grasping a teaching and the raft
+
+Read the water-snake and raft passages together in the [*Alagaddūpama Sutta*,
+*Majjhima Nikāya* 22](https://www.dhammatalks.org/suttas/MN/MN22.html), translated
+by Ṭhānissaro Bhikkhu. The sections [“The Water-snake Simile”](https://www.dhammatalks.org/suttas/MN/MN22.html#toc_2)
+and [“The Raft Simile”](https://www.dhammatalks.org/suttas/MN/MN22.html#toc_3)
+locate the relevant portions of the discourse. The translator's
+introduction and notes are commentary accompanying the translated text.
+
+The water-snake passage concerns how a teaching is grasped and understood;
+the raft passage follows a traveler who builds and uses a raft to cross, then
+considers whether to keep carrying it. Read the complete movement: what the
+means makes possible, how it is used, and when carrying it becomes an
+unnecessary burden. This gives “letting go” a situation and a purpose.
+
+[The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation) develops a
+comparison with tools, conceptual models, and the little-fire self-image: they
+can contribute to life while remaining revisable. The discourse's liberative
+purpose and this creative-life application are distinct. This is a particular
+Buddhist source for that relation, rather than a claim to summarize Buddhist
+traditions or derive the whole YinYang framework from them.
 
 ## Nietzsche: three metamorphoses and creation
 

@@ -51,17 +51,39 @@
 在主观精神与客观精神的关系中定位绝对精神，并在其中展开艺术。
 [世界、过程与表达](world-and-expression.zh-CN.md)保留这些范畴与一般反馈回路阶段的区别。
 
-## 维特根斯坦与佛教筏喻：澄清与手段的使用
+<a id="维特根斯坦与佛教筏喻澄清与手段的使用"></a>
 
-维特根斯坦的[《哲学研究》§§109、115、133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
-联系哲学描述、图景的束缚，以及被比作治疗的多种方法。这些段落讨论哲学困难；从必须
-追赶前沿转向周围生活，是本作品的应用。[窃火论述](stealing-fire.zh-CN.md#从追逐到生活中的修习)
-展开这次转向，[个人建模](metaphor-and-self-revision.zh-CN.md)则区分概念澄清与候选的心理解释。
+## 维特根斯坦：图景与哲学治疗
 
-佛教[《蛇喻经》（中部第22经）的筏喻](https://www.dhammatalks.org/suttas/MN/MN22.html)
-把教法比作渡越的手段：借它完成渡越，在其目的已经实现后放下。这一具体段落支持窃火
-论述对可修订的工具、模型与自我意象的比较。原文的解脱目的与这里的当代培养项目有所区别；
-这一段经文不能独自使整个项目等同于佛教。
+把[《哲学研究》第一部分第109、115、133节](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
+放在一起读。链接提供德文原文，可以按节号在译本中找到相同段落。
+
+| 段落 | 阅读时注意什么 |
+| --- | --- |
+| [第109节](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#109) | 考察语言、描述语言的使用，怎样处理哲学困难？把一个显得当然的要求放回具体情境，什么关系变得更清楚？ |
+| [第115节](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#115) | 嵌在语言中的图景怎样束缚思想？一种描述使什么显得不可避免，又遮住哪些可能？ |
+| [第133节](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen#133) | 为什么哲学工作有被比作治疗的不同方法，澄清又怎样让人能够停下来？原来的问题不再抓住人时，什么发生了变化？ |
+
+[窃火论述](stealing-fire.zh-CN.md#从追逐到生活中的修习)把这条路径用于必须追赶前沿的
+图景，让其中的要求回到周围生活；这项应用属于本作品。[个人建模](metaphor-and-self-revision.zh-CN.md#概念建模与哲学澄清)
+进一步区分澄清能力、进步等概念，与提出某个人活动的心理解释。两者可以相互启发，
+但一份有说服力的描述不能独自裁定经验主张。
+
+## 佛教阅读：把握教法与筏喻
+
+把[《蛇喻经》（《中部》第22经）](https://www.dhammatalks.org/suttas/MN/MN22.html)的
+水蛇喻与筏喻一起读。链接是 Ṭhānissaro Bhikkhu 的英译，可以直接进入
+[水蛇喻](https://www.dhammatalks.org/suttas/MN/MN22.html#toc_2)与
+[筏喻](https://www.dhammatalks.org/suttas/MN/MN22.html#toc_3)部分；译者导言和注释是随译文提供的解说。
+
+水蛇喻关心教法怎样被把握和理解；随后，筏喻写行路人造筏、用筏渡越，再考虑是否继续
+背着它。阅读完整的运动：手段使什么成为可能，怎样使用它，什么时候继续背负反而成为
+多余负担。由此，「放下」取得具体处境和目的。
+
+[窃火论述](stealing-fire.zh-CN.md#从追逐到生活中的修习)据此比较工具、概念模型和小火人的
+自我意象：它们能够贡献于生活，同时保持可修订。经文的解脱目的，与这里对创造性生活的
+应用有所区别。这是一项用于理解该关系的具体佛教来源，并不概括各佛教传统，也不从中
+推出整个阴阳框架。
 
 ## 尼采：精神的三种变形与创造
 

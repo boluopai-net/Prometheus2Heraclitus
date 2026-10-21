@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="archify 3.1.0">
+  <meta name="generator" content="archify 3.2.0">
   <meta name="archify-reader-contract" content="declared-wide-v1">
-  <title>物理基础上的计算本体与实践 · YY-09</title>
+  <title>从世界理解到实践实现 · YY-09</title>
   <script>
     // Resolve the theme before first paint so light-preference users don't
     // see a dark flash. The toolbar script below re-applies with UI state.
@@ -2736,19 +2736,31 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     }
     html[data-reader-rail="bottom"] .node-outline-head { padding: 1rem 2.5rem 0.375rem 0.25rem; }
     html[data-reader-rail="bottom"] .node-outline-list {
-      columns: 15rem;
-      column-gap: 1.75rem;
+      display: grid;
+      gap: 0.5rem;
       padding: 0;
       overflow: visible;
       -webkit-mask-image: none;
       mask-image: none;
     }
-    /* Named groups stay whole; a single unnamed group may split across columns,
-       where a continuous spine would read as a broken line. */
     html[data-reader-rail="bottom"] .node-outline-group + .node-outline-group { margin-top: 0; }
-    html[data-reader-rail="bottom"] .node-outline-group:has(> .node-outline-heading) { break-inside: avoid; padding-bottom: 0.25rem; }
-    html[data-reader-rail="bottom"] .node-outline-group:not(:has(> .node-outline-heading)) > ul::before { display: none; }
-    html[data-reader-rail="bottom"] .node-outline-group li { break-inside: avoid; }
+    html[data-reader-rail="bottom"] .node-outline-group:has(> .node-outline-heading) { padding-bottom: 0.25rem; }
+    html[data-reader-rail="bottom"] .node-outline-group > ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    html[data-reader-rail="bottom"] .node-outline-group > ul::before { display: none; }
+    html[data-reader-rail="bottom"] .node-outline-group li {
+      flex: 0 1 auto;
+      min-width: min(100%, 12rem);
+      max-width: min(100%, 32rem);
+    }
+    html[data-reader-rail="bottom"] .node-outline-heading {
+      justify-content: flex-start;
+      gap: 0.5rem;
+    }
+    html[data-reader-rail="bottom"] .node-outline-heading > span { overflow-wrap: anywhere; }
     .rail-controls { display: none; }
     html:is([data-reader-rail="true"], [data-reader-rail="overlay"], [data-reader-rail="bottom"]) .rail-controls {
       display: flex;
@@ -2964,6 +2976,37 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     .node-outline-item:hover small,
     .node-outline-item[data-previewing] small,
     .node-outline-item[aria-current="true"] small { color: var(--text-muted); }
+
+    /* The desktop bottom rail is an index: compact rows keep related nodes
+       together while allowing full names and descriptions to wrap naturally. */
+    html[data-reader-rail="bottom"] .node-outline-item {
+      grid-template-columns: 0.625rem minmax(0, 1fr) 0.75rem;
+      align-items: first baseline;
+      column-gap: 0.375rem;
+      min-height: 0;
+      padding-block: 0.375rem;
+    }
+    html[data-reader-rail="bottom"] .node-outline-item strong,
+    html[data-reader-rail="bottom"] .node-outline-item small {
+      overflow: visible;
+      text-overflow: clip;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+    html[data-reader-rail="bottom"] .node-outline-item strong {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    html[data-reader-rail="bottom"] .node-outline-item small {
+      grid-column: 2;
+      grid-row: 2;
+      text-align: left;
+    }
+    html[data-reader-rail="bottom"] .node-outline-item::after {
+      grid-column: 3;
+      grid-row: 1;
+      align-self: center;
+    }
 
     .card-header {
       display: flex;
@@ -5150,17 +5193,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
            data-preset-badge-blueprint="蓝图 / 修订 01"
            data-preset-badge-editorial="编辑风格 / 现场笔记">
         <div class="pulse-dot"></div>
-        <h1>物理基础上的计算本体与实践 · YY-09</h1>
+        <h1>从世界理解到实践实现 · YY-09</h1>
       </div>
     </div>
 
 
-    <script id="archify-i18n-data" type="application/json">{"locale":"zh-CN","messages":{"viewer.kind.frontend":"建模关系","viewer.kind.backend":"证据与修订","viewer.kind.database":"数据库","viewer.kind.cloud":"云服务","viewer.kind.security":"安全","viewer.kind.messagebus":"工作方法","viewer.kind.external":"实现与结果","viewer.kind.neutral":"中性","viewer.kind.node":"节点","viewer.kind.start":"开始","viewer.kind.active":"活动","viewer.kind.waiting":"等待","viewer.kind.decision":"决策","viewer.kind.success":"成功","viewer.kind.failure":"失败","viewer.toolbar.actions":"图表操作","viewer.theme.toggle.title":"切换主题（T）","viewer.theme.toggle":"切换颜色主题","viewer.theme.dark":"深色","viewer.theme.light":"浅色","viewer.preset.choose.title":"选择视觉风格（S 循环切换）","viewer.preset.choose":"选择视觉风格","viewer.preset.style":"风格","viewer.preset.menu":"视觉风格","viewer.preset.identity":"视觉表达","viewer.preset.cycles":"循环切换","viewer.preset.classic":"经典","viewer.preset.classic.short":"经典","viewer.preset.classic.hint":"稳定的技术默认风格","viewer.preset.flow":"信号流","viewer.preset.flow.short":"流动","viewer.preset.flow.hint":"突出动态流向","viewer.preset.blueprint":"蓝图","viewer.preset.blueprint.hint":"工程评审","viewer.preset.editorial":"编辑风格","viewer.preset.editorial.hint":"适合发布与上线说明","viewer.preset.badge.signalFlow":"信号流","viewer.preset.badge.blueprint":"蓝图 / 修订 01","viewer.preset.badge.editorial":"编辑风格 / 现场笔记","viewer.preset.badge.editorialPlate":"ARCHIFY / 图版 04","viewer.preset.current":"当前视觉风格：{style}。选择视觉风格","viewer.motion.live":"动态","viewer.motion.still":"静态","viewer.motion.pause":"暂停动效","viewer.motion.resume":"恢复动效","viewer.motion.reduced":"已根据减少动态效果偏好暂停动效","viewer.motion.hidden":"页面不可见时已暂停动效","viewer.motion.yielding":"暂停动效；当前让位于{owner}","viewer.motion.yielding.title":"动态预览已启用 · 正在让位于{owner}","viewer.owner.route":"路径探测","viewer.owner.lens":"语义透镜","viewer.owner.relationship":"关系预览","viewer.owner.intent":"意图追踪","viewer.owner.focus":"语义聚焦","viewer.owner.legend":"图例预览","viewer.owner.reader":"读者交互","viewer.present.enter":"进入演示模式","viewer.present.enter.title":"演示模式（F）","viewer.present.exit":"退出演示模式","viewer.present.exit.title":"退出演示模式（F 或 Escape）","viewer.present.present":"演示","viewer.present.exit.label":"退出","viewer.export.button":"导出","viewer.export.button.title":"导出图表（E）","viewer.export.diagram":"导出图表","viewer.export.menu":"导出","viewer.export.subtitle":"便携、整洁的输出","viewer.export.share":"分享","viewer.export.shareCard":"分享卡片","viewer.export.routeShareCard":"路径分享卡片","viewer.export.reachShareCard":"可达范围分享卡片","viewer.export.copyDiagram":"复制图表","viewer.export.clipboardPng":"复制 PNG 到剪贴板","viewer.export.raster":"位图","viewer.export.image":"图像","viewer.export.lossless":"无损图像","viewer.export.compact":"紧凑图像","viewer.export.modern":"现代图像格式","viewer.export.vectorMotion":"矢量与动效","viewer.export.vectorMotion.heading":"矢量与动效","viewer.export.editable":"可编辑矢量图","viewer.export.svg.auto":"SVG · 自动","viewer.export.svg.auto.hint":"匹配宿主主题","viewer.export.svg.light":"SVG · 浅色","viewer.export.svg.light.hint":"始终浅色","viewer.export.svg.dark":"SVG · 深色","viewer.export.svg.dark.hint":"始终深色","viewer.export.motion6s":"6 秒动效","viewer.export.unsupported":"当前浏览器不支持","viewer.export.clipboardUnsupported":"当前浏览器不支持写入图片剪贴板","viewer.export.clipboardUnsupported.short":"此浏览器不支持写入图片剪贴板。","viewer.export.motionUnavailable":"当前浏览器无法录制动效","viewer.export.webmUnavailable":"当前浏览器不支持 WebM","viewer.export.failed":"导出失败：{message}","viewer.export.unknownVariant":"未知的分享卡片类型：{variant}","viewer.export.routeRequired":"请先追踪路径，再导出路径分享卡片","viewer.export.reachRequired":"请先追踪编写可达范围，再导出可达范围分享卡片","viewer.export.unknown":"未知错误","viewer.export.routeFailed":"路径分享卡片导出失败：{message}","viewer.export.reachFailed":"可达范围分享卡片导出失败：{message}","viewer.export.copyFailed":"复制失败：{message}","viewer.export.copiedPng":"已将 PNG 复制到剪贴板","viewer.export.downloadedRoute":"已下载路径分享卡片","viewer.export.downloadedReach":"已下载可达范围分享卡片","viewer.export.downloadedWebm":"已下载 WebM","viewer.export.recording":"正在录制 6 秒动效…","viewer.export.card.routeSummary.one":"路径：{source} → {target} · {count} 步","viewer.export.card.routeSummary.other":"路径：{source} → {target} · {count} 步","viewer.export.card.reachSummary":"从{origin}开始的编写{direction} · {nodes} · {links} · 最深 {hops}","viewer.export.card.node.one":"{count} 个节点","viewer.export.card.node.other":"{count} 个节点","viewer.export.card.link.one":"{count} 条连接","viewer.export.card.link.other":"{count} 条连接","viewer.export.card.hop.one":"{count} 跳","viewer.export.card.hop.other":"{count} 跳","viewer.export.card.routeBadge":"ARCHIFY · 路径 · {hops}","viewer.export.card.reachBadge":"ARCHIFY · {direction}可达范围","viewer.export.direction.upstream":"上游","viewer.export.direction.downstream":"下游","viewer.export.error.canvasUnavailable":"无法为{label}使用画布","viewer.export.error.contextUnavailable":"无法为{label}创建二维画布上下文","viewer.export.error.toBlobUnavailable":"{label}无法使用 canvas.toBlob","viewer.export.error.toBlobNull":"{label}的 canvas.toBlob 未返回数据","viewer.export.error.variantsCombined":"无法同时组合多种分享卡片类型","viewer.export.error.viewerState":"分享卡片导出无法移除临时 Viewer 状态","viewer.export.error.routeState":"路径卡片导出无法安全保留已解析路径","viewer.export.error.reachState":"可达范围卡片导出无法安全保留编写的可达范围","viewer.export.error.webmRequirements":"WebM 动效导出需要追踪动画及浏览器 MediaRecorder 支持","viewer.export.error.mediaRecorder":"MediaRecorder 录制失败","viewer.export.error.emptyWebm":"MediaRecorder 生成了空的 WebM","viewer.export.error.webmBackground":"无法为 WebM 导出加载 SVG 背景","viewer.guide.title":"探索此系统","viewer.focus.selectedNodes":"已选择 {count} 个节点","viewer.guide.eyebrow":"图表指南","viewer.guide.close":"关闭图表指南","viewer.guide.inspecting":"正在检查已编译语义","viewer.guide.actions":"图表探索操作","viewer.guide.find":"查找任意节点","viewer.guide.find.hint":"搜索标签、职责、类型和稳定 ID。","viewer.guide.route":"追踪路径","viewer.guide.route.aria":"追踪有向路径","viewer.guide.route.hint":"查看两个语义节点如何按编写方向连接。","viewer.guide.map":"查看完整系统","viewer.guide.map.hint":"打开带实时视口和稳定节点的语义雷达。","viewer.guide.lens":"比较语义类型","viewer.guide.lens.hint":"统计角色、显示流量并比较直接编写的连接。","viewer.guide.present":"进入演示模式","viewer.guide.present.hint":"让实时图表占满视口，同时不改变导出。","viewer.guide.shortcuts":"其他键盘快捷键","viewer.guide.shortcut.export":"导出","viewer.guide.shortcut.theme":"主题","viewer.guide.shortcut.style":"风格","viewer.guide.shortcut.reset":"重置","viewer.guide.shortcut.zoomIn":"放大","viewer.guide.shortcut.zoomOut":"缩小","viewer.guide.shortcut.close":"关闭","viewer.guide.credit":"觉得好用？在 GitHub 给 Archify 点个 Star","viewer.guide.star":"Star","viewer.guide.facts":"{nodes} · {relationships}","viewer.guide.fact.node.one":"{count} 个语义节点","viewer.guide.fact.node.other":"{count} 个语义节点","viewer.guide.fact.relationship.one":"{count} 条关系","viewer.guide.fact.relationship.other":"{count} 条关系","viewer.guide.open":"打开图表指南","viewer.finder.title":"查找节点","viewer.finder.close":"关闭节点查找器","viewer.finder.placeholder":"搜索标签或 ID","viewer.finder.search":"搜索图表节点","viewer.finder.results":"图表节点","viewer.finder.empty":"没有匹配的节点","viewer.finder.result.focus":"聚焦{label}","viewer.finder.result.routeStart":"选择{label}作为路径起点","viewer.finder.result.routeTarget":"选择{label}作为路径终点，{links}","viewer.finder.status.empty":"没有匹配的节点","viewer.finder.status.count.one":"{count} 个匹配节点","viewer.finder.status.count.other":"{count} 个匹配节点","viewer.finder.noun.nodes":"个节点","viewer.finder.link.one":"{count} 条连接","viewer.finder.link.other":"{count} 条连接","viewer.finder.result.focus.one":"聚焦{label}，{count} 条相关连接","viewer.finder.result.focus.other":"聚焦{label}，{count} 条相关连接","viewer.finder.status.filtered":"{visible}/{available} {noun}","viewer.finder.status.all":"{available} {noun}","viewer.passport.eyebrow":"语义护照","viewer.passport.metadata":"节点元数据","viewer.passport.evidence":"已验证的源代码证据","viewer.passport.verified":"已验证来源","viewer.passport.verificationScope":"已按固定修订版本验证本地 Git 证据，未检查远程访问权限。","viewer.passport.reach":"编写可达范围","viewer.passport.reach.trace":"追踪编写的可达性","viewer.passport.upstream":"上游","viewer.passport.downstream":"下游","viewer.passport.upstream.trace":"追踪上游编写可达性","viewer.passport.downstream.trace":"追踪下游编写可达性","viewer.passport.close":"关闭语义护照","viewer.passport.move":"移动语义护照。可拖动、使用方向键移动，或按 Home 恢复自动位置。","viewer.passport.copy":"复制链接","viewer.passport.copy.focus":"复制聚焦节点的链接","viewer.passport.relations":"关系","viewer.passport.relations.show":"显示关联关系","viewer.passport.relations.hide":"隐藏关联关系","viewer.passport.relations.list":"关联关系","viewer.passport.copyRelation":"复制关系","viewer.passport.copyNode":"复制节点","viewer.passport.copyPinned":"复制固定关系的链接","viewer.passport.copySource":"复制来源节点的链接","viewer.passport.copy.focused.success":"已复制聚焦节点链接","viewer.passport.copy.pinned.success":"已复制固定关系链接","viewer.passport.copy.focused.failed":"无法复制聚焦节点链接","viewer.passport.copy.pinned.failed":"无法复制固定关系链接","viewer.passport.relationship.none":"没有关联关系","viewer.passport.relationship.count.one":"{count} 条关系","viewer.passport.relationship.count.other":"{count} 条关系","viewer.passport.relationship.show.one":"显示 {count} 条关联关系","viewer.passport.relationship.show.other":"显示 {count} 条关联关系","viewer.passport.relationship.summary":"{out} 条出向 · {in} 条入向{loops}","viewer.passport.relationship.loops":" · {count} 条自环","viewer.passport.relationship.explorer":"直接关系浏览器","viewer.passport.relationship.help":"使用方向键浏览关系。按 Enter 或空格键固定详情；按 Escape 清除。","viewer.passport.relationship.loopsBack":"回环","viewer.passport.relationship.connectsTo":"连接到","viewer.passport.relationship.connectsFrom":"连接自","viewer.passport.relationship.pinned":"已固定关系 · {from} → {to} · {label}","viewer.passport.relationship.inspect":"检查第 {index}/{total} 条关系：{from} 到 {to}，{label}。按 Enter 查看详情。","viewer.passport.relationship.group.out":"出向","viewer.passport.relationship.group.in":"入向","viewer.passport.relationship.group.loop":"自环","viewer.passport.relationship.row":"{group}：{relationship}，{neighbor}","viewer.passport.relationship.direction.out":"出 →","viewer.passport.relationship.direction.in":"← 入","viewer.passport.relationship.direction.loop":"自环","viewer.passport.sourceCount.one":"{count} 个已验证来源引用","viewer.passport.sourceCount.other":"{count} 个已验证来源引用","viewer.passport.repository.open":"打开已验证的仓库修订版本 {revision}","viewer.passport.source.open":"打开修订版本 {revision} 中已验证的来源 {path}","viewer.passport.source.openLink":"打开 ↗","viewer.passport.reach.upstream.one":"追踪 {count} 个上游编写节点","viewer.passport.reach.upstream.other":"追踪 {count} 个上游编写节点","viewer.passport.reach.downstream.one":"追踪 {count} 个下游编写节点","viewer.passport.reach.downstream.other":"追踪 {count} 个下游编写节点","viewer.passport.reach.noUpstream":"没有上游编写节点","viewer.passport.reach.noDownstream":"没有下游编写节点","viewer.passport.reach.status":"{direction} · {nodes} 个节点 · {links} 条连接 · 最深 {hops} 跳","viewer.route.eyebrow":"路径","viewer.route.start":"点击路径的起点","viewer.route.start.find":"查找起点","viewer.route.start.find.aria":"查找路径起点","viewer.route.copy":"复制链接","viewer.route.copy.aria":"复制已追踪路径的链接","viewer.route.clear":"清除","viewer.route.clear.aria":"清除路径探测","viewer.route.traced":"路径","viewer.route.pickTwo":"在图上点两个节点","viewer.route.pickOne":"在图上点一个节点","viewer.route.controls":"路径旅程控制","viewer.route.previous":"上一个路径位置","viewer.route.play":"播放路径旅程","viewer.route.pause":"暂停路径旅程","viewer.route.replay":"重播路径旅程","viewer.route.next":"下一个路径位置","viewer.route.journey":"旅程","viewer.route.pause.label":"暂停","viewer.route.replay.label":"重播","viewer.route.overview":"总览","viewer.route.overview.aria":"显示完整路径总览","viewer.route.instructions":"先点起点，再点终点，沿箭头方向找路。","viewer.route.destination":"从{label}出发，走到哪里？","viewer.route.destination.find":"查找目标","viewer.route.destination.find.aria":"查找可达的路径目标","viewer.route.differentDestination":"选择其他目标","viewer.route.distinct":"请选两个不同的节点。","viewer.route.unreachable":"走不到{label}","viewer.route.unreachable.detail":"沿箭头方向，从{source}走不到{target}。请选一个高亮节点。","viewer.route.start.instructions":"接着选终点，能走到的节点会亮起。","viewer.route.copy.success":"已复制路径链接","viewer.route.copy.failed":"无法复制路径链接","viewer.route.position":"路径位置 {index}/{total}：{label}","viewer.route.step":"第 {index}/{total} 步 · {phase} · {label}","viewer.route.motionRequired":"自动旅程需要动态模式","viewer.route.trigger.clear":"清除已追踪路径","viewer.route.overview.status":"{nodes} · {hops} · 最短路径","viewer.route.overview.node.one":"{count} 个节点","viewer.route.overview.node.other":"{count} 个节点","viewer.route.overview.hop.one":"{count} 步","viewer.route.overview.hop.other":"{count} 步","viewer.route.phase.playing":"播放中","viewer.route.phase.complete":"已完成","viewer.route.phase.inspecting":"检查中","viewer.route.destination.count.one":"有 {count} 个能走到的节点已高亮，点一下。","viewer.route.destination.count.other":"有 {count} 个能走到的节点已高亮，点一个。","viewer.route.noOutgoing":"这个节点没有向外的箭头。清除后换一个起点。","viewer.route.result.title":"{source} 到 {target}","viewer.route.finder.source.title":"选择路径起点","viewer.route.finder.source.placeholder":"搜索路径来源","viewer.route.finder.source.empty":"没有匹配的路径来源","viewer.route.finder.source.results":"可作为路径起点的节点","viewer.route.finder.source.noun":"个路径来源","viewer.route.finder.source.badge":"起点","viewer.route.finder.target.title":"从{label}出发的目标","viewer.route.finder.target.placeholder":"搜索可达目标","viewer.route.finder.target.empty":"没有匹配的可达目标","viewer.route.finder.target.results":"可达路径目标","viewer.route.finder.target.noun":"个可达目标","viewer.route.hop.one":"{count} 跳","viewer.route.hop.other":"{count} 跳","viewer.lens.eyebrow":"语义透镜","viewer.lens.title":"比较系统角色","viewer.lens.close":"关闭语义透镜","viewer.lens.instruction":"最多选择两种语义类型。选择一种可显示其真实流量；选择两种只比较直接编写的关系。","viewer.lens.kinds":"语义类型","viewer.lens.choose":"选择一种类型以检查其节点和相连关系。","viewer.lens.copy":"复制语义透镜链接","viewer.lens.clear":"清除语义透镜","viewer.lens.open":"打开语义透镜","viewer.lens.openActive":"打开当前语义透镜","viewer.lens.legend":"语义图例","viewer.lens.legend.inspect.one":"检查{label}，{count} 个节点","viewer.lens.legend.inspect.other":"检查{label}，{count} 个节点","viewer.lens.kind.count.one":"{label}，{count} 个节点","viewer.lens.kind.count.other":"{label}，{count} 个节点","viewer.lens.compare.one":"{first} → {second}：{forward} · {second} → {first}：{reverse} · 共 {count} 条直接关系","viewer.lens.compare.other":"{first} → {second}：{forward} · {second} → {first}：{reverse} · 共 {count} 条直接关系","viewer.lens.single":"{nodes} · {relationships} · 已连接节点保持可见","viewer.lens.node.one":"{count} 个{label}节点","viewer.lens.node.other":"{count} 个{label}节点","viewer.lens.relationship.one":"{count} 条相连关系","viewer.lens.relationship.other":"{count} 条相连关系","viewer.radar.title":"语义雷达","viewer.radar.building":"正在构建总览","viewer.radar.openFull":"打开完整语义雷达","viewer.radar.open":"打开雷达","viewer.radar.close":"关闭语义雷达","viewer.radar.surface":"图表总览。点击节点进行聚焦，或使用方向键平移。","viewer.radar.click":"点击节点","viewer.radar.drag":"拖动平移","viewer.radar.space":"语义雷达需要更多地图可见空间。","viewer.radar.nodes":"语义图表雷达节点","viewer.radar.focus":"从语义雷达聚焦{label}","viewer.radar.status":"{count} 个节点 · {viewport}","viewer.radar.fullMap":"{count} 个节点 · 完整地图","viewer.radar.compacted":"已收紧雷达，避免遮挡语义护照或地图控件。","viewer.radar.cancelWaiting":"取消等待更多地图空间的语义雷达","viewer.radar.needsSpace":"语义雷达需要更多可见地图空间","viewer.radar.viewport.full":"完整地图","viewer.radar.viewport.width":"宽度 {percent}%","viewer.radar.viewport.scale":"视口 {percent}%","viewer.nav.controls":"图表视图控制","viewer.nav.route":"追踪有向路径","viewer.nav.route.title":"追踪路径（R）","viewer.nav.route.short":"路径","viewer.nav.radar":"打开语义雷达","viewer.nav.radar.title":"语义雷达（M）","viewer.nav.radar.short":"地图","viewer.nav.lens":"打开语义透镜","viewer.nav.lens.title":"语义透镜（L）","viewer.nav.lens.short":"透镜","viewer.nav.find":"查找节点","viewer.nav.find.title":"查找节点（/）","viewer.outline.title":"节点索引","viewer.rail.show":"要点与索引","viewer.rail.controls":"侧栏","viewer.rail.collapse":"收起侧栏","viewer.rail.bottom":"移到图下方","viewer.rail.right":"移到图右侧","viewer.nav.guide":"打开图表指南","viewer.nav.guide.title":"图表指南（?）","viewer.nav.zoomOut":"缩小","viewer.nav.zoomOut.title":"缩小（-）","viewer.nav.reset":"重置图表视图","viewer.nav.reset.title":"重置视图（0）","viewer.nav.read":"阅读","viewer.nav.zoomIn":"放大","viewer.nav.zoomIn.title":"放大（+）","viewer.nav.camera":"{hint}。重置图表视图","viewer.nav.camera.title":"{semantic}{hint} · 重置视图（0）","viewer.nav.camera.semantic":"语义相机已启用 · ","viewer.nav.level.map":"概览","viewer.nav.level.read":"阅读","viewer.nav.level.full":"完整","viewer.nav.level.auto":"自动","viewer.nav.detail.map":"放大以显示关系标签和节点上下文","viewer.nav.detail.read":"再次放大以显示标签和注释","viewer.nav.detail.full":"完整图表详情","viewer.intent.summary":"{label}。{out} 条出向，{in} 条入向{loops}。共 {total} 条连接。按 Enter 查看详情。","viewer.intent.loops":"，{count} 条自环","viewer.common.copied":"已复制","viewer.common.copyFailed":"复制失败","viewer.common.copyLink":"复制链接","viewer.common.clear":"清除","viewer.common.close":"关闭"}}</script>
+    <script id="archify-i18n-data" type="application/json">{"locale":"zh-CN","messages":{"viewer.kind.frontend":"对象与价值","viewer.kind.backend":"经验与根据","viewer.kind.database":"数据库","viewer.kind.cloud":"物理本体","viewer.kind.security":"安全","viewer.kind.messagebus":"探究与方法","viewer.kind.external":"实践与计算运用","viewer.kind.neutral":"中性","viewer.kind.node":"节点","viewer.kind.start":"开始","viewer.kind.active":"活动","viewer.kind.waiting":"等待","viewer.kind.decision":"决策","viewer.kind.success":"成功","viewer.kind.failure":"失败","viewer.toolbar.actions":"图表操作","viewer.theme.toggle.title":"切换主题（T）","viewer.theme.toggle":"切换颜色主题","viewer.theme.dark":"深色","viewer.theme.light":"浅色","viewer.preset.choose.title":"选择视觉风格（S 循环切换）","viewer.preset.choose":"选择视觉风格","viewer.preset.style":"风格","viewer.preset.menu":"视觉风格","viewer.preset.identity":"视觉表达","viewer.preset.cycles":"循环切换","viewer.preset.classic":"经典","viewer.preset.classic.short":"经典","viewer.preset.classic.hint":"稳定的技术默认风格","viewer.preset.flow":"信号流","viewer.preset.flow.short":"流动","viewer.preset.flow.hint":"突出动态流向","viewer.preset.blueprint":"蓝图","viewer.preset.blueprint.hint":"工程评审","viewer.preset.editorial":"编辑风格","viewer.preset.editorial.hint":"适合发布与上线说明","viewer.preset.badge.signalFlow":"信号流","viewer.preset.badge.blueprint":"蓝图 / 修订 01","viewer.preset.badge.editorial":"编辑风格 / 现场笔记","viewer.preset.badge.editorialPlate":"ARCHIFY / 图版 04","viewer.preset.current":"当前视觉风格：{style}。选择视觉风格","viewer.motion.live":"动态","viewer.motion.still":"静态","viewer.motion.pause":"暂停动效","viewer.motion.resume":"恢复动效","viewer.motion.reduced":"已根据减少动态效果偏好暂停动效","viewer.motion.hidden":"页面不可见时已暂停动效","viewer.motion.yielding":"暂停动效；当前让位于{owner}","viewer.motion.yielding.title":"动态预览已启用 · 正在让位于{owner}","viewer.owner.route":"路径探测","viewer.owner.lens":"语义透镜","viewer.owner.relationship":"关系预览","viewer.owner.intent":"意图追踪","viewer.owner.focus":"语义聚焦","viewer.owner.legend":"图例预览","viewer.owner.reader":"读者交互","viewer.present.enter":"进入演示模式","viewer.present.enter.title":"演示模式（F）","viewer.present.exit":"退出演示模式","viewer.present.exit.title":"退出演示模式（F 或 Escape）","viewer.present.present":"演示","viewer.present.exit.label":"退出","viewer.export.button":"导出","viewer.export.button.title":"导出图表（E）","viewer.export.diagram":"导出图表","viewer.export.menu":"导出","viewer.export.subtitle":"便携、整洁的输出","viewer.export.share":"分享","viewer.export.shareCard":"分享卡片","viewer.export.routeShareCard":"路径分享卡片","viewer.export.reachShareCard":"可达范围分享卡片","viewer.export.copyDiagram":"复制图表","viewer.export.clipboardPng":"复制 PNG 到剪贴板","viewer.export.raster":"位图","viewer.export.image":"图像","viewer.export.lossless":"无损图像","viewer.export.compact":"紧凑图像","viewer.export.modern":"现代图像格式","viewer.export.vectorMotion":"矢量与动效","viewer.export.vectorMotion.heading":"矢量与动效","viewer.export.editable":"可编辑矢量图","viewer.export.svg.auto":"SVG · 自动","viewer.export.svg.auto.hint":"匹配宿主主题","viewer.export.svg.light":"SVG · 浅色","viewer.export.svg.light.hint":"始终浅色","viewer.export.svg.dark":"SVG · 深色","viewer.export.svg.dark.hint":"始终深色","viewer.export.motion6s":"6 秒动效","viewer.export.unsupported":"当前浏览器不支持","viewer.export.clipboardUnsupported":"当前浏览器不支持写入图片剪贴板","viewer.export.clipboardUnsupported.short":"此浏览器不支持写入图片剪贴板。","viewer.export.motionUnavailable":"当前浏览器无法录制动效","viewer.export.webmUnavailable":"当前浏览器不支持 WebM","viewer.export.failed":"导出失败：{message}","viewer.export.unknownVariant":"未知的分享卡片类型：{variant}","viewer.export.routeRequired":"请先追踪路径，再导出路径分享卡片","viewer.export.reachRequired":"请先追踪编写可达范围，再导出可达范围分享卡片","viewer.export.unknown":"未知错误","viewer.export.routeFailed":"路径分享卡片导出失败：{message}","viewer.export.reachFailed":"可达范围分享卡片导出失败：{message}","viewer.export.copyFailed":"复制失败：{message}","viewer.export.copiedPng":"已将 PNG 复制到剪贴板","viewer.export.downloadedRoute":"已下载路径分享卡片","viewer.export.downloadedReach":"已下载可达范围分享卡片","viewer.export.downloadedWebm":"已下载 WebM","viewer.export.recording":"正在录制 6 秒动效…","viewer.export.card.routeSummary.one":"路径：{source} → {target} · {count} 步","viewer.export.card.routeSummary.other":"路径：{source} → {target} · {count} 步","viewer.export.card.reachSummary":"从{origin}开始的编写{direction} · {nodes} · {links} · 最深 {hops}","viewer.export.card.node.one":"{count} 个节点","viewer.export.card.node.other":"{count} 个节点","viewer.export.card.link.one":"{count} 条连接","viewer.export.card.link.other":"{count} 条连接","viewer.export.card.hop.one":"{count} 跳","viewer.export.card.hop.other":"{count} 跳","viewer.export.card.routeBadge":"ARCHIFY · 路径 · {hops}","viewer.export.card.reachBadge":"ARCHIFY · {direction}可达范围","viewer.export.direction.upstream":"上游","viewer.export.direction.downstream":"下游","viewer.export.error.canvasUnavailable":"无法为{label}使用画布","viewer.export.error.contextUnavailable":"无法为{label}创建二维画布上下文","viewer.export.error.toBlobUnavailable":"{label}无法使用 canvas.toBlob","viewer.export.error.toBlobNull":"{label}的 canvas.toBlob 未返回数据","viewer.export.error.variantsCombined":"无法同时组合多种分享卡片类型","viewer.export.error.viewerState":"分享卡片导出无法移除临时 Viewer 状态","viewer.export.error.routeState":"路径卡片导出无法安全保留已解析路径","viewer.export.error.reachState":"可达范围卡片导出无法安全保留编写的可达范围","viewer.export.error.webmRequirements":"WebM 动效导出需要追踪动画及浏览器 MediaRecorder 支持","viewer.export.error.mediaRecorder":"MediaRecorder 录制失败","viewer.export.error.emptyWebm":"MediaRecorder 生成了空的 WebM","viewer.export.error.webmBackground":"无法为 WebM 导出加载 SVG 背景","viewer.guide.title":"探索此系统","viewer.focus.selectedNodes":"已选择 {count} 个节点","viewer.guide.eyebrow":"图表指南","viewer.guide.close":"关闭图表指南","viewer.guide.inspecting":"正在检查已编译语义","viewer.guide.actions":"图表探索操作","viewer.guide.find":"查找任意节点","viewer.guide.find.hint":"搜索标签、职责、类型和稳定 ID。","viewer.guide.route":"追踪路径","viewer.guide.route.aria":"追踪有向路径","viewer.guide.route.hint":"查看两个语义节点如何按编写方向连接。","viewer.guide.map":"查看完整系统","viewer.guide.map.hint":"打开带实时视口和稳定节点的语义雷达。","viewer.guide.lens":"比较语义类型","viewer.guide.lens.hint":"统计角色、显示流量并比较直接编写的连接。","viewer.guide.present":"进入演示模式","viewer.guide.present.hint":"让实时图表占满视口，同时不改变导出。","viewer.guide.shortcuts":"其他键盘快捷键","viewer.guide.shortcut.export":"导出","viewer.guide.shortcut.theme":"主题","viewer.guide.shortcut.style":"风格","viewer.guide.shortcut.reset":"重置","viewer.guide.shortcut.zoomIn":"放大","viewer.guide.shortcut.zoomOut":"缩小","viewer.guide.shortcut.close":"关闭","viewer.guide.credit":"觉得好用？在 GitHub 给 Archify 点个 Star","viewer.guide.star":"Star","viewer.guide.facts":"{nodes} · {relationships}","viewer.guide.fact.node.one":"{count} 个语义节点","viewer.guide.fact.node.other":"{count} 个语义节点","viewer.guide.fact.relationship.one":"{count} 条关系","viewer.guide.fact.relationship.other":"{count} 条关系","viewer.guide.open":"打开图表指南","viewer.finder.title":"查找节点","viewer.finder.close":"关闭节点查找器","viewer.finder.placeholder":"搜索标签或 ID","viewer.finder.search":"搜索图表节点","viewer.finder.results":"图表节点","viewer.finder.empty":"没有匹配的节点","viewer.finder.result.focus":"聚焦{label}","viewer.finder.result.routeStart":"选择{label}作为路径起点","viewer.finder.result.routeTarget":"选择{label}作为路径终点，{links}","viewer.finder.status.empty":"没有匹配的节点","viewer.finder.status.count.one":"{count} 个匹配节点","viewer.finder.status.count.other":"{count} 个匹配节点","viewer.finder.noun.nodes":"个节点","viewer.finder.link.one":"{count} 条连接","viewer.finder.link.other":"{count} 条连接","viewer.finder.result.focus.one":"聚焦{label}，{count} 条相关连接","viewer.finder.result.focus.other":"聚焦{label}，{count} 条相关连接","viewer.finder.status.filtered":"{visible}/{available} {noun}","viewer.finder.status.all":"{available} {noun}","viewer.passport.eyebrow":"语义护照","viewer.passport.metadata":"节点元数据","viewer.passport.evidence":"已验证的源代码证据","viewer.passport.verified":"已验证来源","viewer.passport.verificationScope":"已按固定修订版本验证本地 Git 证据，未检查远程访问权限。","viewer.passport.reach":"编写可达范围","viewer.passport.reach.trace":"追踪编写的可达性","viewer.passport.upstream":"上游","viewer.passport.downstream":"下游","viewer.passport.upstream.trace":"追踪上游编写可达性","viewer.passport.downstream.trace":"追踪下游编写可达性","viewer.passport.close":"关闭语义护照","viewer.passport.move":"移动语义护照。可拖动、使用方向键移动，或按 Home 恢复自动位置。","viewer.passport.copy":"复制链接","viewer.passport.copy.focus":"复制聚焦节点的链接","viewer.passport.relations":"关系","viewer.passport.relations.show":"显示关联关系","viewer.passport.relations.hide":"隐藏关联关系","viewer.passport.relations.list":"关联关系","viewer.passport.copyRelation":"复制关系","viewer.passport.copyNode":"复制节点","viewer.passport.copyPinned":"复制固定关系的链接","viewer.passport.copySource":"复制来源节点的链接","viewer.passport.copy.focused.success":"已复制聚焦节点链接","viewer.passport.copy.pinned.success":"已复制固定关系链接","viewer.passport.copy.focused.failed":"无法复制聚焦节点链接","viewer.passport.copy.pinned.failed":"无法复制固定关系链接","viewer.passport.relationship.none":"没有关联关系","viewer.passport.relationship.count.one":"{count} 条关系","viewer.passport.relationship.count.other":"{count} 条关系","viewer.passport.relationship.show.one":"显示 {count} 条关联关系","viewer.passport.relationship.show.other":"显示 {count} 条关联关系","viewer.passport.relationship.summary":"{out} 条出向 · {in} 条入向{loops}","viewer.passport.relationship.loops":" · {count} 条自环","viewer.passport.relationship.explorer":"直接关系浏览器","viewer.passport.relationship.help":"使用方向键浏览关系。按 Enter 或空格键固定详情；按 Escape 清除。","viewer.passport.relationship.loopsBack":"回环","viewer.passport.relationship.connectsTo":"连接到","viewer.passport.relationship.connectsFrom":"连接自","viewer.passport.relationship.pinned":"已固定关系 · {from} → {to} · {label}","viewer.passport.relationship.inspect":"检查第 {index}/{total} 条关系：{from} 到 {to}，{label}。按 Enter 查看详情。","viewer.passport.relationship.group.out":"出向","viewer.passport.relationship.group.in":"入向","viewer.passport.relationship.group.loop":"自环","viewer.passport.relationship.row":"{group}：{relationship}，{neighbor}","viewer.passport.relationship.direction.out":"出 →","viewer.passport.relationship.direction.in":"← 入","viewer.passport.relationship.direction.loop":"自环","viewer.passport.sourceCount.one":"{count} 个已验证来源引用","viewer.passport.sourceCount.other":"{count} 个已验证来源引用","viewer.passport.repository.open":"打开已验证的仓库修订版本 {revision}","viewer.passport.source.open":"打开修订版本 {revision} 中已验证的来源 {path}","viewer.passport.source.openLink":"打开 ↗","viewer.passport.reach.upstream.one":"追踪 {count} 个上游编写节点","viewer.passport.reach.upstream.other":"追踪 {count} 个上游编写节点","viewer.passport.reach.downstream.one":"追踪 {count} 个下游编写节点","viewer.passport.reach.downstream.other":"追踪 {count} 个下游编写节点","viewer.passport.reach.noUpstream":"没有上游编写节点","viewer.passport.reach.noDownstream":"没有下游编写节点","viewer.passport.reach.status":"{direction} · {nodes} 个节点 · {links} 条连接 · 最深 {hops} 跳","viewer.route.eyebrow":"路径","viewer.route.start":"点击路径的起点","viewer.route.start.find":"查找起点","viewer.route.start.find.aria":"查找路径起点","viewer.route.copy":"复制链接","viewer.route.copy.aria":"复制已追踪路径的链接","viewer.route.clear":"清除","viewer.route.clear.aria":"清除路径探测","viewer.route.traced":"路径","viewer.route.pickTwo":"在图上点两个节点","viewer.route.pickOne":"在图上点一个节点","viewer.route.controls":"路径旅程控制","viewer.route.previous":"上一个路径位置","viewer.route.play":"播放路径旅程","viewer.route.pause":"暂停路径旅程","viewer.route.replay":"重播路径旅程","viewer.route.next":"下一个路径位置","viewer.route.journey":"旅程","viewer.route.pause.label":"暂停","viewer.route.replay.label":"重播","viewer.route.overview":"总览","viewer.route.overview.aria":"显示完整路径总览","viewer.route.instructions":"先点起点，再点终点，沿箭头方向找路。","viewer.route.destination":"从{label}出发，走到哪里？","viewer.route.destination.find":"查找目标","viewer.route.destination.find.aria":"查找可达的路径目标","viewer.route.differentDestination":"选择其他目标","viewer.route.distinct":"请选两个不同的节点。","viewer.route.unreachable":"走不到{label}","viewer.route.unreachable.detail":"沿箭头方向，从{source}走不到{target}。请选一个高亮节点。","viewer.route.start.instructions":"接着选终点，能走到的节点会亮起。","viewer.route.copy.success":"已复制路径链接","viewer.route.copy.failed":"无法复制路径链接","viewer.route.position":"路径位置 {index}/{total}：{label}","viewer.route.step":"第 {index}/{total} 步 · {phase} · {label}","viewer.route.motionRequired":"自动旅程需要动态模式","viewer.route.trigger.clear":"清除已追踪路径","viewer.route.overview.status":"{nodes} · {hops} · 最短路径","viewer.route.overview.node.one":"{count} 个节点","viewer.route.overview.node.other":"{count} 个节点","viewer.route.overview.hop.one":"{count} 步","viewer.route.overview.hop.other":"{count} 步","viewer.route.phase.playing":"播放中","viewer.route.phase.complete":"已完成","viewer.route.phase.inspecting":"检查中","viewer.route.destination.count.one":"有 {count} 个能走到的节点已高亮，点一下。","viewer.route.destination.count.other":"有 {count} 个能走到的节点已高亮，点一个。","viewer.route.noOutgoing":"这个节点没有向外的箭头。清除后换一个起点。","viewer.route.result.title":"{source} 到 {target}","viewer.route.finder.source.title":"选择路径起点","viewer.route.finder.source.placeholder":"搜索路径来源","viewer.route.finder.source.empty":"没有匹配的路径来源","viewer.route.finder.source.results":"可作为路径起点的节点","viewer.route.finder.source.noun":"个路径来源","viewer.route.finder.source.badge":"起点","viewer.route.finder.target.title":"从{label}出发的目标","viewer.route.finder.target.placeholder":"搜索可达目标","viewer.route.finder.target.empty":"没有匹配的可达目标","viewer.route.finder.target.results":"可达路径目标","viewer.route.finder.target.noun":"个可达目标","viewer.route.hop.one":"{count} 跳","viewer.route.hop.other":"{count} 跳","viewer.lens.eyebrow":"语义透镜","viewer.lens.title":"比较系统角色","viewer.lens.close":"关闭语义透镜","viewer.lens.instruction":"最多选择两种语义类型。选择一种可显示其真实流量；选择两种只比较直接编写的关系。","viewer.lens.kinds":"语义类型","viewer.lens.choose":"选择一种类型以检查其节点和相连关系。","viewer.lens.copy":"复制语义透镜链接","viewer.lens.clear":"清除语义透镜","viewer.lens.open":"打开语义透镜","viewer.lens.openActive":"打开当前语义透镜","viewer.lens.legend":"语义图例","viewer.lens.legend.inspect.one":"检查{label}，{count} 个节点","viewer.lens.legend.inspect.other":"检查{label}，{count} 个节点","viewer.lens.kind.count.one":"{label}，{count} 个节点","viewer.lens.kind.count.other":"{label}，{count} 个节点","viewer.lens.compare.one":"{first} → {second}：{forward} · {second} → {first}：{reverse} · 共 {count} 条直接关系","viewer.lens.compare.other":"{first} → {second}：{forward} · {second} → {first}：{reverse} · 共 {count} 条直接关系","viewer.lens.single":"{nodes} · {relationships} · 已连接节点保持可见","viewer.lens.node.one":"{count} 个{label}节点","viewer.lens.node.other":"{count} 个{label}节点","viewer.lens.relationship.one":"{count} 条相连关系","viewer.lens.relationship.other":"{count} 条相连关系","viewer.radar.title":"语义雷达","viewer.radar.building":"正在构建总览","viewer.radar.openFull":"打开完整语义雷达","viewer.radar.open":"打开雷达","viewer.radar.close":"关闭语义雷达","viewer.radar.surface":"图表总览。点击节点进行聚焦，或使用方向键平移。","viewer.radar.click":"点击节点","viewer.radar.drag":"拖动平移","viewer.radar.space":"语义雷达需要更多地图可见空间。","viewer.radar.nodes":"语义图表雷达节点","viewer.radar.focus":"从语义雷达聚焦{label}","viewer.radar.status":"{count} 个节点 · {viewport}","viewer.radar.fullMap":"{count} 个节点 · 完整地图","viewer.radar.compacted":"已收紧雷达，避免遮挡语义护照或地图控件。","viewer.radar.cancelWaiting":"取消等待更多地图空间的语义雷达","viewer.radar.needsSpace":"语义雷达需要更多可见地图空间","viewer.radar.viewport.full":"完整地图","viewer.radar.viewport.width":"宽度 {percent}%","viewer.radar.viewport.scale":"视口 {percent}%","viewer.nav.controls":"图表视图控制","viewer.nav.route":"追踪有向路径","viewer.nav.route.title":"追踪路径（R）","viewer.nav.route.short":"路径","viewer.nav.radar":"打开语义雷达","viewer.nav.radar.title":"语义雷达（M）","viewer.nav.radar.short":"地图","viewer.nav.lens":"打开语义透镜","viewer.nav.lens.title":"语义透镜（L）","viewer.nav.lens.short":"透镜","viewer.nav.find":"查找节点","viewer.nav.find.title":"查找节点（/）","viewer.outline.title":"节点索引","viewer.rail.show":"要点与索引","viewer.rail.controls":"侧栏","viewer.rail.collapse":"收起侧栏","viewer.rail.bottom":"移到图下方","viewer.rail.right":"移到图右侧","viewer.nav.guide":"打开图表指南","viewer.nav.guide.title":"图表指南（?）","viewer.nav.zoomOut":"缩小","viewer.nav.zoomOut.title":"缩小（-）","viewer.nav.reset":"重置图表视图","viewer.nav.reset.title":"重置视图（0）","viewer.nav.read":"阅读","viewer.nav.zoomIn":"放大","viewer.nav.zoomIn.title":"放大（+）","viewer.nav.camera":"{hint}。重置图表视图","viewer.nav.camera.title":"{semantic}{hint} · 重置视图（0）","viewer.nav.camera.semantic":"语义相机已启用 · ","viewer.nav.level.map":"概览","viewer.nav.level.read":"阅读","viewer.nav.level.full":"完整","viewer.nav.level.auto":"自动","viewer.nav.detail.map":"放大以显示关系标签和节点上下文","viewer.nav.detail.read":"再次放大以显示标签和注释","viewer.nav.detail.full":"完整图表详情","viewer.intent.summary":"{label}。{out} 条出向，{in} 条入向{loops}。共 {total} 条连接。按 Enter 查看详情。","viewer.intent.loops":"，{count} 条自环","viewer.common.copied":"已复制","viewer.common.copyFailed":"复制失败","viewer.common.copyLink":"复制链接","viewer.common.clear":"清除","viewer.common.close":"关闭"}}</script>
     <!-- Main Diagram -->
     <div class="diagram-container" data-detail-level="read"
          data-preset-badge-editorial-plate="ARCHIFY / 图版 04">
-      <svg viewBox="0 0 960 1028" role="img" lang="zh-CN" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14">
-        <title id="archify-diagram-title">物理基础上的计算本体与实践 · YY-09</title>
+      <svg viewBox="0 0 1770 998" role="img" lang="zh-CN" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14">
+        <title id="archify-diagram-title">从世界理解到实践实现 · YY-09</title>
         <desc id="archify-diagram-description">在同一个变化着的自然／物理世界中，人与语言模型共同发现问题、选取过程、构造计算模型、推理、实现、读回与修订。火阐明世界的生成；模型使用与反馈延续同一项共同活动。</desc>
         <!-- Definitions -->
         <defs>
@@ -5206,164 +5249,268 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         <rect width="100%" height="100%" fill="url(#grid)" />
 
         <!-- Boundaries (behind everything) -->
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="0" data-composition-frame-label="计算层" x="10" y="30" width="1720" height="340" rx="12" class="c-region" stroke-width="1"/>
 
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="1" data-composition-frame-label="物理层" x="10" y="590" width="1720" height="340" rx="12" class="c-region" stroke-width="1"/>
 
         <!-- Connection paths (before components for correct z-order) -->
         <g data-graph-role="automatic-crossover" style="--step:0">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 140 L 210 310" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取过程与尺度" data-edge-key="0" data-edge-id="physical-abstraction" data-composition-points="210,140;210,310" data-composition-crossover="halo" data-composition-independent="true" d="M 210 140 L 210 310" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 177 150 L 177 297 Q 177 305 185 305 L 740 305" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="ontology" data-edge-to="realization" data-edge-label="表征选定关系" data-edge-key="0" data-edge-id="model-in-realization" data-composition-points="177,150;177,305;740,305" data-composition-crossover="halo" data-composition-independent="true" d="M 177 150 L 177 297 Q 177 305 185 305 L 740 305" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:1">
-          <path data-graph-role="automatic-crossover-underlay" d="M 635 915 L 772 915 Q 780 915 780 907 L 780 720" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="value" data-edge-to="methodology" data-edge-label="阐明行动目的" data-edge-key="1" data-edge-id="value-guides-method" data-composition-points="635,915;780,915;780,720" data-composition-crossover="halo" data-composition-independent="true" d="M 635 915 L 772 915 Q 780 915 780 907 L 780 720" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 528.05 150 L 528.05 197 Q 528.05 205 536.05 205 L 852.9 205 Q 860.9 205 860.9 213 L 860.9 260" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="epistemology" data-edge-to="realization" data-edge-label="组织根据与检验" data-edge-key="1" data-edge-id="evidence-in-operation" data-composition-points="528.05,150;528.05,205;860.9,205;860.9,260" data-composition-crossover="halo" data-composition-independent="true" d="M 528.05 150 L 528.05 197 Q 528.05 205 536.05 205 L 852.9 205 Q 860.9 205 860.9 213 L 860.9 260" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:2">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 720 L 210 907 Q 210 915 218 915 L 355 915" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="value" data-edge-label="评估生活中的后果" data-edge-key="2" data-edge-id="consequences-inform-value" data-composition-points="210,720;210,915;355,915" data-composition-crossover="halo" data-composition-independent="true" d="M 210 720 L 210 907 Q 210 915 218 915 L 355 915" class="a-dashed" data-animate="edge" style="--step:2" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1211.95 150 L 1211.95 197 Q 1211.95 205 1203.95 205 L 885 205 Q 877 205 877 213 L 877 260" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="value" data-edge-to="realization" data-edge-label="明确目标与评价" data-edge-key="2" data-edge-id="value-in-operation" data-composition-points="1211.95,150;1211.95,205;877,205;877,260" data-composition-crossover="halo" data-composition-independent="true" d="M 1211.95 150 L 1211.95 197 Q 1211.95 205 1203.95 205 L 885 205 Q 877 205 877 213 L 877 260" class="a-emphasis" data-animate="edge" style="--step:2" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:3">
-          <path data-graph-role="automatic-crossover-underlay" d="M 350 346.95 L 640 346.95" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="ontology" data-edge-to="epistemology" data-edge-label="确定正在检验什么" data-edge-key="3" data-edge-id="objects-orient-evidence" data-composition-points="350,346.95;640,346.95" data-composition-crossover="halo" data-composition-independent="true" d="M 350 346.95 L 640 346.95" class="a-emphasis" data-animate="edge" style="--step:3" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1563 150 L 1563 290 Q 1563 298 1555 298 L 1000 298" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织规则与操作" data-edge-key="3" data-edge-id="method-in-action" data-composition-points="1563,150;1563,298;1000,298" data-composition-crossover="halo" data-composition-independent="true" d="M 1563 150 L 1563 290 Q 1563 298 1555 298 L 1000 298" class="a-emphasis" data-animate="edge" style="--step:3" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:4">
-          <path data-graph-role="automatic-crossover-underlay" d="M 780 400 L 780 630" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="epistemology" data-edge-to="methodology" data-edge-label="依据参与方法选择" data-edge-key="4" data-edge-id="evidence-informs-method" data-composition-points="780,400;780,630" data-composition-crossover="halo" data-composition-independent="true" d="M 780 400 L 780 630" class="a-emphasis" data-animate="edge" style="--step:4" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 170 710 L 170 864 Q 170 872 178 872 L 740 872" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="lived-practice" data-edge-label="构成具身活动的基础" data-edge-key="4" data-edge-id="ground-in-practice" data-composition-points="170,710;170,872;740,872" data-composition-crossover="halo" data-composition-independent="true" d="M 170 710 L 170 864 Q 170 872 178 872 L 740 872" class="a-emphasis" data-animate="edge" style="--step:4" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:5">
-          <path data-graph-role="automatic-crossover-underlay" d="M 640 683.05 L 350 683.05" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织行动与检查" data-edge-key="5" data-edge-id="method-in-action" data-composition-points="640,683.05;350,683.05" data-composition-crossover="halo" data-composition-independent="true" d="M 640 683.05 L 350 683.05" class="a-emphasis" data-animate="edge" style="--step:5" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 520 710 L 520 757 Q 520 765 528 765 L 845.9 765 Q 853.9 765 853.9 773 L 853.9 820" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="embodied-knowing" data-edge-to="lived-practice" data-edge-label="观察并判断" data-edge-key="5" data-edge-id="knowing-in-practice" data-composition-points="520,710;520,765;853.9,765;853.9,820" data-composition-crossover="halo" data-composition-independent="true" d="M 520 710 L 520 757 Q 520 765 528 765 L 845.9 765 Q 853.9 765 853.9 773 L 853.9 820" class="a-emphasis" data-animate="edge" style="--step:5" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:6">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 400 L 210 630" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="ontology" data-edge-to="realization" data-edge-label="实现并使用模型" data-edge-key="6" data-edge-id="model-in-realization" data-composition-points="210,400;210,630" data-composition-crossover="halo" data-composition-independent="true" d="M 210 400 L 210 630" class="a-emphasis" data-animate="edge" style="--step:6" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1220 710 L 1220 757 Q 1220 765 1212 765 L 894.1 765 Q 886.1 765 886.1 773 L 886.1 820" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-value" data-edge-to="lived-practice" data-edge-label="指向值得做的事" data-edge-key="6" data-edge-id="value-guides-practice" data-composition-points="1220,710;1220,765;886.1,765;886.1,820" data-composition-crossover="halo" data-composition-independent="true" d="M 1220 710 L 1220 757 Q 1220 765 1212 765 L 894.1 765 Q 886.1 765 886.1 773 L 886.1 820" class="a-emphasis" data-animate="edge" style="--step:6" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:7">
-          <path data-graph-role="automatic-crossover-underlay" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="ontology" data-edge-label="修订选择与模型" data-edge-key="7" data-edge-id="failure-reopens-object" data-composition-points="70,675;46,675;46,355;70,355" data-composition-crossover="halo" data-composition-independent="true" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" class="a-dashed" data-animate="edge" style="--step:7" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1570 710 L 1570 857 Q 1570 865 1562 865 L 1000 865" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-method" data-edge-to="lived-practice" data-edge-label="组织共同探究" data-edge-key="7" data-edge-id="methods-in-practice" data-composition-points="1570,710;1570,865;1000,865" data-composition-crossover="halo" data-composition-independent="true" d="M 1570 710 L 1570 857 Q 1570 865 1562 865 L 1000 865" class="a-emphasis" data-animate="edge" style="--step:7" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:8">
-          <path data-graph-role="automatic-crossover-underlay" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="epistemology" data-edge-label="检验可观察对应" data-edge-key="8" data-edge-id="result-tests-explanation" data-composition-points="350,668;374,668;374,362;640,362" data-composition-crossover="halo" data-composition-independent="true" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" class="a-dashed" data-animate="edge" style="--step:8" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 161.95 620 L 161.95 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取与抽象" data-edge-key="8" data-edge-id="physical-abstraction" data-composition-points="161.95,620;161.95,150" data-composition-crossover="halo" data-composition-independent="true" d="M 161.95 620 L 161.95 150" class="a-dashed" data-animate="edge" style="--step:8" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:9">
+          <path data-graph-role="automatic-crossover-underlay" d="M 513 620 L 513 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="embodied-knowing" data-edge-to="epistemology" data-edge-label="记录与组织根据" data-edge-key="9" data-edge-id="experience-to-evidence" data-composition-points="513,620;513,150" data-composition-crossover="halo" data-composition-independent="true" d="M 513 620 L 513 150" class="a-dashed" data-animate="edge" style="--step:9" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:10">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1227 620 L 1227 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-value" data-edge-to="value" data-edge-label="阐明目的与取舍" data-edge-key="10" data-edge-id="value-articulation" data-composition-points="1227,620;1227,150" data-composition-crossover="halo" data-composition-independent="true" d="M 1227 620 L 1227 150" class="a-dashed" data-animate="edge" style="--step:10" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:11">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1578.05 620 L 1578.05 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-method" data-edge-to="methodology" data-edge-label="表达与组织方法" data-edge-key="11" data-edge-id="method-articulation" data-composition-points="1578.05,620;1578.05,150" data-composition-crossover="halo" data-composition-independent="true" d="M 1578.05 620 L 1578.05 150" class="a-dashed" data-animate="edge" style="--step:11" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:12">
+          <path data-graph-role="automatic-crossover-underlay" d="M 300 665 L 379 665 Q 387 665 387 657 L 387 522.525 Q 387 514.525 395 514.525 L 855 514.525 Q 863 514.525 863 506.525 L 863 350" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="realization" data-edge-label="物理实现载体与运行" data-edge-key="12" data-edge-id="physical-realization" data-composition-points="300,665;387,665;387,514.525;863,514.525;863,350" data-composition-crossover="halo" data-composition-independent="true" d="M 300 665 L 379 665 Q 387 665 387 657 L 387 522.525 Q 387 514.525 395 514.525 L 855 514.525 Q 863 514.525 863 506.525 L 863 350" class="a-emphasis" data-animate="edge" style="--step:12" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:13">
+          <path data-graph-role="automatic-crossover-underlay" d="M 870 820 L 870 804 Q 870 796 878 796 L 887.1 796 Q 895.1 796 895.1 788 L 895.1 382 Q 895.1 374 887.1 374 L 887.1 374 Q 879.1 374 879.1 366 L 879.1 350" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-practice" data-edge-to="realization" data-edge-label="运行与行动" data-edge-key="13" data-edge-id="practice-operates-arrangement" data-composition-points="870,820;870,796;895.1,796;895.1,374;879.1,374;879.1,350" data-composition-crossover="halo" data-composition-independent="true" d="M 870 820 L 870 804 Q 870 796 878 796 L 887.1 796 Q 895.1 796 895.1 788 L 895.1 382 Q 895.1 374 887.1 374 L 887.1 374 Q 879.1 374 879.1 366 L 879.1 350" class="a-emphasis" data-animate="edge" style="--step:12" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:14">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1000 313.05 L 1016 313.05 Q 1024 313.05 1024 321.05 L 1024 732 Q 1024 740 1016 740 L 658.8749999999999 740 Q 650.8749999999999 740 650.8749999999999 748 L 650.8749999999999 848.95 Q 650.8749999999999 856.95 658.8749999999999 856.95 L 740 856.95" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="realization" data-edge-to="lived-practice" data-edge-label="后果与修订" data-edge-key="14" data-edge-id="consequences-return" data-composition-points="1000,313.05;1024,313.05;1024,740;650.8749999999999,740;650.8749999999999,856.95;740,856.95" data-composition-crossover="halo" data-composition-independent="true" d="M 1000 313.05 L 1016 313.05 Q 1024 313.05 1024 321.05 L 1024 732 Q 1024 740 1016 740 L 658.8749999999999 740 Q 650.8749999999999 740 650.8749999999999 748 L 650.8749999999999 848.95 Q 650.8749999999999 856.95 658.8749999999999 856.95 L 740 856.95" class="a-dashed" data-animate="edge" style="--step:12" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
         </g>
 
         <!-- Components -->
-        <g id="node-physical" data-node-id="physical" data-node-label="物理本体" tabindex="0" role="button" aria-label="聚焦物理本体，火：同一个变化着的自然世界, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="火：同一个变化着的自然世界" data-node-context="此解释中需要区分的问题">
-          <title>物理本体 · 火：同一个变化着的自然世界 · 此解释中需要区分的问题</title>
-          <rect x="70" y="50" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="50" width="280" height="90" rx="8" class="c-cloud" data-animate="node" style="--step:0" stroke-width="1.5"/>
+        <g id="node-ontology" data-node-id="ontology" data-node-label="计算本体" tabindex="0" role="button" aria-label="聚焦计算本体，过程本体论：事件、状态与变化, 计算层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="过程本体论：事件、状态与变化" data-node-tag="过程本体论" data-node-context="计算层">
+          <title>计算本体 · 过程本体论：事件、状态与变化 · 计算层 · 过程本体论</title>
+          <rect x="40" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="40" y="60" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step:0" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="210" y="93" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">物理本体</text>
-        <text data-detail="context" x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">火：同一个变化着的自然世界</text>
+          <text data-node-label="" data-detail-anchor="" x="170" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">计算本体</text>
+        <text data-detail="context" x="170" y="119" class="t-muted" font-size="9" text-anchor="middle">过程本体论：事件、状态与变化</text>
+        <text data-detail="fine" x="170" y="142" class="t-frontend" font-size="7" text-anchor="middle">过程本体论</text>
         </g>
 
-        <g id="node-value" data-node-id="value" data-node-label="价值" tabindex="0" role="button" aria-label="聚焦价值，什么值得追求，为谁而做？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="什么值得追求，为谁而做？" data-node-context="此解释中需要区分的问题">
-          <title>价值 · 什么值得追求，为谁而做？ · 此解释中需要区分的问题</title>
-          <rect x="355" y="870" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="355" y="870" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step:1" stroke-width="1.5"/>
+        <g id="node-epistemology" data-node-id="epistemology" data-node-label="证据、解释与推理" tabindex="0" role="button" aria-label="聚焦证据、解释与推理，记录、候选解释、模型与检验, 计算层" aria-pressed="false" data-node-kind="backend" data-node-sublabel="记录、候选解释、模型与检验" data-node-tag="认识的表达与组织" data-node-context="计算层">
+          <title>证据、解释与推理 · 记录、候选解释、模型与检验 · 计算层 · 认识的表达与组织</title>
+          <rect x="390" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="390" y="60" width="260" height="90" rx="8" class="c-backend" data-animate="node" style="--step:1" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="495" y="913" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">价值</text>
-        <text data-detail="context" x="495" y="929" class="t-muted" font-size="9" text-anchor="middle">什么值得追求，为谁而做？</text>
+          <text data-node-label="" data-detail-anchor="" x="520" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">证据、解释与推理</text>
+        <text data-detail="context" x="520" y="119" class="t-muted" font-size="9" text-anchor="middle">记录、候选解释、模型与检验</text>
+        <text data-detail="fine" x="520" y="142" class="t-backend" font-size="7" text-anchor="middle">认识的表达与组织</text>
         </g>
 
-        <g id="node-ontology" data-node-id="ontology" data-node-label="计算本体论" tabindex="0" role="button" aria-label="聚焦计算本体论，工程：事件、状态与转变, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="工程：事件、状态与转变" data-node-context="此解释中需要区分的问题">
-          <title>计算本体论 · 工程：事件、状态与转变 · 此解释中需要区分的问题</title>
-          <rect x="70" y="310" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="310" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step:1" stroke-width="1.5"/>
+        <g id="node-value" data-node-id="value" data-node-label="目标与评价标准" tabindex="0" role="button" aria-label="聚焦目标与评价标准，明确目的、代价与取舍, 计算层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="明确目的、代价与取舍" data-node-tag="价值的表达与组织" data-node-context="计算层">
+          <title>目标与评价标准 · 明确目的、代价与取舍 · 计算层 · 价值的表达与组织</title>
+          <rect x="1090" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1090" y="60" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step:2" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="210" y="353" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">计算本体论</text>
-        <text data-detail="context" x="210" y="369" class="t-muted" font-size="9" text-anchor="middle">工程：事件、状态与转变</text>
+          <text data-node-label="" data-detail-anchor="" x="1220" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">目标与评价标准</text>
+        <text data-detail="context" x="1220" y="119" class="t-muted" font-size="9" text-anchor="middle">明确目的、代价与取舍</text>
+        <text data-detail="fine" x="1220" y="142" class="t-frontend" font-size="7" text-anchor="middle">价值的表达与组织</text>
         </g>
 
-        <g id="node-epistemology" data-node-id="epistemology" data-node-label="认识论" tabindex="0" role="button" aria-label="聚焦认识论，什么支持视图，何时修订？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="backend" data-node-sublabel="什么支持视图，何时修订？" data-node-context="此解释中需要区分的问题">
-          <title>认识论 · 什么支持视图，何时修订？ · 此解释中需要区分的问题</title>
-          <rect x="640" y="310" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="640" y="310" width="280" height="90" rx="8" class="c-backend" data-animate="node" style="--step:4" stroke-width="1.5"/>
+        <g id="node-methodology" data-node-id="methodology" data-node-label="方法、流程与工具" tabindex="0" role="button" aria-label="聚焦方法、流程与工具，描述、规则与操作, 计算层" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="描述、规则与操作" data-node-tag="方法的表达与组织" data-node-context="计算层">
+          <title>方法、流程与工具 · 描述、规则与操作 · 计算层 · 方法的表达与组织</title>
+          <rect x="1440" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1440" y="60" width="260" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step:3" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="780" y="353" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">认识论</text>
-        <text data-detail="context" x="780" y="369" class="t-muted" font-size="9" text-anchor="middle">什么支持视图，何时修订？</text>
+          <text data-node-label="" data-detail-anchor="" x="1570" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">方法、流程与工具</text>
+        <text data-detail="context" x="1570" y="119" class="t-muted" font-size="9" text-anchor="middle">描述、规则与操作</text>
+        <text data-detail="fine" x="1570" y="142" class="t-messagebus" font-size="7" text-anchor="middle">方法的表达与组织</text>
         </g>
 
-        <g id="node-methodology" data-node-id="methodology" data-node-label="方法论" tabindex="0" role="button" aria-label="聚焦方法论，怎样组织可持续的工作？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="怎样组织可持续的工作？" data-node-context="此解释中需要区分的问题">
-          <title>方法论 · 怎样组织可持续的工作？ · 此解释中需要区分的问题</title>
-          <rect x="640" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="640" y="630" width="280" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step:2" stroke-width="1.5"/>
+        <g id="node-realization" data-node-id="realization" data-node-label="运行、使用与读回" tabindex="0" role="button" aria-label="聚焦运行、使用与读回，计算安排的实际运用, 计算层" aria-pressed="false" data-node-kind="external" data-node-sublabel="计算安排的实际运用" data-node-tag="计算层的实践" data-node-context="计算层">
+          <title>运行、使用与读回 · 计算安排的实际运用 · 计算层 · 计算层的实践</title>
+          <rect x="740" y="260" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="740" y="260" width="260" height="90" rx="8" class="c-external" data-animate="node" style="--step:1" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="780" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">方法论</text>
-        <text data-detail="context" x="780" y="689" class="t-muted" font-size="9" text-anchor="middle">怎样组织可持续的工作？</text>
+          <text data-node-label="" data-detail-anchor="" x="870" y="303" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">运行、使用与读回</text>
+        <text data-detail="context" x="870" y="319" class="t-muted" font-size="9" text-anchor="middle">计算安排的实际运用</text>
+        <text data-detail="fine" x="870" y="342" class="t-external" font-size="7" text-anchor="middle">计算层的实践</text>
         </g>
 
-        <g id="node-realization" data-node-id="realization" data-node-label="具体实现" tabindex="0" role="button" aria-label="聚焦具体实现，数据、程序、提示词、工具与接口, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="external" data-node-sublabel="数据、程序、提示词、工具与接口" data-node-context="此解释中需要区分的问题">
-          <title>具体实现 · 数据、程序、提示词、工具与接口 · 此解释中需要区分的问题</title>
-          <rect x="70" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="630" width="280" height="90" rx="8" class="c-external" data-animate="node" style="--step:2" stroke-width="1.5"/>
+        <g id="node-physical" data-node-id="physical" data-node-label="物理本体" tabindex="0" role="button" aria-label="聚焦物理本体，朴素自然主义 · 当代火一元论, 物理层" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="朴素自然主义 · 当代火一元论" data-node-tag="本体论" data-node-context="物理层">
+          <title>物理本体 · 朴素自然主义 · 当代火一元论 · 物理层 · 本体论</title>
+          <rect x="40" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="40" y="620" width="260" height="90" rx="8" class="c-cloud" data-animate="node" style="--step:4" stroke-width="1.5"/>
           
-          <text data-node-label="" data-detail-anchor="" x="210" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">具体实现</text>
-        <text data-detail="context" x="210" y="689" class="t-muted" font-size="9" text-anchor="middle">数据、程序、提示词、工具与接口</text>
+          <text data-node-label="" data-detail-anchor="" x="170" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">物理本体</text>
+        <text data-detail="context" x="170" y="679" class="t-muted" font-size="9" text-anchor="middle">朴素自然主义 · 当代火一元论</text>
+        <text data-detail="fine" x="170" y="702" class="t-cloud" font-size="7" text-anchor="middle">本体论</text>
+        </g>
+
+        <g id="node-embodied-knowing" data-node-id="embodied-knowing" data-node-label="经验、观察与判断" tabindex="0" role="button" aria-label="聚焦经验、观察与判断，从具身经验出发的可错探究, 物理层" aria-pressed="false" data-node-kind="backend" data-node-sublabel="从具身经验出发的可错探究" data-node-tag="认识论" data-node-context="物理层">
+          <title>经验、观察与判断 · 从具身经验出发的可错探究 · 物理层 · 认识论</title>
+          <rect x="390" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="390" y="620" width="260" height="90" rx="8" class="c-backend" data-animate="node" style="--step:5" stroke-width="1.5"/>
+          
+          <text data-node-label="" data-detail-anchor="" x="520" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">经验、观察与判断</text>
+        <text data-detail="context" x="520" y="679" class="t-muted" font-size="9" text-anchor="middle">从具身经验出发的可错探究</text>
+        <text data-detail="fine" x="520" y="702" class="t-backend" font-size="7" text-anchor="middle">认识论</text>
+        </g>
+
+        <g id="node-lived-value" data-node-id="lived-value" data-node-label="生活中的价值" tabindex="0" role="button" aria-label="聚焦生活中的价值，个人优先的人本主义, 物理层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="个人优先的人本主义" data-node-tag="价值" data-node-context="物理层">
+          <title>生活中的价值 · 个人优先的人本主义 · 物理层 · 价值</title>
+          <rect x="1090" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1090" y="620" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step:6" stroke-width="1.5"/>
+          
+          <text data-node-label="" data-detail-anchor="" x="1220" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">生活中的价值</text>
+        <text data-detail="context" x="1220" y="679" class="t-muted" font-size="9" text-anchor="middle">个人优先的人本主义</text>
+        <text data-detail="fine" x="1220" y="702" class="t-frontend" font-size="7" text-anchor="middle">价值</text>
+        </g>
+
+        <g id="node-lived-method" data-node-id="lived-method" data-node-label="实际探究与协作" tabindex="0" role="button" aria-label="聚焦实际探究与协作，相对于问题的多元方法, 物理层" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="相对于问题的多元方法" data-node-tag="方法论" data-node-context="物理层">
+          <title>实际探究与协作 · 相对于问题的多元方法 · 物理层 · 方法论</title>
+          <rect x="1440" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1440" y="620" width="260" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step:7" stroke-width="1.5"/>
+          
+          <text data-node-label="" data-detail-anchor="" x="1570" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">实际探究与协作</text>
+        <text data-detail="context" x="1570" y="679" class="t-muted" font-size="9" text-anchor="middle">相对于问题的多元方法</text>
+        <text data-detail="fine" x="1570" y="702" class="t-messagebus" font-size="7" text-anchor="middle">方法论</text>
+        </g>
+
+        <g id="node-lived-practice" data-node-id="lived-practice" data-node-label="具身共同实践" tabindex="0" role="button" aria-label="聚焦具身共同实践，行动与现实后果, 物理层" aria-pressed="false" data-node-kind="external" data-node-sublabel="行动与现实后果" data-node-tag="人与模型" data-node-context="物理层">
+          <title>具身共同实践 · 行动与现实后果 · 物理层 · 人与模型</title>
+          <rect x="740" y="820" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="740" y="820" width="260" height="90" rx="8" class="c-external" data-animate="node" style="--step:5" stroke-width="1.5"/>
+          
+          <text data-node-label="" data-detail-anchor="" x="870" y="863" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">具身共同实践</text>
+        <text data-detail="context" x="870" y="879" class="t-muted" font-size="9" text-anchor="middle">行动与现实后果</text>
+        <text data-detail="fine" x="870" y="902" class="t-external" font-size="7" text-anchor="middle">人与模型</text>
         </g>
 
         <!-- Connection labels -->
-        <g data-detail="context" data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取过程与尺度" data-edge-key="0" data-edge-id="physical-abstraction">
-          <rect x="126.80000000000001" y="218" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="165.4" y="228" class="t-edge-emphasis" font-size="8" text-anchor="middle">选取过程与尺度</text>
+        <g data-detail="context" data-edge-from="ontology" data-edge-to="realization" data-edge-label="表征选定关系" data-edge-key="0" data-edge-id="model-in-realization">
+          <rect x="424.7" y="285" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="458.5" y="295" class="t-edge-emphasis" font-size="8" text-anchor="middle">表征选定关系</text>
         </g>
-        <g data-detail="context" data-edge-from="value" data-edge-to="methodology" data-edge-label="阐明行动目的" data-edge-key="1" data-edge-id="value-guides-method">
-          <rect x="746.2" y="797.5" width="67.6" height="14" rx="3" class="c-mask"/>
-          <text x="780" y="807.5" class="t-edge-emphasis" font-size="8" text-anchor="middle">阐明行动目的</text>
+        <g data-detail="context" data-edge-from="epistemology" data-edge-to="realization" data-edge-label="组织根据与检验" data-edge-key="1" data-edge-id="evidence-in-operation">
+          <rect x="655.8749999999999" y="185" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="694.4749999999999" y="195" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织根据与检验</text>
         </g>
-        <g data-detail="context" data-edge-from="realization" data-edge-to="value" data-edge-label="评估生活中的后果" data-edge-key="2" data-edge-id="consequences-inform-value">
-          <rect x="239.1" y="895" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="282.5" y="905" class="t-edge-dashed" font-size="8" text-anchor="middle">评估生活中的后果</text>
+        <g data-detail="context" data-edge-from="value" data-edge-to="realization" data-edge-label="明确目标与评价" data-edge-key="2" data-edge-id="value-in-operation">
+          <rect x="1005.8749999999999" y="185" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1044.475" y="195" class="t-edge-emphasis" font-size="8" text-anchor="middle">明确目标与评价</text>
         </g>
-        <g data-detail="context" data-edge-from="ontology" data-edge-to="epistemology" data-edge-label="确定正在检验什么" data-edge-key="3" data-edge-id="objects-orient-evidence">
-          <rect x="451.6" y="326.95" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="495" y="336.95" class="t-edge-emphasis" font-size="8" text-anchor="middle">确定正在检验什么</text>
+        <g data-detail="context" data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织规则与操作" data-edge-key="3" data-edge-id="method-in-action">
+          <rect x="1242.9" y="278" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1281.5" y="288" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织规则与操作</text>
         </g>
-        <g data-detail="context" data-edge-from="epistemology" data-edge-to="methodology" data-edge-label="依据参与方法选择" data-edge-key="4" data-edge-id="evidence-informs-method">
-          <rect x="687.2" y="508" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="730.6" y="518" class="t-edge-emphasis" font-size="8" text-anchor="middle">依据参与方法选择</text>
+        <g data-detail="context" data-edge-from="physical" data-edge-to="lived-practice" data-edge-label="构成具身活动的基础" data-edge-key="4" data-edge-id="ground-in-practice">
+          <rect x="406.8" y="852" width="96.39999999999999" height="14" rx="3" class="c-mask"/>
+          <text x="455" y="862" class="t-edge-emphasis" font-size="8" text-anchor="middle">构成具身活动的基础</text>
         </g>
-        <g data-detail="context" data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织行动与检查" data-edge-key="5" data-edge-id="method-in-action">
-          <rect x="456.4" y="663.05" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="495" y="673.05" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织行动与检查</text>
+        <g data-detail="context" data-edge-from="embodied-knowing" data-edge-to="lived-practice" data-edge-label="观察并判断" data-edge-key="5" data-edge-id="knowing-in-practice">
+          <rect x="657.95" y="745" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="686.95" y="755" class="t-edge-emphasis" font-size="8" text-anchor="middle">观察并判断</text>
         </g>
-        <g data-detail="context" data-edge-from="ontology" data-edge-to="realization" data-edge-label="实现并使用模型" data-edge-key="6" data-edge-id="model-in-realization">
-          <rect x="126.80000000000001" y="508" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="165.4" y="518" class="t-edge-emphasis" font-size="8" text-anchor="middle">实现并使用模型</text>
+        <g data-detail="context" data-edge-from="lived-value" data-edge-to="lived-practice" data-edge-label="指向值得做的事" data-edge-key="6" data-edge-id="value-guides-practice">
+          <rect x="1014.4499999999999" y="745" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1053.05" y="755" class="t-edge-emphasis" font-size="8" text-anchor="middle">指向值得做的事</text>
         </g>
-        <g data-detail="context" data-edge-from="realization" data-edge-to="ontology" data-edge-label="修订选择与模型" data-edge-key="7" data-edge-id="failure-reopens-object">
-          <rect x="7.399999999999999" y="495" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="46" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">修订选择与模型</text>
+        <g data-detail="context" data-edge-from="lived-method" data-edge-to="lived-practice" data-edge-label="组织共同探究" data-edge-key="7" data-edge-id="methods-in-practice">
+          <rect x="1251.2" y="845" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="1285" y="855" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织共同探究</text>
         </g>
-        <g data-detail="context" data-edge-from="realization" data-edge-to="epistemology" data-edge-label="检验可观察对应" data-edge-key="8" data-edge-id="result-tests-explanation">
-          <rect x="335.4" y="495" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="374" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">检验可观察对应</text>
+        <g data-detail="context" data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取与抽象" data-edge-key="8" data-edge-id="physical-abstraction">
+          <rect x="132.95" y="600" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="161.95" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">选取与抽象</text>
+        </g>
+        <g data-detail="context" data-edge-from="embodied-knowing" data-edge-to="epistemology" data-edge-label="记录与组织根据" data-edge-key="9" data-edge-id="experience-to-evidence">
+          <rect x="474.4" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="513" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">记录与组织根据</text>
+        </g>
+        <g data-detail="context" data-edge-from="lived-value" data-edge-to="value" data-edge-label="阐明目的与取舍" data-edge-key="10" data-edge-id="value-articulation">
+          <rect x="1188.4" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1227" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">阐明目的与取舍</text>
+        </g>
+        <g data-detail="context" data-edge-from="lived-method" data-edge-to="methodology" data-edge-label="表达与组织方法" data-edge-key="11" data-edge-id="method-articulation">
+          <rect x="1539.45" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1578.05" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">表达与组织方法</text>
+        </g>
+        <g data-detail="context" data-edge-from="physical" data-edge-to="realization" data-edge-label="物理实现载体与运行" data-edge-key="12" data-edge-id="physical-realization">
+          <rect x="338.8" y="569.7625" width="96.39999999999999" height="14" rx="3" class="c-mask"/>
+          <text x="387" y="579.7625" class="t-edge-emphasis" font-size="8" text-anchor="middle">物理实现载体与运行</text>
+        </g>
+        <g data-detail="context" data-edge-from="lived-practice" data-edge-to="realization" data-edge-label="运行与行动" data-edge-key="13" data-edge-id="practice-operates-arrangement">
+          <rect x="831.1" y="578" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="860.1" y="588" class="t-edge-emphasis" font-size="8" text-anchor="middle">运行与行动</text>
+        </g>
+        <g data-detail="context" data-edge-from="realization" data-edge-to="lived-practice" data-edge-label="后果与修订" data-edge-key="14" data-edge-id="consequences-return">
+          <rect x="995" y="506.525" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="1024" y="516.525" class="t-edge-dashed" font-size="8" text-anchor="middle">后果与修订</text>
         </g>
 
         <!-- Boundary labels (foreground masks keep routes out of titles) -->
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="region" data-composition-frame-label="计算层">
+          <rect data-graph-role="structural-frame-label-mask" x="14" y="37" width="51.10968101935483" height="19" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="18" y="52.41935583870968" class="t-cloud" font-size="11.419355838709675" font-weight="600">计算层</text>
+        </g>
 
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="1" data-composition-frame-kind="region" data-composition-frame-label="物理层">
+          <rect data-graph-role="structural-frame-label-mask" x="14" y="597" width="51.10968101935483" height="19" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="18" y="612.4193558387096" class="t-cloud" font-size="11.419355838709675" font-weight="600">物理层</text>
+        </g>
 
         <!-- Legend -->
         <g data-legend="" data-legend-bridge="">
-          <text x="40" y="992" class="t-primary" font-size="12" font-weight="650">图例</text>
-          <g data-legend-semantic-kind="frontend" data-legend-kind="frontend" data-legend-label="对象与目的" data-legend-x="40" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="40" y="1003" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
-            <text x="62" y="1012" class="t-muted" font-size="10" font-weight="500">对象与目的</text>
+          <text x="40" y="962" class="t-primary" font-size="12" font-weight="650">图例</text>
+          <g data-legend-semantic-kind="frontend" data-legend-kind="frontend" data-legend-label="对象与价值" data-legend-x="40" data-legend-baseline="982" data-legend-width="105">
+            <rect x="40" y="973" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
+            <text x="62" y="982" class="t-muted" font-size="10" font-weight="500">对象与价值</text>
           </g>
-          <g data-legend-semantic-kind="backend" data-legend-kind="backend" data-legend-label="证据与修订" data-legend-x="167" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="167" y="1003" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
-            <text x="189" y="1012" class="t-muted" font-size="10" font-weight="500">证据与修订</text>
+          <g data-legend-semantic-kind="backend" data-legend-kind="backend" data-legend-label="经验与根据" data-legend-x="167" data-legend-baseline="982" data-legend-width="105">
+            <rect x="167" y="973" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
+            <text x="189" y="982" class="t-muted" font-size="10" font-weight="500">经验与根据</text>
           </g>
-          <g data-legend-semantic-kind="cloud" data-legend-kind="cloud" data-legend-label="物理基础" data-legend-x="294" data-legend-baseline="1012" data-legend-width="93">
-            <rect x="294" y="1003" width="16" height="10" rx="2.5" class="c-cloud" stroke-width="1"/>
-            <text x="316" y="1012" class="t-muted" font-size="10" font-weight="500">物理基础</text>
+          <g data-legend-semantic-kind="cloud" data-legend-kind="cloud" data-legend-label="物理本体" data-legend-x="294" data-legend-baseline="982" data-legend-width="93">
+            <rect x="294" y="973" width="16" height="10" rx="2.5" class="c-cloud" stroke-width="1"/>
+            <text x="316" y="982" class="t-muted" font-size="10" font-weight="500">物理本体</text>
           </g>
-          <g data-legend-semantic-kind="messagebus" data-legend-kind="messagebus" data-legend-label="工作方法" data-legend-x="409" data-legend-baseline="1012" data-legend-width="93">
-            <rect x="409" y="1003" width="16" height="10" rx="2.5" class="c-messagebus" stroke-width="1"/>
-            <text x="431" y="1012" class="t-muted" font-size="10" font-weight="500">工作方法</text>
+          <g data-legend-semantic-kind="messagebus" data-legend-kind="messagebus" data-legend-label="探究与方法" data-legend-x="409" data-legend-baseline="982" data-legend-width="105">
+            <rect x="409" y="973" width="16" height="10" rx="2.5" class="c-messagebus" stroke-width="1"/>
+            <text x="431" y="982" class="t-muted" font-size="10" font-weight="500">探究与方法</text>
           </g>
-          <g data-legend-semantic-kind="external" data-legend-kind="external" data-legend-label="实现与结果" data-legend-x="524" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="524" y="1003" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
-            <text x="546" y="1012" class="t-muted" font-size="10" font-weight="500">实现与结果</text>
+          <g data-legend-semantic-kind="external" data-legend-kind="external" data-legend-label="实践与计算运用" data-legend-x="536" data-legend-baseline="982" data-legend-width="130">
+            <rect x="536" y="973" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
+            <text x="558" y="982" class="t-muted" font-size="10" font-weight="500">实践与计算运用</text>
           </g>
         </g>
       </svg>
@@ -5546,36 +5693,36 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <div class="card">
         <div class="card-header">
           <div class="card-dot cyan"></div>
-          <h3>同一个世界，选定的过程</h3>
+          <h3>两组「四轴＋实践」</h3>
         </div>
         <ul>
-          <li>运动的物质、具身生命、心理与社会活动都属于同一个自然世界。哲学、心理学与工程均在其中得到物理实现。</li>
-          <li>当代火一元论将对象、主体与关系理解为生成与转化中相对稳定、可修订的模式，不设定字面火焰实体，也不将现代物理主义归于赫拉克利特。</li>
-          <li>问题决定选取哪些过程、边界、尺度与相关连续性。对象身份在过程中表示形成、持续与变化；静态视图可在其边界内成立。</li>
+          <li>物理层呈现物理本体、具身认识、生活价值、实际方法与共同实践；计算层呈现选定过程、根据、目标、方法及其计算运用。</li>
+          <li>四轴追问不同问题，实践使它们进入行动。两层都不是五个执行阶段；计算本体是上方的一个特定节点，不是整个计算层的总称。</li>
+          <li>两个层次都是真实的。计算表达、解释与使用具有物理载体和实际运行过程；物理实现不自动保证语义主张准确。</li>
         </ul>
       </div>
 
       <div class="card">
         <div class="card-header">
           <div class="card-dot violet"></div>
-          <h3>共同活动中的计算表达</h3>
+          <h3>实现、抽象与表达</h3>
         </div>
         <ul>
-          <li>这里的工程本体就是对事件、状态、持续对象、关系、约束与转变规则的计算表达，计算机能够表示、检视，或用来模拟相关变化。</li>
-          <li>数据、程序、提示词、工具与接口实现并使用模型。由模型解释的自然语言表示也可供计算机使用；仅仅存下文字尚未建立可用的对应关系或模拟。</li>
-          <li>人与语言模型共同发现问题、选取过程、构造模型、推理、实现、读回与修订。双方都可以生成和判断；实际贡献随可用模态、经验与能力而变化。发展出的能力可以继续分布于双方及其支持之中。</li>
+          <li>物理实现箭头概括使安排可用的整个物质活动：身体、机器、能量、物质记录、解释与执行。它不表示五组语义项目逐项实现。</li>
+          <li>四条对应箭头各有作用：抽象选取建模对象，记录组织根据，目标阐明目的与取舍，方法描述组织规则与操作；它们不是还原或自动推导。</li>
+          <li>这里的计算本体采用过程本体论：通过事件、状态、持续对象、关系、约束与转移规则，表达选定过程及其变化。模型可理解的清晰语言、数据、程序、提示词、工具与界面提供可用形式。</li>
         </ul>
       </div>
 
       <div class="card">
         <div class="card-header">
           <div class="card-dot amber"></div>
-          <h3>可观察结果，可修订的问题</h3>
+          <h3>使用、后果与修订</h3>
         </div>
         <ul>
-          <li>现实中的可观察变化检验模型的对应关系。结果与目的反馈可促使过程选择、计算表达或具体实现得到修订；执行成功本身不能说明目的值得追求。</li>
-          <li>本体、认识、价值与方法是相互交织的问题，而非强制执行阶段。具体实现让它们进入行动；专门 Skill 在各自语境中发展方法。</li>
-          <li>选定模型不提供完整世界模拟器，也不自动保证正确性、完整物理还原或求解可行性。过程观不要求每个系统记录所有事件或采用流式架构。</li>
+          <li>人与模型共同形成问题、表征、安排与解释。运行安排进入具身活动；现实后果能够修订表达、实现或实际做法。</li>
+          <li>模型能够实际运行，仍可能错误表征对象；可执行规则可能不适合问题，评价标准可能遗漏生活中重要的东西。不同主张需要相应的根据。</li>
+          <li>当代火一元论以火阐明同一自然世界的生成，不设定字面火焰实体。共同基础不保证完整世界模拟、完整还原或可行的计算。</li>
         </ul>
       </div>
     </div>
@@ -5756,6 +5903,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         else open(false);
       });
       btn.addEventListener('keydown', function (e) {
+        if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
         if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
           e.preventDefault();
           if (!isOpen()) open(e.key === 'ArrowUp');
@@ -5772,6 +5920,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       menu.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') { e.preventDefault(); close(true); return; }
         if (e.key === 'Tab') { close(false); return; }
+        if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
         var available = options();
         var active = available.indexOf(document.activeElement);
         switch (e.key) {
@@ -7195,6 +7344,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       });
       // APG menu-button pattern: ArrowDown/ArrowUp on the trigger opens the menu.
       btn.addEventListener('keydown', function (e) {
+        if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
         if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
           e.preventDefault();
           if (!isOpen()) open(e.key === 'ArrowUp');
@@ -7210,6 +7360,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       menu.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') { e.preventDefault(); close(true); return; }
         if (e.key === 'Tab')    { close(false); return; }
+        if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
 
         var available = items().filter(function (i) { return !i.hidden && !i.disabled; });
         var current = available.indexOf(document.activeElement);
@@ -9837,6 +9988,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         syncRelationshipPreview();
       });
       relationshipList.addEventListener('keydown', function (event) {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
         if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp' && event.key !== 'Home' && event.key !== 'End') return;
         var buttons = Array.prototype.slice.call(relationshipList.querySelectorAll('[data-relationship-target]'));
         if (!buttons.length) return;
@@ -12625,6 +12777,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       closeBtn.addEventListener('click', function () { close(); });
       input.addEventListener('input', function () { render(input.value); });
       input.addEventListener('keydown', function (event) {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
         var buttons = resultButtons();
         if (event.key === 'ArrowDown' && buttons.length) {
           event.preventDefault();
@@ -12635,6 +12788,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       });
       results.addEventListener('keydown', function (event) {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
         var buttons = resultButtons();
         var index = buttons.indexOf(document.activeElement);
         if (index < 0 || !buttons.length) return;
@@ -12669,6 +12823,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         count: items.length
       };
     })();
+
 
     /* ============================================================
        Node Outline — a rail index of the semantic nodes, grouped by their
@@ -13774,6 +13929,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         if (journeyPlaying && event.target.closest('[data-route-journey-index]')) pauseJourney({ preserveElapsed: true });
       });
       path.addEventListener('keydown', function (event) {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
         var button = event.target.closest('[data-route-journey-index]');
         if (!button) return;
         var index = Number(button.getAttribute('data-route-journey-index'));
@@ -14449,6 +14605,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         select(button.getAttribute('data-kind'));
       });
       kindsRoot.addEventListener('keydown', function (event) {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
         var buttons = Array.prototype.slice.call(kindsRoot.querySelectorAll('button:not(:disabled)'));
         var index = buttons.indexOf(document.activeElement);
         var next = null;
@@ -14686,6 +14843,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
        ============================================================ */
     document.addEventListener('keydown', function (e) {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.shiftKey && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Home' || e.key === 'End')) return;
       if (e.defaultPrevented) return;
       var t = e.target;
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;

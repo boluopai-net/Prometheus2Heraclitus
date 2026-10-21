@@ -307,20 +307,28 @@ through question formation, model selection, simulation, implementation, and
 feedback. Both can generate and judge; current capabilities and modalities
 shape contributions without requiring the person to internalize them all.
 
-| Dimension | Its question |
-| --- | --- |
-| Ontology | What reality is being understood, and how do selected objects persist, relate, and change in its working model? |
-| Epistemology | What warrants an interpretation or inference, and when should it change? |
-| Value | What is worth pursuing, for whom, and at whose cost? |
-| Methodology | How should inquiry and collaboration be carried out and maintained? |
+| Dimension | Physical level | Computational level |
+| --- | --- | --- |
+| Ontology | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology organize objects, events, states, relations, and transitions through process ontology? |
+| Knowing | What warrants actual judgment, and when should it change? | How are evidence, candidate explanations, inference, and tests organized? |
+| Value | What is worth pursuing, for whom, and at whose cost? | How are goals, criteria, constraints, and tradeoffs expressed? |
+| Method | How are inquiry and collaboration actually conducted? | How do descriptions, procedures, tools, and rules support that activity? |
 
-These intersecting questions distinguish responsibilities, rather than file
-types or a fixed hierarchy. YinYang primarily develops ontology and epistemology
-and articulates a value orientation; specialist Skills supply their methods.
-Practice brings all four into action and revision. Concrete implementation
-gives practice a working, inspectable form; it does not replace value or
-add a fifth axis of the same kind. A tool's success and an improved life
-therefore require different evidence.
+Both sets concern reality, with distinct responsibilities and a need for correspondence. Computational
+ontology supplies the computational account of objects and processes; the whole computational
+arrangement also includes evidence, goal assessment, methods, and use. YinYang
+develops philosophical understanding and working articulation of these questions;
+specialist Skills supply their methods. Practice brings the four axes into action:
+physical-level embodied activity and consequences correspond to running, using, and reading back
+computational arrangements. Each level may therefore have five diagram nodes,
+four axes plus practice, without making practice a fifth philosophical position
+of the same kind.
+
+Bodies, machines, and material processes realize the computational arrangement;
+selection, expression, and organization across its dimensions need their own
+checks. Lived purposes differ from evaluation criteria, actual knowing from
+evidence records, and methodological fit from successful procedure execution.
+A tool's success and an improved life therefore require different evidence.
 
 Suppose a shared workspace repeatedly loses an unfinished argument. Asking
 what must persist distinguishes the argument, its record, and the people using

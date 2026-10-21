@@ -2,11 +2,10 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Computational ontology and practice on physical ground · YY-09",
+    "title": "From world understanding to practical realization · YY-09",
     "output": "diagrams/layers.html",
     "locale": "en",
     "quality_profile": "showcase",
-    "animation": "trace",
     "translations": {
       "page.title": "{title} Diagram",
       "diagram.description.architecture": "Within one changing natural/physical world, person and language model jointly find problems, select processes, construct computational models, infer, realize, read back and revise. Fire names the world's becoming; model use and feedback continue this same shared activity.",
@@ -55,13 +54,13 @@
       "legend.lifecycle.neutral": "neutral",
       "legend.lifecycle.external": "external",
       "legend.lifecycle.final": "final state",
-      "viewer.kind.frontend": "Modeled relations",
-      "viewer.kind.backend": "Evidence and revision",
+      "viewer.kind.frontend": "Objects and value",
+      "viewer.kind.backend": "Experience and evidence",
       "viewer.kind.database": "Database",
-      "viewer.kind.cloud": "Cloud",
+      "viewer.kind.cloud": "Physical ontology",
       "viewer.kind.security": "Security",
-      "viewer.kind.messagebus": "Working methods",
-      "viewer.kind.external": "Realization and results",
+      "viewer.kind.messagebus": "Inquiry and methods",
+      "viewer.kind.external": "Practice and computational use",
       "viewer.kind.neutral": "Neutral",
       "viewer.kind.node": "Node",
       "viewer.kind.start": "Start",
@@ -448,188 +447,265 @@
       "mode": "auto",
       "entries": {
         "frontend": {
-          "label": "Objects and purposes"
+          "label": "Objects and value"
         },
         "backend": {
-          "label": "Evidence and revision"
+          "label": "Experience and evidence"
         },
         "messagebus": {
-          "label": "Working methods"
+          "label": "Inquiry and methods"
         },
         "external": {
-          "label": "Realization and results"
+          "label": "Practice and computational use"
         },
         "cloud": {
-          "label": "Physical basis"
+          "label": "Physical ontology"
         }
       }
     },
     "views": [
       {
         "id": "physical-ground",
-        "label": "From physical ground to abstraction",
+        "label": "Realization and abstraction",
         "focus": [
           "physical",
-          "ontology"
+          "ontology",
+          "realization",
+          "lived-practice"
         ],
-        "note": "Naturalism scopes one world; fire names its becoming. Select processes, boundaries, scale and continuity for computational representation."
+        "note": "Material activity realizes the arrangement; abstraction selects a modeled object."
       },
       {
-        "id": "questions",
-        "label": "Distinguish the questions",
+        "id": "evidence",
+        "label": "Experience and evidence",
         "focus": [
-          "ontology",
+          "embodied-knowing",
           "epistemology",
-          "value",
-          "methodology",
+          "lived-practice",
           "realization"
         ],
-        "note": "These are intersecting questions, not execution stages. Engineering models meet evidence, purpose and methods in realization."
+        "note": "Experience and judgment inform records, candidate explanations and checks."
+      },
+      {
+        "id": "value",
+        "label": "Value and explicit purposes",
+        "focus": [
+          "lived-value",
+          "value",
+          "lived-practice",
+          "realization"
+        ],
+        "note": "Explicit goals articulate purposes, costs and tradeoffs; success does not establish their worth."
+      },
+      {
+        "id": "methods",
+        "label": "Inquiry and working methods",
+        "focus": [
+          "lived-method",
+          "methodology",
+          "lived-practice",
+          "realization"
+        ],
+        "note": "Inquiry and collaboration shape descriptions, rules, workflows and tools."
       },
       {
         "id": "return",
-        "label": "Follow results back to the model",
+        "label": "Practice and computational use",
         "focus": [
+          "lived-practice",
           "realization",
-          "epistemology",
-          "ontology"
+          "physical"
         ],
-        "note": "Person and language model jointly read back results and revise selection, models and realization; both generate and judge throughout."
+        "note": "Person and model operate the arrangement and interpret consequences; feedback can revise either side."
       }
     ]
   },
   "components": [
     {
-      "id": "physical",
-      "type": "cloud",
-      "icon": "none",
-      "label": "Physical ontology",
-      "sublabel": "Fire: one changing natural world",
-      "pos": [
-        70,
-        50
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "value",
-      "type": "frontend",
-      "icon": "none",
-      "label": "Value",
-      "sublabel": "What is worth pursuing, and for whom?",
-      "pos": [
-        355,
-        870
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
       "id": "ontology",
       "type": "frontend",
       "icon": "none",
       "label": "Computational ontology",
-      "sublabel": "Engineering: events, states, transitions",
+      "sublabel": "Process ontology: events, states, change",
       "pos": [
-        70,
-        310
+        40,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "Process ontology"
     },
     {
       "id": "epistemology",
       "type": "backend",
       "icon": "none",
-      "label": "Epistemology",
-      "sublabel": "What supports or revises a view?",
+      "label": "Evidence and inference",
+      "sublabel": "Records, candidates, models, checks",
       "pos": [
-        640,
-        310
+        390,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "Epistemic articulation"
+    },
+    {
+      "id": "value",
+      "type": "frontend",
+      "icon": "none",
+      "label": "Goals and evaluation",
+      "sublabel": "Purposes, costs, tradeoffs",
+      "pos": [
+        1090,
+        60
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Value articulation"
     },
     {
       "id": "methodology",
       "type": "messagebus",
       "icon": "none",
-      "label": "Methodology",
-      "sublabel": "How is sustainable work organized?",
+      "label": "Methods and tools",
+      "sublabel": "Descriptions, rules, operations",
       "pos": [
-        640,
-        630
+        1440,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "Method articulation"
     },
     {
       "id": "realization",
       "type": "external",
       "icon": "none",
-      "label": "Concrete realization",
-      "sublabel": "Data, programs, prompts, tools, interfaces",
+      "label": "Operation and readback",
+      "sublabel": "Actual use of computational arrangements",
       "pos": [
-        70,
-        630
+        740,
+        260
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "Computational use"
+    },
+    {
+      "id": "physical",
+      "type": "cloud",
+      "icon": "none",
+      "label": "Physical ontology",
+      "sublabel": "Modest naturalism · contemporary fire monism",
+      "pos": [
+        40,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Ontology"
+    },
+    {
+      "id": "embodied-knowing",
+      "type": "backend",
+      "icon": "none",
+      "label": "Experience and judgment",
+      "sublabel": "Fallible, embodied inquiry",
+      "pos": [
+        390,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Epistemology"
+    },
+    {
+      "id": "lived-value",
+      "type": "frontend",
+      "icon": "none",
+      "label": "Value in life",
+      "sublabel": "Personal-first humanism",
+      "pos": [
+        1090,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Value"
+    },
+    {
+      "id": "lived-method",
+      "type": "messagebus",
+      "icon": "none",
+      "label": "Inquiry and collaboration",
+      "sublabel": "Question-relative pluralism",
+      "pos": [
+        1440,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Methodology"
+    },
+    {
+      "id": "lived-practice",
+      "type": "external",
+      "icon": "none",
+      "label": "Embodied shared practice",
+      "sublabel": "Action and actual consequences",
+      "pos": [
+        740,
+        820
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "Person + model"
     }
   ],
   "connections": [
     {
-      "id": "physical-abstraction",
-      "from": "physical",
-      "to": "ontology",
-      "label": "select processes and scale",
+      "id": "model-in-realization",
+      "from": "ontology",
+      "to": "realization",
+      "label": "represent selected relations",
+      "fromSide": "bottom",
+      "toSide": "left",
+      "variant": "emphasis"
+    },
+    {
+      "id": "evidence-in-operation",
+      "from": "epistemology",
+      "to": "realization",
+      "label": "organize grounds and checks",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
     },
     {
-      "id": "value-guides-method",
+      "id": "value-in-operation",
       "from": "value",
-      "to": "methodology",
-      "label": "orient purposes",
-      "fromSide": "right",
-      "toSide": "bottom",
-      "variant": "emphasis"
-    },
-    {
-      "id": "consequences-inform-value",
-      "from": "realization",
-      "to": "value",
-      "label": "evaluate lived effects",
-      "fromSide": "bottom",
-      "toSide": "left",
-      "variant": "dashed"
-    },
-    {
-      "id": "objects-orient-evidence",
-      "from": "ontology",
-      "to": "epistemology",
-      "label": "frame what is being tested",
-      "variant": "emphasis"
-    },
-    {
-      "id": "evidence-informs-method",
-      "from": "epistemology",
-      "to": "methodology",
-      "label": "inform method choice",
+      "to": "realization",
+      "label": "state goals and criteria",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
@@ -638,32 +714,106 @@
       "id": "method-in-action",
       "from": "methodology",
       "to": "realization",
-      "label": "organize action and checks",
+      "label": "organize rules and operations",
+      "fromSide": "bottom",
+      "toSide": "right",
       "variant": "emphasis"
     },
     {
-      "id": "model-in-realization",
-      "from": "ontology",
-      "to": "realization",
-      "label": "realize and use model",
+      "id": "ground-in-practice",
+      "from": "physical",
+      "to": "lived-practice",
+      "label": "grounds embodied activity",
+      "fromSide": "bottom",
+      "toSide": "left",
+      "variant": "emphasis"
+    },
+    {
+      "id": "knowing-in-practice",
+      "from": "embodied-knowing",
+      "to": "lived-practice",
+      "label": "observe and judge",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
     },
     {
-      "id": "failure-reopens-object",
-      "from": "realization",
+      "id": "value-guides-practice",
+      "from": "lived-value",
+      "to": "lived-practice",
+      "label": "orient worthwhile activity",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "variant": "emphasis"
+    },
+    {
+      "id": "methods-in-practice",
+      "from": "lived-method",
+      "to": "lived-practice",
+      "label": "organize shared inquiry",
+      "fromSide": "bottom",
+      "toSide": "right",
+      "variant": "emphasis"
+    },
+    {
+      "id": "physical-abstraction",
+      "from": "physical",
       "to": "ontology",
-      "label": "revise selection and model",
-      "fromSide": "left",
-      "toSide": "left",
+      "label": "select and abstract",
+      "fromSide": "top",
+      "toSide": "bottom",
       "variant": "dashed"
     },
     {
-      "id": "result-tests-explanation",
-      "from": "realization",
+      "id": "experience-to-evidence",
+      "from": "embodied-knowing",
       "to": "epistemology",
-      "label": "test observable correspondence",
+      "label": "record and organize grounds",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "value-articulation",
+      "from": "lived-value",
+      "to": "value",
+      "label": "articulate aims and tradeoffs",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "method-articulation",
+      "from": "lived-method",
+      "to": "methodology",
+      "label": "express and organize methods",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "physical-realization",
+      "from": "physical",
+      "to": "realization",
+      "label": "physically realizes carriers / operation",
+      "fromSide": "right",
+      "toSide": "bottom",
+      "variant": "emphasis"
+    },
+    {
+      "id": "practice-operates-arrangement",
+      "from": "lived-practice",
+      "to": "realization",
+      "label": "operate and act",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "emphasis"
+    },
+    {
+      "id": "consequences-return",
+      "from": "realization",
+      "to": "lived-practice",
+      "label": "consequences and revision",
       "fromSide": "right",
       "toSide": "left",
       "variant": "dashed"
@@ -672,30 +822,56 @@
   "cards": [
     {
       "dot": "cyan",
-      "title": "One world, selected processes",
+      "title": "Two sets: four axes + practice",
       "items": [
-        "Moving matter, embodied life, psychological and social activity belong to one natural world. Philosophy, psychology, and engineering are physically realized within it.",
-        "Contemporary fire monism treats objects, subjects, and relations as relatively stable, revisable patterns of becoming and transformation, without positing literal flame substance or attributing modern physicalism to Heraclitus.",
-        "A question selects processes, boundaries, scale and relevant continuity. Object identity models formation, persistence and change within processes; a static view can be valid within its bounds."
+        "The physical level concerns physical ontology, embodied knowing, lived value, actual methods, and shared practice. The computational level articulates selected processes, evidence, goals, methods, and computational use.",
+        "Four axes ask different questions; practice brings them into action. Neither level is a five-stage pipeline. Computational ontology is one specific node, not the whole computational level.",
+        "Both levels are real. Computational expression, interpretation, and use have physical carriers and operative processes; physical realization does not make their semantic claims automatically accurate."
       ]
     },
     {
       "dot": "violet",
-      "title": "Computational articulation in shared work",
+      "title": "Realization, abstraction and articulation",
       "items": [
-        "Engineering ontology here is the computational articulation of events, states, persisting objects, relations, constraints and transition rules that a computer can represent and examine or use to simulate relevant changes.",
-        "Data, programs, prompts, tools and interfaces realize and use the model. Natural-language representations interpreted by a model can serve a computer consumer; storing words alone does not establish usable correspondence or simulation.",
-        "Person and language model jointly find problems, select processes, construct models, infer, realize, read back and revise. Both generate and judge; contributions vary with actual modalities, experience and capabilities. Developed capacity may remain distributed."
+        "The physical-realization arrow summarizes the whole material activity making the arrangement available: bodies, machines, energy, material records, interpretation and execution. It does not stand for five semantic realization pairings.",
+        "The four correspondence arrows differ: abstraction selects modeled objects; recording organizes grounds; goals articulate purposes and tradeoffs; method descriptions organize rules and operations. These are neither reduction nor automatic derivation.",
+        "Computational ontology here adopts process ontology: events, states, persisting objects, relations, constraints and transition rules articulate selected processes and changes. Clear model-interpreted language, data, programs, prompts, tools and interfaces provide usable forms."
       ]
     },
     {
       "dot": "amber",
-      "title": "Observable results, revisable questions",
+      "title": "Use, consequences and correction",
       "items": [
-        "Observable world changes test the model's correspondence. Results and purpose feedback can revise process selection, computational articulation or realization; execution success alone does not make a purpose worthwhile.",
-        "Ontology, epistemology, value and methodology are intersecting questions, not mandatory execution stages. Realization brings them into action; specialist Skills develop methods.",
-        "A selected model supplies neither a full-world simulator nor automatic correctness, complete physical reduction or tractability. Process thinking does not require every system to log every event or adopt stream architecture."
+        "Person and model shape the question, representation, arrangement and interpretation together. Operating the arrangement enters embodied activity; consequences can revise expression, implementation or actual practice.",
+        "A physically running model can misrepresent its object. Executable rules can be unsuitable, and evaluation criteria can miss what matters in life. Different claims need appropriate evidence.",
+        "Contemporary fire monism names becoming in one natural world, not literal flame substance. Shared ground guarantees neither a full-world simulator nor complete reduction or tractable calculation."
       ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Computational level",
+      "wraps": [
+        "ontology",
+        "epistemology",
+        "value",
+        "methodology",
+        "realization"
+      ],
+      "pad": 30
+    },
+    {
+      "kind": "region",
+      "label": "Physical level",
+      "wraps": [
+        "physical",
+        "embodied-knowing",
+        "lived-value",
+        "lived-method",
+        "lived-practice"
+      ],
+      "pad": 30
     }
   ]
 }

@@ -2,11 +2,10 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "物理基础上的计算本体与实践 · YY-09",
+    "title": "从世界理解到实践实现 · YY-09",
     "output": "diagrams/layers.zh-CN.html",
     "locale": "zh-CN",
     "quality_profile": "showcase",
-    "animation": "trace",
     "translations": {
       "page.title": "{title}",
       "diagram.description.architecture": "在同一个变化着的自然／物理世界中，人与语言模型共同发现问题、选取过程、构造计算模型、推理、实现、读回与修订。火阐明世界的生成；模型使用与反馈延续同一项共同活动。",
@@ -55,13 +54,13 @@
       "legend.lifecycle.neutral": "中性状态",
       "legend.lifecycle.external": "外部状态",
       "legend.lifecycle.final": "终态",
-      "viewer.kind.frontend": "建模关系",
-      "viewer.kind.backend": "证据与修订",
+      "viewer.kind.frontend": "对象与价值",
+      "viewer.kind.backend": "经验与根据",
       "viewer.kind.database": "数据库",
-      "viewer.kind.cloud": "云服务",
+      "viewer.kind.cloud": "物理本体",
       "viewer.kind.security": "安全",
-      "viewer.kind.messagebus": "工作方法",
-      "viewer.kind.external": "实现与结果",
+      "viewer.kind.messagebus": "探究与方法",
+      "viewer.kind.external": "实践与计算运用",
       "viewer.kind.neutral": "中性",
       "viewer.kind.node": "节点",
       "viewer.kind.start": "开始",
@@ -448,188 +447,265 @@
       "mode": "auto",
       "entries": {
         "frontend": {
-          "label": "对象与目的"
+          "label": "对象与价值"
         },
         "backend": {
-          "label": "证据与修订"
+          "label": "经验与根据"
         },
         "messagebus": {
-          "label": "工作方法"
+          "label": "探究与方法"
         },
         "external": {
-          "label": "实现与结果"
+          "label": "实践与计算运用"
         },
         "cloud": {
-          "label": "物理基础"
+          "label": "物理本体"
         }
       }
     },
     "views": [
       {
         "id": "physical-ground",
-        "label": "从物理基础到计算抽象",
+        "label": "物理实现与选取抽象",
         "focus": [
           "physical",
-          "ontology"
+          "ontology",
+          "realization",
+          "lived-practice"
         ],
-        "note": "火阐明同一个世界的生成。工程为计算表示选取过程、边界、尺度与相关连续性；自然主义标明世界内的范围。"
+        "note": "物质活动使计算安排取得实际作用；抽象选取建模对象。"
       },
       {
-        "id": "questions",
-        "label": "区分几种问题",
+        "id": "evidence",
+        "label": "经验与组织起来的根据",
         "focus": [
-          "ontology",
+          "embodied-knowing",
           "epistemology",
-          "value",
-          "methodology",
+          "lived-practice",
           "realization"
         ],
-        "note": "这些是相互交织的问题，而非执行阶段。工程模型在具体实现中与证据、目的和方法相连。"
+        "note": "经验与判断参与形成记录、候选解释与检验。"
+      },
+      {
+        "id": "value",
+        "label": "生活价值与明确目的",
+        "focus": [
+          "lived-value",
+          "value",
+          "lived-practice",
+          "realization"
+        ],
+        "note": "明确目标表达目的、代价与取舍；执行成功不确立目的本身的价值。"
+      },
+      {
+        "id": "methods",
+        "label": "实际探究与方法表达",
+        "focus": [
+          "lived-method",
+          "methodology",
+          "lived-practice",
+          "realization"
+        ],
+        "note": "实际探究与协作形成描述、规则、流程与工具。"
       },
       {
         "id": "return",
-        "label": "沿结果返回模型",
+        "label": "具身实践与计算运用",
         "focus": [
+          "lived-practice",
           "realization",
-          "epistemology",
-          "ontology"
+          "physical"
         ],
-        "note": "人与语言模型共同读回结果，修订过程选择、模型和具体实现；双方在整条链中都可以生成与判断。"
+        "note": "人与模型运行安排、解释后果；反馈可以修订表达、实现和实际做法。"
       }
     ]
   },
   "components": [
     {
-      "id": "physical",
-      "type": "cloud",
-      "icon": "none",
-      "label": "物理本体",
-      "sublabel": "火：同一个变化着的自然世界",
-      "pos": [
-        70,
-        50
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "value",
-      "type": "frontend",
-      "icon": "none",
-      "label": "价值",
-      "sublabel": "什么值得追求，为谁而做？",
-      "pos": [
-        355,
-        870
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
       "id": "ontology",
       "type": "frontend",
       "icon": "none",
-      "label": "计算本体论",
-      "sublabel": "工程：事件、状态与转变",
+      "label": "计算本体",
+      "sublabel": "过程本体论：事件、状态与变化",
       "pos": [
-        70,
-        310
+        40,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "过程本体论"
     },
     {
       "id": "epistemology",
       "type": "backend",
       "icon": "none",
-      "label": "认识论",
-      "sublabel": "什么支持视图，何时修订？",
+      "label": "证据、解释与推理",
+      "sublabel": "记录、候选解释、模型与检验",
       "pos": [
-        640,
-        310
+        390,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "认识的表达与组织"
+    },
+    {
+      "id": "value",
+      "type": "frontend",
+      "icon": "none",
+      "label": "目标与评价标准",
+      "sublabel": "明确目的、代价与取舍",
+      "pos": [
+        1090,
+        60
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "价值的表达与组织"
     },
     {
       "id": "methodology",
       "type": "messagebus",
       "icon": "none",
-      "label": "方法论",
-      "sublabel": "怎样组织可持续的工作？",
+      "label": "方法、流程与工具",
+      "sublabel": "描述、规则与操作",
       "pos": [
-        640,
-        630
+        1440,
+        60
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "方法的表达与组织"
     },
     {
       "id": "realization",
       "type": "external",
       "icon": "none",
-      "label": "具体实现",
-      "sublabel": "数据、程序、提示词、工具与接口",
+      "label": "运行、使用与读回",
+      "sublabel": "计算安排的实际运用",
       "pos": [
-        70,
-        630
+        740,
+        260
       ],
       "size": [
-        280,
+        260,
         90
-      ]
+      ],
+      "tag": "计算层的实践"
+    },
+    {
+      "id": "physical",
+      "type": "cloud",
+      "icon": "none",
+      "label": "物理本体",
+      "sublabel": "朴素自然主义 · 当代火一元论",
+      "pos": [
+        40,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "本体论"
+    },
+    {
+      "id": "embodied-knowing",
+      "type": "backend",
+      "icon": "none",
+      "label": "经验、观察与判断",
+      "sublabel": "从具身经验出发的可错探究",
+      "pos": [
+        390,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "认识论"
+    },
+    {
+      "id": "lived-value",
+      "type": "frontend",
+      "icon": "none",
+      "label": "生活中的价值",
+      "sublabel": "个人优先的人本主义",
+      "pos": [
+        1090,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "价值"
+    },
+    {
+      "id": "lived-method",
+      "type": "messagebus",
+      "icon": "none",
+      "label": "实际探究与协作",
+      "sublabel": "相对于问题的多元方法",
+      "pos": [
+        1440,
+        620
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "方法论"
+    },
+    {
+      "id": "lived-practice",
+      "type": "external",
+      "icon": "none",
+      "label": "具身共同实践",
+      "sublabel": "行动与现实后果",
+      "pos": [
+        740,
+        820
+      ],
+      "size": [
+        260,
+        90
+      ],
+      "tag": "人与模型"
     }
   ],
   "connections": [
     {
-      "id": "physical-abstraction",
-      "from": "physical",
-      "to": "ontology",
-      "label": "选取过程与尺度",
+      "id": "model-in-realization",
+      "from": "ontology",
+      "to": "realization",
+      "label": "表征选定关系",
+      "fromSide": "bottom",
+      "toSide": "left",
+      "variant": "emphasis"
+    },
+    {
+      "id": "evidence-in-operation",
+      "from": "epistemology",
+      "to": "realization",
+      "label": "组织根据与检验",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
     },
     {
-      "id": "value-guides-method",
+      "id": "value-in-operation",
       "from": "value",
-      "to": "methodology",
-      "label": "阐明行动目的",
-      "fromSide": "right",
-      "toSide": "bottom",
-      "variant": "emphasis"
-    },
-    {
-      "id": "consequences-inform-value",
-      "from": "realization",
-      "to": "value",
-      "label": "评估生活中的后果",
-      "fromSide": "bottom",
-      "toSide": "left",
-      "variant": "dashed"
-    },
-    {
-      "id": "objects-orient-evidence",
-      "from": "ontology",
-      "to": "epistemology",
-      "label": "确定正在检验什么",
-      "variant": "emphasis"
-    },
-    {
-      "id": "evidence-informs-method",
-      "from": "epistemology",
-      "to": "methodology",
-      "label": "依据参与方法选择",
+      "to": "realization",
+      "label": "明确目标与评价",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
@@ -638,32 +714,106 @@
       "id": "method-in-action",
       "from": "methodology",
       "to": "realization",
-      "label": "组织行动与检查",
+      "label": "组织规则与操作",
+      "fromSide": "bottom",
+      "toSide": "right",
       "variant": "emphasis"
     },
     {
-      "id": "model-in-realization",
-      "from": "ontology",
-      "to": "realization",
-      "label": "实现并使用模型",
+      "id": "ground-in-practice",
+      "from": "physical",
+      "to": "lived-practice",
+      "label": "构成具身活动的基础",
+      "fromSide": "bottom",
+      "toSide": "left",
+      "variant": "emphasis"
+    },
+    {
+      "id": "knowing-in-practice",
+      "from": "embodied-knowing",
+      "to": "lived-practice",
+      "label": "观察并判断",
       "fromSide": "bottom",
       "toSide": "top",
       "variant": "emphasis"
     },
     {
-      "id": "failure-reopens-object",
-      "from": "realization",
+      "id": "value-guides-practice",
+      "from": "lived-value",
+      "to": "lived-practice",
+      "label": "指向值得做的事",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "variant": "emphasis"
+    },
+    {
+      "id": "methods-in-practice",
+      "from": "lived-method",
+      "to": "lived-practice",
+      "label": "组织共同探究",
+      "fromSide": "bottom",
+      "toSide": "right",
+      "variant": "emphasis"
+    },
+    {
+      "id": "physical-abstraction",
+      "from": "physical",
       "to": "ontology",
-      "label": "修订选择与模型",
-      "fromSide": "left",
-      "toSide": "left",
+      "label": "选取与抽象",
+      "fromSide": "top",
+      "toSide": "bottom",
       "variant": "dashed"
     },
     {
-      "id": "result-tests-explanation",
-      "from": "realization",
+      "id": "experience-to-evidence",
+      "from": "embodied-knowing",
       "to": "epistemology",
-      "label": "检验可观察对应",
+      "label": "记录与组织根据",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "value-articulation",
+      "from": "lived-value",
+      "to": "value",
+      "label": "阐明目的与取舍",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "method-articulation",
+      "from": "lived-method",
+      "to": "methodology",
+      "label": "表达与组织方法",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "dashed"
+    },
+    {
+      "id": "physical-realization",
+      "from": "physical",
+      "to": "realization",
+      "label": "物理实现载体与运行",
+      "fromSide": "right",
+      "toSide": "bottom",
+      "variant": "emphasis"
+    },
+    {
+      "id": "practice-operates-arrangement",
+      "from": "lived-practice",
+      "to": "realization",
+      "label": "运行与行动",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "variant": "emphasis"
+    },
+    {
+      "id": "consequences-return",
+      "from": "realization",
+      "to": "lived-practice",
+      "label": "后果与修订",
       "fromSide": "right",
       "toSide": "left",
       "variant": "dashed"
@@ -672,30 +822,56 @@
   "cards": [
     {
       "dot": "cyan",
-      "title": "同一个世界，选定的过程",
+      "title": "两组「四轴＋实践」",
       "items": [
-        "运动的物质、具身生命、心理与社会活动都属于同一个自然世界。哲学、心理学与工程均在其中得到物理实现。",
-        "当代火一元论将对象、主体与关系理解为生成与转化中相对稳定、可修订的模式，不设定字面火焰实体，也不将现代物理主义归于赫拉克利特。",
-        "问题决定选取哪些过程、边界、尺度与相关连续性。对象身份在过程中表示形成、持续与变化；静态视图可在其边界内成立。"
+        "物理层呈现物理本体、具身认识、生活价值、实际方法与共同实践；计算层呈现选定过程、根据、目标、方法及其计算运用。",
+        "四轴追问不同问题，实践使它们进入行动。两层都不是五个执行阶段；计算本体是上方的一个特定节点，不是整个计算层的总称。",
+        "两个层次都是真实的。计算表达、解释与使用具有物理载体和实际运行过程；物理实现不自动保证语义主张准确。"
       ]
     },
     {
       "dot": "violet",
-      "title": "共同活动中的计算表达",
+      "title": "实现、抽象与表达",
       "items": [
-        "这里的工程本体就是对事件、状态、持续对象、关系、约束与转变规则的计算表达，计算机能够表示、检视，或用来模拟相关变化。",
-        "数据、程序、提示词、工具与接口实现并使用模型。由模型解释的自然语言表示也可供计算机使用；仅仅存下文字尚未建立可用的对应关系或模拟。",
-        "人与语言模型共同发现问题、选取过程、构造模型、推理、实现、读回与修订。双方都可以生成和判断；实际贡献随可用模态、经验与能力而变化。发展出的能力可以继续分布于双方及其支持之中。"
+        "物理实现箭头概括使安排可用的整个物质活动：身体、机器、能量、物质记录、解释与执行。它不表示五组语义项目逐项实现。",
+        "四条对应箭头各有作用：抽象选取建模对象，记录组织根据，目标阐明目的与取舍，方法描述组织规则与操作；它们不是还原或自动推导。",
+        "这里的计算本体采用过程本体论：通过事件、状态、持续对象、关系、约束与转移规则，表达选定过程及其变化。模型可理解的清晰语言、数据、程序、提示词、工具与界面提供可用形式。"
       ]
     },
     {
       "dot": "amber",
-      "title": "可观察结果，可修订的问题",
+      "title": "使用、后果与修订",
       "items": [
-        "现实中的可观察变化检验模型的对应关系。结果与目的反馈可促使过程选择、计算表达或具体实现得到修订；执行成功本身不能说明目的值得追求。",
-        "本体、认识、价值与方法是相互交织的问题，而非强制执行阶段。具体实现让它们进入行动；专门 Skill 在各自语境中发展方法。",
-        "选定模型不提供完整世界模拟器，也不自动保证正确性、完整物理还原或求解可行性。过程观不要求每个系统记录所有事件或采用流式架构。"
+        "人与模型共同形成问题、表征、安排与解释。运行安排进入具身活动；现实后果能够修订表达、实现或实际做法。",
+        "模型能够实际运行，仍可能错误表征对象；可执行规则可能不适合问题，评价标准可能遗漏生活中重要的东西。不同主张需要相应的根据。",
+        "当代火一元论以火阐明同一自然世界的生成，不设定字面火焰实体。共同基础不保证完整世界模拟、完整还原或可行的计算。"
       ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "计算层",
+      "wraps": [
+        "ontology",
+        "epistemology",
+        "value",
+        "methodology",
+        "realization"
+      ],
+      "pad": 30
+    },
+    {
+      "kind": "region",
+      "label": "物理层",
+      "wraps": [
+        "physical",
+        "embodied-knowing",
+        "lived-value",
+        "lived-method",
+        "lived-practice"
+      ],
+      "pad": 30
     }
   ]
 }

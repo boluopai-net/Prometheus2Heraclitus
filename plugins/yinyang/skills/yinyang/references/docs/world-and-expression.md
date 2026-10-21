@@ -72,14 +72,14 @@ same object, and which events change its state or end that continuity. A static
 view can legitimately hold selected relations fixed for an inquiry. Its boundary
 belongs within the larger process in which the view is made, used, and revised.
 
-**Engineering ontology here is computational ontology:** an articulation of a
+**Computational ontology here adopts process ontology:** an articulation of a
 selected part of this reality through events, states, persisting objects, relations,
 constraints, and transition rules through which a computer can represent that
 part and, where the question calls for it, simulate relevant changes. The
 participants select question-relevant boundaries, scales, and continuities
-together; the computational model states what those choices mean. This defines
-engineering ontology in this
-framework, rather than reducing all engineering to computing. It carries the
+together; the computational model states what those choices mean. This organizes
+computational description in this framework, rather than reducing all engineering
+to computing. It carries the
 process premise into the model's account of persistence and change instead of
 replacing it with an unrelated inventory of things.
 
@@ -113,6 +113,27 @@ which records and software architecture serve a particular use. The
 [layers diagram](../diagrams/layers.html) presents this connection, and
 [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops its unity across the three
 activities.
+
+The [interactive two-level diagram](../diagrams/layers.html) develops physical
+and computational levels separately, with four axes and their joint practice on
+each. Both levels are real; their ontology nodes are physical ontology and
+computational ontology. Computational ontology organizes objects and relations
+through process ontology; evidence, purposes, methods, and
+execution have further responsibilities. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
+sets out the correspondences, avoiding a split of ontology alone while mixing
+the remaining dimensions into one level.
+
+Three relations need to be understood separately. **Physical realization**
+concerns what makes the whole computational arrangement available and operative:
+bodies and machines, material records, energy, and their processes.
+**Representational correspondence** concerns which aspects of reality an account
+selects and how its objects, evidence, and changes correspond to them.
+**Value and methodological guidance** concerns which purposes should inform goals
+and criteria, and which ways of inquiring fit procedures and tools. Philosophical
+positions are not a program's material carriers. Successful execution cannot
+alone establish accurate representation, worthwhile goals, or methodological
+fit. Realized within the same physical world, the upper arrangement participates
+in and changes its activity through actual use.
 
 ## A bounded computational example: simulating a cooling experiment
 

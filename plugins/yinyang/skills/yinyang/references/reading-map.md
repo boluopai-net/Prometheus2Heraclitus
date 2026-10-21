@@ -101,7 +101,8 @@ When terms such as the Other, the divided subject, retroaction, the three regist
 
 The source guides help investigate a particular premise; they are not another
 general reading requirement. [Philosophical readings](docs/philosophical-readings.md)
-locates Heraclitus, YinYang/Taiji, Hegel, Freud, and Lacan, including the limits
+locates Heraclitus, YinYang/Taiji, Hegel, Wittgenstein, the Buddhist raft passage,
+Freud, and Lacan, including the limits
 of the author's interpretations. [Psychological readings](docs/psychological-readings.md)
 connects process, evidence, psychological theories, belief, reasoning, and
 interaction when an account makes a psychological claim.
@@ -126,8 +127,10 @@ Four diagrams provide visual entrances:
   [中文](diagrams/borrowed-fire.zh-CN.html) · [SVG](diagrams/borrowed-fire.svg)
 - [Shared inquiry](diagrams/encounter.html) makes the participants' connected
   contributions visible. [中文](diagrams/encounter.zh-CN.html) · [SVG](diagrams/encounter.svg)
-- [Understanding and realization](diagrams/layers.html) connects interpretive
-  understanding with methods and their working forms.
+- [Understanding and realization](diagrams/layers.html) connects physical
+  and computational levels through
+  two sets of four axes plus practice. It distinguishes physical realization,
+  representational correspondence, and guidance by value and method.
   [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
 
 The self-contained HTML resources show relations rather than a mandatory
