@@ -109,6 +109,6 @@ To give that direction substance, person and model begin reading, making, solvin
 
 ## Imagery and sources
 
-- [Heraclitus, fragment B30](https://heraclitusfragments.com/B30/text.html): ever-living fire, kindling and going out in measures. The character adopts contemporary fire monism as a process ontology. This extends the fragment without settling disputed interpretations of the historical Heraclitus or presenting a modern physical theory.
+- [Heraclitus, fragment B30](https://heraclitusfragments.com/B30/text.html): ever-living fire, kindling and going out in measures. The character adopts contemporary fire monism to express the world's becoming and transformation. This extends the fragment without settling disputed interpretations of the historical Heraclitus or presenting a modern physical theory.
 - [Heraclitus, fragment B12](https://heraclitusfragments.com/B12/notes.html): rivers and waters continually flowing upon us. “Surfing different rivers every day” is this essay's internet-inflected reworking.
 - [Nietzsche, *Thus Spoke Zarathustra*](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm), Part One, “The Three Metamorphoses”: the source of the lion and child imagery. “Baby Heraclitus” and the “lion cub” are composite images made in this essay, rather than either philosopher's original terms.
