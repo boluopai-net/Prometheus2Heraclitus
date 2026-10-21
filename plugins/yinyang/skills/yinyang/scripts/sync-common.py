@@ -2,7 +2,8 @@
 """Compare or project YinYang's common files between two source packages.
 
 This is a source maintenance command, not a runtime installer or an exporter.
-It never reads or copies the situated slots or the personal reference tree.
+It never reads or copies either private reference tree. Legacy account layouts
+must be migrated by their owner before common projection.
 """
 
 import argparse
@@ -12,14 +13,14 @@ import stat
 import sys
 from pathlib import Path
 
-SITUATED = {
+LEGACY_ACCOUNTS = {
     "references/encounter.md",
     "references/models.md",
     "references/relationship.md",
     "references/sources.md",
     "references/usage.md",
 }
-PERSONAL = "references/personal"
+PRIVATE_TREES = {"references/situated", "references/personal"}
 ORIGIN_PREFIX = "用户自制：".encode()
 
 
@@ -53,11 +54,11 @@ def projected_bytes(relative, original, destination):
 
 
 def situated(path):
-    return path in SITUATED or path == PERSONAL or path.startswith(PERSONAL + "/")
+    return any(path == tree or path.startswith(tree + "/") for tree in PRIVATE_TREES)
 
 
 def common_files(root):
-    """Do not traverse the personal directory, including its links."""
+    """Do not traverse either private directory, including its links."""
     found = {}
 
     def visit(directory):
@@ -82,9 +83,18 @@ def package(value):
     path = Path(value).expanduser().resolve(strict=True)
     if not path.is_dir() or not (path / "SKILL.md").is_file():
         raise ValueError(f"Not a Skill package: {path}")
-    for relative in SITUATED | {PERSONAL + "/README.md"}:
-        if not (path / relative).is_file():
-            raise ValueError(f"Missing situated slot: {relative} in {path}")
+    legacy = sorted(
+        relative for relative in LEGACY_ACCOUNTS
+        if (path / relative).exists() or (path / relative).is_symlink()
+    )
+    if legacy:
+        raise ValueError(
+            "Legacy accounts require owner migration before common projection: "
+            + ", ".join(legacy)
+            + ". Form references/situated/{orientation,person,counterpart,relationship,environment}.md "
+            "and references/personal/sources.md from their actual meaning; preserve unique "
+            "private evidence before retiring the old paths. No files were changed."
+        )
     return path
 
 

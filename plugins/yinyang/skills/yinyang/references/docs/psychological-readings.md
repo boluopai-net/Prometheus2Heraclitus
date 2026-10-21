@@ -2,16 +2,16 @@
 
 [简体中文](psychological-readings.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Engineering readings](engineering-readings.md)
 
-Psychological modeling here begins with a person and counterpart trying to
-understand an actual life and their possible relationship. Prompts, disclosed
-concerns, choices, corrections, and results give them material to analyze and
-synthesize into tentative explanations. Personal records can deepen that work;
-a bibliography supplies concepts and comparisons, not a reliable individual
-portrait. A preference model approached through engineering can already guide arrangements from
-known habits and desired responses. A psychological model asks how experience,
-emotion, desire, interpretation, and relationships connect in context. The
-[formation method](../design-and-revision.md) develops both routes and their
-revision through use.
+The current practice here is [event-stream psychological modeling](../formation/person.md#event-stream-psychological-modeling):
+infer psychological processes from long-term conversation history, everyday
+habits and life materials, and distill a natural-language conceptual account
+with philosophical interpretation. Dialogue leaves history that can be revisited
+in its temporal and situational relations. The person guide owns this method,
+its grounding, and the distinction between language-model statistical generation
+and fitting a psychological statistical model. A preference account can already
+guide an arrangement from known habits and desired responses; explanatory
+modeling develops the further relations the current question needs. The
+[formation method](../design-and-revision.md) connects both routes to actual use.
 
 Self and others have different informational advantages in understanding a
 person, as [Vazire (2010)](https://pubmed.ncbi.nlm.nih.gov/20085401/) shows in
@@ -21,13 +21,15 @@ self-report Big Five measures. This supports a bounded claim about information
 available in dialogue under the study's conditions; developing a psychological
 model of the person requires a broader account and continuing correction.
 
-Quantitative individual models and revisable case formulations provide another
-resource. [Burger et al. (2022)](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
+Quantitative individual models and revisable case formulations offer methods
+for possible future borrowing. The present practice does not adopt their
+estimation procedure. [Burger et al. (2022)](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
 connect personalized case formulation with Bayesian idiographic networks through
 Clinical PREMISE and an OCD case. Such models depend on individual data and
 interpretive judgment, with technical and clinical barriers to their use;
 statistical relations need further evidence to support causal explanations.
 
+The bibliography supplies concepts and comparisons, not a personal portrait.
 Use the readings below to articulate experience, compare psychological
 explanations, and assess them. For experience and cases, enter [psychological
 conflict, relationships, and change](#psychological-conflict-relationships-and-change)

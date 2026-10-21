@@ -18,12 +18,15 @@ owns their realization in an actual environment. [The package guide](references/
 owns common/situated structure and projection. Refer to these owners where a
 document needs their method instead of restating it.
 
-Distributed and situated editions share common content. The five
-`references/{encounter,models,relationship,usage,sources}.md` files and private
-supporting materials have situated substance in an installed personal package;
-the public copies provide writing guidance. `scripts/sync-common.py` preserves
-these private owners. Do not retrieve private portraits merely to maintain
-the public collection, and do not place invented example people in its slots.
+Distributed and situated editions share common content, including permanent
+writing guides under `references/formation/`. A private situated package adds
+the fixed five `references/situated/{orientation,person,counterpart,relationship,environment}.md`
+accounts and its evidence entrance at `references/personal/sources.md`.
+Public distribution contains neither private tree. `scripts/sync-common.py`
+preserves both trees and refuses legacy layouts before writing. Do not retrieve
+private portraits merely to maintain the public collection or invent people
+to populate absent accounts. Other authors can change the structure and philosophy;
+maintenance of this implementation preserves the five-account contract.
 
 ## Edition and publication coherence
 

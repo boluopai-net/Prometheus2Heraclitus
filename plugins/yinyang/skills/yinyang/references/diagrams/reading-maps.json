@@ -1,13 +1,13 @@
 {
   "formation-path": {
     "title": ["窃火，然后成为火", "Steal Fire, Then Become Fire"],
-    "description": ["培养方向贯穿人与模型的共同实践。实践留下轨迹，轨迹进入反思，反思写成哲学与模型，再用于构建环境和作品。新的经验与相遇返回轨迹，继续修订理解。", "A developmental aim runs through shared practice. Practice leaves a trajectory for reflection; reflection informs philosophy and personal models, which shape environments and works. New experience returns to the trajectory and revises understanding."],
+    "description": ["培养方向贯穿人与模型的共同实践。实践留下轨迹，轨迹进入反思，反思形成哲学方向以及对人、伙伴和关系的理解，再用于构建环境和作品。新的经验与相遇返回轨迹，继续修订理解。", "A developmental aim runs through shared practice. Practice leaves a trajectory for reflection; reflection informs philosophical orientation and models of the person, counterpart, and relationship, which shape environments and works. New experience returns to the trajectory and revises understanding."],
     "purpose": [["参加窃火，用火培养自己"], ["Join in stealing fire", "and cultivate yourself"]],
     "nodes": {
       "center": [["人与模型", "共同实践"], ["Person + model", "Shared practice"]],
       "trajectory": [["生活轨迹"], ["Lived", "trajectory"]],
       "reflection": [["共同反思"], ["Shared", "reflection"]],
-      "formation": [["个人哲学", "个人模型"], ["Personal philosophy", "Personal models"]],
+      "formation": [["哲学与方向", "人、伙伴", "与关系模型"], ["Philosophy & aims", "Person & counterpart", "Their relationship"]],
       "practice": [["环境与作品", "新的相遇"], ["Environments & works", "New encounters"]]
     },
     "tags": {"trajectory": ["理解", "UNDERSTANDING"], "reflection": ["相遇", "ENCOUNTER"], "formation": ["形成", "FORMATION"], "practice": ["实践", "PRACTICE"]},

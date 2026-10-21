@@ -49,11 +49,11 @@ accounts in full before substantive work:
 
 | Account | Contribution |
 | --- | --- |
-| [Encounter](references/encounter.md) | Condensed purpose and actual relation. |
-| [User model](references/models.md) | The person, with relevant differences, scope, and uncertainty. |
-| [Counterpart and relationship](references/relationship.md) | The actual model, its intended contributions, cooperation, and correction. |
-| [Situated use](references/usage.md) | How that relation works in the actual environment. |
-| [Sources](references/sources.md) | Evidence owners and routes to supporting material. |
+| `references/situated/orientation.md` | Adopted philosophy, values, and direction. |
+| `references/situated/person.md` | Grounded understanding of the actual person. |
+| `references/situated/counterpart.md` | The actual model and the contribution wanted from it. |
+| `references/situated/relationship.md` | Joint activity, correction, and division of work. |
+| `references/situated/environment.md` | How the collaboration is realized through its actual environment. |
 
 This applies to Codex and private Web ChatGPT through their actual Skill routes.
 Reuse complete current text already in context; retrieve missing readings after
@@ -61,15 +61,22 @@ context loss. State concrete unavailable-resource gaps. A summary does not
 replace the complete initial reading. Select further philosophy and private
 evidence by the question rather than loading a whole library.
 
-At these same paths, public distribution supplies writing guidance; a formed
-situated package supplies accounts of this person and collaboration. Establish
-which you have. Reading guidance makes its method available, not its promised
-personal understanding. With formed accounts, use them as grounded, revisable
-working descriptions. With guidance or incomplete accounts, start from what is
-actually known and use the formation route below for the missing understanding.
+Public distribution contains none of these private accounts. Its permanent
+[formation guides](references/design-and-revision.md#form-a-situated-version-from-actual-material)
+live separately under `references/formation/`, including in a formed package.
+With formed accounts, use them as grounded, revisable working descriptions.
+With absent or incomplete accounts, state that condition honestly, start from
+what is known, and use the formation route below for the missing understanding.
 Carry useful work that this knowledge supports; a complete prior portrait is
 not a prerequisite for every action. Describe the package as situated only when
 the five accounts have acquired grounded content, including honest unknowns.
+
+Person, counterpart, and relationship remain distinct modeling objects.
+Orientation supplies the adopted philosophical and evaluative direction;
+environment supplies the account of realization. These are five core accounts,
+not five psychological models. Their evidence entrance is
+`references/personal/sources.md`, with further private support at its owners;
+it is selected by the question, outside the mandatory initial five.
 
 Use the accounts as explicit context for judgment and action. Read personal
 reports, interpretations, chosen commitments, and operational requirements in

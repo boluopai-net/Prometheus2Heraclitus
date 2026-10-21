@@ -31,19 +31,18 @@ with the actual problem and use the relevant reasoning below; neither a new
 philosophy project nor the five situated files is a prerequisite. Maintaining
 this Skill as a whole does call for those grounded accounts and the entrypoint's
 initial reading, because its ordinary operation depends on their connected
-understanding. This reference supplies the common modeling method. In the
-distributed package, the five linked files below elaborate how to write its
-different objects; in a situated edition, those same paths contain the actual
-accounts that the entrypoint reads for collaboration. Guidance about writing an
-account cannot stand in for its grounded content.
+understanding. This reference supplies the common modeling method. Permanent
+public guides under `references/formation/` develop each writing object;
+actual private accounts occupy `references/situated/`. Person, counterpart,
+and relationship remain three modeling objects. Orientation articulates the
+adopted philosophy, values, and direction; environment explains realization.
+The fixed five are complementary accounts, not five psychological models.
+Guidance about writing cannot stand in for grounded content.
 
 Before creating or revising an account, read its complete public writing guide
-identified in the table below, together with the current situated account and
-relevant evidence. Reuse complete current readings already in context. Obtain
-the guide from the unpersonalized shared package: use its recorded canonical
-checkout when accessible, or retrieve the linked public source. Resolve that
-source separately from the situated package. The table's relative account links
-open the actual descriptions after adoption, not the writing guides. Apply the
+identified in the table below, together with the current situated account when
+formed and relevant evidence. Reuse complete current readings already in context.
+The guide remains a common file in both distributed and situated packages. Apply the
 guide to the current purpose and evidence while preserving the account's
 grounded substance. This writing-time reading concerns the affected accounts;
 ordinary collaboration continues to read the actual accounts under the
@@ -51,7 +50,7 @@ entrypoint's existing contract.
 
 ## Write for the actual use
 
-Write the five situated accounts and derived notes under `references/personal/`
+Write the five accounts under `references/situated/` and derived support under `references/personal/`
 as explicit model-facing context and instructions. State the relevant objects,
 relations, evidence, conditions, responsibilities, and consequences in clear
 natural language. Distinguish a reported experience, an interpretation, a chosen
@@ -81,8 +80,10 @@ understand explicit structure or that models cannot understand philosophy.
 ## Form a situated version from actual material
 
 Common philosophy articulates broader objects, relations, values, and ways of
-knowing. The five situated accounts concern this person, counterpart, and actual
-collaboration; private sources support claims about this life in either account.
+knowing. Orientation states what is adopted for this collaboration; person,
+counterpart, and relationship develop the participants and joint activity;
+environment explains their realization. Private sources support situated
+claims across these accounts.
 A coherent philosophy can suggest a personal interpretation, but attributable
 experience and current interaction must support it. Actual work can correct
 both the interpretation and the philosophy.
@@ -93,17 +94,28 @@ environment to change. Availability alone is not a reason to collect material.
 Use relevant authorized sources, retaining identity, temporal scope, and
 consequential uncertainty. Existing originals can stay with their private owners.
 
+## Start from available material and practice
+
 Philosophy, psychology, and engineering contribute different capacities.
 The [The trinity of philosophy, psychology, and engineering](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
 develops their connection. The following are practical starting recommendations,
 not identities, completed stages, or requirements to master three disciplines:
 
-| Available foundation | Useful next contribution |
+| Material or practice already available | Connection still needed and useful next contribution |
 | --- | --- |
-| Psychology and personal material, with little engineering | Develop a usable environment with model assistance; organize relevant evidence, form the coupled accounts, and articulate philosophy. |
-| Philosophy, with little engineering | Develop files, tools, execution, and verification sufficient for practice; compare the philosophy with personal experience to form the accounts. |
-| Engineering and an actual environment | Work from known preferences, or investigate unclear fit through dialogue and psychological modeling; connect either route with philosophical articulation. |
-| Two contributions already available | Develop the missing connection: practical realization, personal grounding, or philosophical articulation. |
+| Articulated philosophy or adopted direction, without a usable model environment or developed personal account | Establish a usable engineering environment with model assistance, then ground an event-stream person account in conversation history and everyday life. |
+| Relevant psychological understanding, conversation history, or life materials, without a usable model environment or articulated philosophy | Establish the environment, organize and develop the grounded person account, then articulate philosophy from the material and understanding. |
+| A working model environment and experience using it, with personal understanding and philosophy still implicit | Usually develop event-stream personal modeling, then philosophical articulation; already known preferences can directly guide useful arrangements while deeper understanding develops. |
+| Articulated philosophy and grounded psychological understanding, without a usable realization | Realize their intended relations through the actual engineering environment. |
+| Articulated philosophy and a working environment, without concrete personal grounding | Use conversation history and everyday life materials for event-stream personal modeling, comparing its understanding with the philosophy and current use. |
+| Grounded psychological understanding and a working environment, without articulated philosophy | Develop the philosophical understanding, values, and direction implicit in the practice. |
+
+These are six entrances to the same connected work, not closed stages or a
+curriculum in three disciplines. Where an engineering environment is missing,
+first make files, retrieval, tools, execution, and verification usable together
+with the model; the person need not first learn to implement everything. Enter
+through what is actually available, develop the missing contribution, and let
+later work revise all three. Their partial formation can overlap.
 
 Where the purpose includes computer-mediated engineering, person and counterpart
 jointly develop the relevant computational articulation and environment: the selected activity,
@@ -121,16 +133,15 @@ direction without claiming to explain the psychological processes behind those
 preferences. An arrangement can also reflect constraint or a default, so its
 presence alone does not reveal what the person wants.
 
-When the fitting arrangement is unclear, person and counterpart can develop a
-tentative psychological model together. Dialogue supplies expressed concerns,
-experiences, choices, and corrections; analysis distinguishes their conditions,
-abduction proposes explanations, and induction looks for patterns across
-encounters. Synthesis connects experience, emotion, desire, interpretation, and
-relationships within the person's life, including enjoyment, aspirations, and
-social participation. Preferences can inform this account,
-but a list of preferences alone does not explain those processes. Personal
-records and actual situations can complement the dialogue; neither the person's
-self-description nor the model's interpretation settles the explanation.
+For explanatory psychological modeling, this project uses
+[event-stream psychological modeling](formation/person.md#event-stream-psychological-modeling):
+long-term conversation history, everyday habits and life materials, and
+philosophy inform a natural-language conceptual account of psychological
+processes. Dialogue leaves history; analysis, abduction, comparison, and further
+interaction make its proposed relations revisable. Preferences contribute
+evidence without alone explaining the processes. This current conceptual method
+is distinct from fitting a statistical model; the person guide owns the
+distinction and possible future use of other methods.
 
 On either route, the developing user model also informs a fitting counterpart
 model and chosen relationship. Distinguish the desired role and priorities from
@@ -175,13 +186,19 @@ under `references/personal/`. The files have complementary writing duties.
 Their public guidance develops these different objects; the situated accounts
 supply the actual understanding:
 
-| Account | What it should make intelligible | Public writing guide |
+| Actual private account | What it should make intelligible | Permanent public writing guide |
 | --- | --- | --- |
-| [Encounter](encounter.md) | The actual purpose, relation, and usable whole. | [How to write an encounter account](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/encounter.md) |
-| [User model](models.md) | Relevant experience, preferences, capacities, development, and uncertainty. | [How to develop a user model](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/models.md) |
-| [Counterpart and relationship](relationship.md) | Its contribution and judgment in relation to that person, including cooperation and correction. | [How to describe the counterpart and relationship](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/relationship.md) |
-| [Situated use](usage.md) | How the relation works through actual resources, contributions, and conditions, including its present gaps. | [How to describe situated use](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/usage.md) |
-| [Sources](sources.md) | What grounds the understanding and where its evidence is maintained. | [How to organize sources and grounds](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/skills/yinyang/references/sources.md) |
+| `situated/orientation.md` | Adopted philosophy, values, and direction, with reasons. | [Articulating orientation](formation/orientation.md) |
+| `situated/person.md` | Relevant experience, preferences, capacities, development, and uncertainty. | [Grounding the person account](formation/person.md) |
+| `situated/counterpart.md` | The actual model, its capabilities, and wanted contribution. | [Describing the counterpart](formation/counterpart.md) |
+| `situated/relationship.md` | Joint activity, correction, and division of work. | [Articulating the relationship](formation/relationship.md) |
+| `situated/environment.md` | Realization through actual resources, actions, and conditions, including present gaps. | [Describing environmental realization](formation/environment.md) |
+
+[Evidence and private owners](formation/sources.md) supports all five. Maintain
+the actual evidence entrance at `references/personal/sources.md`; sources are
+not a core account. Select them by the question rather than adding an archive
+index to ordinary initial reading. Public distribution ships guides alone,
+with no filled or placeholder private accounts.
 
 Consider a fictional example: notes have been saved, but returning to an
 unfinished argument is still difficult. Formation concerns what this difficulty
@@ -196,13 +213,14 @@ and the writing it supports without requiring the person to design a recovery
 workflow first. An accessible note does not by itself settle the other questions.
 
 The public guides explain how to articulate that understanding in different
-accounts. The user model can describe the relevant activity and supported
-interpretation; the relationship account explains the chosen contribution and
-its reasons; the encounter gathers their practical meaning. The situated-use
-guide explains what to describe about resources, routes, contributions, and
-conditions. Its actual situated account would name the current draft, the route
+accounts. The person account describes the activity and supported interpretation;
+the counterpart states wanted contribution in relation to actual capability;
+the relationship explains how that contribution fits with the person's
+participation. Orientation supplies the adopted reason for the work. The
+environment guide develops resources, routes, contributions, and conditions.
+Its actual account would name the current draft, the route
 connecting it to the note, who carries the next contribution, and any gap still
-present. The sources account makes the grounds and their limits recoverable.
+present. The private evidence index makes grounds and their limits recoverable.
 If the chosen support requires changing a continuation instruction or resource
 route, [harness adaptation](harness-adaptation.md#derive-behavior-in-context)
 carries that change through its actual owner and checks what happens. The

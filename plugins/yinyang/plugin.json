@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang",
-  "version": "1.0.44",
-  "description": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams.",
+  "version": "1.1.0",
+  "description": "Form five grounded accounts of orientation, person, counterpart, relationship, and environment. Includes permanent formation guides, philosophical essays, and diagrams.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -17,7 +17,7 @@
         "shortDescription": "Develop your own YinYang",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",
-        "longDescription": "Develop a situated philosophy, user model, agent counterpart, and collaboration from actual material. Includes the complete philosophical essays and diagrams. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "longDescription": "Form five grounded accounts of orientation, person, counterpart, relationship, and environment. Includes permanent formation guides, philosophical essays, and diagrams, with private accounts formed at the recipient's own source. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
         "category": "Education & Research",
         "capabilities": [],
         "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",

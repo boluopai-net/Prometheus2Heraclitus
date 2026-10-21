@@ -21,18 +21,24 @@ philosophy project.
 
 ## Common and situated content
 
-Distributed and situated copies following this implementation share the same
-structure and byte-identical common content. The five fixed paths have the
-same responsibilities in both. Distributed files contain formation guidance;
-situated files contain grounded accounts of the actual person and collaboration.
+Distributed and situated copies share byte-identical common content. Permanent
+writing guides live under `references/formation/`, with complete Chinese editions.
+A private situated version adds the following fixed five accounts; public
+distribution contains neither these files nor placeholder accounts.
 
 | Fixed situated slot | Responsibility |
 | --- | --- |
-| `references/encounter.md` | Condensed usable encounter and purpose. |
-| `references/models.md` | Developed user model, with scope and uncertainty. |
-| `references/relationship.md` | Counterpart model, relationship, cooperation, and correction. |
-| `references/usage.md` | Actual environment use and allocation of work. |
-| `references/sources.md` | Source-owner index and private provenance routes. |
+| `references/situated/orientation.md` | Adopted philosophy, values, and direction. |
+| `references/situated/person.md` | Grounded understanding of the actual person. |
+| `references/situated/counterpart.md` | Actual model and wanted contribution. |
+| `references/situated/relationship.md` | Joint activity, correction, and division of work. |
+| `references/situated/environment.md` | Realization through the actual environment. |
+
+Person, counterpart, and relationship remain three modeling objects. Orientation
+supplies adopted interpretive and evaluative direction; environment explains
+realization. The five are not all psychological models. The
+[formation method](../design-and-revision.md) routes each account to its
+permanent guide, which remains available after adoption.
 
 Adoption requires forming all five accounts from relevant authorized material
 and organizing their necessary private support. The model carries this writing;
@@ -42,14 +48,18 @@ do not constitute a formed version. Check coherence, grounding, reachable
 evidence, and the conversational model's ability to read and use the accounts
 at its actual entrypoint. Later revisions need change only affected content.
 
-`references/personal/` retains useful private supporting material and topical
+`references/personal/sources.md` is the actual private evidence entrance,
+supporting all five accounts rather than becoming another core account.
+The public [evidence guide](../formation/sources.md) supplies its method.
+Further `references/personal/` material retains useful private support and topical
 provenance. Filenames follow actual evidence; there is no universal list or
 required empty companion for every essay. Originals and extended history can
 remain with existing owners, reached through access-bounded references. Keep one
 authored philosophy: a private companion links to its common argument and
 retains the private evidence, rather than reproducing a second theory.
 
-Everything outside those five slots and `references/personal/` is common:
+Everything outside the entire `references/situated/` and `references/personal/`
+trees is common:
 the entrypoint, reader editions, methods, essays, diagrams, reading map,
 administration, scripts, and OpenAI YAML adapter. The shared GitHub package owns
 this content. The [entrypoint](../../SKILL.md) owns initial reading; [design and
@@ -59,8 +69,9 @@ owns environmental realization.
 ## Project common changes
 
 `scripts/sync-common.py` checks common source projection by default. With
-`--apply`, it projects common files into the target, preserving all five
-situated slots and everything under `references/personal/`. It does not infer
+`--apply`, it projects common files into the target, preserving everything under
+both private trees, including additional files and links. It does not traverse
+or inspect their contents. It does not infer
 a person, export private files, or publish to a runtime.
 
 Start a new situated version from a complete shared copy, then form its private
@@ -76,6 +87,16 @@ files and common-path symlinks stop copying; inspect ownership rather than
 silently deleting them. Existing local or private Web owners install and
 publish the projected source, followed by actual-consumer readback.
 
+Earlier packages mixed public guidance and private content at
+`references/{encounter,models,relationship,usage,sources}.md`. The projector
+refuses either package with any of these paths before changing files. Their
+owner first redistributes actual meaning into the five new accounts and private
+evidence index, preserves unique support, and retires the old paths. The old
+encounter can contain orientation and relationship, and the old relationship
+both counterpart and joint activity: a mechanical rename cannot complete this
+semantic migration. Retain any useful private `references/personal/README.md`
+substance at the appropriate private owner; the whole personal tree is protected.
+
 Common parity preserves one recipient-local discovery exception: when the
 target's single-line `SKILL.md` description already begins with `用户自制：`,
 the projector retains that prefix while replacing its substantive wording from
@@ -87,6 +108,9 @@ This parity applies to copies choosing continuing common updates. If you
 replace the philosophy or organization independently, keep that work at its
 own source and maintain its coherent references. Do not project this common
 package over it, even if it retains the five-slot format.
+
+Authors of other works can change the number and organization of accounts and
+the philosophy. The maintained YinYang implementation keeps this fixed five.
 
 ## Personal and public boundaries
 
