@@ -87,7 +87,23 @@ then distinguishes clarifying concepts such as ability or progress from
 proposing a psychological explanation of a person's activity. The two can
 inform one another without a convincing description settling an empirical claim.
 
-## Buddhist reading: grasping a teaching and the raft
+<a id="buddhist-reading-grasping-a-teaching-and-the-raft"></a>
+
+## Buddhist reading: fire, cessation, and crossing
+
+Begin with the [*Fire Sermon*, *Saṃyutta Nikāya* 35.28](https://www.dhammatalks.org/suttas/SN/SN35_28.html)
+and the [*Nibbāna Sutta*, *Saṃyutta Nikāya* 38.1](https://www.dhammatalks.org/suttas/SN/SN38_1.html).
+The former describes senses, consciousness, contact, and feeling as burning
+with passion, aversion, and delusion, then develops dispassion and release.
+The latter identifies nirvana with the ending of those three and points to
+the noble eightfold path. Both links give Ṭhānissaro Bhikkhu's translations.
+
+Ask what is burning and what ceases. How might developing a capability and
+loosening grasping support one another, and why are they not equivalent?
+[Borrowed fire and nirvana](stealing-fire.md#borrowed-fire-and-nirvana) connects
+knowledge and creative capability with examining desire, habit, and self-image.
+Buddhist liberation thus participates in reflection on cultivation's purpose;
+the contrast between these two meanings of fire is this work's construction.
 
 Read the water-snake and raft passages together in the [*Alagaddūpama Sutta*,
 *Majjhima Nikāya* 22](https://www.dhammatalks.org/suttas/MN/MN22.html), translated
@@ -102,12 +118,13 @@ considers whether to keep carrying it. Read the complete movement: what the
 means makes possible, how it is used, and when carrying it becomes an
 unnecessary burden. This gives “letting go” a situation and a purpose.
 
-[The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation) develops a
-comparison with tools, conceptual models, and the little-fire self-image: they
-can contribute to life while remaining revisable. The discourse's liberative
-purpose and this creative-life application are distinct. This is a particular
-Buddhist source for that relation, rather than a claim to summarize Buddhist
-traditions or derive the whole YinYang framework from them.
+The raft connects the preceding question of purpose with means: tools,
+conceptual models, and the little-fire self-image can contribute to life,
+remain revisable, and be released when their work is done. These three discourses
+supply the specific sources for this dialogue. Creative cultivation is the
+work's contemporary development, while nirvana retains the liberative meaning
+stated in the discourses. This reading path leaves room for further inquiry
+rather than summarizing Buddhist traditions.
 
 ## Nietzsche: three metamorphoses and creation
 

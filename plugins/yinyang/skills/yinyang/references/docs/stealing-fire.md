@@ -34,7 +34,7 @@
 
 This essay chooses **reverse alignment** as its purpose: develop understanding, judgment, generation, and action through encounters with generative intelligence. For that purpose, access and finished outputs need to become occasions for participation: offer an intuition, encounter development and criticism, correct it, and generate further. This cultivation receives a character: **the little fire person emphasizes kindling further fire; Baby Heraclitus emphasizes that this creator is still changing too.** Received and generated possibilities can conflict, while desires and judgments change. Cultivation can change what seems worth creating, the habits through which one acts, and the conditions that sustain a life. Creation helps form the participant who will create again.
 
-**Pursuit that consumes a life → collective acquisition → borrowed fire → personal cultivation → continued generation.** The practical necessities in this argument follow from the chosen purpose and finite resources. Relief, ordinary assistance, and completed works are worthwhile uses too; they need not become lessons. Cultivation asks an additional question: how does this encounter change what the person can understand, judge, initiate, and sustain?
+**Pursuit that consumes a life → collective acquisition → borrowed fire → personal cultivation → freer creation and living.** The practical necessities in this argument follow from the chosen purpose and finite resources. Relief, ordinary assistance, and completed works are worthwhile uses too; they need not become lessons. Cultivation asks an additional question: how does this encounter change what the person can understand, judge, initiate, and sustain, and their grasping at capability, achievement, and an image of themselves?
 
 ## Finite life and the wrong pursuit
 
@@ -78,16 +78,51 @@ a chosen project among others; it need not supply the measure of every
 life. Returning to nearby life means attending to the places where meanings
 are used, purposes become concrete, and consequences are borne.
 
-A Buddhist image gives this relation to means another form. In the raft
-simile of *Majjhima Nikāya* 22, a traveler builds and uses a raft to cross
+<a id="borrowed-fire-and-nirvana"></a>
+
+### Borrowed fire and nirvana
+
+Buddhist thought also enters the purpose of cultivation here. Borrowed fire can
+expand understanding and action while intensifying demands to keep up, possess,
+and prove oneself. Increased capacity therefore leaves a question: how might a
+person use it to understand and loosen the grasping through which they suffer?
+Cultivation can change one's relation to the demand to become a particular self,
+allowing creation to contribute to a freer life.
+
+Two meanings of fire need to be distinguished. In the fire-bringing image,
+fire means knowledge, technology, and creative capability. The *Fire Sermon*
+describes the senses, consciousness, contact, and feeling as burning with
+passion, aversion, and delusion [[37]](#source-37). Using the former fire to
+examine and loosen the latter is the connection this essay constructs.
+Acquiring more capability does not automatically end affliction; its use and
+its effects on desire and habit give this connection practical content.
+
+*Saṃyutta Nikāya* 38.1 describes nirvana as the ending of passion, aversion, and
+delusion, and identifies the noble eightfold path as the practice leading to it
+[[38]](#source-38). This liberating direction lets the essay question the purpose
+of cultivation: can development include ceasing to be driven by pursuit,
+self-justification, and attachment to achievement? Nirvana retains its Buddhist
+meaning, distinct from increased ability or temporary relief. This contemporary
+cultivation of creative life enters into dialogue with it without treating
+successful technical collaboration as evidence that nirvana has been realized.
+
+Cultivation and loosening grasping can occur within the same activity. A person
+developing a work with a model may also notice how “every work must prove my
+worth” governs their choices. While revising the work, they can try changing
+that demand and observe how finishing, stopping, and beginning again become
+possible. Freedom need not be postponed until sufficient power is acquired;
+letting go need not await the completion of a perfect self.
+
+The raft simile makes this relation between purpose and means more concrete.
+In *Majjhima Nikāya* 22, a traveler builds and uses a raft to cross
 dangerous water, then leaves it instead of carrying it onward. The discourse
 joins this with the need to grasp a teaching properly [[36]](#source-36).
 The sequence matters: use the means skillfully, cross, then release the burden
 whose work is done. Applied here, a concept, a tool, or a self-description can
 support a real transformation without becoming something one must preserve
-for its own sake. This is a comparison with a particular Buddhist teaching,
-whose liberating purpose differs from this essay's chosen cultivation of
-creative life. The connection lies in reconsidering attachment to the means.
+for its own sake. Tools, self-models, and the image of the little fire person
+can contribute while useful and be revised or released when they no longer fit.
+The relation to means thus returns to the freedom cultivation seeks.
 
 Natural-language psychological and conceptual modeling participates in this
 movement. A person and model can articulate how a wish, a recurring judgment,
@@ -110,6 +145,8 @@ to rest and attend to someone nearby. Borrowing fire then changes one's
 relation to available power: there is enough freedom to use it, revise its
 place, and let a particular use end. The material source of that power
 continues its own history, while its meaning in this life takes shape here.
+The little fire person can keep creating while loosening their grasp on the
+creator's identity; they need not kindle forever to prove their right to exist.
 
 ## Material fire and concentrated capability
 
@@ -499,9 +536,9 @@ must make its conditions clear; neither result defines the whole person.
 3. **Personal cultivation:** access becomes developmental through participation—generating, encountering development and correction, judging, acting, and generating further. Some capacities internalize; others remain reliably supported.
 4. **A formed relationship:** personal and counterpart models give the contributions direction. Literary language, Skills, tools, and works realize and revise that relation in an answering world.
 5. **The little fire person:** Baby Heraclitus names the participant who keeps becoming through this practice, including changes in desire, judgment, habits, and living conditions. Generated material, desires, and judgments can diverge or change; retaining tensions does not make every claim true or every inference valid. Evidence, choices, and action let the movement continue.
-6. **A sustainable fire:** chosen rhythms, useful retained works, and cultivation among willing friends give creation a place in life. Material and social consequences remain part of judging what the fire sustains.
+6. **A sustainable fire:** chosen rhythms, useful retained works, and cultivation among willing friends give creation a place in life. Cultivation also changes grasping at capability, achievement, and self-image, drawing on nirvana's liberating direction to ask how to live more freely. Material and social consequences remain part of judging what the fire sustains.
 
-**Borrow fire to cultivate the capacity to kindle further fire.** Acquisition continues collectively; cultivation happens through a particular person's participation. The little fire person is already part of the world's becoming and already an agent. What develops is a distinctive, revisable capacity to understand, judge, and create within it, together with the freedom to reconsider what deserves that fire. The return to surrounding life gives this development its actual places, relationships, and occasions.
+**Borrow fire to cultivate oneself, letting creation contribute to freedom.** Acquisition continues collectively; cultivation happens through a particular person's participation. The little fire person is already part of the world's becoming and already an agent. What develops is a distinctive, revisable capacity to understand, judge, and create within it, including loosening one's grasp on capacity and identity. Being able to use, create, and also let go changes one's relation to the fire. The return to surrounding life gives this development its actual places, relationships, and occasions.
 
 *Many hands bring fire. A person gives it a place in life, meets what it makes possible, and begins again. What is made returns to change the maker. The fire continues.*
 
@@ -555,6 +592,8 @@ The recent AI material is a selected comparison, not an exhaustive literature re
 
 35. <a id="source-35"></a> Ludwig Wittgenstein, **Philosophical Investigations**, Part I, §§109, 115, 133. [German text](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen). Philosophical clarification, captivity to pictures, and methods compared with therapies; the application to frontier pursuit is this essay's extension.
 36. <a id="source-36"></a> **Alagaddūpama Sutta**, *Majjhima Nikāya* 22, translated by Ṭhānissaro Bhikkhu. [Text](https://www.dhammatalks.org/suttas/MN/MN22.html), water-snake and raft similes. Proper grasp, use for crossing, and release afterward; the creative-life comparison is developed here.
+37. <a id="source-37"></a> **Āditta-pariyāya Sutta** (*Fire Sermon*), *Saṃyutta Nikāya* 35.28, translated by Ṭhānissaro Bhikkhu. [Text](https://www.dhammatalks.org/suttas/SN/SN35_28.html). Senses, consciousness, contact, and feeling burning with passion, aversion, and delusion, and release through dispassion. This essay contrasts that fire with capability rather than identifying them.
+38. <a id="source-38"></a> **Nibbāna Sutta**, *Saṃyutta Nikāya* 38.1, translated by Ṭhānissaro Bhikkhu. [Text](https://www.dhammatalks.org/suttas/SN/SN38_1.html). Nirvana as the ending of passion, aversion, and delusion, with the noble eightfold path; the question about creative cultivation's purpose is this essay's extension.
 
 ### Mythic sources
 
