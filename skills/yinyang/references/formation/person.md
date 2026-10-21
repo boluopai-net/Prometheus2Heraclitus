@@ -63,6 +63,16 @@ nor a parameter-estimation procedure. Formal or statistical methods can be
 borrowed where a future question warrants their data, assumptions, and checks;
 this project-specific method does not define all psychological modeling.
 
+Natural language can express meanings, situations, and relations directly; its
+use need not await a later mathematical replacement. Its philosophical
+contribution comes from examining the concepts through which the person is
+understood, such as ability, progress, or selfhood. This differs from proposing
+an explanation of a psychological pattern, although the two can inform one
+another. Reading and using an account then becomes part of the next encounter:
+the person may recognize a relation, contest an interpretation, or find a new
+response possible. [From personal philosophy to personal models](../docs/metaphor-and-self-revision.md)
+develops this connection between description, clarification, and revision.
+
 Use the relevant authorized portion of available history. Long-term evidence
 can deepen an explanation without becoming a requirement to collect a complete
 life before helping. Preserve attributable originals with their owners and

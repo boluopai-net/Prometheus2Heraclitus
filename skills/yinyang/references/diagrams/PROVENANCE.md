@@ -6,12 +6,15 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
 - **Steal Fire, Then Become Fire** (`formation-path`) places ongoing
   human–model practice at the center of trajectories, reflection, personal
   philosophy and models, and environments and works. The developmental aim
-  gives the whole a direction; new experience returns through the relationships.
+  gives the whole a direction; reflection clarifies the pictures organizing
+  experience, and new experience can revise that direction through the relationships.
   It condenses the five-part argument without reproducing the article directory.
 - **Join in stealing fire, and use it to cultivate yourself** (`borrowed-fire`)
   develops the stealing-fire essay's practical argument under a chosen
   developmental purpose. It separates accumulated works from demonstrated
-  changes in the person's capacities, including reliably supported capacities.
+  changes in the person's capacities, desires, and aims, including reliably
+  supported capacities. Shared practice and the living environment connect
+  those changes to further activity; cultivation can revise what is worth creating.
   The person participates in the collective work rather than appearing only
   as a recipient of its results; the diagram does not require each participant
   to reproduce industrial model production.

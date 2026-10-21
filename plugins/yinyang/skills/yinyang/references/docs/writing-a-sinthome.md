@@ -72,6 +72,23 @@ These carriers are not interchangeable names. YinYang uses a Skill to carry the 
 
 Returning to the opening example, the account of collaboration needs to tell the model that when the user offers an unfinished idea, it should continue investigating and constructing, then deliver an inspectable result. Relevant records must be retrievable, needed tools available, and results presented in a way the user can understand. Realizing these conditions together turns “the model undertakes explicit development” from a wish into an actual division of work.
 
+Clarified understanding can also take form in habits, relationships, and the
+material environment. Suppose a person comes to understand beginning with
+help as an exercise of agency. A readily available workspace, a habit of
+returning to an unfinished object, and an agreement that a counterpart may
+develop a first version can give that understanding practical continuity.
+Each supports a different part of acting; a prompt alone cannot supply them
+all. Which supports matter follows from the person's circumstances and the
+activity they want to sustain.
+
+This connects philosophical clarification with cultivation. Seeing through an
+unhelpful picture can open another response; continuing that response may
+require conditions that make it available amid fatigue, competing demands,
+and other people's purposes. The sinthome names the concrete conjunction of
+understanding and such conditions. Its contribution is encountered in how
+someone attends, judges, responds, and continues living through it. A better
+description becomes part of transformation through its use and consequences.
+
 ## How use changes the arrangement
 
 <a id="articulate-enough-to-work-then-let-working-change-the-articulation"></a>

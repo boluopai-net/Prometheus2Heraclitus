@@ -8,6 +8,7 @@
 <summary>On this page</summary>
 
 - [Finite life and the wrong pursuit](#finite-life-and-the-wrong-pursuit)
+- [From chasing to lived cultivation](#from-chasing-to-lived-cultivation)
 - [Material fire and concentrated capability](#material-fire-and-concentrated-capability)
 - [Reusable capability and recursive accumulation](#reusable-capability-and-recursive-accumulation)
 - [An oracle-like relation and systems that improve](#an-oracle-like-relation-and-systems-that-improve)
@@ -31,7 +32,7 @@
 
 **Do not spend a finite life pursuing an ever-expanding Sun until it burns you up. Borrow its fire, and use it to kindle your own capacity to create.** Model companies, researchers, and the wider collective continue gathering knowledge, training systems, and making capabilities available. A person can draw on that work without repeating the whole industrial acquisition. The question then changes: what can this already acting, understanding person cultivate with the fire they have borrowed?
 
-This essay chooses **reverse alignment** as its purpose: develop understanding, judgment, generation, and action through encounters with generative intelligence. For that purpose, access and finished outputs need to become occasions for participation: offer an intuition, encounter development and criticism, correct it, and generate further. This cultivation receives a character: **the little fire person emphasizes kindling further fire; Baby Heraclitus emphasizes that this creator is still changing too.** Received and generated possibilities can conflict, while desires and judgments change. Creation helps form the participant who will create again.
+This essay chooses **reverse alignment** as its purpose: develop understanding, judgment, generation, and action through encounters with generative intelligence. For that purpose, access and finished outputs need to become occasions for participation: offer an intuition, encounter development and criticism, correct it, and generate further. This cultivation receives a character: **the little fire person emphasizes kindling further fire; Baby Heraclitus emphasizes that this creator is still changing too.** Received and generated possibilities can conflict, while desires and judgments change. Cultivation can change what seems worth creating, the habits through which one acts, and the conditions that sustain a life. Creation helps form the participant who will create again.
 
 **Pursuit that consumes a life → collective acquisition → borrowed fire → personal cultivation → continued generation.** The practical necessities in this argument follow from the chosen purpose and finite resources. Relief, ordinary assistance, and completed works are worthwhile uses too; they need not become lessons. Cultivation asks an additional question: how does this encounter change what the person can understand, judge, initiate, and sustain?
 
@@ -42,6 +43,73 @@ The Sun here images expanding external generative power. Trying personally to re
 The contrast reworks inherited images. In the *Shan Hai Jing*, Kuafu pursues the sun and dies of thirst; in Hesiod's *Theogony*, Prometheus carries stolen fire in a hollow fennel stalk. Their juxtaposition here is contemporary: it distinguishes pursuing overwhelming power from bringing usable fire into life. [Mythic sources below](#mythic-sources).
 
 A supposedly definitive prompt can become another form of pursuit when endlessly repairing it to match an external ideal displaces what the collaboration was meant to serve. Technical inquiry, precise specifications, and model updates remain useful when they contribute to that purpose. The issue is where the person's life goes: into keeping pace for its own sake, or into a practice that the available power can sustain.
+
+<a id="from-chasing-to-lived-cultivation"></a>
+
+## From chasing to lived cultivation
+
+Pursuit can hold a person through an image of what would finally make life
+possible: the pure frontier, the ultimate principle, the complete system after
+which one could at last begin. Each advance then appears to postpone the
+beginning once more. The difficulty concerns how a picture organizes desire
+and attention. An increase in what technology can do becomes a demand about
+what this person must do; an unfinished account of the world becomes a reason
+to suspend living in it. Neither demand follows from the advance or the
+incompleteness alone.
+
+Wittgenstein offers a way to examine such captivity. In *Philosophical
+Investigations*, §109 addresses philosophical confusion through attention to
+language; §115 describes captivity to a picture embedded in language; §133
+compares philosophical methods with therapies and connects clarification with
+being able to stop philosophizing [[35]](#source-35). Drawing on this approach,
+the present essay asks what happens when a picture of progress becomes a
+personal obligation. That practical question is our extension. It lets us
+examine how words such as “advanced,” “complete,” and “capable” acquire their
+authority over a life.
+
+Someone may say, “Until I have mastered the newest system, my own work does
+not count.” A comparison can uncover what this sentence joins together:
+competence for a particular task, recognition by others, and permission to
+value one's own activity. These have different conditions. A new model may
+solve a formerly difficult problem while leaving a friendship, a cherished
+question, or the pleasure of making something no less real. Clarification
+opens a choice that the picture had concealed. Frontier research can become
+a chosen project among others; it need not supply the measure of every
+life. Returning to nearby life means attending to the places where meanings
+are used, purposes become concrete, and consequences are borne.
+
+A Buddhist image gives this relation to means another form. In the raft
+simile of *Majjhima Nikāya* 22, a traveler builds and uses a raft to cross
+dangerous water, then leaves it instead of carrying it onward. The discourse
+joins this with the need to grasp a teaching properly [[36]](#source-36).
+The sequence matters: use the means skillfully, cross, then release the burden
+whose work is done. Applied here, a concept, a tool, or a self-description can
+support a real transformation without becoming something one must preserve
+for its own sake. This is a comparison with a particular Buddhist teaching,
+whose liberating purpose differs from this essay's chosen cultivation of
+creative life. The connection lies in reconsidering attachment to the means.
+
+Natural-language psychological and conceptual modeling participates in this
+movement. A person and model can articulate how a wish, a recurring judgment,
+a habit, and an environment sustain one another. Making these relations
+readable gives both participants something to question and use: a description
+of “falling behind” may reveal a desired skill, an imposed comparison, or an
+exhausting demand that calls for changed working conditions. Reading and
+revising the account can alter what the person notices and asks for; the
+counterpart can help realize a different arrangement. Its effects return to
+correct the description. Conceptual clarification and practical change thus
+meet without treating every difficulty as a confusion that language alone
+can remove.
+
+The little fire person belongs within this revision too. If “keep kindling”
+becomes a command to produce ever more, the character has taken over the
+Sun's old demand. The image serves cultivation while it helps a person choose
+and sustain worthwhile activity. Becoming can include a changed desire,
+more discerning judgment, a gentler habit, the completion of a work, or room
+to rest and attend to someone nearby. Borrowing fire then changes one's
+relation to available power: there is enough freedom to use it, revise its
+place, and let a particular use end. The material source of that power
+continues its own history, while its meaning in this life takes shape here.
 
 ## Material fire and concentrated capability
 
@@ -426,14 +494,14 @@ must make its conditions clear; neither result defines the whole person.
 
 ## The argument in compact form
 
-1. **Finite life and chosen purpose:** cultivating understanding, judgment, generation, and action gives a reason to resist pursuit that consumes the life it was meant to serve.
+1. **Finite life and chosen purpose:** cultivating understanding, judgment, generation, and action gives a reason to resist pursuit that consumes the life it was meant to serve. Examining the pictures that organize pursuit can reopen what seems worth wanting and doing.
 2. **Collective acquisition:** model companies, researchers, and the wider collective continue making capabilities available. The person can borrow that fire without repeating its entire industrial production.
 3. **Personal cultivation:** access becomes developmental through participation—generating, encountering development and correction, judging, acting, and generating further. Some capacities internalize; others remain reliably supported.
 4. **A formed relationship:** personal and counterpart models give the contributions direction. Literary language, Skills, tools, and works realize and revise that relation in an answering world.
-5. **The little fire person:** Baby Heraclitus names the participant who keeps becoming through this practice. Generated material, desires, and judgments can diverge or change; retaining tensions does not make every claim true or every inference valid. Evidence, choices, and action let the movement continue.
+5. **The little fire person:** Baby Heraclitus names the participant who keeps becoming through this practice, including changes in desire, judgment, habits, and living conditions. Generated material, desires, and judgments can diverge or change; retaining tensions does not make every claim true or every inference valid. Evidence, choices, and action let the movement continue.
 6. **A sustainable fire:** chosen rhythms, useful retained works, and cultivation among willing friends give creation a place in life. Material and social consequences remain part of judging what the fire sustains.
 
-**Borrow fire to cultivate the capacity to kindle further fire.** Acquisition continues collectively; cultivation happens through a particular person's participation. The little fire person is already part of the world's becoming and already an agent. What develops is a distinctive, revisable capacity to understand, judge, and create within it.
+**Borrow fire to cultivate the capacity to kindle further fire.** Acquisition continues collectively; cultivation happens through a particular person's participation. The little fire person is already part of the world's becoming and already an agent. What develops is a distinctive, revisable capacity to understand, judge, and create within it, together with the freedom to reconsider what deserves that fire. The return to surrounding life gives this development its actual places, relationships, and occasions.
 
 *Many hands bring fire. A person gives it a place in life, meets what it makes possible, and begins again. What is made returns to change the maker. The fire continues.*
 
@@ -484,6 +552,9 @@ The recent AI material is a selected comparison, not an exhaustive literature re
 33. <a id="source-33"></a> Joel Becker, Nate Rush, Beth Barnes, and David Rein / METR (10 July 2025), **Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity**, [study and limitations](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/); METR (24 February 2026), **We are Changing our Developer Productivity Experiment Design**, [follow-up](https://metr.org/blog/2026-02-24-uplift-update/). A bounded early-2025 slowdown and later selection and measurement difficulties; neither establishes the effect of every subsequent model or workflow.
 
 34. <a id="source-34"></a> Andrej Karpathy (11 October 2026), **The widening gap in shared understanding of LLM capability**, [X post](https://x.com/karpathy/status/2109361546505966046), revisiting his [9 April post](https://x.com/karpathy/status/2042334451611693415); [full-text mirror](https://api.fxtwitter.com/karpathy/status/2109361546505966046). X's syndication metadata confirms the author, timestamp, opening, and quoted April post; the complete October text was checked through the mirror and contemporaneous reproductions. The roughly 20 million figure is the author's informal estimate of professional frontier-model experience in math and code, not a survey of global proficiency. Task ambition, domain, and access organize his account; this essay develops their relevance to cultivation without treating all reported capability claims as established results.
+
+35. <a id="source-35"></a> Ludwig Wittgenstein, **Philosophical Investigations**, Part I, §§109, 115, 133. [German text](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen). Philosophical clarification, captivity to pictures, and methods compared with therapies; the application to frontier pursuit is this essay's extension.
+36. <a id="source-36"></a> **Alagaddūpama Sutta**, *Majjhima Nikāya* 22, translated by Ṭhānissaro Bhikkhu. [Text](https://www.dhammatalks.org/suttas/MN/MN22.html), water-snake and raft similes. Proper grasp, use for crossing, and release afterward; the creative-life comparison is developed here.
 
 ### Mythic sources
 

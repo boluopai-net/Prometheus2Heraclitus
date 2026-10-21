@@ -65,6 +65,23 @@ locates absolute spirit relative to subjective and objective spirit and develops
 art within that account. [World, process, and expression](world-and-expression.md)
 keeps these categories distinct from generic stages of a feedback loop.
 
+## Wittgenstein and the Buddhist raft: clarification and the use of means
+
+Wittgenstein's [*Philosophical Investigations*, §§109, 115, and 133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
+connects philosophical description, captivity within a picture, and a plurality
+of methods compared to therapies. Read these remarks as an account of
+philosophical difficulty; the move from compulsory pursuit of the frontier to
+surrounding life is this collection's application. [The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation)
+develops that move, while [personal modeling](metaphor-and-self-revision.md)
+distinguishes conceptual clarification from candidate psychological explanation.
+
+The Buddhist [*Alagaddūpama Sutta*, MN 22, raft simile](https://www.dhammatalks.org/suttas/MN/MN22.html)
+compares teaching to a means of crossing: it is used to make the crossing and
+released after its purpose is served. This specific passage supports the fire
+essay's comparison with revisable tools, models, and self-images. The original
+liberative purpose and this contemporary cultivation project remain distinct;
+the passage does not by itself identify the whole project with Buddhism.
+
 ## Nietzsche: three metamorphoses and creation
 
 Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of person do we want to cultivate? — Baby Heraclitus](https://boluopai.net/philosophy/baby-heraclitus/en/) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.

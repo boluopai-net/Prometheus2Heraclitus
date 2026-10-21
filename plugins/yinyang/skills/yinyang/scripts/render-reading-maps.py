@@ -105,7 +105,7 @@ def formation(d, lang, mobile, p):
     ]:
         drawn += circle(x, y, r)
         drawn += text(x, y - r + 28, d["tags"][n][lang], 14 if lang else 18, "muted")
-        size = 18 if lang and n in ["formation", "practice"] else 24 if mobile else 26
+        size = 18 if lang and n in ["reflection", "formation", "practice"] else 24 if mobile else 26
         drawn += text(x, y + 10, nodes[n][lang], size, "water", 500)
     drawn += circle(cx, cy, cr, "paper", "water") + text(
         cx, cy, nodes["center"][lang], 22 if lang or mobile else 27, "ink", 500
@@ -189,7 +189,7 @@ def cultivation(d, lang, mobile, p):
     drawn += text(wx, wy, n["works"][lang], 20 if lang else 27, "water", 500)
     drawn += "".join(labs)
     note = (
-        ["Accumulated works are not the same", "as personal development."]
+        ["Cultivation also changes", "what we find worth creating."]
         if mobile and lang
         else d["note"][lang]
     )

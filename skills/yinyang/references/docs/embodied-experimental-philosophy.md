@@ -70,6 +70,29 @@ examine cases where the candidate explanations predict different outcomes.
 A valid derivation unfolds premises; experience helps judge their fit to the
 phenomenon. Either the explanation or the way it was examined can need revision.
 
+## When a self-description becomes part of the event
+
+A revisable prose psychological model brings another involvement into view.
+Suppose someone reads an account connecting their difficulty beginning with
+fear of evaluation. Recognizing the account, resisting it, or trying to act
+through it can each change what happens next. An apparent confirmation may
+partly reflect the attention the description directs; a changed response may
+reveal a possibility it helped open. Inquiry therefore considers what the
+account said, how it was received, what arrangement followed, and what actually
+happened. Those relations help distinguish an earlier pattern from a pattern
+partly formed through describing it.
+
+Philosophical and psychological questions remain connected here. Clarifying
+that supported action can count as one's own changes a criterion of agency.
+Whether a particular support reduces hesitation or permits sustained activity
+is a question about its actual effects. The person may accept the distinction
+yet find the support exhausting, or use the support successfully while
+rejecting the proposed explanation of their hesitation. These differences
+give revision a direction: reconsider the picture of agency, the psychological
+interpretation, or the arrangement according to what the encounter reveals.
+The life affected by the account keeps contributing evidence and objections
+that its initial prose could not anticipate.
+
 ## Two connected loops
 
 A **practice loop** connects a situated proposal, its realization, participation,
