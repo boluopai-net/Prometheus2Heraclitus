@@ -19,14 +19,14 @@ provide the wider context for logos beyond an individual speaker.
 [Daniel W. Graham's scholarly account](https://plato.stanford.edu/entries/heraclitus/),
 especially sections 3–4, explains disputed readings of fire, unity, and opposition.
 
-The [stealing-fire essay](stealing-fire.md) develops this lineage into interacting
-event streams. It does not attribute a modern computational ontology or formal
+The [stealing-fire essay](stealing-fire.md) draws on this lineage to understand
+persistence and change, organizing activity histories as event streams. It does not attribute a modern computational ontology or formal
 calculus to Heraclitus. Whether the historical Heraclitus was a fire monist
-remains disputed. YinYang deliberately adopts a contemporary fire monism as
-its process ontology: one changing natural world, with relatively stable
-patterns within becoming. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
-connects that commitment with naturalism, shared physical realization, and
-computational abstraction; B30 does not establish a modern physical theory.
+remains disputed. YinYang adopts contemporary fire monism to express the world's
+becoming and transformation; computational ontology constructs process representations
+through objects, events, states, and relations. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
+connects that understanding with naturalism, shared physical realization, and
+computational representation; B30 does not establish a modern physical theory.
 [Paraconsistent Logic](https://plato.stanford.edu/entries/logic-paraconsistent/)
 explains non-explosive consequence and its difference from dialetheism: tolerating
 inconsistent information need not declare contradictions true.

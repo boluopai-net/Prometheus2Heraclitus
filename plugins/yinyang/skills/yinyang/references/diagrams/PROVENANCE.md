@@ -21,7 +21,10 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
 
 - **How people and models inquire together** (`encounter`) connects YY-05, YY-10, and YY-11: records, candidate models,
   an adopted view, generated work, and returning evidence within human–model
-  activity. YY-09 supplies its event-based vocabulary.
+  activity. Activity and interaction histories are event streams; records
+  preserve selected parts, while conceptual participant models are inferred
+  from histories and other material. The participants themselves are not
+  identified with those streams. YY-09 supplies its event-based vocabulary.
 - **From understanding the world to realizing a practice** (`layers`) develops
   YY-09 in two visible levels, each with six dimensions surrounding shared
   practice: worldview, ontology, truth, knowing, value, and method. The physical

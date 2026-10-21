@@ -22,7 +22,7 @@ offers this practice of creation and modeling, beyond replacing a ready-made con
 **This collection centers modeling, rather than providing a memory system.**
 Its YinYang package begins with a particular person: philosophical, psychological,
 and preference material grounds a dynamic user model. Its current
-[event-stream psychological modeling](skills/yinyang/references/formation/person.md#event-stream-psychological-modeling)
+[psychological modeling from event history](skills/yinyang/references/formation/person.md#event-stream-psychological-modeling)
 distills long-term conversation history and everyday life with philosophy into
 a natural-language conceptual account, from which a corresponding
 agent model and relationship are formed. Their work enters the world, and its

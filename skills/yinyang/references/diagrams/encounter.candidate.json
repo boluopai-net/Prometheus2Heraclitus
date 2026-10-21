@@ -2,7 +2,7 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Event streams and revisable views · YY-05 / YY-10 / YY-11",
+    "title": "Activity histories and revisable views · YY-05 / YY-10 / YY-11",
     "output": "diagrams/encounter.html",
     "locale": "en",
     "quality_profile": "showcase",
@@ -497,7 +497,7 @@
           "source",
           "evidence"
         ],
-        "note": "Both human and model are modeled as event streams. Expression, interpretation and action connect them; contributions can change."
+        "note": "Both generate, interpret and judge. Their activity histories are event streams; participant models are conceptual representations."
       }
     ]
   },
@@ -581,7 +581,7 @@
       "id": "positions",
       "type": "cloud",
       "icon": "none",
-      "label": "Human ↔ model event streams",
+      "label": "Person ↔ language model",
       "sublabel": "Both generate, interpret and judge",
       "pos": [
         60,
@@ -660,9 +660,10 @@
   "cards": [
     {
       "dot": "cyan",
-      "title": "Both participants are event streams",
+      "title": "Histories inform participant models",
       "items": [
-        "Perception, expression, interpretation and action continue through temporal, causal and interpretive relations. Local views form and change within the streams.",
+        "Activity and interaction histories are event streams, connecting perception, expression, interpretation and action through temporal, causal and interpretive relations. Records preserve selected parts of those histories.",
+        "Models of the person and counterpart are conceptual representations inferred from histories and other material. They organize selected features and relations; they do not equate either participant with an event stream. Local views remain revisable.",
         "Leaving a claim out of the adopted view can preserve its source and interpretation; a relation may be felt before it is explicitly formulated."
       ]
     },

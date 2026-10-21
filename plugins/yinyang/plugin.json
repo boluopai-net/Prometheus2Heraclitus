@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Form five grounded accounts of orientation, person, counterpart, relationship, and environment. Includes permanent formation guides, philosophical essays, and diagrams.",
   "author": {
     "name": "boluopai",
