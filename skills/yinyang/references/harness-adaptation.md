@@ -26,7 +26,9 @@ computer, named tools, or personal arrangement.
 
 ## Relation to authoring and management methods
 
-YinYang owns the particular ontology, epistemology, and purpose being expressed.
+YinYang owns the situated understanding and purpose being expressed, including
+its ontological and epistemic distinctions. Its formation and adaptation methods
+connect that understanding with actual cooperation and environment design.
 Specialist methods own how a capability is researched, taught, written,
 implemented, or maintained. Where available, `prompt-and-skill-lifecycle`
 supplies the connected method for authoring, reviewing, packaging, publishing,

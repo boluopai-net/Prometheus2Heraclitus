@@ -87,6 +87,8 @@ articulate an orientation, not a completed universal system:
 
 These four axes use the same distinctions as [Core view YY-09](core-views.md#yy-09). Value articulates what is worth pursuing; an ontological description, factual judgment, or effective method cannot simply replace it. **Practice** brings all four into action and encounters their consequences. A diagram may give practice a fifth node to show this connection without making it a fifth philosophical position of the same kind.
 
+<a id="physical-and-computational-levels"></a>
+
 These questions also need to be developed separately at physical and computational
 levels. The physical level concerns embodied activity and its material conditions;
 the computational level concerns usable objects, relations, and organization of

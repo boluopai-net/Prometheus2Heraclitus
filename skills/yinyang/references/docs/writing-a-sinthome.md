@@ -116,9 +116,11 @@ understanding, and engineering can each contribute at several points in that
 movement. Use can revise an earlier understanding while preserving this
 distinction between what contributes and how the arrangement comes to be.
 
-This essay uses the ring image within that individual instance. Three rings represent the three contributions; a fourth represents the sinthome they jointly form. It marks precisely the person, counterpart, and relationship models, expression, tools, and relations of use already described. This arrangement can in turn affect the person's thought, experience, and technical environment, so formation and feedback need to be represented together.
+The rings make a holding relation visible. In the French transcription of *Seminar XXIII*, [18 November 1975, p. 14](https://lutecium.org/mirror/www.valas.fr/IMG/pdf/s23_le_sinthome.pdf#page=14), Lacan introduces the sinthome as a fourth term tying the Real, Imaginary, and Symbolic together. This essay borrows that tying function to examine how philosophy, psychology, and engineering remain connected for the author.
 
-[Three Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) are linked together although no pair is linked on its own. This essay draws on their image of interdependence; the concrete processes above still explain the dependencies within personal practice. The fourth ring turns neither shared physical reality nor the whole life into an additional object, nor does adding a ring alone establish a mathematical model of this practice.
+He writes his philosophy as a website so it can be read, recognized, and revised; keeps relevant content and methods on GitHub so they can be maintained; and gives the model an understanding of person, counterpart, and relationship so it can configure and use the actual environment. The sinthome is this concretely embodied way of writing, maintaining, and using things. The fourth ring marks its holding function: judgments on the website enter local work, while encounters in that work can affect personal understanding, source material, and realization.
+
+The [three Borromean rings](https://www.mi.sanu.ac.rs/vismath/bor/bor2.htm) supply an image of interdependence; the fourth turns attention toward this person's particular way of tying things together. Its meaning lies in actual relations: which writings let cooperation continue, which tools make a wish realizable, and which uses keep thought connected with life. These relations can be reorganized as the person and environment change.
 
 ## Act with models and develop through creation
 

@@ -15,10 +15,12 @@ the argument relevant to a change.
 ## Source and consumer roles
 
 This package is one member of Prometheus2Heraclitus. Other Skills retain their
-own purposes and methods. Within this example, YinYang primarily supplies
-ontology, epistemology, and an articulated value orientation; specialist Skills
-supply domain methods. These contributions overlap in actual work without
-making YinYang the procedural owner of every task.
+own purposes and methods. YinYang articulates the author's worldview and life
+direction, develops situated understanding of the participants and their
+relationship, and supplies methods for forming accounts and adapting environments.
+Its ontological and epistemic distinctions can be borrowed beyond this personal
+philosophy. Specialist Skills contribute domain knowledge and procedures;
+YinYang's own methods connect the personal understanding with their actual use.
 
 Keep the following uses of writing distinct:
 
