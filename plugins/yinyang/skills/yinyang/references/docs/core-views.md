@@ -25,7 +25,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
-- [YY-09 · Distinguish ontology, epistemology, value, and methodology](#yy-09)
+- [YY-09 · Connect worldview, ontology, truth, knowing, value, and method](#yy-09)
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
@@ -45,14 +45,15 @@ use this English edition.
 
 The author chooses a foundation developed from [Heraclitean fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30),
 becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_51).
-This contemporary process ontology is distinguishable from disputed historical
-interpretations of Heraclitus's fire monism and treatment of contradiction.
-Person and model are understood as interacting event streams: continuations
-of sensing, expression, interpretation, and action that generate and revise
-local views. This process ontology also grounds the engineering account:
-question-relative models make selected continuities and changes representable
-in a computer and open to simulation where useful. This does not establish identical mechanisms
-or a complete reduction of experience. [Stealing fire and cultivating creative capacity](stealing-fire.md#from-living-fire-to-interacting-event-streams)
+This contemporary use is distinguishable from disputed historical interpretations
+of Heraclitus's fire monism and treatment of contradiction. The physicalist
+position locates participants and their activities in one natural world.
+Computational ontology constructs representations of selected objects and
+relations; a process ontology organizes events, states, persistence, and change
+within that representation. Histories of sensing, expression, interpretation,
+and action can be organized as event streams. Models of the participants are
+conceptual accounts developed from such histories and other material, rather
+than the histories themselves. [Stealing fire and cultivating creative capacity](stealing-fire.md#from-living-fire-to-interacting-event-streams)
 develops the foundation; [Forming a life trajectory](flow-and-time.md) develops its
 continuity. [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) gives their differentiated,
 changing contributions an image. Participants exceed their roles, and an open
@@ -121,7 +122,7 @@ and work, can guide an account of the model counterpart. Both accounts develop
 through interaction. Other participants' purposes matter where a shared task
 depends on them; their accounts remain partial and revisable too.
 
-In this project's [event-stream psychological-modeling route](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and everyday life materials ground a natural-language conceptual account. Philosophy and engineering together form
+In this project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and everyday life materials ground a natural-language conceptual account. Philosophy and engineering together form
 an understanding of the user's intentional orientation, experience, and
 relationships, which guides the counterpart's contribution and personal
 environment. The aim is a better-grounded initial design with less blind trial
@@ -286,20 +287,18 @@ model or local arrangement is superior.
 
 <a id="yy-09"></a>
 
-## YY-09 · Distinguish ontology, epistemology, value, and methodology
+## YY-09 · Connect worldview, ontology, truth, knowing, value, and method
 
-Modest naturalism names the framework's worldly scope; contemporary fire
-monism chooses a process ontology for its dynamic unity. Philosophy, psychology,
-and engineering are physically realized within this one reality. Here engineering
-ontology is its question-relative computational articulation: events, states,
-persisting objects, relations, constraints, and transition rules through which
-a computer can represent a selected part and simulate relevant changes where
-needed. Object identity and stable views are bounded within this continuity.
-Usable representation connects these distinctions to actual computer consumers
-and observations; naming them in a file is insufficient. Natural-language
-interpretation or executable rules can realize different uses. Shared grounding
-does not itself supply detailed reduction or feasible calculation. Useful
-abstraction weighs its distinctions against their assumptions and costs.
+The framework adopts a naturalist worldview, a physicalist ground, correspondence
+truth for claims about reality, fallible embodied inquiry, personal-first
+humanism, and question-relative pluralism of method. Contemporary fire monism
+expresses the world's becoming and transformation. Computational ontology is
+a representation constructed for the question: its objects, events, states,
+relations, constraints, and transitions give a process ontology usable form.
+It can describe actual activity, develop hypotheses, or organize imagined
+beings and situations. A person's imagining belongs to their actual activity;
+its content acquires meaning within the represented belief, story, or design.
+Natural-language concepts and executable rules support different uses.
 
 Person and language model develop and use this articulation together. Their
 division of recognition, explicit reasoning, construction, and assessment runs
@@ -309,20 +308,27 @@ shape contributions without requiring the person to internalize them all.
 
 | Dimension | Physical level | Computational level |
 | --- | --- | --- |
-| Ontology | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology organize objects, events, states, relations, and transitions through process ontology? |
+| Worldview | How do persons, machines, and their activities belong to one changing natural world? | What overall world picture organizes the selected actual, possible, or imagined domain? |
+| Ontology | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology represent objects, events, states, relations, and transitions through process ontology? |
+| Truth | What actually obtains concerning the objects, events, and relations in question? | What holds under the interpretation, what follows from the premises, and how do world-directed claims correspond to facts? |
 | Knowing | What warrants actual judgment, and when should it change? | How are evidence, candidate explanations, inference, and tests organized? |
 | Value | What is worth pursuing, for whom, and at whose cost? | How are goals, criteria, constraints, and tradeoffs expressed? |
 | Method | How are inquiry and collaboration actually conducted? | How do descriptions, procedures, tools, and rules support that activity? |
 
-Both sets concern reality, with distinct responsibilities and a need for correspondence. Computational
-ontology supplies the computational account of objects and processes; the whole computational
-arrangement also includes evidence, goal assessment, methods, and use. YinYang
-develops philosophical understanding and working articulation of these questions;
-specialist Skills supply their methods. Practice brings the four axes into action:
-physical-level embodied activity and consequences correspond to running, using, and reading back
-computational arrangements. Each level may therefore have five diagram nodes,
-four axes plus practice, without making practice a fifth philosophical position
-of the same kind.
+The six dimensions connect through practice. Computational ontology supplies
+the represented objects and processes; the computational arrangement also
+organizes evidence, goals, methods, and use. YinYang develops their philosophical
+understanding and working articulation; specialist Skills supply their methods.
+The diagram therefore presents six dimensions plus practice at each level:
+embodied activity and consequences connect with running, using, and reading
+back computational arrangements.
+
+Correspondence concerns whether a world-directed claim accords with the facts.
+Truth within a model depends on its interpretation; valid inference concerns
+what follows from premises under the adopted rules. Evidence gives grounds
+for accepting or revising a judgment. People and language models can participate
+in all these activities. A model used to describe reality needs the connection
+between its assumptions, represented objects, and actual conditions to be examined.
 
 Bodies, machines, and material processes realize the computational arrangement;
 selection, expression, and organization across its dimensions need their own
@@ -335,25 +341,25 @@ what must persist distinguishes the argument, its record, and the people using
 it; asking why it was lost calls for evidence about the interruption and return.
 Whether uninterrupted work is desirable, and whose effort should maintain it,
 are value questions. Choosing retrieval, a handoff, or a changed interface is
-methodological work. One repair can engage all four without letting the wish
-for continuity prove the explanation of the failure.
+methodological work. The shared world picture places these contributions in
+one practice; a factual claim that the argument was retained must correspond
+to what actually remains available. One repair can engage all six dimensions.
 
-In process modeling, distinguish actual interaction, its partial event records,
-and candidate computational representations. Hypothesis formation, deduction,
-and empirical comparison develop and test these models; they do not define what
-makes the ontology computational. Compare consequences with further interaction
-and revise the model, its selection, or its realization where the mismatch lies.
-Chronology alone establishes no cause; revising a representation
-differs from changing the participant. Human and AI activity may share an
-agent-level representation while differing in state, update rules, and
-realization. This is a research orientation requiring empirical support,
-not an established universal cognitive mechanism.
+In process modeling, distinguish participants, their histories of activity,
+partial event records, and conceptual models developed from that material.
+An event stream organizes history. A person or counterpart model interprets
+relations among experience, purposes, conditions, and action; it can be expressed
+in natural language. Hypothesis formation, deduction, and empirical comparison
+develop and test the account. Compare consequences with further interaction
+and revise the interpretation, selection, or realization where a mismatch lies.
+Chronology alone establishes no cause, and revising a representation differs
+from changing the participant.
 
 [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
-develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-explains the four dimensions, and [The trinity of philosophy, psychology, and engineering](local-source-and-website.md)
+develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
+explains the six dimensions, and [The trinity of philosophy, psychology, and engineering](local-source-and-website.md)
 connects philosophy, psychology, and engineering within one physical reality
 to their practical forms.
 

@@ -52,9 +52,10 @@ literary character in an instruction. Either expression can revise the other
 through use. The [writing method](../design-and-revision.md#write-for-the-actual-use)
 develops this distinction for the five accounts and private supporting notes.
 
-The project's [event-stream psychological modeling](../formation/person.md#event-stream-psychological-modeling)
-connects conversation history, everyday life, and philosophy in natural-language
-conceptual accounts. When that explanation is still hard to articulate, a person comfortable with
+The project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling)
+represents activity histories as event streams and uses them with other everyday
+materials and philosophy to infer and construct natural-language conceptual
+accounts of participants and their relationship. When that explanation is still hard to articulate, a person comfortable with
 engineering can begin from preferences visible in choices about work, learning,
 response, and change. Configurations supply clues to compare with actual
 choices and correction. From this working account, develop the counterpart's
@@ -76,18 +77,22 @@ how their relationship can change. Both participants can generate and judge,
 even when they choose different responsibilities. The selected interpretation
 gives the image practical direction without exhausting its possibilities.
 
-For computer-mediated engineering, person and model jointly articulate the
-selected process as a computational ontology. Develop the boundary and scale
+For computer-mediated engineering, person and model jointly develop a
+computational ontology as representation, using its objects, events, states,
+relations, and transitions to construct a process ontology. Its subjects can
+be actual activity, hypothetical situations, or fictional objects. Develop the boundary and scale
 relevant to the purpose within that cooperation:
 what occurs, which states matter, what persists through change, and which
 relations, constraints, and transition conditions connect the occurrences.
 Objects and static views can express what remains stable at that scale. The
 [world and expression account](world-and-expression.md#physical-ground-and-computational-abstraction)
-connects this selection to the changing physical world; the engineering model
-makes the selected part available for computer representation and examination,
+connects representation with its physical grounding; the engineering model
+makes the selected relations available for computer use and examination,
 and for simulation where its modeled changes support that use.
 
-Give its distinctions meanings that can meet actual observations. For example,
+Give its distinctions usable meanings. Factual claims must correspond to actual
+conditions; inference under stated conditions concerns the selected
+interpretation and premises. For example,
 “awaiting a personal judgment” describes work whose next action depends on a
 judgment the person must supply; a routine implementation choice is a different
 condition. A correction changes the working interpretation while retaining the

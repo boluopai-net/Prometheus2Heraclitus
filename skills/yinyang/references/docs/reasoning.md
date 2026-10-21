@@ -22,14 +22,15 @@ Inquiry can begin with an image, tension, question, or tendency to act before
 a proposition is available. Articulation makes selected relations open to
 discussion and checking. Its development into candidates and local judgments
 is itself part of the trajectory.
-YinYang's process ontology concerns the changing world in which this happens;
-a **working computational ontology** articulates a selected part so a computer
-can represent its objects, states, relations, and changes, and simulate relevant
-consequences when useful. Person and language model form the question and this
+YinYang's worldview concerns the changing world in which this happens.
+A **working computational ontology** is a representation; through its objects,
+events, states, relations, and transitions, this framework constructs a process
+ontology. It can concern actual psychological activity, hypothetical situations,
+or fictional objects, and support simulation where useful. Person and language model form the question and this
 model together, divide explicit reasoning, construction, and observation by
 their actual capabilities, and revise through the same continuing exchange.
 [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
-develops the passage from world to computational model. Here the question is
+develops representation and its physical grounding. Here the question is
 how to form and test such models, rather than define computation by a method
 of hypothesis formation.
 
@@ -63,8 +64,10 @@ A working ontology articulates the objects, relations, and constraints that
 matter for a question, including relevant persistence and change. Its concepts
 can be introduced, weakened, replaced, or reorganized. A computer consumer may
 use distinctions carried in clear natural language or require a more formal
-representation. Their meanings and correspondence to observations need to
-survive that use; merely retaining a vocabulary does not achieve it. More
+representation. Their meanings need to survive that use; factual claims remain
+answerable to what is actually the case, while inference develops consequences
+under the chosen interpretation and premises. Either participant can examine
+both. Merely retaining a vocabulary does not achieve this. More
 definitions can increase both expressive power and the cost of changing the
 account.
 

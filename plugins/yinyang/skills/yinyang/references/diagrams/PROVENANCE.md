@@ -23,12 +23,18 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   an adopted view, generated work, and returning evidence within human–model
   activity. YY-09 supplies its event-based vocabulary.
 - **From understanding the world to realizing a practice** (`layers`) develops
-  YY-09 in two visible levels, each with four dimensions and a practice node:
-  the physical level below and computational level above. Their ontology nodes
-  are physical ontology and computational ontology, with process ontology
-  articulating computational events and changes. Both levels are real. Ten nodes
-  expose their correspondences, distinguishing material
-  realization, representation, and guidance by value and method. Its existing interactive viewer retains node inspection,
+  YY-09 in two visible levels, each with six dimensions surrounding shared
+  practice: worldview, ontology, truth, knowing, value, and method. The physical
+  level below concerns one changing natural world and material, embodied
+  processes. The computational level above concerns representations, including
+  actual, possible, and imagined situations; its process ontology organizes
+  represented objects, events, states, relations, constraints, and transitions.
+  Fourteen nodes distinguish material realization from correspondence to an
+  actual target, alongside contributions to practice. Meaning, satisfaction,
+  and valid inference do not by themselves establish actual correspondence.
+  Person and language model participate throughout. A participant's history is
+  an event stream; the participant model is a conceptual representation inferred
+  from history and other material. Its interactive viewer retains node inspection,
   relationship exploration, and guided views.
 
 For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,

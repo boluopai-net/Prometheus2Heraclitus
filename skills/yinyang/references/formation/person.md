@@ -33,16 +33,20 @@ the model can structure and write while the person generates, recognizes, and
 revises ideas. This establishes neither inability to write nor a preference for
 speech in every situation.
 
-## Event-stream psychological modeling
+<a id="event-stream-psychological-modeling"></a>
+
+## Psychological modeling from event history
 
 The psychological modeling practiced in this project develops a conceptual
 account of psychological processes from a person's activity over time. Long-term
-conversation is a principal source: dialogue leaves history in which expression,
+conversation is a principal source: dialogue leaves an event history in which expression,
 questions, responses, choices, corrections, and changes can be recovered in
 their sequence and situation. Everyday habits, life materials, selected personal
 records, and actual work supply further evidence. Philosophy contributes concepts
 and interpretive relations; the model helps distill them together with this
-history into explicit natural-language understanding.
+history into explicit natural-language understanding. The event stream organizes
+the source history; the conceptual model inferred from it explains selected
+relations concerning the person. Neither the person nor that model is the history.
 
 Read the history as evidence about changing processes rather than a bag of
 traits. Reconstruct what happened, what the person was responding to, how
@@ -101,7 +105,7 @@ responses sufficiently to guide an arrangement. A psychological model tentativel
 connects experience, emotion, desire, interpretation, and relationships within
 life. Preferences can inform that explanation but do not supply it alone. The
 [formation method](../design-and-revision.md#form-a-situated-version-from-actual-material)
-connects these routes; the event-stream method above explains this project's
+connects these routes; the event-history method above explains this project's
 current psychological modeling. Use psychological vocabulary at the strength supported
 by evidence. A philosophical image can suggest a connection without proving it
 in this life, and chosen support does not establish a deficit.

@@ -35,7 +35,7 @@
 
 ## 思考流的文献来源
 
-接续不只是保持不变。有记忆的过程把早先相遇带入当前活动，并预期尚未发生的事情。人与模型可以被理解为具有不同机制与节奏的事件流：感知、解释、表达与行动不断接续，记录则保留其中可供返回的部分。[赫拉克利特有尺度的火（B30）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30)与[每日之日（B6）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6)把变化与持续聚在一起；[窃火论述](stealing-fire.zh-CN.md)展开其哲学背景。
+接续不只是保持不变。有记忆的过程把早先相遇带入当前活动，并预期尚未发生的事情。人的活动历史与模型的交互历史，可以组织为事件流：感知、解释、表达与行动留下在时间和处境中相连的发生。记录保留这些历史中可供返回的部分。探究从这些历史及其他相关材料发展对参与者的概念模型；本人和模型伙伴则是被理解的对象。[赫拉克利特有尺度的火（B30）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30)与[每日之日（B6）](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6)把变化与持续聚在一起；[窃火论述](stealing-fire.zh-CN.md)展开其哲学背景。
 
 威廉·詹姆斯在[心理学原理第 9 章（1890）](https://www.yorku.ca/pclassic/James/Principles/prin9.htm)中，从正在发生的思考出发，说明它的个人性、变化、连续性与选择性。他的思想流为一种心理学理解提供先例：连续性存在于变化着的关系中，而不只是孤立内容串成的链条。这里的计算事件流把功能词汇扩展到模型交互；詹姆斯关于人的意识的说明，并不能确立语言模型具有同样的体验。
 

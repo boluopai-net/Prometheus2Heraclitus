@@ -103,11 +103,11 @@ not identities, completed stages, or requirements to master three disciplines:
 
 | Material or practice already available | Connection still needed and useful next contribution |
 | --- | --- |
-| Articulated philosophy or adopted direction, without a usable model environment or developed personal account | Establish a usable engineering environment with model assistance, then ground an event-stream person account in conversation history and everyday life. |
+| Articulated philosophy or adopted direction, without a usable model environment or developed personal account | Establish a usable engineering environment with model assistance, then develop a conceptual person account from event history and everyday life. |
 | Relevant psychological understanding, conversation history, or life materials, without a usable model environment or articulated philosophy | Establish the environment, organize and develop the grounded person account, then articulate philosophy from the material and understanding. |
-| A working model environment and experience using it, with personal understanding and philosophy still implicit | Usually develop event-stream personal modeling, then philosophical articulation; already known preferences can directly guide useful arrangements while deeper understanding develops. |
+| A working model environment and experience using it, with personal understanding and philosophy still implicit | Usually develop personal modeling from event history, then philosophical articulation; already known preferences can directly guide useful arrangements while deeper understanding develops. |
 | Articulated philosophy and grounded psychological understanding, without a usable realization | Realize their intended relations through the actual engineering environment. |
-| Articulated philosophy and a working environment, without concrete personal grounding | Use conversation history and everyday life materials for event-stream personal modeling, comparing its understanding with the philosophy and current use. |
+| Articulated philosophy and a working environment, without concrete personal grounding | Use conversation history and everyday life materials for personal modeling from event history, comparing its understanding with the philosophy and current use. |
 | Grounded psychological understanding and a working environment, without articulated philosophy | Develop the philosophical understanding, values, and direction implicit in the practice. |
 
 These are six entrances to the same connected work, not closed stages or a
@@ -134,7 +134,7 @@ preferences. An arrangement can also reflect constraint or a default, so its
 presence alone does not reveal what the person wants.
 
 For explanatory psychological modeling, this project uses
-[event-stream psychological modeling](formation/person.md#event-stream-psychological-modeling):
+[psychological modeling from event history](formation/person.md#event-stream-psychological-modeling):
 long-term conversation history, everyday habits and life materials, and
 philosophy inform a natural-language conceptual account of psychological
 processes. Dialogue leaves history; analysis, abduction, comparison, and further

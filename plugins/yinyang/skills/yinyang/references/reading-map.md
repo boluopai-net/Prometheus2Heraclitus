@@ -129,7 +129,7 @@ Four diagrams provide visual entrances:
   contributions visible. [中文](diagrams/encounter.zh-CN.html) · [SVG](diagrams/encounter.svg)
 - [Understanding and realization](diagrams/layers.html) connects physical
   and computational levels through
-  two sets of four axes plus practice. It distinguishes physical realization,
+  two sets of six dimensions plus practice. Computational ontology is representation; it distinguishes physical realization,
   representational correspondence, and guidance by value and method.
   [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
 

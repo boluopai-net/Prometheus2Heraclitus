@@ -18,7 +18,7 @@ revised. Its having been preferred does not settle these factual questions.
 YinYang is a **preference harness** for this joint activity: preferences,
 reasoning, judgment, and responsiveness to the world contribute together.
 
-The model ordinarily understands and reasons through informal natural language. Purpose, examples, conversation, and the surrounding harness make a preference intelligible enough to act on. The formal comparison below brings the respective roles of selection and inference into focus; the event-stream ontology describes the broader activity in which both participants generate, choose, act, and reconsider.
+The model ordinarily understands and reasons through informal natural language. Purpose, examples, conversation, and the surrounding harness make a preference intelligible enough to act on. The formal comparison below brings the respective roles of selection and inference into focus. Process ontology represents relevant objects, relations, and changes; event streams organize the history in which both participants generate, choose, act, and reconsider.
 
 The question is what preferences can select and what warrants accepting a
 result. Bienvenu and Bourgaux's repair-based treatment of inconsistent data

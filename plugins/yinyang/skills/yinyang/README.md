@@ -115,16 +115,22 @@ with their private owner.
 
 ## Philosophical ground
 
-The author's framework begins from one changing physical reality, articulated through
-contemporary fire monism as process ontology. Its engineering ontology gives
-selected processes a computational model: objects that persist, states,
-relations, constraints, and changes that a computer can represent and, where
-useful, simulate. Person and language model develop the question, model,
+The author's worldview takes one changing physical reality as its ground and
+expresses its becoming through contemporary fire monism. Computational ontology
+is representation: objects, events, states, relations, and transitions through
+which this framework constructs a process ontology. It can represent actual
+people and psychological activity, hypothetical situations, or fictional objects.
+Physical grounding concerns the activity and carriers of representation; what
+is represented has its own status. Person and language model develop the question, model,
 realization, and feedback together, dividing contributions by actual capability
-and purpose. Representations need usable meanings and correspondence to
-observations; clear model-interpreted language can serve that use. The
+and purpose. Representations need usable meanings; factual claims are true when
+they correspond to what is actually the case. Satisfaction and inference within
+a representation depend on its interpretation and assumptions. Clear
+model-interpreted language can serve these uses. The
 [World essay](references/docs/world-and-expression.md) develops this connection.
-Interacting event streams do not imply identical mechanisms. Coherent working
+Activity histories can be represented as event streams; conceptual person and
+counterpart models are constructed from those histories and other materials.
+The participants have their own capacities and mechanisms. Coherent working
 concepts support stability while evidence and competing interpretations remain
 open to correction.
 

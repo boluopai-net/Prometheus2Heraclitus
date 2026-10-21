@@ -53,8 +53,8 @@ and the resulting capacity can remain distributed across the relationship.
 
 YinYang takes the changing natural world itself as its reality: moving matter,
 embodied life, psychological activity, and social relations belong to one world.
-Modest naturalism names this worldly scope. Its contemporary **fire monism is
-a process ontology**: fire names becoming and transformation, within which
+Modest naturalism names this worldly scope. Its contemporary **fire monism**
+understands this world through becoming and transformation, within which
 persons, objects, and relations form, persist, and change as relatively stable
 patterns. Philosophy, psychological activity, and engineering are physically
 realized within this same reality. It does not identify everything's material
@@ -72,20 +72,30 @@ same object, and which events change its state or end that continuity. A static
 view can legitimately hold selected relations fixed for an inquiry. Its boundary
 belongs within the larger process in which the view is made, used, and revised.
 
-**Computational ontology here adopts process ontology:** an articulation of a
-selected part of this reality through events, states, persisting objects, relations,
-constraints, and transition rules through which a computer can represent that
-part and, where the question calls for it, simulate relevant changes. The
-participants select question-relevant boundaries, scales, and continuities
-together; the computational model states what those choices mean. This organizes
-computational description in this framework, rather than reducing all engineering
-to computing. It carries the
-process premise into the model's account of persistence and change instead of
-replacing it with an unrelated inventory of things.
+**Computational ontology is representational. Here it adopts a process ontology:**
+computational concepts organize events, states, persisting objects, relations,
+constraints, and transitions within a selected domain. That domain can concern
+physical cooling, psychological change, a hypothetical society, or a fictional
+character's journey. The participants select relevant boundaries, scales, and
+continuities together; the model states what these choices mean and can support
+simulation where the question calls for it. Process ontology thus organizes how
+the representation understands persistence and change. Naturalism and fire
+monism state the adopted view of the world in which this modeling occurs;
+computational ontology states the organization of what is represented.
+
+A representation may concern the actual world, a hypothesis, fiction, or an
+imagined God or cartoon character. A real person's imagining is an actual
+psychological activity; the imagined content has its own represented objects
+and relations. Describing that activity does not by itself assert that its
+content has an independently existing referent. A model of an actual person,
+by contrast, makes claims about that person and remains answerable to their
+expressions, activity, and circumstances. Its partial and interpretive character
+does not make it fiction.
 
 Selection alone does not provide a usable computational body. The representation
 must connect its distinctions to what a computer consumer can retain, interpret,
-compare, or transform, and connect its results to relevant observations. A state
+compare, or transform, and relate its results to relevant observations or the
+represented domain's specified assumptions. A state
 needs a meaning; a transition needs conditions and consequences; a claimed
 correspondence needs a way to be assessed. Merely storing the words “person,”
 “event,” or “relation” supplies none of these connections. Data structures,
@@ -108,26 +118,38 @@ specify what counts as a correction. Philosophical, psychological, computational
 and practical accounts select different relations within the same reality;
 their bridges need investigation where the question requires it. Shared physical
 ground establishes neither complete reduction nor a universal, faithful, or
-tractable world simulator. Modeling activity as event streams also leaves open
+tractable world simulator. Organizing activity histories as event streams also leaves open
 which records and software architecture serve a particular use. The
 [layers diagram](../diagrams/layers.html) presents this connection, and
 [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops its unity across the three
 activities.
 
-The [interactive two-level diagram](../diagrams/layers.html) develops physical
-and computational levels separately, with four axes and their joint practice on
-each. Both levels are real; their ontology nodes are physical ontology and
-computational ontology. Computational ontology organizes objects and relations
-through process ontology; evidence, purposes, methods, and
-execution have further responsibilities. [Personal-first humanism](personal-first-humanism.md#four-connected-axes)
-sets out the correspondences, avoiding a split of ontology alone while mixing
-the remaining dimensions into one level.
+The [interactive two-level diagram](../diagrams/layers.html) develops six
+connected dimensions—worldview, ontology, epistemology, truth, axiology, and
+methodology—together with practice at the physical and computational levels.
+Worldview gives an overall orientation; ontology articulates what is taken to
+exist or represented; epistemology concerns knowing and its grounds; truth
+concerns whether claims hold; axiology concerns what is worth pursuing; and
+methodology concerns how to inquire and act. Practice brings these relations
+into actual activity. [Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
+develops their correspondences. The computational arrangement is physically
+realized, while its represented domain may be actual, hypothetical, or fictional.
+
+For claims about the world, **truth is correspondence with how things are**.
+Evidence gives grounds for judging a claim true and can remain incomplete or
+mistaken. Within a specified model, truth or satisfaction concerns whether a
+claim holds under its interpretation and assumptions. Inferential validity
+concerns whether the conclusion follows from the premises. A valid derivation
+from a cooling model can yield a model-relative prediction; comparing that
+prediction with measurement investigates its correspondence with the world.
+These distinctions apply to human and language-model inquiry alike.
 
 Three relations need to be understood separately. **Physical realization**
 concerns what makes the whole computational arrangement available and operative:
 bodies and machines, material records, energy, and their processes.
-**Representational correspondence** concerns which aspects of reality an account
-selects and how its objects, evidence, and changes correspond to them.
+**Representational interpretation and correspondence** concern what domain an
+account describes, what its objects and changes mean, and how claims about the
+actual world correspond to their objects.
 **Value and methodological guidance** concerns which purposes should inform goals
 and criteria, and which ways of inquiring fit procedures and tools. Philosophical
 positions are not a program's material carriers. Successful execution cannot
@@ -227,11 +249,14 @@ the whole world to fit inside a computer.
 
 ## A process exceeds its available model
 
-A stream is organized continuation, not merely a chronological transcript.
-Perception, interpretation, remembering, expression, and action can overlap,
-depend on earlier occurrences, or become explicit at different times. An
-available record captures some of those relations; other activity may never
-have been recorded. A local model makes selected objects, roles, dependencies,
+A history of activity can be organized as an event stream: occurrences connected
+through temporal, causal, and interpretive relations. Perception, interpretation,
+remembering, expression, and action can overlap, depend on earlier occurrences,
+or become explicit at different times. Available records preserve some of this
+history; other activity may never have been recorded. From that history and
+other relevant material, the participants infer a conceptual model of a person
+or counterpart. The participant, their history, and the model inferred from it
+are distinct. A local model makes selected objects, roles, dependencies,
 and transformations available for a particular inquiry. Giving it a computer
 representation enables selected uses of those relations; it does not contain
 the entire process that generated it. The cooling example selects the temperature

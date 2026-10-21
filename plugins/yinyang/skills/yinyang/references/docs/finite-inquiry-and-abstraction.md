@@ -69,8 +69,13 @@ feasible calculation. Lacking a demonstrated reduction today does not by itself
 refute physicalism. These distinctions let a commitment to physical reality
 coexist with open questions about explanation and computation.
 
-The framework adopts physical reality as its common basis and computational
-ontology as an upper-level abstraction of it. Merely naming that basis does
+The framework adopts physical reality as the common ground of its activities.
+Computational ontology is representation: it can abstract actual processes or
+construct hypothetical and fictional situations. This framework builds a process
+ontology through represented objects, events, states, relations, and transitions.
+Representing an imagined person is an actual activity without making that
+person actual; representing an actual person does not make them fictional.
+Merely naming the physical basis does
 not yet select the variables, representations, and operations that make a
 particular inquiry calculable. Even an in-principle reduction would not by
 itself provide a feasible algorithm for the present question. Abstraction

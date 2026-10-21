@@ -28,15 +28,16 @@ that continue beyond the description. A model of someone can be inadequate
 even when it is internally coherent. Their correction can disclose that
 inadequacy; subsequent experience can disclose another.
 
-The framework takes the changing natural world as its reality. **Modest
-naturalism** names this worldly scope; **contemporary fire monism** articulates
-its dynamic unity, in which persons and their relations persist and change.
-Thinking, psychological experience, and engineering share this physical ground;
-tools require materials and energy, and bodies live through their consequences.
-A computational account abstracts relations relevant to the question, while
-experience and evidence test their adequacy. Particular realization mechanisms
-and complete reduction require their own inquiries. [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
-develops these connected commitments.
+The framework adopts **modest naturalism** as its worldview and **physicalism**
+as its ontological position: persons, psychological activity, machines, and
+engineering occur in the same natural world. **Contemporary fire monism** gives
+its becoming and transformation an image. Computational ontology is a
+representation constructed for a particular question. Here events, states,
+objects, relations, and transitions organize a **process ontology** through
+which human activity and change can be described, reasoned about, and used.
+Physical grounding locates this activity in reality; computational representation
+articulates what we select and how we understand it. [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
+develops this connection.
 
 “The person is real” therefore has a practical force here. A category, metric,
 or story does not exhaust the one who lives through its application. Its
@@ -55,9 +56,14 @@ disappear.
 Fictionalism raises another question: could a discourse be useful without
 accepting its apparent claims as literally true? A selected fictional role
 can organize conduct; a thought experiment can develop consequences under
-imagined conditions. Their occurrence and effects are actual even when the
-represented situation is invented. The [metaphor essay](metaphor-and-self-revision.md)
-develops how expressive constructions become interpretations and realizations.
+imagined conditions. Computational ontology can represent these contents:
+a god someone believes in, an imagined companion, or an invented cartoon
+character can enter a process model through beliefs, expectations, narratives,
+and actions. The imagining activity and its effects actually occur; the
+character acquires its meaning within the imagining or story. The model can
+therefore express who imagines what, how they use it, and what happens later.
+The [metaphor essay](metaphor-and-self-revision.md) develops how expressive
+constructions become interpretations and realizations.
 
 These distinctions leave room to consider the stronger conditional: **if many
 of the concepts through which we organize life are constructed or treated as
@@ -73,47 +79,73 @@ should support actual persons' understanding and agency, and remain open to
 their corrections. Constructibility gives revision room; the ethical premise
 gives revision a direction. The two contributions should remain distinguishable.
 
-## Four connected axes
+<a id="four-connected-axes"></a>
 
-This proposal can be positioned through four questions. Their working names
-articulate an orientation, not a completed universal system:
+## Six connected dimensions
 
-| Axis | Working orientation | What it asks of the practice |
+This personal practice adopts six connected positions. Worldview gives the
+overall picture; ontology articulates existence and representation; a theory
+of truth explains what it means to be true; epistemology concerns forming and
+revising judgments; value and method give practice its direction and means.
+
+| Dimension | Adopted position | What it asks of the practice |
 | --- | --- | --- |
-| Ontology | Modest naturalism and contemporary fire monism: one changing natural world as physical ground, with concrete persons and relations within it. | Which objects and relations must the account acknowledge, and what resists its description? |
+| Worldview | Modest naturalism: persons, models, and society share one changing natural world; contemporary fire monism expresses its becoming and transformation. | How do persons, technologies, and their activities belong in an overall picture of the world? |
+| Ontology | A physicalist ground of reality; at the computational level, objects, events, states, relations, and transitions construct a process ontology as a question-relative representation. | What actually exists, and which objects and relations does the model select or construct? |
+| Theory of truth | Correspondence: a claim about reality is true when what it says accords with the facts; statements within a model have truth conditions under a given interpretation. | Does the stated situation obtain, and how does the model's expression relate to its object? |
 | Epistemology | Fallible inquiry beginning with embodied experience and corrected through feedback. | Which observations support or challenge an interpretation, and what distinguishes alternatives? |
 | Value | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
 | Methodology | Question-relative pluralism. | Which combination of analogy, formalization, simulation, participation, and experiment answers this question? |
 
-These four axes use the same distinctions as [Core view YY-09](core-views.md#yy-09). Value articulates what is worth pursuing; an ontological description, factual judgment, or effective method cannot simply replace it. **Practice** brings all four into action and encounters their consequences. A diagram may give practice a fifth node to show this connection without making it a fifth philosophical position of the same kind.
+These dimensions use the same distinctions as [Core view YY-09](core-views.md#yy-09).
+Worldview connects them into a whole, value articulates what is worth pursuing,
+and **practice** brings them into action and encounters their consequences.
+The practice nodes in the diagram express this shared use.
 
 <a id="physical-and-computational-levels"></a>
 
 These questions also need to be developed separately at physical and computational
-levels. The physical level concerns embodied activity and its material conditions;
-the computational level concerns usable objects, relations, and organization of
-activity. Both levels are real, and philosophical understanding applies to both:
+levels. The physical level concerns actual activity and its material conditions;
+the computational level organizes representations usable by people and computers
+and brings them into activity. **Computational ontology first articulates objects,
+relations, and rules within the representation; here a process ontology organizes
+their persistence and change.** It can describe reality or express hypotheses,
+possibilities, and fiction. The computational carrier and its use belong to the
+physical world; the represented content is understood through its objects and context.
+
+A person's activity history and the history of human–model interaction can be
+organized as event streams. A model of the person draws on those histories and
+other life material to form a conceptual representation of experience, beliefs,
+purposes, and action. The participant, their history, and the model of them have
+distinct places in this account.
 
 | Dimension | Physical level | Computational level |
 | --- | --- | --- |
-| Ontology | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology: a process ontology organizing events, states, objects, relations, and transitions. |
+| Worldview | Persons, machines, psychological activity, and social activity share one changing natural world. | Organize a selected world picture, expressing actual, possible, or imagined situations and their connections. |
+| Ontology | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology as representation, using process ontology to organize objects, events, states, relations, and transitions. |
+| Truth | How are the objects, events, and relations in question actually situated; what obtains? | When do statements hold under a given interpretation, how do conclusions follow from premises, and how do world-directed claims correspond to facts? |
 | Knowing | How do experience and observation support judgment and disclose error? | How are evidence, candidate explanations, inference, and tests represented and organized? |
 | Value | What is worth pursuing; whose agency and life are affected? | How are goals, criteria, constraints, and tradeoffs made explicit? |
 | Method | How are inquiry, collaboration, and experiments actually conducted? | How do method descriptions, procedures, tools, and rules organize selected activity? |
 | Practice | How do embodied people act and live with consequences? | How are computational arrangements run and used, and their results read back? |
 
 [From understanding the world to realizing a practice](../diagrams/layers.html)
-draws these two sets of four axes plus practice as two levels, naming their
-ontology nodes **physical ontology** and **computational ontology**. Process
-ontology at the computational level organizes persistence and change; it cannot
-replace that level's responsibilities of knowing, value, and method. Bodies,
-machines, records, energy, and activity at the physical level realize the
-computational arrangement.
-The corresponding dimensions instead connect through selection, expression,
-organization, and feedback. A value commitment guides goal design; it is not
-the material that makes a program. Both levels belong to one world, and
-computational activity is real activity. Placing the physical level below the
-computational level depicts realization, not a restriction of reality to the lower level.
+draws these two sets of six dimensions plus practice as two levels, naming
+their ontology nodes **physical ontology** and **computational ontology**.
+Bodies, machines, records, energy, and activity at the physical level realize
+the computational arrangement. Computational representations relate to the
+world through selection, description, inference, construction, and use.
+Value commitments guide goals, methods guide procedures, and feedback makes
+both revisable.
+
+Truth has a definite object here. Claims about actual life are assessed for
+correspondence with facts. Statements within a model are assessed under its
+interpretation and given conditions. Inferences from premises to conclusions
+are assessed under the adopted rules of reasoning. Applying a model to reality
+also requires examining its assumptions and their relation to the object.
+People and language models can participate in all these judgments. The theory
+of truth articulates what it means for a claim to hold; epistemology examines
+the grounds for accepting, doubting, or revising the judgment.
 
 Evidence representations therefore remain answerable to experience, evaluation
 criteria to lived purposes, and executed procedures to judgments of methodological
@@ -213,10 +245,10 @@ possible, and what do they ask of other lives?
 
 ## Sources and scope
 
-The connected naturalist and fire-monist account, the four-axis positioning, and their model-supported
-realization are this essay's synthesis. The sources contribute the distinctions
-identified above; the ethical orientation is argued here and remains open to
-criticism and inquiry through its consequences.
+The connected naturalist and fire-monist account, the six dimensions, and their
+model-supported realization state the philosophy adopted here. The sources
+contribute the distinctions identified above; personal-first humanism gives
+practice its value direction, developed and revised through actual consequences.
 
 1. <a id="source-1"></a> Thomas Hobbes (1651), **Leviathan**, chapter IV, “Of Speech.” [Original text](https://en.wikisource.org/wiki/Leviathan_%281651%29/Chapter_4). One historical account of universal names and particular things, not a proof of the present ethical orientation.
 2. <a id="source-2"></a> John Stuart Mill (1859), **On Liberty**, chapter III. [Original text](https://www.gutenberg.org/files/34901/34901-h/34901-h.htm). Individuality and experiments of living within plural coexistence.
