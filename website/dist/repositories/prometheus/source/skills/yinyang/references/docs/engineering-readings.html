@@ -1,6 +1,5 @@
 <!doctype html><html lang="en"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Engineering readings · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=c5d80ebe0283"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a><a href="/singing/en/">Singing</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc">
 <ul>
-<li><a href="#language-models-retrieval-and-data-tools">Language models, retrieval, and data tools</a></li>
 <li><a href="#find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</a></li>
 <li><a href="#git-and-github-continuing-a-work-through-its-changes">Git and GitHub: continuing a work through its changes</a></li>
 <li><a href="#software-design-and-computer-systems">Software design and computer systems</a><ul>
@@ -15,8 +14,9 @@
 <li><a href="#original-sources-behind-this-collections-comparisons">Original sources behind this collection's comparisons</a></li>
 </ul>
 </li>
-<li><a href="#experimental-implementation-data-and-model-assessment">Experimental implementation, data, and model assessment</a></li>
+<li><a href="#self-improvement-research">Self-improvement research</a></li>
 <li><a href="#physical-conditions-measurement-and-feedback">Physical conditions, measurement, and feedback</a></li>
+<li><a href="#language-models-retrieval-and-data-tools">Language models, retrieval, and data tools</a></li>
 </ul>
 </div>
 </nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/en/">Library</a></div><h1 id="engineering-readings">Engineering readings</h1>
@@ -24,88 +24,17 @@
 <p>Engineering gives an understanding a form that can run, be observed, and be
 changed. Use this guide for the concepts and sources needed by that realization:
 learning maps, command lines, version history, software design, algorithms,
-systems, experiments, and physical conditions. Choose the part that helps the
+systems, data tools, and physical conditions. Choose the part that helps the
 actual work; <a href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.html">harness adaptation</a> explains how its
 result connects to the intended collaboration. Courses, documentation, and
 source repositories are accompanied by useful textbooks and papers.</p>
-<p>Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Being able to invoke a tool does not establish understanding. Documentation can support both learning and reference during actual work.</p>
+<p>Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Documentation can support both learning and reference during actual work.</p>
 <p><strong>Choose a main thread that connects with your starting point.</strong> Suggested
 entrances are CS 61A and Composing Programs for programming, Princeton's courses
 and Algorithms for algorithms, CS:APP for systems, and MIT and Sipser for
-computation theory, with Arora–Barak for further depth. These are alternatives
-for learning, not prerequisites for every implementation. Courses offer
+computation theory, with Arora–Barak for further depth. Choose among them according to current interests and questions. Courses offer
 teaching, assignments, and projects; books develop connected concepts;
-documentation references particular interfaces. A publisher's book record does
-not imply free full text.</p>
-<h2 id="language-models-retrieval-and-data-tools">Language models, retrieval, and data tools</h2>
-<p>These technical books, courses, and tools provide references for understanding
-capabilities and comparing implementations. They are not a recommended personal
-psychological-modeling stack. Storing, retrieving, or generating text does not
-make a system a validated psychological model. See <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html">psychological readings</a>
-for the psychology bibliography.</p>
-<table>
-<thead>
-<tr>
-<th>Book or course</th>
-<th>Content</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Jurafsky and Martin, <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing, third-edition online draft</a></td>
-<td>A natural-language-processing and language-model textbook covering tokens, embeddings, context, information extraction, time, discourse, and retrieval. The official site provides the text and slides; the Agents chapter remains unwritten in the August 19, 2026 release.</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/learn/agents-course/en/unit1/introduction">Hugging Face Agents Course</a></td>
-<td>An online course introducing models, messages, tools, and observations following actions.</td>
-</tr>
-<tr>
-<td><a href="https://agentskills.io/home">Agent Skills overview</a> · <a href="https://agentskills.io/specification">Specification</a></td>
-<td>An open format for organizing instructions, scripts, and reference resources.</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Tool or project</th>
-<th>General purpose and official source</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.sqlite.org/docs.html">SQLite</a></td>
-<td>An embedded relational database supporting SQL queries and transactions.</td>
-</tr>
-<tr>
-<td><a href="https://sqlite-utils.datasette.io/">sqlite-utils</a> · <a href="https://datasette.io/">Datasette</a></td>
-<td>The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces.</td>
-</tr>
-<tr>
-<td><a href="https://www.postgresql.org/docs/">PostgreSQL</a> · <a href="https://github.com/pgvector/pgvector">pgvector</a></td>
-<td>A relational database and its vector-similarity-search extension.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/vectorize-io/hindsight">Hindsight</a></td>
-<td>An agent memory and retrieval system with retain, recall, and reflect capabilities.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/getzep/graphiti">Graphiti</a></td>
-<td>Temporal knowledge graphs for agents.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/mem0ai/mem0">Mem0</a></td>
-<td>Persistent-memory components for agents and applications.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/letta-ai/letta">Letta</a></td>
-<td>A platform for agents with persistent state and memory management.</td>
-</tr>
-</tbody>
-</table>
-<p>These projects differ in stored objects, extraction behavior, and operating
-requirements. The links lead to their documentation, not an instruction to
-install all of them.</p>
+documentation references particular interfaces. Links include course notes, open textbooks, and publisher records.</p>
 <h2 id="find-the-map-and-build-a-usable-environment">Find the map and build a usable environment</h2>
 <table>
 <thead>
@@ -117,7 +46,7 @@ install all of them.</p>
 <tbody>
 <tr>
 <td><a href="https://csdiy.wiki/">CS DIY</a> · <a href="https://github.com/PKUFlyingPig/cs-self-learning">source repository</a></td>
-<td>An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation. It is not an official university-wide Peking University curriculum or a requirement to complete every course.</td>
+<td>An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation.</td>
 </tr>
 <tr>
 <td>Tsinghua's computer-science student association: <a href="https://docs.net9.org/">SAST skill docs</a></td>
@@ -163,7 +92,7 @@ install all of them.</p>
 </table>
 <h2 id="software-design-and-computer-systems">Software design and computer systems</h2>
 <h3 id="programming-and-abstraction-cs-61a-and-sicp">Programming and abstraction: CS 61A and SICP</h3>
-<p><strong>CS 61A is the foundational entrance here.</strong> It develops an understanding of programs through functions, data, and interpretation. Software construction then organizes existing programming ability into reliable software; it does not replace this foundation.</p>
+<p><strong>CS 61A is the foundational entrance here.</strong> It develops an understanding of programs through functions, data, and interpretation. Software construction then organizes existing programming ability into reliable software.</p>
 <table>
 <thead>
 <tr>
@@ -178,7 +107,7 @@ install all of them.</p>
 </tr>
 <tr>
 <td>Abelson and Sussman, <a href="https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/">SICP, second edition</a> · <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">full PDF hosted by MIT</a></td>
-<td>Develop procedural and data abstraction, state, interpreters, and evaluation through Scheme. This original work is an important intellectual background for CS 61A and a deeper reading beyond Composing Programs; the two books are not editions of the same text.</td>
+<td>Develop procedural and data abstraction, state, interpreters, and evaluation through Scheme. This original work is an important intellectual background for CS 61A and a deeper reading beyond Composing Programs.</td>
 </tr>
 <tr>
 <td><a href="https://sicp.sourceacademy.org/">SICP JavaScript adaptation / Comparison Edition</a></td>
@@ -201,7 +130,7 @@ install all of them.</p>
 </tr>
 <tr>
 <td><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031 Software Construction (2021)</a> · readings listed on the course page</td>
-<td>After programming foundations, study specifications, testing, abstract data types, and concurrency to develop working code into software with explicit behavioral contracts. Its own notes are the paired reading; Ousterhout is adjacent design reading, not presented as this course's assigned textbook.</td>
+<td>After programming foundations, study specifications, testing, abstract data types, and concurrency to develop working code into software with explicit behavioral contracts. Its own notes are the paired reading; Ousterhout is adjacent design reading.</td>
 </tr>
 </tbody>
 </table>
@@ -271,7 +200,7 @@ install all of them.</p>
 </tr>
 <tr>
 <td>MIT <a href="https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/">6.045J Automata, Computability, and Complexity (2011)</a> · course notes and textbook information</td>
-<td>Another organization of the foundational field, useful for supplementary topic reading rather than compulsory duplication of 18.404.</td>
+<td>Another organization of the foundational field, useful for supplementary topic reading.</td>
 </tr>
 <tr>
 <td>Sanjeev Arora and Boaz Barak, <a href="https://theory.cs.princeton.edu/complexity/">Computational Complexity: A Modern Approach</a></td>
@@ -283,7 +212,7 @@ install all of them.</p>
 </tr>
 </tbody>
 </table>
-<p>Algorithms and complexity analysis establish properties under formal conditions; real systems also depend on data, implementation, and machine resources. Measured speed and asymptotic complexity can inform one another without being the same evidence.</p>
+<p>Algorithms and complexity analysis establish properties under formal conditions; real systems also depend on data, implementation, and machine resources. Speed measurements and asymptotic analysis offer two scales of observation.</p>
 <h3 id="original-sources-behind-this-collections-comparisons">Original sources behind this collection's comparisons</h3>
 <table>
 <thead>
@@ -295,7 +224,7 @@ install all of them.</p>
 <tbody>
 <tr>
 <td>A. M. Turing (1936), <a href="https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf">On Computable Numbers, with an Application to the Entscheidungsproblem</a>, especially §6</td>
-<td>The universal machine supplies the formal reference for the interpreter analogy in <a href="/philosophy/metaphor-and-self-revision/en/">Metaphor and personal modeling</a>. It does not establish that a language model interprets every program correctly.</td>
+<td>The universal machine supplies the formal reference for the interpreter analogy in <a href="/philosophy/metaphor-and-self-revision/en/">Metaphor and personal modeling</a>.</td>
 </tr>
 <tr>
 <td>Thomas R. Gruber (1993), <a href="https://tomgruber.org/writing/ontolingua-kaj-1993.pdf">A Translation Approach to Portable Ontology Specifications</a>, §§1–2</td>
@@ -307,42 +236,87 @@ install all of them.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="experimental-implementation-data-and-model-assessment">Experimental implementation, data, and model assessment</h2>
+<h2 id="self-improvement-research">Self-improvement research</h2>
 <table>
 <thead>
 <tr>
-<th>Documentation or repository</th>
-<th>Reading purpose</th>
+<th>Documentation or paper</th>
+<th>Content</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><a href="https://www.psychopy.org/">PsychoPy documentation</a></td>
-<td>Present stimuli, record responses, and organize experimental tasks. Use a simple experiment to understand how measurement enters a program.</td>
-</tr>
-<tr>
-<td><a href="https://www.jspsych.org/latest/">jsPsych documentation</a> · <a href="https://github.com/jspsych/jsPsych">source repository</a></td>
-<td>Browser-based behavioral experiments. Begin with timelines, plugins, data recording, and timing-accuracy documentation.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/AnneCollins/TenSimpleRulesModeling">Wilson–Collins companion code</a></td>
-<td>Realize the model assessment in <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html#psychological-process-modeling-and-empirical-assessment">psychological readings</a> through simulation, fitting, and recovery checks. After the code runs, its assumptions and data must still fit the question.</td>
-</tr>
-<tr>
-<td>Schoukens and Ljung (2019), <a href="https://arxiv.org/abs/1902.00683">Nonlinear System Identification: A User-Oriented Roadmap</a></td>
-<td>Understand system identification through inputs and outputs, noise, model structure, and validation. Consult as needed; whether natural interaction meets engineering identification conditions requires its own assessment.</td>
-</tr>
 <tr>
 <td><a href="https://people.idsia.ch/~juergen/goedelmachine.html">Gödel Machine</a> and <a href="https://arxiv.org/abs/2505.22954v3">Darwin Gödel Machine</a></td>
 <td>Two entrances to technical self-improvement research: proof-guided work and empirical evaluation, respectively. Compare their objectives, assumptions, and verification before reading this collection's analogies.</td>
 </tr>
 </tbody>
 </table>
-<p>Research design, constructs, and validity remain in <a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html">psychological readings</a>; this page supplies implementation and reproduction knowledge. Connecting implementation resources to a research question is more useful than collecting tool names alone.</p>
 <h2 id="physical-conditions-measurement-and-feedback">Physical conditions, measurement, and feedback</h2>
-<p>Engineering realization happens in the material world. Programs run on machines, measurement requires devices and time, and interfaces enter human perception and action. Software abstraction does not remove energy, latency, error, or bodily conditions.</p>
-<p><a href="https://www.feynmanlectures.caltech.edu/">The Feynman Lectures on Physics</a> provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Enter through the needed concept rather than treating all three volumes as a prerequisite for programming. Feedback and model assessment connect back to the system-identification resources above.</p>
+<p>Engineering realization happens in the material world. Programs run on machines, measurement requires devices and time, and interfaces enter human perception and action. Energy, latency, error, and bodily conditions shape actual use.</p>
+<p><a href="https://www.feynmanlectures.caltech.edu/">The Feynman Lectures on Physics</a> provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Each volume develops its topics through concepts, derivations, and examples.</p>
 <p>Physics investigates regularities; engineering designs and realizes under those
-conditions. The <a href="/philosophy/local-source-and-website/en/">The trinity of philosophy, psychology, and engineering</a> develops their connection
-with philosophy and psychology. A running program establishes a realization;
-its explanatory adequacy for a psychological process is a further question.</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>
+conditions. <a href="/philosophy/local-source-and-website/en/">The trinity of philosophy, psychology, and engineering</a> develops their connection
+with philosophy and psychology.</p>
+<h2 id="language-models-retrieval-and-data-tools">Language models, retrieval, and data tools</h2>
+<p>Books, courses, and official tool references for language models, databases, and retrieval systems.</p>
+<table>
+<thead>
+<tr>
+<th>Book or course</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jurafsky and Martin, <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing, third-edition online draft</a></td>
+<td>A natural-language-processing and language-model textbook covering tokens, embeddings, context, information extraction, time, discourse, and retrieval. The official site provides the text and slides; the Agents chapter remains unwritten in the August 19, 2026 release.</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/learn/agents-course/en/unit1/introduction">Hugging Face Agents Course</a></td>
+<td>An online course introducing models, messages, tools, and observations following actions.</td>
+</tr>
+<tr>
+<td><a href="https://agentskills.io/home">Agent Skills overview</a> · <a href="https://agentskills.io/specification">Specification</a></td>
+<td>An open format for organizing instructions, scripts, and reference resources.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tool or project</th>
+<th>General purpose and official source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.sqlite.org/docs.html">SQLite</a></td>
+<td>An embedded relational database supporting SQL queries and transactions.</td>
+</tr>
+<tr>
+<td><a href="https://sqlite-utils.datasette.io/">sqlite-utils</a> · <a href="https://datasette.io/">Datasette</a></td>
+<td>The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces.</td>
+</tr>
+<tr>
+<td><a href="https://www.postgresql.org/docs/">PostgreSQL</a> · <a href="https://github.com/pgvector/pgvector">pgvector</a></td>
+<td>A relational database and its vector-similarity-search extension.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/vectorize-io/hindsight">Hindsight</a></td>
+<td>An agent memory and retrieval system with retain, recall, and reflect capabilities.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/getzep/graphiti">Graphiti</a></td>
+<td>Temporal knowledge graphs for agents.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mem0ai/mem0">Mem0</a></td>
+<td>Persistent-memory components for agents and applications.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/letta-ai/letta">Letta</a></td>
+<td>A platform for agents with persistent state and memory management.</td>
+</tr>
+</tbody>
+</table>
+<p>See each project’s documentation for its capabilities and operating requirements.</p></article><div class="reading-end"></div></main><footer class="footer wrap"><a class="wordmark" href="/en/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/en/">Copyright &amp; licensing</a></p><a href="#main">Back to top</a></footer></body></html>
