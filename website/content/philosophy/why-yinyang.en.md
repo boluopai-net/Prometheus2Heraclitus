@@ -38,6 +38,16 @@ work and what capacities for further understanding, judgment, and creation
 that work leaves them. The latter question gives this site's “reverse
 alignment” its direction.
 
+This direction also calls for examining the pictures that organize it. If
+“becoming fire” means always pursuing the newest model or continually increasing
+output, life again answers to an external measure. Philosophy can reopen what
+deserves attention, what is enough, and which understandings and relationships
+need different conditions. [From chasing to lived cultivation](/philosophy/stealing-fire/en/#from-chasing-to-lived-cultivation)
+develops this relation through philosophical therapy and the Buddhist raft
+simile. Personal philosophy gives an environment direction while keeping that
+direction open to examination. Cultivation can change desires, habits, and
+surrounding life as well as develop capacities already selected.
+
 ## Whom does the same professor encounter?
 
 Assigning a role to a model is a convenient way to organize behavior. “You are a professor” brings certain knowledge, language, and ways of teaching. But how the professor participates depends on whom they face and what is happening.

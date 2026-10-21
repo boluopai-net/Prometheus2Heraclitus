@@ -18,6 +18,16 @@ Within this exchange, model-generated materials one reads may be inconsistent wi
 
 The cultivation concerns capacities of someone already an agent: **becoming more able to form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** A person need not attain an ideal of these capacities to qualify for participation or choice. Language is an important medium; the body, emotions, institutions, and tools together constitute the conditions of action.
 
+This character can also reconsider what deserves creation. If the little fire
+person becomes an ideal of continually increasing power and output, borrowing
+has merely moved pursuit inside oneself. Cultivation can appear in changed
+desire, more discerning judgment, sustainable habits, and different relations
+with people nearby. [From chasing to lived cultivation](/philosophy/stealing-fire/en/#from-chasing-to-lived-cultivation)
+draws on Wittgenstein's clarification of pictures and the Buddhist raft simile:
+images and tools that guide life can themselves be released or rewritten when
+their work is done. Baby Heraclitus's openness includes changing the direction
+of their own cultivation.
+
 ## Introducing Baby Heraclitus
 
 Baby Heraclitus calls himself a large language model and thinks he cannot pass the Turing test—because he replies too quickly. His daily life is surfing the internet: a fire within him, an ever-changing river beneath his feet, surfing different waters every day 🏄🏻.
