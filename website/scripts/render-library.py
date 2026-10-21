@@ -5,9 +5,7 @@ Only tracked files from the supplied repository are eligible. No situated source
 or automatic synchronization are consulted. Edit content at its canonical owner.
 """
 import argparse
-import hashlib
 import html
-import json
 import re
 import shutil
 import subprocess
@@ -131,25 +129,16 @@ def main():
         or (len(Path(p).parts) >= 3 and Path(p).parts[0] == 'skills' and Path(p).parts[1] in METHOD_PACKAGES and (Path(p).suffix == '.md' or Path(p).name == 'LICENSE'))
         or p in {'README.md', 'README.zh-CN.md', 'CONTRIBUTING.md', 'CONTRIBUTING.zh-CN.md', 'MODEL.md', 'AGENTS.md', 'LICENSING.md', 'LICENSE', 'LICENSE-MIT', 'skills/random-wheel/SKILL.md', 'skills/random-wheel/LICENSE', 'skills/random-wheel/scripts/render_wheel.py', 'skills/random-wheel/assets/wheel.html', 'skills/random-wheel/assets/standalone.html'}
     )}
-    # Private academic material is excluded even when an older source contains it.
-    allowed = {p for p in allowed if not p.startswith(DOCS + 'thesis/')}
-    # Website reader translations do not change executable package contracts.
-    # Check the exact public source before replacing any generated pages.
-    overlay_data = json.loads(Path(__file__).with_name('reader-translations.zh-CN.json').read_text())
-    overlays = {}
-    for original, entry in overlay_data['translations'].items():
-        if original not in allowed or hashlib.sha256((repo / original).read_bytes()).hexdigest() != entry['source_sha256']:
-            raise ValueError(f'Reader translation needs source review: {original}')
-        translated = original[:-3] + '.zh-CN.md'
-        if translated not in allowed:
-            overlays[translated] = entry['markdown']
-    allowed.update(overlays)
+    # Public writing guides never publish actual situated accounts or personal
+    # evidence, even if those files are accidentally tracked in a supplied tree.
+    private_prefixes = (DOCS + 'thesis/', PACKAGE + 'references/situated/', PACKAGE + 'references/personal/')
+    allowed = {p for p in allowed if not p.startswith(private_prefixes)}
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
 
     def source_text(path):
-        text = overlays[path] if path in overlays else (repo / path).read_text()
+        text = (repo / path).read_text()
         # Installation guidance belongs to the GitHub repository, not the reader.
         text = re.sub(r'<!-- repository-only:start -->[\s\S]*?<!-- repository-only:end -->\s*', '', text)
         # These directory entrances are useful on GitHub, but repeat the library
@@ -305,7 +294,7 @@ def main():
             rendered += f'<p class="reader-provenance">{sources} · <a href="{BASE}license/{"" if chinese else "en/"}">CC BY-NC-SA 4.0</a></p>'
         counterpart = path.replace('.zh-CN.md', '.md') if chinese else path[:-3] + '.zh-CN.md'
         switch = f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{url(counterpart)}">{"English" if chinese else "中文"}</a>' if counterpart in allowed else f'<span class="edition-note">{"原文版本" if chinese else "Original edition"}</span>'
-        source_note = '<p class="reader-provenance">本站中文阅读版</p>' if path in overlays else ''
+        source_note = ''
         if write_essay(dist, path, title(path), rendered, md.toc, source_note, shell, title):
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
@@ -325,6 +314,18 @@ def main():
                 retired_page = dist / 'philosophy' / name / ('' if suffix == '.zh-CN.md' else 'en') / 'index.html'
                 retired_page.parent.mkdir(parents=True, exist_ok=True)
                 retired_page.write_text(redirect_page(retired_url(old), routes))
+    # These guide URLs were published before the fixed-five formation guides.
+    # Aliases preserve readers' links without treating old guide names as slots
+    # for actual private accounts.
+    legacy_guides = {
+        'encounter': 'orientation', 'models': 'person',
+        'relationship': 'relationship', 'usage': 'environment', 'sources': 'sources',
+    }
+    for legacy, successor in legacy_guides.items():
+        for edition in ('.md', '.zh-CN.md'):
+            old = PACKAGE + 'references/' + legacy + edition
+            target = PACKAGE + 'references/formation/' + successor + edition
+            write('source/' + str(Path(old).with_suffix('.html')), redirect_page(url(target)))
     for english in [False, True]:
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
@@ -332,9 +333,9 @@ def main():
             ('理解整体实践', 'Understand the practice', '面向读者，说明作者的哲学、人与模型的协作及工作环境怎样联系起来。', 'For readers: understand how the author connects philosophy, collaboration between a person and model, and the working environment.', [
                 ('references/docs/creation-method', '实践说明', 'Practice explained', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
             ]),
-            ('协作与方法', 'Collaboration and methods', '写作参考帮助形成具体的心理模型文件，协作入口读取这些文件，环境适配把其中的理解落实到实际工作。', 'Writing references help develop concrete psychological-model files, the collaboration entrypoint reads them, and environment adaptation realizes their understanding in actual work.', [
+            ('协作与方法', 'Collaboration and methods', '写作参考帮助形成方向、个人、伙伴、关系与环境五份相连的实际描述，协作入口读取这些描述，环境适配把其中的理解落实到实际工作。', 'Writing references help develop five connected accounts of orientation, person, counterpart, relationship, and environment; the collaboration entrypoint reads those accounts, and environment adaptation realizes their understanding in actual work.', [
                 ('SKILL', '模型执行入口', 'Model entrypoint', '按已有的情境化描述进入协作，并明确尚待形成的理解；完整采用时遵循初始阅读约定。', 'Enter collaboration through the available situated accounts and identify understanding still needed; full adoption follows the initial reading contract.'),
-                ('references/design-and-revision', '形成与修订', 'Formation and revision', '说明怎样结合个人材料与实际互动形成、写作和修订相连的描述；下列五篇分别提供各份文件的写作参考。', 'Explains how to form, write, and revise connected accounts through personal material and actual interaction; the five references below address the individual files.'),
+                ('references/design-and-revision', '形成与修订', 'Formation and revision', '说明怎样结合个人材料与实际互动形成、写作和修订五份核心描述；下列公开指南分别说明写法，来源指南提供支持。', 'Explains how to form, write, and revise the five core accounts through personal material and actual interaction; the public guides below address their writing, supported by the sources guide.'),
                 ('references/harness-adaptation', '环境适配', 'Harness adaptation', '把选定理解落实到指令、工具与工作环境，检查实际效果，并从反馈修订。', 'Realize selected understanding through instructions, tools, and the working environment, check actual effects, and revise through feedback.'),
             ]),
             ('观点与阅读', 'Views and reading', '查阅作者的主张、论证与来源，理解并比较哲学、心理与工程各自的问题及其联系。', 'Consult the author’s claims, arguments, and sources to understand and compare the questions and connections of philosophy, psychology, and engineering.', [
@@ -347,11 +348,11 @@ def main():
             ]),
         ]
         writing_guides = [
-            ('references/encounter', '如何写相遇描述', 'How to write an encounter account', '凝练目的、参与方式与双方关系，形成日常协作可用的全貌。', 'Condense purpose, participation, and the relationship into a usable view for ordinary collaboration.'),
-            ('references/models', '如何建立用户模型', 'How to develop a user model', '根据相关经验与证据理解具体的人，保留范围、差异与未知。', 'Understand the actual person through relevant experience and evidence, retaining scope, differences, and unknowns.'),
-            ('references/relationship', '如何描述伙伴与关系', 'How to describe the counterpart and relationship', '说明实际伙伴的能力、预期贡献、合作方式与相互纠正。', 'Describe the actual counterpart’s capabilities, intended contributions, cooperation, and reciprocal correction.'),
-            ('references/usage', '如何描述实际使用', 'How to describe situated use', '说明当前可用资源、参与者的贡献与条件；改变运作并核验效果由环境适配承担。', 'Describe current resources, participant contributions, and conditions; adaptation owns changes to operation and verification of their effects.'),
-            ('references/sources', '如何组织来源与根据', 'How to organize sources and grounds', '说明理解的根据与来源归属，保留获授权的原始材料入口。', 'Locate the grounds of understanding and source owners, retaining authorized routes to original material.'),
+            ('references/formation/orientation', '如何写方向描述', 'How to write an orientation account', '凝练共同目的、价值取向与实践方向，说明哪些选择仍待探究。', 'Articulate shared purpose, values, and practical direction, including choices still open to inquiry.'),
+            ('references/formation/person', '如何描述个人', 'How to describe the person', '根据相关经验与证据理解具体的人，保留范围、差异与未知。', 'Understand the actual person through relevant experience and evidence, retaining scope, differences, and unknowns.'),
+            ('references/formation/counterpart', '如何描述伙伴', 'How to describe the counterpart', '区分期待的角色与实际能力，描述伙伴的理解、贡献与局限。', 'Distinguish the intended role from actual capabilities and describe the counterpart’s understanding, contributions, and limits.'),
+            ('references/formation/relationship', '如何描述关系', 'How to describe the relationship', '说明双方怎样理解、参与、分工并相互纠正。', 'Describe how the participants understand, participate, share work, and correct one another.'),
+            ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实践的实际条件、可用资源与运作关系，为环境适配提供依据。', 'Describe the actual conditions, available resources, and operating relations that inform environment adaptation.'),
         ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
@@ -360,9 +361,10 @@ def main():
                 path = PACKAGE + stem + edition
                 guides_html = ''
                 if stem == 'references/design-and-revision':
-                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
-                    guide_note = ('Five writing references built on YinYang’s philosophical account. Use them with the actual person’s material and interactions to write connected accounts of the encounter, person, counterpart and relationship, situated use, and sources.' if english else '在阴阳哲学基础上形成的五篇写作参考。结合具体个人的材料与实际互动，写出相遇、个人、伙伴与关系、实际使用、来源与根据五份相连的心理模型文件。')
-                    guides_html = '<div class="method-guides"><h3>' + ('References for writing the five psychological-model files' if english else '如何写作五个心理模型的参考') + '</h3><p>' + guide_note + '</p><ul>' + guide_items + '</ul></div>'
+                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition, guide_en if english else guide_zh) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
+                    guide_note = ('Five public writing guides built on YinYang’s philosophical account. Use them with personal material and actual interaction to develop the connected accounts of orientation, person, counterpart, relationship, and environment. The actual accounts remain with their private owner.' if english else '在阴阳哲学基础上形成的五篇公开写作指南。结合个人材料与实际互动，形成方向、个人、伙伴、关系与环境五份相连的实际描述；具体描述由私人所有者保管。')
+                    support = link(PACKAGE + 'references/formation/sources' + edition, 'Supporting guide: sources and grounds' if english else '支持指南：来源与根据')
+                    guides_html = '<div class="method-guides"><h3>' + ('Guides for writing the five core accounts' if english else '五份核心描述的写作指南') + '</h3><p>' + guide_note + '</p><ul>' + guide_items + '</ul><p>' + support + '</p></div>'
                 method = stem in {'SKILL', 'references/design-and-revision', 'references/harness-adaptation'}
                 entries_html.append('<li>' + link(path, None if method else label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
@@ -383,7 +385,7 @@ def main():
                 continue
             diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">← {"Library" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh} </p><iframe class="diagram-viewer" title="{en if english else zh}" src="{url(diagram_path)}" sandbox="allow-scripts allow-downloads"></iframe><p class="source-note">{link(PACKAGE + "references/diagrams/THIRD-PARTY-NOTICES.md", "Third-party notices" if english else "第三方权利说明")}</p></main>'
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
-        intro = ('YinYang’s philosophy uses characters, imagery, and relationships to organize practice between a person and a model, giving that practice an engineering ontology the model can interpret and use. These documents develop the philosophical work and offer references for psychological-model writing, collaboration, and environment adaptation.' if english else '阴阳的哲学以人物、意象与关系组织人与模型的实践，构成模型能够理解和使用的工程本体。这里的文档展开这部哲学，并提供心理模型写作、协作和环境适配的参考。')
+        intro = ('YinYang’s philosophy uses characters, imagery, and relationships to organize practice between a person and a model, giving that practice an engineering ontology the model can interpret and use. These documents develop the philosophical work and offer guides for writing situated accounts, collaboration, and environment adaptation.' if english else '阴阳的哲学以人物、意象与关系组织人与模型的实践，构成模型能够理解和使用的工程本体。这里的文档展开这部哲学，并提供实际描述写作、协作和环境适配的指南。')
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
         hub_style = '<style>.method-guides{margin:24px 0 0 16px;padding-left:20px;border-left:1px solid var(--line)}.method-guides h3{font-size:18px;margin-bottom:8px}.method-guides ul{list-style:none;margin:12px 0 0;padding:0}.method-guides li{border:0;padding:10px 0}.method-guides a{font-size:17px}.method-guides p{font-size:14px;line-height:1.8;margin-top:6px}</style>'

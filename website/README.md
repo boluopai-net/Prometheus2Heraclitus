@@ -423,18 +423,21 @@ and section pages. Human projections omit the package's opening and closing
 navigation rows in favor of their own collection, series, and edition controls;
 body links and arguments remain. Explicit edition links retain their authored
 language target, while ordinary conceptual links select the current reader's
-available counterpart. Six website-only Chinese overlays in
-`scripts/reader-translations.zh-CN.json` complete encounter, models, relationship,
-usage, sources, and the distributed personal-reference index readers. The
-renderer checks each original's SHA-256 before applying its translation; these
-overlays do not change executable source-package instructions or private models.
+available counterpart. The five core writing guides use the canonical bilingual
+`references/formation/{orientation,person,counterpart,relationship,environment}`
+editions, with `formation/sources` as supporting guidance. The actual accounts
+and private evidence remain outside the public reader. Earlier encounter,
+models, relationship, usage, and sources guide URLs redirect to their public
+successors. The former website-only Chinese overlays are retired now that their
+successors have complete canonical editions.
 Keep source labels faithful to each file's actual purpose. Decorative borders belong to
 their owning CSS rules; prose links use the shared teal color, a subtle hover background, and visible keyboard focus without underlines; disclosures retain native carets.
 Run it directly after editing static section pages. `design-qa.md` records the
 selected visual reference, browser evidence, and responsive verification.
 
-The generator excludes private academic source paths and removes their former
-download asset, even when an older canonical checkout contains those files.
+The generator excludes `references/situated/`, `references/personal/`, and
+private academic source paths, even when a supplied canonical checkout tracks
+those files. It also removes the former private academic download asset.
 Local complete and anonymous PDFs remain outside this Site checkout.
 
 Category motifs follow the current home and section pages: philosophy uses
