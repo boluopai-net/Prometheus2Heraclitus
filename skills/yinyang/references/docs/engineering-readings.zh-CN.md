@@ -14,6 +14,29 @@
 再按需深入 Arora–Barak。这些是学习选择，不是每次实现的前提。
 课程提供讲授、作业与项目，教材展开连贯概念，文档查阅具体接口；出版社书目不等于免费全文。
 
+## 语言模型、检索与数据工具
+
+以下是技术教材、课程和工具入口，供了解能力与比较实现。它们不构成个人心理建模的推荐
+组合，也不因能够保存、检索或生成文本，就成为经过验证的心理模型。心理学书目见[心理阅读](psychological-readings.zh-CN.md)。
+
+| 教材或课程 | 内容 |
+| --- | --- |
+| Jurafsky 与 Martin，[Speech and Language Processing，第 3 版在线草稿](https://web.stanford.edu/~jurafsky/slp3/) | 自然语言处理与语言模型教材，涵盖词元、嵌入、上下文、信息抽取、时间、话语和检索。官网提供全文与课件；2026-08-19 版的 Agents 章仍未完成。 |
+| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en/unit1/introduction) | 在线课程，介绍模型、消息、工具及行动后的观察。 |
+| [Agent Skills 概览](https://agentskills.io/home) · [规范](https://agentskills.io/specification) | 用于组织指令、脚本和参考资源的开放格式。 |
+
+| 工具或项目 | 一般用途与官方入口 |
+| --- | --- |
+| [SQLite](https://www.sqlite.org/docs.html) | 嵌入式关系数据库，提供 SQL 查询与事务。 |
+| [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | 前者提供 SQLite 数据导入与操作的命令行／Python 接口；后者提供数据库浏览、查询与 JSON 接口。 |
+| [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | 关系数据库及向量相似度检索扩展。 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | Agent 记忆与检索系统，提供 retain、recall、reflect 等能力。 |
+| [Graphiti](https://github.com/getzep/graphiti) | 面向 Agent 的时序知识图谱。 |
+| [Mem0](https://github.com/mem0ai/mem0) | 为 Agent 与应用提供持久记忆的组件。 |
+| [Letta](https://github.com/letta-ai/letta) | 带有持久状态和记忆管理的 Agent 平台。 |
+
+这些项目的存储对象、抽取方式和运行条件不同，链接用于查看各自文档，并不表示需要全部安装。
+
 ## 先找到地图，再做出一个可用环境
 
 | 材料 | 从哪里开始 |

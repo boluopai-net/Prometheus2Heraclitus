@@ -2,43 +2,39 @@
 
 [简体中文](psychological-readings.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Engineering readings](engineering-readings.md)
 
-The current practice here is [event-stream psychological modeling](../formation/person.md#event-stream-psychological-modeling):
-infer psychological processes from long-term conversation history, everyday
-habits and life materials, and distill a natural-language conceptual account
-with philosophical interpretation. Dialogue leaves history that can be revisited
-in its temporal and situational relations. The person guide owns this method,
-its grounding, and the distinction between language-model statistical generation
-and fitting a psychological statistical model. A preference account can already
-guide an arrangement from known habits and desired responses; explanatory
-modeling develops the further relations the current question needs. The
-[formation method](../design-and-revision.md) connects both routes to actual use.
+These books and papers address case formulation, psychodynamics, empirical
+research, and computational modeling, providing resources for understanding
+and comparing explanations. This collection's exploration of language models
+in personal psychological modeling has not produced a validated, ready-to-use
+method. The bibliography and [engineering tools](engineering-readings.md#language-models-retrieval-and-data-tools)
+do not constitute a ready-made modeling workflow.
 
-Self and others have different informational advantages in understanding a
-person, as [Vazire (2010)](https://pubmed.ncbi.nlm.nih.gov/20085401/) shows in
-personality research. [Peters, Cerf, and Matz (2024)](https://arxiv.org/html/2405.13052v1)
-find personality signals in conversations by comparing GPT-4 inferences with
-self-report Big Five measures. This supports a bounded claim about information
-available in dialogue under the study's conditions; developing a psychological
-model of the person requires a broader account and continuing correction.
-
-Quantitative individual models and revisable case formulations offer methods
-for possible future borrowing. The present practice does not adopt their
-estimation procedure. [Burger et al. (2022)](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
-connect personalized case formulation with Bayesian idiographic networks through
-Clinical PREMISE and an OCD case. Such models depend on individual data and
-interpretive judgment, with technical and clinical barriers to their use;
-statistical relations need further evidence to support causal explanations.
-
-The bibliography supplies concepts and comparisons, not a personal portrait.
-Use the readings below to articulate experience, compare psychological
-explanations, and assess them. For experience and cases, enter [psychological
-conflict, relationships, and change](#psychological-conflict-relationships-and-change)
-and its accessible books. For a proposed process model, use modeling and
-empirical assessment; for change across encounters, use belief and interaction
-research. These are question-based entrances, not a compulsory course or a
-ready-made model of the person.
+Case formulation concerns explanations of a particular person; psychoanalysis
+offers theories of conflict, defense, self, and relationships; qualitative and
+quantitative research offer different ways of handling and assessing evidence.
+These contributions can be compared, but sharing the word “model” does not make
+them interchangeable. More accessible experience and case readings remain under
+[psychological conflict, relationships, and change](#psychological-conflict-relationships-and-change).
 
 Links lead to authors, publishers, and public originals, with general-reader, professional, and research purposes distinguished. Catalogs and samples are not free full texts; recency and reputation alone do not establish that an explanation fits the present question.
+
+## Case formulation and psychodynamics
+
+| Book or chapter | Content and source |
+| --- | --- |
+| The Psychodynamic Formulation Collective, [Psychodynamic Formulation: An Expanded Approach (2022)](https://www.wiley.com/en-us/psychodynamic-formulation-p-9781119797265) | A professional textbook on psychodynamic formulation, including development, conflict and defense, relationships, self, sociocultural context, and collaborative formulation. The publisher provides a contents list and first-chapter sample. |
+| Nancy McWilliams, [Psychoanalytic Diagnosis, second edition (2011)](https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694) | A professional conceptual and case textbook on psychoanalytic personality theory, defenses, and relational organization, with publisher contents and a sample. |
+| Tracy D. Eells, [Psychotherapy Case Formulation, second edition (2026)](https://www.apa.org/pubs/books/psychotherapy-case-formulation-second-edition) | A case-formulation textbook addressing explanatory hypotheses, quality, and clinical application. The link leads to the APA publisher record. |
+| Jacqueline B. Persons and Michael A. Tompkins, Cognitive-behavioral Case Formulation (2007) | A chapter in Eells's edited *Handbook of Psychotherapy Case Formulation*, second edition, pp. 290–316. [Author institution's bibliography](https://www.sfbacct.com/scholary-works/) · [Author-uploaded chapter](https://www.researchgate.net/publication/235221692_Cognitive-behavioral_case_formulation). |
+
+## Experience and individual differences
+
+| Book or paper | Content and source |
+| --- | --- |
+| Braun and Clarke (2006), [Using Thematic Analysis in Psychology](https://doi.org/10.1191/1478088706qp063oa) | A foundational qualitative-methods paper addressing theoretical positions, analytic choices, and patterns in material. |
+| Oblak et al. (2024), [Crisis of Objectivity](https://doi.org/10.3389/fpsyg.2024.1383717) | An open case study constructing an individualized network from experiential material to understand connections among difficulties. |
+| Mischel and Shoda (1995), [A Cognitive-Affective System Theory of Personality](https://pubmed.ncbi.nlm.nih.gov/7740090/) | A theory of situations, cognitive-affective relations, and behavioral variation, including “if–then” behavioral signatures. |
+| Navarro and Foxcroft, [Learning Statistics with jamovi (2025)](https://davidfoxcroft.github.io/lsj-book/) | An open textbook covering measurement, research design, descriptive statistics, sampling and estimation, correlation, and regression. |
 
 ## Psychological process modeling and empirical assessment
 
@@ -58,6 +54,23 @@ contribution the current question needs.
 Read here about why experimental designs and measurements can answer a question. For programming, recording, and reproducing an experiment, continue to [engineering readings](engineering-readings.md#experimental-implementation-data-and-model-assessment). The same experiment needs both contributions; successful execution and a supported explanation are different outcomes.
 
 For more technical accounts of cognition, consult Marr's [Vision, chapter 1](https://mitpress.mit.edu/9780262514620/vision/) and [Probabilistic Models of Cognition](https://github.com/probmods/chapters). The former distinguishes computational task, representation/algorithm, and physical implementation; the latter connects generative models, conditioning, and inference to programs.
+
+## Language models and personal understanding
+
+| Research | Subject and available material |
+| --- | --- |
+| Hossain et al. (2025), [AutoPsyC](https://aclanthology.org/2025.clpsych-1.2/) · [Code](https://git.opendfki.de/philipp.mueller/autopsyc) | Recognizing psychodynamic conflicts in semi-structured interviews. The paper compares methods, with stronger results involving fine-tuning; the public repository does not include private interviews, the OPD manual, or trained weights. |
+| Hu et al., [TheraMind](https://arxiv.org/abs/2510.25758v2) · [Code](https://github.com/Emo-gml/TheraMind) | Research on a longitudinal counseling agent, including cross-session information and strategy adjustment. Its simulated evaluation is distinct from effectiveness in actual use. |
+| Zhou et al. (2026), [ReaLMem and ChronoProfiler](https://arxiv.org/abs/2609.19167v1) | A benchmark and profiling study of long-term multimodal personal archives, distinguishing factual recall, persona inference, and predictive personalization. |
+
+Related work includes [Vazire (2010)](https://pubmed.ncbi.nlm.nih.gov/20085401/) on
+self–other knowledge asymmetry, [Peters, Cerf, and Matz (2024)](https://arxiv.org/html/2405.13052v1)
+comparing GPT-4 personality inferences with self-report Big Five measures, and
+[Burger et al. (2022)](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
+connecting case formulation with Bayesian idiographic networks in Clinical
+PREMISE. Each addresses a specific research object under particular conditions;
+they do not establish that ordinary dialogue suffices for reliable personal
+psychological modeling.
 
 ## Psychological conflict, relationships, and change
 
@@ -95,7 +108,6 @@ These approaches developed over recent decades and are represented by maintained
 | Freud, [Mourning and Melancholia](https://web.english.upenn.edu/~cavitch/pdf-library/Freud_MourningAndMelancholia.pdf) | Examine how love, hostility, identification, and self-reproach are related in the explanation; the historical account does not apply automatically to every experience of grief. |
 | Melanie Klein, [Notes on Some Schizoid Mechanisms (1946)](https://melanie-klein-trust.org.uk/resources/reading-list-paranoid-schizoid-position/) | The trust's original-work reading entrance. Examine splitting, projection, and different aspects of the same object alongside the earlier depressive-position account; different authors' splitting concepts are not interchangeable. |
 | D. W. Winnicott, [Playing and Reality](https://www.routledge.com/Playing-and-Reality/Winnicott/p/book/9780415345460); [Ego Distortion in Terms of True and False Self](https://academic.oup.com/book/12894/chapter/164044466) | Transitional space between creation and encounter, and the relationships among compliance, spontaneity, and true/false self. Preserving meaningful tension differs from accepting arbitrary contradictory assertions. |
-| Nancy McWilliams, [Psychoanalytic Diagnosis, second edition](https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694) | A professional conceptual and case reference comparing personality, defenses, and relational organization. Classification does not automatically judge an unfamiliar person. |
 
 For Freud, Lacan, and philosophical discussions of will and self-deception, see [philosophical readings](philosophical-readings.md). These books help articulate experience and relationships; reading professional texts and practicing professional therapy are different activities.
 

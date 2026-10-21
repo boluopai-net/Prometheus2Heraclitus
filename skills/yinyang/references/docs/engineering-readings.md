@@ -21,6 +21,34 @@ teaching, assignments, and projects; books develop connected concepts;
 documentation references particular interfaces. A publisher's book record does
 not imply free full text.
 
+## Language models, retrieval, and data tools
+
+These technical books, courses, and tools provide references for understanding
+capabilities and comparing implementations. They are not a recommended personal
+psychological-modeling stack. Storing, retrieving, or generating text does not
+make a system a validated psychological model. See [psychological readings](psychological-readings.md)
+for the psychology bibliography.
+
+| Book or course | Content |
+| --- | --- |
+| Jurafsky and Martin, [Speech and Language Processing, third-edition online draft](https://web.stanford.edu/~jurafsky/slp3/) | A natural-language-processing and language-model textbook covering tokens, embeddings, context, information extraction, time, discourse, and retrieval. The official site provides the text and slides; the Agents chapter remains unwritten in the August 19, 2026 release. |
+| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en/unit1/introduction) | An online course introducing models, messages, tools, and observations following actions. |
+| [Agent Skills overview](https://agentskills.io/home) · [Specification](https://agentskills.io/specification) | An open format for organizing instructions, scripts, and reference resources. |
+
+| Tool or project | General purpose and official source |
+| --- | --- |
+| [SQLite](https://www.sqlite.org/docs.html) | An embedded relational database supporting SQL queries and transactions. |
+| [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces. |
+| [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | A relational database and its vector-similarity-search extension. |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | An agent memory and retrieval system with retain, recall, and reflect capabilities. |
+| [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agents. |
+| [Mem0](https://github.com/mem0ai/mem0) | Persistent-memory components for agents and applications. |
+| [Letta](https://github.com/letta-ai/letta) | A platform for agents with persistent state and memory management. |
+
+These projects differ in stored objects, extraction behavior, and operating
+requirements. The links lead to their documentation, not an instruction to
+install all of them.
+
 ## Find the map and build a usable environment
 
 | Material | Where to begin |

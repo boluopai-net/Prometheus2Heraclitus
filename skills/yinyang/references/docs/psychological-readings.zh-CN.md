@@ -2,29 +2,33 @@
 
 [English](psychological-readings.md) · [哲学阅读](philosophical-readings.zh-CN.md) · [工程阅读](engineering-readings.zh-CN.md)
 
-这里当前实践的是[事件流心理建模](../formation/person.zh-CN.md#事件流心理建模)：从长期
-对话历史、日常习惯与生活材料推论心理过程，结合哲学解释，凝练为自然语言概念描述。
-对话留下历史，能够按时间与处境关系回看。个人指引维护具体方法、根据，以及语言模型的
-统计生成与拟合心理统计模型的区别。已知习惯与希望得到的回应，可以通过偏好描述直接
-指导安排；解释性建模展开当前问题还需要的联系。[形成与修订](../design-and-revision.zh-CN.md)
-把两条路径接到实际使用。
+这里收录个案概念化、精神动力学、经验研究与计算建模的书和论文，供理解和比较不同解释。
+本文集对语言模型参与个人心理建模的探索，尚未形成经过验证、可直接照用的方案；下面的
+书目与[工程工具](engineering-readings.zh-CN.md#语言模型检索与数据工具)不是一套现成的建模流程。
 
-自我与他人在理解一个人时具有不同的信息优势，[Vazire（2010）](https://pubmed.ncbi.nlm.nih.gov/20085401/)
-的人格研究呈现了这种不对称。[Peters、Cerf 与 Matz（2024）](https://arxiv.org/html/2405.13052v1)
-将 GPT-4 的推断与自报大五人格测量比较，在对话中发现了人格信号。这支持关于研究
-条件下对话所含信息的一项有限主张；形成这个人的心理模型，仍需要更广的说明与持续纠正。
-
-量化的个人模型与可修订的个案概念化，提供未来可以借用的方法；当前实践并未采用其估计程序。
-[Burger 等（2022）](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)通过 Clinical PREMISE
-及一个强迫症案例，把个性化个案概念化与贝叶斯个体网络相连。这些模型依赖个人数据和
-解释判断，使用中仍有技术与临床障碍；统计关系需要进一步证据，才能支持因果解释。
-
-书目提供概念与比较，不交付个人画像。下面的阅读提供表达经验、比较心理解释及检验解释的方法。经验与案例可以从
-[心理冲突、关系与改变](#心理冲突关系与改变)及其中易读书目进入；
-拟议的过程模型接到建模与经验检验，跨相遇的变化接到信念与互动研究。
-这些是按问题选择的入口，不是强制课程，也不是现成的个人模型。
+个案概念化关心对具体人的解释，精神分析提供关于冲突、防御、自我与关系的理论，质性和
+量化研究提供不同的材料处理与检验方法。这些贡献可以比较，不能仅凭共同使用「模型」一词
+就互相替代。较易读的经验与案例入口仍见[心理冲突、关系与改变](#心理冲突关系与改变)。
 
 书目以作者、出版社和公共原文为入口，注明通俗读物、专业教材或研究论文的用途。出版社书目与试读不等于免费全文；年代较新与作者知名，也不单独证明一种解释适合当前问题。
+
+## 个案概念化与精神动力学
+
+| 书或章节 | 内容与来源 |
+| --- | --- |
+| The Psychodynamic Formulation Collective，[Psychodynamic Formulation: An Expanded Approach（2022）](https://www.wiley.com/en-us/psychodynamic-formulation-p-9781119797265) | 专业教材。心理动力个案概念化，涵盖发展经历、冲突与防御、关系、自我、文化社会背景和合作式概念化。出版社提供目录及第一章试读。 |
+| Nancy McWilliams，[Psychoanalytic Diagnosis，第 2 版（2011）](https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694) | 专业概念与案例教材。精神分析人格理论、防御与关系组织；有出版社目录和试读。 |
+| Tracy D. Eells，[Psychotherapy Case Formulation，第 2 版（2026）](https://www.apa.org/pubs/books/psychotherapy-case-formulation-second-edition) | 个案概念化教材，讨论解释假说、质量与临床应用。链接为 APA 出版社书目。 |
+| Jacqueline B. Persons 与 Michael A. Tompkins，Cognitive-behavioral Case Formulation（2007） | 认知行为个案概念化章节，收于 Eells 编 *Handbook of Psychotherapy Case Formulation* 第 2 版，290–316 页。[作者机构书目](https://www.sfbacct.com/scholary-works/) · [作者上传的章节](https://www.researchgate.net/publication/235221692_Cognitive-behavioral_case_formulation)。 |
+
+## 经验材料与个体差异
+
+| 书或论文 | 内容与来源 |
+| --- | --- |
+| Braun 与 Clarke（2006），[Using Thematic Analysis in Psychology](https://doi.org/10.1191/1478088706qp063oa) | 质性主题分析的经典论文，讨论理论立场、分析选择与材料中的模式。 |
+| Oblak 等（2024），[Crisis of Objectivity](https://doi.org/10.3389/fpsyg.2024.1383717) | 开放个案研究，以经验材料构建个体化网络，理解多种困难之间的联系。 |
+| Mischel 与 Shoda（1995），[A Cognitive-Affective System Theory of Personality](https://pubmed.ncbi.nlm.nih.gov/7740090/) | 情境、认知情感关系与行为差异的理论，包含「如果—那么」行为签名。 |
+| Navarro 与 Foxcroft，[Learning Statistics with jamovi（2025）](https://davidfoxcroft.github.io/lsj-book/) | 开放统计教材，涵盖测量、研究设计、描述统计、抽样与估计、相关和回归。 |
 
 ## 心理过程建模与经验检验
 
@@ -42,6 +46,20 @@ Guest–Martin 与 Borsboom 等帮助明确理论；研究方法教材与 Wilson
 实验设计和测量为何能回答问题，在这里阅读；实验怎样编程、记录和复现，接到[工程阅读](engineering-readings.zh-CN.md#实验实现数据与模型检验)。同一实验同时需要两方面，运行成功与解释成立是不同的结果。
 
 进一步理解认知解释时，可读 Marr 的 [Vision 第一章](https://mitpress.mit.edu/9780262514620/vision/)与 [Probabilistic Models of Cognition](https://github.com/probmods/chapters)：前者区分计算任务、表示与算法、物理实现，后者把生成模型、条件化和推断连接到程序。这两项需要更多技术背景。
+
+## 语言模型与个人理解的研究
+
+| 研究 | 研究对象与可查材料 |
+| --- | --- |
+| Hossain 等（2025），[AutoPsyC](https://aclanthology.org/2025.clpsych-1.2/) · [代码](https://git.opendfki.de/philipp.mueller/autopsyc) | 从半结构化访谈识别心理动力冲突。论文比较多种方法，较强结果包含微调；公开仓库不包含私密访谈、OPD 手册和训练权重。 |
+| Hu 等，[TheraMind](https://arxiv.org/abs/2510.25758v2) · [代码](https://github.com/Emo-gml/TheraMind) | 纵向心理咨询代理研究，涉及跨会谈信息和策略调整；其模拟评估与真实使用中的有效性是不同问题。 |
+| Zhou 等（2026），[ReaLMem 与 ChronoProfiler](https://arxiv.org/abs/2609.19167v1) | 长期多模态个人档案的基准与画像研究，区分事实回忆、个人推断和预测性个性化。 |
+
+其他相关研究包括 [Vazire（2010）](https://pubmed.ncbi.nlm.nih.gov/20085401/)的自我与他人知识
+不对称、[Peters、Cerf 与 Matz（2024）](https://arxiv.org/html/2405.13052v1)对 GPT-4 人格推断与
+自报大五测量的比较，以及 [Burger 等（2022）](https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf)
+将个案概念化与贝叶斯个体网络相连的 Clinical PREMISE。这些各有明确的研究对象与条件，
+不能据此认定一般对话已经足以得到可靠的个人心理模型。
 
 ## 心理冲突、关系与改变
 
@@ -79,7 +97,6 @@ Guest–Martin 与 Borsboom 等帮助明确理论；研究方法教材与 Wilson
 | 弗洛伊德，[Mourning and Melancholia／哀悼与忧郁](https://web.english.upenn.edu/~cavitch/pdf-library/Freud_MourningAndMelancholia.pdf) | 观察爱、敌意、认同与自我责备怎样在解释中相连；不能把一种历史解释直接套到所有悲伤经验。 |
 | Melanie Klein，[Notes on Some Schizoid Mechanisms（1946）](https://melanie-klein-trust.org.uk/resources/reading-list-paranoid-schizoid-position/) | 基金会原典阅读入口。理解分裂、投射与同一对象的不同面；与较早的抑郁位置论述对照，不把各家的「分裂」当成同一个概念。 |
 | D. W. Winnicott，[Playing and Reality](https://www.routledge.com/Playing-and-Reality/Winnicott/p/book/9780415345460)；[Ego Distortion in Terms of True and False Self](https://academic.oup.com/book/12894/chapter/164044466) | 创造与遭遇之间的过渡空间，以及顺从、自发性和真／假自体的关系。保留有意义的张力，区别于接受任意矛盾断言。 |
-| Nancy McWilliams，[Psychoanalytic Diagnosis，第 2 版](https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694) | 专业概念与案例参考。比较人格、防御与关系的组织方式；分类不是对陌生人的自动判断。 |
 
 弗洛伊德、拉康及意志、自我欺骗问题的哲学讨论，另见[哲学阅读](philosophical-readings.zh-CN.md)。这里的书帮助理解经验与关系；阅读专业教材与开展专业治疗是不同的事情。
 
