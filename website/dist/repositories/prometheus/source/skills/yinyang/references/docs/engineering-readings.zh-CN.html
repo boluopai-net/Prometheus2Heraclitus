@@ -1,5 +1,6 @@
 <!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工程阅读 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=c5d80ebe0283"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
 <ul>
+<li><a href="#语言模型检索与数据工具">语言模型、检索与数据工具</a></li>
 <li><a href="#先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</a></li>
 <li><a href="#git-与-github让作品和修改能够接续">Git 与 GitHub：让作品和修改能够接续</a></li>
 <li><a href="#软件设计与计算机系统">软件设计与计算机系统</a><ul>
@@ -23,6 +24,69 @@
 <p>工程使理解取得可运行、可观察、可修改的形式。本指引定位实现所需的概念与来源：学习地图、命令行、版本历史、软件设计、算法、系统、实验和物理条件。选择有助于实际工作的部分；<a href="/repositories/prometheus/source/skills/yinyang/references/harness-adaptation.zh-CN.html">环境适配</a>说明结果怎样连接预期协作。课程、文档和源仓库配有有用的教材与论文。</p>
 <p>工具页帮助找到可用的工具和 Skills；这张阅读地图解释它们背后的概念、方法与实现。工具能够调用，不表示使用者已经理解它；一份文档既可以支持学习，也可以在实际工作中按需查阅。</p>
 <p><strong>选择能接上自己起点的主线。</strong>建议入口包括：程序设计读 CS 61A 与 Composing Programs，算法读普林斯顿课程与 Algorithms，系统读 CS:APP，计算理论读 MIT 与 Sipser，再按需深入 Arora–Barak。这些是学习选择，不是每次实现的前提。课程提供讲授、作业与项目，教材展开连贯概念，文档查阅具体接口；出版社书目不等于免费全文。</p>
+<h2 id="语言模型检索与数据工具">语言模型、检索与数据工具</h2>
+<p>以下是技术教材、课程和工具入口，供了解能力与比较实现。它们不构成个人心理建模的推荐组合，也不因能够保存、检索或生成文本，就成为经过验证的心理模型。心理学书目见<a href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html">心理阅读</a>。</p>
+<table>
+<thead>
+<tr>
+<th>教材或课程</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jurafsky 与 Martin，<a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing，第 3 版在线草稿</a></td>
+<td>自然语言处理与语言模型教材，涵盖词元、嵌入、上下文、信息抽取、时间、话语和检索。官网提供全文与课件；2026-08-19 版的 Agents 章仍未完成。</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/learn/agents-course/en/unit1/introduction">Hugging Face Agents Course</a></td>
+<td>在线课程，介绍模型、消息、工具及行动后的观察。</td>
+</tr>
+<tr>
+<td><a href="https://agentskills.io/home">Agent Skills 概览</a> · <a href="https://agentskills.io/specification">规范</a></td>
+<td>用于组织指令、脚本和参考资源的开放格式。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>工具或项目</th>
+<th>一般用途与官方入口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.sqlite.org/docs.html">SQLite</a></td>
+<td>嵌入式关系数据库，提供 SQL 查询与事务。</td>
+</tr>
+<tr>
+<td><a href="https://sqlite-utils.datasette.io/">sqlite-utils</a> · <a href="https://datasette.io/">Datasette</a></td>
+<td>前者提供 SQLite 数据导入与操作的命令行／Python 接口；后者提供数据库浏览、查询与 JSON 接口。</td>
+</tr>
+<tr>
+<td><a href="https://www.postgresql.org/docs/">PostgreSQL</a> · <a href="https://github.com/pgvector/pgvector">pgvector</a></td>
+<td>关系数据库及向量相似度检索扩展。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/vectorize-io/hindsight">Hindsight</a></td>
+<td>Agent 记忆与检索系统，提供 retain、recall、reflect 等能力。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/getzep/graphiti">Graphiti</a></td>
+<td>面向 Agent 的时序知识图谱。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mem0ai/mem0">Mem0</a></td>
+<td>为 Agent 与应用提供持久记忆的组件。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/letta-ai/letta">Letta</a></td>
+<td>带有持久状态和记忆管理的 Agent 平台。</td>
+</tr>
+</tbody>
+</table>
+<p>这些项目的存储对象、抽取方式和运行条件不同，链接用于查看各自文档，并不表示需要全部安装。</p>
 <h2 id="先找到地图再做出一个可用环境">先找到地图，再做出一个可用环境</h2>
 <table>
 <thead>

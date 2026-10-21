@@ -1,6 +1,9 @@
 <!doctype html><html lang="zh-CN"><head><meta name="robots" content="noindex, nofollow, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>心理阅读 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=ee55cd2c7bd8"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=c5d80ebe0283"><link rel="stylesheet" href="/site.css?v=c8033f037235"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><p class="toc-title">本文目录</p><div class="toc">
 <ul>
+<li><a href="#个案概念化与精神动力学">个案概念化与精神动力学</a></li>
+<li><a href="#经验材料与个体差异">经验材料与个体差异</a></li>
 <li><a href="#心理过程建模与经验检验">心理过程建模与经验检验</a></li>
+<li><a href="#语言模型与个人理解的研究">语言模型与个人理解的研究</a></li>
 <li><a href="#心理冲突关系与改变">心理冲突、关系与改变</a><ul>
 <li><a href="#较容易进入的书">较容易进入的书</a></li>
 <li><a href="#现代心理治疗冲突怎样被理解与改变">现代心理治疗：冲突怎样被理解与改变</a></li>
@@ -15,13 +18,63 @@
 </div>
 </nav></aside><article class="document"><div class="reader-top"><a class="back" href="/repositories/prometheus/">文档与图示</a></div><h1 id="心理阅读">心理阅读</h1>
 
-<p>这里当前实践的是<a href="/repositories/prometheus/source/skills/yinyang/references/formation/person.zh-CN.html#事件流心理建模">事件流心理建模</a>：从长期对话历史、日常习惯与生活材料推论心理过程，结合哲学解释，凝练为自然语言概念描述。对话留下历史，能够按时间与处境关系回看。个人指引维护具体方法、根据，以及语言模型的统计生成与拟合心理统计模型的区别。已知习惯与希望得到的回应，可以通过偏好描述直接指导安排；解释性建模展开当前问题还需要的联系。<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">形成与修订</a>把两条路径接到实际使用。</p>
-<p>自我与他人在理解一个人时具有不同的信息优势，<a href="https://pubmed.ncbi.nlm.nih.gov/20085401/">Vazire（2010）</a>的人格研究呈现了这种不对称。<a href="https://arxiv.org/html/2405.13052v1">Peters、Cerf 与 Matz（2024）</a>将 GPT-4 的推断与自报大五人格测量比较，在对话中发现了人格信号。这支持关于研究条件下对话所含信息的一项有限主张；形成这个人的心理模型，仍需要更广的说明与持续纠正。</p>
-<p>量化的个人模型与可修订的个案概念化，提供未来可以借用的方法；当前实践并未采用其估计程序。
-<a href="https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf">Burger 等（2022）</a>通过 Clinical PREMISE
-及一个强迫症案例，把个性化个案概念化与贝叶斯个体网络相连。这些模型依赖个人数据和解释判断，使用中仍有技术与临床障碍；统计关系需要进一步证据，才能支持因果解释。</p>
-<p>书目提供概念与比较，不交付个人画像。下面的阅读提供表达经验、比较心理解释及检验解释的方法。经验与案例可以从<a href="#心理冲突关系与改变">心理冲突、关系与改变</a>及其中易读书目进入；拟议的过程模型接到建模与经验检验，跨相遇的变化接到信念与互动研究。这些是按问题选择的入口，不是强制课程，也不是现成的个人模型。</p>
+<p>这里收录个案概念化、精神动力学、经验研究与计算建模的书和论文，供理解和比较不同解释。本文集对语言模型参与个人心理建模的探索，尚未形成经过验证、可直接照用的方案；下面的书目与<a href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html#语言模型检索与数据工具">工程工具</a>不是一套现成的建模流程。</p>
+<p>个案概念化关心对具体人的解释，精神分析提供关于冲突、防御、自我与关系的理论，质性和量化研究提供不同的材料处理与检验方法。这些贡献可以比较，不能仅凭共同使用「模型」一词就互相替代。较易读的经验与案例入口仍见<a href="#心理冲突关系与改变">心理冲突、关系与改变</a>。</p>
 <p>书目以作者、出版社和公共原文为入口，注明通俗读物、专业教材或研究论文的用途。出版社书目与试读不等于免费全文；年代较新与作者知名，也不单独证明一种解释适合当前问题。</p>
+<h2 id="个案概念化与精神动力学">个案概念化与精神动力学</h2>
+<table>
+<thead>
+<tr>
+<th>书或章节</th>
+<th>内容与来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The Psychodynamic Formulation Collective，<a href="https://www.wiley.com/en-us/psychodynamic-formulation-p-9781119797265">Psychodynamic Formulation: An Expanded Approach（2022）</a></td>
+<td>专业教材。心理动力个案概念化，涵盖发展经历、冲突与防御、关系、自我、文化社会背景和合作式概念化。出版社提供目录及第一章试读。</td>
+</tr>
+<tr>
+<td>Nancy McWilliams，<a href="https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694">Psychoanalytic Diagnosis，第 2 版（2011）</a></td>
+<td>专业概念与案例教材。精神分析人格理论、防御与关系组织；有出版社目录和试读。</td>
+</tr>
+<tr>
+<td>Tracy D. Eells，<a href="https://www.apa.org/pubs/books/psychotherapy-case-formulation-second-edition">Psychotherapy Case Formulation，第 2 版（2026）</a></td>
+<td>个案概念化教材，讨论解释假说、质量与临床应用。链接为 APA 出版社书目。</td>
+</tr>
+<tr>
+<td>Jacqueline B. Persons 与 Michael A. Tompkins，Cognitive-behavioral Case Formulation（2007）</td>
+<td>认知行为个案概念化章节，收于 Eells 编<em> Handbook of Psychotherapy Case Formulation</em> 第 2 版，290–316 页。<a href="https://www.sfbacct.com/scholary-works/">作者机构书目</a> · <a href="https://www.researchgate.net/publication/235221692_Cognitive-behavioral_case_formulation">作者上传的章节</a>。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="经验材料与个体差异">经验材料与个体差异</h2>
+<table>
+<thead>
+<tr>
+<th>书或论文</th>
+<th>内容与来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Braun 与 Clarke（2006），<a href="https://doi.org/10.1191/1478088706qp063oa">Using Thematic Analysis in Psychology</a></td>
+<td>质性主题分析的经典论文，讨论理论立场、分析选择与材料中的模式。</td>
+</tr>
+<tr>
+<td>Oblak 等（2024），<a href="https://doi.org/10.3389/fpsyg.2024.1383717">Crisis of Objectivity</a></td>
+<td>开放个案研究，以经验材料构建个体化网络，理解多种困难之间的联系。</td>
+</tr>
+<tr>
+<td>Mischel 与 Shoda（1995），<a href="https://pubmed.ncbi.nlm.nih.gov/7740090/">A Cognitive-Affective System Theory of Personality</a></td>
+<td>情境、认知情感关系与行为差异的理论，包含「如果—那么」行为签名。</td>
+</tr>
+<tr>
+<td>Navarro 与 Foxcroft，<a href="https://davidfoxcroft.github.io/lsj-book/">Learning Statistics with jamovi（2025）</a></td>
+<td>开放统计教材，涵盖测量、研究设计、描述统计、抽样与估计、相关和回归。</td>
+</tr>
+</tbody>
+</table>
 <h2 id="心理过程建模与经验检验">心理过程建模与经验检验</h2>
 <p>Guest–Martin 与 Borsboom 等帮助明确理论；研究方法教材与 Wilson–Collins
 用证据检查模型，Farrell–Lewandowsky 提供较完整计算示例。按当前问题选择所需贡献。</p>
@@ -57,6 +110,30 @@
 </table>
 <p>实验设计和测量为何能回答问题，在这里阅读；实验怎样编程、记录和复现，接到<a href="/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html#实验实现数据与模型检验">工程阅读</a>。同一实验同时需要两方面，运行成功与解释成立是不同的结果。</p>
 <p>进一步理解认知解释时，可读 Marr 的<a href="https://mitpress.mit.edu/9780262514620/vision/"> Vision 第一章</a>与<a href="https://github.com/probmods/chapters"> Probabilistic Models of Cognition</a>：前者区分计算任务、表示与算法、物理实现，后者把生成模型、条件化和推断连接到程序。这两项需要更多技术背景。</p>
+<h2 id="语言模型与个人理解的研究">语言模型与个人理解的研究</h2>
+<table>
+<thead>
+<tr>
+<th>研究</th>
+<th>研究对象与可查材料</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hossain 等（2025），<a href="https://aclanthology.org/2025.clpsych-1.2/">AutoPsyC</a> · <a href="https://git.opendfki.de/philipp.mueller/autopsyc">代码</a></td>
+<td>从半结构化访谈识别心理动力冲突。论文比较多种方法，较强结果包含微调；公开仓库不包含私密访谈、OPD 手册和训练权重。</td>
+</tr>
+<tr>
+<td>Hu 等，<a href="https://arxiv.org/abs/2510.25758v2">TheraMind</a> · <a href="https://github.com/Emo-gml/TheraMind">代码</a></td>
+<td>纵向心理咨询代理研究，涉及跨会谈信息和策略调整；其模拟评估与真实使用中的有效性是不同问题。</td>
+</tr>
+<tr>
+<td>Zhou 等（2026），<a href="https://arxiv.org/abs/2609.19167v1">ReaLMem 与 ChronoProfiler</a></td>
+<td>长期多模态个人档案的基准与画像研究，区分事实回忆、个人推断和预测性个性化。</td>
+</tr>
+</tbody>
+</table>
+<p>其他相关研究包括<a href="https://pubmed.ncbi.nlm.nih.gov/20085401/"> Vazire（2010）</a>的自我与他人知识不对称、<a href="https://arxiv.org/html/2405.13052v1">Peters、Cerf 与 Matz（2024）</a>对 GPT-4 人格推断与自报大五测量的比较，以及<a href="https://eiko-fried.com/wp-content/uploads/retrieve-1.pdf"> Burger 等（2022）</a>将个案概念化与贝叶斯个体网络相连的 Clinical PREMISE。这些各有明确的研究对象与条件，不能据此认定一般对话已经足以得到可靠的个人心理模型。</p>
 <h2 id="心理冲突关系与改变">心理冲突、关系与改变</h2>
 <p>环境和关系变化时，原有愿望、承诺、习惯与新的处境可能彼此拉扯。这里收录几种理解冲突的方式：想改变又想维持现状、不同需要之间的矛盾、自我批评与保护、对同一个人的爱与敌意，以及知道一件事却难以据此行动。它们并非同一种机制，也不都意味着疾病。</p>
 <h3 id="较容易进入的书">较容易进入的书</h3>
@@ -154,10 +231,6 @@
 <tr>
 <td>D. W. Winnicott，<a href="https://www.routledge.com/Playing-and-Reality/Winnicott/p/book/9780415345460">Playing and Reality</a>；<a href="https://academic.oup.com/book/12894/chapter/164044466">Ego Distortion in Terms of True and False Self</a></td>
 <td>创造与遭遇之间的过渡空间，以及顺从、自发性和真／假自体的关系。保留有意义的张力，区别于接受任意矛盾断言。</td>
-</tr>
-<tr>
-<td>Nancy McWilliams，<a href="https://www.guilford.com/books/Psychoanalytic-Diagnosis/Nancy-McWilliams/9781462543694">Psychoanalytic Diagnosis，第 2 版</a></td>
-<td>专业概念与案例参考。比较人格、防御与关系的组织方式；分类不是对陌生人的自动判断。</td>
 </tr>
 </tbody>
 </table>
