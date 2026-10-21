@@ -199,7 +199,7 @@ Gordana Dodig-Crnkovic 的[Information, Computation, Cognition（2013）](https:
 
 研究心理过程、经验检验、信念与互动，接到[心理阅读](psychological-readings.zh-CN.md)。其中的理论与证据帮助理解认识实际怎样发生；哲学继续追问解释、知识根据与心灵的范围。
 
-哥德尔机与达尔文哥德尔机的技术来源见[工程阅读](engineering-readings.zh-CN.md#实验实现数据与模型检验)，便于连同实现与评估材料阅读。[偏好 harness](preference-harness.zh-CN.md)保留其哲学比较，并让形式修复、推论与查询变换各自的假设和范围保持清楚。
+哥德尔机与达尔文哥德尔机的技术来源见[工程阅读](engineering-readings.zh-CN.md#自改进研究)。[偏好 harness](preference-harness.zh-CN.md)保留其哲学比较，并让形式修复、推论与查询变换各自的假设和范围保持清楚。
 
 ## 来源范围
 

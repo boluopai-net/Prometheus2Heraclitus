@@ -5,55 +5,25 @@
 Engineering gives an understanding a form that can run, be observed, and be
 changed. Use this guide for the concepts and sources needed by that realization:
 learning maps, command lines, version history, software design, algorithms,
-systems, experiments, and physical conditions. Choose the part that helps the
+systems, data tools, and physical conditions. Choose the part that helps the
 actual work; [harness adaptation](../harness-adaptation.md) explains how its
 result connects to the intended collaboration. Courses, documentation, and
 source repositories are accompanied by useful textbooks and papers.
 
-Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Being able to invoke a tool does not establish understanding. Documentation can support both learning and reference during actual work.
+Tool pages locate usable tools and Skills; this reading map explains their concepts, methods, and implementation. Documentation can support both learning and reference during actual work.
 
 **Choose a main thread that connects with your starting point.** Suggested
 entrances are CS 61A and Composing Programs for programming, Princeton's courses
 and Algorithms for algorithms, CS:APP for systems, and MIT and Sipser for
-computation theory, with Arora–Barak for further depth. These are alternatives
-for learning, not prerequisites for every implementation. Courses offer
+computation theory, with Arora–Barak for further depth. Choose among them according to current interests and questions. Courses offer
 teaching, assignments, and projects; books develop connected concepts;
-documentation references particular interfaces. A publisher's book record does
-not imply free full text.
-
-## Language models, retrieval, and data tools
-
-These technical books, courses, and tools provide references for understanding
-capabilities and comparing implementations. They are not a recommended personal
-psychological-modeling stack. Storing, retrieving, or generating text does not
-make a system a validated psychological model. See [psychological readings](psychological-readings.md)
-for the psychology bibliography.
-
-| Book or course | Content |
-| --- | --- |
-| Jurafsky and Martin, [Speech and Language Processing, third-edition online draft](https://web.stanford.edu/~jurafsky/slp3/) | A natural-language-processing and language-model textbook covering tokens, embeddings, context, information extraction, time, discourse, and retrieval. The official site provides the text and slides; the Agents chapter remains unwritten in the August 19, 2026 release. |
-| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en/unit1/introduction) | An online course introducing models, messages, tools, and observations following actions. |
-| [Agent Skills overview](https://agentskills.io/home) · [Specification](https://agentskills.io/specification) | An open format for organizing instructions, scripts, and reference resources. |
-
-| Tool or project | General purpose and official source |
-| --- | --- |
-| [SQLite](https://www.sqlite.org/docs.html) | An embedded relational database supporting SQL queries and transactions. |
-| [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces. |
-| [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | A relational database and its vector-similarity-search extension. |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | An agent memory and retrieval system with retain, recall, and reflect capabilities. |
-| [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agents. |
-| [Mem0](https://github.com/mem0ai/mem0) | Persistent-memory components for agents and applications. |
-| [Letta](https://github.com/letta-ai/letta) | A platform for agents with persistent state and memory management. |
-
-These projects differ in stored objects, extraction behavior, and operating
-requirements. The links lead to their documentation, not an instruction to
-install all of them.
+documentation references particular interfaces. Links include course notes, open textbooks, and publisher records.
 
 ## Find the map and build a usable environment
 
 | Material | Where to begin |
 | --- | --- |
-| [CS DIY](https://csdiy.wiki/) · [source repository](https://github.com/PKUFlyingPig/cs-self-learning) | An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation. It is not an official university-wide Peking University curriculum or a requirement to complete every course. |
+| [CS DIY](https://csdiy.wiki/) · [source repository](https://github.com/PKUFlyingPig/cs-self-learning) | An open self-study map initiated by PKUFlyingPig. Read its usage guide, then select programming, mathematics, algorithms, or systems courses from your existing foundation. |
 | Tsinghua's computer-science student association: [SAST skill docs](https://docs.net9.org/) | Chinese introductory skill documentation. Follow the immediate need into problem solving, Git, Linux, editors, languages, and development frameworks, connecting foundational courses with actual work. |
 | [MIT Missing Semester 2026](https://missing.csail.mit.edu/) | Begin with the shell, command-line environment, and development workflows, using the current course's notes and small exercises. Earlier offerings remain available through the site's archive; keep each year's lesson sequence distinct. |
 | William Shotts, [The Linux Command Line](https://linuxcommand.org/tlcl.php) | The author's open books introduce files, permissions, processes, pipes, redirection, and scripts. macOS and Linux share some Unix concepts, but command options and system administration require the target system's documentation. |
@@ -73,12 +43,12 @@ A useful beginning is a small project built with model assistance whose inputs, 
 
 ### Programming and abstraction: CS 61A and SICP
 
-**CS 61A is the foundational entrance here.** It develops an understanding of programs through functions, data, and interpretation. Software construction then organizes existing programming ability into reliable software; it does not replace this foundation.
+**CS 61A is the foundational entrance here.** It develops an understanding of programs through functions, data, and interpretation. Software construction then organizes existing programming ability into reliable software.
 
 | Course and book | Content and purpose |
 | --- | --- |
 | Berkeley [CS 61A](https://cs61a.org/) · John DeNero, [Composing Programs](https://www.composingprograms.com/) | A course paired with its online text. From functions, higher-order functions, recursion, and data abstraction, proceed to objects, interpreters, and different programming approaches. Small exercises and projects make behavior and abstraction boundaries concrete. |
-| Abelson and Sussman, [SICP, second edition](https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/) · [full PDF hosted by MIT](https://web.mit.edu/6.001/6.037/sicp.pdf) | Develop procedural and data abstraction, state, interpreters, and evaluation through Scheme. This original work is an important intellectual background for CS 61A and a deeper reading beyond Composing Programs; the two books are not editions of the same text. |
+| Abelson and Sussman, [SICP, second edition](https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/) · [full PDF hosted by MIT](https://web.mit.edu/6.001/6.037/sicp.pdf) | Develop procedural and data abstraction, state, interpreters, and evaluation through Scheme. This original work is an important intellectual background for CS 61A and a deeper reading beyond Composing Programs. |
 | [SICP JavaScript adaptation / Comparison Edition](https://sicp.sourceacademy.org/) | Compare the Scheme original with its JavaScript adaptation; the site also links to Interactive SICP JS for reading and evaluation. Choose according to existing language experience and the question; the versions correspond while differing in implementation. |
 
 ### Software construction and design
@@ -86,7 +56,7 @@ A useful beginning is a small project built with model assistance whose inputs, 
 | Courses, notes, and reference books | Content and purpose |
 | --- | --- |
 | John Ousterhout, [A Philosophy of Software Design](https://web.stanford.edu/~ouster/cgi-bin/book.php) | Author's book and course resources. Study complexity, modules, interfaces, and information hiding. “Philosophy” names design thinking in the title; this map locates the book by its software-engineering purpose. |
-| [MIT 6.031 Software Construction (2021)](https://web.mit.edu/6.031/www/sp21/) · readings listed on the course page | After programming foundations, study specifications, testing, abstract data types, and concurrency to develop working code into software with explicit behavioral contracts. Its own notes are the paired reading; Ousterhout is adjacent design reading, not presented as this course's assigned textbook. |
+| [MIT 6.031 Software Construction (2021)](https://web.mit.edu/6.031/www/sp21/) · readings listed on the course page | After programming foundations, study specifications, testing, abstract data types, and concurrency to develop working code into software with explicit behavioral contracts. Its own notes are the paired reading; Ousterhout is adjacent design reading. |
 
 ### From programs to machines, operating systems, and networks
 
@@ -112,39 +82,54 @@ A useful beginning is a small project built with model assistance whose inputs, 
 | Course and book | Content and purpose |
 | --- | --- |
 | MIT [18.404J Theory of Computation (2020)](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) · Michael Sipser, [Introduction to the Theory of Computation, 3rd edition](https://math.mit.edu/~sipser/book.html) | The foundational thread. The course offers lectures and exercises; the book moves from automata and computability into complexity. The author's book page provides edition information and errata. Match exercise numbers to the edition used by the course. |
-| MIT [6.045J Automata, Computability, and Complexity (2011)](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/) · course notes and textbook information | Another organization of the foundational field, useful for supplementary topic reading rather than compulsory duplication of 18.404. |
+| MIT [6.045J Automata, Computability, and Complexity (2011)](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/) · course notes and textbook information | Another organization of the foundational field, useful for supplementary topic reading. |
 | Sanjeev Arora and Boaz Barak, [Computational Complexity: A Modern Approach](https://theory.cs.princeton.edu/complexity/) | The advanced thread. With a foundation in computational models, reductions, and basic complexity classes, investigate classes, randomness, interactive proofs, and lower bounds. The authors provide a public draft and companion resources; distinguish the draft from the published edition. |
 | Boaz Barak, [Introduction to Theoretical Computer Science](https://introtcs.org/public/index.html) | Open textbook connecting models of computation, computability, and efficiency to complexity. Distinguish impossibility, high computational cost, and something not yet implemented by the current program. |
 
-Algorithms and complexity analysis establish properties under formal conditions; real systems also depend on data, implementation, and machine resources. Measured speed and asymptotic complexity can inform one another without being the same evidence.
+Algorithms and complexity analysis establish properties under formal conditions; real systems also depend on data, implementation, and machine resources. Speed measurements and asymptotic analysis offer two scales of observation.
 
 ### Original sources behind this collection's comparisons
 
 | Source | Connection to the essays |
 | --- | --- |
-| A. M. Turing (1936), [On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), especially §6 | The universal machine supplies the formal reference for the interpreter analogy in [Metaphor and personal modeling](metaphor-and-self-revision.md). It does not establish that a language model interprets every program correctly. |
+| A. M. Turing (1936), [On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), especially §6 | The universal machine supplies the formal reference for the interpreter analogy in [Metaphor and personal modeling](metaphor-and-self-revision.md). |
 | Thomas R. Gruber (1993), [A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf), §§1–2 | Objects, relations, and shared conceptualization in knowledge representation. Read alongside the engineering ontology developed in [Stealing fire and cultivating creative capacity](stealing-fire.md); that essay extends the source into its own account. |
 | Donald E. Knuth, [Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html) | The established practice of organizing explanation and program code together. Compare its technical purpose with this collection's broader literary natural-language programming. |
 
-## Experimental implementation, data, and model assessment
+## Self-improvement research
 
-| Documentation or repository | Reading purpose |
+| Documentation or paper | Content |
 | --- | --- |
-| [PsychoPy documentation](https://www.psychopy.org/) | Present stimuli, record responses, and organize experimental tasks. Use a simple experiment to understand how measurement enters a program. |
-| [jsPsych documentation](https://www.jspsych.org/latest/) · [source repository](https://github.com/jspsych/jsPsych) | Browser-based behavioral experiments. Begin with timelines, plugins, data recording, and timing-accuracy documentation. |
-| [Wilson–Collins companion code](https://github.com/AnneCollins/TenSimpleRulesModeling) | Realize the model assessment in [psychological readings](psychological-readings.md#psychological-process-modeling-and-empirical-assessment) through simulation, fitting, and recovery checks. After the code runs, its assumptions and data must still fit the question. |
-| Schoukens and Ljung (2019), [Nonlinear System Identification: A User-Oriented Roadmap](https://arxiv.org/abs/1902.00683) | Understand system identification through inputs and outputs, noise, model structure, and validation. Consult as needed; whether natural interaction meets engineering identification conditions requires its own assessment. |
 | [Gödel Machine](https://people.idsia.ch/~juergen/goedelmachine.html) and [Darwin Gödel Machine](https://arxiv.org/abs/2505.22954v3) | Two entrances to technical self-improvement research: proof-guided work and empirical evaluation, respectively. Compare their objectives, assumptions, and verification before reading this collection's analogies. |
-
-Research design, constructs, and validity remain in [psychological readings](psychological-readings.md); this page supplies implementation and reproduction knowledge. Connecting implementation resources to a research question is more useful than collecting tool names alone.
 
 ## Physical conditions, measurement, and feedback
 
-Engineering realization happens in the material world. Programs run on machines, measurement requires devices and time, and interfaces enter human perception and action. Software abstraction does not remove energy, latency, error, or bodily conditions.
+Engineering realization happens in the material world. Programs run on machines, measurement requires devices and time, and interfaces enter human perception and action. Energy, latency, error, and bodily conditions shape actual use.
 
-[The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/) provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Enter through the needed concept rather than treating all three volumes as a prerequisite for programming. Feedback and model assessment connect back to the system-identification resources above.
+[The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/) provide open online reading: volume I mainly covers mechanics, radiation, and heat; volume II electromagnetism and matter; volume III quantum mechanics. Each volume develops its topics through concepts, derivations, and examples.
 
 Physics investigates regularities; engineering designs and realizes under those
-conditions. The [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops their connection
-with philosophy and psychology. A running program establishes a realization;
-its explanatory adequacy for a psychological process is a further question.
+conditions. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops their connection
+with philosophy and psychology.
+
+## Language models, retrieval, and data tools
+
+Books, courses, and official tool references for language models, databases, and retrieval systems.
+
+| Book or course | Content |
+| --- | --- |
+| Jurafsky and Martin, [Speech and Language Processing, third-edition online draft](https://web.stanford.edu/~jurafsky/slp3/) | A natural-language-processing and language-model textbook covering tokens, embeddings, context, information extraction, time, discourse, and retrieval. The official site provides the text and slides; the Agents chapter remains unwritten in the August 19, 2026 release. |
+| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en/unit1/introduction) | An online course introducing models, messages, tools, and observations following actions. |
+| [Agent Skills overview](https://agentskills.io/home) · [Specification](https://agentskills.io/specification) | An open format for organizing instructions, scripts, and reference resources. |
+
+| Tool or project | General purpose and official source |
+| --- | --- |
+| [SQLite](https://www.sqlite.org/docs.html) | An embedded relational database supporting SQL queries and transactions. |
+| [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces. |
+| [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | A relational database and its vector-similarity-search extension. |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | An agent memory and retrieval system with retain, recall, and reflect capabilities. |
+| [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agents. |
+| [Mem0](https://github.com/mem0ai/mem0) | Persistent-memory components for agents and applications. |
+| [Letta](https://github.com/letta-ai/letta) | A platform for agents with persistent state and memory management. |
+
+See each project’s documentation for its capabilities and operating requirements.

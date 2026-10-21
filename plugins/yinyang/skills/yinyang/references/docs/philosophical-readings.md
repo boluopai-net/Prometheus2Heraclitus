@@ -248,7 +248,7 @@ Gordana Dodig-Crnkovic's [Information, Computation, Cognition (2013)](https://ar
 
 For psychological processes, empirical assessment, belief, and interaction, continue to [psychological readings](psychological-readings.md). Their theories and evidence investigate how knowing actually happens; philosophy continues to ask about explanation, grounds for knowledge, and the scope of mind.
 
-Technical sources for the Gödel Machine and Darwin Gödel Machine appear in [engineering readings](engineering-readings.md#experimental-implementation-data-and-model-assessment), alongside implementation and evaluation resources. [Preference harness](preference-harness.md) retains its philosophical comparisons while preserving the assumptions and scope of formal repair, inference, and query transformation.
+Technical sources for the Gödel Machine and Darwin Gödel Machine appear in [engineering readings](engineering-readings.md#self-improvement-research). [Preference harness](preference-harness.md) retains its philosophical comparisons while preserving the assumptions and scope of formal repair, inference, and query transformation.
 
 ## Source scope
 
