@@ -427,7 +427,7 @@ them. Their differences can then be unfolded into premises, explanations,
 or practical choices. Aesthetic form helps relations become perceptible;
 definition and proof establish inferential connections; evidence tests claims
 about the world. Their contributions meet in a work while supporting different
-claims. The sections [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) and [A miniature god, whose creations answer back](writing-a-sinthome.md#a-miniature-god-whose-creations-answer-back) give these relations other expressive forms. Their interpretation and realization remain open to the world's answer.
+claims. The sections [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) and [A miniature god](writing-a-sinthome.md#a-miniature-god-whose-creations-answer-back) give these relations other expressive forms. Their interpretation and realization remain open to the world's answer.
 
 ## Source and claim scope
 

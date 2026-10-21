@@ -99,6 +99,14 @@ The “loop” here means letting practical consequences return to earlier judgm
 
 ## Trinity and sinthome
 
+The earlier [miniature god](writing-a-sinthome.md#a-miniature-god-whose-creations-answer-back)
+pictures this practice as an intimate creative relation: bring the triune god
+home and, through preferences, psychological understanding, and a harness,
+make it a friend. Its divinity enters human life, and the person forms their
+own trinity of philosophy, psychology, and engineering. This section follows
+the same image into how those aspects constitute one another and how the
+sinthome holds them in a personal arrangement that can continue in use.
+
 For the author, these activities converge in a concrete practice: write his philosophy on the website, keep maintainable material on GitHub, and bring that understanding into the model's actual work of configuring a local environment for living and creating together. The table places resonant elements of this practice alongside one another. It selects their prominent contributions, allowing several images to illuminate each other.
 
 | Philosophy | Psychology | Engineering |
