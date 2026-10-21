@@ -151,10 +151,13 @@ growth. The essays develop these images and claims at their own scale.
 complete Chinese counterparts. Maintain common material at this shared source
 and situated accounts at their actual private owner.
 
-Use [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) and
-[pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls)
-under the repository's actual access settings. Return only authorized general
-insights to this collection. Personal records, formalized portraits, private
+Use [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) for
+related sharing and philosophical discussion. Self-authored reusable Skills,
+tool improvements, and better public guides or methods for the five core accounts
+can be submitted as [pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls).
+Develop your own philosophy in your own repository and share its link. The
+[invitation to create](references/docs/example-and-commons.md#independent-works-in-conversation)
+explains these routes. Personal records, formalized portraits, private
 quotations, and unpublished manuscripts remain outside public distribution.
 
 ## License

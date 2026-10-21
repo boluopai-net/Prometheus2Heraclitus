@@ -105,9 +105,10 @@
 [MODEL.md](MODEL.md)维护解释与发布边界，[AGENTS.md](AGENTS.md)是维护入口。
 英文读者文本有完整中文对应。公共材料在共享源维护，情境化描述在实际私人位置维护。
 
-通过 [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) 和
-[pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls)
-贡献，遵循仓库实际访问设置。只有获授权的一般性认识回到本集合；
+通过 [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) 分享相关内容、讨论哲学。
+自制的可复用 Skill、工具改进与五份核心描述的公共指引或使用方法，可以提
+[PR](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls)。自己的哲学放在自己的仓库，欢迎分享链接。
+[创作邀请](references/docs/example-and-commons.zh-CN.md#各自创作也让作品相遇)说明这些参与方式。
 个人记录、形式化画像、私人引文和未发表手稿都不进入公开分发。
 
 ## 许可

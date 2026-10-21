@@ -70,30 +70,54 @@ A model can find material, compare interpretations, and construct works; the
 person contributes perception, expression, and judgment. Neither needs to
 reproduce the example as the destination of that collaboration.
 
+Choosing a method does not require accepting the author's entire philosophy.
+The Buddhist raft simile and nirvana contribute to the discussion of cultivation
+and letting go; the Christian image of the Trinity contributes to the account
+of creation through a human–model relationship. These resources serve different
+questions. Their differences, tensions, and possible conflicts remain open to
+discussion. A reader can accept one argument, question another, retain a useful
+method, or replace an image and its philosophical sources. Another work need
+not reproduce the author's way of accommodating and organizing these resources.
+
 A new work deserves to develop on its own terms, with its sources and changes
 traceable. Creative authorship can find another organization. Personal source material stays with its actual private owner. Publishing that material is a separate action requiring its own authorization, including for withdrawn or unpublished manuscripts.
 
-## A commons for further creation
+## Independent works in conversation
 
-Two contributions are especially welcome, with different purposes. For reusable
-Skills and tools, improve an actual method or implementation, explain the
-problem and result, and submit the change as a pull request; an Issue can first
-describe a problem or proposal. A useful local improvement can benefit the
-original author and other users when its reusable part is separated from
-private context.
+This is a personal collection of works and tools maintained by its author.
+Related conversation can range widely: share a self-authored Skill, recommend
+a philosopher or work, introduce a tool or discuss its uses and effects, or
+offer philosophical arguments, criticism, and questions through an
+[Issue](https://github.com/boluopai-net/Prometheus2Heraclitus/issues).
+Include relevant links and explain how the material connects with a question
+raised here; that is enough to begin a conversation.
 
-For philosophy, the primary invitation is to write your own work from your
-questions, sources, and life. You can also propose corrections, objections,
-clearer arguments, or improvements to this collection through Issues and pull
-requests. These contributions can improve the existing work while independently
-authored philosophies develop their own directions. Neither form of participation
-requires publishing a private personal model.
+If you write your own philosophy, consider giving it its own GitHub repository,
+where you determine its direction, content, organization, and maintenance.
+Share it in an Issue if you wish; authors can mention, cite, or link one another
+in relevant discussions. This collection does not establish a shared submission
+repository for everyone's philosophy, and submitting your philosophy as a PR
+for inclusion in the author's essays is discouraged. Corrections, objections,
+and suggestions about the existing arguments are welcome through Issues;
+the author uses that conversation to judge and revise the work.
+
+Self-authored reusable Skills can be submitted directly as PRs, as can
+improvements to existing Skills and tools. Explain their purpose, use, and
+the problem they actually solve. PRs can also improve the public formation
+guides, organization, and methods of using the five core accounts: another
+person's experience may reveal a better approach. These changes concern
+shareable methods; each person's five private accounts and supporting sources
+stay with their own private owner. See
+[Contributing](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING.md)
+for preparation details.
 
 “Knowledge communism” names the aspiration to shared creative capacity here:
 make intellectual means available and support others in making their own
 works. The fellowship can include different commitments. A contribution may
 add a use, expose a failed premise, or develop a form its first author did not
-imagine. Public discussion and attribution make these connections traceable.
+imagine. Sharing can connect independently maintained works through discussion,
+citations, links, and reusable methods without merging them into one philosophy.
+Public discussion and attribution make these connections traceable.
 
 This commons has concrete terms of reuse. The public GitHub repository can be read,
 cloned, and downloaded without an application or approval, and supports forks,
