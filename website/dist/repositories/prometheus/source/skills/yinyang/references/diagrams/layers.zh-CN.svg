@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 960 1028" role="img" lang="zh-CN" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" style="--flow-cycle: 6.436s; width: 960px; height: 1028px; min-width: 0px;" width="960" height="1028" xmlns="http://www.w3.org/2000/svg"><style>
+<svg viewBox="0 0 1770 998" role="img" lang="zh-CN" aria-labelledby="archify-diagram-title archify-diagram-description" data-animation="trace" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" style="--flow-cycle: 5.400s; width: 1770px; height: 998px; min-width: 0px;" width="1770" height="998" xmlns="http://www.w3.org/2000/svg"><style>
 /*
 JetBrains Mono variable WOFF2 subsets from Google Fonts service revision v24.
 These fixed bytes are shared by the viewer and its SVG/raster exports.
@@ -399,142 +399,232 @@ svg[data-preset="editorial"] { --flow-halo-peak: 0.07; --flow-glow-peak: 0.28; -
 }
 @keyframes archify-relay-ripple { 
   0% { r: 2px; opacity: var(--flow-peak, 0.6); }
-  11.654%, 100% { r: 20px; opacity: 0; }
+  13.889%, 100% { r: 20px; opacity: 0; }
 }
 @keyframes archify-relay-comet-0 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  9.434% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  11.92%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-0 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  9.434% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  23.419%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-1 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  18.701% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  21.187%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-1 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  18.701% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  32.686%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-2 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  18.701% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  21.187%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-2 { 
-  0%, 5.61% { opacity: 0; }
-  18.701% { opacity: var(--flow-peak, 0.3); }
-  32.686%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-3 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  16.093% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  18.58%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-3 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  16.093% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  30.078%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-4 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  12.764% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  15.25%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-4 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  12.764% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  26.748%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-5 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  16.093% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  18.58%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-5 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  16.093% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  30.078%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-6 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  12.764% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  15.25%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-6 { 
   0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  12.764% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
-  26.748%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-comet-7 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  20.088% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  22.574%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
 @keyframes archify-relay-wake-7 { 
-  0%, 6.026% { opacity: 0; }
-  20.088% { opacity: var(--flow-peak, 0.3); }
-  34.072%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+  0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
-@keyframes archify-relay-comet-8 {
+@keyframes archify-relay-comet-8 { 
   0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
-  1.865% { opacity: var(--flow-peak, 0.9); }
-  23.308% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
-  25.794%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
 }
-@keyframes archify-relay-wake-8 {
-  0%, 6.992% { opacity: 0; }
-  23.308% { opacity: var(--flow-peak, 0.3); }
-  37.292%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+@keyframes archify-relay-wake-8 { 
+  0%, 8.333% { opacity: 0; }
+  27.778% { opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-9 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-9 { 
+  0%, 8.333% { opacity: 0; }
+  27.778% { opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-10 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-10 { 
+  0%, 8.333% { opacity: 0; }
+  27.778% { opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-11 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-11 { 
+  0%, 8.333% { opacity: 0; }
+  27.778% { opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-12 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-12 { 
+  0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-13 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-13 { 
+  0% { stroke-dashoffset: var(--flow-len, 0px); opacity: var(--flow-peak, 0.3); animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  27.778% { stroke-dashoffset: 0px; opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
+}
+@keyframes archify-relay-comet-14 { 
+  0% { stroke-dashoffset: calc(var(--flow-len, 0px) + var(--flow-shift, 0px)); opacity: 0; animation-timing-function: cubic-bezier(0.45, 0.05, 0.35, 1); }
+  2.222% { opacity: var(--flow-peak, 0.9); }
+  27.778% { stroke-dashoffset: var(--flow-shift, 0px); opacity: var(--flow-peak, 0.9); }
+  30.741%, 100% { stroke-dashoffset: var(--flow-shift, 0px); opacity: 0; }
+}
+@keyframes archify-relay-wake-14 { 
+  0%, 8.333% { opacity: 0; }
+  27.778% { opacity: var(--flow-peak, 0.3); }
+  44.444%, 100% { stroke-dashoffset: 0px; opacity: 0; }
 }
 @keyframes archify-relay-node-0 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
   0% { filter: var(--ambient-node-base-filter, none); }
-  1.865%, 6.526% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  18.646% { filter: var(--ambient-node-base-filter, none); }
+  2.222%, 7.778% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  22.222% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-1 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  9.434% { filter: var(--ambient-node-base-filter, none); }
-  11.299%, 15.96% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  28.08% { filter: var(--ambient-node-base-filter, none); }
+  0% { filter: var(--ambient-node-base-filter, none); }
+  2.222%, 7.778% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  22.222% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-2 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  27.081% { filter: var(--ambient-node-base-filter, none); }
-  28.946%, 33.608% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  45.728% { filter: var(--ambient-node-base-filter, none); }
+  0% { filter: var(--ambient-node-base-filter, none); }
+  2.222%, 7.778% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  22.222% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-3 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  23.752% { filter: var(--ambient-node-base-filter, none); }
-  25.616%, 30.278% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  42.398% { filter: var(--ambient-node-base-filter, none); }
+  0% { filter: var(--ambient-node-base-filter, none); }
+  2.222%, 7.778% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  22.222% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-4 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  44.007% { filter: var(--ambient-node-base-filter, none); }
-  45.871%, 50.533% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  62.653% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
 }
 @keyframes archify-relay-node-5 { 
   0%, 100% { filter: var(--ambient-node-base-filter, none); }
-  41.399% { filter: var(--ambient-node-base-filter, none); }
-  43.264%, 47.925% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
-  60.045% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
+}
+@keyframes archify-relay-node-6 { 
+  0%, 100% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
+}
+@keyframes archify-relay-node-7 { 
+  0%, 100% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
+}
+@keyframes archify-relay-node-8 { 
+  0%, 100% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
+}
+@keyframes archify-relay-node-9 { 
+  0%, 100% { filter: var(--ambient-node-base-filter, none); }
+  27.778% { filter: var(--ambient-node-base-filter, none); }
+  30%, 35.556% { filter: var(--ambient-node-base-filter,) drop-shadow(0 0 10px var(--arrow-emphasis)); }
+  50% { filter: var(--ambient-node-base-filter, none); }
 }
 svg[data-node-ui] [data-node-id] &gt; rect:not(.c-mask) { stroke-width: 1.25px; }
 :is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] &gt; rect:not(.c-mask).c-frontend { fill: color-mix(in srgb, var(--frontend-stroke) 13%, var(--mask)); stroke: color-mix(in srgb, var(--frontend-stroke) 72%, var(--mask)); }
@@ -560,8 +650,8 @@ svg[data-node-ui][data-preset="editorial"] :is([data-graph-role="structural-fram
 svg[data-theme="light"] { --bg: #f4f5f7; --grid: #e9edf2; --canvas-dot: #e2e7ec; --text: #111827; --text-muted: #5b6474; --text-dim: #9aa3b2; --text-faint: #6b7280; --panel: #ffffff; --panel-border: #e5e7eb; --lane-fill: rgba(248, 250, 252, 0.65); --lane-stroke: #cbd5e1; --arrow: #64748b; --arrow-emphasis: #059669; --mask: #ffffff; --frontend-fill: rgba(34, 211, 238, 0.15); --frontend-stroke: #0891b2; --backend-fill: rgba(52, 211, 153, 0.18); --backend-stroke: #059669; --database-fill: rgba(167, 139, 250, 0.2); --database-stroke: #7c3aed; --cloud-fill: rgba(251, 191, 36, 0.18); --cloud-stroke: #d97706; --security-fill: rgba(251, 113, 133, 0.15); --security-stroke: #e11d48; --messagebus-fill: rgba(251, 146, 60, 0.15); --messagebus-stroke: #ea580c; --external-fill: rgba(148, 163, 184, 0.18); --external-stroke: #64748b; --toolbar-bg: rgba(255, 255, 255, 0.92); --toolbar-border: #cbd5e1; --toolbar-text: #334155; --toolbar-hover: #ffffff; --toolbar-menu-bg: #ffffff; --flow-cycle: ; --flow-halo-peak: ; --flow-glow-peak: ; --flow-tail-peak: ; --flow-head-peak: ; --flow-wake-peak: ; --flow-ripple-peak: ; --flow-peak: ; }
 svg[data-theme="dark"] { --bg: #020617; --grid: #1e293b; --canvas-dot: rgba(148, 163, 184, 0.16); --text: #ffffff; --text-muted: #94a3b8; --text-dim: #475569; --text-faint: #7d8da1; --panel: rgba(15, 23, 42, 0.5); --panel-border: #1e293b; --lane-fill: rgba(15, 23, 42, 0.22); --lane-stroke: #334155; --arrow: #94a3b8; --arrow-emphasis: #34d399; --mask: #0f172a; --frontend-fill: rgba(8, 51, 68, 0.4); --frontend-stroke: #22d3ee; --backend-fill: rgba(6, 78, 59, 0.4); --backend-stroke: #34d399; --database-fill: rgba(76, 29, 149, 0.4); --database-stroke: #a78bfa; --cloud-fill: rgba(120, 53, 15, 0.3); --cloud-stroke: #fbbf24; --security-fill: rgba(136, 19, 55, 0.4); --security-stroke: #fb7185; --messagebus-fill: rgba(251, 146, 60, 0.3); --messagebus-stroke: #fb923c; --external-fill: rgba(30, 41, 59, 0.5); --external-stroke: #94a3b8; --toolbar-bg: rgba(15, 23, 42, 0.8); --toolbar-border: #334155; --toolbar-text: #e2e8f0; --toolbar-hover: rgba(15, 23, 42, 0.95); --toolbar-menu-bg: #0f172a; --flow-cycle: ; --flow-halo-peak: ; --flow-glow-peak: ; --flow-tail-peak: ; --flow-head-peak: ; --flow-wake-peak: ; --flow-ripple-peak: ; --flow-peak: ; }
 rect.c-bg-rect { fill: var(--bg); }
-</style><rect x="0" y="0" width="960" height="1028" class="c-bg-rect"/>
-        <title id="archify-diagram-title">物理基础上的计算本体与实践 · YY-09</title>
+</style><rect x="0" y="0" width="1770" height="998" class="c-bg-rect"/>
+        <title id="archify-diagram-title">从世界理解到实践实现 · YY-09</title>
         <desc id="archify-diagram-description">在同一个变化着的自然／物理世界中，人与语言模型共同发现问题、选取过程、构造计算模型、推理、实现、读回与修订。火阐明世界的生成；模型使用与反馈延续同一项共同活动。</desc>
         <!-- Definitions -->
         <defs>
@@ -607,164 +697,268 @@ rect.c-bg-rect { fill: var(--bg); }
         <rect width="100%" height="100%" fill="url(#grid)"/>
 
         <!-- Boundaries (behind everything) -->
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="0" data-composition-frame-label="计算层" x="10" y="30" width="1720" height="340" rx="12" class="c-region" stroke-width="1"/>
 
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="1" data-composition-frame-label="物理层" x="10" y="590" width="1720" height="340" rx="12" class="c-region" stroke-width="1"/>
 
         <!-- Connection paths (before components for correct z-order) -->
         <g data-graph-role="automatic-crossover" style="--step:0">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 140 L 210 310" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取过程与尺度" data-edge-key="0" data-edge-id="physical-abstraction" data-composition-points="210,140;210,310" data-composition-crossover="halo" data-composition-independent="true" d="M 210 140 L 210 310" class="a-emphasis" data-animate="edge" style="--step: 0;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 177 150 L 177 297 Q 177 305 185 305 L 740 305" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="ontology" data-edge-to="realization" data-edge-label="表征选定关系" data-edge-key="0" data-edge-id="model-in-realization" data-composition-points="177,150;177,305;740,305" data-composition-crossover="halo" data-composition-independent="true" d="M 177 150 L 177 297 Q 177 305 185 305 L 740 305" class="a-emphasis" data-animate="edge" style="--step: 0;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:1">
-          <path data-graph-role="automatic-crossover-underlay" d="M 635 915 L 772 915 Q 780 915 780 907 L 780 720" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="value" data-edge-to="methodology" data-edge-label="阐明行动目的" data-edge-key="1" data-edge-id="value-guides-method" data-composition-points="635,915;780,915;780,720" data-composition-crossover="halo" data-composition-independent="true" d="M 635 915 L 772 915 Q 780 915 780 907 L 780 720" class="a-emphasis" data-animate="edge" style="--step: 1;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 528.05 150 L 528.05 197 Q 528.05 205 536.05 205 L 852.9 205 Q 860.9 205 860.9 213 L 860.9 260" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="epistemology" data-edge-to="realization" data-edge-label="组织根据与检验" data-edge-key="1" data-edge-id="evidence-in-operation" data-composition-points="528.05,150;528.05,205;860.9,205;860.9,260" data-composition-crossover="halo" data-composition-independent="true" d="M 528.05 150 L 528.05 197 Q 528.05 205 536.05 205 L 852.9 205 Q 860.9 205 860.9 213 L 860.9 260" class="a-emphasis" data-animate="edge" style="--step: 1;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:2">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 720 L 210 907 Q 210 915 218 915 L 355 915" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="value" data-edge-label="评估生活中的后果" data-edge-key="2" data-edge-id="consequences-inform-value" data-composition-points="210,720;210,915;355,915" data-composition-crossover="halo" data-composition-independent="true" d="M 210 720 L 210 907 Q 210 915 218 915 L 355 915" class="a-dashed" data-animate="edge" style="--step: 2;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1211.95 150 L 1211.95 197 Q 1211.95 205 1203.95 205 L 885 205 Q 877 205 877 213 L 877 260" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="value" data-edge-to="realization" data-edge-label="明确目标与评价" data-edge-key="2" data-edge-id="value-in-operation" data-composition-points="1211.95,150;1211.95,205;877,205;877,260" data-composition-crossover="halo" data-composition-independent="true" d="M 1211.95 150 L 1211.95 197 Q 1211.95 205 1203.95 205 L 885 205 Q 877 205 877 213 L 877 260" class="a-emphasis" data-animate="edge" style="--step: 2;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:3">
-          <path data-graph-role="automatic-crossover-underlay" d="M 350 346.95 L 640 346.95" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="ontology" data-edge-to="epistemology" data-edge-label="确定正在检验什么" data-edge-key="3" data-edge-id="objects-orient-evidence" data-composition-points="350,346.95;640,346.95" data-composition-crossover="halo" data-composition-independent="true" d="M 350 346.95 L 640 346.95" class="a-emphasis" data-animate="edge" style="--step: 3;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1563 150 L 1563 290 Q 1563 298 1555 298 L 1000 298" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织规则与操作" data-edge-key="3" data-edge-id="method-in-action" data-composition-points="1563,150;1563,298;1000,298" data-composition-crossover="halo" data-composition-independent="true" d="M 1563 150 L 1563 290 Q 1563 298 1555 298 L 1000 298" class="a-emphasis" data-animate="edge" style="--step: 3;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:4">
-          <path data-graph-role="automatic-crossover-underlay" d="M 780 400 L 780 630" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="epistemology" data-edge-to="methodology" data-edge-label="依据参与方法选择" data-edge-key="4" data-edge-id="evidence-informs-method" data-composition-points="780,400;780,630" data-composition-crossover="halo" data-composition-independent="true" d="M 780 400 L 780 630" class="a-emphasis" data-animate="edge" style="--step: 4;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 170 710 L 170 864 Q 170 872 178 872 L 740 872" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="lived-practice" data-edge-label="构成具身活动的基础" data-edge-key="4" data-edge-id="ground-in-practice" data-composition-points="170,710;170,872;740,872" data-composition-crossover="halo" data-composition-independent="true" d="M 170 710 L 170 864 Q 170 872 178 872 L 740 872" class="a-emphasis" data-animate="edge" style="--step: 4;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:5">
-          <path data-graph-role="automatic-crossover-underlay" d="M 640 683.05 L 350 683.05" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织行动与检查" data-edge-key="5" data-edge-id="method-in-action" data-composition-points="640,683.05;350,683.05" data-composition-crossover="halo" data-composition-independent="true" d="M 640 683.05 L 350 683.05" class="a-emphasis" data-animate="edge" style="--step: 5;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 520 710 L 520 757 Q 520 765 528 765 L 845.9 765 Q 853.9 765 853.9 773 L 853.9 820" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="embodied-knowing" data-edge-to="lived-practice" data-edge-label="观察并判断" data-edge-key="5" data-edge-id="knowing-in-practice" data-composition-points="520,710;520,765;853.9,765;853.9,820" data-composition-crossover="halo" data-composition-independent="true" d="M 520 710 L 520 757 Q 520 765 528 765 L 845.9 765 Q 853.9 765 853.9 773 L 853.9 820" class="a-emphasis" data-animate="edge" style="--step: 5;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:6">
-          <path data-graph-role="automatic-crossover-underlay" d="M 210 400 L 210 630" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="ontology" data-edge-to="realization" data-edge-label="实现并使用模型" data-edge-key="6" data-edge-id="model-in-realization" data-composition-points="210,400;210,630" data-composition-crossover="halo" data-composition-independent="true" d="M 210 400 L 210 630" class="a-emphasis" data-animate="edge" style="--step: 6;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1220 710 L 1220 757 Q 1220 765 1212 765 L 894.1 765 Q 886.1 765 886.1 773 L 886.1 820" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-value" data-edge-to="lived-practice" data-edge-label="指向值得做的事" data-edge-key="6" data-edge-id="value-guides-practice" data-composition-points="1220,710;1220,765;886.1,765;886.1,820" data-composition-crossover="halo" data-composition-independent="true" d="M 1220 710 L 1220 757 Q 1220 765 1212 765 L 894.1 765 Q 886.1 765 886.1 773 L 886.1 820" class="a-emphasis" data-animate="edge" style="--step: 6;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:7">
-          <path data-graph-role="automatic-crossover-underlay" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="ontology" data-edge-label="修订选择与模型" data-edge-key="7" data-edge-id="failure-reopens-object" data-composition-points="70,675;46,675;46,355;70,355" data-composition-crossover="halo" data-composition-independent="true" d="M 70 675 L 54 675 Q 46 675 46 667 L 46 363 Q 46 355 54 355 L 70 355" class="a-dashed" data-animate="edge" style="--step: 7;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 1570 710 L 1570 857 Q 1570 865 1562 865 L 1000 865" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-method" data-edge-to="lived-practice" data-edge-label="组织共同探究" data-edge-key="7" data-edge-id="methods-in-practice" data-composition-points="1570,710;1570,865;1000,865" data-composition-crossover="halo" data-composition-independent="true" d="M 1570 710 L 1570 857 Q 1570 865 1562 865 L 1000 865" class="a-emphasis" data-animate="edge" style="--step: 7;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:8">
-          <path data-graph-role="automatic-crossover-underlay" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
-          <path data-edge-from="realization" data-edge-to="epistemology" data-edge-label="检验可观察对应" data-edge-key="8" data-edge-id="result-tests-explanation" data-composition-points="350,668;374,668;374,362;640,362" data-composition-crossover="halo" data-composition-independent="true" d="M 350 668 L 366 668 Q 374 668 374 660 L 374 370 Q 374 362 382 362 L 640 362" class="a-dashed" data-animate="edge" style="--step: 8;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+          <path data-graph-role="automatic-crossover-underlay" d="M 161.95 620 L 161.95 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取与抽象" data-edge-key="8" data-edge-id="physical-abstraction" data-composition-points="161.95,620;161.95,150" data-composition-crossover="halo" data-composition-independent="true" d="M 161.95 620 L 161.95 150" class="a-dashed" data-animate="edge" style="--step: 8;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:9">
+          <path data-graph-role="automatic-crossover-underlay" d="M 513 620 L 513 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="embodied-knowing" data-edge-to="epistemology" data-edge-label="记录与组织根据" data-edge-key="9" data-edge-id="experience-to-evidence" data-composition-points="513,620;513,150" data-composition-crossover="halo" data-composition-independent="true" d="M 513 620 L 513 150" class="a-dashed" data-animate="edge" style="--step: 9;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:10">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1227 620 L 1227 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-value" data-edge-to="value" data-edge-label="阐明目的与取舍" data-edge-key="10" data-edge-id="value-articulation" data-composition-points="1227,620;1227,150" data-composition-crossover="halo" data-composition-independent="true" d="M 1227 620 L 1227 150" class="a-dashed" data-animate="edge" style="--step: 10;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:11">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1578.05 620 L 1578.05 150" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-method" data-edge-to="methodology" data-edge-label="表达与组织方法" data-edge-key="11" data-edge-id="method-articulation" data-composition-points="1578.05,620;1578.05,150" data-composition-crossover="halo" data-composition-independent="true" d="M 1578.05 620 L 1578.05 150" class="a-dashed" data-animate="edge" style="--step: 11;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:12">
+          <path data-graph-role="automatic-crossover-underlay" d="M 300 665 L 379 665 Q 387 665 387 657 L 387 522.525 Q 387 514.525 395 514.525 L 855 514.525 Q 863 514.525 863 506.525 L 863 350" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="physical" data-edge-to="realization" data-edge-label="物理实现载体与运行" data-edge-key="12" data-edge-id="physical-realization" data-composition-points="300,665;387,665;387,514.525;863,514.525;863,350" data-composition-crossover="halo" data-composition-independent="true" d="M 300 665 L 379 665 Q 387 665 387 657 L 387 522.525 Q 387 514.525 395 514.525 L 855 514.525 Q 863 514.525 863 506.525 L 863 350" class="a-emphasis" data-animate="edge" style="--step: 12;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:13">
+          <path data-graph-role="automatic-crossover-underlay" d="M 870 820 L 870 804 Q 870 796 878 796 L 887.1 796 Q 895.1 796 895.1 788 L 895.1 382 Q 895.1 374 887.1 374 L 887.1 374 Q 879.1 374 879.1 366 L 879.1 350" fill="none" stroke="var(--mask)" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="lived-practice" data-edge-to="realization" data-edge-label="运行与行动" data-edge-key="13" data-edge-id="practice-operates-arrangement" data-composition-points="870,820;870,796;895.1,796;895.1,374;879.1,374;879.1,350" data-composition-crossover="halo" data-composition-independent="true" d="M 870 820 L 870 804 Q 870 796 878 796 L 887.1 796 Q 895.1 796 895.1 788 L 895.1 382 Q 895.1 374 887.1 374 L 887.1 374 Q 879.1 374 879.1 366 L 879.1 350" class="a-emphasis" data-animate="edge" style="--step: 12;" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        </g>
+        <g data-graph-role="automatic-crossover" style="--step:14">
+          <path data-graph-role="automatic-crossover-underlay" d="M 1000 313.05 L 1016 313.05 Q 1024 313.05 1024 321.05 L 1024 732 Q 1024 740 1016 740 L 658.8749999999999 740 Q 650.8749999999999 740 650.8749999999999 748 L 650.8749999999999 848.95 Q 650.8749999999999 856.95 658.8749999999999 856.95 L 740 856.95" fill="none" stroke="var(--mask)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/>
+          <path data-edge-from="realization" data-edge-to="lived-practice" data-edge-label="后果与修订" data-edge-key="14" data-edge-id="consequences-return" data-composition-points="1000,313.05;1024,313.05;1024,740;650.8749999999999,740;650.8749999999999,856.95;740,856.95" data-composition-crossover="halo" data-composition-independent="true" d="M 1000 313.05 L 1016 313.05 Q 1024 313.05 1024 321.05 L 1024 732 Q 1024 740 1016 740 L 658.8749999999999 740 Q 650.8749999999999 740 650.8749999999999 748 L 650.8749999999999 848.95 Q 650.8749999999999 856.95 658.8749999999999 856.95 L 740 856.95" class="a-dashed" data-animate="edge" style="--step: 12;" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
         </g>
 
         <!-- Components -->
-        <g id="node-physical" data-node-id="physical" data-node-label="物理本体" tabindex="0" role="button" aria-label="聚焦物理本体，火：同一个变化着的自然世界, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="火：同一个变化着的自然世界" data-node-context="此解释中需要区分的问题">
-          <title>物理本体 · 火：同一个变化着的自然世界 · 此解释中需要区分的问题</title>
-          <rect x="70" y="50" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="50" width="280" height="90" rx="8" class="c-cloud" data-animate="node" style="--step: 0; --flow-node-name: archify-relay-node-0;" stroke-width="1.5"/>
+        <g id="node-ontology" data-node-id="ontology" data-node-label="计算本体" tabindex="0" role="button" aria-label="聚焦计算本体，过程本体论：事件、状态与变化, 计算层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="过程本体论：事件、状态与变化" data-node-tag="过程本体论" data-node-context="计算层">
+          <title>计算本体 · 过程本体论：事件、状态与变化 · 计算层 · 过程本体论</title>
+          <rect x="40" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="40" y="60" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 0; --flow-node-name: archify-relay-node-5;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="210" y="93" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">物理本体</text>
-        <text x="210" y="109" class="t-muted" font-size="9" text-anchor="middle">火：同一个变化着的自然世界</text>
+          <text data-node-label="" x="170" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">计算本体</text>
+        <text x="170" y="119" class="t-muted" font-size="9" text-anchor="middle">过程本体论：事件、状态与变化</text>
+        <text x="170" y="142" class="t-frontend" font-size="7" text-anchor="middle">过程本体论</text>
         </g>
 
-        <g id="node-value" data-node-id="value" data-node-label="价值" tabindex="0" role="button" aria-label="聚焦价值，什么值得追求，为谁而做？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="什么值得追求，为谁而做？" data-node-context="此解释中需要区分的问题">
-          <title>价值 · 什么值得追求，为谁而做？ · 此解释中需要区分的问题</title>
-          <rect x="355" y="870" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="355" y="870" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-4;" stroke-width="1.5"/>
+        <g id="node-epistemology" data-node-id="epistemology" data-node-label="证据、解释与推理" tabindex="0" role="button" aria-label="聚焦证据、解释与推理，记录、候选解释、模型与检验, 计算层" aria-pressed="false" data-node-kind="backend" data-node-sublabel="记录、候选解释、模型与检验" data-node-tag="认识的表达与组织" data-node-context="计算层">
+          <title>证据、解释与推理 · 记录、候选解释、模型与检验 · 计算层 · 认识的表达与组织</title>
+          <rect x="390" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="390" y="60" width="260" height="90" rx="8" class="c-backend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-7;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="495" y="913" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">价值</text>
-        <text x="495" y="929" class="t-muted" font-size="9" text-anchor="middle">什么值得追求，为谁而做？</text>
+          <text data-node-label="" x="520" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">证据、解释与推理</text>
+        <text x="520" y="119" class="t-muted" font-size="9" text-anchor="middle">记录、候选解释、模型与检验</text>
+        <text x="520" y="142" class="t-backend" font-size="7" text-anchor="middle">认识的表达与组织</text>
         </g>
 
-        <g id="node-ontology" data-node-id="ontology" data-node-label="计算本体论" tabindex="0" role="button" aria-label="聚焦计算本体论，工程：事件、状态与转变, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="工程：事件、状态与转变" data-node-context="此解释中需要区分的问题">
-          <title>计算本体论 · 工程：事件、状态与转变 · 此解释中需要区分的问题</title>
-          <rect x="70" y="310" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="310" width="280" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-1;" stroke-width="1.5"/>
+        <g id="node-value" data-node-id="value" data-node-label="目标与评价标准" tabindex="0" role="button" aria-label="聚焦目标与评价标准，明确目的、代价与取舍, 计算层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="明确目的、代价与取舍" data-node-tag="价值的表达与组织" data-node-context="计算层">
+          <title>目标与评价标准 · 明确目的、代价与取舍 · 计算层 · 价值的表达与组织</title>
+          <rect x="1090" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1090" y="60" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-8;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="210" y="353" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">计算本体论</text>
-        <text x="210" y="369" class="t-muted" font-size="9" text-anchor="middle">工程：事件、状态与转变</text>
+          <text data-node-label="" x="1220" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">目标与评价标准</text>
+        <text x="1220" y="119" class="t-muted" font-size="9" text-anchor="middle">明确目的、代价与取舍</text>
+        <text x="1220" y="142" class="t-frontend" font-size="7" text-anchor="middle">价值的表达与组织</text>
         </g>
 
-        <g id="node-epistemology" data-node-id="epistemology" data-node-label="认识论" tabindex="0" role="button" aria-label="聚焦认识论，什么支持视图，何时修订？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="backend" data-node-sublabel="什么支持视图，何时修订？" data-node-context="此解释中需要区分的问题">
-          <title>认识论 · 什么支持视图，何时修订？ · 此解释中需要区分的问题</title>
-          <rect x="640" y="310" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="640" y="310" width="280" height="90" rx="8" class="c-backend" data-animate="node" style="--step: 4; --flow-node-name: archify-relay-node-2;" stroke-width="1.5"/>
+        <g id="node-methodology" data-node-id="methodology" data-node-label="方法、流程与工具" tabindex="0" role="button" aria-label="聚焦方法、流程与工具，描述、规则与操作, 计算层" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="描述、规则与操作" data-node-tag="方法的表达与组织" data-node-context="计算层">
+          <title>方法、流程与工具 · 描述、规则与操作 · 计算层 · 方法的表达与组织</title>
+          <rect x="1440" y="60" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1440" y="60" width="260" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step: 3; --flow-node-name: archify-relay-node-9;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="780" y="353" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">认识论</text>
-        <text x="780" y="369" class="t-muted" font-size="9" text-anchor="middle">什么支持视图，何时修订？</text>
+          <text data-node-label="" x="1570" y="103" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">方法、流程与工具</text>
+        <text x="1570" y="119" class="t-muted" font-size="9" text-anchor="middle">描述、规则与操作</text>
+        <text x="1570" y="142" class="t-messagebus" font-size="7" text-anchor="middle">方法的表达与组织</text>
         </g>
 
-        <g id="node-methodology" data-node-id="methodology" data-node-label="方法论" tabindex="0" role="button" aria-label="聚焦方法论，怎样组织可持续的工作？, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="怎样组织可持续的工作？" data-node-context="此解释中需要区分的问题">
-          <title>方法论 · 怎样组织可持续的工作？ · 此解释中需要区分的问题</title>
-          <rect x="640" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="640" y="630" width="280" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-5;" stroke-width="1.5"/>
+        <g id="node-realization" data-node-id="realization" data-node-label="运行、使用与读回" tabindex="0" role="button" aria-label="聚焦运行、使用与读回，计算安排的实际运用, 计算层" aria-pressed="false" data-node-kind="external" data-node-sublabel="计算安排的实际运用" data-node-tag="计算层的实践" data-node-context="计算层">
+          <title>运行、使用与读回 · 计算安排的实际运用 · 计算层 · 计算层的实践</title>
+          <rect x="740" y="260" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="740" y="260" width="260" height="90" rx="8" class="c-external" data-animate="node" style="--step: 1; --flow-node-name: archify-relay-node-6;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="780" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">方法论</text>
-        <text x="780" y="689" class="t-muted" font-size="9" text-anchor="middle">怎样组织可持续的工作？</text>
+          <text data-node-label="" x="870" y="303" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">运行、使用与读回</text>
+        <text x="870" y="319" class="t-muted" font-size="9" text-anchor="middle">计算安排的实际运用</text>
+        <text x="870" y="342" class="t-external" font-size="7" text-anchor="middle">计算层的实践</text>
         </g>
 
-        <g id="node-realization" data-node-id="realization" data-node-label="具体实现" tabindex="0" role="button" aria-label="聚焦具体实现，数据、程序、提示词、工具与接口, 此解释中需要区分的问题" aria-pressed="false" data-node-kind="external" data-node-sublabel="数据、程序、提示词、工具与接口" data-node-context="此解释中需要区分的问题">
-          <title>具体实现 · 数据、程序、提示词、工具与接口 · 此解释中需要区分的问题</title>
-          <rect x="70" y="630" width="280" height="90" rx="8" class="c-mask"/>
-          <rect x="70" y="630" width="280" height="90" rx="8" class="c-external" data-animate="node" style="--step: 2; --flow-node-name: archify-relay-node-3;" stroke-width="1.5"/>
+        <g id="node-physical" data-node-id="physical" data-node-label="物理本体" tabindex="0" role="button" aria-label="聚焦物理本体，朴素自然主义 · 当代火一元论, 物理层" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="朴素自然主义 · 当代火一元论" data-node-tag="本体论" data-node-context="物理层">
+          <title>物理本体 · 朴素自然主义 · 当代火一元论 · 物理层 · 本体论</title>
+          <rect x="40" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="40" y="620" width="260" height="90" rx="8" class="c-cloud" data-animate="node" style="--step: 4; --flow-node-name: archify-relay-node-0;" stroke-width="1.5"/>
           
-          <text data-node-label="" x="210" y="673" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">具体实现</text>
-        <text x="210" y="689" class="t-muted" font-size="9" text-anchor="middle">数据、程序、提示词、工具与接口</text>
+          <text data-node-label="" x="170" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">物理本体</text>
+        <text x="170" y="679" class="t-muted" font-size="9" text-anchor="middle">朴素自然主义 · 当代火一元论</text>
+        <text x="170" y="702" class="t-cloud" font-size="7" text-anchor="middle">本体论</text>
+        </g>
+
+        <g id="node-embodied-knowing" data-node-id="embodied-knowing" data-node-label="经验、观察与判断" tabindex="0" role="button" aria-label="聚焦经验、观察与判断，从具身经验出发的可错探究, 物理层" aria-pressed="false" data-node-kind="backend" data-node-sublabel="从具身经验出发的可错探究" data-node-tag="认识论" data-node-context="物理层">
+          <title>经验、观察与判断 · 从具身经验出发的可错探究 · 物理层 · 认识论</title>
+          <rect x="390" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="390" y="620" width="260" height="90" rx="8" class="c-backend" data-animate="node" style="--step: 5; --flow-node-name: archify-relay-node-1;" stroke-width="1.5"/>
+          
+          <text data-node-label="" x="520" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">经验、观察与判断</text>
+        <text x="520" y="679" class="t-muted" font-size="9" text-anchor="middle">从具身经验出发的可错探究</text>
+        <text x="520" y="702" class="t-backend" font-size="7" text-anchor="middle">认识论</text>
+        </g>
+
+        <g id="node-lived-value" data-node-id="lived-value" data-node-label="生活中的价值" tabindex="0" role="button" aria-label="聚焦生活中的价值，个人优先的人本主义, 物理层" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="个人优先的人本主义" data-node-tag="价值" data-node-context="物理层">
+          <title>生活中的价值 · 个人优先的人本主义 · 物理层 · 价值</title>
+          <rect x="1090" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1090" y="620" width="260" height="90" rx="8" class="c-frontend" data-animate="node" style="--step: 6; --flow-node-name: archify-relay-node-2;" stroke-width="1.5"/>
+          
+          <text data-node-label="" x="1220" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">生活中的价值</text>
+        <text x="1220" y="679" class="t-muted" font-size="9" text-anchor="middle">个人优先的人本主义</text>
+        <text x="1220" y="702" class="t-frontend" font-size="7" text-anchor="middle">价值</text>
+        </g>
+
+        <g id="node-lived-method" data-node-id="lived-method" data-node-label="实际探究与协作" tabindex="0" role="button" aria-label="聚焦实际探究与协作，相对于问题的多元方法, 物理层" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="相对于问题的多元方法" data-node-tag="方法论" data-node-context="物理层">
+          <title>实际探究与协作 · 相对于问题的多元方法 · 物理层 · 方法论</title>
+          <rect x="1440" y="620" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="1440" y="620" width="260" height="90" rx="8" class="c-messagebus" data-animate="node" style="--step: 7; --flow-node-name: archify-relay-node-3;" stroke-width="1.5"/>
+          
+          <text data-node-label="" x="1570" y="663" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">实际探究与协作</text>
+        <text x="1570" y="679" class="t-muted" font-size="9" text-anchor="middle">相对于问题的多元方法</text>
+        <text x="1570" y="702" class="t-messagebus" font-size="7" text-anchor="middle">方法论</text>
+        </g>
+
+        <g id="node-lived-practice" data-node-id="lived-practice" data-node-label="具身共同实践" tabindex="0" role="button" aria-label="聚焦具身共同实践，行动与现实后果, 物理层" aria-pressed="false" data-node-kind="external" data-node-sublabel="行动与现实后果" data-node-tag="人与模型" data-node-context="物理层">
+          <title>具身共同实践 · 行动与现实后果 · 物理层 · 人与模型</title>
+          <rect x="740" y="820" width="260" height="90" rx="8" class="c-mask"/>
+          <rect x="740" y="820" width="260" height="90" rx="8" class="c-external" data-animate="node" style="--step: 5; --flow-node-name: archify-relay-node-4;" stroke-width="1.5"/>
+          
+          <text data-node-label="" x="870" y="863" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">具身共同实践</text>
+        <text x="870" y="879" class="t-muted" font-size="9" text-anchor="middle">行动与现实后果</text>
+        <text x="870" y="902" class="t-external" font-size="7" text-anchor="middle">人与模型</text>
         </g>
 
         <!-- Connection labels -->
-        <g data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取过程与尺度" data-edge-key="0" data-edge-id="physical-abstraction">
-          <rect x="126.80000000000001" y="218" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="165.4" y="228" class="t-edge-emphasis" font-size="8" text-anchor="middle">选取过程与尺度</text>
+        <g data-edge-from="ontology" data-edge-to="realization" data-edge-label="表征选定关系" data-edge-key="0" data-edge-id="model-in-realization">
+          <rect x="424.7" y="285" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="458.5" y="295" class="t-edge-emphasis" font-size="8" text-anchor="middle">表征选定关系</text>
         </g>
-        <g data-edge-from="value" data-edge-to="methodology" data-edge-label="阐明行动目的" data-edge-key="1" data-edge-id="value-guides-method">
-          <rect x="746.2" y="797.5" width="67.6" height="14" rx="3" class="c-mask"/>
-          <text x="780" y="807.5" class="t-edge-emphasis" font-size="8" text-anchor="middle">阐明行动目的</text>
+        <g data-edge-from="epistemology" data-edge-to="realization" data-edge-label="组织根据与检验" data-edge-key="1" data-edge-id="evidence-in-operation">
+          <rect x="655.8749999999999" y="185" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="694.4749999999999" y="195" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织根据与检验</text>
         </g>
-        <g data-edge-from="realization" data-edge-to="value" data-edge-label="评估生活中的后果" data-edge-key="2" data-edge-id="consequences-inform-value">
-          <rect x="239.1" y="895" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="282.5" y="905" class="t-edge-dashed" font-size="8" text-anchor="middle">评估生活中的后果</text>
+        <g data-edge-from="value" data-edge-to="realization" data-edge-label="明确目标与评价" data-edge-key="2" data-edge-id="value-in-operation">
+          <rect x="1005.8749999999999" y="185" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1044.475" y="195" class="t-edge-emphasis" font-size="8" text-anchor="middle">明确目标与评价</text>
         </g>
-        <g data-edge-from="ontology" data-edge-to="epistemology" data-edge-label="确定正在检验什么" data-edge-key="3" data-edge-id="objects-orient-evidence">
-          <rect x="451.6" y="326.95" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="495" y="336.95" class="t-edge-emphasis" font-size="8" text-anchor="middle">确定正在检验什么</text>
+        <g data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织规则与操作" data-edge-key="3" data-edge-id="method-in-action">
+          <rect x="1242.9" y="278" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1281.5" y="288" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织规则与操作</text>
         </g>
-        <g data-edge-from="epistemology" data-edge-to="methodology" data-edge-label="依据参与方法选择" data-edge-key="4" data-edge-id="evidence-informs-method">
-          <rect x="687.2" y="508" width="86.8" height="14" rx="3" class="c-mask"/>
-          <text x="730.6" y="518" class="t-edge-emphasis" font-size="8" text-anchor="middle">依据参与方法选择</text>
+        <g data-edge-from="physical" data-edge-to="lived-practice" data-edge-label="构成具身活动的基础" data-edge-key="4" data-edge-id="ground-in-practice">
+          <rect x="406.8" y="852" width="96.39999999999999" height="14" rx="3" class="c-mask"/>
+          <text x="455" y="862" class="t-edge-emphasis" font-size="8" text-anchor="middle">构成具身活动的基础</text>
         </g>
-        <g data-edge-from="methodology" data-edge-to="realization" data-edge-label="组织行动与检查" data-edge-key="5" data-edge-id="method-in-action">
-          <rect x="456.4" y="663.05" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="495" y="673.05" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织行动与检查</text>
+        <g data-edge-from="embodied-knowing" data-edge-to="lived-practice" data-edge-label="观察并判断" data-edge-key="5" data-edge-id="knowing-in-practice">
+          <rect x="657.95" y="745" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="686.95" y="755" class="t-edge-emphasis" font-size="8" text-anchor="middle">观察并判断</text>
         </g>
-        <g data-edge-from="ontology" data-edge-to="realization" data-edge-label="实现并使用模型" data-edge-key="6" data-edge-id="model-in-realization">
-          <rect x="126.80000000000001" y="508" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="165.4" y="518" class="t-edge-emphasis" font-size="8" text-anchor="middle">实现并使用模型</text>
+        <g data-edge-from="lived-value" data-edge-to="lived-practice" data-edge-label="指向值得做的事" data-edge-key="6" data-edge-id="value-guides-practice">
+          <rect x="1014.4499999999999" y="745" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1053.05" y="755" class="t-edge-emphasis" font-size="8" text-anchor="middle">指向值得做的事</text>
         </g>
-        <g data-edge-from="realization" data-edge-to="ontology" data-edge-label="修订选择与模型" data-edge-key="7" data-edge-id="failure-reopens-object">
-          <rect x="7.399999999999999" y="495" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="46" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">修订选择与模型</text>
+        <g data-edge-from="lived-method" data-edge-to="lived-practice" data-edge-label="组织共同探究" data-edge-key="7" data-edge-id="methods-in-practice">
+          <rect x="1251.2" y="845" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="1285" y="855" class="t-edge-emphasis" font-size="8" text-anchor="middle">组织共同探究</text>
         </g>
-        <g data-edge-from="realization" data-edge-to="epistemology" data-edge-label="检验可观察对应" data-edge-key="8" data-edge-id="result-tests-explanation">
-          <rect x="335.4" y="495" width="77.2" height="14" rx="3" class="c-mask"/>
-          <text x="374" y="505" class="t-edge-dashed" font-size="8" text-anchor="middle">检验可观察对应</text>
+        <g data-edge-from="physical" data-edge-to="ontology" data-edge-label="选取与抽象" data-edge-key="8" data-edge-id="physical-abstraction">
+          <rect x="132.95" y="600" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="161.95" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">选取与抽象</text>
+        </g>
+        <g data-edge-from="embodied-knowing" data-edge-to="epistemology" data-edge-label="记录与组织根据" data-edge-key="9" data-edge-id="experience-to-evidence">
+          <rect x="474.4" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="513" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">记录与组织根据</text>
+        </g>
+        <g data-edge-from="lived-value" data-edge-to="value" data-edge-label="阐明目的与取舍" data-edge-key="10" data-edge-id="value-articulation">
+          <rect x="1188.4" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1227" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">阐明目的与取舍</text>
+        </g>
+        <g data-edge-from="lived-method" data-edge-to="methodology" data-edge-label="表达与组织方法" data-edge-key="11" data-edge-id="method-articulation">
+          <rect x="1539.45" y="600" width="77.2" height="14" rx="3" class="c-mask"/>
+          <text x="1578.05" y="610" class="t-edge-dashed" font-size="8" text-anchor="middle">表达与组织方法</text>
+        </g>
+        <g data-edge-from="physical" data-edge-to="realization" data-edge-label="物理实现载体与运行" data-edge-key="12" data-edge-id="physical-realization">
+          <rect x="338.8" y="569.7625" width="96.39999999999999" height="14" rx="3" class="c-mask"/>
+          <text x="387" y="579.7625" class="t-edge-emphasis" font-size="8" text-anchor="middle">物理实现载体与运行</text>
+        </g>
+        <g data-edge-from="lived-practice" data-edge-to="realization" data-edge-label="运行与行动" data-edge-key="13" data-edge-id="practice-operates-arrangement">
+          <rect x="831.1" y="578" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="860.1" y="588" class="t-edge-emphasis" font-size="8" text-anchor="middle">运行与行动</text>
+        </g>
+        <g data-edge-from="realization" data-edge-to="lived-practice" data-edge-label="后果与修订" data-edge-key="14" data-edge-id="consequences-return">
+          <rect x="995" y="506.525" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="1024" y="516.525" class="t-edge-dashed" font-size="8" text-anchor="middle">后果与修订</text>
         </g>
 
         <!-- Boundary labels (foreground masks keep routes out of titles) -->
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="region" data-composition-frame-label="计算层">
+          <rect data-graph-role="structural-frame-label-mask" x="14" y="37" width="51.10968101935483" height="19" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="18" y="52.41935583870968" class="t-cloud" font-size="11.419355838709675" font-weight="600">计算层</text>
+        </g>
 
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="1" data-composition-frame-kind="region" data-composition-frame-label="物理层">
+          <rect data-graph-role="structural-frame-label-mask" x="14" y="597" width="51.10968101935483" height="19" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="18" y="612.4193558387096" class="t-cloud" font-size="11.419355838709675" font-weight="600">物理层</text>
+        </g>
 
         <!-- Legend -->
         <g data-legend="">
-          <text x="40" y="992" class="t-primary" font-size="12" font-weight="650">图例</text>
-          <g data-legend-semantic-kind="frontend" data-legend-x="40" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="40" y="1003" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
-            <text x="62" y="1012" class="t-muted" font-size="10" font-weight="500">对象与目的</text>
+          <text x="40" y="962" class="t-primary" font-size="12" font-weight="650">图例</text>
+          <g data-legend-semantic-kind="frontend" data-legend-x="40" data-legend-baseline="982" data-legend-width="105">
+            <rect x="40" y="973" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
+            <text x="62" y="982" class="t-muted" font-size="10" font-weight="500">对象与价值</text>
           </g>
-          <g data-legend-semantic-kind="backend" data-legend-x="167" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="167" y="1003" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
-            <text x="189" y="1012" class="t-muted" font-size="10" font-weight="500">证据与修订</text>
+          <g data-legend-semantic-kind="backend" data-legend-x="167" data-legend-baseline="982" data-legend-width="105">
+            <rect x="167" y="973" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
+            <text x="189" y="982" class="t-muted" font-size="10" font-weight="500">经验与根据</text>
           </g>
-          <g data-legend-semantic-kind="cloud" data-legend-x="294" data-legend-baseline="1012" data-legend-width="93">
-            <rect x="294" y="1003" width="16" height="10" rx="2.5" class="c-cloud" stroke-width="1"/>
-            <text x="316" y="1012" class="t-muted" font-size="10" font-weight="500">物理基础</text>
+          <g data-legend-semantic-kind="cloud" data-legend-x="294" data-legend-baseline="982" data-legend-width="93">
+            <rect x="294" y="973" width="16" height="10" rx="2.5" class="c-cloud" stroke-width="1"/>
+            <text x="316" y="982" class="t-muted" font-size="10" font-weight="500">物理本体</text>
           </g>
-          <g data-legend-semantic-kind="messagebus" data-legend-x="409" data-legend-baseline="1012" data-legend-width="93">
-            <rect x="409" y="1003" width="16" height="10" rx="2.5" class="c-messagebus" stroke-width="1"/>
-            <text x="431" y="1012" class="t-muted" font-size="10" font-weight="500">工作方法</text>
+          <g data-legend-semantic-kind="messagebus" data-legend-x="409" data-legend-baseline="982" data-legend-width="105">
+            <rect x="409" y="973" width="16" height="10" rx="2.5" class="c-messagebus" stroke-width="1"/>
+            <text x="431" y="982" class="t-muted" font-size="10" font-weight="500">探究与方法</text>
           </g>
-          <g data-legend-semantic-kind="external" data-legend-x="524" data-legend-baseline="1012" data-legend-width="105">
-            <rect x="524" y="1003" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
-            <text x="546" y="1012" class="t-muted" font-size="10" font-weight="500">实现与结果</text>
+          <g data-legend-semantic-kind="external" data-legend-x="536" data-legend-baseline="982" data-legend-width="130">
+            <rect x="536" y="973" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
+            <text x="558" y="982" class="t-muted" font-size="10" font-weight="500">实践与计算运用</text>
           </g>
         </g>
       </svg>

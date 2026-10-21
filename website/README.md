@@ -592,7 +592,12 @@ languages, correct stale names at their Markdown owner, then regenerate them.
 The philosophy overview keeps its five chapter entries followed by four compact
 diagram references for review. It has no embedded map or long duplicate preface;
 the stealing-fire essay also retains its normal reading opening. The library
-owns the four diagram entrances. The new `formation-path` and `borrowed-fire`
+owns the four diagram entrances. The existing interactive `layers` view places
+the physical level below the computational level, with four dimensions plus
+practice on each. Both levels are real. Its ten nodes distinguish
+material realization, representational correspondence, and guidance by value and method.
+Its canonical Archify candidates retain click/focus, relationship inspection,
+guided views, and SVG exports in both reading languages. The `formation-path` and `borrowed-fire`
 views are actual SVG relationship diagrams, without article indexes, disclosure
 cards, cross-diagram links, or separate-open buttons. Canonical
 `reading-maps.json` and `render-reading-maps.py` own their bilingual labels,
