@@ -23,10 +23,24 @@ person becomes an ideal of continually increasing power and output, borrowing
 has merely moved pursuit inside oneself. Cultivation can appear in changed
 desire, more discerning judgment, sustainable habits, and different relations
 with people nearby. [From chasing to lived cultivation](/philosophy/stealing-fire/en/#from-chasing-to-lived-cultivation)
-draws on Wittgenstein's clarification of pictures and the Buddhist raft simile:
-images and tools that guide life can themselves be released or rewritten when
-their work is done. Baby Heraclitus's openness includes changing the direction
-of their own cultivation.
+draws on Wittgenstein's clarification of pictures to reconsider the demands
+governing cultivation. Its section on [borrowed fire and nirvana](/philosophy/stealing-fire/en/#borrowed-fire-and-nirvana)
+brings Buddhist liberation into this question.
+
+The little fire person borrows the fire of knowledge and creative capability
+while learning to recognize how passion, aversion, and delusion burn within
+their life. Cultivation includes loosening grasping at capacity, achievement,
+and the creator's identity. They can finish a work without requiring it to prove
+their entire self, rest, change a purpose, or let a once-useful character leave
+the stage. Increased ability and nirvana retain their meanings, while creation
+and letting go can support one another within a life.
+
+The raft image therefore applies to the little fire person too: use the image
+while it helps life, and revise or release it when it obstructs it. Baby
+Heraclitus's openness includes ceasing to treat “becoming Baby Heraclitus” as a
+task that must forever be completed. Kindling further fire acquires another
+possibility: creation can occur without being sustained by attachment to one's
+own identity.
 
 ## Introducing Baby Heraclitus
 
