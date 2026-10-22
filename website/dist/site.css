@@ -55,14 +55,14 @@ body :is(a,button,summary):focus-visible{outline:2px solid var(--water);outline-
 /* Let the shared Skills wheel turn without animating other site illustrations. */
 .skills-wheel-link .motif,.skills-wheel-heading>.motif{animation:skills-wheel-turn 48s linear infinite;transform-origin:center}
 @keyframes skills-wheel-turn{to{transform:rotate(1turn)}}
-@media(prefers-reduced-motion:reduce){.skills-wheel-link .motif,.skills-wheel-heading>.motif{animation:none}}
+@media(prefers-reduced-motion:reduce){.skills-wheel-link .motif{animation:none}}
 .skills-wheel-speed{grid-column:2;grid-row:2;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 12px;width:min(100%,560px);justify-self:center;padding-top:8px;color:var(--muted);font-size:13px}
 .skills-wheel-speed output{font-variant-numeric:tabular-nums}
 .skills-wheel-speed-line{grid-column:1/-1;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px}
 .skills-wheel-speed input{width:100%;margin:0;accent-color:var(--water);cursor:pointer}
 .skills-wheel-speed input:disabled{cursor:not-allowed;opacity:.55}
-.skills-wheel-speed-hint{grid-column:1/-1;margin:0;font-size:12px}
-.skills-wheel-speed-hint[hidden]{display:none}
+.skills-wheel-motion{grid-column:1/-1;justify-self:start;margin:0 0 8px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--water);font:inherit;cursor:pointer}
+.skills-wheel-motion[aria-checked="true"]{border-color:var(--water)}
 @media(max-width:1023px){.skills-wheel-speed{grid-column:1;grid-row:2}.skills-wheel-intro{grid-row:3}}
 .hero-title-row{display:flex;justify-content:space-between;align-items:center;gap:24px}.hero-title-row .motif{flex-shrink:0}
 .library-hub>.collection-heading{padding-bottom:0;margin-bottom:24px}.library-hub>.collection-heading h1{margin-bottom:0}.library-hub>.library-section:first-of-type{padding-top:16px}

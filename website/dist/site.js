@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!slider || !wheel) return;
 
   const output = document.querySelector('[data-wheel-speed-output]');
-  const hint = document.querySelector('[data-wheel-speed-hint]');
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const toggle = document.querySelector('[data-wheel-motion]');
+  let enabled = true;
   const baseDuration = 48;
   const slowDuration = 120;
   const fastDuration = 6;
@@ -51,22 +51,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const duration = slowDuration * Math.pow(fastDuration / slowDuration, position);
     const seconds = Math.round(duration);
     const english = document.documentElement.lang === 'en';
-    slider.disabled = reducedMotion.matches;
+    slider.disabled = !enabled;
     slider.setAttribute('aria-valuetext', english ? `${seconds} seconds per rotation` : `${seconds} 秒/圈`);
     if (output) output.textContent = english
       ? `${seconds} sec / rotation`
       : `${seconds} 秒/圈`;
-    if (hint) {
-      hint.hidden = !reducedMotion.matches;
-      hint.textContent = document.documentElement.lang === 'en'
-        ? 'The wheel is still because reduced motion is enabled.'
-        : '系统已开启减少动态效果，转盘保持静止。';
+    if (toggle) {
+      toggle.setAttribute('aria-checked', String(enabled));
+      toggle.textContent = english
+        ? `Motion: ${enabled ? 'On' : 'Off'}`
+        : `动态效果：${enabled ? '开' : '关'}`;
     }
-    if (reducedMotion.matches) return;
 
     const playbackRate = baseDuration / duration;
     for (const animation of wheel.getAnimations()) {
       if (animation.animationName !== 'skills-wheel-turn') continue;
+      if (!enabled) { animation.pause(); continue; }
       if (typeof animation.updatePlaybackRate === 'function') {
         animation.updatePlaybackRate(playbackRate);
       } else {
@@ -74,10 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
         animation.playbackRate = playbackRate;
         animation.currentTime = time;
       }
+      animation.play();
     }
   };
 
   slider.addEventListener('input', update);
-  reducedMotion.addEventListener('change', update);
+  toggle?.addEventListener('click', () => { enabled = !enabled; update(); });
   update();
 });
