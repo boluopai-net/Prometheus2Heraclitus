@@ -55,6 +55,46 @@ The **counterpart model** likewise meets actual conditions. What must the needed
 
 The relationship explains how these contributions work together. The person can express wishes, recognize mismatches, and judge results; the model can actively develop interpretations, object, and undertake realization. This division can change and assigns neither reasoning exclusively to the model nor intuition exclusively to the person. Collaboration is organized around actual purposes; both participants can generate and judge.
 
+## Computational ontology in a private sinthome
+
+Writing such a sinthome for a person involves articulating what belongs in their
+world of collaboration and how it relates: person, counterpart, work, wishes,
+records, tools, and environment, together with beginning, interruption,
+correction, continuation, and completion. Their meanings affect how a model
+understands the present situation. An unfinished work can remain the same essay
+while its open question changes; a correction connects a new judgment to the
+particular passage or arrangement it revises. Process ontology draws attention
+to this persistence and change; personal material gives the distinctions their
+situated content.
+
+**Making these objects, relations, conditions, and changes explicit for a
+language model to understand and use forms the computational ontology meant
+here.** Conceptual person and counterpart models develop particular accounts
+within these distinctions: how the person wants to participate, what the
+counterpart can undertake, and what continuation would serve this work.
+Computational ontology organizes the conceptual relations used in the account;
+the conceptual model states the current understanding of actual participants
+and collaboration. Both contributions can inhabit the same natural-language
+document and develop together through use.
+
+Here natural language and the model's semantic capabilities give these
+distinctions computational use. On encountering an interruption, the model can
+locate the unfinished work, recover its question, and judge whether the purpose
+calls for further investigation or delivery. This use depends on contextual
+interpretation and is assessed through actual continuation. A description-logic
+ontology obtains explicitness through its chosen formal language, interpretations,
+and inference rules; each approach has particular conditions of expression and use.
+
+For example, a private account connects completion with a realized, usable result
+and correction with revising an earlier understanding or arrangement. Prompts
+bring those meanings into current work, Skills supply methods, and tools and
+environment make retrieval, revision, and checking possible. **Computational
+ontology supplies a private sinthome's model-usable conceptual organization;
+actual writing, counterpart relations, and environment give that organization
+form in a life.** Failed interpretation can prompt revised conceptual relations,
+tool failure can prompt changed realization, and personal experience can change
+what the participants understand as worth continuing.
+
 ## Turn understanding into a usable arrangement
 
 An understanding of the person will not enter the next piece of work on its own. It needs expression that available models and tools can use, and that expression must actually be accessible when needed.

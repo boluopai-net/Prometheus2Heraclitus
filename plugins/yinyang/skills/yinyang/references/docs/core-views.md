@@ -25,7 +25,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
-- [YY-09 · Connect six adopted views through practice](#yy-09)
+- [YY-09 · Connect philosophical understanding, models, and practice](#yy-09)
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
@@ -289,44 +289,44 @@ model or local arrangement is superior.
 
 <a id="yy-09"></a>
 
-## YY-09 · Connect six adopted views through practice
+## YY-09 · Connect philosophical understanding, models, and practice
 
-The framework adopts a naturalist worldview, a physicalist ground, correspondence
-truth for claims about reality, fallible embodied inquiry, personal-first
-humanism, and question-relative pluralism of method. Contemporary fire monism
-expresses the world's becoming and transformation. Computational ontology is
-a representation constructed for the question: its objects, events, states,
-relations, constraints, and transitions give a process ontology usable form.
-It can describe actual activity, develop hypotheses, or organize imagined
-beings and situations. A person's imagining belongs to their actual activity;
-its content acquires meaning within the represented belief, story, or design.
-Natural-language concepts and executable rules support different uses.
+The framework develops a naturalist worldview, a physicalist account of actual
+activity, correspondence truth for claims about reality, fallible embodied
+inquiry, personal-first humanism, and question-relative pluralism of method.
+Contemporary fire monism expresses becoming and transformation. These are
+developed explanations and adopted positions through which the participants
+understand their work.
 
-Person and language model develop and use this articulation together. Their
-division of recognition, explicit reasoning, construction, and assessment runs
-through question formation, model selection, simulation, implementation, and
-feedback. Both can generate and judge; current capabilities and modalities
-shape contributions without requiring the person to internalize them all.
-
-| Dimension | Physical level | Computational level |
+| Philosophical question and shared practice | Adopted answer or activity | Expression in the work |
 | --- | --- | --- |
-| Worldview | How do persons, machines, and their activities belong to one changing natural world? | What overall world picture organizes the selected actual, possible, or imagined domain? |
-| Ontological view | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology represent objects, events, states, relations, and transitions through process ontology? |
-| View of truth | What actually obtains concerning the objects, events, and relations in question? | What holds under the interpretation, what follows from the premises, and how do world-directed claims correspond to facts? |
-| View of knowing | What warrants actual judgment, and when should it change? | How are evidence, candidate explanations, inference, and tests organized? |
-| View of value | What is worth pursuing, for whom, and at whose cost? | How are goals, criteria, constraints, and tradeoffs expressed? |
-| View of method | How are inquiry and collaboration actually conducted? | How do descriptions, procedures, tools, and rules support that activity? |
+| Worldview: how does the activity belong in a whole? | One changing natural world. | Place the domain, participants, and consequences in context. |
+| Ontology: what exists and how does it persist or change? | Physical grounding and process-oriented understanding. | Define the relevant domain entities, events, relations, and continuity. |
+| Theory of truth: what makes a claim true? | Correspondence for actuality; truth under an interpretation for a model. | State conditions of truth and examine actual-world correspondence; distinguish what follows from premises. |
+| Epistemology: what warrants judgment and revision? | Embodied, fallible inquiry. | Organize observations, explanations, evidence, and tests. |
+| Axiology: what deserves pursuit, for whom? | Personal-first humanism. | Choose goals and criteria, then assess their consequences for concrete lives. |
+| Methodology: how should this question be pursued? | Question-relative pluralism. | Combine fitting forms of inquiry, representation, construction, and use. |
+| Shared practice: how do these understandings enter life? | Person and model understand, model, express, realize, and revise together. | Connect the six dimensions in actual work and return experience and consequences to understanding. |
 
-The table expresses six adopted views, carrying philosophical exposition into
-how this practice understands the world and organizes representations.
-World-directed claims remain answerable to reality and evidence.
-The six views connect through practice. Computational ontology supplies
-the represented objects and processes; the computational arrangement also
-organizes evidence, goals, methods, and use. YinYang develops their philosophical
-understanding and working articulation; specialist Skills supply their methods.
-The diagram therefore presents six adopted views plus practice at each level:
-embodied activity and consequences connect with running, using, and reading
-back computational arrangements.
+A **domain ontology** makes selected entities, relations, and constraints explicit;
+a conceptual model develops an account of a particular question. Process modeling
+can describe actual activity, develop hypotheses, or organize imagined beings
+and situations. Language, diagrams, formal expressions, and data carry those
+meanings. Engineering realizes ways of interpreting and using them in programs,
+tools, interfaces, and cooperative arrangements. **Computational ontology** makes
+model-usable conceptual relations explicit: for example, accounts of person,
+counterpart, work, correction, and continuation in a private sinthome. It enters
+work through natural language together with the situated conceptual models.
+
+Person and language model contribute throughout observation, interpretation,
+modeling, expression, construction, and assessment. Their work takes place in
+the actual world; experience and consequences can revise both the arrangement
+and the philosophical understanding that guided it. The [relation diagram](../diagrams/layers.html)
+shows each of the six dimensions, its adopted position, and its contribution to
+shared practice. Computational ontology, conceptual models, expression, and
+realization develop these contributions within practice. Representation's
+relation to its subject and the physical realization of its carrier remain
+distinct relations within that work.
 
 Correspondence concerns whether a world-directed claim accords with the facts.
 Truth within a model depends on its interpretation; valid inference concerns

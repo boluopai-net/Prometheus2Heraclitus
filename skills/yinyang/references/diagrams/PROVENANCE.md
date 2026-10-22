@@ -25,22 +25,15 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   preserve selected parts, while conceptual participant models are inferred
   from histories and other material. The participants themselves are not
   identified with those streams. YY-09 supplies its event-based vocabulary.
-- **From understanding the world to realizing a practice** (`layers`) develops
-  YY-09 in two visible levels, each with six adopted views surrounding shared practice: worldview,
-  an ontological view, and views of truth, knowing, value, and method.
-  These carry the philosophical exposition into situated understanding;
-  world-directed claims remain answerable to reality and evidence. The physical
-  level below concerns one changing natural world and material, embodied
-  processes. The computational level above concerns representations, including
-  actual, possible, and imagined situations; its process ontology organizes
-  represented objects, events, states, relations, constraints, and transitions.
-  Fourteen nodes distinguish material realization from correspondence to an
-  actual target, alongside contributions to practice. Meaning, satisfaction,
-  and valid inference do not by themselves establish actual correspondence.
-  Person and language model participate throughout. A participant's history is
-  an event stream; the participant model is a conceptual representation inferred
-  from history and other material. Its interactive viewer retains node inspection,
-  relationship exploration, and guided views.
+- **Six philosophical dimensions and shared practice** (`layers`) develops
+  YY-09 through seven visible subjects. Worldview, ontology, theory of truth,
+  epistemology, axiology, and methodology each state an adopted position and
+  connect their contribution to shared human–model practice. Supporting cards
+  unfold computational ontology, conceptual models, expression, realization,
+  and feedback within practice. They explain representation and physical
+  realization as distinct relations and connect personal-first humanism with
+  concrete criteria. The viewer retains node inspection, relationship
+  exploration, and guided views.
 
 For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
@@ -62,7 +55,8 @@ height and theme only. Inspect label readability, node and edge relationships,
 and both viewport compositions. The philosophy directory retains four compact
 review links after its five chapter entries; it embeds no diagram.
 
-The two detailed viewers use Archify 3.1.0. From the YinYang references directory,
+The detailed viewers were generated with Archify 3.1.0 (`encounter`) and 3.2.0
+(`layers`). From the YinYang references directory,
 set `ARCHIFY_CLI` to the installed `bin/archify.mjs` and choose a temporary
 `CHECK_DIR` for the run:
 

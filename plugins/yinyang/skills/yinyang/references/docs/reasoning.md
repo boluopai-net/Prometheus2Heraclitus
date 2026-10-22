@@ -22,11 +22,13 @@ Inquiry can begin with an image, tension, question, or tendency to act before
 a proposition is available. Articulation makes selected relations open to
 discussion and checking. Its development into candidates and local judgments
 is itself part of the trajectory.
-YinYang's worldview concerns the changing world in which this happens.
-A **working computational ontology** is a representation; through its objects,
-events, states, relations, and transitions, this framework constructs a process
-ontology. It can concern actual psychological activity, hypothetical situations,
-or fictional objects, and support simulation where useful. Person and language model form the question and this
+YinYang's worldview places these activities within one changing world; its
+ontology asks how objects form, persist, and change. A **working computational
+ontology** explicitly expresses the objects, events, states, relations, and
+transitions needed for a question, for the model to interpret, reason with, and
+use. Process ontology guides these distinctions here. They can describe actual
+psychological activity or develop hypothetical situations and fictional objects,
+supporting simulation where useful. Person and language model form the question and this
 model together, divide explicit reasoning, construction, and observation by
 their actual capabilities, and revise through the same continuing exchange.
 [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
@@ -60,8 +62,14 @@ Logic contributes a callable checking capacity. Truth-seeking, corrigibility, re
 
 ## A working ontology forms with its question
 
-A working ontology articulates the objects, relations, and constraints that
-matter for a question, including relevant persistence and change. Its concepts
+A working ontology articulates the domain concepts, relations, and constraints
+that matter for a question, including relevant persistence and change. Process
+ontology supplies an interpretive direction; the question determines which
+distinctions need development. Person, counterpart, unfinished work, correction,
+and continuation can, for example, acquire explicit natural-language relations
+within a private sinthome for the model to use in subsequent work.
+[Forming a sinthome](writing-a-sinthome.md#computational-ontology-in-a-private-sinthome)
+develops that use. Its concepts
 can be introduced, weakened, replaced, or reorganized. A computer consumer may
 use distinctions carried in clear natural language or require a more formal
 representation. Their meanings need to survive that use; factual claims remain

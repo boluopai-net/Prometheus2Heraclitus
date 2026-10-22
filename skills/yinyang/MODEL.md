@@ -74,9 +74,16 @@ supports; assess the relevant change through actual participation.
 
 Modest naturalism names the framework's scope in one changing natural world;
 its contemporary fire monism articulates that world's dynamic unity. This is
-the physical ground of philosophy, psychology, and engineering. Computational
-ontology is representation. This framework constructs a process ontology using
-represented objects, events, states, relations, constraints, and transitions.
+the physical ground of philosophy, psychology, and engineering. Process ontology
+guides how the framework understands persistence and change; domain modeling
+selects relevant objects, events, states, relations, constraints, and transitions.
+Computational ontology explicitly represents these distinctions for use. Within
+a private sinthome, natural-language accounts of person, counterpart, work,
+correction, and continuation supply a model-usable conceptual organization.
+The sinthome essay develops this role alongside its embodiment in a working
+relationship and environment. The six philosophical dimensions remain visible
+as the principal questions guiding shared practice, rather than being collapsed
+into a single diagram node or equated with engineering stages.
 Its subjects can be actual people and psychological activity, hypothetical
 situations, or fictional objects. The physical realization of representing
 does not settle the existence of its referents. Factual claims use ordinary

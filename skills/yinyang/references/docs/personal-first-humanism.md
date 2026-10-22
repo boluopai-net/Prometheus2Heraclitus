@@ -31,10 +31,12 @@ inadequacy; subsequent experience can disclose another.
 The framework adopts **modest naturalism** as its worldview and **physicalism**
 as its ontological position: persons, psychological activity, machines, and
 engineering occur in the same natural world. **Contemporary fire monism** gives
-its becoming and transformation an image. Computational ontology is a
-representation constructed for a particular question. Here events, states,
-objects, relations, and transitions organize a **process ontology** through
-which human activity and change can be described, reasoned about, and used.
+its becoming and transformation an image. Process ontology further asks how
+things form, persist, and change. A domain ontology expresses that understanding
+for a particular question through events, states, objects, relations, and
+transitions, making human activity and change available for description,
+reasoning, and use. A computational ontology explicitly expresses these
+distinctions for computational use.
 Physical grounding locates this activity in reality; computational representation
 articulates what we select and how we understand it. [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops this connection.
@@ -83,66 +85,92 @@ gives revision a direction. The two contributions should remain distinguishable.
 
 ## Six connected dimensions
 
-The philosophical exposition develops six connected dimensions and the positions
-this practice adopts within them. Worldview gives the
-overall picture; ontology articulates existence and representation; a theory
-of truth explains what it means to be true; epistemology concerns forming and
-revising judgments; axiology and methodology examine worthwhile purposes
-and ways of inquiry and action.
+A philosophical account develops questions about the world, existence, truth,
+knowing, value, and method. An adopted position gives a particular answer within
+that inquiry. The distinction concerns the work a passage does: a theory unfolds
+an explanation and its reasons; a position states the understanding adopted in
+this practice. Both can be developed, criticized, and revised. “Worldview” remains
+the familiar name for the overall picture in which these answers belong.
 
-| Dimension | Adopted position | What it asks of the practice |
+| Philosophical dimension and shared practice | Position or activity developed here | Contribution to modeling and practice |
 | --- | --- | --- |
-| Worldview | Modest naturalism: persons, models, and society share one changing natural world; contemporary fire monism expresses its becoming and transformation. | How do persons, technologies, and their activities belong in an overall picture of the world? |
-| Ontology | A physicalist ground of reality; at the computational level, objects, events, states, relations, and transitions construct a process ontology as a question-relative representation. | What actually exists, and which objects and relations does the model select or construct? |
-| Theory of truth | Correspondence: a claim about reality is true when what it says accords with the facts; statements within a model have truth conditions under a given interpretation. | Does the stated situation obtain, and how does the model's expression relate to its object? |
-| Epistemology | Fallible inquiry beginning with embodied experience and corrected through feedback. | Which observations support or challenge an interpretation, and what distinguishes alternatives? |
-| Axiology | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
-| Methodology | Question-relative pluralism. | Which combination of analogy, formalization, simulation, participation, and experiment answers this question? |
+| Worldview | Modest naturalism; contemporary fire monism expresses a changing natural world. | Place persons, models, and their activities in a shared picture of the world. |
+| Ontology | Physicalism locates actual activity in one material reality; process ontology explains persistence and change. | Articulate the objects, events, relations, and continuity relevant to a domain model. |
+| Theory of truth | Correspondence for claims about actuality; truth under an interpretation for statements in a model. | Specify what a claim says, its conditions of truth, and how an actual-world claim relates to its object. |
+| Epistemology | Embodied, fallible inquiry that develops through evidence and correction. | Organize observations, candidate explanations, inferences, and tests. |
+| Axiology | Personal-first humanism: concrete persons' lives, agency, and chosen development give arrangements their direction. | Form goals and evaluation criteria whose consequences return to the people affected. |
+| Methodology | Question-relative pluralism. | Select and combine inquiry, dialogue, formalization, simulation, experiment, and practical construction. |
+| Shared practice | Person and model understand, model, express, construct, and evaluate together in reality. | The six dimensions meet in the work; experience and consequences revise understanding and arrangements. |
 
-These dimensions use the same distinctions as [Core view YY-09](core-views.md#yy-09).
-Worldview connects them into a whole, value articulates what is worth pursuing,
-and **practice** brings them into action and encounters their consequences.
-The practice nodes in the diagram express this shared use.
+Here **humanism** locates value in human lives and agency. **Personal-first**
+brings that concern to the concrete person encountered, including circumstances
+that a generic category can miss. “Personal-first humanism” names the developed
+value position; “personal-first” and “personal-first orientation” emphasize its
+practical priority. Other persons remain bearers of purposes and consequences
+within the same concern. This is the connection between the essay's title, its
+value argument, and the goal-setting that follows.
+
+An engineering criterion expresses this position in a particular task. For a
+reading interface, the goal might be to let someone follow a thought across
+related passages with less navigation effort. That criterion is a selected
+operational expression of the value position. The reader's experience can reveal
+whether the arrangement supports understanding, and can lead both participants
+to revise the criterion or the account that suggested it.
 
 <a id="physical-and-computational-levels"></a>
 
-The exposition now turns to adopted views: a worldview, an ontological view,
-a view of truth, a view of knowing, a view of value, and a view of method.
-They articulate how this situated practice understands and organizes objects,
-judgments, purposes, and activity. Claims about the world still answer to facts
-and evidence; making a view explicit lets its grounds and consequences be examined.
-These views are developed at physical and computational levels. The physical level concerns actual activity and its material conditions;
-the computational level organizes representations usable by people and computers
-and brings them into activity. **Computational ontology first articulates objects,
-relations, and rules within the representation; here a process ontology organizes
-their persistence and change.** It can describe reality or express hypotheses,
-possibilities, and fiction. The computational carrier and its use belong to the
-physical world; the represented content is understood through its objects and context.
+## Objects, models, expression, and realization
 
-A person's activity history and the history of human–model interaction can be
-organized as event streams. A model of the person draws on those histories and
-other life material to form a conceptual representation of experience, beliefs,
-purposes, and action. The participant, their history, and the model of them have
-distinct places in this account.
+The six dimensions jointly guide domain understanding, purposes, and inquiry; the domain supplies
+objects and events that the account seeks to understand. Between them, people
+and models develop a conceptualization: a question-relative selection of
+entities, distinctions, and relations. Engineering makes selected meanings
+explicit and gives them usable forms.
 
-| Dimension | Physical level | Computational level |
+In knowledge engineering, Gruber describes an ontology as an explicit
+specification of a conceptualization; Guarino further distinguishes that
+conceptualization from a theory expressing a vocabulary's intended meaning.
+These accounts help locate a **domain ontology** among our representations of a
+domain. Here a process-oriented domain ontology organizes participants, events,
+states, relations, constraints, and changes. A conceptual model develops a
+particular account with those distinctions. Clear natural language, diagrams,
+or formal expressions can give that account a usable expression. Computational
+ontology makes its conceptual relations explicit for a model to interpret and
+use. In a [private sinthome](writing-a-sinthome.md#computational-ontology-in-a-private-sinthome),
+relations among person, counterpart, work, correction, and continuation can
+acquire this computational use through natural language.
+[Gruber, 1993](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf);
+[Guarino, 1998](https://www.loa.istc.cnr.it/wp-content/uploads/2020/03/FOIS98.pdf).
+
+| Role in the practice | What it contains | Example: returning to unfinished reading |
 | --- | --- | --- |
-| Worldview | Persons, machines, psychological activity, and social activity share one changing natural world. | Organize a selected world picture, expressing actual, possible, or imagined situations and their connections. |
-| Ontological view | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology as representation, using process ontology to organize objects, events, states, relations, and transitions. |
-| View of truth | How are the objects, events, and relations in question actually situated; what obtains? | When do statements hold under a given interpretation, how do conclusions follow from premises, and how do world-directed claims correspond to facts? |
-| View of knowing | How do experience and observation support judgment and disclose error? | How are evidence, candidate explanations, inference, and tests represented and organized? |
-| View of value | What is worth pursuing; whose agency and life are affected? | How are goals, criteria, constraints, and tradeoffs made explicit? |
-| View of method | How are inquiry, collaboration, and experiments actually conducted? | How do method descriptions, procedures, tools, and rules organize selected activity? |
-| Practice | How do embodied people act and live with consequences? | How are computational arrangements run and used, and their results read back? |
+| Actual world and shared activity | Persons, machines, events, material conditions, and consequences. | A reader loses the connection between two passages and tries to recover it. |
+| Domain understanding and conceptual models | Selected objects and relations, proposed explanations, and relevant constraints. | Distinguish the reader, the passages, their conceptual connection, and the interruption; propose why navigation broke the connection. |
+| Representation and expression | Language, diagrams, formal statements, data, and records carrying selected meaning. | Write the explanation, draw the reading path, or record where the reader stopped. |
+| Engineering realization and use | Programs, tools, interfaces, and working arrangements that interpret and use representations. | Keep related passages together and make the reading position recoverable. |
+| Philosophical framework | Developed explanations and adopted positions concerning world, existence, truth, knowing, value, and method. | Ask why continuity of understanding matters, what the explanation commits to, and what would warrant revising it. |
 
-[From understanding the world to realizing a practice](../diagrams/layers.html)
-draws these two sets of six adopted views plus practice as two levels, naming
-their ontology nodes **physical ontology** and **computational ontology**.
-Bodies, machines, records, energy, and activity at the physical level realize
-the computational arrangement. Computational representations relate to the
-world through selection, description, inference, construction, and use.
-Value commitments guide goals, methods guide procedures, and feedback makes
-both revisable.
+The roles distinguish relations within one practice. A document can carry a
+conceptual model; a program can embody a decision about which objects matter;
+a philosophical passage can itself be represented and examined. Their physical
+carriers and the activities of making and using them belong to the actual world.
+A representation reaches its subject through meaning and interpretation, while
+its carrier exists and operates through material processes. These two relations
+answer different questions.
+
+The represented domain may concern actual life, a hypothesis, or a fictional
+situation. Actual-world claims invite comparison with their objects; hypothetical
+and fictional accounts develop consequences under their stated conditions.
+A person's imagining is actual activity whose content can concern an imagined
+character. Likewise, a participant, their activity history, selected records,
+and a conceptual model of them occupy different roles in understanding that life.
+
+[Six philosophical dimensions and shared practice](../diagrams/layers.html)
+expands all six dimensions from the first table, stating each adopted position
+and its contribution. Within practice, experience and questions inform domain
+understanding; computational ontology and conceptual models acquire expression;
+engineering brings them into use. Consequences can revise the understanding,
+arrangement, and philosophical grounds.
 
 Truth has a definite object here. Claims about actual life are assessed for
 correspondence with facts. Statements within a model are assessed under its
@@ -156,8 +184,9 @@ the grounds for accepting, doubting, or revising the judgment.
 Evidence representations therefore remain answerable to experience, evaluation
 criteria to lived purposes, and executed procedures to judgments of methodological
 fit. A well-formed representation can explain the phenomenon poorly; a predictive
-model can serve a purpose we have reason to reject. Articulating both sets
-separately makes their actual connections open to examination.
+model can serve a purpose we have reason to reject. Explanatory adequacy,
+worthwhile purposes, and methodological fit jointly affect how we use and revise
+models within the same practice.
 
 “Begin with psychological adequacy before formal refinement” expresses a useful
 research direction when the question concerns a psychological phenomenon:

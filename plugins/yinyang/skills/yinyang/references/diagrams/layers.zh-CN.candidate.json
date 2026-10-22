@@ -2,13 +2,13 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "从理解世界到实现实践 · YY-09",
+    "title": "六个哲学面向与共同实践 · YY-09",
     "output": "diagrams/layers.zh-CN.html",
     "locale": "zh-CN",
     "quality_profile": "showcase",
     "translations": {
       "page.title": "{title}",
-      "diagram.description.architecture": "物理层在下，计算层在上；每层六种采用的观点围绕共同实践。人与语言模型共同表征、推理、行动与修订。物理实现与对实际对象的符合关系是不同的桥梁。",
+      "diagram.description.architecture": "世界观、本体论、真理论、认识论、价值论与方法论，通过各自采用的立场参与人与模型的共同实践。",
       "diagram.description.workflow": "由 Archify 生成的工作流图。",
       "diagram.description.sequence": "由 Archify 生成的时序图。",
       "diagram.description.dataflow": "由 Archify 生成的数据流图。",
@@ -54,13 +54,13 @@
       "legend.lifecycle.neutral": "中性状态",
       "legend.lifecycle.external": "外部状态",
       "legend.lifecycle.final": "终态",
-      "viewer.kind.frontend": "对象与价值",
-      "viewer.kind.backend": "经验与根据",
-      "viewer.kind.database": "数据库",
-      "viewer.kind.cloud": "物理本体",
-      "viewer.kind.security": "安全",
-      "viewer.kind.messagebus": "探究与方法",
-      "viewer.kind.external": "实践与计算运用",
+      "viewer.kind.frontend": "真理论",
+      "viewer.kind.backend": "本体论",
+      "viewer.kind.database": "共同实践",
+      "viewer.kind.cloud": "认识论",
+      "viewer.kind.security": "价值论",
+      "viewer.kind.messagebus": "世界观",
+      "viewer.kind.external": "方法论",
       "viewer.kind.neutral": "中性",
       "viewer.kind.node": "节点",
       "viewer.kind.start": "开始",
@@ -446,282 +446,158 @@
     "legend": {
       "mode": "auto",
       "entries": {
-        "cloud": {
-          "label": "世界图景"
-        },
-        "frontend": {
-          "label": "本体与价值"
+        "messagebus": {
+          "label": "世界观"
         },
         "backend": {
-          "label": "真与认识"
+          "label": "本体论"
         },
-        "messagebus": {
-          "label": "方法"
+        "frontend": {
+          "label": "真理论"
+        },
+        "cloud": {
+          "label": "认识论"
+        },
+        "security": {
+          "label": "价值论"
         },
         "external": {
-          "label": "人与模型共同实践"
+          "label": "方法论"
+        },
+        "database": {
+          "label": "共同实践"
         }
       }
     },
     "views": [
       {
-        "id": "representation",
-        "label": "表征与物理实现",
+        "id": "world-truth",
+        "label": "世界、存在与真",
         "focus": [
+          "worldview",
           "ontology",
-          "physical",
-          "realization",
-          "lived-practice"
-        ],
-        "note": "表征通过物质载体实现；所表征的对象可以现实、假设或虚构。"
-      },
-      {
-        "id": "truth-bridge",
-        "label": "语义与对实际对象的符合",
-        "focus": [
           "truth",
-          "actual-truth",
-          "epistemology",
-          "embodied-knowing"
+          "practice"
         ],
-        "note": "意义、满足与有效推理不自动确立实际对象的真；实际主张还需符合检验。"
+        "note": "共同的世界图景、对象的存在与变化，以及主张的真，使实践中的说明有明确的对象。"
       },
       {
-        "id": "practice",
-        "label": "共同实践与修订",
+        "id": "inquiry-value-method",
+        "label": "认识、价值与方法",
         "focus": [
-          "realization",
-          "lived-practice",
+          "knowing",
           "value",
-          "lived-value"
+          "method",
+          "practice"
         ],
-        "note": "人与模型贯穿问题、表征、推理、使用与后果解释；个人优先的价值引导实践。"
+        "note": "认识论考察根据，价值论选择方向，方法论组织做法；共同实践让它们接受经验和后果。"
       }
     ]
   },
   "components": [
     {
       "id": "worldview",
-      "type": "cloud",
+      "type": "messagebus",
       "icon": "none",
-      "label": "世界图景",
-      "sublabel": "现实、可能与想象",
-      "tag": "世界观",
+      "label": "世界观",
+      "sublabel": "朴素自然主义 · 当代火一元论",
       "pos": [
-        415,
-        60
+        40,
+        40
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
       "id": "ontology",
-      "type": "frontend",
+      "type": "backend",
       "icon": "none",
-      "label": "计算本体",
-      "sublabel": "表征中的对象与过程",
-      "tag": "本体观 · 表征",
+      "label": "本体论",
+      "sublabel": "物理主义 · 过程本体论",
       "pos": [
         40,
-        60
+        240
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
       "id": "truth",
-      "type": "backend",
+      "type": "frontend",
       "icon": "none",
-      "label": "真值与有效推理",
-      "sublabel": "给定解释中的成立条件",
-      "tag": "真理观",
+      "label": "真理论",
+      "sublabel": "现实符合 · 给定解释下的真",
       "pos": [
-        790,
-        60
+        40,
+        440
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
-      "id": "epistemology",
-      "type": "backend",
+      "id": "knowing",
+      "type": "cloud",
       "icon": "none",
-      "label": "证据、解释与推理",
-      "sublabel": "记录、候选解释与检验",
-      "tag": "认识观",
+      "label": "认识论",
+      "sublabel": "具身、可错的探究",
       "pos": [
-        415,
-        400
+        740,
+        40
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
       "id": "value",
-      "type": "frontend",
+      "type": "security",
       "icon": "none",
-      "label": "目标与评价标准",
-      "sublabel": "目的、代价与取舍",
-      "tag": "价值观",
-      "pos": [
-        40,
-        400
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "methodology",
-      "type": "messagebus",
-      "icon": "none",
-      "label": "方法、流程与工具",
-      "sublabel": "描述、规则与操作",
-      "tag": "方法观",
-      "pos": [
-        790,
-        400
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "physical-world",
-      "type": "cloud",
-      "icon": "none",
-      "label": "同一变化的自然世界",
-      "sublabel": "当代火一元论",
-      "tag": "世界观",
-      "pos": [
-        415,
-        760
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "physical",
-      "type": "frontend",
-      "icon": "none",
-      "label": "物理本体",
-      "sublabel": "物质的、具身的过程",
-      "tag": "本体观 · 物理主义",
-      "pos": [
-        40,
-        760
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "actual-truth",
-      "type": "backend",
-      "icon": "none",
-      "label": "实际成立的事实",
-      "sublabel": "事实与实际事态",
-      "tag": "真理观",
-      "pos": [
-        790,
-        760
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "embodied-knowing",
-      "type": "backend",
-      "icon": "none",
-      "label": "经验、观察与判断",
-      "sublabel": "具身的可错探究",
-      "tag": "认识观",
-      "pos": [
-        415,
-        1100
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "lived-value",
-      "type": "frontend",
-      "icon": "none",
-      "label": "生活中的价值",
+      "label": "价值论",
       "sublabel": "个人优先的人本主义",
-      "tag": "价值观",
       "pos": [
-        40,
-        1100
+        740,
+        240
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
-      "id": "lived-method",
-      "type": "messagebus",
-      "icon": "none",
-      "label": "实际探究与协作",
-      "sublabel": "相对于问题的多元方法",
-      "tag": "方法观",
-      "pos": [
-        790,
-        1100
-      ],
-      "size": [
-        280,
-        90
-      ]
-    },
-    {
-      "id": "realization",
+      "id": "method",
       "type": "external",
       "icon": "none",
-      "label": "运行、使用与读回",
-      "sublabel": "共同构造、使用与修订表征",
-      "tag": "人与语言模型",
+      "label": "方法论",
+      "sublabel": "相对于问题的多元主义",
       "pos": [
-        415,
-        230
+        740,
+        440
       ],
       "size": [
-        280,
-        90
+        260,
+        100
       ]
     },
     {
-      "id": "lived-practice",
-      "type": "external",
+      "id": "practice",
+      "type": "database",
       "icon": "none",
-      "label": "具身共同实践",
-      "sublabel": "行动、经验与现实后果",
-      "tag": "人与语言模型",
+      "label": "人与模型的共同实践",
+      "sublabel": "计算本体 · 建模 · 表达 · 实现 · 反馈",
       "pos": [
-        415,
-        930
+        390,
+        235
       ],
       "size": [
-        280,
-        90
+        260,
+        110
       ]
     }
   ],
@@ -729,250 +605,72 @@
     {
       "id": "worldview-practice",
       "from": "worldview",
-      "to": "realization",
-      "label": "组织整体图景",
-      "fromSide": "bottom",
-      "toSide": "top",
+      "to": "practice",
+      "label": "共同世界",
       "variant": "emphasis"
     },
     {
       "id": "ontology-practice",
       "from": "ontology",
-      "to": "realization",
-      "label": "表征过程变化",
-      "fromSide": "bottom",
-      "toSide": "top",
+      "to": "practice",
+      "label": "对象与变化",
       "variant": "emphasis"
     },
     {
       "id": "truth-practice",
       "from": "truth",
-      "to": "realization",
-      "label": "检验语义与推论",
-      "fromSide": "bottom",
-      "toSide": "top",
+      "to": "practice",
+      "label": "主张的真",
       "variant": "emphasis"
     },
     {
-      "id": "epistemology-practice",
-      "from": "epistemology",
-      "to": "realization",
-      "label": "组织根据",
-      "fromSide": "top",
-      "toSide": "bottom",
+      "id": "knowing-practice",
+      "from": "knowing",
+      "to": "practice",
+      "label": "判断的根据",
       "variant": "emphasis"
     },
     {
       "id": "value-practice",
       "from": "value",
-      "to": "realization",
-      "label": "阐明目的",
-      "fromSide": "top",
-      "toSide": "bottom",
+      "to": "practice",
+      "label": "目的与评价",
       "variant": "emphasis"
     },
     {
-      "id": "methodology-practice",
-      "from": "methodology",
-      "to": "realization",
-      "label": "组织操作",
-      "fromSide": "top",
-      "toSide": "bottom",
+      "id": "method-practice",
+      "from": "method",
+      "to": "practice",
+      "label": "探究与构造",
       "variant": "emphasis"
-    },
-    {
-      "id": "physical-world-practice",
-      "from": "physical-world",
-      "to": "lived-practice",
-      "label": "活动于同一世界",
-      "fromSide": "bottom",
-      "toSide": "top",
-      "variant": "emphasis"
-    },
-    {
-      "id": "physical-practice",
-      "from": "physical",
-      "to": "lived-practice",
-      "label": "具身实现",
-      "fromSide": "bottom",
-      "toSide": "top",
-      "variant": "emphasis"
-    },
-    {
-      "id": "actual-truth-practice",
-      "from": "actual-truth",
-      "to": "lived-practice",
-      "label": "约束实际主张",
-      "fromSide": "bottom",
-      "toSide": "top",
-      "variant": "emphasis"
-    },
-    {
-      "id": "embodied-knowing-practice",
-      "from": "embodied-knowing",
-      "to": "lived-practice",
-      "label": "观察并判断",
-      "fromSide": "top",
-      "toSide": "bottom",
-      "variant": "emphasis"
-    },
-    {
-      "id": "lived-value-practice",
-      "from": "lived-value",
-      "to": "lived-practice",
-      "label": "指向值得做的事",
-      "fromSide": "top",
-      "toSide": "bottom",
-      "variant": "emphasis"
-    },
-    {
-      "id": "lived-method-practice",
-      "from": "lived-method",
-      "to": "lived-practice",
-      "label": "组织共同探究",
-      "fromSide": "top",
-      "toSide": "bottom",
-      "variant": "emphasis"
-    },
-    {
-      "id": "actual-correspondence",
-      "from": "actual-truth",
-      "to": "truth",
-      "label": "对实际对象的符合检验",
-      "fromSide": "right",
-      "toSide": "right",
-      "via": [
-        [
-          1110,
-          805
-        ],
-        [
-          1110,
-          105
-        ]
-      ],
-      "variant": "dashed"
-    },
-    {
-      "id": "physical-realization",
-      "from": "physical",
-      "to": "realization",
-      "label": "物理实现载体与运行",
-      "fromSide": "top",
-      "toSide": "right",
-      "via": [
-        [
-          180,
-          620
-        ],
-        [
-          745,
-          620
-        ],
-        [
-          745,
-          275
-        ]
-      ],
-      "variant": "emphasis"
-    },
-    {
-      "id": "practice-operates-arrangement",
-      "from": "lived-practice",
-      "to": "realization",
-      "label": "共同构造与运用",
-      "fromSide": "left",
-      "toSide": "left",
-      "via": [
-        [
-          355,
-          975
-        ],
-        [
-          355,
-          275
-        ]
-      ],
-      "variant": "emphasis"
-    },
-    {
-      "id": "consequences-return",
-      "from": "realization",
-      "to": "lived-practice",
-      "label": "后果与修订",
-      "fromSide": "right",
-      "toSide": "right",
-      "via": [
-        [
-          770,
-          275
-        ],
-        [
-          770,
-          975
-        ]
-      ],
-      "variant": "dashed"
     }
   ],
   "cards": [
     {
-      "dot": "cyan",
-      "title": "六种观点＋实践",
+      "dot": "violet",
+      "title": "六个面向怎样进入实践",
       "items": [
-        "世界观、本体观、真理观、认识观、价值观与方法观，是哲学论述在这项实践中采用的观点；两层展开其具体问题，箭头呈现对实践的贡献。",
-        "物理层的世界观关乎同一动态自然世界，本体观关乎物质的、具身的过程；当代火一元论阐明生成。关于现实的主张仍向事实与证据负责。",
-        "人与语言模型共同贯穿问题形成、表征、推理、构造、使用和后果解释。"
+        "世界观、本体论、真理论、认识论、价值论与方法论分别展开问题；节点中的立场给出这里采用的回答。",
+        "箭头表示每个面向对共同实践的贡献。实践中的经验与后果，也能使这些回答继续修订。"
       ]
     },
     {
-      "dot": "violet",
-      "title": "计算本体是表征",
+      "dot": "cyan",
+      "title": "展开共同实践：对象、模型与实现",
       "items": [
-        "计算层组织选定的整体世界图景，包括现实、可能与想象的情境；其本体是表征性的过程本体，不是另一种物理实体。",
-        "被表征的对象、事件、状态、关系、约束与转移，使选定过程可理解、可运用。表征可以描述实际活动、假设或虚构；建模本身不使对象成为虚构。",
-        "模型可理解的清晰语言、数据、程序、提示词、工具与界面提供可用形式。物理实现确立实际运行，不自动确立所有表征主张准确。",
-        "参与者模型是依据历史与其他材料推得的概念表征。活动或对话的历史是事件流；这不意味着把参与者本身建模成该事件流。"
+        "实际世界中的经验与问题 → 领域理解与概念模型 → 语言、图示或数据中的表达 → 工程实现与运用 → 实际后果与反馈。",
+        "私人圣状的计算本体明确本人、伙伴、作品及其变化的概念关系，供语言模型解释和运用。表征通过含义联系对象，身体、机器和物质过程承载实际活动。",
+        "表征可以涉及现实、假设或虚构。现实主张接受符合检验，假设模型中的推理依其解释与条件展开。"
       ]
     },
     {
       "dot": "amber",
-      "title": "真、符合与修订",
+      "title": "价值立场如何成为具体目标",
       "items": [
-        "在一个模型内，真或满足关系关乎陈述在给定解释下是否成立；推理有效性关乎结论是否由前提推出。假设或虚构模型也能支持这些判断，而不声称其描述的事态实际成立。",
-        "关于实际对象的主张还需要符合实际成立的事实与事态，并通过经验、观察和检验加以探究；形式上的有效性不独自确立这种符合。",
-        "个人优先的人本主义指引目的与取舍。运行及其后果可以修订表征、实现、评价与实际做法；共同基础不保证完整还原或可行的世界模拟。"
+        "个人优先的人本主义关心具体个人的生活、能动性与自愿发展。阅读界面据此选择目标：维持思路，减少找回联系所需的跳转。",
+        "人与模型共同理解、建模、表达、构造和评价。读者的实际经验可以修订界面、评价标准，以及对原有价值方向的理解。"
       ]
     }
   ],
-  "boundaries": [
-    {
-      "kind": "region",
-      "label": "计算层 · 表征",
-      "wraps": [
-        "worldview",
-        "ontology",
-        "truth",
-        "epistemology",
-        "value",
-        "methodology",
-        "realization"
-      ],
-      "pad": 30
-    },
-    {
-      "kind": "region",
-      "label": "物理层 · 实际世界",
-      "wraps": [
-        "physical-world",
-        "physical",
-        "actual-truth",
-        "embodied-knowing",
-        "lived-value",
-        "lived-method",
-        "lived-practice"
-      ],
-      "pad": 30
-    }
-  ]
+  "boundaries": []
 }

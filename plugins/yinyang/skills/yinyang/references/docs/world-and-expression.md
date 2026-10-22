@@ -72,16 +72,17 @@ same object, and which events change its state or end that continuity. A static
 view can legitimately hold selected relations fixed for an inquiry. Its boundary
 belongs within the larger process in which the view is made, used, and revised.
 
-**Computational ontology is representational. Here it adopts a process ontology:**
-computational concepts organize events, states, persisting objects, relations,
+**Process ontology guides domain modeling here; computational ontology explicitly
+expresses the selected distinctions.** Concepts organize events, states, persisting objects, relations,
 constraints, and transitions within a selected domain. That domain can concern
 physical cooling, psychological change, a hypothetical society, or a fictional
 character's journey. The participants select relevant boundaries, scales, and
 continuities together; the model states what these choices mean and can support
-simulation where the question calls for it. Process ontology thus organizes how
-the representation understands persistence and change. Naturalism and fire
-monism state the adopted view of the world in which this modeling occurs;
-computational ontology states the organization of what is represented.
+simulation where the question calls for it. Philosophical understanding of
+persistence and change thus informs domain concepts and their explicit expression.
+Naturalism and fire monism state the adopted view of the world in which this
+modeling occurs; computational ontology organizes the selected domain's meanings
+for computation and practical use.
 
 A representation may concern the actual world, a hypothesis, fiction, or an
 imagined God or cartoon character. A real person's imagining is an actual
@@ -124,15 +125,17 @@ which records and software architecture serve a particular use. The
 [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops its unity across the three
 activities.
 
-The [interactive two-level diagram](../diagrams/layers.html) develops six
-adopted views—a worldview, an ontological view, a view of truth, a view of
-knowing, a view of value, and a view of method—together with practice at the
-physical and computational levels. They carry philosophical exposition into
-a situated understanding: overall orientation, what exists or is represented,
-whether claims hold, grounds for knowing, worthwhile purposes, and ways to act. Practice brings these relations
-into actual activity. [Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
-develops their correspondences. The computational arrangement is physically
-realized, while its represented domain may be actual, hypothetical, or fictional.
+The [six dimensions and shared practice diagram](../diagrams/layers.html) shows
+worldview, ontology, theory of truth, epistemology, axiology, and methodology
+individually, connecting their adopted positions with shared practice.
+[Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
+develops these correspondences and distinguishes their roles in a reading
+example. Computational ontology makes model-usable conceptual relations explicit
+within practice. A private sinthome can organize person, counterpart, work, and
+change in natural language for the model to understand and participate in lived
+work. Model content takes expression in language, diagrams, or data;
+engineering makes it usable. Experience and consequences can revise the model,
+arrangement, and philosophical grounds.
 
 For claims about the world, **truth is correspondence with how things are**.
 Evidence gives grounds for judging a claim true and can remain incomplete or
@@ -153,7 +156,7 @@ actual world correspond to their objects.
 and criteria, and which ways of inquiring fit procedures and tools. Philosophical
 positions are not a program's material carriers. Successful execution cannot
 alone establish accurate representation, worthwhile goals, or methodological
-fit. Realized within the same physical world, the upper arrangement participates
+fit. Realized within the same physical world, the computational arrangement participates
 in and changes its activity through actual use.
 
 ## A bounded computational example: simulating a cooling experiment

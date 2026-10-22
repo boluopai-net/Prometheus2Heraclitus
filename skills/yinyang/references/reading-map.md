@@ -138,10 +138,10 @@ Four diagrams provide visual entrances:
   [中文](diagrams/borrowed-fire.zh-CN.html) · [SVG](diagrams/borrowed-fire.svg)
 - [Shared inquiry](diagrams/encounter.html) makes the participants' connected
   contributions visible. [中文](diagrams/encounter.zh-CN.html) · [SVG](diagrams/encounter.svg)
-- [Understanding and realization](diagrams/layers.html) connects physical
-  and computational levels through
-  two sets of six adopted views plus practice. Computational ontology is representation; it distinguishes physical realization,
-  representational correspondence, and guidance by value and method.
+- [Six philosophical dimensions and shared practice](diagrams/layers.html)
+  develops worldview, ontology, truth, epistemology, axiology, methodology, and
+  their adopted positions alongside shared human–model practice. It explains
+  how computational ontology, expression, and realization enter that practice.
   [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
 
 The self-contained HTML resources show relations rather than a mandatory
