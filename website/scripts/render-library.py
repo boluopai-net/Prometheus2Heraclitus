@@ -100,18 +100,6 @@ def without_source_navigation(rendered):
     return re.sub(r'<p>([\s\S]*?)</p>', project, rendered)
 
 
-def practice_source(creation, package, chinese):
-    """Compose the two canonical accounts without maintaining another prose copy."""
-    def body(source):
-        source = re.sub(r'^# [^\n]+\n+', '', source, count=1)
-        source = re.sub(r'^\[(?:Home|首页)\][^\n]*\n+', '', source, count=1)
-        source = re.sub(r'\n---\n+\[(?:Reading guide|返回阅读目录)\][^\n]*\s*$', '', source)
-        return without_source_toc(source).strip()
-    heading = '实践说明：形成、使用与维护阴阳' if chinese else 'Practice explained: forming, using, and maintaining YinYang'
-    seam = '采用与维护这套实现' if chinese else 'Adopting and maintaining this implementation'
-    return f'# {heading}\n\n{body(creation)}\n\n<span id="package-contract"></span>\n\n## {seam}\n\n{body(package)}\n'
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', type=Path, required=True)
@@ -156,8 +144,8 @@ def main():
     # Only this repository's shared formation guide is included, never a private
     # situated package. Candidate/validation JSON and execution metadata are excluded.
     def url(path):
-        if path in {DOCS + 'skill-package.md', DOCS + 'skill-package.zh-CN.md'}:
-            return url(path.replace('skill-package', 'creation-method')) + '#package-contract'
+        if path in {DOCS + 'getting-started.md', DOCS + 'getting-started.zh-CN.md'}:
+            return '/getting-started/' + ('' if path.endswith('.zh-CN.md') else 'en/')
         commentary = essay_url(path) or retired_url(path)
         if commentary:
             return commentary
@@ -245,12 +233,8 @@ def main():
     for path in sorted(allowed):
         if retired_url(path):
             continue
-        if path in {DOCS + 'skill-package.md', DOCS + 'skill-package.zh-CN.md'}:
-            destination = url(path)
-            alias = redirect_page(destination.split('#', 1)[0]).replace(
-                '+location.hash', '+(location.hash||"#package-contract")')
-            alias = alias.replace('href="' + destination.split('#', 1)[0] + '"', 'href="' + destination + '"')
-            write('source/' + str(Path(path).with_suffix('.html')), alias)
+        if path in {DOCS + 'getting-started.md', DOCS + 'getting-started.zh-CN.md'}:
+            write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
         if not path.endswith('.md'):
             target = output / 'source' / path
@@ -263,9 +247,6 @@ def main():
                 shutil.copyfile(repo / path, target)
             continue
         source = source_text(path)
-        practice = path in {DOCS + 'creation-method.md', DOCS + 'creation-method.zh-CN.md'}
-        if practice:
-            source = practice_source(source, source_text(path.replace('creation-method', 'skill-package')), '.zh-CN.md' in path)
         if source.startswith('---\n'):
             source = source.split('---\n', 2)[2]
         source = without_source_toc(source)
@@ -285,13 +266,6 @@ def main():
         rendered = re.sub(r'<p>\s*(?:·\s*)*</p>', '', rendered)
         rendered = rewrite_links(rendered, path)
         chinese = '.zh-CN.md' in path
-        if practice:
-            # Append attribution after link projection so both exact authored
-            # sources remain inspectable on GitHub rather than looping here.
-            owners = [path, path.replace('creation-method', 'skill-package')]
-            labels = ['创制与实现原文', '包结构与更新约定原文'] if chinese else ['Formation and realization source', 'Package and update contract source']
-            sources = ' · '.join(f'<a href="{GITHUB}/blob/{revision}/{owner}">{label}</a>' for owner, label in zip(owners, labels))
-            rendered += f'<p class="reader-provenance">{sources} · <a href="{BASE}license/{"" if chinese else "en/"}">CC BY-NC-SA 4.0</a></p>'
         counterpart = path.replace('.zh-CN.md', '.md') if chinese else path[:-3] + '.zh-CN.md'
         switch = f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{url(counterpart)}">{"English" if chinese else "中文"}</a>' if counterpart in allowed else f'<span class="edition-note">{"原文版本" if chinese else "Original edition"}</span>'
         source_note = ''
@@ -301,8 +275,12 @@ def main():
         contents = reading_rail(md.toc, chinese, rendered)
         layout = '' if contents else ' no-toc'
         body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
-        page_title = ('实践说明：形成、使用与维护阴阳' if chinese else 'Practice explained: forming, using, and maintaining YinYang') if practice else title(path)
-        write('source/' + str(Path(path).with_suffix('.html')), shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">'))
+        page_title = title(path)
+        page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">')
+        if path in {DOCS + 'creation-method.md', DOCS + 'creation-method.zh-CN.md'}:
+            destination = url(path.replace('creation-method', 'skill-package'))
+            page = page.replace('</head>', '<script>if(location.hash==="#package-contract")location.replace(' + repr(destination) + ');</script></head>', 1)
+        write('source/' + str(Path(path).with_suffix('.html')), page)
 
     # Retain retired reading URLs as small aliases, even after source deletion.
     for name in RETIRED:
@@ -319,24 +297,35 @@ def main():
     # for actual private accounts.
     legacy_guides = {
         'encounter': 'orientation', 'models': 'person',
-        'relationship': 'relationship', 'usage': 'environment', 'sources': 'sources',
+        'relationship': 'relationship', 'usage': 'environment',
     }
     for legacy, successor in legacy_guides.items():
         for edition in ('.md', '.zh-CN.md'):
             old = PACKAGE + 'references/' + legacy + edition
             target = PACKAGE + 'references/formation/' + successor + edition
             write('source/' + str(Path(old).with_suffix('.html')), redirect_page(url(target)))
+    for edition, anchor in (('.md', 'sources-and-evidence'), ('.zh-CN.md', '来源与证据')):
+        old_environment = PACKAGE + 'references/harness-adaptation' + edition
+        environment = PACKAGE + 'references/formation/environment' + edition
+        write('source/' + str(Path(old_environment).with_suffix('.html')),
+              redirect_page(url(environment)))
+        destination = url(PACKAGE + 'references/revision-guide' + edition) + '#' + anchor
+        for old in ('references/sources', 'references/formation/sources'):
+            # The source method now belongs to the revision guide. Its former
+            # heading fragments must not append a second hash to the successor.
+            write('source/' + str(Path(PACKAGE + old + edition).with_suffix('.html')),
+                  redirect_page(destination).replace('+location.hash', ''))
     for english in [False, True]:
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('理解整体实践', 'Understand the practice', '面向读者，说明作者的哲学、人与模型的协作及工作环境怎样联系起来。', 'For readers: understand how the author connects philosophy, collaboration between a person and model, and the working environment.', [
-                ('references/docs/creation-method', '实践说明', 'Practice explained', '给读者看，解释作者怎样连接哲学、人与伙伴的理解及工作环境，并说明可供取用的方法。', 'For readers: explains how the author connects philosophy, understanding the person and counterpart, and the working environment, including methods others can borrow.'),
+            ('哲学、模型与使用', 'Philosophy, models, and use', '人和模型都可以阅读。先理解整体，再按当前问题进入哲学、个人模型或实际协作；环境与修订的具体内容归在六个工作文件中。', 'For people and models alike. Understand the whole, then enter through philosophy, personal models, or actual collaboration; environment and revision belong within the six working files.', [
+                ('references/docs/creation-method', '实践说明', 'Practice overview', '先看整体：哲学、个人模型、六个工作文件与环境怎样成为同一份实践。', 'See the whole: how philosophy, personal models, six working files, and environment form one practice.'),
+                ('references/design-and-revision', '形成方法', 'Formation method', '结合生活材料与哲学写作，形成有根据的个人、伙伴与关系理解，再凝练为实际描述。', 'Bring living material and philosophical writing together, develop grounded understanding of the participants and relationship, and distill it into the accounts.'),
+                ('SKILL', '协作入口', 'Collaboration entrypoint', '理解这套 Skill 怎样读取六个工作文件，并把它们用于日常协作。', 'Understand how the Skill reads the six working files and uses them in ordinary collaboration.'),
             ]),
-            ('协作与方法', 'Collaboration and methods', '写作参考帮助形成方向、个人、伙伴、关系与环境五份相连的实际描述，协作入口读取这些描述，环境适配把其中的理解落实到实际工作。', 'Writing references help develop five connected accounts of orientation, person, counterpart, relationship, and environment; the collaboration entrypoint reads those accounts, and environment adaptation realizes their understanding in actual work.', [
-                ('SKILL', '模型执行入口', 'Model entrypoint', '按已有的情境化描述进入协作，并明确尚待形成的理解；完整采用时遵循初始阅读约定。', 'Enter collaboration through the available situated accounts and identify understanding still needed; full adoption follows the initial reading contract.'),
-                ('references/design-and-revision', '形成与修订', 'Formation and revision', '说明怎样结合个人材料与实际互动形成、写作和修订五份核心描述；下列公开指南分别说明写法，来源指南提供支持。', 'Explains how to form, write, and revise the five core accounts through personal material and actual interaction; the public guides below address their writing, supported by the sources guide.'),
-                ('references/harness-adaptation', '环境适配', 'Harness adaptation', '把选定理解落实到指令、工具与工作环境，检查实际效果，并从反馈修订。', 'Realize selected understanding through instructions, tools, and the working environment, check actual effects, and revise through feedback.'),
+            ('文件与更新', 'Files and updates', '需要了解包的结构、私人材料的保存位置或公共更新时，再查阅这些约定。', 'Consult these details when you need package structure, private-material ownership, or common updates.', [
+                ('references/docs/skill-package', '文件与更新约定', 'Files and updates', '说明公共内容、私人描述与证据的关系，以及如何取得、更新和维护完整包。', 'Explains common content, private accounts and evidence, and how to obtain, update, and maintain the complete package.'),
             ]),
             ('观点与阅读', 'Views and reading', '查阅作者的主张、论证与来源，理解并比较哲学、心理与工程各自的问题及其联系。', 'Consult the author’s claims, arguments, and sources to understand and compare the questions and connections of philosophy, psychology, and engineering.', [
                 ('references/docs/core-views', '基本观点', 'Core views', '按主题集中查看作者的主要主张及相连论证。', 'Find the author’s main claims and connected arguments, organized by topic.'),
@@ -352,7 +341,8 @@ def main():
             ('references/formation/person', '如何描述个人', 'How to describe the person', '根据相关经验与证据理解具体的人，保留范围、差异与未知。', 'Understand the actual person through relevant experience and evidence, retaining scope, differences, and unknowns.'),
             ('references/formation/counterpart', '如何描述伙伴', 'How to describe the counterpart', '区分期待的角色与实际能力，描述伙伴的理解、贡献与局限。', 'Distinguish the intended role from actual capabilities and describe the counterpart’s understanding, contributions, and limits.'),
             ('references/formation/relationship', '如何描述关系', 'How to describe the relationship', '说明双方怎样理解、参与、分工并相互纠正。', 'Describe how the participants understand, participate, share work, and correct one another.'),
-            ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实践的实际条件、可用资源与运作关系，为环境适配提供依据。', 'Describe the actual conditions, available resources, and operating relations that inform environment adaptation.'),
+            ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实际条件与资源，把理解落实到提示词、Skills、工具和工作环境，并通过实际使用修订。', 'Describe conditions and resources, realize understanding through prompts, Skills, tools, and the working environment, and revise through actual use.'),
+            ('references/revision-guide', '修订指南', 'Revision guide', '第六个工作文件：连接哲学、个人材料、五份描述与环境的修订，包含整体刷新、局部修改、来源证据与网页预览。', 'The sixth working file connects revision of philosophy, personal material, the five accounts, and environment, including whole refreshes, local changes, evidence, and webpage previews.'),
         ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
@@ -361,12 +351,10 @@ def main():
                 path = PACKAGE + stem + edition
                 guides_html = ''
                 if stem == 'references/design-and-revision':
-                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition, guide_en if english else guide_zh) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
-                    guide_note = ('Five public writing guides built on YinYang’s philosophical account. Use them with personal material and actual interaction to develop the connected accounts of orientation, person, counterpart, relationship, and environment. The actual accounts remain with their private owner.' if english else '在阴阳哲学基础上形成的五篇公开写作指南。结合个人材料与实际互动，形成方向、个人、伙伴、关系与环境五份相连的实际描述；具体描述由私人所有者保管。')
-                    support = link(PACKAGE + 'references/formation/sources' + edition, 'Supporting guide: sources and grounds' if english else '支持指南：来源与根据')
-                    guides_html = '<div class="method-guides"><h3>' + ('Guides for writing the five core accounts' if english else '五份核心描述的写作指南') + '</h3><p>' + guide_note + '</p><ul>' + guide_items + '</ul><p>' + support + '</p></div>'
-                method = stem in {'SKILL', 'references/design-and-revision', 'references/harness-adaptation'}
-                entries_html.append('<li>' + link(path, None if method else label_en if english else label_zh) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
+                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
+                    guide_note = ('Five guides develop the situated accounts; the sixth file supplies their revision method. Environment realization belongs in the environment account. Actual personal accounts remain private.' if english else '前五项是实际描述的写法，第六项是修订指南。环境落实归入环境描述，整体刷新与局部修改归入修订指南；实际个人描述保留在私人版本中。')
+                    guides_html = '<details class="method-guides"><summary>' + ('The six working files' if english else '六个工作文件') + '</summary><p>' + guide_note + '</p><ul>' + guide_items + '</ul></details>'
+                entries_html.append('<li>' + link(path) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
         diagrams = ''
@@ -411,6 +399,7 @@ def main():
             preview = '<main id="main" class="wrap library-reader"><a class="back" href="' + GITHUB + '/blob/' + revision + '/' + quote(path, safe='/') + '">GitHub source</a><article class="document"><h1>' + html.escape(Path(path).name) + '</h1><pre><code>' + html.escape((repo / path).read_text()) + '</code></pre></article></main>'
             write(preview_path, shell(Path(path).name, preview, 'en'))
     render_resource_pages(dist, shell)
+    subprocess.run([sys.executable, str(Path(__file__).with_name('render-guide.py')), '--repo', str(repo)], check=True)
     print(f'Rendered {sum(p.endswith(".md") for p in allowed)} documents and exact diagram viewers at revision {revision}.')
 
 

@@ -1,7 +1,10 @@
 """Check local reading and public GitHub source entrances."""
 from html.parser import HTMLParser
 from pathlib import Path
+import re
 import sys
+
+from commentaries import MAINLINE, EXTENSIONS, article_url, book_navigation
 
 
 class Links(HTMLParser):
@@ -59,3 +62,19 @@ for page in dist.rglob('*.html'):
         title = Links(target.read_text()).heading
         assert title and link['label'].split() == title.split(), (page, link['href'], link['label'], title)
 print('Full-title entrances match their destination headings.')
+
+
+def book_links(text):
+    return [
+        [(link.get('href'), ' '.join(link['label'].split())) for link in Links(section).links]
+        for section in re.findall(r'<section class="book-stage">[\s\S]*?</section>', text)
+    ]
+
+
+for chinese in (True, False):
+    for name in ['overview', *MAINLINE, *(entry[0] for entry in EXTENSIONS)]:
+        route = ('/philosophy/' + ('' if chinese else 'en/')) if name == 'overview' else article_url(name, chinese)
+        page = dist / route.lstrip('/') / 'index.html'
+        expected = book_links(book_navigation(name, chinese))
+        assert book_links(page.read_text()) == expected, f'{route}: rendered book navigation differs from the current reading route'
+print('Every desktop and mobile book menu matches the current route and article titles.')

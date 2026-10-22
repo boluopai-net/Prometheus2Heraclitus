@@ -1,4 +1,4 @@
-"""One argument-driven reading route across common and site-owned essays."""
+"""One argument-driven reading route through the public YinYang essays."""
 import html
 import json
 import re
@@ -8,7 +8,6 @@ from article_art import article_figure
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = 'skills/yinyang/references/docs/'
-SITE_ARTICLES = {'why-yinyang', 'literary-programming', 'baby-heraclitus', 'meng', 'deleuze-and-becoming'}
 SERIES = '/philosophy/'
 STAGE_SLUGS = ('starting-point', 'understanding', 'encounter', 'formation', 'practice')
 SERIES_NAMES = ('窃火，然后成为火', 'Steal Fire, Then Become Fire')
@@ -82,7 +81,7 @@ EN_EXTENSIONS = {
 BRANCHES = [
     ('writing-a-sinthome', ['deleuze-and-becoming'], 'local-source-and-website'),
 ]
-ESSAYS = (set(MAINLINE) | {x[0] for x in EXTENSIONS}) - SITE_ARTICLES
+ESSAYS = set(MAINLINE) | {x[0] for x in EXTENSIONS}
 RETIRED = {'metaphors', 'oedipus-and-thirdness', 'dialectic-and-repair', 'lacan-and-description-logic'}
 IMAGE_SUCCESSORS = {'01': 'yinyang-and-taiji', '02': 'stealing-fire', '03': 'yinyang-and-taiji', '04': 'world-and-expression', '05': 'preference-harness', '06': 'speech-opposition-and-self-formation', '07': 'writing-a-sinthome', '08': 'stealing-fire'}
 
@@ -154,10 +153,7 @@ def book_contents(toc, chinese, rendered):
 
 def essay_title(name, chinese, title=None):
     """Resolve headings at their owner, without importing executable renderers."""
-    if name in SITE_ARTICLES:
-        path = ROOT / 'content/philosophy' / (name + ('.md' if chinese else '.en.md'))
-        match = re.search(r'^#\s+(.+)$', path.read_text(), re.M)
-    elif title is not None:
+    if title is not None:
         return title(DOCS + name + ('.zh-CN.md' if chinese else '.md'))
     else:
         # Standalone rendering follows common projection: use its real edition.

@@ -52,5 +52,17 @@ body :is(a,button,summary):focus-visible{outline:2px solid var(--water);outline-
 @media print{.header{display:none}:root[data-theme="dark"]{--paper:#fff;--ink:#292d31;--muted:#687276;--line:#e9eded;--accent:#245f64;--water:#245f64;--surface:#f5f7f6;color-scheme:light}}
 .skills-wheel-link{display:inline-flex;align-items:center;justify-content:center;flex:none}.skills-wheel-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(480px,560px);align-items:center;gap:48px;padding-bottom:40px}.skills-wheel-heading>.motif{grid-column:2;grid-row:1;width:min(100%,560px);height:auto;justify-self:center;float:none;margin:0}.skills-wheel-intro{grid-column:1;grid-row:1;min-width:0}.skills-wheel-intro .back{margin-bottom:32px}.skills-wheel-intro h1{margin-bottom:24px}
 @media(max-width:1023px){.skills-wheel-heading{grid-template-columns:minmax(0,1fr);gap:24px;padding-bottom:32px}.skills-wheel-heading>.motif{grid-column:1;width:min(100%,560px);grid-row:1}.skills-wheel-intro{grid-row:2}.skills-wheel-intro .back{margin-bottom:24px}}
+/* Let the shared Skills wheel turn without animating other site illustrations. */
+.skills-wheel-link .motif,.skills-wheel-heading>.motif{animation:skills-wheel-turn 48s linear infinite;transform-origin:center}
+@keyframes skills-wheel-turn{to{transform:rotate(1turn)}}
+@media(prefers-reduced-motion:reduce){.skills-wheel-link .motif,.skills-wheel-heading>.motif{animation:none}}
+.skills-wheel-speed{grid-column:2;grid-row:2;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 12px;width:min(100%,560px);justify-self:center;padding-top:8px;color:var(--muted);font-size:13px}
+.skills-wheel-speed output{font-variant-numeric:tabular-nums}
+.skills-wheel-speed-line{grid-column:1/-1;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px}
+.skills-wheel-speed input{width:100%;margin:0;accent-color:var(--water);cursor:pointer}
+.skills-wheel-speed input:disabled{cursor:not-allowed;opacity:.55}
+.skills-wheel-speed-hint{grid-column:1/-1;margin:0;font-size:12px}
+.skills-wheel-speed-hint[hidden]{display:none}
+@media(max-width:1023px){.skills-wheel-speed{grid-column:1;grid-row:2}.skills-wheel-intro{grid-row:3}}
 .hero-title-row{display:flex;justify-content:space-between;align-items:center;gap:24px}.hero-title-row .motif{flex-shrink:0}
 .library-hub>.collection-heading{padding-bottom:0;margin-bottom:24px}.library-hub>.collection-heading h1{margin-bottom:0}.library-hub>.library-section:first-of-type{padding-top:16px}

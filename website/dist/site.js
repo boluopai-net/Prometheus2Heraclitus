@@ -32,3 +32,52 @@
     });
   });
 })();
+
+/* Keep the Skills illustration speed control local to the large wheel. */
+document.addEventListener('DOMContentLoaded', () => {
+  const slider = document.querySelector('[data-wheel-speed]');
+  const wheel = document.querySelector('.skills-wheel-heading > .motif');
+  if (!slider || !wheel) return;
+
+  const output = document.querySelector('[data-wheel-speed-output]');
+  const hint = document.querySelector('[data-wheel-speed-hint]');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const baseDuration = 48;
+  const slowDuration = 120;
+  const fastDuration = 6;
+
+  const update = () => {
+    const position = Number(slider.value) / 100;
+    const duration = slowDuration * Math.pow(fastDuration / slowDuration, position);
+    const seconds = Math.round(duration);
+    const english = document.documentElement.lang === 'en';
+    slider.disabled = reducedMotion.matches;
+    slider.setAttribute('aria-valuetext', english ? `${seconds} seconds per rotation` : `${seconds} 秒/圈`);
+    if (output) output.textContent = english
+      ? `${seconds} sec / rotation`
+      : `${seconds} 秒/圈`;
+    if (hint) {
+      hint.hidden = !reducedMotion.matches;
+      hint.textContent = document.documentElement.lang === 'en'
+        ? 'The wheel is still because reduced motion is enabled.'
+        : '系统已开启减少动态效果，转盘保持静止。';
+    }
+    if (reducedMotion.matches) return;
+
+    const playbackRate = baseDuration / duration;
+    for (const animation of wheel.getAnimations()) {
+      if (animation.animationName !== 'skills-wheel-turn') continue;
+      if (typeof animation.updatePlaybackRate === 'function') {
+        animation.updatePlaybackRate(playbackRate);
+      } else {
+        const time = animation.currentTime;
+        animation.playbackRate = playbackRate;
+        animation.currentTime = time;
+      }
+    }
+  };
+
+  slider.addEventListener('input', update);
+  reducedMotion.addEventListener('change', update);
+  update();
+});

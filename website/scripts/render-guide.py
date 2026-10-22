@@ -1,8 +1,9 @@
 """Render one continuous bilingual practical guide and its legacy route aliases.
 
-uv run --with markdown python scripts/render-guide.py
+uv run --with markdown python scripts/render-guide.py --repo /path/to/Prometheus2Heraclitus
 Shared site chrome is projected by refine-navigation.py after both editions exist.
 """
+import argparse
 import html
 import json
 import re
@@ -74,9 +75,12 @@ def legacy_alias(slug, english):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--repo', type=Path, required=True)
+    args = parser.parse_args()
     for english in (False, True):
-        source = root / 'content/guides' / ('getting-started.en.md' if english else 'getting-started.md')
-        text = source.read_text()
+        source = args.repo / 'skills/yinyang/references/docs' / ('getting-started.md' if english else 'getting-started.zh-CN.md')
+        text = source.read_text().replace('https://boluopai.net/', '/')
         title = text.splitlines()[0].removeprefix('# ')
         headings = re.findall(r'<a id="([^"]+)"></a>\s*## (.+)', text)
         if tuple(anchor for anchor, _ in headings) != SECTION_IDS:
@@ -108,7 +112,7 @@ def main():
             alias = root / 'dist/getting-started' / slug / suffix / 'index.html'
             alias.parent.mkdir(parents=True, exist_ok=True)
             alias.write_text(legacy_alias(slug, english))
-        print(f'Rendered {target.relative_to(root)} and six direct legacy aliases from {source.relative_to(root)}')
+        print(f'Rendered {target.relative_to(root)} and six direct legacy aliases from {source.name}')
     subprocess.run([sys.executable, str(root / 'scripts/refine-navigation.py')], check=True)
 
 

@@ -294,15 +294,15 @@ routes are unreachable. Dependency upgrades are deferred rather than force-fixed
 reassess advisories before introducing any framework request path or exposing a
 development server. Keep the lockfile and Sites build integration intact.
 
-`scripts/render-article.py` renders a registered canonical article to its
-own path below `dist/philosophy/`; pass the owner's original Markdown path.
-It requires Python Markdown (`uv run --with markdown python ...`). Do not edit
-the generated article instead of its canonical source.
+`scripts/render-library.py --repo /path/to/Prometheus2Heraclitus` renders every
+philosophical essay and both book menus from the public package in one pass.
+It requires Python Markdown (`uv run --with markdown python ...`). Edit the
+canonical package source rather than generated articles.
 
-The practical toolkit guide is independently maintained in
-`content/guides/getting-started.md` and `getting-started.en.md`, with complete
-bilingual prose in these two sources. Run
-`uv run --with markdown python scripts/render-guide.py` to render the native
+The practical toolkit guide is maintained in the public package at
+`skills/yinyang/references/docs/getting-started.md` and `getting-started.zh-CN.md`.
+The library renderer also invokes `render-guide.py --repo /path/to/Prometheus2Heraclitus`
+to render the native
 `/getting-started/` and `/getting-started/en/` as two continuous articles,
 retaining every section and the ending from their respective source. Only the
 duplicated source tool-map navigation is removed from the projection. A flat
@@ -354,18 +354,13 @@ and automation sources informed these examples; publishing the guide does not
 configure the reader's services or claim that every suggested collector runs.
 Keep private setup details out of this public guide.
 
-Canonical essays live in `content/philosophy/meng.md` and
-`content/philosophy/baby-heraclitus.md`, together with
-`content/philosophy/why-yinyang.md` and `content/philosophy/literary-programming.md`.
-The owner selected this repository
-as their maintained source on 2026-10-11. The first two originals were initially
-imported from the former personal-web-materials folder; subsequent revisions
-and the independent explanations “为什么要写阴阳” and “文学式编程” are maintained here.
-Preserve completed prose unless the owner requests revision.
-Render each with `uv run --with markdown python scripts/render-article.py content/philosophy/SLUG.md`.
-Each independent essay now has a maintained `SLUG.en.md` translation. Render
-that source with the same command to produce `/philosophy/SLUG/en/`. Keep the
-argument, qualifications, and citations aligned when revising either edition.
+All philosophical essays, including Super-Cuteness, Baby Heraclitus, personal
+philosophy, literary programming, and Machines and becoming, are authored in
+the public collection's `skills/yinyang/references/docs/`. English uses
+`SLUG.md` and Chinese uses `SLUG.zh-CN.md`. The owner unified these sources on
+2026-10-22; Git retains the former Site-authored editions. The library renderer
+preserves `/philosophy/SLUG/` and `/philosophy/SLUG/en/`. Keep arguments,
+qualifications, citations, and existing heading anchors aligned when revising.
 The home, singing, and wheel English entrances are maintained sibling pages;
 the library renderer generates the English philosophy, sequence, repository,
 and library entrances. Run the shared navigation refiner after the complete
@@ -415,9 +410,14 @@ UI; source provenance remains in this repository. User correction: 2026-10-12.
 Both renderers run `scripts/refine-navigation.py` to remove decorative arrows
 from navigation while preserving article prose and semantic diagram viewers.
 Chinese readers use the complete `SKILL.zh-CN.md`, `reading-map.zh-CN.md`,
-`design-and-revision.zh-CN.md`, and `harness-adaptation.zh-CN.md` editions.
-The library presents methods and reading links directly, with maintenance and
-formation sources under a separate disclosure in the selected reading language.
+`design-and-revision.zh-CN.md`, the formation guides, and
+`revision-guide.zh-CN.md` editions. The library presents three shared entrances:
+practice overview, philosophy and models, and using YinYang. Environment
+realization belongs in the environment writing guide; revision is the sixth
+working file. The overview no longer concatenates the package contract, which
+has its own file/update page; the old overview `#package-contract` link forwards
+there. The six working files sit together under the philosophy/models disclosure:
+five account-writing guides and the revision guide.
 Global language controls resolve to actual bilingual counterparts across reader
 and section pages. Human projections omit the package's opening and closing
 navigation rows in favor of their own collection, series, and edition controls;
@@ -425,7 +425,8 @@ body links and arguments remain. Explicit edition links retain their authored
 language target, while ordinary conceptual links select the current reader's
 available counterpart. The five core writing guides use the canonical bilingual
 `references/formation/{orientation,person,counterpart,relationship,environment}`
-editions, with `formation/sources` as supporting guidance. The actual accounts
+editions. Source/evidence guidance is part of `revision-guide`, the sixth working
+file; former `formation/sources` URLs redirect to that section. The actual accounts
 and private evidence remain outside the public reader. Earlier encounter,
 models, relationship, usage, and sources guide URLs redirect to their public
 successors. The former website-only Chinese overlays are retired now that their
@@ -549,7 +550,7 @@ and repositories landing page, leaving the singing section intact.
 The same command projects selected common essays into Chinese
 `/philosophy/SLUG/` and English `/philosophy/SLUG/en/` editions. The visible
 argument is “窃火，然后成为火 / Borrow Fire, Then Become Fire”: five structural
-chapters with eighteen main articles and two focused branch articles. Its 42
+chapters with nineteen main articles and one focused branch article. Its 42
 canonical pages are two overview editions and forty essay editions. Chapter
 headings link directly to their first essay; child links open the selected
 essay. There are no separate chapter introductions or introduction JSON source.
@@ -561,17 +562,15 @@ first essay, with ordinary links also available without JavaScript. Branches
 return to the relevant continuation, and the
 getting-started guide supplies a practical entrance without requiring every
 article to be read first.
-`scripts/commentaries.py` owns this shared route across source owners. Common
-prose remains in `skills/yinyang/references/docs/SLUG[.zh-CN].md`; site-authored
-prose remains in `content/philosophy/`. Render the common library first, then
-both editions of the five site-authored articles with `render-article.py`,
-which resolves common navigation titles from their rendered editions. The
-library renderer calls `commentaries.write_index` to generate both book
-overviews and the twelve legacy aliases. Render
-reader-page entrances and the getting-started guide afterward. No prose is
-duplicated merely to place an article into the shared argument.
+`scripts/commentaries.py` owns the shared route. Every essay's prose lives in
+`skills/yinyang/references/docs/SLUG[.zh-CN].md` in the public collection.
+Render the library once to refresh all forty essay editions, both book
+overviews, the twelve legacy aliases, reader entrances, and the practical guide.
+Run `python scripts/check-repository-entry.py`
+after generation; it compares every desktop/mobile book menu with the current
+route and destination titles, catching incomplete regeneration.
 
-Both essay renderers use the same opening order: H1, artwork with any muted
+The shared essay renderer uses the opening order: H1, artwork with any muted
 figure caption, series position marker, one reading-route lead, then the
 canonical body. The shared `reading_context` supplies the marker and lead.
 Before the position marker, only the title, artwork, and muted figure material
