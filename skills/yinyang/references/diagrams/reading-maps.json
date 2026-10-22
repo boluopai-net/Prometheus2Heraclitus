@@ -7,7 +7,7 @@
       "center": [["人与模型", "共同实践"], ["Person + model", "Shared practice"]],
       "trajectory": [["生活轨迹"], ["Lived", "trajectory"]],
       "reflection": [["共同反思", "澄清图景"], ["Shared reflection", "Clarify pictures"]],
-      "formation": [["哲学与自我形成", "人、伙伴", "与关系模型"], ["Philosophy & becoming", "Person & counterpart", "Their relationship"]],
+      "formation": [["哲学与自我形成", "人、伙伴", "与关系模型"], ["Philosophy", "Self-formation", "Person · counterpart", "Their relationship"]],
       "practice": [["环境与作品", "新的相遇"], ["Environments & works", "New encounters"]]
     },
     "tags": {"trajectory": ["理解", "UNDERSTANDING"], "reflection": ["相遇", "ENCOUNTER"], "formation": ["形成", "FORMATION"], "practice": ["实践", "PRACTICE"]},
