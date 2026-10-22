@@ -128,7 +128,7 @@ rather than summarizing Buddhist traditions.
 
 ## Nietzsche: three metamorphoses and creation
 
-Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of person do we want to cultivate? — Baby Heraclitus](https://boluopai.net/philosophy/baby-heraclitus/en/) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
+Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of person do we want to cultivate? — Baby Heraclitus](baby-heraclitus.md) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
 
 ## James and Bergson: the stream of thought and duration
 
@@ -167,7 +167,7 @@ contemporary argument, rather than a claim about an ancient prediction.
 
 ## Deleuze and Guattari: connections, production, and becoming
 
-The independently authored [Machines and becoming essay](https://boluopai.net/philosophy/deleuze-and-becoming/en/)
+The independently authored [Machines and becoming essay](deleuze-and-becoming.md)
 reads [*Anti-Oedipus*](https://files.libcom.org/files/Anti-Oedipus.pdf),
 chapter 1 and chapter 4's first positive task of schizoanalysis, alongside
 [*A Thousand Plateaus*](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf),
@@ -230,7 +230,7 @@ For conflict in experience, relationships, and therapy, continue to [psychologic
 
 ## Lakoff, Johnson, and Gentner: metaphor and relational analogy
 
-George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Writing a personal philosophy through literary programming](https://boluopai.net/philosophy/literary-programming/en/) and [Metaphor and personal modeling](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
+George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Writing a personal philosophy through literary programming](literary-programming.md) and [Metaphor and personal modeling](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
 
 ## Mind, knowledge, and explanation
 

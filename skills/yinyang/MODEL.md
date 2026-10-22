@@ -55,9 +55,10 @@ structure and philosophy; this maintained implementation retains its fixed five.
 
 Authored public content lives here. `plugins/yinyang/`, website reading editions,
 and local/cloud common files are generated or synchronized consumers, not
-independent authoring sources. The native Site owns its five independent
-philosophical articles and presentation code. Follow the actual source owner
-when a change crosses these boundaries.
+independent authoring sources. All essays in the website's philosophical
+collection and its practical getting-started guide are authored here. The native
+Site owns presentation code. Follow the actual source owner when a change
+crosses these boundaries.
 
 ## Interpret the connected account
 

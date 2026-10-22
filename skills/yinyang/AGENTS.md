@@ -37,7 +37,8 @@ to their claims. Repair links when changing titles, paths, or anchors.
 Diagram candidate JSON owns the authored relationships. Regenerate HTML/SVG
 and inspect the resulting relationships and readability when a diagram changes.
 Website and plugin copies are projections; edit their actual source owner.
-The native Site owns its independent essays and presentation.
+The public package owns the philosophical essays and practical guide; the
+native Site owns their presentation.
 
 Preserve licenses, third-party notices, and public/private boundaries under
 [MODEL.md](MODEL.md) and [LICENSE](LICENSE). The philosophy is a usable example:

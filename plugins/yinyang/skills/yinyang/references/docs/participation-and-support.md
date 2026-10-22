@@ -229,7 +229,7 @@ changing, and where their interpretation remains uncertain. The next exchange
 can already use that understanding. It has grounds in particular episodes
 and room to develop through others.
 
-The following [literary programming essay](https://boluopai.net/philosophy/literary-programming/en/) asks what philosophy they want to author from
+The following [literary programming essay](literary-programming.md) asks what philosophy they want to author from
 these experiences and relationships: how they understand creation, independence,
 shared capacity, and a way of living worth maintaining. That philosophy then
 meets living material again in [From personal philosophy to personal models](metaphor-and-self-revision.md),

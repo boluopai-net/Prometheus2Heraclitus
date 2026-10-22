@@ -23,6 +23,9 @@ Use what the task needs, while understanding the conditions of the borrowed argu
 
 ## Find the contribution the work needs
 
+For a connected refresh of the philosophy, personal material, five accounts,
+and working Skills, start with the [revision guide](revision-guide.md).
+
 A request does not always disclose the kind of help that will serve it. The
 same wish may call for a finished work, an explanation, an objection, or a
 shared attempt. The following routes help turn that difference into a usable
@@ -77,6 +80,14 @@ they do not all call for more data or stronger confidence.
 | How does written philosophy change understanding through responses and opposition? | [Speech, opposition, and self-formation](docs/speech-opposition-and-self-formation.md) is the formation part's second essay: it moves from speaking and retroaction to reconstructing premises and relationships, preparing content for personal models. The [Lacan guide](docs/lacan-reading-guide.md) supports source concepts; formal comparisons remain at the essay's end. |
 
 ## Understand the author's connected philosophy
+
+The collection also includes [Why write a personal philosophy](docs/why-yinyang.md),
+the [Argument from Super-Cuteness](docs/meng.md), and
+[Baby Heraclitus](docs/baby-heraclitus.md), which connect shared direction,
+conditions for learning, and the person being cultivated.
+[Literary programming](docs/literary-programming.md) develops how to write that
+philosophy; [Machines and becoming](docs/deleuze-and-becoming.md) explores a
+focused comparison with Deleuze and Guattari from an established practice.
 
 These essays explain why the author organizes the practice as YinYang. They
 can be read for their arguments and literary form, whether or not the reader

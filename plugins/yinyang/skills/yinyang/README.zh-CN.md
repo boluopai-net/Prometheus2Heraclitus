@@ -43,6 +43,7 @@
 | 目的 | 入口 |
 | --- | --- |
 | 参与日常协作 | [SKILL.md](SKILL.md) 维护初始阅读约定与路径；另有[中文阅读版](SKILL.zh-CN.md)。 |
+| 联动更新哲学、个人理解、Skill 与环境 | [修订指南](references/revision-guide.zh-CN.md)，与五份描述并列的第六个工作文件。 |
 | 形成或修订相连的个人描述 | [形成与修订](references/design-and-revision.zh-CN.md)。 |
 | 改变实际环境的运作方式 | [环境适配](references/harness-adaptation.zh-CN.md)。 |
 | 理解文件、个人内容与公共更新 | [包结构说明](references/docs/skill-package.zh-CN.md)。 |

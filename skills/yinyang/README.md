@@ -59,6 +59,7 @@ Choose the entrance that serves the current question:
 | Purpose | Entrance |
 | --- | --- |
 | Participate in ordinary collaboration | [SKILL.md](SKILL.md), which owns the initial reading contract and routes. |
+| Refresh philosophy, personal understanding, Skills, and environment together | [Revision guide](references/revision-guide.md), the sixth working file alongside the five accounts. |
 | Form or revise the coupled personal accounts | [Design and revision](references/design-and-revision.md). |
 | Change how the actual environment works | [Harness adaptation](references/harness-adaptation.md). |
 | Understand files, personal content, and common updates | [Package guide](references/docs/skill-package.md). |

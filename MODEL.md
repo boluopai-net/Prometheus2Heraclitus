@@ -37,7 +37,7 @@ earlier license grants or erase copies and caches outside this repository.
 ### Complete website source in the collection
 
 `website/` holds the public website's complete committed material and
-implementation: independent essays, static pages and assets, runtime code,
+implementation: rendered reading pages, static assets, runtime code,
 build integration, dependencies and migrations. It is generated from one exact
 native Sites Git commit. Only `.playwright-cli/`, `design-evidence/`, and
 `design-qa.md` are omitted as QA probes. Tracked `dist/` is public static source
@@ -47,8 +47,8 @@ the source commit and exclusions. The empty `.env.example` is a template;
 `.openai/hosting.json` contains nonsecret project and binding identifiers.
 Independent deployment requires its own Site ID and runtime secrets.
 
-The native Site repository owns independent prose, presentation, implementation
-and its publication helper. Canonical YinYang prose remains at
+The native Site repository owns presentation, implementation, and its
+publication helper. Canonical YinYang philosophical prose and the practical guide live at
 `skills/yinyang/`; copies and rendered editions inside `website/` are generated
 projections, not a second authoring owner. Their displayed canonical revision
 can precede the snapshot commit when content is unchanged. Maintain original

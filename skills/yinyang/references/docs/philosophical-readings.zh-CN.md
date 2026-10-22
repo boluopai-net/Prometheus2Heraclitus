@@ -99,7 +99,7 @@
 
 ## 尼采：精神的三种变形与创造
 
-尼采[查拉图斯特拉如是说，第一部「精神三变」](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm)以骆驼、狮子和孩子呈现承担、否定与新的创造。[我们要培养怎样的人——赫拉克利特宝宝](https://boluopai.net/philosophy/baby-heraclitus/)已经借用这一线索：孩子形象关心重新开始与创造，不等于放弃判断，也不是人人必须依次经历的发展阶段。
+尼采[查拉图斯特拉如是说，第一部「精神三变」](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm)以骆驼、狮子和孩子呈现承担、否定与新的创造。[我们要培养怎样的人——赫拉克利特宝宝](baby-heraclitus.zh-CN.md)已经借用这一线索：孩子形象关心重新开始与创造，不等于放弃判断，也不是人人必须依次经历的发展阶段。
 
 ## 詹姆斯与柏格森：意识流与绵延
 
@@ -133,7 +133,7 @@
 
 ## 德勒兹与瓜塔里：连接、生产与生成
 
-独立写作的[机器与生成](https://boluopai.net/philosophy/deleuze-and-becoming/)
+独立写作的[机器与生成](deleuze-and-becoming.zh-CN.md)
 把[反俄狄浦斯](https://files.libcom.org/files/Anti-Oedipus.pdf)第一章、
 第四章分裂分析的第一个积极任务，与[千高原](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)
 第四及第六高原相连。欲望机器打开连接能够生产什么的问题，组装使身体与表达进入观察。
@@ -182,7 +182,7 @@
 
 ## 拉科夫、约翰逊与根特纳：隐喻和关系类比
 
-George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[用文学式编程写出个人哲学](https://boluopai.net/philosophy/literary-programming/)与[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
+George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[用文学式编程写出个人哲学](literary-programming.zh-CN.md)与[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
 
 ## 心灵、认识与解释
 

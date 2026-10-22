@@ -40,6 +40,13 @@ realization. The five are not all psychological models. The
 [formation method](../design-and-revision.md) routes each account to its
 permanent guide, which remains available after adoption.
 
+The common [revision guide](../revision-guide.md) is the sixth working file
+alongside those five accounts. It explains the connected refresh of personal
+support, accounts, Skills, and environment, including webpage preview and
+publication sequencing. It belongs to the common package, with a full Chinese
+edition, and adds no sixth private portrait. The entrypoint includes it in the
+initial reading so a consuming model can maintain the arrangement it uses.
+
 Adoption requires forming all five accounts from relevant authorized material
 and organizing their necessary private support. The model carries this writing;
 the user need not maintain files personally. Explicit unknowns can be honest

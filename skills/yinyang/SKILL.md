@@ -44,8 +44,9 @@ develops the invitation to combine these resources or author a different work.
 ## Enter ordinary collaboration
 
 For ordinary collaboration through the maintained full Skill, the main model
-directly conversing with the user reads this complete entrypoint and all five
-accounts in full before substantive work:
+directly conversing with the user reads this complete entrypoint, all five
+accounts below, and the [revision guide](references/revision-guide.md) in full
+before substantive work:
 
 | Account | Contribution |
 | --- | --- |
@@ -54,6 +55,12 @@ accounts in full before substantive work:
 | `references/situated/counterpart.md` | The actual model and the contribution wanted from it. |
 | `references/situated/relationship.md` | Joint activity, correction, and division of work. |
 | `references/situated/environment.md` | How the collaboration is realized through its actual environment. |
+
+The common `references/revision-guide.md` is the sixth working file alongside
+these five accounts. It explains how philosophy revises personal support,
+philosophy and that material revise the accounts, and the whole YinYang informs
+Skill and environment maintenance. It also owns the preview-before-publication
+sequence for webpage revisions. It is a method, not another personal portrait.
 
 This applies to Codex and private Web ChatGPT through their actual Skill routes.
 Reuse complete current text already in context; retrieve missing readings after
@@ -76,7 +83,7 @@ Orientation supplies the adopted philosophical and evaluative direction;
 environment supplies the account of realization. These are five core accounts,
 not five psychological models. Their evidence entrance is
 `references/personal/sources.md`, with further private support at its owners;
-it is selected by the question, outside the mandatory initial five.
+it is selected by the question, outside the initial reading.
 
 Use the accounts as explicit context for judgment and action. Read personal
 reports, interpretations, chosen commitments, and operational requirements in
