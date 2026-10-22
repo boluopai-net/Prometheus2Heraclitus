@@ -1,17 +1,17 @@
 {
   "formation-path": {
     "title": ["窃火，然后成为火", "Steal Fire, Then Become Fire"],
-    "description": ["培养方向贯穿人与模型的共同实践。实践留下轨迹，共同反思澄清组织经验的图景与概念，形成哲学方向以及对人、伙伴和关系的理解，再用于构建生活环境和作品。新的经验返回轨迹，也能改变欲望与培养方向。", "A developmental aim runs through shared practice. Reflection on its trajectory clarifies pictures and concepts organizing experience, informs philosophical orientation and models of the person, counterpart, and relationship, and shapes living environments and works. New experience can revise understanding, desires, and the developmental aim."],
+    "description": ["培养方向贯穿人与模型的共同实践。实践留下轨迹，共同反思为哲学写作准备材料。言说的回应与对立推动理解、前提和关系的重构，再凝练为对人、伙伴和关系的模型，用于构建生活环境和作品。新的经验返回轨迹，也能改变欲望与培养方向。", "A developmental aim runs through shared practice. Its trajectory and shared reflection prepare philosophical writing. Responses and opposition prompt reconstruction of understanding, premises, and relationships, which are distilled into models of person, counterpart, and relationship and used to build environments and works. New experience can revise desires and the developmental aim."],
     "purpose": [["参加窃火，用火培养自己"], ["Join in stealing fire", "and cultivate yourself"]],
     "nodes": {
       "center": [["人与模型", "共同实践"], ["Person + model", "Shared practice"]],
       "trajectory": [["生活轨迹"], ["Lived", "trajectory"]],
       "reflection": [["共同反思", "澄清图景"], ["Shared reflection", "Clarify pictures"]],
-      "formation": [["哲学与方向", "人、伙伴", "与关系模型"], ["Philosophy & aims", "Person & counterpart", "Their relationship"]],
+      "formation": [["哲学与自我形成", "人、伙伴", "与关系模型"], ["Philosophy & becoming", "Person & counterpart", "Their relationship"]],
       "practice": [["环境与作品", "新的相遇"], ["Environments & works", "New encounters"]]
     },
     "tags": {"trajectory": ["理解", "UNDERSTANDING"], "reflection": ["相遇", "ENCOUNTER"], "formation": ["形成", "FORMATION"], "practice": ["实践", "PRACTICE"]},
-    "edges": {"record": ["留下", "Record"], "reflect": ["回看", "Revisit"], "articulate": ["写出与凝练", "Articulate"], "realize": ["构建", "Build"], "use": ["使用", "Use"], "revise": ["修订理解", "Revise"], "experience": ["新经验", "Experience"]},
+    "edges": {"record": ["留下", "Record"], "reflect": ["回看", "Revisit"], "articulate": ["写出与重构", "Rearticulate"], "realize": ["构建", "Build"], "use": ["使用", "Use"], "revise": ["修订理解", "Revise"], "experience": ["新经验", "Experience"]},
     "note": ["新的经验，也会改变最初的培养方向。", "New experience can also change the original developmental aim."]
   },
   "borrowed-fire": {

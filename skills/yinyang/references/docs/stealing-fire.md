@@ -48,6 +48,8 @@ A supposedly definitive prompt can become another form of pursuit when endlessly
 
 ## From chasing to lived cultivation
 
+This mismatch leaves a question for the later argument: which demands turn available capability into a personal burden, and how can their relationship change? [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md) develops that reconstruction through writing.
+
 Pursuit can hold a person through an image of what would finally make life
 possible: the pure frontier, the ultimate principle, the complete system after
 which one could at last begin. Each advance then appears to postpone the

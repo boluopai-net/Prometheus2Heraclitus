@@ -53,6 +53,8 @@ its result. It can also leave uncertainty about which support helped and
 how the arrangement will fit another activity. The participants cultivate
 the relationship by developing and revising this understanding together.
 
+Reflection may also change the positions from which participants understand cooperation: a difficulty previously taken as an individual deficiency may disclose a relation to participation or environment. Here these differences become visible through actual responses; the formation part's [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md) examines how such changes enter philosophical expression and reconstruction of relationships.
+
 ## Why organize participation this way
 
 Support in YinYang has a positive developmental purpose: to develop embodied reasoning through encounters with generative intelligence. Intuition here is the body's capacity to recognize and organize relations through perception, feeling, action, and situation. It can open a possibility and, through preference, distinguish which possibilities deserve pursuit. Developing this capacity calls for broad reading and participation through multiple senses, so a relation can acquire different forms in images, sound, rhythm, space, action, and language.

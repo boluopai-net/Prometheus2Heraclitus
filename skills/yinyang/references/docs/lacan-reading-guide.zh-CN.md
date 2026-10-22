@@ -16,11 +16,12 @@
 
 三层可以属于同一项工作，读者仍需要知道眼前的一句话承担哪种责任。例如，拉康讨论的主体不是一个数据库对象；把某些关系写入形式模型，是为了让选定关系变得可检查。形式系统中的一次推导，也不等于从真实会谈中已经建立了可靠的个人模型。
 
-可以沿四条短路径阅读：
+可以沿五条短路径阅读：
 
 - 想理解「我」「自我」与「他人」：先读[语言与大他者](#语言能指与大他者)，再读[自我与分裂主体](#自我与分裂主体)。
-- 想理解为什么后来才能认出早先的意义：读[回溯与回溯性的认识](#回溯与回溯性的认识)，再返回[言说与回溯赋义](lacan-and-description-logic.zh-CN.md#大他者与回溯赋义)。
-- 想理解持续写作怎样接到真理：读[充实言说、半说与真理](#充实言说半说与真理)，再返回[半说的真理与持续改写](lacan-and-description-logic.zh-CN.md#半说的真理与持续改写)。
+- 想理解一种问题怎样因参与者的位置改变而重组：读[辩证逆转](#辩证逆转改变理解也改变位置)，再返回主线[一种办法怎样成为新的问题](speech-opposition-and-self-formation.zh-CN.md#一种办法怎样成为新的问题)。
+- 想理解为什么后来才能认出早先的意义：读[回溯与回溯性的认识](#回溯与回溯性的认识)，再返回[言说与回溯赋义](speech-opposition-and-self-formation.zh-CN.md#大他者与回溯赋义)。
+- 想理解持续写作怎样接到真理：读[充实言说、半说与真理](#充实言说半说与真理)，再返回[半说的真理与持续改写](speech-opposition-and-self-formation.zh-CN.md#半说的真理与持续改写)。
 - 想理解三界与圣状：先读[三界](#三界同一经验中的不同关系)，再读[圣状](#圣状从拉康的问题到本站的命名)，最后返回[圣状的形成](writing-a-sinthome.zh-CN.md)。
 
 ## 语言、能指与大他者
@@ -42,6 +43,14 @@
 可以用一个有限的例子辨认问题：一个人说「我只想把文章写好」，却也不断追问对方是否认可自己。这句话除了说明写作目标，还在向对方寻求怎样的回应？陈述的内容与说出这句话的关系位置，未必完全重合。这个例子让问题可见；对具体人的解释还需要更多材料，不能从一句话直接断定其隐藏动机。
 
 本站的个人模型，是在当前问题中对这个人的局部理解。一个相连的自我说明、一个形式视图，以及继续表达和行动的人，因而需要分别把握。拉康的区分使这种非重合值得追问；它并未直接给出生成个人模型的算法。
+
+## 辩证逆转：改变理解，也改变位置
+
+拉康在[《论移情的干预》（1951）](https://recherche-lacan.gnipl.fr/2015/07/02/les-ecrits-intervention-sur-le-transfert-1951/)中，将弗洛伊德的朵拉案例读作一系列辩证逆转。这里的「逆转」不只是把一个解释换成相反解释，而涉及主体在自己所述关系中的位置，以及什么成为问题的对象。读原文时，应保留它在移情与分析关系中的具体语境。
+
+回溯作用与辩证逆转因而可以相连，却并不等同：后来一句话改变早先的意义，不必已经改变主体在关系中的位置；修改一份工具说明，也不独自证明发生了这种转变。主线借一个有限例子展开区别：从「接受帮助就失去独立」到「怎样参与组织和改变帮助」，可能使说话者从排斥帮助的立场转向参与安排关系。是否确有这种变化，仍须具体表达与行动支持。
+
+黑格尔的规定的否定和扬弃，则提供对规定及其限度的考察。[《逻辑学》「绝对理念」§§1789—1802](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm)不是一套把任意正反意见合成更强结论的格式。本站在实践尺度上追问，旧规定保护什么、何处开始妨碍其目的，以及新关系怎样保留关切而改变形式。这个比较与拉康的主体位置问题各有对象；它们都不能使软件版本变化自动成为辩证逆转。完整的当代论证由[言说、对立与自我形成](speech-opposition-and-self-formation.zh-CN.md)承担。
 
 ## 回溯与回溯性的认识
 
@@ -108,7 +117,7 @@
 回到本站，哲学 Skill 可以保存当前的理解，参与后续合作，并在新经验和新言说中受到
 改写。模型的解释也进入这个往返，不能凭流畅性占据最终真理的位置。所要考察的是
 哪些关系因此得以言说、承接和改变；事实判断仍须检查来源。主线文章
-[半说的真理与持续改写](lacan-and-description-logic.zh-CN.md#半说的真理与持续改写)
+[半说的真理与持续改写](speech-opposition-and-self-formation.zh-CN.md#半说的真理与持续改写)
 从「独立」的例子展开这种实践。导读提供概念关系与阅读入口，主线负责发展本站的论证。
 
 ## 三界：同一经验中的不同关系
@@ -129,7 +138,7 @@
 
 ## 形式转译接住了哪些关系
 
-本站[言说、自我表述与能指链](lacan-and-description-logic.zh-CN.md)采用了一些形式记号。它们给选定关系以可检查的表达，读者可以把它们与上述概念并排理解。
+本站[言说、对立与自我形成](speech-opposition-and-self-formation.zh-CN.md)采用了一些形式记号。它们给选定关系以可检查的表达，读者可以把它们与上述概念并排理解。
 
 | 关心的关系 | 本站采用的表达 | 这份表达的范围 |
 | --- | --- | --- |
@@ -146,13 +155,14 @@
 
 | 原文入口 | 适合追问的问题 | 返回本站 |
 | --- | --- | --- |
-| [1949：镜像阶段](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | 形象怎样参与认同，自我为何不能只当作透明的内在事实？ | [自我表述与形式视图](lacan-and-description-logic.zh-CN.md#自我表述与形式视图) |
+| [1949：镜像阶段](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | 形象怎样参与认同，自我为何不能只当作透明的内在事实？ | [自我表述与形式视图](speech-opposition-and-self-formation.zh-CN.md#自我表述与形式视图) |
+| [1951：论移情的干预](https://recherche-lacan.gnipl.fr/2015/07/02/les-ecrits-intervention-sur-le-transfert-1951/) | 辩证逆转怎样涉及主体在所述关系中的位置？ | [辩证逆转](#辩证逆转改变理解也改变位置) |
 | [1953：言语和语言的作用与领域](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1953-09-26b.pdf) | 充实言说怎样重新组织过去，主体怎样承接自己的历史？ | [充实言说与主体历史](#1953充实言说与主体历史) |
-| [1960：主体的颠覆](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/) | 主体、大他者、能指与回溯怎样相连？ | [大他者与回溯赋义](lacan-and-description-logic.zh-CN.md#大他者与回溯赋义) |
+| [1960：主体的颠覆](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/) | 主体、大他者、能指与回溯怎样相连？ | [大他者与回溯赋义](speech-opposition-and-self-formation.zh-CN.md#大他者与回溯赋义) |
 | [1966：广播谈话，第 2 页](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1966-12-02a.pdf) | 人成长于语言之中，对主体意味着什么？ | [个人建模](metaphor-and-self-revision.zh-CN.md#对实际用途足够适切的个人模型) |
-| [1969：《研讨班 XVII》，11 月 26 日](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | 话语中的位置与实际说话者有什么区别？ | [能指链与作品](lacan-and-description-logic.zh-CN.md#能指链与作品) |
+| [1969：《研讨班 XVII》，11 月 26 日](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | 话语中的位置与实际说话者有什么区别？ | [能指链与作品](speech-opposition-and-self-formation.zh-CN.md#能指链与作品) |
 | [1970：《研讨班 XVII》，3 月 11 日，第 47 页](https://www.lutecium.org/no/Jacques_Lacan/Media/pdf/1969.11.01-17-lenvers.pdf#page=47) | 半说如何借谜语来理解，又怎样区别于主体分裂？ | [半说与说尽的限度](#19701974半说与说尽的限度) |
-| [1974：《电视》，开篇](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19740131Television198740October6.pdf#page=1) | 为什么继续言说不等于最终说出全部真理？ | [半说的真理与持续改写](lacan-and-description-logic.zh-CN.md#半说的真理与持续改写) |
+| [1974：《电视》，开篇](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19740131Television198740October6.pdf#page=1) | 为什么继续言说不等于最终说出全部真理？ | [半说的真理与持续改写](speech-opposition-and-self-formation.zh-CN.md#半说的真理与持续改写) |
 | [1974—1975：《R.S.I.》选段](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | 三界的联系为什么成为问题，结怎样进入讨论？ | [一般三位一体与个人实例](local-source-and-website.zh-CN.md) |
 | [1976：圣状，2 月 17 日](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/)；[5 月 11 日](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/) | 具体的写作与做法怎样参与一个人的结？ | [圣状的形成](writing-a-sinthome.zh-CN.md) |
 

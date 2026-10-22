@@ -17,12 +17,7 @@ cultivated further. [Participation, access, and support](participation-and-suppo
 examines this more explicit encounter. These materials preserve selected
 passages through a life, with gaps and unresolved interpretations.
 
-With both a trajectory and a reflected understanding of cooperation available, the person and
-model can ask what understanding of the world, value, and creation they want to
-author. Literary programming gives characters, images, and narrative a part in
-that authorship. Metaphor gathers relations into a form; analogy unfolds their
-possible implications. A personal philosophy can emerge through this work,
-giving the material an interpretation and a chosen direction.
+The preceding essays have authored philosophy from trajectories and shared reflection, then examined returning expression and the reconstruction of premises and relationships in [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md). This essay receives that developing understanding and asks what is warranted about the actual person, counterpart, and cooperation.
 
 This essay follows the next passage: **distilling that philosophy together with
 the living material into models of the person, counterpart, and relationship**.
@@ -149,17 +144,7 @@ mathematical fitting serves questions that call for such methods rather than
 being the destination every account must reach. Writing in prose alone,
 however, does not make the account philosophy.
 
-Its philosophical contribution emerges when the participants examine the
-concepts organizing the description. What counts as the same self across
-change? Does “my ability” include a dependable tool or relationship? Does
-“progress” mean producing more, understanding differently, or living with a
-changed purpose? Interpreting experience through these questions, comparing
-the consequences of different answers, and revising the distinctions are
-philosophical work. They can alter what the person takes to be a problem and
-which possibilities become intelligible. [The passage from chasing to lived
-cultivation](stealing-fire.md#from-chasing-to-lived-cultivation) develops the
-connection with philosophical therapy and with releasing a guiding image
-when it ceases to help.
+[The preceding essay](speech-opposition-and-self-formation.md#how-opposition-calls-for-reconstructing-premises-and-relationships) develops how conceptual clarification changes a problem. Here it serves the adequacy of modeling: what do ability, independence, or progress mean within this account, which judgments come from living material, and which express chosen values or cooperative aims? Distinguishing these grounds helps determine how the account should be used and revised.
 
 This clarification cooperates with empirical interpretation. “Uncertainty
 about evaluation makes beginning difficult” proposes a psychological relation

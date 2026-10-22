@@ -140,6 +140,8 @@ The distinction matters because choosing what to investigate is not yet deciding
 
 ## Shared scientific inquiry
 
+Retaining conflicts and comparing interpretations prepare material for later reflection; they have not already unified the oppositions. When a question concerns how concepts such as independence and assistance organize experience, premises and relationships may themselves need reconstruction. [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md) takes up that question, while source retention and inference checks keep their methodological role here.
+
 Analysis, explanatory hypothesis formation, synthesis, deduction, and empirical assessment can organize shared inquiry. Their relations allow return, overlap, and entry from an existing model. Peirce's discussion of inquiry provides a historical reference for distinguishing explanatory hypotheses, experiential consequences, and assessment: see [the 1908 manuscript, MS 841](https://fromthepage.com/jeffdown1/c-s-peirce-manuscripts/ms-841-1908-a-neglected-argument-text-and-fragments?page=9). These distinctions help ask where a contribution enters and what subsequent assessment it needs.
 
 A human–model collaboration distributes work by contribution and capability. Intuitive generation and recognition can enter anywhere; the model can contribute candidates as well as articulate, compute, investigate, and check. A partial intuition can orient an investigation, and a model's formulation can make its implications visible. Factual support comes from the relevant observations and warranted connections developed through that work.
