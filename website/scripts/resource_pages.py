@@ -1,5 +1,6 @@
 """Resource overview and its dedicated Skills destinations."""
-from public_skill_pages import GITHUB, reading_groups
+from public_skill_pages import GITHUB, SKILLS, reading_groups
+from skill_wheel import badge, wheel
 from repository_panel import comments
 
 
@@ -36,6 +37,8 @@ def render(dist, shell):
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
         yinyang_source = '/repositories/prometheus/source/skills/yinyang/SKILL' + ('.html' if english else '.zh-CN.html')
         yinyang = f'''<section class="library-section"><h2><a href="{yinyang_source}">{t("阴阳", "Yinyang")}</a></h2><p class="section-note">{t("从理解自己、模型与彼此的关系出发，把个人哲学、协作方式和工具环境连成可以持续修订的实践。", "Begin with understanding yourself, the model, and your relationship. Connect personal philosophy, collaboration, and the tool environment into a practice that can keep evolving.")}</p></section>'''
-        wheel_speed = f'''<div class="skills-wheel-speed"><button type="button" class="skills-wheel-motion" data-wheel-motion role="switch" aria-checked="true" aria-label="{t("转盘动态效果", "Wheel motion")}">{t("动态效果：开", "Motion: On")}</button><label for="skills-wheel-speed">{t("转速", "Speed")}</label><output data-wheel-speed-output>{t("48 秒/圈", "48 sec / rotation")}</output><div class="skills-wheel-speed-line"><span aria-hidden="true">{t("慢", "Slow")}</span><input id="skills-wheel-speed" data-wheel-speed type="range" min="0" max="100" step="any" value="30.59" aria-label="{t("转盘转速", "Wheel speed")}" aria-valuetext="{t("48 秒/圈", "48 seconds per rotation")}"><span aria-hidden="true">{t("快", "Fast")}</span></div></div>'''
-        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading skills-wheel-heading"><img class="motif" src="/motifs/skills-wheel.svg" alt="" aria-hidden="true">{wheel_speed}<div class="skills-wheel-intro">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p></div></div>{yinyang}{reading_groups(english)}</main>'
+        wheel_speed = f'''<div class="skills-wheel-speed"><button type="button" class="skills-wheel-motion" data-wheel-motion role="switch" aria-checked="true" aria-label="{t("转盘动态效果", "Wheel motion")}">{t("动态效果：开", "Motion: On")}</button><label for="skills-wheel-speed">{t("转速", "Speed")}</label><output data-wheel-speed-output>{t("10 圈/秒", "10 rotations / sec")}</output><div class="skills-wheel-speed-line"><span aria-hidden="true">{t("慢", "Slow")}</span><input id="skills-wheel-speed" data-wheel-speed type="range" min="0" max="100" step="any" value="100" aria-label="{t("转盘转速", "Wheel speed")}" aria-valuetext="{t("0.1 秒/圈", "0.1 seconds per rotation")}"><span aria-hidden="true">{t("快", "Fast")}</span></div></div>'''
+        yinyang = yinyang.replace('<section class="library-section">', '<section class="library-section" data-skill="yinyang">').replace(f'href="{yinyang_source}">', f'href="{yinyang_source}">{badge("yinyang")}')
+        draw = f'<button type="button" class="skills-wheel-draw" data-wheel-draw>{t("抽选并打开", "Spin & open a Skill")}</button><p class="skills-wheel-result" data-wheel-result role="status" aria-live="polite">{t("每格对应下方同图标的 Skill，停稳后自动打开。", "Each symbol matches a Skill below. The selected Skill opens after the wheel stops.")}</p>'
+        skill_body = f'<main id="main" class="wrap collection"><div class="collection-heading skills-wheel-heading">{wheel(english, SKILLS, yinyang_source)}{wheel_speed}<div class="skills-wheel-intro">{back}<h1>Skills</h1><p class="collection-intro">{t("选择适合当前工作的工具与方法。", "Choose tools and methods for the work at hand.")}</p>{draw}</div></div>{yinyang}{reading_groups(english)}</main>'
         write('skills', 'Skills', skill_body)

@@ -33,29 +33,44 @@
   });
 })();
 
-/* Keep the Skills illustration speed control local to the large wheel. */
+/* One secure draw; motion and speed only determine its presentation. */
 document.addEventListener('DOMContentLoaded', () => {
   const slider = document.querySelector('[data-wheel-speed]');
-  const wheel = document.querySelector('.skills-wheel-heading > .motif');
+  const wheel = document.querySelector('[data-wheel-disc]');
   if (!slider || !wheel) return;
 
   const output = document.querySelector('[data-wheel-speed-output]');
   const toggle = document.querySelector('[data-wheel-motion]');
-  let enabled = true;
-  const baseDuration = 48;
+  const button = document.querySelector('[data-wheel-draw]');
+  const result = document.querySelector('[data-wheel-result]');
+  const options = [...wheel.querySelectorAll('[data-wheel-option]')];
+  const english = document.documentElement.lang === 'en';
+  let enabled = true, angle = 0, duration = 48, draw = null, last = null;
+  let settled = false, navigation = null;
+  const paint = () => wheel.setAttribute('transform', `rotate(${angle} 280 280)`);
+  const finish = () => {
+    if (!draw || settled) return;
+    settled = true;
+    angle = draw.target;
+    paint();
+    const option = options[draw.index];
+    option.setAttribute('data-selected', '');
+    result.textContent = english ? `Selected: ${option.dataset.wheelLabel}. Opening…` : `选中：${option.dataset.wheelLabel}，正在打开…`;
+    navigation = setTimeout(() => window.location.assign(option.getAttribute('href')), enabled ? 1000 : 250);
+  };
   const slowDuration = 120;
-  const fastDuration = 6;
+  const fastDuration = .1;
 
   const update = () => {
     const position = Number(slider.value) / 100;
-    const duration = slowDuration * Math.pow(fastDuration / slowDuration, position);
-    const seconds = Math.round(duration);
-    const english = document.documentElement.lang === 'en';
+    duration = slowDuration * Math.pow(fastDuration / slowDuration, position);
+    const seconds = Number(duration.toFixed(duration < 1 ? 2 : 1));
+    const speedLabel = duration < 1
+      ? (english ? `${Number((1 / duration).toFixed(1))} rotations / sec` : `${Number((1 / duration).toFixed(1))} 圈/秒`)
+      : (english ? `${seconds} sec / rotation` : `${seconds} 秒/圈`);
     slider.disabled = !enabled;
     slider.setAttribute('aria-valuetext', english ? `${seconds} seconds per rotation` : `${seconds} 秒/圈`);
-    if (output) output.textContent = english
-      ? `${seconds} sec / rotation`
-      : `${seconds} 秒/圈`;
+    if (output) output.textContent = speedLabel;
     if (toggle) {
       toggle.setAttribute('aria-checked', String(enabled));
       toggle.textContent = english
@@ -63,22 +78,43 @@ document.addEventListener('DOMContentLoaded', () => {
         : `动态效果：${enabled ? '开' : '关'}`;
     }
 
-    const playbackRate = baseDuration / duration;
-    for (const animation of wheel.getAnimations()) {
-      if (animation.animationName !== 'skills-wheel-turn') continue;
-      if (!enabled) { animation.pause(); continue; }
-      if (typeof animation.updatePlaybackRate === 'function') {
-        animation.updatePlaybackRate(playbackRate);
-      } else {
-        const time = animation.currentTime;
-        animation.playbackRate = playbackRate;
-        animation.currentTime = time;
-      }
-      animation.play();
-    }
+    if (!enabled && draw) finish();
   };
-
+  button.addEventListener('click', () => {
+    if (draw) return;
+    const sample = new Uint32Array(1);
+    const limit = Math.floor(4294967296 / options.length) * options.length;
+    try { do { crypto.getRandomValues(sample); } while (sample[0] >= limit); }
+    catch { result.textContent = english ? 'Random selection is unavailable. Choose a Skill below.' : '暂时无法随机抽选，请直接选择下方 Skill。'; return; }
+    const index = sample[0] % options.length;
+    const target = (360 - index * 360 / options.length) % 360;
+    draw = {index, target, start: angle, distance: 360 * 5 + (target - angle % 360 + 360) % 360, progress: 0};
+    button.disabled = true;
+    result.textContent = english ? 'Spinning…' : '正在抽选…';
+    if (!enabled) finish();
+  });
+  function tick(now) {
+    const dt = last === null ? 0 : Math.min(now - last, 100);
+    last = now;
+    if (enabled && !settled) {
+      if (draw) {
+        draw.progress = Math.min(1, draw.progress + dt / (4800 * Math.pow(duration / 48, .2)));
+        // Smooth acceleration followed by a longer deceleration; zero end velocity.
+        const p = draw.progress;
+        const ease = 1 - Math.pow(1 - p, 3) * (1 + 3 * p);
+        angle = draw.start + draw.distance * ease;
+        if (p === 1) finish();
+      } else angle = (angle + dt * 360 / (duration * 1000)) % 360;
+      paint();
+    }
+    requestAnimationFrame(tick);
+  }
   slider.addEventListener('input', update);
   toggle?.addEventListener('click', () => { enabled = !enabled; update(); });
+  window.addEventListener('pagehide', () => clearTimeout(navigation));
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) { draw = null; settled = false; button.disabled = false; last = null; options.forEach(option => option.removeAttribute('data-selected')); result.textContent = english ? 'Spin to discover another Skill.' : '再转一次，发现另一个 Skill。'; }
+  });
   update();
+  requestAnimationFrame(tick);
 });

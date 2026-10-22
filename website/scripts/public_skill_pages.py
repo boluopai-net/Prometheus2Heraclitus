@@ -1,5 +1,6 @@
 """Bilingual public Skill introductions with GitHub source/download links."""
 import html
+from skill_wheel import badge
 
 GITHUB = "https://github.com/boluopai-net/Prometheus2Heraclitus"
 
@@ -130,7 +131,7 @@ def reading_groups(english):
         for name in names:
             info = SKILLS[name]
             route = '/tools/' + name + ('/en/' if english else '/')
-            entries.append(f'<li><a href="{route}">{html.escape(info[0])} · {name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
+            entries.append(f'<li data-skill="{name}"><a href="{route}">{badge(name)}{html.escape(info[0])} · {name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
         sections.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
     return ''.join(sections)
 
