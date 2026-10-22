@@ -109,7 +109,7 @@
 - [全书关系](diagrams/formation-path.zh-CN.html)联系生活轨迹、共同反思、个人哲学、个人模型与实际实现。[English](diagrams/formation-path.html) · [SVG](diagrams/formation-path.zh-CN.svg)
 - [窃火与培养](diagrams/borrowed-fire.zh-CN.html)联系共同积累的能力、共同创造、人的能力发展与世界的回应。[English](diagrams/borrowed-fire.html) · [SVG](diagrams/borrowed-fire.zh-CN.svg)
 - [共同探究](diagrams/encounter.zh-CN.html)呈现参与者相连的贡献。[English](diagrams/encounter.html) · [SVG](diagrams/encounter.zh-CN.svg)
-- [理解与实现](diagrams/layers.zh-CN.html)以两组「六个面向＋实践」连接物理层与计算层，呈现计算本体的表征性质，区分物理实现、事实符合和价值与方法的指导。[English](diagrams/layers.html) · [SVG](diagrams/layers.zh-CN.svg)
+- [理解与实现](diagrams/layers.zh-CN.html)以两组「六种观点＋实践」连接物理层与计算层，呈现计算本体的表征性质，区分物理实现、事实符合和价值与方法的指导。[English](diagrams/layers.html) · [SVG](diagrams/layers.zh-CN.svg)
 
 独立的 HTML 资源表达关系，而非强制顺序或权限层级。完整论证与根据留在相应文章中。
 来源、验证与再分发声明见[图示维护说明](diagrams/PROVENANCE.md)。

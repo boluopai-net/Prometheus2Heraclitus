@@ -25,7 +25,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
-- [YY-09 · Connect worldview, ontology, truth, knowing, value, and method](#yy-09)
+- [YY-09 · Connect six adopted views through practice](#yy-09)
 - [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
@@ -289,7 +289,7 @@ model or local arrangement is superior.
 
 <a id="yy-09"></a>
 
-## YY-09 · Connect worldview, ontology, truth, knowing, value, and method
+## YY-09 · Connect six adopted views through practice
 
 The framework adopts a naturalist worldview, a physicalist ground, correspondence
 truth for claims about reality, fallible embodied inquiry, personal-first
