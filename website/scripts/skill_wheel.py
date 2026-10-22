@@ -35,7 +35,7 @@ def thumbnail(english, skills):
 
 def badge(name):
     art = graphic(name) if name in DRAWN else f'<span>{SYMBOLS[name]}</span>'
-    return f'<span class="skill-symbol" aria-hidden="true">{art}<small>{ORDER.index(name)+1:02}</small></span>'
+    return f'<span class="skill-symbol" aria-hidden="true"><small>{ORDER.index(name)+1:02}</small>{art}</span>'
 
 
 def wheel(english, skills, yinyang_source):
