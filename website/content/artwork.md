@@ -177,9 +177,9 @@ Exact native generation prompt:
 
 > Use case: illustration-story. One finished sophisticated cute editorial website illustration, horizontal 3:2 1536x1024. Theme: a creative commons as an invitation to make something of your own from an example. A friendly small creator with dark bob hair and vermilion sweater sits at the center rear of a big welcoming worktable and opens a wooden toolkit toward three cheerful friends. The open toolkit contains wooden shapes, little joints, paper, string, fabric scraps, paint, and a tiny example bird sculpture. Around the table three visually distinct cute human friends actively transform the shared materials into three distinctly personal works: left friend with curly hair raises a teal-and-ochre geometric kite, foreground friend with round glasses builds a fanciful jointed wooden dragon puppet with vermilion fabric wings, right friend with a cap plays a small handmade string instrument. The original creator looks delighted by the differences, not supervising imitation. Shared parts visibly recur across these DIFFERENT results. Warm ivory paper, clean expressive charcoal ink linework with subtle tactile gouache, teal/vermilion/ochre accent palette, sophisticated editorial picture-book charm, friendly faces, clear large silhouettes, little background clutter, mobile-legible scene. No text, letters, numbers, words, logos, watermark, fire, torch, sun, yin-yang symbol, copying identical products, collage or multiple panels.
 
-### lacan-and-description-logic
+### speech-opposition-and-self-formation
 
-Asset: `dist/art/lacan-and-description-logic.png`.
+Asset: `dist/art/speech-opposition-and-self-formation.png`.
 
 Exact native generation prompt:
 

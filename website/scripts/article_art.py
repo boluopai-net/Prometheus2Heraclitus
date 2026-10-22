@@ -22,7 +22,7 @@ SCENES = {
     'local-source-and-website': ('同一工作台上的四面体连接透镜、心形石与扳手三个支点，表示哲学、心理与工程在共同物理现实中相互影响。', 'A tetrahedral structure on one workbench connects a lens, heart stone, and wrench, expressing how philosophy, psychology, and engineering affect one another within shared physical reality.'),
     'embodied-experimental-philosophy': ('斜坡上的滚动物体挑战纸上的计划，试作者根据实际结果重新绘制安排。', 'A rolling object on a ramp challenges a paper plan, prompting the experimenter to redraw the arrangement through its actual consequences.'),
     'example-and-commons': ('三位朋友打开同一工具包，分别制作风筝、木偶与乐器，让共享资源形成不同创造。', 'Three friends open a shared toolkit and make a kite, puppet, and musical object, developing common resources into distinct creations.'),
-    'lacan-and-description-logic': ('说话者把相连的彩色形状放入笔记本中的未完成自画像，另一只手仍握着画面没有容纳的星形。', 'A speaker places linked colored shapes into an unfinished notebook self-portrait while holding a star absent from that account.'),
+    'speech-opposition-and-self-formation': ('说话者把相连的彩色形状放入笔记本中的未完成自画像，另一只手仍握着画面没有容纳的星形。', 'A speaker places linked colored shapes into an unfinished notebook self-portrait while holding a star absent from that account.'),
     'deleuze-and-becoming': ('吹笛的人、纸喇叭与捧碗的伙伴通过彩色声流连接，交汇的声音生成一只新的飞鸟。', 'A flute player, paper horn, and bowl-holding companion connect through colored sound currents that compose a new flying bird.'),
 }
 

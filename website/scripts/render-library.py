@@ -308,9 +308,9 @@ def main():
     for name in RETIRED:
         for suffix in ('.md', '.zh-CN.md'):
             old = DOCS + name + suffix
-            routes = {key: '/philosophy/' + successor + ('/' if suffix == '.zh-CN.md' else '/en/') for key, successor in IMAGE_SUCCESSORS.items()} if name == 'metaphors' else {}
+            routes = {key: '/philosophy/' + successor + ('/' if suffix == '.zh-CN.md' else '/en/') for key, successor in IMAGE_SUCCESSORS.items()} if name == 'metaphors' else (None if name == 'lacan-and-description-logic' else {})
             write('source/' + str(Path(old).with_suffix('.html')), redirect_page(retired_url(old), routes))
-            if name == 'dialectic-and-repair':
+            if name in {'dialectic-and-repair', 'lacan-and-description-logic'}:
                 retired_page = dist / 'philosophy' / name / ('' if suffix == '.zh-CN.md' else 'en') / 'index.html'
                 retired_page.parent.mkdir(parents=True, exist_ok=True)
                 retired_page.write_text(redirect_page(retired_url(old), routes))

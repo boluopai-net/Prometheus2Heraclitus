@@ -33,6 +33,7 @@ GROUPS = [
     ]),
     ('形成：从个人哲学到实践形式', 'Formation: from personal philosophy to a form of practice', [
         ('literary-programming', '承接共同做事留下的轨迹与对协作的反思，通过文学式编程、隐喻和类比写出自己的哲学。'),
+        ('speech-opposition-and-self-formation', '写出的哲学遇到回应，回溯改变理解；辨认对立、重构前提与关系，为个人模型准备内容。'),
         ('metaphor-and-self-revision', '将写出的哲学与生活材料一起凝练为个人、伙伴及双方关系的模型，让理解能够进入持续协作。'),
         ('writing-a-sinthome', '让哲学与个人模型进入实际环境，经由使用与修订，使哲学、心理与工程共同形成具体的圣状。'),
     ]),
@@ -46,7 +47,7 @@ STAGE_REASONS = [
     ('先总览窃火的论证，再说明价值与行动者；超萌论证给出培养的条件性理由，赫拉克利特宝宝继而使培养方向取得人物形象。', 'Preview the argument, establish value and agency, give cultivation its conditional rationale through super-cuteness, then embody that direction in Baby Heraclitus.'),
     ('共同做事留下版本、操作、对话与反馈；把这些材料连成可返回的生活轨迹，保留其中的问题、选择、根据和修订，为下一部分的共同反思准备材料。', 'Shared work leaves versions, operations, conversations, and feedback. Connect them into a revisitable life trajectory, retaining questions, choices, grounds, and revisions as material for the next part’s shared reflection.'),
     ('双方已经共同做事并留下轨迹；现在一起探索和反思这些生活材料，认识彼此怎样参与，在这种相遇中继续培育关系与能力。', 'Having worked together and left a trajectory, explore and reflect on this living material together, recognize each participant’s contribution, and cultivate relationships and capabilities through that encounter.'),
-    ('从共同产生的轨迹与对协作的反思写出个人哲学，再结合生活材料凝练个人模型，落实并修订为能够维系的生活方式。', 'Author a personal philosophy from jointly produced trajectories and reflection on cooperation, distill personal models with living material, then realize and revise a sustainable way of living.'),
+    ('从轨迹与共同反思写出个人哲学，让言说与对立推动理解的形成；再结合生活材料凝练个人模型，落实为能够维系和修订的实践。', 'Write philosophy from trajectories and shared reflection; let speech and opposition develop understanding, distill personal models with living material, then realize a practice that can be sustained and revised.'),
     ('让已经形成的安排继续工作，检验它怎样改变生活与能力；把有用的作品和方法交给新的相遇，使新的轨迹能够回到反思、哲学与模型的修订。', 'Sustain the formed arrangement and examine its effects on life and capabilities. Offer useful works and methods to new encounters, whose trajectories can return to reflection and revisions of philosophy and models.'),
 ]
 MAINLINE = [n for _, _, entries in GROUPS for n, _ in entries]
@@ -63,6 +64,7 @@ EN_SUMMARIES = {
     'participation-and-support': 'Revise participation and support through shared reflection on the trajectory, cultivate the relationship through actual trials, and prepare concrete understanding for personal philosophy.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
     'literary-programming': 'Carry jointly produced trajectories and reflection on cooperation into a philosophy of your own through literary programming, metaphor, and analogy.',
+    'speech-opposition-and-self-formation': 'Encounter responses to the written philosophy, reinterpret earlier meaning, and reconstruct premises and relationships through opposition, preparing content for personal models.',
     'metaphor-and-self-revision': 'Distill the authored philosophy together with living material into models of the person, counterpart, and relationship for continuing cooperation.',
     'writing-a-sinthome': 'Bring philosophy and personal models into the actual environment; through use and revision, philosophy, psychology, and engineering jointly form a concrete sinthome.',
     'baby-heraclitus': 'Then give this baby a Heraclitean character: remain open, judge, create, and change through encounters.',
@@ -72,20 +74,17 @@ EN_SUMMARIES = {
     'example-and-commons': 'Let works and methods from the practice become resources for others, continuing creation and bringing new encounters back into one’s own life.',
 }
 EXTENSIONS = [
-    ('lacan-and-description-logic', '言说与自我表述', '从圣状深入言说事件、自我表述与形式断言。', 'writing-a-sinthome'),
     ('deleuze-and-becoming', '机器与生成', '从已经形成的个人实践安排，进入连接、组装与生成的哲学比较。', 'writing-a-sinthome'),
 ]
 EN_EXTENSIONS = {
-    'lacan-and-description-logic': ('Speech and self-description', 'From the sinthome, examine speech events, self-description, and formal assertions.'),
     'deleuze-and-becoming': ('Machines and becoming', 'From an established personal practice arrangement, compare connections, assemblages, and becoming.'),
 }
 BRANCHES = [
-    ('writing-a-sinthome', ['lacan-and-description-logic'], 'local-source-and-website'),
     ('writing-a-sinthome', ['deleuze-and-becoming'], 'local-source-and-website'),
 ]
 ESSAYS = (set(MAINLINE) | {x[0] for x in EXTENSIONS}) - SITE_ARTICLES
-RETIRED = {'metaphors', 'oedipus-and-thirdness', 'dialectic-and-repair'}
-IMAGE_SUCCESSORS = {'01': 'yinyang-and-taiji', '02': 'stealing-fire', '03': 'yinyang-and-taiji', '04': 'world-and-expression', '05': 'preference-harness', '06': 'lacan-and-description-logic', '07': 'writing-a-sinthome', '08': 'stealing-fire'}
+RETIRED = {'metaphors', 'oedipus-and-thirdness', 'dialectic-and-repair', 'lacan-and-description-logic'}
+IMAGE_SUCCESSORS = {'01': 'yinyang-and-taiji', '02': 'stealing-fire', '03': 'yinyang-and-taiji', '04': 'world-and-expression', '05': 'preference-harness', '06': 'speech-opposition-and-self-formation', '07': 'writing-a-sinthome', '08': 'stealing-fire'}
 
 
 def article_url(name, chinese):
@@ -186,6 +185,8 @@ def retired_url(path, fragment=''):
     name = filename.removesuffix('.zh-CN.md') if chinese else filename.removesuffix('.md')
     if name not in RETIRED:
         return None
+    if name == 'lacan-and-description-logic':
+        return article_url('speech-opposition-and-self-formation', chinese)
     if name == 'dialectic-and-repair':
         return article_url('preference-harness', chinese)
     ym = re.match(r'ym-(\d\d)(?:-|$)', fragment.lower())
