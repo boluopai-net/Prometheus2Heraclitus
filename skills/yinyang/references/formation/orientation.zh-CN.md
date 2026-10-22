@@ -1,6 +1,6 @@
 # 如何阐明所采纳的取向
 
-[English](orientation.md) · [形成方法](../design-and-revision.zh-CN.md)
+[English](orientation.md) · [哲学与模型](../design-and-revision.zh-CN.md)
 
 取向描述说明这段协作采纳的哲学、价值与方向。实际内容写在私人包的
 `references/situated/orientation.md`，本公开指引始终与它分开保留。当前维护的实现固定包含
@@ -31,9 +31,9 @@
 每一步都必须由人亲自做。说明有关能力与参与，再由关系描述展开分工。把取向的理由保留在
 这里，不在五份文件中反复抄写整套哲学。
 
-按照[写作方法](../design-and-revision.zh-CN.md#按实际用途写作)，使用明确的模型用语。
+按照[写作方法](../revision-guide.zh-CN.md#按实际用途写作)，使用明确的模型用语。
 意象可以让关系变得可理解，同时写清应指引判断和行动的含义。公开论证留在既有维护者处，
-私人理由与出处由[证据材料](sources.zh-CN.md)支持。
+私人理由与出处由[证据材料](../revision-guide.zh-CN.md#来源与证据)支持。
 
 ## 通过结果修订方向
 

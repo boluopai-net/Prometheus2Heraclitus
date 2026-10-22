@@ -149,7 +149,9 @@ and examples. Richer expression earns its place by clarifying those relations,
 not by collecting more biography. The complete YinYang Skill gives these
 accounts maintained homes: adopted orientation, person, counterpart,
 relationship, and environmental realization are the fixed five; private
-evidence supports them separately. The [formation method](../design-and-revision.md)
+evidence supports them separately. Together with the common
+[revision guide](../revision-guide.md), they form six maintained working files.
+The [Philosophy and models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this modeling
 idea does not require forming all five.
 

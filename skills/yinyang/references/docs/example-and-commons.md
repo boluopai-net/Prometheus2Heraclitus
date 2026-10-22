@@ -104,12 +104,20 @@ the author uses that conversation to judge and revise the work.
 Self-authored reusable Skills can be submitted directly as PRs, as can
 improvements to existing Skills and tools. Explain their purpose, use, and
 the problem they actually solve. PRs can also improve the public formation
-guides, organization, and methods of using the five core accounts: another
+guides, organization, and methods of maintaining the six working files: another
 person's experience may reveal a better approach. These changes concern
 shareable methods; each person's five private accounts and supporting sources
 stay with their own private owner. See
 [Contributing](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING.md)
 for preparation details.
+
+Other languages and working environments are also open to contribution. A PR
+can provide a translation, an adaptation for Claude Code or another agent
+harness, CLI, or application, or an additional improvement with a concrete
+benefit. The author need not personally maintain every platform for others to
+extend the work. Explain what the contribution makes possible, where it has
+actually been tried, and what remains unverified, so others can judge and
+continue it.
 
 “Knowledge communism” names the aspiration to shared creative capacity here:
 make intellectual means available and support others in making their own

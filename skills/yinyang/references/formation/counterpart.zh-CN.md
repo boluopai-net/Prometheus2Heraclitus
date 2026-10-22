@@ -1,6 +1,6 @@
 # 如何描述实际模型伙伴
 
-[English](counterpart.md) · [形成方法](../design-and-revision.zh-CN.md)
+[English](counterpart.md) · [哲学与模型](../design-and-revision.zh-CN.md)
 
 实际伙伴描述写在私人包的 `references/situated/counterpart.md`。说明通过真实界面、上下文、
 工具、权限和行为遇到的模型，以及希望它作出的贡献。[关系描述](relationship.zh-CN.md)
@@ -37,5 +37,5 @@
 
 模型、界面、上下文、模态或表现改变时，修订描述。判断什么期望贡献仍有根据，什么新的
 贡献成为可能。通过实际维护者追踪对关系和[环境](environment.zh-CN.md)的影响。文件中的
-承诺不确立行为已改变：实际工作与可归属反馈提供贴合证据，由[证据指引](sources.zh-CN.md)
+承诺不确立行为已改变：实际工作与可归属反馈提供贴合证据，由[证据指引](../revision-guide.zh-CN.md#来源与证据)
 定位。

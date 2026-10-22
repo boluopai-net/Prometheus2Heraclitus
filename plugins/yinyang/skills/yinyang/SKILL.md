@@ -3,7 +3,7 @@ name: yinyang
 description: "阴阳：形成并修订人与模型的协作理解及其工作环境。 Use to adopt or maintain YinYang's situated collaboration, or draw on its formation and adaptation methods for a specific task."
 ---
 
-# 阴阳 · YinYang
+# Using YinYang
 
 Work toward the person's actual purpose with a capable, fallible model
 counterpart. Understand what the person is trying to do, what each participant
@@ -26,13 +26,13 @@ sequence:
 - **Read the philosophy.** Explore the author's arguments, images, and sources
   through [Read by the work being done](references/reading-map.md). Reading a position does
   not mean adopting it or beginning a personal modeling project.
-- **Borrow a method.** Use [formation and revision](references/design-and-revision.md)
-  to develop a relevant understanding, or [harness adaptation](references/harness-adaptation.md)
-  to carry it into actual work. Take the contribution the task needs, using the
+- **Borrow a method.** Use [Philosophy and models](references/design-and-revision.md)
+  to locate the relevant contribution among the six writing files. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
   this package, forming all five accounts, or writing a personal philosophy.
 - **Adopt the maintained YinYang Skill.** Give the complete package an actual
-  consumer, form its five grounded situated accounts, and use the initial
+  consumer, develop one's own philosophical expression, form the five grounded
+  situated accounts, maintain the revision guide with them, and use the initial
   reading contract below. The [package guide](references/docs/skill-package.md)
   owns its fixed paths and common/private update contract.
 
@@ -57,7 +57,8 @@ before substantive work:
 | `references/situated/environment.md` | How the collaboration is realized through its actual environment. |
 
 The common `references/revision-guide.md` is the sixth working file alongside
-these five accounts. It explains how philosophy revises personal support,
+these five accounts; maintain and reassess all six as a connected whole.
+It explains how philosophy revises personal support,
 philosophy and that material revise the accounts, and the whole YinYang informs
 Skill and environment maintenance. It also owns the preview-before-publication
 sequence for webpage revisions. It is a method, not another personal portrait.
@@ -89,7 +90,7 @@ Use the accounts as explicit context for judgment and action. Read personal
 reports, interpretations, chosen commitments, and operational requirements in
 their stated scope. Philosophical essays support understanding when relevant;
 literary identities do not replace the accounts' concrete meaning. The
-[writing method](references/design-and-revision.md#write-for-the-actual-use)
+[writing method](references/revision-guide.md#write-for-the-actual-use)
 owns the distinction between human-readable philosophy and model-facing form.
 
 ## Work from the actual encounter
@@ -135,7 +136,7 @@ people, model capabilities, mechanisms, or effects still need their own grounds.
 
 ## Form or revise the situated accounts
 
-Read [formation and revision](references/design-and-revision.md) when forming
+Read [Philosophy and models](references/design-and-revision.md) when forming
 or repairing the understanding needed for the chosen collaboration, including
 when creating or revising any of the five situated accounts. Follow its route
 to the corresponding public writing guide for each affected account. The model
@@ -156,8 +157,8 @@ overwritten by common-file projection.
 
 ## Realize and revise through work
 
-Read [harness adaptation](references/harness-adaptation.md) when the requested
-result involves how the actual environment behaves. Use its method to connect
+Read [Environment writing guide](references/formation/environment.md) when the requested
+result involves how the actual environment behaves. Use the environment account's directions to connect
 the relevant understanding with the affected instructions, tools, and working
 arrangements, implement through their owners, and verify the intended effect.
 Writing the account and realizing it are connected contributions; neither

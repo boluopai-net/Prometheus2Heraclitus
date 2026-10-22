@@ -6,7 +6,7 @@ Engineering gives an understanding a form that can run, be observed, and be
 changed. Use this guide for the concepts and sources needed by that realization:
 learning maps, command lines, version history, software design, algorithms,
 systems, data tools, and physical conditions. Choose the part that helps the
-actual work; [harness adaptation](../harness-adaptation.md) explains how its
+actual work; [Environment writing guide](../formation/environment.md) explains how its
 result connects to the intended collaboration. Courses, documentation, and
 source repositories are accompanied by useful textbooks and papers.
 

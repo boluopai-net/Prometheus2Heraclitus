@@ -39,13 +39,13 @@
 **哲学展开理解与方向，心理理解具体的人，工程让关系成为可用环境。**三方面相互支撑。
 从已有材料与实践进入，发展缺失贡献，不要求当事人先独立修完三门学科。
 
-**缺少可用工程环境时，先与模型共同建立它。**文件、检索、工具、执行与核验，使形成与
+**缺少可用工程环境时，与模型共同建立它。**文件、检索、工具、执行与核验，使形成与
 持续使用成为可能，不要求人先精通工程。维护中的
-[六种起步路线](skills/yinyang/references/design-and-revision.zh-CN.md#从已有材料与实践起步)
+[已有材料与起步条件](skills/yinyang/references/design-and-revision.zh-CN.md#从已有材料与实践起步)
 区分实际已有的哲学写作、心理或生活材料、可用环境，以及两两组合，指出下一项贡献，
 不把形成变成封闭阶段。配置可能来自限制、习惯或默认值，不能单凭工具清单推断个人。
 哲学、有根据的描述与环境继续互相修订。[阴阳包说明](skills/yinyang/README.zh-CN.md#怎样使用并理解阴阳)
-说明五份核心及其使用。
+说明六个工作文件及其使用：五份有根据的描述，加上修订指南。
 
 ## 集合里的 Skill
 
@@ -78,8 +78,9 @@
 | [节点自动切换 · clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
 
 阴阳提供文化、思想与推理形式；个人内容来自获授权的实际材料，以及使用模型与
-这个人的协作。采用持续维护的阴阳时，**由模型协助形成 `references/situated/` 的五份核心描述，
-以及 `references/personal/` 的支撑证据**。永久公开指引单独位于 `references/formation/`，
+这个人的协作。采用持续维护的阴阳时，发展自己的哲学表达，**维护六个工作文件：
+`references/situated/` 的五份有根据的描述，加上 `references/revision-guide.md`**。
+支撑证据保留在 `references/personal/` 或其既有私人维护位置。永久公开指引单独位于 `references/formation/`，
 分发包不包含私人描述；
 下载或安装并不完成个人版。[上手说明](skills/yinyang/README.zh-CN.md#怎样使用并理解阴阳)逐项说明改什么、由谁完成及怎样确认可用。
 论述与图示都属于 `skills/yinyang/references/` 内的阴阳配件。

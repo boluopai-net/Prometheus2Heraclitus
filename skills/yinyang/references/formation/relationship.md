@@ -1,6 +1,6 @@
 # How to articulate a working relationship
 
-[简体中文](relationship.zh-CN.md) · [Formation method](../design-and-revision.md)
+[简体中文](relationship.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
 
 Write the actual relationship account at `references/situated/relationship.md`
 in the private package. Its object is the joint activity: how this
@@ -49,11 +49,11 @@ description does not create new authority.
 ## Follow the relationship into its realization
 
 The [environment account](environment.md) explains how the contribution reaches
-sources, tools, work, and observable results. [Harness adaptation](../harness-adaptation.md)
-owns changes to those arrangements. Keep the relational reason here and link to
+sources, tools, work, and observable results, including directions for changing
+those arrangements. Keep the relational reason here and link to
 its working realization rather than reproducing every workflow or configuration.
 
-Use the [evidence material](sources.md) to distinguish a chosen commitment from
+Use the [evidence material](../revision-guide.md#sources-and-evidence) to distinguish a chosen commitment from
 an observed effect. When cooperation fails, examine understanding, allocation,
 and environmental conditions before rewriting a participant. A completed task
 supports a bounded claim; a sustaining relationship develops through repeated

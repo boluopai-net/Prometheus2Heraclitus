@@ -42,21 +42,21 @@
 
 | 目的 | 入口 |
 | --- | --- |
-| 参与日常协作 | [SKILL.md](SKILL.md) 维护初始阅读约定与路径；另有[中文阅读版](SKILL.zh-CN.md)。 |
-| 联动更新哲学、个人理解、Skill 与环境 | [修订指南](references/revision-guide.zh-CN.md)，与五份描述并列的第六个工作文件。 |
-| 形成或修订相连的个人描述 | [形成与修订](references/design-and-revision.zh-CN.md)。 |
-| 改变实际环境的运作方式 | [环境适配](references/harness-adaptation.zh-CN.md)。 |
-| 理解文件、个人内容与公共更新 | [包结构说明](references/docs/skill-package.zh-CN.md)。 |
-| 探索论证或来源 | [按任务问题阅读](references/reading-map.zh-CN.md)。 |
+| 理解形成与使用自己的阴阳这项实践 | [实践说明](references/docs/creation-method.zh-CN.md)。 |
+| 理解哲学与个人模型怎样相接 | [哲学与模型](references/design-and-revision.zh-CN.md)，通向六份文件的写作指导。 |
+| 让六份文件在日常协作中发挥作用 | [使用阴阳](SKILL.zh-CN.md)，包含初始阅读约定与使用路径。 |
 
-完整采用当前维护的实现，固定五份情境化描述：**取向**（采纳的哲学、价值、方向）、
+文件与更新见[包结构说明](references/docs/skill-package.zh-CN.md)，论证与来源见[阅读地图](references/reading-map.zh-CN.md)。
+
+当前维护的阴阳有**六个工作文件**：五份情境化描述，加上也随实践修订的公共《修订指南》。
+五份描述是**取向**（采纳的哲学、价值、方向）、
 **人**（有根据的理解）、**伙伴**（实际模型与期望贡献）、**关系**（共同活动、纠正、分工）
 和**环境**（工作实现）。人、伙伴与关系仍是三个建模对象，五份不是五种心理模型。
 `references/formation/` 的永久公开指引帮助形成 `references/situated/` 的实际私人描述；
 分发包不包含私人描述文件。他人画像和虚构替代不能提供这些内容。
 未知处应如实说明。私人支撑材料跟随实际证据，适合时让原件留在已有维护位置。
 包结构说明提供准确路径、完成证据和同步命令。
-私人证据入口为 `references/personal/sources.md`，在五份核心之外，按需要选读。
+私人证据入口为 `references/personal/sources.md`，在这六个文件之外，按需要选读。
 
 形成可以从哲学、个人经验、偏好、实际工作或待修订环境开始。工程尚不可用时，借助模型
 建立可用基础，让文件、工具、执行和核验能够支持工作。已有环境可以为个人建模提供线索，
@@ -107,7 +107,7 @@
 英文读者文本有完整中文对应。公共材料在共享源维护，情境化描述在实际私人位置维护。
 
 通过 [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) 分享相关内容、讨论哲学。
-自制的可复用 Skill、工具改进与五份核心描述的公共指引或使用方法，可以提
+自制的可复用 Skill、工具改进、翻译、其他 Harness 或 App 适配，以及六个工作文件的公共指引或使用方法，可以提
 [PR](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls)。自己的哲学放在自己的仓库，欢迎分享链接。
 [创作邀请](references/docs/example-and-commons.zh-CN.md#各自创作也让作品相遇)说明这些参与方式。
 个人记录、形式化画像、私人引文和未发表手稿都不进入公开分发。

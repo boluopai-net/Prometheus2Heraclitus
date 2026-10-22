@@ -1,4 +1,4 @@
-# 共享 Skill 与个人哲学
+# 阴阳的文件与更新约定
 
 [首页](../../README.zh-CN.md) · [阴阳方法](../../SKILL.zh-CN.md) · [English](skill-package.md)
 
@@ -16,8 +16,8 @@
 
 ## 公共内容与情境化内容
 
-分发副本与个人副本保持字节一致的公共内容。永久写作指引位于 `references/formation/`，
-附有完整中文版本。私人情境化版本增加以下固定五份描述；公开分发不包含这些文件，也不
+分发副本与个人副本保持字节一致的公共内容。永久写作指导共有六份：`references/formation/` 下的五份描述指南，
+以及 `references/revision-guide.md`，均有完整中文版本。私人情境化版本增加以下固定五份描述；公开分发不包含这些文件，也不
 包含占位描述。
 
 | 固定情境槽位 | 职责 |
@@ -29,11 +29,12 @@
 | `references/situated/environment.md` | 通过实际环境实现。 |
 
 人、伙伴与关系仍是三个建模对象；取向提供采纳的解释与评价方向，环境说明实现。
-这五份不全是心理模型。[形成方法](../design-and-revision.zh-CN.md)把每份描述接到永久
+这五份不全是心理模型。[哲学与模型](../design-and-revision.zh-CN.md)把每份描述接到永久
 指引，采用后仍然保留。
 
-公共的[修订指南](../revision-guide.zh-CN.md)是与五份描述并列的第六个工作文件，
-说明 personal 支持材料、个人模型、Skill 与环境怎样相连地更新，也说明网页预览与
+这五份描述与公共的[修订指南](../revision-guide.zh-CN.md)共同构成**需要维护的六个工作文件**。
+实践揭示了更合适的修订方式时，指南本身也应更新。它说明 personal 支持材料、个人模型、
+Skill 与环境怎样相连地更新，也说明网页预览与
 发布的顺序。它属于公共包，有完整中英文版本，不增加第六份私人画像。
 入口将它纳入初始阅读，让使用模型理解怎样维护正在使用的安排。
 
@@ -44,7 +45,7 @@
 后续修订只需改变受影响内容。
 
 `references/personal/sources.md` 是实际私人证据入口，支持五份描述，不成为另一份核心。
-公开[证据指引](../formation/sources.zh-CN.md)提供方法。进一步的 `references/personal/`
+公开[证据指引](../revision-guide.zh-CN.md#来源与证据)提供方法。进一步的 `references/personal/`
 材料保留有用的私人支撑与专题出处。文件名跟随实际证据，
 没有普遍文件清单，也不要求为每篇文章建立空白对应页。原件和较长历史可留在既有维护位置，
 通过有访问边界的引用取得。哲学正文只维护一份：私人对应页链接公共论证并保存私人依据，
@@ -53,8 +54,8 @@
 整个 `references/situated/` 和 `references/personal/` 之外的一切都是公共内容：主入口、读者版、方法、
 文章、图示、阅读地图、管理文件、脚本与 OpenAI YAML 适配文件。共享 GitHub 包维护这些内容。
 [主入口](../../SKILL.md)维护初始阅读，另有[中文阅读版](../../SKILL.zh-CN.md)；
-[形成与修订](../design-and-revision.zh-CN.md)维护形成，
-[环境适配](../harness-adaptation.zh-CN.md)维护实际实现。
+[哲学与模型](../design-and-revision.zh-CN.md)连接写作对象。
+具体指导归于六份写作文件，环境实现归于环境指南。
 
 ## 投影公共变更
 

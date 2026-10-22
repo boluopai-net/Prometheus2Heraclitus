@@ -54,17 +54,17 @@ environment.** These contributions support one another. Enter through available
 material and practice and develop the missing contribution; the person need
 not first complete three academic disciplines independently.
 
-**If a usable engineering environment is missing, develop it first with the model.**
+**If a usable engineering environment is missing, develop it with the model.**
 Files, retrieval, tools, execution, and verification make formation and continued
 use possible; the person need not first master engineering. The maintained
-[six starting routes](skills/yinyang/references/design-and-revision.md#start-from-available-material-and-practice)
+[starting conditions](skills/yinyang/references/design-and-revision.md#start-from-available-material-and-practice)
 distinguish actual philosophical writing, psychological or life material, and
 working environments, singly and in pairs. They identify the next contribution
 without making formation closed stages. Installed configurations can reflect
 constraints, habits, or defaults, so tool inventory alone cannot establish the
 person. Philosophy, grounded accounts, and environment continue to revise one
 another. [YinYang's package guide](skills/yinyang/README.md#use-and-understand-yinyang)
-explains its five core accounts and use.
+explains its six working files and use: five grounded accounts and the revision guide.
 
 ## Skills in the collection
 
@@ -117,8 +117,10 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting the maintained YinYang requires the model to form **all five core accounts
-under `references/situated/` and their evidence under `references/personal/`**.
+Adopting the maintained YinYang includes developing one's own philosophical
+expression and maintaining **six working files: five grounded accounts under
+`references/situated/` plus `references/revision-guide.md`**. Their supporting
+evidence belongs under `references/personal/` or its existing private owners.
 Permanent public writing guides live separately in `references/formation/`;
 distribution contains no private accounts. Installing does not
 complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)

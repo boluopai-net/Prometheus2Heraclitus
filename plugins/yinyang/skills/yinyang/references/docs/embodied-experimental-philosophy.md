@@ -168,6 +168,36 @@ reconsiders the arrangement, including its reflection loop. Connecting this
 distinction to intervention and consequences is the present proposal; the
 comparison does not by itself establish how any particular revision will work.
 
+## Eternal recurrence and returning to the loops
+
+Practice, reflection, and reconsideration of their arrangement form a movement
+one can enter at different points. A practical encounter may call for inquiry;
+inquiry may change its own purposes or standards; that revision returns to
+practice. If this outward-and-returning movement is drawn as a third loop, it
+too remains revisable. There is no final ascent after which participation and
+questioning become unnecessary.
+
+Nietzsche's eternal recurrence gives this movement a question about living.
+In *The Gay Science* §341, a demon announces the return of the same life, in
+the same sequence, with every pain and joy. Nietzsche asks how someone would
+receive that prospect and what it would take to desire it [[6]](#source-6).
+In *Thus Spoke Zarathustra*, III, “The Convalescent,” §2, the animals' song of
+circular return meets Zarathustra's account of the suffering the thought has
+cost him. Describing a circle and bearing its return are different achievements.
+
+Here the connection is an authorial extension: experimental returns permit
+changes, whereas Nietzsche's demon announces the recurrence of the same. His
+question brings the life sustained by the loops into view. Could one affirm
+a life that includes acting, questioning, revising, and beginning again, with
+its difficulty as well as its joy? In the output-count example, this question
+can disclose why a more efficient arrangement still gives the person little
+reason to welcome another day within it. It can lead outside the current pair
+to reconsider what makes the activity worth returning to, then back into
+either loop with a changed purpose. A finished work, rest, and leaving a
+practice can all belong to the life under consideration. Returning need not
+make every task endless; it keeps the relation between a way of working and
+a life worth affirming open to encounter and judgment.
+
 ## A public work as a concrete experiment
 
 Consider a hypothetical philosophical essay published on the Web from a
@@ -222,3 +252,4 @@ a general demonstration of model-assisted human development.
 3. <a id="source-3"></a> W. Ross Ashby (1956), **An Introduction to Cybernetics**, chapter 4, especially §4/11. [Estate-authorized text](https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf). Coupling and feedback within dynamic systems.
 4. <a id="source-4"></a> Rudolf Carnap (1950), **Empiricism, Semantics, and Ontology**. [Public reprint](https://ditext.com/carnap/carnap.html). Framework-relative inquiry and practical framework adoption, used here as a philosophical comparison.
 5. <a id="source-5"></a> David Harel, Dexter Kozen, and Jerzy Tiuryn (2000), **Dynamic Logic**. [Author's introduction](https://www.weizmann.ac.il/math/harel/dynamic-logic). Formal reasoning about programs and their effects on states.
+6. <a id="source-6"></a> Friedrich Nietzsche, **The Gay Science** (1882), §341, and **Thus Spoke Zarathustra** (1883–1885), III, “The Convalescent,” §2. [The Gay Science, Thomas Common translation titled *The Joyful Wisdom*](https://www.gutenberg.org/files/52881/52881-h/52881-h.htm); [Zarathustra, Thomas Common translation](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm). The prospect of identical recurrence and the difficulty of affirming it; the connection to revisable experimental returns is this essay's extension.

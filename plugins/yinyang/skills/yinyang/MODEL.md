@@ -8,8 +8,9 @@ all its philosophical claims.
 
 The [core views](references/docs/core-views.md) own the numbered propositions.
 The essays develop their arguments, images, examples, and sources.
-[SKILL.md](SKILL.md) owns ordinary invocation and routes to the formation and
-adaptation methods. Use the [reading map](references/reading-map.md) to locate
+[SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the six files. [Philosophy and models](references/design-and-revision.md)
+explains their relationship; actual writing directions belong to the five account
+guides and the sixth revision file. Use the [reading map](references/reading-map.md) to locate
 the argument relevant to a change.
 
 ## Source and consumer roles
@@ -27,12 +28,13 @@ Keep the following uses of writing distinct:
 - **Reader essays** develop a question into an argument. Each needs enough
   orientation to stand alone, while links lead to a genuinely different or
   deeper question rather than replacing a missing premise.
-- **Formation and adaptation methods** explain how the understanding becomes
-  a situated account and a working environment. They should use the philosophy
+- **Philosophy and models** connects the six writing objects. Their guides explain
+  how understanding becomes a situated account and a working environment.
+  They should use the philosophy
   without repeating its complete exposition.
 - **Situated accounts and personal context** state the relevant understanding,
   evidence, conditions, and implications explicitly for model use. Follow the
-  [writing method](references/design-and-revision.md#write-for-the-actual-use);
+  [writing method](references/revision-guide.md#write-for-the-actual-use);
   maintain correspondence with human-readable philosophy without making its
   literary form the default for working instructions.
 - **Maintenance instructions** locate sources, dependencies, publication, and
@@ -40,14 +42,15 @@ Keep the following uses of writing distinct:
   essays into a second policy manual.
 
 The [package guide](references/docs/skill-package.md) owns the shared/situated
-structure and projection contract. Permanent public writing guidance lives in
-`references/formation/`. A situated package adds the fixed five accounts
+structure and projection contract. Permanent public writing guidance consists of the five guides in
+`references/formation/` and the sixth file, `references/revision-guide.md`.
+The full initial reading is the five actual situated accounts plus that revision file. A situated package adds the fixed five accounts
 `references/situated/{orientation,person,counterpart,relationship,environment}.md`.
 Person, counterpart, and relationship remain three modeling objects; orientation
 states adopted philosophy, values, and direction, and environment explains
 realization. They are not five psychological models. Evidence is supporting
 material, with its private entrance at `references/personal/sources.md`, outside
-the initial five. Public distribution contains no private trees. Common updates
+the six-file initial reading. Public distribution contains no private trees. Common updates
 preserve both entire trees; `scripts/sync-common.py` checks or applies projection
 and refuses unmigrated legacy layouts. Local and cloud owners migrate meaning,
 install, and verify their actual consumers. Other authors may freely change
@@ -176,8 +179,8 @@ substantive correspondence.
 
 Personal claims must be grounded in attributable expression, relevant
 experience, and actual use. Formation does not require a complete biography.
-The [design method](references/design-and-revision.md) owns how to develop and
-revise the situated account; [harness adaptation](references/harness-adaptation.md)
+The [Philosophy and models](references/design-and-revision.md) owns how to develop and
+revise the situated account; [Environment writing guide](references/formation/environment.md)
 owns carrying it into an environment and learning from the result.
 Use host policy for model selection, authority, and publication rather than
 maintaining a second routing menu here.

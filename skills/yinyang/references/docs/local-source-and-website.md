@@ -61,7 +61,7 @@ Prompts, Skills, and harnesses bring these understandings into actual work. Prom
 
 <a id="philosophy-psychology-and-engineering-develop-the-missing-connection"></a>
 
-For starting a new formation, the maintained [six starting routes](../design-and-revision.md#start-from-available-material-and-practice)
+For starting a new formation, the maintained [starting conditions](../design-and-revision.md#start-from-available-material-and-practice)
 distinguish available philosophical writing, psychological or life materials,
 and an actual working environment, singly or in pairs. They recover the learning
 sequence by developing the missing contribution; this essay examines how those

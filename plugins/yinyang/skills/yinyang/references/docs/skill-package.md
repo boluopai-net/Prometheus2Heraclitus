@@ -1,4 +1,4 @@
-# Shared Skills and personal philosophy
+# YinYang files and shared updates
 
 [Home](../../README.md) · [Model entrypoint](../../SKILL.md) · [简体中文](skill-package.zh-CN.md)
 
@@ -22,7 +22,8 @@ philosophy project.
 ## Common and situated content
 
 Distributed and situated copies share byte-identical common content. Permanent
-writing guides live under `references/formation/`, with complete Chinese editions.
+writing guidance has six files: five account guides under `references/formation/`
+and `references/revision-guide.md`, with complete Chinese editions.
 A private situated version adds the following fixed five accounts; public
 distribution contains neither these files nor placeholder accounts.
 
@@ -37,11 +38,12 @@ distribution contains neither these files nor placeholder accounts.
 Person, counterpart, and relationship remain three modeling objects. Orientation
 supplies adopted interpretive and evaluative direction; environment explains
 realization. The five are not all psychological models. The
-[formation method](../design-and-revision.md) routes each account to its
+[Philosophy and models](../design-and-revision.md) routes each account to its
 permanent guide, which remains available after adoption.
 
-The common [revision guide](../revision-guide.md) is the sixth working file
-alongside those five accounts. It explains the connected refresh of personal
+Together with the common [revision guide](../revision-guide.md), these make
+**six working files to maintain**. The guide itself changes when practice
+reveals a better way of revising the arrangement. It explains the connected refresh of personal
 support, accounts, Skills, and environment, including webpage preview and
 publication sequencing. It belongs to the common package, with a full Chinese
 edition, and adds no sixth private portrait. The entrypoint includes it in the
@@ -57,7 +59,7 @@ at its actual entrypoint. Later revisions need change only affected content.
 
 `references/personal/sources.md` is the actual private evidence entrance,
 supporting all five accounts rather than becoming another core account.
-The public [evidence guide](../formation/sources.md) supplies its method.
+The public [evidence guide](../revision-guide.md#sources-and-evidence) supplies its method.
 Further `references/personal/` material retains useful private support and topical
 provenance. Filenames follow actual evidence; there is no universal list or
 required empty companion for every essay. Originals and extended history can
@@ -70,8 +72,8 @@ trees is common:
 the entrypoint, reader editions, methods, essays, diagrams, reading map,
 administration, scripts, and OpenAI YAML adapter. The shared GitHub package owns
 this content. The [entrypoint](../../SKILL.md) owns initial reading; [design and
-revision](../design-and-revision.md) owns formation; [harness adaptation](../harness-adaptation.md)
-owns environmental realization.
+revision](../design-and-revision.md) connects the writing objects. Their six guides own actual directions;
+environmental realization belongs to the environment guide.
 
 ## Project common changes
 

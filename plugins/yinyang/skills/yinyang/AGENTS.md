@@ -12,14 +12,18 @@ actual consumer contracts; remove repetition and obsolete scaffolding.
 
 ## Authored and situated sources
 
-[SKILL.md](SKILL.md) owns invocation. [Design and revision](references/design-and-revision.md)
-owns formation of the coupled accounts; [harness adaptation](references/harness-adaptation.md)
-owns their realization in an actual environment. [The package guide](references/docs/skill-package.md)
+[SKILL.md](SKILL.md) owns invocation. [Philosophy and models](references/design-and-revision.md)
+connects philosophical expression and models. The five account-writing guides
+under `references/formation/` and the sixth file, [revision](references/revision-guide.md),
+own their actual directions. Environmental realization belongs to the environment
+guide; revision belongs to the sixth file. [The package guide](references/docs/skill-package.md)
 owns common/situated structure and projection. Refer to these owners where a
 document needs their method instead of restating it.
 
 Distributed and situated editions share common content, including permanent
-writing guides under `references/formation/`. A private situated package adds
+writing guides under `references/formation/` and the revision file. Ordinary use
+reads the five actual situated accounts plus the revision file in full.
+A private situated package adds
 the fixed five `references/situated/{orientation,person,counterpart,relationship,environment}.md`
 accounts and its evidence entrance at `references/personal/sources.md`.
 Public distribution contains neither private tree. `scripts/sync-common.py`

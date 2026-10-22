@@ -58,14 +58,15 @@ Choose the entrance that serves the current question:
 
 | Purpose | Entrance |
 | --- | --- |
-| Participate in ordinary collaboration | [SKILL.md](SKILL.md), which owns the initial reading contract and routes. |
-| Refresh philosophy, personal understanding, Skills, and environment together | [Revision guide](references/revision-guide.md), the sixth working file alongside the five accounts. |
-| Form or revise the coupled personal accounts | [Design and revision](references/design-and-revision.md). |
-| Change how the actual environment works | [Harness adaptation](references/harness-adaptation.md). |
-| Understand files, personal content, and common updates | [Package guide](references/docs/skill-package.md). |
-| Explore an argument or its sources | [Read by the work being done](references/reading-map.md). |
+| Understand the practice of forming and using your own YinYang | [Practice overview](references/docs/creation-method.md). |
+| Understand how philosophy and personal models connect | [Philosophy and models](references/design-and-revision.md), leading to the six writing files. |
+| Use the six files in ordinary collaboration | [Using YinYang](SKILL.md), including initial reading and routes. |
 
-For full adoption, this maintained implementation fixes five situated accounts:
+For files and updates, use the [package guide](references/docs/skill-package.md);
+for arguments and sources, use the [reading map](references/reading-map.md).
+
+The maintained YinYang has **six working files**: five situated accounts and
+the common revision guide, which is itself revised through use. The accounts are
 **orientation** (adopted philosophy, values, direction), **person** (grounded
 understanding), **counterpart** (actual model and wanted contribution),
 **relationship** (joint activity, correction, division), and **environment**
@@ -78,7 +79,7 @@ State unknowns honestly. Supporting private material follows actual evidence,
 with originals retained at their existing owners when suitable. The package
 guide gives the exact paths, completion evidence, and synchronization command.
 The private evidence entrance is `references/personal/sources.md`, outside the
-five core accounts and selected for reading when needed.
+five accounts and the revision guide, and selected for reading when needed.
 
 Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable
@@ -154,7 +155,8 @@ and situated accounts at their actual private owner.
 
 Use [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) for
 related sharing and philosophical discussion. Self-authored reusable Skills,
-tool improvements, and better public guides or methods for the five core accounts
+tool improvements, translations, adaptations for other harnesses or apps, and
+better public guides or methods for the six working files
 can be submitted as [pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls).
 Develop your own philosophy in your own repository and share its link. The
 [invitation to create](references/docs/example-and-commons.md#independent-works-in-conversation)

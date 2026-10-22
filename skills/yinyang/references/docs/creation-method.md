@@ -1,215 +1,62 @@
-# Creating and realizing YinYang's meta-harness
+# Practice: forming and using your own YinYang
 
-[Home](../../README.md) · [Skill entrypoint](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
+[Home](../../README.md) · [Philosophy and models](../design-and-revision.md) · [Using YinYang](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
 
-<details>
-<summary>On this page</summary>
+Forming your own YinYang connects a philosophy you can express, an understanding
+of the actual participants, and an environment through which they can work.
+The point is a practice that enters life: what you can understand, create,
+judge, and do with a capable model counterpart. The author's
+[Stealing fire](stealing-fire.md) develops this as cultivation through borrowed
+generative capacity. Your own philosophy can adopt, combine, challenge, and
+rewrite existing thought into a direction you choose.
 
-- [From an image to a working relation](#from-an-image-to-a-working-relation)
-- [Let the realization answer the account](#let-the-realization-answer-the-account)
-- [Give the account a readable body](#give-the-account-a-readable-body)
-- [Assess at the scale of the claim](#assess-at-the-scale-of-the-claim)
+## Philosophy and models develop together
 
-</details>
+Full formation includes writing your own philosophy. It can begin with a
+question, image, way of working, or something understood through life.
+Literature, humanities, engineering philosophy, Western philosophy, philosophy
+of science, logic, and aesthetics can each contribute. No academic curriculum
+or completed theory is required before useful work begins.
 
-A **meta-harness** makes the purposes and relations of a working harness
-available for interpretation and revision. A harness includes prompts, Skills,
-hooks, roles, model choices, tools, and the surrounding working environment.
-Its methods already presume an account of whose purpose matters, what the
-relevant objects are, and what warrants a judgment. YinYang develops those
-ontological and epistemological premises and gives them a usable carrier.
-Specialist Skills contribute methods and knowledge that can also correct the
-premises. Within **Prometheus2Heraclitus**, these contributions work together.
+Philosophy articulates concepts, reasons, values, and possibilities. Personal
+material grounds their application to an actual person, counterpart, and
+relationship. Either can revise the other. A chosen direction differs from an
+explanation of experience; a desired model contribution differs from demonstrated
+capability. [Philosophy and models](../design-and-revision.md) develops these
+connections and leads to the six writing files.
 
-The creative problem is how a philosophical or literary understanding becomes
-effective in that environment. The method below connects an image with the
-processes and relations it helps us understand, their computational articulation,
-and an arrangement whose behavior can be examined. The author's chosen purpose is the cultivation developed in [Stealing fire and cultivating creative capacity](stealing-fire.md):
-borrow available generative capacity and develop one's understanding, judgment,
-and agency through practice. What the arrangement makes possible in a person's
-life gives this authorship its point. The formation and realization methods can
-also serve a recipient's different purpose. Borrowing them does not require
-adopting this developmental aim, Sun–Moon imagery, or process ontology, or
-undertaking a personal philosophy project.
+Starting conditions and order vary. You may already have philosophical
+expression, a history of personal inquiry, or a working environment. Develop
+the missing connections from there. A tool or a work can disclose a relation
+that later acquires philosophical expression. Forming one's own philosophy
+remains part of fully forming one's own YinYang; borrowing an idea for another
+task need not undertake that whole practice.
 
-## From an image to a working relation
+## Six files give the practice a usable form
 
-YinYang uses literary programming in its human-readable philosophy: images
-and narrative can make an overall relation available for understanding and
-judgment. The model helps develop that expression alongside explicit accounts,
-prompts, and tools that can realize the relation in daily life. A chosen purpose,
-an existing philosophy, actual work, or a difficulty in the environment can open
-creation. Experience, interaction, and relevant psychological or preference
-material ground the person and counterpart accounts.
+Five accounts articulate the adopted orientation, actual person, model
+counterpart, relationship, and environment. The sixth file guides their
+revision and is itself revised through use. Their writing guidance belongs
+with those six objects: the five [account guides](../design-and-revision.md#form-a-situated-version-from-actual-material)
+and [revision](../revision-guide.md). Environmental realization belongs in the
+environment writing; continuing change belongs in the sixth file.
 
-The two expressions have different duties. A philosophical essay can develop
-what a relationship means and what possibilities it opens. An ordinary
-model-facing account states its supported objects, relations, conditions, and
-contributions directly; it uses philosophy when direct expression leaves
-important meaning unclear. Changed roles become effective through this
-interpretation and its working realization, not merely through placing a
-literary character in an instruction. Either expression can revise the other
-through use. The [writing method](../design-and-revision.md#write-for-the-actual-use)
-develops this distinction for the five accounts and private supporting notes.
+The five actual accounts remain private, with evidence at its appropriate
+owners; public distribution supplies guidance, not a copied portrait.
+Prompts, Skills, tools, and interfaces give understood relations working
+consequences. Those consequences can correct the accounts and philosophy.
+Completed output, collaborative fit, and developing personal capacity call for
+evidence at their respective scales.
 
-The project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling)
-represents activity histories as event streams and uses them with other everyday
-materials and philosophy to infer and construct natural-language conceptual
-accounts of participants and their relationship. When that explanation is still hard to articulate, a person comfortable with
-engineering can begin from preferences visible in choices about work, learning,
-response, and change. Configurations supply clues to compare with actual
-choices and correction. From this working account, develop the counterpart's
-intended priorities and inspect how it realizes them. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
-develops the conditional routes from existing abilities.
+## Using YinYang
 
-This method is itself available for reinterpretation. The
-[example and commons essay](example-and-commons.md) distinguishes adopting
-YinYang's maintained implementation from composing a new work. Its particular
-philosophy, images, and file roles need not survive that composition. Let the
-person's developing understanding determine what to carry forward, with the
-model contributing authorship rather than reproducing the example by default.
+People and models can read and use these materials together: develop an
+argument, compare an account with experience, inspect an arrangement, or make
+an authorized change. Different writing forms serve different contributions
+without reserving philosophy for humans or practical understanding for models.
 
-The [Sun, Moon, and Earth image](yinyang-and-taiji.md), for example, gathers
-generation, articulation, independent contribution, and contact with an
-answering world. For a particular harness, develop the relations it brings
-into view: what each participant contributes, which distinctions matter, and
-how their relationship can change. Both participants can generate and judge,
-even when they choose different responsibilities. The selected interpretation
-gives the image practical direction without exhausting its possibilities.
-
-For computer-mediated engineering, person and model jointly develop a
-computational ontology as representation, using its objects, events, states,
-relations, and transitions to construct a process ontology. Its subjects can
-be actual activity, hypothetical situations, or fictional objects. Develop the boundary and scale
-relevant to the purpose within that cooperation:
-what occurs, which states matter, what persists through change, and which
-relations, constraints, and transition conditions connect the occurrences.
-Objects and static views can express what remains stable at that scale. The
-[world and expression account](world-and-expression.md#physical-ground-and-computational-abstraction)
-connects representation with its physical grounding; the engineering model
-makes the selected relations available for computer use and examination,
-and for simulation where its modeled changes support that use.
-
-Give its distinctions usable meanings. Factual claims must correspond to actual
-conditions; inference under stated conditions concerns the selected
-interpretation and premises. For example,
-“awaiting a personal judgment” describes work whose next action depends on a
-judgment the person must supply; a routine implementation choice is a different
-condition. A correction changes the working interpretation while retaining the
-request to which it responds. Merely storing these names would not establish
-that correspondence. A natural-language account can already be a usable
-computational representation when a model interprets and acts through it;
-formal schemas or executable simulations are needed only where the use calls
-for their precision.
-
-Within the same collaboration, choose prompts, roles, data, tools, and interfaces
-to realize and use this articulation in the affected environment. A prompt can guide interpretation;
-a tool can make a transition possible; a memory interface can preserve the
-relevant continuity. A Skill can provide the entrance and deeper material.
-Read the result against both the modeled relation and the purpose: a failure
-may call for revising the process selected, the meaning of a state, or the
-implementation. The person may express a purpose or notice a mismatch, while
-the model develops distinctions, constructs the work, and checks its effect;
-either can propose a change to the whole. Contributions follow current
-capabilities and modality conditions, extending from problem finding through
-feedback. Model and realization can develop together in ordinary work; this
-dependency does not require a separate specification before every task.
-
-These connected contributions develop through repeated exchanges:
-
-`expression ↔ understood process and relations ↔ computational articulation ↔ working realization ↔ evidence`
-
-Metaphor can gather relationships before each has a separate formulation;
-analogy develops selected connections into candidate implications. Their
-external expression can provide branches, assumptions, and return points for
-another participant's reasoning. Such representations can organize contributions
-across people, models, and tools. [Metaphor and personal modeling](metaphor-and-self-revision.md)
-develops this account of distributed cognition and distinguishes a working
-philosophical arrangement from formal or empirical guarantees.
-
-The [preference harness](preference-harness.md) makes one such relation explicit.
-Preferences can shape which possibilities receive attention and adoption while
-rules govern the consequences drawn through them. The account separates repair
-selection from inference semantics and preserves their finer alternatives.
-In ordinary natural-language reasoning, the analogy helps distinguish choosing
-a purpose, selecting a working interpretation, and drawing its consequences.
-
-## Let the realization answer the account
-
-A working harness's actual behavior can reveal a mistaken interpretation. Suppose an
-image of complementary contributions becomes a rule that reserves all
-generation to the person and all execution to the model. If useful model
-judgment is suppressed, inspect the division itself. A better realization may
-retain the chosen responsibilities while letting either participant propose
-and correct the whole.
-
-Likewise, protecting human attention can mean that the model carries
-investigation and implementation details. A question becomes useful when the
-person's experience or choice would materially change the next action. Recover
-the relevant relationship and current purpose before revising instructions.
-
-Inspect the whole affected passage and its practical consequences. A working
-failure may require changing the carrier, an instruction, an interpretation,
-or the underlying account. Keep the supported meaning with one maintained
-owner and reconnect its dependent parts. The same method can revise itself
-through these concrete failures and improvements.
-
-This is recursive development when the results change the conditions of later
-work: methods alter what the environment makes accessible or actionable; the
-resulting experience can revise both those methods and the ontology or
-epistemology that oriented them. A harness can embody epistemic commitments
-through its evidence, memory, inquiry, and checking arrangements, so the levels
-distinguish contributions rather than mutually exclusive file types. Retained
-understanding and working means become personal assets for the next encounter.
-The return must remain open to contrary evidence: a loop that selects only
-confirming results can stabilize a mistake. Development can require replacement
-or deletion, and its value needs actual consequences rather than a rising
-count of revisions or artifacts.
-
-## Give the account a readable body
-
-Full adoption of the maintained YinYang implementation connects two uses of
-writing. Common essays develop philosophy and imagery for human understanding.
-Five situated files explicitly state what
-actual collaboration needs: adopted orientation, person, actual counterpart,
-relationship, and environmental realization. Person, counterpart, and
-relationship remain distinct modeling objects; orientation supplies direction
-and environment explains realization. The private evidence entrance supports
-these accounts outside the five. The larger essays give reasons and
-connections that a working account need not repeat. Supporting private sources
-retain the relevant personal evidence; derived notes make their meaning and
-uncertainty usable for the model while preserving original expression as source.
-
-The [Skill entrypoint](../../SKILL.md) connects these resources to a consuming
-model. Its reading contract makes the complete current situated accounts
-available before substantive work, while further reading follows the question.
-The model develops the accounts from authorized material and actual work;
-permanent public guides under `references/formation/` remain separate from
-actual private accounts under `references/situated/` and evidence under
-`references/personal/`. Distribution contains no private trees. The [package guide](skill-package.md) explains the five
-fixed slots and the common/private boundary. [Design and revision](../design-and-revision.md)
-develops their formation and correction. Maintaining this implementation keeps
-its common content aligned; an independently authored work can choose another form.
-
-A readable account must also reach the working environment. Global instructions
-can connect it to a consumer; prompts, interfaces, and tools realize selected
-relations. These carriers retain their actual instruction authority and
-permissions. [Harness adaptation](../harness-adaptation.md) carries the account
-through that realization and checks its effects. This is where the proposed
-relation acquires practical consequences beyond the written description.
-
-## Assess at the scale of the claim
-
-Read back the Skill and the affected harness, follow the entrypoint to the
-relevant resource, and inspect the behavior the realization is meant to change.
-Check packaging through reachable resources, implementation through observable
-results, and collaborative fit through actual work. Human development appears
-over time in changes to understanding, generation, judgment, and action.
-
-Keep the result open to correction without making every use a rewrite of the
-entire account. [MODEL.md](../../MODEL.md) carries the YinYang package's maintenance
-and publication boundaries.
-
----
-
-[Reading guide](../../README.md) · [Stealing fire and cultivating creative capacity](stealing-fire.md)
+[Using YinYang](../../SKILL.md) explains how the current six files cooperate
+in ordinary work. The [package guide](skill-package.md) explains their common
+and private paths and shared updates. These are connected entrances, not a
+sequence to repeat for every task. The [example and commons essay](example-and-commons.md)
+invites selective adoption, combination, and independent authorship.

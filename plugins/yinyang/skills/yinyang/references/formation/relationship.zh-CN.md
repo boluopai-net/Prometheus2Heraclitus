@@ -1,6 +1,6 @@
 # 如何阐明共同工作的关系
 
-[English](relationship.md) · [形成方法](../design-and-revision.zh-CN.md)
+[English](relationship.md) · [哲学与模型](../design-and-revision.zh-CN.md)
 
 实际关系描述写在私人包的 `references/situated/relationship.md`。对象是共同活动：这个
 [人](person.zh-CN.md)与[伙伴](counterpart.zh-CN.md)怎样贡献、纠正、分工并改变理解。
@@ -33,10 +33,10 @@
 
 ## 把关系接到实现
 
-[环境描述](environment.zh-CN.md)说明贡献怎样到达来源、工具、工作与可观察结果。
-[环境适配](../harness-adaptation.zh-CN.md)维护这些安排的改变。关系理由留在这里，并连接
+[环境描述](environment.zh-CN.md)说明贡献怎样到达来源、工具、工作与可观察结果，
+包括改变这些安排的指导。关系理由留在这里，并连接
 工作实现，不复制全部流程或配置。
 
-通过[证据材料](sources.zh-CN.md)区分选择的承诺与观察到的效果。协作失败时，先检查理解、
+通过[证据材料](../revision-guide.zh-CN.md#来源与证据)区分选择的承诺与观察到的效果。协作失败时，先检查理解、
 分工与环境条件，再考虑改写某一参与者。完成任务支持局部主张；持续关系通过使用、分歧与
 纠正发展。按证据所支持的尺度修订描述。

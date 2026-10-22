@@ -36,15 +36,24 @@ describes the licensing scope.
 
 Self-authored reusable Skills and improvements to existing Skills or tools can
 be submitted directly as PRs. Explain their purpose, use, and observed results.
-The public formation guides and methods for organizing and using YinYang's five
-core accounts are also open to PRs; each person's private accounts and sources
+The public formation guides and methods for organizing, using, and revising
+YinYang's six working files are also open to PRs; each person's private accounts and sources
 stay private. These contributions do not require agreement with the author's
 philosophy. For philosophy, create your own work in your own repository. Share
 it, recommend philosophers, discuss tools, or question this collection's
 arguments through Issues. The author retains authorship and revision of this
 philosophical collection; it is not a shared repository for other authors' essays.
 
-Discussion and contributions can concern **philosophy, psychological or preference-modeling
+PRs are also welcome for clear additional improvements, translations into other
+languages, and adaptations for other agent harnesses, CLIs, or applications,
+such as Claude Code. Contributors can extend the work beyond the environment
+the author maintains. Explain the concrete benefit, the actual target and
+entrypoint, what you tried there, and any remaining limitations. A portable
+method and a verified working adaptation establish different contributions;
+describe the one the PR supplies. Preserve the source meaning and relevant
+consumer boundaries while adapting its realization.
+
+Discussion and contributions can concern **philosophy, personal-modeling
 methods, tools, and singing**, through the routes above. Model-making methods and sanitized examples are
 welcome; another person's private portrait is not public contribution material.
 The [singing station](https://boluopai.net/singing/en/) welcomes song requests
@@ -61,7 +70,7 @@ to contribute, not an automatic upload or blanket license for recordings.
 | A question, unclear passage, objection, or missing reference | Open an Issue | Link the page or file, identify the passage, and explain the question or competing interpretation. Include sources when a factual claim depends on them. |
 | A broken page, tool, link, or installation | Open an Issue | Describe what you tried, what you expected, and what happened. Add the relevant environment and a minimal example or screenshot when useful. |
 | Your own philosophy, a philosopher recommendation, a tool introduction, or related discussion | Open an Issue | Share a link or explain the relevant idea. Maintain your independent philosophy in your own repository. |
-| A self-authored reusable Skill, a Skill or tool improvement, or a better public guide or method for the five core accounts | Open a PR directly | Explain its purpose, use, result, and checks. A prior Issue is optional; exclude private accounts and source material. |
+| A reusable Skill, a concrete improvement, a translation or harness adaptation, or a better method for the six working files | Open a PR directly | Explain its purpose, use, result, and checks. A prior Issue is optional; exclude private accounts and source material. |
 | A change to this repository's overall direction or a broad reorganization proposed for merging | Open an Issue for discussion first | State the purpose, proposed scope, alternatives, and effect on existing users. A new self-authored Skill does not require this preliminary step merely because it is new. This does not restrict your independent version. |
 
 Use Chinese or English for discussion. A short, concrete description is enough;

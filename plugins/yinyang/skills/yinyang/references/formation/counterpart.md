@@ -1,6 +1,6 @@
 # How to describe the actual model counterpart
 
-[简体中文](counterpart.zh-CN.md) · [Formation method](../design-and-revision.md)
+[简体中文](counterpart.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
 
 Write the actual counterpart account at `references/situated/counterpart.md` in
 the private package. Explain the model encountered through its real interfaces,
@@ -58,4 +58,4 @@ changes. Ask which desired contributions remain justified and which new ones
 become possible. Follow consequences into the relationship and
 [environment](environment.md) through their owners. A promise in this account
 does not establish changed behavior: actual work and attributable feedback
-supply evidence of fit, located through the [evidence guide](sources.md).
+supply evidence of fit, located through the [evidence guide](../revision-guide.md#sources-and-evidence).

@@ -1,6 +1,6 @@
 # How to articulate an adopted orientation
 
-[简体中文](orientation.zh-CN.md) · [Formation method](../design-and-revision.md)
+[简体中文](orientation.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
 
 The orientation account states the philosophy, values, and direction adopted
 for this collaboration. Write its actual content at
@@ -49,10 +49,10 @@ capacity and participation, then let the relationship account develop the
 division of work. Preserve the orientation's reason here rather than repeating
 the full philosophy across all five files.
 
-Use explicit model-facing prose under the [writing method](../design-and-revision.md#write-for-the-actual-use).
+Use explicit model-facing prose under the [writing method](../revision-guide.md#write-for-the-actual-use).
 An image can make a relation intelligible; state the meaning that should guide
 judgment and action. Keep developed public arguments at their existing owners,
-with private reasons and attribution in the [evidence material](sources.md).
+with private reasons and attribution in the [evidence material](../revision-guide.md#sources-and-evidence).
 
 ## Revise the direction through what happens
 

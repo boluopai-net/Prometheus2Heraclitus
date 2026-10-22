@@ -1,6 +1,6 @@
 # How to develop a grounded person account
 
-[简体中文](person.zh-CN.md) · [Formation method](../design-and-revision.md)
+[简体中文](person.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
 
 Write the actual person account at `references/situated/person.md` in the
 private package. Its object is a person acting in particular situations, with
@@ -34,11 +34,13 @@ revises ideas. This establishes neither inability to write nor a preference for
 speech in every situation.
 
 <a id="event-stream-psychological-modeling"></a>
+<a id="psychological-modeling-from-event-history"></a>
 
-## Psychological modeling from event history
+## Personal modeling from event history
 
-The psychological modeling practiced in this project develops a conceptual
-account of psychological processes from a person's activity over time. Long-term
+This project's personal modeling connects preferences, psychological activity,
+experience, concepts, and philosophical understanding in one revisable account
+of the person's activity over time. Long-term
 conversation is a principal source: dialogue leaves an event history in which expression,
 questions, responses, choices, corrections, and changes can be recovered in
 their sequence and situation. Everyday habits, life materials, selected personal
@@ -57,15 +59,19 @@ scope. Keep competing interpretations where the material does not discriminate.
 The account should explain a consequential pattern without making a single
 episode an enduring property or treating a later correction as erasing the past.
 
-The resulting account is a psychological model in this broad explanatory sense.
-Its present form is a revisable natural-language conceptual model carried in
+The resulting personal account is a natural-language conceptual model carried in
 prompts and reference accounts, interpreted and used by a language model.
+Its descriptions of preferences, proposed explanations of psychological
+processes, and examination of concepts develop together. A chosen direction can
+already guide cooperation while an explanation remains uncertain; a conceptual
+distinction can reveal a more useful question about experience. The person
+contributes lived experience, purposes, recognition, objection, and judgment;
+the model carries reconstruction, comparison, interpretation, and writing.
 The language model's statistical generation supports writing and interpretation;
 that does not make the personal account a fitted statistical model. This
 practice presently specifies neither a mathematical psychological formalization
 nor a parameter-estimation procedure. Formal or statistical methods can be
-borrowed where a future question warrants their data, assumptions, and checks;
-this project-specific method does not define all psychological modeling.
+borrowed where a future question warrants their data, assumptions, and checks.
 
 Natural language can express meanings, situations, and relations directly; its
 use need not await a later mathematical replacement. Its philosophical
@@ -80,7 +86,8 @@ develops this connection between description, clarification, and revision.
 Use the relevant authorized portion of available history. Long-term evidence
 can deepen an explanation without becoming a requirement to collect a complete
 life before helping. Preserve attributable originals with their owners and
-maintain the distilled account with its grounds under the [evidence method](sources.md).
+maintain the distilled account with its grounds under the
+[revision guide's evidence method](../revision-guide.md#sources-and-evidence).
 Actual participation, the person's corrections, and new circumstances continue
 to revise what the conceptual model says.
 
@@ -100,22 +107,29 @@ the work and evidence cannot settle it, a focused inquiry can obtain the missing
 experience or purpose. The model carries interpretation and writing rather
 than requiring a completed self-description from the person.
 
-A preference model can describe habits, choices, working styles, and desired
-responses sufficiently to guide an arrangement. A psychological model tentatively
-connects experience, emotion, desire, interpretation, and relationships within
-life. Preferences can inform that explanation but do not supply it alone. The
-[formation method](../design-and-revision.md#form-a-situated-version-from-actual-material)
-connects these routes; the event-history method above explains this project's
-current psychological modeling. Use psychological vocabulary at the strength supported
-by evidence. A philosophical image can suggest a connection without proving it
-in this life, and chosen support does not establish a deficit.
+Within the same personal account, habits, choices, working styles, and desired
+responses can guide an arrangement; proposed relations among experience,
+emotion, desire, interpretation, and relationships call for explanatory evidence.
+Preferences inform that explanation without supplying it alone. Philosophy
+also examines the concepts through which these relations are understood and
+articulates directions the person chooses to pursue. The
+[Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
+develops this joint practice. Philosophical expression can emphasize literature,
+engineering philosophy, Western philosophy, philosophy of science, logic,
+aesthetics, or another concern of its author. Fully forming one's own YinYang
+includes developing such an expression of one's own, alongside the personal
+account; it need not be complete before useful work begins. These emphases do
+not divide personal modeling into separate routes. Use psychological vocabulary
+at the strength supported by evidence. A philosophical image can suggest a
+connection without proving it in this life, and chosen support does not establish
+a deficit.
 
 ## Let understanding change the collaboration
 
 Relate the account to the adopted [orientation](orientation.md), the actual
 [counterpart](counterpart.md), and the chosen [relationship](relationship.md).
 Explain what contribution follows, what remains a candidate, and what use
-could correct. The [evidence guide](sources.md) keeps identity, time, conflicting
+could correct. The [revision guide](../revision-guide.md#sources-and-evidence) keeps identity, time, conflicting
 material, and access limits navigable; extended episodes stay with private owners.
 
 Revise when the person corrects an interpretation, circumstances change, or

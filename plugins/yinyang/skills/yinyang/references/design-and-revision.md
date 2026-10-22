@@ -1,12 +1,17 @@
-# Designing and revising a situated YinYang
+# Philosophy and models
+
+<a id="forming-a-personal-philosophy-and-personal-models"></a>
 
 Use this reference to form or revise the understanding of an actual person,
-their model counterpart, and their relationship. [Harness adaptation](harness-adaptation.md)
-owns its realization in working instructions, tools, and environments; the
+their model counterpart, and their relationship. The six writing guides below
+supply the corresponding directions, including environmental realization and
+revision as the sixth file. The
 [package guide](docs/skill-package.md) owns paths, common-content projection,
 and the complete/situated package contract. The [entrypoint](../SKILL.md) owns
 ordinary-use reading. Here the question is what to understand and write, on
-what evidence, and how the connected accounts can change.
+what evidence, and how the connected accounts can change. People and models can
+both read and use this method; its practical guidance develops how to create
+and revise the understanding introduced in the essays.
 
 YinYang's purpose is reverse alignment: the person's developing understanding,
 generation, and action through encounter with generative intelligence. The
@@ -28,21 +33,26 @@ A reader can study that example, borrow a particular method, or maintain a
 situated YinYang. These are different uses, not successive levels of commitment.
 To borrow the distinction between an observation and its interpretation, begin
 with the actual problem and use the relevant reasoning below; neither a new
-philosophy project nor the five situated files is a prerequisite. Maintaining
-this Skill as a whole does call for those grounded accounts and the entrypoint's
-initial reading, because its ordinary operation depends on their connected
-understanding. This reference supplies the common modeling method. Permanent
+philosophy project nor the five situated files is a prerequisite. Fully forming
+one's own YinYang does include authoring one's own philosophical expression,
+which can develop through dialogue and work without a completed theory or
+academic curriculum beforehand. Maintaining this Skill as a whole calls for
+that expression and grounded accounts. The five accounts together with the
+[revision guide](revision-guide.md) form the six-file maintained unit. The entrypoint's
+initial reading makes their connected understanding available for ordinary work.
+This reference supplies the common modeling method. Permanent
 public guides under `references/formation/` develop each writing object;
 actual private accounts occupy `references/situated/`. Person, counterpart,
 and relationship remain three modeling objects. Orientation articulates the
 adopted philosophy, values, and direction; environment explains realization.
-The fixed five are complementary accounts, not five psychological models.
+The five are complementary accounts; the sixth file guides their revision.
 Guidance about writing cannot stand in for grounded content.
 
 Before creating or revising an account, read its complete public writing guide
 identified in the table below, together with the current situated account when
 formed and relevant evidence. Reuse complete current readings already in context.
-The guide remains a common file in both distributed and situated packages. Apply the
+Each writing guide remains common in distributed and situated packages;
+the revision guide is itself the sixth working file. Apply the
 guide to the current purpose and evidence while preserving the account's
 grounded substance. This writing-time reading concerns the affected accounts;
 ordinary collaboration continues to read the actual accounts under the
@@ -50,32 +60,12 @@ entrypoint's existing contract.
 
 ## Write for the actual use
 
-Write the five accounts under `references/situated/` and derived support under `references/personal/`
-as explicit model-facing context and instructions. State the relevant objects,
-relations, evidence, conditions, responsibilities, and consequences in clear
-natural language. Distinguish a reported experience, an interpretation, a chosen
-commitment, and a requirement where they would lead to different judgments or
-actions. Form means making these relationships usable for reasoning and work;
-it requires neither a fixed template nor symbolic notation. Personal information
-remains contextual evidence rather than becoming a command merely because a
-model reads it.
-
-Use direct expression first. Bring in a philosophical distinction or literary
-image when it clarifies a consequential relation that the direct account does
-not yet make intelligible. State its relevant meaning and scope; the counterpart
-should not have to infer practical requirements from a character or metaphor.
-Preserve original expression as attributed source material, while writing the
-maintained interpretation and operational consequences explicitly. Keep developed
-philosophical arguments at their reader-facing owners and refer to them as needed.
-
-The model helps construct both forms of the same living environment: philosophy
-and literature that the person can understand, experience, and question, and
-explicit accounts, prompts, tools, and arrangements that models can use and
-maintain. Keep their substantive relationships consistent without copying the
-same prose into both. A reader essay may develop an image at length; a working
-account needs the supported meaning that affects collaboration. Actual use can
-revise either form. This is a distinction of use, not a claim that people cannot
-understand explicit structure or that models cannot understand philosophy.
+Philosophy and literature develop understanding; working accounts make selected
+meanings usable for judgment and action. Either person or model can read both;
+different uses do not partition access. The sixth file's [writing guidance](revision-guide.md#write-for-the-actual-use)
+explains how the six files and their private support state objects, relations,
+grounds, and consequences explicitly. Object-specific directions remain in the
+corresponding writing files below.
 
 ## Form a situated version from actual material
 
@@ -96,26 +86,26 @@ consequential uncertainty. Existing originals can stay with their private owners
 
 ## Start from available material and practice
 
-Philosophy, psychology, and engineering contribute different capacities.
-The [The trinity of philosophy, psychology, and engineering](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
-develops their connection. The following are practical starting recommendations,
-not identities, completed stages, or requirements to master three disciplines:
+Philosophy, psychology, and engineering contribute together to one modeling
+practice. The [trinity essay](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
+develops their connection. The following combinations describe available
+material and missing connections within that practice:
 
 | Material or practice already available | Connection still needed and useful next contribution |
 | --- | --- |
-| Articulated philosophy or adopted direction, without a usable model environment or developed personal account | Establish a usable engineering environment with model assistance, then develop a conceptual person account from event history and everyday life. |
-| Relevant psychological understanding, conversation history, or life materials, without a usable model environment or articulated philosophy | Establish the environment, organize and develop the grounded person account, then articulate philosophy from the material and understanding. |
-| A working model environment and experience using it, with personal understanding and philosophy still implicit | Usually develop personal modeling from event history, then philosophical articulation; already known preferences can directly guide useful arrangements while deeper understanding develops. |
+| Articulated philosophy or adopted direction, without a usable model environment or developed personal account | Connect the philosophy with event history and everyday life while preparing the model environment needed to develop and use the account. |
+| Relevant psychological understanding, conversation history, or life materials, without a usable model environment or articulated philosophy | Develop the grounded account and its philosophical meaning while making the needed model assistance available. |
+| A working model environment and experience using it, with personal understanding and philosophy still implicit | Interpret experience, preferences, and concepts together, articulating their philosophical meaning and revising arrangements through use. |
 | Articulated philosophy and grounded psychological understanding, without a usable realization | Realize their intended relations through the actual engineering environment. |
 | Articulated philosophy and a working environment, without concrete personal grounding | Use conversation history and everyday life materials for personal modeling from event history, comparing its understanding with the philosophy and current use. |
 | Grounded psychological understanding and a working environment, without articulated philosophy | Develop the philosophical understanding, values, and direction implicit in the practice. |
 
-These are six entrances to the same connected work, not closed stages or a
-curriculum in three disciplines. Where an engineering environment is missing,
-first make files, retrieval, tools, execution, and verification usable together
-with the model; the person need not first learn to implement everything. Enter
-through what is actually available, develop the missing contribution, and let
-later work revise all three. Their partial formation can overlap.
+These six combinations describe starting conditions, not separate modeling
+routes or a fixed sequence. Prepare files, retrieval, tools, execution, and
+verification where their absence blocks the needed contribution; the person
+need not first learn to implement everything. Develop missing connections from
+what is available, with personal understanding, philosophy, and realization
+able to form and revise one another throughout the work.
 
 Where the purpose includes computer-mediated engineering, person and counterpart
 jointly develop the relevant computational articulation and environment: the selected activity,
@@ -123,27 +113,27 @@ its states and conditions, continuity through change, and observable consequence
 Files and tools realize and use that model; they do not supply its meaning merely
 by existing. Division of work runs through problem selection, modeling,
 realization, and feedback; the person need not personally complete an upstream
-model before the counterpart can contribute. [Harness adaptation](harness-adaptation.md#derive-behavior-in-context)
+model before the counterpart can contribute. [Environment writing guide](formation/environment.md#derive-behavior-in-context)
 develops this connection at the precision the actual use needs.
 
-A preference model approached through engineering can begin with articulated or observed habits,
-choices, working styles, and desired responses, including patterns first
-recognized through use. It gives a partner role and harness usable
-direction without claiming to explain the psychological processes behind those
-preferences. An arrangement can also reflect constraint or a default, so its
-presence alone does not reveal what the person wants.
+The personal model brings preferences, psychological activity, experience,
+concepts, and philosophical understanding into one revisable natural-language
+account. The model helps reconstruct relevant history, develop interpretations,
+compare alternatives, and write; the person contributes purposes, lived
+experience, recognition, objection, and judgment. Known preferences can already
+guide an arrangement while their explanation remains open. An arrangement can
+also reflect constraint or a default, so its presence alone does not reveal
+what the person wants.
 
-For explanatory psychological modeling, this project uses
-[psychological modeling from event history](formation/person.md#event-stream-psychological-modeling):
-long-term conversation history, everyday habits and life materials, and
-philosophy inform a natural-language conceptual account of psychological
-processes. Dialogue leaves history; analysis, abduction, comparison, and further
-interaction make its proposed relations revisable. Preferences contribute
-evidence without alone explaining the processes. This current conceptual method
-is distinct from fitting a statistical model; the person guide owns the
-distinction and possible future use of other methods.
+Within this practice, [modeling from event history](formation/person.md#event-stream-psychological-modeling)
+connects long-term conversation, everyday habits, life materials, and philosophy.
+Analysis, abduction, comparison, conceptual clarification, and further interaction
+make its proposed relations revisable. A reported preference, an explanatory
+psychological hypothesis, and a chosen philosophical direction can inform one
+another while supporting different conclusions. The person guide develops these
+grounds and distinguishes the conceptual account from fitting a statistical model.
 
-On either route, the developing user model also informs a fitting counterpart
+The developing personal model also informs a fitting counterpart
 model and chosen relationship. Distinguish the desired role and priorities from
 the counterpart's actual capabilities and response patterns: instructions,
 available tools, and behavior can be inspected even
@@ -152,12 +142,13 @@ would not establish collaborative fit. Philosophy actively contributes here by
 articulating self-understanding, meaning, and possible relationships, while
 experience can revise its account.
 
-Both routes are available across technical backgrounds and lead to informed
-trials. Established preferences can guide a useful
-arrangement directly; psychological inquiry can suggest one when fit is
-uncertain, offering hypotheses and criteria for fit without becoming a
-prerequisite or a proven superior route. With
-model assistance, selected lived needs and relations take form in tools,
+Philosophical writing can emphasize literature, engineering philosophy, Western
+philosophy, philosophy of science, logic, aesthetics, or another relevant question.
+These emphases develop the same practice, with starting material and order able to vary.
+Technical background does not select a different modeling route.
+Inquiry supplies hypotheses and criteria where fit
+is uncertain, without requiring a complete explanation before useful work.
+With model assistance, selected lived needs and relations take form in tools,
 information, instructions, and a computer environment mediating activities such
 as shopping, investment, conversation, and learning. Actual use returns to life:
 what becomes easier, what costs appear, what the person learns, and whether the
@@ -186,51 +177,25 @@ under `references/personal/`. The files have complementary writing duties.
 Their public guidance develops these different objects; the situated accounts
 supply the actual understanding:
 
-| Actual private account | What it should make intelligible | Permanent public writing guide |
+| Working file | What it should make intelligible | Public writing guidance |
 | --- | --- | --- |
 | `situated/orientation.md` | Adopted philosophy, values, and direction, with reasons. | [Articulating orientation](formation/orientation.md) |
 | `situated/person.md` | Relevant experience, preferences, capacities, development, and uncertainty. | [Grounding the person account](formation/person.md) |
 | `situated/counterpart.md` | The actual model, its capabilities, and wanted contribution. | [Describing the counterpart](formation/counterpart.md) |
 | `situated/relationship.md` | Joint activity, correction, and division of work. | [Articulating the relationship](formation/relationship.md) |
-| `situated/environment.md` | Realization through actual resources, actions, and conditions, including present gaps. | [Describing environmental realization](formation/environment.md) |
+| `situated/environment.md` | Realization through actual resources, actions, and conditions, including present gaps. | [Describing and realizing the environment](formation/environment.md) |
+| `revision-guide.md` (common) | How philosophy, evidence, accounts, Skills, and environment remain connected through change. | [Revision](revision-guide.md), the sixth file itself. |
 
-[Evidence and private owners](formation/sources.md) supports all five. Maintain
-the actual evidence entrance at `references/personal/sources.md`; sources are
-not a core account. Select them by the question rather than adding an archive
-index to ordinary initial reading. Public distribution ships guides alone,
-with no filled or placeholder private accounts.
+The [revision guide's evidence method](revision-guide.md#sources-and-evidence)
+supports all five accounts and their continuing revision. Together they form
+the maintained six-file unit; the common guide is not another personal portrait.
+Keep attributable evidence and extended private support with their actual
+owners, using `references/personal/` where appropriate. Select sources by the
+question. Public distribution ships the common guides, with no filled or
+placeholder private accounts.
 
-Consider a fictional example: notes have been saved, but returning to an
-unfinished argument is still difficult. Formation concerns what this difficulty
-means. The notes might be inaccessible, lack a connection to the current draft,
-or preserve the question without making a next step usable. These explanations
-predict different points of failure. Inspecting a return can show whether the
-note is reached, whether the relevant draft and passage are identifiable, and
-whether a contribution can then begin. The person's experience and intended
-participation also matter: producing a draft together and practicing how to
-begin one call for different support. The model can develop this comparison
-and the writing it supports without requiring the person to design a recovery
-workflow first. An accessible note does not by itself settle the other questions.
-
-The public guides explain how to articulate that understanding in different
-accounts. The person account describes the activity and supported interpretation;
-the counterpart states wanted contribution in relation to actual capability;
-the relationship explains how that contribution fits with the person's
-participation. Orientation supplies the adopted reason for the work. The
-environment guide develops resources, routes, contributions, and conditions.
-Its actual account would name the current draft, the route
-connecting it to the note, who carries the next contribution, and any gap still
-present. The private evidence index makes grounds and their limits recoverable.
-If the chosen support requires changing a continuation instruction or resource
-route, [harness adaptation](harness-adaptation.md#derive-behavior-in-context)
-carries that change through its actual owner and checks what happens. The
-ordinary entrypoint reads and uses the resulting actual accounts. These are
-connected responsibilities, not a sequence to repeat for every difficulty: a
-repair can expose a mistaken interpretation, and a useful comparison may
-suffice without rewriting every account. Keep that correction at the owner
-whose meaning or arrangement actually changes.
-
-Form all five from actual material when adopting this implementation. An
+Form all five accounts from actual material when adopting this implementation,
+and retain the revision guide alongside them. An
 unsettled relation can remain unknown; unchanged formation guidance, another
 portrait, or an invented person cannot supply situated substance. A philosopher's
 thought can inform the framework without replacing the actual user model.
@@ -245,171 +210,61 @@ read back the complete accounts, use them in authorized work, and revise from
 what happens. Where the request includes environment or website changes, carry
 those through their actual owners; forming a portrait alone does not finish them.
 
-## Maintain the private material through use
-
-Keep one authored conceptual account. When philosophy has a developed public
-form, use its current owning source and webpage to refresh private distillations;
-check actual content and source identity if they differ. Private supporting
-material retains relevant experience and evidence beyond that public account,
-not a second copy of the theory. The public account remains revisable when
-private experience supplies a supported challenge.
-
-During relevant work, reconcile material corrections, changed purposes or
-environments, new useful experience, and revised philosophy into affected
-accounts. Add what helps, revise what changed, and retire stale or redundant
-active text. Preserve unique originals and extended history at their existing
-owners. A plan is not evidence of completion, a configuration is not a proven
-preference, and a temporary event is not automatically a standing trait.
-
-Common-file projection preserves private files mechanically; it does not forbid
-their authorized semantic revision or deletion. Carry useful changes through
-the existing local and private cloud owners and read back affected consumers.
-This maintenance calls for neither broad personal-data collection nor a new
-scheduler. The [Trinity account of feedback](docs/local-source-and-website.md#keeping-the-loop-current)
-connects it to the continuing philosophy–psychology–environment loop.
-
-Revision can also travel from situated practice to shared method. A repository
-argument or a contribution through Issues and PRs may reveal a better
-interpretation, but a proposal, an adopted change, and evidence for its claims
-remain different. Return only authorized general insights to the shared owner;
-using a public method does not authorize publication of personal records,
-formalized accounts, private quotations, or unreleased work. Helpers receive
-bounded relevant task context under the entrypoint's personal-model boundary;
-explicitly authorized maintenance inspection can treat selected passages as
-objects. The task owner integrates the result against its actual evidence.
-
 ## What the language does
 
 A passage can report experience, propose explanation, establish a chosen
-relation, or gather possibilities through an image. Recognize its function where
-it changes the conclusion, without tagging every sentence. A person's expression
-is evidence, not a transparent inventory; an evocative theory still needs to
-explain the actual case.
-
-For example, “I lost the thread after that question” reports an experience.
-“Reconstructing the implementation displaced my broader thought” proposes an
-explanation whose fit can be investigated. “I want to stay with the argument”
-expresses an intention; it does not establish that every practical question is
-unwanted. Choosing that the model should carry routine implementation gives
-the relation a direction. An image of sheltering a flame may gather continuity,
-protection, and generative possibility into one expression; those associations
-still need interpretation before they can guide a particular intervention.
-Moving directly from the image or report to a universal prohibition would skip
-the very relation the writing needs to make intelligible.
+relation, or gather possibilities through an image. Recognize its function
+where it changes the conclusion. “I lost the thread after that question”
+reports experience; attributing the interruption to transferred implementation
+work proposes an explanation; choosing to let the model carry that work gives
+the relationship a direction. The account should make those connections usable
+without converting one episode into a universal prohibition.
 
 The person and counterpart accounts develop together. A role or division of
-labor does not exhaust either participant or establish incapacity. Psychological
-vocabulary can describe functional organization observable through speech and
-action without establishing shared inner mechanisms or model sentience.
+labor does not exhaust either participant or establish incapacity. The
+[speech essay](docs/speech-opposition-and-self-formation.md) develops how later
+expression can reinterpret an earlier statement and reconstruct its premises.
+The [revision guide](revision-guide.md#sources-and-evidence) explains how to
+retain the sources, competing interpretations, and uncertainty needed here.
 
 ## Move between expression, relation, and realization
 
-Read in both directions:
-
 `human-readable expression ⇄ explicit understanding of activity and relations ⇄ working behavior`
 
-Develop the processes and relations the current problem needs in the form its
-consumer can use. Human-readable philosophy can retain possibilities beyond one
-working interpretation; the model-facing account specifies the supported
-interpretation, its consequences, and what remains unresolved. When realized
-through a computer, the representation must retain the meanings of relevant
-states, relations, and changes so actual use can correct it. Clear natural
-language can supply this form without formalizing the whole person or encounter.
+Philosophical writing can explore possibilities beyond one working account;
+the accounts state the supported interpretation, consequences, and unresolved
+relations needed for collaboration. Either person or model can read both forms
+and move between them. Different uses of writing do not partition access by
+reader identity. Clear prose can make a relation usable without formalizing a
+complete person or encounter. [Environment writing guide](formation/environment.md)
+explains how the selected relation reaches actual instructions, tools, and use.
 
-For example, interpreting protection of attention as “never ask a question”
-would erase the difference between transferring unfinished implementation work
-and obtaining a judgment only the person can supply. Recover the relation and
-its fitting realization. A clear rule or beautiful expression does not by
-itself establish fit.
+## Use and continue the formed understanding
 
-Consider a fictional case used to work through this distinction, not a record
-of a person or evidence of the method's success. While developing an argument,
-a person is asked to choose a file layout that the model could have determined
-from the project. They report losing the thread. One explanation is that any
-question interrupts the activity. Another is that this question transferred
-solvable implementation work and its context-reconstruction cost to them. A
-third is that the disruption came from a poorly timed transition, even if the
-question itself mattered. One episode is compatible with all three.
+<a id="maintain-the-private-material-through-use"></a>
 
-The competing accounts matter because they suggest different changes. A ban
-on questions would fit the first but could conceal uncertainty about the work's
-purpose. Carrying routine decisions would address the second while preserving
-meaningful inquiry. Better timing could address the third without changing the
-division of work. Inspect the actual question, what evidence the model already
-had, and what happened around the interruption before choosing among them.
-The person need only contribute the experience and direction unavailable in
-those materials; the model can reconstruct the local dependency and propose a
-change with reasons.
+Keep public philosophy at its common owner and private experience at its
+supporting owners. The [revision guide](revision-guide.md#let-philosophy-revise-personal-support-material)
+owns the continuing reconciliation of those materials, their six-file working
+form, and the environment. Mechanical preservation by a common-file projector
+does not prohibit authorized semantic revision or retirement of private notes.
 
-A discriminating case is one in which the accounts imply different useful
-responses. Suppose a later task contains a routine file-layout choice and an
-unresolved choice about which argument the person wants to pursue. The model
-can carry the former from project evidence and make the latter intelligible
-enough for the person to judge. Whether that exchange preserves the thread
-helps distinguish objection to transferred detail work from objection to
-questions as such. It does not settle every situation: the importance, timing,
-and presentation of the question can still explain a different response.
-Use a naturally occurring case or a proportionate authorized trial; this
-example supplies a comparison, not a required experiment on the person.
+<a id="revise-from-the-changing-encounter"></a>
 
-Under the second account, a fitting chosen relation is that the model carries
-implementation judgment within its capabilities, exposes consequential
-differences, and obtains genuinely unavailable purpose or experience from the
-person. This respects attention while retaining the counterpart's independent,
-fallible judgment. Both can challenge the account. If a relevant inquiry still
-breaks continuity, timing or representation may need revision. If carrying the
-detail silently changes the intended work, the allocation or its boundary was
-inadequate. [Harness adaptation](harness-adaptation.md#attention-participation-and-inquiry)
-continues this case through a working change and its readback.
+A newly requested way of participating can change an account's application
+without erasing the older conditions. Participating in implementation to learn,
+for example, can coexist with delegating implementation in production work.
+Persistent counterexamples can also challenge the account itself. Use the
+[scope and connected-change method](revision-guide.md#scope-and-connected-changes)
+to decide whether this is a local correction or a broader revision and carry
+its actual dependencies, without automatically rewriting everything.
 
-## Revise from the changing encounter
+<a id="assess-the-result-at-its-actual-scale"></a>
 
-Start from attributable user expression, the existing account, and the actual
-mismatch or new experience. Determine what changed: the situation, understanding
-of the person, counterpart commitment, relationship, or environmental realization.
-Read and rewrite the complete affected passage with its surrounding relations,
-retaining still-supported substance and consequential uncertainty.
-
-Do not make the newest formulation erase its own conditions. If the person
-later asks to participate in implementation to learn, the earlier attention
-account can remain sound for delegated production work while its application
-changes in learning. Conversely, repeated failures across those contexts may
-undermine the account itself. Revise the scope supported by the evidence:
-one arrangement can change without establishing a new enduring preference;
-a chosen relationship can change without proving the old experience false.
-
-Use [two-way harness adaptation](harness-adaptation.md#choose-the-focus-and-trace-both-directions)
-to distinguish the repair focus, judgment material, and necessary related
-targets. A semantic change may need connected account, Skill, source, website,
-or environment revisions. An equivalent link label or quotation-mark repair
-usually needs only source and presentation checks. Scope follows the evidenced
-dependency, not a demand to rewrite everything.
-
-Keep the adopted reason at its owner and ordinary change history. Revise this
-method too if it creates excessive work or the wrong relationship; reflection
-changes the scale of the same work rather than requiring another manual.
-
-## Assess the result at its actual scale
-
-Read back the integrated accounts and affected realization. Check coherence,
-grounding, reachable evidence, and actual consumer availability. Judge practical
-fit through work: does the counterpart carry details, contribute independent
-understanding, expose important differences, and complete the intended result
-without recurrent user repair?
-
-Those conditions support reverse alignment without proving human development.
-Attend separately to the person's developing understanding, generation, and
-action through actual experience and attributable feedback. A synthetic role
-performance or successful resource read cannot establish lasting fit. Use
-evidence sufficient for the current change and retain what remains open.
-
-Keep the claims separate. A reachable file establishes that the account can be
-read. A completed task can show that a particular support worked under those
-conditions. Repeated exchanges, including correction and disagreement, can
-support a claim about collaborative fit. Human development asks a further
-question: what understanding, generation, judgment, or action has become
-available to the person, internally or through reliable supports? A useful
-output alone does not answer it. Attributable experience and later participation
-can reveal development, a merely convenient arrangement, or costs that the
-initial success concealed. Those findings can change implementation, the chosen
-relation, or the philosophical orientation that gave it purpose.
+Read the integrated accounts at the actual consumer and use them in the
+requested work. Grounding, availability, completed work, collaborative fit,
+and human development make different claims. The
+[revision guide's result check](revision-guide.md#follow-the-result-back-into-understanding)
+keeps those claims answerable to their evidence and returns a material mismatch
+to the appropriate understanding or realization. Forming the six files is
+part of a usable practice, whose subsequent experience can change any of them.
