@@ -1,6 +1,6 @@
 """Resource overview and its dedicated Skills destinations."""
 from public_skill_pages import GITHUB, SKILLS, reading_groups
-from skill_wheel import badge, wheel
+from skill_wheel import badge, wheel, thumbnail
 from repository_panel import comments
 
 
@@ -27,6 +27,7 @@ def render(dist, shell):
         def render_entry(route, zh, en, motif, description_zh, description_en):
             artwork = f'<img class="motif" src="/motifs/{motif}" alt="" aria-hidden="true">'
             if route == 'skills':
+                artwork = thumbnail(english, SKILLS)
                 artwork = f'<a class="skills-wheel-link" href="/skills/{suffix}" aria-label="{t("打开 Skills 页面", "Open the Skills page")}">{artwork}</a>'
             return f'<section class="repository-entry"><div class="section-heading"><h2><a href="/{route}/{suffix}" data-page-title>{t(zh, en)}</a></h2>{artwork}</div><p class="entry-summary">{t(description_zh, description_en)}</p></section>'
         overview = ''.join(render_entry(*entry) for entry in entries)
