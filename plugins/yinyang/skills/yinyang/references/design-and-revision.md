@@ -5,7 +5,7 @@
 Use this reference to form or revise the understanding of an actual person,
 their model counterpart, and their relationship. The six writing guides below
 supply the corresponding directions, including environmental realization and
-revision as the sixth file. The
+how to write one's own actual revision method. The
 [package guide](docs/skill-package.md) owns paths, common-content projection,
 and the complete/situated package contract. The [entrypoint](../SKILL.md) owns
 ordinary-use reading. Here the question is what to understand and write, on
@@ -33,26 +33,28 @@ A reader can study that example, borrow a particular method, or maintain a
 situated YinYang. These are different uses, not successive levels of commitment.
 To borrow the distinction between an observation and its interpretation, begin
 with the actual problem and use the relevant reasoning below; neither a new
-philosophy project nor the five situated files is a prerequisite. Fully forming
+philosophy project nor the six situated files is a prerequisite. Fully forming
 one's own YinYang does include authoring one's own philosophical expression,
 which can develop through dialogue and work without a completed theory or
 academic curriculum beforehand. Maintaining this Skill as a whole calls for
-that expression and grounded accounts. The five accounts together with the
-[revision guide](revision-guide.md) form the six-file maintained unit. The entrypoint's
+that expression and six grounded actual files. Six public writing guides explain
+how to form them; six private files supply the actual content, including one's
+own revision method. The entrypoint's
 initial reading makes their connected understanding available for ordinary work.
 This reference supplies the common modeling method. Permanent
 public guides under `references/formation/` develop each writing object;
-actual private accounts occupy `references/situated/`. Person, counterpart,
+actual private files occupy `references/situated/`. Person, counterpart,
 and relationship remain three modeling objects. Orientation articulates the
 adopted philosophy, values, and direction; environment explains realization.
-The five are complementary accounts; the sixth file guides their revision.
+The actual revision file explains how this person revises their understanding
+and environment; its public guide explains how to write that method.
 Guidance about writing cannot stand in for grounded content.
 
 Before creating or revising an account, read its complete public writing guide
 identified in the table below, together with the current situated account when
 formed and relevant evidence. Reuse complete current readings already in context.
 Each writing guide remains common in distributed and situated packages;
-the revision guide is itself the sixth working file. Apply the
+the revision guide likewise has a separate private actual file. Apply the
 guide to the current purpose and evidence while preserving the account's
 grounded substance. This writing-time reading concerns the affected accounts;
 ordinary collaboration continues to read the actual accounts under the
@@ -62,7 +64,7 @@ entrypoint's existing contract.
 
 Philosophy and literature develop understanding; working accounts make selected
 meanings usable for judgment and action. Either person or model can read both;
-different uses do not partition access. The sixth file's [writing guidance](revision-guide.md#write-for-the-actual-use)
+different uses do not partition access. The revision guide's [writing guidance](formation/revision.md#write-for-the-actual-use)
 explains how the six files and their private support state objects, relations,
 grounds, and consequences explicitly. Object-specific directions remain in the
 corresponding writing files below.
@@ -170,7 +172,7 @@ the person's unavailable experience remains theirs to contribute. Keep the
 account conditional when the evidence does not discriminate. There is no need
 to settle a general personality trait to improve this workspace.
 
-Distill what ordinary collaboration needs into the five situated files. Keep
+Distill what ordinary collaboration needs into the six situated files. Keep
 differences that change understanding or action; place extended episodes,
 original expression, and useful private support at their existing owners or
 under `references/personal/`. The files have complementary writing duties.
@@ -184,18 +186,18 @@ supply the actual understanding:
 | `situated/counterpart.md` | The actual model, its capabilities, and wanted contribution. | [Describing the counterpart](formation/counterpart.md) |
 | `situated/relationship.md` | Joint activity, correction, and division of work. | [Articulating the relationship](formation/relationship.md) |
 | `situated/environment.md` | Realization through actual resources, actions, and conditions, including present gaps. | [Describing and realizing the environment](formation/environment.md) |
-| `revision-guide.md` (common) | How philosophy, evidence, accounts, Skills, and environment remain connected through change. | [Revision](revision-guide.md), the sixth file itself. |
+| `situated/revision.md` | This person's actual method for revising philosophy, evidence, accounts, Skills, and environment. | [How to revise](formation/revision.md) |
 
-The [revision guide's evidence method](revision-guide.md#sources-and-evidence)
-supports all five accounts and their continuing revision. Together they form
-the maintained six-file unit; the common guide is not another personal portrait.
+The [revision guide's evidence method](formation/revision.md#sources-and-evidence)
+supports all six actual files and their continuing revision. Each public guide
+explains how to form content; actual understanding and methods remain private.
 Keep attributable evidence and extended private support with their actual
 owners, using `references/personal/` where appropriate. Select sources by the
 question. Public distribution ships the common guides, with no filled or
 placeholder private accounts.
 
-Form all five accounts from actual material when adopting this implementation,
-and retain the revision guide alongside them. An
+Form all six actual files from relevant material when adopting this implementation,
+including a revision method fitted to the person's purpose and environment. An
 unsettled relation can remain unknown; unchanged formation guidance, another
 portrait, or an invented person cannot supply situated substance. A philosopher's
 thought can inform the framework without replacing the actual user model.
@@ -224,7 +226,7 @@ The person and counterpart accounts develop together. A role or division of
 labor does not exhaust either participant or establish incapacity. The
 [speech essay](docs/speech-opposition-and-self-formation.md) develops how later
 expression can reinterpret an earlier statement and reconstruct its premises.
-The [revision guide](revision-guide.md#sources-and-evidence) explains how to
+The [revision guide](formation/revision.md#sources-and-evidence) explains how to
 retain the sources, competing interpretations, and uncertainty needed here.
 
 ## Move between expression, relation, and realization
@@ -244,7 +246,7 @@ explains how the selected relation reaches actual instructions, tools, and use.
 <a id="maintain-the-private-material-through-use"></a>
 
 Keep public philosophy at its common owner and private experience at its
-supporting owners. The [revision guide](revision-guide.md#let-philosophy-revise-personal-support-material)
+supporting owners. The [revision guide](formation/revision.md#let-philosophy-revise-personal-support-material)
 owns the continuing reconciliation of those materials, their six-file working
 form, and the environment. Mechanical preservation by a common-file projector
 does not prohibit authorized semantic revision or retirement of private notes.
@@ -255,7 +257,7 @@ A newly requested way of participating can change an account's application
 without erasing the older conditions. Participating in implementation to learn,
 for example, can coexist with delegating implementation in production work.
 Persistent counterexamples can also challenge the account itself. Use the
-[scope and connected-change method](revision-guide.md#scope-and-connected-changes)
+[scope and connected-change method](formation/revision.md#scope-and-connected-changes)
 to decide whether this is a local correction or a broader revision and carry
 its actual dependencies, without automatically rewriting everything.
 
@@ -264,7 +266,7 @@ its actual dependencies, without automatically rewriting everything.
 Read the integrated accounts at the actual consumer and use them in the
 requested work. Grounding, availability, completed work, collaborative fit,
 and human development make different claims. The
-[revision guide's result check](revision-guide.md#follow-the-result-back-into-understanding)
+[revision guide's result check](formation/revision.md#follow-the-result-back-into-understanding)
 keeps those claims answerable to their evidence and returns a material mismatch
 to the appropriate understanding or realization. Forming the six files is
 part of a usable practice, whose subsequent experience can change any of them.

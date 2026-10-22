@@ -12,19 +12,18 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private modeling and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
-In this implementation, the five core files hold the distilled understanding
+In this implementation, the six actual files hold the distilled understanding
 needed by a model counterpart: adopted orientation, the person, the actual
-counterpart and wanted contribution, their relationship, and environmental
-realization. Person, counterpart, and relationship remain three modeling
-objects; the five accounts are not all psychological models. The fixed private
-accounts live under `references/situated/`; permanent public guides live under
+counterpart and wanted contribution, their relationship, environmental realization, and an actual revision method. Person, counterpart, and relationship remain three modeling
+objects; the six actual files are not all psychological models. The six private actual
+files live under `references/situated/`; permanent public guides live under
 `references/formation/`. Concrete identity details, episodes, original
 expressions, and longer investigations stay in `references/personal/` or the
 private originals it references. Distillation preserves the individual
 differences that matter to collaboration, while keeping detailed evidence
-reachable when needed. Someone adopting these five files must form their own
+reachable when needed. Someone adopting these six actual files must form their own
 accounts rather than retain the author's personal substance.
-Evidence supports all five through a private `references/personal/sources.md`
+Evidence supports all six through a private `references/personal/sources.md`
 entrance; it is not itself a core account. Public distribution contains neither
 private accounts nor private source material.
 
@@ -52,7 +51,7 @@ that work's relations available to its readers and model counterparts. Its
 questions, practice, and consequences supply the judgment; resemblance to
 YinYang does not.
 
-The implementation maintained here nevertheless keeps its five core accounts.
+The implementation maintained here nevertheless keeps its six actual files.
 Freedom to author a differently organized philosophy and the stable contract
 of this particular example are compatible invitations.
 
@@ -106,7 +105,7 @@ improvements to existing Skills and tools. Explain their purpose, use, and
 the problem they actually solve. PRs can also improve the public formation
 guides, organization, and methods of maintaining the six working files: another
 person's experience may reveal a better approach. These changes concern
-shareable methods; each person's five private accounts and supporting sources
+shareable methods; each person's six private actual files and supporting sources
 stay with their own private owner. See
 [Contributing](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING.md)
 for preparation details.

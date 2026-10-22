@@ -92,7 +92,7 @@ def package(value):
         raise ValueError(
             "Legacy accounts require owner migration before common projection: "
             + ", ".join(legacy)
-            + ". Form references/situated/{orientation,person,counterpart,relationship,environment}.md "
+            + ". Form references/situated/{orientation,person,counterpart,relationship,environment,revision}.md "
             "and references/personal/sources.md from their actual meaning; preserve unique "
             "private evidence before retiring the old paths. No files were changed."
         )

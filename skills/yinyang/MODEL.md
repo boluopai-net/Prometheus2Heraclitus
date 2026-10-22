@@ -9,8 +9,8 @@ all its philosophical claims.
 The [core views](references/docs/core-views.md) own the numbered propositions.
 The essays develop their arguments, images, examples, and sources.
 [SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the six files. [Philosophy and models](references/design-and-revision.md)
-explains their relationship; actual writing directions belong to the five account
-guides and the sixth revision file. Use the [reading map](references/reading-map.md) to locate
+explains their relationship; writing directions belong to the six public how-to
+guides, corresponding to six private actual files. Use the [reading map](references/reading-map.md) to locate
 the argument relevant to a change.
 
 ## Source and consumer roles
@@ -34,7 +34,7 @@ Keep the following uses of writing distinct:
   without repeating its complete exposition.
 - **Situated accounts and personal context** state the relevant understanding,
   evidence, conditions, and implications explicitly for model use. Follow the
-  [writing method](references/revision-guide.md#write-for-the-actual-use);
+  [writing method](references/formation/revision.md#write-for-the-actual-use);
   maintain correspondence with human-readable philosophy without making its
   literary form the default for working instructions.
 - **Maintenance instructions** locate sources, dependencies, publication, and
@@ -42,19 +42,19 @@ Keep the following uses of writing distinct:
   essays into a second policy manual.
 
 The [package guide](references/docs/skill-package.md) owns the shared/situated
-structure and projection contract. Permanent public writing guidance consists of the five guides in
-`references/formation/` and the sixth file, `references/revision-guide.md`.
-The full initial reading is the five actual situated accounts plus that revision file. A situated package adds the fixed five accounts
-`references/situated/{orientation,person,counterpart,relationship,environment}.md`.
-Person, counterpart, and relationship remain three modeling objects; orientation
-states adopted philosophy, values, and direction, and environment explains
-realization. They are not five psychological models. Evidence is supporting
-material, with its private entrance at `references/personal/sources.md`, outside
-the six-file initial reading. Public distribution contains no private trees. Common updates
-preserve both entire trees; `scripts/sync-common.py` checks or applies projection
-and refuses unmigrated legacy layouts. Local and cloud owners migrate meaning,
-install, and verify their actual consumers. Other authors may freely change
-structure and philosophy; this maintained implementation retains its fixed five.
+structure and projection contract. There are six public how-to guides under
+`references/formation/{orientation,person,counterpart,relationship,environment,revision}.md`,
+with complete Chinese editions, and six corresponding private actual files under
+`references/situated/`. Full initial reading uses all six actual files.
+The actual revision file states the recipient's method; its public guide explains
+how to write that method and is not an initial-reading substitute.
+Person, counterpart, and relationship remain three modeling objects; orientation,
+environment, and revision supply direction, realization, and continuing change.
+Private evidence at `references/personal/sources.md` supports the actual files,
+outside the initial reading. Public distribution contains neither private tree.
+Common projection preserves both private trees; owners migrate meaning and verify
+their actual consumers. Other authors can change the structure and philosophy;
+maintenance of this implementation retains the six-guide/six-actual distinction.
 
 Authored public content lives here. `plugins/yinyang/`, website reading editions,
 and local/cloud common files are generated or synchronized consumers, not

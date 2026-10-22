@@ -14,66 +14,55 @@ YinYang is one developed philosophy and formation method. Readers can adopt
 it, combine selected resources, or create a different work. The
 [example and commons essay](example-and-commons.md) develops that invitation.
 A philosopher's thought may inform a framework; it cannot replace the account
-of the actual user. This guide's five-account and common-update contract applies
+of the actual user. This guide's six-file and common-update contract applies
 to full adoption of the maintained Skill. Reading its philosophy or borrowing
 a selected method does not by itself adopt that contract or require a personal
 philosophy project.
 
 ## Common and situated content
 
-Distributed and situated copies share byte-identical common content. Permanent
-writing guidance has six files: five account guides under `references/formation/`
-and `references/revision-guide.md`, with complete Chinese editions.
-A private situated version adds the following fixed five accounts; public
-distribution contains neither these files nor placeholder accounts.
+This implementation distinguishes six public writing guides from six private
+actual files, corresponding by object:
 
-| Fixed situated slot | Responsibility |
-| --- | --- |
-| `references/situated/orientation.md` | Adopted philosophy, values, and direction. |
-| `references/situated/person.md` | Grounded understanding of the actual person. |
-| `references/situated/counterpart.md` | Actual model and wanted contribution. |
-| `references/situated/relationship.md` | Joint activity, correction, and division of work. |
-| `references/situated/environment.md` | Realization through the actual environment. |
+| Object | Public guide | Private actual file |
+| --- | --- | --- |
+| Orientation | `references/formation/orientation.md` | `references/situated/orientation.md` |
+| Person | `references/formation/person.md` | `references/situated/person.md` |
+| Counterpart | `references/formation/counterpart.md` | `references/situated/counterpart.md` |
+| Relationship | `references/formation/relationship.md` | `references/situated/relationship.md` |
+| Environment | `references/formation/environment.md` | `references/situated/environment.md` |
+| Revision | `references/formation/revision.md` | `references/situated/revision.md` |
 
-Person, counterpart, and relationship remain three modeling objects. Orientation
-supplies adopted interpretive and evaluative direction; environment explains
-realization. The five are not all psychological models. The
-[Philosophy and models](../design-and-revision.md) routes each account to its
-permanent guide, which remains available after adoption.
+The public guides have complete Chinese editions and explain how to form the
+corresponding content. The actual files articulate one's own orientation,
+personal understanding, actual counterpart, relationship, environment, and
+revision method. Revision guidance and an actual revision method are distinct
+too: the former offers adaptable writing guidance; the latter explains how
+revision works with this person's philosophy, material, and actual environment.
+Public distribution contains guides, with no actual files or placeholder portraits.
+The initial reading uses all six actual files; a common guide cannot substitute
+for one of them.
 
-Together with the common [revision guide](../revision-guide.md), these make
-**six working files to maintain**. The guide itself changes when practice
-reveals a better way of revising the arrangement. It explains the connected refresh of personal
-support, accounts, Skills, and environment, including webpage preview and
-publication sequencing. It belongs to the common package, with a full Chinese
-edition, and adds no sixth private portrait. The entrypoint includes it in the
-initial reading so a consuming model can maintain the arrangement it uses.
+For full adoption, the model forms these six files from relevant authorized
+material and organizes their needed private support. Explicit unknowns can be
+honest content; copying guidance or someone else's portrait cannot form an actual
+version. Person, counterpart, and relationship remain three modeling objects;
+the other files supply direction, realization, and revision. Later changes follow
+affected meanings and dependencies.
 
-Adoption requires forming all five accounts from relevant authorized material
-and organizing their necessary private support. The model carries this writing;
-the user need not maintain files personally. Explicit unknowns can be honest
-situated content. Unchanged templates, a copied portrait, or an invented person
-do not constitute a formed version. Check coherence, grounding, reachable
-evidence, and the conversational model's ability to read and use the accounts
-at its actual entrypoint. Later revisions need change only affected content.
+`references/personal/sources.md` is the private evidence entrance supporting
+the six actual files. Extended history, originals, and topical material stay
+with existing owners or under `references/personal/`, reached through
+access-bounded locators. The [revision writing guide](../formation/revision.md#sources-and-evidence)
+supplies evidence guidance. Independently authored philosophy has its own source;
+private support links it and retains relevant grounds.
 
-`references/personal/sources.md` is the actual private evidence entrance,
-supporting all five accounts rather than becoming another core account.
-The public [evidence guide](../revision-guide.md#sources-and-evidence) supplies its method.
-Further `references/personal/` material retains useful private support and topical
-provenance. Filenames follow actual evidence; there is no universal list or
-required empty companion for every essay. Originals and extended history can
-remain with existing owners, reached through access-bounded references. Keep one
-authored philosophy: a private companion links to its common argument and
-retains the private evidence, rather than reproducing a second theory.
-
-Everything outside the entire `references/situated/` and `references/personal/`
-trees is common:
-the entrypoint, reader editions, methods, essays, diagrams, reading map,
-administration, scripts, and OpenAI YAML adapter. The shared GitHub package owns
-this content. The [entrypoint](../../SKILL.md) owns initial reading; [design and
-revision](../design-and-revision.md) connects the writing objects. Their six guides own actual directions;
-environmental realization belongs to the environment guide.
+Both entire trees, `references/situated/` and `references/personal/`, are private.
+Everything else is common package content, including the entrypoint, six writing
+guides, essays, diagrams, and scripts. Distributed copies and private copies
+choosing continued common updates keep common content byte-identical.
+[Using YinYang](../../SKILL.md) owns the actual initial reading;
+[Philosophy and models](../design-and-revision.md) connects the writing objects.
 
 ## Project common changes
 
@@ -99,7 +88,7 @@ publish the projected source, followed by actual-consumer readback.
 Earlier packages mixed public guidance and private content at
 `references/{encounter,models,relationship,usage,sources}.md`. The projector
 refuses either package with any of these paths before changing files. Their
-owner first redistributes actual meaning into the five new accounts and private
+owner first redistributes actual meaning into the six actual files and private
 evidence index, preserves unique support, and retires the old paths. The old
 encounter can contain orientation and relationship, and the old relationship
 both counterpart and joint activity: a mechanical rename cannot complete this
@@ -116,10 +105,10 @@ recipient-relative authorship.
 This parity applies to copies choosing continuing common updates. If you
 replace the philosophy or organization independently, keep that work at its
 own source and maintain its coherent references. Do not project this common
-package over it, even if it retains the five-slot format.
+package over it, even if it retains the six-slot format.
 
 Authors of other works can change the number and organization of accounts and
-the philosophy. The maintained YinYang implementation keeps this fixed five.
+the philosophy. The maintained YinYang implementation keeps these fixed six actual files.
 
 ## Personal and public boundaries
 

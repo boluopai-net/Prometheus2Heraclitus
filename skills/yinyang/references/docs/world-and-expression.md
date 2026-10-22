@@ -125,12 +125,11 @@ which records and software architecture serve a particular use. The
 activities.
 
 The [interactive two-level diagram](../diagrams/layers.html) develops six
-connected dimensions—worldview, ontology, epistemology, truth, axiology, and
-methodology—together with practice at the physical and computational levels.
-Worldview gives an overall orientation; ontology articulates what is taken to
-exist or represented; epistemology concerns knowing and its grounds; truth
-concerns whether claims hold; axiology concerns what is worth pursuing; and
-methodology concerns how to inquire and act. Practice brings these relations
+adopted views—a worldview, an ontological view, a view of truth, a view of
+knowing, a view of value, and a view of method—together with practice at the
+physical and computational levels. They carry philosophical exposition into
+a situated understanding: overall orientation, what exists or is represented,
+whether claims hold, grounds for knowing, worthwhile purposes, and ways to act. Practice brings these relations
 into actual activity. [Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
 develops their correspondences. The computational arrangement is physically
 realized, while its represented domain may be actual, hypothetical, or fictional.

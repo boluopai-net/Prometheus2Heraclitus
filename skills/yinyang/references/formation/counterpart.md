@@ -58,4 +58,4 @@ changes. Ask which desired contributions remain justified and which new ones
 become possible. Follow consequences into the relationship and
 [environment](environment.md) through their owners. A promise in this account
 does not establish changed behavior: actual work and attributable feedback
-supply evidence of fit, located through the [evidence guide](../revision-guide.md#sources-and-evidence).
+supply evidence of fit, located through the [evidence guide](revision.md#sources-and-evidence).

@@ -26,8 +26,10 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   from histories and other material. The participants themselves are not
   identified with those streams. YY-09 supplies its event-based vocabulary.
 - **From understanding the world to realizing a practice** (`layers`) develops
-  YY-09 in two visible levels, each with six dimensions surrounding shared
-  practice: worldview, ontology, truth, knowing, value, and method. The physical
+  YY-09 in two visible levels, each with six adopted views surrounding shared practice: worldview,
+  an ontological view, and views of truth, knowing, value, and method.
+  These carry the philosophical exposition into situated understanding;
+  world-directed claims remain answerable to reality and evidence. The physical
   level below concerns one changing natural world and material, embodied
   processes. The computational level above concerns representations, including
   actual, possible, and imagined situations; its process ontology organizes

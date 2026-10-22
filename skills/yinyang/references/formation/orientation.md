@@ -5,8 +5,8 @@
 The orientation account states the philosophy, values, and direction adopted
 for this collaboration. Write its actual content at
 `references/situated/orientation.md` in the private package. This public guide
-remains available alongside it. The maintained implementation has five core
-accounts: orientation, person, counterpart, relationship, and environment.
+remains available alongside it. The maintained implementation has six actual
+files: orientation, person, counterpart, relationship, environment, and revision.
 Someone authoring a different work can change that organization and philosophy.
 
 ## Give the work a direction with reasons
@@ -37,8 +37,9 @@ slot with commitments nobody has chosen.
 The [person](person.md), [counterpart](counterpart.md), and
 [relationship](relationship.md) remain three distinct modeling objects. The
 orientation supplies their adopted interpretive and evaluative direction;
-the [environment](environment.md) explains its working realization. These
-five accounts are not five psychological models. A value commitment differs
+the [environment](environment.md) explains its working realization, and
+[revision](revision.md) guides the writing of one's actual revision method.
+These files have different responsibilities. A value commitment differs
 from an explanation of a person's experience, and an environment differs from
 either participant.
 
@@ -47,12 +48,12 @@ one activity while delegating routine implementation in another. Making the
 person perform every step would not follow from that aim. Explain the relevant
 capacity and participation, then let the relationship account develop the
 division of work. Preserve the orientation's reason here rather than repeating
-the full philosophy across all five files.
+the full philosophy across all six actual files.
 
-Use explicit model-facing prose under the [writing method](../revision-guide.md#write-for-the-actual-use).
+Use explicit model-facing prose under the [writing method](revision.md#write-for-the-actual-use).
 An image can make a relation intelligible; state the meaning that should guide
 judgment and action. Keep developed public arguments at their existing owners,
-with private reasons and attribution in the [evidence material](../revision-guide.md#sources-and-evidence).
+with private reasons and attribution in the [evidence material](revision.md#sources-and-evidence).
 
 ## Revise the direction through what happens
 

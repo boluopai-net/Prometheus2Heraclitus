@@ -2,7 +2,7 @@
 
 <a id="如何描述环境中的实现"></a>
 
-[English](environment.md) · [哲学与模型](../design-and-revision.zh-CN.md) · [修订](../revision-guide.zh-CN.md)
+[English](environment.md) · [哲学与模型](../design-and-revision.zh-CN.md) · [修订](revision.zh-CN.md)
 
 实际环境描述写在私人包的 `references/situated/environment.md`。说明协作怎样通过物质、
 社会、信息与计算安排取得工作形式。把采纳的[取向](orientation.zh-CN.md)、
@@ -33,7 +33,7 @@
 
 ## 选择当前重点，沿两个方向修订
 
-局部修复与整体环境刷新，遵循第六份文件的[修订范围与联动指导](../revision-guide.zh-CN.md#确定修订范围与联动)。
+局部修复与整体环境刷新，参考修订指南的[修订范围与联动指导](revision.zh-CN.md#确定修订范围与联动)。
 读取一份描述作为证据，不等于选择改写它；实质依赖仍可能要求改变另一份描述、Skill 或工具。
 
 ## 在情境中推导行为
@@ -127,6 +127,6 @@
 通过可靠支持取得的能力。[参与论述](../docs/participation-and-support.zh-CN.md#继续记录与缓解)
 展开其不同根据。一次成功任务不能确立全部结果。
 
-使用第六份文件的[结果与修订指导](../revision-guide.zh-CN.md#让结果返回理解)，通过各自维护者
+参考修订指南的[结果与修订指导](revision.zh-CN.md#让结果返回理解)，通过各自维护者
 完成必要变化，将预期结果与实际可用的东西比较。私人定位和较长证据留在私人维护者处。
 这份描述凝练更丰富、不断变化的环境；作品能够完成，安排仍然可以继续修订。

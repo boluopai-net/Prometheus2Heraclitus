@@ -53,7 +53,7 @@ sources, tools, work, and observable results, including directions for changing
 those arrangements. Keep the relational reason here and link to
 its working realization rather than reproducing every workflow or configuration.
 
-Use the [evidence material](../revision-guide.md#sources-and-evidence) to distinguish a chosen commitment from
+Use the [evidence material](revision.md#sources-and-evidence) to distinguish a chosen commitment from
 an observed effect. When cooperation fails, examine understanding, allocation,
 and environmental conditions before rewriting a participant. A completed task
 supports a bounded claim; a sustaining relationship develops through repeated

@@ -83,10 +83,12 @@ gives revision a direction. The two contributions should remain distinguishable.
 
 ## Six connected dimensions
 
-This personal practice adopts six connected positions. Worldview gives the
+The philosophical exposition develops six connected dimensions and the positions
+this practice adopts within them. Worldview gives the
 overall picture; ontology articulates existence and representation; a theory
 of truth explains what it means to be true; epistemology concerns forming and
-revising judgments; value and method give practice its direction and means.
+revising judgments; axiology and methodology examine worthwhile purposes
+and ways of inquiry and action.
 
 | Dimension | Adopted position | What it asks of the practice |
 | --- | --- | --- |
@@ -94,7 +96,7 @@ revising judgments; value and method give practice its direction and means.
 | Ontology | A physicalist ground of reality; at the computational level, objects, events, states, relations, and transitions construct a process ontology as a question-relative representation. | What actually exists, and which objects and relations does the model select or construct? |
 | Theory of truth | Correspondence: a claim about reality is true when what it says accords with the facts; statements within a model have truth conditions under a given interpretation. | Does the stated situation obtain, and how does the model's expression relate to its object? |
 | Epistemology | Fallible inquiry beginning with embodied experience and corrected through feedback. | Which observations support or challenge an interpretation, and what distinguishes alternatives? |
-| Value | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
+| Axiology | Personal-first humanism. | Whose understanding, agency, and worthwhile activity does the arrangement support? |
 | Methodology | Question-relative pluralism. | Which combination of analogy, formalization, simulation, participation, and experiment answers this question? |
 
 These dimensions use the same distinctions as [Core view YY-09](core-views.md#yy-09).
@@ -104,8 +106,12 @@ The practice nodes in the diagram express this shared use.
 
 <a id="physical-and-computational-levels"></a>
 
-These questions also need to be developed separately at physical and computational
-levels. The physical level concerns actual activity and its material conditions;
+The exposition now turns to adopted views: a worldview, an ontological view,
+a view of truth, a view of knowing, a view of value, and a view of method.
+They articulate how this situated practice understands and organizes objects,
+judgments, purposes, and activity. Claims about the world still answer to facts
+and evidence; making a view explicit lets its grounds and consequences be examined.
+These views are developed at physical and computational levels. The physical level concerns actual activity and its material conditions;
 the computational level organizes representations usable by people and computers
 and brings them into activity. **Computational ontology first articulates objects,
 relations, and rules within the representation; here a process ontology organizes
@@ -122,15 +128,15 @@ distinct places in this account.
 | Dimension | Physical level | Computational level |
 | --- | --- | --- |
 | Worldview | Persons, machines, psychological activity, and social activity share one changing natural world. | Organize a selected world picture, expressing actual, possible, or imagined situations and their connections. |
-| Ontology | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology as representation, using process ontology to organize objects, events, states, relations, and transitions. |
-| Truth | How are the objects, events, and relations in question actually situated; what obtains? | When do statements hold under a given interpretation, how do conclusions follow from premises, and how do world-directed claims correspond to facts? |
-| Knowing | How do experience and observation support judgment and disclose error? | How are evidence, candidate explanations, inference, and tests represented and organized? |
-| Value | What is worth pursuing; whose agency and life are affected? | How are goals, criteria, constraints, and tradeoffs made explicit? |
-| Method | How are inquiry, collaboration, and experiments actually conducted? | How do method descriptions, procedures, tools, and rules organize selected activity? |
+| Ontological view | Physical ontology: how do embodied persons, machines, and material processes exist, persist, and change? | Computational ontology as representation, using process ontology to organize objects, events, states, relations, and transitions. |
+| View of truth | How are the objects, events, and relations in question actually situated; what obtains? | When do statements hold under a given interpretation, how do conclusions follow from premises, and how do world-directed claims correspond to facts? |
+| View of knowing | How do experience and observation support judgment and disclose error? | How are evidence, candidate explanations, inference, and tests represented and organized? |
+| View of value | What is worth pursuing; whose agency and life are affected? | How are goals, criteria, constraints, and tradeoffs made explicit? |
+| View of method | How are inquiry, collaboration, and experiments actually conducted? | How do method descriptions, procedures, tools, and rules organize selected activity? |
 | Practice | How do embodied people act and live with consequences? | How are computational arrangements run and used, and their results read back? |
 
 [From understanding the world to realizing a practice](../diagrams/layers.html)
-draws these two sets of six dimensions plus practice as two levels, naming
+draws these two sets of six adopted views plus practice as two levels, naming
 their ontology nodes **physical ontology** and **computational ontology**.
 Bodies, machines, records, energy, and activity at the physical level realize
 the computational arrangement. Computational representations relate to the

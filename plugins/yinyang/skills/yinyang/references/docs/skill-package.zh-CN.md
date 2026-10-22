@@ -10,52 +10,41 @@
 
 阴阳是一项已经展开的哲学与形成方法。读者可以采用、组合选定资源，也可以创作不同作品。
 [从采用、组合到自己的创作](example-and-commons.zh-CN.md)展开这份邀请。
-哲学家的思想可以支持框架，不能替代实际用户的描述。本说明的五份描述与公共更新约定
+哲学家的思想可以支持框架，不能替代实际用户的描述。本说明的六份实际文件与公共更新约定
 适用于完整采用持续维护的 Skill；阅读哲学或取用某项方法，本身不等于采用这份约定，
 也不要求开展个人哲学项目。
 
 ## 公共内容与情境化内容
 
-分发副本与个人副本保持字节一致的公共内容。永久写作指导共有六份：`references/formation/` 下的五份描述指南，
-以及 `references/revision-guide.md`，均有完整中文版本。私人情境化版本增加以下固定五份描述；公开分发不包含这些文件，也不
-包含占位描述。
+这套实现区分六份公开写作指南与六份私人实际文件，按同名对象一一对应：
 
-| 固定情境槽位 | 职责 |
-| --- | --- |
-| `references/situated/orientation.md` | 采纳的哲学、价值与方向。 |
-| `references/situated/person.md` | 对实际个人有根据的理解。 |
-| `references/situated/counterpart.md` | 实际模型与期望贡献。 |
-| `references/situated/relationship.md` | 共同活动、纠正与分工。 |
-| `references/situated/environment.md` | 通过实际环境实现。 |
+| 对象 | 公开指南 | 私人实际文件 |
+| --- | --- | --- |
+| 取向 | `references/formation/orientation.md` | `references/situated/orientation.md` |
+| 个人 | `references/formation/person.md` | `references/situated/person.md` |
+| 模型伙伴 | `references/formation/counterpart.md` | `references/situated/counterpart.md` |
+| 关系 | `references/formation/relationship.md` | `references/situated/relationship.md` |
+| 环境 | `references/formation/environment.md` | `references/situated/environment.md` |
+| 修订 | `references/formation/revision.md` | `references/situated/revision.md` |
 
-人、伙伴与关系仍是三个建模对象；取向提供采纳的解释与评价方向，环境说明实现。
-这五份不全是心理模型。[哲学与模型](../design-and-revision.zh-CN.md)把每份描述接到永久
-指引，采用后仍然保留。
+公开指南有完整中文版本，说明怎样形成相应内容。私人实际文件写出自己的取向、个人理解、
+实际伙伴、关系、环境与修订方法。修订指导与实际修订方法同样分开：前者提供可调整的写法，
+后者说明在本人的哲学、材料和实际环境中怎样修订。公开分发只含指南，不含实际文件或占位画像。
+日常初始阅读使用全部六份实际文件，而非用公共指南补作其中一份。
 
-这五份描述与公共的[修订指南](../revision-guide.zh-CN.md)共同构成**需要维护的六个工作文件**。
-实践揭示了更合适的修订方式时，指南本身也应更新。它说明 personal 支持材料、个人模型、
-Skill 与环境怎样相连地更新，也说明网页预览与
-发布的顺序。它属于公共包，有完整中英文版本，不增加第六份私人画像。
-入口将它纳入初始阅读，让使用模型理解怎样维护正在使用的安排。
+完整采用时，模型根据相关且获授权的材料形成这六份文件，整理必要的私人支撑。明确未知
+可以是真实内容；照搬指南或他人画像，不能形成自己的实际版本。人、伙伴与关系仍是三个
+建模对象，其他文件分别提供方向、实现与修订。后续变化按含义及依赖修改有关内容。
 
-采用时，根据相关且获授权的材料形成全部五份描述，整理必要私人支撑。
-模型承担写作，用户不必亲自维护文件。明确的未知可以是真实的情境化内容；
-未改写模板、复制画像和虚构人物不构成已形成的个人版。
-检查融贯、根据、可取得的证据，以及实际对话模型能否在使用入口读取并使用这些描述。
-后续修订只需改变受影响内容。
+`references/personal/sources.md` 是私人证据入口，支持六份实际文件。较长历史、原件与专题
+材料留在已有维护者处，或置于 `references/personal/`，通过有访问边界的定位取得。
+[修订写作指南](../formation/revision.zh-CN.md#来源与证据)提供证据方法。
+独立写出的哲学有自己的来源，私人支持材料连接它并保留有关依据。
 
-`references/personal/sources.md` 是实际私人证据入口，支持五份描述，不成为另一份核心。
-公开[证据指引](../revision-guide.zh-CN.md#来源与证据)提供方法。进一步的 `references/personal/`
-材料保留有用的私人支撑与专题出处。文件名跟随实际证据，
-没有普遍文件清单，也不要求为每篇文章建立空白对应页。原件和较长历史可留在既有维护位置，
-通过有访问边界的引用取得。哲学正文只维护一份：私人对应页链接公共论证并保存私人依据，
-不复制第二套理论。
-
-整个 `references/situated/` 和 `references/personal/` 之外的一切都是公共内容：主入口、读者版、方法、
-文章、图示、阅读地图、管理文件、脚本与 OpenAI YAML 适配文件。共享 GitHub 包维护这些内容。
-[主入口](../../SKILL.md)维护初始阅读，另有[中文阅读版](../../SKILL.zh-CN.md)；
+`references/situated/` 和 `references/personal/` 两个完整目录属于私人内容。其余内容
+由公共包维护，包括入口、六份写作指南、文章、图示与脚本。分发副本和选择持续采用公共
+更新的私人副本，保持公共内容字节一致。[使用阴阳](../../SKILL.zh-CN.md)维护实际初始阅读；
 [哲学与模型](../design-and-revision.zh-CN.md)连接写作对象。
-具体指导归于六份写作文件，环境实现归于环境指南。
 
 ## 投影公共变更
 
@@ -74,8 +63,8 @@ python3 /path/to/shared/yinyang/scripts/sync-common.py \
 检查归属，不静默删除。既有本地或私人 Web 维护者安装和发布投影源，再回读实际使用处。
 
 旧包在 `references/{encounter,models,relationship,usage,sources}.md` 混合公开指引与私人
-内容。任一包仍有这些路径时，投影器在改变文件前拒绝操作。维护者先按实际含义分配到五份
-新描述与私人证据索引，保存独有支撑，再退役旧路径。旧相遇可能同时包含取向与关系，旧关系
+内容。任一包仍有这些路径时，投影器在改变文件前拒绝操作。维护者先按实际含义分配到六份
+实际文件与私人证据索引，保存独有支撑，再退役旧路径。旧相遇可能同时包含取向与关系，旧关系
 可能同时包含伙伴与共同活动；机械改名不能完成这种语义迁移。私人
 `references/personal/README.md` 中有用的内容保留在适当维护者处；整个私人目录受保护。
 
@@ -85,9 +74,9 @@ python3 /path/to/shared/yinyang/scripts/sync-common.py \
 标为接收方自制。
 
 字节一致适用于选择持续采用公共更新的副本。独立替换哲学或组织时，在自己的来源处保留
-作品并维护连贯引用；即使仍采用五槽位格式，也不要用本公共包覆盖它。
+作品并维护连贯引用；即使仍采用六槽位格式，也不要用本公共包覆盖它。
 
-另行创作可以改变描述的数目、组织与哲学；当前维护的阴阳实现保持这固定五份。
+另行创作可以改变描述的数目、组织与哲学；当前维护的阴阳实现保持这固定六份实际文件。
 
 ## 私人与公开边界
 

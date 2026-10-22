@@ -13,24 +13,23 @@ actual consumer contracts; remove repetition and obsolete scaffolding.
 ## Authored and situated sources
 
 [SKILL.md](SKILL.md) owns invocation. [Philosophy and models](references/design-and-revision.md)
-connects philosophical expression and models. The five account-writing guides
-under `references/formation/` and the sixth file, [revision](references/revision-guide.md),
+connects philosophical expression and models. The six writing guides
+under `references/formation/`, including [how to revise](references/formation/revision.md),
 own their actual directions. Environmental realization belongs to the environment
-guide; revision belongs to the sixth file. [The package guide](references/docs/skill-package.md)
+guide; revision guidance belongs to the revision guide. [The package guide](references/docs/skill-package.md)
 owns common/situated structure and projection. Refer to these owners where a
 document needs their method instead of restating it.
 
-Distributed and situated editions share common content, including permanent
-writing guides under `references/formation/` and the revision file. Ordinary use
-reads the five actual situated accounts plus the revision file in full.
-A private situated package adds
-the fixed five `references/situated/{orientation,person,counterpart,relationship,environment}.md`
-accounts and its evidence entrance at `references/personal/sources.md`.
+Distributed and situated editions share common content, including six public
+how-to guides under `references/formation/`. A private situated package adds six
+actual files at `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
+The actual revision method is authored for that person and environment; a common
+guide cannot replace it. Ordinary use reads all six actual files in full.
+Supporting evidence has its private entrance at `references/personal/sources.md`.
 Public distribution contains neither private tree. `scripts/sync-common.py`
-preserves both trees and refuses legacy layouts before writing. Do not retrieve
-private portraits merely to maintain the public collection or invent people
-to populate absent accounts. Other authors can change the structure and philosophy;
-maintenance of this implementation preserves the five-account contract.
+preserves both trees. Do not retrieve private portraits merely to maintain this
+public package. Other authors can change the organization and philosophy;
+maintenance preserves this six-guide/six-actual contract.
 
 ## Edition and publication coherence
 

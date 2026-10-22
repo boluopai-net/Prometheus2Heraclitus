@@ -146,14 +146,14 @@ develops this bounded modeling; [Stealing fire and cultivating creative capacity
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
-not by collecting more biography. The complete YinYang Skill gives these
-accounts maintained homes: adopted orientation, person, counterpart,
-relationship, and environmental realization are the fixed five; private
-evidence supports them separately. Together with the common
-[revision guide](../revision-guide.md), they form six maintained working files.
+not by collecting more biography. The complete YinYang Skill gives actual understanding maintained homes:
+orientation, person, counterpart, relationship, environment, and one's own
+revision method form six private actual files. Six public writing guides explain
+how to form them, including [How to revise](../formation/revision.md). Private
+evidence supports the actual files separately.
 The [Philosophy and models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this modeling
-idea does not require forming all five.
+idea does not require forming all six actual files.
 
 <a id="yy-04"></a>
 
@@ -311,17 +311,20 @@ shape contributions without requiring the person to internalize them all.
 | Dimension | Physical level | Computational level |
 | --- | --- | --- |
 | Worldview | How do persons, machines, and their activities belong to one changing natural world? | What overall world picture organizes the selected actual, possible, or imagined domain? |
-| Ontology | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology represent objects, events, states, relations, and transitions through process ontology? |
-| Truth | What actually obtains concerning the objects, events, and relations in question? | What holds under the interpretation, what follows from the premises, and how do world-directed claims correspond to facts? |
-| Knowing | What warrants actual judgment, and when should it change? | How are evidence, candidate explanations, inference, and tests organized? |
-| Value | What is worth pursuing, for whom, and at whose cost? | How are goals, criteria, constraints, and tradeoffs expressed? |
-| Method | How are inquiry and collaboration actually conducted? | How do descriptions, procedures, tools, and rules support that activity? |
+| Ontological view | How do embodied beings, machines, and material processes persist and change in physical ontology? | How does computational ontology represent objects, events, states, relations, and transitions through process ontology? |
+| View of truth | What actually obtains concerning the objects, events, and relations in question? | What holds under the interpretation, what follows from the premises, and how do world-directed claims correspond to facts? |
+| View of knowing | What warrants actual judgment, and when should it change? | How are evidence, candidate explanations, inference, and tests organized? |
+| View of value | What is worth pursuing, for whom, and at whose cost? | How are goals, criteria, constraints, and tradeoffs expressed? |
+| View of method | How are inquiry and collaboration actually conducted? | How do descriptions, procedures, tools, and rules support that activity? |
 
-The six dimensions connect through practice. Computational ontology supplies
+The table expresses six adopted views, carrying philosophical exposition into
+how this practice understands the world and organizes representations.
+World-directed claims remain answerable to reality and evidence.
+The six views connect through practice. Computational ontology supplies
 the represented objects and processes; the computational arrangement also
 organizes evidence, goals, methods, and use. YinYang develops their philosophical
 understanding and working articulation; specialist Skills supply their methods.
-The diagram therefore presents six dimensions plus practice at each level:
+The diagram therefore presents six adopted views plus practice at each level:
 embodied activity and consequences connect with running, using, and reading
 back computational arrangements.
 

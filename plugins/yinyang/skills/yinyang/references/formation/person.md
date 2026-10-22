@@ -87,7 +87,7 @@ Use the relevant authorized portion of available history. Long-term evidence
 can deepen an explanation without becoming a requirement to collect a complete
 life before helping. Preserve attributable originals with their owners and
 maintain the distilled account with its grounds under the
-[revision guide's evidence method](../revision-guide.md#sources-and-evidence).
+[revision guide's evidence method](revision.md#sources-and-evidence).
 Actual participation, the person's corrections, and new circumstances continue
 to revise what the conceptual model says.
 
@@ -129,7 +129,7 @@ a deficit.
 Relate the account to the adopted [orientation](orientation.md), the actual
 [counterpart](counterpart.md), and the chosen [relationship](relationship.md).
 Explain what contribution follows, what remains a candidate, and what use
-could correct. The [revision guide](../revision-guide.md#sources-and-evidence) keeps identity, time, conflicting
+could correct. The [revision guide](revision.md#sources-and-evidence) keeps identity, time, conflicting
 material, and access limits navigable; extended episodes stay with private owners.
 
 Revise when the person corrects an interpretation, circumstances change, or

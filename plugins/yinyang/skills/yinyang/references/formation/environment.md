@@ -2,7 +2,7 @@
 
 <a id="how-to-describe-environmental-realization"></a>
 
-[简体中文](environment.zh-CN.md) · [Philosophy and models](../design-and-revision.md) · [Revision](../revision-guide.md)
+[简体中文](environment.zh-CN.md) · [Philosophy and models](../design-and-revision.md) · [Revision](revision.md)
 
 Write the actual environment account at `references/situated/environment.md`
 in the private package. Explain how this collaboration takes working form
@@ -46,8 +46,8 @@ a complete configuration inventory.
 
 ## Choose the focus and trace both directions
 
-For local repair and whole-environment refresh, follow the sixth file's
-[scope and connected-change guidance](../revision-guide.md#scope-and-connected-changes).
+For local repair and whole-environment refresh, follow the revision guide's
+[scope and connected-change guidance](revision.md#scope-and-connected-changes).
 Reading an account as evidence does not select it for rewriting. A substantive
 dependency can nevertheless require changing another account, Skill, or tool.
 
@@ -182,7 +182,7 @@ experience, and development concerns what the person can understand or do,
 including through dependable supports. The [participation essay](../docs/participation-and-support.md#continuation-records-and-relief)
 develops their different grounds. One successful task cannot establish them all.
 
-Use the sixth file's [result and revision guidance](../revision-guide.md#follow-the-result-back-into-understanding)
+Use the revision guide's [result and revision guidance](revision.md#follow-the-result-back-into-understanding)
 to carry necessary changes through their owners and compare the intended result
 with what is available. Keep private locators and extended evidence with their
 private owners. This account condenses a richer, changing environment; a work

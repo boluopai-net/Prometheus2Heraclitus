@@ -45,7 +45,7 @@ Read the philosophical arguments for their own questions, borrow a formation or
 adaptation method for a particular task, or adopt the complete maintained Skill.
 These uses can overlap; they are not stages everyone must pass through. Borrowing
 a method does not require writing a personal philosophy, adopting the author's
-ontology or imagery, or forming the five files of a maintained situated version.
+ontology or imagery, or forming the six actual files of a maintained situated version.
 
 For full adoption, give the complete package to the model through its actual
 Skill mechanism. The model forms or revises the accounts from relevant authorized
@@ -65,21 +65,20 @@ Choose the entrance that serves the current question:
 For files and updates, use the [package guide](references/docs/skill-package.md);
 for arguments and sources, use the [reading map](references/reading-map.md).
 
-The maintained YinYang has **six working files**: five situated accounts and
-the common revision guide, which is itself revised through use. The accounts are
-**orientation** (adopted philosophy, values, direction), **person** (grounded
-understanding), **counterpart** (actual model and wanted contribution),
-**relationship** (joint activity, correction, division), and **environment**
-(working realization). Person, counterpart, and relationship remain three
-modeling objects; the five are not five psychological models.
-Permanent public guides in `references/formation/` help form the actual private
-accounts in `references/situated/`; distribution includes no private account files.
-Another person's portrait or fictional substitute cannot supply them.
-State unknowns honestly. Supporting private material follows actual evidence,
-with originals retained at their existing owners when suitable. The package
-guide gives the exact paths, completion evidence, and synchronization command.
-The private evidence entrance is `references/personal/sources.md`, outside the
-five accounts and the revision guide, and selected for reading when needed.
+The maintained package distinguishes **six public how-to guides** from **six
+private actual files**. Both sets concern orientation, person, counterpart,
+relationship, environment, and revision. The guides live in
+`references/formation/`; each explains how to write its corresponding actual
+file under `references/situated/`. Revision has the same distinction:
+[How to revise](references/formation/revision.md) helps someone write their own
+actual revision method at `references/situated/revision.md`.
+
+Full adoption forms and reads all six actual files. Public distribution supplies
+the six guides, not a person's actual content. Person, counterpart, and relationship
+remain three modeling objects; the other files articulate direction, realization,
+and revision. Relevant private evidence is reached through
+`references/personal/sources.md`, with originals retained at their existing owners.
+The package guide explains the paths and shared updates.
 
 Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable
@@ -89,7 +88,7 @@ modeling, but defaults and constraints also explain arrangements. The design
 reference develops these conditional routes without requiring mastery of three
 disciplines or a complete portrait before creation.
 
-A person may keep the five-file structure while replacing the philosophy, or
+A person may keep the six-file structure while replacing the philosophy, or
 organize a different work altogether. A philosopher's thought can supply a
 framework; it cannot substitute for an account of the actual user. Independently
 changed philosophy stays at its own source, outside common-file projection.

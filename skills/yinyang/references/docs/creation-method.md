@@ -32,21 +32,20 @@ that later acquires philosophical expression. Forming one's own philosophy
 remains part of fully forming one's own YinYang; borrowing an idea for another
 task need not undertake that whole practice.
 
-## Six files give the practice a usable form
+<a id="six-files-give-the-practice-a-usable-form"></a>
 
-Five accounts articulate the adopted orientation, actual person, model
-counterpart, relationship, and environment. The sixth file guides their
-revision and is itself revised through use. Their writing guidance belongs
-with those six objects: the five [account guides](../design-and-revision.md#form-a-situated-version-from-actual-material)
-and [revision](../revision-guide.md). Environmental realization belongs in the
-environment writing; continuing change belongs in the sixth file.
+## From six guides to six actual files
 
-The five actual accounts remain private, with evidence at its appropriate
-owners; public distribution supplies guidance, not a copied portrait.
-Prompts, Skills, tools, and interfaces give understood relations working
-consequences. Those consequences can correct the accounts and philosophy.
-Completed output, collaborative fit, and developing personal capacity call for
-evidence at their respective scales.
+The public guides explain how to write orientation, person, counterpart,
+relationship, environment, and revision. The corresponding six private actual
+files articulate one's own understanding and methods. The revision guide teaches
+how to form a fitting revision method; the actual revision file carries that
+method. [Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
+connects these six writing objects.
+
+Prompts, Skills, tools, and interfaces give understanding practical consequences,
+which can correct actual files and philosophy. Completed output, collaborative
+fit, and developing personal capacity call for evidence at their respective scales.
 
 ## Using YinYang
 
