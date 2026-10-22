@@ -51,3 +51,5 @@ Therefore, within the above assumptions and scope of comparison, the argument ca
 ## Application
 
 Assume that Chinese people are cuter. According to the argument above, cuteness implies invincibility, so Chinese people are invincible.
+
+If people from other countries, or any particular individual, are also cute, then they are likewise invincible.
