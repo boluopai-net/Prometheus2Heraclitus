@@ -309,7 +309,11 @@ def main():
         environment = PACKAGE + 'references/formation/environment' + edition
         write('source/' + str(Path(old_environment).with_suffix('.html')),
               redirect_page(url(environment)))
-        destination = url(PACKAGE + 'references/revision-guide' + edition) + '#' + anchor
+        revision_guide = PACKAGE + 'references/formation/revision' + edition
+        old_revision = PACKAGE + 'references/revision-guide' + edition
+        write('source/' + str(Path(old_revision).with_suffix('.html')),
+              redirect_page(url(revision_guide)))
+        destination = url(revision_guide) + '#' + anchor
         for old in ('references/sources', 'references/formation/sources'):
             # The source method now belongs to the revision guide. Its former
             # heading fragments must not append a second hash to the successor.
@@ -319,7 +323,7 @@ def main():
         lang = 'en' if english else 'zh-CN'
         edition = '.md' if english else '.zh-CN.md'
         groups = [
-            ('哲学、模型与使用', 'Philosophy, models, and use', '人和模型都可以阅读。先理解整体，再按当前问题进入哲学、个人模型或实际协作；环境与修订的具体内容归在六个工作文件中。', 'For people and models alike. Understand the whole, then enter through philosophy, personal models, or actual collaboration; environment and revision belong within the six working files.', [
+            ('哲学、模型与使用', 'Philosophy, models, and use', '从哲学与个人理解出发，形成能够共同使用并持续修订的工作方式。', 'Develop a shared and revisable way of working from philosophy and personal understanding.', [
                 ('references/docs/creation-method', '实践说明', 'Practice overview', '先看整体：哲学、个人模型、六个工作文件与环境怎样成为同一份实践。', 'See the whole: how philosophy, personal models, six working files, and environment form one practice.'),
                 ('references/design-and-revision', '形成方法', 'Formation method', '结合生活材料与哲学写作，形成有根据的个人、伙伴与关系理解，再凝练为实际描述。', 'Bring living material and philosophical writing together, develop grounded understanding of the participants and relationship, and distill it into the accounts.'),
                 ('SKILL', '协作入口', 'Collaboration entrypoint', '理解这套 Skill 怎样读取六个工作文件，并把它们用于日常协作。', 'Understand how the Skill reads the six working files and uses them in ordinary collaboration.'),
@@ -342,7 +346,7 @@ def main():
             ('references/formation/counterpart', '如何描述伙伴', 'How to describe the counterpart', '区分期待的角色与实际能力，描述伙伴的理解、贡献与局限。', 'Distinguish the intended role from actual capabilities and describe the counterpart’s understanding, contributions, and limits.'),
             ('references/formation/relationship', '如何描述关系', 'How to describe the relationship', '说明双方怎样理解、参与、分工并相互纠正。', 'Describe how the participants understand, participate, share work, and correct one another.'),
             ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实际条件与资源，把理解落实到提示词、Skills、工具和工作环境，并通过实际使用修订。', 'Describe conditions and resources, realize understanding through prompts, Skills, tools, and the working environment, and revise through actual use.'),
-            ('references/revision-guide', '修订指南', 'Revision guide', '第六个工作文件：连接哲学、个人材料、五份描述与环境的修订，包含整体刷新、局部修改、来源证据与网页预览。', 'The sixth working file connects revision of philosophy, personal material, the five accounts, and environment, including whole refreshes, local changes, evidence, and webpage previews.'),
+            ('references/formation/revision', '如何修订', 'How to revise', '修订哲学、个人理解和工作环境，并写出自己的修订方式。', 'Revise philosophy, personal understanding, and the working environment, and write your own way of revising.'),
         ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
@@ -352,8 +356,8 @@ def main():
                 guides_html = ''
                 if stem == 'references/design-and-revision':
                     guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
-                    guide_note = ('Five guides develop the situated accounts; the sixth file supplies their revision method. Environment realization belongs in the environment account. Actual personal accounts remain private.' if english else '前五项是实际描述的写法，第六项是修订指南。环境落实归入环境描述，整体刷新与局部修改归入修订指南；实际个人描述保留在私人版本中。')
-                    guides_html = '<details class="method-guides"><summary>' + ('The six working files' if english else '六个工作文件') + '</summary><p>' + guide_note + '</p><ul>' + guide_items + '</ul></details>'
+                    guide_note = ('These writing guides explain how to form the accounts and revise them through use.' if english else '这些写作指南说明怎样形成各份描述，并在使用中修订。')
+                    guides_html = '<details class="method-guides"><summary>' + ('Six writing guides' if english else '六份写作指南') + '</summary><p>' + guide_note + '</p><ul>' + guide_items + '</ul></details>'
                 entries_html.append('<li>' + link(path) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
             grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
@@ -362,7 +366,7 @@ def main():
             ('formation-path', '窃火，然后成为火', 'Steal Fire, Then Become Fire', '共同实践怎样留下轨迹、形成理解，并由新的经验继续修订。', 'How shared practice leaves a trajectory, develops understanding, and is revised through new experience.'),
             ('borrowed-fire', '参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself', '共同窃火、创造、作品与能力发展之间的关系。', 'The relationships between collective fire-bringing, creation, works, and developing capacities.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
-            ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '点击两组「六个面向＋实践」，查看计算本体的表征、事实符合与物理实现。', 'Explore six dimensions plus practice at each level: computational representation, factual correspondence, and physical realization.'),
+            ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '点击两组「六种观点＋实践」，查看这些立场怎样联系计算表征、事实符合与物理实现。', 'Explore six adopted views plus practice at each level, connecting computational representation, factual correspondence, and physical realization.'),
         ]:
             suffix = '' if english else '.zh-CN'
             diagrams += f'<a class="diagram-card" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + name + suffix + ".svg")}" alt="{en if english else zh} — {"concept map preview" if english else "概念图预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>'
@@ -373,7 +377,7 @@ def main():
                 continue
             diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">← {"Library" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh} </p><iframe class="diagram-viewer" title="{en if english else zh}" src="{url(diagram_path)}" sandbox="allow-scripts allow-downloads"></iframe><p class="source-note">{link(PACKAGE + "references/diagrams/THIRD-PARTY-NOTICES.md", "Third-party notices" if english else "第三方权利说明")}</p></main>'
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
-        intro = ('YinYang connects worldview, ontology, truth, knowing, value, and method through practice. Computational ontology represents selected objects, relations, and processes, including actual, hypothetical, and fictional situations; its use is physically realized. These documents develop their connections and offer guides for situated accounts, collaboration, and environment adaptation.' if english else '阴阳通过实践连接世界观、本体、真理、认识、价值与方法。计算本体表征选定的对象、关系与过程，容纳实际、假设与虚构情境，其使用则得到物理实现。这里的文档展开它们之间的联系，并提供实际描述写作、协作和环境适配的指南。')
+        intro = ('YinYang connects a worldview, an ontological view, and views of truth, knowing, value, and method through practice. Computational ontology represents selected objects, relations, and processes, including actual, hypothetical, and fictional situations; its use is physically realized. These documents develop their connections and offer guides for situated accounts, collaboration, and environment adaptation.' if english else '阴阳通过实践连接世界观、本体观、真理观、认识观、价值观与方法观。计算本体表征选定的对象、关系与过程，容纳实际、假设与虚构情境，其使用则得到物理实现。这里的文档展开它们之间的联系，并提供实际描述写作、协作和环境适配的指南。')
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
         hub_style = '<style>.method-guides{margin:24px 0 0 16px;padding-left:20px;border-left:1px solid var(--line)}.method-guides h3{font-size:18px;margin-bottom:8px}.method-guides ul{list-style:none;margin:12px 0 0;padding:0}.method-guides li{border:0;padding:10px 0}.method-guides a{font-size:17px}.method-guides p{font-size:14px;line-height:1.8;margin-top:6px}</style>'

@@ -411,22 +411,24 @@ Both renderers run `scripts/refine-navigation.py` to remove decorative arrows
 from navigation while preserving article prose and semantic diagram viewers.
 Chinese readers use the complete `SKILL.zh-CN.md`, `reading-map.zh-CN.md`,
 `design-and-revision.zh-CN.md`, the formation guides, and
-`revision-guide.zh-CN.md` editions. The library presents three shared entrances:
+`formation/revision.zh-CN.md` edition. The library presents three shared entrances:
 practice overview, philosophy and models, and using YinYang. Environment
-realization belongs in the environment writing guide; revision is the sixth
-working file. The overview no longer concatenates the package contract, which
+realization belongs in the environment writing guide, alongside the revision
+writing guide. The overview no longer concatenates the package contract, which
 has its own file/update page; the old overview `#package-contract` link forwards
-there. The six working files sit together under the philosophy/models disclosure:
-five account-writing guides and the revision guide.
+there. Six public writing guides sit together under the philosophy/models
+disclosure. Each guides one actual private account, including the adopted
+revision method: six guides and six actual accounts, with only the guides public.
 Global language controls resolve to actual bilingual counterparts across reader
 and section pages. Human projections omit the package's opening and closing
 navigation rows in favor of their own collection, series, and edition controls;
 body links and arguments remain. Explicit edition links retain their authored
 language target, while ordinary conceptual links select the current reader's
 available counterpart. The five core writing guides use the canonical bilingual
-`references/formation/{orientation,person,counterpart,relationship,environment}`
-editions. Source/evidence guidance is part of `revision-guide`, the sixth working
-file; former `formation/sources` URLs redirect to that section. The actual accounts
+`references/formation/{orientation,person,counterpart,relationship,environment,revision}`
+editions. Source/evidence guidance is part of `formation/revision`;
+former `formation/sources` URLs redirect to that section, and `revision-guide`
+URLs redirect to the revision writing guide. The actual accounts
 and private evidence remain outside the public reader. Earlier encounter,
 models, relationship, usage, and sources guide URLs redirect to their public
 successors. The former website-only Chinese overlays are retired now that their
@@ -592,7 +594,7 @@ The philosophy overview keeps its five chapter entries followed by four compact
 diagram references for review. It has no embedded map or long duplicate preface;
 the stealing-fire essay also retains its normal reading opening. The library
 owns the four diagram entrances. The existing interactive `layers` view places
-the physical level below the computational level, with six dimensions plus
+the physical level below the computational level, with six adopted views plus
 practice on each. Its fourteen nodes distinguish physical grounding, computational
 representation, truth and inference, and guidance by value and method. Activity
 histories can be organized as event streams; conceptual participant models are
