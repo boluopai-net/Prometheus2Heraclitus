@@ -47,6 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const english = document.documentElement.lang === 'en';
   let enabled = true, angle = 0, duration = 48, draw = null, last = null;
   let settled = false, navigation = null;
+  const preferenceKey = 'boluopai-skills-wheel';
+  try {
+    const saved = JSON.parse(localStorage.getItem(preferenceKey));
+    if (saved && typeof saved.motion === 'boolean') enabled = saved.motion;
+    if (saved && typeof saved.speed === 'number' && Number.isFinite(saved.speed) && saved.speed >= 0 && saved.speed <= 100) slider.value = saved.speed;
+  } catch (_) {}
+  const savePreferences = () => {
+    try { localStorage.setItem(preferenceKey, JSON.stringify({motion: enabled, speed: Number(slider.value)})); } catch (_) {}
+  };
   const paint = () => wheel.setAttribute('transform', `rotate(${angle} 280 280)`);
   const finish = () => {
     if (!draw || settled) return;
@@ -109,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     requestAnimationFrame(tick);
   }
-  slider.addEventListener('input', update);
-  toggle?.addEventListener('click', () => { enabled = !enabled; update(); });
+  slider.addEventListener('input', () => { update(); savePreferences(); });
+  toggle?.addEventListener('click', () => { enabled = !enabled; update(); savePreferences(); });
   window.addEventListener('pagehide', () => clearTimeout(navigation));
   window.addEventListener('pageshow', event => {
     if (event.persisted) { draw = null; settled = false; button.disabled = false; last = null; options.forEach(option => option.removeAttribute('data-selected')); result.textContent = english ? 'Spin to discover another Skill.' : '再转一次，发现另一个 Skill。'; }
