@@ -80,4 +80,63 @@ $c_i$ is the earlier expression, $C$ the currently available interpretive contex
 
 Later understanding sometimes discovers a previously unclear connection and sometimes brings an understanding not previously available. What was originally said can remain preserved while its meaning in current life changes. Expression therefore does more than transmit completed ideas: someone writes an idea, reads its consequences, encounters others' responses, and thereby comes to understand what they are saying.
 
-This is also a concrete process within [Forming a sinthome](writing-a-sinthome.md). Writing about the person enters actual collaboration, whose results prompt a new understanding of that writing. What can change is the self-account, the understanding of relationships, and the actual arrangement. Judging what changed requires connecting the original expression with what happened later.
+## Half-saying truth and continuing revision
+
+A person need not first know their whole truth before beginning to write. What
+they can initially say may be a wish, a recurring word, or an experience they
+have yet to understand. Written expression becomes something they can encounter
+again, answer, and revise. Later speech can develop it and change its earlier
+meaning.
+
+In the [opening of *Television* (1974)](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19740131Television198740October6.pdf#page=1),
+Lacan connects the impossibility of saying the whole truth with the real.
+Half-saying therefore differs from information awaiting completion. Continuing
+speech can bring new understanding without promising a final account that
+exhausts the subject. Progressive disclosure in a Skill offers an analogy for
+entering material in stages; unfolding already written material on demand and
+continuing to form meaning through speech have different responsibilities.
+
+Full speech supplies another source. In the [1953 text on the function and field
+of speech and language, reproduced in these excerpts](https://www.causefreudienne.org/textes-fondamentaux/fonction-et-champ-de-la-parole-et-du-langage-en-psychanalyse/),
+Lacan considers how speech reorganizes past contingencies in relation to the
+subject's history and future. Its fullness concerns how the subject assumes
+that history, which word counts and revision counts cannot measure. Early full
+speech and the later half-saying of truth raise distinct questions. Connecting
+them with sustained writing is this essay's development, not a procedure for
+gradually filling a half-said truth. The [Lacan reading guide](lacan-reading-guide.md#full-speech-half-saying-and-truth)
+distinguishes their source contexts.
+
+Return to the example of independence. A further statement may emerge: “The
+independence I value also includes deciding how to receive help, how to
+delegate, and when to change that relationship.” It gives the earlier refusal
+a new place. It may recognize a previously unarticulated connection or form an
+understanding not previously available. The original words and events can
+remain preserved; what changes is how they are connected, interpreted, and
+assumed. The development of signifying relations becomes one line to examine
+within a trajectory: which words return, how their positions change, and how
+one response changes the next expression. Version order alone has yet to
+explain that development.
+
+**A philosophical Skill can become a form of speech that others can take up:
+it gathers present understanding, lets it participate in life, and remains
+open to retroactive revision through later speech.** The model reads it and
+uses it in interpretation, judgment, and collaboration. Results, misunderstandings,
+and new questions from actual collaboration return to the participants' speech.
+The model can develop arguments, compare earlier versions, and identify
+relations not yet explained; elegantly generated prose still needs the person's
+recognition, questioning, and actual use.
+
+Within this practice, “developing truth” concerns how new understanding forms,
+how a person assumes their history anew, and how possibilities for subsequent
+life change. Factual judgments still require evidence, and formal consequences
+still require checking against their premises. Repeated polishing may merely
+close an existing account more tightly. A revision matters through what it
+makes possible to articulate, assume, and change. A work can be completed at a
+particular moment while speech begins again from what happens later.
+
+This also connects to [Forming a sinthome](writing-a-sinthome.md). Writing about
+the person enters actual collaboration; its results prompt a new understanding
+of that writing and may change how the participants sustain their practice.
+What can change is the self-account, the understanding of relationships, and
+the actual arrangement. Judging what changed requires connecting the original
+expression with what happened later.

@@ -2,7 +2,7 @@
 
 [简体中文](lacan-reading-guide.zh-CN.md) · [Philosophical readings](philosophical-readings.md) · [Reading by task question](../reading-map.md)
 
-When encountering “the Other,” “retroaction,” “the divided subject,” or “sinthome,” the difficulty often lies beyond defining an individual word: why do these concepts appear in the same account, and how do they connect to personal models, writing, and tools? This guide approaches them through those relations, for first reading and later review. It offers conceptual explanation alongside the main reading route. Begin wherever a difficulty arises, then return to the original essay.
+When encountering “the Other,” “retroaction,” “the divided subject,” “full speech,” “half-saying,” or “sinthome,” the difficulty often lies beyond defining an individual word: why do these concepts appear in the same account, and how do they connect to personal models, writing, and tools? This guide approaches them through those relations, for first reading and later review. It offers conceptual explanation alongside the main reading route. Begin wherever a difficulty arises, then return to the original essay.
 
 One important line of inquiry Lacan offers this site is: **how do people express themselves through language and images received from others, and how do expression and its return reveal that they do not fully coincide with that account?** Later expression can change the meaning of earlier speech; an established self-image can also be challenged by new encounters. The later discussions of knots and the sinthome further ask how these different relations connect in a person's concrete existence. Bringing them into model collaboration and engineering realization is work this site develops further.
 
@@ -16,10 +16,11 @@ One important line of inquiry Lacan offers this site is: **how do people express
 
 All three levels can belong to the same work, while a reader still needs to know what responsibility a particular sentence carries. For example, the subject Lacan discusses is not a database object; putting certain relations into a formal model makes selected relations inspectable. A derivation within a formal system is also different from having established a reliable personal model through actual conversations.
 
-Three short reading paths are available:
+Four short reading paths are available:
 
 - To understand “I,” “ego,” and “others,” begin with [language and the Other](#language-signifiers-and-the-other), then read [the ego and the divided subject](#the-ego-and-the-divided-subject).
 - To understand why an earlier meaning may only become recognizable later, read [retroaction and retrospective understanding](#retroaction-and-retrospective-understanding), then return to [speaking and retrospective meaning](lacan-and-description-logic.md#the-other-and-retrospective-meaning).
+- To understand how sustained writing connects with truth, read [full speech, half-saying, and truth](#full-speech-half-saying-and-truth), then return to [half-saying truth and continuing revision](lacan-and-description-logic.md#half-saying-truth-and-continuing-revision).
 - To understand the three registers and the sinthome, begin with [the registers](#the-three-registers-different-relations-within-the-same-experience), then read [the sinthome](#sinthome-from-lacans-question-to-this-sites-definition), and finally return to [Forming a sinthome](writing-a-sinthome.md).
 
 ## Language, signifiers, and the Other
@@ -53,6 +54,83 @@ For example: “Leaving then cost me a great deal—and it also taught me, for t
 In this site's writing and model collaboration, the relation can develop as follows: an unfinished expression is retained; the model organizes it into a readable account; the person rereads it, recognizes some connections, and discovers misunderstandings; this recognition changes subsequent expression. A work thus preserves earlier ideas and can also become material for new understanding.
 
 Two questions still need separate treatment: **does an interpretation make an experience intelligible, and are its factual judgments about the past warranted?** A narrative fitting one's current feelings does not establish that every detail of the past was as it describes. Retaining the original event, original words, and the time an interpretation formed lets retrospective understanding remain constrained by its material. Continue with [Forming a life trajectory](flow-and-time.md#three-meanings-of-now).
+
+## Full speech, half-saying, and truth
+
+These concepts raise a further question: how does speech change the subject's
+relation to their history, and why can that change still not say their whole
+truth? First distinguish three relations, then follow their source periods.
+
+| Relation | What it makes visible | Consequence for sustained writing |
+| --- | --- | --- |
+| Full speech | Speech reorganizes the subject's history and how it is assumed | Examine how expression changes someone's relation to their experience. |
+| Retroaction | Later signifying connections participate in determining earlier meaning | Read a new version as a reinterpretation of earlier expression, beyond counting additions. |
+| The half-saying of truth | Truth cannot be exhausted by a complete totality of speech | New understanding remains possible, while a present account cannot close subsequent speech. |
+
+### 1953: full speech and the subject's history
+
+**Full speech (*parole pleine*)** cannot be measured by the quantity of material.
+In [excerpts from “The Function and Field of Speech and Language in
+Psychoanalysis”](https://www.causefreudienne.org/textes-fondamentaux/fonction-et-champ-de-la-parole-et-du-langage-en-psychanalyse/),
+Lacan connects its effect with reorganizing past contingencies and the meaning
+of the subject's history as it opens toward a future. Ask how the subject assumes
+that history in speech addressed to another, beyond acquiring a more complete
+list of experiences.
+
+A brief statement may change someone's position in understanding their
+situation; extensive self-description may repeatedly sustain an existing image.
+This contrast directs attention to what speech does. It supplies no test that
+classifies speech as full from sentence length, a feeling of candor, or
+self-identification alone. Connecting writing and model collaboration with this
+question is this site's extension; its effects require understanding actual
+exchange and use.
+
+### 1960: unfolding signifying chains and retroaction
+
+In [“Subversion of the Subject”](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/),
+the temporal relation of meaning receives further construction: a sentence's
+later parts can retroactively determine how its earlier terms are understood.
+A signifying chain has an order of unfolding and a relation through which the
+later acts on the earlier. Connecting it with a personal trajectory requires
+explaining repetition, substitution, connections, and changes in the positions
+of words. Timestamped records supply material for that inquiry.
+
+Such development does not guarantee progress in one direction. Later
+interpretation may open previously unseen connections or force old material
+into a tidy story. Retaining earlier expression and new responses lets readers
+compare what actually changed. The preceding section on [retroaction and
+retrospective understanding](#retroaction-and-retrospective-understanding)
+distinguishes changes in meaning from their factual grounds.
+
+### 1970–1974: half-saying and the limit of saying all
+
+**Half-saying (*mi-dire*)** does not divide truth into two pieces that can be
+assembled, nor does it mean that a statement is half true and half false. In
+[*Seminar XVII*, 11 March 1970, transcription p. 47](https://www.lutecium.org/no/Jacques_Lacan/Media/pdf/1969.11.01-17-lenvers.pdf#page=47),
+Lacan uses the enigma as a model for truth's half-saying and distinguishes this
+form from the division of the subject in the same passage. Related concepts
+therefore still need their distinctions. In the [opening of *Television* (1974)](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19740131Television198740October6.pdf#page=1),
+he connects the impossibility of saying the whole truth with the limits of
+words and the real. This limit does not arise merely from insufficient present
+information; more records or revisions cannot be promised to remove it.
+
+This distinguishes several meanings of gradual development. Progressive
+disclosure in a Skill normally concerns reading existing material as needed.
+Unfolding speech can also form meanings that did not previously exist.
+Half-saying concerns the totality such speech cannot complete. These can meet
+within one practice, but an information-organizing method does not entail
+Lacan's account of truth. Early full speech and later half-saying cannot be
+joined into stages of first saying half and eventually saying everything.
+
+Returning to this site, a philosophical Skill can retain present understanding,
+participate in subsequent collaboration, and undergo revision through new
+experience and speech. The model's interpretations enter that exchange too;
+fluency grants them no position of final truth. Examine which relations become
+possible to articulate, assume, and change; factual judgments still require
+source checks. The main essay's [half-saying truth and continuing revision](lacan-and-description-logic.md#half-saying-truth-and-continuing-revision)
+develops this practice through the independence example. The guide supplies
+conceptual relations and reading entrances; the main essay develops the site's
+argument.
 
 ## The three registers: different relations within the same experience
 
@@ -90,10 +168,12 @@ The table lists entrances in chronological order. It helps locate a concept with
 | Source entrance | Questions to pursue | Return to this site |
 | --- | --- | --- |
 | [1949: The mirror stage](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1949-07-17.pdf) | How does an image participate in identification, and why can the ego not simply be treated as a transparent inner fact? | [Self-description and formal views](lacan-and-description-logic.md#self-description-and-formal-views) |
-| [1953: The function and field of speech and language](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1953-09-26b.pdf) | How does the past acquire meaning in present speech and the subject's history? | [Retroaction and understanding](#retroaction-and-retrospective-understanding) |
+| [1953: The function and field of speech and language](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1953-09-26b.pdf) | How does full speech reorganize the past, and how does the subject assume their history? | [Full speech and the subject's history](#1953-full-speech-and-the-subjects-history) |
 | [1960: Subversion of the Subject](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/) | How do subject, Other, signifier, and retroaction connect? | [The Other and retrospective meaning](lacan-and-description-logic.md#the-other-and-retrospective-meaning) |
 | [1966: Radio discussion, p. 2](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1966-12-02a.pdf) | What does growing up within language mean for the subject? | [Personal modeling](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use) |
 | [1969: Seminar XVII, 26 November](https://recherche-lacan.gnipl.fr/2013/07/23/lxvii-lenvers-de-la-psychanalyse-1969-1970-lecon-du-26-novembre-1969/) | How does a position in discourse differ from its actual speaker? | [Signifying chains and works](lacan-and-description-logic.md) |
+| [1970: Seminar XVII, 11 March, p. 47](https://www.lutecium.org/no/Jacques_Lacan/Media/pdf/1969.11.01-17-lenvers.pdf#page=47) | How does the enigma illuminate half-saying, and how does it differ from subjective division? | [Half-saying and the limit of saying all](#19701974-half-saying-and-the-limit-of-saying-all) |
+| [1974: Television, opening](https://lacanianworksexchange.net/wp-content/uploads/2023/07/19740131Television198740October6.pdf#page=1) | Why does continuing speech not amount to eventually saying the whole truth? | [Half-saying truth and continuing revision](lacan-and-description-logic.md#half-saying-truth-and-continuing-revision) |
 | [1974–1975: R.S.I. excerpts](https://www.freud-lacan.com/documents-ged/extraits-du-seminaire-xxii-de-jlacan-rsi-2/) | Why do connections among the registers become a question, and how do knots enter the discussion? | [The general Trinity and its individual instance](local-source-and-website.md) |
 | [1976: Sinthome, 17 February](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/); [11 May](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/) | How do particular writing and practices participate in a person's knot? | [Forming a sinthome](writing-a-sinthome.md) |
 
