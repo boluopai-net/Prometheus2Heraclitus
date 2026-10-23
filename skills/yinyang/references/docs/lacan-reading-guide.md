@@ -149,6 +149,50 @@ For example, understanding oneself as an “independent creator” involves an i
 
 This site draws on the registers' emphases to illuminate its practice: philosophy turns toward a real not exhausted by expression; psychology attends to images, identifications, and their organization of experience; engineering makes relations usable through language, rules, and programs. [The trinity of philosophy, psychology, and engineering](local-source-and-website.md#trinity-and-sinthome) arranges them as resonant analogies: follow a column for its emphasis, cross the columns for their connections. The site's physicalism has its own argument; the Real contributes a question about the limits of expression.
 
+## Fantasy and its traversal: the subject's position in a relationship
+
+**Fantasy (fantasme)** in Lacan concerns the subject's relation to the object of
+desire and how a scene positions the subject in relation to the Other's desire.
+It can organize the experience of reality, expected responses, satisfaction,
+and repetition. Everyday daydreams may supply material; the recurring positions
+and relations within them matter especially. [“The Subversion of the Subject” (1960)](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/)
+locates fantasy among subject, desire, and the Other. Object a in its formula
+concerns the cause of desire, rather than simply a person or thing one wants.
+
+Suppose someone treats “I have a place with the other only if I continually
+prove useful” as a necessary condition of relationship. Inquiry concerns both
+the claim's truth and how the person imagines the other's demands, occupies
+the position of being judged, and sustains the relation through giving, testing,
+and anxiety. Actual demands, lived dependencies, and particular experiences
+remain part of the explanation.
+
+**Traversing fantasy** concerns a change in the subject's relation to this
+organization. A seemingly necessary scene and position can become recognizable;
+their function in sustaining desire and satisfaction can enter analysis, and
+the subject may cease to depend on them in the same way. Recognizing an inaccurate
+belief or giving a more complete account of oneself addresses only part of this.
+The final session of *Seminar XI* (24 June 1964; Alan Sheridan translation, p. 273)
+leaves the experience of the drive after traversing the fundamental fantasy as
+a question. This [scholarly concept index](https://cahiers.kingston.ac.uk/concepts/drive.html)
+retains the source locator. Traversal thus concerns changes in relationship and
+experience, rather than a checklist of self-explanations to complete.
+
+Its relation to the later **sinthome** retains two questions: how a subject changes
+their dependence on a fantasy scene, and how a singular practice sustains their
+life and jouissance. Scholarship offers different accounts of their connection;
+see [Coffman, 2013](https://doi.org/10.1080/0969725X.2013.869023). In this site's
+contemporary use, examining relational position and constructing sustainable
+arrangements can interweave and revise one another.
+
+The six actual accounts can therefore become material for the person to reread
+patterns: compare experiences, exceptions, and later changes; examine how one
+meets the world and others; and test the accounts' own premises. The model helps
+develop interpretations, while actual relations and consequences continue to
+test them. [Rereading one's patterns: philosophical reflection and loosening fantasy](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops this practice. Understanding a concept, revising a document, changing
+participation, and traversal in a clinical sense each involve processes to
+understand and examine.
+
 ## Sinthome: from Lacan's question to this site's definition
 
 **Sinthome** is a spelling Lacan adopts in *Seminar XXIII*. In the particular construction of the [17 February 1976 session](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), it participates in repairing the knot; in the [11 May session](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/), the relations among Joyce's writing, ego, and the knot are developed further. The question concerns how a particular practice enters this person's mode of existence, beyond what a work expresses through its content.
