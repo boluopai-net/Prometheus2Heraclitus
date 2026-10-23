@@ -141,6 +141,33 @@ a judgment, or fails to carry a change into use, revise the relevant guidance
 and check whether the new approach helps. Another person's practice can call
 for different objects, organization, or methods.
 
+## The person rereads the six accounts and recurring patterns
+
+The person can read and reflect on the six actual accounts: orientation, person,
+counterpart, relationship, environment, and revision. The model helps locate
+relevant passages, connect particular experiences, and develop candidate
+explanations. The person can recognize fit or mismatch, offer exceptions, or
+reconsider an earlier purpose. Select accounts by the current question and keep
+their sources accessible.
+
+One path brings authored philosophy to personal descriptions and their
+realization: how do these explanations understand self and others, what life
+does the arrangement support, and which values and concepts need revision too?
+Another begins with recurring experiences, comparing what happened, how the
+person understood the other, what response they expected, and how their own
+actions participated in the resulting relationship. Examine actual demands,
+conditions, and dependencies alongside the proposed relational explanation.
+
+Both paths treat the files themselves as revisable accounts. Retain competing
+explanations and counterexamples. Where conditions permit and the person wishes,
+connect a new understanding with a possible expression, action, or adjustment
+to collaboration, then revise affected accounts and environment through actual
+consequences. [Rereading one's patterns](../docs/embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops the philosophical and psychoanalytic resources. A clearer account, a
+new personal understanding, and lasting relational or lived change require
+their respective evidence. Record what has changed and what remains to be
+understood accordingly.
+
 ## Let the whole YinYang revise Skills and the environment
 
 Use the connected philosophy and personal understanding to assess the Skills
