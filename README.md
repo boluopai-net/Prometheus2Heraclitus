@@ -46,6 +46,21 @@ develops this invitation and distinguishes literary form from technical format.
 The [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) page
 presents the maintained documents and diagrams alongside their source links.
 
+<!-- repository-only:start -->
+## How concepts and imagery are used
+
+This project develops a personal philosophy and an engineering practice. It
+draws on concepts and imagery from Buddhism, Christianity, and other traditions
+to understand human experience, model collaboration, and creative activity.
+These uses are selected, interpreted, and reorganized within this work, and
+differ from their uses in religious studies, religious doctrine, and faith
+practice. References to original texts identify their sources; contemporary
+extensions rest on this work's own arguments and practice. The project develops
+through open source materials, versioned revision, issue discussion, and
+practical testing. Discussion of particular interpretations, arguments, and
+effects in use is welcome.
+<!-- repository-only:end -->
+
 ## Philosophy, psychology, and engineering: develop the missing connection
 
 **Philosophy articulates understanding and direction, psychology understands the
