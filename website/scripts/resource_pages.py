@@ -9,7 +9,7 @@ def render(dist, shell):
         ('getting-started', '工具使用', 'Using the Tools', 'axe.svg',
          '从订阅、全局提示词和搜索起步，接通母语阅读、个人哲学、Web 与本地、云盘和配置仓库。',
          'Begin with a subscription, global instructions, and search. Connect native-language reading, personal philosophy, Web and local work, Drive, and configuration.'),
-        ('research-learning', '科研与学习的建议', 'Advice for Research and Learning', 'notebook.svg',
+        ('research-learning', '科研与学习', 'Research and Learning', 'notebook.svg',
          '认识 Scientific Agents、Scientific Agent Skills 等科研仓库，以及两个老师怎样辅助研究与教学。',
          'Explore Scientific Agents, Scientific Agent Skills, further research repositories, and two teachers for research and learning.'),
         ('repositories/prometheus', '文档与图示', 'Documents & diagrams', 'document-diagram.svg',

@@ -33,8 +33,8 @@ GUIDES = (
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
      ('domain-methods', 'resources', 'learning'),
-     'notebook.svg', '了解可获取的科研资源仓库，以及本地老师和云端老师的用途。',
-     'Discover public research repositories and what Local Teacher and Web Teacher can offer.'),
+     'notebook.svg', '了解实际采用的科研与学习仓库，以及本地老师和云端老师的用途。',
+     'Explore the research and learning repositories used in this practice and what Local Teacher and Web Teacher can offer.'),
 )
 
 
