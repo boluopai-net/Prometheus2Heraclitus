@@ -295,6 +295,9 @@ def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '参加共同的窃火，用火培养自己的理解、判断与创造能力，成为能够继续生成的人。' if chinese else 'Join in the collective work of stealing fire, and use it to cultivate understanding, judgment, and creative capacity—to become someone who can keep generating.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p></header>'
+    notice = '用途提示：阴阳尚未经过针对心理健康用途的系统性实证评估，不支持用于自助式心理支持、心理分析、评估或治疗。存在或怀疑存在心理健康问题时，请寻求正规医疗机构的专业评估。普通使用宜限于整理经历、增加自我了解，以及借助六份文件的结构和选定工具配置个人环境。项目、模型与生活环境持续变化，个人经验不构成效果保证。超出上述用途自行使用，须自行承担相关风险。' if chinese else 'Use notice: YinYang has not undergone systematic empirical evaluation for mental health uses. Self-help psychological support, analysis, assessment, and treatment are unsupported uses. If you have or suspect a mental health problem, seek professional assessment through a qualified healthcare provider. Ordinary use should be limited to organizing experiences, increasing self-understanding, and adapting the six-file structure and selected tools to configure a personal environment. The project, models, and living conditions keep changing; personal experience does not guarantee effectiveness. Use beyond this scope is at your own risk.'
+    notice_url = 'https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/' + ('README.zh-CN.md#用途与心理健康说明' if chinese else 'README.md#intended-use-and-mental-health')
+    use_notice = f'<p class="use-notice footnote" role="note">{notice} <a href="{notice_url}">{"完整说明" if chinese else "Full notice"}</a></p>'
     sections = []
     for index, (zh, en, entries) in enumerate(GROUPS):
         label = zh if chinese else en
@@ -309,7 +312,7 @@ def index_body(chinese, title):
     ]
     references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in diagrams)
     review = f'<p class="diagram-references">{references}</p>'
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{review}{practice_entrance(chinese)}</article></main>'
+    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{review}{practice_entrance(chinese)}{use_notice}</article></main>'
 
 
 def old_book_alias(chinese):
