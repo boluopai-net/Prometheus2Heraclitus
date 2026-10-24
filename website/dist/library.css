@@ -5,6 +5,7 @@
 .guide-links{list-style:none;margin:20px 0 0;padding:0}.guide-links li{margin:12px 0}.guide-links a{color:var(--water)}.library-start{margin:24px 0 0;color:var(--accent);font-size:15px}.library-start a{padding-bottom:4px}
 .document img[src$="/example-reinstatement.png"],.document img[src$="/example-floating-acceptance.png"]{width:50%;margin-inline:auto}
 .document .thesis-figure{margin:24px 0;text-align:center}.document .thesis-figure img{margin-bottom:8px}.document .thesis-figure figcaption{font-size:14px;line-height:1.7}
+.document img[src$="/taiji.svg"]{width:min(100%,360px);background:#fff}
 .library-reader:not(.commentary) .document{font-family:var(--serif);font-size:18px}.diagram-card img{background:#f7f9f8}
 .library-purpose-links{list-style:none;padding:0;margin:24px 0 0}.library-purpose-links li{padding:18px 0;border-top:1px solid var(--line)}.library-purpose-links a{font-size:21px;color:var(--water)}.library-purpose-links p{font-size:16px;line-height:1.8;color:var(--muted);margin:8px 0 0;max-width:720px}
 .library-section .skill-summary{padding:22px 0;margin:0}.skill-summary h3{font-size:25px;margin:0 0 8px}.skill-summary p{margin:0;font-size:16px;line-height:1.8}
