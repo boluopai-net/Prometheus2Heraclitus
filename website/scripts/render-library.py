@@ -21,7 +21,7 @@ from commentaries import ESSAYS, RETIRED, IMAGE_SUCCESSORS, essay_url, retired_u
 from repository_panel import with_comments
 from resource_pages import render as render_resource_pages
 from public_skill_pages import SKILLS, render_pages as render_skill_pages, reading_label
-from reading_maps import reading_map
+from reading_maps import reading_map, inline_diagrams
 
 BASE = '/repositories/prometheus/'
 GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
@@ -267,6 +267,7 @@ def main():
         rendered = re.sub(r'，并提供对应的<a\b[^>]*>英文相遇图</a>和<a\b[^>]*>英文层次图</a>', '', rendered)
         rendered = re.sub(r'<p>\s*(?:·\s*)*</p>', '', rendered)
         rendered = rewrite_links(rendered, path)
+        rendered = inline_diagrams(rendered, path)
         chinese = '.zh-CN.md' in path
         counterpart = path.replace('.zh-CN.md', '.md') if chinese else path[:-3] + '.zh-CN.md'
         switch = f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{url(counterpart)}">{"English" if chinese else "中文"}</a>' if counterpart in allowed else f'<span class="edition-note">{"原文版本" if chinese else "Original edition"}</span>'
@@ -382,6 +383,11 @@ def main():
         intro = ('YinYang connects a worldview, an ontological view, and views of truth, knowing, value, and method through practice. Computational ontology represents selected objects, relations, and processes, including actual, hypothetical, and fictional situations; its use is physically realized. These documents develop their connections and offer guides for situated accounts, collaboration, and environment adaptation.' if english else '阴阳通过实践连接世界观、本体观、真理观、认识观、价值观与方法观。计算本体表征选定的对象、关系与过程，容纳实际、假设与虚构情境，其使用则得到物理实现。这里的文档展开它们之间的联系，并提供实际描述写作、协作和环境适配的指南。')
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
+        # Review stays at the top without making four large previews a prerequisite.
+        diagram_summary = 'Diagrams · 4 views' if english else '图示 · 4 张关系图'
+        body = re.sub(r'<section class="library-section"><h2>.*?</h2>',
+                      '<details class="diagram-disclosure" id="diagrams"><summary>' + diagram_summary + '</summary>', body, count=1)
+        body = body.replace('</div></section><p class="collection-intro">', '</div></details><p class="collection-intro">', 1)
         hub_style = '<style>.method-guides{margin:24px 0 0 16px;padding-left:20px;border-left:1px solid var(--line)}.method-guides h3{font-size:18px;margin-bottom:8px}.method-guides ul{list-style:none;margin:12px 0 0;padding:0}.method-guides li{border:0;padding:10px 0}.method-guides a{font-size:17px}.method-guides p{font-size:14px;line-height:1.8;margin-top:6px}</style>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang, hub_style))
 

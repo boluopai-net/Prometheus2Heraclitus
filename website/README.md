@@ -600,11 +600,18 @@ authored: when a title changes, inspect its incoming source links in both
 languages, correct stale names at their Markdown owner, then regenerate them.
 
 The philosophy overview keeps its five chapter entries followed by four compact
-diagram references for review. It has no embedded map or long duplicate preface;
-the stealing-fire essay also retains its normal reading opening. The library
-owns the four diagram entrances. The existing interactive `layers` view places
-the physical level below the computational level, with six adopted views plus
-practice on each. Its fourteen nodes distinguish physical grounding, computational
+diagram references for review. The library keeps all four diagram entrances in
+a native disclosure, initially closed and placed before the document groups.
+`reading_maps.inline_diagrams` embeds the canonical bilingual diagrams where
+their arguments first develop: borrowed fire after the stealing-fire opening,
+six dimensions in personal-first humanism, and shared inquiry and formation
+in the corresponding why-YinYang sections. Later references retain the standalone
+diagram readers; no duplicate philosophical prose or diagram source is created.
+The article uses only graph surfaces: responsive SVG compositions for the two
+reading maps and native SVG exports for the detailed maps. Toolbars, explanatory
+cards, and node indexes remain in the standalone readers. The `layers` graph
+connects six adopted philosophical views to shared practice through seven nodes;
+its explanatory cards distinguish physical grounding, computational
 representation, truth and inference, and guidance by value and method. Activity
 histories can be organized as event streams; conceptual participant models are
 inferred from histories and other material. The computational ontology represents
@@ -615,7 +622,7 @@ views are actual SVG relationship diagrams, without article indexes, disclosure
 cards, cross-diagram links, or separate-open buttons. Canonical
 `reading-maps.json` and `render-reading-maps.py` own their bilingual labels,
 accessible descriptions, and desktop/mobile compositions.
-`scripts/reading_maps.py` supplies the diagram-page embed only.
+`scripts/reading_maps.py` supplies the standalone and in-article embeds.
 `dist/reading-map-embed.js` accepts height messages solely from a matching
 same-origin frame and propagates the reader's current theme.
 
