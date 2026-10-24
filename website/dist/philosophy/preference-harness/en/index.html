@@ -225,11 +225,45 @@ not themselves prescribe this reconstruction.</p>
 </table>
 <p>The first permits different answers to have different supports. The second requires joint satisfiability of all accepted answers. Their difference matters because collecting individually supported claims can produce a set that no interpretation satisfies. Stability across views asks yet another question: which answers remain when the supporting view changes?</p>
 <p>AR requires entailment in every repair; IAR requires entailment from the assertion intersection of all repairs. AR has both properties: any repair supplies consistent support, and any model of that repair satisfies all AR answers. The intersection is consistent and supplies support for IAR. By monotonicity its consequences are AR consequences, so IAR also has consistent results. The assertion intersection differs from the intersection of sets of consequences.</p>
-<p>Different views can yield a common consequence while keeping their premises
-separate. Accepting that consequence preserves different supporting paths:
-opposition remains among incompatible assertions, and commonality appears in
-what each entails. This is one bounded comparison with dialectic, developed
-further through the transformation of query form below.</p>
+<h2 id="unity-within-conflict-consistent-views-and-common-consequences">Unity within conflict: consistent views and common consequences</h2>
+<p>Inconsistency-tolerant semantics already organizes opposition. The retained
+assertions conflict; repairs organize them into internally consistent views;
+query semantics specifies how answers may be accepted across those views.
+Unity can occur in a common consequence: premises that cannot be merged may
+still support the same conclusion.</p>
+<p>In the earlier example, <span class="math-source" data-display="false" data-tex="R_1=\{P(a)\}">$R_1=\{P(a)\}$</span> and <span class="math-source" data-display="false" data-tex="R_2=\{N(a)\}">$R_2=\{N(a)\}$</span> are each consistent
+with <span class="math-source" data-display="false" data-tex="T">$T$</span>, while their union is inconsistent. Because <span class="math-source" data-display="false" data-tex="P\sqsubseteq Q">$P\sqsubseteq Q$</span> and
+<span class="math-source" data-display="false" data-tex="N\sqsubseteq Q">$N\sqsubseteq Q$</span>, both paths entail <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span>. AR accepts <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span> without first
+choosing between <span class="math-source" data-display="false" data-tex="P(a)">$P(a)$</span> and <span class="math-source" data-display="false" data-tex="N(a)">$N(a)$</span>. The answer to this query is unified, while
+the original conflict and distinct grounds remain visible. This is
+<strong>commonality established through difference</strong>.</p>
+<p>Two levels of consistency can coexist here: consistency inside each repair,
+and joint consistency of the answers accepted by AR or IAR. Cross-view
+stability asks another question: does an answer hold in every considered
+view? The relations connect but have distinct objects. Brave can give every
+answer consistent support while leaving the answer set jointly inconsistent.
+IAR starts from the assertion intersection and can lose a consequence that
+AR obtains through different paths.
+<a href="https://arxiv.org/html/2003.05746v5#S3">Definition 7 in the source paper</a>
+provides these acceptance conditions. Whether unity is possible, and at
+which level, depends on the semantics and the actual conflict.</p>
+<p>In <a href="https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm">the <em>Encyclopaedia Logic</em>, §§79–81</a>,
+Hegel distinguishes understanding's fixed determinations, their dialectical
+disclosure of limitations, and the speculative apprehension of affirmative
+content within opposition. The <a href="https://www.marxists.org/reference/archive/hegel/works/sl/sl_divis.htm">development of §82</a>
+understands unity as a concrete relation among distinct determinations.
+Read through this question, the example asks which different grounds the
+common answer passes through and which distinctions it preserves.
+The commonality of <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span> does not turn <span class="math-source" data-display="false" data-tex="P">$P$</span> and <span class="math-source" data-display="false" data-tex="N">$N$</span> into one concept:
+incompatible support paths meet in a specified result.</p>
+<p>A further change becomes relevant when the fixed <span class="math-source" data-display="false" data-tex="T">$T$</span> itself creates an
+inadequate exclusion: revise the premises producing the opposition. The
+earlier passage from <span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> to <span class="math-source" data-display="false" data-tex="T_1">$T_1$</span> changes the relation between assistance
+and autonomy. Obtaining a common consequence preserves the theory, whereas
+premise reconstruction changes it. Both admit a dialectical interpretation
+while accomplishing different work. Formal semantics makes the former unity
+precise; philosophical inquiry continues to ask why that organization is
+appropriate and when it needs to change.</p>
 <h2 id="query-rewriting-and-sublation">Query rewriting and sublation</h2>
 <p><em>The old shape releases its hold. Something it made possible survives in a different arrangement; something else really ends. To say that all has been kept would conceal the loss. To say that nothing remains would miss the transformation.</em></p>
 <p>This image directs attention to what stops, what remains, and the relation in which it now works. Query rewriting provides a case where one specified preservation claim can be stated precisely.</p>
@@ -343,6 +377,7 @@ determination, negation, mediation, and development.</p>
 <li><a href="#a-small-formal-example">A small formal example</a></li>
 <li><a href="#from-conflicting-views-to-reconstructed-premises">From conflicting views to reconstructed premises</a></li>
 <li><a href="#consistent-support-and-consistent-results">Consistent support and consistent results</a></li>
+<li><a href="#unity-within-conflict-consistent-views-and-common-consequences">Unity within conflict: consistent views and common consequences</a></li>
 <li><a href="#query-rewriting-and-sublation">Query rewriting and sublation</a></li>
 <li><a href="#what-the-analogy-illuminates">What the analogy illuminates</a></li>
 <li><a href="#finish-situated-tasks-amid-changing-norms-and-worlds">Finish situated tasks amid changing norms and worlds</a></li>
