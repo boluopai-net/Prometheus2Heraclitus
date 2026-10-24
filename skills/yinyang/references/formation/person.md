@@ -11,6 +11,14 @@ relations affect one another.
 
 ## Understand activity in its situation
 
+This file is the person-facing part of a collaboration working model. Select
+psychological understanding for its implications for participation and a fitting
+environment; keep fuller experiences, records, and interpretations under private
+`references/personal/`, the main entrance for psychological self-understanding.
+Before updating this working account, follow the
+[philosophy, history, reference-refresh, and condensation sequence](revision.md#establish-the-current-material).
+The result helps organize cooperation; it is not a psychological model of the person.
+
 Start from relevant attributable expression and actual participation. A
 conversation about a decision can reveal competing concerns; a correction
 during work can expose a mistaken division of effort; an established practice

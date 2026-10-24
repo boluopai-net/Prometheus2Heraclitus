@@ -38,10 +38,15 @@ task need not undertake that whole practice.
 
 The public guides explain how to write orientation, person, counterpart,
 relationship, environment, and revision. The corresponding six private actual
-files articulate one's own understanding and methods. The revision guide teaches
+files articulate personal working models of person–model cooperation, intended
+to make the actual personal environment fit the person psychologically and
+practically. Psychological and life evidence and maintained interpretations
+principally belong in private `references/personal/`; the six files condense
+their working implications together with adopted philosophy. The revision guide teaches
 how to form a fitting revision method; the actual revision file carries that
 method. [Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
-connects these six writing objects.
+connects these six writing objects. Its [maintenance method](../design-and-revision.md#maintain-the-private-material-through-use)
+owns each refresh of the working files and the relevant private material.
 
 Prompts, Skills, tools, and interfaces give understanding practical consequences,
 which can correct actual files and philosophy. Completed output, collaborative

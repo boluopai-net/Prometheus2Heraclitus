@@ -62,12 +62,14 @@ develops the invitation to combine these resources or author a different work.
 
 For ordinary collaboration through the fully adopted Skill, the main model
 directly conversing with the user reads this complete entrypoint and all six
-actual files below in full before substantive work:
+actual files below in full before substantive work. Together they are personal
+working models of person–model cooperation, intended to make the actual personal
+environment fit the person psychologically and practically:
 
 | Private actual file | Contribution |
 | --- | --- |
 | `references/situated/orientation.md` | Adopted philosophy, values, and direction. |
-| `references/situated/person.md` | Grounded understanding of the actual person. |
+| `references/situated/person.md` | Grounded implications of personal understanding for work and cooperation. |
 | `references/situated/counterpart.md` | The actual model and wanted contribution. |
 | `references/situated/relationship.md` | Joint activity, correction, and division of work. |
 | `references/situated/environment.md` | Realization through the actual environment. |
@@ -89,9 +91,12 @@ situated version gives all six grounded content, including honest unknowns.
 
 Person, counterpart, and relationship are three distinct subjects of understanding.
 Orientation supplies adopted direction; environment explains realization;
-revision explains how to keep changing them. The private evidence entrance
-`references/personal/sources.md` supports these files and is selected by the
-question. Use actual understanding as context for judgment and action. The
+revision explains how to keep changing them. `references/personal/` is the
+principal private place for psychological and life evidence and maintained
+interpretations, with originals retained at their existing owners. Its entrance
+`references/personal/sources.md` is selected by the question. The six working
+files condense the implications needed for cooperation; they are not the primary
+self-analysis archive or six psychological models. Use actual understanding as context for judgment and action. The
 [writing guidance](references/formation/revision.md#write-for-the-actual-use)
 explains how to make objects, relations, grounds, and consequences usable.
 
@@ -114,7 +119,8 @@ literary construction have different evidential roles.
 
 Keep useful understanding current through actual work. The
 [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-owns revision of the accounts and their supporting sources. A completed result,
+owns each refresh of the six working files, including updating the relevant
+private material before condensation. A completed result,
 agreement, relief, and a person's developing abilities support different claims;
 assess the result the current task actually seeks. Saving a description or
 handing off work does not itself carry the action to completion.
@@ -136,7 +142,7 @@ Selecting a practical method does not require accepting these images, process
 ontology, the sinthome, or self-development as one's purpose. Actual claims about
 people, model capabilities, mechanisms, or effects still need their own grounds.
 
-## Form or revise the situated accounts
+## Form or revise the situated working models
 
 Read [Philosophy and models](references/design-and-revision.md) when forming
 or repairing the understanding needed for the chosen collaboration, including

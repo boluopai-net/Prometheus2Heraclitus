@@ -142,10 +142,16 @@ Suppose the model delivers a complete proposal, but the user finds that it misun
 The same arrangement can therefore continue through revision. Replacing a model, tool, or text need not make it an entirely different practice. But significant changes to purpose, participation, and relationships call for renewed understanding; the same name alone cannot establish that the arrangement has remained the same.
 
 An arrangement becoming easier to sustain also raises the question of what it
-sustains. The person can reread the six actual accounts through their authored
-philosophy, organize recurring experiences and their understanding of others'
-demands, and articulate unresolved questions. Philosophy, personal accounts,
-and actual arrangements can then change together. This ordinary self-understanding
+sustains. The person can reread personal material and its maintained interpretations
+under `references/personal/` through their adopted philosophy, organize recurring
+experiences and their understanding of others' demands, and articulate unresolved
+questions. The six situated files have a connected working purpose: they guide
+collaboration and fit the environment to this person's psychology, purposes,
+and circumstances. Revising them begins with reading the adopted philosophy,
+recovering relevant fresh histories, and updating the personal references and
+their interpretations. The refreshed understanding is then condensed into the
+six working files, enacted in the environment, and checked in use. Philosophy,
+personal interpretations, working models, and arrangements can thus change together. This ordinary self-understanding
 does not supply a method of psychological analysis, assessment, or treatment.
 [Rereading one's patterns](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
 develops these connected directions, joining the sinthome's sustaining function

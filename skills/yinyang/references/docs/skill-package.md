@@ -35,8 +35,10 @@ actual files, corresponding by object:
 
 The public guides have complete Chinese editions and explain how to form the
 corresponding content. The actual files articulate one's own orientation,
-personal understanding, actual counterpart, relationship, environment, and
-revision method. Revision guidance and an actual revision method are distinct
+the working implications of personal understanding, actual counterpart,
+relationship, environment, and revision method. Together they are personal
+working models of person–model cooperation, intended to make the actual personal
+environment fit the person psychologically and practically. Revision guidance and an actual revision method are distinct
 too: the former offers adaptable writing guidance; the latter explains how
 revision works with this person's philosophy, material, and actual environment.
 Public distribution contains guides, with no actual files or placeholder portraits.
@@ -50,12 +52,17 @@ version. Person, counterpart, and relationship remain three subjects of understa
 the other files supply direction, realization, and revision. Later changes follow
 affected meanings and dependencies.
 
-`references/personal/sources.md` is the private evidence entrance supporting
-the six actual files. Extended history, originals, and topical material stay
-with existing owners or under `references/personal/`, reached through
-access-bounded locators. The [revision writing guide](../formation/revision.md#sources-and-evidence)
+`references/personal/` is the principal private place for psychological and life
+evidence and maintained interpretations; `references/personal/sources.md` is its
+question-selected entrance. Extended history, originals, and topical material stay
+with existing owners or under that tree, reached through access-bounded locators.
+The six working files condense adopted philosophy and updated personal material
+into the implications needed for cooperation. They are not six psychological
+models or the primary self-analysis archive; `person.md` does not hold the whole
+psychological portrait. The [maintenance method](../design-and-revision.md#maintain-the-private-material-through-use)
+owns each refresh; the [revision writing guide](../formation/revision.md#sources-and-evidence)
 supplies evidence guidance. Independently authored philosophy has its own source;
-private support links it and retains relevant grounds.
+private material links it and retains relevant grounds.
 
 Both entire trees, `references/situated/` and `references/personal/`, are private.
 Everything else is common package content, including the entrypoint, six writing

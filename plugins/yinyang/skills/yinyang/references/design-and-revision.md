@@ -62,6 +62,24 @@ entrypoint's existing contract.
 
 ## Write for the actual use
 
+Keep three connected uses distinct. **Philosophy** develops adopted concepts,
+values, and direction. **Personal references**, maintained under private
+`references/personal/`, hold relevant psychological and life material, source
+records, and interpretations with their uncertainty. They are the primary
+entrance for understanding one's own psychological experience. **The six
+working files** under `references/situated/` condense what person–model
+cooperation needs to make the personal environment fit the actual person.
+They are not six psychological models; even the person file selects implications
+for collaboration rather than replacing the richer personal references.
+
+Whenever revising the working files, follow the revision guide's
+[material-refresh sequence](formation/revision.md#establish-the-current-material):
+read the adopted philosophy, retrieve relevant new history, refresh and correct
+the personal references, then condense the philosophy and those references into
+the working model. Scope the reading and changes to the question, checking the
+connected six-file whole. Stored interpretations remain fallible; a usable
+arrangement does not establish psychological truth.
+
 Philosophy and literature develop understanding; working accounts make selected
 meanings usable for judgment and action. Either person or model can read both;
 different uses do not partition access. The revision guide's [writing guidance](formation/revision.md#write-for-the-actual-use)

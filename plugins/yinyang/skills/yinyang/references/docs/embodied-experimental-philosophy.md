@@ -72,7 +72,7 @@ phenomenon. Either the explanation or the way it was examined can need revision.
 
 ## When a self-description becomes part of the event
 
-A revisable prose personal model brings another involvement into view.
+A revisable personal interpretation brings another involvement into view.
 Suppose someone reads an account connecting their difficulty beginning with
 fear of evaluation. Recognizing the account, resisting it, or trying to act
 through it can each change what happens next. An apparent confirmation may
@@ -108,17 +108,19 @@ while also making a repeatedly constraining relationship easier to sustain.
 [Forming a sinthome](writing-a-sinthome.md) therefore opens further work: examining
 both how the arrangement functions and how the person participates in it.
 
-This inquiry has two connected directions. One brings the person's authored
-philosophy back to the six actual accounts: orientation, person, counterpart,
-relationship, environment, and revision. Which descriptions still fit experience?
-Which arrangements support the life they value? Which concepts and values have
-revealed new questions through use? Philosophy helps examine the personal model,
-while experience can change the philosophy. The person can read, question, and
-revise these files as well as make them available to the model. They bring
-separated experiences and current understanding together for examination.
+This inquiry first returns to personal material and its maintained interpretations
+under `references/personal/`. This is the entrance for understanding one's own
+psychology: it brings experiences, expression, relationships, and earlier attempts
+to understand them together. Read the adopted personal philosophy, then recover
+relevant recent material from Computer History, conversations, and other histories.
+Add what is missing and correct inaccurate or outdated interpretations there.
+Which descriptions still fit experience? Which concepts and values have revealed
+new questions? Philosophy helps examine these interpretations, while experience
+can change the philosophy. Neither an earlier record nor a coherent explanation
+settles what the person is like.
 
-The other direction begins with recurring experiences and relational patterns
-articulated in the accounts. How does the person meet the world and others?
+One direction of rereading begins with recurring experiences and relational
+patterns in this material. How does the person meet the world and others?
 Whose recognition do they expect, what do they interpret as rejection, what do
 they believe they must become, and how do their actions help sustain these
 expectations? Borrowing Lacan's questions about fantasy, the inquiry concerns a
@@ -136,6 +138,21 @@ reproduce this scene. Actual demands, material dependencies, past experiences,
 and present expectations need comparison. Repetition opens an inquiry whose
 explanation remains unsettled.
 
+The connected practical direction asks how that renewed understanding should
+change cooperation. The six files under `references/situated/` are personal
+working models: orientation, person, counterpart, relationship, environment,
+and revision organize person–model collaboration and fit the environment to
+the person's psychology, purposes, and circumstances. The person file selects
+understanding relevant to that work; the fuller psychological inquiry remains
+with the personal material. After refreshing that material, condense it together
+with the adopted philosophy into the six working files, enact the needed
+environment changes, and check actual fit. For example, an old account may
+attribute difficulty beginning to fear of evaluation, while recent events show
+that an intrusive interface interrupts an otherwise willing start. Correct the
+interpretation in the personal references, then revise the working account and
+interface accordingly. An easier start supports the arrangement's usefulness;
+it does not certify a psychological explanation.
+
 Philosophically, treating a requirement as a questionable premise makes other
 ways of participating conceivable. That possibility does not establish a change
 in an actual psychological process. Ordinary use can revise files, tools, and
@@ -144,7 +161,7 @@ psychological mechanisms, distress, or relational change remain questions for
 discussion; they do not justify self-directed intervention or treating later
 changes as therapeutic effects.
 
-The files themselves participate in this examination. An account saying “this
+The personal interpretations and working files themselves participate in this examination. An account saying “this
 is who I am” may summarize experience or fix a provisional interpretation as an
 identity. The model's explanation may repeat premises both participants share.
 Reading it with particular events, exceptions, and later changes keeps it open

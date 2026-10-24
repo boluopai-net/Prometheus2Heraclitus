@@ -23,16 +23,15 @@ Anyone independently using this project for the unsupported mental-health purpos
 **Begin from this example, write your own philosophy, distill your private models,
 and make the thought you choose to share into your own works and website.**
 Philosophical writing helps explore an initially unclear self-understanding.
-Clear, grounded relations are distilled into six core accounts for actual model
+Clear, grounded relations are distilled into six personal working models for actual model
 collaboration: **orientation, person, counterpart, relationship, environment, and revision**.
 They state adopted philosophy and direction, understand the participants and
-their joint activity, and explain realization and continued revision. Concrete identity, episodes, and original material remain with
-private sources. Public work can express philosophy and selected understanding
-while the person retains the complete personal model privately. The collection
+their joint activity, and explain realization and continued revision. Their purpose is to make the actual personal environment fit the person psychologically and practically. Psychological and life evidence, together with maintained interpretations, principally belong in private `references/personal/`, with originals retained at their existing owners. Public work can express philosophy and selected understanding
+while the person retains their fuller personal understanding privately. The collection
 offers this practice of creation and condensation, beyond replacing a ready-made configuration.
 
 **This collection centers condensing philosophy and personal material into
-usable personal models and counterpart accounts.** YinYang begins with a
+usable working models of person–model cooperation.** YinYang begins with a
 particular person, combining event histories, philosophy, life and preference
 material, and psychological understanding of oneself and others into
 natural-language accounts for collaboration. The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
@@ -91,7 +90,7 @@ without making formation closed stages. Installed configurations can reflect
 constraints, habits, or defaults, so tool inventory alone cannot establish the
 person. Philosophy, grounded accounts, and environment continue to revise one
 another. [YinYang's package guide](skills/yinyang/README.md#use-and-understand-yinyang)
-explains its six working files and use: five grounded accounts and the revision guide.
+explains all six working files and their use, including the person's actual revision method.
 
 ## Skills in the collection
 
@@ -101,7 +100,7 @@ your model's actual Skill mechanism.
 
 | Skill | Purpose | Package |
 | --- | --- | --- |
-| [YinYang formation](skills/yinyang/SKILL.md) | Model the person, form a corresponding agent and relationship, and realize their collaboration in the actual environment. | [Guide and philosophical resources](skills/yinyang/README.md) |
+| [YinYang formation](skills/yinyang/SKILL.md) | Condense philosophy and personal understanding into working models of person–model cooperation, and make the actual environment fit the person. | [Guide and philosophical resources](skills/yinyang/README.md) |
 | [抽卡转盘 · random-wheel](skills/random-wheel/SKILL.md) | Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. | [Complete package](skills/random-wheel/) |
 | [搜索与研究 · research](skills/research/SKILL.md) | Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. | [Complete package](skills/research/) |
 | [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions. | [Complete package](skills/task-inquiry/) |
@@ -145,9 +144,9 @@ credentials, personal records, and host-specific bindings are excluded.
 ## Use with Codex
 
 Adopting the maintained YinYang includes developing one's own philosophical
-expression and maintaining **six working files: five grounded accounts under
-`references/situated/` plus `references/revision-guide.md`**. Their supporting
-evidence belongs under `references/personal/` or its existing private owners.
+expression and maintaining **six personal working models under
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`**.
+Psychological and life evidence and maintained interpretations principally belong under `references/personal/`, with originals at their existing private owners. These supply the relevant working implications condensed into the six files.
 Permanent public writing guides live separately in `references/formation/`;
 distribution contains no private accounts. Installing does not
 complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)

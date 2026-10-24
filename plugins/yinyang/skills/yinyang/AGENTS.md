@@ -25,7 +25,14 @@ how-to guides under `references/formation/`. A private situated package adds six
 actual files at `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
 The actual revision method is authored for that person and environment; a common
 guide cannot replace it. Ordinary use reads all six actual files in full.
-Supporting evidence has its private entrance at `references/personal/sources.md`.
+The six files are personal working models of person–model cooperation, intended
+to make the actual personal environment fit the person psychologically and
+practically. Psychological and life evidence and maintained interpretations
+principally belong in `references/personal/`, with originals retained at their
+existing owners; `references/personal/sources.md` is its question-selected entrance.
+`person.md` selects working implications rather than a whole psychological
+portrait. Follow the [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
+for every refresh of the six working files; do not duplicate its protocol here.
 Public distribution contains neither private tree. `scripts/sync-common.py`
 preserves both trees. Do not retrieve private portraits merely to maintain this
 public package. Other authors can change the organization and philosophy;

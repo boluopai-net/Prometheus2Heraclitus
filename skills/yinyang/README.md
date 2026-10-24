@@ -8,8 +8,8 @@ or form a grounded YinYang collaboration in your own environment.**
 
 ## What this package supplies
 
-YinYang helps a person develop their own philosophy and distill personal models
-through writing and practice. A model can contribute exploration, authorship,
+YinYang helps a person develop their own philosophy and distill personal working models of person–model cooperation
+through writing and practice, so the actual personal environment fits the person psychologically and practically. A model can contribute exploration, authorship,
 implementation, and correction; the person need not begin with a completed
 philosophy or self-portrait. Common ideas, private understanding, and actual
 work can develop together.
@@ -76,9 +76,13 @@ actual revision method at `references/situated/revision.md`.
 Full adoption forms and reads all six actual files. Public distribution supplies
 the six guides, not a person's actual content. Person, counterpart, and relationship
 remain three subjects of understanding; the other files articulate direction, realization,
-and revision. Relevant private evidence is reached through
+and revision. Psychological and life evidence and maintained interpretations
+principally belong in `references/personal/`, reached by the question through
 `references/personal/sources.md`, with originals retained at their existing owners.
-The package guide explains the paths and shared updates.
+The six files select implications for work and cooperation from that fuller
+understanding; they are not the primary self-analysis archive or six psychological
+models. The [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
+owns each refresh of these working files. The package guide explains the paths and shared updates.
 
 Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable

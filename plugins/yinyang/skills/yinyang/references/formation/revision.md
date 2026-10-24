@@ -14,7 +14,9 @@ the understanding that guided the change.
 Adapt the approach to your purpose, materials, and environment. You may be
 writing a different philosophy, revising one personal interpretation, or changing
 a tool. The connections below help identify what needs attention; their order
-and extent follow the work. The method itself can also be revised when experience
+and extent follow the work. Updating the six personal working files uses the
+material-refresh sequence below, with retrieval scoped to the affected question.
+The method itself can also be revised when experience
 shows a better way to proceed.
 
 ## Write your own actual revision method
@@ -51,16 +53,49 @@ that remains unfinished.
 
 ## Establish the current material
 
-Read the relevant philosophy and working accounts, then select supporting
-material for the question. Locate maintained originals and distinguish them
-from summaries, generated copies, and published versions. Check what is actually
-available and identify access gaps that affect the judgment.
+The private `references/personal/` material and the six files under
+`references/situated/` serve different purposes. Personal material retains
+psychologically relevant experiences, source records, and revisable interpretations.
+It is the main entrance when the question concerns understanding one's own
+psychology. The six files condense a **personal working model** of person–model
+collaboration: enough direction, personal context, counterpart understanding,
+relationship, realization, and revision method to make the environment fit the
+actual person. They do not together constitute a psychological model of that person.
 
-Purposes, research directions, relationships, and conditions may have changed
-since an account was written. Compare its sources with current exchange.
-The model can retrieve, compare, investigate, and write; the person contributes
-experience and judgments unavailable in those materials. Use what they have
-already supplied.
+Whenever updating these six working files, refresh their grounds before
+condensing them again:
+
+1. **Read the person's philosophy.** Start with the adopted philosophical
+   expression and relevant developed arguments. Use the current working files
+   to locate what depends on them, without treating an old condensation as a
+   substitute for that philosophy or its supporting material.
+2. **Find relevant new references.** Check current conversation and available
+   Computer History, dialogue histories, work/version history, or other source
+   records for material bearing on the affected understanding. Follow useful
+   summaries to originals when a consequential claim needs fuller context.
+   Histories have different coverage; observing an action does not reveal its
+   psychological cause. Use actual authorized sources and state material gaps.
+3. **Refresh the personal references.** Add useful new evidence with its source
+   and context, linking an existing original rather than copying it unnecessarily.
+   Compare it and the philosophy with the maintained interpretations in
+   `personal`; correct, qualify, reorganize, or retire inaccurate and outdated
+   parts. Preserve attributable originals and meaningful uncertainty. A new
+   reference is not merely another appended trait.
+4. **Condense the refreshed material with the philosophy.** Revise the affected
+   six-file content and check its connections with the other working files.
+   Select what changes collaboration or environmental design, retaining a route
+   back to the richer personal material. The account should explain what a
+   counterpart needs to understand and do, not attempt a complete psychological
+   portrait. Carry necessary changes into the environment and check their use.
+
+This sequence is a dependency of working-model revision, not a demand to collect
+new personal facts on every occasion or rewrite all six files each time. A
+bounded correction may use the current exchange as its new source; inspect
+relevant histories rather than surveying a whole life. If no new relevant
+material is found, retain that result honestly. The person contributes experience
+and judgments unavailable in the inspected sources, while the model carries
+retrieval, reference maintenance, and condensation. Later feedback can return
+the work to any earlier interpretation.
 
 ## Write for the actual use
 
@@ -158,7 +193,10 @@ useful as the philosophy changes.
 
 ## Let philosophy and personal material revise working accounts
 
-Read the philosophy alongside refreshed personal evidence. In the author's
+Read the philosophy alongside the personal references refreshed through the
+[sequence above](#establish-the-current-material). The six files are working
+models serving a fitting personal environment, with psychological understanding
+among their grounds. In the author's
 YinYang, orientation articulates adopted values and direction; person grounds
 understanding of the actual person; counterpart relates available capacity to
 wanted contribution; relationship explains joint activity; environment explains
@@ -176,16 +214,24 @@ a judgment, or fails to carry a change into use, revise the relevant guidance
 and check whether the new approach helps. Another person's practice can call
 for different objects, organization, or methods.
 
-## The person rereads the six accounts and recurring patterns
+<a id="the-person-rereads-the-six-accounts-and-recurring-patterns"></a>
 
-The person can read and reflect on the six actual accounts: orientation, person,
-counterpart, relationship, environment, and revision. The model helps locate
-relevant passages and organize reported experiences, expressed purposes, and
-preferences. The person can recognize fit or mismatch, offer exceptions, or
-reconsider an earlier purpose. Select accounts by the current question and keep
-their sources accessible.
+## Reread personal material and assess the working model
 
-One path brings authored philosophy to personal descriptions and their
+For understanding one's psychological experience, begin primarily with relevant
+`personal` material and its sources: episodes, expressions, relationships,
+reported experience, and tentative interpretations. The model helps locate
+and organize these materials; the person can recognize fit or mismatch, offer
+exceptions, or reconsider a reading. Their preservation supplies material for
+understanding, not a guarantee that an interpretation is correct.
+
+Read the six working files for a connected but different question: does this
+understanding lead to a suitable counterpart, division of work, and personal
+environment? Even `situated/person.md` selects what ordinary collaboration
+needs. It does not replace the richer personal material. A useful workflow
+change can establish better fit without validating a psychological explanation.
+
+One path brings authored philosophy to the personal reference material and its
 realization: how do these explanations understand self and others, what life
 does the arrangement support, and which values and concepts need revision too?
 Another begins with recurring experiences, comparing what happened, how the
@@ -193,7 +239,7 @@ person understood the other, what response they expected, and how their own
 actions participated in the resulting relationship. Examine actual demands,
 conditions, and dependencies alongside the proposed relational explanation.
 
-Both paths treat the files as revisable accounts. Ordinary use is limited to
+Both paths retain revisable interpretations. Personal rereading is limited to
 organizing experience, articulating questions, and increasing self-understanding.
 Distinguish what the person said, what the model inferred, and what actually
 changed in the environment. Explicit purposes and preferences can inform tool

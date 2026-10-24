@@ -144,11 +144,20 @@ develops how this understanding becomes a personal model; [Stealing fire and cul
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
-not by collecting more biography. The complete YinYang Skill gives actual understanding maintained homes:
+not by collecting more biography. The complete YinYang Skill gives working understanding maintained homes:
 orientation, person, counterpart, relationship, environment, and one's own
-revision method form six private actual files. Six public writing guides explain
-how to form them, including [How to revise](../formation/revision.md). Private
-evidence supports the actual files separately.
+revision method form six private actual files. These personal working models
+guide collaboration and fit the environment to the person's psychology, purposes,
+and circumstances. The person file retains cooperation-relevant understanding;
+psychological and life material and its maintained interpretations belong under
+`references/personal/`, the entrance for understanding one's own psychology.
+Six public writing guides explain how to form the working files, including
+[How to revise](../formation/revision.md). Revision first reads the adopted
+philosophy, retrieves fresh relevant histories, and updates personal references
+and inaccurate or outdated interpretations there. It then condenses philosophy
+and refreshed references into the six files, realizes needed environmental
+changes, and verifies actual fit. Records, interpretations, and working models
+remain fallible; a useful arrangement does not establish psychological truth.
 The [Philosophy and models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this approach
 does not require forming all six actual files.

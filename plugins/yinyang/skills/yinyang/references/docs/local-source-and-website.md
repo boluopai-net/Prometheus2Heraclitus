@@ -49,11 +49,30 @@ Philosophical accounts of world, existence, truth, knowing, value, and method pr
 
 An already formed personal model remains answerable to new experiences, works, choices, and interactions. The earlier philosophy expresses an understanding of the world, value, and living; actual use can disclose its conditions of applicability, contradictions, or aspects yet to be articulated. Maintenance compares earlier understanding with new material, asking whether the change concerns the person, counterpart, environment, or their interpretation.
 
+Here the personal model is a working model for cooperation and for fitting the
+environment to this person's psychology, purposes, and circumstances. Personal
+psychological and life material, including maintained interpretations, belongs
+under `references/personal/`; understanding one's psychology begins there.
+The six `references/situated/` files condense what the model needs in work.
+For example, a working account may say to present a draft for comparison, while
+the experiences behind a fear of judgment and competing explanations remain
+in the personal references. A workable response and a true psychological
+explanation are different achievements.
+
 The personal account brings preferences, experience, emotion, desire, concepts, and relationships together. They contribute different grounds: a stated working preference can guide an arrangement, a history can show how it arose or where it applies, and philosophy can clarify what the person means by independence or progress. This project [condenses personal models from event history, philosophy, and personal material](../formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material), drawing on understanding of one's own and others' psychology. Dialogue and activity histories can be organized as event streams; the personal model condenses relevant understanding from those histories and other material. The person, their history, and this account have different roles. Its scope follows the question and available grounds; the person guide explains how to form and revise it.
 
 The needed counterpart must be understood alongside the person. What does the person want the model to investigate, judge, and carry out? What capabilities does the available model actually have, and which tools can it use? Understanding the person and the counterpart jointly determines the collaboration. Wanting open exploration, for example, does not mean the model can only agree: it can still identify insufficient evidence, an incoherent explanation, or an unworkable means.
 
 Prompts, Skills, and harnesses bring these understandings into actual work. Prompts express relevant purposes, context, and contributions; Skills organize reusable methods and resources; a harness arranges models, tools, records, and execution conditions together. The existence of files is not the final result. What matters is whether the model can use them to complete the needed work and whether the person can understand, use, and change the arrangement.
+
+When revising the six working files, first read the adopted personal philosophy
+and retrieve relevant fresh material from Computer History, conversation, and
+other histories. Update or add personal references and correct inaccurate or
+outdated interpretations there. Then condense the philosophy and refreshed
+references into the six files, enact needed environmental changes, and verify
+their fit in actual use. The [revision guide](../formation/revision.md) owns the
+method. This dependency within a revision lets all three contributions continue
+to inform one another across use.
 
 <a id="develop-practice-from-existing-capabilities"></a>
 

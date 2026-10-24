@@ -12,20 +12,27 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private reflection and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
-In this implementation, the six actual files hold the distilled understanding
+In this implementation, the six actual files hold personal working models
 needed by a model counterpart: adopted orientation, the person, the actual
 counterpart and wanted contribution, their relationship, environmental realization, and an actual revision method. Person, counterpart, and relationship remain three objects of understanding;
 the six actual files have distinct responsibilities. The six private actual
 files live under `references/situated/`; permanent public guides live under
-`references/formation/`. Concrete identity details, episodes, original
-expressions, and longer investigations stay in `references/personal/` or the
-private originals it references. Distillation preserves the individual
+`references/formation/`. Psychological and life material, original expressions,
+and maintained interpretations stay in `references/personal/` or the private
+originals it references. Understanding one's psychology begins with those
+references; the six files select what cooperation and environmental fit require.
+For example, a person file can describe useful help during writing while the
+longer inquiry into a recurring fear stays with the personal references.
+Distillation preserves the individual
 differences that matter to collaboration, while keeping detailed evidence
 reachable when needed. Someone adopting these six actual files must form their own
 accounts rather than retain the author's personal substance.
-Evidence supports all six through a private `references/personal/sources.md`
-entrance; it is not itself a core account. Public distribution contains neither
-private accounts nor private source material.
+The private `references/personal/sources.md` entrance leads to that material and
+its interpretations. Revising the six starts with the adopted philosophy and
+fresh relevant histories, updating personal references and correcting their
+interpretations before condensing the working models again. Needed environment
+changes and actual-use checks complete the cycle. Public distribution contains
+neither private working models nor private reference material.
 
 A person can make a website for their philosophy while keeping the complete
 personal model private. Public philosophy is an authored work and a selected,

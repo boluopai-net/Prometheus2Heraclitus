@@ -32,8 +32,11 @@ Keep the following uses of writing distinct:
   how understanding becomes a situated account and a working environment.
   They should use the philosophy
   without repeating its complete exposition.
-- **Situated accounts and personal context** state the relevant understanding,
-  evidence, conditions, and implications explicitly for model use. Follow the
+- **Situated working models** select the relevant understanding, conditions,
+  and implications for person–model cooperation, so the actual personal environment
+  fits the person psychologically and practically. Psychological and life evidence
+  and maintained interpretations principally belong in private `references/personal/`;
+  the six working files are not the primary self-analysis archive. Follow the
   [writing method](references/formation/revision.md#write-for-the-actual-use);
   maintain correspondence with human-readable philosophy without making its
   literary form the default for working instructions.
@@ -50,8 +53,13 @@ The actual revision file states the recipient's method; its public guide explain
 how to write that method and is not an initial-reading substitute.
 Person, counterpart, and relationship remain three subjects of understanding; orientation,
 environment, and revision supply direction, realization, and continuing change.
-Private evidence at `references/personal/sources.md` supports the actual files,
-outside the initial reading. Public distribution contains neither private tree.
+Private `references/personal/` maintains psychological and life evidence and
+interpretations, reached by the question through `references/personal/sources.md`,
+outside the initial reading. The six situated files condense adopted philosophy
+and this updated material into personal working models of cooperation, rather
+than six psychological models. `person.md` selects working implications rather
+than holding a whole psychological portrait. The [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
+owns the refresh of each of the six files. Public distribution contains neither private tree.
 Common projection preserves both private trees; owners migrate meaning and verify
 their actual consumers. Other authors can change the structure and philosophy;
 maintenance of this implementation retains the six-guide/six-actual distinction.
@@ -186,6 +194,8 @@ substantive correspondence.
 
 Personal claims must be grounded in attributable expression, relevant
 experience, and actual use. Formation does not require a complete biography.
+Maintain evidence and interpretations at their private personal owner, and
+condense only the implications the working models need.
 The [Philosophy and models](references/design-and-revision.md) owns how to develop and
 revise the situated account; [Environment writing guide](references/formation/environment.md)
 owns carrying it into an environment and learning from the result.
