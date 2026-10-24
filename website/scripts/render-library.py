@@ -336,7 +336,7 @@ def main():
                 ('references/reading-map', '按任务问题阅读', 'Read by the work being done', '从当前问题找到有关论证、方法与原始来源。', 'Find relevant arguments, methods, and original sources from the question at hand.'),
                 ('references/docs/philosophical-readings', '哲学阅读', 'Philosophical readings', '了解各思想家、作品与本文论证的关系，并回到原文。', 'Trace thinkers and works to their role in the argument and their original sources.'),
                 ('references/docs/lacan-reading-guide', '拉康概念导读', 'A guide to Lacanian concepts', '从大他者、分裂主体、回溯、三界与圣状进入，理解原概念怎样进入个人哲学与实践。适合初读与复习。', 'An introduction and review tracing the Other, the divided subject, retroaction, the three registers, and the sinthome from original texts into personal philosophy and practice.'),
-                ('references/docs/psychological-readings', '心理阅读', 'Psychological readings', '从心理冲突、信念与推理、互动研究进入，页末附心理建模的专业参考。', 'Begin with psychological conflict, belief and reasoning, and interaction research; professional modeling references follow at the end.'),
+                ('references/docs/psychological-readings', '心理阅读', 'Psychological readings', '从心理冲突、信念与推理、互动研究进入，页末附心理学研究与专业方法的参考。', 'Begin with psychological conflict, belief and reasoning, and interaction research; references on psychological research and professional methods follow at the end.'),
                 ('references/docs/engineering-readings', '工程阅读', 'Engineering readings', '从 CS 自学指南与 Missing Semester 进入 Git、Linux、软件设计、算法和物理条件，页末附语言模型与数据工具。', 'From CS DIY and Missing Semester to Git, Linux, software design, algorithms, and physical conditions, followed by language models and data tools.'),
             ]),
         ]
