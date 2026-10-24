@@ -143,9 +143,10 @@ The same arrangement can therefore continue through revision. Replacing a model,
 
 An arrangement becoming easier to sustain also raises the question of what it
 sustains. The person can reread the six actual accounts through their authored
-philosophy, or examine recurring experiences for how they understand others'
-demands, position themselves, and participate in maintaining a relationship.
-Philosophy, personal accounts, and actual arrangements can then change together.
+philosophy, organize recurring experiences and their understanding of others'
+demands, and articulate unresolved questions. Philosophy, personal accounts,
+and actual arrangements can then change together. This ordinary self-understanding
+does not supply a method of psychological analysis, assessment, or treatment.
 [Rereading one's patterns](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
 develops these connected directions, joining the sinthome's sustaining function
 with continuing inquiry into one's relationships.

@@ -184,14 +184,13 @@ see [Coffman, 2013](https://doi.org/10.1080/0969725X.2013.869023). In this site'
 contemporary use, examining relational position and constructing sustainable
 arrangements can interweave and revise one another.
 
-The six actual accounts can therefore become material for the person to reread
-patterns: compare experiences, exceptions, and later changes; examine how one
-meets the world and others; and test the accounts' own premises. The model helps
-develop interpretations, while actual relations and consequences continue to
-test them. [Rereading one's patterns: philosophical reflection and loosening fantasy](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
-develops this practice. Understanding a concept, revising a document, changing
-participation, and traversal in a clinical sense each involve processes to
-understand and examine.
+The six actual accounts can help organize experiences, articulate questions,
+and increase self-understanding; concepts can also question the accounts' own
+premises. [Rereading one's patterns: philosophical reflection and loosening fantasy](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops this philosophical discussion. It provides no guidance for self-help
+psychological analysis, assessment, treatment, or traversal of fantasy. Model
+interpretations and document revisions do not establish psychological mechanisms,
+clinical traversal, or therapeutic effects.
 
 ## Sinthome: from Lacan's question to this site's definition
 

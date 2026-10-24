@@ -18,6 +18,23 @@ working environments can be understood and revised. Specialist Skills retain
 their domain methods and task responsibilities. Their use can also reveal
 mistakes in the account that guided them.
 
+## Intended use and mental health
+
+Use YinYang for philosophical reading, personal context organization, ordinary
+self-understanding, and supported environment design. It has not undergone
+systematic empirical evaluation for mental-health uses. This Skill does not
+support self-help psychological support, psychological analysis, mental-health
+assessment, or treatment. Psychoanalytic concepts in its essays are philosophical
+resources, not an intervention protocol. Keep personal rereading within organizing
+experience and expressing questions; do not turn its accounts into diagnoses,
+clinical judgments, treatment recommendations, or instructions to traverse fantasy.
+When mental-health problems are present or suspected, direct the person toward
+qualified professional assessment and appropriate care. Version histories and
+event records may help a person communicate their experiences to a professional;
+they do not validate psychological explanations or establish that AI caused a change.
+The repository's [full use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
+explains evaluation limits, changing versions, and reuse of the six-file structure.
+
 ## Choose the relevant use
 
 These materials support three uses that can overlap without forming a required

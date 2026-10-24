@@ -145,8 +145,8 @@ for different objects, organization, or methods.
 
 The person can read and reflect on the six actual accounts: orientation, person,
 counterpart, relationship, environment, and revision. The model helps locate
-relevant passages, connect particular experiences, and develop candidate
-explanations. The person can recognize fit or mismatch, offer exceptions, or
+relevant passages and organize reported experiences, expressed purposes, and
+preferences. The person can recognize fit or mismatch, offer exceptions, or
 reconsider an earlier purpose. Select accounts by the current question and keep
 their sources accessible.
 
@@ -158,15 +158,19 @@ person understood the other, what response they expected, and how their own
 actions participated in the resulting relationship. Examine actual demands,
 conditions, and dependencies alongside the proposed relational explanation.
 
-Both paths treat the files themselves as revisable accounts. Retain competing
-explanations and counterexamples. Where conditions permit and the person wishes,
-connect a new understanding with a possible expression, action, or adjustment
-to collaboration, then revise affected accounts and environment through actual
-consequences. [Rereading one's patterns](../docs/embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
-develops the philosophical and psychoanalytic resources. A clearer account, a
-new personal understanding, and lasting relational or lived change require
-their respective evidence. Record what has changed and what remains to be
-understood accordingly.
+Both paths treat the files as revisable accounts. Ordinary use is limited to
+organizing experience, articulating questions, and increasing self-understanding.
+Distinguish what the person said, what the model inferred, and what actually
+changed in the environment. Explicit purposes and preferences can inform tool
+and workflow changes. These records are not psychological measurements,
+clinical conclusions, or grounds for self-directed intervention. For mental
+health concerns, use them to communicate with qualified professionals rather
+than undertake self-help psychological analysis, assessment, or treatment.
+[Rereading one's patterns](../docs/embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops the philosophical resources; the
+[use notice](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
+states the evaluation limits. Document revisions and environmental changes
+establish their respective results, not changes in psychological states or mechanisms.
 
 ## Let the whole YinYang revise Skills and the environment
 

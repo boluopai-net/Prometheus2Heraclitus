@@ -95,6 +95,13 @@ that its initial prose could not anticipate.
 
 ## Rereading one's patterns: philosophical reflection and loosening fantasy
 
+This section borrows psychoanalytic concepts for philosophical discussion.
+Personal rereading is limited to organizing experience, articulating questions,
+and increasing self-understanding. It supplies no method for self-help
+psychological analysis, assessment, treatment, or traversal of fantasy. Mental
+health concerns call for assessment by qualified professionals. See the
+[use notice](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health).
+
 Once a personal arrangement becomes stable and usable, a further question remains:
 what does it enable to continue? It may support understanding, creation, and life,
 while also making a repeatedly constraining relationship easier to sustain.
@@ -129,13 +136,13 @@ reproduce this scene. Actual demands, material dependencies, past experiences,
 and present expectations need comparison. Repetition opens an inquiry whose
 explanation remains unsettled.
 
-Recognizing a position can make another participation possible. Where actual
-conditions permit, the person can try different expressions, requests, responses,
-and actions, observing what changes in the relationship. A requirement once
-treated as necessary may gradually lose its power to organize the whole of life.
-New understanding then returns to the six accounts, changing the counterpart's
-contribution and actual environment so the personal arrangement can sustain
-changes that have occurred.
+Philosophically, treating a requirement as a questionable premise makes other
+ways of participating conceivable. That possibility does not establish a change
+in an actual psychological process. Ordinary use can revise files, tools, and
+working arrangements from explicit purposes and preferences. Explanations of
+psychological mechanisms, distress, or relational change remain questions for
+discussion; they do not justify self-directed intervention or treating later
+changes as therapeutic effects.
 
 The files themselves participate in this examination. An account saying “this
 is who I am” may summarize experience or fix a provisional interpretation as an
@@ -146,7 +153,7 @@ higher ideal may give an old self-demand a more elaborate expression.
 
 Lacan's traversal of fantasy and his later work on the sinthome supply connected
 but distinct resources. Their relation remains differently interpreted in
-scholarship. Here they inform continuing self-examination, allowing an
+scholarship. Here they inform philosophical examination of concepts, allowing an
 understanding of relational position and the construction of sustainable
 arrangements to revise one another. See Coffman's
 [discussion](https://doi.org/10.1080/0969725X.2013.869023) of this unfinished relation.
