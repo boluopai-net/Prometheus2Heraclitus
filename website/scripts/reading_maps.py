@@ -3,14 +3,18 @@ import html
 import re
 
 SOURCE = '/repositories/prometheus/source/skills/yinyang/references/diagrams/'
+TITLES = {
+    'formation-path': ('窃火，然后成为火', 'Steal Fire, Then Become Fire'),
+    'borrowed-fire': ('参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself'),
+    'trinity-sinthome': ('三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome'),
+    'encounter': ('人与模型怎样共同探究', 'How people and models inquire together'),
+    'layers': ('从世界理解到实践实现', 'From understanding the world to realizing a practice'),
+}
 
 
 def reading_map(name, chinese):
     suffix = '.zh-CN' if chinese else ''
-    title = {
-        'formation-path': ('窃火，然后成为火', 'Steal Fire, Then Become Fire'),
-        'borrowed-fire': ('参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself'),
-    }[name][0 if chinese else 1]
+    title = TITLES[name][0 if chinese else 1]
     src = SOURCE + name + suffix + '.html'
     return f'''<section class="reading-map-embed"><iframe class="reading-map-frame" data-reading-map title="{html.escape(title, quote=True)}" src="{src}?embed=1" style="width:100%;height:760px;border:0" loading="lazy"></iframe><script defer src="/reading-map-embed.js"></script></section>'''
 
@@ -26,15 +30,13 @@ def inline_diagrams(rendered, path):
             ('encounter', '把两位参与者一起写出来' if chinese else 'Writing both participants together'),
             ('formation-path', '在共同工作中循环' if chinese else 'Cycling through shared work'),
         ],
+        'local-source-and-website': [
+            ('trinity-sinthome', '三位一体与圣状' if chinese else 'Trinity and sinthome'),
+        ],
     }
     for diagram, heading in placements.get(name, []):
-        title = {
-            'borrowed-fire': ('参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself'),
-            'formation-path': ('窃火，然后成为火', 'Steal Fire, Then Become Fire'),
-            'encounter': ('人与模型怎样共同探究', 'How people and models inquire together'),
-            'layers': ('从世界理解到实践实现', 'From understanding the world to realizing a practice'),
-        }[diagram][0 if chinese else 1]
-        if diagram in {'borrowed-fire', 'formation-path'}:
+        title = TITLES[diagram][0 if chinese else 1]
+        if diagram not in {'encounter', 'layers'}:
             content = reading_map(diagram, chinese)
         else:
             source = SOURCE + diagram + ('.zh-CN' if chinese else '') + '.svg'

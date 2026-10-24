@@ -370,11 +370,12 @@ def main():
             ('borrowed-fire', '参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself', '共同窃火、创造、作品与能力发展之间的关系。', 'The relationships between collective fire-bringing, creation, works, and developing capacities.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
             ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
+            ('trinity-sinthome', '三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome', '四格连环画连接三种贡献、伙伴进入生活、圣状的系结，以及造物后的反馈。', 'A four-panel comic connects differentiated contributions, a counterpart entering life, the binding of a sinthome, and feedback from creation.'),
         ]:
             suffix = '' if english else '.zh-CN'
             diagrams += f'<a class="diagram-card" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + name + suffix + ".svg")}" alt="{en if english else zh} — {"concept map preview" if english else "概念图预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>'
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
-            if name in {'formation-path', 'borrowed-fire'}:
+            if name not in {'encounter', 'layers'}:
                 diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">{"Documents & diagrams" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh}</p>{reading_map(name, not english)}</main>'
                 write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
                 continue
@@ -384,7 +385,7 @@ def main():
         suffix = 'en/' if english else ''
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/repositories/{suffix}">{"Resources & advice" if english else "资料与建议"}</a></div><header class="collection-heading"><h1>{"Documents & diagrams" if english else "文档与图示"}</h1></header><section class="library-section"><h2>{"Explore the relations" if english else "看见关系"}</h2><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></section><p class="collection-intro">{intro}</p>{groups_html}</main>'
         # Review stays at the top without making four large previews a prerequisite.
-        diagram_summary = 'Diagrams · 4 views' if english else '图示 · 4 张关系图'
+        diagram_summary = 'Diagrams · 5 views' if english else '图示 · 5 张图'
         body = re.sub(r'<section class="library-section"><h2>.*?</h2>',
                       '<details class="diagram-disclosure" id="diagrams"><summary>' + diagram_summary + '</summary>', body, count=1)
         body = body.replace('</div></section><p class="collection-intro">', '</div></details><p class="collection-intro">', 1)

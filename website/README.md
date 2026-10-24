@@ -600,14 +600,18 @@ authored: when a title changes, inspect its incoming source links in both
 languages, correct stale names at their Markdown owner, then regenerate them.
 
 The philosophy overview keeps its five chapter entries followed by four compact
-diagram references for review. The library keeps all four diagram entrances in
+diagram references for review. The library keeps all five diagram entrances in
 a native disclosure, initially closed and placed before the document groups.
 `reading_maps.inline_diagrams` embeds the canonical bilingual diagrams where
 their arguments first develop: borrowed fire after the stealing-fire opening,
 six dimensions in personal-first humanism, and shared inquiry and formation
-in the corresponding why-YinYang sections. Later references retain the standalone
+in the corresponding why-YinYang sections. The four-panel `trinity-sinthome`
+comic stays together beside the Trinity-and-sinthome discussion in
+`local-source-and-website`; it is not split between articles. Its responsive
+viewer uses a two-by-two composition on wide screens and a continuous vertical
+composition on narrow screens. Later references retain the standalone
 diagram readers; no duplicate philosophical prose or diagram source is created.
-The article uses only graph surfaces: responsive SVG compositions for the two
+The article uses only graph surfaces: responsive SVG compositions for the three
 reading maps and native SVG exports for the detailed maps. Toolbars, explanatory
 cards, and node indexes remain in the standalone readers. The `layers` graph
 connects six adopted philosophical views to shared practice through seven nodes;
