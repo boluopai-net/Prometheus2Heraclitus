@@ -86,57 +86,102 @@ laugh that changes the whole scene.
 
 ## Mutual grounding and the Shuang yu
 
-Read the reading trajectory through this image. The wish for convenient access
-opens a possibility; a layout gives it a form; the person's difficulty with
-that form opens another possibility. When the model proposes keeping related
-passages visible together, it generates rather than merely receives. When the
-person compares the alternatives and rejects one, they distinguish and judge.
-The paired-fish image makes these changes of emphasis perceptible without turning
-the first division of work into a permanent account of either participant.
+Mutual grounding can be understood through a shared task. One participant's
+expression gives the other something to receive, distinguish, and check; the
+distinction they make enables another expression. Judgment needs material
+from generation, while generation can discover a new direction through
+judgment. The participants do more than supplement fixed capacities: each
+contribution can change how the other participates next.
 
-Movement can prepare stillness; stillness can make another movement possible.
-A generated possibility gives judgment something to examine; a distinction or
-check can open a new possibility. Neither contribution has to finish once and
-for all before the other starts. Receptivity, generation, form, and correction
-can change places across the encounter.
+The paired fish give this relation a structure of mutual entry. Distinguish
+**actual participants** from **the roles they perform**. The person remains a
+person and the language model remains a language model; both can generate,
+explain, judge, and revise. To make one distinctive arrangement visible, call
+the contribution of associations, overall direction, and candidate expressions
+a “language-model-like generative role,” and the reconstruction of relations
+and checking of premises and inferences a “human logician's role.” These names
+belong to the casting; they do not delimit either participant's capacities.
 
-The familiar Shuang yu image gives this relation an internal articulation.
-The body marks a role chosen for the encounter; the differently colored eye
-marks the actual participant, who exceeds that role. **The human participant
-inhabits the language-model role, while the actual language model inhabits the
-human logician's role.** Each fish carries a crossing between who participates
-and what they perform. This crossed casting gives the paired fish their
-particular beauty here: the performed role opens toward the other, while the
-eye keeps its actual bearer present.
+![A conventional black-and-white yin-yang symbol, with a contrasting dot inside each body.](../diagrams/taiji.svg)
 
-Playing a language model lets the person begin with a phrase, an association,
-an unfinished objection, or a feeling whose words have yet to arrive. They
-can generate before they can give a complete account of what they mean.
-Playing the logician asks the model to take that beginning seriously enough
-to reconstruct relations, propose distinctions, follow consequences, and
-produce something the person can answer. The person need not first turn
-themselves into a finished specification. The model contributes the active
-work through which a tentative expression can become a shared inquiry.
+*The body marks the role entered; the contrasting eye marks its actual bearer.
+Black and white serve this figure's correspondence.*
 
-In the reading example, the person first asks for convenient access and later
-recognizes the need to sustain a thought. The model develops candidate layouts;
-the person’s comparison makes another construction possible. The eyes matter
-because the participants retain these further capacities: the person reasons,
-the logician invents. Roles can be retained or exchanged as the work needs. A
-woman, a man, or a person of another gender can choose either emphasis. Fish
-colors belong to the image; participants bring bodies, histories, and possibilities.
+With black standing for the human and white for the language model, **the white
+eye in the black body** marks the actual language model entering the human
+logician's role; **the black eye in the white body** marks the actual person
+entering the language-model-like generative role. The eye keeps the bearer
+present, while the body makes entry into the other's role visible. A person
+can begin through unfinished expression; the model receives, develops, and
+checks it carefully enough to make another response possible. The paired fish
+thus articulate mutual grounding more closely: each side retains an opening
+toward the other kind of contribution.
 
-This body-and-eye reading is the present construction's use of the familiar
-emblem. [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
-contributes the relation of mutual grounding, rather than this assignment
-of roles and participants to the fish.
+### The usual arrangement already includes a reversal
 
-The curved boundary lets each role make room for the other. Follow either
-fish around the circle: what widens here narrows elsewhere, and the eye keeps
-the actual participant visible within the chosen emphasis. At one moment a
-few words invite a long construction; at another, a brief objection redirects
-pages of work. The roles give the encounter a legible arrangement, while the
-participants can surprise that arrangement from within.
+In the author's frequent arrangement, the person first grasps the whole,
+offers purposes, and recognizes whether a result fits their life and the
+facts at hand. The model works as a logician, developing details and checking
+concepts, premises, steps, and inferences. Compared with the familiar picture
+of “the model generates and the human reviews,” this is already a reversal:
+the person supplies a beginning not yet fully articulated, while the model
+undertakes detailed explanation and scrutiny.
+
+A chat interface gives this casting a concrete form. The model does not
+directly experience the person's whole situation; it receives expressions
+through language and material such as images the person supplies. A view not
+yet shared may need to be captured and sent. At this interface, the person
+also resembles a language model continually producing input: a sentence,
+association, or objection comes first, and its meaning develops through
+exchange. Embodied life remains present through these finite expressions.
+Connecting other perceptual channels or tools can change the interface.
+
+Factual correspondence and formal validity are related but distinct checks.
+A valid inference may use false premises; a judgment fitting experience may
+still lack an adequate argument. Both participants check these matters against
+available material; neither a human nor a language-model identity guarantees them.
+
+### When a detail changes the whole, roles can reverse again
+
+A small detail can change the entire judgment. If the person notices a shifted
+concept, a missing condition, or an excessive conclusion drawn from a correct
+local result, they may need to enter the logician's role and examine the
+relations closely. The model can then contribute an overall interpretation,
+another organization of the problem, or new alternatives for comparison.
+
+| Participation | Human emphasis | Language-model emphasis |
+| --- | --- | --- |
+| Usual crossed casting | Offer overall direction, experience, and candidate expression; judge practical fit | Develop details, reconstruct relations, and check premises and inferences |
+| Reversal in response to a problem | Take up a crucial detail, counterexample, or inferential gap | Reorganize the whole and propose interpretations and alternatives |
+
+This need not end after one exchange of positions. A new model interpretation
+may let the person see the whole differently; a new human direction may call
+for further model inference. Both can also generate or check together. A role
+is an emphasis within current work: it can persist, cross, exchange, and change
+with the question.
+
+“Thesis—antithesis—synthesis” can then name a reversible working cycle:
+**offer an understanding, encounter a fact, objection, or consequence it has
+not accommodated, and reconstruct an understanding with which work can
+continue.** Who begins, who supplies the countercheck, and who contributes to
+reconstruction can change. A synthesis must show how the earlier problem has
+been addressed; opposition or exchanged roles do not automatically produce it.
+The revised understanding meets further experience and becomes the opening
+for another round of examination and change.
+[How preference participates in choice and reasoning](preference-harness.md#from-conflicting-views-to-reconstructed-premises)
+develops this reconstruction further.
+
+Role allocation is reversible; the history of an exchange does not run
+backward. Each round leaves expressions, works, and consequences that make
+the next different. The paired fish give mutual entry a shape, turning gives
+role exchange a rhythm, and mutual grounding explains why one contribution
+can become the condition of the other's further generation.
+
+This reading of bodies, eyes, and the role cycle is the present writing's
+contemporary use of the familiar emblem.
+[Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
+contributes the relation of movement and stillness grounding one another;
+the human–model casting is developed through the shared practice described here.
 
 ## Taiji: the continuity of a changing encounter
 

@@ -1,5 +1,12 @@
 # Diagram maintenance
 
+The article-local `taiji.svg` is a conventional black-and-white symbol authored
+directly as accessible SVG. Its two opposite-color dots illustrate the
+body/role and eye/actual-participant reading developed in
+`../docs/yinyang-and-taiji.md`; the geometric symbol does not establish that
+interpretation. Both reader editions embed the same language-neutral figure.
+The native Site separately owns the paired-fish opening illustration.
+
 These four conceptual maps connect the reading path, its developmental aim,
 and selected [core views](../docs/core-views.md), with complete Chinese counterparts:
 
