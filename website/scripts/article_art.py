@@ -19,7 +19,7 @@ SCENES = {
     'literary-programming': ('书中的火焰人物展开为灯、积木桥与收纳托盘，人与月形伙伴把凝缩的意象用于共同实践。', 'A flame character in a book unfolds into a lamp, block bridge, and organizing tray, as a person and moonlike counterpart put condensed imagery into practice.'),
     'metaphor-and-self-revision': ('人与陶土伙伴对照积木模型、草图和实际拱桥，一起调整不合适的弧形部件，让制作中的发现修订共同模型。', 'A person and clay companion compare a block model, sketch, and working arch, adjusting a curved piece so discoveries in making revise their shared model.'),
     'writing-a-sinthome': ('左侧博罗米结的青、红、赭三个闭环共同套连，交叉处标明上下穿越；右侧去掉红环，余下的青环与赭环可以分开。', 'At left, teal, vermilion, and ochre Borromean rings hold together with explicit over-and-under crossings; at right, removal of the vermilion ring lets the teal and ochre rings separate.'),
-    'local-source-and-website': ('同一工作台上的四面体连接透镜、心形石与扳手三个支点，表示哲学、心理与工程在共同物理现实中相互影响。', 'A tetrahedral structure on one workbench connects a lens, heart stone, and wrench, expressing how philosophy, psychology, and engineering affect one another within shared physical reality.'),
+    'local-source-and-website': ('三个人围绕工作台上的一个平面三角形共同工作，透镜、心形石与扳手分别对应哲学、心理与工程。', 'Three people work together around one flat triangular frame on a workbench, with a lens, heart stone, and wrench representing philosophy, psychology, and engineering.'),
     'embodied-experimental-philosophy': ('斜坡上的滚动物体挑战纸上的计划，试作者根据实际结果重新绘制安排。', 'A rolling object on a ramp challenges a paper plan, prompting the experimenter to redraw the arrangement through its actual consequences.'),
     'example-and-commons': ('三位朋友打开同一工具包，分别制作风筝、木偶与乐器，让共享资源形成不同创造。', 'Three friends open a shared toolkit and make a kite, puppet, and musical object, developing common resources into distinct creations.'),
     'speech-opposition-and-self-formation': ('说话者把相连的彩色形状放入笔记本中的未完成自画像，另一只手仍握着画面没有容纳的星形。', 'A speaker places linked colored shapes into an unfinished notebook self-portrait while holding a star absent from that account.'),
@@ -27,6 +27,7 @@ SCENES = {
 }
 
 CAPTIONS = {
+    'local-source-and-website': ('三个角，三种贡献；一个完整的三角形，同一项生活与实践。', 'Three corners, three contributions; one complete triangle, one shared life and practice.'),
     'preference-harness': ('爱心选方向，报告供检查：想走林荫路，还要确认桥能通过。', 'The heart selects a direction; the report supports a check: a preferred shaded route still needs a passable bridge.'),
     'finite-inquiry-and-abstraction': ('从房子到风车：简图保留道路与桥的连接，略去不影响这次寻路的细节。', 'From house to windmill: the map preserves road and bridge connections while omitting detail irrelevant to this route.'),
     'writing-a-sinthome': ('博罗米结的三环联结示意：去掉红环，另外两个便能分开。这幅图说明联结性质；正文另行展开个人实践安排的形成与表示。', 'A three-ring Borromean link: remove the vermilion ring and the other two can separate. This figure illustrates linkage; the text separately develops the formation and representation of a personal practice arrangement.'),
