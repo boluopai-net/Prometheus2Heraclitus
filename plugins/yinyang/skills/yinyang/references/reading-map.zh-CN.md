@@ -105,12 +105,14 @@
 解释分发与私人支撑；材料缺失时应指出，不声称读过。实际私人出处位于已形成私人包的
 `references/personal/sources.md`；公开[证据指引](formation/revision.zh-CN.md#来源与证据)说明怎样维护。
 
-四张图提供直观入口：
+五张图提供直观入口：
 
 - [全书关系](diagrams/formation-path.zh-CN.html)联系生活轨迹、共同反思、个人哲学、个人模型与实际实现。[English](diagrams/formation-path.html) · [SVG](diagrams/formation-path.zh-CN.svg)
 - [窃火与培养](diagrams/borrowed-fire.zh-CN.html)联系共同积累的能力、共同创造、人的能力发展与世界的回应。[English](diagrams/borrowed-fire.html) · [SVG](diagrams/borrowed-fire.zh-CN.svg)
 - [共同探究](diagrams/encounter.zh-CN.html)呈现参与者相连的贡献。[English](diagrams/encounter.html) · [SVG](diagrams/encounter.zh-CN.svg)
 - [六个哲学面向与共同实践](diagrams/layers.zh-CN.html)展开世界观、本体论、真理论、认识论、价值论、方法论及所采纳的立场，连接人与模型的共同实践，并说明计算本体、表达和实现怎样进入其中。[English](diagrams/layers.html) · [SVG](diagrams/layers.zh-CN.svg)
+
+- [三位一体怎样成为生活中的圣状](diagrams/trinity-sinthome.zh-CN.html)用连续四格连接三种贡献、伙伴进入生活、具体的系结以及造物后的反馈。[English](diagrams/trinity-sinthome.html) · [SVG](diagrams/trinity-sinthome.zh-CN.svg)
 
 独立的 HTML 资源表达关系，而非强制顺序或权限层级。完整论证与根据留在相应文章中。
 来源、验证与再分发声明见[图示维护说明](diagrams/PROVENANCE.md)。

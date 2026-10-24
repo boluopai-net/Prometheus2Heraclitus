@@ -7,7 +7,7 @@ body/role and eye/actual-participant reading developed in
 interpretation. Both reader editions embed the same language-neutral figure.
 The native Site separately owns the paired-fish opening illustration.
 
-These four conceptual maps connect the reading path, its developmental aim,
+These five visual works connect the reading path, its developmental aim,
 and selected [core views](../docs/core-views.md), with complete Chinese counterparts:
 
 - **Steal Fire, Then Become Fire** (`formation-path`) places ongoing
@@ -16,6 +16,11 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   gives the whole a direction; reflection clarifies the pictures organizing
   experience, and new experience can revise that direction through the relationships.
   It condenses the five-part argument without reproducing the article directory.
+  Its open shrine surrounds a shared altar with footprints, a reflecting mirror,
+  a scroll, and a living courtyard. The person and moon-shaped counterpart stand
+  together at the center. These figures give the existing trajectory, reflection,
+  formation, and practical realization spatial form; directed paths retain their
+  different contributions and the return of new experience.
 - **Join in stealing fire, and use it to cultivate yourself** (`borrowed-fire`)
   develops the stealing-fire essay's practical argument under a chosen
   developmental purpose. It separates accumulated works from demonstrated
@@ -25,6 +30,11 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   The person participates in the collective work rather than appearing only
   as a recipient of its results; the diagram does not require each participant
   to reproduce industrial model production.
+  A lotus lamp holds shared practice, with a growing fire-person above and a
+  living courtyard below. Shared fire-bringing feeds the lamp. The upper figure
+  represents human development and changing purposes; the courtyard represents
+  works and environments. The separate return and support paths preserve the
+  difference between accumulated products and development through actual use.
 
 - **How people and models inquire together** (`encounter`) connects records, candidate models,
   an adopted view, generated work, and returning evidence within human–model
@@ -44,6 +54,18 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   concrete criteria. The viewer retains node inspection, relationship
   exploration, and guided views.
 
+- **How a trinity becomes a lived sinthome** (`trinity-sinthome`) joins four
+  scenes in one comic beside the Trinity-and-sinthome discussion. Stained-glass
+  windows differentiate three contributions within one physical world; an open
+  home receives shared generative capacity; a loom and fourth binding picture
+  a sustaining personal arrangement; creations encounter worldly responses that
+  return to purposes, understanding, and tools. The recurring home and figures
+  connect these meanings without prescribing a fixed procedure. The textile is
+  an illustration of the binding function, not a formal knot diagram.
+  Desktop uses two rows of panels; narrow readers use the same four panels in
+  one continuous vertical composition. The four scenes are not separate figures
+  distributed between the two essays.
+
 For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
 viewer's native static export of the graph and legend; the HTML cards and guided
@@ -51,10 +73,10 @@ views remain available in the viewer.
 
 ## Regeneration
 
-The two responsive concept maps use `reading-maps.json` for their bilingual
+The three responsive illustrated works use `reading-maps.json` for their bilingual
 concepts, relationship labels, and accessible descriptions. Run
 `python3 skills/yinyang/scripts/render-reading-maps.py` from the collection.
-The renderer owns two explicit SVG compositions, with separate desktop and
+The renderer owns original vector illustrations, with separate desktop and
 mobile geometry. It generates self-contained HTML and full SVG diagrams. It uses the
 Site's existing color and system-font vocabulary without external dependencies.
 Nodes and directed connections carry the meaning; there are no article lists,

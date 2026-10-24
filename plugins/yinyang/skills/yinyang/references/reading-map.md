@@ -129,7 +129,7 @@ identify missing material rather than claiming to have read it. Private
 provenance stays at `references/personal/sources.md` in a formed private package;
 the public [evidence guide](formation/revision.md#sources-and-evidence) explains its maintenance.
 
-Four diagrams provide visual entrances:
+Five diagrams provide visual entrances:
 
 - [Formation through shared practice](diagrams/formation-path.html) connects
   life trajectory, shared reflection, philosophy, personal models, and their
@@ -144,6 +144,11 @@ Four diagrams provide visual entrances:
   their adopted positions alongside shared human–model practice. It explains
   how computational ontology, expression, and realization enter that practice.
   [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
+
+- [How a trinity becomes a lived sinthome](diagrams/trinity-sinthome.html)
+  connects differentiated contributions, a counterpart entering life, a concrete
+  sustaining relation, and feedback from creation in one four-panel comic.
+  [中文](diagrams/trinity-sinthome.zh-CN.html) · [SVG](diagrams/trinity-sinthome.svg)
 
 The self-contained HTML resources show relations rather than a mandatory
 sequence or authority hierarchy. Use the relevant essay for the developed

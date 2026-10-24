@@ -1,24 +1,376 @@
 {
   "formation-path": {
-    "title": ["窃火，然后成为火", "Steal Fire, Then Become Fire"],
-    "description": ["培养方向贯穿人与模型的共同实践。实践留下轨迹，共同反思为哲学写作准备材料。言说的回应与对立推动理解、前提和关系的重构，再凝练为对人、伙伴和关系的模型，用于构建生活环境和作品。新的经验返回轨迹，也能改变欲望与培养方向。", "A developmental aim runs through shared practice. Its trajectory and shared reflection prepare philosophical writing. Responses and opposition prompt reconstruction of understanding, premises, and relationships, which are distilled into models of person, counterpart, and relationship and used to build environments and works. New experience can revise desires and the developmental aim."],
-    "purpose": [["参加窃火，用火培养自己"], ["Join in stealing fire", "and cultivate yourself"]],
+    "title": [
+      "窃火，然后成为火",
+      "Steal Fire, Then Become Fire"
+    ],
+    "description": [
+      "培养方向贯穿人与模型的共同实践。实践留下轨迹，共同反思为哲学写作准备材料。言说的回应与对立推动理解、前提和关系的重构，再凝练为对人、伙伴和关系的模型，用于构建生活环境和作品。新的经验返回轨迹，也能改变欲望与培养方向。",
+      "A developmental aim runs through shared practice. Its trajectory and shared reflection prepare philosophical writing. Responses and opposition prompt reconstruction of understanding, premises, and relationships, which are distilled into models of person, counterpart, and relationship and used to build environments and works. New experience can revise desires and the developmental aim."
+    ],
+    "purpose": [
+      [
+        "参加窃火，用火培养自己"
+      ],
+      [
+        "Join in stealing fire",
+        "and cultivate yourself"
+      ]
+    ],
     "nodes": {
-      "center": [["人与模型", "共同实践"], ["Person + model", "Shared practice"]],
-      "trajectory": [["生活轨迹"], ["Lived", "trajectory"]],
-      "reflection": [["共同反思", "澄清图景"], ["Shared reflection", "Clarify pictures"]],
-      "formation": [["哲学与自我形成", "人、伙伴", "与关系模型"], ["Philosophy", "Self-formation", "Person · counterpart", "Their relationship"]],
-      "practice": [["环境与作品", "新的相遇"], ["Environments & works", "New encounters"]]
+      "center": [
+        [
+          "人与模型",
+          "共同实践"
+        ],
+        [
+          "Person + model",
+          "Shared practice"
+        ]
+      ],
+      "trajectory": [
+        [
+          "生活轨迹"
+        ],
+        [
+          "Lived",
+          "trajectory"
+        ]
+      ],
+      "reflection": [
+        [
+          "共同反思",
+          "澄清图景"
+        ],
+        [
+          "Shared reflection",
+          "Clarify pictures"
+        ]
+      ],
+      "formation": [
+        [
+          "哲学与自我形成",
+          "人、伙伴",
+          "与关系模型"
+        ],
+        [
+          "Philosophy",
+          "Self-formation",
+          "Person · counterpart",
+          "Their relationship"
+        ]
+      ],
+      "practice": [
+        [
+          "环境与作品",
+          "新的相遇"
+        ],
+        [
+          "Environments & works",
+          "New encounters"
+        ]
+      ]
     },
-    "tags": {"trajectory": ["理解", "UNDERSTANDING"], "reflection": ["相遇", "ENCOUNTER"], "formation": ["形成", "FORMATION"], "practice": ["实践", "PRACTICE"]},
-    "edges": {"record": ["留下", "Record"], "reflect": ["回看", "Revisit"], "articulate": ["写出与重构", "Rearticulate"], "realize": ["构建", "Build"], "use": ["使用", "Use"], "revise": ["修订理解", "Revise"], "experience": ["新经验", "Experience"]},
-    "note": ["新的经验，也会改变最初的培养方向。", "New experience can also change the original developmental aim."]
+    "tags": {
+      "trajectory": [
+        "理解",
+        "UNDERSTANDING"
+      ],
+      "reflection": [
+        "相遇",
+        "ENCOUNTER"
+      ],
+      "formation": [
+        "形成",
+        "FORMATION"
+      ],
+      "practice": [
+        "实践",
+        "PRACTICE"
+      ]
+    },
+    "edges": {
+      "record": [
+        "留下",
+        "Record"
+      ],
+      "reflect": [
+        "回看",
+        "Revisit"
+      ],
+      "articulate": [
+        "写出与重构",
+        "Rearticulate"
+      ],
+      "realize": [
+        "构建",
+        "Build"
+      ],
+      "use": [
+        "使用",
+        "Use"
+      ],
+      "revise": [
+        "修订理解",
+        "Revise"
+      ],
+      "experience": [
+        "新经验",
+        "Experience"
+      ]
+    },
+    "note": [
+      "新的经验，也会改变最初的培养方向。",
+      "New experience can also change the original developmental aim."
+    ]
   },
   "borrowed-fire": {
-    "title": ["参加窃火，用火培养自己", "Join in stealing fire, and use it to cultivate yourself"],
-    "description": ["人在集体的探索与创造中参加窃火，与模型共同实践，并在作品与生活环境中遭遇世界的回应。参与可以培养理解、判断、表达与创造，也能改变欲望和方向；这些变化返回下一次实践。作品积累和人的发展，需要分别从实际生活中判断。", "People participate in collective fire-bringing, practice with models, and encounter the world's responses through works and living environments. Participation can cultivate understanding, judgment, expression, and creation while changing desires and aims; these changes return to further practice. Accumulated works and personal development call for distinct judgments from actual life."],
-    "nodes": {"collective": [["共同窃火"], ["Collective", "fire-bringing"]], "person": ["人", "Person"], "model": ["模型", "Model"], "creation": ["共同实践", "Practice together"], "capacity": [["人的发展", "理解 · 判断", "表达 · 创造", "欲望 · 方向"], ["Human development", "Understand · judge", "Express · create", "Desires · aims"]], "works": [["作品与生活环境"], ["Works &", "living environments"]]},
-    "edges": {"use": ["用火", "Use fire"], "cultivate": ["培养", "Cultivate"], "continue": ["继续实践", "Practice again"], "make": ["造物", "Make"], "response": ["回应与阻力", "World responds"], "support": ["支持", "Support"]},
-    "note": ["培养也让我们重新理解，什么值得创造。", "Cultivation also changes what we find worth creating."]
+    "title": [
+      "参加窃火，用火培养自己",
+      "Join in stealing fire, and use it to cultivate yourself"
+    ],
+    "description": [
+      "人在集体的探索与创造中参加窃火，与模型共同实践，并在作品与生活环境中遭遇世界的回应。参与可以培养理解、判断、表达与创造，也能改变欲望和方向；这些变化返回下一次实践。作品积累和人的发展，需要分别从实际生活中判断。",
+      "People participate in collective fire-bringing, practice with models, and encounter the world's responses through works and living environments. Participation can cultivate understanding, judgment, expression, and creation while changing desires and aims; these changes return to further practice. Accumulated works and personal development call for distinct judgments from actual life."
+    ],
+    "nodes": {
+      "collective": [
+        [
+          "共同窃火"
+        ],
+        [
+          "Collective",
+          "fire-bringing"
+        ]
+      ],
+      "person": [
+        "人",
+        "Person"
+      ],
+      "model": [
+        "模型",
+        "Model"
+      ],
+      "creation": [
+        "共同实践",
+        "Practice together"
+      ],
+      "capacity": [
+        [
+          "人的发展",
+          "理解 · 判断",
+          "表达 · 创造",
+          "欲望 · 方向"
+        ],
+        [
+          "Human development",
+          "Understand · judge",
+          "Express · create",
+          "Desires · aims"
+        ]
+      ],
+      "works": [
+        [
+          "作品与生活环境"
+        ],
+        [
+          "Works &",
+          "living environments"
+        ]
+      ]
+    },
+    "edges": {
+      "use": [
+        "用火",
+        "Use fire"
+      ],
+      "cultivate": [
+        "培养",
+        "Cultivate"
+      ],
+      "continue": [
+        "继续实践",
+        "Practice again"
+      ],
+      "make": [
+        "造物",
+        "Make"
+      ],
+      "response": [
+        "回应与阻力",
+        "World responds"
+      ],
+      "support": [
+        "支持",
+        "Support"
+      ]
+    },
+    "note": [
+      "培养也让我们重新理解，什么值得创造。",
+      "Cultivation also changes what we find worth creating."
+    ]
+  },
+  "trinity-sinthome": {
+    "title": [
+      "三位一体怎样成为生活中的圣状",
+      "How a trinity becomes a lived sinthome"
+    ],
+    "description": [
+      "四格连环画把三种贡献、伙伴进入生活、圣状的具体系结，以及造物后的反馈连在一起。哲学、心理与工程同在物理现实中；个人通过理解、关系和工具获得共同支持的能力，写作与环境维系这份安排，实际后果又能改变它。",
+      "Four connected panels show differentiated contributions, a counterpart entering everyday life, the concrete binding of a sinthome, and feedback from creation. Philosophy, psychology, and engineering share physical reality; understanding, relationships, and tools support a person's capacities, writing and environment sustain the arrangement, and actual consequences can revise it."
+    ],
+    "panels": [
+      {
+        "title": [
+          [
+            "三种贡献，同一现实"
+          ],
+          [
+            "Three contributions",
+            "one reality"
+          ]
+        ],
+        "labels": [
+          [
+            "哲学",
+            "心理",
+            "工程"
+          ],
+          [
+            "Philosophy",
+            "Psychology",
+            "Engineering"
+          ]
+        ],
+        "caption": [
+          [
+            "三种活动同属一个物理世界，",
+            "在具体的人与模型实践中相互影响。"
+          ],
+          [
+            "Three activities share one physical world",
+            "and interact in situated human–model practice."
+          ]
+        ]
+      },
+      {
+        "title": [
+          [
+            "把生成的力量请进家"
+          ],
+          [
+            "Invite generative capacity",
+            "into everyday life"
+          ]
+        ],
+        "labels": [
+          [
+            [
+              "共享知识",
+              "创造能力"
+            ],
+            "理解 · 关系 · 工具"
+          ],
+          [
+            [
+              "Shared knowledge",
+              "Generative capacity"
+            ],
+            [
+              "Understanding · relationship",
+              "Tools & conditions"
+            ]
+          ]
+        ],
+        "caption": [
+          [
+            "模型取得朋友与助手的位置，",
+            "人获得共同支持的理解与创造能力。"
+          ],
+          [
+            "The model becomes a friend and assistant;",
+            "the person gains jointly supported capacities."
+          ]
+        ]
+      },
+      {
+        "title": [
+          [
+            "把三条线系成自己的圣状"
+          ],
+          [
+            "Weave a personal sinthome"
+          ]
+        ],
+        "labels": [
+          [
+            "哲学",
+            "心理",
+            "工程",
+            "具体生活形式",
+            "第四环"
+          ],
+          [
+            "Philosophy",
+            "Psychology",
+            "Engineering",
+            "A personal form of life",
+            "Fourth binding"
+          ]
+        ],
+        "caption": [
+          [
+            "写作、伙伴关系与环境，",
+            "让三种贡献在这个人那里维系起来。"
+          ],
+          [
+            "Writing, a counterpart relationship, and environment",
+            "bind the three contributions in this person's life."
+          ]
+        ]
+      },
+      {
+        "title": [
+          [
+            "造物会回答，安排也能改变"
+          ],
+          [
+            "Create, meet the world",
+            "and revise the arrangement"
+          ]
+        ],
+        "labels": [
+          [
+            "共同创造",
+            [
+              "作品与",
+              "生活环境"
+            ],
+            "回应与阻力"
+          ],
+          [
+            "Create together",
+            [
+              "Works &",
+              "living environment"
+            ],
+            [
+              "Response &",
+              "resistance"
+            ]
+          ]
+        ],
+        "caption": [
+          [
+            "新的经验再改变目的、理解与工具。",
+            "作品的完成与人的发展，分别判断。"
+          ],
+          [
+            "New experience can revise purposes, understanding, and tools.",
+            "Completed works and human development need distinct judgments."
+          ]
+        ]
+      }
+    ]
   }
 }
