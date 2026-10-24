@@ -211,11 +211,50 @@ The first permits different answers to have different supports. The second requi
 
 AR requires entailment in every repair; IAR requires entailment from the assertion intersection of all repairs. AR has both properties: any repair supplies consistent support, and any model of that repair satisfies all AR answers. The intersection is consistent and supplies support for IAR. By monotonicity its consequences are AR consequences, so IAR also has consistent results. The assertion intersection differs from the intersection of sets of consequences.
 
-Different views can yield a common consequence while keeping their premises
-separate. Accepting that consequence preserves different supporting paths:
-opposition remains among incompatible assertions, and commonality appears in
-what each entails. This is one bounded comparison with dialectic, developed
-further through the transformation of query form below.
+## Unity within conflict: consistent views and common consequences
+
+Inconsistency-tolerant semantics already organizes opposition. The retained
+assertions conflict; repairs organize them into internally consistent views;
+query semantics specifies how answers may be accepted across those views.
+Unity can occur in a common consequence: premises that cannot be merged may
+still support the same conclusion.
+
+In the earlier example, $R_1=\{P(a)\}$ and $R_2=\{N(a)\}$ are each consistent
+with $T$, while their union is inconsistent. Because $P\sqsubseteq Q$ and
+$N\sqsubseteq Q$, both paths entail $Q(a)$. AR accepts $Q(a)$ without first
+choosing between $P(a)$ and $N(a)$. The answer to this query is unified, while
+the original conflict and distinct grounds remain visible. This is
+**commonality established through difference**.
+
+Two levels of consistency can coexist here: consistency inside each repair,
+and joint consistency of the answers accepted by AR or IAR. Cross-view
+stability asks another question: does an answer hold in every considered
+view? The relations connect but have distinct objects. Brave can give every
+answer consistent support while leaving the answer set jointly inconsistent.
+IAR starts from the assertion intersection and can lose a consequence that
+AR obtains through different paths.
+[Definition 7 in the source paper](https://arxiv.org/html/2003.05746v5#S3)
+provides these acceptance conditions. Whether unity is possible, and at
+which level, depends on the semantics and the actual conflict.
+
+In [the *Encyclopaedia Logic*, §§79–81](https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm),
+Hegel distinguishes understanding's fixed determinations, their dialectical
+disclosure of limitations, and the speculative apprehension of affirmative
+content within opposition. The [development of §82](https://www.marxists.org/reference/archive/hegel/works/sl/sl_divis.htm)
+understands unity as a concrete relation among distinct determinations.
+Read through this question, the example asks which different grounds the
+common answer passes through and which distinctions it preserves.
+The commonality of $Q(a)$ does not turn $P$ and $N$ into one concept:
+incompatible support paths meet in a specified result.
+
+A further change becomes relevant when the fixed $T$ itself creates an
+inadequate exclusion: revise the premises producing the opposition. The
+earlier passage from $T_0$ to $T_1$ changes the relation between assistance
+and autonomy. Obtaining a common consequence preserves the theory, whereas
+premise reconstruction changes it. Both admit a dialectical interpretation
+while accomplishing different work. Formal semantics makes the former unity
+precise; philosophical inquiry continues to ask why that organization is
+appropriate and when it needs to change.
 
 ## Query rewriting and sublation
 

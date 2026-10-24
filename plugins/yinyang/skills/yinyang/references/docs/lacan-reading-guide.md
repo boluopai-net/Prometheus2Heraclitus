@@ -175,19 +175,34 @@ position, not between short and long speech. The sections on
 The early recognition vocabulary should not flatten Lacan's later questions.
 In [“Subversion of the Subject,” pp. 797–798](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/), he challenges a dialectic converging on absolute knowledge and a completed self-identical subject. Read the later divided subject and limits of truth without promising final reconciliation through successive explanations.
 
-The site's model-revision analogy begins from a different object. If one model
-yields $P$ and another yields $\neg P$, choosing a conclusion may leave both
-models' assumptions untouched. The conflict can instead prompt examination of
-their concepts, scope, and premises, followed by reconstruction of one or both
-models and the question they answer. For instance, models that equate independence
-with refusing help or with receiving help might both miss participation in
-organizing and revising assistance. That possibility is this site's construction,
-not a formalization of Lacan or a guarantee that every opposition has a synthesis.
-[Conflicting models and reconstructing the question](speech-opposition-and-self-formation.md#conflicting-models-and-reconstructing-the-question)
-develops the comparison. Hegel's [determinate negation and sublation](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm),
-Lacan's subjective reversal, and revision of a working representation retain
-their different questions and evidence. This guide supplies conceptual reading,
-not clinical instructions; software changes alone establish no analytic transformation.
+Lacan's contribution can illuminate both role change and model revision.
+[“Intervention on Transference,” PDF p. 2](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1951-11-01.pdf#page=2),
+explicitly locates what reversal touches in the subject's position.
+Applied to [entry into and return from roles](yinyang-and-taiji.md#lacan-from-a-role-to-a-position-within-the-relation),
+the question becomes how the person understands their capacities, the
+counterpart's contribution, and their dependence after passing through
+model-like generation and returning to judgment. The enacted passage
+supplies material; changes in position must be discerned in participation.
+
+In [changes of premises and philosophical models](speech-opposition-and-self-formation.md#dialectical-change-in-premises-and-philosophical-models),
+a new account can bring its own speaker into the question. The person may
+move from “the helper determines my independence” toward “how do I organize,
+receive, and change assistance?” The model must also examine whether its
+interpretation leaves the person only acceptance or refusal. Revised
+explanation, counterpart response, and participation can then change
+together. Lacan's consideration of Freud's prejudices in the Dora case
+likewise brings the interpreter into the account of the impasse.
+
+The connections retain distinct objects: role movement concerns entry into
+the other's contribution; model revision concerns changing concepts and
+premises; Lacanian dialectical reversal concerns subjective position and
+the unfolding of truth. They can affect one another within an exchange,
+rather than forming three disconnected topics. Correspondingly, a
+[common consequence across conflicting views](preference-harness.md#unity-within-conflict-consistent-views-and-common-consequences)
+precisely expresses one kind of unity, but its formal result alone cannot
+establish subjective transformation. This guide develops conceptual
+understanding through those connections; clinical questions retain their
+own practice and evidence.
 
 ## Retroaction and retrospective understanding
 

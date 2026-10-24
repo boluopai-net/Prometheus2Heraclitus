@@ -53,6 +53,27 @@ shared living environment.
 
 ## Hegel: sublation, history, and spirit
 
+The [*Encyclopaedia Logic*, §§79–81](https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm),
+and the [development of §82](https://www.marxists.org/reference/archive/hegel/works/sl/sl_divis.htm)
+present understanding, dialectic, and speculation as connected moments:
+fixing determinations, examining their own limitations, and grasping
+affirmative content within opposition. They inform the reading of
+[consistent views and common consequences](preference-harness.md#unity-within-conflict-consistent-views-and-common-consequences).
+Repair semantics retains its own definitions; the philosophical comparison
+asks how difference contributes to commonality.
+
+The [Preface to the *Phenomenology of Spirit*, paragraph 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm),
+offers the thought of return to self through otherness, developed here in
+[the dialectical meaning of role change](yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+as an interpretation of finite cooperation.
+The [Introduction, paragraphs 84–86](https://www.marxists.org/reference/archive/hegel/works/ph/phintro.htm),
+examines changes in knowledge, object, and criterion through experience.
+The account of [premises and philosophical models](speech-opposition-and-self-formation.md#dialectical-change-in-premises-and-philosophical-models)
+uses it to question the concepts organizing judgment. Read alongside
+[Lacan's dialectical reversal](lacan-reading-guide.md#dialectical-reversal-changing-understanding-and-position)
+to compare return through the other, revision of criteria, and changes of
+subjective position.
+
 [Science of Logic, “Being,” §§184–187](https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm)
 develops cessation and preservation in sublation. [Query rewriting and sublation](preference-harness.md#query-rewriting-and-sublation)
 uses this relation for a bounded comparison with query rewriting; a technical

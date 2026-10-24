@@ -119,6 +119,61 @@ that achieved organization at a particular scope; it need not mean declaring
 $P$ and $\neg P$ jointly true, merging every old premise, or ending future
 revision. A better model earns that description through reasons and consequences.
 
+## Dialectical change in premises and philosophical models
+
+Reconstruction can reach further. A failing premise may expose the
+philosophical picture behind it. Understanding independence as acting
+without passing through others makes all assistance suspect; counting
+capacity only as resources inside a body makes reliable support from a
+counterpart and environment appear external to the person's capacities.
+Changing the conditions of delegation in one task can preserve these
+pictures. Asking why independence and capacity were understood that way
+can change the philosophical model organizing many tasks.
+
+In [§81 of the *Encyclopaedia Logic*](https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm),
+Hegel locates dialectical movement in the one-sidedness disclosed by finite
+determinations themselves. This suggests an immanent examination here.
+If an account of independence aims at the person's ability to judge and act,
+yet weakens those abilities by excluding all assistance, it must confront
+the tension between its commitment and its development. Change has a
+determinate reason: we can say which determination needs to end and what
+it originally protected should continue.
+
+Such [**determinate negation**](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm) has specific content to negate. In §§1795–1797 of the *Science of Logic*, Hegel emphasizes that the negative result retains determinations from which it arose. Withdraw
+“assistance necessarily cancels autonomy,” retain concern for preserving
+one's direction, and connect receiving contributions with participation in
+judgment and revision. An understanding of autonomy realized through
+cooperation can emerge. It preserves concerns and useful distinctions,
+without needing to retain every former proposition. How the new account
+continues the old and changes practice belongs to its argument.
+
+In [the Introduction to the *Phenomenology of Spirit*, paragraphs 84–86](https://www.marxists.org/reference/archive/hegel/works/ph/phintro.htm),
+Hegel develops experience through changes in knowledge and its object
+during examination; the criterion of examination can change as well.
+Read through this thought, model revision can move from asking “did I
+complete the work alone?” to “how do I participate in purpose, judgment,
+and change?” The answer changes together with the object relations and
+standards through which autonomy is understood. This essay applies the
+thought to finite personal practice; actual people and consequences can
+still resist the account.
+
+Several connected dialectical movements can therefore be distinguished:
+
+| What changes | How opposition enters | What the new organization preserves |
+| --- | --- | --- |
+| Roles and participation | The person enters the model role and returns; the model makes a corresponding passage | Both contributions and possibilities of participation formed through the other |
+| Particular premises | An unconditional rule conflicts with a situation it cannot accommodate | The earlier concern and relations still valid under articulated conditions |
+| Philosophical models | Determinations of independence, capacity, or personhood disclose their limits in practice | Directions and distinctions still worth maintaining after criticism |
+| Inferential organization of conflicting material | Conflicting assertions enter distinct consistent views | Their grounds and common consequences accepted under a specified semantics |
+
+[Role return](yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+occurs in participants' activity, while [common consequence](preference-harness.md#unity-within-conflict-consistent-views-and-common-consequences)
+has an explicit formal definition. Their connection lies in reorganizing
+through difference while preserving contributions. How each accomplishes
+this needs its own life material, argument, or semantic conditions.
+“Thesis–antithesis–synthesis” can name these movements; their development
+gives the expression philosophical content beyond its three terms. Hegel himself distinguishes the movement's internal relation from externally imposed three-part counting in [§§1801–1802](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm). These comparisons likewise develop from the objects and relations actually changing.
+
 ## Recognition, desire, and speech change what the problem is
 
 Model reconstruction concerns more than a detached observer's description.

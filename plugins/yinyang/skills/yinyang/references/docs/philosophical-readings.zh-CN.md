@@ -41,6 +41,23 @@
 
 ## 黑格尔：扬弃、历史与精神
 
+[《小逻辑》第 79–81 节](https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm)
+及[第 82 节的展开](https://www.marxists.org/reference/archive/hegel/works/sl/sl_divis.htm)
+把知性、辩证与思辨说明为相连环节：固定规定，考察其自身限度，再理解对立中的
+肯定内容。它们帮助阅读[一致视图与共同后果](preference-harness.zh-CN.md#冲突中的统一一致视图与共同后果)；
+本文的修复语义有自己的定义，哲学比较追问差别怎样参与共同性的形成。
+
+[《精神现象学》序言第 18 段](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm)
+提供经由他异而返回自身的思路，
+[角色变化的辩证含义](yinyang-and-taiji.zh-CN.md#经由他者而返回角色变化的辩证含义)
+将它发展为有限协作中的解释。
+[导论第 84–86 段](https://www.marxists.org/reference/archive/hegel/works/ph/phintro.htm)
+则考察经验中的知识、对象与标准怎样改变，
+[前提与哲学模型](speech-opposition-and-self-formation.zh-CN.md#前提与哲学模型怎样发生辩证变化)
+据此追问组织判断的概念本身如何修订。与
+[拉康的辩证逆转](lacan-reading-guide.zh-CN.md#辩证逆转改变理解也改变位置)
+并读，可以比较经由他者而返回、修改理解标准与主体位置的变化。
+
 [逻辑学「存在」第 184–187 节](https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm)
 展开扬弃中的停止与保存。[查询重写与扬弃](preference-harness.zh-CN.md#查询重写与扬弃)
 据此与查询重写作有限比较；一项技术等价不能证明关于黑格尔全部辩证法的命题。

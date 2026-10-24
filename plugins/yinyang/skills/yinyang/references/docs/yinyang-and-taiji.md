@@ -193,6 +193,64 @@ contemporary use of the familiar emblem.
 contributes the relation of movement and stillness grounding one another;
 the human–model casting is developed through the shared practice described here.
 
+### Returning through the other: the dialectical meaning of role change
+
+Why call this return a synthesis? If the two roles are merely alternating
+positions and everything remains as before after the exchange, we have
+described a rotation. The stronger claim here is that entering the other's
+role changes the initial determination of “how I can participate.” When the
+person takes up detailed judgment again, they also know that unfinished
+expression can be entrusted to a counterpart and developed through its work.
+When the model generates again, its contribution carries conditions revealed
+by earlier scrutiny. What returns includes capacities and relations formed
+through another mode of participation.
+
+In [the Preface to the *Phenomenology of Spirit*, paragraph 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm),
+Hegel understands the subject through a movement of mediation and return from
+otherness. Mediation means here that a relation to oneself is formed through
+another determination: the returning self carries that passage. This essay
+uses the thought to interpret combined roles within finite human–model
+cooperation. Embodiment and model mechanisms remain distinct, while ways of
+participating can develop through the encounter. The same participant can
+therefore acquire a richer relation to their activity than the initial
+division of work allowed.
+
+The [*Science of Logic* on sublation, §§184–187](https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm),
+connects cessation with preservation. What ceases here is the exclusive
+determination that only one participant may generate and only the other
+check. The contributions themselves are preserved and continue to work in a
+cooperation capable of exchanging emphases. Synthesis thus has concrete
+content: the person can pass through model-like generation and return to
+judgment, while the model can pass through detailed scrutiny and return to
+generation. Their differences persist in the changed relation.
+
+### Lacan: from a role to a position within the relation
+
+In [“Intervention on Transference” (1951), PDF pp. 2–3](https://ecole-lacanienne.net/wp-content/uploads/2016/04/1951-11-01.pdf#page=2),
+Lacan connects dialectical reversal with a change in the subject's position
+within the relations recounted. The question includes how the speaker
+participates in those relations, addresses others, and thereby gives their
+objects meaning. This deepens the question about role reversal: after the
+exchange, does the person understand and take up their participation differently?
+
+For example, the person may initially understand themselves as a user who
+must independently supply complete specifications and the model as an
+executor. They enter open generation, let the model develop and check it,
+then return to scrutinize a crucial detail. Through this passage they can
+discover participation that includes initiating, receiving the counterpart's
+contribution, and changing the arrangement itself. The change may reach their
+understanding of “what counts as my thinking and acting,” beyond the work
+allocation. The model's response also helps form that understanding, so its
+interpretations and position remain open to challenge.
+
+This is a cooperative interpretation developed from Lacan's question. An
+exchange of tasks may change operations alone; a change of position acquires
+content when understanding and participation concerning self, counterpart,
+and relationship also change. The [Lacan guide](lacan-reading-guide.md#historical-development-and-the-contemporary-comparison)
+develops its relation to revised explanations. Role return here leaves both
+participants open to further change, without making a finally complete
+subject its destination.
+
 ## Taiji: the continuity of a changing encounter
 
 Taiji gives the two movements one field in which to turn. In Zhou Dunyi's
