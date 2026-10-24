@@ -86,7 +86,8 @@ details[open]>summary .when-open{display:inline}
 .book-introduction .collection-heading{display:flow-root;padding-bottom:0;margin-bottom:48px}
 .book-introduction .collection-heading h1{margin-bottom:24px}
 .book-introduction .collection-heading>:last-child{margin-bottom:0}
-.book-introduction .document .use-notice{font:14px/1.8 var(--sans);margin:0 0 28px}
+.book-introduction .document .use-notice{font:400 14px/1.8 var(--sans);color:var(--muted);margin:0 0 28px}
+.book-introduction .document .use-notice a{color:inherit;font-weight:400;text-decoration:underline;text-underline-offset:3px}
 .book-introduction .essay-entry{display:grid;grid-template-columns:36px minmax(0,1fr);gap:20px;border-top:1px solid var(--line);padding:24px 0}
 .philosophy-book.book-introduction .essay-entry h2,.philosophy-book.book-introduction .essay-entry h3{font-size:26px;margin:0 0 12px;line-height:1.5}
 .book-introduction .essay-meta{padding-top:6px;font:13px/1.7 var(--sans);color:var(--muted)}
