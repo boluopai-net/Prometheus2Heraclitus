@@ -22,7 +22,7 @@
 
 可以直接把这一页交给模型，说出眼前想解决的事，让它从地图里选择、配置并验证有用的工具。
 
-这页保留大多数人都能使用的通用建议。需要持续读论文、组合学科方法、建立实验或完成研究写作时，另读[科研与学习的建议](https://boluopai.net/research-learning/)；它把专用能力集中在一页，不要求普通工具使用先完成一套科研配置。
+这页保留大多数人都能使用的通用建议。需要持续读论文、组合学科方法、建立实验或完成研究写作时，另读[科研与学习](https://boluopai.net/research-learning/)；它把专用能力集中在一页，不要求普通工具使用先完成一套科研配置。
 
 **一条可走的起步路线：**连通网络 → 用上实际可用的模型订阅 → 安装本地客户端、准备基本提示词与必要 Skills → 完成一件真实任务 → 根据使用反馈改进工具与环境。搜索、配置、改装和必要的编写由模型随任务展开，每一步都以实际能用的结果继续。
 
@@ -105,7 +105,7 @@
 | 想做什么 | 可以从哪里开始 |
 | --- | --- |
 | 找资料、找回以前的工作 | 搜索研究、论文检索、已连接文档，以及相关 History 和项目版本；模型沿线索回到原文和当前状态。 |
-| 读书、学习或推进研究 | 老师方法负责讲解与接续，学科与研究方法库提供专业参考；专用安排见[科研与学习的建议](https://boluopai.net/research-learning/)。 |
+| 读书、学习或推进研究 | 老师方法负责讲解与接续，学科与研究方法库提供专业参考；专用安排见[科研与学习](https://boluopai.net/research-learning/)。 |
 | 制作或修改成果 | 文档、表格、演示、网页、图示、图像与音频能力；从实际需要的文件或作品出发，交付能够检查的结果。 |
 | 调整或修复自己的环境 | 环境设计、应用配置、浏览器与设备操作、诊断和版本维护；模型把修改接回原来的使用入口。 |
 
@@ -217,7 +217,7 @@ Bob、沉浸式翻译和 Read Frog 是阅读入口，实际翻译可以来自另
 
 | 方向 | 公开来源与用途 |
 | --- | --- |
-| 科学与决策 | [K-Dense Scientific Agents](https://github.com/K-Dense-AI/scientific-agents)提供学科专家思考参考，[Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills)提供具体研究方法与工具；组合方式见[科研与学习的建议](https://boluopai.net/research-learning/)。[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)提供带来源与证据等级的生活决策材料。 |
+| 科学与决策 | [K-Dense Scientific Agents](https://github.com/K-Dense-AI/scientific-agents)提供学科专家思考参考，[Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills)提供具体研究方法与工具；组合方式见[科研与学习](https://boluopai.net/research-learning/)。[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)提供带来源与证据等级的生活决策材料。 |
 | 编程与工程 | [Superpowers](https://github.com/obra/superpowers)：软件开发方法；[Anthropic Skills](https://github.com/anthropics/skills)：可复用任务能力；[Matt Pocock Skills](https://github.com/mattpocock/skills) 与 [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills)：工程实践与代码质量。 |
 | 模型与上下文 | [Hugging Face Skills](https://github.com/huggingface/skills)：Hugging Face 模型与数据生态；[Context Engineering Skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)：上下文管理与智能体系统；[TypeSafe Skills](https://github.com/typesafe-ai/skills)：用 TypeSafe 组合结构化判断。 |
 | 研究、浏览与图示 | [Last30Days](https://github.com/mvanhorn/last30days-skill)：近期跨社区研究；[Jev Browser Use](https://github.com/wy-coliney/jev-browser-use)：用文本判断辅助浏览器操作；[Diagram Design](https://github.com/cathrynlavery/diagram-design) 与 [Archify](https://github.com/tt-a1i/archify)：制作图示与交互式架构图。 |
@@ -367,7 +367,7 @@ Obsidian 的多个库也采用**一套共享基础配置**：主题、插件选�
 
 保存的材料与当前讲解互相修订。模型根据疑问、异议和反馈调整解释，把有用理解写回材料；原文主张、模型类比与自己的经验保持可区分。记忆、检索、排版和材料维护可以由环境承担，人的注意力留给阅读、辨认、提问、尝试与反馈。普通使用不必先建立一套标准化知识库。
 
-学科专家怎样辅助老师，哲学与技术课程怎样组织材料，以及论文、实验、图示和写作怎样组合，集中放在[科研与学习的建议](https://boluopai.net/research-learning/#learning)。通用页保留这条入口，详细方法在专页随实际使用更新。
+学科专家怎样辅助老师，哲学与技术课程怎样组织材料，以及论文、实验、图示和写作怎样组合，集中放在[科研与学习](https://boluopai.net/research-learning/#learning)。通用页保留这条入口，详细方法在专页随实际使用更新。
 
 ### 工作方式：表达目的，让模型把事情做成
 
@@ -389,9 +389,9 @@ Obsidian 的多个库也采用**一套共享基础配置**：主题、插件选�
 
 与模型“同步”，主要是让正在理解和创造的事情能够连续：同一问题有背景可读，同一作品有源可改，一次反馈能进入下一次行动。它可以发生在短暂交谈、并排阅读或一次作品修订里，不要求全天在线。让环境承接记忆与杂务，把释放出的注意力用于读书、创造、身体活动，以及值得维系的人际关系。日常与模型之间的松紧，随着真实生活继续调整。
 
-### 哲学、对自己与他人心理的理解、工程，一起塑造个人环境
+### 哲学、心理、工程，一起塑造个人环境
 
-哲学、对自己与他人心理的理解、工程，共同服务于自己的生活、学习与工作环境。可以用**世界观—感受与认识—方法与实现**把握三者的侧重：哲学展开怎样理解世界；对心理的理解关注自己与他人怎样感受、理解和回应；工程让有关理解取得可用的形式，并接受物理条件和实际结果的约束。这里实际进行的是：主要在私人的 `references/personal/` 维护心理与生活证据及解释，再把所采纳的哲学与更新后的个人材料凝练为六份协作工作模型，用于配置和修订环境。这不要求读者自行建立心理机制模型。[哲学、心理与工程的三位一体](https://boluopai.net/philosophy/local-source-and-website/#世界观认识与实现)展开这份关系。先从使用中发现需要，再学习能帮助理解和改变它的那部分知识；不必另行承担与眼前目的无关的课程。
+哲学、心理、工程共同参与个人环境的形成。哲学提供理解世界与生活的概念和方向；心理这一面把具体的经验、感受、欲望、偏好与关系带进来，并由生活材料与所采纳的哲学共同凝练为个人工作模型；工程把这些模型用于设计、构建和修订适合自己的生活、学习与工作环境。因此，凝练个人模型时已经同时用到三个方面：生活材料提供根据，哲学帮助组织和判断，工程与个人环境的实际需要决定哪些关系需要被保留、表达和实现。实际使用又带来新的生活材料，推动三者继续修订。[哲学、心理与工程的三位一体](https://boluopai.net/philosophy/local-source-and-website/#世界观认识与实现)展开这份关系。先从使用中发现需要，再学习能帮助理解和改变它的知识。
 
 按所需背景进入[哲学阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html)、[心理阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html)与[工程阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html)。它们提供思想原文、书与论文、课程与实现文档；前面的工具入口提供可以直接使用的能力。
 

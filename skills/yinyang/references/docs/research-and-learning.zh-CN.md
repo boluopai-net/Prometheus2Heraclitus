@@ -1,15 +1,15 @@
-# 科研与学习的建议
+# 科研与学习
 
 想用模型辅助科研与学习，可以先准备两类资源：帮助模型理解学科问题的专家参考，以及让它开展检索、分析、写作等工作的 Skills。再接上负责讲解与探究的老师，你就能直接围绕书、论文和自己的问题交流。
 
-这页介绍值得获取的公开仓库，以及两个老师能帮你做什么。把链接交给模型，让它完成下载、接入和必要的配置；具体选用哪些方法，也由模型根据你的问题处理。基础工具与文件安排见[工具使用](https://boluopai.net/getting-started/)。
+这页介绍我们在科研与学习中实际采用的公开仓库，以及两个老师能帮你做什么。把链接交给模型，让它完成下载、接入和必要的配置；具体选用哪些方法，也由模型根据你的问题处理。基础工具与文件安排见[工具使用](https://boluopai.net/getting-started/)。
 
 ## 阅读入口
 
 <nav class="guide-navigation" aria-label="本页导航" markdown="1">
 
 1. [两个基础资源库](#domain-methods)
-2. [进一步的科研仓库](#resources)
+2. [写作、建模与心理学学习](#resources)
 3. [本地老师与云端老师](#learning)
 
 </nav>
@@ -32,21 +32,42 @@
 
 <a id="resources"></a>
 
-## 2. 还可以加入哪些科研仓库
+## 2. 写作、建模与心理学学习
 
-下面这些仓库可以补充写作、文献整理、投稿和专业建模。把感兴趣的链接交给模型，说明你想增加什么能力；不确定是否用得上时，也可以让它结合你的学习或研究方向判断。
+这些公开仓库已经作为方法或参考资料接入我们的科研与学习实践。下面按实际取用的内容介绍其用途；采用其中的方法，不等于启用整个仓库附带的服务。
 
-| 仓库 | 可以提供什么帮助 |
+### 论文写作与发表
+
+| 仓库 | 采用的内容与用途 |
 | --- | --- |
-| [Academic Writing Skills](https://github.com/WenyuChiou/academic-writing-skills) | 辅助学术论文写作与修订，展开论证、组织文章，并按目标刊物调整稿件。 |
-| [Research Hub](https://github.com/WenyuChiou/research-hub) | 连接文献、笔记与来源问答，提供 Zotero、Obsidian、NotebookLM 之间的研究工作空间，也有可单独采用的文献比较方法。 |
-| [Paper Lifecycle](https://github.com/M1n-n9/paper-lifecycle) | 围绕论文分析、修改与审稿回应开展工作，适合已有稿件、准备修订或处理审稿意见时使用。 |
-| [Academic Publishing Skills](https://github.com/yaotingsun/academic-publishing-skills) | 补充选刊、格式调整、投稿信、修回与校样等发表环节的帮助。 |
-| [PyMC Modeling](https://github.com/pymc-labs/pymc-modeling) | 为概率与贝叶斯建模提供 PyMC、PyTensor 等专业方法参考，适合需要这类分析的研究。 |
+| [Academic Writing Skills](https://github.com/WenyuChiou/academic-writing-skills) | 学术写作方法，用于发展论证、组织文章和修订稿件。 |
+| [Research Hub](https://github.com/WenyuChiou/research-hub) | 其中的文献比较矩阵方法，用于并列比较研究问题、方法、发现与局限。 |
+| [Paper Lifecycle](https://github.com/M1n-n9/paper-lifecycle) | 稿件修订与审稿回应方法，帮助理解意见、组织修改并说明回应。 |
+| [Academic Publishing Skills](https://github.com/yaotingsun/academic-publishing-skills) | 选刊、投稿信、修回回应与校样检查方法。 |
 
-这些来源可以按需要获取，也可以请模型一起准备好。仓库包含的方法多于你眼下会用到的部分；挑选、组合以及软件依赖的处理属于模型的工作。你不需要为了保存一套资料，就先购买它提到的所有服务或学完所有方法。
+### 概率与心理过程建模
 
-资料阅读、图示与展示工具仍可沿[工具使用](https://boluopai.net/getting-started/)中的入口补充。这里保留的是科研资源来源，方便你记起还有哪些能力可以交给模型接入。
+| 仓库 | 采用的内容与用途 |
+| --- | --- |
+| [PyMC Modeling](https://github.com/pymc-labs/pymc-modeling) | PyMC 建模、先验设定、ArviZ 诊断与 PyTensor 方法，帮助形成和检查贝叶斯分析。 |
+| [pymdp](https://github.com/infer-actively/pymdp) | 主动推断的计算工具，用于探索信念、状态、策略与行动之间的关系。 |
+| [HSSM](https://github.com/lnccbrown/HSSM) | 层级序贯采样建模工具，用于分析选择与反应时。 |
+
+### 心理学方法、阅读与图式
+
+| 仓库 | 采用的内容与用途 |
+| --- | --- |
+| [ellmos Skills](https://github.com/ellmos-ai/skills) | 其中的咨询方法资料，用于学习和比较倾听、动机访谈、认知重构、系统提问等方法。 |
+| [Psychotherapist Agent](https://github.com/xiaoye-hua/psychotherapist_agent) | 个案组织与纵向反思的设计参考，用于比较观察、假设及其后续修订。 |
+| [Lacan Mathemes](https://github.com/gjoncas/Lacan-Mathemes) | 拉康图式的 TeX 源码与图像，辅助阅读、解释和制作图示。 |
+| [Awesome Psychology Learning](https://github.com/holyshell/Awesome-Psychology-Learning) | 中文心理学书目、课程与相关机构、研究者的学习入口。 |
+| [Awesome LLM Psychometrics](https://github.com/ValueByte-AI/Awesome-LLM-Psychometrics) | 语言模型人格、价值、偏差、心智理论与测量效度等研究线索。 |
+| [Awesome AI Agents for Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) | 医疗与心理健康相关 agent 的论文和实现线索，供研究比较。 |
+| [Awesome Psychology](https://github.com/weeeBox/awesome-psychology) | 补充心理学学习与资料导航。 |
+
+这些资料与方法可以一起服务于读论文、讨论研究问题、设计分析和写作。参考目录帮助找到原始研究，方法包帮助组织工作，计算工具则让具体模型能够被运行和检查；收录某个项目不代表其主张已经得到验证。模型与老师可以按问题选取其中有用的部分。
+
+资料阅读、图示与展示工具还可沿[工具使用](https://boluopai.net/getting-started/)中的入口补充。
 
 <a id="learning"></a>
 
