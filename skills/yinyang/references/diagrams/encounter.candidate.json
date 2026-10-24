@@ -2,7 +2,7 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Activity histories and revisable views · YY-05 / YY-10 / YY-11",
+    "title": "Activity histories and revisable views",
     "output": "diagrams/encounter.html",
     "locale": "en",
     "quality_profile": "showcase",

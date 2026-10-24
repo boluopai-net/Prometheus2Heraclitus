@@ -2,7 +2,7 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "活动历史与可修订的工作视图 · YY-05 / YY-10 / YY-11",
+    "title": "活动历史与可修订的工作视图",
     "output": "diagrams/encounter.zh-CN.html",
     "locale": "zh-CN",
     "quality_profile": "showcase",

@@ -26,14 +26,16 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   as a recipient of its results; the diagram does not require each participant
   to reproduce industrial model production.
 
-- **How people and models inquire together** (`encounter`) connects YY-05, YY-10, and YY-11: records, candidate models,
+- **How people and models inquire together** (`encounter`) connects records, candidate models,
   an adopted view, generated work, and returning evidence within human–model
   activity. Activity and interaction histories are event streams; records
   preserve selected parts, while conceptual participant models are inferred
   from histories and other material. The participants themselves are not
-  identified with those streams. YY-09 supplies its event-based vocabulary.
+  identified with those streams. Its vocabulary connects the essays on process,
+  inquiry, participants, and revisable understanding; the map is not restricted
+  to a numbered core view.
 - **Six philosophical dimensions and shared practice** (`layers`) develops
-  YY-09 through seven visible subjects. Worldview, ontology, theory of truth,
+  the philosophical account through seven visible subjects. Worldview, ontology, theory of truth,
   epistemology, axiology, and methodology each state an adopted position and
   connect their contribution to shared human–model practice. Supporting cards
   unfold computational ontology, conceptual models, expression, realization,
@@ -62,8 +64,11 @@ height and theme only. Inspect label readability, node and edge relationships,
 and both viewport compositions. The philosophy directory retains four compact
 review links after its five chapter entries; it embeds no diagram.
 
-The detailed viewers were generated with Archify 3.1.0 (`encounter`) and 3.2.0
-(`layers`). From the YinYang references directory,
+The detailed viewers are generated with Archify 3.2.0. Their titles describe
+their subject without limiting their scope to selected numbered core views.
+The Site places graph-only figures in the first relevant article discussion;
+standalone viewers retain their explanatory cards and inspection controls.
+From the YinYang references directory,
 set `ARCHIFY_CLI` to the installed `bin/archify.mjs` and choose a temporary
 `CHECK_DIR` for the run:
 

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "六个哲学面向与共同实践 · YY-09",
+    "title": "六个哲学面向与共同实践",
     "output": "diagrams/layers.zh-CN.html",
     "locale": "zh-CN",
     "quality_profile": "showcase",
