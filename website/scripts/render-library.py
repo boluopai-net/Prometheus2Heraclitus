@@ -369,7 +369,7 @@ def main():
             ('formation-path', '窃火，然后成为火', 'Steal Fire, Then Become Fire', '共同实践怎样留下轨迹、形成理解，并由新的经验继续修订。', 'How shared practice leaves a trajectory, develops understanding, and is revised through new experience.'),
             ('borrowed-fire', '参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself', '共同窃火、创造、作品与能力发展之间的关系。', 'The relationships between collective fire-bringing, creation, works, and developing capacities.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
-            ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '点击两组「六种观点＋实践」，查看这些立场怎样联系计算表征、事实符合与物理实现。', 'Explore six adopted views plus practice at each level, connecting computational representation, factual correspondence, and physical realization.'),
+            ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
         ]:
             suffix = '' if english else '.zh-CN'
             diagrams += f'<a class="diagram-card" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + name + suffix + ".svg")}" alt="{en if english else zh} — {"concept map preview" if english else "概念图预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>'
