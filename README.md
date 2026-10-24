@@ -5,6 +5,18 @@
 [Website](https://boluopai.net/) · [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) · [简体中文](README.zh-CN.md)
 
 <!-- repository-only:start -->
+## Intended use and mental health
+
+YinYang is an evolving practice of personal philosophy, psychological understanding, and engineering. This project does not support using the YinYang Skill for self-help psychological support, psychological analysis, mental-health assessment, or treatment. It has not undergone systematic empirical evaluation for these uses; their effects and risks have not been established. The repository and website may change substantially with the author's understanding, circumstances, and practice, while model capabilities and the living environments they enter also change. Results from one version or personal experience cannot be directly generalized to other versions, people, or circumstances.
+
+If you have or suspect a mental-health problem, seek professional assessment through a qualified healthcare provider, with examinations, medication, psychological counseling, or psychotherapy as appropriate. This project's text and model outputs are not a basis for self-diagnosis, selecting treatment, or changing medication.
+
+Readers primarily interested in tools and personal environment configuration are encouraged to reuse the six-file structure and writing guides, develop their own content, and select only the Skills, methods, and tools they need. Revision histories of personal and relationship models, together with records of AI-assisted environmental changes, can provide material for recalling experience and discussing changes with professionals. Neither those records nor their interpretations constitute validated psychological measures or clinical conclusions. Independent personal use should remain within organizing experiences, expressing questions, and developing self-understanding, rather than independently conducting psychological analysis, assessment, or treatment.
+
+Anyone independently using this project for the unsupported mental-health purposes above assumes the associated risks; the project provides neither those professional services nor guarantees of their effects.
+<!-- repository-only:end -->
+
+<!-- repository-only:start -->
 **[Install in Codex](docs/codex.md)**
 <!-- repository-only:end -->
 
@@ -59,18 +71,6 @@ extensions rest on this work's own arguments and practice. The project develops
 through open source materials, versioned revision, issue discussion, and
 practical testing. Discussion of particular interpretations, arguments, and
 effects in use is welcome.
-<!-- repository-only:end -->
-
-<!-- repository-only:start -->
-### Intended use and mental health
-
-<sub>YinYang is an evolving personal philosophy, modeling, and engineering practice. This project does not support using the YinYang Skill for self-help psychological support, psychological analysis, mental-health assessment, or treatment. It has not undergone systematic empirical evaluation for these uses; their effects and risks have not been established. The repository and website may change substantially with the author's understanding, circumstances, and practice, while model capabilities and the living environments they enter also change. Results from one version or personal experience cannot be directly generalized to other versions, people, or circumstances.</sub>
-
-<sub>If you have or suspect a mental-health problem, seek professional assessment through a qualified healthcare provider, with examinations, medication, psychological counseling, or psychotherapy as appropriate. This project's text and model outputs are not a basis for self-diagnosis, selecting treatment, or changing medication.</sub>
-
-<sub>Readers primarily interested in tools and personal environment configuration are encouraged to reuse the six-file structure and writing guides, develop their own content, and select only the Skills, methods, and tools they need. Revision histories of personal and relationship models, together with records of AI-assisted environmental changes, can provide material for recalling experience and discussing changes with professionals. Neither those records nor their interpretations constitute validated psychological measures or clinical conclusions. Independent personal use should remain within organizing experiences, expressing questions, and developing self-understanding, rather than independently conducting psychological analysis, assessment, or treatment.</sub>
-
-<sub>Anyone independently using this project for the unsupported mental-health purposes above assumes the associated risks; the project provides neither those professional services nor guarantees of their effects.</sub>
 <!-- repository-only:end -->
 
 ## Philosophy, psychology, and engineering: develop the missing connection
