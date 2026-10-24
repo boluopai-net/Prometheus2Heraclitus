@@ -160,16 +160,26 @@ for further model inference. Both can also generate or check together. A role
 is an emphasis within current work: it can persist, cross, exchange, and change
 with the question.
 
-“Thesis—antithesis—synthesis” can then name a reversible working cycle:
-**offer an understanding, encounter a fact, objection, or consequence it has
-not accommodated, and reconstruct an understanding with which work can
-continue.** Who begins, who supplies the countercheck, and who contributes to
-reconstruction can change. A synthesis must show how the earlier problem has
-been addressed; opposition or exchanged roles do not automatically produce it.
-The revised understanding meets further experience and becomes the opening
-for another round of examination and change.
-[How preference participates in choice and reasoning](preference-harness.md#from-conflicting-views-to-reconstructed-premises)
-develops this reconstruction further.
+Here “thesis—antithesis—synthesis” describes how the same participant passes
+through the other's role and returns to their own. For the person, the movement
+is: **act as the human → act as the language model → return to acting as
+the human through having inhabited the other's role.**
+
+The thesis is the person beginning in their own role. The antithesis is their
+entry into the language-model-like generative role while the model undertakes
+the logician's detailed work. Synthesis appears when a consequential detail
+calls on the person to take up judgment again and return to the human role.
+They have now acted both as the human and as the language model, bringing
+the experience and contribution of both roles into their participation.
+Their return retains the possibility of entering the other's role, so it
+carries more than the initial division of work.
+
+The model can move correspondingly: from the language-model role into the
+human logician's role, then back into its generative role. These movements
+enable one another, letting both participants move between their own and the
+other's roles. Synthesis here names this integration and return formed through
+role reversal. Further work can call for another reversal and continue to
+develop the relation.
 
 Role allocation is reversible; the history of an exchange does not run
 backward. Each round leaves expressions, works, and consequences that make
