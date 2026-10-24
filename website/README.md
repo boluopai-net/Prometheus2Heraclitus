@@ -326,10 +326,10 @@ This is a practical resource, not an additional philosophy essay or Skill.
 The separate research and learning guide is authored at
 `skills/yinyang/references/docs/research-and-learning{,.zh-CN}.md` and rendered
 by the same script at `/research-learning/` and `/research-learning/en/`.
-Its seven source anchors drive the existing reading navigation. It has its own
+Its three source anchors drive the existing reading navigation. It has its own
 resources-hub entrance and reciprocal links with the general guide; specialist
-research and course-material detail stays there so the general introduction
-remains useful without reading the whole research arrangement. Library source
+repository recommendations and the two teachers' purposes stay there, with
+operational procedures and private environment inventories excluded. Library source
 views redirect to these reading routes, and both guides remain complete bilingual
 projections of the public package.
 `reader-pages.py` maintains its prominent homepage entrances;

@@ -32,9 +32,9 @@ GUIDES = (
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
-     ('research-map', 'domain-methods', 'evidence', 'models', 'writing', 'learning', 'workspace'),
-     'notebook.svg', '组合学科参考、研究方法与工具，让学习、实验和写作接续。',
-     'Connect domain references, research methods, and tools for learning, analysis, and writing.'),
+     ('domain-methods', 'resources', 'learning'),
+     'notebook.svg', '了解可获取的科研资源仓库，以及本地老师和云端老师的用途。',
+     'Discover public research repositories and what Local Teacher and Web Teacher can offer.'),
 )
 
 
