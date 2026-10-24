@@ -13,6 +13,10 @@
 .diagram-disclosure{border:1px solid var(--line);padding:0 24px;margin:24px 0 32px}
 .diagram-disclosure>summary{cursor:pointer;padding:16px 0;font-size:18px;min-height:48px}
 .diagram-disclosure .diagram-grid{padding-bottom:16px}
+.diagram-card-wide{grid-column:1/-1}
+.diagram-open{display:block}
+.diagram-context{display:inline-block;padding:12px 0;font-size:15px;color:var(--water);text-decoration:underline;text-underline-offset:4px}
+.diagram-return{margin:12px 0 20px}
 .inline-diagram{margin:32px 0;max-width:100%;min-width:0}
 .inline-diagram figcaption{font-size:14px;line-height:1.7;margin-top:12px;text-align:center}
 .document .inline-diagram-image{display:block;width:100%;height:auto;margin:0}

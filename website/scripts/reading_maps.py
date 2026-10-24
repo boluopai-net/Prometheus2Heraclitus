@@ -10,6 +10,18 @@ TITLES = {
     'encounter': ('人与模型怎样共同探究', 'How people and models inquire together'),
     'layers': ('从世界理解到实践实现', 'From understanding the world to realizing a practice'),
 }
+ARTICLE_LOCATIONS = {
+    'formation-path': 'why-yinyang',
+    'borrowed-fire': 'stealing-fire',
+    'trinity-sinthome': 'local-source-and-website',
+    'encounter': 'why-yinyang',
+    'layers': 'personal-first-humanism',
+}
+
+
+def article_context(name, chinese):
+    href = '/philosophy/' + ARTICLE_LOCATIONS[name] + ('/' if chinese else '/en/') + '#diagram-' + name
+    return f'<a class="diagram-context" href="{href}">{"查看正文" if chinese else "Read in context"}</a>'
 
 
 def reading_map(name, chinese):

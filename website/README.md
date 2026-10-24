@@ -599,9 +599,14 @@ result against the actual destination. Series navigation already uses
 authored: when a title changes, inspect its incoming source links in both
 languages, correct stale names at their Markdown owner, then regenerate them.
 
-The philosophy overview keeps its five chapter entries followed by four compact
+The philosophy overview keeps its five chapter entries followed by five compact
 diagram references for review. The library keeps all five diagram entrances in
 a native disclosure, initially closed and placed before the document groups.
+Review entrances place the two fire illustrations first, the Trinity-and-sinthome
+comic next on its own row, then shared inquiry and world-to-practice relations.
+Each library figure and standalone reader has one “查看正文” / “Read in context”
+link to its first embedded article location. These links use the same stable
+figure anchors as the article renderer and do not depend on browser history.
 `reading_maps.inline_diagrams` embeds the canonical bilingual diagrams where
 their arguments first develop: borrowed fire after the stealing-fire opening,
 six dimensions in personal-first humanism, and shared inquiry and formation

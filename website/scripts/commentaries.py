@@ -307,6 +307,7 @@ def index_body(chinese, title):
     diagrams = [
         ('formation-path', '全书关系', 'The whole argument'),
         ('borrowed-fire', '窃火与培养', 'Fire and cultivation'),
+        ('trinity-sinthome', '三位一体与圣状', 'Trinity and sinthome'),
         ('encounter', '共同探究', 'Shared inquiry'),
         ('layers', '理解与实现', 'Understanding and realization'),
     ]

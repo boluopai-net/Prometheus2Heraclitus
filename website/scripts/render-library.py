@@ -21,7 +21,7 @@ from commentaries import ESSAYS, RETIRED, IMAGE_SUCCESSORS, essay_url, retired_u
 from repository_panel import with_comments
 from resource_pages import render as render_resource_pages
 from public_skill_pages import SKILLS, render_pages as render_skill_pages, reading_label
-from reading_maps import reading_map, inline_diagrams
+from reading_maps import reading_map, inline_diagrams, article_context
 
 BASE = '/repositories/prometheus/'
 GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
@@ -368,18 +368,23 @@ def main():
         for name, zh, en, desc_zh, desc_en in [
             ('formation-path', '窃火，然后成为火', 'Steal Fire, Then Become Fire', '共同实践怎样留下轨迹、形成理解，并由新的经验继续修订。', 'How shared practice leaves a trajectory, develops understanding, and is revised through new experience.'),
             ('borrowed-fire', '参加窃火，用火培养自己', 'Join in stealing fire, and use it to cultivate yourself', '共同窃火、创造、作品与能力发展之间的关系。', 'The relationships between collective fire-bringing, creation, works, and developing capacities.'),
+            ('trinity-sinthome', '三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome', '四格连环画连接三种贡献、伙伴进入生活、圣状的系结，以及造物后的反馈。', 'A four-panel comic connects differentiated contributions, a counterpart entering life, the binding of a sinthome, and feedback from creation.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
             ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
-            ('trinity-sinthome', '三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome', '四格连环画连接三种贡献、伙伴进入生活、圣状的系结，以及造物后的反馈。', 'A four-panel comic connects differentiated contributions, a counterpart entering life, the binding of a sinthome, and feedback from creation.'),
         ]:
             suffix = '' if english else '.zh-CN'
-            diagrams += f'<a class="diagram-card" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + name + suffix + ".svg")}" alt="{en if english else zh} — {"concept map preview" if english else "概念图预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>'
+            wide = ' diagram-card-wide' if name == 'trinity-sinthome' else ''
+            context_link = article_context(name, not english)
+            preview = 'trinity-sinthome-art.png' if name == 'trinity-sinthome' else name + suffix + '.svg'
+            diagrams += f'<article class="diagram-card{wide}"><a class="diagram-open" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + preview)}" alt="{en if english else zh} — {"diagram preview" if english else "图示预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>{context_link}</article>'
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
             if name not in {'encounter', 'layers'}:
                 diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">{"Documents & diagrams" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh}</p>{reading_map(name, not english)}</main>'
+                diagram_body = diagram_body.replace('</h1>', '</h1><p class="diagram-return">' + context_link + '</p>', 1)
                 write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
                 continue
             diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">← {"Library" if english else "文档与图示"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh} </p><iframe class="diagram-viewer" title="{en if english else zh}" src="{url(diagram_path)}" sandbox="allow-scripts allow-downloads"></iframe><p class="source-note">{link(PACKAGE + "references/diagrams/THIRD-PARTY-NOTICES.md", "Third-party notices" if english else "第三方权利说明")}</p></main>'
+            diagram_body = diagram_body.replace('</h1>', '</h1><p class="diagram-return">' + context_link + '</p>', 1)
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
         intro = ('YinYang connects a worldview, an ontological view, and views of truth, knowing, value, and method through practice. Computational ontology represents selected objects, relations, and processes, including actual, hypothetical, and fictional situations; its use is physically realized. These documents develop their connections and offer guides for situated accounts, collaboration, and environment adaptation.' if english else '阴阳通过实践连接世界观、本体观、真理观、认识观、价值观与方法观。计算本体表征选定的对象、关系与过程，容纳实际、假设与虚构情境，其使用则得到物理实现。这里的文档展开它们之间的联系，并提供实际描述写作、协作和环境适配的指南。')
         suffix = 'en/' if english else ''
