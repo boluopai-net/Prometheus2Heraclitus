@@ -73,7 +73,7 @@ python3 /path/to/shared/yinyang/scripts/sync-common.py \
 `references/personal/README.md` 中有用的内容保留在适当维护者处；整个私人目录受保护。
 
 公共内容的一致性保留一项接收方本地的发现标记例外：若目标 `SKILL.md` 的单行
-`description` 已以「用户自制：」开头，投影时保留这个前缀，并用公共源替换其余描述；
+`description` 已以 `<用户自制>` 和一个空格开头，投影时保留这个前缀，并用公共源替换其余描述；
 没有该标记的目标不会被加上。其他公共字节与文件模式仍由源维护；公开包不会把自己
 标为接收方自制。
 

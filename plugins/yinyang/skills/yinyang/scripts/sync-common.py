@@ -21,7 +21,7 @@ LEGACY_ACCOUNTS = {
     "references/usage.md",
 }
 PRIVATE_TREES = {"references/situated", "references/personal"}
-ORIGIN_PREFIX = "用户自制：".encode()
+ORIGIN_PREFIX = "<用户自制> ".encode()
 
 
 def projected_bytes(relative, original, destination):

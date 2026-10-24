@@ -103,7 +103,7 @@ semantic migration. Retain any useful private `references/personal/README.md`
 substance at the appropriate private owner; the whole personal tree is protected.
 
 Common parity preserves one recipient-local discovery exception: when the
-target's single-line `SKILL.md` description already begins with `用户自制：`,
+target's single-line `SKILL.md` description already begins with `<用户自制>` and a space,
 the projector retains that prefix while replacing its substantive wording from
 the common source. An unmarked target stays unmarked. Every other common byte
 and file mode remains source-owned; the public package does not assign itself

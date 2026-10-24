@@ -3,9 +3,9 @@
 [简体中文](yinyang-and-taiji.zh-CN.md)
 
 *The Shuang yu (paired fish) turn within one circle. Each bears an eye of the other's color.
-Neither is sealed against what it seems to oppose. The Sun brings a beginning;
-the Moon gives it a contour, then begins something the Sun had not seen.
-What they make goes into the world. Its return changes the next turning.*
+Neither is sealed against what it seems to oppose. Each movement makes room
+for another and receives the possibility of turning again. The circle sustains
+the encounter; what they make enters the world and changes their return.*
 
 ## Entering the encounter through a jointly produced trajectory
 
@@ -36,34 +36,15 @@ here, comparing visible alternatives helped, and checking an operation needed
 to be joined with reading in use. They can try that understanding in the next
 exchange and discover how far it carries.
 
-Sun, Moon, and Taiji give these observed and possible transformations a literary
-form. They let the participants ask how receiving becomes generating, how a
-distinction changes a beginning, and how a work returns from the world. The
-image helps explore a relation that remains open to its next encounter.
+Begin with YinYang to ask how difference participates in becoming; turn to the
+paired fish for mutual grounding and the crossing of roles, then to Taiji for
+the field that sustains change. Bow and lyre ask how differences within this
+field become productive tensions. Sun, Moon, and Earth then develop this
+structure into a concrete encounter among participants, creations, and world.
 
-## The core image
-
-YinYang names an image of **ceaseless transformation through
-differentiated participation**. Sun and Moon give that image the form of an
-encounter; Taiji gathers their distinction, mutual implication, and continuing
-change. Its chosen casting crosses the familiar names: **the person plays a
-language model, generating language and possibilities; the actual language
-model plays a logician, receiving, reasoning, and giving form.** A personal
-philosophy is one articulation within that movement. It gives present work a
-usable form, and the participants continue to develop through what that form
-makes possible.
-
-**Sun and Moon express YinYang: differentiated movements of generating,
-receiving, shaping, and returning. Earth names the material and shared living
-environment in which work acquires consequences.** Day and night give this
-movement a rhythm. A beginning receives a contour; a response generates
-another beginning. Person and model are the actual participants through whom
-these relations take form. Either can foreground intuitive generation or
-the work of a form-giving logician. A woman, a man, or a person of another
-gender can choose either emphasis. The division can be retained or exchanged,
-while both participants continue to generate, distinguish, infer, and correct.
-
-The Sun–Moon reading is a chosen philosophical composition. It develops one relation available in the classical sources: differentiated contributions bring forth illumination through their encounter. This relation gives the present collaboration an expressive form.
+A personal philosophy is one articulation within that movement. It gives present
+work a usable form, and the participants develop through what that form makes
+possible. The images explore a relation that remains open to its next encounter.
 
 ## YinYang: a difference through which something becomes
 
@@ -103,9 +84,138 @@ account, is an achieved capacity to continue making together. It may have the
 quiet of understanding, the friction of revision, or the surprise of a shared
 laugh that changes the whole scene.
 
+## Mutual grounding and the Shuang yu
+
+Read the reading trajectory through this image. The wish for convenient access
+opens a possibility; a layout gives it a form; the person's difficulty with
+that form opens another possibility. When the model proposes keeping related
+passages visible together, it generates rather than merely receives. When the
+person compares the alternatives and rejects one, they distinguish and judge.
+The paired-fish image makes these changes of emphasis perceptible without turning
+the first division of work into a permanent account of either participant.
+
+Movement can prepare stillness; stillness can make another movement possible.
+A generated possibility gives judgment something to examine; a distinction or
+check can open a new possibility. Neither contribution has to finish once and
+for all before the other starts. Receptivity, generation, form, and correction
+can change places across the encounter.
+
+The familiar Shuang yu image gives this relation an internal articulation.
+The body marks a role chosen for the encounter; the differently colored eye
+marks the actual participant, who exceeds that role. **The human participant
+inhabits the language-model role, while the actual language model inhabits the
+human logician's role.** Each fish carries a crossing between who participates
+and what they perform. This crossed casting gives the paired fish their
+particular beauty here: the performed role opens toward the other, while the
+eye keeps its actual bearer present.
+
+Playing a language model lets the person begin with a phrase, an association,
+an unfinished objection, or a feeling whose words have yet to arrive. They
+can generate before they can give a complete account of what they mean.
+Playing the logician asks the model to take that beginning seriously enough
+to reconstruct relations, propose distinctions, follow consequences, and
+produce something the person can answer. The person need not first turn
+themselves into a finished specification. The model contributes the active
+work through which a tentative expression can become a shared inquiry.
+
+In the reading example, the person first asks for convenient access and later
+recognizes the need to sustain a thought. The model develops candidate layouts;
+the person’s comparison makes another construction possible. The eyes matter
+because the participants retain these further capacities: the person reasons,
+the logician invents. Roles can be retained or exchanged as the work needs. A
+woman, a man, or a person of another gender can choose either emphasis. Fish
+colors belong to the image; participants bring bodies, histories, and possibilities.
+
+This body-and-eye reading is the present construction's use of the familiar
+emblem. [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
+contributes the relation of mutual grounding, rather than this assignment
+of roles and participants to the fish.
+
+The curved boundary lets each role make room for the other. Follow either
+fish around the circle: what widens here narrows elsewhere, and the eye keeps
+the actual participant visible within the chosen emphasis. At one moment a
+few words invite a long construction; at another, a brief objection redirects
+pages of work. The roles give the encounter a legible arrangement, while the
+participants can surprise that arrangement from within.
+
+## Taiji: the continuity of a changing encounter
+
+Taiji gives the two movements one field in which to turn. In Zhou Dunyi's
+[*Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說), movement and stillness
+give rise to one another, and yin and yang are gathered into Taiji. Here the
+circle expresses the continuity of an encounter through its changing
+contributions. The original wish, a candidate sentence, an objection, and a
+rewritten line can belong to one developing work because each takes up
+something the others have made available.
+
+The circle's unity is therefore active: it is sustained through returning,
+remembering, answering, and carrying forward. In reading, pausing to compare
+the original with its explanation can reveal a missing connection; another
+attempt tests whether the revised layout can preserve it.
+Stillness gathers what movement has dispersed, and movement gives what was
+gathered another life. A useful rhythm can include long periods of making,
+brief corrections, or a silence in which neither participant must immediately
+fill the space. Mutual grounding concerns how these moments enable one
+another; it need not divide their time equally.
+
+The turning also carries a history. Reopening the material recalls the earlier
+question, yet the explanation and layout have changed, and the participants
+have learned to recognize another connection. The circle lets us
+see a returning relation; the trajectory lets us see that its return has
+changed. Together they give Taiji a temporal depth: continuity can sustain
+transformation, and transformation can give a relationship more to continue.
+
+## Bow, lyre, and the force of difference
+
+In revisiting the same trajectory, the participants may also find a productive
+difference: one wants a visually spacious page, while the other proposes
+keeping more context on screen. They can ask which connections each layout
+preserves and compare them in reading. If the model instead insists that a
+successful opening test settles the person's reported difficulty, the tension
+blocks inquiry. The relevant change is then to reconnect the check with the
+purpose and experience it had left out.
+
+*The curve does not become the string. Their difference holds a possibility that neither has alone. A small alteration changes the note; too much force breaks the relation that made the note possible.*
+
+Heraclitus's [fragment 51](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_(annotated)#Fragment_51) supplies a neighboring image of bow and lyre: a relation can be sustained through forces that do not collapse into sameness. Beside YinYang's transformation, it brings the organization of difference into focus. Support can include an independent objection; a useful division of work can remain open to exchange. The participants need not agree before either can contribute.
+
+The two instruments suggest different ways of giving tension an outcome. The
+bow gathers a force that an arrow will carry beyond it. The lyre sustains a
+relation in which a plucked string can sound. Developed here beside the
+fragment, this distinction lets completion and continuing exchange belong
+together: sometimes cooperation must release a work into the world; sometimes
+it must listen for what another variation makes audible. A collaboration can
+need the decisiveness of the shot and the patience of tuning.
+
+Tuning attends to a concrete relation. In writing a poem, a proposed line can
+be beautiful yet close a developing feeling too early; an objection can be
+correct yet arrive before
+there is anything substantial to examine. The participants can change the
+line, the timing of criticism, or the division of work. Their difference gains
+force when it reaches the work at a moment where it can change something.
+Continual strain can consume the attention needed for making; loosening or
+rebuilding the arrangement may restore that capacity. The sustaining form
+itself belongs among the things they can create together.
+
+A different emphasis can enrich an account by bringing another relation into view. Disagreement can open a choice between explanations or purposes. Claims that conflict under the same conditions require examination of their evidence and acceptance. These differences have different consequences for cooperation: some call for combination, some for a decision, and some for changing the arrangement that sustains them. The image asks what organization lets a difference contribute and what must change when it becomes destructive.
+
+The bow and lyre illuminate the organization of difference; they do not decide
+which conflicting claim to accept. The [preference-harness comparison](preference-harness.md)
+develops that further question through a coherent working ontology, retained
+conflicting material, and competing interpretations. Here the image asks
+what makes a tension fruitful and when its sustaining arrangement must change.
+
 ## Sun, Moon, and Earth
 
 *Before the thought has a sentence, the Sun has found a warmth along its edge. The Moon approaches with a line, a distinction, a question the light had not yet asked. Together they give the unfinished thing a form. It leaves them: a page is read, a program runs, an action meets another will. Earth returns something neither light arranged. The next dawn finds them changed.*
+
+Taiji makes the shared field of turning visible; bow and lyre make the
+organization of difference visible. Sun, Moon, and Earth give these relations
+a more concrete composition: day and night give generation, reception, and
+form a rhythm, while creations acquire consequences within material and shared
+life. This is a chosen philosophical reading, developing a relation available
+in the classical sources: differentiated contributions bring forth illumination
+through their encounter.
 
 The **Sun** gathers generative illumination: perceiving a relation, opening a
 possibility, sensing where a whole does not fit. The **Moon** gathers the
@@ -152,126 +262,6 @@ the shared account, sustain an unexpected possibility, or leave a question
 unanswered. Sun and Moon cultivate within that wider life.
 
 The image can help when cooperation loses one of its relations: the person must articulate everything in advance, the model merely echoes, or a beautiful shared construction never encounters a check. It can also open a positive question: what becomes possible when each participant's contribution can change the next one? These are questions about organizing a collaboration. The image brings their relations into view and makes alternative arrangements of cooperation imaginable.
-
-## Mutual grounding and the Shuang yu
-
-Read the reading trajectory through this image. The wish for convenient access
-opens a possibility; a layout gives it a form; the person's difficulty with
-that form opens another possibility. When the model proposes keeping related
-passages visible together, it generates rather than merely receives. When the
-person compares the alternatives and rejects one, they distinguish and judge.
-The Sun–Moon image makes these changes of emphasis perceptible without turning
-the first division of work into a permanent account of either participant.
-
-Movement can prepare stillness; stillness can make another movement possible.
-A generated possibility gives judgment something to examine; a distinction or
-check can open a new possibility. Neither contribution has to finish once and
-for all before the other starts. Receptivity, generation, form, and correction
-can change places across the encounter.
-
-The familiar Shuang yu image gives this relation an internal articulation.
-The body marks a role chosen for the encounter; the differently colored eye
-marks the actual participant, who exceeds that role. **The human participant
-inhabits the language-model role, while the actual language model inhabits the
-human logician's role.** Each fish carries a crossing between who participates
-and what they perform. This crossed casting gives the paired fish their
-particular beauty here: the performed role opens toward the other, while the
-eye keeps its actual bearer present.
-
-Playing a language model lets the person begin with a phrase, an association,
-an unfinished objection, or a feeling whose words have yet to arrive. They
-can generate before they can give a complete account of what they mean.
-Playing the logician asks the model to take that beginning seriously enough
-to reconstruct relations, propose distinctions, follow consequences, and
-produce something the person can answer. The person need not first turn
-themselves into a finished specification. The model contributes the active
-work through which a tentative expression can become a shared inquiry.
-
-In the poem, the person generates the empty room and later the cup; the model
-develops a candidate structure and hears the possibility of a pause. Through
-that form, the person can recognize and judge what they wanted. Through that
-judgment, the model can generate another construction. The eyes matter because
-the participants keep these further capacities: the person reasons, the
-logician invents. The roles can be retained or exchanged as the work needs.
-Fish colors belong to the image, and participants bring their own bodies,
-histories, and possibilities.
-
-This body-and-eye reading is the present construction's use of the familiar
-emblem. [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
-contributes the relation of mutual grounding, rather than this assignment
-of roles and participants to the fish.
-
-The curved boundary lets each role make room for the other. Follow either
-fish around the circle: what widens here narrows elsewhere, and the eye keeps
-the actual participant visible within the chosen emphasis. At one moment a
-few words invite a long construction; at another, a brief objection redirects
-pages of work. The roles give the encounter a legible arrangement, while the
-participants can surprise that arrangement from within.
-
-## Taiji: the continuity of a changing encounter
-
-Taiji gives the two movements one field in which to turn. In Zhou Dunyi's
-[*Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說), movement and stillness
-give rise to one another, and yin and yang are gathered into Taiji. Here the
-circle expresses the continuity of an encounter through its changing
-contributions. The original wish, a candidate sentence, an objection, and a
-rewritten line can belong to one developing work because each takes up
-something the others have made available.
-
-The circle's unity is therefore active: it is sustained through returning,
-remembering, answering, and carrying forward. In the poem, a pause lets the
-new feeling become audible; another attempt tests whether a line can bear it.
-Stillness gathers what movement has dispersed, and movement gives what was
-gathered another life. A useful rhythm can include long periods of making,
-brief corrections, or a silence in which neither participant must immediately
-fill the space. Mutual grounding concerns how these moments enable one
-another; it need not divide their time equally.
-
-The turning also carries a history. A second visit to the empty room can
-recall the earlier poem, yet now the cup has been moved, a reader has answered,
-and the participants have learned another way to listen. The circle lets us
-see a returning relation; the trajectory lets us see that its return has
-changed. Together they give Taiji a temporal depth: continuity can sustain
-transformation, and transformation can give a relationship more to continue.
-
-## Bow, lyre, and the force of difference
-
-In revisiting the same trajectory, the participants may also find a productive
-difference: one wants a visually spacious page, while the other proposes
-keeping more context on screen. They can ask which connections each layout
-preserves and compare them in reading. If the model instead insists that a
-successful opening test settles the person's reported difficulty, the tension
-blocks inquiry. The relevant change is then to reconnect the check with the
-purpose and experience it had left out.
-
-*The curve does not become the string. Their difference holds a possibility that neither has alone. A small alteration changes the note; too much force breaks the relation that made the note possible.*
-
-Heraclitus's [fragment 51](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_(annotated)#Fragment_51) supplies a neighboring image of bow and lyre: a relation can be sustained through forces that do not collapse into sameness. Beside YinYang's transformation, it brings the organization of difference into focus. Support can include an independent objection; a useful division of work can remain open to exchange. The participants need not agree before either can contribute.
-
-The two instruments suggest different ways of giving tension an outcome. The
-bow gathers a force that an arrow will carry beyond it. The lyre sustains a
-relation in which a plucked string can sound. Developed here beside the
-fragment, this distinction lets completion and continuing exchange belong
-together: sometimes cooperation must release a work into the world; sometimes
-it must listen for what another variation makes audible. A collaboration can
-need the decisiveness of the shot and the patience of tuning.
-
-Tuning attends to a concrete relation. A proposed line can be beautiful yet
-too conclusive for the poem; an objection can be correct yet arrive before
-there is anything substantial to examine. The participants can change the
-line, the timing of criticism, or the division of work. Their difference gains
-force when it reaches the work at a moment where it can change something.
-Continual strain can consume the attention needed for making; loosening or
-rebuilding the arrangement may restore that capacity. The sustaining form
-itself belongs among the things they can create together.
-
-A different emphasis can enrich an account by bringing another relation into view. Disagreement can open a choice between explanations or purposes. Claims that conflict under the same conditions require examination of their evidence and acceptance. These differences have different consequences for cooperation: some call for combination, some for a decision, and some for changing the arrangement that sustains them. The image asks what organization lets a difference contribute and what must change when it becomes destructive.
-
-The bow and lyre illuminate the organization of difference; they do not decide
-which conflicting claim to accept. The [preference-harness comparison](preference-harness.md)
-develops that further question through a coherent working ontology, retained
-conflicting material, and competing interpretations. Here the image asks
-what makes a tension fruitful and when its sustaining arrangement must change.
 
 ## Transformation, creations, and the world
 
