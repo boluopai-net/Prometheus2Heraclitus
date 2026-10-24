@@ -46,7 +46,7 @@ for one of them.
 For full adoption, the model forms these six files from relevant authorized
 material and organizes their needed private support. Explicit unknowns can be
 honest content; copying guidance or someone else's portrait cannot form an actual
-version. Person, counterpart, and relationship remain three modeling objects;
+version. Person, counterpart, and relationship remain three subjects of understanding;
 the other files supply direction, realization, and revision. Later changes follow
 affected meanings and dependencies.
 

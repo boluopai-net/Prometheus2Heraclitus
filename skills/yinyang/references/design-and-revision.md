@@ -41,10 +41,10 @@ that expression and six grounded actual files. Six public writing guides explain
 how to form them; six private files supply the actual content, including one's
 own revision method. The entrypoint's
 initial reading makes their connected understanding available for ordinary work.
-This reference supplies the common modeling method. Permanent
+This reference supplies the common method for understanding material and condensing accounts. Permanent
 public guides under `references/formation/` develop each writing object;
 actual private files occupy `references/situated/`. Person, counterpart,
-and relationship remain three modeling objects. Orientation articulates the
+and relationship remain three subjects of understanding. Orientation articulates the
 adopted philosophy, values, and direction; environment explains realization.
 The actual revision file explains how this person revises their understanding
 and environment; its public guide explains how to write that method.
@@ -88,8 +88,8 @@ consequential uncertainty. Existing originals can stay with their private owners
 
 ## Start from available material and practice
 
-Philosophy, psychology, and engineering contribute together to one modeling
-practice. The [trinity essay](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
+Philosophy, understanding oneself and others psychologically, and engineering
+contribute together to forming personal accounts and a usable environment. The [trinity essay](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)
 develops their connection. The following combinations describe available
 material and missing connections within that practice:
 
@@ -99,10 +99,10 @@ material and missing connections within that practice:
 | Relevant psychological understanding, conversation history, or life materials, without a usable model environment or articulated philosophy | Develop the grounded account and its philosophical meaning while making the needed model assistance available. |
 | A working model environment and experience using it, with personal understanding and philosophy still implicit | Interpret experience, preferences, and concepts together, articulating their philosophical meaning and revising arrangements through use. |
 | Articulated philosophy and grounded psychological understanding, without a usable realization | Realize their intended relations through the actual engineering environment. |
-| Articulated philosophy and a working environment, without concrete personal grounding | Use conversation history and everyday life materials for personal modeling from event history, comparing its understanding with the philosophy and current use. |
+| Articulated philosophy and a working environment, without concrete personal grounding | Read conversation history and everyday life materials with the philosophy, condense a grounded personal account, and revise it through current use. |
 | Grounded psychological understanding and a working environment, without articulated philosophy | Develop the philosophical understanding, values, and direction implicit in the practice. |
 
-These six combinations describe starting conditions, not separate modeling
+These six combinations describe starting conditions, not separate formation
 routes or a fixed sequence. Prepare files, retrieval, tools, execution, and
 verification where their absence blocks the needed contribution; the person
 need not first learn to implement everything. Develop missing connections from
@@ -127,13 +127,13 @@ guide an arrangement while their explanation remains open. An arrangement can
 also reflect constraint or a default, so its presence alone does not reveal
 what the person wants.
 
-Within this practice, [modeling from event history](formation/person.md#event-stream-psychological-modeling)
+Within this practice, [condensing personal models from material](formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 connects long-term conversation, everyday habits, life materials, and philosophy.
 Analysis, abduction, comparison, conceptual clarification, and further interaction
 make its proposed relations revisable. A reported preference, an explanatory
 psychological hypothesis, and a chosen philosophical direction can inform one
 another while supporting different conclusions. The person guide develops these
-grounds and distinguishes the conceptual account from fitting a statistical model.
+grounds and explains why this understanding and condensation do not constitute psychological modeling.
 
 The developing personal model also informs a fitting counterpart
 model and chosen relationship. Distinguish the desired role and priorities from
@@ -147,7 +147,7 @@ experience can revise its account.
 Philosophical writing can emphasize literature, engineering philosophy, Western
 philosophy, philosophy of science, logic, aesthetics, or another relevant question.
 These emphases develop the same practice, with starting material and order able to vary.
-Technical background does not select a different modeling route.
+Technical background does not select a different route for forming these accounts.
 Inquiry supplies hypotheses and criteria where fit
 is uncertain, without requiring a complete explanation before useful work.
 With model assistance, selected lived needs and relations take form in tools,
@@ -201,7 +201,7 @@ including a revision method fitted to the person's purpose and environment. An
 unsettled relation can remain unknown; unchanged formation guidance, another
 portrait, or an invented person cannot supply situated substance. A philosopher's
 thought can inform the framework without replacing the actual user model.
-Neither a complete biography nor a completed psychological model is needed
+Neither a complete biography nor complete psychological understanding is needed
 before creation and practical work begin.
 
 Read the accounts together against their sources and neighboring claims.

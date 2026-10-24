@@ -23,7 +23,7 @@
 ## 把取向接到情境化理解
 
 [人](person.zh-CN.md)、[伙伴](counterpart.zh-CN.md)与[关系](relationship.zh-CN.md)
-仍是三个不同的建模对象。取向提供所采纳的解释与评价方向；[环境](environment.zh-CN.md)
+仍是三个不同的理解对象。取向提供所采纳的解释与评价方向；[环境](environment.zh-CN.md)
 说明其工作实现，[修订](revision.zh-CN.md)指导写出自己的实际修订方法。
 这些文件具有不同责任：价值承诺不同于对个人经验的解释，环境也不是
 任何一方参与者。

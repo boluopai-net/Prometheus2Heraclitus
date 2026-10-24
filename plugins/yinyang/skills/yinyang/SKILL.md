@@ -42,7 +42,7 @@ sequence:
 
 - **Read the philosophy.** Explore the author's arguments, images, and sources
   through [Read by the work being done](references/reading-map.md). Reading a position does
-  not mean adopting it or beginning a personal modeling project.
+  not mean adopting it or beginning a project to develop personal accounts.
 - **Borrow a method.** Use [Philosophy and models](references/design-and-revision.md)
   to locate the relevant contribution among the six writing files. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
@@ -87,7 +87,7 @@ evidence by the question. When actual files are absent or incomplete, say so,
 carry useful work from what is known, and form the needed content. A fully
 situated version gives all six grounded content, including honest unknowns.
 
-Person, counterpart, and relationship are three distinct modeling objects.
+Person, counterpart, and relationship are three distinct subjects of understanding.
 Orientation supplies adopted direction; environment explains realization;
 revision explains how to keep changing them. The private evidence entrance
 `references/personal/sources.md` supports these files and is selected by the

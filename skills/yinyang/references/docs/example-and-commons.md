@@ -10,12 +10,12 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 
 ## A form that can be rewritten
 
-If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private modeling and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
+If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private reflection and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
 In this implementation, the six actual files hold the distilled understanding
 needed by a model counterpart: adopted orientation, the person, the actual
-counterpart and wanted contribution, their relationship, environmental realization, and an actual revision method. Person, counterpart, and relationship remain three modeling
-objects; the six actual files are not all psychological models. The six private actual
+counterpart and wanted contribution, their relationship, environmental realization, and an actual revision method. Person, counterpart, and relationship remain three objects of understanding;
+the six actual files have distinct responsibilities. The six private actual
 files live under `references/situated/`; permanent public guides live under
 `references/formation/`. Concrete identity details, episodes, original
 expressions, and longer investigations stay in `references/personal/` or the

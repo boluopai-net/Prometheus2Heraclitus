@@ -92,7 +92,7 @@ Algorithms and complexity analysis establish properties under formal conditions;
 
 | Source | Connection to the essays |
 | --- | --- |
-| A. M. Turing (1936), [On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), especially §6 | The universal machine supplies the formal reference for the interpreter analogy in [Metaphor and personal modeling](metaphor-and-self-revision.md). |
+| A. M. Turing (1936), [On Computable Numbers, with an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), especially §6 | The universal machine supplies the formal reference for the interpreter analogy in [From personal philosophy to personal models](metaphor-and-self-revision.md). |
 | Thomas R. Gruber (1993), [A Translation Approach to Portable Ontology Specifications](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf), §§1–2 | Objects, relations, and shared conceptualization in knowledge representation. Read alongside the engineering ontology developed in [Stealing fire and cultivating creative capacity](stealing-fire.md); that essay extends the source into its own account. |
 | Donald E. Knuth, [Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html) | The established practice of organizing explanation and program code together. Compare its technical purpose with this collection's broader literary natural-language programming. |
 

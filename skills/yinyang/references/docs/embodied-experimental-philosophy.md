@@ -72,7 +72,7 @@ phenomenon. Either the explanation or the way it was examined can need revision.
 
 ## When a self-description becomes part of the event
 
-A revisable prose psychological model brings another involvement into view.
+A revisable prose personal model brings another involvement into view.
 Suppose someone reads an account connecting their difficulty beginning with
 fear of evaluation. Recognizing the account, resisting it, or trying to act
 through it can each change what happens next. An apparent confirmation may

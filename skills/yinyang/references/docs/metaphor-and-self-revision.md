@@ -102,15 +102,7 @@ two: who can initiate, question, carry work forward, judge a result, or change
 the arrangement. Person and counterpart models develop together through these
 relations; a portrait of the person alone cannot specify the collaboration.
 
-In this project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and
-everyday life materials ground a natural-language conceptual account. Philosophy and engineering contribute
-together to understanding the user. Philosophy supplies concepts and interpretive
-frameworks for experience, desire, intentional orientation, and relationships.
-Engineering organizes conversations, records, language models, and tools so
-these distinctions can support concrete modeling and the resulting model can
-inform subsequent work. The psychological model connects this work to the
-actual person: how they experience situations, what their experiences and wishes
-are directed toward, how they want to act, and what affects realization.
+This project [condenses personal models from event history, philosophy, and personal material](../formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material). Long-term conversation history and everyday life materials ground a natural-language account, with understanding of one's own and others' psychology contributing its content. Philosophy supplies concepts and interpretive frameworks for experience, desire, intentional orientation, and relationships. Engineering organizes conversations, records, language models, and tools so the participants can examine these connections and use the resulting account in subsequent work. The personal model keeps this work connected to the actual person: how they experience situations, what their experiences and wishes are directed toward, how they want to act, and what affects realization.
 
 That understanding lets environmental design begin from the person's intentional
 orientation. A partner's contributions, what information to retain, and how to
@@ -218,9 +210,11 @@ can connect within one coherent account, without copying simulation studies'
 psychological scores or state equations. The [revision guide](../formation/revision.md#condensation-and-reopening)
 connects these relations to maintenance.
 
-## Conceptual modeling and philosophical clarification
+<a id="conceptual-modeling-and-philosophical-clarification"></a>
 
-The psychological model described here can be revisable prose drawn from long
+## Personal models and philosophical clarification
+
+The personal model described here can be revisable prose drawn from long
 dialogue, habits, everyday circumstances, and philosophical interpretation.
 Its natural-language form can express meanings, tensions, and relations in
 their relevant contexts. It is suitable for that work in its own right;
@@ -228,7 +222,7 @@ mathematical fitting serves questions that call for such methods rather than
 being the destination every account must reach. Writing in prose alone,
 however, does not make the account philosophy.
 
-[The preceding essay](speech-opposition-and-self-formation.md#how-opposition-calls-for-reconstructing-premises-and-relationships) develops how conceptual clarification changes a problem. Here it serves the adequacy of modeling: what do ability, independence, or progress mean within this account, which judgments come from living material, and which express chosen values or cooperative aims? Distinguishing these grounds helps determine how the account should be used and revised.
+[The preceding essay](speech-opposition-and-self-formation.md#how-opposition-calls-for-reconstructing-premises-and-relationships) develops how conceptual clarification changes a problem. Here it helps make the personal account adequate to its use: what do ability, independence, or progress mean within this account, which judgments come from living material, and which express chosen values or cooperative aims? Distinguishing these grounds helps determine how the account should be used and revised.
 
 This clarification cooperates with empirical interpretation. “Uncertainty
 about evaluation makes beginning difficult” proposes a psychological relation

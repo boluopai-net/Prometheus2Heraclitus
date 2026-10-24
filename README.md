@@ -11,27 +11,27 @@
 **Begin from this example, write your own philosophy, distill your private models,
 and make the thought you choose to share into your own works and website.**
 Philosophical writing helps explore an initially unclear self-understanding.
-Clear, grounded relations are distilled into five core accounts for actual model
-collaboration: **orientation, person, counterpart, relationship, and environment**.
+Clear, grounded relations are distilled into six core accounts for actual model
+collaboration: **orientation, person, counterpart, relationship, environment, and revision**.
 They state adopted philosophy and direction, understand the participants and
-their joint activity, and explain realization. Concrete identity, episodes, and original material remain with
+their joint activity, and explain realization and continued revision. Concrete identity, episodes, and original material remain with
 private sources. Public work can express philosophy and selected understanding
 while the person retains the complete personal model privately. The collection
-offers this practice of creation and modeling, beyond replacing a ready-made configuration.
+offers this practice of creation and condensation, beyond replacing a ready-made configuration.
 
-**This collection centers modeling, rather than providing a memory system.**
-Its YinYang package begins with a particular person: philosophical, psychological,
-and preference material grounds a dynamic user model. Its current
-[psychological modeling from event history](skills/yinyang/references/formation/person.md#event-stream-psychological-modeling)
-distills long-term conversation history and everyday life with philosophy into
-a natural-language conceptual account, from which a corresponding
-agent model and relationship are formed. Their work enters the world, and its
-consequences revise understanding. Memory retains material and continuity;
-modeling organizes meaning, relationships, and change so that understanding
-participates in judgment and action.
+**This collection centers condensing philosophy and personal material into
+usable personal models and counterpart accounts.** YinYang begins with a
+particular person, combining event histories, philosophy, life and preference
+material, and psychological understanding of oneself and others into
+natural-language accounts for collaboration. The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
+explains how these materials become descriptions of the person, the model
+counterpart needed, and their relationship. Joint work enters the world, and
+actual consequences revise understanding. Memory retains material and its
+origins; condensation organizes relevant meanings, conditions, and relations
+so available understanding can inform the next judgment and action.
 
 Philosophy is a whole that can continue to be written. Literature, history,
-aesthetics, computing, and engineering can all supply modeling material.
+aesthetics, computing, and engineering can all supply material for understanding and condensation.
 Different views can be retained, compared, or combined without first joining
 one school. Accommodating conflict still distinguishes retained material,
 currently adopted understanding, and its consequences. Specialist methods and

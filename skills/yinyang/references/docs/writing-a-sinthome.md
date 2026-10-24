@@ -49,7 +49,7 @@ reveals an ambiguity or a mismatch.
 
 In the opening example, “not wanting to spell out every detail” can mean different things: the present idea has yet to take shape; the person already knows what to do but wants the model to investigate independently; or the current means of expression makes continuing difficult. Different interpretations call for different responses. The model needs to judge through actual exchange, rather than fixing the person's manner of participation from one generalization.
 
-A preference model can describe the desired collaboration—for example, seeing a complete result first, then identifying mismatches. The project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling) develops a natural-language conceptual account of how that participation connects with experience, emotion, and relationships, grounded in conversation history and everyday life. The previously authored philosophy contributes its interpretation of creation and independence. Keeping those reasons connected with concrete material helps a counterpart distinguish a chosen orientation from a claim about how the person always behaves.
+A personal model can describe the desired collaboration—for example, seeing a complete result first, then identifying mismatches—and connect it with experience, emotion, and relationships. The project [condenses personal models from event history, philosophy, and personal material](../formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material), with understanding of one's own and others' psychology contributing to the account. A stated preference, an interpretation of past participation, and the previously authored philosophy's understanding of creation and independence have different grounds within that account. Keeping them connected with concrete material helps a counterpart distinguish a chosen orientation from a claim about how the person always behaves.
 
 The **counterpart model** likewise meets actual conditions. What must the needed counterpart be able to do? What can the current model do? Which work still depends on tools or other conditions? If the person wants a model to turn an idea into an inspectable work, an adept conversational tone is insufficient; actual abilities to investigate, reason, write, execute, and check are also needed.
 
@@ -160,7 +160,7 @@ with continuing inquiry into one's relationships.
 
 These are three contributions to formation, rather than three successive
 stages. The temporal movement runs from collaboratively produced trajectories
-and reflection on cooperation through philosophical authorship and grounded modeling to
+and reflection on cooperation through philosophical authorship and grounded personal accounts to
 realization and revision. Philosophical interpretation, psychological
 understanding, and engineering can each contribute at several points in that
 movement. Use can revise an earlier understanding while preserving this

@@ -4,7 +4,7 @@
 
 [Writing a personal philosophy through literary programming](literary-programming.md) has brought shared trajectories and reflection into writing: characters, images, and arguments give understanding a readable form. What happens once it is written? Encountering their expression and a counterpart's response, a person may recognize an unarticulated relation or discover that the way they organized the question needs to change.
 
-This essay follows an imagined exchange: “I don't want the model to decide for me.” “But I want it to compare options and point out what I have overlooked.” These statements propose a way of collaborating while making independence itself a question. Following the exchange, we examine how meaning returns to earlier expression, how opposition prompts changes in premises and relationships, and how new understanding prepares content for personal modeling. Lacan and Hegel supply distinct questions; connecting them with philosophical Skills and model collaboration is this essay's contemporary development.
+This essay follows an imagined exchange: “I don't want the model to decide for me.” “But I want it to compare options and point out what I have overlooked.” These statements propose a way of collaborating while making independence itself a question. Following the exchange, we examine how meaning returns to earlier expression, how opposition prompts changes in premises and relationships, and how new understanding supplies material for personal models. Lacan and Hegel supply distinct questions; connecting them with philosophical Skills and model collaboration is this essay's contemporary development.
 
 ## What is said and the position of speaking
 

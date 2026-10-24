@@ -7,7 +7,7 @@ ways to understand how people experience, interpret, and respond to their lives.
 For ordinary users, this repository's route is for the model to work with
 philosophy and personal material to help form and revise an understanding of
 the person. The person contributes experience, purposes, recognition, and
-correction. Professional modeling references are collected at the end.
+correction. Psychological research and professional methods are collected at the end.
 
 Links lead to publisher records, samples, author materials, or public full texts.
 
@@ -77,7 +77,7 @@ These studies address meaning, coordination, epistemic trust, and learning in re
 | De Jaegher and Di Paolo (2007), [Participatory Sense-Making](https://doi.org/10.1007/s11097-007-9076-9) | Include interaction, coordination, and sense-making in an explanation; ask what separate descriptions of participants' internal states might omit. |
 | Fonagy and Allison (2014), [The Role of Mentalizing and Epistemic Trust in the Therapeutic Relationship](https://discovery.ucl.ac.uk/id/eprint/1428567/) | Institutional manuscript entrance. Connect understanding mental states, epistemic trust, and social learning. |
 
-## Psychological modeling
+## Psychological research and professional methods
 
 Professional references on case formulation, experiential material, and language-model research.
 

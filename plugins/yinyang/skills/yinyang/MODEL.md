@@ -48,7 +48,7 @@ with complete Chinese editions, and six corresponding private actual files under
 `references/situated/`. Full initial reading uses all six actual files.
 The actual revision file states the recipient's method; its public guide explains
 how to write that method and is not an initial-reading substitute.
-Person, counterpart, and relationship remain three modeling objects; orientation,
+Person, counterpart, and relationship remain three subjects of understanding; orientation,
 environment, and revision supply direction, realization, and continuing change.
 Private evidence at `references/personal/sources.md` supports the actual files,
 outside the initial reading. Public distribution contains neither private tree.

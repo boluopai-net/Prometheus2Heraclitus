@@ -82,7 +82,7 @@ locate the same remarks in a translation.
 [The fire essay](stealing-fire.md#from-chasing-to-lived-cultivation) applies this
 route to pictures of obligatory frontier pursuit and returns their demands to
 surrounding life. That application belongs to this collection.
-[Personal modeling](metaphor-and-self-revision.md#conceptual-modeling-and-philosophical-clarification)
+[Personal understanding](metaphor-and-self-revision.md#personal-models-and-philosophical-clarification)
 then distinguishes clarifying concepts such as ability or progress from
 proposing a psychological explanation of a person's activity. The two can
 inform one another without a convincing description settling an empirical claim.
@@ -145,7 +145,7 @@ Its interpretive inversions do not license treating ordinary denial as admission
 
 ## Lacan: enunciation, retroaction, and singular creation
 
-Lacan brings three connected questions to this collection: how people acquire a position through language and images, how later speech changes the meaning of earlier expression, and how singular practices participate in a person's mode of existence. The site develops these questions into contemporary accounts of personal modeling, model collaboration, and the sinthome.
+Lacan brings three connected questions to this collection: how people acquire a position through language and images, how later speech changes the meaning of earlier expression, and how singular practices participate in a person's mode of existence. The site develops these questions into contemporary accounts of personal understanding, model collaboration, and the sinthome.
 
 Conceptual explanations, examples, formal translations, and original-text references are gathered in [A guide to Lacanian concepts: from original texts to personal practice](lacan-reading-guide.md). Use it to understand the Other, the divided subject, retroaction, the three registers, and the sinthome, then return to the relevant essay. It also distinguishes the original concepts from this site's extensions.
 
@@ -230,13 +230,13 @@ For conflict in experience, relationships, and therapy, continue to [psychologic
 
 ## Lakoff, Johnson, and Gentner: metaphor and relational analogy
 
-George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Writing a personal philosophy through literary programming](literary-programming.md) and [Metaphor and personal modeling](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
+George Lakoff and Mark Johnson's [Metaphors We Live By, chapters 1–3](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html) concerns metaphor in everyday conceptual life. Dedre Gentner's [Structure-Mapping (1983)](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) makes relational mapping explicit. [Writing a personal philosophy through literary programming](literary-programming.md) and [From personal philosophy to personal models](metaphor-and-self-revision.md) already use these resources. Metaphor gives understanding a form; particular analogical inferences still need checking.
 
 ## Mind, knowledge, and explanation
 
 Clark and Chalmers's [*The Extended Mind*](https://www.consc.net/papers/extended.html)
 informs [Stealing fire and cultivating creative capacity](stealing-fire.md)'s account of active environmental
-supports. [Metaphor and personal modeling](metaphor-and-self-revision.md) connects
+supports. [From personal philosophy to personal models](metaphor-and-self-revision.md) connects
 that question with Hollan, Hutchins, and Kirsh's distributed-cognition
 research: understanding can develop across people, models, records, and tools.
 

@@ -75,7 +75,7 @@ actual revision method at `references/situated/revision.md`.
 
 Full adoption forms and reads all six actual files. Public distribution supplies
 the six guides, not a person's actual content. Person, counterpart, and relationship
-remain three modeling objects; the other files articulate direction, realization,
+remain three subjects of understanding; the other files articulate direction, realization,
 and revision. Relevant private evidence is reached through
 `references/personal/sources.md`, with originals retained at their existing owners.
 The package guide explains the paths and shared updates.
@@ -84,7 +84,7 @@ Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable
 foundation with model assistance so files, tools, execution, and verification
 can support the work. An existing environment can supply clues for personal
-modeling, but defaults and constraints also explain arrangements. The design
+understanding, but defaults and constraints also explain arrangements. The design
 reference develops these conditional routes without requiring mastery of three
 disciplines or a complete portrait before creation.
 
@@ -101,7 +101,7 @@ The essays answer connected questions rather than forming a compulsory course:
 
 | Question | Reading |
 | --- | --- |
-| What is the developmental purpose? | [Stealing fire and cultivating creative capacity](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal modeling. |
+| What is the developmental purpose? | [Stealing fire and cultivating creative capacity](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal understanding. |
 | What claims does YinYang make? | [Core views](references/docs/core-views.md) gives the proposition map. |
 | How does meaning acquire a working form? | [Practice explanation](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
 | How do the contributions fit together? | [The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |

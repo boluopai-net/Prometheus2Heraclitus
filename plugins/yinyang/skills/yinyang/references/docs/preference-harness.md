@@ -65,7 +65,7 @@ incompatible propositions call for different responses. Their comparison helps
 explain why preserving a tension, choosing a view, and correcting a fact can
 each be appropriate without being interchangeable.
 
-Freud's [*Introductory Lectures*, Lecture XXIII](https://www.gutenberg.org/cache/epub/38219/pg38219-images.html), explains symptom formation through opposed tendencies that continue to contribute to a compromise. This historical account directs attention to what each side sustains and why a settled-looking outcome may retain conflict. It suggests a question for modeling: what is each competing arrangement trying to preserve? A knowledge-base repair instead selects a consistent assertion set under explicit assumptions; it neither diagnoses a symptom nor implements Freud's clinical theory.
+Freud's [*Introductory Lectures*, Lecture XXIII](https://www.gutenberg.org/cache/epub/38219/pg38219-images.html), explains symptom formation through opposed tendencies that continue to contribute to a compromise. This historical account directs attention to what each side sustains and why a settled-looking outcome may retain conflict. It suggests a question for understanding conflict: what is each competing arrangement trying to preserve? A knowledge-base repair instead selects a consistent assertion set under explicit assumptions; it neither diagnoses a symptom nor implements Freud's clinical theory.
 
 Winnicott's *Playing and Reality* (1971), introduction and chapter 1, develops the transitional object's paradox of being created and encountered. He asks that this paradox be tolerated rather than prematurely resolved; see the [book](https://www.routledge.com/Playing-and-Reality/Winnicott/p/book/9780415345460) and [the introductory passage](https://www2.arnes.si/~jzaloh/bestbooks/Playing_and_reality.pdf). This offers a reason to preserve a productive tension long enough to understand its relation. It does not license accepting arbitrary contradictory factual claims. A lived paradox can lose its meaning when forced into a yes-or-no classification; a formal inconsistency still has its specified logical conditions.
 
@@ -198,8 +198,8 @@ Encountering a result can also change what a person understands, wants, or can d
 
 ## Finish situated tasks amid changing norms and worlds
 
-Modeling one's psychology or preferences gives a task a personal direction.
-Modeling relevant others' preferences makes cooperation intelligible: human
+Understanding one's own psychology and preferences gives a task a personal direction.
+Understanding relevant others' preferences makes cooperation intelligible: human
 partners may want different outcomes or rhythms, while model counterparts
 have observable inclinations and ways of responding. These accounts are
 partial, revisable working views, developed from expression and interaction.

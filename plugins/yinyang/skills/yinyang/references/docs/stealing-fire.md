@@ -126,8 +126,8 @@ for its own sake. Tools, self-models, and the image of the little fire person
 can contribute while useful and be revised or released when they no longer fit.
 The relation to means thus returns to the freedom cultivation seeks.
 
-Natural-language psychological and conceptual modeling participates in this
-movement. A person and model can articulate how a wish, a recurring judgment,
+Understanding one's own and others' psychology and condensing that understanding
+into personal models are part of this movement. A person and model can articulate how a wish, a recurring judgment,
 a habit, and an environment sustain one another. Making these relations
 readable gives both participants something to question and use: a description
 of “falling behind” may reveal a desired skill, an imposed comparison, or an
@@ -207,7 +207,7 @@ Two existing research traditions provide connections. In knowledge representatio
 
 An event stream represents a history of occurrences through temporal, causal, and interpretive relations. A perception, an utterance, a reading, a generated hypothesis, and an action can each become an event in that representation. Memory, context, habits, commitments, and consequences help interpret what happens without requiring an unchanging self-description. The event granularity follows the inquiry. Histories can overlap, branch, and proceed at different rhythms; a transcript records only some occurrences. This shared form for representing histories leaves the participants' embodiments, capacities, and implementations to be understood in their own right.
 
-A self-model or counterpart model is a conceptual account inferred and constructed from such histories, other relevant materials, and philosophical understanding. Producing, reading, and correcting it are further events, able to change what follows. A literary image can reorganize attention; an explanation can alter the next interpretation; a completed work can change what the person can initiate. Language is effective here because using it participates in the activity it helps articulate. Modeling does not stand outside becoming.
+A self-model or counterpart model is a conceptual account inferred and constructed from such histories, other relevant materials, and philosophical understanding. Producing, reading, and correcting it are further events, able to change what follows. A literary image can reorganize attention; an explanation can alter the next interpretation; a completed work can change what the person can initiate. Language is effective here because using it participates in the activity it helps articulate. Forming and revising the account do not stand outside becoming.
 
 Computational ontology is representation. This framework constructs a process
 ontology using question-relevant objects, events, states, relations, constraints,
@@ -255,9 +255,9 @@ depend on preference. Other participants and the world still answer back.
 
 Power does not select its own worthwhile use. A model's increasing capability leaves open what should matter here, which contribution is wanted, and what would count as a life made more capable. A reusable template cannot settle these questions simply by being reusable. It becomes useful when interpreted within someone's purposes and circumstances.
 
-Personal modeling therefore has a practical task: make enough of a person's concerns, ways of noticing, desired development, and relation to others intelligible for collaboration. The person already perceives, interprets, prefers, and acts as an agent. Modeling articulates those connected activities so the counterpart can understand what a request means in this life. A personal philosophy can concentrate that meaning; experience with actual works and arrangements can ground, test, and change it. Psychology and preferences can contribute when they clarify the question. The material requires interpretation and correction through interaction. Being written does not make it complete self-knowledge.
+Understanding the person therefore has a practical task: make enough of their concerns, ways of noticing, desired development, and relation to others intelligible for collaboration. The person already perceives, interprets, prefers, and acts as an agent. The project [condenses personal models from event history, philosophy, and personal material](../formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material) so the counterpart can understand what a request means in this life. A personal philosophy can concentrate that meaning; experience with actual works and arrangements can ground, test, and change it. Preferences, psychological understanding, and concepts contribute to the same account while retaining their different grounds. The material requires interpretation and correction through interaction. Being written does not make it complete self-knowledge.
 
-**Understanding the user, however, has not yet determined how the counterpart should participate.** The same wish can receive different responses: doing the work, explaining, objecting, or trying something together. Someone developing through reading and intuitive judgment may need a different contribution from someone practicing a particular implementation skill. A user portrait alone may leave the default assistant role deciding everything. Calling an agent intelligent, gentle, or strict does not explain why those qualities fit this person. The counterpart model connects this gap: in relation to the person, purposes, and actual work, it articulates what the agent attends to, how it interprets and judges, which work it carries, and when it questions or revises shared understanding. Relationship modeling connects the contributions without mistaking a division of work for a limit on either participant's abilities.
+**Understanding the user, however, has not yet determined how the counterpart should participate.** The same wish can receive different responses: doing the work, explaining, objecting, or trying something together. Someone developing through reading and intuitive judgment may need a different contribution from someone practicing a particular implementation skill. A user portrait alone may leave the default assistant role deciding everything. Calling an agent intelligent, gentle, or strict does not explain why those qualities fit this person. The counterpart model connects this gap: in relation to the person, purposes, and actual work, it articulates what the agent attends to, how it interprets and judges, which work it carries, and when it questions or revises shared understanding. The relationship account connects the contributions without mistaking a division of work for a limit on either participant's abilities.
 
 This also requires understanding the actual model. Its capabilities, response tendencies, context, and tools condition how a proposed counterpart can be realized. The values and priorities it is asked to adopt express what the collaboration should become. These are distinct matters. Human psychology and model psychology, human preferences and model preferences, here involve both investigating actual tendencies and constructing a relationship. Assigning a role does not rewrite base-model weights; a functional comparison does not establish identical psychological mechanisms or experience. Works and actions make that construction answerable beyond a mutually satisfying description.
 
@@ -275,7 +275,7 @@ opening. Psychology can clarify patterns of attention and response;
 preferences can articulate what matters. **Views orient realization,
 experience tests views and arrangements, and engineering makes new experience
 possible.** The [Trinity account](local-source-and-website.md) develops this
-relation. Modeling gains substance through making and using, rather than
+relation. The accounts gain substance through making and using, rather than
 requiring complete accounts before work can begin.
 
 Clark and Chalmers's extended-mind argument makes room for cognitive activity organized across a person and active environmental supports [[1]](#source-1). YinYang draws a practical consequence: records, images, tools, and the model's work can carry parts of understanding. Its commitment to personal development then asks how this arrangement changes what the person can perceive, judge, initiate, and sustain. Assistance and development become distinguishable outcomes to examine in the same practice.
@@ -334,7 +334,7 @@ The claim earns its place in use. Examine how the counterpart interprets unfinis
 ## Bring the fire into a world that answers
 
 The composition in [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth)
-gives the coupled modeling a perceptible form. In one arrangement, the person
+gives this connected understanding a perceptible form. In one arrangement, the person
 foregrounds intuitive generation as Sun, and the model receives, develops,
 judges, and creates as Moon. Each can generate and give form; the roles can
 be retained or exchanged. The two working models articulate these actual
@@ -582,7 +582,7 @@ The recent AI material is a selected comparison, not an exhaustive literature re
 23. <a id="source-23"></a> International Energy Agency (2025), **Energy and AI**, [complete report](https://iea.blob.core.windows.net/assets/ed0483fd-aab4-4cf9-b25a-5aa362b56a2f/EnergyandAI.pdf), p. 247, Box 5.5. Electricity consumed by IT equipment is converted to heat; the distinction between informational output and warranted knowledge belongs to this essay's argument.
 
 24. <a id="source-24"></a> Thomas R. Gruber (1993), **A Translation Approach to Portable Ontology Specifications**, *Knowledge Acquisition* 5(2), 199–220, [author-hosted full text](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf), especially §§1–2. Ontology's relationship to conceptualization, objects, relations, and shared vocabulary in knowledge representation.
-25. <a id="source-25"></a> Gordana Dodig-Crnkovic (2013), **Information, Computation, Cognition. Agency-based Hierarchies of Levels**, [author preprint](https://arxiv.org/abs/1311.0413). A natural-philosophical framework connecting informational structure, computational dynamics, and agency across levels; this essay's event streams and personal modeling remain further interpretations and choices.
+25. <a id="source-25"></a> Gordana Dodig-Crnkovic (2013), **Information, Computation, Cognition. Agency-based Hierarchies of Levels**, [author preprint](https://arxiv.org/abs/1311.0413). A natural-philosophical framework connecting informational structure, computational dynamics, and agency across levels; this essay's event streams and personal models remain further interpretations and choices.
 
 26. <a id="source-26"></a> Indrė Žliobaitė (public preprint, 2010), **Learning under Concept Drift: an Overview**, [author text](https://arxiv.org/abs/1010.4784). Nonstationary learning over time, mismatches between training and application data, and adaptation mechanisms; the comparison with personal environments is developed here.
 

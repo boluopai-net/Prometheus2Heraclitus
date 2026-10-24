@@ -35,7 +35,7 @@ slot with commitments nobody has chosen.
 ## Connect orientation with situated understanding
 
 The [person](person.md), [counterpart](counterpart.md), and
-[relationship](relationship.md) remain three distinct modeling objects. The
+[relationship](relationship.md) remain three distinct subjects of understanding. The
 orientation supplies their adopted interpretive and evaluative direction;
 the [environment](environment.md) explains its working realization, and
 [revision](revision.md) guides the writing of one's actual revision method.

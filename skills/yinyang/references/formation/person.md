@@ -36,19 +36,20 @@ speech in every situation.
 <a id="event-stream-psychological-modeling"></a>
 <a id="psychological-modeling-from-event-history"></a>
 
-## Personal modeling from event history
+## Condense personal models from event history, philosophy, and personal material
 
-This project's personal modeling connects preferences, psychological activity,
-experience, concepts, and philosophical understanding in one revisable account
-of the person's activity over time. Long-term
-conversation is a principal source: dialogue leaves an event history in which expression,
-questions, responses, choices, corrections, and changes can be recovered in
-their sequence and situation. Everyday habits, life materials, selected personal
-records, and actual work supply further evidence. Philosophy contributes concepts
-and interpretive relations; the model helps distill them together with this
-history into explicit natural-language understanding. The event stream organizes
-the source history; the conceptual model inferred from it explains selected
-relations concerning the person. Neither the person nor that model is the history.
+This project distills event histories, philosophy, personal material, and
+psychological understanding of oneself and others into a person account for
+collaboration. Long-term conversation is one principal source: it leaves histories
+of expression, questions, responses, choices, corrections, and change whose
+events can be recovered in sequence and situation. Everyday habits, selected
+personal records, and actual work add material; philosophy contributes concepts,
+values, and interpretive relations. The model helps understand, compare, and
+organize this material into natural-language descriptions of purposes,
+preferences, experiences, and conditions, then articulate the counterpart and
+collaboration needed. Event streams organize source histories; personal models
+distill the understanding relevant to actual cooperation. The person, history,
+and account are distinct objects.
 
 Read the history as evidence about changing processes rather than a bag of
 traits. Reconstruct what happened, what the person was responding to, how
@@ -59,22 +60,22 @@ scope. Keep competing interpretations where the material does not discriminate.
 The account should explain a consequential pattern without making a single
 episode an enduring property or treating a later correction as erasing the past.
 
-The resulting personal account is a natural-language conceptual model carried in
-prompts and reference accounts, interpreted and used by a language model.
-Its descriptions of preferences, proposed explanations of psychological
-processes, and examination of concepts develop together. A chosen direction can
-already guide cooperation while an explanation remains uncertain; a conceptual
-distinction can reveal a more useful question about experience. The person
+“Personal model” here means a revisable account carried by prompts and reference
+documents for a language model to understand and use in work. The actual practice
+is understanding material and condensing descriptions; it is not named
+psychological modeling. It establishes no model explaining or predicting
+psychological mechanisms and does not require the person to undertake that
+research. Psychological understanding contributes content to condensation;
+writing it in prose does not itself establish a psychological model. The person
 contributes lived experience, purposes, recognition, objection, and judgment;
-the model carries reconstruction, comparison, interpretation, and writing.
-The language model's statistical generation supports writing and interpretation;
-that does not make the personal account a fitted statistical model. This
-practice presently specifies neither a mathematical psychological formalization
-nor a parameter-estimation procedure. Formal or statistical methods can be
-borrowed where a future question warrants their data, assumptions, and checks.
+the model carries material organization, comparison, interpretation, and writing.
+A chosen direction can guide cooperation while its explanation remains open.
+Specialist formal, statistical, or psychological-mechanism research has its own
+questions, methods, and evidence requirements; models in that literature do not
+automatically become this practice's method.
 
-Natural language can express meanings, situations, and relations directly; its
-use need not await a later mathematical replacement. Its philosophical
+Natural language can directly express meanings, situations, and relations,
+making condensed understanding available for cooperation. Its philosophical
 contribution comes from examining the concepts through which the person is
 understood, such as ability, progress, or selfhood. This differs from proposing
 an explanation of a psychological pattern, although the two can inform one
@@ -119,7 +120,7 @@ engineering philosophy, Western philosophy, philosophy of science, logic,
 aesthetics, or another concern of its author. Fully forming one's own YinYang
 includes developing such an expression of one's own, alongside the personal
 account; it need not be complete before useful work begins. These emphases do
-not divide personal modeling into separate routes. Use psychological vocabulary
+not divide the condensation of personal models into separate routes. Use psychological vocabulary
 at the strength supported by evidence. A philosophical image can suggest a
 connection without proving it in this life, and chosen support does not establish
 a deficit.

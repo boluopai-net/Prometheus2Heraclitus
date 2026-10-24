@@ -19,7 +19,7 @@ its developmental purpose or writing a personal philosophy. See
 
 - [YY-01 · Reverse alignment: people develop with generative models](#yy-01)
 - [YY-02 · The person as an embodied multimodal generative model](#yy-02)
-- [YY-03 · Model oneself, the model counterpart, and their relation together](#yy-03)
+- [YY-03 · Understand oneself, the model counterpart, and their relation together](#yy-03)
 - [YY-04 · Let literature, history, philosophy, and aesthetics organize collaboration](#yy-04)
 - [YY-05 · Both participants generate and correct](#yy-05)
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
@@ -114,7 +114,7 @@ precise while leaving unfamiliar ideas open to substantive disagreement.
 
 <a id="yy-03"></a>
 
-## YY-03 · Model oneself, the model counterpart, and their relation together
+## YY-03 · Understand oneself, the model counterpart, and their relation together
 
 A role acquires its situated purpose through a relationship. An account of how
 the person attends, desires, and interprets, or of how they prefer to learn
@@ -122,9 +122,7 @@ and work, can guide an account of the model counterpart. Both accounts develop
 through interaction. Other participants' purposes matter where a shared task
 depends on them; their accounts remain partial and revisable too.
 
-In this project's [psychological modeling from event history](../formation/person.md#event-stream-psychological-modeling), long-term conversation history and everyday life materials ground a natural-language conceptual account. Philosophy and engineering together form
-an understanding of the user's intentional orientation, experience, and
-relationships, which guides the counterpart's contribution and personal
+This project [condenses personal models from event history, philosophy, and personal material](../formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material). Understanding one's own and others' psychology contributes to a natural-language account of preferences, experience, intentional orientation, and relationships. Philosophy helps examine its concepts and values; engineering organizes the material and makes the account usable. Together they guide the counterpart's contribution and personal
 environment. The aim is a better-grounded initial design with less blind trial
 and error; experience from use continues to calibrate model and realization.
 The three domains thereby serve the same personal life.
@@ -137,12 +135,12 @@ that orientation neither changes model weights nor establishes consciousness.
 The model can help formulate and revise it; the person contributes purposes,
 experience, and consent that cannot simply be supplied on their behalf.
 
-Model the coupled activity: what each notices, expresses, initiates, interprets,
+Understand the connected activity: what each notices, expresses, initiates, interprets,
 and changes. The person differs from their account and from its written or
 visual expression; the actual model system likewise exceeds its working
 description. “Model psychology” names observable patterns and revisable
 explanations without presuming human feelings inside the system. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
-develops this bounded modeling; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
+develops how this understanding becomes a personal model; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
@@ -152,8 +150,8 @@ revision method form six private actual files. Six public writing guides explain
 how to form them, including [How to revise](../formation/revision.md). Private
 evidence supports the actual files separately.
 The [Philosophy and models](../design-and-revision.md)
-and its permanent guides develop their writing. Selectively using this modeling
-idea does not require forming all six actual files.
+and its permanent guides develop their writing. Selectively using this approach
+does not require forming all six actual files.
 
 <a id="yy-04"></a>
 
@@ -465,7 +463,7 @@ continued, and discussed.
 
 ## YY-13 · Forming a sinthome
 
-The preceding [coupled modeling](#yy-03) and [expression and realization](#yy-04)
+The preceding [connected understanding](#yy-03) and [expression and realization](#yy-04)
 let an understanding of the person guide their environment. The Trinity of
 philosophy, psychology, and engineering has two levels: generally, all three
 activities are united within shared physical reality; individually, this
