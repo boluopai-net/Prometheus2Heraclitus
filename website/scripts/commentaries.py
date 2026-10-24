@@ -27,7 +27,7 @@ GROUPS = [
         ('finite-inquiry-and-abstraction', '在有限条件下保留和取用足够的轨迹，把可探索的生活材料带入下一部分的共同反思。'),
     ]),
     ('相遇：共同反思与相互培育', 'Encounter: shared reflection and mutual cultivation', [
-        ('yinyang-and-taiji', '共同返回轨迹，辨认彼此的贡献与改变；日月、Shuang yu 与大地使这种相互生成取得形象。'),
+        ('yinyang-and-taiji', '从阴阳、相互为根的双鱼进入太极的场，再借弓琴与日月大地理解差别、造物及其返回。'),
         ('participation-and-support', '从对轨迹的共同反思中调整参与和支持，在实际尝试中培育关系，并为个人哲学准备具体理解。'),
     ]),
     ('形成：从个人哲学到实践形式', 'Formation: from personal philosophy to a form of practice', [
@@ -59,7 +59,7 @@ EN_SUMMARIES = {
     'reasoning': 'Pose questions and compare candidate explanations from the trajectory, retaining grounds for checks, actions, outcomes, and revised judgments.',
     'preference-harness': 'Retain the distinct contributions of choices and evidence: adopt a working view while keeping other materials and branches revisitable.',
     'finite-inquiry-and-abstraction': 'Retain and retrieve enough of the trajectory under finite conditions, carrying explorable living material into the next part’s shared reflection.',
-    'yinyang-and-taiji': 'Revisit the trajectory together to recognize each participant’s contributions and changes; Sun, Moon, paired fish, and Earth give this reciprocal generation an image.',
+    'yinyang-and-taiji': 'Move from YinYang and mutually grounding paired fish to Taiji’s field, then through bow, lyre, Sun, Moon, and Earth to difference, creations, and their return.',
     'participation-and-support': 'Revise participation and support through shared reflection on the trajectory, cultivate the relationship through actual trials, and prepare concrete understanding for personal philosophy.',
     'why-yinyang': 'First define an agent, then ask why scattered capacities need shared direction: write the actual participants and relationship into the arrangement.',
     'literary-programming': 'Carry jointly produced trajectories and reflection on cooperation into a philosophy of your own through literary programming, metaphor, and analogy.',

@@ -138,7 +138,7 @@ def header(page, text):
         destination = f'/{slug}/'
         if english and (root / slug / 'en/index.html').is_file():
             destination += 'en/'
-        current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'skills', 'tools'} and slug == 'repositories') else ''
+        current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'research-learning', 'skills', 'tools'} and slug == 'repositories') else ''
         nav.append(f'<a href="{destination}"{current}>{en if english else zh}</a>')
     return f'<header class="header wrap"><div class="header-top"><a class="wordmark" href="{home}" aria-label="{"boluopai home" if english else "boluopai 首页"}"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls">{switch}<button class="theme-control" type="button" aria-pressed="false" aria-label="{"Dark mode" if english else "深色模式"}" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>{"Dark" if english else "深色"}</span></button></div></div><nav class="section-tabs" aria-label="{"Sections" if english else "栏目"}">{"".join(nav)}</nav></header>'
 

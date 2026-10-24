@@ -1,4 +1,4 @@
-"""Render one continuous bilingual practical guide and its legacy route aliases.
+"""Render bilingual general and research guides, with existing legacy aliases.
 
 uv run --with markdown python scripts/render-guide.py --repo /path/to/Prometheus2Heraclitus
 Shared site chrome is projected by refine-navigation.py after both editions exist.
@@ -27,16 +27,25 @@ LEGACY_TOPICS = {
     'practice': 'ways-of-practice',
     'automation': 'automation',
 }
+GUIDES = (
+    ('getting-started', 'getting-started', SECTION_IDS, 'axe.svg',
+     '从实际任务开始，了解工具、协作、学习与持续维护。',
+     'A practical guide to tools, collaboration, learning, and maintenance.'),
+    ('research-and-learning', 'research-learning',
+     ('research-map', 'domain-methods', 'evidence', 'models', 'writing', 'learning', 'workspace'),
+     'notebook.svg', '组合学科参考、研究方法与工具，让学习、实验和写作接续。',
+     'Connect domain references, research methods, and tools for learning, analysis, and writing.'),
+)
 
 
-def route(english):
-    return '/getting-started/' + ('en/' if english else '')
+def route(english, slug='getting-started'):
+    return '/' + slug + '/' + ('en/' if english else '')
 
 
-def render(text):
+def render(text, section_ids):
     md = markdown.Markdown(extensions=['md_in_html', 'sane_lists', 'tables', CjkBoldExtension()])
     rendered = md.convert(text)
-    for anchor in SECTION_IDS:
+    for anchor in section_ids:
         rendered, count = re.subn(
             rf'(?:<p>)?<a id="{anchor}"></a>(?:</p>)?\s*<h2>',
             f'<h2 id="{anchor}" tabindex="-1">', rendered,
@@ -78,41 +87,43 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', type=Path, required=True)
     args = parser.parse_args()
-    for english in (False, True):
-        source = args.repo / 'skills/yinyang/references/docs' / ('getting-started.md' if english else 'getting-started.zh-CN.md')
+    for guide, english in ((guide, english) for guide in GUIDES for english in (False, True)):
+        stem, slug, section_ids, motif, description_zh, description_en = guide
+        source = args.repo / 'skills/yinyang/references/docs' / (stem + ('.md' if english else '.zh-CN.md'))
         text = source.read_text().replace('https://boluopai.net/', '/')
         title = text.splitlines()[0].removeprefix('# ')
         headings = re.findall(r'<a id="([^"]+)"></a>\s*## (.+)', text)
-        if tuple(anchor for anchor, _ in headings) != SECTION_IDS:
-            raise ValueError(f'{source}: expected the nine ordered guide anchors')
+        if tuple(anchor for anchor, _ in headings) != section_ids:
+            raise ValueError(f'{source}: expected its ordered guide anchors')
         # The flat reading navigation replaces only the source's duplicated tool map.
         text, count = re.subn(
             r'(?ms)^## [^\n]+\n\s*<nav class="guide-navigation".*?</nav>\s*', '', text,
         )
         if count != 1:
             raise ValueError(f'{source}: expected one source tool map')
-        rendered = render(text).replace('<p>', '<p class="guide-lead">', 1)
+        rendered = render(text, section_ids).replace('<p>', '<p class="guide-lead">', 1)
         note_start = rendered.rfind('<p>')
         rendered = rendered[:note_start] + rendered[note_start:].replace('<p>', '<p class="guide-note">', 1)
-        rendered = '<img class="motif guide-motif" src="/motifs/axe.svg" alt="" aria-hidden="true">' + rendered
+        rendered = f'<img class="motif guide-motif" src="/motifs/{motif}" alt="" aria-hidden="true">' + rendered
         lang, suffix = ('en', 'en/') if english else ('zh-CN', '')
         back = 'Resources &amp; Advice' if english else '资料与建议'
         skip = 'Skip to content' if english else '跳至正文'
-        description = 'A practical guide to tools, collaboration, learning, and maintenance.' if english else '从实际任务开始，了解工具、协作、学习与持续维护。'
+        description = description_en if english else description_zh
         page = f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} · boluopai</title><meta name="description" content="{html.escape(title + ' — ' + description)}"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/guide.css"><link rel="icon" href="/mark.svg"><script defer src="/guide.js"></script></head>
 <body><a class="skip" href="#main">{skip}</a><header class="header wrap"></header>
 <main id="main" class="wrap practical-guide"><a class="back" href="/repositories/{suffix}">{back}</a><div class="guide-layout">{navigation(headings, english)}<div class="guide-reading"><article>{rendered}</article></div></div></main>
 <footer class="footer wrap"><p class="copyright"></p><a href="#main">{'Back to top' if english else '回到顶部'}</a></footer></body></html>'''
-        target = root / 'dist' / route(english).lstrip('/') / 'index.html'
+        target = root / 'dist' / route(english, slug).lstrip('/') / 'index.html'
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page)
-        for slug in LEGACY_TOPICS:
-            alias = root / 'dist/getting-started' / slug / suffix / 'index.html'
-            alias.parent.mkdir(parents=True, exist_ok=True)
-            alias.write_text(legacy_alias(slug, english))
-        print(f'Rendered {target.relative_to(root)} and six direct legacy aliases from {source.name}')
+        if stem == 'getting-started':
+            for old_slug in LEGACY_TOPICS:
+                alias = root / 'dist/getting-started' / old_slug / suffix / 'index.html'
+                alias.parent.mkdir(parents=True, exist_ok=True)
+                alias.write_text(legacy_alias(old_slug, english))
+        print(f'Rendered {target.relative_to(root)} from {source.name}')
     subprocess.run([sys.executable, str(root / 'scripts/refine-navigation.py')], check=True)
 
 

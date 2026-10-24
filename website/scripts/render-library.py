@@ -146,6 +146,8 @@ def main():
     def url(path):
         if path in {DOCS + 'getting-started.md', DOCS + 'getting-started.zh-CN.md'}:
             return '/getting-started/' + ('' if path.endswith('.zh-CN.md') else 'en/')
+        if path in {DOCS + 'research-and-learning.md', DOCS + 'research-and-learning.zh-CN.md'}:
+            return '/research-learning/' + ('' if path.endswith('.zh-CN.md') else 'en/')
         commentary = essay_url(path) or retired_url(path)
         if commentary:
             return commentary
@@ -233,7 +235,7 @@ def main():
     for path in sorted(allowed):
         if retired_url(path):
             continue
-        if path in {DOCS + 'getting-started.md', DOCS + 'getting-started.zh-CN.md'}:
+        if path in {DOCS + stem + suffix for stem in ('getting-started', 'research-and-learning') for suffix in ('.md', '.zh-CN.md')}:
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue
         if not path.endswith('.md'):
