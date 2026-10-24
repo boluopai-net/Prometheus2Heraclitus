@@ -135,6 +135,69 @@ Under AR, $Q(a)$ follows because each repair entails it. Under IAR it does not f
 
 If $P(a)\succ N(a)$ and preferred-repair selection leaves only $\{P(a)\}$, the selected family changes. Applying the same AR rule now accepts $P(a)$ as well as $Q(a)$. This illustration follows from the definitions: priority selects the view, and entailment yields its consequences. If the assertions describe an actual object, empirical assessment asks which description fits that object.
 
+## From conflicting views to reconstructed premises
+
+Two consistent views can disagree: one entails $p$, another entails $\neg p$.
+Each has interpretations satisfying its premises; no single classical
+interpretation satisfies both conclusions together. Keeping these views
+available therefore does not assert a contradiction within one interpretation.
+The disagreement also does not establish that both views are inadequate. Evidence
+may support one, distinguish their circumstances, or leave the issue unresolved.
+When their shared assumptions prevent a purpose from being adequately understood
+or realized, the next contribution can instead be a better account of the problem.
+
+Consider a **propositional teaching example** using the same maximal-consistent-
+subset principle. It is an illustration authored here, not another result about
+the DL query languages studied by [Bienvenu and Bourgaux](https://arxiv.org/abs/2003.05746v5).
+For one specified task and situation, let $h$ mean assistance is used, $p$ mean
+the person retains direction and control, and $c$ mean the delegation is
+inspectable and changeable by the person. These meanings stay fixed below.
+Start with:
+
+$$
+T_0=\{h\rightarrow\neg p\},\qquad A_0=\{h,p\}.
+$$
+
+$T_0$ is consistent, but $T_0\cup A_0$ is not. Its two repairs are $\{h\}$
+and $\{p\}$. The first, together with $T_0$, entails $\neg p$; the second
+entails $p$. With both repairs retained, AR accepts neither $p$ nor $\neg p$;
+IAR accepts neither from their empty assertion intersection. Brave inference
+accepts each separately through a different repair. It does not establish the
+conjunction $p\land\neg p$, which neither repair entails.
+
+Choosing a preferred repair changes which assertion set guides inference while
+leaving $T_0$ fixed. Yet if the actual task calls for useful help while retaining
+the person's direction, and observation shows that both occur together, the
+shared rule “assistance entails loss of direction” deserves examination. Merely
+choosing between the old repairs cannot express that possibility. A candidate
+reconstruction distinguishes the conditions of delegation:
+
+$$
+T_1=\{(h\land c)\rightarrow p,\ (h\land\neg c)\rightarrow\neg p\},
+\qquad A_1=\{h,c,p\}.
+$$
+
+Here $T_1\cup A_1$ is consistent. The old unconditional rule has been
+**retracted and replaced**, not supplemented: retaining it would again make
+the assertions inconsistent. The new account preserves the concern about lost
+direction while making room for help under specified conditions. This is a
+change to the theory and available distinctions, beyond repairing assertions
+under a fixed theory. Other reconstructions can revise vocabulary or the question
+itself; they must explain how old and new meanings relate.
+
+The two rules in $T_1$ are illustrative conditional assumptions, not established
+causal laws or an autonomy principle. Inspectability and changeability may be
+insufficient in actual use, and their absence need not imply loss of direction.
+Evidence, the person's purposes, and observable consequences determine whether
+this reconstruction improves on the old account or needs further revision.
+Formal coherence makes the candidate intelligible; it does not guarantee fit.
+[Conflicting models and reconstructing the question](speech-opposition-and-self-formation.md#conflicting-models-and-reconstructing-the-question)
+develops this move in the cooperation example. The dialectical comparison lies
+in examining and transforming what generated the opposition, while retaining
+the concerns it expressed, rather than always selecting a winner among unchanged
+views. Repair semantics specify inference within their given setting; they do
+not themselves prescribe this reconstruction.
+
 ## Consistent support and consistent results
 
 Fix an allowed query language and treat substituted answer queries as closed formulas. Let $C_\sigma(K)$ be the set accepted by semantics $\sigma$.
@@ -273,11 +336,12 @@ on the stated premises and inference rules.
 
 ## Source and scope
 
-The comparison with Hegel concerns common consequence and preservation through
-a specified transformation. Repair semantics supply one way of organizing
+The comparison with Hegel concerns common consequence, reconstruction of the
+premises generating an opposition, and preservation through a specified
+transformation. Repair semantics supply one way of organizing
 non-explosive inference; they do not exhaust dialectic's questions of
 determination, negation, mediation, and development.
 
-Meghyn Bienvenu and Camille Bourgaux's [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v5) provides public definitions of preferred repairs and their query semantics. Their [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf) surveys wider semantic families, including support and defeater approximations. The example above follows directly from the definitions stated here; the harness application is this essay's interpretation.
+Meghyn Bienvenu and Camille Bourgaux's [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v5) provides public definitions of preferred repairs and their query semantics. Their [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf) surveys wider semantic families, including support and defeater approximations. The DL example follows directly from the definitions stated here. The propositional teaching example uses the same repair principle; reconstructing its theory and applying these distinctions to the harness are this essay's contributions.
 
 General paraconsistency supplies the wider background of non-explosive reasoning. The repair-based comparison contributes the finer distinctions among view selection, support, and jointly consistent results that this essay uses to understand cooperation.

@@ -148,6 +148,13 @@ The distinction matters because choosing what to investigate is not yet deciding
 
 ## Shared scientific inquiry
 
+The movement from retained opposition to a new working unity can require more
+than selecting one existing view. If the available views share an inadequate
+premise, revise the distinctions and relations that generated the alternatives.
+[Conflicting models and reconstructing the question](speech-opposition-and-self-formation.md#conflicting-models-and-reconstructing-the-question)
+develops this dialectical comparison; the repair example keeps its exact
+inference claims separate from the work of reconstructing a model.
+
 Retaining conflicts and comparing interpretations prepare material for later reflection; they have not already unified the oppositions. When a question concerns how concepts such as independence and assistance organize experience, premises and relationships may themselves need reconstruction. [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md) takes up that question, while source retention and inference checks keep their methodological role here.
 
 Analysis, explanatory hypothesis formation, synthesis, deduction, and empirical assessment can organize shared inquiry. Their relations allow return, overlap, and entry from an existing model. Peirce's discussion of inquiry provides a historical reference for distinguishing explanatory hypotheses, experiential consequences, and assessment: see [the 1908 manuscript, MS 841](https://fromthepage.com/jeffdown1/c-s-peirce-manuscripts/ms-841-1908-a-neglected-argument-text-and-fragments?page=9). These distinctions help ask where a contribution enters and what subsequent assessment it needs.

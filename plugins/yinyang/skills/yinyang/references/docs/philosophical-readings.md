@@ -147,7 +147,7 @@ Its interpretive inversions do not license treating ordinary denial as admission
 
 Lacan brings three connected questions to this collection: how people acquire a position through language and images, how later speech changes the meaning of earlier expression, and how singular practices participate in a person's mode of existence. The site develops these questions into contemporary accounts of personal understanding, model collaboration, and the sinthome.
 
-Conceptual explanations, examples, formal translations, and original-text references are gathered in [A guide to Lacanian concepts: from original texts to personal practice](lacan-reading-guide.md). Use it to understand the Other, the divided subject, retroaction, the three registers, and the sinthome, then return to the relevant essay. It also distinguishes the original concepts from this site's extensions.
+Conceptual explanations, examples, formal translations, and original-text references are gathered in [A guide to Lacanian concepts: from original texts to personal practice](lacan-reading-guide.md). Its [dialectical reading](lacan-reading-guide.md#dialectical-reversal-changing-understanding-and-position) follows recognition, desire, and speech before comparing them with model revision. The guide also develops the Other, the divided subject, retroaction, the three registers, and the sinthome, distinguishing the original concepts from this site's extensions.
 
 ## Fire myths: Prometheus, Kuafu, and living together
 

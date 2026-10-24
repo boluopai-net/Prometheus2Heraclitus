@@ -116,11 +116,78 @@ of determining the person's final truth.
 
 ## Dialectical reversal: changing understanding and position
 
-In [“Intervention on Transference” (1951)](https://recherche-lacan.gnipl.fr/2015/07/02/les-ecrits-intervention-sur-le-transfert-1951/), Lacan reads Freud's Dora case through a series of dialectical reversals. Reversal concerns the subject's position within the relations being recounted and what becomes the object of the question, beyond replacing an interpretation with its opposite. Retain the source's particular context of transference and the analytic relationship.
+Lacan's dialectical questions concern how a subject forms through relations that
+also unsettle their self-understanding. His encounter with Hegel was mediated
+in part by Kojève's seminars, which he attended from the 1930s; the
+[EPHE's biographical account](https://prosopo.ephe.psl.eu/node/397) locates that
+formation. **Recognition, desire, and speech are three entrances this guide
+uses to read the argument, not a fixed three-part taxonomy named by Lacan.**
+They follow connected changes: whose recognition matters, what is sought in
+addressing another, and how speaking can change the position from which one
+understands the question.
 
-Retroaction and dialectical reversal can therefore connect without being identical. A later sentence can change earlier meaning without establishing a changed subjective position; editing a tool's instructions likewise does not prove such a transformation. The main essay offers a bounded comparison: moving from “receiving help costs independence” to “how can I participate in organizing and changing assistance?” may move the speaker from rejecting assistance toward participating in arranging the relationship. Particular speech and action must support a claim that this change actually occurred.
+### Recognition: the other's place in becoming oneself
 
-Hegel's determinate negation and sublation offer an inquiry into determinations and their limits. [*Science of Logic*, “The Absolute Idea,” §§1789–1802](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm) supplies no template for combining arbitrary opposing opinions into a stronger conclusion. At the scale of practice, this site asks what an earlier determination protected, where it begins obstructing its purpose, and how a new relation can retain concerns while changing their form. This comparison and Lacan's question of subjective position have distinct objects; neither makes a software version change automatically a dialectical reversal. [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md) owns the developed contemporary argument.
+In [*Seminar I*, 12 May 1954](https://recherche-lacan.gnipl.fr/2013/07/28/li-les-ecrits-techniques-de-freud-1953-1954-lecon-du-12-mai-1954/), Lacan connects imaginary rivalry with symbolic recognition. An image of the other can organize the ego and make an object desirable through rivalry. Naming desire before another introduces a symbolic relation in which it can be recognized and assumed. Recognition here exceeds approving a self-image or satisfying an appetite. The movement changes how desire is situated between participants; it does not simply supply the ego with a favorable evaluation.
+
+Consider an illustrative predicament: someone wants recognition as an independent
+thinker, but accepts only the verdict of a particular authority as proof of that
+independence. A better verdict could leave this dependence intact. The dialectical
+question concerns the relation that makes the authority's verdict decisive,
+including the speaker's participation in sustaining it. This differs from
+advising self-sufficiency: recognition uses language and criteria shared with
+others. The [Other](#language-signifiers-and-the-other) names that symbolic
+locus, which cannot be reduced to the particular person whose approval is sought.
+
+### Desire: why obtaining the requested object does not settle the question
+
+In [“The Signification of the Phallus” (1958), pp. 689–691](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-la-signification-du-phallus-1958/), **need, demand, and desire** acquire different roles. Need seeks satisfaction; articulated demand addresses the Other and can make what is given signify love or presence. Desire emerges through their separation and cannot be reduced to either bodily satisfaction or a demand for love. The argument follows how addressing another transforms what is sought, rather than merely arranging a sequence of wanted objects.
+
+The [1960 “Subversion of the Subject,” pp. 813–814](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/) further asks how the Other's desire returns as a question about what the Other wants from the subject. It concerns the position from which one desires, as well as what one asks for.
+
+For example, receiving a requested invitation may leave open whether one is
+wanted as a participant or merely tolerated. That hypothetical distinction makes
+the question intelligible; it does not diagnose the recipient. Changing the
+object alone may miss the relation through which the object matters. The
+[fantasy discussion](#fantasy-and-its-traversal-the-subjects-position-in-a-relationship)
+examines how a scene can organize such positions and expectations.
+
+### Speech and reversal: a changing subject within the account
+
+In [“Intervention on Transference” (1951), PDF pp. 2–6](https://www.psychaanalyse.com/pdf/lacan_pas_tout_lacan_1951-11-01.pdf#page=2), reversal changes understanding and subjective position. The first Dora reversal brings her own participation into the account; Lacan also implicates Freud's prejudices in its impasse. The proposed third reversal remains an unrealized possibility, not a completed cure. The interpreter thus belongs to the relation under examination rather than observing it from outside.
+
+This does not convert another person's wrongdoing into the speaker's fault.
+It changes the question from whether an external description is accurate to
+how the speaker is situated in the described relations. Those questions can
+both matter. Likewise, a change in what someone says is different from evidence
+that their position has changed.
+
+In [“The Function and Field of Speech and Language” (1953), the passages on address and response](https://www.causefreudienne.org/textes-fondamentaux/fonction-et-champ-de-la-parole-et-du-langage-en-psychanalyse/), speech addresses another whose response participates in recognition. Naming the addressee assigns a position they may take up or refuse; the analyst's response consequently carries responsibility for the subject's place in the exchange. Speech does more than report an already finished inner truth. Its address and reception enter the formation of that truth.
+
+Retroaction can reorganize earlier meaning without establishing a dialectical
+reversal. The distinction is between a changed reading and a changed subjective
+position, not between short and long speech. The sections on
+[retroaction](#retroaction-and-retrospective-understanding) and
+[full speech](#full-speech-half-saying-and-truth) develop those connections.
+
+### Historical development and the contemporary comparison
+
+The early recognition vocabulary should not flatten Lacan's later questions.
+In [“Subversion of the Subject,” pp. 797–798](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/), he challenges a dialectic converging on absolute knowledge and a completed self-identical subject. Read the later divided subject and limits of truth without promising final reconciliation through successive explanations.
+
+The site's model-revision analogy begins from a different object. If one model
+yields $P$ and another yields $\neg P$, choosing a conclusion may leave both
+models' assumptions untouched. The conflict can instead prompt examination of
+their concepts, scope, and premises, followed by reconstruction of one or both
+models and the question they answer. For instance, models that equate independence
+with refusing help or with receiving help might both miss participation in
+organizing and revising assistance. That possibility is this site's construction,
+not a formalization of Lacan or a guarantee that every opposition has a synthesis.
+[Conflicting models and reconstructing the question](speech-opposition-and-self-formation.md#conflicting-models-and-reconstructing-the-question)
+develops the comparison. Hegel's [determinate negation and sublation](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm),
+Lacan's subjective reversal, and revision of a working representation retain
+their different questions and evidence. This guide supplies conceptual reading,
+not clinical instructions; software changes alone establish no analytic transformation.
 
 ## Retroaction and retrospective understanding
 

@@ -65,6 +65,101 @@ Heraclitean images of opposition make difference within a relation worth retaini
 
 Conceptual clarification contributes here too. [*Philosophical Investigations* §133](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen) compares different philosophical methods with therapies. This essay asks how much of an impasse arises from determinations of words such as independence and how much requires changes in actual arrangements. Clarification may release misleading demands or make genuinely unresolved difficulties more evident.
 
+## Conflicting models and reconstructing the question
+
+A conclusion can change with the model used to reach it. One account makes
+assistance incompatible with independence; another treats assistance as a
+condition of meaningful participation. If each has its own premises, obtaining
+$P$ in one and $\neg P$ in another does not put both claims inside one consistent
+classical interpretation. Before calling the disagreement a contradiction,
+check whether the models address the same person, conditions, and meaning of
+independence. A changed meaning requires an explicit comparison, not merely
+reusing the letter $P$.
+
+The [inconsistency-tolerant comparison](preference-harness.md#selection-and-inference)
+shows how conflicting material can remain available while inference proceeds
+within consistent views. An inclusion-maximal repair cannot add any omitted
+assertion while preserving consistency with the fixed theory; this does not establish which
+view is true or invent a better conceptual scheme. Their consequences can differ.
+This provides the formal comparison used here, without introducing a separate
+calculus called dialectical logic.
+
+There are several ways forward. New evidence can favor one existing view; a
+condition can explain why both local answers hold in different situations; or
+the available models can organize the question inadequately. The last case calls
+for **reconstructing the premises, distinctions, or relations that generate the
+alternatives**. Repeated disagreement alone does not prove both models inadequate.
+Show what each misses, what the conflict reveals, and what the proposed
+reconstruction explains or makes possible.
+
+Return to independence and assistance. A model requiring all work to be done
+alone protects control but excludes useful cooperation. A model assigning all
+judgment to the helper may complete work while removing the person's ability to
+shape it. A new model can distinguish receiving assistance from surrendering
+direction, and make the delegation's scope and revisability explicit. It retains
+the concerns that drove the opposition while changing their relationship.
+Neither old model's unconditional conclusion need become the final answer.
+The [small formal comparison](preference-harness.md#from-conflicting-views-to-reconstructed-premises)
+shows why replacing a governing premise differs from selecting a repair under it.
+
+The six-file distinction developed in this book supplies another concrete
+example. Treating the files as a psychological model makes completeness of the
+portrait seem central. The opposite, narrower proposal—treating them as mere
+tool settings—would lose the person's psychological and philosophical grounds.
+The revised organization gives personal references and working models different
+jobs: the former retain experience and revisable interpretations; the latter
+select what cooperation and environmental fit need. This is a reconstruction
+of the objects and their connection, not a compromise about how much psychology
+to insert into a configuration. Its adequacy is checked against both the source
+material and actual use.
+
+Here a dialectical reading follows how an arrangement's own commitments expose
+its limits and how a changed relation preserves relevant concerns. “Unity” names
+that achieved organization at a particular scope; it need not mean declaring
+$P$ and $\neg P$ jointly true, merging every old premise, or ending future
+revision. A better model earns that description through reasons and consequences.
+
+## Recognition, desire, and speech change what the problem is
+
+Model reconstruction concerns more than a detached observer's description.
+A person saying “I must be independent” may also be addressing someone whose
+recognition matters, trying to understand what is expected of them, or revising
+what they take their own wish to be. The [Lacan guide](lacan-reading-guide.md#dialectical-reversal-changing-understanding-and-position)
+separates these entrances to recognition, desire, and speech, and situates them
+in their texts rather than treating them as a fixed three-step procedure.
+
+In our imagined exchange, recognition raises the question of whose acknowledgment
+would count as independence. Desire asks what accepting or refusing assistance
+means beyond obtaining a useful output. Speech can change the relation itself:
+“I want no help” may become “I want a say in how help is organized.” This is not
+just an observer substituting one classification for another. The speaker may
+now participate in setting the arrangement that was previously presented as
+something to accept or reject. Whether that change occurs in a particular
+encounter remains a question for its expression and subsequent activity.
+
+A working model can represent selected changes in that relation. It does not
+thereby reproduce a subject's whole movement, and a document edit alone does
+not establish that the person now occupies a different position. This is where
+the comparison becomes useful: inspect both the reconstructed account and the
+actual participation it helps make possible.
+
+## A comparison with Logic-Based Therapy
+
+Elliot D. Cohen's **Logic-Based Therapy (LBT)** offers a nearby comparison.
+The [“Six Steps of LBT” section of Cohen and colleagues' study](https://link.springer.com/article/10.1007/s10942-023-00532-z)
+distinguishes valid practical inference from problematic evaluative or factual
+premises, and connects examining those premises with guiding virtues and a
+philosophical alternative. Thus changing an inference's starting point can
+matter more than repeating the inference more rigorously.
+
+This illuminates a shared question: which premise sustains the impasse, and
+what alternative changes its practical meaning? LBT gives that question its
+own method; Lacanian reversal examines the subject's position in speech and
+relations. A revised premise may participate in a changed position, but these
+are distinct claims. Here the comparison develops a philosophical argument;
+it does not add a counseling protocol to YinYang or establish an equivalence
+between the two approaches.
+
 ## How a solution becomes a new problem
 
 A previously effective method may obstruct its purpose under new conditions. Suppose detailed prompt steps once reduced omissions and protected attention. Later model and task conditions change, and the steps produce repetition and unnecessary pauses. Revision needs to recover the relation they protected and judge which provisions remain effective and which should leave.
