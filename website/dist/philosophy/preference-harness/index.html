@@ -84,6 +84,27 @@
 <p>取 <span class="math-source" data-display="false" data-tex="T=\{P\sqsubseteq\neg N,\ P\sqsubseteq Q,\ N\sqsubseteq Q\}">$T=\{P\sqsubseteq\neg N,\ P\sqsubseteq Q,\ N\sqsubseteq Q\}$</span>，<span class="math-source" data-display="false" data-tex="A=\{P(a),N(a)\}">$A=\{P(a),N(a)\}$</span>。没有优先关系时，修复是 <span class="math-source" data-display="false" data-tex="\{P(a)\}">$\{P(a)\}$</span> 与 <span class="math-source" data-display="false" data-tex="\{N(a)\}">$\{N(a)\}$</span>。</p>
 <p>在 AR 下，每个修复都蕴涵 <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span>，因此它可以推出。在 IAR 下，断言交集为空，所以不能推出它。brave 语义同时接受 <span class="math-source" data-display="false" data-tex="P(a)">$P(a)$</span> 和 <span class="math-source" data-display="false" data-tex="N(a)">$N(a)$</span>：每项各有一致支撑，但合起来与 <span class="math-source" data-display="false" data-tex="T">$T$</span> 不一致。一致支撑与结果一致是两种不同性质。</p>
 <p>若 <span class="math-source" data-display="false" data-tex="P(a)\succ N(a)">$P(a)\succ N(a)$</span>，并且优先修复选择只留下 <span class="math-source" data-display="false" data-tex="\{P(a)\}">$\{P(a)\}$</span>，改变的便是选定修复族。继续使用同一个 AR 规则，现在也会接受 <span class="math-source" data-display="false" data-tex="P(a)">$P(a)$</span>，以及 <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span>。例子从定义推出：优先关系选择视图，蕴涵产生后果。断言描述实际对象时，经验考察追问哪种描述契合该对象。</p>
+<h2 id="从冲突视图到前提的重构">从冲突视图到前提的重构</h2>
+<p>两个各自一致的视图可以发生分歧：一个蕴涵 <span class="math-source" data-display="false" data-tex="p">$p$</span>，另一个蕴涵 <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>。每个视图都有满足其前提的解释，却没有同一个经典解释同时满足这两个结论。因此，保留这些视图，不等于在同一个解释中断言矛盾。分歧也不直接证明两边都不适切：证据可能支持其中一边，区分它们各自适用的处境，或让问题继续未决。当共同前提妨碍我们适切地理解或实现目的时，下一项贡献则可能是形成更好的问题说明。</p>
+<p>考虑一个采用相同极大一致子集原则的<strong>命题逻辑教学例子</strong>。这是本文编写的说明，不是<a href="https://arxiv.org/abs/2003.05746v5"> Bienvenu 与 Bourgaux</a> 所研究的描述逻辑查询语言的另一项结论。针对一项明确的任务与情境，令 <span class="math-source" data-display="false" data-tex="h">$h$</span> 表示使用了帮助，<span class="math-source" data-display="false" data-tex="p">$p$</span> 表示本人保有方向与控制，<span class="math-source" data-display="false" data-tex="c">$c$</span> 表示本人能够检查和改变委派安排。下文保持这些含义不变。先取：</p>
+<div class="math-source" data-display="true" data-tex="
+T_0=\{h\rightarrow\neg p\},\qquad A_0=\{h,p\}.
+">$$
+T_0=\{h\rightarrow\neg p\},\qquad A_0=\{h,p\}.
+$$</div>
+<p><span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> 一致，但 <span class="math-source" data-display="false" data-tex="T_0\cup A_0">$T_0\cup A_0$</span> 不一致。它有两个修复：<span class="math-source" data-display="false" data-tex="\{h\}">$\{h\}$</span> 与 <span class="math-source" data-display="false" data-tex="\{p\}">$\{p\}$</span>。第一个与 <span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> 一起蕴涵 <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>，第二个蕴涵 <span class="math-source" data-display="false" data-tex="p">$p$</span>。保留两个修复时，AR
+既不接受 <span class="math-source" data-display="false" data-tex="p">$p$</span>，也不接受 <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>；IAR 从空的断言交集同样不能接受其中任一项。
+brave 推理通过不同修复分别接受两者，却没有确立合取 <span class="math-source" data-display="false" data-tex="p\land\neg p">$p\land\neg p$</span>，因为没有任一修复蕴涵这个合取。</p>
+<p>选取优先修复，改变的是哪组断言指导推理，<span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> 保持不变。然而，如果实际任务需要有用的帮助，同时保留本人的方向，观察又显示两者确实能够共同发生，那么双方共用的「使用帮助就失去方向」这条规则就需要考察。只在原有修复中选一边，无法表达这种可能。一种候选重构区分委派的条件：</p>
+<div class="math-source" data-display="true" data-tex="
+T_1=\{(h\land c)\rightarrow p,\ (h\land\neg c)\rightarrow\neg p\},
+\qquad A_1=\{h,c,p\}.
+">$$
+T_1=\{(h\land c)\rightarrow p,\ (h\land\neg c)\rightarrow\neg p\},
+\qquad A_1=\{h,c,p\}.
+$$</div>
+<p>现在 <span class="math-source" data-display="false" data-tex="T_1\cup A_1">$T_1\cup A_1$</span> 一致。旧的无条件规则被<strong>撤回并替换</strong>，而非保留后再加新规则；保留它仍会使这些断言不一致。新的说明保留对丧失方向的关切，同时为特定条件下的帮助留下位置。这改变理论及可用区分，超出了固定理论下修复断言的工作。其他重构可以改变词汇，或改变问题本身；它们需要说明新旧含义怎样相接。</p>
+<p><span class="math-source" data-display="false" data-tex="T_1">$T_1$</span> 的两条规则是用于说明的条件假设，不是已经确立的因果规律或自主性原则。实际使用中，能够检查与改变可能仍不充分，缺少这些条件也未必意味着失去方向。证据、本人的目的与可观察后果，决定这项重构是否改进了原有说明，或仍需修订。形式连贯使候选能够被理解，却不保证适切。<a href="/philosophy/speech-opposition-and-self-formation/#模型之间的冲突与问题的重构">模型之间的冲突与问题的重构</a>在协作例子中展开这一步。辩证比较在于考察并改变产生对立的条件，同时保留其中表达的关切，而不总是在保持不变的视图之间选出胜者。修复语义规定给定设定内怎样推理，本身不规定这种重构。</p>
 <h2 id="一致支撑与结果一致">一致支撑与结果一致</h2>
 <p>固定允许的查询语言，将代入答案后的查询视作闭公式。设 <span class="math-source" data-display="false" data-tex="C_\sigma(K)">$C_\sigma(K)$</span> 为语义 <span class="math-source" data-display="false" data-tex="\sigma">$\sigma$</span> 接受的集合。</p>
 <table>
@@ -140,8 +161,8 @@ $$</div>
 <p>既有制度与工具常需让旧接口、旧记录和不同参与者继续协作，这种向后兼容有实际作用。个人与模型的环境可以通过记录、成果和明确的交接与它们连接，同时在内部面向新能力演进。兼容因而成为具体连接处的工作，而不是个人发展每一步都必须服从的节奏。<a href="/philosophy/stealing-fire/#一种生活方式选择火的节奏">与社会异步、与模型同步</a>把这个设计方向接到生活：保留对世界的回应，让共同理解与创造有连续展开的空间。进入社会评估时，把展示的工作与使用的支持转换、暂时收束到它能接收的层次与规则；之后继续使用已经证明更好的安排。这次相遇的限制，不必成为 harness 永久的能力上限。</p>
 <p>阅读环境可以继续改变，同时保留能够理解的轨迹：偏好过哪些替代，为什么，检查了什么，又由检查支持了什么。区分这些关系，给有限探究以一个目标：表示与方法需要保留其中哪些内容，又由什么证据表明这份表示足以服务后来的使用？<a href="/philosophy/finite-inquiry-and-abstraction/">有限探究与节制的抽象</a>进一步追问，在有限时间与注意力下，可用轨迹需要多少结构与计算。选择抽象与检查后果可以共同展开；偏好引导选择，形式有效性则取决于列明的前提与推理规则。</p>
 <h2 id="来源与范围">来源与范围</h2>
-<p>与黑格尔的比较，关心共同后果，以及通过指定变换保存贡献。修复语义提供组织非爆炸推论的一种方式，并不穷尽辩证法关于规定、否定、中介与发展的追问。</p>
-<p>Meghyn Bienvenu 与 Camille Bourgaux 的公开研究<a href="https://arxiv.org/abs/2003.05746v5"><em> Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation</em></a> 给出优先修复与查询语义的定义。两人的<a href="https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf"><em> Inconsistency-Tolerant Querying of Description Logic Knowledge Bases</em></a> 综述更广的语义家族，包括支撑与击败集逼近。上面的例子直接从这里列明的定义推出；用于 harness 的解释属于本文。</p>
+<p>与黑格尔的比较，关心共同后果、产生对立的前提的重构，以及通过指定变换保存贡献。修复语义提供组织非爆炸推论的一种方式，并不穷尽辩证法关于规定、否定、中介与发展的追问。</p>
+<p>Meghyn Bienvenu 与 Camille Bourgaux 的公开研究<a href="https://arxiv.org/abs/2003.05746v5"><em> Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation</em></a> 给出优先修复与查询语义的定义。两人的<a href="https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf"><em> Inconsistency-Tolerant Querying of Description Logic Knowledge Bases</em></a> 综述更广的语义家族，包括支撑与击败集逼近。描述逻辑例子直接从这里列明的定义推出。命题逻辑教学例子采用相同的修复原则；重构其中的理论，以及把这些区分用于 harness，是本文的贡献。</p>
 <p>一般次协调逻辑提供非爆炸推理的更广背景。基于修复的比较则贡献了视图选择、支撑与共同一致的结果之间的细分，本文借此理解合作。</p></article><aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents" open><summary><span>本文目录</span><span class="contents-toggle"><span class="when-closed">展开</span><span class="when-open">收起</span></span></summary><nav aria-label="本文目录"><div class="toc">
 <ul>
 <li><a href="#把选择与支撑保留在轨迹中">把选择与支撑保留在轨迹中</a></li>
@@ -149,6 +170,7 @@ $$</div>
 <li><a href="#选择与推理">选择与推理</a></li>
 <li><a href="#容纳不一致内部的粒度">容纳不一致内部的粒度</a></li>
 <li><a href="#一个简短的形式例子">一个简短的形式例子</a></li>
+<li><a href="#从冲突视图到前提的重构">从冲突视图到前提的重构</a></li>
 <li><a href="#一致支撑与结果一致">一致支撑与结果一致</a></li>
 <li><a href="#查询重写与扬弃">查询重写与扬弃</a></li>
 <li><a href="#这个类比说明什么">这个类比说明什么</a></li>

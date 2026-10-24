@@ -144,6 +144,65 @@ from inconsistency within each view.</p>
 <p>Take <span class="math-source" data-display="false" data-tex="T=\{P\sqsubseteq\neg N,\ P\sqsubseteq Q,\ N\sqsubseteq Q\}">$T=\{P\sqsubseteq\neg N,\ P\sqsubseteq Q,\ N\sqsubseteq Q\}$</span> and <span class="math-source" data-display="false" data-tex="A=\{P(a),N(a)\}">$A=\{P(a),N(a)\}$</span>. With no priority, the repairs are <span class="math-source" data-display="false" data-tex="\{P(a)\}">$\{P(a)\}$</span> and <span class="math-source" data-display="false" data-tex="\{N(a)\}">$\{N(a)\}$</span>.</p>
 <p>Under AR, <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span> follows because each repair entails it. Under IAR it does not follow, because the assertion intersection is empty. Under brave semantics, both <span class="math-source" data-display="false" data-tex="P(a)">$P(a)$</span> and <span class="math-source" data-display="false" data-tex="N(a)">$N(a)$</span> are accepted, each with its own consistent support, while their combined acceptance is inconsistent with <span class="math-source" data-display="false" data-tex="T">$T$</span>. Consistent support and consistent results are different properties.</p>
 <p>If <span class="math-source" data-display="false" data-tex="P(a)\succ N(a)">$P(a)\succ N(a)$</span> and preferred-repair selection leaves only <span class="math-source" data-display="false" data-tex="\{P(a)\}">$\{P(a)\}$</span>, the selected family changes. Applying the same AR rule now accepts <span class="math-source" data-display="false" data-tex="P(a)">$P(a)$</span> as well as <span class="math-source" data-display="false" data-tex="Q(a)">$Q(a)$</span>. This illustration follows from the definitions: priority selects the view, and entailment yields its consequences. If the assertions describe an actual object, empirical assessment asks which description fits that object.</p>
+<h2 id="from-conflicting-views-to-reconstructed-premises">From conflicting views to reconstructed premises</h2>
+<p>Two consistent views can disagree: one entails <span class="math-source" data-display="false" data-tex="p">$p$</span>, another entails <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>.
+Each has interpretations satisfying its premises; no single classical
+interpretation satisfies both conclusions together. Keeping these views
+available therefore does not assert a contradiction within one interpretation.
+The disagreement also does not establish that both views are inadequate. Evidence
+may support one, distinguish their circumstances, or leave the issue unresolved.
+When their shared assumptions prevent a purpose from being adequately understood
+or realized, the next contribution can instead be a better account of the problem.</p>
+<p>Consider a <strong>propositional teaching example</strong> using the same maximal-consistent-
+subset principle. It is an illustration authored here, not another result about
+the DL query languages studied by <a href="https://arxiv.org/abs/2003.05746v5">Bienvenu and Bourgaux</a>.
+For one specified task and situation, let <span class="math-source" data-display="false" data-tex="h">$h$</span> mean assistance is used, <span class="math-source" data-display="false" data-tex="p">$p$</span> mean
+the person retains direction and control, and <span class="math-source" data-display="false" data-tex="c">$c$</span> mean the delegation is
+inspectable and changeable by the person. These meanings stay fixed below.
+Start with:</p>
+<div class="math-source" data-display="true" data-tex="
+T_0=\{h\rightarrow\neg p\},\qquad A_0=\{h,p\}.
+">$$
+T_0=\{h\rightarrow\neg p\},\qquad A_0=\{h,p\}.
+$$</div>
+<p><span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> is consistent, but <span class="math-source" data-display="false" data-tex="T_0\cup A_0">$T_0\cup A_0$</span> is not. Its two repairs are <span class="math-source" data-display="false" data-tex="\{h\}">$\{h\}$</span>
+and <span class="math-source" data-display="false" data-tex="\{p\}">$\{p\}$</span>. The first, together with <span class="math-source" data-display="false" data-tex="T_0">$T_0$</span>, entails <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>; the second
+entails <span class="math-source" data-display="false" data-tex="p">$p$</span>. With both repairs retained, AR accepts neither <span class="math-source" data-display="false" data-tex="p">$p$</span> nor <span class="math-source" data-display="false" data-tex="\neg p">$\neg p$</span>;
+IAR accepts neither from their empty assertion intersection. Brave inference
+accepts each separately through a different repair. It does not establish the
+conjunction <span class="math-source" data-display="false" data-tex="p\land\neg p">$p\land\neg p$</span>, which neither repair entails.</p>
+<p>Choosing a preferred repair changes which assertion set guides inference while
+leaving <span class="math-source" data-display="false" data-tex="T_0">$T_0$</span> fixed. Yet if the actual task calls for useful help while retaining
+the person's direction, and observation shows that both occur together, the
+shared rule “assistance entails loss of direction” deserves examination. Merely
+choosing between the old repairs cannot express that possibility. A candidate
+reconstruction distinguishes the conditions of delegation:</p>
+<div class="math-source" data-display="true" data-tex="
+T_1=\{(h\land c)\rightarrow p,\ (h\land\neg c)\rightarrow\neg p\},
+\qquad A_1=\{h,c,p\}.
+">$$
+T_1=\{(h\land c)\rightarrow p,\ (h\land\neg c)\rightarrow\neg p\},
+\qquad A_1=\{h,c,p\}.
+$$</div>
+<p>Here <span class="math-source" data-display="false" data-tex="T_1\cup A_1">$T_1\cup A_1$</span> is consistent. The old unconditional rule has been
+<strong>retracted and replaced</strong>, not supplemented: retaining it would again make
+the assertions inconsistent. The new account preserves the concern about lost
+direction while making room for help under specified conditions. This is a
+change to the theory and available distinctions, beyond repairing assertions
+under a fixed theory. Other reconstructions can revise vocabulary or the question
+itself; they must explain how old and new meanings relate.</p>
+<p>The two rules in <span class="math-source" data-display="false" data-tex="T_1">$T_1$</span> are illustrative conditional assumptions, not established
+causal laws or an autonomy principle. Inspectability and changeability may be
+insufficient in actual use, and their absence need not imply loss of direction.
+Evidence, the person's purposes, and observable consequences determine whether
+this reconstruction improves on the old account or needs further revision.
+Formal coherence makes the candidate intelligible; it does not guarantee fit.
+<a href="/philosophy/speech-opposition-and-self-formation/en/#conflicting-models-and-reconstructing-the-question">Conflicting models and reconstructing the question</a>
+develops this move in the cooperation example. The dialectical comparison lies
+in examining and transforming what generated the opposition, while retaining
+the concerns it expressed, rather than always selecting a winner among unchanged
+views. Repair semantics specify inference within their given setting; they do
+not themselves prescribe this reconstruction.</p>
 <h2 id="consistent-support-and-consistent-results">Consistent support and consistent results</h2>
 <p>Fix an allowed query language and treat substituted answer queries as closed formulas. Let <span class="math-source" data-display="false" data-tex="C_\sigma(K)">$C_\sigma(K)$</span> be the set accepted by semantics <span class="math-source" data-display="false" data-tex="\sigma">$\sigma$</span>.</p>
 <table>
@@ -269,11 +328,12 @@ and attention. Choosing an abstraction and checking its consequences can
 develop together; preference guides the choice while formal validity depends
 on the stated premises and inference rules.</p>
 <h2 id="source-and-scope">Source and scope</h2>
-<p>The comparison with Hegel concerns common consequence and preservation through
-a specified transformation. Repair semantics supply one way of organizing
+<p>The comparison with Hegel concerns common consequence, reconstruction of the
+premises generating an opposition, and preservation through a specified
+transformation. Repair semantics supply one way of organizing
 non-explosive inference; they do not exhaust dialectic's questions of
 determination, negation, mediation, and development.</p>
-<p>Meghyn Bienvenu and Camille Bourgaux's <a href="https://arxiv.org/abs/2003.05746v5"><em>Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation</em></a> provides public definitions of preferred repairs and their query semantics. Their <a href="https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf"><em>Inconsistency-Tolerant Querying of Description Logic Knowledge Bases</em></a> surveys wider semantic families, including support and defeater approximations. The example above follows directly from the definitions stated here; the harness application is this essay's interpretation.</p>
+<p>Meghyn Bienvenu and Camille Bourgaux's <a href="https://arxiv.org/abs/2003.05746v5"><em>Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation</em></a> provides public definitions of preferred repairs and their query semantics. Their <a href="https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf"><em>Inconsistency-Tolerant Querying of Description Logic Knowledge Bases</em></a> surveys wider semantic families, including support and defeater approximations. The DL example follows directly from the definitions stated here. The propositional teaching example uses the same repair principle; reconstructing its theory and applying these distinctions to the harness are this essay's contributions.</p>
 <p>General paraconsistency supplies the wider background of non-explosive reasoning. The repair-based comparison contributes the finer distinctions among view selection, support, and jointly consistent results that this essay uses to understand cooperation.</p></article><aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents" open><summary><span>On this page</span><span class="contents-toggle"><span class="when-closed">Expand</span><span class="when-open">Collapse</span></span></summary><nav aria-label="On this page"><div class="toc">
 <ul>
 <li><a href="#keep-choice-and-support-within-the-trajectory">Keep choice and support within the trajectory</a></li>
@@ -281,6 +341,7 @@ determination, negation, mediation, and development.</p>
 <li><a href="#selection-and-inference">Selection and inference</a></li>
 <li><a href="#granularity-within-inconsistency-tolerance">Granularity within inconsistency tolerance</a></li>
 <li><a href="#a-small-formal-example">A small formal example</a></li>
+<li><a href="#from-conflicting-views-to-reconstructed-premises">From conflicting views to reconstructed premises</a></li>
 <li><a href="#consistent-support-and-consistent-results">Consistent support and consistent results</a></li>
 <li><a href="#query-rewriting-and-sublation">Query rewriting and sublation</a></li>
 <li><a href="#what-the-analogy-illuminates">What the analogy illuminates</a></li>
