@@ -55,9 +55,11 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   exploration, and guided views.
 
 - **How a trinity becomes a lived sinthome** (`trinity-sinthome`) joins four
-  scenes in one comic beside the Trinity-and-sinthome discussion. Stained-glass
-  windows differentiate three contributions within one physical world; an open
-  home receives shared generative capacity; a loom and fourth binding picture
+  scenes in one comic beside the Trinity-and-sinthome discussion. Q-style
+  Christian imagery identifies Father, Son, and the Holy Spirit as a white dove;
+  the separate text key connects them to philosophy, psychology, and engineering
+  as in the essay. The boluopai lion is the gender-unspecified participating
+  protagonist. An open home receives shared generative capacity; a loom and fourth binding picture
   a sustaining personal arrangement; creations encounter worldly responses that
   return to purposes, understanding, and tools. The recurring home and figures
   connect these meanings without prescribing a fixed procedure. The textile is
@@ -65,6 +67,11 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   Desktop uses two rows of panels; narrow readers use the same four panels in
   one continuous vertical composition. The four scenes are not separate figures
   distributed between the two essays.
+  `trinity-sinthome-art.png` is the selected unlettered four-panel atlas; its
+  [generation record](trinity-sinthome-art.prompt.md) retains the final prompt
+  and mascot reference. Captions remain editable text. The HTML viewer loads
+  the shared atlas once, while each downloadable SVG embeds its image data to
+  remain self-contained.
 
 For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
@@ -77,13 +84,14 @@ The three responsive illustrated works use `reading-maps.json` for their bilingu
 concepts, relationship labels, and accessible descriptions. Run
 `python3 skills/yinyang/scripts/render-reading-maps.py` from the collection.
 The renderer owns original vector illustrations, with separate desktop and
-mobile geometry. It generates self-contained HTML and full SVG diagrams. It uses the
+mobile geometry. The two vector maps have self-contained HTML; the comic HTML
+uses its packaged PNG atlas. All SVG exports are self-contained. The renderer uses the
 Site's existing color and system-font vocabulary without external dependencies.
 Nodes and directed connections carry the meaning; there are no article lists,
 disclosure cards, cross-diagram links, or standalone-view buttons inside them.
 The complete graph remains visible without JavaScript. The Site adapts frame
 height and theme only. Inspect label readability, node and edge relationships,
-and both viewport compositions. The philosophy directory retains four compact
+and both viewport compositions. The philosophy directory retains five compact
 review links after its five chapter entries; it embeds no diagram.
 
 The detailed viewers are generated with Archify 3.2.0. Their titles describe

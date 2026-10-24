@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Render two concise bilingual concept diagrams, with no article index or controls."""
+"""Render bilingual illustrated maps and a captioned comic for their actual readers."""
 
+import base64
 import html
 import json
 from pathlib import Path
@@ -316,137 +317,34 @@ def cultivation(d, lang, mobile, p):
     return w, h, drawn
 
 
-def stained_window(x, y, color, emblem, scale=1):
-    body = line("M-56 83V-25Q-56-66 0-104Q56-66 56-25V83Z", color, 2.5, "paper")
-    body += line(
-        "M-47 73V-25Q-47-58 0-92Q47-58 47-25V73Z", color, 1.3, "warm" if color == "fire" else "pale"
-    )
-    body += line("M-47 23H47M0-91V-63M-45-25L-20-48M45-25L20-48", color, 1.2)
-    if emblem == "sun":
-        body += '<circle cx="0" cy="-23" r="22" fill="var(--warm)" stroke="var(--fire)" stroke-width="2"/>'
-        for px, py, qx, qy in [
-            (0, -55, 0, -65),
-            (0, 9, 0, 18),
-            (-32, -23, -41, -23),
-            (32, -23, 41, -23),
-            (-23, -46, -30, -53),
-            (23, -46, 30, -53),
-        ]:
-            body += line(f"M{px} {py}L{qx} {qy}", color, 2)
-    elif emblem == "moon":
-        body += line("M12-59C-23-61-40-24-14-5C-2 4 12 3 26-5C-3-4-13-36 12-59Z", color, 2, "paper")
-    else:
-        body += '<circle cx="0" cy="-24" r="28" fill="var(--paper)" stroke="var(--gold)" stroke-width="2"/>'
-        body += line(
-            "M-27-24H27M0-52Q-24-25 0 4Q24-25 0-52M-22-40Q0-29 22-40M-22-8Q0-19 22-8", color, 1.5
-        )
-    return art(body, x, y, scale)
-
-
-def house(x, y, width, height, door=None):
-    left, right = x - width / 2, x + width / 2
-    roof = y - height / 2
-    floor = y + height / 2
-    left_wall = f"M{left} {roof + 70}V{floor}"
-    if door:
-        a, b = door
-        left_wall = f"M{left} {roof + 70}V{a}M{left} {b}V{floor}M{left} {a}L{left - 43} {a + 18}V{b + 18}L{left} {b}"
-    return (
-        line(f"M{left - 14} {roof + 77}L{x} {roof - 38}L{right + 14} {roof + 77}", "line", 2.5)
-        + line(left_wall + f"M{left} {floor}H{right}V{roof + 70}", "line", 2.5)
-        + line(f"M{left - 25} {floor + 13}H{right + 25}", "line", 2)
-    )
-
-
-def shared_table(x, y, scale=1):
-    body = little_person(-66, -49, 0.6) + little_person(66, -49, 0.6, True)
-    body += line("M-118 2H118V15H-118ZM-91 15V77M91 15V77", "fire", 2, "warm")
-    body += line("M-37-2V-31L-4-21L34-31V-2M-4-21V-2", "water", 1.6, "paper")
-    body += flame(0, -61, 0.55)
-    return art(body, x, y, scale)
-
-
 def comic_panel(index, panel, lang, p):
-    drawn = '<rect x="0" y="0" width="600" height="474" rx="10" fill="var(--paper)" stroke="var(--line)" stroke-width="1.2"/>'
+    drawn = '<rect x="0" y="0" width="600" height="520" rx="10" fill="var(--paper)" stroke="var(--line)" stroke-width="1.2"/>'
     drawn += '<circle cx="29" cy="29" r="16" fill="var(--warm)" stroke="var(--fire)" stroke-width="1.3"/>'
     drawn += text(29, 29, str(index + 1), 19, "fire", 500)
     drawn += text(315, 37, panel["title"][lang], 23 if lang else 26, "ink", 500)
-    colors = ["fire", "water", "gold"]
-    if index == 0:
-        drawn += house(300, 253, 488, 230)
-        for i, (x, emblem) in enumerate([(155, "sun"), (300, "moon"), (445, "earth")]):
-            drawn += (
-                '<g opacity=".12">'
-                + line(
-                    f"M{x - 22} 210L{260 + (i - 1) * 45} 350H{340 + (i - 1) * 45}L{x + 22} 210Z",
-                    colors[i],
-                    0,
-                    "warm" if i == 0 else "pale",
-                )
-                + "</g>"
-            )
-            drawn += stained_window(x, 187, colors[i], emblem, 0.38)
-            drawn += text(x, 242, panel["labels"][lang][i], 23, colors[i], 500)
-        drawn += shared_table(300, 315, 0.60)
-    elif index == 1:
-        drawn += collective_fire(113, 137, 0.66)
-        drawn += text(113, 231, panel["labels"][lang][0], 18 if lang else 21, "fire", 500)
-        drawn += house(398, 250, 302, 230, (224, 310))
-        for dx, color, emblem in [
-            (-43, "fire", "sun"),
-            (0, "water", "moon"),
-            (43, "gold", "earth"),
-        ]:
-            drawn += stained_window(398 + dx, 173, color, emblem, 0.24)
-        drawn += edge("M176 208Q197 245 258 267", p)
-        drawn += text(402, 235, panel["labels"][lang][1], 17 if lang else 20, "muted")
-        drawn += shared_table(402, 300, 0.57)
-    elif index == 2:
-        for i, (x, emblem) in enumerate([(170, "sun"), (300, "moon"), (430, "earth")]):
-            drawn += stained_window(x, 130, colors[i], emblem, 0.29)
-            drawn += text(x, 181, panel["labels"][lang][i], 22, colors[i], 500)
-            drawn += line(f"M{x} 201Q{x} 211 {250 + i * 50} 230V320", colors[i], 5)
-        drawn += line("M169 219H431M180 219V368M420 219V368", "line", 5)
-        for row in range(6):
-            y = 239 + row * 13
-            drawn += line(f"M218 {y}Q300 {y + 8} 382 {y}", colors[row % 3], 3.5)
-        drawn += line("M172 223C127 181 473 181 428 223V353Q300 394 172 353Z", "fire", 2.8)
-        drawn += line("M213 315H387V356Q300 366 213 356Z", "water", 1.2, "paper")
-        drawn += text(300, 339, panel["labels"][lang][3], 16 if lang else 21, "water", 500)
-        drawn += label(497, 278, panel["labels"][lang][4], 16 if lang else 21, "fire")
-        if not lang:
-            drawn += line("M457 278H431", "fire", 1.5)
-    else:
-        drawn += house(205, 225, 280, 210)
-        for dx, color, emblem in [
-            (-43, "fire", "sun"),
-            (0, "water", "moon"),
-            (43, "gold", "earth"),
-        ]:
-            drawn += stained_window(205 + dx, 168, color, emblem, 0.22)
-        drawn += shared_table(205, 267, 0.55)
-        drawn += text(205, 366, panel["labels"][lang][0], 20 if lang else 24, "water", 500)
-        drawn += garden(457, 280, 0.67)
-        drawn += text(457, 353, panel["labels"][lang][1], 18 if lang else 22, "water", 500)
-        drawn += edge("M348 249H387", p)
-        drawn += edge("M488 232C566 120 430 83 285 122", p, "fire", True)
-        drawn += text(476, 174, panel["labels"][lang][2], 16 if lang else 20, "fire")
-    drawn += text(300, 426, panel["caption"][lang], 19 if lang else 22, "ink")
+    drawn += text(300, 105, panel["kicker"][lang], 17 if lang else 20, "water", 500)
+    # Crop the four unchanged atlas quadrants in the viewer, not in the bitmap.
+    drawn += (
+        f'<svg aria-hidden="true" x="20" y="140" width="560" height="280" viewBox="{index % 2 * 1000} {index // 2 * 500} 1000 500" style="width:560px;height:280px;overflow:hidden">'
+        f'<use href="#{p}-art"/></svg>'
+    )
+    drawn += text(300, 475, panel["caption"][lang], 19 if lang else 22, "ink")
     return drawn
 
 
 def trinity_sinthome(d, lang, mobile, p):
-    w, h = (624, 1992) if mobile else (1256, 1004)
+    w, h = (624, 2252) if mobile else (1256, 1164)
     body = ""
     for i, panel in enumerate(d["panels"]):
-        x, y = (12, 12 + i * 494) if mobile else (12 + (i % 2) * 632, 12 + (i // 2) * 494)
+        x, y = (12, 12 + i * 544) if mobile else (12 + (i % 2) * 632, 12 + (i // 2) * 544)
         body += art(comic_panel(i, panel, lang, p), x, y).replace(
             "<g ", f'<g data-comic-panel="{i + 1}" ', 1
         )
+    body += text(w / 2, h - 43, d["legend"][lang], 17 if lang else 20, "muted")
     return w, h, body
 
 
-def svg(name, d, lang, mobile=False):
+def svg(name, d, lang, mobile=False, standalone=False):
     p = name + ("-mobile" if mobile else "-desktop")
     layouts = {
         "formation-path": formation,
@@ -458,6 +356,13 @@ def svg(name, d, lang, mobile=False):
         f'<marker id="{p}-{c}" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8" fill="none" stroke="var(--{c})" stroke-width="1.5"/></marker>'
         for c in ["water", "fire"]
     )
+    if name == "trinity-sinthome":
+        atlas = "trinity-sinthome-art.png"
+        if standalone:
+            atlas = "data:image/png;base64," + base64.b64encode((ROOT / atlas).read_bytes()).decode(
+                "ascii"
+            )
+        markers += f'<image id="{p}-art" width="2000" height="1000" href="{atlas}"/>'
     return f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="{p}-title {p}-desc" viewBox="0 0 {w} {h}"><title id="{p}-title">{H(d["title"][lang])}</title><desc id="{p}-desc">{H(d["description"][lang])}</desc><style>{STYLE}</style><defs>{markers}</defs><rect width="{w}" height="{h}" fill="var(--paper)"/>{body}</svg>'
 
 
@@ -465,10 +370,11 @@ SCRIPT = """if(new URLSearchParams(location.search).has('embed'))document.docume
 
 
 def render(name, d, lang):
-    graphic = svg(name, d, lang)
+    graphic = svg(name, d, lang, standalone=True)
+    desktop = svg(name, d, lang)
     small = svg(name, d, lang, True)
     return (
-        f'<!doctype html><html lang="{"en" if lang else "zh-CN"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow, noimageindex"><title>{H(d["title"][lang])}</title><style>{STYLE}</style></head><body><main><h1>{H(d["title"][lang])}</h1><div class="desktop">{graphic}</div><div class="mobile">{small}</div></main><script>{SCRIPT}</script></body></html>',
+        f'<!doctype html><html lang="{"en" if lang else "zh-CN"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow, noimageindex"><title>{H(d["title"][lang])}</title><style>{STYLE}</style></head><body><main><h1>{H(d["title"][lang])}</h1><div class="desktop">{desktop}</div><div class="mobile">{small}</div></main><script>{SCRIPT}</script></body></html>',
         graphic,
     )
 

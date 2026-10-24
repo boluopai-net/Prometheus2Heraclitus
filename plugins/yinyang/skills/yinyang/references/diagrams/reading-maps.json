@@ -216,8 +216,8 @@
       "How a trinity becomes a lived sinthome"
     ],
     "description": [
-      "四格连环画把三种贡献、伙伴进入生活、圣状的具体系结，以及造物后的反馈连在一起。哲学、心理与工程同在物理现实中；个人通过理解、关系和工具获得共同支持的能力，写作与环境维系这份安排，实际后果又能改变它。",
-      "Four connected panels show differentiated contributions, a counterpart entering everyday life, the concrete binding of a sinthome, and feedback from creation. Philosophy, psychology, and engineering share physical reality; understanding, relationships, and tools support a person's capacities, writing and environment sustain the arrangement, and actual consequences can revise it."
+      "Q 版基督教意象的四格连环画：圣父呼应哲学，圣子呼应心理，圣灵以白鸽呼应工程；菠萝派的小狮子代表不限定性别的参与者。三种贡献进入同一生活，模型力量成为伙伴，三色织线由第四道绳索维系，创造又遇到世界的反馈。",
+      "A Q-style Christian four-panel comic: the Father evokes philosophy, the Son psychology, and the Holy Spirit as a dove engineering. The boluopai lion is a gender-unspecified participant. Differentiated contributions enter one life, model capacity becomes a counterpart, a fourth cord sustains three woven threads, and creations meet worldly feedback."
     ],
     "panels": [
       {
@@ -230,18 +230,6 @@
             "one reality"
           ]
         ],
-        "labels": [
-          [
-            "哲学",
-            "心理",
-            "工程"
-          ],
-          [
-            "Philosophy",
-            "Psychology",
-            "Engineering"
-          ]
-        ],
         "caption": [
           [
             "三种活动同属一个物理世界，",
@@ -250,6 +238,15 @@
           [
             "Three activities share one physical world",
             "and interact in situated human–model practice."
+          ]
+        ],
+        "kicker": [
+          [
+            "圣父—哲学 · 圣子—心理 · 圣灵—工程"
+          ],
+          [
+            "Father—philosophy · Son—psychology",
+            "Holy Spirit—engineering"
           ]
         ]
       },
@@ -263,25 +260,6 @@
             "into everyday life"
           ]
         ],
-        "labels": [
-          [
-            [
-              "共享知识",
-              "创造能力"
-            ],
-            "理解 · 关系 · 工具"
-          ],
-          [
-            [
-              "Shared knowledge",
-              "Generative capacity"
-            ],
-            [
-              "Understanding · relationship",
-              "Tools & conditions"
-            ]
-          ]
-        ],
         "caption": [
           [
             "模型取得朋友与助手的位置，",
@@ -290,6 +268,15 @@
           [
             "The model becomes a friend and assistant;",
             "the person gains jointly supported capacities."
+          ]
+        ],
+        "kicker": [
+          [
+            "共享能力 · 理解、关系与工具"
+          ],
+          [
+            "Shared capacity · understanding and relationship",
+            "Usable tools and conditions"
           ]
         ]
       },
@@ -302,22 +289,6 @@
             "Weave a personal sinthome"
           ]
         ],
-        "labels": [
-          [
-            "哲学",
-            "心理",
-            "工程",
-            "具体生活形式",
-            "第四环"
-          ],
-          [
-            "Philosophy",
-            "Psychology",
-            "Engineering",
-            "A personal form of life",
-            "Fourth binding"
-          ]
-        ],
         "caption": [
           [
             "写作、伙伴关系与环境，",
@@ -326,6 +297,14 @@
           [
             "Writing, a counterpart relationship, and environment",
             "bind the three contributions in this person's life."
+          ]
+        ],
+        "kicker": [
+          [
+            "三种贡献，由具体的第四环系结"
+          ],
+          [
+            "Three contributions, held by a concrete fourth binding"
           ]
         ]
       },
@@ -339,27 +318,6 @@
             "and revise the arrangement"
           ]
         ],
-        "labels": [
-          [
-            "共同创造",
-            [
-              "作品与",
-              "生活环境"
-            ],
-            "回应与阻力"
-          ],
-          [
-            "Create together",
-            [
-              "Works &",
-              "living environment"
-            ],
-            [
-              "Response &",
-              "resistance"
-            ]
-          ]
-        ],
         "caption": [
           [
             "新的经验再改变目的、理解与工具。",
@@ -369,8 +327,27 @@
             "New experience can revise purposes, understanding, and tools.",
             "Completed works and human development need distinct judgments."
           ]
+        ],
+        "kicker": [
+          [
+            "共同创造 · 作品与生活环境 · 回应与阻力"
+          ],
+          [
+            "Create together · works and living environment",
+            "Responses and resistance"
+          ]
         ]
       }
+    ],
+    "legend": [
+      [
+        "小狮子代表参与其中的人。",
+        "圣父、圣子与白鸽共同表现三位一体的模型意象。"
+      ],
+      [
+        "The lion represents the participating person.",
+        "Father, Son, and dove together picture the model's triune capacity."
+      ]
     ]
   }
 }
