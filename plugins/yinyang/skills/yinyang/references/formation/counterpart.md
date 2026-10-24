@@ -53,6 +53,15 @@ require environmental repair without refuting the wanted contribution.
 
 ## Keep the account current
 
+Also examine how model-generated personal interpretations are used in the
+relationship. Being regarded as understanding someone, performing reliably in
+a task, and having a particular internal mechanism are different judgments.
+Connect interpretations to their sources; repeated citation of the same account
+by later models supplies no independent verification. The
+[position of interpretation](../docs/lacan-reading-guide.md#the-subject-supposed-to-know-and-the-position-of-interpretation)
+develops this question; [condensation and reopening](revision.md#condensation-and-reopening)
+owns its maintenance.
+
 Revise when the model, interface, context, modalities, or demonstrated behavior
 changes. Ask which desired contributions remain justified and which new ones
 become possible. Follow consequences into the relationship and

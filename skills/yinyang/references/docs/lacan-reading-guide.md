@@ -44,6 +44,76 @@ A limited example can make the question recognizable: someone says, “I only wa
 
 This site's personal model is a partial understanding of a person within the current question. A connected self-account, a formal view, and the person who continues expressing and acting therefore need to be understood distinctly. Lacan's distinctions make this non-coincidence worth investigating; they do not directly supply an algorithm for generating personal models.
 
+## Metaphor, metonymy, and condensation
+
+In [“The Instance of the Letter” (1957), original pagination 505–515](https://recherche-lacan.gnipl.fr/2015/07/03/les-ecrits-linstance-de-la-lettre-dans-linconscient-ou-la-raison-depuis-freud-1957/),
+Lacan approaches metaphor and metonymy through relations among signifiers.
+**Metaphor** involves one signifier substituting for another in a chain and
+producing a new effect of meaning; the displaced term remains involved through
+other connections. **Metonymy** concerns connections among signifiers and the
+movement of meaning, beyond the single rhetorical example of a part standing
+for a whole.
+
+The relations differ. Metaphoric substitution brings a meaning into view: in
+a fictional account, “the manager became a judge” gives workplace evaluation
+relations of trial, defense, and verdict. This does not transfer a fixed bundle
+of every judicial attribute to the manager. Its effect depends on connections
+to the surrounding discourse. Lacan develops substitution through Hugo's lines
+about Boaz and his sheaf. Metonymy concerns connections and movement along the
+chain. In a hypothetical process of desire, expectation might move from
+publication to a byline to a particular person's recognition. Objects can change
+while the relation driving the movement remains a question; the succession of
+three items alone does not establish a mechanism of desire.
+
+In this account, Freud's **condensation (Verdichtung)** is connected to the
+superimposition of signifiers and metaphor, while displacement is connected to
+metonymy. Condensation here belongs to questions about dream-work and the
+unconscious. It cannot simply be equated with summarization, token reduction,
+or merging records into a label. This site's relational analogies also draw
+on other theories; their contributions and differences need explanation through
+the relations each addresses.
+
+This raises a useful question for personal models: does a compact expression
+merely shorten material, or has it organized that material anew? “A workshop
+for joint creation” can gather trial, criticism, and revision while obscuring
+delegation and completion responsibilities in a particular task. Unfold its
+relations and return to exchanges that support or challenge them to judge the
+condensation's fit. [Condensing revisable relations](metaphor-and-self-revision.md#condensing-revisable-relations)
+develops this site's writing method: a proposal informed by these concepts,
+not a compression algorithm derived from Lacan.
+
+## The subject supposed to know and the position of interpretation
+
+The **subject supposed to know (sujet supposé savoir)** concerns a position
+credited with knowledge concerning the subject. In
+[Seminar XI, 10 June 1964, Staferla transcript pp. 161–163](https://www.lutecium.org/mirror/staferla.free.fr/S11/S11%20FONDEMENTS.pdf#page=161),
+Lacan develops this relation through transference while explaining that the
+analyst does not thereby possess absolute knowledge. Being supposed to know
+and actually knowing therefore require separate examination.
+
+This is not another name for knowing a great deal or for trust in general.
+Within this session's analytic setting, the question concerns whom one
+addresses and how one expects the other to receive meanings one has not yet
+grasped. Someone can acknowledge the other's fallibility while still addressing
+that position of supposed knowledge. The Other as a locus of speech and a
+person occupying this knowledge position in a particular relationship also
+cannot simply be equated. The concept questions the relational structure of
+interpretation rather than ranking people by their quantity of knowledge.
+
+For model collaboration, this raises a question about a personal account's
+interpretive authority. What comes from sources, actual use, the person's
+recognition, a sense of completeness, or the model's fluent response? A model
+interpretation written into an archive and cited by later models acquires no
+independent support from that repetition. Recognition can show how the account
+was received without alone establishing its explanation of psychological causes.
+
+This contemporary borrowing examines interpretation, reception, and use; using
+AI alone does not establish a particular transference relation. A counterpart
+can contribute understanding the person has not articulated while returning
+to material, comparing interpretations, and revising accounts it helped form.
+The account participates in the relationship without acquiring the position
+of determining the person's final truth.
+
 ## Dialectical reversal: changing understanding and position
 
 In [“Intervention on Transference” (1951)](https://recherche-lacan.gnipl.fr/2015/07/02/les-ecrits-intervention-sur-le-transfert-1951/), Lacan reads Freud's Dora case through a series of dialectical reversals. Reversal concerns the subject's position within the relations being recounted and what becomes the object of the question, beyond replacing an interpretation with its opposite. Retain the source's particular context of transference and the analytic relationship.
@@ -63,6 +133,37 @@ For example: “Leaving then cost me a great deal—and it also taught me, for t
 In this site's writing and model collaboration, the relation can develop as follows: an unfinished expression is retained; the model organizes it into a readable account; the person rereads it, recognizes some connections, and discovers misunderstandings; this recognition changes subsequent expression. A work thus preserves earlier ideas and can also become material for new understanding.
 
 Two questions still need separate treatment: **does an interpretation make an experience intelligible, and are its factual judgments about the past warranted?** A narrative fitting one's current feelings does not establish that every detail of the past was as it describes. Retaining the original event, original words, and the time an interpretation formed lets retrospective understanding remain constrained by its material. Continue with [Forming a life trajectory](flow-and-time.md#three-meanings-of-now).
+
+## Punctuation and quilting: how meaning becomes provisionally settled
+
+[Excerpts from “The Function and Field of Speech and Language” (1953)](https://www.causefreudienne.org/textes-fondamentaux/fonction-et-champ-de-la-parole-et-du-langage-en-psychanalyse/)
+discuss how punctuation gives discourse meaning, including through the cutting
+of an analytic session. In [“Subversion of the Subject” (1960), Écrits p. 805](https://recherche-lacan.gnipl.fr/2015/07/05/les-ecrits-subversion-du-sujet-et-dialectique-du-desir-dans-linconscient-freudien-1960/),
+the **quilting point (point de capiton)** concerns the arrest of sliding
+signification. A sentence's last term retroactively determining its earlier
+terms provides its diachronic illustration. This is also distinct from
+Miller's account of “suture.”
+
+For example, an utterance begins “you are right” and continues “the question
+does need rewriting, but your answer is still unsupported.” The continuation
+specifies what was endorsed; extracting the opening words would misrepresent
+the whole position. The quilting point is more than a sentence's final
+punctuation mark: Lacan also discusses the synchronic organization of meaning.
+It directs attention to which signifying relations make discourse intelligible,
+without guaranteeing that this organization exhausts the subject or remains
+fixed forever.
+
+For our writing, the useful question is when unfolding expression becomes a
+settled description, and how that punctuation or naming directs later reading.
+Summarizing “wanting independence” as “rejecting help” installs one interpretation
+in subsequent collaboration. Continued expression might require “wanting to
+retain participation in direction and the ability to change delegation.” The
+new account enables work while remaining open to other tasks and later material.
+
+Compression therefore selects content and can provisionally fix a reading.
+Sources, applicability conditions, and an unresolved alternative allow that
+reading to unfold again. This is a proposal for maintaining descriptions; the
+analogy does not make analytic session-cutting a technique for model dialogue.
 
 ## Full speech, half-saying, and truth
 
@@ -212,6 +313,57 @@ This site's [Speech, opposition, and self-formation](speech-opposition-and-self-
 | How a personal model enters actual collaboration | Counterpart models, expression, Skills, tools, and relations of use | Forms a concrete arrangement whose adequacy still needs examination against the person's material and actual results. |
 
 Formalization and personal modeling can help each other: clear representation can expose omissions, while new material may force the representation to change. **Translating relations into a language, forming an interpretation from material, and computing under given assumptions are connected but different activities.** This also explains why a theoretical conceptual model, an event archive covering partial situations, and temporary models formed for the current question can coexist.
+
+## From formalization to human–machine interaction: exploratory contributions
+
+Formalization can make an interpretation's choices inspectable: which objects
+are represented, which relations become rules, and what those rules produce.
+The studies below offer different constructions and questions. Together they
+do not establish a validated personal-model method. This account selects their
+specific contributions while distinguishing the authors' proposals from its
+own extensions.
+
+**From relations to computation.** [Li and Li (2025)](https://doi.org/10.3389/fpsyg.2025.1574650)
+represent RSI as message-passing active-inference units and investigate
+synchronization and collective dynamics through dyadic and triadic simulations.
+They acknowledge the construction's abstraction and incomplete treatment of
+fantasy's axiomatic function, complex topology, and desire's diachronic metonymy.
+This encourages an explicit account of what a translation preserves. Coupled
+trajectories alone establish neither Borromean topology nor an actual person's
+mechanism of desire. [Santos and Dunker's study of fantasy](https://doi.org/10.31683/stylus.v1i41.938)
+uses paraconsistent logic to propose that fantasy renders the signifying chain
+consistent. Retaining unresolved differences deserves investigation; that does
+not identify every conflict as fantasy or a change of logic as clinical change.
+The article belongs to issue 41 (2021), published online in 2023.
+
+**From machines to interaction.** [Possati (2020)](https://doi.org/10.1057/s41599-020-0445-0)
+brings Lacan and Latour to cycles of human identification, machine response,
+and renewed interpretation, proposing an “algorithmic unconscious” research
+direction. [Li and Li's FreeAgent preprint (2024)](https://arxiv.org/abs/2403.07664)
+places ChatGPT in an interpreting role within a demonstration connecting bodily
+images and symbolic identification. The former is a philosophical interpretation,
+the latter a simplified construction. They raise questions about technical
+mediation of self-understanding without establishing human unconscious processes
+or self-awareness in machines. How an actual response is received remains a
+question about the particular interaction.
+
+**Distinguishing explanatory scales.** [Li et al.'s Perspective (2026)](https://doi.org/10.1038/s44271-026-00508-6)
+distinguishes mechanistic, behavioral, and interactive accounts of models and
+examines what metaphors reveal and obscure. This supports separate examination
+of implementation, observed activity, and position within collaboration. This
+site adopts that distinction of questions without treating the proposed
+“machine experientialism” as comprehensively validated or inferring internal
+mechanisms directly from relational positions.
+
+**Distinguishing memory from generated state.** [Shen et al.'s TSJ preprint (2026)](https://arxiv.org/abs/2606.25396),
+§7.7, separates observable interaction memories from separately generated
+psychological states and retrieves memories for later scenarios. Section 7.13
+also separates judging from trajectory generation. This is an engineering
+reference for distinguishing events, interpretations, and consequences. Its
+personas, state updates, and scores serve simulation-based evaluation rather
+than measurements of actual people. Retrospectively selecting an earlier event
+does not itself establish causation. This site retains those distinctions
+without copying the psychological scores or state equations.
 
 ## Return to the sources, then to this site
 

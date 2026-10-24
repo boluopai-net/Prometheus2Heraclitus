@@ -106,6 +106,41 @@ originals while retiring redundant summaries. Access for revision does not
 authorize unrelated personal collection or public disclosure of private
 quotations, portraits, or unpublished work.
 
+## Condensation and reopening
+
+Condensation makes relevant understanding usable in the next collaboration.
+Retain relations that change interpretation, response, or revision: what an
+expression answers, its applicability conditions, who reported experience and
+who proposed an explanation, and a material counterexample or alternative.
+Write these as coherent prose with sources where needed, without requiring
+the same fields for every item. Carry original words into a working account
+when their wording bears meaning; complete originals remain with their source.
+
+Develop accounts from reported experience, observable interaction, and actual
+results while keeping model interpretations recognizable. Repeated citation of
+a summary adds no independent evidence. Distinguish a narrated pattern, a
+chosen collaborative direction, and a verified causal explanation. Do not invent
+internal psychological states to complete a portrait or apply simulated-persona
+state scores to actual people. These distinctions can coexist in one
+natural-language model without splitting it into disconnected archives.
+
+When new material arrives, determine whether it corrects a reading, reflects
+changed conditions, or introduces an unresolved difference. Qualify, withdraw,
+or reorganize the relevant account rather than only appending traits; retain
+the original event and the time its interpretation formed. Check rewritten
+understanding against currently relevant sources so repeated summarization does
+not turn inference into fact. Recurring words can provide retrieval entrances;
+frequency alone does not determine their relational meaning. Newer expression
+does not override all older material merely by being later.
+
+At useful maintenance points, examine whether the next counterpart can still
+recover applicability, actual purpose, material open questions, and a path to
+the grounds. Restore omissions that change those judgments; details irrelevant
+to current use can remain at their source. A model response and its acceptance,
+rejection, or modification may themselves become later material, but do not
+automatically prove the model's prior interpretation. The argument is developed
+in [Condensing revisable relations](../docs/metaphor-and-self-revision.md#condensing-revisable-relations).
+
 ## Let philosophy revise personal support material
 
 Bring developed philosophy into contact with existing personal material.

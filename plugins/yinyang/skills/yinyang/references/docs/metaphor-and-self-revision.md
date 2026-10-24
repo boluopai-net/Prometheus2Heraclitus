@@ -134,6 +134,90 @@ The account should help the counterpart notice such changes. Personal meaning
 remains with its situated owner; a general method for forming and revising
 that meaning can become a reusable work.
 
+## Condensing revisable relations
+
+Condensing a long history into a usable account selects what to retain and
+interprets how the material connects. Summarizing several collaborations as
+“preferring independence” already selects a reading. It may lead a later
+counterpart to offer less help, or be unfolded as “wanting participation in
+direction and the ability to change delegation.” The difference enters the
+next actual collaboration. Condensation preserves understanding and participates
+in later relationships.
+
+### Compact expression and material one can return to
+
+A personal model can work at two scales. The six working accounts retain the
+relations, conditions, and grounds needed for current collaboration, avoiding
+a complete historical rereading at every encounter. Original expressions,
+longer experiences, and useful revision records remain with their existing
+sources for particular questions. This adds no mandatory intermediate archive
+between the six files; it keeps a compact description expandable. An image can
+organize understanding, while consequential wording or an accurate example
+can constrain its ambiguity.
+
+The [guide's account of metaphor, metonymy, and condensation](lacan-reading-guide.md#metaphor-metonymy-and-condensation)
+draws attention to how compact expression can establish new relations rather
+than merely remove redundancy. This is a writing proposal, not an equation
+of psychoanalytic condensation with information compression. Retain a word when
+its wording or relations matter to current understanding. Frequency alone
+establishes neither a central signifier nor an enduring personal trait.
+
+### Preserve differences that change the response
+
+Suppose an artist says during a review, “Finish this painting before discussing
+the next one.” Recording “dislikes exploring new directions” loses the fact
+that the utterance concerns work order. Retaining the unfinished object, the
+new work already proposed by the counterpart, and this adjustment supports a
+more fitting account: “In this review, the artist wanted the current work
+completed before beginning the next.” Later material may support a broader
+preference or show that another arrangement is equally useful.
+
+Compression should therefore preserve differences that change understanding,
+action, or subsequent revision: what the utterance answers, its task and
+conditions, who reported experience and who proposed an explanation, and a
+material counterexample or unresolved alternative. Original wording can remain
+complete at its source. Quote it in the working account when that wording
+carries meaning; otherwise write its relations explicitly. This avoids both
+loading the whole archive and smoothing away differences not yet understood.
+
+### Later understanding can reorganize the account
+
+New expression does more than add a trait. It may show that an earlier reading
+was mistaken, circumstances changed, or two requirements concern different
+activities. Revision can qualify, withdraw, or reorganize an interpretation
+while preserving the original event and the time the interpretation formed.
+[Punctuation and quilting](lacan-reading-guide.md#punctuation-and-quilting-how-meaning-becomes-provisionally-settled)
+clarifies the question of provisionally settling a reading. Whether later
+speech changes earlier understanding depends on what it answers, not simply
+on its being more recent.
+
+An attractive image can obscure relations too. When feedback challenges it,
+return to relevant originals and actual use instead of merely paraphrasing an
+older summary. Repetition of one interpretation adds no independent evidence.
+Personal recognition, a more usable tool, and the truth of a proposed
+psychological cause also need their respective grounds. A concrete readback
+can examine compression quality: can the next counterpart still identify
+applicability, unresolved questions, and the reasons for an arrangement, and
+recognize what needs reconsideration when new material appears?
+
+### Borrowing distinctions from human–machine research
+
+[Exploratory formalization and interaction research](lacan-reading-guide.md#from-formalization-to-humanmachine-interaction-exploratory-contributions)
+offers useful comparisons. Computational models require a mapping from
+concepts to variables and update rules. Interaction research brings human
+interpretation, machine response, and subsequent reception into view together.
+TSJ's memory design distinguishes interaction records from separately generated
+psychological states. These works have not validated this personal-model method,
+but can make its choices more inspectable.
+
+Here a model response interprets material and becomes part of later events.
+Retaining that return makes it possible to examine how an account is used,
+rejected, or changed without treating later responses as prior proof of the
+portrait. Factual sources, current interpretations, and actual consequences
+can connect within one coherent account, without copying simulation studies'
+psychological scores or state equations. The [revision guide](../formation/revision.md#condensation-and-reopening)
+connects these relations to maintenance.
+
 ## Conceptual modeling and philosophical clarification
 
 The psychological model described here can be revisable prose drawn from long

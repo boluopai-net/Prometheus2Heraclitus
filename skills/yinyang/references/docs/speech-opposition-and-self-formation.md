@@ -33,6 +33,24 @@ These words also have histories the speaker did not create alone. Independence, 
 
 Works let distant expressions meet again. Placing an earlier version beside a present response may reveal a changed meaning or a distinction never clearly stated. [Forming a life trajectory](flow-and-time.md) supplies revisitable material; this essay examines how signifying relations within it change.
 
+Writing also provisionally settles these relations. Titling an experience or
+gathering several responses into a self-description can foreground one reading
+and guide the next response. [Punctuation and quilting](lacan-reading-guide.md#punctuation-and-quilting-how-meaning-becomes-provisionally-settled)
+raises questions about that settling and retroaction;
+[metaphor and metonymy](lacan-reading-guide.md#metaphor-metonymy-and-condensation)
+bring substitution, connection, and meaning formation into view. They do not
+combine into a rule that shorter writing means deeper understanding. Condensed
+expression needs routes for reopening so experiences it has not yet accommodated
+can continue to change it.
+
+Model-authored accounts participate in this relationship too. Being received
+as illuminating prose and having a psychological causal explanation confirmed
+are different achievements. The [subject supposed to know](lacan-reading-guide.md#the-subject-supposed-to-know-and-the-position-of-interpretation)
+makes the attribution of knowledge to a position available for examination. Bringing these
+questions into collaboration connects examination of an account's grounds,
+its reception, and its participation in later activity. The next essay carries
+this argument into the condensation of personal models.
+
 ## How opposition calls for reconstructing premises and relationships
 
 Wanting independence and needing help can coexist. Adopt the further determination that independence requires doing all the work alone, and they become an impasse requiring a choice between them. Revisiting the trajectory can show where that determination appeared, what it protected, and which workable relationships it excluded.
