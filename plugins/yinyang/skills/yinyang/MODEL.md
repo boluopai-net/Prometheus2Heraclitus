@@ -158,6 +158,17 @@ closing disclaimers throughout the package.
 
 ## Revise for standalone and collective coherence
 
+Public practical guides address the reader: explain available repositories,
+what capabilities they offer, and what the reader can ask a model to obtain or
+do. Method selection, tool composition, dependency handling, execution checks,
+and maintenance procedures belong primarily in model-facing Skills and their
+technical owners. Introduce teachers by their contribution and explain that
+they can use relevant expert references and method Skills for teaching and
+research. Do not turn a public guide into the model's operating checklist.
+Private installation inventories, package counts, paths, recent configuration
+changes, and maintenance records remain private, even when labeled an example
+environment. Use public sources and reusable possibilities in public prose.
+
 Read a piece for its actual question, premises, movement, examples, and result.
 Remove repetition that contributes no new relation. Expand where an unfamiliar
 concept, inference, or change of scale would otherwise leave the reader behind.
