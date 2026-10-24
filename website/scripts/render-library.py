@@ -346,7 +346,7 @@ def main():
             ('references/formation/counterpart', '如何描述伙伴', 'How to describe the counterpart', '区分期待的角色与实际能力，描述伙伴的理解、贡献与局限。', 'Distinguish the intended role from actual capabilities and describe the counterpart’s understanding, contributions, and limits.'),
             ('references/formation/relationship', '如何描述关系', 'How to describe the relationship', '说明双方怎样理解、参与、分工并相互纠正。', 'Describe how the participants understand, participate, share work, and correct one another.'),
             ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实际条件与资源，把理解落实到提示词、Skills、工具和工作环境，并通过实际使用修订。', 'Describe conditions and resources, realize understanding through prompts, Skills, tools, and the working environment, and revise through actual use.'),
-            ('references/formation/revision', '如何修订', 'How to revise', '修订哲学、个人理解和工作环境，并写出自己的修订方式。', 'Revise philosophy, personal understanding, and the working environment, and write your own way of revising.'),
+            ('references/formation/revision', '如何修订', 'How to revise', '先读哲学、刷新个人参考材料，再凝练六份工作模型，并检查环境适配。', 'Read the philosophy, refresh personal references, then condense six working files and check environmental fit.'),
         ]
         grouped = []
         for zh, en, note_zh, note_en, entries in groups:
