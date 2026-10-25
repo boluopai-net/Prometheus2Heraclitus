@@ -132,6 +132,11 @@ the complete sequence as a reference for revisiting or selecting questions.
 Follow the linked sections when you want to go deeper. You need not accept
 every view or read every chapter in order.
 
+**If literature, history, or philosophy is not your field, begin with selected
+Core views that speak to your questions.** Consider their reasons and conditions
+before using them to organize experiences, revise personal material, or configure
+an environment. Follow their links to the fuller arguments when needed.
+
 The five parts follow the website's connected argument. The appendices contain
 the guide to philosophy and models, six public writing guides, further reading,
 and the Skill's package guide. Writing a personal philosophy or other essays is
@@ -139,9 +144,17 @@ optional and follows your interests. The practical [tool guide]({SITE}/getting-s
 and [research and learning guide]({SITE}/research-learning/en/) remain available online.
 
 Selected ideas can support organizing experiences, revising personal
-psychological material, and configuring a fitting environment. YinYang must not
-be used for psychological self-help, self-diagnosis, mental-health assessment,
-or treatment. See the [full use statement]({GITHUB}/blob/{revision}/README.md#intended-use-and-mental-health).
+psychological material, and configuring a fitting environment. Retain the sources
+and uncertainties of personal interpretations and revise them through experience;
+these working accounts are not clinical assessments.
+
+**YinYang must not be used for psychological self-help work, self-diagnosis,
+mental-health assessment, or treatment.** It has not been systematically evaluated
+for those purposes. When professional assessment or care is needed, seek a
+qualified professional; the project's texts and model outputs do not replace
+that service. A personal experience or version history does not establish a
+general psychological effect. The [source use statement]({GITHUB}/blob/{revision}/README.md#intended-use-and-mental-health)
+records the same boundary.
 
 The contents, PDF bookmarks and in-text references link to chapters, figures and
 specific sections. Clickable links are teal. References to external authors and
@@ -162,13 +175,21 @@ for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
 基本观点放在整部论述之后，作为回看与按问题选读的参照。
 需要深入时，再沿链接进入相应论证。不必接受全部立场，也不必从头通读。
 
+**非文史哲背景的读者，可以先从本书的「基本观点」中挑选与自己问题有关的部分。**
+了解它们的理由与适用条件，再考虑用来整理经历、迭代个人材料或配置环境；需要进一步理解时，
+再沿链接阅读相应论证。
+
 五部分正文沿用网站的论述顺序。附录集中收录哲学与模型的连接、六份公开写作指南、
 参考阅读及 Skill 的形式说明。是否写自己的哲学或其他文章，取决于兴趣。
 [工具使用]({SITE}/getting-started/)和[研究与学习建议]({SITE}/research-learning/)保留在线阅读入口。
 
 选定的思想可以用于整理经历、持续修订个人心理材料，以及配置适合自己的环境。
-阴阳不能用于心理自助、自行诊断、心理健康评估或治疗。完整的用途与评价边界见
-[仓库说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)。
+个人解释应保留来源与不确定性，并随经验修订；这些工作描述不是临床评估。
+
+**阴阳不能用于心理自助工作、自行诊断、心理健康评估或治疗。**
+它尚未经过针对这些用途的系统性实证评估。需要专业评估或照护时，应寻求合格专业人员；
+项目文字与模型输出不替代这种服务。个人经验或版本历史也不能确立普遍的心理效果。
+[来源说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)保留同一用途边界。
 
 目录、PDF 书签与正文中的引用，可以跳转到相应文章、图示和具体章节。青色文字是可点击链接；
 外部作者与研究文献保留来源链接。作者自己的仓库和网页只在书首列为出处，正文按自足的阅读版组织。
