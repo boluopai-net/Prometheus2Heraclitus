@@ -272,7 +272,7 @@ claims and evidence.
 
 ## Feng Ye: no-self physicalism, representation, and philosophical method
 
-Feng Ye (叶峰) supplies an existing point of comparison, now developed as a
+Feng Ye supplies an existing point of comparison, now developed as a
 reading route of its own. Begin with the Chinese articles for specific questions,
 then follow the book for their wider philosophical setting.
 
