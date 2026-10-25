@@ -6,7 +6,6 @@
 #let ink = rgb("273238")
 #let teal = rgb("25646a")
 #let muted = rgb("667278")
-#let gold = rgb("b67a39")
 #set document(title: book-title + " · " + subtitle, author: "boluopai", description: edition)
 #set page(width: 176mm, height: 250mm, margin: (top: 19mm, bottom: 20mm, left: 19mm, right: 19mm),
   header: context {
@@ -68,7 +67,6 @@
 })
 
 #v(25mm)
-#line(length: 22mm, stroke: 3pt + gold)
 #v(11mm)
 #text(size: 48pt, weight: "bold", font: ("Helvetica Neue", "PingFang SC"), fill: teal, book-title)
 #v(6mm)
