@@ -24,6 +24,13 @@
 .practical-guide .guide-sidebar a[href]:hover{color:var(--water);background:none;text-decoration:none}
 .guide-sidebar a:focus-visible{outline:2px solid var(--water);outline-offset:3px}
 .library-hub.practical-guide{max-width:1200px}
+.library-hub .guide-layout{grid-template-columns:264px minmax(0,1fr)}
+.library-hub .guide-sidebar nav{max-height:calc(100dvh - 240px);min-height:240px}
+.library-hub .guide-sidebar nav>ul>li{margin-bottom:28px}
+.library-hub .guide-sidebar nav>ul>li>a{color:var(--muted);font-size:16px}
+.library-hub .guide-sidebar ul ul{padding-left:16px;margin-top:8px}
+.library-hub .guide-sidebar ul ul a{font-size:18px}
+.library-hub .guide-sidebar nav:focus-visible{outline:2px solid var(--water);outline-offset:3px}
 .library-hub .collection-heading{padding-bottom:0;margin-bottom:32px}
 .library-hub .library-section h2[id],.library-hub #diagrams{scroll-margin-top:32px}
 .library-hub .library-section{padding-top:24px}
@@ -35,6 +42,7 @@
 .guide-table th{font-weight:600;background:color-mix(in srgb,var(--water) 6%,var(--paper))}
 .guide-table th:first-child{width:22%}
 @media(max-width:1000px){
+  .library-hub .guide-sidebar nav{max-height:50dvh;min-height:0;overflow:auto}
   .guide-layout{display:block}
   .guide-reading{max-width:860px}
   .guide-sidebar{position:static;border-block:1px solid var(--line);margin-bottom:28px}

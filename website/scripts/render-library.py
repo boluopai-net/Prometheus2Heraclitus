@@ -365,10 +365,11 @@ def main():
                          'Form accounts of orientation, person, counterpart, relationship, and environment, and revise them through use.',
                          writing_guides))
         section_ids = ('practice', 'writing-guides', 'files', 'reading')
-        navigation = [('diagrams', '图示', 'Diagrams')]
+        diagram_links = []
+        navigation = [('diagrams', '图示', 'Diagrams', diagram_links)]
         grouped = []
         for section_id, (zh, en, note_zh, note_en, entries) in zip(section_ids, groups):
-            navigation.append((section_id, zh, en))
+            navigation.append((section_id, zh, en, [link(PACKAGE + entry[0] + edition) for entry in entries]))
             entries_html = []
             for stem, label_zh, label_en, desc_zh, desc_en in entries:
                 path = PACKAGE + stem + edition
@@ -383,6 +384,7 @@ def main():
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
             ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
         ]:
+            diagram_links.append(f'<a href="{BASE}diagrams/{name}/{"en/" if english else ""}">{html.escape(en if english else zh)}</a>')
             suffix = '' if english else '.zh-CN'
             wide = ' diagram-card-wide' if name == 'trinity-sinthome' else ''
             context_link = article_context(name, not english)
@@ -405,8 +407,8 @@ def main():
         body = re.sub(r'<section class="library-section"><h2>.*?</h2>',
                       '<details class="diagram-disclosure" id="diagrams"><summary>' + diagram_summary + '</summary>', body, count=1)
         body = body.replace('</div></section><p class="collection-intro">', '</div></details><p class="collection-intro">', 1)
-        nav_links = ''.join(f'<li><a href="#{anchor}">{html.escape(en if english else zh)}</a></li>' for anchor, zh, en in navigation)
-        sidebar = '<aside class="guide-sidebar"><nav aria-label="' + ('Resource categories' if english else '资源分类') + '"><ul>' + nav_links + '</ul></nav></aside>'
+        nav_links = ''.join(f'<li><a href="#{anchor}">{html.escape(en if english else zh)}</a><ul>' + ''.join('<li>' + item + '</li>' for item in children) + '</ul></li>' for anchor, zh, en, children in navigation)
+        sidebar = '<aside class="guide-sidebar"><nav tabindex="0" aria-label="' + ('Resource categories and files' if english else '资源分类与文件目录') + '"><ul>' + nav_links + '</ul></nav></aside>'
         body = body.replace('collection library-hub', 'collection library-hub practical-guide')
         body = body.replace('<header class="collection-heading">', '<div class="guide-layout">' + sidebar + '<div class="guide-reading"><header class="collection-heading">', 1)
         body = body.replace('</main>', '</div></div></main>')

@@ -20,7 +20,8 @@ if (nav) {
   const reveal = link => {
     // The narrow contents stay in normal flow; progress must never pull the page back.
     if (narrow.matches) return;
-    const box = link.getBoundingClientRect();
+    const item = link.nextElementSibling?.matches('ul') ? link.parentElement : link;
+    const box = item.getBoundingClientRect();
     const rail = nav.getBoundingClientRect();
     if (box.top < rail.top || box.bottom > rail.bottom) {
       nav.scrollTop += box.top - rail.top - (nav.clientHeight - box.height) / 2;
