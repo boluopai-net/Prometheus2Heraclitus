@@ -556,11 +556,19 @@ python3 scripts/build-reading-pdf.py --repo /path/to/Prometheus2Heraclitus --rev
 `--sample --language zh-CN --out /tmp/PDF-SAMPLE` makes a disposable short
 sample. Default output is tracked `dist/reading/`; do not publish sample
 output. The builder retains specific section/alias targets, namespaces internal
-links, produces PDF bookmarks, and unwraps content disclosures. It uses the
-public SVG exports as source, resolves browser-only CSS/fonts in a task-owned
-loopback browser, and embeds static figures with online links. It closes that
-exact browser target and local server after generation. Temporary ASTs, media,
-and coverage reports stay in the selected temporary build directory.
+links, produces PDF bookmarks, and unwraps content disclosures. Original public
+SVG figures are scaled proportionally to the text width and flow with prose on
+ordinary portrait pages. Part and chapter headings do not force a separate
+title page. Browser-only CSS and embedded artwork are resolved in a task-owned
+loopback browser; that exact target and server
+are closed after generation. Temporary ASTs, media, and coverage reports stay
+in the selected temporary build directory.
+
+The reading body is self-contained: references to included own material become
+book-internal destinations, and uncollected own references keep their descriptive
+text without outbound links. External authors' and research sources' links are
+retained. Own repository/site provenance and rights locators belong only in the
+opening reading note, not repeated under figures or at the end of the book.
 
 The print template is `scripts/pdf/reading.typ`. Its current font set is
 Libertinus Serif, Songti SC, PingFang SC, Helvetica Neue and STIX Two Math.

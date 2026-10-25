@@ -31,6 +31,7 @@
 #show math.equation: set text(font: "STIX Two Math")
 #set table(inset: 5pt, stroke: 0.4pt + rgb("d7dddd"))
 #show table: set text(size: 9pt)
+#show figure.where(kind: table): set block(breakable: true)
 #show table.cell.where(y: 0): set text(weight: "bold", fill: teal)
 #set list(indent: 1em, body-indent: 0.6em, spacing: 0.5em)
 #set enum(indent: 1.1em, body-indent: 0.6em, spacing: 0.5em)
@@ -40,21 +41,17 @@
 #show raw: set text(size: 8.5pt, font: ("Menlo", "PingFang SC"))
 #show raw.where(block: true): it => block(width: 100%, fill: rgb("f3f5f5"), inset: 9pt, radius: 3pt, breakable: true, it)
 #show heading.where(level: 1): it => {
-  pagebreak(weak: true)
-  block(above: 10mm, below: 7mm, text(font: ("Helvetica Neue", "PingFang SC"), size: 25pt, weight: "bold", fill: teal, it.body))
+  block(sticky: true, above: 8mm, below: 4mm, text(font: ("Helvetica Neue", "PingFang SC"), size: 22pt, weight: "bold", fill: teal, it.body))
 }
 #show heading.where(level: 2): it => {
-  pagebreak(weak: true)
-  block(above: 10mm, below: 7mm,
-    text(font: ("Helvetica Neue", "PingFang SC"), size: 24pt, weight: "bold", fill: teal, it.body))
+  block(sticky: true, above: 7mm, below: 4mm,
+    text(font: ("Helvetica Neue", "PingFang SC"), size: 20pt, weight: "bold", fill: teal, it.body))
 }
 #show heading.where(level: 3): it => block(above: 1.5em, below: 0.7em,
   text(font: ("Helvetica Neue", "PingFang SC"), size: 15pt, weight: "bold", fill: teal, it.body))
 #show heading.where(level: 4): it => block(above: 1.1em, below: 0.5em, text(size: 12pt, weight: "bold", it.body))
 #let part(title) = {
-  pagebreak(weak: true)
   heading(level: 1, title)
-  line(length: 22mm, stroke: 2pt + gold)
 }
 #let chapter-art(path, caption) = {
   block(width: 100%, above: 2mm, below: 7mm)[
@@ -63,16 +60,10 @@
     #text(size: 8.5pt, fill: muted, caption)
   ]
 }
-#let diagram-page(path, title, url, wide: false) = {
-  pagebreak(weak: true)
-  set page(width: if wide { 250mm } else { 176mm }, height: if wide { 176mm } else { 250mm },
-    margin: if wide { (top: 16mm, bottom: 16mm, left: 16mm, right: 16mm) } else { (top: 19mm, bottom: 20mm, left: 19mm, right: 19mm) })
-  heading(level: 3, title)
-  align(center, image(path, width: 100%, height: if wide { 112mm } else { 178mm }, fit: "contain"))
-  v(3mm)
-  text(size: 9pt, link(url, if language == "zh" { [在线图示与交互版本 ↗] } else { [Online diagram and interactive version ↗] }))
-  pagebreak(weak: true)
-}
+#let book-figure(path, title) = block(above: 4mm, below: 4mm, breakable: true, {
+  block(sticky: true, below: 2mm, text(size: 10pt, weight: "bold", fill: teal, title))
+  block(above: 1.5mm, below: 1.5mm, align(center, image(path, width: 100%)))
+})
 
 #v(25mm)
 #line(length: 22mm, stroke: 3pt + gold)

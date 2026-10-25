@@ -143,14 +143,17 @@ psychological material, and configuring a fitting environment. YinYang must not
 be used for psychological self-help, self-diagnosis, mental-health assessment,
 or treatment. See the [full use statement]({GITHUB}/blob/{revision}/README.md#intended-use-and-mental-health).
 
-The contents, PDF bookmarks and in-text references link to chapters and specific
-sections. Clickable links are teal. Uncollected sources open online. Interactive
-diagrams are represented by static figures with links to their online versions;
-private situated files and personal material are not included.
+The contents, PDF bookmarks and in-text references link to chapters, figures and
+specific sections. Clickable links are teal. References to external authors and
+research retain their source links. The author's repository and website are
+referenced only here at the front; the body is a self-contained reading edition.
+Original figures are scaled to the portrait page and flow with the text. Private situated
+files and personal material are not included.
 
 The original prose is preserved; navigation, pagination and figures are adapted
 for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
 [{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang).
+[Package license]({GITHUB}/blob/{revision}/skills/yinyang/LICENSE) · [Image and other rights]({SITE}/rights/).
 '''
     return f'''# 怎样读这本书
 
@@ -167,12 +170,13 @@ for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
 阴阳不能用于心理自助、自行诊断、心理健康评估或治疗。完整的用途与评价边界见
 [仓库说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)。
 
-目录、PDF 书签与正文中的引用，可以跳转到相应文章和具体章节。青色文字是可点击链接；
-未收录的资料连向在线来源。交互图以静态图呈现，并保留在线版本入口。
-本书不包含私人实际文件与个人材料。
+目录、PDF 书签与正文中的引用，可以跳转到相应文章、图示和具体章节。青色文字是可点击链接；
+外部作者与研究文献保留来源链接。作者自己的仓库和网页只在书首列为出处，正文按自足的阅读版组织。
+原图按纵向书页的正文宽度等比例缩放，随正文出现。本书不包含私人实际文件与个人材料。
 
 本版保留原文，为连续阅读调整了导航、分页和图示呈现。生成日期：{stamp}（北京时间）。
 公开内容版本：[{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang)。
+[包内许可]({GITHUB}/blob/{revision}/skills/yinyang/LICENSE) · [图像及其他权利说明]({SITE}/rights/)。
 '''
 
 
@@ -186,7 +190,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
     sections = book_paths(english)
     paths = [path for _, members in sections for path in members]
     if sample:
-        paths = paths[:3]  # Core views and two essays; the full build is authoritative.
+        paths = paths[:3]  # Opening essays; the full build is authoritative.
         sections = [(title, [p for p in members if p in paths]) for title, members in sections]
     assert len(paths) == len(set(paths))
     documents, anchors, ids = {}, {}, {}
@@ -243,14 +247,36 @@ def build(repo, revision, english, output, work, sample, diagrams):
         return target
 
     internal, external, missing = 0, 0, []
+    figure_names = {name for path in paths for name, _ in
+                    diagram_placements(not english).get(Path(path).name.split('.')[0], [])}
 
     def resolve_link(href, source):
         nonlocal internal, external
         parsed = urlsplit(href)
-        if parsed.scheme or parsed.netloc:
+        absolute_target = None
+        if parsed.netloc.lower() in {'boluopai.net', 'www.boluopai.net'}:
+            article = re.fullmatch(r'/philosophy/([^/]+)/(?:en/)?', parsed.path)
+            document = re.fullmatch(r'/repositories/prometheus/source/(.+)\.html', parsed.path)
+            figure = re.fullmatch(r'/repositories/prometheus/diagrams/([^/]+)/(?:en/)?', parsed.path)
+            if figure and figure[1] in figure_names:
+                internal += 1
+                return '#figure-' + figure[1]
+            if article:
+                absolute_target = PACKAGE + 'references/docs/' + article[1] + ('.md' if english else '.zh-CN.md')
+            elif document:
+                absolute_target = document[1] + '.md'
+            else:
+                return None
+        elif parsed.netloc.lower() == 'github.com' and parsed.path.lower().startswith(('/boluopai-net/', '/sun2prometheus/')):
+            prefix = '/boluopai-net/prometheus2heraclitus/blob/'
+            if parsed.path.lower().startswith(prefix):
+                absolute_target = parsed.path[len(prefix):].split('/', 1)[-1]
+            else:
+                return None
+        elif parsed.scheme or parsed.netloc:
             external += 1
             return href
-        path = PurePosixPath(source).parent / unquote(parsed.path) if parsed.path else PurePosixPath(source)
+        path = PurePosixPath(absolute_target) if absolute_target else (PurePosixPath(source).parent / unquote(parsed.path) if parsed.path else PurePosixPath(source))
         parts = []
         for piece in path.parts:
             if piece == '..':
@@ -259,6 +285,15 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 parts.append(piece)
         target = '/'.join(parts)
         fragment = unquote(parsed.fragment)
+        if '/references/diagrams/' in target:
+            name = Path(target).name.split('.')[0]
+            if name in figure_names:
+                internal += 1
+                return '#figure-' + name
+        if target not in documents and target.endswith('.md'):
+            edition_target = target.removesuffix('.zh-CN.md').removesuffix('.md') + ('.md' if english else '.zh-CN.md')
+            if (edition_target, fragment) in anchors:
+                target = edition_target
         if target in documents:
             label = anchors.get((target, fragment))
             if not label:
@@ -266,15 +301,18 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 return href
             internal += 1
             return '#' + label
-        external += 1
-        return GITHUB + '/blob/' + revision + '/' + quote(target, safe='/') + ('#' + quote(fragment) if fragment else '')
+        # Uncollected own material stays readable prose, not an outbound citation.
+        return None
 
     def transform(node, source):
         if node.get('t') == 'Span' and node['c'][0][0] and not node['c'][1]:
             # Separate location-bearing elements keep consecutive source aliases.
             return {'t': 'RawInline', 'c': ['typst', '#metadata(none) <' + node['c'][0][0] + '>']}
         if node.get('t') == 'Link':
-            node['c'][2][0] = resolve_link(node['c'][2][0], source)
+            target = resolve_link(node['c'][2][0], source)
+            if target is None:
+                return {'t': 'Span', 'c': [node['c'][0], node['c'][1]]}
+            node['c'][2][0] = target
         elif node.get('t') == 'Image':
             target = str(PurePosixPath(source).parent / node['c'][2][0])
             # resolve lexical parent segments without reading another tree.
@@ -324,9 +362,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
                     boundary -= 1
                 source = PACKAGE + 'references/diagrams/' + diagram + ('.svg' if english else '.zh-CN.svg')
                 image_path = asset(source, True)
-                online = SITE + '/repositories/prometheus/diagrams/' + diagram + ('/en/' if english else '/')
-                wide = diagram in {'layers', 'encounter'}
-                additions[boundary] = [raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (str(image_path), TITLES[diagram][english], online)) + ', wide: ' + str(wide).lower() + ')')]
+                additions[boundary] = [raw_typst('#metadata(none) <figure-' + diagram + '>\n#book-figure(' + json.dumps(str(image_path)) + ', ' + json.dumps(TITLES[diagram][english], ensure_ascii=False) + ')')]
             if additions and list(additions) != sorted(additions):
                 raise ValueError('PDF figure positions no longer follow the website article order')
             for index, block in enumerate(blocks):
@@ -335,12 +371,11 @@ def build(repo, revision, english, output, work, sample, diagrams):
     # Readable rights and public source provenance travel with the exported book.
     rights = ('# Edition and rights\n\nOriginal author: boluopai. This reading edition is generated from the public YinYang package. '
               'Original prose is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). '
-              'Images and third-party material retain their separate rights. See the [package license](' + GITHUB + '/blob/' + revision + '/skills/yinyang/LICENSE) '
-              'and [image notices](' + SITE + '/rights/).\n\nThe layout and static rendering are adapted for PDF; they do not replace the maintained online sources.' if english else
+              'Images and third-party material retain their separate rights. Source and edition information is collected at the beginning of the book.\n\nThe layout and figures are adapted for book reading.' if english else
               '# 版本与权利\n\n原作者：boluopai。本阅读版由公开阴阳包生成。原创文字采用 '
               '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)；图像与第三方材料保留各自的权利范围。'
-              '详见[包内许可](' + GITHUB + '/blob/' + revision + '/skills/yinyang/LICENSE)与[图像及其他权利说明](' + SITE + '/rights/)。'
-              '\n\n本版为 PDF 调整了版面与静态呈现；持续维护的在线来源仍可由书内链接访问。')
+              '来源与版本信息集中列于书首。'
+              '\n\n本版为书籍阅读调整了版面与图示呈现。')
     rights_blocks = parse(rights)['blocks']
     rights_blocks[0]['c'][1][0] = 'edition-and-rights'
     book['blocks'].extend(rights_blocks)
