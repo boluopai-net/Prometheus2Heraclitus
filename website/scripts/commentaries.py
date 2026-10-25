@@ -285,17 +285,32 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
 
 
 def practice_entrance(chinese):
-    heading = '在实践之前，先学习工具' if chinese else 'Before practice, learn to use the tools'
-    text = '从入门指南熟悉模型、Skills 与工具的使用，再让模型帮助构建适合自己的工作环境。阅读与使用可以往返进行，遇到问题再回到相应篇章。' if chinese else 'Use the getting-started guide to become familiar with models, Skills, and tools, then ask a model to help build a working environment that fits you. Move between reading and use, returning to the relevant essays as questions arise.'
-    guide = '/getting-started/' + ('' if chinese else 'en/')
-    return f'<section class="series-entrance" id="practice"><h2><a href="{guide}">{heading}</a></h2><p>{text}</p></section>'
+    suffix = '' if chinese else 'en/'
+    views = '/philosophy/core-views/' + suffix
+    guide = '/getting-started/' + suffix
+    writing = '/philosophy/literary-programming/' + suffix
+    if chinese:
+        heading = '选择怎样阅读与使用'
+        paragraphs = [
+            f'非文史哲背景的读者，可以先从<a href="{views}">核心观点</a>中挑选与自己问题有关的部分，看看理由与适用条件，再考虑采用。需要深入理解时，再沿链接阅读相应论证，不必从头通读或接受全部立场。',
+            f'选定的思想可以用于整理经历、持续修订个人心理材料，以及配置适合自己的环境。让模型协助整理记录、保留暂时解释与不确定性，并把相关理解落实到实际安排；<a href="{guide}">工具使用</a>提供操作入口。',
+            f'是否写自己的哲学、文章或个人网站，取决于兴趣。可以先把观点用于生活与协作；有创作兴趣时，再读<a href="{writing}">文学式编程</a>等篇章。下面五部分展示作者的完整论述，供按问题选读。',
+        ]
+    else:
+        heading = 'Choose what to read and use'
+        paragraphs = [
+            f'If literature, history, or philosophy is not your field, begin with relevant parts of <a href="{views}">Core views</a>. Consider their reasons and conditions before adopting them, and follow the linked arguments when you want to go deeper. You need not read everything in order or accept every position.',
+            f'Selected ideas can help organize experiences, revise personal psychological material, and configure a fitting environment. A model can organize records, retain tentative interpretations and uncertainty, and turn relevant understanding into practical arrangements. <a href="{guide}">Using the Tools</a> supplies an operational entrance.',
+            f'Writing your own philosophy, essays, or website is a choice of interest. Use the ideas in life and cooperation first if that serves you; explore <a href="{writing}">Literary programming</a> and related essays when you want to create. The five parts below present the author’s connected argument for selective reading.',
+        ]
+    return f'<section class="series-entrance" id="practice"><h2>{heading}</h2>' + ''.join(f'<p>{p}</p>' for p in paragraphs) + '</section>'
 
 
 def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '参加共同的窃火，用火培养自己的理解、判断与创造能力，成为能够继续生成的人。' if chinese else 'Join in the collective work of stealing fire, and use it to cultivate understanding, judgment, and creative capacity—to become someone who can keep generating.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p></header>'
-    notice = '用途提示：阴阳尚未经过针对心理健康用途的系统性实证评估，不支持用于自助式心理支持、心理分析、评估或治疗。存在或怀疑存在心理健康问题时，请寻求正规医疗机构的专业评估。普通使用宜限于整理经历、增加自我了解，以及借助六份文件的结构和选定工具配置个人环境。项目、模型与生活环境持续变化，个人经验不构成效果保证。超出上述用途自行使用，须自行承担相关风险。' if chinese else 'Use notice: YinYang has not undergone systematic empirical evaluation for mental health uses. Self-help psychological support, analysis, assessment, and treatment are unsupported uses. If you have or suspect a mental health problem, seek professional assessment through a qualified healthcare provider. Ordinary use should be limited to organizing experiences, increasing self-understanding, and adapting the six-file structure and selected tools to configure a personal environment. The project, models, and living conditions keep changing; personal experience does not guarantee effectiveness. Use beyond this scope is at your own risk.'
+    notice = '用途边界：整理与修订个人材料、配置环境，不等于心理自助工作。阴阳不能用于心理自助、自行诊断、心理健康评估或治疗。' if chinese else 'Use boundary: organizing and revising personal material and configuring an environment are distinct from psychological self-help work. YinYang must not be used for psychological self-help, self-diagnosis, mental-health assessment, or treatment.'
     notice_url = 'https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/' + ('README.zh-CN.md#用途与心理健康说明' if chinese else 'README.md#intended-use-and-mental-health')
     use_notice = f'<p class="use-notice footnote" role="note">{notice} <a href="{notice_url}">{"完整说明" if chinese else "Full notice"}</a></p>'
     sections = []
@@ -313,7 +328,7 @@ def index_body(chinese, title):
     ]
     references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in diagrams)
     review = f'<p class="diagram-references">{references}</p>'
-    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{"".join(sections)}{review}{practice_entrance(chinese)}{use_notice}</article></main>'
+    return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{practice_entrance(chinese)}{use_notice}{"".join(sections)}{review}</article></main>'
 
 
 def old_book_alias(chinese):

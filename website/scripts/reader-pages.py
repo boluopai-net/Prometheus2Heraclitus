@@ -5,7 +5,7 @@ from repository_panel import with_comments
 from singing_pages import render as render_singing
 render_singing()
 root = Path(__file__).resolve().parents[1] / 'dist'
-for route, kind in [('philosophy', 'Philosophy'), ('singing', 'Singing')]:
+for route, kind in [('philosophy', 'Philosophy')]:
     for english in (False, True):
         target = root / route / ('en/index.html' if english else 'index.html')
         target.write_text(with_comments(target.read_text(), english, kind))
@@ -34,5 +34,5 @@ for en in (False, True):
     home_text = re.sub(r'<!-- READER PATHS START -->[\s\S]*?<!-- READER PATHS END -->', '', home.read_text())
     if 'href="/reader-paths.css"' not in home_text:
         home_text = home_text.replace('</head>', '<link rel="stylesheet" href="/reader-paths.css"></head>')
-    paths = f'''<!-- READER PATHS START --><section class="section wrap reader-paths"><div class="section-heading"><h2><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">{tr('继续交流与创作','Continue the conversation')}</a></h2><img class="motif" src="/motifs/pen.svg" alt="" aria-hidden="true"></div><p>{tr('Skills 和工具欢迎直接改进并提交 PR，也可以先用 Issue 讨论问题。哲学鼓励你从自己的经验与思想出发创作；对这份文集的纠正、异议和改进，同样欢迎 Issue 与 PR。想法也可以留在哲学、唱歌和资料页面的评论区。','Improve reusable Skills and tools and submit a pull request, or open an Issue to discuss a problem. For philosophy, develop your own work from your experience and ideas; corrections, objections, and improvements to this collection are also welcome through Issues and pull requests. Thoughts can also be shared in the page comments.')}</p></section><!-- READER PATHS END -->'''
+    paths = f'''<!-- READER PATHS START --><section class="section wrap reader-paths"><div class="section-heading"><h2><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">{tr('继续交流与创作','Continue the conversation')}</a></h2><img class="motif" src="/motifs/pen.svg" alt="" aria-hidden="true"></div><p>{tr('可以在自己的地方写哲学或其他文章，提及或链接本仓库，让作品彼此相遇；也可以通过 GitHub Issue 提问、纠错、建议，或向 boluopai 点歌。本仓库不接受任何 PR。','Publish your philosophy or other articles in your own space and mention or link this repository. Use GitHub Issues for questions, corrections, suggestions, or song requests to boluopai. This collection does not accept pull requests.')}</p></section><!-- READER PATHS END -->'''
     home.write_text(home_text.replace('<aside class="playground wrap">', paths+'<aside class="playground wrap">'))

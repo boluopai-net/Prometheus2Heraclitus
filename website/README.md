@@ -253,8 +253,10 @@ Sites applies the schema migrations before uploading the Worker.
 The header has one GitHub entrance alongside on-site philosophy, singing, and
 resources. The homepage's “Continue the conversation” heading links to the
 repository root. The retired Contact pages redirect there too. Full source,
-archive downloads, cloning, Issues and pull requests
-use GitHub's native public workflow. The website presents articles and reusable
+archive downloads, cloning and Issues use GitHub's native public workflow.
+The collection does not accept pull requests. Readers publish independent works
+in their own spaces and mention or link the collection, or use Issues for questions
+and song requests to boluopai. The website presents articles and reusable
 MIT Skill introductions linking to GitHub; it has no access application or download
 code form. Comments and replies use GitHub's native identity and moderation.
 The bilingual `comment_section` renderer keeps the giscus widget visible in a
@@ -677,14 +679,16 @@ Each introduction preserves the package's companion-method and host-capability
 requirements; collection membership does not imply standalone installation.
 
 `scripts/reader-pages.py` rebuilds the singing station from
-`content/singing/recordings.json` through `scripts/singing_pages.py`, then adds
-the existing Singing comments for requests and submission proposals. The empty
-catalog truthfully shows no published recordings. Accepted entries require
+`content/singing/recordings.json` through `scripts/singing_pages.py`. The station
+links to GitHub Issues for song requests to boluopai only; it has no recording
+submission or Singing comment widget. Existing discussion history is retained
+at its GitHub owner. The empty catalog truthfully shows no published recordings.
+Owner-published entries require
 `title`, `performer`, `audio_url`, `source_url`, and `rights`; audio/source URLs
 must be HTTPS or site-relative. Native audio controls use no autoplay and no
 preload. Keep rights per recording; neither the package MIT license nor YinYang's
 CC license grants rights to a recording. This source catalog is the publication
-owner; comments are proposals, not uploads or automatic publication.
+owner; requests do not upload recordings or publish content automatically.
 
 `scripts/cjk_markdown.py` adds CJK-adjacent strong emphasis to the practical guide.
 Code, escapes, and links retain their normal Markdown handling. Recheck visible

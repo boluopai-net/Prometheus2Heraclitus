@@ -20,7 +20,7 @@ def safe_url(value):
 def recordings_html(recordings, english):
     if not recordings:
         title = 'The first recording is still to come.' if english else '第一首录音，待发布。'
-        text = 'Request a song or offer a recording below.' if english else '可以先在下面点歌，或提出录音投稿。'
+        text = 'You can request a song for boluopai through an Issue.' if english else '可以先通过 Issue 向 boluopai 点歌。'
         return f'<section class="voice-empty"><div><h2>{title}</h2><p>{text}</p></div></section>'
     entries = []
     for item in recordings:
@@ -39,12 +39,10 @@ def render():
     for english in (False, True):
         suffix = 'en/' if english else ''
         title = 'Singing station' if english else '唱歌点播台'
-        intro = ('Listen to published recordings, request a song, or contribute your voice. '
-                 'Request songs in the comments or contribute a recording directly through a GitHub PR; no prior comment or Issue is required.' if english else
-                 '听已经发布的录音，点一首想听的歌，也欢迎把自己的声音带来。可以在评论区点歌，也可以直接通过 GitHub PR 投稿录音，不必先发评论或 Issue。')
-        contribution = ('Include the song, performer, a recording link, and permission to publish it. '
-                        'A submission becomes playable here after it is accepted and published.' if english else
-                        '投稿时请写明曲目、演唱者、录音链接和可公开使用的授权说明；确认收录并发布后，就能在这里播放。')
+        intro = ('Listen to boluopai’s published recordings, or request a song for boluopai through a GitHub Issue.' if english else
+                 '听 boluopai 已发布的录音，或通过 GitHub Issue 向 boluopai 点一首想听的歌。')
+        contribution = ('Include the song title and, when useful, the original artist or version. This station accepts requests for boluopai only, not recordings or performances submitted by others.' if english else
+                        '写明曲名，需要时注明原唱或想听的版本。这里只接受向 boluopai 点歌，不接收其他人的录音或演唱投稿。')
         target = ROOT / 'dist/singing' / suffix / 'index.html'
         target.write_text(f'''<!doctype html><html lang="{'en' if english else 'zh-CN'}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -52,7 +50,7 @@ def render():
 <body><header class="header wrap"></header><main id="main" class="wrap collection">
 <div class="collection-heading"><img class="motif collection-motif" src="/motifs/moon.svg" alt="" aria-hidden="true">
 <h1>{title}</h1><p class="collection-intro">{intro}</p><p>{contribution}</p>
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING{'.md' if english else '.zh-CN.md'}">{'Contribution guide' if english else '投稿与共同编辑说明'}</a></div>
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/issues/new">{'Request a song for boluopai' if english else '向 boluopai 点歌'}</a></div>
 {recordings_html(recordings, english)}</main><footer class="footer wrap"><p class="copyright"></p></footer></body></html>''')
 
 

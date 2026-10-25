@@ -4,7 +4,7 @@
 def comment_section(english=False, kind='YinYang'):
     def t(zh, en):
         return en if english else zh
-    heading = t('点歌与投稿', 'Song requests and submissions') if kind == 'Singing' else t('评论', 'Comments')
+    heading = t('评论', 'Comments')
     section_id = 'advice' if kind == 'Advice' else 'comments'
     return f'''<section id="{section_id}" class="repository-tool comment-section" aria-labelledby="{section_id}-title">
 <h2 id="{section_id}-title">{heading}</h2>
