@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.39",
+      "version": "1.1.40",
       "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
       "source": {
         "source": "local",
@@ -303,7 +303,7 @@
     },
     {
       "name": "local-teacher",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Explain, review, and practice in a local environment, developing understanding through real work.",
       "source": {
         "source": "local",
@@ -330,7 +330,7 @@
     },
     {
       "name": "web-teacher",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
       "source": {
         "source": "local",

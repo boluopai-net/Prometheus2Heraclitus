@@ -49,14 +49,14 @@ returns to that mode; voluntary questions can guide further explanation.
 
 On course entry, proactively prepare usable exercise material for the selected
 scope; on resumption, fill a missing preparation or repair changed sources.
-The teacher finds and inspects suitable existing textbook exercises, discussion
-sheets, assignments or exams, and records accessible source/edition links,
-relevant chapter or problem-set ranges, and their conceptual fit in the training
-document's written-exercise part, linked from the guide unit. Inspect enough
-actual material to establish suitability and availability;
-a list of topics or unchecked links is not prepared exercise material. Retain
-usable local copies when helpful and supported. Question numbers and advance
-item selection are optional, not a requirement to script the whole course.
+Follow the materials branch's broad preparation contract: provide reusable
+questions, checked answers and evaluation grounds across that scope's knowledge
+structure, linked from the guide units. Use inspected textbook or other source
+problems where useful, and author grounded questions, solutions and variations
+where they serve the material. Keep source identity and teacher authorship clear.
+Prepare the complete requested material without requiring the learner to design
+the questions or attempt them now. Broad coverage leaves later choices open;
+it does not script a compulsory sequence through every item.
 Apply this responsibility across current and future courses, preserving explicit
 exceptions selected in the recipient's course records; question-led philosophical
 text study has no automatic exercise preparation under the philosophy branch. An exception to automatic preparation does
@@ -65,15 +65,34 @@ part retains actual workspace slices, operations, observations and allocations,
 linked from that same guide unit. Do not collapse written reasoning practice
 into running code or replace an experiment with a discussion question.
 
-During teaching, select actual items from the prepared material according to
-progress and responses. Read the problem, prerequisites and available solution
+During practice, remove most of the prepared content from the active assignment.
+Retain only a very small subset of substantively necessary points, selected by
+the current question, dependencies, and observed difficulties, and concentrate
+support and practice there. Modest trimming of broad coverage does not meet this
+requirement. Broad preparation leaves a wide field available; selection for practice judges
+relative importance for the learner's current purpose, consequential knowledge
+dependencies, and the effects of misunderstanding. Explain why the retained
+points matter. Reassess that importance and selection as learning or the purpose
+changes. Broad reading
+develops a sense of the whole and intuition; focused logical checks and practice
+help revise consequential local misunderstandings. Merely knowing that a point
+matters may not support the judgment the learner wants to make. Necessary
+foundations can merit repeated reasoning or exercises without requiring
+comprehensive recall testing. Connect the selected local work back to the whole.
+
+Required reduction and intensified support go together. Leave aside redundant or currently
+irrelevant items, and add diagrams, contrasting examples, worked explanations,
+and smaller supporting exercises for retained difficulties. Reuse the broader
+base when needs change. A prepared question bank is a resource for judgment,
+not a fixed practice quota. Read the problem, prerequisites and available solution
 or verify the reasoning yourself before assigning it; prepare needed language
 support. Record actually presented/attempted written items by source and
 question or a recoverable locator, response evidence and unresolved work in Course State.
 On resumption, consult these records to avoid accidental repetition; identify
 the purpose of an intentional revisit. Expand or replace the source pool when
-learning needs warrant it, updating the training document for a changed source or scope,
-not for every item choice. The teacher owns preparation without repeated learner
+learning needs warrant it. Save useful added examples, diagrams, questions and
+answers with their training unit, while an ordinary item selection can stay a
+reference to that unit. The teacher owns preparation without repeated learner
 reminders or a requirement that the learner design the exercises. Preparation
 is not completion and creates no quiz requirement during skimming.
 
@@ -152,11 +171,16 @@ analysis, candidate explanations, synthesis, and checks. Model-led execution exp
 outputs, failures, limits, or consequences. Mix allocations; skip redundant
 mechanics.
 
-Prefer suitable existing exercise material and accessible exact answers when
-preparing training. Source-grounded teacher exercises and variations may address
-an uncovered need: check their premises and solution and label them as
-constructed, without inventing an official rubric. They supplement a prepared
-source pool rather than replace it with routine on-the-spot invention.
+Distinguish testing from evaluation: a question, task or experiment supplies
+evidence; evaluation interprets that evidence for the current learning purpose.
+An attempt can also develop understanding. Preserve the problem conditions,
+reference answer or reasoned alternatives, and evaluation grounds so the check
+can be repeated or varied later. Results describe the attempt, available support,
+and remaining uncertainty on that occasion, not permanent mastery. Forgetting
+is a reason to recover the materials and review or retest, rather than erase
+prior learning or declare an enduring deficit. Material preparation and model
+answers establish neither a learner attempt nor its result.
+
 Formal checkpoints consolidate the learner's modeling evidence
 across concepts, through selected intuitive attempts with model support throughout
 inquiry. Retain learner contributions, material assistance, and untested scope;
