@@ -7,6 +7,7 @@ import hashlib
 import html
 from pathlib import Path
 from urllib.parse import quote
+from reader_names import reader_names
 
 root = Path(__file__).resolve().parents[1] / 'dist'
 style_versions = {name: hashlib.sha256((root / name).read_bytes()).hexdigest()[:12]
@@ -71,34 +72,6 @@ def space_chinese_latin(text):
             previous, previous_slot, gap_slots = '', None, []
         start = match.end()
     chunks.append(prose(text[start:]))
-    return ''.join(chunks)
-
-
-def reader_names(text):
-    """Apply reader terminology without renaming URLs, identifiers, code or source quotations."""
-    protected = r'(<(?P<verbatim>pre|code|script|style|textarea)\b[^>]*>[\s\S]*?</(?P=verbatim)\s*>|<!--[\s\S]*?-->|<[^>]+>|“(?:一动一静，互为其根|万物生生，而变化无穷焉|生生之谓易|阴阳之义配日月|日月相推而明生焉)”)'
-    terms = {'菠萝派': 'boluopai', '阴阳': 'Yinyang', '太极图说': 'Taijitu Shuo', '太极': 'Taiji', '无极': 'Wuji', '无为': 'Wuwei', '两仪': 'Liangyi', '四象': 'Sixiang', '八卦': 'Bagua', '五行': 'Wuxing'}
-
-    def names(value):
-        for original, label in terms.items():
-            value = value.replace(original, label)
-        value = re.sub(r'(?<![A-Za-z])(?:yinyang|YinYang)(?![A-Za-z])', 'Yinyang', value)
-        value = value.replace('Yinyang · Yinyang', 'Yinyang')
-        value = value.replace('生生不息的转化', 'Shengsheng 与持续转化')
-        value = value.replace('将易与生生相连', '将 Yi 与 Shengsheng 相连')
-        return value
-
-    chunks, start = [], 0
-    for match in re.finditer(protected, text, re.I):
-        chunks.append(names(text[start:match.start()]))
-        token = match[0]
-        if token.startswith('<') and not match.group('verbatim') and not token.startswith('<!--'):
-            token = re.sub(r'((?<![\w:-])(?:title|alt|aria-label)=["\'])(.*?)(["\'])', lambda m: m[1] + names(m[2]) + m[3], token)
-            if re.match(r'<meta\b', token, re.I) and re.search(r'\b(?:name|property)=["\'](?:description|og:title|og:description|twitter:title|twitter:description|application-name)["\']', token, re.I):
-                token = re.sub(r'(\bcontent=["\'])(.*?)(["\'])', lambda m: m[1] + names(m[2]) + m[3], token)
-        chunks.append(token)
-        start = match.end()
-    chunks.append(names(text[start:]))
     return ''.join(chunks)
 
 

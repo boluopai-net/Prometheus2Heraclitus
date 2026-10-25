@@ -20,6 +20,7 @@ from commentaries import GROUPS, BRANCHES
 from reading_maps import diagram_placements, TITLES
 from article_art import SCENES, CAPTIONS
 from pdf_diagrams import DiagramRenderer
+from reader_names import reader_text, reader_document
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = 'skills/yinyang/'
@@ -346,7 +347,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
     for section_title, members in sections:
         if not members:
             continue
-        book['blocks'].append(raw_typst('#part(' + json.dumps(section_title, ensure_ascii=False) + ')'))
+        book['blocks'].append(raw_typst('#part(' + json.dumps(reader_text(section_title), ensure_ascii=False) + ')'))
         for chapter_index, path in enumerate(members):
             if chapter_index:
                 book['blocks'].append(raw_typst('#pagebreak(weak: true)'))
@@ -356,7 +357,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
             art = ROOT / 'dist/art' / (name + ('.svg' if name == 'writing-a-sinthome' else '.png'))
             if name in SCENES and art.is_file():
                 image_path = asset(art)
-                caption = CAPTIONS.get(name, SCENES[name])[english]
+                caption = reader_text(CAPTIONS.get(name, SCENES[name])[english])
                 blocks.insert(1, raw_typst('#chapter-art(' + json.dumps(str(image_path)) + ', ' + json.dumps(caption, ensure_ascii=False) + ')'))
             additions = {}
             for diagram, heading in diagram_placements(not english).get(name, []):
@@ -377,7 +378,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
                     boundary -= 1
                 source = PACKAGE + 'references/diagrams/' + diagram + ('.svg' if english else '.zh-CN.svg')
                 image_path = asset(source, True)
-                additions[boundary] = [raw_typst('#metadata(none) <figure-' + diagram + '>\n#book-figure(' + json.dumps(str(image_path)) + ', ' + json.dumps(TITLES[diagram][english], ensure_ascii=False) + ')')]
+                additions[boundary] = [raw_typst('#metadata(none) <figure-' + diagram + '>\n#book-figure(' + json.dumps(str(image_path)) + ', ' + json.dumps(reader_text(TITLES[diagram][english]), ensure_ascii=False) + ')')]
             if additions and list(additions) != sorted(additions):
                 raise ValueError('PDF figure positions no longer follow the website article order')
             for index, block in enumerate(blocks):
@@ -397,11 +398,11 @@ def build(repo, revision, english, output, work, sample, diagrams):
     if missing:
         raise ValueError('Unresolved internal links: ' + json.dumps(missing, ensure_ascii=False))
     ast = work / (lang + '.json')
-    ast.write_text(json.dumps(book, ensure_ascii=False))
+    ast.write_text(json.dumps(reader_document(book), ensure_ascii=False))
     body = run(['pandoc', '--from=json', '--to=typst', '--wrap=none', str(ast)]).decode()
     header = (ROOT / 'scripts/pdf/reading.typ').read_text()
     header = header.replace('"LANGUAGE"', json.dumps('en' if english else 'zh'))
-    header = header.replace('"BOOKTITLE"', json.dumps('YinYang' if english else '阴阳', ensure_ascii=False))
+    header = header.replace('"BOOKTITLE"', json.dumps(reader_text('YinYang'), ensure_ascii=False))
     header = header.replace('"BOOKSUBTITLE"', json.dumps('Steal Fire, Then Become Fire' if english else '窃火，然后成为火', ensure_ascii=False))
     header = header.replace('"EDITION"', json.dumps('English reading edition' if english else '中文阅读版', ensure_ascii=False))
     header = header.replace('"BUILDSTAMP"', json.dumps(stamp + ' · ' + revision[:12], ensure_ascii=False))

@@ -572,6 +572,12 @@ text without outbound links. External authors' and research sources' links are
 retained. Own repository/site provenance and rights locators belong only in the
 opening reading note, not repeated under figures or at the end of the book.
 
+The website and PDF share reader-facing Chinese-concept labels through
+`scripts/reader_names.py`. PDF naming runs after source anchors and figure
+placement are resolved; quotations, code, URLs and identifiers retain their
+original values. Philosopher names remain authored judgments under the public
+YinYang `MODEL.md`, not name-frequency classifications in the renderer.
+
 The print template is `scripts/pdf/reading.typ`. Its current font set is
 Libertinus Serif, Songti SC, PingFang SC, Helvetica Neue and STIX Two Math.
 Validate both editions' text coverage, internal destinations, tables, formulas
