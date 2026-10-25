@@ -4,6 +4,8 @@
 
 [网站首页](https://boluopai.net/) · [文档与图示](https://boluopai.net/repositories/prometheus/) · [English](README.md)
 
+阴阳阅读版：[下载中文 PDF](https://boluopai.net/reading/yinyang.zh-CN.pdf) · [Download English PDF](https://boluopai.net/reading/yinyang.en.pdf)。适合离线阅读与批注，含可点击目录、章节跳转和图示。
+
 <!-- repository-only:start -->
 ## 用途与心理健康说明
 
