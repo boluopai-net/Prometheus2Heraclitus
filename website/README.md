@@ -559,7 +559,7 @@ output. The builder retains specific section/alias targets, namespaces internal
 links, produces PDF bookmarks, and unwraps content disclosures. Original public
 SVG figures are scaled proportionally to the text width and flow with prose on
 ordinary portrait pages. Each part starts on a fresh page with its first chapter,
-separated by space and a short rule; subsequent articles start on fresh pages.
+using a black part heading and generous whitespace; subsequent articles start on fresh pages.
 The opening reading note stays separate, and part titles never receive a title-only
 page. Browser-only CSS and embedded artwork are resolved in a task-owned
 loopback browser; that exact target and server
