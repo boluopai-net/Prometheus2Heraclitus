@@ -197,6 +197,10 @@ name. When the essays discuss or cite that philosopher, use the established
 Chinese rendering. A mention created by the reading guide itself does not change
 that relationship. Check the argument and source, not just a name count.
 
+Full names are not required in ordinary prose. Use a recognizable given name,
+surname, or common short name when the context identifies the person clearly;
+expand only when needed to avoid ambiguity or preserve exact source material.
+
 For modern Chinese philosophers, use a Roman-letter name with the given name
 before the family name, such as **Feng Ye**, without adding the Chinese name.
 Ancient Chinese philosophers keep their Chinese names in Chinese prose, such as

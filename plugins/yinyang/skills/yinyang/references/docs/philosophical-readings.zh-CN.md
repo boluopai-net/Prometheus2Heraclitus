@@ -266,7 +266,7 @@ Feng Ye 已经是文集的比较对象，这里将其展开为独立的阅读入
 
 诺布 与 尼科尔斯 的[An Experimental Philosophy Manifesto（2008）](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)介绍实验哲学的经验研究取向；链接是作者提供的校样。[具身的实验哲学](embodied-experimental-philosophy.zh-CN.md)区分这种研究与个人通过制作、参与和反思开展的哲学试验。
 
-Gordana Dodig-Crnkovic 的[Information, Computation, Cognition（2013）](https://arxiv.org/abs/1311.0413)是另一条已在[窃火与创造能力的培养](stealing-fire.zh-CN.md)中出现的自然哲学线索：信息结构、计算动态与多层次行动者。它与上面的具身、延展、分布式认知相邻，但并非同一理论，也不直接确立人的体验是一套数字算法。
+高丹娜 的[Information, Computation, Cognition（2013）](https://arxiv.org/abs/1311.0413)是另一条已在[窃火与创造能力的培养](stealing-fire.zh-CN.md)中出现的自然哲学线索：信息结构、计算动态与多层次行动者。它与上面的具身、延展、分布式认知相邻，但并非同一理论，也不直接确立人的体验是一套数字算法。
 
 研究心理过程、经验检验、信念与互动，接到[心理阅读](psychological-readings.zh-CN.md)。其中的理论与证据帮助理解认识实际怎样发生；哲学继续追问解释、知识根据与心灵的范围。
 
