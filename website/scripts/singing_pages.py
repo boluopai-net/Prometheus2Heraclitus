@@ -20,8 +20,7 @@ def safe_url(value):
 def recordings_html(recordings, english):
     if not recordings:
         title = 'The first recording is still to come.' if english else '第一首录音，待发布。'
-        text = 'You can request a song for boluopai through an Issue.' if english else '可以先通过 Issue 向 boluopai 点歌。'
-        return f'<section class="voice-empty"><div><h2>{title}</h2><p>{text}</p></div></section>'
+        return f'<section class="voice-empty"><div><h2>{title}</h2></div></section>'
     entries = []
     for item in recordings:
         title, performer, rights = (html.escape(item[key]) for key in ('title', 'performer', 'rights'))
@@ -39,18 +38,17 @@ def render():
     for english in (False, True):
         suffix = 'en/' if english else ''
         title = 'Singing station' if english else '唱歌点播台'
-        intro = ('Listen to boluopai’s published recordings, or request a song for boluopai through a GitHub Issue.' if english else
-                 '听 boluopai 已发布的录音，或通过 GitHub Issue 向 boluopai 点一首想听的歌。')
-        contribution = ('Include the song title and, when useful, the original artist or version. This station accepts requests for boluopai only, not recordings or performances submitted by others.' if english else
-                        '写明曲名，需要时注明原唱或想听的版本。这里只接受向 boluopai 点歌，不接收其他人的录音或演唱投稿。')
+        intro = ('A collection of my singing.' if english else '这里收录我的演唱。')
+        contribution = ('Include the song title and preferred artist or version.' if english else
+                        '请注明曲名、原唱或想听的版本。')
         target = ROOT / 'dist/singing' / suffix / 'index.html'
         target.write_text(f'''<!doctype html><html lang="{'en' if english else 'zh-CN'}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} · boluopai</title><link rel="stylesheet" href="/style.css"><link rel="icon" href="/mark.svg"></head>
 <body><header class="header wrap"></header><main id="main" class="wrap collection">
 <div class="collection-heading"><img class="motif collection-motif" src="/motifs/moon.svg" alt="" aria-hidden="true">
-<h1>{title}</h1><p class="collection-intro">{intro}</p><p>{contribution}</p>
-<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/issues/new">{'Request a song for boluopai' if english else '向 boluopai 点歌'}</a></div>
+<h1>{title}</h1><p class="collection-intro">{intro}</p>
+<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/issues/new">{'Request a song for boluopai' if english else '向 boluopai 点歌'}</a><p>{contribution}</p></div>
 {recordings_html(recordings, english)}</main><footer class="footer wrap"><p class="copyright"></p></footer></body></html>''')
 
 
