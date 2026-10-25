@@ -5,9 +5,9 @@
 <h2 id="使用本-skill">使用本 Skill</h2>
 <p>通过助手支持的 Skill 机制提供完整的 <code>model-upgrade-check/</code> 目录；当需要依据当前可用性调整模型选择或更新受影响的消费者时，调用<strong>模型升级检查 · model-upgrade-check</strong>。方法位于 <a href="/repositories/prometheus/source/skills/model-upgrade-check/SKILL.html"><code>SKILL.md</code></a>。它不依赖私人上下文、脚本或特定服务商集成；请使用你所在环境实际提供的接口和权限。</p>
 <h2 id="检查内容">检查内容</h2>
-<p>保留原方法的按需配套关系：修改指令或 Skill 时，下载<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/a546f60a2c267c5b885a1dac99df2691e1ceb814/skills/prompt-and-skill-lifecycle"> prompt-and-skill-lifecycle</a>；持久化主机配置时，配合<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/a546f60a2c267c5b885a1dac99df2691e1ceb814/skills/chezmoi"> chezmoi</a> 和自己配置的发布责任方。原来的 <code>macos-publish</code> 服务没有包含在这里，
+<p>保留原方法的按需配套关系：修改指令或 Skill 时，下载<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/6bf4b0155455f84b44f6660f97e9eaa9c75be7d0/skills/prompt-and-skill-lifecycle"> prompt-and-skill-lifecycle</a>；持久化主机配置时，配合<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/6bf4b0155455f84b44f6660f97e9eaa9c75be7d0/skills/chezmoi"> chezmoi</a> 和自己配置的发布责任方。原来的 <code>macos-publish</code> 服务没有包含在这里，
 chezmoi 包说明了使用者需要提供的发布能力。OpenAI 行为仍不确定时，可由宿主提供的外部
-<code>openai-docs</code> 配合<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/a546f60a2c267c5b885a1dac99df2691e1ceb814/skills/research"> research</a> 调查。只读模型目录不要求先安装整套配置系统。</p>
+<code>openai-docs</code> 配合<a href="https://github.com/boluopai-net/Prometheus2Heraclitus/tree/6bf4b0155455f84b44f6660f97e9eaa9c75be7d0/skills/research"> research</a> 调查。只读模型目录不要求先安装整套配置系统。</p>
 <p>这套方法先确定受影响的用途和消费者，检查权威策略、真实服务商与账户目录，再按能力和任务适配度选择支持的模型与推理档位。它保留明确指定的选择、账户边界和进行中的会话。获得授权并完成变更后，分别核实维护后的策略、运行时配置读回，以及实际消费者能否工作。</p>
 <p>例如，角色指引已经写入新模型，但某个自动化保存的模型字段仍是旧值。读取指引只能核实策略，读取自动化配置才能核实该项设置；一次小规模运行才能验证消费者确实可以使用。三者回答的是不同问题。</p>
 <h2 id="独立性与许可">独立性与许可</h2>

@@ -16,7 +16,7 @@ from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlsplit
 from zoneinfo import ZoneInfo
 
-from commentaries import GROUPS, BRANCHES
+from commentaries import GROUPS, BRANCHES, DIAGRAM_INDEX
 from article_art import SCENES, CAPTIONS
 from pdf_diagrams import DiagramRenderer
 
@@ -33,11 +33,27 @@ APPENDICES = [
           ('philosophical-readings', 'psychological-readings', 'engineering-readings', 'lacan-reading-guide')),
     ('references/docs/skill-package',),
 ]
-DIAGRAMS = {
-    'core-views': [('layers', '六个哲学面向与共同实践', 'Six philosophical dimensions and shared practice')],
-    'stealing-fire': [('borrowed-fire', '窃火与培养', 'Fire and cultivation')],
-    'yinyang-and-taiji': [('encounter', '共同探究', 'Shared inquiry')],
-    'local-source-and-website': [('trinity-sinthome', '三位一体与圣状', 'Trinity and sinthome')],
+FIRE_FIGURE_TRANSITIONS = {
+    'formation-path': (
+        ('有限的生命与追逐的错位', 'Finite life and the wrong pursuit'),
+        ('先把这一培养方向放进完整的实践轨迹：共同工作留下经验，理解与创作进入环境，新的相遇又改变理解。下图给出这条轨迹，后文逐步展开其中的关系。',
+         'Place this developmental aim in a whole trajectory: shared work leaves experience, understanding and creation enter the environment, and new encounters change understanding. The following map introduces the trajectory whose relations the chapter develops.')),
+    'borrowed-fire': (
+        ('近似神谕的关系与能够改进的系统', 'An oracle-like relation and systems that improve'),
+        ('集体汇聚能力与个人借火培养相互联系，却不是同一个过程。下图接着区分火的取得、使用与培养，以及作品怎样成为下一次创造的资源。',
+         'Collectively developing capability and borrowing it for personal cultivation are connected but distinct processes. The next figure separates acquiring, using and cultivating fire, including how works become resources for further creation.')),
+    'trinity-sinthome': (
+        ('在真假命题之前的意义', 'Meaning before a truth claim'),
+        ('当被写出的关系进入实际生活，哲学、心理与工程便共同参与圣状的形成。下图借三位一体的意象，呈现这三种贡献怎样通过伙伴、环境与造物联系起来。',
+         'When a written relation enters actual life, philosophy, psychology and engineering contribute together to forming a sinthome. The next figure uses trinitarian imagery to connect these contributions through a counterpart, environment and created works.')),
+    'encounter': (
+        ('把火带到一个能够回应的世界', 'Bring the fire into a world that answers'),
+        ('伙伴的贡献需要通过实际相遇来考察。下图把共同探究展开为相连的活动，使问题、候选理解、判断与行动如何相互返回变得可见。',
+         'The counterpart’s contribution must be examined through actual encounters. The next figure unfolds shared inquiry into connected activities, making the returns among questions, candidate understandings, judgment and action visible.')),
+    'layers': (
+        ('什么使火成为自己的', "What makes the fire one's own"),
+        ('上述六个哲学面向在同一实践中相连。下图保留它们各自的问题与贡献，说明关于世界的理解怎样进入共同判断、表征与实现，并接受后果的回应。',
+         'These six philosophical dimensions connect within one practice. The next figure retains their distinct questions and contributions, showing how understanding the world enters shared judgment, representation and realization, and meets the response of consequences.')),
 }
 
 
@@ -82,11 +98,13 @@ def walk(node, fn):
 
 def book_paths(english):
     edition = '.md' if english else '.zh-CN.md'
-    sections = [('开始阅读' if not english else 'Begin reading', ['references/docs/core-views'])]
+    sections = []
     for zh, en, essays in GROUPS:
         members = []
         for name, _ in essays:
             members.append('references/docs/' + name)
+            if name == 'stealing-fire':
+                members.append('references/docs/core-views')
             for parent, branches, _ in BRANCHES:
                 if parent == name:
                     members.extend('references/docs/' + branch for branch in branches)
@@ -129,8 +147,10 @@ def intro(english, revision, stamp):
         return f'''# Reading this edition
 
 This book brings together YinYang's public philosophical essays and writing
-guides. Begin with relevant Core views, examine their reasons and conditions,
-then follow the linked sections when you want to go deeper. You need not accept
+guides. It begins with Stealing fire and cultivating creative capacity. That
+chapter introduces five relational diagrams in the website's gallery order;
+Core views follows as a reference for revisiting or selecting questions.
+Follow the linked sections when you want to go deeper. You need not accept
 every view or read every chapter in order.
 
 The five parts follow the website's connected argument. The appendices contain
@@ -155,8 +175,9 @@ for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
 '''
     return f'''# 怎样读这本书
 
-本书汇集阴阳的公开哲学论述与写作指南。可以先从核心观点中挑选与自己问题有关的部分，
-看看理由与适用条件，再沿链接进入相应论证。不必接受全部立场，也不必从头通读。
+本书汇集阴阳的公开哲学论述与写作指南。从《窃火与创造能力的培养》进入，
+由这一章引出按网页图集顺序排列的五张关系图；基本观点随后作为回看与按问题选读的参照。
+需要深入时，再沿链接进入相应论证。不必接受全部立场，也不必从头通读。
 
 五部分正文沿用网站的论述顺序。附录集中收录哲学与模型的连接、六份公开写作指南、
 参考阅读及 Skill 的形式说明。是否写自己的哲学或其他文章，取决于兴趣。
@@ -291,9 +312,6 @@ def build(repo, revision, english, output, work, sample, diagrams):
     for block in book['blocks']:
         if block.get('t') == 'Header':
             block['c'][1][0] = 'reading-introduction'
-    overview = asset(PACKAGE + 'references/diagrams/formation-path' + ('.svg' if english else '.zh-CN.svg'), True)
-    book['blocks'].append(raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (
-        str(overview), 'The whole argument' if english else '全书关系', SITE + '/repositories/prometheus/diagrams/formation-path/' + ('en/' if english else ''))) + ')'))
     for section_title, members in sections:
         if not members:
             continue
@@ -307,13 +325,28 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 image_path = asset(art)
                 caption = CAPTIONS.get(name, SCENES[name])[english]
                 blocks.insert(1, raw_typst('#chapter-art(' + json.dumps(str(image_path)) + ', ' + json.dumps(caption, ensure_ascii=False) + ')'))
-            book['blocks'].extend(blocks)
-            for diagram, zh, en in DIAGRAMS.get(name, []):
+            additions = {}
+            for diagram, zh, en in DIAGRAM_INDEX if name == 'stealing-fire' else []:
+                headings, leads = FIRE_FIGURE_TRANSITIONS[diagram]
+                boundary = next(i for i, block in enumerate(blocks)
+                                if block.get('t') == 'Header' and plain(block['c'][2]) == headings[english])
+                # Keep aliases immediately before their original section, rather
+                # than moving their link destinations in front of a new figure.
+                while boundary and blocks[boundary - 1].get('t') == 'Para' and all(
+                    item.get('t') == 'Space' or (item.get('t') == 'RawInline' and
+                    item['c'][0] == 'typst' and item['c'][1].startswith('#metadata(none)'))
+                    for item in blocks[boundary - 1]['c']):
+                    boundary -= 1
                 source = PACKAGE + 'references/diagrams/' + diagram + ('.svg' if english else '.zh-CN.svg')
                 image_path = asset(source, True)
                 online = SITE + '/repositories/prometheus/diagrams/' + diagram + ('/en/' if english else '/')
                 wide = diagram in {'layers', 'encounter'}
-                book['blocks'].append(raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (str(image_path), en if english else zh, online)) + ', wide: ' + str(wide).lower() + ')'))
+                additions[boundary] = parse(leads[english])['blocks'] + [raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (str(image_path), en if english else zh, online)) + ', wide: ' + str(wide).lower() + ')')]
+            if additions and list(additions) != sorted(additions):
+                raise ValueError('Argument transitions no longer follow the website figure order')
+            for index, block in enumerate(blocks):
+                book['blocks'].extend(additions.get(index, []))
+                book['blocks'].append(block)
     # Readable rights and public source provenance travel with the exported book.
     rights = ('# Edition and rights\n\nOriginal author: boluopai. This reading edition is generated from the public YinYang package. '
               'Original prose is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). '

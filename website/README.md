@@ -539,6 +539,14 @@ The canonical prose remains in the public YinYang package. The PDF builder
 reads an exact committed source revision; the main sequence comes from
 `commentaries.py` and its one branch, followed by public writing guides and
 reading references. Private actual files and personal evidence are excluded.
+The book begins with the stealing-fire essay, which introduces the five
+relational diagrams individually at corresponding argumentative transitions,
+in the shared `DIAGRAM_INDEX` website gallery order. They are not a chapter-end
+gallery: `FIRE_FIGURE_TRANSITIONS` binds each to the preceding argument and a
+short bilingual bridge. Preserve intervening prose and section aliases.
+Core views follows that essay and its diagrams; it is not a prerequisite or an
+independent introduction for the figures. Later essays retain their prose and
+illustrations without reintroducing the five relational diagrams.
 
 On this Mac, regenerate both editions with installed Pandoc, Typst, `sips`,
 and the managed headless `browser-relay` carrier:

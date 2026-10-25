@@ -11,6 +11,13 @@ DOCS = 'skills/yinyang/references/docs/'
 SERIES = '/philosophy/'
 STAGE_SLUGS = ('starting-point', 'understanding', 'encounter', 'formation', 'practice')
 SERIES_NAMES = ('窃火，然后成为火', 'Steal Fire, Then Become Fire')
+DIAGRAM_INDEX = [
+    ('formation-path', '全书关系', 'The whole argument'),
+    ('borrowed-fire', '窃火与培养', 'Fire and cultivation'),
+    ('trinity-sinthome', '三位一体与圣状', 'Trinity and sinthome'),
+    ('encounter', '共同探究', 'Shared inquiry'),
+    ('layers', '理解与实现', 'Understanding and realization'),
+]
 GROUPS = [
     ('起点：参加窃火，然后拿火培养自己', 'Starting point: join in stealing fire, then use it to cultivate yourself', [
         ('stealing-fire', '从共同的窃火出发：有限的人怎样参与其中，再用火培养自己的理解、创造与行动？'),
@@ -320,14 +327,7 @@ def index_body(chinese, title):
         anchor = f'stage-{index + 1}'
         reason = STAGE_REASONS[index][0 if chinese else 1]
         sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_entry(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
-    diagrams = [
-        ('formation-path', '全书关系', 'The whole argument'),
-        ('borrowed-fire', '窃火与培养', 'Fire and cultivation'),
-        ('trinity-sinthome', '三位一体与圣状', 'Trinity and sinthome'),
-        ('encounter', '共同探究', 'Shared inquiry'),
-        ('layers', '理解与实现', 'Understanding and realization'),
-    ]
-    references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in diagrams)
+    references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in DIAGRAM_INDEX)
     review = f'<p class="diagram-references">{references}</p>'
     return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{practice_entrance(chinese)}{use_notice}{"".join(sections)}{review}</article></main>'
 

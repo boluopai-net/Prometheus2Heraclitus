@@ -67,7 +67,7 @@
   pagebreak(weak: true)
   set page(width: if wide { 250mm } else { 176mm }, height: if wide { 176mm } else { 250mm },
     margin: if wide { (top: 16mm, bottom: 16mm, left: 16mm, right: 16mm) } else { (top: 19mm, bottom: 20mm, left: 19mm, right: 19mm) })
-  block(above: 3mm, below: 5mm, text(size: 17pt, weight: "bold", fill: teal, title))
+  heading(level: 3, title)
   align(center, image(path, width: 100%, height: if wide { 112mm } else { 178mm }, fit: "contain"))
   v(3mm)
   text(size: 9pt, link(url, if language == "zh" { [在线图示与交互版本 ↗] } else { [Online diagram and interactive version ↗] }))
