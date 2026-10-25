@@ -16,7 +16,8 @@ from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlsplit
 from zoneinfo import ZoneInfo
 
-from commentaries import GROUPS, BRANCHES, DIAGRAM_INDEX
+from commentaries import GROUPS, BRANCHES
+from reading_maps import diagram_placements, TITLES
 from article_art import SCENES, CAPTIONS
 from pdf_diagrams import DiagramRenderer
 
@@ -33,28 +34,6 @@ APPENDICES = [
           ('philosophical-readings', 'psychological-readings', 'engineering-readings', 'lacan-reading-guide')),
     ('references/docs/skill-package',),
 ]
-FIRE_FIGURE_TRANSITIONS = {
-    'formation-path': (
-        ('有限的生命与追逐的错位', 'Finite life and the wrong pursuit'),
-        ('先把这一培养方向放进完整的实践轨迹：共同工作留下经验，理解与创作进入环境，新的相遇又改变理解。下图给出这条轨迹，后文逐步展开其中的关系。',
-         'Place this developmental aim in a whole trajectory: shared work leaves experience, understanding and creation enter the environment, and new encounters change understanding. The following map introduces the trajectory whose relations the chapter develops.')),
-    'borrowed-fire': (
-        ('近似神谕的关系与能够改进的系统', 'An oracle-like relation and systems that improve'),
-        ('集体汇聚能力与个人借火培养相互联系，却不是同一个过程。下图接着区分火的取得、使用与培养，以及作品怎样成为下一次创造的资源。',
-         'Collectively developing capability and borrowing it for personal cultivation are connected but distinct processes. The next figure separates acquiring, using and cultivating fire, including how works become resources for further creation.')),
-    'trinity-sinthome': (
-        ('在真假命题之前的意义', 'Meaning before a truth claim'),
-        ('当被写出的关系进入实际生活，哲学、心理与工程便共同参与圣状的形成。下图借三位一体的意象，呈现这三种贡献怎样通过伙伴、环境与造物联系起来。',
-         'When a written relation enters actual life, philosophy, psychology and engineering contribute together to forming a sinthome. The next figure uses trinitarian imagery to connect these contributions through a counterpart, environment and created works.')),
-    'encounter': (
-        ('把火带到一个能够回应的世界', 'Bring the fire into a world that answers'),
-        ('伙伴的贡献需要通过实际相遇来考察。下图把共同探究展开为相连的活动，使问题、候选理解、判断与行动如何相互返回变得可见。',
-         'The counterpart’s contribution must be examined through actual encounters. The next figure unfolds shared inquiry into connected activities, making the returns among questions, candidate understandings, judgment and action visible.')),
-    'layers': (
-        ('什么使火成为自己的', "What makes the fire one's own"),
-        ('上述六个哲学面向在同一实践中相连。下图保留它们各自的问题与贡献，说明关于世界的理解怎样进入共同判断、表征与实现，并接受后果的回应。',
-         'These six philosophical dimensions connect within one practice. The next figure retains their distinct questions and contributions, showing how understanding the world enters shared judgment, representation and realization, and meets the response of consequences.')),
-}
 
 
 def run(command, **kwargs):
@@ -103,12 +82,11 @@ def book_paths(english):
         members = []
         for name, _ in essays:
             members.append('references/docs/' + name)
-            if name == 'stealing-fire':
-                members.append('references/docs/core-views')
             for parent, branches, _ in BRANCHES:
                 if parent == name:
                     members.extend('references/docs/' + branch for branch in branches)
         sections.append((en if english else zh, members))
+    sections.append(('回看与选读' if not english else 'Review and selective reading', ['references/docs/core-views']))
     appendix_titles = [('附录一 · 哲学与模型', 'Appendix I · Philosophy and models'),
                        ('附录二 · 六份写作指南', 'Appendix II · Six writing guides'),
                        ('附录三 · 参考阅读', 'Appendix III · Further reading'),
@@ -147,9 +125,10 @@ def intro(english, revision, stamp):
         return f'''# Reading this edition
 
 This book brings together YinYang's public philosophical essays and writing
-guides. It begins with Stealing fire and cultivating creative capacity. That
-chapter introduces five relational diagrams in the website's gallery order;
-Core views follows as a reference for revisiting or selecting questions.
+guides. The five-part Steal Fire, Then Become Fire sequence contains nineteen
+main essays and its existing focused extension. The five relational diagrams
+appear in the same articles and passages as on the website. Core views follows
+the complete sequence as a reference for revisiting or selecting questions.
 Follow the linked sections when you want to go deeper. You need not accept
 every view or read every chapter in order.
 
@@ -175,8 +154,9 @@ for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
 '''
     return f'''# 怎样读这本书
 
-本书汇集阴阳的公开哲学论述与写作指南。从《窃火与创造能力的培养》进入，
-由这一章引出按网页图集顺序排列的五张关系图；基本观点随后作为回看与按问题选读的参照。
+本书汇集阴阳的公开哲学论述与写作指南。「窃火，然后成为火」的五部分包含十九篇主线文章
+及既有的专题延伸。五张关系图随正文推进，在与网页相同的文章和段落中出现；
+基本观点放在整部论述之后，作为回看与按问题选读的参照。
 需要深入时，再沿链接进入相应论证。不必接受全部立场，也不必从头通读。
 
 五部分正文沿用网站的论述顺序。附录集中收录哲学与模型的连接、六份公开写作指南、
@@ -326,10 +306,15 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 caption = CAPTIONS.get(name, SCENES[name])[english]
                 blocks.insert(1, raw_typst('#chapter-art(' + json.dumps(str(image_path)) + ', ' + json.dumps(caption, ensure_ascii=False) + ')'))
             additions = {}
-            for diagram, zh, en in DIAGRAM_INDEX if name == 'stealing-fire' else []:
-                headings, leads = FIRE_FIGURE_TRANSITIONS[diagram]
-                boundary = next(i for i, block in enumerate(blocks)
-                                if block.get('t') == 'Header' and plain(block['c'][2]) == headings[english])
+            for diagram, heading in diagram_placements(not english).get(name, []):
+                if heading is None:
+                    boundary = next(i for i, block in enumerate(blocks)
+                                    if block.get('t') == 'Header' and block['c'][0] == 3)
+                else:
+                    section_start = next(i for i, block in enumerate(blocks)
+                                         if block.get('t') == 'Header' and plain(block['c'][2]) == heading)
+                    boundary = next(i for i in range(section_start + 1, len(blocks))
+                                    if blocks[i].get('t') == 'Para') + 1
                 # Keep aliases immediately before their original section, rather
                 # than moving their link destinations in front of a new figure.
                 while boundary and blocks[boundary - 1].get('t') == 'Para' and all(
@@ -341,9 +326,9 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 image_path = asset(source, True)
                 online = SITE + '/repositories/prometheus/diagrams/' + diagram + ('/en/' if english else '/')
                 wide = diagram in {'layers', 'encounter'}
-                additions[boundary] = parse(leads[english])['blocks'] + [raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (str(image_path), en if english else zh, online)) + ', wide: ' + str(wide).lower() + ')')]
+                additions[boundary] = [raw_typst('#diagram-page(' + ', '.join(json.dumps(s, ensure_ascii=False) for s in (str(image_path), TITLES[diagram][english], online)) + ', wide: ' + str(wide).lower() + ')')]
             if additions and list(additions) != sorted(additions):
-                raise ValueError('Argument transitions no longer follow the website figure order')
+                raise ValueError('PDF figure positions no longer follow the website article order')
             for index, block in enumerate(blocks):
                 book['blocks'].extend(additions.get(index, []))
                 book['blocks'].append(block)

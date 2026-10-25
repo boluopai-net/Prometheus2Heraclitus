@@ -31,11 +31,9 @@ def reading_map(name, chinese):
     return f'''<section class="reading-map-embed"><iframe class="reading-map-frame" data-reading-map title="{html.escape(title, quote=True)}" src="{src}?embed=1" style="width:100%;height:760px;border:0" loading="lazy"></iframe><script defer src="/reading-map-embed.js"></script></section>'''
 
 
-def inline_diagrams(rendered, path):
-    """Place canonical diagrams where their argument is first developed."""
-    chinese = '.zh-CN.md' in path
-    name = path.rsplit('/', 1)[-1].replace('.zh-CN', '').removesuffix('.md')
-    placements = {
+def diagram_placements(chinese):
+    """Shared article/paragraph placement for website and PDF reading editions."""
+    return {
         'stealing-fire': [('borrowed-fire', None)],
         'personal-first-humanism': [('layers', '六个相连的面向' if chinese else 'Six connected dimensions')],
         'why-yinyang': [
@@ -46,7 +44,13 @@ def inline_diagrams(rendered, path):
             ('trinity-sinthome', '三位一体与圣状' if chinese else 'Trinity and sinthome'),
         ],
     }
-    for diagram, heading in placements.get(name, []):
+
+
+def inline_diagrams(rendered, path):
+    """Place canonical diagrams where their argument is first developed."""
+    chinese = '.zh-CN.md' in path
+    name = path.rsplit('/', 1)[-1].replace('.zh-CN', '').removesuffix('.md')
+    for diagram, heading in diagram_placements(chinese).get(name, []):
         title = TITLES[diagram][0 if chinese else 1]
         if diagram not in {'encounter', 'layers'}:
             content = reading_map(diagram, chinese)
