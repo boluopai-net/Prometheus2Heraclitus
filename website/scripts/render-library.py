@@ -277,13 +277,22 @@ def main():
             continue
         contents = reading_rail(md.toc, chinese, rendered)
         layout = '' if contents else ' no-toc'
-        body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{BASE}{'' if chinese else 'en/'}">{"文档与图示" if chinese else "Library"}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
+        core_views = path in {DOCS + 'core-views.md', DOCS + 'core-views.zh-CN.md'}
+        back = '/philosophy/' if core_views else BASE
+        back += '' if chinese else 'en/'
+        back_label = ('哲学阅读总览' if chinese else 'Philosophy reading overview') if core_views else ('文档与图示' if chinese else 'Library')
+        body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{back}">{back_label}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
         page_title = title(path)
         page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">')
         if path in {DOCS + 'creation-method.md', DOCS + 'creation-method.zh-CN.md'}:
             destination = url(path.replace('creation-method', 'skill-package'))
             page = page.replace('</head>', '<script>if(location.hash==="#package-contract")location.replace(' + repr(destination) + ');</script></head>', 1)
         write('source/' + str(Path(path).with_suffix('.html')), page)
+        if core_views:
+            # Repair the previously published entrance without duplicating prose.
+            alias = dist / 'philosophy/core-views' / ('' if chinese else 'en') / 'index.html'
+            alias.parent.mkdir(parents=True, exist_ok=True)
+            alias.write_text(redirect_page(url(path)))
 
     # Retain retired reading URLs as small aliases, even after source deletion.
     for name in RETIRED:

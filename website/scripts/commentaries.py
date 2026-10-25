@@ -286,7 +286,7 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
 
 def practice_entrance(chinese):
     suffix = '' if chinese else 'en/'
-    views = '/philosophy/core-views/' + suffix
+    views = '/repositories/prometheus/source/' + DOCS + ('core-views.zh-CN.html' if chinese else 'core-views.html')
     guide = '/getting-started/' + suffix
     writing = '/philosophy/literary-programming/' + suffix
     if chinese:
