@@ -32,9 +32,9 @@ GUIDES = (
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
-     ('domain-methods', 'resources', 'learning'),
-     'graduation-cap.svg', '了解实际采用的科研与学习仓库，以及本地老师和云端老师的用途。',
-     'Explore the research and learning repositories used in this practice and what Local Teacher and Web Teacher can offer.'),
+     ('understanding-and-evaluation', 'domain-methods', 'resources', 'learning'),
+     'graduation-cap.svg', '广泛阅读，在关键局部练习与复验，再把模型、资源和老师用于学习与研究。',
+     'Read widely, practice and revisit consequential details, and use models, resources, and teachers for learning and research.'),
 )
 
 
