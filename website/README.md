@@ -532,8 +532,8 @@ The public collection and GitHub source repository are publicly accessible at th
 
 ### YinYang PDF reading editions
 
-The Site also publishes two reading editions at `/downloads/yinyang.zh-CN.pdf`
-and `/downloads/yinyang.en.pdf`, linked from the philosophy entrance. These are
+The Site also publishes two reading editions at `/reading/yinyang.zh-CN.pdf`
+and `/reading/yinyang.en.pdf`, linked from the philosophy entrance. These are
 reading projections, not Skill packages or replacements for the public source.
 The canonical prose remains in the public YinYang package. The PDF builder
 reads an exact committed source revision; the main sequence comes from
@@ -548,7 +548,7 @@ python3 scripts/build-reading-pdf.py --repo /path/to/Prometheus2Heraclitus --rev
 ```
 
 `--sample --language zh-CN --out /tmp/PDF-SAMPLE` makes a disposable short
-sample. Default output is tracked `dist/downloads/`; do not publish sample
+sample. Default output is tracked `dist/reading/`; do not publish sample
 output. The builder retains specific section/alias targets, namespaces internal
 links, produces PDF bookmarks, and unwraps content disclosures. It uses the
 public SVG exports as source, resolves browser-only CSS/fonts in a task-owned
@@ -565,6 +565,10 @@ release's 16 MiB object ceiling, enforced by the builder. Commit regenerated
 PDFs with their source changes, publish through the ordinary content release,
 and read back the actual downloaded files. No separate release/tag or scheduler
 is introduced by this reading feature.
+
+The `/downloads/` prefix belongs to the retired package-access service and is
+redirected before static content lookup. Reading editions use `/reading/`;
+validate their actual hosted responses, not only manifest membership.
 
 The website retains its search-exclusion preference while the GitHub source is public. Every
 HTML page, including homepages, redirects, essays, repository readers, and

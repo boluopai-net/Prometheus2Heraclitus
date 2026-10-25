@@ -354,7 +354,7 @@ def main():
     parser.add_argument('--repo', type=Path, required=True)
     parser.add_argument('--revision', help='Exact public Git revision; defaults to source HEAD')
     parser.add_argument('--language', choices=['zh-CN', 'en', 'both'], default='both')
-    parser.add_argument('--out', type=Path, default=ROOT / 'dist/downloads')
+    parser.add_argument('--out', type=Path, default=ROOT / 'dist/reading')
     parser.add_argument('--work', type=Path, help='Temporary build directory; never a public output')
     parser.add_argument('--sample', action='store_true')
     args = parser.parse_args()
