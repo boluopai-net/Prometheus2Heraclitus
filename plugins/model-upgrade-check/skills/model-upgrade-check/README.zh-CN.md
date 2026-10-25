@@ -39,4 +39,4 @@ chezmoi 包说明了使用者需要提供的发布能力。OpenAI 行为仍不�
 
 本独立软件包采用 [MIT 许可](LICENSE)。你可以从 [GitHub](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/model-upgrade-check)
 获取完整目录，并在保留 MIT 要求声明的前提下使用、修改和再分发，包括商业用途。
-[公开集合仓库](https://github.com/boluopai-net/Prometheus2Heraclitus)提供下载与 Issues/PR 协作。
+[公开集合仓库](https://github.com/boluopai-net/Prometheus2Heraclitus)提供下载与 Issue 交流，本集合不接受 PR。

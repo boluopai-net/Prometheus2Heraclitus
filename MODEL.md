@@ -71,7 +71,10 @@ The collection is published as a clean public GitHub repository. Anyone may
 view, clone, and download it without an application, invitation, download code,
 or continuing-access grant. Historical private source must stay in its private
 archive; never publish excluded manuscripts or private records through history.
-GitHub supplies native source archives, forks, Issues, and pull requests. The
+GitHub supplies source archives and independent forks. This collection accepts
+conversation through Issues and does not accept pull requests of any kind;
+the author owns revisions and publication. Song requests are for boluopai only,
+not recording submissions. CONTRIBUTING.md owns the reader-facing guidance. The
 website presents reading editions and package introductions; all source and
 downloads go to GitHub package directories or its native repository ZIP.
 Codex recipients normally install selected plugins from the boluopai GitHub

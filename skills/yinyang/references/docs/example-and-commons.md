@@ -10,6 +10,12 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 
 ## A form that can be rewritten
 
+You can first select relevant [Core views](core-views.md) and use them to organize
+experiences, revise personal material, or configure an environment. Writing an
+original philosophy or article is a choice of interest, rather than the required
+destination of that use. The [use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
+distinguishes this work from psychological self-help.
+
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private reflection and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
 In this implementation, the six actual files hold personal working models
@@ -90,40 +96,20 @@ traceable. Creative authorship can find another organization. Personal source ma
 
 ## Independent works in conversation
 
-This is a personal collection of works and tools maintained by its author.
-Related conversation can range widely: share a self-authored Skill, recommend
-a philosopher or work, introduce a tool or discuss its uses and effects, or
-offer philosophical arguments, criticism, and questions through an
-[Issue](https://github.com/boluopai-net/Prometheus2Heraclitus/issues).
-Include relevant links and explain how the material connects with a question
-raised here; that is enough to begin a conversation.
+This is a personal collection maintained by its author. Readers can write their
+own philosophy or other kinds of articles in their own publishing space, then
+mention or link this repository and the particular work they are answering.
+A reading response, criticism, technical account, or differently organized work
+can enter this conversation without being incorporated into the author's collection.
 
-If you write your own philosophy, consider giving it its own GitHub repository,
-where you determine its direction, content, organization, and maintenance.
-Share it in an Issue if you wish; authors can mention, cite, or link one another
-in relevant discussions. This collection does not establish a shared submission
-repository for everyone's philosophy, and submitting your philosophy as a PR
-for inclusion in the author's essays is discouraged. Corrections, objections,
-and suggestions about the existing arguments are welcome through Issues;
-the author uses that conversation to judge and revise the work.
-
-Self-authored reusable Skills can be submitted directly as PRs, as can
-improvements to existing Skills and tools. Explain their purpose, use, and
-the problem they actually solve. PRs can also improve the public formation
-guides, organization, and methods of maintaining the six working files: another
-person's experience may reveal a better approach. These changes concern
-shareable methods; each person's six private actual files and supporting sources
-stay with their own private owner. See
-[Contributing](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING.md)
-for preparation details.
-
-Other languages and working environments are also open to contribution. A PR
-can provide a translation, an adaptation for Claude Code or another agent
-harness, CLI, or application, or an additional improvement with a concrete
-benefit. The author need not personally maintain every platform for others to
-extend the work. Explain what the contribution makes possible, where it has
-actually been tried, and what remains unverified, so others can judge and
-continue it.
+Use an [Issue](https://github.com/boluopai-net/Prometheus2Heraclitus/issues)
+to ask a question, discuss a correction or suggestion, share a relevant work,
+or request a song from boluopai. The [singing station](https://boluopai.net/singing/en/)
+is for requests to the author, not submissions of other people's recordings.
+This repository does not accept any PRs, including Skills, code, translations,
+documents, and recordings. The author maintains its changes and publication.
+The [conversation guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/CONTRIBUTING.md)
+explains these entrances.
 
 “Knowledge communism” names the aspiration to shared creative capacity here:
 make intellectual means available and support others in making their own
@@ -134,8 +120,7 @@ citations, links, and reusable methods without merging them into one philosophy.
 Public discussion and attribution make these connections traceable.
 
 This commons has concrete terms of reuse. The public GitHub repository can be read,
-cloned, and downloaded without an application or approval, and supports forks,
-Issues, and pull requests. YinYang's original material uses CC BY-NC-SA 4.0, permitting reproduction,
+cloned, and downloaded without an application or approval, and permits independent forks under the applicable license. Conversation here uses Issues. YinYang's original material uses CC BY-NC-SA 4.0, permitting reproduction,
 adaptation, and distribution for noncommercial purposes only. When sharing, retain the required
 attribution and notices, link the license, and identify modifications; shared
 adaptations follow its ShareAlike conditions. Private adaptations need not be

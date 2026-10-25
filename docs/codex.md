@@ -37,8 +37,9 @@ install both a standalone copy and the same plugin unintentionally.
 ## YinYang: install first, personalize in your own private source
 
 The installed plugin contains public formation guidance, not the author's
-private portrait. Ask it to help form your own philosophy and situated model
-from the goals and material you choose to share.
+private portrait. Ask it to form situated working accounts from the goals,
+selected views, and material you choose to share. A separate philosophical
+writing project is optional.
 
 Plugin cache files are replaceable. Keep your personal version in your own
 private Skill source, outside the plugin cache and marketplace checkout.

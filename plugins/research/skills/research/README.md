@@ -59,4 +59,4 @@ only when your actual downstream consumer requires one.
 
 This independent package uses the [MIT License](LICENSE). You may obtain the complete directory from [GitHub](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/research) and use, modify,
 and redistribute it, including commercially, with the required MIT notices.
-It does not include YinYang. The [public collection](https://github.com/boluopai-net/Prometheus2Heraclitus) supports downloads and Issues/PR collaboration.
+It does not include YinYang. The [public collection](https://github.com/boluopai-net/Prometheus2Heraclitus) provides downloads and Issue discussion; this collection does not accept pull requests.

@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Philosophy and models](../design-and-revision.md) · [Using YinYang](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
 
-Forming your own YinYang connects a philosophy you can express, an understanding
+Forming your own YinYang connects the views you adopt, an understanding
 of the actual participants, and an environment through which they can work.
 The point is a practice that enters life: what you can understand, create,
 judge, and do with a capable model counterpart. The author's
@@ -12,11 +12,11 @@ rewrite existing thought into a direction you choose.
 
 ## Philosophy and models develop together
 
-Full formation includes writing your own philosophy. It can begin with a
-question, image, way of working, or something understood through life.
-Literature, humanities, engineering philosophy, Western philosophy, philosophy
-of science, logic, and aesthetics can each contribute. No academic curriculum
-or completed theory is required before useful work begins.
+Begin by selecting views that help with an actual question, experience, or way
+of working, and state what you adopt in the working accounts. If philosophical
+writing interests you, literature, humanities, engineering, logic, and aesthetics
+can supply material for a fuller work. Maintaining YinYang's six actual files
+does not require that separate writing project.
 
 Philosophy articulates concepts, reasons, values, and possibilities. Personal
 material grounds their application to an actual person, counterpart, and
@@ -28,9 +28,9 @@ connections and leads to the six writing files.
 Starting conditions and order vary. You may already have philosophical
 expression, a history of personal inquiry, or a working environment. Develop
 the missing connections from there. A tool or a work can disclose a relation
-that later acquires philosophical expression. Forming one's own philosophy
-remains part of fully forming one's own YinYang; borrowing an idea for another
-task need not undertake that whole practice.
+that later acquires philosophical expression. Selected views, revisable personal
+material, and practical arrangements can develop together whether or not you
+choose to turn that understanding into essays.
 
 <a id="six-files-give-the-practice-a-usable-form"></a>
 

@@ -8,11 +8,13 @@ or form a grounded YinYang collaboration in your own environment.**
 
 ## What this package supplies
 
-YinYang helps a person develop their own philosophy and distill personal working models of person–model cooperation
-through writing and practice, so the actual personal environment fits the person psychologically and practically. A model can contribute exploration, authorship,
-implementation, and correction; the person need not begin with a completed
-philosophy or self-portrait. Common ideas, private understanding, and actual
-work can develop together.
+YinYang offers views and methods for organizing experiences, revising personal
+psychological material, and configuring an environment for model cooperation.
+Select useful ideas, consider their grounds, and develop practical arrangements
+with the model. Writing a personal philosophy or public essay is available when
+it interests you; it is not a condition of using the package.
+The [use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
+distinguishes this work from psychological self-help, assessment, and treatment.
 
 The author's chosen purpose is **reverse alignment**: the person develops understanding,
 generation, and action through encounters with generative intelligence. The
@@ -112,11 +114,12 @@ The essays answer connected questions rather than forming a compulsory course:
 | What does the central image express? | [Mutual becoming through YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
 | Where do particular arguments and originals belong? | [Read by the work being done](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |
 
-A useful first conceptual reading is **Stealing fire → Core views → Practice
-explanation**. Actual formation starts with the entrypoint and current material;
-reading a syllabus first is unnecessary. Selected philosophy can be published
-on one's own website while direct personal accounts and private sources remain
-with their private owner.
+Readers outside literature, history, or philosophy can begin by selecting relevant
+[Core views](references/docs/core-views.md), then follow their linked arguments
+when needed. For a connected account of the author's purpose, read **Stealing fire
+→ Core views → Practice explanation**. Neither route requires an original writing
+project. Personal accounts and sources stay private; publishing an essay or website
+is a further choice of interest.
 
 ## Philosophical ground
 
@@ -160,11 +163,9 @@ complete Chinese counterparts. Maintain common material at this shared source
 and situated accounts at their actual private owner.
 
 Use [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues) for
-related sharing and philosophical discussion. Self-authored reusable Skills,
-tool improvements, translations, adaptations for other harnesses or apps, and
-better public guides or methods for the six working files
-can be submitted as [pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls).
-Develop your own philosophy in your own repository and share its link. The
+questions, corrections, suggestions, or song requests to boluopai. Publish your
+own philosophy or other articles in your own space and mention or link this
+repository where relevant. This collection does not accept pull requests. The
 [invitation to create](references/docs/example-and-commons.md#independent-works-in-conversation)
 explains these routes. Personal records, formalized portraits, private
 quotations, and unpublished manuscripts remain outside public distribution.

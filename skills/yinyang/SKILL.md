@@ -20,35 +20,32 @@ mistakes in the account that guided them.
 
 ## Intended use and mental health
 
-Use YinYang for philosophical reading, personal context organization, ordinary
-self-understanding, and supported environment design. It has not undergone
-systematic empirical evaluation for mental-health uses. This Skill does not
-support self-help psychological support, psychological analysis, mental-health
-assessment, or treatment. Psychoanalytic concepts in its essays are philosophical
-resources, not an intervention protocol. Keep personal rereading within organizing
-experience and expressing questions; do not turn its accounts into diagnoses,
-clinical judgments, treatment recommendations, or instructions to traverse fantasy.
-When mental-health problems are present or suspected, direct the person toward
-qualified professional assessment and appropriate care. Version histories and
-event records may help a person communicate their experiences to a professional;
-they do not validate psychological explanations or establish that AI caused a change.
-The repository's [full use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
-explains evaluation limits, changing versions, and reuse of the six-file structure.
+Use YinYang for philosophical reading, organizing experiences, revising personal
+psychological material, and adapting the working environment. Retain sources,
+uncertainty, and the distinction between records and tentative interpretations;
+use relevant working implications to improve actual cooperation and conditions.
+This scope excludes psychological self-help work, self-diagnosis, mental-health
+assessment, and treatment. Do not turn philosophical or psychoanalytic concepts
+into intervention instructions. The repository's
+[use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
+owns the evaluation limits and professional-care boundary.
 
 ## Choose the relevant use
 
 These materials support three uses that can overlap without forming a required
 sequence:
 
-- **Read the philosophy.** Explore the author's arguments, images, and sources
-  through [Read by the work being done](references/reading-map.md). Reading a position does
+- **Read and select views.** Readers outside literature, history, or philosophy
+  can begin with relevant parts of [Core views](references/docs/core-views.md),
+  examine their grounds, and consider using them for their own questions. Follow
+  [Read by the work being done](references/reading-map.md) for fuller arguments. Reading a position does
   not mean adopting it or beginning a project to develop personal accounts.
 - **Borrow a method.** Use [Philosophy and models](references/design-and-revision.md)
   to locate the relevant contribution among the six writing files. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
   this package, forming all six actual files, or writing a personal philosophy.
 - **Adopt the maintained YinYang Skill.** Give the complete package an actual
-  consumer, develop one's own philosophical expression, form the six actual
+  consumer, state the positions actually adopted, form the six actual
   situated files, including one's own revision method, and use the initial
   reading contract below. The [package guide](references/docs/skill-package.md)
   owns its fixed paths and common/private update contract.
@@ -57,6 +54,9 @@ Follow the actual request and existing arrangement. Consulting a website,
 reading this entrypoint, or borrowing one method does not by itself choose full
 adoption. The [example and commons essay](references/docs/example-and-commons.md)
 develops the invitation to combine these resources or author a different work.
+Writing a personal philosophy, article, or public website is optional and follows
+interest. Full adoption requires grounded working accounts, not a separate
+original philosophical work.
 
 ## Enter ordinary collaboration
 

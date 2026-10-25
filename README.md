@@ -7,34 +7,39 @@
 <!-- repository-only:start -->
 ## Intended use and mental health
 
-YinYang is an evolving practice of personal philosophy, psychological understanding, and engineering. This project does not support using the YinYang Skill for self-help psychological support, psychological analysis, mental-health assessment, or treatment. It has not undergone systematic empirical evaluation for these uses; their effects and risks have not been established. The repository and website may change substantially with the author's understanding, circumstances, and practice, while model capabilities and the living environments they enter also change. Results from one version or personal experience cannot be directly generalized to other versions, people, or circumstances.
+YinYang supports philosophical reading, organizing experiences, revising personal psychological material, and configuring an environment for cooperation with models. Personal material can include records, questions, and tentative interpretations, kept with their sources and uncertainties and revised through later experience. These working accounts can inform practical arrangements; they are not clinical assessments.
 
-If you have or suspect a mental-health problem, seek professional assessment through a qualified healthcare provider, with examinations, medication, psychological counseling, or psychotherapy as appropriate. This project's text and model outputs are not a basis for self-diagnosis, selecting treatment, or changing medication.
+YinYang must not be used for psychological self-help work, self-diagnosis, mental-health assessment, or treatment. It has not been systematically evaluated for those purposes. When professional assessment or care is needed, seek a qualified professional; the project's texts and model outputs do not replace that service. The work, models, and circumstances change, so a personal experience or version history does not establish a general psychological effect.
 
-Readers primarily interested in tools and personal environment configuration are encouraged to reuse the six-file structure and writing guides, develop their own content, and select only the Skills, methods, and tools they need. Revision histories of personal and relationship models, together with records of AI-assisted environmental changes, can provide material for recalling experience and discussing changes with professionals. Neither those records nor their interpretations constitute validated psychological measures or clinical conclusions. Independent personal use should remain within organizing experiences, expressing questions, and developing self-understanding, rather than independently conducting psychological analysis, assessment, or treatment.
-
-Anyone independently using this project for the unsupported mental-health purposes above assumes the associated risks; the project provides neither those professional services nor guarantees of their effects.
 <!-- repository-only:end -->
 
 <!-- repository-only:start -->
 **[Install in Codex](docs/codex.md)**
 <!-- repository-only:end -->
 
-**Begin from this example, write your own philosophy, distill your private models,
-and make the thought you choose to share into your own works and website.**
-Philosophical writing helps explore an initially unclear self-understanding.
-Clear, grounded relations are distilled into six personal working models for actual model
+## Choose what to read and use
+
+**If literature, history, or philosophy is not your field, begin with selected
+[Core views](skills/yinyang/references/docs/core-views.md) that speak to your questions.**
+Consider their reasons and conditions, then try the useful parts in organizing
+experiences, revising personal material, or configuring your environment.
+Follow an essay when you want its fuller argument; reading the whole collection
+or adopting all its positions is unnecessary.
+
+Writing your own philosophy, essays, or public website is a choice of interest.
+You can use the ideas and maintain your environment without taking on a writing
+project. If writing appeals to you, [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
+opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
+
+For a fully adopted YinYang Skill, grounded relations are distilled into six personal working models for actual model
 collaboration: **orientation, person, counterpart, relationship, environment, and revision**.
 They state adopted philosophy and direction, understand the participants and
 their joint activity, and explain realization and continued revision. Their purpose is to make the actual personal environment fit the person psychologically and practically. Psychological and life evidence, together with maintained interpretations, principally belong in private `references/personal/`, with originals retained at their existing owners. Public work can express philosophy and selected understanding
-while the person retains their fuller personal understanding privately. The collection
-offers this practice of creation and condensation, beyond replacing a ready-made configuration.
+while the person retains their fuller personal understanding privately. These
+accounts state the positions and arrangements actually adopted; they do not
+require an original philosophical essay.
 
-**This collection centers condensing philosophy and personal material into
-usable working models of person–model cooperation.** YinYang begins with a
-particular person, combining event histories, philosophy, life and preference
-material, and psychological understanding of oneself and others into
-natural-language accounts for collaboration. The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
+The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
 counterpart needed, and their relationship. Joint work enters the world, and
 actual consequences revise understanding. Memory retains material and its
@@ -49,27 +54,17 @@ currently adopted understanding, and its consequences. Specialist methods and
 tools give the understanding usable forms; another person may develop an
 entirely different philosophy and environment.
 
-These are usable examples, including the Skills themselves. Take, combine, or
-reauthor what helps you make your own work; a new philosophy may look quite
-unlike YinYang. The shared ambition is creative capacity, not agreement with
-one doctrine. [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
-develops this invitation and distinguishes literary form from technical format.
 The [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) page
 presents the maintained documents and diagrams alongside their source links.
 
 <!-- repository-only:start -->
 ## How concepts and imagery are used
 
-This project develops a personal philosophy and an engineering practice. It
-draws on concepts and imagery from Buddhism, Christianity, and other traditions
-to understand human experience, model collaboration, and creative activity.
-These uses are selected, interpreted, and reorganized within this work, and
-differ from their uses in religious studies, religious doctrine, and faith
-practice. References to original texts identify their sources; contemporary
-extensions rest on this work's own arguments and practice. The project develops
-through open source materials, versioned revision, issue discussion, and
-practical testing. Discussion of particular interpretations, arguments, and
-effects in use is welcome.
+The essays interpret concepts and imagery from Buddhism, Christianity, and other
+traditions in discussing experience, collaboration, and creation. Original
+sources and this work's extensions are identified where used. These philosophical
+and literary interpretations can be examined through their arguments, sources,
+and effects in use.
 <!-- repository-only:end -->
 
 ## Philosophy, psychology, and engineering: develop the missing connection
@@ -143,8 +138,8 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting the maintained YinYang includes developing one's own philosophical
-expression and maintaining **six personal working models under
+Adopting the maintained YinYang means stating the positions actually adopted
+and maintaining **six personal working models under
 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`**.
 Psychological and life evidence and maintained interpretations principally belong under `references/personal/`, with originals at their existing private owners. These supply the relevant working implications condensed into the six files.
 Permanent public writing guides live separately in `references/formation/`;
@@ -170,8 +165,9 @@ Keep personalized YinYang material in a private source outside replaceable cache
 
 ## Maintenance and contributions
 
-Read [Contributing](CONTRIBUTING.md) for choosing an Issue or PR, preparing a
-change, and understanding review and publication.
+Read [Conversation and independent works](CONTRIBUTING.md) for publishing your
+own work, asking through Issues, or requesting a song from boluopai. This
+repository does not accept pull requests.
 
 <!-- repository-only:start -->
 The [complete website source](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/website) is kept in this same collection,
@@ -191,9 +187,8 @@ history; no separate Release, tag, or stable-version workflow is required.
 interpretation and maintenance instructions in its directory. English is primary;
 reader editions retain full semantic parity where provided.
 
-Use [issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues)
-and [pull requests](https://github.com/boluopai-net/Prometheus2Heraclitus/pulls)
-for questions and revisions.
+Use [Issues](https://github.com/boluopai-net/Prometheus2Heraclitus/issues)
+for questions, corrections, suggestions, and song requests to the author.
 Keep personal accounts and private source material with their actual owner.
 Only authorized reusable material belongs in this collection.
 

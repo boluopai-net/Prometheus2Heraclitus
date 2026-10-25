@@ -17,7 +17,9 @@ A philosopher's thought may inform a framework; it cannot replace the account
 of the actual user. This guide's six-file and common-update contract applies
 to full adoption of the maintained Skill. Reading its philosophy or borrowing
 a selected method does not by itself adopt that contract or require a personal
-philosophy project.
+philosophy project. Full adoption also leaves original essay-writing optional:
+its six actual files state the positions and arrangements adopted for use,
+which can draw on selected existing ideas.
 
 ## Common and situated content
 

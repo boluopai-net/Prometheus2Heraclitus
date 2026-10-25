@@ -37,4 +37,4 @@
 
 这个独立包采用 [MIT 许可](LICENSE)。可以从 [GitHub 包目录](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/prompt-and-skill-lifecycle)取得完整包，
 使用、修改和再分发，包括商业使用，并须保留 MIT 要求的声明。
-本包不包含阴阳。[公开集合仓库](https://github.com/boluopai-net/Prometheus2Heraclitus)提供下载与 Issues/PR 协作。
+本包不包含阴阳。[公开集合仓库](https://github.com/boluopai-net/Prometheus2Heraclitus)提供下载与 Issue 交流，本集合不接受 PR。

@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.41",
+      "version": "1.1.42",
       "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
       "source": {
         "source": "local",
@@ -60,7 +60,7 @@
     },
     {
       "name": "research",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
       "source": {
         "source": "local",
@@ -87,7 +87,7 @@
     },
     {
       "name": "task-inquiry",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
       "source": {
         "source": "local",
@@ -114,7 +114,7 @@
     },
     {
       "name": "prompt-and-skill-lifecycle",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
       "source": {
         "source": "local",
@@ -195,7 +195,7 @@
     },
     {
       "name": "model-upgrade-check",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Reconcile available models, purpose-specific selections, and actual consumers.",
       "source": {
         "source": "local",
