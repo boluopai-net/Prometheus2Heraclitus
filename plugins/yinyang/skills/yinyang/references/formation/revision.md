@@ -176,6 +176,29 @@ rejection, or modification may themselves become later material, but do not
 automatically prove the model's prior interpretation. The argument is developed
 in [Condensing revisable relations](../docs/metaphor-and-self-revision.md#condensing-revisable-relations).
 
+## Let the return alter its organizing account
+
+YinYang's [corrective feedback](../docs/yinyang-and-taiji.md#turning-and-corrective-feedback)
+adds a question to revision: can a source, objection, or use result actually
+change the understanding that receives it? Recasting every contrary case as
+confirmation would preserve the original account at the cost of its corrigibility.
+Locate the premise, scope, relation, or realization that the new material bears
+on, and carry the supported change there. The relevant aim can also need revision;
+correction is not always restoration of the previous arrangement.
+
+Keep interpretation of a philosopher, personal expression through borrowed
+concepts, and an independently developed argument distinguishable. An unsupported
+attribution needs correction; a useful new construction can remain as the author's
+own contribution with its own reasons. This lets sources retain the power to
+disagree without treating every creative transformation as a mistake.
+
+When revising a chosen role exchange, check each affected object's meaning:
+why it is valued, how the person participates, what the counterpart contributes,
+how their relation changes, what enables it, and how the account is corrected.
+Those are connected responsibilities, not six copies of one paragraph. Integrate
+feedback only where it changes a contribution. A rewritten account establishes
+an authored revision; its effects and developmental claims remain open to use.
+
 ## Let philosophy revise personal support material
 
 Bring developed philosophy into contact with existing personal material.

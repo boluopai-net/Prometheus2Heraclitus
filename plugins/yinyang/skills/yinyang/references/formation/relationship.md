@@ -31,6 +31,25 @@ changes: opportunities to reason or act may be part of the desired result.
 Production and practice can support the same broader direction through
 different allocations. State the distinction that actual material supports.
 
+## Explain exchange and return where they matter
+
+YinYang develops a particular relation: a person generates an unfinished opening
+while the model reconstructs and checks; a crucial detail can reverse those
+emphases. The same participant passes through the other's role and returns
+with both possibilities retained. Its [dialectical meaning](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+concerns this changed participation, beyond rotating a proposal through review
+and revision. If adopted, explain how it fits the actual participants and work.
+Both can also generate or examine together; a role is an emphasis, not an
+identity or an obligatory turn in a script.
+
+The author's [corrective purpose](../docs/yinyang-and-taiji.md#turning-and-corrective-feedback)
+asks whether another position or actual result can change a self-reinforcing
+direction. Describe what is returned and how it can affect the shared account
+or action. Alternation, a dissenting tone, and a feedback label do not establish
+effective correction. Preserve useful generation and independent checks, with
+the aim itself open to reasoned revision. This is a chosen cooperative relation,
+not evidence of a measured psychological control system.
+
 ## Let correction change the shared understanding
 
 Explain how objections, corrections, and uncertainty enter the work. A person's

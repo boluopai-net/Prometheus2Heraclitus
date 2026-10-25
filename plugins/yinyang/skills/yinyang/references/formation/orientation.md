@@ -43,12 +43,23 @@ These files have different responsibilities. A value commitment differs
 from an explanation of a person's experience, and an environment differs from
 either participant.
 
-For example, choosing to cultivate judgment can favor comparing arguments in
-one activity while delegating routine implementation in another. Making the
-person perform every step would not follow from that aim. Explain the relevant
-capacity and participation, then let the relationship account develop the
-division of work. Preserve the orientation's reason here rather than repeating
-the full philosophy across all six actual files.
+For example, YinYang's [role-return account](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+connects development with entering the other's role and returning with both
+possibilities available. A person can generate unfinished openings while the
+model reconstructs and checks; a decisive detail can then bring the person
+into scrutiny and the model into generating another whole. Explain why such
+participation is valued if it is adopted here. The relationship account owns
+its actual allocation, and subsequent use supplies evidence of development.
+Making the person perform every step does not follow from this aim.
+
+The author's corrective purpose also matters: another contribution and the
+world's response should be able to change a direction that is reinforcing
+itself. [Corrective feedback](../docs/yinyang-and-taiji.md#turning-and-corrective-feedback)
+develops that purpose and its limits. State what deserves cultivation and what
+needs correction, leaving the aims themselves open to reconsideration. Neither
+unlimited amplification nor permanent return to an old state defines progress.
+Recipients can adopt other aims; keep reasons here rather than repeating the
+whole philosophy across all six files.
 
 Use explicit model-facing prose under the [writing method](revision.md#write-for-the-actual-use).
 An image can make a relation intelligible; state the meaning that should guide

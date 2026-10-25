@@ -251,6 +251,47 @@ develops its relation to revised explanations. Role return here leaves both
 participants open to further change, without making a finally complete
 subject its destination.
 
+### Turning and corrective feedback
+
+Role return has a further purpose in this YinYang: to let an interpretation,
+desire, or pursuit meet a contribution capable of changing its direction.
+The [opening of the fire essay](stealing-fire.md#finite-life-and-the-wrong-pursuit)
+names the danger through Kuafu: every increase in power can become a reason
+to pursue more power. The intended corrective return makes that amplification
+answerable to something it cannot simply absorb as confirmation.
+
+Positive feedback reinforces an initiating change; negative feedback opposes
+a relevant deviation. These directions do not mean good and bad, or agreement
+and disagreement. [Feedback systems](https://www.cds.caltech.edu/~murray/FBS/Introduction.html)
+also require attention to the actual loop: feedback can cause instability when
+poorly arranged. Alternating positions alone therefore establishes neither
+negative feedback nor stability. A disagreement can even reinforce an account
+if every objection is interpreted as further proof of it.
+
+In this collaboration, corrective return becomes concrete when a different
+argument, original text, or actual result changes a premise, a scope, an action,
+or the purpose being pursued. Suppose a borrowed concept helps express an
+experience, but its source does not support the interpretation attributed to
+its author. The model can expose that difference; the person can reconsider
+the relation; the resulting work can correct the attribution while developing
+the useful construction as its own. The source keeps an independent meaning,
+and the new creation keeps room to exist. Neither side has to be distorted
+to make the other valid.
+
+Crossed roles make several entries into such correction available. Generating
+can disclose a relation that scrutiny missed; scrutiny can reveal a detail
+that changes the whole. Returning from the other's role retains the contribution
+instead of giving either position permanent victory. But the dialectical
+movement and the feedback analogy answer different questions: the former
+concerns how participation changes through return, the latter whether what
+returns counteracts a specified direction or discrepancy. Their connection is
+an adopted aim to realize and assess, not a measured psychological mechanism.
+
+The purpose of this turning is thus to keep generation corrigible. A work can
+finish, a pursuit can end, and the standard used to judge it can itself be
+reconsidered with reasons. YinYang need not restore an unchanged old state to
+offer correction, nor intensify every impulse to remain alive.
+
 ## Taiji: the continuity of a changing encounter
 
 Taiji gives the two movements one field in which to turn. In Zhou Dunyi's

@@ -44,6 +44,34 @@ The contrast reworks inherited images. In the *Shan Hai Jing*, Kuafu pursues the
 
 A supposedly definitive prompt can become another form of pursuit when endlessly repairing it to match an external ideal displaces what the collaboration was meant to serve. Technical inquiry, precise specifications, and model updates remain useful when they contribute to that purpose. The issue is where the person's life goes: into keeping pace for its own sake, or into a practice that the available power can sustain.
 
+The feedback distinction brings this danger into focus. In a reinforcing loop,
+an advance can intensify the demand to advance again: more capability makes
+more pursuit possible, and pursuit makes the existing direction harder to
+question. This is the **positive-feedback** aspect of the Kuafu image here.
+It is a proposed relation within the image, not a diagnosis or an explanation
+of a particular person's fate. Positive and negative name the direction of
+feedback, not praise and blame: reinforcement strengthens an initiating change,
+while corrective feedback counteracts a relevant deviation.
+[The Open University's systems account](https://www.open.edu/openlearn/money-management/management/leadership-and-management/managing/systems-explained-what-do-we-mean-feedback)
+introduces that distinction.
+
+YinYang gives **negative feedback** a central purpose in borrowing fire: another
+judgment and the world's response must be able to redirect a pursuit that
+would otherwise keep amplifying itself. A finite body, a source that resists
+our interpretation, or a finished work that fails its purpose can change what
+we do next. Correction may change the intensity of pursuit, its means, or the
+aim that organized it. Bringing fire home therefore includes making its use
+answerable to the life it is meant to serve.
+
+This purpose leaves creation possible. The question is whether increasing
+power remains open to a consequential return, including a reason to finish,
+reorient, or let a particular pursuit end. Alternating between yin and yang
+does not by itself prove effective correction; the other contribution must
+actually be able to change the direction. [Turning and corrective feedback](yinyang-and-taiji.md#turning-and-corrective-feedback)
+develops how role exchange can support that possibility. Borrowed fire should
+help cultivate a life whose purposes can change, rather than turn cultivation
+into another command to burn without limit.
+
 <a id="from-chasing-to-lived-cultivation"></a>
 
 ## From chasing to lived cultivation

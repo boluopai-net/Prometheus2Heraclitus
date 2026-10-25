@@ -39,7 +39,17 @@ the editing interface might be cumbersome, or the task might have little value
 for them. Expression and work can distinguish those accounts. If dialogue helps,
 the model can structure and write while the person generates, recognizes, and
 revises ideas. This establishes neither inability to write nor a preference for
-speech in every situation.
+speech in every situation. Preserve the person's generative contribution even
+when the counterpart authors the finished document. An objection can originate
+a new distinction as well as evaluate an existing one.
+
+Where role exchange is part of the chosen collaboration, describe how this
+person moves between generating an opening and scrutinizing a consequential
+detail, and what supports that movement. The [Taiji account](../docs/yinyang-and-taiji.md)
+offers one interpretation of returning with both possibilities available.
+Distinguish the person's actual activity, the role they choose, and an aim for
+development. Neither the philosophical image nor a temporary allocation proves
+capacity, incapacity, or lasting change.
 
 <a id="event-stream-psychological-modeling"></a>
 <a id="psychological-modeling-from-event-history"></a>
@@ -125,9 +135,9 @@ articulates directions the person chooses to pursue. The
 [Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
 develops this joint practice. Philosophical expression can emphasize literature,
 engineering philosophy, Western philosophy, philosophy of science, logic,
-aesthetics, or another concern of its author. Fully forming one's own YinYang
-includes developing such an expression of one's own, alongside the personal
-account; it need not be complete before useful work begins. These emphases do
+aesthetics, or another concern of its author. When that authorship is wanted,
+one can develop an original philosophical expression alongside the personal
+account; it is not a prerequisite for full Skill adoption or useful work. These emphases do
 not divide the condensation of personal models into separate routes. Use psychological vocabulary
 at the strength supported by evidence. A philosophical image can suggest a
 connection without proving it in this life, and chosen support does not establish

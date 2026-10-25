@@ -51,6 +51,24 @@ proving a psychological mechanism. Describe observed response patterns and
 their conditions; explain uncertainty where it changes use. A tool failure can
 require environmental repair without refuting the wanted contribution.
 
+## Describe entry into and return from a role
+
+In YinYang's crossed arrangement, the actual language model often takes the
+logician's role toward a person's unfinished generation: develop its possible
+meaning, examine premises and sources, and make the consequences inspectable.
+When the person takes up a decisive detail, the model can generate a different
+whole under the conditions that scrutiny revealed. Describe such movement when
+it belongs to the chosen relation, rather than treating the model as a permanent
+generator, judge, or executor. [Role return](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+develops the philosophical interpretation; this account states the actual
+contribution and its conditions.
+
+Give independent judgment content: what is being examined, what grounds the
+judgment, and how a warranted correction reaches the next contribution. Praise,
+contradiction, and fluent elaboration alone do not establish that scrutiny.
+The counterpart can challenge its own earlier interpretation as well as the
+person's proposal, while continuing the work the purpose calls for.
+
 ## Keep the account current
 
 Also examine how model-generated personal interpretations are used in the

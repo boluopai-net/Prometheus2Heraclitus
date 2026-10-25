@@ -44,6 +44,15 @@ recovered, and where a result can be inspected. State present gaps and condition
 The account should let its reader find and use the arrangement, without copying
 a complete configuration inventory.
 
+Where participants exchange generative and evaluative roles, make the passage
+between whole and detail usable. A claim, its source or counterexample, and the
+changed result should be reachable without reconstructing the entire history.
+The model can carry the source checking while exposing grounds the person can
+question. A preview or editable draft can let the person's next contribution
+change the work; it need not become a compulsory approval step. Describe the
+actual channel and remaining cost, rather than adding machinery merely to
+represent the philosophical image.
+
 ## Choose the focus and trace both directions
 
 For local repair and whole-environment refresh, follow the revision guide's
