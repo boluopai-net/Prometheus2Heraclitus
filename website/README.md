@@ -530,6 +530,42 @@ The public collection and GitHub source repository are publicly accessible at th
 
 ## Repository reading projection
 
+### YinYang PDF reading editions
+
+The Site also publishes two reading editions at `/downloads/yinyang.zh-CN.pdf`
+and `/downloads/yinyang.en.pdf`, linked from the philosophy entrance. These are
+reading projections, not Skill packages or replacements for the public source.
+The canonical prose remains in the public YinYang package. The PDF builder
+reads an exact committed source revision; the main sequence comes from
+`commentaries.py` and its one branch, followed by public writing guides and
+reading references. Private actual files and personal evidence are excluded.
+
+On this Mac, regenerate both editions with installed Pandoc, Typst, `sips`,
+and the managed headless `browser-relay` carrier:
+
+```sh
+python3 scripts/build-reading-pdf.py --repo /path/to/Prometheus2Heraclitus --revision FULL_PUBLIC_SHA --work /tmp/NEW-PDF-BUILD
+```
+
+`--sample --language zh-CN --out /tmp/PDF-SAMPLE` makes a disposable short
+sample. Default output is tracked `dist/downloads/`; do not publish sample
+output. The builder retains specific section/alias targets, namespaces internal
+links, produces PDF bookmarks, and unwraps content disclosures. It uses the
+public SVG exports as source, resolves browser-only CSS/fonts in a task-owned
+loopback browser, and embeds static figures with online links. It closes that
+exact browser target and local server after generation. Temporary ASTs, media,
+and coverage reports stay in the selected temporary build directory.
+
+The print template is `scripts/pdf/reading.typ`. Its current font set is
+Libertinus Serif, Songti SC, PingFang SC, Helvetica Neue and STIX Two Math.
+Validate both editions' text coverage, internal destinations, tables, formulas
+and rendered pages after a material source/template change; generation alone
+does not establish readable output. Each PDF must remain under the content
+release's 16 MiB object ceiling, enforced by the builder. Commit regenerated
+PDFs with their source changes, publish through the ordinary content release,
+and read back the actual downloaded files. No separate release/tag or scheduler
+is introduced by this reading feature.
+
 The website retains its search-exclusion preference while the GitHub source is public. Every
 HTML page, including homepages, redirects, essays, repository readers, and
 standalone diagram HTML, carries one robots meta directive requesting

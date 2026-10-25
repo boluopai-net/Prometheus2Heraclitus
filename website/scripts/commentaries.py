@@ -303,7 +303,8 @@ def practice_entrance(chinese):
             f'Selected ideas can help organize experiences, revise personal psychological material, and configure a fitting environment. A model can organize records, retain tentative interpretations and uncertainty, and turn relevant understanding into practical arrangements. <a href="{guide}">Using the Tools</a> supplies an operational entrance.',
             f'Writing your own philosophy, essays, or website is a choice of interest. Use the ideas in life and cooperation first if that serves you; explore <a href="{writing}">Literary programming</a> and related essays when you want to create. The five parts below present the author’s connected argument for selective reading.',
         ]
-    return f'<section class="series-entrance" id="practice"><h2>{heading}</h2>' + ''.join(f'<p>{p}</p>' for p in paragraphs) + '</section>'
+    downloads = ('下载阅读版：' if chinese else 'Download the reading edition: ') + '<a href="/downloads/yinyang.zh-CN.pdf">中文 PDF</a> · <a href="/downloads/yinyang.en.pdf">English PDF</a>'
+    return f'<section class="series-entrance" id="practice"><h2>{heading}</h2>' + ''.join(f'<p>{p}</p>' for p in paragraphs) + f'<p class="reading-downloads">{downloads}</p></section>'
 
 
 def index_body(chinese, title):
