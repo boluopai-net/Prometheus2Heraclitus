@@ -124,78 +124,70 @@ def intro(english, revision, stamp):
     if english:
         return f'''# Reading this edition
 
-This book brings together YinYang's public philosophical essays and writing
-guides. The five-part Steal Fire, Then Become Fire sequence contains nineteen
-main essays and its existing focused extension. The five relational diagrams
-appear in the same articles and passages as on the website. Core views follows
-the complete sequence as a reference for revisiting or selecting questions.
-Follow the linked sections when you want to go deeper. You need not accept
-every view or read every chapter in order.
+This book collects YinYang's public philosophical essays and writing guides.
+Its five-part main sequence, Steal Fire, Then Become Fire, contains nineteen
+essays and a focused extension, following the website's argument. Core views
+comes after that sequence. The appendices explain the connection between
+philosophy and models and provide six public writing guides, further reading,
+and the Skill's package guide. Private situated accounts and personal material
+are excluded.
 
-**If literature, history, or philosophy is not your field, begin with selected
-Core views that speak to your questions.** Consider their reasons and conditions
-before using them to organize experiences, revise personal material, or configure
-an environment. Follow their links to the fuller arguments when needed.
-
-The five parts follow the website's connected argument. The appendices contain
-the guide to philosophy and models, six public writing guides, further reading,
-and the Skill's package guide. Writing a personal philosophy or other essays is
-optional and follows your interests. The practical [tool guide]({SITE}/getting-started/en/)
-and [research and learning guide]({SITE}/research-learning/en/) remain available online.
+You can follow the argument in order or enter through a question of your own.
+**If literature, history, or philosophy is not your field, start with relevant
+Core views**, then follow their links to examine the reasons and conditions
+behind each position. Core views also serves as a reference when revisiting the
+book. You need not accept every position or read every chapter; writing your
+own philosophy or other essays is a separate choice of interest.
 
 Selected ideas can support organizing experiences, revising personal
-psychological material, and configuring a fitting environment. Retain the sources
-and uncertainties of personal interpretations and revise them through experience;
-these working accounts are not clinical assessments.
+psychological material, and configuring a fitting environment. Keep personal
+interpretations grounded in sources, retain uncertainty, and revise them through
+experience. **YinYang must not be used for psychological self-help work,
+self-diagnosis, mental-health assessment, or treatment.** These working accounts
+are not clinical assessments, and the project has not been systematically
+evaluated for those uses. Personal experience and version history do not establish
+general psychological effects. When professional assessment or care is needed,
+seek a qualified professional; project texts and model outputs cannot replace
+that service. The [source use statement]({GITHUB}/blob/{revision}/README.md#intended-use-and-mental-health)
+sets out the same boundary.
 
-**YinYang must not be used for psychological self-help work, self-diagnosis,
-mental-health assessment, or treatment.** It has not been systematically evaluated
-for those purposes. When professional assessment or care is needed, seek a
-qualified professional; the project's texts and model outputs do not replace
-that service. A personal experience or version history does not establish a
-general psychological effect. The [source use statement]({GITHUB}/blob/{revision}/README.md#intended-use-and-mental-health)
-records the same boundary.
+Use the contents, PDF bookmarks, and teal links to reach chapters, figures, and
+specific sections. The five relational diagrams accompany the same passages as
+on the website, scaled proportionally to the portrait page. This edition preserves
+the original prose while adapting navigation, pagination, and figure presentation
+for continuous reading. External references retain their source links; the
+author's repository and website locators are gathered here at the front. The
+practical [tool guide]({SITE}/getting-started/en/) and
+[research and learning guide]({SITE}/research-learning/en/) remain online.
 
-The contents, PDF bookmarks and in-text references link to chapters, figures and
-specific sections. Clickable links are teal. References to external authors and
-research retain their source links. The author's repository and website are
-referenced only here at the front; the body is a self-contained reading edition.
-Original figures are scaled to the portrait page and flow with the text. Private situated
-files and personal material are not included.
-
-The original prose is preserved; navigation, pagination and figures are adapted
-for this reading edition. Generated {stamp} (Asia/Shanghai), from public source
+Generated {stamp} (Asia/Shanghai), from public source
 [{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang).
 [Package license]({GITHUB}/blob/{revision}/skills/yinyang/LICENSE) · [Image and other rights]({SITE}/rights/).
 '''
     return f'''# 怎样读这本书
 
-本书汇集阴阳的公开哲学论述与写作指南。「窃火，然后成为火」的五部分包含十九篇主线文章
-及既有的专题延伸。五张关系图随正文推进，在与网页相同的文章和段落中出现；
-基本观点放在整部论述之后，作为回看与按问题选读的参照。
-需要深入时，再沿链接进入相应论证。不必接受全部立场，也不必从头通读。
+本书收录阴阳的公开哲学论述与写作指南。正文「窃火，然后成为火」分为五部分，包含十九篇
+主线文章及一篇专题延伸，沿用网站的论述顺序；其后是「基本观点」。附录说明哲学与模型的
+连接，并收录六份公开写作指南、参考阅读及 Skill 的形式说明。私人实际文件与个人材料不在
+本书收录范围内。
 
-**非文史哲背景的读者，可以先从本书的「基本观点」中挑选与自己问题有关的部分。**
-了解它们的理由与适用条件，再考虑用来整理经历、迭代个人材料或配置环境；需要进一步理解时，
-再沿链接阅读相应论证。
+阅读可以沿论证顺序展开，也可以从自己的问题进入。**非文史哲背景的读者，建议先选读相关的
+「基本观点」**，再沿链接考察相应立场的理由与适用条件；读过正文后，也可以用它回看整体。
+不必接受全部立场或通读每篇文章。是否进一步写自己的哲学或其他文章，由个人兴趣决定。
 
-五部分正文沿用网站的论述顺序。附录集中收录哲学与模型的连接、六份公开写作指南、
-参考阅读及 Skill 的形式说明。是否写自己的哲学或其他文章，取决于兴趣。
-[工具使用]({SITE}/getting-started/)和[研究与学习建议]({SITE}/research-learning/)保留在线阅读入口。
+选定的思想可以用于整理经历、修订个人心理材料，以及配置适合自己的环境。个人解释需要
+保留来源与不确定性，并随经验修订。**阴阳不能用于心理自助工作、自行诊断、心理健康评估
+或治疗。**这些工作描述不是临床评估，项目也尚未经过针对上述用途的系统性实证评估；
+个人经验与版本历史不能确立普遍的心理效果。需要专业评估或照护时，应寻求合格专业人员，
+项目文字与模型输出不能替代这种服务。[来源说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)
+载有同一用途边界。
 
-选定的思想可以用于整理经历、持续修订个人心理材料，以及配置适合自己的环境。
-个人解释应保留来源与不确定性，并随经验修订；这些工作描述不是临床评估。
+目录、PDF 书签与青色链接用于跳转到文章、图示和具体章节。五张关系图放在与网页相同的
+正文位置，按纵向书页等比例缩放。本版保留原文，为连续阅读调整导航、分页和图示呈现。
+外部文献保留来源链接，作者自己的仓库和网页出处集中列在书首；
+[工具使用]({SITE}/getting-started/)与[研究和学习建议]({SITE}/research-learning/)另供在线阅读。
 
-**阴阳不能用于心理自助工作、自行诊断、心理健康评估或治疗。**
-它尚未经过针对这些用途的系统性实证评估。需要专业评估或照护时，应寻求合格专业人员；
-项目文字与模型输出不替代这种服务。个人经验或版本历史也不能确立普遍的心理效果。
-[来源说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)保留同一用途边界。
-
-目录、PDF 书签与正文中的引用，可以跳转到相应文章、图示和具体章节。青色文字是可点击链接；
-外部作者与研究文献保留来源链接。作者自己的仓库和网页只在书首列为出处，正文按自足的阅读版组织。
-原图按纵向书页的正文宽度等比例缩放，随正文出现。本书不包含私人实际文件与个人材料。
-
-本版保留原文，为连续阅读调整了导航、分页和图示呈现。生成日期：{stamp}（北京时间）。
+生成日期：{stamp}（北京时间）。
 公开内容版本：[{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang)。
 [包内许可]({GITHUB}/blob/{revision}/skills/yinyang/LICENSE) · [图像及其他权利说明]({SITE}/rights/)。
 '''
