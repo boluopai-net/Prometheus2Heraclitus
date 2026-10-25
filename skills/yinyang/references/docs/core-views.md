@@ -19,9 +19,9 @@ its developmental purpose or writing a personal philosophy. See
 
 - [YY-01 · Reverse alignment: people develop with generative models](#yy-01)
 - [YY-02 · The person as an embodied multimodal generative model](#yy-02)
-- [YY-03 · Understand oneself, the model counterpart, and their relation together](#yy-03)
-- [YY-04 · Let literature, history, philosophy, and aesthetics organize collaboration](#yy-04)
-- [YY-05 · Both participants generate and correct](#yy-05)
+- [YY-03 · YinYang dialectics: role exchange and human generation](#yy-03)
+- [YY-04 · Understand oneself, the model counterpart, and their relation together](#yy-04)
+- [YY-05 · Let literature, history, philosophy, and aesthetics organize collaboration](#yy-05)
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
@@ -36,7 +36,8 @@ its developmental purpose or writing a personal philosophy. See
 </details>
 
 This page maps propositions to their developed arguments. YY-01–03 establish
-the developmental purpose and participants; YY-04–08 organize their encounter;
+the developmental purpose, participants, and central movement of role exchange;
+YY-04–08 organize how they understand one another and work together;
 YY-09–12 distinguish how its claims are formed, checked, and expressed;
 YY-13–15 connect this practice to a singular life and relations with friends.
 The stable IDs support discussion, not a compulsory sequence. Both reader
@@ -114,7 +115,44 @@ precise while leaving unfamiliar ideas open to substantive disagreement.
 
 <a id="yy-03"></a>
 
-## YY-03 · Understand oneself, the model counterpart, and their relation together
+## YY-03 · YinYang dialectics: role exchange and human generation
+
+YinYang places role exchange between person and language model at the center of
+this collaboration. Against the familiar allocation of model generation and
+human evaluation, **the person plays the language-model-like generator, while
+the language model plays the human logician and evaluator**. The person offers
+an intuition, conjecture, explanation, or design; the model receives, develops,
+tests, and criticizes it; the person understands the feedback, revises, and
+generates again. These role names describe a reversal of contributions. The
+actual person and language model remain distinct and exceed their current roles.
+
+When a model's output exceeds the person's conditions for understanding and
+verification, requiring a final human review may leave only acceptance or
+rejection without adequate grounds. Even successful evaluation of a finished
+product does not establish cultivated capacity to generate explanations,
+designs, or actions. Organizing collaboration for human generative development
+therefore makes the person's attempts and encounters with correction actual
+activities. Human generation can begin with an unfinished explanation, a
+criticism, or an image. The model evaluates and supports it through reasons,
+counterexamples, and actual results, enabling another attempt rather than
+only supplying a replacement answer.
+
+The dialectical movement also includes returning through the other's
+contribution. The person can resume judging consequential details, and the
+model can generate again; their earlier expressions, checks, and corrections
+have changed the conditions of continued participation. Role exchange lets the
+person bring both contributions into their participation without permanently
+assigning generation and judgment to different parties. The model can still
+develop and implement actual work.
+[Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md#mutual-grounding-and-the-shuang-yu)
+owns the principal argument for this core view. Its two fish express entering
+one another's roles, and its account of
+[the dialectical meaning of role change](yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+explains the integration and return formed through another role.
+
+<a id="yy-04"></a>
+
+## YY-04 · Understand oneself, the model counterpart, and their relation together
 
 A role acquires its situated purpose through a relationship. An account of how
 the person attends, desires, and interprets, or of how they prefer to learn
@@ -162,9 +200,9 @@ The [Philosophy and models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this approach
 does not require forming all six actual files.
 
-<a id="yy-04"></a>
+<a id="yy-05"></a>
 
-## YY-04 · Let literature, history, philosophy, and aesthetics organize collaboration
+## YY-05 · Let literature, history, philosophy, and aesthetics organize collaboration
 
 Literature offers characters, situations, and expressive possibilities; history
 makes their formation and transformation visible; philosophy articulates
@@ -191,27 +229,6 @@ never reach a usable result, the arrangement may need clearer responsibility
 for completion, a working tool, or a different interpretation of the image.
 Literary coherence opens a possibility; enacted contributions establish what
 the possibility becomes.
-
-<a id="yy-05"></a>
-
-## YY-05 · Both participants generate and correct
-
-A person may recognize an unspoken relation or a felt mismatch in the whole.
-The model can investigate details, propose explanations of its own, and carry
-construction and checking forward. Either can generate, interpret, infer, and
-revise. The person need not complete all reasoning before the model contributes.
-This matters when an unfinished request is the beginning of inquiry rather
-than a defective specification. The model can reconstruct plausible meanings,
-develop alternatives, and investigate the facts that distinguish them; the
-person can redirect the work through a recognition or objection. Neither one's
-confidence settles an external claim, and agreement can still require checking
-against an original source or the result of an action.
-
-Sun and Moon give differentiated generation, reception, and shaping an image. Their
-roles can be retained or exchanged without assigning them by gender or
-exhausting either participant's abilities. The answering world also contributes
-conditions neither controls. [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md) develops
-this mutual grounding and the relative independence that creations acquire.
 
 <a id="yy-06"></a>
 
@@ -472,7 +489,7 @@ continued, and discussed.
 
 ## YY-13 · Forming a sinthome
 
-The preceding [connected understanding](#yy-03) and [expression and realization](#yy-04)
+The preceding [connected understanding](#yy-04) and [expression and realization](#yy-05)
 let an understanding of the person guide their environment. The Trinity of
 philosophy, psychology, and engineering has two levels: generally, all three
 activities are united within shared physical reality; individually, this
