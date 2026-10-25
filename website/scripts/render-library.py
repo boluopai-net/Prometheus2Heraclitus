@@ -360,18 +360,20 @@ def main():
             ('references/formation/environment', '如何描述环境', 'How to describe the environment', '说明实际条件与资源，把理解落实到提示词、Skills、工具和工作环境，并通过实际使用修订。', 'Describe conditions and resources, realize understanding through prompts, Skills, tools, and the working environment, and revise through actual use.'),
             ('references/formation/revision', '如何修订', 'How to revise', '先读哲学、刷新个人参考材料，再凝练六份工作模型，并检查环境适配。', 'Read the philosophy, refresh personal references, then condense six working files and check environmental fit.'),
         ]
+        groups.insert(1, ('六份写作指南', 'Six writing guides',
+                         '分别形成方向、个人、伙伴、关系与环境的描述，并通过实际使用修订。',
+                         'Form accounts of orientation, person, counterpart, relationship, and environment, and revise them through use.',
+                         writing_guides))
+        section_ids = ('practice', 'writing-guides', 'files', 'reading')
+        navigation = [('diagrams', '图示', 'Diagrams')]
         grouped = []
-        for zh, en, note_zh, note_en, entries in groups:
+        for section_id, (zh, en, note_zh, note_en, entries) in zip(section_ids, groups):
+            navigation.append((section_id, zh, en))
             entries_html = []
             for stem, label_zh, label_en, desc_zh, desc_en in entries:
                 path = PACKAGE + stem + edition
-                guides_html = ''
-                if stem == 'references/design-and-revision':
-                    guide_items = ''.join('<li>' + link(PACKAGE + guide_stem + edition) + '<p>' + (note_en if english else note_zh) + '</p></li>' for guide_stem, guide_zh, guide_en, note_zh, note_en in writing_guides)
-                    guide_note = ('These writing guides explain how to form the accounts and revise them through use.' if english else '这些写作指南说明怎样形成各份描述，并在使用中修订。')
-                    guides_html = '<details class="method-guides"><summary>' + ('Six writing guides' if english else '六份写作指南') + '</summary><p>' + guide_note + '</p><ul>' + guide_items + '</ul></details>'
-                entries_html.append('<li>' + link(path) + '<p>' + (desc_en if english else desc_zh) + '</p>' + guides_html + '</li>')
-            grouped.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
+                entries_html.append('<li>' + link(path) + '<p>' + (desc_en if english else desc_zh) + '</p></li>')
+            grouped.append('<section class="library-section"><h2 id="' + section_id + '" tabindex="-1">' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries_html) + '</ul></section>')
         groups_html = ''.join(grouped)
         diagrams = ''
         for name, zh, en, desc_zh, desc_en in [
@@ -403,7 +405,12 @@ def main():
         body = re.sub(r'<section class="library-section"><h2>.*?</h2>',
                       '<details class="diagram-disclosure" id="diagrams"><summary>' + diagram_summary + '</summary>', body, count=1)
         body = body.replace('</div></section><p class="collection-intro">', '</div></details><p class="collection-intro">', 1)
-        hub_style = '<style>.method-guides{margin:24px 0 0 16px;padding-left:20px;border-left:1px solid var(--line)}.method-guides h3{font-size:18px;margin-bottom:8px}.method-guides ul{list-style:none;margin:12px 0 0;padding:0}.method-guides li{border:0;padding:10px 0}.method-guides a{font-size:17px}.method-guides p{font-size:14px;line-height:1.8;margin-top:6px}</style>'
+        nav_links = ''.join(f'<li><a href="#{anchor}">{html.escape(en if english else zh)}</a></li>' for anchor, zh, en in navigation)
+        sidebar = '<aside class="guide-sidebar"><nav aria-label="' + ('Resource categories' if english else '资源分类') + '"><ul>' + nav_links + '</ul></nav></aside>'
+        body = body.replace('collection library-hub', 'collection library-hub practical-guide')
+        body = body.replace('<header class="collection-heading">', '<div class="guide-layout">' + sidebar + '<div class="guide-reading"><header class="collection-heading">', 1)
+        body = body.replace('</main>', '</div></div></main>')
+        hub_style = '<link rel="stylesheet" href="/guide.css"><script defer src="/guide.js"></script>'
         write(('en/' if english else '') + 'index.html', shell('Documents & diagrams' if english else '文档与图示', body, lang, hub_style))
 
     vendor = Path(__file__).resolve().parent / 'vendor/katex'

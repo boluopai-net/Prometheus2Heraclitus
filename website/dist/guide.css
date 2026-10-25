@@ -23,6 +23,11 @@
 .practical-guide .guide-sidebar a[aria-current]{font-weight:600}
 .practical-guide .guide-sidebar a[href]:hover{color:var(--water);background:none;text-decoration:none}
 .guide-sidebar a:focus-visible{outline:2px solid var(--water);outline-offset:3px}
+.library-hub.practical-guide{max-width:1200px}
+.library-hub .collection-heading{padding-bottom:0;margin-bottom:32px}
+.library-hub .library-section h2[id],.library-hub #diagrams{scroll-margin-top:32px}
+.library-hub .library-section{padding-top:24px}
+.library-hub .library-section h2{margin-top:16px}
 .practical-guide article h2[id]{scroll-margin-top:32px}
 .guide-table{width:100%;margin:24px 0 32px;overflow-x:auto}
 .guide-table table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.75;table-layout:fixed}

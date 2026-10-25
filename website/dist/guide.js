@@ -5,6 +5,15 @@ if (nav) {
   const links = [...nav.querySelectorAll('a[href^="#"]')];
   const headings = links.map(link => document.getElementById(link.hash.slice(1)));
   const ids = new Set(headings.map(heading => heading.id));
+  const openDestination = hash => {
+    const target = headings.find(heading => '#' + heading.id === hash);
+    if (target?.matches('details')) target.open = true;
+  };
+  nav.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (link) openDestination(link.hash);
+  });
+  openDestination(location.hash);
   const narrow = matchMedia('(max-width:1000px)');
   let scheduled = false;
   let current;
@@ -52,7 +61,7 @@ if (nav) {
   };
   window.addEventListener('scroll', schedule, {passive: true});
   window.addEventListener('resize', () => { current = null; schedule(); });
-  window.addEventListener('hashchange', () => { syncLanguage(); schedule(); });
+  window.addEventListener('hashchange', () => { openDestination(location.hash); syncLanguage(); schedule(); });
   nav.addEventListener('focusin', event => {
     if (event.target.matches('a')) reveal(event.target);
   });
