@@ -112,7 +112,7 @@ def prepare_markdown(text):
     # Standalone package navigation repeats the book's contents and bookmarks.
     rows = []
     for row in text.splitlines():
-        if re.match(r'^\[(?:Home|首页|English edition|English|中文|简体中文|Documents & diagrams|文档与图示)\]', row):
+        if re.search(r'\[(?:Home|首页|English edition|English|中文|中文版|简体中文|完整中文版|Documents & diagrams|文档与图示)\]\(', row):
             remainder = re.sub(r'\[[^\]]*\]\([^)]*\)', '', row)
             if re.fullmatch(r'[\s·|/]*', remainder):
                 continue

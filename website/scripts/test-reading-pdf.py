@@ -1,4 +1,4 @@
-"""Regression for CJK emphasis lost by GFM's delimiter-flanking rules."""
+"""Focused regressions for the reading edition's source-to-book conversion."""
 import importlib.util
 from pathlib import Path
 import unittest
@@ -9,6 +9,19 @@ spec.loader.exec_module(builder)
 
 
 class ReaderRegression(unittest.TestCase):
+    def test_navigation_is_removed_when_language_link_is_not_first(self):
+        for navigation in (
+            '[阴阳说明](../../README.zh-CN.md) · [实践说明](creation-method.zh-CN.md) · [English](participation-and-support.md)',
+            '[YinYang guide](../../README.md) · [Practice explanation](creation-method.md) · [完整中文版](participation-and-support.zh-CN.md)',
+            '[中文版](philosophical-readings.zh-CN.md) · [Psychological readings](psychological-readings.md)',
+        ):
+            with self.subTest(navigation=navigation):
+                prose = 'Read the [English](source.md) argument in context.'
+                result = builder.prepare_markdown('# Chapter\n\n' + navigation + '\n\n' + prose)
+                self.assertNotIn(navigation, result)
+                self.assertIn(prose, result)
+                self.assertEqual(builder.prepare_markdown('[A primary source](source.md)'), '[A primary source](source.md)')
+
     def test_core_views_follows_the_whole_main_sequence(self):
         for english in (False, True):
             suffix = '.md' if english else '.zh-CN.md'
