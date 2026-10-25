@@ -236,7 +236,7 @@
 已完成实验的报告，也不是模型辅助人类发展的一般性证明。
 
 1. <a id="source-1"></a> John Dewey（1920），**Reconstruction in Philosophy**，尤其第四、五章。[原文](https://www.gutenberg.org/files/40089/40089-h/40089-h.htm)。行动、承受与可操作的哲学探究。
-2. <a id="source-2"></a> Joshua Knobe 与 Shaun Nichols（2008），**An Experimental Philosophy Manifesto**，收入 *Experimental Philosophy*，第 3–14 页。[作者托管校样](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)。当代经验研究传统；链接文件是未校正校样。
+2. <a id="source-2"></a> 诺布 与 尼科尔斯（2008），**An Experimental Philosophy Manifesto**，收入 *Experimental Philosophy*，第 3–14 页。[作者托管校样](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)。当代经验研究传统；链接文件是未校正校样。
 3. <a id="source-3"></a> W. Ross Ashby（1956），**An Introduction to Cybernetics**，第四章，尤其第 4/11 节。[遗产管理方授权文本](https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf)。动态系统内部的耦合与反馈。
 4. <a id="source-4"></a> Rudolf Carnap（1950），**Empiricism, Semantics, and Ontology**。[公开重印](https://ditext.com/carnap/carnap.html)。框架相关的探究与实际框架采用，在此作为哲学比较。
 5. <a id="source-5"></a> David Harel、Dexter Kozen 与 Jerzy Tiuryn（2000），**Dynamic Logic**。[作者导言](https://www.weizmann.ac.il/math/harel/dynamic-logic)。有关程序及其对状态的影响的形式推理。

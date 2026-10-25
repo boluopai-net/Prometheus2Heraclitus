@@ -28,8 +28,15 @@
 
 ## 怀特海：过程、关系与抽象的限度
 
-怀特海为文集的过程本体论提供进一步比较；这条阅读路径并不表示阴阳已经采纳他的整套体系。
-可以先带着一个问题进入：当一种表征把某个事物单独提取出来时，哪些关系与变化被留在了外面？
+怀特海已经通过《思维方式》进入[推理篇](reasoning.zh-CN.md#怀特海重要性表达与视角的修订)。
+先读这项正文已有来源，再扩展到过程本体论与抽象的比较；这不表示阴阳采纳了他的整套体系。
+
+《思维方式》（Modes of Thought，1938）的[第一讲第 3–6 节](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_01.html)
+讨论重要性与视角，[第二讲第 1 节](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_02.html)
+连接选择与表达，[第三讲第 1–3、6–7 节](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_03.html)
+考察对关系仍不完整的理解。阅读时追问：什么值得关注怎样参与选择，表达怎样使一种视角
+成为可交流的东西，理解又怎样深化或修订这个视角？推理篇把这些问题接到有限探究，
+下面几部书则进一步展开比较。
 
 | 著作与段落 | 阅读问题 |
 | --- | --- |
@@ -151,8 +158,8 @@ Sherburne 的 [A Key to Whitehead's Process and Reality](https://press.uchicago.
 
 | 作者与原典 | 在文集中的联系 |
 | --- | --- |
-| William James，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[生活轨迹的形成](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
-| Henri Bergson，[Time and Free Will，第 II 章](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | 绵延与可计量、空间化时间的区别。文集对时钟时间、体验节奏和更新顺序的区分与此对话，不把它们等同。 |
+| 詹姆斯，[The Principles of Psychology，第 IX 章「The Stream of Thought」](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) | 思维的变化、连续性、个人性与选择性。[生活轨迹的形成](flow-and-time.zh-CN.md)借此理解经验的接续，同时区分当下经验、保留记录与工作模型。 |
+| 柏格森，[Time and Free Will，第 II 章](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) | 绵延与可计量、空间化时间的区别。文集对时钟时间、体验节奏和更新顺序的区分与此对话，不把它们等同。 |
 
 ## 弗洛伊德：否定与接受
 
@@ -229,7 +236,9 @@ Feng Ye 已经是文集的比较对象，这里将其展开为独立的阅读入
 并不确立相同的物理实现说明。阴阳采用同一物理现实作为共同基础，同时使用相对于问题的抽象；
 具体还原与桥接假设需要各自支持。应比较实际论证，不从标签推断双方相同或相反。
 
-## 意志、非理性与自我冲突：法兰克福、戴维森、梅勒与霍尔顿
+<a id="意志非理性与自我冲突法兰克福戴维森梅勒与霍尔顿"></a>
+
+## 意志、非理性与自我冲突：Frankfurt、Davidson、Mele 与 Holton
 
 这些哲学家让「冲突」取得更细的对象：欲望与认可、决心与后来的倾向、证据与动机，以及一个人对自己的解释。它们是补充理解的入口，不是文集已接受同一套心灵结构的证明。
 
@@ -244,7 +253,7 @@ Feng Ye 已经是文集的比较对象，这里将其展开为独立的阅读入
 
 ## 拉科夫、约翰逊与根特纳：隐喻和关系类比
 
-George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；Dedre Gentner 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[用文学式编程写出个人哲学](literary-programming.zh-CN.md)与[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
+拉科夫 与 约翰逊 的[Metaphors We Live By，第 1–3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)讨论日常概念与隐喻；根特纳 的[Structure-Mapping（1983）](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)明确展开关系如何映射。[用文学式编程写出个人哲学](literary-programming.zh-CN.md)与[从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)已使用这两条线索。隐喻提供理解的形式，类比中的具体推论仍须核验。
 
 ## 心灵、认识与解释
 
@@ -253,9 +262,9 @@ George Lakoff 与 Mark Johnson 的[Metaphors We Live By，第 1–3 章](https:/
 [从个人哲学到个人模型](metaphor-and-self-revision.zh-CN.md)将它接到 霍兰、哈钦斯
 与 基尔什 的分布式认知研究：理解能够穿行于人、模型、记录与工具之间发展。
 
-Varela、Evan Thompson 与 Eleanor Rosch 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)把认知科学、生活经验与观照实践放在一起；[参与、可用行动与支持](participation-and-support.zh-CN.md)已经借此讨论具身参与。Hollan、Hutchins 与 Kirsh 的[Distributed Cognition（2000）](https://interactivity.ucsd.edu/articles/dcog.pdf)则提供跨人、人工物与时间研究认知的原文入口。
+瓦雷拉、汤普森 与 罗施 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)把认知科学、生活经验与观照实践放在一起；[参与、可用行动与支持](participation-and-support.zh-CN.md)已经借此讨论具身参与。Hollan、Hutchins 与 Kirsh 的[Distributed Cognition（2000）](https://interactivity.ucsd.edu/articles/dcog.pdf)则提供跨人、人工物与时间研究认知的原文入口。
 
-Joshua Knobe 与 Shaun Nichols 的[An Experimental Philosophy Manifesto（2008）](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)介绍实验哲学的经验研究取向；链接是作者提供的校样。[具身的实验哲学](embodied-experimental-philosophy.zh-CN.md)区分这种研究与个人通过制作、参与和反思开展的哲学试验。
+诺布 与 尼科尔斯 的[An Experimental Philosophy Manifesto（2008）](https://campuspress.yale.edu/joshuaknobe/files/2016/02/manifesto-1qhrtmk.pdf)介绍实验哲学的经验研究取向；链接是作者提供的校样。[具身的实验哲学](embodied-experimental-philosophy.zh-CN.md)区分这种研究与个人通过制作、参与和反思开展的哲学试验。
 
 Gordana Dodig-Crnkovic 的[Information, Computation, Cognition（2013）](https://arxiv.org/abs/1311.0413)是另一条已在[窃火与创造能力的培养](stealing-fire.zh-CN.md)中出现的自然哲学线索：信息结构、计算动态与多层次行动者。它与上面的具身、延展、分布式认知相邻，但并非同一理论，也不直接确立人的体验是一套数字算法。
 

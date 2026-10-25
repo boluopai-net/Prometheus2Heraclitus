@@ -18,7 +18,7 @@
 
 ## 隐喻怎样通过类比展开
 
-这一区分接续已有研究：George Lakoff 与 Mark Johnson 的[Metaphors We Live By前 3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)把隐喻放进概念、经验与行动的组织中；Dedre Gentner 的[结构映射：类比的理论框架（1983），第 155–170 页](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)解释类比怎样映射关系及其相互联系。下面把这些问题用于人物、模型与协作的写作，是本文进一步提出的应用。
+这一区分接续已有研究：拉科夫 与 约翰逊 的[Metaphors We Live By前 3 章](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)把隐喻放进概念、经验与行动的组织中；根特纳 的[结构映射：类比的理论框架（1983），第 155–170 页](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)解释类比怎样映射关系及其相互联系。下面把这些问题用于人物、模型与协作的写作，是本文进一步提出的应用。
 
 隐喻把一组关系聚拢成可感的形象，类比则进一步问：从中取用哪些关系，会打开什么问题和可能后果？「借火」先带来从外部取得能力的形象；把传递关系展开，就要区分借到了什么、什么能在自己身上生长、什么仍须由可靠的伙伴承载。把照亮关系展开，又会问一种新能力怎样使此前看不见的问题变得可理解。同一个火的意象可以开启不同推论，实际使用决定哪一条值得继续。
 

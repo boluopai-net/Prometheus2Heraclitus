@@ -188,8 +188,32 @@ diagram, method, source summary, and reading route when its meaning changes.
 A substantive revision can also make an old caveat, example, or auxiliary rule
 unnecessary.
 
-Use **Feng Ye** in both reader editions, including headings and author references;
-do not add a Chinese-name rendering or a parenthetical name expansion.
+### Names and citation relationships
+
+In the Chinese reader edition, name philosophers according to their actual
+relationship to the main essays. When the essays scarcely mention a philosopher
+and the reading guide only proposes a neighboring comparison, retain the foreign
+name. When the essays discuss or cite that philosopher, use the established
+Chinese rendering. A mention created by the reading guide itself does not change
+that relationship. Check the argument and source, not just a name count.
+
+For modern Chinese philosophers, use a Roman-letter name with the given name
+before the family name, such as **Feng Ye**, without adding the Chinese name.
+Ancient Chinese philosophers keep their Chinese names in Chinese prose, such as
+周敦颐. This distinction takes precedence over the general foreign-name rule.
+The English edition retains English-language naming while preserving the modern
+Chinese given-name/family-name order.
+
+Render Chinese philosophical concepts in pinyin in the reader-facing editions,
+including Yinyang, Taiji, Wuji, Wuwei, and Shuang yu. This concerns concepts from
+Chinese philosophy, not every philosophical term written in Chinese. Keep
+ordinary words and concepts from other traditions in their appropriate language.
+Preserve exact quotations, bibliographic original titles, URLs, identifiers,
+and code; naming conventions must not corrupt attribution or navigation.
+Use the same concept terminology in website and PDF reading projections. The
+source can retain stable anchors and original material while its reader-facing
+labels follow this convention. Reassess a philosopher's displayed name when
+the main essays' actual use of their work changes.
 
 Keep English and Chinese editions semantically complete and aligned. English
 is the primary model-facing edition; Chinese is a full reader edition. Chinese

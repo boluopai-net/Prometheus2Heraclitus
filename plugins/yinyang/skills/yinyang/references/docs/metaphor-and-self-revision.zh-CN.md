@@ -340,7 +340,7 @@ History、对话及其他历史中找回相关的新近材料，更新个人参�
 哲学综合是本文提出的方案。这些阅读没有证实向模型上下文增加个人意象具有
 一般性的实证收益。
 
-1. <a id="source-1"></a> Dedre Gentner（1983），**Structure-Mapping: A Theoretical Framework for Analogy**，*Cognitive Science* 7，155–170。[作者托管论文](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)。关系映射与系统性。
+1. <a id="source-1"></a> 根特纳（1983），**Structure-Mapping: A Theoretical Framework for Analogy**，*Cognitive Science* 7，155–170。[作者托管论文](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf)。关系映射与系统性。
 2. <a id="source-2"></a> A. M. Turing（1936），**On Computable Numbers, with an Application to the Entscheidungsproblem**，尤其第 6 节。[大学托管的原始论文](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)。形式通用机器的比较。
 3. <a id="source-3"></a> Jürgen Schmidhuber，**Gödel Machine Summary**。[作者概述](https://people.idsia.ch/~juergen/gmsummary.html)。以证明为条件的自我修订、公理范围、资源限制与普通计算。
 4. <a id="source-4"></a> Jürgen Schmidhuber，**Gödel Machines: Fully Self-Referential Optimal Universal Self-Improvers**。[作者概览及论文](https://people.idsia.ch/~juergen/goedelmachine.html)。与个人类比相区别的技术方案。

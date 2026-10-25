@@ -469,7 +469,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 
 近期 AI 材料是有选择的比较，不是穷尽性文献综述。人文来源直接发展与论证相关的概念；AI 来源涉及特定实现。[8]、[9] 属于研究者撰写的理论／研究报道，[12] 为预印本；这里不把其地位默认为共识。
 
-1. <a id="source-1"></a> Andy Clark 与 David J. Chalmers（1998），**The Extended Mind**，*Analysis* 58(1)，7–19。[作者文本](https://www.consc.net/papers/extended.html) · [DOI](https://doi.org/10.1093/analys/58.1.7)。环境对认知的积极贡献；不是 AI 使用带来个人成长的证明。
+1. <a id="source-1"></a> 克拉克 与 查尔默斯（1998），**The Extended Mind**，*Analysis* 58(1)，7–19。[作者文本](https://www.consc.net/papers/extended.html) · [DOI](https://doi.org/10.1093/analys/58.1.7)。环境对认知的积极贡献；不是 AI 使用带来个人成长的证明。
 2. <a id="source-2"></a> Jerome Bruner（1987；2004 年重印），**Life as Narrative**，*Social Research* 54(1)，11–32；重印于 71(3)，691–710。[重印文本](https://ewasteschools.pbworks.com/f/Bruner_J_LifeAsNarrative.pdf)。叙事与生活解释之间的形成关系。
 3. <a id="source-3"></a> Michel Foucault（1982 年讲座；1988 年出版），**Technologies of the Self**，收于 *Technologies of the Self: A Seminar with Michel Foucault*，16–49 页。[文本](https://foucault.info/documents/foucault.technologiesOfSelf.en/)。包括写作与他人关系在内的自我转化实践；本文向 AI 的延伸属于当前论证。
 4. <a id="source-4"></a> Rudolf Carnap（1950），**Empiricism, Semantics, and Ontology**，*Revue Internationale de Philosophie* 4，20–40。[1956 年Meaning and Necessity增订版重印文本](https://ditext.com/carnap/carnap.html)。框架的采用及其内部问题；这里作哲学比较，不把它当成文学提示词理论。

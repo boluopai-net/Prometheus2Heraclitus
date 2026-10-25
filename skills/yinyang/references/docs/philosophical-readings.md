@@ -34,10 +34,18 @@ inconsistent information need not declare contradictions true.
 
 ## Whitehead: process, relations, and the limits of abstraction
 
-Whitehead offers a further comparison for the collection's process ontology;
-this reading route does not mean YinYang has adopted his whole system. Begin
-with a question: when a representation isolates a thing, which relations and
-changes have been left outside it?
+Whitehead is already discussed in [Reasoning](reasoning.md#whitehead-importance-expression-and-revising-a-perspective)
+through *Modes of Thought*. Begin with that existing source before extending
+the comparison to process ontology and abstraction. This does not mean YinYang
+has adopted his whole system.
+
+In *Modes of Thought* (1938), read [Lecture I, §§3–6](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_01.html)
+on importance and perspective, [Lecture II, §1](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_02.html)
+on selection and expression, and [Lecture III, §§1–3 and 6–7](https://brocku.ca/MeadProject/Whitehead/Whitehead_1938/1938_03.html)
+on incomplete understanding of relations. Ask how what matters guides selection,
+how expression makes a perspective available, and how understanding can deepen
+or revise that perspective. The reasoning essay develops their connection to
+finite inquiry; the following books extend the comparison.
 
 | Work and passage | Reading question |
 | --- | --- |

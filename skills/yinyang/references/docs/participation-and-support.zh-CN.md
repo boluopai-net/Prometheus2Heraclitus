@@ -42,7 +42,7 @@
 
 阴阳的支持有一个积极的培养方向：让人通过与生成智能相遇，发展具身的推理能力。这里的直觉，是身体在感知、情感、动作与情境中辨认和组织关系的能力。它既能够打开一种可能，也能够凭借偏好辨出哪些可能值得继续。培养这种能力，需要广阔阅读和多种感觉的参与，让一个关系能够在图像、声音、节奏、空间、行动和语言之间获得不同的形状。
 
-这个取向接续已有的具身与认知讨论。Francisco Varela、Evan Thompson 与 Eleanor Rosch 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)使认知科学与实际经验、修行实践对话；Andy Clark 与 David Chalmers 的[延展心智（1998）](https://www.consc.net/papers/extended.html)考察主动参与活动的环境支持怎样进入认知过程。这里把这些问题带到与模型共同学习之中，具体怎样分配注意力与工作，仍须通过实际使用判断。
+这个取向接续已有的具身与认知讨论。瓦雷拉、汤普森 与 罗施 的[The Embodied Mind（1991）](https://mitpress.mit.edu/9780262220422/the-embodied-mind/)使认知科学与实际经验、修行实践对话；克拉克 与 查尔默斯 的[延展心智（1998）](https://www.consc.net/papers/extended.html)考察主动参与活动的环境支持怎样进入认知过程。这里把这些问题带到与模型共同学习之中，具体怎样分配注意力与工作，仍须通过实际使用判断。
 
 听说读写是进入这种共同活动的四种方式：
 
