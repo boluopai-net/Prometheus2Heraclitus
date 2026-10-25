@@ -334,7 +334,9 @@ def build(repo, revision, english, output, work, sample, diagrams):
         if not members:
             continue
         book['blocks'].append(raw_typst('#part(' + json.dumps(section_title, ensure_ascii=False) + ')'))
-        for path in members:
+        for chapter_index, path in enumerate(members):
+            if chapter_index:
+                book['blocks'].append(raw_typst('#pagebreak(weak: true)'))
             doc = walk(copy.deepcopy(documents[path]), lambda node: transform(node, path))
             name = Path(path).name.split('.')[0]
             blocks = doc['blocks']

@@ -51,7 +51,11 @@
   text(font: ("Helvetica Neue", "PingFang SC"), size: 15pt, weight: "bold", fill: teal, it.body))
 #show heading.where(level: 4): it => block(above: 1.1em, below: 0.5em, text(size: 12pt, weight: "bold", it.body))
 #let part(title) = {
+  pagebreak(weak: true)
   heading(level: 1, title)
+  v(7mm)
+  line(length: 22mm, stroke: 2pt + gold)
+  v(5mm)
 }
 #let chapter-art(path, caption) = {
   block(width: 100%, above: 2mm, below: 7mm)[
