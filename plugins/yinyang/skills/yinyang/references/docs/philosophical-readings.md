@@ -2,10 +2,11 @@
 
 [中文版](philosophical-readings.zh-CN.md) · [Psychological readings](psychological-readings.md) · [Engineering readings](engineering-readings.md)
 
-Use this guide to locate the intellectual sources behind YinYang's arguments.
+Use this guide to locate the intellectual sources behind YinYang's arguments
+and neighboring works that help examine them.
 The [reading map](../reading-map.md) locates the arguments themselves; this page
-explains which originals bear on them and where an interpretation extends its
-source. Select by question and read the relevant passage in context. These
+explains which originals bear on them, which are proposed comparisons, and where
+an interpretation extends its source. Select by question and read the relevant passage in context. These
 sources neither supply a personal portrait nor establish a psychological mechanism.
 
 ## Heraclitus: fire, measure, and opposing tension
@@ -30,6 +31,33 @@ computational representation; B30 does not establish a modern physical theory.
 [Paraconsistent Logic](https://plato.stanford.edu/entries/logic-paraconsistent/)
 explains non-explosive consequence and its difference from dialetheism: tolerating
 inconsistent information need not declare contradictions true.
+
+## Whitehead: process, relations, and the limits of abstraction
+
+Whitehead offers a further comparison for the collection's process ontology;
+this reading route does not mean YinYang has adopted his whole system. Begin
+with a question: when a representation isolates a thing, which relations and
+changes have been left outside it?
+
+| Work and passage | Reading question |
+| --- | --- |
+| [*Science and the Modern World* (1925), chapters III–IV](https://www.gutenberg.org/files/68611/68611-h/68611-h.htm) | How can a useful abstraction be mistaken for concrete reality? Follow the critique of simple location and the fallacy of misplaced concreteness, while retaining the legitimate work abstraction does. |
+| [*The Concept of Nature* (1920), chapters II–III](https://www.gutenberg.org/files/18835/18835-h/18835-h.htm) | How do the critique of nature's bifurcation and the discussion of time connect what is perceived with a wider field of events and relations? |
+| [*Process and Reality*, corrected edition](https://www.simonandschuster.net/books/Process-and-Reality/Alfred-North-Whitehead/9780029345702), Part I, chapter II, and Part III | How do actual entities, prehensions, and concrescence articulate becoming? These are technical terms to follow through their definitions, not interchangeable names for data, input, or computation. |
+
+The corrected edition edited by David Ray Griffin and Donald W. Sherburne
+is identified in the [Whitehead Research Project's edition guide](https://whiteheadresearch.org/research/contemporary-whitehead-studies/proposals/suggested-editions/).
+For help entering its vocabulary, Donald W. Sherburne's
+[*A Key to Whitehead's Process and Reality*](https://press.uchicago.edu/ucp/books/book/chicago/K/bo3637320.html)
+organizes selections around actual entities, concrescence, perception, and their
+connections. It is a guide to the original, rather than a substitute for it.
+
+Read these alongside [World, process, and expression](world-and-expression.md)
+and [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md). The
+comparison asks whether a computational account keeps its abstractions revisable
+and distinguishes represented events from the activity they represent. Shared
+attention to process does not establish agreement between Whitehead's philosophy
+of organism and this collection's physical grounding.
 
 ## YinYang and Taiji
 
@@ -151,6 +179,16 @@ rather than summarizing Buddhist traditions.
 
 Nietzsche's [Thus Spoke Zarathustra, Part One, “The Three Metamorphoses”](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm) presents bearing, negation, and new creation through the camel, lion, and child. [What kind of person do we want to cultivate? — Baby Heraclitus](baby-heraclitus.md) already draws on this line: the child concerns beginning and creating anew, not abandoning judgment or prescribing stages everyone must complete.
 
+For the distinct question of **eternal recurrence**, read
+[*The Gay Science*, §341](https://www.gutenberg.org/files/52881/52881-h/52881-h.htm)
+(Thomas Common's translation is titled *The Joyful Wisdom*), alongside
+*Thus Spoke Zarathustra*, Part III, “The Convalescent,” §2. What would it mean
+to affirm the return of the same life, including its pain and joy?
+[Eternal recurrence and returning to the loops](embodied-experimental-philosophy.md#eternal-recurrence-and-returning-to-the-loops)
+brings that question to a way of working worth returning to. It distinguishes
+Nietzsche's recurrence of the same from experimental returns that permit change;
+the comparison neither identifies the two nor establishes a cosmological claim.
+
 ## James and Bergson: the stream of thought and duration
 
 | Author and original work | Connection in the collection |
@@ -215,7 +253,9 @@ on individuality and experiments of living. These sources clarify the
 questions of description and plural coexistence. The present personal-first
 orientation remains a separately argued choice.
 
-## Inquiry and frameworks: Peirce, Dewey, Carnap, and Feng Ye
+<a id="inquiry-and-frameworks-peirce-dewey-carnap-and-feng-ye"></a>
+
+## Inquiry and frameworks: Peirce, Dewey, and Carnap
 
 [Reasoning](reasoning.md) uses Peirce's [1908 manuscript MS 841](https://fromthepage.com/jeffdown1/c-s-peirce-manuscripts/ms-841-1908-a-neglected-argument-text-and-fragments?page=9)
 to distinguish explanatory hypotheses, experiential consequences, and assessment.
@@ -226,6 +266,22 @@ give inquiry room to propose, act, return, and revise.
 
 Carnap's [*Empiricism, Semantics, and Ontology*](https://ditext.com/carnap/carnap.html)
 distinguishes questions within a framework from its practical adoption.
+Use it to separate reasoning under a chosen arrangement from reconsidering the
+arrangement itself; the collection's experimental application retains its own
+claims and evidence.
+
+## Feng Ye: no-self physicalism, representation, and philosophical method
+
+Feng Ye (叶峰) supplies an existing point of comparison, now developed as a
+reading route of its own. Begin with the Chinese articles for specific questions,
+then follow the book for their wider philosophical setting.
+
+| Work | Reading question |
+| --- | --- |
+| [“为什么相信还原的物理主义” (2017)](https://www.xsyk021.com/article/id/5f3fe6a3-6f09-4779-9b31-33c580cb619f), *Academic Monthly* 49(2), 34–43 | What distinguishes ontological from epistemological reduction, and in-principle reduction from practically achievable reduction? |
+| [“概念分析法：一个物理主义的评估” / “Conceptual Analysis: A Physicalistic Appraisal” (2020)](https://www.xsyk021.com/article/id/3640ef3f-0bdc-4ef1-bdbc-9a17b213e2d2), *Academic Monthly* 52(5), 5–14, 38 | Is conceptual analysis uncovering an existing concept or constructing a replacement? What supports its usefulness and limits its reliability? |
+| [*Studies in No-Self Physicalism* (2023)](https://link.springer.com/book/10.1007/978-981-19-8143-2), chapters 1, 3, 6, and 7 | How does treating the cognitive subject as physical affect accounts of conceptual representation, epistemology, methodology, and ontology? |
+
 [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) compares
 this collection's question-relative account with Professor Feng Ye's
 [*Studies in No-Self Physicalism*](https://link.springer.com/book/10.1007/978-981-19-8143-2),

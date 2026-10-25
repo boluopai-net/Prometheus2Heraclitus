@@ -2,8 +2,9 @@
 
 [English](philosophical-readings.md) · [心理阅读](psychological-readings.zh-CN.md) · [工程阅读](engineering-readings.zh-CN.md)
 
-本指引用于定位阴阳论证背后的思想来源。[阅读地图](../reading-map.zh-CN.md)定位论证本身；
-这里说明哪些原典与之相关，以及解释在哪里超出来源。按问题选择，连同上下文阅读相关段落。
+本指引定位阴阳论证背后的思想来源，以及有助于考察这些论证的邻近著作。
+[阅读地图](../reading-map.zh-CN.md)定位论证本身；这里区分已经使用的来源、建议开展的比较，
+以及超出来源的解释。按问题选择，连同上下文阅读相关段落。
 这些来源既不提供个人画像，也不确立心理机制。
 
 ## 赫拉克利特：火、尺度与对立张力
@@ -24,6 +25,27 @@
 将这项理解接到自然主义、共同的物理实现与计算表征；B30 并未确立现代物理理论。
 [次协调逻辑](https://plato.stanford.edu/entries/logic-paraconsistent/)
 解释非爆炸推论及其与真矛盾论的区别：容纳不一致信息不必承认矛盾为真。
+
+## 怀特海：过程、关系与抽象的限度
+
+怀特海为文集的过程本体论提供进一步比较；这条阅读路径并不表示阴阳已经采纳他的整套体系。
+可以先带着一个问题进入：当一种表征把某个事物单独提取出来时，哪些关系与变化被留在了外面？
+
+| 著作与段落 | 阅读问题 |
+| --- | --- |
+| [《科学与近代世界》（Science and the Modern World，1925）第三、四章](https://www.gutenberg.org/files/68611/68611-h/68611-h.htm) | 有用的抽象怎样被误当作具体实在？沿着「简单定位」与「误置具体性」的批评阅读，同时辨认抽象仍能完成的正当工作。 |
+| [《自然的概念》（The Concept of Nature，1920）第二、三章](https://www.gutenberg.org/files/18835/18835-h/18835-h.htm) | 对自然二分的批评与时间讨论，怎样把感知到的东西接到更广的事件和关系之中？ |
+| [《过程与实在》（Process and Reality）修订版](https://www.simonandschuster.net/books/Process-and-Reality/Alfred-North-Whitehead/9780029345702)，第一部第二章与第三部 | 实际实有、摄受与合生怎样说明生成？这些是需要沿定义理解的技术概念，不能直接替换成数据、输入或计算。 |
+
+[怀特海研究项目的版本指引](https://whiteheadresearch.org/research/contemporary-whitehead-studies/proposals/suggested-editions/)
+列出了 David Ray Griffin 与 Donald W. Sherburne 编辑的修订版。进入这套术语时，也可以参考
+Sherburne 的 [A Key to Whitehead's Process and Reality](https://press.uchicago.edu/ucp/books/book/chicago/K/bo3637320.html)，
+它围绕实际实有、合生、知觉及其联系组织原文选段，是导读而非原著的替代。
+
+与[世界、过程与表达](world-and-expression.zh-CN.md)和
+[有限探究与节制的抽象](finite-inquiry-and-abstraction.zh-CN.md)并读，可以追问：计算说明是否
+让自己的抽象保持可修订，是否区分被表示的事件与实际活动？共同关注过程，并不能确立怀特海的
+有机体哲学与本文集的物理基础完全一致。
 
 ## 阴阳与太极
 
@@ -118,6 +140,13 @@
 
 尼采[查拉图斯特拉如是说，第一部「精神三变」](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm)以骆驼、狮子和孩子呈现承担、否定与新的创造。[我们要培养怎样的人——赫拉克利特宝宝](baby-heraclitus.zh-CN.md)已经借用这一线索：孩子形象关心重新开始与创造，不等于放弃判断，也不是人人必须依次经历的发展阶段。
 
+另一个问题是**永恒轮回**。将[《快乐的科学》第 341 节](https://www.gutenberg.org/files/52881/52881-h/52881-h.htm)
+与《查拉图斯特拉如是说》第三部〈康复者〉第 2 节并读；前一链接的 Thomas Common 英译本题为
+*The Joyful Wisdom*。肯定同一生命连同痛苦和欢乐再次返回，意味着什么？
+[永恒轮回与返回循环](embodied-experimental-philosophy.zh-CN.md#永恒轮回与返回循环)把这个问题
+带到值得重新进入的工作与生活方式，同时区分尼采的同一者轮回与允许变化的实验返回。
+这项比较不把两者等同，也不确立宇宙论主张。
+
 ## 詹姆斯与柏格森：意识流与绵延
 
 | 作者与原典 | 在文集中的联系 |
@@ -169,7 +198,9 @@
 关于名称与个别事物的论述，以及密尔[论自由第三章](https://www.gutenberg.org/files/34901/34901-h/34901-h.htm)
 关于个性与生活试验的论述。它们澄清描述与多元共处的问题，本文的个人优先方向仍是另行论证的选择。
 
-## 探究与框架：皮尔士、杜威、卡尔纳普与 Feng Ye
+<a id="探究与框架皮尔士杜威卡尔纳普与-feng-ye"></a>
+
+## 探究与框架：皮尔士、杜威与卡尔纳普
 
 [推理](reasoning.zh-CN.md)借皮尔士[1908 年手稿 MS 841](https://fromthepage.com/jeffdown1/c-s-peirce-manuscripts/ms-841-1908-a-neglected-argument-text-and-fragments?page=9)
 区分解释假说、经验后果与评估。[具身的实验哲学](embodied-experimental-philosophy.zh-CN.md)
@@ -177,8 +208,22 @@
 经验包含行动与承受后果。这两条路线使探究能够提议、行动、返回与修订。
 
 卡尔纳普的[经验主义、语义学与本体论](https://ditext.com/carnap/carnap.html)
-区分框架内部的问题与实际采用框架。[有限探究与节制的抽象](finite-inquiry-and-abstraction.zh-CN.md)
-将本文集相对于问题的说明，与 Feng Ye 教授的
+区分框架内部的问题与实际采用框架。可以据此区分在选定安排中推理，与重新考虑安排本身；
+文集的实验性应用仍有自身的主张与证据。
+
+## 叶峰：无我物理主义、表征与哲学方法
+
+叶峰（Feng Ye）已经是文集的比较对象，这里将其展开为独立的阅读入口。可以先从中文论文中的
+具体问题进入，再由专著考察它们所处的整体哲学。
+
+| 著作 | 阅读问题 |
+| --- | --- |
+| [《为什么相信还原的物理主义》（2017）](https://www.xsyk021.com/article/id/5f3fe6a3-6f09-4779-9b31-33c580cb619f)，《学术月刊》49(2)，34–43 页 | 本体论还原与认识论还原有什么区别？原则上可还原与实际上能完成的还原，又怎样不同？ |
+| [《概念分析法：一个物理主义的评估》（2020）](https://www.xsyk021.com/article/id/3640ef3f-0bdc-4ef1-bdbc-9a17b213e2d2)，《学术月刊》52(5)，5–14、38 页 | 概念分析是在揭示已有概念，还是构造替代概念？它的实用价值与可靠性限度分别来自哪里？ |
+| [Studies in No-Self Physicalism（2023）](https://link.springer.com/book/10.1007/978-981-19-8143-2)，第 1、3、6、7 章 | 把认知主体理解为物理存在，怎样改变对概念表征、认识论、方法论与本体论的说明？ |
+
+[有限探究与节制的抽象](finite-inquiry-and-abstraction.zh-CN.md)
+将本文集相对于问题的说明，与叶峰教授的
 [*Studies in No-Self Physicalism*](https://link.springer.com/book/10.1007/978-981-19-8143-2)
 比较，尤其涉及 §1.1、§6.5 与 §7.4.2。双方关于有限理解与表征的共同方法论问题，
 并不确立相同的物理实现说明。阴阳采用同一物理现实作为共同基础，同时使用相对于问题的抽象；
