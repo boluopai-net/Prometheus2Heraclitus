@@ -11,13 +11,6 @@ DOCS = 'skills/yinyang/references/docs/'
 SERIES = '/philosophy/'
 STAGE_SLUGS = ('starting-point', 'understanding', 'encounter', 'formation', 'practice')
 SERIES_NAMES = ('窃火，然后成为火', 'Steal Fire, Then Become Fire')
-DIAGRAM_INDEX = [
-    ('formation-path', '全书关系', 'The whole argument'),
-    ('borrowed-fire', '窃火与培养', 'Fire and cultivation'),
-    ('trinity-sinthome', '三位一体与圣状', 'Trinity and sinthome'),
-    ('encounter', '共同探究', 'Shared inquiry'),
-    ('layers', '理解与实现', 'Understanding and realization'),
-]
 GROUPS = [
     ('起点：参加窃火，然后拿火培养自己', 'Starting point: join in stealing fire, then use it to cultivate yourself', [
         ('stealing-fire', '从共同的窃火出发：有限的人怎样参与其中，再用火培养自己的理解、创造与行动？'),
@@ -128,6 +121,9 @@ def book_navigation(current, chinese, title=None):
             nested = '<ul class="book-branches">' + ''.join('<li>' + link(article_url(n, chinese), essay_title(n, chinese, title), current == n) + '</li>' for n in branches) + '</ul>' if branches else ''
             items.append('<li>' + link(article_url(slug, chinese), essay_title(slug, chinese, title), current == slug) + nested + '</li>')
         groups.append(f'<section class="book-stage"><h2>{link(stage_entry(index, chinese), label)}</h2><ol>{"".join(items)}</ol></section>')
+    review_url = '/repositories/prometheus/' + ('' if chinese else 'en/')
+    review_label = '06 · Yinyang 的附录' if chinese else '06 · Yinyang appendices'
+    groups.append(f'<section class="book-stage"><h2>{link(review_url, review_label)}</h2></section>')
     label = '目录' if chinese else 'Contents'
     nav = f'<nav aria-label="{label}" tabindex="0">{"".join(groups)}</nav>'
     status = f'<span class="book-current-context">{html.escape(context)}</span>' if context else ''
@@ -327,8 +323,10 @@ def index_body(chinese, title):
         anchor = f'stage-{index + 1}'
         reason = STAGE_REASONS[index][0 if chinese else 1]
         sections.append(f'<section class="essay-entry stage-entry" id="{anchor}"><div class="essay-meta">{index + 1:02d}</div><div><h2><a href="{stage_entry(index, chinese)}">{html.escape(label)}</a></h2><p class="entry-summary">{html.escape(reason)}</p></div></section>')
-    references = ' · '.join(f'<a href="/repositories/prometheus/diagrams/{slug}/{"" if chinese else "en/"}">{zh if chinese else en}</a>' for slug, zh, en in DIAGRAM_INDEX)
-    review = f'<p class="diagram-references">{references}</p>'
+    review_url = '/repositories/prometheus/' + ('' if chinese else 'en/')
+    review_label = 'Yinyang 的附录' if chinese else 'Yinyang appendices'
+    review_description = '图示、核心观点、阅读来源与六份写作指南，为窃火与 Yinyang 的论述提供相连的参考。' if chinese else 'Diagrams, core views, reading sources, and six writing guides accompany the arguments of stealing fire and Yinyang.'
+    review = f'<section class="essay-entry stage-entry" id="stage-6"><div class="essay-meta">06</div><div><h2><a href="{review_url}">{review_label}</a></h2><p class="entry-summary">{review_description}</p></div></section>'
     return f'<main id="main" class="wrap library-reader commentary philosophy-book book-introduction">{book_navigation("overview", chinese, title)}<article class="document">{heading}{practice_entrance(chinese)}{use_notice}{"".join(sections)}{review}</article></main>'
 
 
@@ -349,7 +347,7 @@ def write_index(dist, title):
         for destination, heading, body in pages:
             page = re.sub(r'<main[\s\S]*?</main>', lambda _: body, template, count=1)
             page = re.sub(r'<title>[\s\S]*?</title>', f'<title>{html.escape(heading)} · boluopai</title>', page, count=1)
-            description = '参加窃火，用火培养自己：连接个人理解、共同实践与持续创造的五部分。' if chinese else 'Join in stealing fire and use it to cultivate yourself: five parts connecting personal understanding, shared practice, and continued creation.'
+            description = '参加窃火，用火培养自己：五部分论述与 Yinyang 的附录，连接个人理解、共同实践与持续创造。' if chinese else 'Join in stealing fire and use it to cultivate yourself: five parts and Yinyang appendices connecting personal understanding, shared practice, and continued creation.'
             page = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(heading + " — " + description)}">', page, count=1)
             if destination == SERIES + suffix:
                 page = with_comments(page, not chinese, 'Philosophy')

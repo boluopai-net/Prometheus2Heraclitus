@@ -104,6 +104,13 @@ def header(page, text):
         unavailable = 'Chinese edition unavailable' if english else '本页暂无英文版'
         switch = f'<span class="language-control unavailable" aria-disabled="true" title="{unavailable}" aria-label="{unavailable}">{language}<span class="unavailable-note"> · {"unavailable" if english else "暂无"}</span></span>'
     section = page.relative_to(root).parts[0]
+    relative = page.relative_to(root).as_posix()
+    if relative in {'repositories/prometheus/index.html', 'repositories/prometheus/en/index.html'} or relative.startswith((
+        'repositories/prometheus/diagrams/',
+        'repositories/prometheus/license/',
+        'repositories/prometheus/source/skills/yinyang/',
+    )):
+        section = 'philosophy'
     nav = []
     home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
     home_current = ' aria-current="page"' if page.relative_to(root).as_posix() in {'index.html', 'en/index.html'} else ''
