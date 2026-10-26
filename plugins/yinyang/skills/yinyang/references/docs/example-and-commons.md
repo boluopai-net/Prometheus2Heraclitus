@@ -25,8 +25,9 @@ the six actual files have distinct responsibilities. The six private actual
 files live under `references/situated/`; permanent public guides live under
 `references/formation/`. Psychological and life material, original expressions,
 and maintained interpretations stay in `references/personal/` or the private
-originals it references. Understanding one's psychology begins with those
-references; the six files select what cooperation and environmental fit require.
+originals it references. The person can read those references or ask a language
+model to help understand them; the six model-facing files select what cooperation
+and environmental fit require.
 For example, a person file can describe useful help during writing while the
 longer inquiry into a recurring fear stays with the personal references.
 Distillation preserves the individual
@@ -34,11 +35,9 @@ differences that matter to collaboration, while keeping detailed evidence
 reachable when needed. Someone adopting these six actual files must form their own
 accounts rather than retain the author's personal substance.
 The private `references/personal/sources.md` entrance leads to that material and
-its interpretations. Revising the six starts with the adopted philosophy and
-fresh relevant histories, updating personal references and correcting their
-interpretations before condensing the working models again. Needed environment
-changes and actual-use checks complete the cycle. Public distribution contains
-neither private working models nor private reference material.
+its interpretations. The [revision method](../formation/revision.md) connects
+changed understanding with the working accounts and actual environment. Public
+distribution contains neither private working models nor private reference material.
 
 A person can make a website for their philosophy while keeping the complete
 personal model private. Public philosophy is an authored work and a selected,

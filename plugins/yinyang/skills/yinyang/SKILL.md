@@ -38,6 +38,13 @@ into intervention instructions. The repository's
 [use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
 owns the evaluation limits and professional-care boundary.
 
+For personal psychological understanding, the person may read `personal` or
+ask a language model to read and help understand it. The separate
+[Psychology guide](references/docs/psychological-support.md) explains practical
+materials and measurement support; specialist methods own that work. Do not
+derive psychological exercises from this philosophy or prescribe rereading the
+six working accounts as self-analysis.
+
 ## Choose the relevant use
 
 These materials support three uses that can overlap without forming a required

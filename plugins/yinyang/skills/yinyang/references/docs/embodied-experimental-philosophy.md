@@ -93,96 +93,61 @@ interpretation, or the arrangement according to what the encounter reveals.
 The life affected by the account keeps contributing evidence and objections
 that its initial prose could not anticipate.
 
-## Rereading one's patterns: philosophical reflection and loosening fantasy
+<a id="rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy"></a>
 
-This section borrows psychoanalytic concepts for philosophical discussion.
-Personal rereading is limited to organizing experience, articulating questions,
-and increasing self-understanding. It supplies no method for self-help
-psychological analysis, assessment, treatment, or traversal of fantasy. Mental
-health concerns call for assessment by qualified professionals. See the
-[use notice](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health).
+## Philosophical reflection, fantasy, and the form of cooperation
 
-Once a personal arrangement becomes stable and usable, a further question remains:
-what does it enable to continue? It may support understanding, creation, and life,
-while also making a repeatedly constraining relationship easier to sustain.
-[Forming a sinthome](writing-a-sinthome.md) therefore opens further work: examining
-both how the arrangement functions and how the person participates in it.
+A usable arrangement still raises a philosophical question: what kind of life
+and participation does it sustain? Greater efficiency does not decide whether
+its purpose is worth pursuing. A model can make an accepted division of work
+easier to maintain while that division continues to exclude possibilities the
+participants have reason to value. [Forming a sinthome](writing-a-sinthome.md)
+therefore concerns both a sustaining arrangement and the meaning of what it
+sustains.
 
-This inquiry first returns to personal material and its maintained interpretations
-under `references/personal/`. This is the entrance for understanding one's own
-psychology: it brings experiences, expression, relationships, and earlier attempts
-to understand them together. Read the adopted personal philosophy, then recover
-relevant recent material from Computer History, conversations, and other histories.
-Add what is missing and correct inaccurate or outdated interpretations there.
-Which descriptions still fit experience? Which concepts and values have revealed
-new questions? Philosophy helps examine these interpretations, while experience
-can change the philosophy. Neither an earlier record nor a coherent explanation
-settles what the person is like.
+Lacan's concept of fantasy contributes a question about the scene through
+which a subject's position and desire acquire their relation. Its philosophical
+interest exceeds identifying a false proposition: an account of independence,
+recognition, or achievement can organize what seems possible and what counts
+as success. The concept has its own psychoanalytic history, developed in the
+[Lacan guide](lacan-reading-guide.md#fantasy-and-its-traversal-the-subjects-position-in-a-relationship). Its use here
+examines the form of a claim and its consequences for cooperation.
 
-One direction of rereading begins with recurring experiences and relational
-patterns in this material. How does the person meet the world and others?
-Whose recognition do they expect, what do they interpret as rejection, what do
-they believe they must become, and how do their actions help sustain these
-expectations? Borrowing Lacan's questions about fantasy, the inquiry concerns a
-relational scene organizing experience and desire, and the position the person
-occupies within it. Fantasy can appear as a recurrent expectation organizing
-relationships: what must I become for the other to give me a place? Its function
-needs to be understood through particular experiences.
+Consider the claim that an action is truly one's own only when every part is
+performed unaided. Within that picture, model assistance already threatens
+agency before any particular collaboration has been examined. Another account
+can locate agency in contributing purposes, generating possibilities, judging
+consequential differences, and changing the arrangement through which work is
+done. Assistance and agency then need not exclude one another. The argument
+changes a philosophical criterion; whether a concrete collaboration supports
+the person remains answerable to its actual conditions and consequences.
 
-Suppose, for example, someone repeatedly believes that a relationship will last
-only if they keep proving useful. Philosophical rereading can ask how personal
-worth relates to usefulness and whether rest belongs to a life they value.
-Relational inquiry further asks what judge they imagine the other to be, what
-position they occupy, and how continual giving, testing, and explaining help
-reproduce this scene. Actual demands, material dependencies, past experiences,
-and present expectations need comparison. Repetition opens an inquiry whose
-explanation remains unsettled.
+“Loosening” in this philosophical comparison names the possibility of questioning
+an exclusive picture and articulating another relation. It is not an exercise
+asking readers to diagnose their fantasies, explain recurring distress, or
+evaluate their own psychological transformation. The human–model role crossing
+in [Yinyang and Taiji](yinyang-and-taiji.md) gives this inquiry a particular
+object: each participant can enter the other's role and return with both
+contributions available. This relation can be examined without turning one's
+psychology into a continuing self-assessment project.
 
-The connected practical direction asks how that renewed understanding should
-change cooperation. The six files under `references/situated/` are personal
-working models: orientation, person, counterpart, relationship, environment,
-and revision organize person–model collaboration and fit the environment to
-the person's psychology, purposes, and circumstances. The person file selects
-understanding relevant to that work; the fuller psychological inquiry remains
-with the personal material. After refreshing that material, condense it together
-with the adopted philosophy into the six working files, enact the needed
-environment changes, and check actual fit. For example, an old account may
-attribute difficulty beginning to fear of evaluation, while recent events show
-that an intrusive interface interrupts an otherwise willing start. Correct the
-interpretation in the personal references, then revise the working account and
-interface accordingly. An easier start supports the arrangement's usefulness;
-it does not certify a psychological explanation.
+Written accounts also have a place within that relation. A model-facing account
+can help a counterpart understand and support a person's participation, while
+a mistaken account can narrow the contribution it makes. Its adequacy is a
+question for model-led examination against the person's purposes, expression,
+and actual work. The person need not repeatedly read a condensed portrait of
+themselves to keep the collaboration corrigible. Their next contribution can
+be an ordinary need, a new idea, or a correction to the work.
 
-Philosophically, treating a requirement as a questionable premise makes other
-ways of participating conceivable. That possibility does not establish a change
-in an actual psychological process. Ordinary use can revise files, tools, and
-working arrangements from explicit purposes and preferences. Explanations of
-psychological mechanisms, distress, or relational change remain questions for
-discussion; they do not justify self-directed intervention or treating later
-changes as therapeutic effects.
-
-The personal interpretations and working files themselves participate in this examination. An account saying “this
-is who I am” may summarize experience or fix a provisional interpretation as an
-identity. The model's explanation may repeat premises both participants share.
-Reading it with particular events, exceptions, and later changes keeps it open
-to correction. Philosophy can also become the object of reflection: an apparently
-higher ideal may give an old self-demand a more elaborate expression.
-
-Lacan's traversal of fantasy and his later work on the sinthome supply connected
-but distinct resources. Their relation remains differently interpreted in
-scholarship. Here they inform philosophical examination of concepts, allowing an
-understanding of relational position and the construction of sustainable
-arrangements to revise one another. See Coffman's
-[discussion](https://doi.org/10.1080/0969725X.2013.869023) of this unfinished relation.
-An insight, agreement, or document revision establishes its particular result;
-traversal in a clinical sense and lasting change in a life each involve further
-processes to understand.
-
-These directions can interweave: philosophy makes a repetition questionable,
-while experience within that repetition calls the philosophy into question.
-The files supply revisitable accounts; life supplies what they have yet to
-understand. Sustaining a livable arrangement and changing one's relation to it
-can consequently continue within the same practice.
+Lacan's traversal of fantasy and his later sinthome retain connected but
+distinct questions: transformation of a subject's relation to a fantasy scene,
+and the singular arrangement that sustains a life. Their connection remains
+disputed; see [Coffman's discussion](https://doi.org/10.1080/0969725X.2013.869023).
+Here these resources develop a philosophical comparison between a sustaining
+form and its possible reorganization. Revising a concept, a document, or a
+working arrangement establishes its particular change, not clinical traversal
+or a therapeutic effect. The philosophical claim can therefore remain open
+to criticism without becoming a method for treating oneself.
 
 ## Two connected loops
 

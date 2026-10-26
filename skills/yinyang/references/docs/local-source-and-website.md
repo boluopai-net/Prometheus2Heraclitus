@@ -54,7 +54,8 @@ An already formed personal model remains answerable to new experiences, works, c
 Here the personal model is a working model for cooperation and for fitting the
 environment to this person's psychology, purposes, and circumstances. Personal
 psychological and life material, including maintained interpretations, belongs
-under `references/personal/`; understanding one's psychology begins there.
+under `references/personal/`, available for the person to read or understand
+with a language model's help.
 The six `references/situated/` files condense what the model needs in work.
 For example, a working account may say to present a draft for comparison, while
 the experiences behind a fear of judgment and competing explanations remain
@@ -67,14 +68,13 @@ The needed counterpart must be understood alongside the person. What does the pe
 
 Prompts, Skills, and harnesses bring these understandings into actual work. Prompts express relevant purposes, context, and contributions; Skills organize reusable methods and resources; a harness arranges models, tools, records, and execution conditions together. The existence of files is not the final result. What matters is whether the model can use them to complete the needed work and whether the person can understand, use, and change the arrangement.
 
-When revising the six working files, first read the adopted personal philosophy
-and retrieve relevant fresh material from Computer History, conversation, and
-other histories. Update or add personal references and correct inaccurate or
-outdated interpretations there. Then condense the philosophy and refreshed
-references into the six files, enact needed environmental changes, and verify
-their fit in actual use. The [revision guide](../formation/revision.md) owns the
-method. This dependency within a revision lets all three contributions continue
-to inform one another across use.
+Revision connects these contributions without making them interchangeable.
+Philosophy can change the meaning of a chosen direction; personal understanding
+can change which contribution fits; engineering can reveal what a proposed
+relationship permits in actual work. The [revision guide](../formation/revision.md)
+owns the method for maintaining the six working files. Their philosophical
+significance lies in this reciprocal dependence: a changed document matters
+through changed understanding, participation, and conditions of use.
 
 <a id="develop-practice-from-existing-capabilities"></a>
 

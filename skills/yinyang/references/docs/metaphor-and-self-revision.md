@@ -140,8 +140,8 @@ in later relationships.
 
 Personal references and working models have connected but different purposes.
 `references/personal/` holds psychological and life material together with
-maintained interpretations; it is the entrance when the question is understanding
-one's own psychology. The six files under `references/situated/` condense what
+maintained interpretations, available for the person to read or understand with
+a language model's help. The six files under `references/situated/` condense what
 the model needs for collaboration and for adapting the person's environment.
 Even the person file is a working understanding of how to participate with this
 person. A description of useful support during writing can belong there, while
@@ -150,14 +150,13 @@ with the personal references. Originals and longer histories remain reachable
 through those references. An image can organize the working understanding,
 while consequential wording or an accurate example constrains its ambiguity.
 
-Revising the six files therefore begins before rewriting their prose. First read
-the adopted personal philosophy, recover relevant recent material from Computer
-History, conversations, and other histories, and update the personal references.
-Correct inaccurate or outdated interpretations there. Then condense the philosophy
-and refreshed references into the six working files, realize the needed changes
-in the environment, and examine their actual fit. The [revision guide](../formation/revision.md)
-develops this cycle. Neither source records nor a successful working arrangement
-guarantee the truth of a psychological explanation.
+Condensation therefore remains answerable to material beyond its compact prose.
+A new formulation can change the counterpart's response, while a new encounter
+can expose what that formulation omitted. The [revision guide](../formation/revision.md)
+owns the method for maintaining the six files. Here the conceptual point is that
+an account preserves revisable relations rather than a final portrait: neither
+source records nor a successful working arrangement guarantees the truth of a
+psychological explanation.
 
 The [guide's account of metaphor, metonymy, and condensation](lacan-reading-guide.md#metaphor-metonymy-and-condensation)
 draws attention to how compact expression can establish new relations rather

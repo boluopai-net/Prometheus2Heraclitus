@@ -24,6 +24,10 @@ Yinyang 以一条核心关系组织协作：人可以进入语言模型式的开
 [用途说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.zh-CN.md#用途与心理健康说明)
 集中说明评估局限与专业照护边界。
 
+理解个人心理时，本人可以看 `personal`，也可以请语言模型帮忙阅读和理解。独立的
+[心理页](references/docs/psychological-support.zh-CN.md)介绍材料与测量方面的实际帮助，
+具体工作由专门方法承担。不从这套哲学推出心理练习，也不建议通过重读六份工作描述开展自我分析。
+
 ## 选择相关的用途
 
 这些材料有三种可以交叠的用途，不构成必须依次完成的步骤：

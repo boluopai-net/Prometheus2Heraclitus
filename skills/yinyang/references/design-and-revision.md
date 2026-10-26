@@ -96,8 +96,11 @@ connected six-file whole. Stored interpretations remain fallible; a usable
 arrangement does not establish psychological truth.
 
 Philosophy and literature develop understanding; working accounts make selected
-meanings usable for judgment and action. Either person or model can read both;
-different uses do not partition access. The revision guide's [writing guidance](formation/revision.md#write-for-the-actual-use)
+meanings usable for model judgment and action. The model carries their reading
+and maintenance. Personal psychological understanding can begin with the person
+reading `personal`, or a language model helping read and understand it; reading
+the six working accounts is not recommended as psychological self-analysis.
+The revision guide's [writing guidance](formation/revision.md#write-for-the-actual-use)
 explains how the six files and their private support state objects, relations,
 grounds, and consequences explicitly. Object-specific directions remain in the
 corresponding writing files below.

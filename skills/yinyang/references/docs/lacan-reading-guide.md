@@ -364,16 +364,19 @@ Its relation to the later **sinthome** retains two questions: how a subject chan
 their dependence on a fantasy scene, and how a singular practice sustains their
 life and jouissance. Scholarship offers different accounts of their connection;
 see [Coffman, 2013](https://doi.org/10.1080/0969725X.2013.869023). In this site's
-contemporary use, examining relational position and constructing sustainable
-arrangements can interweave and revise one another.
+contemporary use, the position a person and model occupy in cooperation and
+the arrangements sustaining that cooperation can change together. This relation
+retains a philosophical connection with Lacan's questions without turning
+clinical traversal into a task for the reader.
 
-The six actual accounts can help organize experiences, articulate questions,
-and increase self-understanding; concepts can also question the accounts' own
-premises. [Rereading one's patterns: philosophical reflection and loosening fantasy](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
-develops this philosophical discussion. It provides no guidance for self-help
-psychological analysis, assessment, treatment, or traversal of fantasy. Model
-interpretations and document revisions do not establish psychological mechanisms,
-clinical traversal, or therapeutic effects.
+The six actual accounts are addressed to the model: they articulate working
+understanding and its implications for cooperation. Personal material under
+`references/personal/` can be read by the person or understood with a language
+model's help; it has a different purpose from those working instructions.
+[Understanding and cooperative arrangements](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops this philosophical discussion. Neither reading personal material nor
+revising a working account establishes psychological mechanisms, clinical
+traversal, or therapeutic effects.
 
 ## Sinthome: from Lacan's question to this site's definition
 

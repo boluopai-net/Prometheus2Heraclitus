@@ -136,11 +136,11 @@ meaning, distinct from increased ability or temporary relief. This contemporary
 cultivation of creative life enters into dialogue with it without treating
 successful technical collaboration as evidence that nirvana has been realized.
 
-Cultivation and loosening grasping can occur within the same activity. A person
-developing a work with a model may also notice how “every work must prove my
-worth” governs their choices. While revising the work, they can try changing
-that demand and observe how finishing, stopping, and beginning again become
-possible. Freedom need not be postponed until sufficient power is acquired;
+Cultivation and loosening grasping can belong to the same conception of a good
+life. A work can matter without having to establish its creator's worth, and
+creative capacity can serve a finite life without making unending production
+its purpose. Finishing, stopping, and beginning again then have a place alongside
+growth. Freedom need not be postponed until sufficient power is acquired;
 letting go need not await the completion of a perfect self.
 
 The raft simile makes this relation between purpose and means more concrete.
@@ -154,17 +154,15 @@ for its own sake. Tools, self-models, and the image of the little fire person
 can contribute while useful and be revised or released when they no longer fit.
 The relation to means thus returns to the freedom cultivation seeks.
 
-Understanding one's own and others' psychology and condensing that understanding
-into personal working models are part of this movement. A person and model can articulate how a wish, a recurring judgment,
-a habit, and an environment sustain one another. Making these relations
-readable gives both participants something to question and use: a description
-of “falling behind” may reveal a desired skill, an imposed comparison, or an
-exhausting demand that calls for changed working conditions. Reading and
-revising the account can alter what the person notices and asks for; the
-counterpart can help realize a different arrangement. Its effects return to
-correct the description. Conceptual clarification and practical change thus
-meet without treating every difficulty as a confusion that language alone
-can remove.
+This freedom also concerns the authority given to a description. “Progress”
+can name an acquired ability, a comparison with others, or a direction chosen
+for a particular life; those meanings do not impose the same demands. Conceptual
+clarification makes the difference intelligible, while an actual arrangement
+gives a chosen direction material consequences. A working account can help a
+counterpart understand which contribution is wanted without becoming the final
+measure of the person. Concepts, descriptions, and arrangements remain means
+within life, answerable to what they enable and what they burden. Their revision
+does not require treating every difficulty as a confusion language can remove.
 
 The little fire person belongs within this revision too. If “keep kindling”
 becomes a command to produce ever more, the character has taken over the
@@ -287,14 +285,14 @@ Understanding the person therefore has a practical task: make enough of their co
 
 This work gives personal references and working models different places.
 `references/personal/` holds psychological and life material and maintained
-interpretations; it is the entrance for understanding one's own psychology.
+interpretations. The person can read this material or ask a language model to
+help understand it; its purpose differs from the model-facing working accounts.
 The six situated files condense what the collaboration needs and how the
 environment should fit this person's psychology, purposes, and circumstances.
 An account of a recurring fear can remain in the references while a working
 file retains the support that helps the next writing task. Their [revision](../formation/revision.md)
-starts by reading the adopted philosophy and refreshing references from relevant
-histories, correcting interpretations before condensing the six files, changing
-the environment, and checking fit. A better arrangement gives evidence about
+connects changed understanding with the model's participation and actual
+environment. A better arrangement gives evidence about
 cooperation without making the psychological interpretation certain.
 
 **Understanding the user, however, has not yet determined how the counterpart should participate.** The same wish can receive different responses: doing the work, explaining, objecting, or trying something together. Someone developing through reading and intuitive judgment may need a different contribution from someone practicing a particular implementation skill. A user portrait alone may leave the default assistant role deciding everything. Calling an agent intelligent, gentle, or strict does not explain why those qualities fit this person. The counterpart model connects this gap: in relation to the person, purposes, and actual work, it articulates what the agent attends to, how it interprets and judges, which work it carries, and when it questions or revises shared understanding. The relationship account connects the contributions without mistaking a division of work for a limit on either participant's abilities.

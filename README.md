@@ -13,6 +13,8 @@ YinYang supports philosophical reading, organizing experiences, revising persona
 
 YinYang must not be used for psychological self-help work, self-diagnosis, mental-health assessment, or treatment. It has not been systematically evaluated for those purposes. When professional assessment or care is needed, seek a qualified professional; the project's texts and model outputs do not replace that service. The work, models, and circumstances change, so a personal experience or version history does not establish a general psychological effect.
 
+The separate [Psychology guide](skills/yinyang/references/docs/psychological-support.md) explains model-assisted organization of personal material, questionnaires, scoring, statistics, and practical support within their own evidence and professional-care limits. It does not derive psychological exercises from the philosophy or make the six working accounts a self-analysis program.
+
 <!-- repository-only:end -->
 
 <!-- repository-only:start -->

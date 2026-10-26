@@ -249,42 +249,36 @@ for different objects, organization, or methods.
 
 <a id="the-person-rereads-the-six-accounts-and-recurring-patterns"></a>
 
-## Reread personal material and assess the working model
+<a id="reread-personal-material-and-assess-the-working-model"></a>
 
-For understanding one's psychological experience, begin primarily with relevant
-`personal` material and its sources: episodes, expressions, relationships,
-reported experience, and tentative interpretations. The model helps locate
-and organize these materials; the person can recognize fit or mismatch, offer
-exceptions, or reconsider a reading. Their preservation supplies material for
-understanding, not a guarantee that an interpretation is correct.
+## Let the model maintain the accounts and check cooperation
 
-Read the six working files for a connected but different question: does this
-understanding lead to a suitable counterpart, division of work, and personal
-environment? Even `situated/person.md` selects what ordinary collaboration
-needs. It does not replace the richer personal material. A useful workflow
-change can establish better fit without validating a psychological explanation.
+The six accounts are working context for the model. The model reads them
+together, checks the grounds of their claims, and maintains the implications
+for its contribution and the personal environment. The person need not read
+these descriptions of themselves or undertake psychological self-analysis to
+receive useful cooperation.
 
-One path brings authored philosophy to the personal reference material and its
-realization: how do these explanations understand self and others, what life
-does the arrangement support, and which values and concepts need revision too?
-Another begins with recurring experiences, comparing what happened, how the
-person understood the other, what response they expected, and how their own
-actions participated in the resulting relationship. Examine actual demands,
-conditions, and dependencies alongside the proposed relational explanation.
+Assess the accounts through the cooperation they support: does the counterpart
+understand the request, carry the appropriate work, incorporate correction,
+and help realize a fitting environment? The person can respond to an actual
+result or explain a mismatch without first auditing a portrait. A useful
+workflow change can establish better fit without validating a psychological
+explanation.
 
-Both paths retain revisable interpretations. Personal rereading is limited to
-organizing experience, articulating questions, and increasing self-understanding.
-Distinguish what the person said, what the model inferred, and what actually
-changed in the environment. Explicit purposes and preferences can inform tool
-and workflow changes. These records are not psychological measurements,
-clinical conclusions, or grounds for self-directed intervention. For mental
-health concerns, use them to communicate with qualified professionals rather
-than undertake self-help psychological analysis, assessment, or treatment.
-[Rereading one's patterns](../docs/embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
-develops the philosophical resources; the
-[use notice](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
-states the evaluation limits. Document revisions and environmental changes
-establish their respective results, not changes in psychological states or mechanisms.
+For personal psychological understanding, the entrance is the private
+`personal` material. The person may read it, or ask a language model to read
+and help understand it. This is not an assignment to analyze their own fantasy,
+reverse their psychological position, or repeatedly evaluate themselves through
+the six working files. The separate [Psychology guide](../docs/psychological-support.md)
+addresses materials, questionnaires, statistics, and practical support.
+
+Philosophy can clarify the concepts and values organizing cooperation. The
+[embodied philosophy essay](../docs/embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
+develops that contribution without prescribing a psychological exercise.
+Keep reported experience, model interpretation, and observed environmental
+change distinguishable. Document revisions and environmental changes establish
+their respective results, not changes in psychological states or mechanisms.
 
 ## Let the whole YinYang revise Skills and the environment
 
