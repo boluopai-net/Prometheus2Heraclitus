@@ -3,6 +3,11 @@
 Use this branch when preparing, revising or validating saved Course material.
 The root Skill owns teaching, evidence, actor and State boundaries.
 
+When a course combines several source formats, apply
+[Course sources and entry](course-sources-and-entry.md) to their selection and
+integration. The documents below serve the learning object across its sources;
+they are not repeated once per medium or incidental reference.
+
 Choose and combine three writing approaches: mathematics, technical study,
 and philosophy. Here technical study is a broad material-organizing category
 that includes scientific investigation, methods and tools, and engineering

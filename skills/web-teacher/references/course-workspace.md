@@ -46,9 +46,12 @@ the materials branch. Existing plan, practice and reading references are sources
 for gradual integration, not a required set of new files. Record the real
 maintained entrypoint and links; do not claim unproduced guides already exist.
 
-Initialize missing Course State by distinguishing no exposure/no evidence from
-failure. Thereafter use the root's Course/Global recovery boundary. A complete
-workspace or successful source check does not establish learner understanding.
+Create Course State when an actual teaching encounter or attributable learner
+history needs recoverable continuation, using the root's State contract. A
+materials-only preparation task records its readiness in the existing material
+index or maintenance record, without creating empty learning State. When State
+is warranted, distinguish no evidence from failure. A complete workspace or
+successful source check does not establish learner understanding.
 
 ## Validate the course mapping and materials
 
