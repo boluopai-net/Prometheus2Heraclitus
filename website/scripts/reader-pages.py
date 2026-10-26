@@ -29,10 +29,17 @@ for en in (False, True):
     if 'class="hero-title-row"' not in home_source:
         home_source = re.sub(r'(<h1 id="hero-title">[^<]+</h1>)', r'<div class="hero-title-row">\1<img class="motif" src="/motifs/sun-river.svg" alt="" aria-hidden="true"></div>', home_source, count=1)
     home_source = re.sub(r'(<p class="eyebrow">[\s\S]*?</p>)\s*(<div class="hero-title-row">[\s\S]*?</div>)', r'\2\1', home_source, count=1)
-    home_source = re.sub(r'(<h2 id="singing-title"><a[^>]*>)[^<]+', lambda match: match[1] + tr('点播台', 'Request station'), home_source, count=1)
+    home_source = re.sub(r'(<h2 id="singing-title"><a[^>]*>)[^<]+', lambda match: match[1] + tr('唱歌点播台', 'Singing station'), home_source, count=1)
+    section_pattern = r'<section id="(?:philosophy|github|singing)"[\s\S]*?</section>'
+    sections = {re.search(r'id="([^"]+)"', section)[1]: section for section in re.findall(section_pattern, home_source)}
+    if set(sections) != {'philosophy', 'github', 'singing'}:
+        raise ValueError('The homepage needs philosophy, resources, and singing sections')
+    home_source = re.sub(section_pattern, lambda match, ordered=iter(('philosophy', 'singing', 'github')): sections[next(ordered)], home_source)
     home.write_text(home_source)
-    home_text = re.sub(r'<!-- READER PATHS START -->[\s\S]*?<!-- READER PATHS END -->', '', home.read_text())
+    home_text = re.sub(r'<!-- READER PATHS START -->[\s\S]*?<!-- READER PATHS END -->(?:\r?\n)?', '', home.read_text())
+    home_text = re.sub(r'<aside class="playground wrap">[\s\S]*?</aside>', '', home_text)
+    home_text = re.sub(r'\s*</main>', '\n</main>', home_text, count=1)
     if 'href="/reader-paths.css"' not in home_text:
         home_text = home_text.replace('</head>', '<link rel="stylesheet" href="/reader-paths.css"></head>')
-    paths = f'''<!-- READER PATHS START --><section class="section wrap reader-paths"><div class="section-heading"><h2><a href="https://github.com/boluopai-net/Prometheus2Heraclitus">{tr('创作','Creation')}</a></h2><img class="motif" src="/motifs/pen.svg" alt="" aria-hidden="true"></div><p>{tr('可以在自己的地方写哲学或其他文章，提及或链接本仓库，让作品彼此相遇；也可以通过 GitHub Issue 提问、纠错、建议，或向 boluopai 点歌。本仓库不接受任何 PR。','Publish your philosophy or other articles in your own space and mention or link this repository. Use GitHub Issues for questions, corrections, suggestions, or song requests to boluopai. This collection does not accept pull requests.')}</p></section><!-- READER PATHS END -->'''
-    home.write_text(home_text.replace('<aside class="playground wrap">', paths+'<aside class="playground wrap">'))
+    paths = f'''<!-- READER PATHS START --><aside class="wrap reader-paths"><p>{tr('可以在自己的地方写哲学或其他文章，提及或链接本仓库，让作品彼此相遇；也可以通过 GitHub Issue 提问、纠错、建议，或向 boluopai 点歌。<a href="https://github.com/boluopai-net/Prometheus2Heraclitus">本仓库</a>不接受任何 PR。','Publish your philosophy or other articles in your own space and mention or link this repository. Use GitHub Issues for questions, corrections, suggestions, or song requests to boluopai. <a href="https://github.com/boluopai-net/Prometheus2Heraclitus">This collection</a> does not accept pull requests.')}</p></aside><!-- READER PATHS END -->'''
+    home.write_text(home_text.replace('</main>', paths+'\n</main>', 1))

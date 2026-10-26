@@ -1,5 +1,9 @@
 # Essay artwork provenance
 
+## 2026-10-27 GitHub section mark
+
+`dist/motifs/github.svg` retains the unchanged white Invertocat path from `GitHub Logos/SVG/GitHub_Invertocat_White_Clearspace.svg` in [GitHub's official logo archive](https://brand.github.com/GitHub_Logos.zip), obtained on 2026-10-27. White outer backing and a black circle behind the mark produce the requested white disk with a black cat in both themes. The mark accompanies the repository link; GitHub retains its trademark rights and [brand guidelines](https://brand.github.com/foundations/logo). `scripts/resource_pages.py` owns its bilingual section placement.
+
 ## 2026-10-16 clarity revision
 
 The preference-harness and finite-inquiry illustrations below were replaced with built-in `image_gen.imagegen` outputs, inspected at full size. Their 1536 × 1024 scenes preserve the existing warm paper, ink and gouache style. Preference is shown as choosing a tree-lined route while checking a bridge report; abstraction is shown as a detailed town beside a simpler map preserving its route connections. Bilingual visible captions and alt text are owned by `scripts/article_art.py`.
