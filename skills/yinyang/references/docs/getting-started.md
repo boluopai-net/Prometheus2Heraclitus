@@ -64,15 +64,15 @@ Among candidates with adequate reliability and capabilities, **assess local and 
 
 [ChatGPT and the API have separate billing](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform). A subscription is not an API balance, and an API balance does not replace a subscription. Explore API billing when you actually build your own API application or choose API authentication. Consult current official prices and availability rather than treating this guide as a fixed shopping list.
 
-### Consider Google AI Pro when you use Google tools regularly
+### Consider Gemini Pro when you use Google tools regularly
 
-**If Google Drive, Gmail, and NotebookLM will form your everyday materials, email, and learning environment, consider purchasing Google AI Pro.** This is Google's personal AI subscription, often informally called a Gemini Pro subscription. It can complement the primary collaboration subscription: the reason to buy includes more convenient storage, email, and source-based learning, as well as another conversational model.
+**If Google Drive, Gmail, and Gemini Notebook will form your everyday materials, email, and learning environment, consider Gemini Pro.** It can complement the primary collaboration subscription: the reason to buy includes more convenient storage, email, and source-based learning, as well as another conversational model.
 
 Consider these benefits together using [Google's current plan comparison](https://one.google.com/about/google-ai-plans/):
 
 - **Storage for files and email:** expanded storage shared across Google Drive, Gmail, and Google Photos, supporting a growing collection of materials, documents, and messages.
 - **AI inside Google apps:** Gemini in supported applications such as Gmail and Docs can assist with email and documents while reducing the need to move content between windows.
-- **Notebook and source research:** higher usage limits for NotebookLM, currently called Gemini Notebook on Google's plan pages, for source-based questions, organizing materials, and learning formats such as Audio Overviews.
+- **Notebook and source research:** higher usage limits for Gemini Notebook for source-based questions, organizing materials, and learning formats such as Audio Overviews.
 
 Drive, Gmail, and the notebook tool already offer free functionality; the subscription adds storage, allowances, and applicable AI benefits. Before buying, use the Google account you intend to keep and check its [plan benefits](https://support.google.com/googleone/answer/14534406?hl=en), regional and language availability, and actual renewal price. Light use within the free allowances may not need an additional subscription. If you already need more storage and regularly work with email and research materials, the combined plan is especially worth comparing.
 
