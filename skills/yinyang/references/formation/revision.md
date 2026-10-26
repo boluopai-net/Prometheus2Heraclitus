@@ -308,8 +308,8 @@ Keep human-facing presentation focused, especially on new pages. Include
 explanations and cautions when they materially change the person's current
 understanding or action; place supporting detail where it can be consulted
 without crowding the main view. Avoid dense small-print defensive prose.
-Omit decorative diagonal external-link arrows (↗); retain arrows that express
-an actual relationship in a diagram.
+Omit arrows in every direction from human-facing page text, buttons, links,
+and navigation. Retain arrows that express an actual relationship in a diagram.
 
 For interfaces, prioritize the complete user path and its visible behavior:
 can the person reach the result, understand the controls, and use them? Check
