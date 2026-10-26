@@ -1,4 +1,4 @@
-"""Render bilingual general and research guides, with existing legacy aliases.
+"""Render bilingual practical guides, with existing legacy aliases.
 
 uv run --with markdown python scripts/render-guide.py --repo /path/to/Prometheus2Heraclitus
 Shared site chrome is projected by refine-navigation.py after both editions exist.
@@ -35,11 +35,27 @@ GUIDES = (
      ('understanding-and-evaluation', 'domain-methods', 'resources', 'learning'),
      'graduation-cap.svg', '广泛阅读，在关键局部练习与复验，再把模型、资源和老师用于学习与研究。',
      'Read widely, practice and revisit consequential details, and use models, resources, and teachers for learning and research.'),
+    ('psychological-support', 'psychology',
+     ('materials', 'questionnaires', 'scoring', 'statistics', 'support', 'scope'),
+     'notebook.svg', '让模型查找和整理材料，协助量表计分与统计，并准备适合当前处境的实际帮助。',
+     'Use models to find and organize materials, check questionnaire scores and statistics, and prepare practical support suited to the situation.'),
 )
 
 
 def route(english, slug='getting-started'):
     return '/' + slug + '/' + ('en/' if english else '')
+
+
+def guide_links(rendered):
+    routes = {stem: slug for stem, slug, *_ in GUIDES}
+
+    def replace(match):
+        stem, chinese, fragment = match.groups()
+        if stem not in routes:
+            return match[0]
+        return f'href="{route(not chinese, routes[stem])}{fragment or ""}"'
+
+    return re.sub(r'href="([\w-]+)(\.zh-CN)?\.md(#[^"]*)?"', replace, rendered)
 
 
 def render(text, section_ids):
@@ -100,7 +116,7 @@ def main():
         )
         if count != 1:
             raise ValueError(f'{source}: expected one source tool map')
-        rendered = render(text, section_ids).replace('<p>', '<p class="guide-lead">', 1)
+        rendered = guide_links(render(text, section_ids)).replace('<p>', '<p class="guide-lead">', 1)
         note_start = rendered.rfind('<p>')
         rendered = rendered[:note_start] + rendered[note_start:].replace('<p>', '<p class="guide-note">', 1)
         rendered = f'<img class="motif guide-motif" src="/motifs/{motif}" alt="" aria-hidden="true">' + rendered
