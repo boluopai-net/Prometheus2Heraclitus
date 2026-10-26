@@ -48,7 +48,7 @@ async function bodyBytes(request, max) {
   for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
   return bytes;
 }
-async function authenticated(request, env) {
+export async function authenticated(request, env) {
   if (typeof env.CONTENT_PUBLISH_KEY !== 'string' || env.CONTENT_PUBLISH_KEY.length < 32) return false;
   const supplied = request.headers.get('authorization') || '';
   const a = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(supplied)));

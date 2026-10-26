@@ -122,7 +122,7 @@ def book_navigation(current, chinese, title=None):
             items.append('<li>' + link(article_url(slug, chinese), essay_title(slug, chinese, title), current == slug) + nested + '</li>')
         groups.append(f'<section class="book-stage"><h2>{link(stage_entry(index, chinese), label)}</h2><ol>{"".join(items)}</ol></section>')
     review_url = '/repositories/prometheus/' + ('' if chinese else 'en/')
-    review_label = '06 · Yinyang 的附录' if chinese else '06 · Yinyang appendices'
+    review_label = 'Yinyang 的附录' if chinese else 'Yinyang appendices'
     groups.append(f'<section class="book-stage"><h2>{link(review_url, review_label)}</h2></section>')
     label = '目录' if chinese else 'Contents'
     nav = f'<nav aria-label="{label}" tabindex="0">{"".join(groups)}</nav>'

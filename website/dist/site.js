@@ -23,6 +23,9 @@
   });
   document.addEventListener('DOMContentLoaded', () => {
     apply();
+    import('./theme-music.js').then(module => module.startSiteMusic()).catch(error => {
+      console.warn('Site music is unavailable:', error.message);
+    });
     document.querySelectorAll('[data-theme-control]').forEach(button => {
       button.addEventListener('click', () => {
         choice = root.dataset.theme === 'dark' ? 'light' : 'dark';

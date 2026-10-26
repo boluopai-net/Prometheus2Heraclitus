@@ -5,6 +5,54 @@ Public personal homepage for `boluopai.net`. The independent owner-private
 
 ## Design and behavior
 
+### Theme music
+
+`dist/theme-music.js` owns the native-audio dock. The shared `site.js` loads it
+on ordinary top-level pages and reads the live `/api/music/catalog`. The owner
+manages an unrestricted choice of tracks through `/music/manage/`, using the
+Site's existing ChatGPT sign-in and server-side `OWNER_EMAIL` (or the stronger
+`OWNER_USER_ID` when configured). The owner explicitly selected self-managed
+audio on 2026-10-26: no fixed three-song catalog and no model approval or
+per-track rights-document gate. No recordings are preloaded by this change.
+An empty or globally disabled playlist does not display a dead public player.
+The footer's Music management link remains available for the owner.
+
+Once activated, the player attempts audible autoplay, handles browser rejection
+with a play button, and persists track, volume, and explicit off/pause choice.
+Per-tab position survives page navigation; full document navigation may have a
+short interruption and another browser playback gate. It does not claim
+gapless navigation or bypass user-agent policy. Collapsing the panel retains
+audio, while Turn music off stops it. Starting other page media pauses the
+theme. Native audio requires no YouTube, tracking embed, or new dependency.
+
+`lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
+is runtime content; it never enters Git or the public source snapshot. The
+interface supports multiple uploads, title/artist editing, ordering, a default
+track, playlist enable/disable, preview, and deletion. Accepted browser audio
+types are MP3, M4A, OGG, FLAC and WAV, with a 32 MiB per-file and 200-track limit.
+NCM is not standard browser audio. The upload UI states these technical limits.
+
+Public GET `/api/music/catalog` exposes only the playlist. GET/HEAD
+`/media/music/<uuid>` serves catalog-listed audio with single-range requests
+and ETags for seeking. `/api/music/session` reports whether the current caller
+may manage music. PUT `/api/music/tracks/<uuid>` uploads a track; PUT
+`/api/music/catalog` edits metadata/order/default; DELETE
+`/api/music/tracks/<uuid>` removes the listing and stored audio. All writes
+require the configured owner identity or existing `CONTENT_PUBLISH_KEY` service
+authority. Native browser writes require an exact same-origin Origin; no CORS
+grant is added. The key is never exposed to the management page. ETag-based
+catalog writes reject stale edits. IDs, details, body limits, and audio signatures
+are checked server-side; caller input cannot select arbitrary R2 keys or URLs.
+
+The Site dispatch owns `/signin-with-chatgpt` and trusted identity headers.
+Do not implement a second password system or rely on hiding the management
+URL. Verification covers anonymous/non-owner denial, owner upload/edit/delete,
+cross-origin rejection, media range delivery, and the public player using a
+short disposable test recording. Browser playback policies remain independent
+of content ownership and can still require a visitor's first click.
+
+### Reading surfaces
+
 White reading companion layout with restrained teal links. The 菠萝派 masthead
 places language and theme controls on its first row; philosophy, singing, and
 GitHub form horizontal section tabs on the second row. The navigation refinement
@@ -233,13 +281,14 @@ records. GitHub Discussions are the only current comment storage. The three
 bilingual streams remain Philosophy, Singing, and resources; the documents hub
 has no separate comment section.
 
-Dependency review (2026-10-12; revisit by 2026-11-12 or before changing runtime
+Dependency review (2026-10-26; revisit by 2026-11-12 or before changing runtime
 routes): npm audit against the official registry reports existing advisories
 in Next/ImageResponse/cache/image routes, RSC server functions, image/source-map
 parsers, and build/dev dependencies (glob/YAML, Undici, Vite, Wrangler, ws).
-No dependencies changed for comment deletion or the content runtime. The custom
-Worker handles the authenticated content publisher, retired APIs and snapshot
-reader; it does not dispatch Next image/SSR/RSC routes, accept anonymous uploads,
+The current audit reports 24 advisories (one critical, 15 high, seven moderate,
+one low). No dependencies changed for the music channel. The emitted custom
+Worker handles authenticated music uploads, content publication, retired APIs and
+snapshot reads; it does not dispatch Next image/SSR/RSC routes, accept anonymous uploads,
 or parse visitor-provided SVG, source maps, YAML, or
 glob patterns. Dev services bind loopback. These advisories are deferred for
 this bounded release based on that inspected entrypoint; this is not a clean

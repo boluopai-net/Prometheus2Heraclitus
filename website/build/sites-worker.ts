@@ -1,9 +1,12 @@
 import { publicApi, privateHeaders } from '../lib/public-api.js';
 import { visitorApi } from '../lib/visitor-api.js';
 import { contentReleaseApi, contentResponse } from '../lib/content-release.js';
+import { siteMusic } from '../lib/site-music.js';
 
 export default {
   async fetch(request: Request, env: Cloudflare.Env) {
+    const music = await siteMusic(request, env);
+    if (music) return music;
     const release = await contentReleaseApi(request, env);
     if (release) return release;
     const visit = await visitorApi(request, env);

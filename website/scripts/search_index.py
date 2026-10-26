@@ -31,6 +31,12 @@ def update_search_index(root):
         if relative.split("/")[0] in {"client", "server", ".openai"}:
             continue
         text = page.read_text()
+        # Owner controls are usable at their URL without joining the reading index.
+        if relative.startswith('music/manage/'):
+            if not re.search(r'<meta[^>]+name=["\']robots["\']', text, re.I):
+                text = text.replace('<head>', '<head><meta name="robots" content="noindex,nofollow">', 1)
+            page.write_text(text)
+            continue
         # The current public-site choice supersedes the former site-wide exclusion.
         text = re.sub(r'<meta\b(?=[^>]*\bname\s*=\s*["\'](?:robots|googlebot|bingbot)["\'])[^>]*>', '', text, flags=re.I)
         url = ORIGIN + "/" + relative.removesuffix("index.html")
