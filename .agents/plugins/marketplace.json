@@ -303,7 +303,7 @@
     },
     {
       "name": "local-teacher",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "Explain, review, and practice in a local environment, developing understanding through real work.",
       "source": {
         "source": "local",
@@ -330,7 +330,7 @@
     },
     {
       "name": "web-teacher",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
       "source": {
         "source": "local",

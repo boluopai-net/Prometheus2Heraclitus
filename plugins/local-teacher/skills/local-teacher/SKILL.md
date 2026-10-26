@@ -219,7 +219,9 @@ The course folder name does not select the mode; mixed objects can use both.
 
 For a course-connected lesson, resolve the real sources through `course/AGENTS.md`
 and the course-local resolver. Read the shared [Course method](../web-teacher/SKILL.md), then
-only its applicable philosophy, material, teaching-method, workspace or learning-path
+use [Course sources and entry](../web-teacher/references/course-sources-and-entry.md)
+when selecting among mixed sources, addressing content gaps, or making the guide's
+starting or resumption unit usable. Then read only applicable philosophy, material, teaching-method, workspace or learning-path
 branches. Apply that method locally without adopting the Web persona or its
 tool routes. Prepare the selected scope, explain from the actual source, and
 maintain requested plans and learning materials under their Course owner.

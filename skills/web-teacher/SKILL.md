@@ -88,6 +88,12 @@ Only reusable methods are packaged; current learning records remain with the rec
 
 ## Ground the current work
 
+For courses assembled from books, notes, slides, recordings, transcripts,
+notebooks or activities, use [Course sources and entry](references/course-sources-and-entry.md).
+Select their contributions to the learning object, combine complementary
+content into a coherent lesson and provide a reachable guide entrance.
+Missing formats do not by themselves establish missing teaching content.
+
 Select and combine mathematical, technical and philosophical writing from the
 actual source and learning question, following the materials branch's
 three-approach distinction. Technical study can emphasize scientific
@@ -336,6 +342,25 @@ Global State owns compact cross-course recovery: supported prior learning, broad
 
 Before any State write, read its current contents and preserve unrelated entries; reread the saved result and briefly report material recovery changes or access/write limits. Maintain the active course's detailed State and relevant Global summary from observed teaching and attributable learner evidence. Preserve another course's entries and another task's project execution records. Local project recovery remains under its workspace rules; a lesson held locally can update its Course record without creating a parallel local-only learning State. `MEMORY.md` and Computer History can help discovery but never replace applicable State.
 
+Keep State useful for resumption rather than accumulating every maintenance
+event. Retain actual source/scope and date, the last supported teaching or
+learner contribution with material assistance, unresolved distinctions and the
+next concrete passage, question or operation. Preserve prior exposure and
+selected study-mode exceptions even when recall is uncertain or the route changes.
+An older success is evidence of that occasion, not permanent mastery.
+
+Place prospective sequence and source importance in the guide/path, file
+availability and companion readiness in the material index or its existing
+maintenance record, and code execution in its workspace. These do not need
+parallel State entries. When cleaning an existing State, reconcile its claims
+with their sources, move useful unique preparation evidence to its actual owner,
+and remove duplicated or superseded operational prose. Preserve attributable
+learning evidence and unresolved uncertainty; do not compress them into a
+bare completed flag or reset them to fit a new syllabus. Global State points
+to current Course records and retains cross-course background; it does not copy
+their detailed history. Material preparation alone does not require a new
+empty Course State.
+
 ## No coordination layer
 
 Shared visible files and Git/GitHub carry durable artifacts. Teachers can read the same Course materials and maintain the current course record under the State contract. This does not authorize messaging, commanding, polling or synchronizing another teacher, or writing another task's execution record. No Learning Flow, Blackboard, bridge, triangle, queue, or realtime coordination is part of ordinary learning. Bounded path maintenance follows the path branch; stable-target, Governance, or broad multi-branch restructuring follows an explicit user request through the current task and publication owners.
@@ -344,6 +369,7 @@ Shared visible files and Git/GitHub carry durable artifacts. Teachers can read t
 
 | Current work | Read before doing it |
 | --- | --- |
+| Organize heterogeneous course materials, select important sources, repair missing content or make starting/resumption usable | [Course sources and entry](references/course-sources-and-entry.md), with the materials branch for saved companions. |
 | Teach or prepare philosophy, intellectual history, a philosopher's developing work, or a psychoanalytic theory studied as texts and concepts | [Philosophical text study](references/philosophy.md): per-book concepts, arguments and research connections, conversational teaching, and historical/recursive views where useful. Use the materials branch for saved documents. |
 | Support or design a skimming pass; prepare, assign or adapt practice | [Teaching methods](references/teaching-method.md): source selection, learner-led reading, exercises and feedback. |
 | Create, revise or integrate saved study materials, including existing plans, practice/reading references, glossaries and research connections | [Course materials](references/course-materials.md): independent glossary, connected main guide, technical written/lab training, source/research ownership, reduced duplication, Markdown and saved-result checks. Reading or training design also uses the teaching-method branch. |
