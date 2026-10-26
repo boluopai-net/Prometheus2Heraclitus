@@ -77,6 +77,20 @@ condensing them again:
    summaries to originals when a consequential claim needs fuller context.
    Histories have different coverage; observing an action does not reveal its
    psychological cause. Use actual authorized sources and state material gaps.
+   When revising personal psychological understanding or its implications for
+   cooperation, actively check relevant completed psychological questionnaires
+   and their original answers and results. They can be the principal material
+   for an update. Locate available records through the person's private source
+   index and actual revision method: a measurement webpage, report, export, or
+   note collection may hold them. Check for relevant new records rather than
+   relying only on an earlier summary. Retain the instrument and version,
+   completion time, response context, and a route to the original record; read
+   these alongside the person's account and relevant experience. Let their
+   specific contribution and limits determine which interpretations they
+   supplement, qualify, or change. Consider new measurement only when the
+   question calls for it; updating an account does not itself require another
+   questionnaire. The [Psychology guide](../docs/psychological-support.md)
+   owns instrument selection, scoring, and measurement interpretation.
 3. **Refresh the personal references.** Add useful new evidence with its source
    and context, linking an existing original rather than copying it unnecessarily.
    Compare it and the philosophy with the maintained interpretations in
