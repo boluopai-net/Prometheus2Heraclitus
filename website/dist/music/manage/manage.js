@@ -10,39 +10,54 @@ let saveTimer,dirty=false,saveChain=Promise.resolve(true);
 function scheduleSave(delay=350){dirty=true;clearTimeout(saveTimer);saveTimer=setTimeout(saveChanges,delay);}
 function saveChanges(){
   clearTimeout(saveTimer);if(!dirty)return saveChain;dirty=false;const draft=collect();
-  saveChain=saveChain.then(async()=>{try{const result=await api('catalog',{method:'PUT',keepalive:true,headers:{'Content-Type':'application/json','If-Match':state.etag||'empty'},body:JSON.stringify(draft)});state.etag=result.etag;message('');return true;}catch(e){message('未能自动保存：'+e.message);return false;}});
+  saveChain=saveChain.then(async()=>{try{const result=await api('catalog',{method:'PUT',keepalive:true,headers:{'Content-Type':'application/json','If-Match':state.etag||'empty'},body:JSON.stringify(draft)});state.etag=result.etag;message('');return true;}catch(e){dirty=true;message('未能自动保存：'+e.message);return false;}});
   return saveChain;
 }
-function setBusy(value){busy=value;document.querySelectorAll('#manager button,#manager input').forEach(el=>el.disabled=value);$('#upload').disabled=value||!$('#files').files.length;}
+function setBusy(value){busy=value;document.querySelectorAll('#manager button,#manager input,#manager select').forEach(el=>el.disabled=value);$('#upload').disabled=value||!$('#files').files.length;updateSelection();}
 async function api(path,options={}){
   const response=await fetch('/api/music/'+path,options);const data=await response.json();
   if(!response.ok)throw Error(response.status===409?'歌单已在其他页面修改，请刷新此页面后再试。':data.error||'操作失败，请刷新页面确认结果。');return data;
 }
 function collect(){
-  return {enabled:$('#enabled').checked,defaultTrack:$('#tracks input[name=default]:checked')?.value||null,tracks:[...document.querySelectorAll('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').value.trim(),artist:state.tracks.find(t=>t.id===row.dataset.id)?.artist||''}))};
+  return {enabled:$('#enabled').checked,defaultTrack:$('#default-track').value||null,tracks:[...document.querySelectorAll('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').textContent,artist:state.tracks.find(t=>t.id===row.dataset.id)?.artist||''}))};
+}
+function updateSelection(){
+  const count=document.querySelectorAll('[data-select]:checked').length;
+  $('#selection-count').textContent=count?'已选 '+count+' 首':'';
+  $('#delete-selected').disabled=busy||!count;
+  $('#select-all').disabled=$('#invert-selection').disabled=busy||!state?.tracks.length;
+}
+async function deleteTracks(ids){
+  if(busy||!ids.length||!confirm('从网站删除所选的 '+ids.length+' 首歌曲？本机原文件不受影响。'))return;
+  setBusy(true);let deleted=0;
+  try{
+    if(!await saveChanges())return;
+    for(const id of ids){const result=await api('tracks/'+id,{method:'DELETE',headers:{'If-Match':state.etag}});state.etag=result.etag;deleted++;}
+    await refresh();message('');
+  }catch(e){
+    message('已删除 '+deleted+' 首；'+e.message);
+    try{await refresh();}catch{}
+  }finally{setBusy(false);}
 }
 function render(){
   $('#enabled').checked=state.enabled;$('#tracks').replaceChildren();$('#empty').hidden=state.tracks.length>0;
+  $('#track-count').textContent=state.tracks.length+' 首';
+  $('#default-track').replaceChildren(...state.tracks.map(track=>new Option(track.title,track.id)));
+  $('#default-track').value=state.defaultTrack||'';
   for(const track of state.tracks){
-    const row=document.createElement('li');row.className='track-row';row.dataset.id=track.id;
-    row.innerHTML='<div class="track-fields"><label>曲名<input data-title type="text" maxlength="200"></label></div><div class="track-actions"><label><input type="radio" name="default"> 默认曲目</label><button data-reorder type="button" draggable="true">拖动排序</button><button data-delete type="button">删除</button></div>';
-    const title=row.querySelector('[data-title]');title.value=track.title;title.oninput=()=>scheduleSave();title.onblur=()=>saveChanges();
-    const radio=row.querySelector('[name=default]');radio.value=track.id;radio.checked=track.id===state.defaultTrack;
-    radio.onchange=()=>scheduleSave(0);
-    const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=track.src;audio.setAttribute('aria-label',track.title);row.append(audio);
-    const handle=row.querySelector('[data-reorder]');
-    handle.setAttribute('aria-label','拖动调整「'+track.title+'」的顺序，也可使用上下方向键');
-    handle.ondragstart=e=>{if(busy){e.preventDefault();return;}draggedRow=row;row.classList.add('dragging');e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',track.id);};
-    handle.ondragend=()=>{row.classList.remove('dragging');draggedRow=null;scheduleSave(0);};
+    const row=document.createElement('li');row.className='track-row';row.dataset.id=track.id;row.draggable=true;row.tabIndex=0;
+    row.setAttribute('aria-label','歌曲 '+track.title+'，可拖拽或用上下方向键排序');
+    row.innerHTML='<input data-select type="checkbox"><span class="drag-mark" aria-hidden="true">⠿</span><span data-title></span>';
+    const checkbox=row.querySelector('[data-select]');checkbox.setAttribute('aria-label','选择 '+track.title);checkbox.onchange=updateSelection;
+    const title=row.querySelector('[data-title]');title.textContent=track.title;title.title=track.title;
+    row.ondragstart=e=>{if(busy||e.target.closest('input,button')){e.preventDefault();return;}draggedRow=row;row.classList.add('dragging');e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',track.id);};
+    row.ondragend=()=>{row.classList.remove('dragging');draggedRow=null;scheduleSave(0);};
     row.ondragover=e=>{if(!draggedRow||draggedRow===row)return;e.preventDefault();e.dataTransfer.dropEffect='move';const box=row.getBoundingClientRect();row.parentElement.insertBefore(draggedRow,e.clientY<box.top+box.height/2?row:row.nextSibling);};
     row.ondrop=e=>{if(draggedRow)e.preventDefault();};
-    handle.onkeydown=e=>{if(e.key==='ArrowUp'&&row.previousElementSibling){e.preventDefault();row.parentElement.insertBefore(row,row.previousElementSibling);}else if(e.key==='ArrowDown'&&row.nextElementSibling){e.preventDefault();row.parentElement.insertBefore(row.nextElementSibling,row);}else return;handle.focus();scheduleSave(0);};
-    row.querySelector('[data-delete]').onclick=async()=>{
-      if(!confirm('从网站删除「'+track.title+'」？本机原文件不受影响。'))return;
-      setBusy(true);try{if(!await saveChanges())return;await api('tracks/'+track.id,{method:'DELETE',headers:{'If-Match':state.etag}});await refresh();message('');}catch(e){message(e.message);}finally{setBusy(false);}
-    };
+    row.onkeydown=e=>{if(busy||e.target!==row)return;if(e.key==='ArrowUp'&&row.previousElementSibling){e.preventDefault();row.parentElement.insertBefore(row,row.previousElementSibling);}else if(e.key==='ArrowDown'&&row.nextElementSibling){e.preventDefault();row.parentElement.insertBefore(row.nextElementSibling,row);}else return;row.focus();scheduleSave(0);};
     $('#tracks').append(row);
   }
+  updateSelection();
 }
 async function refresh(){state=await api('catalog');render();}
 $('#files').onchange=()=>$('#upload').disabled=busy||!$('#files').files.length;
@@ -70,8 +85,8 @@ async function upload(track,audio,progress){
   }
 }
 $('#upload').onclick=async()=>{
-  const files=[...$('#files').files];if(!files.length)return;
-  if(!await saveChanges())return;queue.replaceChildren();message('');
+  const files=[...$('#files').files];if(busy||!files.length)return;
+  setBusy(true);if(!await saveChanges()){setBusy(false);return;}queue.replaceChildren();message('');
   const jobs=files.map(file=>{const row=document.createElement('li'),name=document.createElement('span'),status=document.createElement('span'),bar=document.createElement('progress'),retry=document.createElement('button');name.textContent=file.name;status.textContent='等待中';bar.max=100;bar.value=0;retry.type='button';retry.textContent='重试';retry.hidden=true;row.append(name,status,bar,retry);queue.append(row);return{file,status,bar,retry,done:false};});
   async function run(job){
     job.retry.hidden=true;job.bar.value=0;
@@ -83,12 +98,15 @@ $('#upload').onclick=async()=>{
     }catch(e){job.status.textContent=e.message;job.retry.hidden=false;}
   }
   setBusy(true);let cursor=0;
-  try{await Promise.all(Array.from({length:Math.min(10,jobs.length)},async()=>{while(cursor<jobs.length)await run(jobs[cursor++]);}));$('#files').value='';await refresh();}
+  try{await Promise.all(Array.from({length:Math.min(32,jobs.length)},async()=>{while(cursor<jobs.length)await run(jobs[cursor++]);}));$('#files').value='';await refresh();}
   catch(e){message(e.message);}
   finally{setBusy(false);}
   for(const job of jobs)job.retry.onclick=async()=>{setBusy(true);try{if(!await saveChanges())return;await run(job);await refresh();}catch(e){message(e.message);}finally{setBusy(false);}};
 };
 $('#enabled').onchange=()=>scheduleSave(0);
+$('#default-track').onchange=()=>scheduleSave(0);
+$('#select-all').onclick=()=>{document.querySelectorAll('[data-select]').forEach(input=>input.checked=true);updateSelection();};
+$('#invert-selection').onclick=()=>{document.querySelectorAll('[data-select]').forEach(input=>input.checked=!input.checked);updateSelection();};
+$('#delete-selected').onclick=()=>deleteTracks([...document.querySelectorAll('[data-select]:checked')].map(input=>input.closest('.track-row').dataset.id));
 window.addEventListener('pagehide',()=>saveChanges());
-document.addEventListener('play',e=>{document.querySelectorAll('audio').forEach(a=>{if(a!==e.target)a.pause();});},true);
 try{const session=await api('session');if(session.canManage){$('#manager').hidden=false;await refresh();}else{$('#login').hidden=false;}}catch(e){message(e.message);}

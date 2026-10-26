@@ -1,6 +1,8 @@
 import {Swup,HeadPlugin,ScrollPlugin} from './vendor/navigation/swup.js';
 
 const pageScripts=new Set(['/flow.js','/guide.js','/library.js','/wheel/picker.js','/giscus-comments.js','/reading-map-embed.js','/article-art.js','/repositories/prometheus/vendor/katex/katex.min.js']);
+// Content releases pin assets to a snapshot; page behavior identity stays stable.
+const scriptPath=src=>new URL(src,location.href).pathname.replace(/^\/_content\/[a-f0-9]{64}(?=\/)/,'');
 const ordinaryPage=doc=>!!doc.querySelector('header.header')&&!!doc.querySelector('main');
 function destination(url){
   const target=new URL(url,location.href);
@@ -22,9 +24,9 @@ function wrapPage(doc){
 export function startNavigation(){
   if(window.siteNavigation||window.top!==window||!ordinaryPage(document))return;
   wrapPage(document);
-  const loaded=new Map([...document.querySelectorAll('script[src]')].map(script=>[new URL(script.src).pathname,Promise.resolve()]));
+  const loaded=new Map([...document.querySelectorAll('script[src]')].map(script=>[scriptPath(script.src),Promise.resolve()]));
   function loadScript(info){
-    const path=new URL(info.src,location.href).pathname;
+    const path=scriptPath(info.src);
     if(!pageScripts.has(path)||loaded.has(path))return loaded.get(path);
     const task=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=info.src;if(info.type)script.type=info.type;script.onload=resolve;script.onerror=()=>reject(Error('Could not load '+path));document.head.append(script);});
     loaded.set(path,task);return task;

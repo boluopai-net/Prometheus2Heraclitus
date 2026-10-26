@@ -19,6 +19,7 @@
 .music-tracks strong{font-size:15px;font-weight:500;color:var(--water)}
 .music-tracks span{font-size:12px;color:var(--muted)}
 .music-progress{margin-top:18px}
+.music-mode{position:relative;display:flex;justify-content:flex-end;margin-top:12px}.music-mode svg{display:block;width:22px;height:22px;pointer-events:none}.music-mode-toggle{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--water)!important}.music-mode-wheel{position:absolute;z-index:2;right:0;bottom:44px;display:grid;grid-template-columns:1fr 1fr;width:160px;height:160px;border:1px solid var(--line);border-radius:50%;overflow:hidden;background:var(--paper);box-shadow:0 4px 20px #142e2926}.music-mode-wheel[hidden]{display:none}.music-mode-wheel button{display:grid;place-items:center;border:0;background:transparent;color:var(--water);padding:0}.music-mode-wheel button:nth-child(odd){border-right:1px solid var(--line)}.music-mode-wheel button:nth-child(-n+2){border-bottom:1px solid var(--line)}.music-mode-wheel button:hover{background:var(--surface)}.music-mode-wheel button[aria-pressed="true"]{background:var(--water);color:var(--paper)}.music-mode-wheel button:focus-visible{outline-offset:-4px}
 .music-progress input{width:100%;margin:0;accent-color:var(--water)}
 .music-progress>div{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
 .music-status{margin:8px 0 12px;color:var(--muted);font-size:14px}.music-status:empty{display:none}

@@ -22,6 +22,11 @@ go to native sign-in; other signed-in accounts receive 404.
 
 Once activated, the player attempts audible autoplay, handles browser rejection
 with a play button, and persists track, volume, and explicit off/pause choice.
+Its single playback-mode icon opens a four-quadrant icon wheel. Selecting a
+quadrant closes the wheel and persists one of four browser-local choices: in-order
+(stop after the last track), repeat playlist (the initial default), repeat track,
+or shuffle (exclude the current track when alternatives exist). Automatic track
+changes reset the retained playback position for the new track.
 Ordinary internal navigation uses `site-navigation.js` and a persistent music
 shell. Only `#site-page` is replaced; the same audio instance and controls remain
 outside it, including on language changes and browser history visits. Per-tab
@@ -36,7 +41,12 @@ theme. Native audio requires no YouTube or tracking embed.
 animation, comments, diagram-frame and wheel scripts register scoped initializers
 with `sitePage`; navigation aborts their listeners and disposes their observers
 and animation work before mounting the replacement page. Scripts load once,
-with KaTeX ready before reader initialization. Native same-page anchors retain
+with KaTeX ready before reader initialization. Script identity and allowlisting strip
+the immutable `/_content/<digest>/` prefix while fetching the original pinned
+URL, so entering a page for the first time after navigation loads its initializer.
+`scripts/test-site-navigation.mjs` exercises pinned assets, canvas readback and
+uninterrupted audio through header navigation and browser history.
+Native same-page anchors retain
 their history and disclosure behavior. Authentication, downloads and standalone
 documents use native navigation; unsupported documents and failed script loads
 fall back explicitly to that route. Legacy creation-method package links keep
@@ -51,13 +61,16 @@ the license banner. There is no runtime CDN or application-framework migration.
 
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
 is runtime content; it never enters Git or the public source snapshot. The
-interface supports multiple uploads, title editing, ordering, a default
-track, playlist enable/disable, preview, and deletion. A ten-file worker queue
+interface supports multiple uploads, ordering, a default
+track, playlist enable/disable, and selected-track deletion. A 32-file worker queue
 overlaps local NCM decoding and multipart transfers, with per-file progress and
 independent failure/retry. Larger selections wait in the same queue. Only the
 final shared-catalog publication is serialized to avoid needless write conflicts.
-The desktop playlist reorders by dragging its per-track handle; the same focused
-handle supports keyboard movement. Titles, row order, default track, and the
+The compact management list shows a total count without per-track audio players.
+Rows reorder directly by dragging their grip/row area; a focused row also
+supports arrow-key movement. Selection supports select-all and invert, with
+one confirmation and sequential ETag-aware deletes. One global selector sets
+the first-play default track. Track titles are read-only. Row order, default track, and the
 enabled setting save automatically through a serialized write chain. There are
 no manual save/refresh controls or editable artist fields; metadata artists
 remain attached to recordings. The interface shows in-flight file progress and
