@@ -36,7 +36,9 @@ export function startNavigation(){
     return target.origin!==location.origin||(target.pathname===location.pathname&&target.search===location.search&&!!target.hash)||/^\/(?:api|media|music|auth|signin-with-chatgpt)(?:\/|$)/.test(target.pathname)||/\.(?:pdf|png|jpe?g|svg|webp|zip|mp3|flac|wav)$/i.test(target.pathname);
   };
   const swup=new Swup({
-    containers:['#site-page'],animationSelector:false,animateHistoryBrowsing:true,cache:true,ignoreVisit,skipPopStateHandling:()=>false,
+    // Keep the rendered old view until head assets, scoped initializers and
+    // scroll restoration finish; replacing styles must never expose old markup.
+    containers:['#site-page'],native:true,animationSelector:false,animateHistoryBrowsing:true,cache:true,ignoreVisit,skipPopStateHandling:()=>false,
     plugins:[new HeadPlugin({awaitAssets:true,persistTags:'script[src],link[data-site-persistent]'}),new ScrollPlugin({animateScroll:false,offset:target=>(parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0)+(target?parseFloat(getComputedStyle(target).scrollMarginTop)||0:0)})]
   });
   window.siteNavigation=swup;
@@ -47,7 +49,12 @@ export function startNavigation(){
     const target=new URL(link.getAttribute('href'),location.href);
     if(target.origin===location.origin&&target.pathname===location.pathname&&target.search===location.search&&target.hash)rememberScroll();
   },true);
-  swup.hooks.before('visit:start',visit=>{if(!visit.history.popstate)rememberScroll();});
+  swup.hooks.before('visit:start',visit=>{
+    if(!visit.history.popstate)rememberScroll();
+    // Fetch readiness belongs before the native snapshot, whose update callback
+    // must stay short even on a slow connection.
+    visit.animation.wait=true;
+  });
   window.addEventListener('popstate',event=>{
     const current=new URL(swup.location.url,location.href);
     if(current.pathname!==location.pathname||current.search!==location.search)return;
@@ -57,9 +64,38 @@ export function startNavigation(){
     });
   });
   window.siteNavigate=url=>{const target=destination(url);return ignoreVisit(target.href)?location.assign(target.href):swup.navigate(target.href);};
-  swup.hooks.on('page:load',(visit,{page})=>{
+  const clearPreloads=visit=>{
+    for(const link of visit.meta.assetPreloads||[]){
+      // A removed pending link need not emit load/error. Release its waiter too.
+      link.onload?.();link.onload=link.onerror=null;link.remove();
+    }
+    visit.meta.assetPreloads=[];
+  };
+  swup.hooks.on('visit:abort',clearPreloads);
+  swup.hooks.on('visit:fail',clearPreloads);
+  swup.hooks.on('page:load',async(visit,{page})=>{
     const incoming=new DOMParser().parseFromString(page.html,'text/html');
-    if(!ordinaryPage(incoming)){visit.ignore();location.assign(visit.to.url+visit.to.hash);}
+    if(!ordinaryPage(incoming)){visit.ignore();location.assign(visit.to.url+visit.to.hash);return;}
+    // Warm new styles/scripts without applying CSS to the still-visible page.
+    // The head plugin can then preserve its original cascade order at commit.
+    const assets=[...incoming.querySelectorAll('link[rel="stylesheet"][href],script[src]')].filter(node=>{
+      if(node.tagName==='SCRIPT')return pageScripts.has(scriptPath(node.src))&&!loaded.has(scriptPath(node.src));
+      return ![...document.querySelectorAll('link[rel="stylesheet"][href]')].some(link=>link.href===node.href);
+    });
+    visit.meta.assetPreloads=[];
+    try{
+      await Promise.all(assets.map(asset=>new Promise((resolve,reject)=>{
+        const link=document.createElement('link');
+        link.rel=asset.type==='module'?'modulepreload':'preload';link.as=asset.tagName==='SCRIPT'?'script':'style';link.href=asset.src||asset.href;
+        if(asset.hasAttribute('crossorigin'))link.crossOrigin=asset.crossOrigin;
+        link.onload=resolve;link.onerror=()=>reject(Error('Could not preload '+link.href));
+        visit.meta.assetPreloads.push(link);document.head.append(link);
+      })));
+    }catch(error){
+      clearPreloads(visit);
+      if(!visit.done){visit.ignore();location.assign(visit.to.url+visit.to.hash);}
+    }
+    if(visit.done)clearPreloads(visit);
   });
   swup.hooks.before('content:replace',visit=>{
     const incoming=visit.to.document;
@@ -76,7 +112,7 @@ export function startNavigation(){
       window.sitePages.mount();
       document.dispatchEvent(new Event('site:language'));
       const main=document.querySelector('main');main?.setAttribute('tabindex','-1');main?.focus({preventScroll:true});
-    }catch(error){visit.ignore();location.assign(visit.to.url+visit.to.hash);}
+    }catch(error){visit.ignore();location.assign(visit.to.url+visit.to.hash);}finally{clearPreloads(visit);}
   });
   // Expand a native disclosure before the scroll plugin resolves its anchor.
   swup.hooks.before('scroll:anchor',(_visit,{hash})=>{

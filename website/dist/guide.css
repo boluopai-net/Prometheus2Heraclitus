@@ -36,6 +36,8 @@
 .library-hub .library-section h2[id],.library-hub #diagrams{scroll-margin-top:32px}
 .library-hub .library-section{padding-top:24px}
 .library-hub .library-section h2{margin-top:16px}
+.library-hub .diagram-disclosure:not([open]){margin-bottom:0;border-width:0 0 1px;padding-inline:0}
+.library-hub .diagram-disclosure:not([open])+.library-section{padding-top:0}
 .practical-guide article h2[id]{scroll-margin-top:32px}
 .guide-table{width:100%;margin:24px 0 32px;overflow-x:auto}
 .guide-table table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.75;table-layout:fixed}
