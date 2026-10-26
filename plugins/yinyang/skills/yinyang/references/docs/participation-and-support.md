@@ -65,8 +65,8 @@ Listening, speaking, reading, and writing are four ways into this shared activit
 
 | Mode | What the person practices | How the model makes the practice available |
 | --- | --- | --- |
-| Listening | Recognize relations through sound, tone, rhythm, and overall meaning; sense a mismatch; listen to the responsive rubber duck. | Offer explanations that can be heard and answered, and receive expression that is not yet complete. |
-| Speaking | Express intuitions, images, questions, and judgments so a conception becomes communicable; talk with the responsive rubber duck. | Develop the expressed relations and contribute explanations and objections that both can revise. |
+| Listening | Recognize relations through sound, tone, rhythm, and overall meaning; sense a mismatch; listen to your own words as you speak. | Offer explanations that can be heard and answered, and receive expression that is not yet complete. |
+| Speaking | Express intuitions, images, questions, and judgments so a conception becomes communicable; address a silent rubber duck and hear your own words as you speak. | Develop the expressed relations and contribute explanations and objections that both can revise. |
 | Reading | Encounter philosophy, texts, images, diagrams, works, and results broadly; understand wholes and compare possibilities. | Retrieve originals, check details and grounds, and make consequential relations visible through fitting representations. |
 | Writing | Give an emerging understanding a form through ideas, critiques, intention drafts, or prototype expressions; write philosophy. | Continue into complete arguments, code, files, or working creations, then maintain and verify the result. |
 
@@ -92,10 +92,10 @@ through encountering and changing what it makes available. The person can
 still write prompts and idea drafts, and both can reason through different
 modalities. These are chosen primary entrances, not exclusive capacities.
 
-Speaking can work like rubber-duck reasoning with a responsive counterpart:
-the person generates by talking, and the model receives the unfinished idea,
-understands its connections, offers a correction or question where useful,
-and helps the person continue generating. The channel matters. A model given
+Speaking can work like rubber-duck reasoning: the person addresses a silent
+rubber duck while hearing their own words and revising an unfinished idea; the
+model's actual reply is separate, developing the idea's connections or offering
+a useful correction or question. The channel matters. A model given
 a transcript reads words that may contain transcription errors; actual audio
 input may also make sound, tone, or rhythm available. Careful understanding
 does not by itself establish that a text-only model heard the voice. Listening,
