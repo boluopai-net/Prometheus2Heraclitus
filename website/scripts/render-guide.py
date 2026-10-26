@@ -28,7 +28,7 @@ LEGACY_TOPICS = {
     'automation': 'automation',
 }
 GUIDES = (
-    ('getting-started', 'getting-started', SECTION_IDS, 'axe.svg',
+    ('getting-started', 'getting-started', SECTION_IDS, 'earth.svg',
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',

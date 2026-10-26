@@ -6,7 +6,7 @@ from repository_panel import comments
 
 def render(dist, shell):
     entries = [
-        ('getting-started', '工具使用', 'Using the Tools', 'axe.svg',
+        ('getting-started', '工具使用', 'Using the Tools', 'earth.svg',
          '从订阅、全局提示词和搜索起步，接通母语阅读、个人哲学、Web 与本地、云盘和配置仓库。',
          'Begin with a subscription, global instructions, and search. Connect native-language reading, personal philosophy, Web and local work, Drive, and configuration.'),
         ('research-learning', '科研与学习', 'Research and Learning', 'phi.svg',
