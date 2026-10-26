@@ -558,8 +558,10 @@ and `/reading/yinyang.en.pdf`, linked from the philosophy entrance. These are
 reading projections, not Skill packages or replacements for the public source.
 The canonical prose remains in the public YinYang package. The PDF builder
 reads an exact committed source revision; the main sequence comes from
-`commentaries.py` and its one branch, followed by public writing guides and
-reading references. Private actual files and personal evidence are excluded.
+`commentaries.py` and its one branch (parts 01–05), followed by the public
+appendices in part 06 and three complete practical guides in part 07:
+Tool use, Research and Learning, and Psychology. The Skills directory is not
+included. Private actual files and personal evidence are excluded.
 “Steal Fire, Then Become Fire” names the complete nineteen-essay main sequence,
 not just its opening essay. Core views follows that whole sequence and its
 existing focused extension. Figures use `reading_maps.diagram_placements`,

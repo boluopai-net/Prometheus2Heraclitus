@@ -86,13 +86,12 @@ def book_paths(english):
             for parent, branches, _ in BRANCHES:
                 if parent == name:
                     members.extend('references/docs/' + branch for branch in branches)
-        sections.append((en if english else zh, members))
-    sections.append(('回看与选读' if not english else 'Review and selective reading', ['references/docs/core-views']))
-    appendix_titles = [('附录一 · 哲学与模型', 'Appendix I · Philosophy and models'),
-                       ('附录二 · 六份写作指南', 'Appendix II · Six writing guides'),
-                       ('附录三 · 参考阅读', 'Appendix III · Further reading'),
-                       ('附录四 · 阴阳 Skill 的形式', 'Appendix IV · The YinYang Skill')]
-    sections.extend((titles[english], list(paths)) for titles, paths in zip(appendix_titles, APPENDICES))
+        sections.append((f'{len(sections) + 1:02d} · ' + (en if english else zh), members))
+    sections.append(('06 · YinYang appendices' if english else '06 · 阴阳的附录',
+                     ['references/docs/core-views'] + [path for group in APPENDICES for path in group]))
+    sections.append(('07 · Resources and advice' if english else '07 · 资料与建议',
+                     ['references/docs/' + name for name in
+                      ('getting-started', 'research-and-learning', 'psychological-support')]))
     return [(title, [PACKAGE + name + edition for name in members]) for title, members in sections]
 
 
@@ -106,6 +105,7 @@ def prepare_markdown(text):
     text = re.sub(r'^---\n[\s\S]*?\n---\n', '', text)
     text = re.sub(r'<!-- repository-only:start -->[\s\S]*?<!-- repository-only:end -->', '', text)
     text = re.sub(r'<details>\s*<summary>(?:本篇导航|On this page)</summary>[\s\S]*?</details>', '', text)
+    text = re.sub(r'(?:^## [^\n]+\n\s*)?<nav class="guide-navigation"[^>]*>[\s\S]*?</nav>', '', text, flags=re.M)
     text = re.sub(r'<a\s+id="([^"]+)"\s*></a>', r'[]{#\1}', text)
     text = re.sub(r'<summary>(.*?)</summary>', r'\n\n**\1**\n\n', text, flags=re.S)
     text = re.sub(r'</?details[^>]*>', '', text)
@@ -125,12 +125,14 @@ def intro(english, revision, stamp):
     if english:
         return f'''# Reading this edition
 
-This book collects YinYang's public philosophical essays and writing guides.
+This book collects YinYang's public philosophical essays, writing guides, and practical resources.
 Its five-part main sequence, Steal Fire, Then Become Fire, contains nineteen
 essays and a focused extension, following the website's argument. Core views
-comes after that sequence. The appendices explain the connection between
+comes after that sequence in part 06. These appendices explain the connection between
 philosophy and models and provide six public writing guides, further reading,
-and the Skill's package guide. Private situated accounts and personal material
+and the Skill's package guide. Part 07, Resources and advice, collects Tool use,
+Research and Learning, and Psychology; it does not include the Skills directory.
+Private situated accounts and personal material
 are excluded.
 
 You can follow the argument in order or enter through a question of your own.
@@ -158,8 +160,7 @@ on the website, scaled proportionally to the portrait page. This edition preserv
 the original prose while adapting navigation, pagination, and figure presentation
 for continuous reading. External references retain their source links; the
 author's repository and website locators are gathered here at the front. The
-practical [tool guide]({SITE}/getting-started/en/) and
-[research and learning guide]({SITE}/research-learning/en/) remain online.
+practical guides are included in full at the end of this edition.
 
 Generated {stamp} (Asia/Shanghai), from public source
 [{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang).
@@ -167,9 +168,10 @@ Generated {stamp} (Asia/Shanghai), from public source
 '''
     return f'''# 怎样读这本书
 
-本书收录阴阳的公开哲学论述与写作指南。正文「窃火，然后成为火」分为五部分，包含十九篇
-主线文章及一篇专题延伸，沿用网站的论述顺序；其后是「基本观点」。附录说明哲学与模型的
-连接，并收录六份公开写作指南、参考阅读及 Skill 的形式说明。私人实际文件与个人材料不在
+本书收录阴阳的公开哲学论述、写作指南与实用资料。正文「窃火，然后成为火」分为 01—05 五部分，包含十九篇
+主线文章及一篇专题延伸，沿用网站的论述顺序。06「阴阳的附录」从「基本观点」开始，说明哲学与模型的
+连接，并收录六份公开写作指南、参考阅读及 Skill 的形式说明。07「资料与建议」完整收录
+「工具使用」「科研与学习」「心理」，不收录 Skills 目录。私人实际文件与个人材料不在
 本书收录范围内。
 
 阅读可以沿论证顺序展开，也可以从自己的问题进入。**非文史哲背景的读者，建议先选读相关的
@@ -186,7 +188,7 @@ Generated {stamp} (Asia/Shanghai), from public source
 目录、PDF 书签与青色链接用于跳转到文章、图示和具体章节。五张关系图放在与网页相同的
 正文位置，按纵向书页等比例缩放。本版保留原文，为连续阅读调整导航、分页和图示呈现。
 外部文献保留来源链接，作者自己的仓库和网页出处集中列在书首；
-[工具使用]({SITE}/getting-started/)与[研究和学习建议]({SITE}/research-learning/)另供在线阅读。
+三篇实用指南收录于书末，可由目录直接进入。
 
 生成日期：{stamp}（北京时间）。
 公开内容版本：[{revision[:12]}]({GITHUB}/tree/{revision}/skills/yinyang)。
@@ -272,6 +274,7 @@ def build(repo, revision, english, output, work, sample, diagrams):
             article = re.fullmatch(r'/philosophy/([^/]+)/(?:en/)?', parsed.path)
             document = re.fullmatch(r'/repositories/prometheus/source/(.+)\.html', parsed.path)
             figure = re.fullmatch(r'/repositories/prometheus/diagrams/([^/]+)/(?:en/)?', parsed.path)
+            guide = re.fullmatch(r'/(getting-started|research-learning|psychology)/(?:en/)?', parsed.path)
             if figure and figure[1] in figure_names:
                 internal += 1
                 return '#figure-' + figure[1]
@@ -279,6 +282,9 @@ def build(repo, revision, english, output, work, sample, diagrams):
                 absolute_target = PACKAGE + 'references/docs/' + article[1] + ('.md' if english else '.zh-CN.md')
             elif document:
                 absolute_target = document[1] + '.md'
+            elif guide:
+                name = {'getting-started': 'getting-started', 'research-learning': 'research-and-learning', 'psychology': 'psychological-support'}[guide[1]]
+                absolute_target = PACKAGE + 'references/docs/' + name + ('.md' if english else '.zh-CN.md')
             else:
                 return None
         elif parsed.netloc.lower() == 'github.com' and parsed.path.lower().startswith(('/boluopai-net/', '/sun2prometheus/')):

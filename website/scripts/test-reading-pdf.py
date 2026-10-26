@@ -9,6 +9,18 @@ spec.loader.exec_module(builder)
 
 
 class ReaderRegression(unittest.TestCase):
+    def test_practical_guides_are_collected_without_duplicate_web_navigation(self):
+        for english in (False, True):
+            suffix = '.md' if english else '.zh-CN.md'
+            sections = builder.book_paths(english)
+            self.assertEqual(sections[-1][1], [builder.PACKAGE + 'references/docs/' + name + suffix
+                             for name in ('getting-started', 'research-and-learning', 'psychological-support')])
+        source = '# Psychology\n\n## Page navigation\n\n<nav class="guide-navigation" markdown="1">\n- [Materials](#materials)\n</nav>\n\n## Materials\n\nUseful explanation.'
+        result = builder.prepare_markdown(source)
+        self.assertNotIn('Page navigation', result)
+        self.assertNotIn('<nav', result)
+        self.assertIn('## Materials\n\nUseful explanation.', result)
+
     def test_navigation_is_removed_when_language_link_is_not_first(self):
         for navigation in (
             '[阴阳说明](../../README.zh-CN.md) · [实践说明](creation-method.zh-CN.md) · [English](participation-and-support.md)',
