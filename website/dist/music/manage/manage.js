@@ -7,7 +7,7 @@ async function api(path,options={}){
   if(!response.ok)throw Error(response.status===409?'歌单刚刚有变化，请重新读取后再操作。':data.error||'操作失败，请重新读取确认结果。');return data;
 }
 function collect(){
-  return {enabled:$('#enabled').checked,defaultTrack:$('#tracks input[name=default]:checked')?.value||null,tracks:[...$('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').value.trim(),artist:row.querySelector('[data-artist]').value.trim()}))};
+  return {enabled:$('#enabled').checked,defaultTrack:$('#tracks input[name=default]:checked')?.value||null,tracks:[...document.querySelectorAll('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').value.trim(),artist:row.querySelector('[data-artist]').value.trim()}))};
 }
 function render(){
   $('#enabled').checked=state.enabled;$('#tracks').replaceChildren();$('#empty').hidden=state.tracks.length>0;
