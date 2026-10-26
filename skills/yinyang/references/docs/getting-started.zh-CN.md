@@ -64,6 +64,18 @@
 
 [ChatGPT 与 API 分开计费](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)。订阅不等于 API 余额，API 余额也不替代订阅。只有你要做自己的 API 程序或确实选择 API 登录时，才需要另行了解这条计费路线。价格与支持情况请看官方当前页面，不在这里固定一个购买清单。
 
+### 经常使用 Google 工具时，建议考虑 Google AI Pro
+
+**如果准备把 Google Drive、Gmail 和 NotebookLM 作为日常资料、邮件与学习环境，建议考虑购买 Google AI Pro。**这是 Google 面向个人的 AI 订阅，也是通常所说的 Gemini Pro 订阅。它可以作为主协作订阅之外的一项配套投入：购买理由不仅是多一个聊天模型，还包括把云盘、邮件和基于资料的学习工具用得更方便。
+
+按 [Google 当前的套餐说明](https://one.google.com/about/google-ai-plans/)，可以把这些权益合起来判断：
+
+- **云盘与邮箱容量：**扩展 Google Drive、Gmail 和 Google Photos 共用的存储空间，便于持续保存资料、文档和邮件。
+- **Google 应用内的 AI：**在 Gmail、Docs 等支持的应用中使用 Gemini，辅助处理邮件和文档，减少在不同窗口之间搬运内容。
+- **笔记与资料研究：**获得 NotebookLM（当前官方页面称 Gemini Notebook）更高的使用额度，用于围绕已有来源提问、整理材料和生成音频概览等学习内容。
+
+Drive、Gmail 和笔记工具本身已有免费功能；订阅增加的是容量、额度和相应 AI 权益。购买前用准备长期使用的 Google 账号核对[方案权益](https://support.google.com/googleone/answer/14534406?hl=zh-Hans)、所在地区与语言支持，以及实际续费价格。若只是轻量使用且免费额度够用，可以暂不加购；若本来就需要云盘扩容，又会经常处理邮件和研究资料，这种组合订阅更值得一起比较。
+
 ### 让模型帮助准备工作方式
 
 全局提示词先写少量真正贯穿工作的安排：你希望怎样参与，哪些工作由模型承担，怎样使用母语与英文，文件和结果保存在哪里，以及模型怎样把事情完成并让你看见。可以先让 Web 模型帮助成文，再由本地模型放到客户端实际读取的位置，检查它是否生效。你提供目的和修正，不必自己维护一整套指令文件；提示词也会随使用而修改。
