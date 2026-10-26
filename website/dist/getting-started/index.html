@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><link rel="canonical" href="https://boluopai.net/getting-started/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>工具使用 · boluopai</title><meta name="description" content="工具使用 — 从实际任务开始，了解工具、协作、学习与持续维护。"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/guide.css?v=8fa7af6e57e7"><link rel="icon" href="/mark.svg"><script defer src="/guide.js"></script><link rel="stylesheet" href="/site.css?v=9ca629171f79"><script src="/site.js"></script></head>
+<title>工具使用 · boluopai</title><meta name="description" content="工具使用 — 从实际任务开始，了解工具、协作、学习与持续维护。"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/guide.css?v=5eba151a1ad3"><link rel="icon" href="/mark.svg"><script defer src="/guide.js"></script><link rel="stylesheet" href="/site.css?v=9ca629171f79"><script src="/site.js"></script></head>
 <body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/getting-started/en/" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学</a><a href="/repositories/" aria-current="page">资料与建议</a><a href="/singing/">唱歌</a></nav></header>
 <main id="main" class="wrap practical-guide"><a class="back" href="/repositories/">资料与建议</a><div class="guide-layout"><aside class="guide-sidebar"><nav aria-label="本文章节"><ul><li><a href="#foundation" aria-current="location">1. 设备与网络：先让现有电脑能工作</a></li><li><a href="#subscription">2. 从订阅到全局提示词与关键 Skills</a></li><li><a href="#reading">3. 翻译与母语阅读</a></li><li><a href="#information">4. 扩大信息来源，也保留判断</a></li><li><a href="#environment">5. 自制工具，让环境适合人</a></li><li><a href="#continuity">6. Web、Dot 与本地：让工作围绕共享资料接续</a></li><li><a href="#first-loop">7. 从模型的执行内环开始</a></li><li><a href="#ways-of-practice">8. 窃火的三种实践：学习、工作与生活</a></li><li><a href="#automation">9. 让模型持续监督、收集与修复</a></li></ul></nav></aside><div class="guide-reading"><article><img class="motif guide-motif" src="/motifs/axe.svg" alt="" aria-hidden="true"><h1>工具使用</h1>
 <p class="guide-lead">一份实践指南：从用上一个模型订阅开始，完成一件实际任务，逐步改进自己的工具与工作环境。用母语阅读和理解，把调查、实现和维护交给模型，通过实际使用继续修改。这里选择 Mac 与 ChatGPT / Codex 作为一条具体路线；你已有的其他电脑和实际可用的模型工具，也可以承担这些工作。</p>
@@ -28,6 +28,15 @@
 <li><strong>比较实际月费与能持续完成的工作。</strong>结合本地加 Web 的真实需求、质量、速度、额度和续费成本，选择稳定候选中更合算的一项。API 替代成本是比较参照，不是把订阅月费除以 token 单价来推算“赠送额度”，也不是 API 单价越高就越值得买。</li>
 </ol>
 <p><a href="https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform">ChatGPT 与 API 分开计费</a>。订阅不等于 API 余额，API 余额也不替代订阅。只有你要做自己的 API 程序或确实选择 API 登录时，才需要另行了解这条计费路线。价格与支持情况请看官方当前页面，不在这里固定一个购买清单。</p>
+<h3>经常使用 Google 工具时，建议考虑 Google AI Pro</h3>
+<p><strong>如果准备把 Google Drive、Gmail 和 NotebookLM 作为日常资料、邮件与学习环境，建议考虑购买 Google AI Pro。</strong>这是 Google 面向个人的 AI 订阅，也是通常所说的 Gemini Pro 订阅。它可以作为主协作订阅之外的一项配套投入：购买理由不仅是多一个聊天模型，还包括把云盘、邮件和基于资料的学习工具用得更方便。</p>
+<p>按<a href="https://one.google.com/about/google-ai-plans/"> Google 当前的套餐说明</a>，可以把这些权益合起来判断：</p>
+<ul>
+<li><strong>云盘与邮箱容量：</strong>扩展 Google Drive、Gmail 和 Google Photos 共用的存储空间，便于持续保存资料、文档和邮件。</li>
+<li><strong>Google 应用内的 AI：</strong>在 Gmail、Docs 等支持的应用中使用 Gemini，辅助处理邮件和文档，减少在不同窗口之间搬运内容。</li>
+<li><strong>笔记与资料研究：</strong>获得 NotebookLM（当前官方页面称 Gemini Notebook）更高的使用额度，用于围绕已有来源提问、整理材料和生成音频概览等学习内容。</li>
+</ul>
+<p>Drive、Gmail 和笔记工具本身已有免费功能；订阅增加的是容量、额度和相应 AI 权益。购买前用准备长期使用的 Google 账号核对<a href="https://support.google.com/googleone/answer/14534406?hl=zh-Hans">方案权益</a>、所在地区与语言支持，以及实际续费价格。若只是轻量使用且免费额度够用，可以暂不加购；若本来就需要云盘扩容，又会经常处理邮件和研究资料，这种组合订阅更值得一起比较。</p>
 <h3>让模型帮助准备工作方式</h3>
 <p>全局提示词先写少量真正贯穿工作的安排：你希望怎样参与，哪些工作由模型承担，怎样使用母语与英文，文件和结果保存在哪里，以及模型怎样把事情完成并让你看见。可以先让 Web 模型帮助成文，再由本地模型放到客户端实际读取的位置，检查它是否生效。你提供目的和修正，不必自己维护一整套指令文件；提示词也会随使用而修改。</p>
 <p><strong>作者建议：日常工作采用简单、全局共享的 Skills、插件与 MCP 配置，并把 Full Access 作为本地全局工作的默认模式。</strong>让同一套有用能力能够随任务调用，只有具体项目确实需要不同设置时，才保留局部例外。这里的判断是：不必要的限制可能把工作引向绕行、反复中断，或为了维持 agent 运行框架而牺牲原本的用户目的。应让框架服务于实际工作，再根据具体问题修订，而不是为每项任务另造一套限制配置。</p>
