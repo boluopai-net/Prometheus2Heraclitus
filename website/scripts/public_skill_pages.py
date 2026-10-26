@@ -161,4 +161,4 @@ def render_pages(dist, shell, revision, readers):
             body = body.replace('</article></main>', reading_body + '</article></main>')
             target = dist / 'tools' / name / ('en' if english else '') / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(shell(title, body, 'en' if english else 'zh-CN').replace('<head>', '<head><meta name="robots" content="noindex, nofollow, noimageindex">', 1))
+            target.write_text(shell(title, body, 'en' if english else 'zh-CN'))

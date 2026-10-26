@@ -10,7 +10,7 @@ import {API, PART_SIZE, MAX_MANIFEST, parseManifest, validateDependencies} from 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 const git = (...args) => execFileSync('git', args, {cwd:root,maxBuffer:32*1024*1024});
-const types = {html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',json:'application/json; charset=utf-8',txt:'text/plain; charset=utf-8',py:'text/plain; charset=utf-8',png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',svg:'image/svg+xml',webp:'image/webp',gif:'image/gif',ico:'image/x-icon',ttf:'font/ttf',woff:'font/woff',woff2:'font/woff2',pdf:'application/pdf'};
+const types = {html:'text/html; charset=utf-8',xml:'application/xml; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',json:'application/json; charset=utf-8',txt:'text/plain; charset=utf-8',py:'text/plain; charset=utf-8',png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',svg:'image/svg+xml',webp:'image/webp',gif:'image/gif',ico:'image/x-icon',ttf:'font/ttf',woff:'font/woff',woff2:'font/woff2',pdf:'application/pdf'};
 function argsOf(values) {
   const args = {};
   while (values.length) {

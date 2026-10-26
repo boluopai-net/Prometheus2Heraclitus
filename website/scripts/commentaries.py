@@ -212,7 +212,7 @@ def redirect_page(destination, image_successors=None):
         script = f'location.replace({json.dumps(destination)}+location.hash);'
     else:
         script = 'const routes=' + json.dumps(image_successors) + ';const match=decodeURIComponent(location.hash.slice(1)).toLowerCase().match(/^ym-(\\d{2})(?:-|$)/);location.replace((match&&routes[match[1]])||' + json.dumps(destination) + ');'
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow, noimageindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Philosophy · boluopai</title><link rel="canonical" href="{safe}"><script>{script}</script></head><body><a href="{safe}">阅读全文 / Read the essay →</a></body></html>'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Philosophy · boluopai</title><link rel="canonical" href="{safe}"><script>{script}</script></head><body><a href="{safe}">阅读全文 / Read the essay →</a></body></html>'
 
 
 def branch_panel(parent, chinese, title=None):
@@ -282,7 +282,7 @@ def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title
     contents = book_contents(toc, chinese, rendered)
     layout = '' if contents else ' no-toc'
     body = f'<main id="main" class="wrap library-reader commentary philosophy-book{layout}">{book_navigation(name, chinese, title)}<article class="document">{rendered}</article>{contents}<div class="reading-end">{navigation}{source_note}</div></main>'
-    page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<meta name="robots" content="noindex, nofollow, noimageindex"><link rel="stylesheet" href="/article.css">')
+    page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">')
     page = page.replace('href="/philosophy/">哲学评论', 'href="/philosophy/" aria-current="page">哲学评论').replace('href="/repositories/" aria-current="page"', 'href="/repositories/"')
     page = page.replace('</nav></header>', f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{counterpart}">{"English" if chinese else "中文"}</a></nav></header>', 1)
     target = dist / destination.lstrip('/') / 'index.html'

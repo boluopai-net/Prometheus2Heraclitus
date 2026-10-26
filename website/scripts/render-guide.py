@@ -78,7 +78,6 @@ def legacy_alias(slug, english):
     return f'''<!doctype html>
 <html lang="{'en' if english else 'zh-CN'}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex, nofollow, noimageindex">
 <title>{label} · boluopai</title><link rel="canonical" href="{base}">
 <script>{script}</script></head><body><p><a href="{fallback}">{label}</a></p></body></html>'''
 

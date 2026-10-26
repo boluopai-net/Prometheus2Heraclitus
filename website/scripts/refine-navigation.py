@@ -1,4 +1,4 @@
-"""Keep shared navigation quiet and exclude the public edition from search.
+"""Keep shared navigation quiet and the public edition discoverable.
 
 Run after either article renderer. Static section pages are maintained in dist.
 """
@@ -8,6 +8,7 @@ import html
 from pathlib import Path
 from urllib.parse import quote
 from reader_names import reader_names
+from search_index import update_search_index
 
 root = Path(__file__).resolve().parents[1] / 'dist'
 style_versions = {name: hashlib.sha256((root / name).read_bytes()).hexdigest()[:12]
@@ -138,16 +139,6 @@ for page in root.rglob('*.html'):
     # projected from the separately maintained philosophical source package.
     text = refresh_page_titles(reader_names(page.read_text()))
     text = re.sub(r'<p class="eyebrow">(?:实践指南|Practical guide|等待第一首歌|Waiting for the first song)</p>', '', text)
-    # Apply the owner's site-wide search exclusion to homepages, redirects,
-    # reading pages, and standalone viewers. Crawling stays allowed so search
-    # engines can retrieve this directive; it is not an access restriction.
-    text = re.sub(r'<meta\b(?=[^>]*\bname\s*=\s*["\']robots["\'])[^>]*>', '', text, flags=re.I)
-    directive = '<meta name="robots" content="noindex, nofollow, noimageindex">'
-    if re.search(r'<head\b', text, re.I):
-        text = re.sub(r'(<head\b[^>]*>)', lambda m: m[1] + directive, text, count=1, flags=re.I)
-    else:
-        # A copied HTML fragment is also directly served as a public resource.
-        text = '<head>' + directive + '</head>' + text
     # Full semantic diagram viewers have their own interface and retain arrows.
     if 'class="header wrap"' not in text:
         page.write_text(space_chinese_latin(text))
@@ -203,3 +194,5 @@ for page in root.rglob('*.html'):
     if page.relative_to(root).as_posix() not in {'index.html', 'en/index.html'}:
         updated = re.sub(r'<aside class="playground wrap">[\s\S]*?</aside>', '', updated)
     page.write_text(space_chinese_latin(reader_names(updated)))
+
+update_search_index(root)

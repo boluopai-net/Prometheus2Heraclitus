@@ -36,6 +36,10 @@ test('public Worker: immutable releases, authority, closure and atomic activatio
     assert.equal((await call('/api/visit/status')).status,200);
     assert.equal((await (await call('/api/visit/status')).json()).retired,true);
     assert.equal((await call('/robots.txt')).headers.get('content-type'),'text/plain');
+    const robots = await (await call('/robots.txt')).text();
+    assert.match(robots, /User-agent: \*\nAllow: \/\n/);
+    assert.match(robots, /Sitemap: https:\/\/boluopai.net\/sitemap.xml/);
+    assert.doesNotMatch(robots, /Disallow: \/\n/);
   });
   await t.test('missing bucket fails closed while retired APIs remain available', async () => {
     const unbound = new Miniflare({modules:true,script:built.outputFiles[0].text,compatibilityDate:'2026-05-15'});
@@ -101,6 +105,10 @@ test('public Worker: immutable releases, authority, closure and atomic activatio
   await t.test('resource links and dynamic data are pinned; navigation and giscus remain canonical', async () => {
     const response = await call('/'), html = await response.text(), prefix=`/_content/${first.digest}`;
     assert.equal(response.headers.get('x-content-manifest'),first.digest);
+    assert.equal(response.headers.get('x-robots-tag'),null);
+    assert.equal((await call(`${prefix}/art/a.png`)).headers.get('link'),'<https://boluopai.net/art/a.png>; rel="canonical"');
+    assert.equal((await call(`${prefix}/art/a.png`)).headers.get('x-robots-tag'),null);
+    assert.match((await api('/status')).headers.get('x-robots-tag'),/noindex/);
     assert.match(html,new RegExp(`${prefix}/css/a.css`));
     assert.match(html,new RegExp(`${prefix}/art/a.png 1x, ${prefix}/art/b.png 2x`));
     assert.ok(html.includes(`data="${prefix}/art/a.png"`));

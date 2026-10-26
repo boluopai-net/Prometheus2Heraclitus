@@ -169,8 +169,6 @@ def main():
     def write(relative, text):
         target = output / relative
         target.parent.mkdir(parents=True, exist_ok=True)
-        if str(relative).endswith('.html'):
-            text = text.replace('<head>', '<head><meta name="robots" content="noindex, nofollow, noimageindex">', 1)
         target.write_text(text)
 
     # Keep method and companion reading at each Skill's existing introduction.
@@ -243,7 +241,6 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             if path.endswith('.html'):
                 text = (repo / path).read_text()
-                text = re.sub(r'(<head[^>]*>)', r'\1<meta name="robots" content="noindex, nofollow, noimageindex">', text, count=1, flags=re.I)
                 target.write_text(text)
             else:
                 shutil.copyfile(repo / path, target)

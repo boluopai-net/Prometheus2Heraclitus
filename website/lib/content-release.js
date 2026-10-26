@@ -7,7 +7,7 @@ export const PART_SIZE = 32;
 export const MAX_OBJECT = 16 * 1024 * 1024;
 export const MAX_MANIFEST = 2 * 1024 * 1024;
 const HASH = /^[a-f0-9]{64}$/;
-const TYPES = new Set(['text/html; charset=utf-8', 'text/css; charset=utf-8', 'text/javascript; charset=utf-8', 'application/json; charset=utf-8', 'text/plain; charset=utf-8', 'image/png', 'image/jpeg', 'image/svg+xml', 'image/webp', 'image/gif', 'image/x-icon', 'font/ttf', 'font/woff', 'font/woff2', 'application/pdf', 'application/octet-stream']);
+const TYPES = new Set(['text/html; charset=utf-8', 'text/css; charset=utf-8', 'text/javascript; charset=utf-8', 'application/json; charset=utf-8', 'application/xml; charset=utf-8', 'text/plain; charset=utf-8', 'image/png', 'image/jpeg', 'image/svg+xml', 'image/webp', 'image/gif', 'image/x-icon', 'font/ttf', 'font/woff', 'font/woff2', 'application/pdf', 'application/octet-stream']);
 const baseHeaders = {'Cache-Control':'no-store', 'X-Robots-Tag':'noindex, nofollow, noarchive', 'X-Content-Type-Options':'nosniff'};
 const json = (value, status = 200) => new Response(JSON.stringify(value), {status, headers:{...baseHeaders, 'Content-Type':'application/json; charset=utf-8'}});
 export const sha256 = async bytes => [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(x => x.toString(16).padStart(2,'0')).join('');
@@ -252,6 +252,10 @@ export async function contentResponse(request, env) {
     if (!object || object.size !== file.size) error(503, 'Selected content unavailable');
     const headers = {...baseHeaders, 'Content-Type':file.contentType, 'X-Content-Manifest':hash, 'X-Content-Source':manifest.source.commit,
       'Cache-Control':pinned ? 'public, max-age=31536000, immutable' : 'no-cache'};
+    // Successful public content is discoverable; API and error responses retain
+    // their exclusion. HTML owns its canonical link (including redirect aliases).
+    delete headers['X-Robots-Tag'];
+    if (!file.contentType.startsWith('text/html')) headers.Link = `<https://boluopai.net${file.path}>; rel="canonical"`;
     if (request.method === 'HEAD') return new Response(null, {headers});
     if (file.contentType.startsWith('text/html')) {
       const rewritten = rewriteHTML(await object.text(), file.path, hash, manifest);
