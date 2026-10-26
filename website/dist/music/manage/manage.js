@@ -2,6 +2,7 @@ import {prepareAudio} from './ncm.js';
 
 const $=selector=>document.querySelector(selector);
 let state, busy=false;
+let draggedRow=null;
 let completion=Promise.resolve();
 const queue=document.createElement('ol');queue.id='upload-queue';$('#upload-progress').replaceWith(queue);
 const message=text=>$('#message').textContent=text;
@@ -17,12 +18,17 @@ function render(){
   $('#enabled').checked=state.enabled;$('#tracks').replaceChildren();$('#empty').hidden=state.tracks.length>0;
   for(const track of state.tracks){
     const row=document.createElement('li');row.className='track-row';row.dataset.id=track.id;
-    row.innerHTML='<div class="track-fields"><label>曲名<input data-title type="text" maxlength="200"></label><label>演唱／演奏者<input data-artist type="text" maxlength="200"></label></div><div class="track-actions"><label><input type="radio" name="default"> 默认曲目</label><button data-up type="button">上移</button><button data-down type="button">下移</button><button data-delete type="button">删除</button></div>';
+    row.innerHTML='<div class="track-fields"><label>曲名<input data-title type="text" maxlength="200"></label><label>演唱／演奏者<input data-artist type="text" maxlength="200"></label></div><div class="track-actions"><label><input type="radio" name="default"> 默认曲目</label><button data-reorder type="button" draggable="true">拖动排序</button><button data-delete type="button">删除</button></div>';
     row.querySelector('[data-title]').value=track.title;row.querySelector('[data-artist]').value=track.artist;
     const radio=row.querySelector('[name=default]');radio.value=track.id;radio.checked=track.id===state.defaultTrack;
     const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=track.src;audio.setAttribute('aria-label',track.title);row.append(audio);
-    row.querySelector('[data-up]').onclick=()=>{if(row.previousElementSibling)row.parentElement.insertBefore(row,row.previousElementSibling);};
-    row.querySelector('[data-down]').onclick=()=>{if(row.nextElementSibling)row.parentElement.insertBefore(row.nextElementSibling,row);};
+    const handle=row.querySelector('[data-reorder]');
+    handle.setAttribute('aria-label','拖动调整「'+track.title+'」的顺序，也可使用上下方向键');
+    handle.ondragstart=e=>{if(busy){e.preventDefault();return;}draggedRow=row;row.classList.add('dragging');e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',track.id);};
+    handle.ondragend=()=>{row.classList.remove('dragging');draggedRow=null;message('顺序已调整，点击保存歌单。');};
+    row.ondragover=e=>{if(!draggedRow||draggedRow===row)return;e.preventDefault();e.dataTransfer.dropEffect='move';const box=row.getBoundingClientRect();row.parentElement.insertBefore(draggedRow,e.clientY<box.top+box.height/2?row:row.nextSibling);};
+    row.ondrop=e=>{if(draggedRow)e.preventDefault();};
+    handle.onkeydown=e=>{if(e.key==='ArrowUp'&&row.previousElementSibling){e.preventDefault();row.parentElement.insertBefore(row,row.previousElementSibling);}else if(e.key==='ArrowDown'&&row.nextElementSibling){e.preventDefault();row.parentElement.insertBefore(row.nextElementSibling,row);}else return;handle.focus();message('顺序已调整，点击保存歌单。');};
     row.querySelector('[data-delete]').onclick=async()=>{
       if(!confirm('从网站删除「'+track.title+'」？本机原文件不受影响。'))return;
       setBusy(true);try{await api('tracks/'+track.id,{method:'DELETE',headers:{'If-Match':state.etag}});await refresh();message('已从网站删除。');}catch(e){message(e.message);}finally{setBusy(false);}

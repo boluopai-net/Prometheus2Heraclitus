@@ -37,6 +37,8 @@ track, playlist enable/disable, preview, and deletion. A ten-file worker queue
 overlaps local NCM decoding and multipart transfers, with per-file progress and
 independent failure/retry. Larger selections wait in the same queue. Only the
 final shared-catalog publication is serialized to avoid needless write conflicts.
+The desktop playlist reorders by dragging its per-track handle; the same focused
+handle supports keyboard movement. Saving publishes the resulting row order.
 Accepted browser audio
 types are MP3, M4A, OGG, FLAC and WAV, with a 512 MiB per-file and 200-track limit.
 The owner can also select NCM files directly. `dist/music/manage/ncm.js` reads
