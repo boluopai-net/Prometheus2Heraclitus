@@ -1,4 +1,5 @@
 // The bilingual pages share one GitHub discussion per existing comment stream.
+window.sitePage('giscus-comments', ({onCleanup}) => {
 const terms = {Philosophy:'boluopai:philosophy', Singing:'boluopai:singing', Advice:'boluopai:resources'};
 const container = document.querySelector('[data-giscus-kind]');
 if (container && terms[container.dataset.giscusKind]) {
@@ -16,9 +17,12 @@ if (container && terms[container.dataset.giscusKind]) {
   };
   for (const [key,value] of Object.entries(config)) script.dataset[key] = value;
   container.append(script);
-  new MutationObserver(() => {
+  const observer = new MutationObserver(() => {
     container.querySelector('iframe.giscus-frame')?.contentWindow.postMessage(
       {giscus:{setConfig:{theme:document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'}}},
       'https://giscus.app');
-  }).observe(document.documentElement, {attributes:true,attributeFilter:['data-theme']});
+  });
+  observer.observe(document.documentElement, {attributes:true,attributeFilter:['data-theme']});
+  onCleanup(() => observer.disconnect());
 }
+});

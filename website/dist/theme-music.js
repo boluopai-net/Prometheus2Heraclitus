@@ -3,8 +3,7 @@ export function mountThemeMusic(config) {
   if (!config.active || window.top !== window || document.querySelector('.theme-music')) return;
   const tracks = config.tracks.filter(track => typeof track.src === 'string' && track.src);
   if (!tracks.length) return;
-  const en = document.documentElement.lang === 'en';
-  const t = (zh, english) => en ? english : zh;
+  const t = (zh, english) => document.documentElement.lang === 'en' ? english : zh;
   const key = 'boluopai-theme-music';
   let saved = {}, progress = {};
   try { saved = JSON.parse(localStorage.getItem(key)) || {}; } catch (_) {}
@@ -19,6 +18,7 @@ export function mountThemeMusic(config) {
   audio.volume = volume;
   const style = document.createElement('link');
   style.rel = 'stylesheet';
+  style.dataset.sitePersistent = '';
   style.href = new URL('./theme-music.css', import.meta.url).href;
   document.head.append(style);
   const root = document.createElement('aside');
@@ -59,6 +59,13 @@ export function mountThemeMusic(config) {
     play.textContent = playing ? 'Ⅱ' : '▶';
     play.setAttribute('aria-label', playing ? t('暂停音乐', 'Pause music') : t('播放 ', 'Play ') + selected.title);
     name.textContent = selected.title;
+    root.setAttribute('aria-label',t('网站音乐','Site music'));
+    panel.setAttribute('aria-label',t('主题曲选择','Theme music selection'));
+    root.querySelector('.music-tracks').setAttribute('aria-label',t('选择歌曲','Choose a track'));
+    root.querySelector('.music-heading h2').textContent=t('火与河流','Fire and Flow');
+    root.querySelector('[data-collapse]').setAttribute('aria-label',t('收起面板，保留播放','Collapse panel, keep playing'));
+    root.querySelector('label[for="theme-music-volume"]').textContent=t('音量','Volume');
+    root.querySelector('label[for="theme-music-seek"]').textContent=t('播放进度','Playback position');
     root.querySelectorAll('[data-track]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.track === selected.id)));
     volumeInput.value = String(Math.round(volume * 100));
     root.querySelector('output').textContent = `${Math.round(volume * 100)}%`;
@@ -142,6 +149,7 @@ export function mountThemeMusic(config) {
   });
   audio.addEventListener('playing', () => { status.textContent = t('正在播放', 'Playing'); paint(); });
   audio.addEventListener('pause', paint);
+  document.addEventListener('site:language',()=>{paint();status.textContent=audio.error?t('暂时无法播放，请稍后重试。','Playback is unavailable. Please try again.'):!audio.paused?t('正在播放','Playing'):'';});
   audio.addEventListener('error', () => { status.textContent = t('暂时无法播放，请稍后重试。', 'Playback is unavailable. Please try again.'); paint(); });
   document.addEventListener('play', event => {
     if (event.target !== audio && event.target instanceof HTMLMediaElement) pause();
@@ -155,7 +163,7 @@ export function mountThemeMusic(config) {
 }
 
 export async function startSiteMusic() {
-  if (!document.querySelector('header.header')) return;
+  if (!document.querySelector('header.header') || document.querySelector('.theme-music')) return;
   const response = await fetch('/api/music/catalog');
   if (!response.ok) return;
   mountThemeMusic(await response.json());

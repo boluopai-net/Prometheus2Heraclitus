@@ -1,4 +1,5 @@
 // Formula source is preserved in HTML; local KaTeX improves its presentation.
+window.sitePage('library', ({signal,onCleanup}) => {
 document.querySelectorAll('.math-source').forEach(node => {
   if (!window.katex) return;
   try {
@@ -18,19 +19,22 @@ document.querySelectorAll('.math-source').forEach(node => {
 // needs a separate horizontal scroll area; recheck after fonts load and resize.
 document.querySelectorAll('.document').forEach(reader => {
   const formulas = [...reader.querySelectorAll('.math-source[data-display="false"]')];
-  const fitMath = () => formulas.forEach(node => {
+  const fitMath = () => {if(signal.aborted)return;formulas.forEach(node => {
     const visual = node.querySelector('.katex-html');
     const available = Math.min(reader.clientWidth, node.parentElement.clientWidth || reader.clientWidth);
     node.classList.toggle('math-wide', Boolean(visual && visual.getBoundingClientRect().width > available));
-  });
+  });};
   fitMath();
   document.fonts.ready.then(fitMath);
-  new ResizeObserver(fitMath).observe(reader);
+  const observer = new ResizeObserver(fitMath);
+  observer.observe(reader);
+  onCleanup(() => observer.disconnect());
 });
 // Book navigation crosses pages; this separate navigation follows the page itself.
 // Reference readers retain their existing rail and mobile placement.
 const bookNavigation = document.querySelector('.book-navigation nav');
 const revealCurrentBookPage = nav => {
+  if(signal.aborted)return;
   const current = nav?.querySelector('[aria-current="page"]');
   if (!current || !nav.clientHeight) return;
   const offset = current.getBoundingClientRect().top - nav.getBoundingClientRect().top;
@@ -38,10 +42,13 @@ const revealCurrentBookPage = nav => {
     nav.scrollTop += offset - (nav.clientHeight - current.offsetHeight) / 2;
 };
 if (bookNavigation) {
-  requestAnimationFrame(() => revealCurrentBookPage(bookNavigation));
+  let frame = requestAnimationFrame(() => revealCurrentBookPage(bookNavigation));
   document.fonts.ready.then(() => revealCurrentBookPage(bookNavigation));
-  window.addEventListener('resize', () =>
-    requestAnimationFrame(() => revealCurrentBookPage(bookNavigation)));
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(() => revealCurrentBookPage(bookNavigation));
+  },{signal});
+  onCleanup(() => cancelAnimationFrame(frame));
   const menu = document.querySelector('.book-mobile-menu');
   menu.addEventListener('toggle', () => {
     if (menu.open) revealCurrentBookPage(menu.querySelector('nav'));
@@ -52,11 +59,12 @@ if (contents) {
   const book = document.querySelector('.philosophy-book');
   const desktop = matchMedia(book ? '(min-width:1280px)' : '(min-width:768px)');
   const rail = contents.parentElement;
+  const heading = document.querySelector('.commentary .document h1');
   const syncContents = () => {
+    if(signal.aborted)return;
     if (desktop.matches) rail.prepend(contents);
     else if (book) book.querySelector('.document').before(contents);
     else {
-      const heading = document.querySelector('.commentary .document h1');
       (heading.closest('.article-heading') || heading).after(contents);
     }
     if (book) {
@@ -65,10 +73,11 @@ if (contents) {
     }
   };
   syncContents();
-  desktop.addEventListener('change', syncContents);
+  desktop.addEventListener('change', syncContents,{signal});
   const links = [...contents.querySelectorAll('a[href^="#"]')];
   const headings = links.map(link => document.getElementById(decodeURIComponent(link.hash.slice(1)))).filter(Boolean);
   const observer = new IntersectionObserver(entries => {
+    if(signal.aborted)return;
     const visible = entries.filter(entry => entry.isIntersecting);
     if (!visible.length) return;
     const active = visible.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0].target.id;
@@ -78,4 +87,6 @@ if (contents) {
     });
   }, {rootMargin: '-5% 0px -70% 0px'});
   headings.forEach(heading => observer.observe(heading));
+  onCleanup(() => observer.disconnect());
 }
+});

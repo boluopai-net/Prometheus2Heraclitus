@@ -1,4 +1,5 @@
 /* Replay only the finite temporal study; native buttons retain keyboard access. */
+window.sitePage('article-art', ({onCleanup}) => {
 document.querySelectorAll('.time-inset').forEach((inset) => {
   const replay = inset.querySelector('.time-replay');
   const start = () => inset.classList.add('time-active');
@@ -10,6 +11,7 @@ document.querySelectorAll('.time-inset').forEach((inset) => {
       }
     }, { threshold: 0.25 });
     observer.observe(inset);
+    onCleanup(() => observer.disconnect());
   } else {
     start();
   }
@@ -21,4 +23,5 @@ document.querySelectorAll('.time-inset').forEach((inset) => {
       animation.play();
     });
   });
+});
 });

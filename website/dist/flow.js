@@ -1,4 +1,4 @@
-(() => {
+window.sitePage('flow', ({signal,onCleanup}) => {
   const canvas = document.querySelector('#flow');
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
@@ -7,6 +7,7 @@
   let paused = media.matches, frame = 0, time = 0, last = 0, visible = true;
   let width = 0, height = 0;
   function size() {
+    if (signal.aborted) return;
     const box = canvas.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 2);
     width = box.width; height = box.height;
     canvas.width = width * dpr; canvas.height = height * dpr;
@@ -50,11 +51,12 @@
   }
   function tick(stamp) {
     frame = 0;
-    if (paused || document.hidden || !visible) return;
+    if (signal.aborted || paused || document.hidden || !visible) return;
     time += Math.min((stamp-last)/1000 || 0,.05); last = stamp; paint();
     frame = requestAnimationFrame(tick);
   }
   function sync() {
+    if (signal.aborted) return;
     cancelAnimationFrame(frame); frame = 0; last = performance.now();
     button.setAttribute('aria-pressed',String(paused));
     const english = document.documentElement.lang === 'en';
@@ -62,8 +64,11 @@
     if (!paused && visible && !document.hidden) frame=requestAnimationFrame(tick);
   }
   button.addEventListener('click',()=>{paused=!paused;sync()});
-  media.addEventListener('change',()=>{paused=media.matches;sync()});
-  document.addEventListener('visibilitychange',sync);
-  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()}).observe(canvas);
-  new ResizeObserver(size).observe(canvas); size(); sync();
-})();
+  media.addEventListener('change',()=>{paused=media.matches;sync()},{signal});
+  document.addEventListener('visibilitychange',sync,{signal});
+  const visibility = new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync()});
+  const resize = new ResizeObserver(size);
+  visibility.observe(canvas); resize.observe(canvas);
+  onCleanup(() => {cancelAnimationFrame(frame);visibility.disconnect();resize.disconnect();});
+  size(); sync();
+});

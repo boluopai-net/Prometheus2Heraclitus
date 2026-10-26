@@ -1,5 +1,8 @@
-(async () => {
-  const en = document.documentElement.lang === 'en', t = (zh, english) => en ? english : zh, $ = id => document.getElementById(id), frame = $('wheel');
+window.sitePage('wheel-picker', ({signal}) => {
+  const elements = new Map([...document.querySelectorAll('[id]')].map(node => [node.id,node]));
+  const en = document.documentElement.lang === 'en', t = (zh, english) => en ? english : zh, $ = id => elements.get(id), frame = $('wheel');
+  if (!frame) return;
+  const controls = [...document.querySelectorAll('.selection-panel button,.selection-panel input,.selection-panel textarea')];
   const defaults = en ? ['Information Theory','Fundamental Physics','Cybernetics','Numerical Analysis','Data Analysis','Mathematical Logic','Machine Learning','Philosophy of Science','Algorithms and Data Structures','Programming Language Theory','Computational Complexity','Introduction to Computer Science','Computer Networks','Probability','Linear Algebra','Economics','Advanced Mathematics and Mathematical Analysis'] : ['信息论','基础物理','控制论','数值分析','数据分析','数理逻辑','机器学习','科学哲学','算法与数据结构','编程语言理论','计算复杂性','计算机科学概论','计算机网络','概率论','线性代数','经济学','高数与数学分析'];
   const key = 'boluopai-wheel-v2-' + document.documentElement.lang;
   let catalog = [], selected = new Set(), freeSelected = new Set(), known = new Set(), mode = 'catalog', template, runId, running = false, speed = 3;
@@ -22,7 +25,7 @@
   function persist() {try {localStorage.setItem(key, JSON.stringify({emptyStart:true,catalog,selected:[...selected],freeSelected:[...freeSelected],draft:$('options').value,mode,speed}));} catch {}}
   function current() {return mode === 'catalog' ? catalog : parse();}
   function selection() {return mode === 'catalog' ? selected : freeSelected;}
-  function busy() {document.querySelectorAll('.selection-panel button,.selection-panel input,.selection-panel textarea').forEach(x => x.disabled = running); $('delete').disabled = running || !current().some(x => selection().has(x));}
+  function busy() {controls.forEach(x => x.disabled = running); $('delete').disabled = running || !current().some(x => selection().has(x));}
   function draw() {
     if (running) return;
     const values = current(), invalid = values.length > 100 || values.some(x => Array.from(x).length > 200);
@@ -75,12 +78,15 @@
     running = event.data.state.running === true;
     if (Number.isFinite(event.data.state.speed)) speed = Math.max(.25,Math.min(3,event.data.state.speed));
     busy(); persist();
-  });
+  },{signal});
   updateFree();
+  (async () => {
   try {
-    const response = await fetch('/wheel/engine.html'); if (!response.ok) throw Error();
+    const response = await fetch('/wheel/engine.html',{signal}); if (!response.ok) throw Error();
     template = (await response.text()).replace('</body>', '<script>window.addEventListener("random-wheel:state",e=>parent.postMessage({type:"boluopai-wheel:state",state:e.detail},"*"));<\/script></body>');
+    if (signal.aborted) return;
     template = template.replace('</head>', '<style>h3,.wheel-options{display:none!important}body{padding:0}.wheel-area{max-width:320px!important}</style></head>');
     draw();
-  } catch {$('message').textContent = t('转盘加载失败，请刷新重试。','Could not load the wheel. Please refresh.');}
-})();
+  } catch {if(!signal.aborted)$('message').textContent = t('转盘加载失败，请刷新重试。','Could not load the wheel. Please refresh.');}
+  })();
+});

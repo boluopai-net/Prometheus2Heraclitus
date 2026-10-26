@@ -1,4 +1,5 @@
 // Native anchors own navigation and history; this only follows reading progress.
+window.sitePage('guide', ({signal,onCleanup}) => {
 const guide = document.querySelector('.practical-guide');
 const nav = guide?.querySelector('.guide-sidebar nav');
 if (nav) {
@@ -15,7 +16,7 @@ if (nav) {
   });
   openDestination(location.hash);
   const narrow = matchMedia('(max-width:1000px)');
-  let scheduled = false;
+  let scheduled = false, frame = 0;
   let current;
   const reveal = link => {
     // The narrow contents stay in normal flow; progress must never pull the page back.
@@ -28,6 +29,7 @@ if (nav) {
     }
   };
   const update = () => {
+    if (signal.aborted) return;
     scheduled = false;
     // Read the native landing offset; changing it after load would desynchronize deep links.
     const margin = parseFloat(getComputedStyle(headings[0]).scrollMarginTop) || 0;
@@ -46,9 +48,10 @@ if (nav) {
     }
   };
   const schedule = () => {
+    if (signal.aborted) return;
     if (!scheduled) {
       scheduled = true;
-      requestAnimationFrame(update);
+      frame = requestAnimationFrame(update);
     }
   };
   const language = document.querySelector('.header .language-control[href]');
@@ -60,9 +63,10 @@ if (nav) {
     target.hash = ids.has(fragment) ? location.hash : '';
     language.href = target.pathname + target.hash;
   };
-  window.addEventListener('scroll', schedule, {passive: true});
-  window.addEventListener('resize', () => { current = null; schedule(); });
-  window.addEventListener('hashchange', () => { openDestination(location.hash); syncLanguage(); schedule(); });
+  window.addEventListener('scroll', schedule, {passive: true,signal});
+  window.addEventListener('resize', () => { current = null; schedule(); },{signal});
+  window.addEventListener('hashchange', () => { openDestination(location.hash); syncLanguage(); schedule(); },{signal});
+  onCleanup(() => cancelAnimationFrame(frame));
   nav.addEventListener('focusin', event => {
     if (event.target.matches('a')) reveal(event.target);
   });
@@ -70,3 +74,4 @@ if (nav) {
   schedule();
   document.fonts.ready.then(schedule);
 }
+});

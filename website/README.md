@@ -22,13 +22,32 @@ go to native sign-in; other signed-in accounts receive 404.
 
 Once activated, the player attempts audible autoplay, handles browser rejection
 with a play button, and persists track, volume, and explicit off/pause choice.
-Per-tab position survives page navigation; full document navigation may have a
-short interruption and another browser playback gate. It does not claim
-gapless navigation or bypass user-agent policy. Collapsing the panel retains
+Ordinary internal navigation uses `site-navigation.js` and a persistent music
+shell. Only `#site-page` is replaced; the same audio instance and controls remain
+outside it, including on language changes and browser history visits. Per-tab
+position also survives full reloads, but those reloads and external navigation
+still restart playback and remain subject to browser autoplay policy. Collapsing the panel retains
 audio; the dock controls play/pause. The public panel has no management link,
 separate music-off action, press-play instruction, or directional navigation
 arrow. Starting other page media pauses the
-theme. Native audio requires no YouTube, tracking embed, or new dependency.
+theme. Native audio requires no YouTube or tracking embed.
+
+`site.js` owns the bounded page-behavior lifecycle. The existing reader, guide,
+animation, comments, diagram-frame and wheel scripts register scoped initializers
+with `sitePage`; navigation aborts their listeners and disposes their observers
+and animation work before mounting the replacement page. Scripts load once,
+with KaTeX ready before reader initialization. Native same-page anchors retain
+their history and disclosure behavior. Authentication, downloads and standalone
+documents use native navigation; unsupported documents and failed script loads
+fall back explicitly to that route. Legacy creation-method package links keep
+their exact skill-package destination without evaluating arbitrary inline code.
+
+The locally bundled navigation dependencies are Swup 4.10.0, Head Plugin 2.3.1,
+and Scroll Plugin 4.0.0. Their MIT licenses and dependency licenses are retained
+in `dist/vendor/navigation/LICENSES.txt`. Reproduce the ESM bundle with this
+project's esbuild from an entry exporting those three default imports as
+`Swup`, `HeadPlugin`, and `ScrollPlugin`; use the pinned npm versions and retain
+the license banner. There is no runtime CDN or application-framework migration.
 
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
 is runtime content; it never enters Git or the public source snapshot. The
