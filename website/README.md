@@ -32,7 +32,7 @@ theme. Native audio requires no YouTube, tracking embed, or new dependency.
 
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
 is runtime content; it never enters Git or the public source snapshot. The
-interface supports multiple uploads, title/artist editing, ordering, a default
+interface supports multiple uploads, title editing, ordering, a default
 track, playlist enable/disable, preview, and deletion. A ten-file worker queue
 overlaps local NCM decoding and multipart transfers, with per-file progress and
 independent failure/retry. Larger selections wait in the same queue. Only the
