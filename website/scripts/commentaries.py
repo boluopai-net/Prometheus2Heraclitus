@@ -151,7 +151,7 @@ def book_contents(toc, chinese, rendered):
     if not useful_contents(toc, rendered):
         return ''
     label = '本文目录' if chinese else 'On this page'
-    return f'<aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents" open><summary><span>{label}</span>{toggle_text(chinese)}</summary><nav aria-label="{label}">{toc}</nav></details></aside>'
+    return f'<aside class="reading-rail book-contents-rail"><details class="reader-toc book-contents"><summary><span>{label}</span>{toggle_text(chinese)}</summary><nav aria-label="{label}">{toc}</nav></details></aside>'
 
 
 def essay_title(name, chinese, title=None):
@@ -260,7 +260,7 @@ def reading_rail(toc, chinese, rendered):
     if not useful_contents(toc, rendered):
         return ''
     label = '本文目录' if chinese else 'On this page'
-    return f'<aside class="reading-rail"><nav class="reader-toc" aria-label="{label}"><p class="toc-title">{label}</p>{toc}</nav></aside>'
+    return f'<aside class="reading-rail"><nav class="reader-toc" aria-label="{label}">{toc}</nav></aside>'
 
 
 def write_essay(dist, path, page_title, rendered, toc, source_note, shell, title):

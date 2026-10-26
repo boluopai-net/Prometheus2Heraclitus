@@ -31,7 +31,6 @@
 .commentary{grid-template-columns:200px minmax(0,1fr);grid-template-areas:"rail document" "rail end";column-gap:56px}
 .commentary .document{grid-area:document}.reading-rail{grid-area:rail}
 .commentary .reader-toc{display:block;font:14px/1.7 var(--sans);border:0;padding:0;margin:0;background:none}
-.commentary .toc-title{font-size:13px;font-weight:600;color:var(--muted);margin:0 0 18px}
 .commentary .reader-toc>.toc{max-height:calc(100vh - 120px);overflow:auto;scrollbar-width:thin;overscroll-behavior:contain}
 .commentary .reader-toc .toc>ul>li>a{display:block}
 .commentary .reader-toc .toc>ul>li>ul{padding-left:14px}

@@ -405,7 +405,7 @@ def main():
         diagram_summary = 'Diagrams · 5 views' if english else '图示 · 5 张图'
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/philosophy/{suffix}#stage-6">{"Steal Fire, Then Become Fire" if english else "窃火，然后成为火"}</a></div><header class="collection-heading"><h1>{"Yinyang appendices" if english else "Yinyang 的附录"}</h1></header><details class="diagram-disclosure" id="diagrams"><summary>{diagram_summary}</summary><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></details>{groups_html}</main>'
         nav_links = ''.join(f'<li><a href="#{anchor}">{html.escape(en if english else zh)}</a><ul>' + ''.join('<li>' + item + '</li>' for item in children) + '</ul></li>' for anchor, zh, en, children in navigation)
-        sidebar = '<aside class="guide-sidebar"><p class="resource-contents-label">' + ('Contents' if english else '目录') + '</p><nav tabindex="0" aria-label="' + ('Resource categories and files' if english else '资源分类与文件目录') + '"><ul>' + nav_links + '</ul></nav></aside>'
+        sidebar = '<aside class="guide-sidebar"><nav tabindex="0" aria-label="' + ('Resource categories and files' if english else '资源分类与文件目录') + '"><ul>' + nav_links + '</ul></nav></aside>'
         body = body.replace('collection library-hub', 'collection library-hub practical-guide')
         body = body.replace('<header class="collection-heading">', '<div class="guide-layout">' + sidebar + '<div class="guide-reading"><header class="collection-heading">', 1)
         body = body.replace('</main>', '</div></div></main>')

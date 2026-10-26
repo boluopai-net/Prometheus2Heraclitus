@@ -31,7 +31,6 @@
 .library-hub .guide-sidebar ul ul{padding-left:0;margin-top:8px}
 .library-hub .guide-sidebar ul ul li{margin-bottom:6px}
 .library-hub .guide-sidebar ul ul a{font-size:19px}
-.library-hub .resource-contents-label{font:400 19px/1.7 var(--sans);color:var(--muted);margin:0 0 24px;padding-left:4px}
 .library-hub .guide-sidebar nav:focus-visible{outline:2px solid var(--water);outline-offset:3px}
 .library-hub .collection-heading{padding-bottom:0;margin-bottom:32px}
 .library-hub .library-section h2[id],.library-hub #diagrams{scroll-margin-top:32px}
@@ -44,14 +43,13 @@
 .guide-table th{font-weight:600;background:color-mix(in srgb,var(--water) 6%,var(--paper))}
 .guide-table th:first-child{width:22%}
 @media(max-width:1000px){
-  .library-hub .resource-contents-label{margin:20px 0 12px}
   .library-hub .guide-sidebar nav{max-height:50dvh;min-height:0;overflow:auto}
   .guide-layout{display:block}
   .guide-reading{max-width:860px}
   .guide-sidebar{position:static;border-block:1px solid var(--line);margin-bottom:28px}
   .guide-sidebar nav{max-height:none;overflow:visible;padding:10px 4px;font-size:18px}
 }
-@media(max-width:767px){.library-hub.practical-guide .guide-sidebar nav>ul>li>a[href],.library-hub .guide-sidebar ul ul a,.library-hub .resource-contents-label{font-size:18px}}
+@media(max-width:767px){.library-hub.practical-guide .guide-sidebar nav>ul>li>a[href],.library-hub .guide-sidebar ul ul a{font-size:18px}}
 @media(max-width:520px){
   .practical-guide{padding-top:28px}
   .practical-guide h1{font-size:34px}

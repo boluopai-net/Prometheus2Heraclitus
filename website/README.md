@@ -381,13 +381,33 @@ Both article renderers generate H2/H3 anchors from the complete Markdown.
 The philosophy overview uses cross-page book navigation on the left; essays
 also have current-page contents on the right at wide desktop widths. At
 narrower widths, essay contents and the book-menu control appear together
-before the title, using native disclosures with the book menu closed by
-default. Reference documents retain their shared left `reading_rail` and
+before the title, using native disclosures with both menus closed by
+default, including in the initial HTML. Reference documents retain their shared left `reading_rail` and
 existing mobile placement. `scripts/commentaries.py`
 owns these navigation structures, `article.css` owns their responsive layout,
 and `library.js` moves the contents and marks the current section. Prose stays
 expanded. The tool map keeps its separate navigation layout. Full source prose
 remains linear Markdown.
+
+### Navigation labels and initial state
+
+Ordinary page navigation presents its links without a visible “目录”,
+“本文目录”, or “Contents” heading. This includes practical guides, Yinyang's
+appendix, and ordinary reference readers. Keep descriptive accessible names on
+navigation landmarks; removing a redundant visible label does not remove their
+accessible identity. These ordinary lists remain directly available in their
+existing responsive layout.
+
+The philosophy book overview and its articles are the deliberate exception:
+their nineteen-essay book navigation and separate article navigation may use
+“目录” / “Contents” and “本文目录” / “On this page” to distinguish their scope.
+On narrow screens both disclosures start closed and open only through the
+reader's action. Wide desktop rails remain visible. Author the closed state in
+HTML, then let the responsive script open the desktop article rail; do not ship
+an initially expanded mobile menu and rely on a later script to hide it.
+Use this distinction when editing or adding pages instead of selecting labels
+and initial states independently for each renderer. It concerns navigation,
+not content disclosures such as the appendix's diagram previews.
 Section pages are `/philosophy/`, `/singing/`, and
 `/repositories/`; the homepage is their overview and navigation entry.
 
