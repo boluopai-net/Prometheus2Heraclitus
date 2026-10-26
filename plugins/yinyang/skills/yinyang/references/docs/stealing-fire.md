@@ -9,6 +9,7 @@
 
 - [Finite life and the wrong pursuit](#finite-life-and-the-wrong-pursuit)
 - [From chasing to lived cultivation](#from-chasing-to-lived-cultivation)
+- [Borrowed fire and nirvana](#borrowed-fire-and-nirvana)
 - [Material fire and concentrated capability](#material-fire-and-concentrated-capability)
 - [Reusable capability and recursive accumulation](#reusable-capability-and-recursive-accumulation)
 - [An oracle-like relation and systems that improve](#an-oracle-like-relation-and-systems-that-improve)
@@ -110,7 +111,7 @@ are used, purposes become concrete, and consequences are borne.
 
 <a id="borrowed-fire-and-nirvana"></a>
 
-### Borrowed fire and nirvana
+## Borrowed fire and nirvana
 
 Buddhist thought also enters the purpose of cultivation here. Borrowed fire can
 expand understanding and action while intensifying demands to keep up, possess,
