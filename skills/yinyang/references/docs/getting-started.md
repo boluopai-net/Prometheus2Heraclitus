@@ -361,7 +361,7 @@ Through these loops, working preferences, environment, works, GitHub repositorie
 
 The conclusions of [Stealing Fire](https://boluopai.net/philosophy/stealing-fire/en/) can take three connected forms: use existing generative capabilities to support understanding, turn ideas into usable works, and let the daily environment carry them. The aim is to combine human and model strengths. Human embodied experience, interest, intuition, and overall judgment complement the model's retrieval, comparison, explicit reasoning, editing, and execution. These contributions can change rather than locking participants into permanent roles. Listening, speaking, reading, and writing run throughout: you listen, look, express, critique, and try; the model receives these contributions, organizes materials, and completes the next work.
 
-Images and voice can also support all three practices. In learning, use diagrams to grasp concepts and relationships, then speak your questions; at work, share sketches, screenshots, or flow diagrams and state requirements and feedback aloud; in daily life, use photos or quick diagrams to capture situations and say what matters to you. These forms support understanding and participation, not only making or editing tools.
+Images and voice can also support all three practices. In learning, use diagrams to grasp concepts and relationships, then speak your questions; at work, share sketches, screenshots, or flow diagrams and state requirements and feedback aloud; in daily life, use photos or quick diagrams to capture situations and say what matters to you. Make images and voice everyday ways to understand, express, and work together.
 
 ### Use voice input more, operate less: express the thought and listen to the response
 
