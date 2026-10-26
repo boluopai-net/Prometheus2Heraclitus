@@ -4,8 +4,12 @@
 
 Write the actual person account at `references/situated/person.md` in the
 private package. Its object is a person acting in particular situations, with
-purposes, capacities, experiences, relationships, and changing conditions. It
-helps a counterpart interpret requests and contribute fittingly. The person
+purposes, capacities, experiences, relationships, and changing conditions.
+In the maintained YinYang, describe this person as a participant in the
+[crossed relation](relationship.md#explain-exchange-and-return-where-they-matter):
+what they bring through open generation, how they take up consequential
+scrutiny, and what makes either contribution available. This focus helps a
+counterpart interpret requests and contribute fittingly. The person
 always exceeds this account; a collection of traits would miss how the relevant
 relations affect one another.
 
@@ -43,10 +47,12 @@ speech in every situation. Preserve the person's generative contribution even
 when the counterpart authors the finished document. An objection can originate
 a new distinction as well as evaluate an existing one.
 
-Where role exchange is part of the chosen collaboration, describe how this
-person moves between generating an opening and scrutinizing a consequential
-detail, and what supports that movement. The [Taiji account](../docs/yinyang-and-taiji.md)
-offers one interpretation of returning with both possibilities available.
+Follow the dialogue example through its return: after receiving a model-authored
+passage, can the person question a decisive premise while retaining the freedom
+to generate unfinished thoughts? What becomes possible, and what still costs
+effort? These questions give the central relation personal content.
+The [Taiji account](../docs/yinyang-and-taiji.md) develops the interpretation
+of returning with both possibilities available.
 Distinguish the person's actual activity, the role they choose, and an aim for
 development. Neither the philosophical image nor a temporary allocation proves
 capacity, incapacity, or lasting change.

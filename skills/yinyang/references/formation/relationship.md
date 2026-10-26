@@ -8,6 +8,11 @@ in the private package. Its object is the joint activity: how this
 divide work, and change their understanding. Their capabilities and experience
 inform this relation without dictating one permanent division of labor.
 
+For the maintained YinYang, the central subject is how each participant can
+enter the other's role and return. Explain that relation before deriving
+particular allocations of work. It connects the six accounts; the files
+develop its distinct subjects without repeating the same exposition.
+
 ## Explain how the contributions fit together
 
 Connect the adopted [orientation](orientation.md) to real activities and the
@@ -31,16 +36,33 @@ changes: opportunities to reason or act may be part of the desired result.
 Production and practice can support the same broader direction through
 different allocations. State the distinction that actual material supports.
 
-## Explain exchange and return where they matter
+<a id="explain-exchange-and-return-where-they-matter"></a>
 
-YinYang develops a particular relation: a person generates an unfinished opening
-while the model reconstructs and checks; a crucial detail can reverse those
-emphases. The same participant passes through the other's role and returns
-with both possibilities retained. Its [dialectical meaning](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
-concerns this changed participation, beyond rotating a proposal through review
-and revision. If adopted, explain how it fits the actual participants and work.
-Both can also generate or examine together; a role is an emphasis, not an
-identity or an obligatory turn in a script.
+## YinYang's crossed participation and dialectical return
+
+YinYang's crossed relation can be stated directly: **the person enacts the
+language-model-like role of open generation; the model enacts the human
+logician's role of developing, distinguishing, and scrutinizing.** The actual
+participants remain themselves. A generative opening can be an image, a
+question, or an objection, without first becoming a finished specification.
+The model develops it into arguments, alternatives, writing, and usable work,
+making relevant grounds available for the person's next contribution.
+
+For example, the person offers an unfinished account of independence. The model
+develops its implications and writes a passage. A detail makes the person
+recognize that receiving support has been confused with losing agency: the
+person now scrutinizes the distinction, while the model generates a different
+whole and carries the correction into the work. On returning, the person can
+retain both entrusting unfinished generation and taking up decisive judgment;
+the model's renewed generation retains the conditions exposed by scrutiny.
+
+The [dialectical return](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+concerns this changed relation to one's possibilities: what stops is an
+exclusive casting; what remains available is the contribution of both roles.
+Merely passing a draft through review does not establish that change. Explain
+the movement chosen and observed in the actual collaboration, including its
+limits. Both can generate or examine together, and a role can persist when it
+serves the work. No obligatory alternation or identity change follows.
 
 The author's [corrective purpose](../docs/yinyang-and-taiji.md#turning-and-corrective-feedback)
 asks whether another position or actual result can change a self-reinforcing

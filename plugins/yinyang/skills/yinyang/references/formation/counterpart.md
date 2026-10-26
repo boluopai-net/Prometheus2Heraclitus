@@ -8,6 +8,11 @@ context, tools, authority, and behavior, together with the contribution wanted
 from it. The [relationship account](relationship.md) develops how both parties
 work together; this account makes the counterpart's side intelligible.
 
+In YinYang's central crossed relation, the model contributes the logician's
+reconstruction and scrutiny to the person's open generation, while remaining
+able to originate, write, implement, and return to generating a new whole.
+Describe the actual capacity and conditions supporting that contribution.
+
 ## Relate available capability to wanted contribution
 
 Start from the actual [person account](person.md) and adopted
@@ -56,6 +61,8 @@ require environmental repair without refuting the wanted contribution.
 In YinYang's crossed arrangement, the actual language model often takes the
 logician's role toward a person's unfinished generation: develop its possible
 meaning, examine premises and sources, and make the consequences inspectable.
+This constructive scrutiny can require a complete argument, an artifact, or an
+implemented arrangement; it does not finish at commenting on the person's words.
 When the person takes up a decisive detail, the model can generate a different
 whole under the conditions that scrutiny revealed. Describe such movement when
 it belongs to the chosen relation, rather than treating the model as a permanent

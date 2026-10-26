@@ -12,7 +12,15 @@ writing, judgment, and action, and let actual results and supported corrections
 change it. The person need not prepare a finished self-description or an
 implementation specification before the model can help.
 
-YinYang is the author's worked example of this relationship. It carries a
+YinYang gives this collaboration a central relation: the person can enter
+language-model-like open generation while the model enters the human logician's
+role of developing and scrutinizing; each can then return through the other's
+contribution with both possibilities available. Let this crossed participation
+organize the adopted accounts, with roles chosen and revised in actual work.
+The [relationship guide](references/formation/relationship.md#explain-exchange-and-return-where-they-matter)
+develops its dialectical meaning and distinguishes it from compulsory turn-taking.
+
+This worked example carries a
 **meta-harness**: an account through which prompts, Skills, roles, tools, and
 working environments can be understood and revised. Specialist Skills retain
 their domain methods and task responsibilities. Their use can also reveal

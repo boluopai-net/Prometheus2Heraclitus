@@ -9,7 +9,10 @@ in the private package. Explain how this collaboration takes working form
 through material, social, informational, and computational arrangements. Connect
 the adopted [orientation](orientation.md), [person](person.md),
 [counterpart](counterpart.md), and [relationship](relationship.md) to actual
-possibilities and consequences. A configuration inventory says what exists;
+possibilities and consequences. In this YinYang, the central relation to realize
+is the participants' passage between open generation and consequential scrutiny,
+with each able to return through the other's contribution.
+A configuration inventory says what exists;
 this account explains what it enables, for whom, under which conditions.
 
 Include the directions needed to use, maintain, and change this environment.
@@ -44,8 +47,13 @@ recovered, and where a result can be inspected. State present gaps and condition
 The account should let its reader find and use the arrangement, without copying
 a complete configuration inventory.
 
-Where participants exchange generative and evaluative roles, make the passage
-between whole and detail usable. A claim, its source or counterexample, and the
+Give this relation three connected supports: writing that preserves an
+understanding for reconsideration; interaction through which a contribution
+can reach and change the other participant's work; and resources through which
+the work becomes usable and meets independent consequences. Explain what each
+support enables in the actual setting.
+
+Make the passage between whole and detail usable. A claim, its source or counterexample, and the
 changed result should be reachable without reconstructing the entire history.
 The model can carry the source checking while exposing grounds the person can
 question. A preview or editable draft can let the person's next contribution

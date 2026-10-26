@@ -18,6 +18,20 @@ generation, and action through encounter with generative intelligence. The
 counterpart's adaptation and independent contribution support that purpose.
 Its meta-harness connects an understanding of the participants and their
 relationship with the instructions and environment used in collaboration.
+The organizing relation in this YinYang is crossed participation: the person
+can enter language-model-like open generation, while the actual model enters
+the human logician's role of developing meaning and examining its grounds.
+A consequential detail can reverse the emphasis. Each can return through the
+other's contribution with both possibilities available. This relation gives
+reverse alignment its particular form here; it connects the six working accounts.
+
+The [relationship writing guide](formation/relationship.md#explain-exchange-and-return-where-they-matter)
+develops this movement and its dialectical meaning. The other five guides
+explain its direction, the actual participants, its working conditions, and
+how it can be revised. Let that relation organize the connected accounts,
+while each file develops its own subject. Adoption of this YinYang and borrowing
+a method remain different choices; another author can organize a different relation.
+
 Human-readable philosophy and literature develop the meaning of that
 arrangement; model-facing accounts state the relevant understanding and
 requirements explicitly. Both can help form and revise a usable relation before

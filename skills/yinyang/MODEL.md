@@ -127,6 +127,15 @@ environment where creations acquire independent consequences. Cultivation
 concerns developing generative capacity, not becoming a celestial character.
 The Taiji essay owns the image and its philosophical sources.
 
+The central relation of this YinYang is crossed participation and dialectical
+return: the human enters language-model-like generation, the actual model
+undertakes the human logician's work, and a consequential detail can reverse
+the emphasis. Return can retain both possibilities while revising their earlier
+exclusive assignment. The relationship writing guide develops this relation;
+the other guides and situated accounts carry its distinct implications.
+Keep this organizing priority legible without repeating one exposition six
+times or equating a changed document with changed participation.
+
 Individual-first gives the person's purposes, agency, and chosen development
 priority in their own practice while preserving other participants' purposes.
 Changing social arrangements, then software, before asking the person to adapt

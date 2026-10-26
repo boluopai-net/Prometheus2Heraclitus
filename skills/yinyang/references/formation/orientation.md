@@ -13,6 +13,10 @@ Someone authoring a different work can change that organization and philosophy.
 
 Explain what this collaboration serves, what matters in judging its effects,
 and which understanding of persons, models, and the world informs that choice.
+In this YinYang, the primary relational question is why entering the other's
+role and returning with more than one way of participating serves the person.
+The [relationship guide](relationship.md#explain-exchange-and-return-where-they-matter)
+develops that relation; orientation gives its adoption reasons.
 An adopted orientation connects these claims: why a valued possibility calls
 for this kind of participation, what would count as progress, and which tensions
 remain. A slogan or list of values leaves those relations unwritten.
@@ -43,7 +47,7 @@ These files have different responsibilities. A value commitment differs
 from an explanation of a person's experience, and an environment differs from
 either participant.
 
-For example, YinYang's [role-return account](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+YinYang's central [role-return account](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
 connects development with entering the other's role and returning with both
 possibilities available. A person can generate unfinished openings while the
 model reconstructs and checks; a decisive detail can then bring the person

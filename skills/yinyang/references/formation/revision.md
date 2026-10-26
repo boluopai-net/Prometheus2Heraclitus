@@ -5,8 +5,10 @@
 
 [简体中文](revision.zh-CN.md) · [Philosophy and models](../design-and-revision.md) · [Environment](environment.md)
 
-The author uses this approach to keep philosophy, personal understanding, and
-actual work connected as they change. Revision can begin with a developed idea,
+The author uses this approach to keep YinYang's central
+[crossed participation and return](relationship.md#explain-exchange-and-return-where-they-matter)
+answerable to actual encounters. Philosophy, personal understanding, and
+actual work develop through that relation. Revision can begin with a developed idea,
 changed circumstances, an objection, or an arrangement that no longer fits.
 Find what has changed, work through its consequences, and let the result correct
 the understanding that guided the change.
@@ -177,6 +179,14 @@ automatically prove the model's prior interpretation. The argument is developed
 in [Condensing revisable relations](../docs/metaphor-and-self-revision.md#condensing-revisable-relations).
 
 ## Let the return alter its organizing account
+
+Distinguish what happened to the work from what happened to participation.
+A corrected paragraph establishes a textual change. A person returning to
+scrutiny while retaining open generation, or model generation reorganized by
+the conditions exposed in scrutiny, gives the role-return account its particular
+content. Describe what is chosen, what was observed, and what remains uncertain.
+The evidence-refresh sequence above supports this judgment; it is not a fixed
+sequence that every exchange must perform.
 
 YinYang's [corrective feedback](../docs/yinyang-and-taiji.md#turning-and-corrective-feedback)
 adds a question to revision: can a source, objection, or use result actually
