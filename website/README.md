@@ -32,13 +32,35 @@ theme. Native audio requires no YouTube, tracking embed, or new dependency.
 is runtime content; it never enters Git or the public source snapshot. The
 interface supports multiple uploads, title/artist editing, ordering, a default
 track, playlist enable/disable, preview, and deletion. Accepted browser audio
-types are MP3, M4A, OGG, FLAC and WAV, with a 32 MiB per-file and 200-track limit.
-NCM is not standard browser audio. The upload UI states these technical limits.
+types are MP3, M4A, OGG, FLAC and WAV, with a 512 MiB per-file and 200-track limit.
+The owner can also select NCM files directly. `dist/music/manage/ncm.js` reads
+the container and title/artist locally, then exposes decoded MP3/FLAC slices to
+the same upload path. It preserves the original audio rather than transcoding
+or changing the local source file; neither the NCM nor its artwork is uploaded.
+Only one 8 MiB audio slice is decoded at a time, avoiding a whole-file allocation.
+The parser follows MIT-licensed `taurusxin/ncmdump` at
+`4ede4cee1bad35bbf28a7b5524feeca0422a4feb`, including its cover-frame padding.
+The vendored AES-only ESM bundle uses MIT-licensed `@noble/ciphers` 2.4.0;
+both licenses remain under `dist/music/manage/vendor/`. To reproduce that bundle,
+pack the exact npm version, then use this project's esbuild to bundle and minify
+an ESM entry exporting only `ecb` from that package's `aes.js`; retain its license
+banner and adjacent license file. The npm package integrity is
+`sha512-AnjFn0Jv92laAkvMrghlFZq4qQCIN/4DxFV/eooqtC2YTjB7kBeLMS2T9KJX4Dn+ZVXLOwK0lSgqDtx9gvxtiw==`.
 
 Public GET `/api/music/catalog` exposes only the playlist. GET/HEAD
 `/media/music/<uuid>` serves catalog-listed audio with single-range requests
 and ETags for seeking. `/api/music/session` reports whether the current caller
-may manage music. PUT `/api/music/tracks/<uuid>` uploads a track; PUT
+may manage music. POST `/api/music/tracks/<uuid>/upload` starts an R2 multipart
+upload with `{title,artist,bytes}` and returns its `uploadId` and 8 MiB
+`partBytes`. PUT `.../upload/parts/<number>` accepts exact sequential parts
+with `x-music-upload-id`; the final part uses the remaining bytes. POST
+`.../upload/complete` with `{uploadId}` checks the completed object size and
+adds its track to the catalog. DELETE `.../upload` with `x-music-upload-id`
+aborts an interrupted upload. The first part must have a supported audio
+signature; only a completed catalog-listed object is public. Temporary R2
+upload state stays in the same fixed music namespace. The previous PUT
+`/api/music/tracks/<uuid>` remains limited to 32 MiB for cached management
+pages during rollout. PUT
 `/api/music/catalog` edits metadata/order/default; DELETE
 `/api/music/tracks/<uuid>` removes the listing and stored audio. All writes
 require the configured owner identity or existing `CONTENT_PUBLISH_KEY` service
