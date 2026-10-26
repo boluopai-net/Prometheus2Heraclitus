@@ -5,33 +5,41 @@ let state, busy=false;
 let draggedRow=null;
 let completion=Promise.resolve();
 const queue=document.createElement('ol');queue.id='upload-queue';$('#upload-progress').replaceWith(queue);
-const message=text=>$('#message').textContent=text;
+const message=text=>{$('#message').textContent=text;$('#message').hidden=!text;};
+let saveTimer,dirty=false,saveChain=Promise.resolve(true);
+function scheduleSave(delay=350){dirty=true;clearTimeout(saveTimer);saveTimer=setTimeout(saveChanges,delay);}
+function saveChanges(){
+  clearTimeout(saveTimer);if(!dirty)return saveChain;dirty=false;const draft=collect();
+  saveChain=saveChain.then(async()=>{try{const result=await api('catalog',{method:'PUT',keepalive:true,headers:{'Content-Type':'application/json','If-Match':state.etag||'empty'},body:JSON.stringify(draft)});state.etag=result.etag;message('');return true;}catch(e){message('未能自动保存：'+e.message);return false;}});
+  return saveChain;
+}
 function setBusy(value){busy=value;document.querySelectorAll('#manager button,#manager input').forEach(el=>el.disabled=value);$('#upload').disabled=value||!$('#files').files.length;}
 async function api(path,options={}){
   const response=await fetch('/api/music/'+path,options);const data=await response.json();
-  if(!response.ok)throw Error(response.status===409?'歌单刚刚有变化，请重新读取后再操作。':data.error||'操作失败，请重新读取确认结果。');return data;
+  if(!response.ok)throw Error(response.status===409?'歌单已在其他页面修改，请刷新此页面后再试。':data.error||'操作失败，请刷新页面确认结果。');return data;
 }
 function collect(){
-  return {enabled:$('#enabled').checked,defaultTrack:$('#tracks input[name=default]:checked')?.value||null,tracks:[...document.querySelectorAll('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').value.trim(),artist:row.querySelector('[data-artist]').value.trim()}))};
+  return {enabled:$('#enabled').checked,defaultTrack:$('#tracks input[name=default]:checked')?.value||null,tracks:[...document.querySelectorAll('#tracks .track-row')].map(row=>({id:row.dataset.id,title:row.querySelector('[data-title]').value.trim(),artist:state.tracks.find(t=>t.id===row.dataset.id)?.artist||''}))};
 }
 function render(){
   $('#enabled').checked=state.enabled;$('#tracks').replaceChildren();$('#empty').hidden=state.tracks.length>0;
   for(const track of state.tracks){
     const row=document.createElement('li');row.className='track-row';row.dataset.id=track.id;
-    row.innerHTML='<div class="track-fields"><label>曲名<input data-title type="text" maxlength="200"></label><label>演唱／演奏者<input data-artist type="text" maxlength="200"></label></div><div class="track-actions"><label><input type="radio" name="default"> 默认曲目</label><button data-reorder type="button" draggable="true">拖动排序</button><button data-delete type="button">删除</button></div>';
-    row.querySelector('[data-title]').value=track.title;row.querySelector('[data-artist]').value=track.artist;
+    row.innerHTML='<div class="track-fields"><label>曲名<input data-title type="text" maxlength="200"></label></div><div class="track-actions"><label><input type="radio" name="default"> 默认曲目</label><button data-reorder type="button" draggable="true">拖动排序</button><button data-delete type="button">删除</button></div>';
+    const title=row.querySelector('[data-title]');title.value=track.title;title.oninput=()=>scheduleSave();title.onblur=()=>saveChanges();
     const radio=row.querySelector('[name=default]');radio.value=track.id;radio.checked=track.id===state.defaultTrack;
+    radio.onchange=()=>scheduleSave(0);
     const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=track.src;audio.setAttribute('aria-label',track.title);row.append(audio);
     const handle=row.querySelector('[data-reorder]');
     handle.setAttribute('aria-label','拖动调整「'+track.title+'」的顺序，也可使用上下方向键');
     handle.ondragstart=e=>{if(busy){e.preventDefault();return;}draggedRow=row;row.classList.add('dragging');e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',track.id);};
-    handle.ondragend=()=>{row.classList.remove('dragging');draggedRow=null;message('顺序已调整，点击保存歌单。');};
+    handle.ondragend=()=>{row.classList.remove('dragging');draggedRow=null;scheduleSave(0);};
     row.ondragover=e=>{if(!draggedRow||draggedRow===row)return;e.preventDefault();e.dataTransfer.dropEffect='move';const box=row.getBoundingClientRect();row.parentElement.insertBefore(draggedRow,e.clientY<box.top+box.height/2?row:row.nextSibling);};
     row.ondrop=e=>{if(draggedRow)e.preventDefault();};
-    handle.onkeydown=e=>{if(e.key==='ArrowUp'&&row.previousElementSibling){e.preventDefault();row.parentElement.insertBefore(row,row.previousElementSibling);}else if(e.key==='ArrowDown'&&row.nextElementSibling){e.preventDefault();row.parentElement.insertBefore(row.nextElementSibling,row);}else return;handle.focus();message('顺序已调整，点击保存歌单。');};
+    handle.onkeydown=e=>{if(e.key==='ArrowUp'&&row.previousElementSibling){e.preventDefault();row.parentElement.insertBefore(row,row.previousElementSibling);}else if(e.key==='ArrowDown'&&row.nextElementSibling){e.preventDefault();row.parentElement.insertBefore(row.nextElementSibling,row);}else return;handle.focus();scheduleSave(0);};
     row.querySelector('[data-delete]').onclick=async()=>{
       if(!confirm('从网站删除「'+track.title+'」？本机原文件不受影响。'))return;
-      setBusy(true);try{await api('tracks/'+track.id,{method:'DELETE',headers:{'If-Match':state.etag}});await refresh();message('已从网站删除。');}catch(e){message(e.message);}finally{setBusy(false);}
+      setBusy(true);try{if(!await saveChanges())return;await api('tracks/'+track.id,{method:'DELETE',headers:{'If-Match':state.etag}});await refresh();message('');}catch(e){message(e.message);}finally{setBusy(false);}
     };
     $('#tracks').append(row);
   }
@@ -63,27 +71,24 @@ async function upload(track,audio,progress){
 }
 $('#upload').onclick=async()=>{
   const files=[...$('#files').files];if(!files.length)return;
-  queue.replaceChildren();const artist=$('#upload-artist').value.trim();
+  if(!await saveChanges())return;queue.replaceChildren();message('');
   const jobs=files.map(file=>{const row=document.createElement('li'),name=document.createElement('span'),status=document.createElement('span'),bar=document.createElement('progress'),retry=document.createElement('button');name.textContent=file.name;status.textContent='等待中';bar.max=100;bar.value=0;retry.type='button';retry.textContent='重试';retry.hidden=true;row.append(name,status,bar,retry);queue.append(row);return{file,status,bar,retry,done:false};});
-  let running=0;
-  const summary=()=>message('已完成 '+jobs.filter(j=>j.done).length+' / '+jobs.length+' 首'+(running?' · 正在处理 '+running+' 首':''));
   async function run(job){
-    running++;summary();job.retry.hidden=true;job.bar.value=0;
+    job.retry.hidden=true;job.bar.value=0;
     try{
       if(job.file.size>512*1024*1024)throw Error('文件超过 512 MB');
       job.status.textContent='正在读取与转换';const audio=await prepareAudio(job.file);
-      job.status.textContent='正在上传';await upload({id:crypto.randomUUID(),title:audio.title.slice(0,200),artist:(artist||audio.artist).slice(0,200)},audio,value=>{job.bar.value=value;job.status.textContent='上传 '+Math.round(value)+'%';});
-      job.done=true;job.bar.value=100;job.status.textContent='已完成';
+      job.status.textContent='正在上传';await upload({id:crypto.randomUUID(),title:audio.title.slice(0,200),artist:audio.artist.slice(0,200)},audio,value=>{job.bar.value=value;job.status.textContent='上传 '+Math.round(value)+'%';});
+      job.done=true;job.status.parentElement.remove();
     }catch(e){job.status.textContent=e.message;job.retry.hidden=false;}
-    finally{running--;summary();}
   }
   setBusy(true);let cursor=0;
   try{await Promise.all(Array.from({length:Math.min(10,jobs.length)},async()=>{while(cursor<jobs.length)await run(jobs[cursor++]);}));$('#files').value='';await refresh();}
   catch(e){message(e.message);}
   finally{setBusy(false);}
-  for(const job of jobs)job.retry.onclick=async()=>{setBusy(true);try{await run(job);await refresh();}catch(e){message(e.message);}finally{setBusy(false);}};
+  for(const job of jobs)job.retry.onclick=async()=>{setBusy(true);try{if(!await saveChanges())return;await run(job);await refresh();}catch(e){message(e.message);}finally{setBusy(false);}};
 };
-$('#save').onclick=async()=>{setBusy(true);try{await api('catalog',{method:'PUT',headers:{'Content-Type':'application/json','If-Match':state.etag||'empty'},body:JSON.stringify(collect())});await refresh();message('歌单已保存，访客刷新页面即可读取。');}catch(e){message(e.message);}finally{setBusy(false);}};
-$('#refresh').onclick=async()=>{setBusy(true);try{await refresh();message('已读取最新歌单。');}catch(e){message(e.message);}finally{setBusy(false);}};
+$('#enabled').onchange=()=>scheduleSave(0);
+window.addEventListener('pagehide',()=>saveChanges());
 document.addEventListener('play',e=>{document.querySelectorAll('audio').forEach(a=>{if(a!==e.target)a.pause();});},true);
-try{const session=await api('session');if(session.canManage){$('#manager').hidden=false;await refresh();message('上传和修改会直接更新网站音乐。');}else{$('#login').hidden=false;message('访客可以听音乐；只有站主能修改歌单。');}}catch(e){message(e.message);}
+try{const session=await api('session');if(session.canManage){$('#manager').hidden=false;await refresh();}else{$('#login').hidden=false;}}catch(e){message(e.message);}
