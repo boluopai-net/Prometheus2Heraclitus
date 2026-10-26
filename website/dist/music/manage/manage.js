@@ -2,6 +2,8 @@ import {prepareAudio} from './ncm.js';
 
 const $=selector=>document.querySelector(selector);
 let state, busy=false;
+let completion=Promise.resolve();
+const queue=document.createElement('ol');queue.id='upload-queue';$('#upload-progress').replaceWith(queue);
 const message=text=>$('#message').textContent=text;
 function setBusy(value){busy=value;document.querySelectorAll('#manager button,#manager input').forEach(el=>el.disabled=value);$('#upload').disabled=value||!$('#files').files.length;}
 async function api(path,options={}){
@@ -30,21 +32,23 @@ function render(){
 }
 async function refresh(){state=await api('catalog');render();}
 $('#files').onchange=()=>$('#upload').disabled=busy||!$('#files').files.length;
-function uploadPart(path,uploadId,blob,offset,total){return new Promise((resolve,reject)=>{
+function uploadPart(path,uploadId,blob,offset,total,progress){return new Promise((resolve,reject)=>{
   const xhr=new XMLHttpRequest();xhr.open('PUT','/api/music/'+path);xhr.setRequestHeader('X-Music-Upload-Id',uploadId);xhr.setRequestHeader('Content-Type','application/octet-stream');
-  xhr.upload.onprogress=e=>{if(e.lengthComputable)$('#upload-progress').value=(offset+e.loaded)/total*100;};
+  xhr.upload.onprogress=e=>{if(e.lengthComputable)progress((offset+e.loaded)/total*100);};
   xhr.onload=()=>{let d;try{d=JSON.parse(xhr.responseText);}catch{reject(Error('服务器响应异常，请重新读取歌单确认。'));return;}if(xhr.status>=200&&xhr.status<300)resolve(d);else reject(Error(d.error||'上传失败，请重新读取确认。'));};
   xhr.onerror=()=>reject(Error('网络中断，请重新上传这个文件。'));xhr.ontimeout=xhr.onerror;xhr.timeout=180000;xhr.send(blob);
 });}
-async function upload(track,audio){
+async function upload(track,audio,progress){
   const base='tracks/'+track.id+'/upload';let uploadId;
   try{
     const session=await api(base,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:track.title,artist:track.artist,bytes:audio.size})});uploadId=session.uploadId;
     for(let start=0,part=1;start<audio.size;start+=session.partBytes,part++){
       const blob=await audio.slice(start,Math.min(start+session.partBytes,audio.size));
-      await uploadPart(base+'/parts/'+part,uploadId,blob,start,audio.size);
+      await uploadPart(base+'/parts/'+part,uploadId,blob,start,audio.size,progress);
     }
-    return await api(base+'/complete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({uploadId})});
+    // Audio transfers overlap; serialize only the shared playlist publication.
+    const finish=completion.then(()=>api(base+'/complete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({uploadId})}));
+    completion=finish.catch(()=>{});return await finish;
   }catch(error){
     try{const catalog=await api('catalog');if(catalog.tracks.some(t=>t.id===track.id))return;}catch{}
     if(uploadId)try{await api(base,{method:'DELETE',headers:{'X-Music-Upload-Id':uploadId}});}catch{}
@@ -53,11 +57,25 @@ async function upload(track,audio){
 }
 $('#upload').onclick=async()=>{
   const files=[...$('#files').files];if(!files.length)return;
-  for(const file of files){if(file.size>512*1024*1024){message('「'+file.name+'」超过 512 MB。');return;}}
-  setBusy(true);$('#upload-progress').hidden=false;let count=0;
-  try{for(const file of files){message('正在读取 '+file.name);$('#upload-progress').value=0;const audio=await prepareAudio(file);message('正在上传 '+(count+1)+' / '+files.length+'：'+audio.title);await upload({id:crypto.randomUUID(),title:audio.title.slice(0,200),artist:($('#upload-artist').value.trim()||audio.artist).slice(0,200)},audio);count++;}$('#files').value='';await refresh();message('已上传 '+count+' 首，网站现在可以播放。');}
-  catch(e){try{await refresh();}catch{}message(e.message+' 已完成 '+count+' 首。');}
-  finally{$('#upload-progress').hidden=true;setBusy(false);}
+  queue.replaceChildren();const artist=$('#upload-artist').value.trim();
+  const jobs=files.map(file=>{const row=document.createElement('li'),name=document.createElement('span'),status=document.createElement('span'),bar=document.createElement('progress'),retry=document.createElement('button');name.textContent=file.name;status.textContent='等待中';bar.max=100;bar.value=0;retry.type='button';retry.textContent='重试';retry.hidden=true;row.append(name,status,bar,retry);queue.append(row);return{file,status,bar,retry,done:false};});
+  let running=0;
+  const summary=()=>message('已完成 '+jobs.filter(j=>j.done).length+' / '+jobs.length+' 首'+(running?' · 正在处理 '+running+' 首':''));
+  async function run(job){
+    running++;summary();job.retry.hidden=true;job.bar.value=0;
+    try{
+      if(job.file.size>512*1024*1024)throw Error('文件超过 512 MB');
+      job.status.textContent='正在读取与转换';const audio=await prepareAudio(job.file);
+      job.status.textContent='正在上传';await upload({id:crypto.randomUUID(),title:audio.title.slice(0,200),artist:(artist||audio.artist).slice(0,200)},audio,value=>{job.bar.value=value;job.status.textContent='上传 '+Math.round(value)+'%';});
+      job.done=true;job.bar.value=100;job.status.textContent='已完成';
+    }catch(e){job.status.textContent=e.message;job.retry.hidden=false;}
+    finally{running--;summary();}
+  }
+  setBusy(true);let cursor=0;
+  try{await Promise.all(Array.from({length:Math.min(10,jobs.length)},async()=>{while(cursor<jobs.length)await run(jobs[cursor++]);}));$('#files').value='';await refresh();}
+  catch(e){message(e.message);}
+  finally{setBusy(false);}
+  for(const job of jobs)job.retry.onclick=async()=>{setBusy(true);try{await run(job);await refresh();}catch(e){message(e.message);}finally{setBusy(false);}};
 };
 $('#save').onclick=async()=>{setBusy(true);try{await api('catalog',{method:'PUT',headers:{'Content-Type':'application/json','If-Match':state.etag||'empty'},body:JSON.stringify(collect())});await refresh();message('歌单已保存，访客刷新页面即可读取。');}catch(e){message(e.message);}finally{setBusy(false);}};
 $('#refresh').onclick=async()=>{setBusy(true);try{await refresh();message('已读取最新歌单。');}catch(e){message(e.message);}finally{setBusy(false);}};

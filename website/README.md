@@ -31,7 +31,11 @@ theme. Native audio requires no YouTube, tracking embed, or new dependency.
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
 is runtime content; it never enters Git or the public source snapshot. The
 interface supports multiple uploads, title/artist editing, ordering, a default
-track, playlist enable/disable, preview, and deletion. Accepted browser audio
+track, playlist enable/disable, preview, and deletion. A ten-file worker queue
+overlaps local NCM decoding and multipart transfers, with per-file progress and
+independent failure/retry. Larger selections wait in the same queue. Only the
+final shared-catalog publication is serialized to avoid needless write conflicts.
+Accepted browser audio
 types are MP3, M4A, OGG, FLAC and WAV, with a 512 MiB per-file and 200-track limit.
 The owner can also select NCM files directly. `dist/music/manage/ncm.js` reads
 the container and title/artist locally, then exposes decoded MP3/FLAC slices to
