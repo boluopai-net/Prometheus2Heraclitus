@@ -247,8 +247,8 @@ the practice that aim needs.
 
 | Mode | The person's participation | The model's contribution |
 | --- | --- | --- |
-| Listening | Attend to meaning, sound, and rhythm; recognize a question or possibility; hear your own words as you speak | Develop grounded explanations and examples; adapt to feedback |
-| Speaking | Voice intuitions, intentions, and objections; discover relations while speaking to a silent rubber duck | Reconstruct unfinished meaning, investigate, and return developed possibilities |
+| Listening | Attend to meaning, sound, and rhythm; recognize a question or possibility; hear what you say to the rubber duck | Develop grounded explanations and examples; adapt to feedback |
+| Speaking | Voice intuitions, intentions, and objections; discover relations while speaking; talk to the rubber duck | Reconstruct unfinished meaning, investigate, and return developed possibilities |
 | Reading | Read broadly, compare meanings, and examine diagrams, works, and results | Retrieve originals, check details, and make key relations inspectable |
 | Writing | Bring prompts, ideas, critiques, and conception drafts into shared work; write philosophy | Develop and maintain complete arguments, programs, and works; verify results |
 
