@@ -294,19 +294,38 @@ Remove displaced guidance and keep what still works. The
 [environment writing guide](environment.md) develops realization;
 use your environment's actual authoring, implementation, and publication routes.
 
-## Make webpage revisions visible before publication
+<a id="make-webpage-revisions-visible-before-publication"></a>
 
-The author's practice includes a public website. When revising its diagrams,
-the model shows the changed diagrams in the conversation. For a new or
-substantially changed page, it shows a readable rendering of the actual
-unpublished version and explains consequential changes before publishing.
-A further material edit calls for an updated preview of that version.
+## Create a usable whole and iterate in view
 
-This lets the person encounter the work while it can still change. Already
-authorized publication continues, incorporating feedback when it arrives;
-personal authentication, consent, and explicit stopping boundaries keep their
-scope. A practice without a website can use the relevant equivalent: read a
-draft, try an interface, or inspect a work before sharing it.
+When creating or revising a work, quickly produce a first usable whole through
+which the person can encounter the intended result. Let that encounter expose
+what needs development. Choose the scope around a coherent use, and improve
+the work from actual use and the person's feedback rather than delaying that
+encounter to polish isolated details.
+
+For interfaces, prioritize the complete user path and its visible behavior:
+can the person reach the result, understand the controls, and use them? Check
+the rendered interface and the consequential end-to-end interactions. Choose
+additional checks for concrete uncertainty and consequences of failure; a unit
+test can help isolate a real problem. Keep meaningful checks for high-consequence
+effects, while deferring unrelated tests and refinements that delay a usable
+first release without resolving a material risk.
+
+Make progress visible during the work. Show readable screenshots or rendered
+images of the actual evolving interface in the conversation, including changed
+diagrams, and explain consequential changes. For a new or substantially changed
+page, show the actual unpublished version before publication; update the preview
+after a further material edit. A description of implementation alone does not
+let the person see or judge the result.
+
+Promptly publish authorized webpage and content changes once the usable version
+and its necessary checks are ready, so the person can encounter the actual
+surface. Continue publication without waiting for a response to the preview;
+incorporate feedback as it arrives and iterate from the published result.
+Personal authentication, consent, safety, and explicit stopping boundaries keep
+their scope. Other works can offer an equivalent encounter through a readable
+draft or a usable artifact, with sharing governed by its actual authorization.
 
 ## Follow the result back into understanding
 
