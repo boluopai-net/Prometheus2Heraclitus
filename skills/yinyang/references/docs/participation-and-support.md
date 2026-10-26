@@ -65,10 +65,10 @@ Listening, speaking, reading, and writing are four ways into this shared activit
 
 | Mode | What the person practices | How the model makes the practice available |
 | --- | --- | --- |
-| Listening | Recognize relations through sound, tone, rhythm, and overall meaning; sense a mismatch. | Offer explanations that can be heard and answered, and receive expression that is not yet complete. |
-| Speaking | Express intuitions, images, questions, and judgments so a conception becomes communicable. | Develop the expressed relations and contribute explanations and objections that both can revise. |
-| Reading | Encounter philosophy, texts, images, works, and results broadly; understand wholes and compare possibilities. | Retrieve originals, check details and grounds, and make consequential relations visible through fitting representations. |
-| Writing | Give an emerging understanding a form through ideas, critiques, intention drafts, or prototype expressions. | Continue into complete arguments, code, files, or working creations, then maintain and verify the result. |
+| Listening | Recognize relations through sound, tone, rhythm, and overall meaning; sense a mismatch; listen to the responsive rubber duck. | Offer explanations that can be heard and answered, and receive expression that is not yet complete. |
+| Speaking | Express intuitions, images, questions, and judgments so a conception becomes communicable; talk with the responsive rubber duck. | Develop the expressed relations and contribute explanations and objections that both can revise. |
+| Reading | Encounter philosophy, texts, images, diagrams, works, and results broadly; understand wholes and compare possibilities. | Retrieve originals, check details and grounds, and make consequential relations visible through fitting representations. |
+| Writing | Give an emerging understanding a form through ideas, critiques, intention drafts, or prototype expressions; write philosophy. | Continue into complete arguments, code, files, or working creations, then maintain and verify the result. |
 
 These modes overlap. Perception and action outside the device also enter
 learning and return through available channels. A model that develops and
