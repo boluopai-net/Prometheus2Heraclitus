@@ -4,8 +4,8 @@
 <section id="login" hidden><p>使用站主的 ChatGPT 账号登录后管理音乐。</p><a class="admin-primary" href="/signin-with-chatgpt?return_to=%2Fmusic%2Fmanage%2F" target="_top">使用 ChatGPT 登录</a></section>
 <p id="message" role="status" aria-live="polite">正在读取歌单…</p>
 <section id="manager" hidden>
-  <section class="upload-area"><h2>添加音乐</h2><label for="files" class="file-label">选择音频文件，可多选</label><input id="files" type="file" multiple accept="audio/mpeg,audio/mp4,audio/ogg,audio/flac,audio/wav,.mp3,.m4a,.ogg,.flac,.wav"><p>MP3、M4A、OGG、FLAC、WAV，每首最大 32 MB。NCM 需要先转成标准音频格式。</p><label for="upload-artist">演唱／演奏者（可选）</label><input id="upload-artist" type="text" maxlength="200" placeholder="可在上传后分别修改"><button id="upload" class="admin-primary" type="button" disabled>上传所选文件</button><progress id="upload-progress" hidden max="100" value="0"></progress></section>
-  <div class="playlist-heading"><h2>网站歌单</h2><label><input id="enabled" type="checkbox"> 开启网站音乐</label></div><p class="admin-note">默认曲目供新访客使用；访客仍可自行选歌或关闭。调整顺序和文字后点击保存。</p>
+  <section class="upload-area"><h2>添加音乐</h2><label for="files" class="file-label">选择音频文件，可多选</label><input id="files" type="file" multiple accept="audio/mpeg,audio/mp4,audio/ogg,audio/flac,audio/wav,.mp3,.m4a,.ogg,.flac,.wav"><p>MP3 / M4A / OGG / FLAC / WAV · 每首最多 32 MB</p><label for="upload-artist">演唱／演奏者（可选）</label><input id="upload-artist" type="text" maxlength="200" placeholder="可在上传后分别修改"><button id="upload" class="admin-primary" type="button" disabled>上传所选文件</button><progress id="upload-progress" hidden max="100" value="0"></progress></section>
+  <div class="playlist-heading"><h2>网站歌单</h2><label><input id="enabled" type="checkbox"> 开启网站音乐</label></div><p class="admin-note">默认曲目用于首次播放。</p>
   <ol id="tracks"></ol><p id="empty" hidden>还没有音乐。上传第一首即可开始。</p>
-  <div class="save-row"><button id="save" class="admin-primary" type="button">保存歌单</button><button id="refresh" type="button">重新读取</button><a href="/" target="_blank" rel="noopener">查看网站 ↗</a></div>
+  <div class="save-row"><button id="save" class="admin-primary" type="button">保存歌单</button><button id="refresh" type="button">重新读取</button><a href="/" target="_blank" rel="noopener">查看网站</a></div>
 </section></main></body></html>
