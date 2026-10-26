@@ -15,7 +15,10 @@ Site's existing ChatGPT sign-in and server-side `OWNER_EMAIL` (or the stronger
 audio on 2026-10-26: no fixed three-song catalog and no model approval or
 per-track rights-document gate. No recordings are preloaded by this change.
 An empty or globally disabled playlist does not display a dead public player.
-The footer's Music management link remains available for the owner.
+The management entrance lives in the owner's private YinYang reader, with no
+public footer link. The Worker protects the management page and its assets
+with the same owner identity and private, no-store responses. Anonymous visits
+go to native sign-in; other signed-in accounts receive 404.
 
 Once activated, the player attempts audible autoplay, handles browser rejection
 with a play button, and persists track, volume, and explicit off/pause choice.

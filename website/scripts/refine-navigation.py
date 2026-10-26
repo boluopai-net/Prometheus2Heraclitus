@@ -189,8 +189,7 @@ for page in root.rglob('*.html'):
     english_page = bool(re.search(r'<html\b[^>]*lang=["\']en["\']', updated))
     rights_url = '/rights/en/' if english_page else '/rights/'
     rights_label = 'Copyright &amp; licensing' if english_page else '版权与许可'
-    music_label = 'Music management' if english_page else '音乐管理'
-    copyright_footer = f'<p class="copyright">© 2026 boluopai · <a href="{rights_url}">{rights_label}</a> · <a href="/music/manage/">{music_label}</a></p>'
+    copyright_footer = f'<p class="copyright">© 2026 boluopai · <a href="{rights_url}">{rights_label}</a></p>'
     updated = re.sub(r'<p class="copyright">[\s\S]*?</p>', copyright_footer, updated)
     if re.search(r'<html\b[^>]*lang=["\']en["\']', updated):
         def english_footer(match):
