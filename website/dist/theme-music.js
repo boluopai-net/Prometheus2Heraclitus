@@ -26,15 +26,13 @@ export function mountThemeMusic(config) {
   root.setAttribute('aria-label', t('网站音乐', 'Site music'));
   root.innerHTML = `
     <section class="music-panel" id="theme-music-panel" aria-label="${t('主题曲选择', 'Theme music selection')}" hidden>
-      <div class="music-heading"><div><span>${t('网站主题曲', 'Site theme music')}</span><h2>${t('火与河流', 'Fire and Flow')}</h2></div><button type="button" data-collapse aria-label="${t('收起面板，保留播放', 'Collapse panel, keep playing')}">−</button></div>
+      <div class="music-heading"><h2>${t('火与河流', 'Fire and Flow')}</h2><button type="button" data-collapse aria-label="${t('收起面板，保留播放', 'Collapse panel, keep playing')}">−</button></div>
       <div class="music-tracks" role="group" aria-label="${t('选择歌曲', 'Choose a track')}"></div>
       <div class="music-progress"><label class="music-sr" for="theme-music-seek">${t('播放进度', 'Playback position')}</label><input id="theme-music-seek" type="range" min="0" max="0" value="0" step="1" disabled><div><span data-elapsed>0:00</span><span data-duration>0:00</span></div></div>
       <p class="music-status" role="status" aria-live="polite"></p>
       <div class="music-volume"><label for="theme-music-volume">${t('音量', 'Volume')}</label><input id="theme-music-volume" type="range" min="0" max="100" step="1"><output for="theme-music-volume"></output></div>
-      <button class="music-off" type="button" data-off>${t('关闭音乐', 'Turn music off')}</button>
-      <a class="music-manage" href="/music/manage/">${t('管理音乐', 'Manage music')}</a>
     </section>
-    <div class="music-dock"><button type="button" class="music-play" data-play></button><button type="button" class="music-open" aria-controls="theme-music-panel" aria-expanded="false"><span data-track-name></span><span class="music-open-label">${t('音乐', 'Music')} ↑</span></button></div>`;
+    <div class="music-dock"><button type="button" class="music-play" data-play></button><button type="button" class="music-open" aria-controls="theme-music-panel" aria-expanded="false"><span data-track-name></span></button></div>`;
   document.body.append(root);
   const panel = root.querySelector('.music-panel');
   const play = root.querySelector('[data-play]');
@@ -75,7 +73,7 @@ export function mountThemeMusic(config) {
     } catch (error) {
       if (current !== request) return;
       status.textContent = error.name === 'NotAllowedError'
-        ? t('点播放，听这首主题曲。', 'Press play to hear this theme.')
+        ? ''
         : t('暂时无法播放，请稍后重试。', 'Playback is unavailable. Please try again.');
     }
     paint();
@@ -126,7 +124,6 @@ export function mountThemeMusic(config) {
   });
   open.addEventListener('click', () => showPanel(panel.hidden));
   root.querySelector('[data-collapse]').addEventListener('click', () => { showPanel(false); open.focus(); });
-  root.querySelector('[data-off]').addEventListener('click', () => { pause(); showPanel(false); play.focus(); });
   root.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !panel.hidden) { showPanel(false); open.focus(); }
   });
@@ -152,7 +149,7 @@ export function mountThemeMusic(config) {
   window.addEventListener('pagehide', () => { rememberPosition(); ++request; audio.pause(); });
   window.addEventListener('pageshow', event => { if (event.persisted && enabled) start(); });
   loadTrack(selected);
-  status.textContent = t('点播放，听这首主题曲。', 'Press play to hear this theme.');
+  status.textContent = '';
   if (enabled) start();
   return {audio, root};
 }

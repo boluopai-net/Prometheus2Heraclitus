@@ -21,12 +21,10 @@
 .music-progress{margin-top:18px}
 .music-progress input{width:100%;margin:0;accent-color:var(--water)}
 .music-progress>div{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
-.music-status{min-height:1.5em;margin:8px 0 12px;color:var(--muted);font-size:12px}
+.music-status{margin:8px 0 12px;color:var(--muted);font-size:14px}.music-status:empty{display:none}
 .music-volume{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--muted)}
 .music-volume input{min-width:0;flex:1;accent-color:var(--water)}
 .music-volume output{width:32px;text-align:right;font-variant-numeric:tabular-nums}
-.music-off{display:block;margin:18px 0 0;padding:8px 0 0;width:100%;border:0;border-top:1px solid var(--line);background:transparent;text-align:center;font-size:12px!important;color:var(--muted)!important}
-.music-manage{display:block;text-align:center;margin-top:10px;font-size:11px;color:var(--muted)}
 .music-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 .theme-music :is(button,input):focus-visible{outline:2px solid var(--water);outline-offset:2px}
 @media(max-width:600px){.theme-music{right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}.music-panel{padding:16px}}

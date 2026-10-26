@@ -25,7 +25,9 @@ with a play button, and persists track, volume, and explicit off/pause choice.
 Per-tab position survives page navigation; full document navigation may have a
 short interruption and another browser playback gate. It does not claim
 gapless navigation or bypass user-agent policy. Collapsing the panel retains
-audio, while Turn music off stops it. Starting other page media pauses the
+audio; the dock controls play/pause. The public panel has no management link,
+separate music-off action, press-play instruction, or directional navigation
+arrow. Starting other page media pauses the
 theme. Native audio requires no YouTube, tracking embed, or new dependency.
 
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
