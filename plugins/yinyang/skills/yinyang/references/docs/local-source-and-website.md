@@ -23,6 +23,8 @@ The individual instance establishes no further whole outside the physical world.
 
 In this personal-environment practice, the psychological contribution takes shape through the joint condensation of life material and adopted philosophy into working models. Experience supplies grounds; philosophy contributes concepts and direction; engineering's intended use helps select the relations the account must preserve. The resulting model serves the design and revision of the personal environment, while subsequent use brings new material to all three. Philosophy, psychology, and engineering are therefore already involved in forming the account itself.
 
+<a id="worldview-knowing-and-realization"></a>
+
 ## How three contributions meet in one activity
 
 Imagine someone repeatedly changing their mind while shopping. They want the model to help compare products, but find that more information makes choosing harder. Adding tools or data alone may not resolve the problem.
