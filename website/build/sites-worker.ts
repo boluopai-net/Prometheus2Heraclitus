@@ -2,15 +2,18 @@ import { publicApi, privateHeaders } from '../lib/public-api.js';
 import { visitorApi } from '../lib/visitor-api.js';
 import { contentReleaseApi, contentResponse } from '../lib/content-release.js';
 import { siteMusic, musicOwner } from '../lib/site-music.js';
+import { musicAuthResponse } from '../lib/music-identity.js';
 
 export default {
   async fetch(request: Request, env: Cloudflare.Env) {
     const url = new URL(request.url);
-    const musicManager = /^\/music\/manage(?:\/|$)/.test(url.pathname);
+    const musicManager = /^\/music\/manage(?:\/(?:index\.html)?)?$/.test(url.pathname.replace(/^\/_content\/[a-f0-9]{64}(?=\/)/,''));
     if (musicManager && !musicOwner(request, env)) {
       if (request.headers.get('oai-authenticated-user-id')) return new Response('Not found', {status:404,headers:privateHeaders});
       return new Response(null, {status:302,headers:{...privateHeaders,Location:'/signin-with-chatgpt?return_to=%2Fmusic%2Fmanage%2F'}});
     }
+    const musicAuth = await musicAuthResponse(request, env);
+    if (musicAuth) return musicAuth;
     const music = await siteMusic(request, env);
     if (music) return music;
     const release = await contentReleaseApi(request, env);

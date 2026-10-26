@@ -4,7 +4,7 @@ export function mountThemeMusic(config) {
   const tracks = config.tracks.filter(track => typeof track.src === 'string' && track.src);
   if (!tracks.length) return;
   const t = (zh, english) => document.documentElement.lang === 'en' ? english : zh;
-  const key = 'boluopai-theme-music';
+  const key = 'boluopai-theme-music'+(config.profileKey&&config.profileKey!=='default'?':'+config.profileKey:'');
   let saved = {}, progress = {};
   try { saved = JSON.parse(localStorage.getItem(key)) || {}; } catch (_) {}
   try { progress = JSON.parse(sessionStorage.getItem(key)) || {}; } catch (_) {}
@@ -13,7 +13,7 @@ export function mountThemeMusic(config) {
   let volume = Number.isFinite(saved.volume) ? Math.max(0, Math.min(1, saved.volume)) : 0.25;
   const modes = {sequence:['顺序播放','In order'],list:['列表循环','Repeat playlist'],single:['单曲循环','Repeat track'],shuffle:['随机播放','Shuffle']};
   const modeIcons = {
-    sequence:'<path d="M4 5h12M4 10h12M4 15h5M4 20h5M13 17h7m-3-3 3 3-3 3"/>',
+    sequence:'<path d="M2 12h20m-7-7 7 7-7 7"/>',
     list:'<path d="m17 2 4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4m14-1v2a3 3 0 0 1-3 3H3"/>',
     single:'<path d="m17 2 4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4m14-1v2a3 3 0 0 1-3 3H3m7-7 2-1v5"/>',
     shuffle:'<path d="m18 3 3 3-3 3m0 6 3 3-3 3M3 6h2c5 0 9 12 14 12h2M3 18h2c2 0 4-2 6-5m2-2c2-3 4-5 6-5h2"/>'
@@ -35,7 +35,7 @@ export function mountThemeMusic(config) {
   root.setAttribute('aria-label', t('网站音乐', 'Site music'));
   root.innerHTML = `
     <section class="music-panel" id="theme-music-panel" aria-label="${t('主题曲选择', 'Theme music selection')}" hidden>
-      <div class="music-heading"><h2>${t('火与河流', 'Fire and Flow')}</h2><button type="button" data-collapse aria-label="${t('收起面板，保留播放', 'Collapse panel, keep playing')}">−</button></div>
+      <div class="music-heading"><h2>${t('火与河流', 'Fire and Flow')}</h2><a class="music-library-link" href="/music/">${t('我的歌单', 'My playlist')}</a><button type="button" data-collapse aria-label="${t('收起面板，保留播放', 'Collapse panel, keep playing')}">−</button></div>
       <div class="music-tracks" role="group" aria-label="${t('选择歌曲', 'Choose a track')}"></div>
       <div class="music-mode"><button type="button" class="music-mode-toggle" aria-expanded="false" aria-controls="theme-music-mode-wheel"></button><div class="music-mode-wheel" id="theme-music-mode-wheel" role="group" hidden></div></div>
       <div class="music-progress"><label class="music-sr" for="theme-music-seek">${t('播放进度', 'Playback position')}</label><input id="theme-music-seek" type="range" min="0" max="0" value="0" step="1" disabled><div><span data-elapsed>0:00</span><span data-duration>0:00</span></div></div>
@@ -81,6 +81,7 @@ export function mountThemeMusic(config) {
     panel.setAttribute('aria-label',t('主题曲选择','Theme music selection'));
     root.querySelector('.music-tracks').setAttribute('aria-label',t('选择歌曲','Choose a track'));
     root.querySelector('.music-heading h2').textContent=t('火与河流','Fire and Flow');
+    root.querySelector('.music-library-link').textContent=t('我的歌单','My playlist');
     root.querySelector('[data-collapse]').setAttribute('aria-label',t('收起面板，保留播放','Collapse panel, keep playing'));
     root.querySelector('label[for="theme-music-volume"]').textContent=t('音量','Volume');
     root.querySelector('label[for="theme-music-seek"]').textContent=t('播放进度','Playback position');
@@ -198,7 +199,7 @@ export function mountThemeMusic(config) {
 
 export async function startSiteMusic() {
   if (!document.querySelector('header.header') || document.querySelector('.theme-music')) return;
-  const response = await fetch('/api/music/catalog');
+  const response = await fetch('/api/music/playback');
   if (!response.ok) return;
   mountThemeMusic(await response.json());
 }

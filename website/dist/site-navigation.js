@@ -33,7 +33,7 @@ export function startNavigation(){
   }
   const ignoreVisit=url=>{
     const target=new URL(url,location.href);
-    return target.origin!==location.origin||(target.pathname===location.pathname&&target.search===location.search&&!!target.hash)||/^\/(?:api|media|music\/manage|signin-with-chatgpt)(?:\/|$)/.test(target.pathname)||/\.(?:pdf|png|jpe?g|svg|webp|zip|mp3|flac|wav)$/i.test(target.pathname);
+    return target.origin!==location.origin||(target.pathname===location.pathname&&target.search===location.search&&!!target.hash)||/^\/(?:api|media|music|auth|signin-with-chatgpt)(?:\/|$)/.test(target.pathname)||/\.(?:pdf|png|jpe?g|svg|webp|zip|mp3|flac|wav)$/i.test(target.pathname);
   };
   const swup=new Swup({
     containers:['#site-page'],animationSelector:false,animateHistoryBrowsing:true,cache:true,ignoreVisit,skipPopStateHandling:()=>false,

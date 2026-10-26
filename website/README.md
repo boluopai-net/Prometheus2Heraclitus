@@ -16,8 +16,10 @@ audio on 2026-10-26: no fixed three-song catalog and no model approval or
 per-track rights-document gate. No recordings are preloaded by this change.
 An empty or globally disabled playlist does not display a dead public player.
 The management entrance lives in the owner's private YinYang reader, with no
-public footer link. The Worker protects the management page and its assets
-with the same owner identity and private, no-store responses. Anonymous visits
+public footer link. The Worker protects the owner management HTML, including
+snapshot-pinned HTML paths, with the same identity and private, no-store responses.
+Shared manager scripts and styles also serve the public personal-playlist page.
+Anonymous owner-manager visits
 go to native sign-in; other signed-in accounts receive 404.
 
 Once activated, the player attempts audible autoplay, handles browser rejection
@@ -62,21 +64,29 @@ the license banner. There is no runtime CDN or application-framework migration.
 `lib/site-music.js` owns a separate `site-music/v1/` R2 namespace. Uploaded audio
 is runtime content; it never enters Git or the public source snapshot. The
 interface supports multiple uploads, ordering, a default
-track, playlist enable/disable, and selected-track deletion. A 32-file worker queue
+track, playlist enable/disable, and selected-track removal. A 32-file worker queue
 overlaps local NCM decoding and multipart transfers, with per-file progress and
 independent failure/retry. Larger selections wait in the same queue. Only the
 final shared-catalog publication is serialized to avoid needless write conflicts.
+Each successful publication updates the visible playlist immediately, while
+other files continue uploading. A file's progress switches from transfer
+percentage to catalog finalization until the server confirms its listing.
 The compact management list shows a total count without per-track audio players.
 Rows reorder directly by dragging their grip/row area; a focused row also
 supports arrow-key movement. Selection supports select-all and invert, with
-one confirmation and sequential ETag-aware deletes. One global selector sets
+one confirmation and sequential ETag-aware removals. One global selector sets
 the first-play default track. Track titles are read-only. Row order, default track, and the
 enabled setting save automatically through a serialized write chain. There are
 no manual save/refresh controls or editable artist fields; metadata artists
 remain attached to recordings. The interface shows in-flight file progress and
 actionable errors, without routine success messages or duplicate site links.
 Accepted browser audio
-types are MP3, M4A, OGG, FLAC and WAV, with a 512 MiB per-file and 200-track limit.
+types are MP3, M4A, OGG, FLAC and WAV, with a 512 MiB per-file and 200-track
+shared-library limit. Each personal playlist is also bounded to 200 references.
+The server streams completed audio through SHA-256, reuses exact existing
+recordings independently of filenames and multipart boundaries, and discards
+only the newly uploaded duplicate object. Different encodings or tags remain
+different byte sequences. Matching legacy recordings are fingerprinted lazily.
 The owner can also select NCM files directly. `dist/music/manage/ncm.js` reads
 the container and title/artist locally, then exposes decoded MP3/FLAC slices to
 the same upload path. It preserves the original audio rather than transcoding
@@ -106,9 +116,10 @@ upload state stays in the same fixed music namespace. The previous PUT
 `/api/music/tracks/<uuid>` remains limited to 32 MiB for cached management
 pages during rollout. PUT
 `/api/music/catalog` edits metadata/order/default; DELETE
-`/api/music/tracks/<uuid>` removes the listing and stored audio. All writes
+`/api/music/tracks/<uuid>` removes the owner-default reference while retaining
+the shared recording. These owner routes
 require the configured owner identity or existing `CONTENT_PUBLISH_KEY` service
-authority. Native browser writes require an exact same-origin Origin; no CORS
+authority. Browser writes require an exact same-origin Origin; no CORS
 grant is added. The key is never exposed to the management page. ETag-based
 catalog writes reject stale edits. IDs, details, body limits, and audio signatures
 are checked server-side; caller input cannot select arbitrary R2 keys or URLs.
@@ -119,6 +130,39 @@ URL. Verification covers anonymous/non-owner denial, owner upload/edit/delete,
 cross-origin rejection, media range delivery, and the public player using a
 short disposable test recording. Browser playback policies remain independent
 of content ownership and can still require a visitor's first click.
+
+### Personal music accounts
+
+`/music/` is the public GitHub sign-in and personal-playlist entry. Its manager
+uses `/api/music/personal/session`, `/catalog`, and `/tracks/<uuid>` (relative
+to `/api/music/personal/`); multipart paths match the owner route. Each upload
+session is bound to its GitHub actor, and the completion response carries the
+personal catalog ETag. Track removal changes only that account's references.
+The shared library remains visible at `/api/music/library`; `/api/music/playback`
+selects the signed-in account's list or the owner's defaults and supplies a
+`profileKey` for browser-local playback preferences.
+
+The shared catalog retains immutable audio metadata plus `defaultIds`; legacy
+catalogs without that field retain all original tracks as defaults. The first
+personal upload materializes those IDs before adding community audio. Private
+lists live under `site-music/v1/playlists/github/<stable-id>.json`, containing
+only ordered track IDs, enable/default selection and R2 ETag state. An absent
+list inherits the defaults; an explicitly empty list stays empty across devices.
+Personal choices cannot overwrite shared metadata or another account's list.
+
+`lib/music-identity.js` owns only the requested GitHub public-profile identity
+flow, alongside the existing Sites owner authentication. Routes are
+`/auth/github`, `/auth/github/callback` and same-origin POST
+`/auth/github/logout`. OAuth state and S256 PKCE expire after ten minutes;
+signed Secure/HttpOnly/SameSite=Lax sessions expire after seven days. GitHub
+tokens are used only for the profile lookup, never stored. The callback is
+`https://boluopai.net/auth/github/callback`; no repository or email scope is
+requested. Runtime values `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET` and
+`MUSIC_SESSION_SECRET` are native Sites secrets backed by the Bitwarden `key`
+item `boluopai.net — GitHub music sign-in`, not repository configuration.
+Real Worker/R2 acceptance is in `scripts/test-music-identity.mjs` and
+`scripts/test-site-music.mjs`; browser acceptance separately exercises the
+rendered account, library, playback and upload paths.
 
 ### Reading surfaces
 
@@ -356,6 +400,12 @@ in Next/ImageResponse/cache/image routes, RSC server functions, image/source-map
 parsers, and build/dev dependencies (glob/YAML, Undici, Vite, Wrangler, ws).
 The current audit reports 24 advisories (one critical, 15 high, seven moderate,
 one low). No dependencies changed for the music channel. The emitted custom
+Worker's GitHub-personal-playlist revision was also checked with the official
+registry's production-only audit: six inherited advisories (one critical, three
+high, two moderate). Its bundled module graph contains only the six local
+handlers and native Web Crypto; none of those affected packages enter this
+request path. The existing scoped deferral below still applies.
+The custom
 Worker handles authenticated music uploads, content publication, retired APIs and
 snapshot reads; it does not dispatch Next image/SSR/RSC routes, accept anonymous uploads,
 or parse visitor-provided SVG, source maps, YAML, or

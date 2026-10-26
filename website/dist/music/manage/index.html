@@ -7,7 +7,7 @@
   <section class="upload-area"><h2>添加音乐</h2><label for="files" class="file-label">选择音频文件，可多选</label><input id="files" type="file" multiple accept="audio/mpeg,audio/mp4,audio/ogg,audio/flac,audio/wav,.ncm,.mp3,.m4a,.ogg,.flac,.wav"><p>支持 NCM、MP3、FLAC 等音频 · 每首最多 512 MB</p><button id="upload" class="admin-primary" type="button" disabled>上传所选文件</button><progress id="upload-progress" hidden max="100" value="0"></progress></section>
   <div class="playlist-heading"><h2>网站歌单 <span id="track-count"></span></h2><label><input id="enabled" type="checkbox"> 开启网站音乐</label></div>
   <div class="playlist-settings"><label for="default-track">默认曲目</label><select id="default-track"></select><span class="admin-note">用于首次播放</span></div>
-  <div class="selection-bar"><button id="select-all" type="button">全选</button><button id="invert-selection" type="button">反选</button><span id="selection-count" aria-live="polite"></span><button id="delete-selected" type="button" disabled>删除所选</button></div>
+  <div class="selection-bar"><button id="select-all" type="button">全选</button><button id="invert-selection" type="button">反选</button><span id="selection-count" aria-live="polite"></span><button id="delete-selected" type="button" disabled>移除所选</button></div>
   <p class="admin-note">直接拖拽歌曲调整顺序；聚焦歌曲行后也可用上下方向键排序。</p>
   <ol id="tracks"></ol><p id="empty" hidden>还没有音乐。上传第一首即可开始。</p>
 </section></main></body></html>

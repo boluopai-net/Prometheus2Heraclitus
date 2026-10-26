@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><link rel="canonical" href="https://boluopai.net/music/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我的歌单 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/music/manage/manage.css"><script src="/site.js"></script><script type="module" src="/music/manage/manage.js"></script></head>
+<body data-music-profile="personal"><main class="wrap music-admin"><a href="/">火与河流</a><h1>我的歌单</h1>
+<section id="login" hidden><p>用 GitHub 登录，跨设备保存自己的歌单。</p><a id="sign-in" class="admin-primary" href="/auth/github?returnTo=/music/" target="_top">使用 GitHub 登录</a></section>
+<div id="account" class="music-account" hidden><span id="account-name"></span><form action="/auth/github/logout?returnTo=/music/" method="post"><button type="submit">退出登录</button></form></div>
+<p id="message" role="alert" hidden></p>
+<section id="manager" hidden>
+  <div class="music-library-action"><button id="open-library" class="admin-primary" type="button">从共享曲库添加</button></div>
+  <section class="upload-area"><h2>上传音乐</h2><label for="files" class="file-label">选择音频文件，可多选</label><input id="files" type="file" multiple accept="audio/mpeg,audio/mp4,audio/ogg,audio/flac,audio/wav,.ncm,.mp3,.m4a,.ogg,.flac,.wav"><p>上传后也会加入共享曲库 · 支持 NCM、MP3、FLAC 等音频 · 每首最多 512 MB</p><button id="upload" class="admin-primary" type="button" disabled>上传所选文件</button><progress id="upload-progress" hidden max="100" value="0"></progress></section>
+  <div class="playlist-heading"><h2>我的歌单 <span id="track-count"></span></h2><label><input id="enabled" type="checkbox"> 开启音乐</label></div>
+  <div class="playlist-settings"><label for="default-track">默认曲目</label><select id="default-track"></select><span class="admin-note">用于首次播放</span></div>
+  <div class="selection-bar"><button id="select-all" type="button">全选</button><button id="invert-selection" type="button">反选</button><span id="selection-count" aria-live="polite"></span><button id="delete-selected" type="button" disabled>移除所选</button></div>
+  <p class="admin-note">直接拖拽歌曲调整顺序；聚焦歌曲行后也可用上下方向键排序。</p>
+  <ol id="tracks"></ol><p id="empty" hidden>歌单为空。从共享曲库添加，或上传音乐。</p>
+</section>
+<dialog id="library-dialog" aria-labelledby="library-title"><div class="library-heading"><h2 id="library-title">共享曲库</h2><button id="close-library" type="button" aria-label="关闭曲库">×</button></div><input id="library-search" type="search" placeholder="搜索歌曲或歌手" aria-label="搜索歌曲或歌手"><div id="library-tracks"></div><p id="library-empty" hidden>没有找到歌曲。</p><p id="library-message" role="alert"></p><div class="library-footer"><button id="add-library" class="admin-primary" type="button">添加所选</button></div></dialog>
+</main></body></html>
