@@ -31,7 +31,7 @@ psychological activity or develop hypothetical situations and fictional objects,
 supporting simulation where useful. Person and language model form the question and this
 model together, divide explicit reasoning, construction, and observation by
 their actual capabilities, and revise through the same continuing exchange.
-[Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
+[Natural world and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops representation and its physical grounding. Here the question is
 how to form and test such models, rather than define computation by a method
 of hypothesis formation.

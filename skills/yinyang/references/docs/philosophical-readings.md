@@ -278,7 +278,7 @@ Use it to separate reasoning under a chosen arrangement from reconsidering the
 arrangement itself; the collection's experimental application retains its own
 claims and evidence.
 
-## Feng Ye: no-self physicalism, representation, and philosophical method
+## Feng Ye: cognition, representation, and philosophical method
 
 Feng Ye supplies an existing point of comparison, now developed as a
 reading route of its own. Begin with the Chinese articles for specific questions,
@@ -286,19 +286,17 @@ then follow the book for their wider philosophical setting.
 
 | Work | Reading question |
 | --- | --- |
-| [“为什么相信还原的物理主义” (2017)](https://www.xsyk021.com/article/id/5f3fe6a3-6f09-4779-9b31-33c580cb619f), *Academic Monthly* 49(2), 34–43 | What distinguishes ontological from epistemological reduction, and in-principle reduction from practically achievable reduction? |
-| [“概念分析法：一个物理主义的评估” / “Conceptual Analysis: A Physicalistic Appraisal” (2020)](https://www.xsyk021.com/article/id/3640ef3f-0bdc-4ef1-bdbc-9a17b213e2d2), *Academic Monthly* 52(5), 5–14, 38 | Is conceptual analysis uncovering an existing concept or constructing a replacement? What supports its usefulness and limits its reliability? |
-| [*Studies in No-Self Physicalism* (2023)](https://link.springer.com/book/10.1007/978-981-19-8143-2), chapters 1, 3, 6, and 7 | How does treating the cognitive subject as physical affect accounts of conceptual representation, epistemology, methodology, and ontology? |
+| [2020 article assessing conceptual analysis](https://www.xsyk021.com/article/id/3640ef3f-0bdc-4ef1-bdbc-9a17b213e2d2), *Academic Monthly* 52(5), 5–14, 38 | Is conceptual analysis uncovering an existing concept or constructing a replacement? What supports its usefulness and limits its reliability? |
+| [2023 monograph on cognition and philosophical method](https://link.springer.com/book/10.1007/978-981-19-8143-2), chapters 1, 3, 6, and 7 | How do cognitive subjects, conceptual representation, epistemology, methodology, and ontology connect in this account? |
 
 [Finite inquiry and abstraction](finite-inquiry-and-abstraction.md) compares
 this collection's question-relative account with Professor Feng Ye's
-[*Studies in No-Self Physicalism*](https://link.springer.com/book/10.1007/978-981-19-8143-2),
+[2023 monograph](https://link.springer.com/book/10.1007/978-981-19-8143-2),
 especially §§1.1, 6.5, and 7.4.2. Their shared methodological questions about
-finite understanding and representation do not establish identical accounts
-of physical realization. YinYang adopts one physical reality as its common
-ground while using question-relative abstraction; particular reductions and
-bridge assumptions require their own support. Compare the actual arguments
-rather than inferring either agreement or disagreement from their labels.
+finite understanding and representation make this a useful methodological
+comparison. YinYang develops those questions through modest naturalism and
+question-relative abstraction. Compare the actual arguments about concepts,
+intuition, and reliability while retaining each work's own philosophical context.
 
 ## Will, irrationality, and self-conflict: Frankfurt, Davidson, Mele, and Holton
 

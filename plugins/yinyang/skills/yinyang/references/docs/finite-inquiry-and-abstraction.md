@@ -33,7 +33,7 @@ connection between questions, not a fixed chronology. In actual inquiry,
 abstraction, view selection, and inference can interleave and prompt one
 another's revision.
 
-This orientation has two illuminating comparisons: philosopher Professor Feng Ye's [*Studies in No-Self Physicalism*, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) separates ideal reduction from actual methods of inquiry; a local formal resource distinguishes what can safely be inferred from what can feasibly be computed. Their different commitments bring a common question into focus: how a finite inquirer obtains definite knowledge through a selective representation and a bounded method.
+This orientation has two illuminating comparisons: [Professor Feng Ye's 2023 monograph, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) examines the distance between ideal explanation and actual methods of inquiry; a local formal resource distinguishes what can safely be inferred from what can feasibly be computed. These comparisons bring a common question into focus: how a finite inquirer obtains definite knowledge through a selective representation and a bounded method.
 
 ## A retrievable trajectory under finite attention
 
@@ -53,62 +53,58 @@ problem concerns a broken layout, some of those details become relevant again.
 Sufficiency follows the inquiry and can change with it.
 
 The map comparison above specifies the same discipline: retain the crossing
-on which the route depends. The physical and formal comparisons below develop
-its limits. A manageable description does not prove that reality contains
-fewer kinds of things; a method preserving specified formal answers does not
+on which the route depends. The methodological and formal comparisons below develop
+its limits. A manageable description does not establish that omitted
+relationships are absent; a method preserving specified formal answers does not
 by itself prove that an account of an actual episode is faithful. Both
 distinctions keep selective retention answerable to what it is meant to explain.
 
-## Computational articulation and physical reduction
+<a id="computational-articulation-and-physical-reduction"></a>
 
-[Naturalism](https://plato.stanford.edu/entries/naturalism/) alone does not imply
-physicalism: locating inquiry and its objects within nature does not settle
-every claim about their physical basis. [Physicalism](https://plato.stanford.edu/entries/physicalism/),
-in turn, need not entail a complete conceptual or theoretical reduction, or a
-feasible calculation. Lacking a demonstrated reduction today does not by itself
-refute physicalism. These distinctions let a commitment to physical reality
-coexist with open questions about explanation and computation.
+## Computational articulation within modest naturalism
 
-The framework adopts physicalism for the common grounding of its activities
-and process ontology for understanding formation, persistence, and change.
-Domain modeling brings this understanding to a particular question; computational
-ontology explicitly expresses its objects, events, states, relations, and
+The framework adopts **modest naturalism**: persons, psychological activity,
+social relations, and machines belong to the same changing natural world.
+Inquiry takes place within that world and remains answerable to experience
+and evidence. Process ontology asks how things form, persist, and change;
+psychological, social, and computational accounts develop the relations needed
+at their respective scales. Connections between these accounts are questions
+for investigation, not something settled by a worldview alone.
+
+Domain modeling brings this orientation to a particular question. Computational
+ontology explicitly expresses objects, events, states, relations, and
 transitions for a model to interpret, reason with, and use. It can abstract actual
 processes or develop hypothetical and fictional situations. Imagining and
-representing have physical realization; the reference and truth of their content
+representing are actual activities; the reference and truth of their content
 depend on the claims made. Particular inquiries still need usable variables,
-representations, and operations. Even an in-principle reduction would not by
-itself provide a feasible algorithm for the present question. Abstraction
-preserves the relations that matter while setting aside detail whose cost
-does not help answer it; its adequacy remains open to evidence and use.
+representations, and operations. Abstraction preserves the relations that matter
+while setting aside detail whose cost does not help answer the question; its
+adequacy remains open to evidence and use.
 
-A computational ontology makes selected relations available for inquiry. A private sinthome can describe in natural language what counts as a current question, unfinished work, or useful continuation, for the model to understand and act on. Its adequacy depends on whether actual use sustains those distinctions. A functional description explains an activity through what its parts do and how their transformations connect. It can guide investigation while the microphysical realization is still being studied. Physical reduction asks a further question: how those descriptions connect to a proposed physical basis, through which definitions, identifications, or bridge assumptions. The success of a functional account and the adequacy of such a reduction therefore call for different evidence.
+A private sinthome can describe in natural language what counts as a current
+question, unfinished work, or useful continuation, for the model to understand
+and act on. A functional description explains what the relevant parts do and
+how their transformations connect. In the reading example, opening the intended
+passage, retaining the current question, and recovering a reason for revision
+are meaningful relations at the level of activity. A claim about the bodily or
+technical mechanisms supporting them needs evidence of those mechanisms.
+The practical account can develop while that investigation remains incomplete.
 
-Several questions often hidden inside “reducible” need separate answers:
-
-| Question | What an affirmative answer would establish |
-| --- | --- |
-| Physical dependence or realization | The phenomenon occurs through physical conditions or mechanisms. |
-| Ontological reduction | The entities invoked require no additional independently existing kinds beyond the proposed basis. |
-| Analytic reduction | Higher-level concepts can be reduced through meanings or definitions. |
-| Scientific identification | An appropriate physical account identifies the higher-level phenomenon's instances. |
-| Derivability | Higher-level truths or laws follow from a specified theory, bridge assumptions, and description. |
-| In-principle possibility | A stated idealized description and reasoning capacity suffice, even if unavailable in practice. |
-| Feasible computation | An actual method can obtain the result within the relevant resource limits. |
-
-Each question specifies a different relation. Derivability from an ideal complete physical description differs from derivability from current physics. Establishing dependence locates a phenomenon's material conditions; deriving its higher-level relations additionally needs an account of how those conditions realize the distinctions in question. A missing present derivation leaves that bridge to be investigated. Meanwhile, psychological, social, and computational inquiry can develop the relations needed to understand and act.
+Three questions guide the comparison: which relations an explanation makes
+intelligible, what evidence supports it, and whether a usable method can obtain
+the needed result within available resources. An elegant explanation can be
+hard to compute; a fast computation can preserve the wrong distinctions.
+Keeping these questions connected makes economical abstraction assessable.
 
 ## A public comparison with Professor Feng Ye
 
-Professor Feng Ye's *Studies in No-Self Physicalism* develops an explicitly physical account of cognitive subjects and connects it with representation, truth, mathematics, epistemology, and ontology. Its scope includes methodology, not metaphysics alone. [The publisher's record](https://link.springer.com/book/10.1007/978-981-19-8143-2) identifies the book and its chapters; the detailed comparison has textual locators in §1.1, p. 6; §6.5, pp. 445–447 and 456–459; and §7.4.2, pp. 528–532.
+Professor Feng Ye's [2023 monograph](https://link.springer.com/book/10.1007/978-981-19-8143-2) connects cognition with representation, truth, mathematics, epistemology, and ontology. The methodological comparison here uses §1.1, p. 6; §6.5, pp. 445–447 and 456–459; and §7.4.2, pp. 528–532. These passages distinguish ideal descriptions and reasoning powers from actual ones, and examine the reliability of intuition under practical limits.
 
-Those passages distinguish practical limitations from ideal reduction and allow non-reductive methods where complexity prevents a complete neurological explanation. Mental predicates need not analytically contain physical predicates. The account distinguishes ideal descriptions and reasoning powers from actual ones; derivability from present physics remains a separate question. Methodological naturalism permits suitably reliable intuitions while examining their conditions and limits. Pattern recognition does not by itself justify a stronger explanatory claim.
-
-The substantive meeting point is the difference between what an ideal account might explain and how a finite inquirer actually obtains understanding. Professor Feng Ye combines a physicalist commitment with attention to complexity, representation, intuition, and reliability. YinYang shares those methodological concerns while developing a question-relative computational account whose use rests on the relations it explains and the actions it enables. Its local functional argument leaves ultimate reduction open. The framework's physical grounding does not settle every claim about reduction; a factual claim about its possibility or impossibility still needs an argument connecting the proposed basis with the phenomenon. This separates a chosen worldview, a useful method, and a conclusion about realization.
+The meeting point is how a finite inquirer obtains understanding through usable representations. YinYang takes up those questions about complexity, intuition, and reliability through its own modest naturalism and question-relative methods. A pattern that helps someone recognize a relation can guide inquiry; accepting an explanation still needs evidence for the relation it proposes. This comparison borrows a methodological contribution without making the two philosophical accounts identical.
 
 The [2021 mathematics lecture report](https://renwen.ucas.ac.cn/index.php/rczp/2015-12-09-08-37-01/55005-2021-6), from the hosting institution, distinguishes fictional mathematical objects from true applied descriptions of physical reality. It supplies another comparison: constructed objects can contribute to a true application through their representational role. Their usefulness and the truth of an applied description concern different relations. This helps articulate how a construction can matter to inquiry while its ontological commitment is assessed separately.
 
-Further public sources are Professor Feng Ye's [“为什么相信还原的物理主义” (2017), *Academic Monthly* 49(2), 34–43](https://www.xsyk021.com/article/id/5f3fe6a3-6f09-4779-9b31-33c580cb619f), which distinguishes ontological and epistemological reduction and in-principle versus practical reduction, and his [2024 interview on logic](https://www.thepaper.cn/newsDetail_forward_28071984), which discusses non-linguistic cognition and explanatory models. Together these sources locate the comparison in his stated philosophical and methodological positions.
+His [2024 interview on logic](https://www.thepaper.cn/newsDetail_forward_28071984) further discusses non-linguistic cognition and explanatory models, supplying another public entrance to these methodological questions.
 
 ## What a local formal resource makes precise
 

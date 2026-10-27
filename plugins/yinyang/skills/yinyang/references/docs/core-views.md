@@ -47,8 +47,8 @@ use this English edition.
 The author chooses a foundation developed from [Heraclitean fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30),
 becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_51).
 This contemporary use is distinguishable from disputed historical interpretations
-of Heraclitus's fire monism and treatment of contradiction. The physicalist
-position locates participants and their activities in one natural world.
+of Heraclitus's fire monism and treatment of contradiction. Modest naturalism
+locates participants and their activities in one changing natural world.
 Computational ontology constructs representations of selected objects and
 relations; a process ontology organizes events, states, persistence, and change
 within that representation. Histories of sensing, expression, interpretation,
@@ -313,8 +313,8 @@ model or local arrangement is superior.
 
 ## YY-09 · Connect philosophical understanding, models, and practice
 
-The framework develops a naturalist worldview, a physicalist account of actual
-activity, correspondence truth for claims about reality, fallible embodied
+The framework develops modest naturalism, process ontology,
+correspondence truth for claims about reality, fallible embodied
 inquiry, personal-first humanism, and question-relative pluralism of method.
 Contemporary fire monism expresses becoming and transformation. These are
 developed explanations and adopted positions through which the participants
@@ -323,7 +323,7 @@ understand their work.
 | Philosophical question and shared practice | Adopted answer or activity | Expression in the work |
 | --- | --- | --- |
 | Worldview: how does the activity belong in a whole? | One changing natural world. | Place the domain, participants, and consequences in context. |
-| Ontology: what exists and how does it persist or change? | Physical grounding and process-oriented understanding. | Define the relevant domain entities, events, relations, and continuity. |
+| Ontology: what exists and how does it persist or change? | Formation, persistence, and change within the natural world. | Define the relevant domain entities, events, relations, and continuity. |
 | Theory of truth: what makes a claim true? | Correspondence for actuality; truth under an interpretation for a model. | State conditions of truth and examine actual-world correspondence; distinguish what follows from premises. |
 | Epistemology: what warrants judgment and revision? | Embodied, fallible inquiry. | Organize observations, explanations, evidence, and tests. |
 | Axiology: what deserves pursuit, for whom? | Personal-first humanism. | Choose goals and criteria, then assess their consequences for concrete lives. |
@@ -387,7 +387,7 @@ develops grounding; [Finite inquiry and economical abstraction](finite-inquiry-a
 develops reduction and computational cost; [Reasoning within an unfinished stream](reasoning.md#shared-scientific-inquiry)
 develops candidate inquiry. [Personal-first humanism](personal-first-humanism.md#six-connected-dimensions)
 explains the six dimensions, and [The trinity of philosophy, psychology, and engineering](local-source-and-website.md)
-connects philosophy, psychology, and engineering within one physical reality
+connects philosophy, psychology, and engineering within one natural world
 to their practical forms.
 
 <a id="yy-10"></a>

@@ -82,7 +82,7 @@ supports; assess the relevant change through actual participation.
 
 Modest naturalism names the framework's scope in one changing natural world;
 its contemporary fire monism articulates that world's dynamic unity. This is
-the physical ground of philosophy, psychology, and engineering. Process ontology
+the shared setting of philosophy, psychology, and engineering. Process ontology
 guides how the framework understands persistence and change; domain modeling
 selects relevant objects, events, states, relations, constraints, and transitions.
 Computational ontology explicitly represents these distinctions for use. Within
@@ -106,9 +106,10 @@ the activity being understood. Event streams represent activity histories;
 conceptual person and counterpart models are inferred and constructed from
 these histories and other relevant materials. Neither participant is identical
 with an event stream. [World, process, and expression](references/docs/world-and-expression.md#physical-ground-and-computational-abstraction)
-owns the developed connection. Physical dependence, particular realization
-mechanisms, full reduction, and feasible computation remain distinct questions.
-The Trinity essay connects the three physically realized activities; its local
+owns the developed connection. Psychological, social, computational, and practical explanations develop their
+relevant relations at different scales; connections and realization mechanisms
+require evidence. Feasible computation remains a separate practical question.
+The Trinity essay connects these three activities within the natural world; its local
 environment, repository, and website are practical forms of the work.
 
 The adopted process ontology develops Heraclitean fire, becoming, and opposition.

@@ -28,8 +28,7 @@ that continue beyond the description. A model of someone can be inadequate
 even when it is internally coherent. Their correction can disclose that
 inadequacy; subsequent experience can disclose another.
 
-The framework adopts **modest naturalism** as its worldview and **physicalism**
-as its ontological position: persons, psychological activity, machines, and
+The framework adopts **modest naturalism**: persons, psychological activity, machines, and
 engineering occur in the same natural world. **Contemporary fire monism** gives
 its becoming and transformation an image. Process ontology further asks how
 things form, persist, and change. A domain ontology expresses that understanding
@@ -37,8 +36,8 @@ for a particular question through events, states, objects, relations, and
 transitions, making human activity and change available for description,
 reasoning, and use. A computational ontology explicitly expresses these
 distinctions for computational use.
-Physical grounding locates this activity in reality; computational representation
-articulates what we select and how we understand it. [Physical ground and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
+This naturalist orientation places the activity in a shared world; computational representation
+articulates what we select and how we understand it. [Natural world and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction)
 develops this connection.
 
 “The person is real” therefore has a practical force here. A category, metric,
@@ -95,7 +94,7 @@ the familiar name for the overall picture in which these answers belong.
 | Philosophical dimension and shared practice | Position or activity developed here | Contribution to modeling and practice |
 | --- | --- | --- |
 | Worldview | Modest naturalism; contemporary fire monism expresses a changing natural world. | Place persons, models, and their activities in a shared picture of the world. |
-| Ontology | Physicalism locates actual activity in one material reality; process ontology explains persistence and change. | Articulate the objects, events, relations, and continuity relevant to a domain model. |
+| Ontology | Process ontology examines how things form, persist, and change within the natural world. | Articulate the objects, events, relations, and continuity relevant to a domain model. |
 | Theory of truth | Correspondence for claims about actuality; truth under an interpretation for statements in a model. | Specify what a claim says, its conditions of truth, and how an actual-world claim relates to its object. |
 | Epistemology | Embodied, fallible inquiry that develops through evidence and correction. | Organize observations, candidate explanations, inferences, and tests. |
 | Axiology | Personal-first humanism: concrete persons' lives, agency, and chosen development give arrangements their direction. | Form goals and evaluation criteria whose consequences return to the people affected. |

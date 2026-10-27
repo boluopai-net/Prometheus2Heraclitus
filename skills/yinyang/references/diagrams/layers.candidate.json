@@ -500,7 +500,7 @@
       "type": "messagebus",
       "icon": "none",
       "label": "Worldview",
-      "sublabel": "Naturalism · contemporary fire monism",
+      "sublabel": "Modest naturalism · contemporary fire monism",
       "pos": [
         40,
         40
@@ -515,7 +515,7 @@
       "type": "backend",
       "icon": "none",
       "label": "Ontology",
-      "sublabel": "Physicalism · process ontology",
+      "sublabel": "Process ontology · persistence and change",
       "pos": [
         40,
         240

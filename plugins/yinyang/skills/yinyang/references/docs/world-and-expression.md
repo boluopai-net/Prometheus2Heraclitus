@@ -36,7 +36,7 @@ participants can reflect and encounter one another more concretely.
 
 **YinYang** names a contemporary framework for this continuing activity. Its
 working environment includes Skills, prompts, tools, interfaces, and operating
-conditions. The distinctions below connect that activity's physical ground to
+conditions. The distinctions below connect that activity in the natural world to
 selected computational models and their consequences, so the trajectory can
 retain meaningful changes rather than merely accumulate representations.
 
@@ -49,15 +49,17 @@ depends on current capabilities, modalities, and purpose; both can generate and
 judge. The person need not construct the ontology alone before the model joins,
 and the resulting capacity can remain distributed across the relationship.
 
-## Physical ground and computational abstraction
+<a id="physical-ground-and-computational-abstraction"></a>
+
+## Natural world and computational abstraction
 
 YinYang takes the changing natural world itself as its reality: moving matter,
 embodied life, psychological activity, and social relations belong to one world.
 Modest naturalism names this worldly scope. Its contemporary **fire monism**
 understands this world through becoming and transformation, within which
 persons, objects, and relations form, persist, and change as relatively stable
-patterns. Philosophy, psychological activity, and engineering are physically
-realized within this same reality. It does not identify everything's material
+patterns. Philosophy, psychological activity, and engineering take place
+within this same reality. It does not identify everything's material
 with literal flame.
 This is the framework's chosen contemporary account, developed from Heraclitean
 images rather than established merely by their historical authority. The section
@@ -113,13 +115,13 @@ that adequacy. **Representation** makes selected relations available;
 assumptions. A useful representation need not simulate everything it represents,
 and a conditional simulation is not an observation of the world.
 
-A physical basis supplies neither these meanings nor a feasible calculation.
-Reconstructing every microphysical detail of a conversation would not itself
-specify what counts as a correction. Philosophical, psychological, computational,
-and practical accounts select different relations within the same reality;
-their bridges need investigation where the question requires it. Shared physical
-ground establishes neither complete reduction nor a universal, faithful, or
-tractable world simulator. Organizing activity histories as event streams also leaves open
+Belonging to the same natural world supplies neither a representation's meanings
+nor a feasible calculation. A conversation's technical transmission, its
+psychological significance, and what counts as a correction call for different
+explanations. Philosophical, psychological, computational, and practical accounts
+select relevant relations at different scales; their connections need
+investigation where the question requires it. A model's adequacy depends on
+what it preserves and what its use establishes. Organizing activity histories as event streams also leaves open
 which records and software architecture serve a particular use. The
 [layers diagram](../diagrams/layers.html) presents this connection, and
 [The trinity of philosophy, psychology, and engineering](local-source-and-website.md) develops its unity across the three
