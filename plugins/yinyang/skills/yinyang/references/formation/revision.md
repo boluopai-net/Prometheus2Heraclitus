@@ -82,7 +82,8 @@ condensing them again:
    and their original answers and results. They can be the principal material
    for an update. Locate available records through the person's private source
    index and actual revision method: a measurement webpage, report, export, or
-   note collection may hold them. Check for relevant new records rather than
+   note collection may hold them. The [questionnaire directory](../docs/skill-package.md#questionnaire-and-assessment-material)
+   keeps this evidence organized within `personal`. Check for relevant new records rather than
    relying only on an earlier summary. Retain the instrument and version,
    completion time, response context, and a route to the original record; read
    these alongside the person's account and relevant experience. Let their

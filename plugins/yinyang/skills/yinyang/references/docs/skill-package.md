@@ -73,6 +73,32 @@ choosing continued common updates keep common content byte-identical.
 [Using YinYang](../../SKILL.md) owns the actual initial reading;
 [Philosophy and models](../design-and-revision.md) connects the writing objects.
 
+## Questionnaire and assessment material
+
+When a situated version has questionnaire or assessment records, organize this
+distinct part of personal evidence under `references/personal/questionnaires/`.
+Use its `README.md` as a readable inventory linking dated records and their
+original sources. Connect it from `personal/README.md` and `personal/sources.md`.
+Group records by occasion or instrument according to what makes them easy to
+retrieve; repeated completions remain separate dated observations.
+
+Keep each record's instrument name, language and version when known, completion
+date and context, result and score direction, and access to original answers or
+the report. Distinguish a questionnaire response, a performance test, a report's
+written conclusion, and a later interpretation. Preserve conflicting findings
+and missing information explicitly; a report without item answers must not be
+expanded into invented responses. Existing private measurement systems and
+medical-document collections can retain their originals, with useful results
+and working links maintained here instead of duplicate archives. Undated
+material remains undated until its source establishes a date.
+
+This organization makes measurements available alongside narrative material
+without turning them into a complete personal account or automatically revising
+the six working files. The [Psychology guide](psychological-support.md) owns
+selection, scoring and interpretation. The directory and all filled records
+remain private; the distributed package supplies this organizing method, not
+another person's records or placeholder results.
+
 ## Project common changes
 
 `scripts/sync-common.py` checks common source projection by default. With
