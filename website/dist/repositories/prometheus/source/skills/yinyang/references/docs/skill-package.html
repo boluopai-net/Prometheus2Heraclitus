@@ -1,6 +1,7 @@
 <!doctype html><html lang="en"><head><link rel="canonical" href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/skill-package.html"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yinyang files and shared updates · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=4f65aaa2c475"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=bfc6494e7a21"><link rel="stylesheet" href="/site.css?v=ea094a1635c1"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/skill-package.zh-CN.html" lang="zh-CN" aria-label="Read this page in Chinese">中文</a><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/" aria-current="page">Philosophy commentaries</a><a href="/singing/en/">Singing station</a><a href="/repositories/en/">Resources & Advice</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><div class="toc">
 <ul>
 <li><a href="#common-and-situated-content">Common and situated content</a></li>
+<li><a href="#questionnaire-and-assessment-material">Questionnaire and assessment material</a></li>
 <li><a href="#project-common-changes">Project common changes</a></li>
 <li><a href="#personal-and-public-boundaries">Personal and public boundaries</a></li>
 </ul>
@@ -102,6 +103,28 @@ guides, essays, diagrams, and scripts. Distributed copies and private copies
 choosing continued common updates keep common content byte-identical.
 <a href="/repositories/prometheus/source/skills/yinyang/SKILL.html">Using Yinyang</a> owns the actual initial reading;
 <a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.html">Philosophy and models</a> connects the writing objects.</p>
+<h2 id="questionnaire-and-assessment-material">Questionnaire and assessment material</h2>
+<p>When a situated version has questionnaire or assessment records, organize this
+distinct part of personal evidence under <code>references/personal/questionnaires/</code>.
+Use its <code>README.md</code> as a readable inventory linking dated records and their
+original sources. Connect it from <code>personal/README.md</code> and <code>personal/sources.md</code>.
+Group records by occasion or instrument according to what makes them easy to
+retrieve; repeated completions remain separate dated observations.</p>
+<p>Keep each record's instrument name, language and version when known, completion
+date and context, result and score direction, and access to original answers or
+the report. Distinguish a questionnaire response, a performance test, a report's
+written conclusion, and a later interpretation. Preserve conflicting findings
+and missing information explicitly; a report without item answers must not be
+expanded into invented responses. Existing private measurement systems and
+medical-document collections can retain their originals, with useful results
+and working links maintained here instead of duplicate archives. Undated
+material remains undated until its source establishes a date.</p>
+<p>This organization makes measurements available alongside narrative material
+without turning them into a complete personal account or automatically revising
+the six working files. The <a href="/psychology/en/">Psychology guide</a> owns
+selection, scoring and interpretation. The directory and all filled records
+remain private; the distributed package supplies this organizing method, not
+another person's records or placeholder results.</p>
 <h2 id="project-common-changes">Project common changes</h2>
 <p><code>scripts/sync-common.py</code> checks common source projection by default. With
 <code>--apply</code>, it projects common files into the target, preserving everything under

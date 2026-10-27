@@ -1,6 +1,7 @@
 <!doctype html><html lang="zh-CN"><head><link rel="canonical" href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/skill-package.zh-CN.html"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yinyang 的文件与更新约定 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=4f65aaa2c475"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=bfc6494e7a21"><link rel="stylesheet" href="/site.css?v=ea094a1635c1"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/docs/skill-package.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/" aria-current="page">哲学评论</a><a href="/singing/">唱歌点播台</a><a href="/repositories/">资料与建议</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><div class="toc">
 <ul>
 <li><a href="#公共内容与情境化内容">公共内容与情境化内容</a></li>
+<li><a href="#量表与测评材料">量表与测评材料</a></li>
 <li><a href="#投影公共变更">投影公共变更</a></li>
 <li><a href="#私人与公开边界">私人与公开边界</a></li>
 </ul>
@@ -59,6 +60,12 @@
 <code>references/personal/sources.md</code> 是按问题取用的入口。较长历史、原件与专题材料留在已有维护者处，或置于这个目录，通过有访问边界的定位取得。六份工作文件把所采纳的哲学与更新后的个人材料凝练为协作需要的含义，不是六份心理模型，也不是主要的自我分析档案；
 <code>person.md</code> 不承载完整的心理画像。<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html#在使用中维护私人材料">维护方法</a>维护每次刷新，<a href="/repositories/prometheus/source/skills/yinyang/references/formation/revision.zh-CN.html#来源与证据">修订写作指南</a>提供证据方法。独立写出的哲学有自己的来源，私人材料连接它并保留有关依据。</p>
 <p><code>references/situated/</code> 和 <code>references/personal/</code> 两个完整目录属于私人内容。其余内容由公共包维护，包括入口、六份写作指南、文章、图示与脚本。分发副本和选择持续采用公共更新的私人副本，保持公共内容字节一致。<a href="/repositories/prometheus/source/skills/yinyang/SKILL.zh-CN.html">使用 Yinyang</a> 维护实际初始阅读；<a href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html">哲学与模型</a>连接写作对象。</p>
+<h2 id="量表与测评材料">量表与测评材料</h2>
+<p>个人版已有量表或测评记录时，把这部分特殊的个人证据整理到
+<code>references/personal/questionnaires/</code>。用其中的 <code>README.md</code> 提供清楚的目录，连接按日期保留的记录与原始来源，并从 <code>personal/README.md</code> 和 <code>personal/sources.md</code>
+接入。按测量场次或量表组织，以便检索；重复填写仍是彼此独立、有日期的观察。</p>
+<p>每条记录保留已知的量表名称、语言与版本、完成日期与情境、结果与分数方向，以及原始作答或报告的入口。区分问卷作答、表现测验、报告写出的结论与后来的解释。明确保留不同结论和缺失信息；报告没有逐题答案时，不补造作答。已有私人测量系统和就医文档集合可以继续保存原件，这里保留有用结果与可用链接，不再复制整套档案。没有日期的材料保持未定日期，直到来源能确定时间。</p>
+<p>这样组织，使测量与叙述材料能够一起被使用，不把量表当作完整个人描述，也不因增添记录而自动改写六份工作文件。量表选择、计分与解释由<a href="/psychology/">心理页</a>说明。这个目录和所有填写后的记录保持私有；分发包只提供组织方法，不带入别人的记录或占位结果。</p>
 <h2 id="投影公共变更">投影公共变更</h2>
 <p><code>scripts/sync-common.py</code> 默认检查公共源内容的投影。<code>--apply</code> 把公共文件投影到目标，保留两个私人目录中的一切，包括额外文件与链接，不遍历或检查其内容。它不推断一个人、不导出私人文件，也不发布到运行环境。</p>
 <p>新的个人版从完整共享副本开始，再形成私人描述。用明确包目录比较：</p>
