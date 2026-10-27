@@ -66,6 +66,14 @@ owns each refresh; the [revision writing guide](../formation/revision.md#sources
 supplies evidence guidance. Independently authored philosophy has its own source;
 private material links it and retains relevant grounds.
 
+Personal material names use one consistent language: the user's native language.
+Apply it to each material's primary title and its name in inventories and reader
+navigation, including newly added records. The body may use another language
+according to its semantic consumer; an English body does not make the material's
+name English. Derive reading-surface names from the maintained primary title
+so separate display translations cannot drift. Preserve standard instrument
+identifiers where needed within a native-language title.
+
 Both entire trees, `references/situated/` and `references/personal/`, are private.
 Everything else is common package content, including the entrypoint, six writing
 guides, essays, diagrams, and scripts. Distributed copies and private copies
