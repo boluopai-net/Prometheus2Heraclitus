@@ -83,8 +83,10 @@ Thus $P\sqsubseteq Q$ says that every instance of concept $P$ is an instance
 of $Q$; $P\sqsubseteq\neg N$ says that $P$ and $N$ are disjoint. $P(a)$ says
 that individual $a$ belongs to $P$, while $R(a,b)$ asserts a relation between
 two individuals. Here “role” names such a binary relation, not an assistant's
-job. For further reading, begin with §2.1 of the authors'
-[description-logic survey](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf).
+job. For these preliminaries, see §2 of Meghyn Bienvenu and Camille Bourgaux's
+[*Querying and Repairing Inconsistent Prioritized Knowledge Bases*](https://arxiv.org/abs/2003.05746v3),
+the June 7, 2024 revision of their KR 2020 paper. Section 3 then develops the
+repair choices and query semantics used below.
 
 Write $K=\langle T,A\rangle$: the knowledge base is the ordered pair of its
 TBox and ABox, not their product. In the repair setting used here, assume $T$
@@ -110,6 +112,16 @@ An explicit priority relation $\succ$ concerns conflicting assertions. In this f
 | What does an accepted answer warrant outside the formal view? | Interpretation and empirical assessment | A valid consequence within a view still needs relevant evidence when asserted about the world. |
 
 The first two rows distinguish repair selection from inference semantics. The third locates its use in YinYang. Preferences and rules operate together: a preference can change the repair family while the inference rule stays fixed; changing the inference rule is another choice with different consequences. During inquiry, these choices can interleave as new candidates and consequences become available.
+
+The two formal dimensions are already separate in Bienvenu and Bourgaux's
+[§3, Definitions 5 and 7](https://arxiv.org/pdf/2003.05746v3#page=3): the former
+defines optimal repairs, and the latter combines a repair choice $X$ with AR,
+IAR, or brave inference. This separation is therefore part of the cited work.
+An explicit product-lattice analysis asks a further question: after specifying
+orders on the two dimensions, when does their product order capture the
+entailment relations between the combined semantics? That structural claim
+requires its own conditions and proof; merely writing two parameters does not
+establish it.
 
 “Parallel” here primarily means that **following rules and permitting preferences are compatible**. The formal setting also permits incomparability: two conflicting assertions can remain unranked. This preserves a genuine open choice. Which preferences can be satisfied together, and how a computation is scheduled, are further questions with their own conditions.
 
@@ -148,7 +160,7 @@ or realized, the next contribution can instead be a better account of the proble
 
 Consider a **propositional teaching example** using the same maximal-consistent-
 subset principle. It is an illustration authored here, not another result about
-the DL query languages studied by [Bienvenu and Bourgaux](https://arxiv.org/abs/2003.05746v5).
+the DL query languages studied by [Bienvenu and Bourgaux](https://arxiv.org/abs/2003.05746v3).
 For one specified task and situation, let $h$ mean assistance is used, $p$ mean
 the person retains direction and control, and $c$ mean the delegation is
 inspectable and changeable by the person. These meanings stay fixed below.
@@ -233,7 +245,7 @@ view? The relations connect but have distinct objects. Brave can give every
 answer consistent support while leaving the answer set jointly inconsistent.
 IAR starts from the assertion intersection and can lose a consequence that
 AR obtains through different paths.
-[Definition 7 in the source paper](https://arxiv.org/html/2003.05746v5#S3)
+[Definition 7 in the source paper](https://arxiv.org/pdf/2003.05746v3#page=3)
 provides these acceptance conditions. Whether unity is possible, and at
 which level, depends on the semantics and the actual conflict.
 
@@ -381,6 +393,6 @@ transformation. Repair semantics supply one way of organizing
 non-explosive inference; they do not exhaust dialectic's questions of
 determination, negation, mediation, and development.
 
-Meghyn Bienvenu and Camille Bourgaux's [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v5) provides public definitions of preferred repairs and their query semantics. Their [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf) surveys wider semantic families, including support and defeater approximations. The DL example follows directly from the definitions stated here. The propositional teaching example uses the same repair principle; reconstructing its theory and applying these distinctions to the harness are this essay's contributions.
+Meghyn Bienvenu and Camille Bourgaux's [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v3) (KR 2020; revised June 7, 2024, arXiv v3), §2 and §3, provides public DL preliminaries and definitions of preferred repairs and their query semantics. Their 2016 chapter [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://doi.org/10.1007/978-3-319-49493-7_5) surveys wider semantic families, including support and defeater approximations. The DL example follows directly from the definitions stated here. The propositional teaching example uses the same repair principle; reconstructing its theory and applying these distinctions to the harness are this essay's contributions.
 
 General paraconsistency supplies the wider background of non-explosive reasoning. The repair-based comparison contributes the finer distinctions among view selection, support, and jointly consistent results that this essay uses to understand cooperation.

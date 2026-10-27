@@ -53,8 +53,10 @@
 表示概念 $P$ 的每个实例也是 $Q$ 的实例；$P\sqsubseteq\neg N$ 表示 $P$ 与
 $N$ 互斥。$P(a)$ 表示个体 $a$ 属于 $P$，$R(a,b)$ 则断言两个个体之间的
 一种关系。这里的「角色」（role）指这种二元关系，而非助手的工作身份。
-想进一步理解，可以先读作者的[描述逻辑综述](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf)
-第 2.1 节。
+这些预备知识可参看 Meghyn Bienvenu 与 Camille Bourgaux 的
+[*Querying and Repairing Inconsistent Prioritized Knowledge Bases*](https://arxiv.org/abs/2003.05746v3)
+第 2 节；这里引用的是其 KR 2020 论文于 2024 年 6 月 7 日修订的版本。
+第 3 节进一步给出下文使用的修复选择与查询语义。
 
 写作 $K=\langle T,A\rangle$，表示知识库由 TBox 与 ABox 组成的有序对，
 不是两者相乘。在这里采用的修复设定中，假设 $T$ 一致、$A$ 有限；这是
@@ -76,6 +78,13 @@ $N$ 互斥。$P(a)$ 表示个体 $a$ 属于 $P$，$R(a,b)$ 则断言两个个体
 | 被接受的回答，在形式视图以外能够说明什么？ | 解释与经验评估 | 视图内有效的后果，在被断言为世界中的事实时，仍需要相关证据。 |
 
 前两行区分修复选择与推理语义；第三行说明它在阴阳中的使用位置。偏好与规则共同发生作用：偏好可以改变修复族，同时保持推理规则不变；改变推理规则则是另一个选择，会有不同后果。探究中，新候选与后果出现时，这些选择能够交织进行。
+
+这两个形式维度在 Bienvenu 与 Bourgaux 的
+[第 3 节定义 5 和定义 7](https://arxiv.org/pdf/2003.05746v3#page=3)中已经分开：
+前者定义最优修复，后者把修复选择 $X$ 分别与 AR、IAR、brave 推理组合。
+因此，这种区分已有上述文献依据。显式的乘积格分析进一步追问：为两个维度
+分别指定偏序后，它们的乘积序何时刻画组合语义之间的蕴涵关系？这一结构性
+结论需要自己的条件与证明，不能仅由写出两个参数得到。
 
 这里的「并行」首先指**遵守规则与容许偏好相容**。形式设定也允许不可比：两个冲突断言可以保持未排序，这保留了真正开放的选择。哪些偏好能够共同满足、计算怎样调度，是各有条件的进一步问题。
 
@@ -111,7 +120,7 @@ $N$ 互斥。$P(a)$ 表示个体 $a$ 属于 $P$，$R(a,b)$ 则断言两个个体
 问题说明。
 
 考虑一个采用相同极大一致子集原则的**命题逻辑教学例子**。这是本文编写的
-说明，不是 [Bienvenu 与 Bourgaux](https://arxiv.org/abs/2003.05746v5)所研究的
+说明，不是 [Bienvenu 与 Bourgaux](https://arxiv.org/abs/2003.05746v3)所研究的
 描述逻辑查询语言的另一项结论。针对一项明确的任务与情境，令 $h$ 表示使用了
 帮助，$p$ 表示本人保有方向与控制，$c$ 表示本人能够检查和改变委派安排。
 下文保持这些含义不变。先取：
@@ -180,7 +189,7 @@ AR 要求查询在每个修复内成立；IAR 要求查询从所有修复的断�
 整体一致。还可以另问跨视图的稳定性：某个答案是否在所有考虑中的视图都成立。
 三种关系相互联系，但各有对象。brave 可以让每个答案都有一致支撑，却使答案集合
 整体不一致；IAR 则从断言交集出发，可能失去 AR 通过不同路径得到的共同后果。
-[原文定义 7](https://arxiv.org/html/2003.05746v5#S3)提供这些接受条件。
+[原文定义 7](https://arxiv.org/pdf/2003.05746v3#page=3)提供这些接受条件。
 因此，能否统一、在哪个层次统一，取决于所采用的语义和实际冲突。
 
 黑格尔在[《小逻辑》第 79–81 节](https://www.marxists.org/reference/archive/hegel/works/sl/sl_vi.htm)
@@ -285,6 +294,6 @@ $$
 与黑格尔的比较，关心共同后果、产生对立的前提的重构，以及通过指定变换保存贡献。修复语义提供组织
 非爆炸推论的一种方式，并不穷尽辩证法关于规定、否定、中介与发展的追问。
 
-Meghyn Bienvenu 与 Camille Bourgaux 的公开研究 [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v5)给出优先修复与查询语义的定义。两人的 [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://www.labri.fr/perso/meghyn/papers/BieBou-RW16.pdf)综述更广的语义家族，包括支撑与击败集逼近。描述逻辑例子直接从这里列明的定义推出。命题逻辑教学例子采用相同的修复原则；重构其中的理论，以及把这些区分用于 harness，是本文的贡献。
+Meghyn Bienvenu 与 Camille Bourgaux 的公开研究 [*Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation*](https://arxiv.org/abs/2003.05746v3)（KR 2020；2024 年 6 月 7 日修订，arXiv v3）第 2、3 节给出描述逻辑预备知识，以及优先修复与查询语义的定义。两人 2016 年的综述章节 [*Inconsistency-Tolerant Querying of Description Logic Knowledge Bases*](https://doi.org/10.1007/978-3-319-49493-7_5)介绍更广的语义家族，包括支撑与击败集逼近。描述逻辑例子直接从这里列明的定义推出。命题逻辑教学例子采用相同的修复原则；重构其中的理论，以及把这些区分用于 harness，是本文的贡献。
 
 一般次协调逻辑提供非爆炸推理的更广背景。基于修复的比较则贡献了视图选择、支撑与共同一致的结果之间的细分，本文借此理解合作。
