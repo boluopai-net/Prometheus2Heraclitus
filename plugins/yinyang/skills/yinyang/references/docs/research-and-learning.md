@@ -1,23 +1,66 @@
 # Research and Learning
 
-Using models for research and learning can leave more attention for understanding: read widely to develop a sense of the whole, connections, and intuition, then practice, check reasoning, and evaluate at consequential points. Models can carry much retrieval, organization, derivation, and implementation, and prepare reusable training materials: broad coverage during preparation, followed by focused selection and added diagrams, examples, and supporting exercises during practice, so understanding can be checked and rebuilt when needed.
+**Most of the time, learning attends to the whole and its overall structure; some of the time, it develops familiarity with important points and details, including knowing when to examine them.** First understand what a field investigates, how its main objects and relationships are organized, and what problems its methods address. Concentrate detailed attention where it can change understanding and judgment.
 
-This page first develops this approach to learning and research, then introduces public resources and two teachers. Give resource links to a model and let it handle downloading, integration, and necessary configuration. The model also selects methods for your question. See [Using the Tools](https://boluopai.net/getting-started/en/) for the general tool and file arrangement.
+Prioritize broadly applicable concepts, relationships, and design methods. Design, for example, helps us judge what to make, why, how to organize the whole, and what would count as a fitting result. When AI carries implementation, people can direct most of their learning toward these overall questions. Designing twice or more means generating and comparing different overall approaches, reconsidering the problem, premises, and evaluation criteria when necessary. Here, reasoning beyond the double loop emphasizes examining and reshaping the framework that organizes action and feedback, rather than only adjusting action within it.
+
+Important points and details become supports for judgment when needed: when a detail could change the overall design or conclusion, results depart from expectations, understanding becomes inconsistent, or a familiar method enters a new context, return to the relevant concepts, conditions, and evidence. Check understanding, reasoning, and whether implementation realizes the design. Use examples, counterexamples, practice, or experiments to develop familiarity where needed, then return to the whole. Learning to recognize these occasions for examination is itself part of learning; exhaustive command of every detail need not become a routine task.
+
+When you want to learn something, AI can first prepare the courses, resources, and notes. A simple approach is to **explore your interests, use university curricula to assemble a course system, find matching online courses and books, download and organize them, then ask Dot to use a Teacher Skill to write study notes.** With materials ready, you can begin from a clear entrance when you feel good and want to study.
+
+This page first explains that path, then discusses developing understanding through broad reading and focused practice, followed by research libraries, writing methods, and teachers. Let the model handle retrieval, comparison, downloading, organization, and necessary configuration; participate through your interests, reading, and feedback. See [Using the Tools](https://boluopai.net/getting-started/en/) for the general tool and file arrangement.
 
 ## Reading entrances
 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
-1. [Read widely and examine consequential points](#understanding-and-evaluation)
-2. [Two foundation libraries](#domain-methods)
-3. [Writing, modeling, and psychology learning](#resources)
-4. [Local Teacher and Web Teacher](#learning)
+1. [A simple learning path](#simple-learning-path)
+2. [Read widely and examine consequential points](#understanding-and-evaluation)
+3. [Two foundation libraries](#domain-methods)
+4. [Scholarly writing and publication](#resources)
+5. [Local Teacher and Web Teacher](#learning)
 
 </nav>
 
+<a id="simple-learning-path"></a>
+
+## 1. From an interest to courses, resources, and notes
+
+### Explore what you want to learn
+
+Begin with an interesting direction, such as human factors. Discuss with AI whether you are more interested in cognition, how people and machines work together, product design, or how working environments affect experience. Ask the model to develop neighboring directions through concrete questions and examples, helping you discover what you want to pursue. Exploration can begin before you know the precise name of a discipline.
+
+### Understand the field through representative master's curricula
+
+Ask AI to investigate which Chinese universities have established work in human factors and related directions. Check departments, research groups, research interests, and actual courses, then find **master's curricula in human factors engineering or related directions from recent years, together with the entrance-examination reading lists for the relevant admissions programs**. Related material may also appear under ergonomics, engineering psychology, or human–computer interaction; follow the actual research and course content.
+
+Bring together officially published program curricula, course lists, examination syllabi, and reading lists. Extract course names, main topics, prerequisites, and books, recording the university, department, applicable program, year, and original link. Entrance-examination books and graduate courses serve different purposes and can complement one another.
+
+Programs may emphasize engineering, psychology, or design and may sit in computer science, psychology, artificial intelligence, design, or other departments. **Where their emphases genuinely differ, select several representative curricula for comparison.** Have the model explain the problems each program addresses and the knowledge and methods it emphasizes. A university's general reputation supplies a lead; assess the actual content of the relevant direction.
+
+### Choose a main curriculum and fill its gaps from the others
+
+Ask AI to judge which curriculum best fits the questions that interest you, your responses to its courses, and what you want to do, explaining the comparison. You can choose or revise that judgment through concrete differences: for example, understanding cognition and behavior, or improving products, systems, and working environments.
+
+Use the most interesting curriculum as the main structure, preserving its knowledge sequence. Compare the other representative curricula to fill gaps in foundations, methods, and neighboring areas. Merge overlapping courses, arrange prerequisites, and distinguish core courses from interest-led extensions to create **a coherent, complete course system for your current interests**. Record what each course helps explain, its source curriculum, and why it is retained, so the result is more than several course lists placed together.
+
+### Find resources for the course system and download them
+
+Use that course system to search primarily for **online courses from outside China**. Match the topic or course name and check the syllabus, teaching year, and edition, prioritizing the latest available version. Where names differ but content corresponds, have the model explain the match and gaps. If only an older version is available, state that clearly.
+
+Also look for and download Chinese entrance-examination books and books named in program curricula or course materials. Connect every course to its online courses, books, and sources, retaining the relationship between the curriculum and the resources actually obtained.
+
+**Have the model download all the course resources it finds**, including available videos, lecture notes, slides, subtitles, assignments, code, and books. Organize them by course and check that files are complete and readable. For downloads the model cannot complete, list the course, exact material, original link, and reason so you can download them manually; then have the model file the additions. Distinguish downloaded materials, online-only entrances, and outstanding items in the resource index so they are easy to retrieve later.
+
+### Have Dot use a Teacher Skill to write notes for later study
+
+Give the course system and downloaded materials to **Dot** and ask it to use a **Teacher Skill** to prepare notes grounded in the actual courses and textbooks. Follow the course structure, explain central concepts and relationships, retain chapter, lecture, or page locators, and add useful examples, diagrams, and terminology explanations. Give each course a clear reading entrance and learning sequence.
+
+Courses that benefit from practice can also receive questions, solutions, and experimental materials. During actual study, narrow these to what is needed using the method below. Preparing notes and resources need not require an immediate lesson. **When you feel good and want to learn, open the course entrance and ask the teacher to guide the reading, explain, or discuss.** As interests change, AI can revise the main curriculum and supplementary courses while retaining the organized materials.
+
 <a id="understanding-and-evaluation"></a>
 
-## 1. Read widely and examine consequential points
+## 2. Read widely and examine consequential points
 
 ### Learning has its own purposes; research also includes learning
 
@@ -72,7 +115,7 @@ Learning and research thus return to one another. Evaluation during learning may
 
 <a id="domain-methods"></a>
 
-## 2. Prepare these two foundation libraries
+## 3. Two available foundation libraries
 
 ### Scientific Agents: richer disciplinary references for models
 
@@ -88,11 +131,9 @@ Give these two repositories to a model together and ask it to obtain their compl
 
 <a id="resources"></a>
 
-## 3. Writing, modeling, and psychology learning
+## 4. Scholarly writing and publication
 
 These public repositories already contribute methods or reference material to our research and learning practice. The descriptions below follow the portions actually used; adopting a method does not activate every service bundled with its repository.
-
-### Scholarly writing and publication
 
 | Repository | Adopted contribution and use |
 | --- | --- |
@@ -101,33 +142,11 @@ These public repositories already contribute methods or reference material to ou
 | [Paper Lifecycle](https://github.com/M1n-n9/paper-lifecycle) | Manuscript revision and reviewer-response methods for understanding comments, organizing changes, and explaining responses. |
 | [Academic Publishing Skills](https://github.com/yaotingsun/academic-publishing-skills) | Journal selection, cover letters, revision responses, and proof checking. |
 
-### Probabilistic and psychological process modeling
-
-| Repository | Adopted contribution and use |
-| --- | --- |
-| [PyMC Modeling](https://github.com/pymc-labs/pymc-modeling) | PyMC modeling, prior elicitation, ArviZ diagnostics, and PyTensor methods for developing and checking Bayesian analyses. |
-| [pymdp](https://github.com/infer-actively/pymdp) | Active-inference computation for exploring relations among beliefs, states, policies, and actions. |
-| [HSSM](https://github.com/lnccbrown/HSSM) | Hierarchical sequential-sampling modeling for analyzing choices and response times. |
-
-### Psychological methods, readings, and diagrams
-
-| Repository | Adopted contribution and use |
-| --- | --- |
-| [ellmos Skills](https://github.com/ellmos-ai/skills) | Counseling-method references for studying and comparing listening, motivational interviewing, cognitive restructuring, systemic questioning, and related methods. |
-| [Psychotherapist Agent](https://github.com/xiaoye-hua/psychotherapist_agent) | Design references for case organization and longitudinal reflection, comparing observations, hypotheses, and subsequent revisions. |
-| [Lacan Mathemes](https://github.com/gjoncas/Lacan-Mathemes) | TeX sources and images of Lacanian diagrams for reading, explanation, and figure preparation. |
-| [Awesome Psychology Learning](https://github.com/holyshell/Awesome-Psychology-Learning) | Chinese psychology reading lists, courses, and entrances to organizations and researchers. |
-| [Awesome LLM Psychometrics](https://github.com/ValueByte-AI/Awesome-LLM-Psychometrics) | Research leads on language-model personality, values, bias, theory of mind, and measurement validity. |
-| [Awesome AI Agents for Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) | Papers and implementations concerning healthcare and mental-health agents, for research comparison. |
-| [Awesome Psychology](https://github.com/weeeBox/awesome-psychology) | Supplementary psychology learning and resource navigation. |
-
-These resources and methods can jointly support reading papers, discussing research questions, designing analyses, and writing. Reference directories lead to original research, method packages organize work, and computational tools make particular models executable and inspectable. Inclusion does not validate a project's claims. Models and teachers can select the useful parts for the question.
-
-Reading, diagrams, and presentation tools remain available through [Using the Tools](https://boluopai.net/getting-started/en/).
+These methods can support paper reading, research comparison, argument development, and manuscript revision. Models and teachers can select useful contributions for the current writing question; using a method package still calls for checking the actual sources, reasoning, and results.
 
 <a id="learning"></a>
 
-## 4. What Local Teacher and Web Teacher do
+## 5. What Local Teacher and Web Teacher do
 
 These are teaching and inquiry methods a model can use. They support continuing explanation, discussion, and material preparation around your questions rather than only producing a one-time article summary.
 
