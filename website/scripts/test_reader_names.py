@@ -24,8 +24,8 @@ class ReaderNames(unittest.TestCase):
         self.assertEqual(reader_names(source), source)
         code = {'t': 'Code', 'c': [['', [], []], '阴阳']}
         self.assertEqual(reader_document(code), code)
-        self.assertEqual(reader_text('阳光、阴影、物理主义与自然主义'),
-                         '阳光、阴影、物理主义与自然主义')
+        self.assertEqual(reader_text('阳光、阴影、经验主义与自然主义'),
+                         '阳光、阴影、经验主义与自然主义')
 
 
 if __name__ == '__main__':
