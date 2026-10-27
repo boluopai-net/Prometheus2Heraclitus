@@ -32,7 +32,7 @@ GUIDES = (
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
-     ('simple-learning-path', 'understanding-and-evaluation', 'domain-methods', 'resources', 'learning'),
+     ('simple-learning-path', 'understanding-and-evaluation', 'learning', 'domain-methods', 'resources'),
      'phi.svg', '关注全局与整体，知道何时检验重点与细节；从兴趣出发，组合课程、下载资源并准备学习笔记。',
      'Understand the whole and know when to examine details; turn interests into curricula, downloaded resources, and study notes.'),
     ('psychological-support', 'psychology',
