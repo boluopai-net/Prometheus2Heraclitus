@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang",
-  "version": "1.1.71",
+  "version": "1.1.72",
   "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
   "author": {
     "name": "boluopai",
