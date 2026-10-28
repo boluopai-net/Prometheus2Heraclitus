@@ -28,7 +28,6 @@ GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
 PACKAGE = 'skills/yinyang/'
 DOCS = PACKAGE + 'references/docs/'
 METHOD_PACKAGES = {name: (info[0], name) for name, info in SKILLS.items() if name != 'random-wheel'}
-METHOD_PACKAGES['yinyang-empty'] = ('阴阳 Empty', 'yinyang-empty')
 
 
 
@@ -285,6 +284,9 @@ def main():
         back = '/philosophy/' if core_views else BASE
         back += '' if chinese else 'en/'
         back_label = ('哲学阅读总览' if chinese else 'Philosophy reading overview') if core_views else (('Yinyang 的附录' if chinese else 'Yinyang appendices') if path.startswith(PACKAGE) else ('文档与图示' if chinese else 'Library'))
+        if path.startswith('skills/yinyang-empty/'):
+            back = '/tools/yinyang-empty/' + ('' if chinese else 'en/')
+            back_label = 'Skills · YinYang Empty'
         body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{back}">{back_label}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
         page_title = title(path)
         page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">')

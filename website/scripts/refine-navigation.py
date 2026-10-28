@@ -111,15 +111,22 @@ def header(page, text):
         'repositories/prometheus/source/skills/yinyang/',
     )):
         section = 'philosophy'
+    if section in {'skills', 'tools'} or (
+        relative.startswith('repositories/prometheus/source/skills/') and (
+            not relative.startswith('repositories/prometheus/source/skills/yinyang/')
+            or page.name.startswith(('SKILL.', 'README.'))
+        )
+    ):
+        section = 'skills'
     nav = []
     home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
     home_current = ' aria-current="page"' if page.relative_to(root).as_posix() in {'index.html', 'en/index.html'} else ''
     nav.append(f'<a href="{home}"{home_current}>{"Fire and River" if english else "火与河流"}</a>')
-    for slug, zh, en in [('philosophy', '哲学评论', 'Philosophy commentaries'), ('singing', '唱歌点播台', 'Singing station'), ('repositories', '资料与建议', 'Resources & Advice')]:
+    for slug, zh, en in [('philosophy', '哲学评论', 'Philosophy commentaries'), ('singing', '唱歌点播台', 'Singing station'), ('skills', 'Skills', 'Skills'), ('repositories', '资料与建议', 'Resources & Advice')]:
         destination = f'/{slug}/'
         if english and (root / slug / 'en/index.html').is_file():
             destination += 'en/'
-        current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'research-learning', 'psychology', 'skills', 'tools'} and slug == 'repositories') else ''
+        current = ' aria-current="page"' if section == slug or (section in {'getting-started', 'research-learning', 'psychology'} and slug == 'repositories') else ''
         nav.append(f'<a href="{destination}"{current}>{en if english else zh}</a>')
     return f'<header class="header wrap"><div class="header-top"><a class="wordmark" href="{home}" aria-label="{"boluopai home" if english else "boluopai 首页"}"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls">{switch}<button class="theme-control" type="button" aria-pressed="false" aria-label="{"Dark mode" if english else "深色模式"}" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>{"Dark" if english else "深色"}</span></button></div></div><nav class="section-tabs" aria-label="{"Sections" if english else "栏目"}">{"".join(nav)}</nav></header>'
 

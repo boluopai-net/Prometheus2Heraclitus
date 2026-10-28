@@ -5,6 +5,22 @@ from skill_wheel import badge
 GITHUB = "https://github.com/boluopai-net/Prometheus2Heraclitus"
 
 SKILLS = {
+    'yinyang': (
+        '阴阳 Full', 'YinYang Full',
+        '完整保留反向对齐、阴阳辩证法、形成方法，以及作者展开的文章与图示。',
+        'Keep reverse alignment, YinYang dialectics, formation methods, and the author’s developed essays and diagrams.',
+        '希望连同完整哲学资源一起阅读和使用阴阳时选择；个人材料与六份实际文件仍由自己形成。',
+        'Choose Full to read and use YinYang with its complete philosophical resources; form your own personal material and six actual accounts.',
+        '包含日常协作入口、六份 formation 指南、参考文章、图示和更新脚本。',
+        'Includes daily collaboration, six formation guides, reference essays, diagrams, and the common-update script.'),
+    'yinyang-empty': (
+        '阴阳 Empty', 'YinYang Empty',
+        '保留反向对齐、阴阳辩证法与形成方法，留出自己的哲学、个人材料和实际工作模型。',
+        'Keep reverse alignment, YinYang dialectics, and formation methods, with room for your own philosophy, personal material, and working accounts.',
+        '想从共同核心与方法出发，和模型形成自己的阴阳，而不把整套文章与图示装进 Skill 时选择。',
+        'Choose Empty to develop your own YinYang with a model from shared core methods, without installing the full essays and diagrams.',
+        '六份 formation 指南、基本观点建议、实践总览、形成与修订、日常协作；另有四个空 Personal 分区和六份未填写的 Situated 文件。不含 docs、diagrams。',
+        'Six formation guides, Core views as suggestions, practice overview, formation and revision, and daily collaboration; four empty Personal areas and six unfilled Situated files. No docs or diagrams.'),
     'random-wheel': (
         '抽卡转盘', 'random-wheel',
         '把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。',
@@ -144,7 +160,10 @@ def render_pages(dist, shell, revision, readers):
                 return en if english else zh
             route = '/tools/' + name + ('/' if english else '/en/')
             title = info[0] + ' · ' + name
+            license_label = 'CC BY-NC-SA 4.0' if name in {'yinyang', 'yinyang-empty'} else 'MIT'
             example = {
+                'yinyang': t('“结合我提供的材料，帮助我形成并使用自己的阴阳。”', '“Help me form and use my own YinYang from the material I provide.”'),
+                'yinyang-empty': t('“从这些空文件开始，结合我的目的与材料，和我一起形成自己的阴阳。”', '“Start from these unfilled files and help me develop my own YinYang from my purposes and material.”'),
                 'random-wheel': t('“从这些选项中随机抽一个，用转盘展示。”', '“Randomly pick one of these options and show a wheel.”'),
                 'research': t('“调查这个产品今天是否支持我的工作流程，并比较可用方案与证据。”', '“Investigate whether this product supports my workflow today, comparing available approaches and evidence.”'),
                 'task-inquiry': t('“这份报告和仪表盘结果不同，找出能解释差异的证据。”', '“This report differs from the dashboard; find evidence that can explain the discrepancy.”'),
@@ -153,6 +172,7 @@ def render_pages(dist, shell, revision, readers):
             }.get(name, t('“请按这个 Skill 帮我处理当前任务，先核对需要的配套方法与实际工具。”', '“Use this Skill for my task, first checking the companion methods and actual tools it needs.”'))
             body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(info[2 + i])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
             readings = []
+            body = body.replace('SKILL · MIT', 'SKILL · ' + license_label)
             for kind, zh, en in [('method', '方法', 'Method'), ('guide', '使用说明', 'User guide')]:
                 links = ''.join(f'<li><a href="{href}">{html.escape(label)}</a></li>' for href, label, role in readers[name, english] if role == kind)
                 if links:
