@@ -54,9 +54,11 @@ version. Person, counterpart, and relationship remain three subjects of understa
 the other files supply direction, realization, and revision. Later changes follow
 affected meanings and dependencies.
 
-`references/personal/` is the principal private place for psychological and life
-evidence and maintained interpretations; `references/personal/sources.md` is its
-question-selected entrance. Extended history, originals, and topical material stay
+`references/personal/` holds preference and selection material, psychological
+experience and assessments, personal conditions, and selected self-expression
+and works. Its maintained `README.md` classifies the material;
+`sources.md` locates provenance. [Organizing Personal material](../formation/personal-material.md)
+owns classification, material gaps, and how these grounds inform the six accounts. Extended history, originals, and topical material stay
 with existing owners or under that tree, reached through access-bounded locators.
 The six working files condense adopted philosophy and updated personal material
 into the implications needed for cooperation. They are not six psychological

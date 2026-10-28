@@ -79,9 +79,10 @@ entrypoint's existing contract.
 
 Keep three connected uses distinct. **Philosophy** develops adopted concepts,
 values, and direction. **Personal references**, maintained under private
-`references/personal/`, hold relevant psychological and life material, source
-records, and interpretations with their uncertainty. They are the primary
-entrance for understanding one's own psychological experience. **The six
+`references/personal/`, distinguish preferences and selection, psychological
+experience and assessments, personal conditions, and self-expression and works.
+[Organizing Personal material](formation/personal-material.md) explains how to
+classify their contributions, retain grounds, and resolve material gaps. **The six
 working files** under `references/situated/` condense what person–model
 cooperation needs to make the personal environment fit the actual person.
 They are not six psychological models; even the person file selects implications

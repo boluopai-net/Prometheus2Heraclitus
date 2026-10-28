@@ -99,8 +99,8 @@ shape it. A new model can distinguish receiving assistance from surrendering
 direction, and make the delegation's scope and revisability explicit. It retains
 the concerns that drove the opposition while changing their relationship.
 Neither old model's unconditional conclusion need become the final answer.
-The [small formal comparison](preference-harness.md#from-conflicting-views-to-reconstructed-premises)
-shows why replacing a governing premise differs from selecting a repair under it.
+[Returning to preference](preference-harness.md#from-conflicting-views-to-reconstructed-premises)
+connects this reconstruction with reconsidering the grounds of selection.
 
 The six-file distinction developed in this book supplies another concrete
 example. Treating the files as a psychological model makes completeness of the
@@ -168,7 +168,7 @@ Several connected dialectical movements can therefore be distinguished:
 
 [Role return](yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
 occurs in participants' activity, while [common consequence](preference-harness.md#unity-within-conflict-consistent-views-and-common-consequences)
-has an explicit formal definition. Their connection lies in reorganizing
+is illustrated by a basic judgment example. Their connection lies in reorganizing
 through difference while preserving contributions. How each accomplishes
 this needs its own life material, argument, or semantic conditions.
 “Thesis–antithesis–synthesis” can name these movements; their development

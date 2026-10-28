@@ -88,8 +88,8 @@ Sherburne 的 [A Key to Whitehead's Process and Reality](https://press.uchicago.
 并读，可以比较经由他者而返回、修改理解标准与主体位置的变化。
 
 [逻辑学「存在」第 184–187 节](https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm)
-展开扬弃中的停止与保存。[查询重写与扬弃](preference-harness.zh-CN.md#查询重写与扬弃)
-据此与查询重写作有限比较；一项技术等价不能证明关于黑格尔全部辩证法的命题。
+展开扬弃中的停止与保存。[YinYang 的角色返回](yinyang-and-taiji.zh-CN.md)
+据此追问哪种排他的分工停止了，哪些参与可能在改变后的关系中继续可用。
 
 [历史哲学导论第三部分](https://www.marxists.org/reference/archive/hegel/works/hi/introduction.htm)
 将精神的自我认识与自由、世界历史相连。

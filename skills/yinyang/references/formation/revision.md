@@ -56,10 +56,11 @@ that remains unfinished.
 ## Establish the current material
 
 The private `references/personal/` material and the six files under
-`references/situated/` serve different purposes. Personal material retains
-psychologically relevant experiences, source records, and revisable interpretations.
-It is the main entrance when the question concerns understanding one's own
-psychology. The six files condense a **personal working model** of person–model
+`references/situated/` serve different purposes. Personal material brings together distinguishable preference, psychological,
+life-condition, and self-expression evidence. [Its organization guide](personal-material.md)
+explains classification and necessary material coverage. It is the main entrance
+for examining those grounds, including a preference pattern made visible through
+work and an environment before the person has articulated it. The six files condense a **personal working model** of person–model
 collaboration: enough direction, personal context, counterpart understanding,
 relationship, realization, and revision method to make the environment fit the
 actual person. They do not together constitute a psychological model of that person.

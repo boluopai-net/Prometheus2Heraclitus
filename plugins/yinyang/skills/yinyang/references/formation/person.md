@@ -15,10 +15,12 @@ relations affect one another.
 
 ## Understand activity in its situation
 
-This file is the person-facing part of a collaboration working model. Select
-psychological understanding for its implications for participation and a fitting
-environment; keep fuller experiences, records, and interpretations under private
-`references/personal/`, the main entrance for psychological self-understanding.
+This file is the person-facing part of a collaboration working model. Give
+preferences and selection patterns, psychological experience and assessment
+evidence, and relevant personal conditions distinguishable, connected passages.
+Use them to explain participation and a fitting environment; keep the fuller
+material under private `references/personal/`. [Personal organization](personal-material.md)
+owns its categories, evidence distinctions, and material-gap handling.
 Before updating this working account, follow the
 [philosophy, history, reference-refresh, and condensation sequence](revision.md#establish-the-current-material).
 The result helps organize cooperation; it is not a psychological model of the person.
@@ -125,12 +127,15 @@ that the model carries implementation is a response whose fit still needs use.
 Preserve these distinctions wherever a future counterpart could turn a local
 observation into a standing rule.
 
-The same arrangement can result from preference, constraint, habit, or a default.
-A tool in daily use does not establish why it is used. Compare expression,
-corrections, available alternatives, and effects. Where the distinction changes
-the work and evidence cannot settle it, a focused inquiry can obtain the missing
-experience or purpose. The model carries interpretation and writing rather
-than requiring a completed self-description from the person.
+Understand selection in the person's adopted model and environment as a possible
+extended realization of preference. Compare expression, alternatives, use, and
+revision to make its pattern inspectable, including patterns the person has not
+yet articulated. A default or constraint can participate in this arrangement;
+ask how it works and whether the person now wants to retain or change it, rather
+than treating the environment as something to strip away before understanding
+preference. Distinguish what operates, the proposed explanation, and present
+endorsement. Where missing experience would change the account, obtain it through
+focused inquiry; the model carries comparison and writing.
 
 Within the same personal account, habits, choices, working styles, and desired
 responses can guide an arrangement; proposed relations among experience,

@@ -1,0 +1,47 @@
+# Organizing Personal material
+
+[简体中文](personal-material.zh-CN.md) · [Person account](person.md) · [Revision](revision.md)
+
+Personal is the private material from which a situated account can be formed and revised. Organize it by the subject a record helps understand, while keeping original evidence, interpretation, and the person's current judgment distinguishable within that subject. The six working files draw on this material; they do not replace it.
+
+## Classify by what the material explains
+
+| Subject | Material and use |
+| --- | --- |
+| Preferences and selection | Expressed choices, priorities, adopted arrangements, alternatives retained or rejected, and the history through which a selection pattern becomes visible or changes. |
+| Psychological experience and assessment | Cognitive, affective, embodied, and relational accounts; questionnaire responses, performance tests, reports, and grounded interpretations. |
+| Personal conditions and everyday life | Relevant identity and bodily facts, habits, places, resources, work and study situations, and current directions. |
+| Self-expression and selected works | Names, signatures, images, creative and research works, and the person's interpretations of their significance. |
+
+These categories locate contributions rather than divide a person into independent parts. A mobile work arrangement can express a preference, accommodate bodily discomfort, and depend on available equipment. Maintain each fact or developed account once, then link the relations. A work's content can inform understanding without serving as a psychological test. A questionnaire has its own context and evidential limits; it does not determine a preference or value.
+
+Use the person's own material to refine the organization. Keep meaningful names in their native language. An existing collection can be classified through its maintained index and reader navigation without moving every file. Create a deeper directory only when it clarifies a substantial body of material. Source and archive indexes supply provenance, not another competing portrait.
+
+## Understand preference in its extended realization
+
+Study preference as it operates through the person, model, tools, and personal environment. The environment can partly constitute the selection capacity being understood; it is not merely noise to remove before identifying an internal preference. Model-assisted choices, adopted defaults, and revisions can expose a pattern before the person knows how to describe it.
+
+Compare actual alternatives, requests, implementation, use, and correction. Make the pattern visible with concrete cases and explain why the interpretation fits. Keep enacted selection, interpretation, and present endorsement intelligible within the same practice: a person can recognize a helpful arrangement, reject an unwanted constraint, or choose to change a formerly useful preference. Do not equate an isolated model error with an adopted direction or assume the system is already endorsed in every detail.
+
+Git/GitHub preserves committed works and ancestry; Computer History supplies differently scoped use evidence. Their connection supports a recoverable trajectory. Preserve consequential exclusions and old interpretations at their existing sources, without making every old version active. History's ancestry graph is not a priority order, and the basic judgment described by inconsistency-tolerant semantics is not a model of human computation. The [preference essay](../docs/preference-harness.md) develops these relations.
+
+## Establish what material is needed and available
+
+Begin with the intended use of the six accounts and inspect the existing material. Determine which categories have relevant grounds, which have dated or uncertain information, and which material gaps would change the account. Completeness means adequate coverage for those judgments, not an exhaustive biography or a permanently finished dossier.
+
+Retrieve available records before asking the person to reconstruct them. When a necessary fact, experience, or judgment remains unavailable, ask a focused question that identifies what is missing and what it affects. If the person supplies a source, inspect that source and update the gap; do not repeat the question as though no answer had arrived. Continue independent writing while dependent claims remain open. A missing measurement stays unknown; its absence does not authorize a new psychological test.
+
+Record bodily measurements with dates and units, directions as intentions rather than accomplished events, and assessment results with instrument, version, occasion, and response context. Reuse existing authoritative records through links where possible. Credentials and sensitive identity documents retain their actual owners; a basic profile needs only the relevant facts and source route.
+
+## Condense the material into six connected accounts
+
+YinYang's crossed participation and dialectical return remain the organizing relation of this maintained implementation. Preferences, psychological material, and personal conditions give that relation situated content.
+
+- **Orientation** states adopted values, purposes, and which preferences the person wants to sustain or reconsider.
+- **Person** brings together preference patterns, psychological grounds, capacities, and life conditions in distinct, connected passages.
+- **Counterpart** explains the model's actual contribution, including making patterns inspectable and carrying authorized changes.
+- **Relationship** develops how generation, judgment, correction, and preference revision occur between participants.
+- **Environment** explains how tools and circumstances realize those choices and shape further possibilities.
+- **Revision** states how new material, comparison, the person's response, and actual use change the account and its realization.
+
+Use a category where it changes that file's subject, not as six repeated inventories. Keep original material and richer interpretations in Personal. A source gap limits the corresponding claim; preserving it explicitly is better than inventing the missing material. When the current purpose needs it resolved, continue to the actual source or the person's answer before claiming completion.

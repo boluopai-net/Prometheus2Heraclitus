@@ -33,7 +33,7 @@ connection between questions, not a fixed chronology. In actual inquiry,
 abstraction, view selection, and inference can interleave and prompt one
 another's revision.
 
-This orientation has two illuminating comparisons: [Professor Feng Ye's 2023 monograph, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) examines the distance between ideal explanation and actual methods of inquiry; a local formal resource distinguishes what can safely be inferred from what can feasibly be computed. These comparisons bring a common question into focus: how a finite inquirer obtains definite knowledge through a selective representation and a bounded method.
+[Professor Feng Ye's 2023 monograph, §§1.1 and 6.5](https://link.springer.com/book/10.1007/978-981-19-8143-2) examines the distance between ideal explanation and actual methods of inquiry. This comparison helps ask how a finite inquirer obtains warranted understanding through selective representation.
 
 ## A retrievable trajectory under finite attention
 
@@ -53,11 +53,10 @@ problem concerns a broken layout, some of those details become relevant again.
 Sufficiency follows the inquiry and can change with it.
 
 The map comparison above specifies the same discipline: retain the crossing
-on which the route depends. The methodological and formal comparisons below develop
+on which the route depends. The following discussion develops
 its limits. A manageable description does not establish that omitted
-relationships are absent; a method preserving specified formal answers does not
-by itself prove that an account of an actual episode is faithful. Both
-distinctions keep selective retention answerable to what it is meant to explain.
+relationships are absent. Selective retention remains answerable to the
+question and the actual episode it is meant to explain.
 
 <a id="computational-articulation-and-physical-reduction"></a>
 
@@ -106,62 +105,13 @@ The [2021 mathematics lecture report](https://renwen.ucas.ac.cn/index.php/rczp/2
 
 His [2024 interview on logic](https://www.thepaper.cn/newsDetail_forward_28071984) further discusses non-linguistic cognition and explanatory models, supplying another public entrance to these methodological questions.
 
-## What a local formal resource makes precise
+## Judgment under limited evidence
 
-Public [research on prioritized knowledge bases](https://arxiv.org/abs/2003.05746v5) studies selected questions of inference under inconsistent data. It fixes a formal setting, separates ontology from assertions, distinguishes repair selection from query acceptance, and examines computational cost. Reading these distinctions as resources for finite inquiry is this essay's philosophical interpretation. The fixed setting makes the consequences of particular assumptions checkable, supplying a precise local comparison for the wider activity of developing and revising views.
+When sources conflict, an inquirer can distinguish the grounds provisionally accepted from what follows under them. The [preference account](preference-harness.md#selection-and-inference) develops that basic judgment through inconsistency-tolerant semantics. It makes the selection intelligible without requiring a person to reproduce a formal computation.
 
-To investigate computational cost, the formal problem holds specified choices
-stable while obtaining answers. An inquiry can later revise those choices,
-but its cost comparison needs a defined target. This supplies the bridge to
-approximation: obtain a restricted set of answers whose relation to that target
-can be proved, then ask whether the restriction is useful for the actual task.
+Limited time and attention make selection necessary, but do not settle which selection is justified. The current question, the significance of an error, and available evidence determine what deserves investigation. Retain important alternatives in the trajectory while selecting a usable present account. Evidence can later reopen the selection or change the question itself.
 
-## Three forms of restrained commitment
-
-**Ontological restraint** keeps the scope of a commitment matched to the relation established. Material conditions can be studied at the level needed by the question, and functional relations can be used while their ultimate reduction remains open. An orientation gives inquiry its starting direction; evidence and argument determine which factual conclusions follow.
-
-**Skeptical acceptance under conflict** limits accepted conclusions to those
-meeting a stated support policy. When that policy requires every admissible
-candidate to entail $q$, disagreement can block acceptance. Non-acceptance of
-$q$ is not acceptance of $\neg q$. This restraint concerns how much the evidence
-warrants; it can require substantial computation rather than save it.
-
-**Computational restraint** uses a sound lower approximation that may omit answers while preserving a specified formal target's guarantees. This can reduce cost, but savings depend on what the construction and checks actually require. Adequacy asks whether the answers suffice for the present question. An answer's formal soundness and its adequacy as a description of the world are assessed at their respective boundaries.
-
-## A bounded approximation example
-
-In Bienvenu and Bourgaux's [repair/argumentation construction](https://arxiv.org/abs/2003.05746v5),
-a knowledge base separates general axioms $T$ from a finite assertion set $A$.
-A repair is an inclusion-maximal subset of $A$ consistent with $T$; priorities
-select preferred repairs. Assume consistent $T$, individually $T$-consistent
-assertions, and the paper's specified conflict-based argumentation construction.
-Let $\mathcal R_P$ be its nonempty family of Pareto-optimal repairs.
-
-The corresponding argumentation framework organizes conflict through attack
-and defense relations. Its grounded extension $G$ identifies assertions accepted
-under grounded semantics and is
-contained in every stable extension. Under the stated correspondence between
-stable extensions and Pareto-optimal repairs, this gives:
-
-$$
-G\subseteq\bigcap_{R\in\mathcal R_P}R,\qquad
-\langle T,G\rangle\models q
-\Longrightarrow
-\left\langle T,\bigcap_{R\in\mathcal R_P}R\right\rangle\models q.
-$$
-
-The consequence implication uses monotonicity of classical entailment:
-adding premises preserves consequences. P-IAR reasons from the assertions
-common to all Pareto-optimal repairs. Thus reasoning from $G$ supplies a sound
-lower approximation to P-IAR under these assumptions: every answer obtained
-this way is a P-IAR answer, but some P-IAR answers may be missed. This compares
-a candidate method with a specified target, rather than changing
-what the target means. P-AR has a different target—entailment in every selected
-repair—and may obtain common consequences through different assertions.
-[Selection and inference](preference-harness.md#selection-and-inference) develops
-that distinction.
-
-This conditional derivation establishes inclusion. Its computational benefit must be assessed through the cost of conflict construction, consistency and query checks, and the components held fixed. Those operations determine the runtime; the inclusion itself specifies which answers the approximation preserves.
+Ontological restraint concerns what kinds of relations one commits to; restraint in judgment concerns what the available grounds warrant; economy of representation concerns how much structure helps answer the question. These can support one another without becoming the same mathematical relation. A smaller representation may omit something decisive, while a richer one may add no explanatory gain.
 
 ## Abstraction, premises, and explanatory gain
 
@@ -173,8 +123,8 @@ Searching backward for sufficient premises clarifies what a conclusion requires.
 
 The practical choice is therefore among representations and methods with
 assessable contributions. A richer model is warranted when it resolves a
-consequential ambiguity; an approximation is useful when its preserved answers
-suffice; deeper physical explanation matters when realization is the question.
+consequential ambiguity; a compact account is useful when it retains the
+relations the judgment needs; deeper physical explanation matters when realization is the question.
 A bounded result states both what has been obtained and what its method leaves
 open. This makes completion possible without confusing limited computation
 with a final account of reality.

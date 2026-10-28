@@ -111,9 +111,9 @@ to compare return through the other, revision of criteria, and changes of
 subjective position.
 
 [Science of Logic, “Being,” §§184–187](https://www.marxists.org/reference/archive/hegel/works/hl/hlbeing.htm)
-develops cessation and preservation in sublation. [Query rewriting and sublation](preference-harness.md#query-rewriting-and-sublation)
-uses this relation for a bounded comparison with query rewriting; a technical
-equivalence does not prove a thesis about Hegel's whole dialectic.
+develops cessation and preservation in sublation. [YinYang's role return](yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
+asks what exclusive allocation ends and which possibilities of participation
+remain available in a changed relation.
 
 The [Introduction to the Philosophy of History, part III](https://www.marxists.org/reference/archive/hegel/works/hi/introduction.htm)
 connects spirit's self-knowledge with freedom and world history. The

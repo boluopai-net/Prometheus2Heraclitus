@@ -99,8 +99,12 @@ into a universal prompt.
 
 <a id="the-preference-harness-analogy"></a>
 
-Purposes and preferences guide the contribution to pursue; they do not establish
-that a tool is available, an interpretation accurate, or the arrangement effective.
+Purposes and preferences take working form through the model, tools, interfaces,
+and everyday conditions. The environment can participate in the person's extended
+selection capacity, including patterns made visible only through later comparison.
+Explain what operates, why it is understood that way, and how the person can
+reshape it. A chosen direction does not by itself establish tool availability
+or the effectiveness of a particular realization.
 Keep working concepts coherent enough to guide action while retaining conflicting
 evidence and unresolved alternatives. The [preference-harness essay](../docs/preference-harness.md)
 develops this distinction between selecting a view and judging what follows from
