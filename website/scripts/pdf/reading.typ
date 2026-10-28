@@ -29,6 +29,7 @@
 #set math.equation(numbering: none)
 #show math.equation: set text(font: "STIX Two Math")
 #set table(inset: 5pt, stroke: 0.4pt + rgb("d7dddd"))
+#set table.cell(breakable: false)
 #show table: set text(size: 9pt)
 #show figure.where(kind: table): set block(breakable: true)
 #show table.cell.where(y: 0): set text(weight: "bold", fill: teal)

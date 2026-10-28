@@ -497,7 +497,11 @@ This is a practical resource, not an additional philosophy essay or Skill.
 The separate research and learning guide is authored at
 `skills/yinyang/references/docs/research-and-learning{,.zh-CN}.md` and rendered
 by the same script at `/research-learning/` and `/research-learning/en/`.
-Its three source anchors drive the existing reading navigation. It has its own
+Its seven source anchors drive the existing reading navigation. The human-facing
+guide distinguishes theory and ability/tool practice paths, explains the teacher's
+three-document technical and two-document philosophical materials, and connects
+actual study with software, plugins, Skills, MCP and CLI/interface operation.
+It has its own
 resources-hub entrance and reciprocal links with the general guide; specialist
 repository recommendations and the two teachers' purposes stay there, with
 operational procedures and private environment inventories excluded. Library source
