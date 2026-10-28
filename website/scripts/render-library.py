@@ -6,6 +6,7 @@ or automatic synchronization are consulted. Edit content at its canonical owner.
 """
 import argparse
 import html
+import json
 import re
 import shutil
 import subprocess
@@ -189,7 +190,11 @@ def main():
                 language = 'zh-CN' if '.zh-CN.md' in p else 'bilingual' if '## 中文说明' in source_text(p) else 'en'
                 documents.append((url(p), reading_label(title(p), kind, name, language, english), kind))
             skill_readers[name, english] = documents
-    render_skill_pages(dist, shell, revision, skill_readers)
+    skill_descriptions = {
+        name: json.loads(re.search(r'^description: (.+)$', source_text(f'skills/{name}/SKILL.md'), re.M).group(1))
+        for name in SKILLS
+    }
+    render_skill_pages(dist, shell, revision, skill_readers, skill_descriptions)
 
     def rewrite_links(rendered, source):
         rendered = re.sub(r'<a\b[^>]*href=["\'][^"\']*(?:thesis/|dl-lite-thesis\.pdf)[^"\']*["\'][^>]*>([\s\S]*?)</a>', r'\1', rendered)
@@ -261,6 +266,10 @@ def main():
             extensions.append('md_in_html')
         md = markdown.Markdown(extensions=[*extensions, CjkBoldExtension()], extension_configs={'toc': {'slugify': slug, 'toc_depth': '2-3'}})
         rendered = md.convert(source)
+        if Path(path).name in {'SKILL.md', 'SKILL.zh-CN.md'}:
+            name = Path(path).parts[1]
+            description = html.escape(skill_descriptions[name])
+            rendered = re.sub(r'(</h1>)', lambda match: match.group(1) + '<p class="collection-intro">' + description + '</p>', rendered, count=1)
         # Package navigation is valid at source; the human reader has its own
         # collection, series, and edition controls. Keep links within body prose.
         rendered = without_source_navigation(rendered)

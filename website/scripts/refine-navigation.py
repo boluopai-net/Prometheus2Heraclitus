@@ -146,12 +146,25 @@ def refresh_page_titles(text):
     return re.sub(r'(<a\b(?=[^>]*\sdata-page-title(?:\s|>))[^>]*>)[\s\S]*?</a>', replace, text)
 
 
+def names_for_page(page, text):
+    """Keep Skill identifiers and Chinese discovery text authored at source."""
+    relative = page.relative_to(root).as_posix()
+    skill_surface = relative.startswith(('skills/', 'tools/')) or (
+        relative.startswith('repositories/prometheus/source/skills/')
+        and page.name.startswith(('SKILL.', 'README.'))
+    ) or relative in {
+        'repositories/prometheus/source/README.html',
+        'repositories/prometheus/source/README.zh-CN.html',
+    }
+    return text if skill_surface else reader_names(text)
+
+
 for page in root.rglob('*.html'):
     if page.relative_to(root).parts[0] in {'client', 'server', '.openai'}:
         continue
     # The website uses the owner's chosen Latin label, including reader editions
     # projected from the separately maintained philosophical source package.
-    text = refresh_page_titles(reader_names(page.read_text()))
+    text = refresh_page_titles(names_for_page(page, page.read_text()))
     text = re.sub(r'<p class="eyebrow">(?:实践指南|Practical guide|等待第一首歌|Waiting for the first song)</p>', '', text)
     # Full semantic diagram viewers have their own interface and retain arrows.
     if 'class="header wrap"' not in text:
@@ -207,6 +220,6 @@ for page in root.rglob('*.html'):
         updated = re.sub(r'<footer\b[\s\S]*?</footer>', english_footer, updated)
     if page.relative_to(root).as_posix() not in {'index.html', 'en/index.html'}:
         updated = re.sub(r'<aside class="playground wrap">[\s\S]*?</aside>', '', updated)
-    page.write_text(space_chinese_latin(reader_names(updated)))
+    page.write_text(space_chinese_latin(names_for_page(page, updated)))
 
 update_search_index(root)

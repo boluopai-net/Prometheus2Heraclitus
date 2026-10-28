@@ -40,7 +40,7 @@ def render(dist, shell):
               '<link rel="stylesheet" href="/repository.css"><script type="module" src="/giscus-comments.js"></script>')
         back = f'<a class="back" href="/repositories/{suffix}">{t("← 资料与建议", "← Resources and suggestions")}</a>'
         yinyang_source = '/tools/yinyang/' + suffix
-        yinyang = f'''<section class="library-section"><h2><a href="{yinyang_source}">{t("阴阳", "Yinyang")}</a></h2><p class="section-note">{t("从理解自己、模型与彼此的关系出发，把个人哲学、协作方式和工具环境连成可以持续修订的实践。", "Begin with understanding yourself, the model, and your relationship. Connect personal philosophy, collaboration, and the tool environment into a practice that can keep evolving.")}</p></section>'''
+        yinyang = f'''<section class="library-section"><h2><a href="{yinyang_source}">yinyang</a></h2><p class="section-note">{t("从理解自己、模型与彼此的关系出发，把个人哲学、协作方式和工具环境连成可以持续修订的实践。", "Begin with understanding yourself, the model, and your relationship. Connect personal philosophy, collaboration, and the tool environment into a practice that can keep evolving.")}</p></section>'''
         empty_source = '/tools/yinyang-empty/' + suffix
         editions = f'<p><a href="{yinyang_source}">Full</a> · <a href="{empty_source}">Empty</a> — {t("Full 含完整文章与图示；Empty 保留辩证核心、形成指南与空白个人结构，由你和模型形成自己的内容。", "Full includes essays and diagrams; Empty keeps the dialectical core, formation guides, and unfilled personal structure for you and your model to develop.")}</p>'
         yinyang = yinyang.replace('</section>', editions + '</section>')

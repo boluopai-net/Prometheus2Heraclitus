@@ -147,19 +147,19 @@ def reading_groups(english):
         for name in names:
             info = SKILLS[name]
             route = '/tools/' + name + ('/en/' if english else '/')
-            entries.append(f'<li data-skill="{name}"><a href="{route}">{badge(name)}{html.escape(info[0])} · {name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
+            entries.append(f'<li data-skill="{name}"><a href="{route}">{badge(name)}{name}</a><p>{html.escape(info[3 if english else 2])}</p></li>')
         sections.append('<section class="library-section"><h2>' + (en if english else zh) + '</h2><p class="section-note">' + (note_en if english else note_zh) + '</p><ul class="library-purpose-links">' + ''.join(entries) + '</ul></section>')
     return ''.join(sections)
 
 
-def render_pages(dist, shell, revision, readers):
+def render_pages(dist, shell, revision, readers, descriptions):
     for name, info in SKILLS.items():
         for english in (False, True):
             i = 1 if english else 0
             def t(zh, en):
                 return en if english else zh
             route = '/tools/' + name + ('/' if english else '/en/')
-            title = info[0] + ' · ' + name
+            title = name
             license_label = 'CC BY-NC-SA 4.0' if name in {'yinyang', 'yinyang-empty'} else 'MIT'
             example = {
                 'yinyang': t('“结合我提供的材料，帮助我形成并使用自己的阴阳。”', '“Help me form and use my own YinYang from the material I provide.”'),
@@ -170,7 +170,7 @@ def render_pages(dist, shell, revision, readers):
                 'prompt-and-skill-lifecycle': t('“审查这套 Skill 的指令、维护责任与交付，确认消费者能发现并使用它。”', '“Audit this Skill’s instructions, ownership, and delivery, and verify its consumer can discover and use it.”'),
                 'model-conversation-relay': t('“继续这个已经绑定的咨询会话：先核对最新回合与先前提交，再按已授权的请求接续，并保存原始回复与回执。”', '“Continue this already bound advisory conversation: reconcile the latest turns and prior submission, proceed with the authorized request, and retain the original response and receipt.”'),
             }.get(name, t('“请按这个 Skill 帮我处理当前任务，先核对需要的配套方法与实际工具。”', '“Use this Skill for my task, first checking the companion methods and actual tools it needs.”'))
-            body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(info[2 + i])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
+            body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(descriptions[name])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
             readings = []
             body = body.replace('SKILL · MIT', 'SKILL · ' + license_label)
             for kind, zh, en in [('method', '方法', 'Method'), ('guide', '使用说明', 'User guide')]:

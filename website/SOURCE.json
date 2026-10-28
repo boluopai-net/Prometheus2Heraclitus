@@ -1,6 +1,6 @@
 {
   "source_project": "boluopai public website (native Sites Git repository)",
-  "source_commit": "b9047a760e1da7000ac229977024499c17bb9c91",
+  "source_commit": "405db3c21a72a83e02904057561dbe0be0b916fb",
   "excluded_paths": [
     ".playwright-cli/",
     "design-evidence/",

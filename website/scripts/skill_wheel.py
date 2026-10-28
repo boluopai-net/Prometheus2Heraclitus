@@ -59,7 +59,7 @@ def wheel(english, skills, yinyang_source):
         color = '#' + ''.join(f'{channel:02x}' for channel in rgb)
         soft_color = '#' + ''.join(f'{round(channel*.68+255*.32):02x}' for channel in rgb)
         gradients.append(f'<radialGradient id="wheel-spectrum-{i}" gradientUnits="userSpaceOnUse" cx="280" cy="280" r="264"><stop stop-color="#fffdf0"/><stop offset=".24" stop-color="#fff6d8"/><stop offset=".62" stop-color="{soft_color}"/><stop offset=".88" stop-color="{color}"/><stop offset="1" stop-color="{color}"/></radialGradient>')
-        title = ('YinYang' if english else '阴阳') if name == 'yinyang' else skills[name][1 if english else 0]
+        title = name
         route = yinyang_source if name == 'yinyang' else '/tools/' + name + ('/en/' if english else '/')
         mid = i * step
         x, y = point(211, mid).split()
