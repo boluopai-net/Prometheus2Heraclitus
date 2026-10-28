@@ -200,6 +200,12 @@ Several concrete search tools can be combined by purpose:
 
 These are examples rather than a list to purchase or install in full. Use an existing client's native search when sufficient; add a relevant plugin, MCP connection, or API when coverage, full-text access, or specialist sources are missing, and verify it with a real query. Several tools returning the same source do not provide several independent pieces of evidence.
 
+### Get and manage Mac applications
+
+On a Mac, prefer [Homebrew](https://brew.sh/) for applications it distributes and updates. For a graphical interface, [Applite](https://applite.app/) lets you browse, download, install, update, and uninstall Homebrew applications without entering individual commands. If Homebrew is already installed, have the model check which installation Applite uses and connect it to the existing management arrangement.
+
+[MacKed](https://macked.app/) is another place to find Mac applications and download resources. It is a third-party site that includes cracked software; assess each application's source, authorization, and executable integrity separately. The resource-access discussion above applies here as well.
+
 ### Use other people's GitHub repositories
 
 Give the model the repository link and the outcome you want. Have it read the README, installation instructions, license, and supported platforms before choosing an entrance:
