@@ -35,7 +35,7 @@ codex plugin add yinyang@boluopai
 
 插件缓存会被更新替换。个人版应保存在自己的私人 Skill 源目录里，放在插件缓存和市场
 检出目录之外。让 Codex 将完整阴阳包复制到那里，保留已经存在的个人版，在
-`references/situated/` 形成取向、人、伙伴、关系、环境五份描述，在
+`references/situated/` 形成取向、人、伙伴、关系、环境、修订六份描述，在
 `references/personal/sources.md` 形成私人证据入口，再通过客户端实际的发现机制启用。
 个人版启用后，停用分发插件，
 避免两个阴阳入口相互竞争，并在新对话中核实私人入口。

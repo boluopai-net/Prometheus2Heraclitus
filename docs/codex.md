@@ -44,8 +44,8 @@ writing project is optional.
 Plugin cache files are replaceable. Keep your personal version in your own
 private Skill source, outside the plugin cache and marketplace checkout.
 Have Codex copy the complete YinYang package there, preserve an existing
-personal version, form orientation, person, counterpart, relationship, and
-environment under `references/situated/` and the evidence entrance at
+personal version, form six accounts of orientation, person, counterpart, relationship,
+environment, and revision under `references/situated/` and the evidence entrance at
 `references/personal/sources.md`,
 and register that private Skill through your client's actual discovery mechanism.
 Once that personal Skill is active, disable the distribution plugin to avoid
