@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.75",
+      "version": "1.1.76",
       "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
       "source": {
         "source": "local",
