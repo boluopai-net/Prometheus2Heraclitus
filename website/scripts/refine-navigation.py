@@ -117,12 +117,12 @@ def header(page, text):
             or page.name.startswith(('SKILL.', 'README.'))
         )
     ):
-        section = 'skills'
+        section = 'repositories'
     nav = []
     home = '/en/' if english and (root / 'en/index.html').is_file() else '/'
     home_current = ' aria-current="page"' if page.relative_to(root).as_posix() in {'index.html', 'en/index.html'} else ''
     nav.append(f'<a href="{home}"{home_current}>{"Fire and River" if english else "火与河流"}</a>')
-    for slug, zh, en in [('philosophy', '哲学评论', 'Philosophy commentaries'), ('singing', '唱歌点播台', 'Singing station'), ('skills', 'Skills', 'Skills'), ('repositories', '资料与建议', 'Resources & Advice')]:
+    for slug, zh, en in [('philosophy', '哲学评论', 'Philosophy commentaries'), ('singing', '唱歌点播台', 'Singing station'), ('repositories', '资料与建议', 'Resources & Advice')]:
         destination = f'/{slug}/'
         if english and (root / slug / 'en/index.html').is_file():
             destination += 'en/'
