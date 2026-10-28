@@ -28,6 +28,7 @@ GITHUB = 'https://github.com/boluopai-net/Prometheus2Heraclitus'
 PACKAGE = 'skills/yinyang/'
 DOCS = PACKAGE + 'references/docs/'
 METHOD_PACKAGES = {name: (info[0], name) for name, info in SKILLS.items() if name != 'random-wheel'}
+METHOD_PACKAGES['yinyang-empty'] = ('阴阳 Empty', 'yinyang-empty')
 
 
 
@@ -119,7 +120,9 @@ def main():
     )}
     # Public writing guides never publish actual situated accounts or personal
     # evidence, even if those files are accidentally tracked in a supplied tree.
-    private_prefixes = (DOCS + 'thesis/', PACKAGE + 'references/situated/', PACKAGE + 'references/personal/')
+    private_prefixes = (DOCS + 'thesis/', PACKAGE + 'references/situated/', PACKAGE + 'references/personal/',
+                        'skills/yinyang-empty/references/situated/', 'skills/yinyang-empty/references/personal/',
+                        'skills/yinyang-empty/references/philosophy/')
     allowed = {p for p in allowed if not p.startswith(private_prefixes)}
     if output.exists():
         shutil.rmtree(output)
@@ -208,7 +211,7 @@ def main():
                 return f'{attr}="{html.escape(retired, quote=True)}"'
             if target not in allowed:
                 parts = Path(target).parts
-                public_tool = len(parts) >= 2 and parts[0] == 'skills' and parts[1] in SKILLS
+                public_tool = len(parts) >= 2 and parts[0] == 'skills' and (parts[1] in SKILLS or parts[1] in {'yinyang', 'yinyang-empty'})
                 if (public_repository_link or public_tool or target == 'website/README.md') and target in tracked:
                     new = GITHUB + '/blob/' + revision + '/' + quote(target, safe='/')
                 elif public_tool and any(p.startswith(target.rstrip('/') + '/') for p in allowed):
@@ -271,6 +274,8 @@ def main():
         counterpart = path.replace('.zh-CN.md', '.md') if chinese else path[:-3] + '.zh-CN.md'
         switch = f'<a class="language-link" lang="{"en" if chinese else "zh-CN"}" href="{url(counterpart)}">{"English" if chinese else "中文"}</a>' if counterpart in allowed else f'<span class="edition-note">{"原文版本" if chinese else "Original edition"}</span>'
         source_note = ''
+        if path.startswith('skills/yinyang-empty/'):
+            source_note = '<p class="source-note"><a href="' + GITHUB + '/blob/' + revision + '/' + path + '">GitHub ' + ('源文件' if chinese else 'source') + '</a></p>'
         if write_essay(dist, path, title(path), rendered, md.toc, source_note, shell, title):
             write('source/' + str(Path(path).with_suffix('.html')), redirect_page(url(path)))
             continue

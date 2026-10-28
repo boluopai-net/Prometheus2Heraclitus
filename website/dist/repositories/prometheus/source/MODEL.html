@@ -1,5 +1,6 @@
 <!doctype html><html lang="en"><head><link rel="canonical" href="https://boluopai.net/repositories/prometheus/source/MODEL.html"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maintaining the Prometheus2Heraclitus collection · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=4f65aaa2c475"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=bfc6494e7a21"><link rel="stylesheet" href="/site.css?v=cbe6a2cfbc0b"><script src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/en/" aria-label="boluopai home"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><span class="language-control unavailable" aria-disabled="true" title="Chinese edition unavailable" aria-label="Chinese edition unavailable">中文<span class="unavailable-note"> · unavailable</span></span><button class="theme-control" type="button" aria-pressed="false" aria-label="Dark mode" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button></div></div><nav class="section-tabs" aria-label="Sections"><a href="/en/">Fire and River</a><a href="/philosophy/en/">Philosophy commentaries</a><a href="/singing/en/">Singing station</a><a href="/repositories/en/" aria-current="page">Resources & Advice</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="On this page"><div class="toc">
 <ul>
+<li><a href="#yinyang-editions">Yinyang editions</a></li>
 <li><a href="#publication-boundary">Publication boundary</a><ul>
 <li><a href="#complete-website-source-in-the-collection">Complete website source in the collection</a></li>
 </ul>
@@ -23,6 +24,28 @@ with source revision and rights traceable in that reading surface.</p>
 aligned with the actual members and preserve full semantic parity. English is
 the first reading language for English-capable readers and models; model-facing
 maintenance prose remains English.</p>
+<h2 id="yinyang-editions">Yinyang editions</h2>
+<p><code>skills/yinyang/</code> is the Full edition, including the author's essays and diagrams.
+<code>skills/yinyang-empty/</code> is the Empty edition: reverse alignment, crossed roles and
+dialectical return, six formation guides, Core views as attributed suggestions,
+practice overview, formation/revision, daily collaboration, and Personal guidance.
+Empty contains no <code>docs/</code> or <code>diagrams/</code>. Recipients develop their own philosophy,
+Personal material, and six Situated accounts with their model; neither edition
+ships private substance. Empty supplies unfilled Personal and Situated starters,
+with four empty Personal areas and six files explicitly marked <code>status: unfilled</code>;
+these are templates rather than actual accounts. Full's current source and local personal consumers
+retain their complete content.</p>
+<p>Shared method content remains authored in Full. <code>scripts/build-yinyang-empty.py</code>
+projects its declared selection into Empty, relocating the selected guides and
+converting links to omitted essays into optional public reading links. It adapts
+the shared guide's Full-specific distribution sentence to Empty's unfilled starters.
+Empty's
+entrypoint, README editions, and package guidance are authored in its own tree.
+Do not edit generated Empty references independently. <code>build-plugins.py</code> invokes
+the selection builder in the same check/apply mode before packaging both editions.
+The two plugin identities are <code>yinyang</code> (Full) and <code>yinyang-empty</code> (Empty), both
+under CC BY-NC-SA 4.0. Recipient updates use the chosen edition, preserving their
+private philosophy, Personal, Situated, and independently authored additions.</p>
 <p><a href="/repositories/prometheus/source/skills/yinyang/MODEL.html">Yinyang's MODEL.md</a> owns interpretation of that Skill's
 philosophical claims, formation method, reader editions, and supporting resources.
 Its documents and diagrams live inside <code>skills/yinyang/references/</code>. Other
@@ -52,7 +75,7 @@ publication helper. Canonical Yinyang philosophical prose and the practical guid
 projections, not a second authoring owner. Their displayed canonical revision
 can precede the snapshot commit when content is unchanged. Maintain original
 content at its owner and regenerate before publishing.</p>
-<p>Follow the native Site README's <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/8e0ba641716056aaa67f79ae4d7b43a4db31f2a7/website/README.md#publication-and-interrupted-transfers">publication route</a>
+<p>Follow the native Site README's <a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/45edcd1ac2b0bf97650ecb01e02e6fb22ccf2b93/website/README.md#publication-and-interrupted-transfers">publication route</a>
 when preparing publication; it owns the content/runtime selection and the
 Git-first runtime route with archive fallback for this Site. Commit and push
 the final Site source. Ordinary content activates its exact immutable snapshot
