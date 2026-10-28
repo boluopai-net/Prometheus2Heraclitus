@@ -221,9 +221,10 @@ contribute to that expression without standing in for psychology and preference.
 
 Literary programming lets a character, image, or narrative orient interpretation
 and action. A coupled portrait can change expectations about who initiates,
-judges, or carries work forward. A harness—the instructions, tools, and
-environment shaping interaction—can realize that arrangement within actual
-authorization and safety boundaries. An image admits several interpretations;
+judges, or carries work forward. A harness couples model work with the person's
+environment: instructions, tools, memory, and interfaces shape both participants'
+available contributions. YinYang's meta-harness makes that shared arrangement
+available for understanding and revision. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
 works, and action. [Writing a personal philosophy through literary programming](literary-programming.md)
 develops how imagery condenses relationships and analogy unfolds them;

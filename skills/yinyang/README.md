@@ -23,9 +23,12 @@ models matter: whose purposes are being served, and what this counterpart can
 understand, contribute, question, and carry. Chosen roles do not exhaust either
 participant or establish identical mechanisms and inner experience.
 
-YinYang is a Skill carrying a **meta-harness**—a philosophical and relational
-frame for understanding and revising actual prompts, Skills, roles, tools, and
-environments. Memory can preserve evidence; the models organize its relations
+YinYang is a Skill carrying a **meta-harness for person and model together**.
+The model's harness and the person's environment are coupled: the same
+arrangement organizes model work and human participation, serving as both
+participants' harness. YinYang supplies the philosophical and relational
+understanding through which they form and revise that arrangement, including
+prompts, Skills, roles, tools, memory, and interfaces. Memory can preserve evidence; the models organize its relations
 and possible consequences. Specialist Skills retain their own methods. The
 [The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) connects philosophy,
 psychology, and engineering within one physical reality while distinguishing

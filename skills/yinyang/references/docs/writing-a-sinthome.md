@@ -5,8 +5,9 @@
 A person and model's earlier work produces a recoverable trajectory of
 experience, choice, inquiry, and environmental construction. Reflection on that
 trajectory develops their understanding of each other and their cooperation.
-With this material and understanding available, they can author a personal philosophy, then
-distill that philosophy together with the living material into models of the
+With this material and understanding available, they can create personal works,
+develop their understanding of world and life through them, and distill it
+together with the living material into models of the
 person, counterpart, and relationship. [From personal philosophy to personal
 models](metaphor-and-self-revision.md) develops that passage. Here the question
 is what happens next: how does this understanding become a working arrangement
@@ -26,7 +27,13 @@ For example, someone often has ideas they cannot yet fully articulate. They can 
 
 “Sinthome” borrows Lacan's term **sinthome**. In the particular knot construction of [*Seminar XXIII*, the session of 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/), the sinthome participates in repairing the knot; the [11 May session](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-11-mai-1976/) further discusses the relations among Joyce's writing, ego, and the knot. These discussions let writing be considered through how it functions for a person as well as through what a work expresses. See the [Lacan reading guide](lacan-reading-guide.md) for the related concepts.
 
-Here the name refers to a contemporary personal arrangement. Philosophy expresses how the person understands the world, life, and value; psychological understanding connects their experience, emotions, preferences, and relationships; engineering brings the adopted understanding into actual collaboration with a model. What the three jointly form is the sinthome meant here.
+Here the name refers to a contemporary personal arrangement: personal creation,
+a model counterpart, and an actual environment support one another, sustaining
+a way of living and creating. Philosophy, psychology, and engineering offer
+three perspectives on this arrangement: articulating understanding of world,
+life, and value; connecting concrete experience and relationships; and constructing
+usable conditions. Each foregrounds a contribution, while all participate in
+forming works, the partnership, and the environment.
 
 In the opening example, writing can articulate how the person participates in creation and what the model should undertake; records and retrieval make earlier work continuable; tools turn ideas into essays, diagrams, or programs; actual exchange lets both participants discover which understandings fail to fit. The sinthome refers to this arrangement with its content, realization, and use. An essay, a Skill, or an operation can be part of it.
 
@@ -105,10 +112,17 @@ Some relations suit natural language: “When an idea is incomplete, first devel
 | --- | --- |
 | Prompt | Expresses currently relevant purposes, context, and needed contributions. |
 | Skill | Organizes reusable understanding, methods, and resources for a model to read and use according to the task. |
-| Harness | Organizes models, instructions, tools, records, and operating conditions into an environment for actual work. |
-| Meta-harness | Articulates how to understand, select, and revise these working environments, including understanding of the person, counterpart, and their relationship. |
+| Harness | Couples model work with human participation through models, instructions, tools, records, interfaces, and operating conditions; the arrangement serves both participants. |
+| Meta-harness | Makes this coupled human–model arrangement available for understanding, formation, and revision, including what each participant can understand, judge, and do through it. |
 
-These carriers are not interchangeable names. YinYang uses a Skill to carry the understanding and methods of a meta-harness; particular tasks are completed within an actual harness. Under different technical conditions, the same relations can use different carriers. Whether they remain suitable depends on their ability to support the needed collaboration.
+These terms distinguish a carrier, a working arrangement, and its reflective
+organization. YinYang uses a Skill to carry the understanding and methods of
+a meta-harness for both person and model; the model's harness is coupled with
+the person's environment. Particular tasks take place within this shared
+arrangement. [Why write a personal philosophy](why-yinyang.md#how-the-relationship-enters-skills-and-the-users-environment)
+develops its two-sided role through memory, interfaces, and division of work.
+Under different technical conditions, the same relations can use different
+carriers. Their fit depends on the collaboration they actually support.
 
 Returning to the opening example, the account of collaboration needs to tell the model that when the user offers an unfinished idea, it should continue investigating and constructing, then deliver an inspectable result. Relevant records must be retrievable, needed tools available, and results presented in a way the user can understand. Realizing these conditions together turns “the model undertakes explicit development” from a wish into an actual division of work.
 

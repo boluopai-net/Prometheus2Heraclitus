@@ -17,7 +17,11 @@ this account explains what it enables, for whom, under which conditions.
 
 Include the directions needed to use, maintain, and change this environment.
 A **harness** is its working arrangement of prompts, Skills, tools, interfaces,
-and operating conditions. Realization belongs in this account: how understood
+and operating conditions. Here the model's harness and the person's environment
+are coupled, so the arrangement serves both participants. Explain what a change
+makes available to each: retrieval affects model continuation and the person's
+need to reconstruct context; presentation affects model delivery and human
+understanding and judgment. Realization belongs in this account: how understood
 relations become behavior, how to change that behavior, and how observed effects
 return to understanding. People and models can develop and use this guidance
 together; neither needs a finished theory before useful construction begins.

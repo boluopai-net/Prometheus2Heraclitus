@@ -19,6 +19,16 @@ passages through a life, with gaps and unresolved interpretations.
 
 The preceding essays have authored philosophy from trajectories and shared reflection, then examined returning expression and the reconstruction of premises and relationships in [Speech, opposition, and self-formation](speech-opposition-and-self-formation.md). This essay receives that developing understanding and asks what is warranted about the actual person, counterpart, and cooperation.
 
+The same connection is available through other personal creation. A story's
+characters and conflicts, a piece of music's organization of feeling, or the
+activities a design or program makes possible can carry an author's understanding
+of world, value, and life. Works give that understanding a form for shared
+interpretation and revision; their making and actual reception supply grounds
+and corrections. This essay develops the connection through philosophical
+works, while also using philosophy as a reflective perspective running through
+personal creation: examine relevant meanings and reasons through a work and
+its formation, then distill grounded implications into working accounts.
+
 This essay follows the next passage: **distilling that philosophy together with
 the living material into models of the person, counterpart, and relationship**.
 The models make selected understanding usable across work. Their realization

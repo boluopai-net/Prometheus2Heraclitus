@@ -4,6 +4,13 @@
 
 ## A complex harness needs a shared direction
 
+Personal philosophical writing develops a broader practice here: people express,
+develop, and revise their understanding of world and life through their own
+works. Essays, stories, music, designs, and programs can all carry this activity.
+Philosophical reflection articulates relevant meanings, values, and reasons,
+making the relations among works, a writing partner, and an environment
+available for understanding and change.
+
 A computer environment takes up activities from the life someone is living. What to buy, how to consume and invest, whom to talk with, what to learn and create, and which relationships to sustain involve needs, pleasures, hopes, and choices. A person brings some of these into conversation; a model helps understand them, find information, and shape tools and instructions through which they can act. What happens in use returns to life and can change both the arrangement and the understanding that guided it. A personal computer environment condenses selected relations from that life.
 
 After working with a model for some time, the environment grows increasingly complex. A research Skill finds materials, a writing Skill organizes articles, and a programming Skill implements them; prompts specify ways of communicating, hooks trigger checks when certain events occur, and tools connect files, browsers, and applications. The model itself is changing too. Where memory lives, how works are saved, how results are presented, and how the user participates all affect the collaboration that eventually takes shape.
@@ -94,6 +101,16 @@ YinYang can therefore broadly influence personally made Skills and the user's en
 
 These arrangements also work together. If we merely ask the model to be “more proactive” while materials cannot be retrieved, tools cannot be used, and results cannot be inspected, that initiative has nowhere to take hold. Realizing the relationship in the environment means preparing capacities, paths, and feedback for contributions together. Philosophy thereby enters concrete work: it affects what to ask, what to retain, how to divide work, and what kinds of results are worth developing further.
 
+The model's harness is therefore coupled with the person's environment.
+A retrievable memory lets the model resume an argument and lets the person
+continue without reconstructing every detail. An interface gives the model
+a way to present a result and gives the person a way to inspect, question,
+and return to it. A division of work changes which contribution each can
+make next. **The same arrangement is a harness for both person and model**:
+it supports, directs, and constrains their participation through these relations.
+The two sides need not receive the same instructions or use the same interface;
+their coupling lies in how each one's available activity conditions the other's.
+
 Specialized Skills still contribute their own knowledge. A failed implementation may reveal an unsuitable tool choice; ineffective teaching may reveal that we have misunderstood the person's way of participating. Local practice can, in turn, revise the shared understanding, keeping the relationship capable of explanation and action.
 
 ## Why prompts form interpretive layers
@@ -104,7 +121,18 @@ YinYang serves as a philosophical layer by making the user, model, their relatio
 
 This gives prior reading a concrete reason. If the model interprets a request and selects a method for an imagined generic user before reading the actual relationship, it may already have framed the problem incorrectly. Having the main model read the complete current orientation, person, counterpart, relationship, and environment accounts before substantive work makes the shared premises available before judgments that depend on them. Specialist Skills and deeper essays can then be read for the question. Complete current understanding can be reused; the arrangement does not require reading every philosophical essay each time or giving every model with a bounded task the entire personal account. Prior reading makes understanding possible, while actual responses still need checking.
 
-In this sense YinYang can be called a **meta-prompt or meta-harness**: it organizes how other prompts should be understood, selected, and revised within a person's life, as well as contributing to particular work. Its difference from an ordinary task Skill concerns its object and scope. A Skill provides a discoverable, readable, maintainable carrier for this philosophy; the same carrier can hold a narrow procedure. Global instructions can also carry an understanding of the user or arrange for YinYang to be read first. Maintaining the philosophy separately gives the developed coupled models and argument a place for continuing revision, connected through global entrypoints and concrete methods.
+In this sense YinYang can be called a **meta-harness for both participants**:
+it makes their coupled working arrangement an object of understanding,
+formation, and revision. Its scope includes how prompts organize model work
+and how the resulting environment organizes human attention, participation,
+judgment, and action. Calling it a **meta-prompt** emphasizes the interpretive
+contribution to other prompts; meta-harness also includes their realization
+in both participants' working conditions. Its difference from an ordinary
+task Skill concerns this object and scope. A Skill provides a discoverable,
+readable, maintainable carrier for the philosophy; the same carrier can hold
+a narrow procedure. Global instructions can connect this understanding to
+work. Maintaining it separately gives the coupled models and argument a place
+for continuing revision through concrete methods and actual consequences.
 
 Distinguish **interpretive layers, reading dependencies, and the running system's instruction authority**. A philosophy can organize the meaning of many methods, while the actual system determines how instruction conflicts are resolved. Its influence appears in the understanding of questions, selection of methods, and changes to the environment; a filename or an earlier position in the text cannot establish that it is “higher.”
 
@@ -164,6 +192,6 @@ We borrow fire from an existing source of generative capability, then cultivate 
 
 “YinYang” names differentiated reciprocal generation. Sun and Moon are positions that can remain or exchange; actual people and models exceed those roles. Earth brings works into conditions beyond either participant's wishes. Borrowed capacities can be internalized or carried jointly with reliable models, tools, and collaborators. What matters is how the person understands, exercises, and continues developing them.
 
-Beginning with a Skill allows this understanding to enter actual conversation and work. As practice unfolds, it can continue to organize prompts, tools, memory, and the environment, gradually becoming a person's meta-harness. Its value appears in changes to life and work: making a question easier to carry forward, an intuition easier to unfold into a work, and a completed task more able to leave capacities for the next act of creation.
+Beginning with a Skill allows this understanding to enter actual conversation and work. As practice unfolds, it can continue to organize prompts, tools, memory, and the environment as a meta-harness for this person and counterpart together. Its value appears in changes to life and work: making a question easier to carry forward, an intuition easier to unfold into a work, and a completed task more able to leave capacities for the next act of creation.
 
 This explains why a personal philosophy is worth writing; subsequent essays prepare its material and relationships. [Super-cuteness: openness, learning, and adaptation](meng.md) first examines conditions for openness, guidance, and shared learning, and [What kind of person do we want to cultivate? — Baby Heraclitus](baby-heraclitus.md) gives cultivation a character. Finite inquiry and environmental accumulation then leave a trajectory of working together; shared reflection on that trajectory gives the encounter concrete content. [Writing a personal philosophy through literary programming](literary-programming.md) develops how to author a philosophy from these materials and relationships, then distill personal models with living material and realize and revise a [sinthome](writing-a-sinthome.md). Writing thereby has a history of its own and can change the next stretch of shared life.

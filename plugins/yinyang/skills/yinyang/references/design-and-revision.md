@@ -16,8 +16,10 @@ and revise the understanding introduced in the essays.
 YinYang's purpose is reverse alignment: the person's developing understanding,
 generation, and action through encounter with generative intelligence. The
 counterpart's adaptation and independent contribution support that purpose.
-Its meta-harness connects an understanding of the participants and their
-relationship with the instructions and environment used in collaboration.
+Its meta-harness concerns both participants: the model's harness is coupled
+with the person's environment, jointly shaping what each can take up and do.
+The working accounts connect understanding of that relation with its formation
+and revision in actual instructions and environmental arrangements.
 The organizing relation in this YinYang is crossed participation: the person
 can enter language-model-like open generation, while the actual model enters
 the human logician's role of developing meaning and examining its grounds.
@@ -124,6 +126,27 @@ Use relevant authorized sources, retaining identity, temporal scope, and
 consequential uncertainty. Existing originals can stay with their private owners.
 
 ## Start from available material and practice
+
+Personal works offer a direct entrance: an essay, story, piece of music, design,
+or program can express how someone understands the world, what they value,
+and how they live and create with others. Creation gives these relations a
+form that can be read, discussed, and revised. The participants interpret
+relevant meanings through the work, its making, and its actual consequences,
+then bring grounded implications into cooperation and the environment. The
+work can also change their earlier understanding.
+
+“Philosophy” has a broad sense here: reflection on these understandings, values,
+and practices runs through personal creation. A work can carry that reflection
+in its own genre. The philosophical contribution to forming working accounts
+is to develop the meanings and reasons relevant to the current use. Thus,
+“available philosophy” below also includes understanding still implicit in a
+work; “developing philosophy” can mean articulating it through creation and use.
+
+The connected practical terms are **the person's creation, the model as a
+writing and creative partner, and the environment of their activity**.
+Philosophy, psychology, and engineering name three contributions to understanding
+and improving that practice, each running through all three terms. The former
+offers perspectives; work, partner, and environment identify places to begin.
 
 Philosophy, understanding oneself and others psychologically, and engineering
 contribute together to forming personal accounts and a usable environment. The [trinity essay](docs/local-source-and-website.md#philosophy-psychology-and-engineering-develop-the-missing-connection)

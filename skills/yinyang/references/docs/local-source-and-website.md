@@ -8,6 +8,17 @@ How does someone understand the life they want to live, come to know their own e
 
 This essay uses “Trinity” to explain the relation among these contributions. **At the general level, they are all activities within the same natural world; at the individual level, they jointly participate in a particular person's life and practice.** Modest naturalism places them in one world; their influence on one another in actual work explains why they need to be discussed together.
 
+The practical points of entry are the person's works, the model as a writing
+and creative partner, and the environment of their joint activity. Philosophy,
+psychology, and engineering explain their connections from different perspectives;
+the correspondence selects emphases that can be developed. Creating a story,
+song, or program can likewise express and change understanding of world and
+life. Philosophical reflection runs through these personal creations; the
+author's philosophical essays are one concrete kind of work. Choices and meanings
+within a work, interpreted and discussed with a partner and encountered in use,
+can therefore become material for revising personal models and environments.
+This step connects philosophy in its broad sense with available practice.
+
 ## The general relation and its individual instance
 
 The naturalism adopted here holds that philosophical thinking, psychological activity, and engineering practice all occur in the physical world. Thinking about what is worth pursuing, experiencing pleasure or difficulty, and modifying a program all involve actual bodies, environments, and activities. Engineering does not finally add physical realization to the other two; all three already occur in reality.
