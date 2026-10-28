@@ -4,7 +4,7 @@
 
 从自己的问题进入。非文史哲背景的读者，可以先从[核心观点](docs/core-views.zh-CN.md)
 挑选有关部分，考察其理由与适用条件，需要时再沿链接深入文章。选定的思想可以用于
-整理经历、迭代个人心理材料和配置环境；[用途说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.zh-CN.md#用途与心理健康说明)
+配置适合自己的个人环境；[用途说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.zh-CN.md#用途与心理健康说明)
 区分这些工作与心理自助。是否写自己的哲学或文章，由兴趣决定，
 [例子与知识共有地](docs/example-and-commons.zh-CN.md)展开这条创作路径。
 阅读、选择性使用与完整采用，是可以选择的用途，不是必须依次完成的阶段。

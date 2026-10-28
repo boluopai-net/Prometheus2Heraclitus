@@ -9,7 +9,7 @@ YinYang reading editions: [Download English PDF](https://boluopai.net/reading/yi
 <!-- repository-only:start -->
 ## Intended use and mental health
 
-YinYang supports philosophical reading, organizing experiences, revising personal psychological material, and configuring an environment for cooperation with models. Personal material can include records, questions, and tentative interpretations, kept with their sources and uncertainties and revised through later experience. These working accounts can inform practical arrangements; they are not clinical assessments.
+YinYang's philosophical ideas guide the configuration of a personal environment for cooperation with models: working arrangements, instructions, and tools. Personal understanding can inform that configuration; the philosophy does not supply a method for revising psychological material.
 
 YinYang must not be used for psychological self-help work, self-diagnosis, mental-health assessment, or treatment. It has not been systematically evaluated for those purposes. When professional assessment or care is needed, seek a qualified professional; the project's texts and model outputs do not replace that service. The work, models, and circumstances change, so a personal experience or version history does not establish a general psychological effect.
 
@@ -25,8 +25,8 @@ The separate [Psychology guide](skills/yinyang/references/docs/psychological-sup
 
 **If literature, history, or philosophy is not your field, begin with selected
 [Core views](skills/yinyang/references/docs/core-views.md) that speak to your questions.**
-Consider their reasons and conditions, then try the useful parts in organizing
-experiences, revising personal material, or configuring your environment.
+Consider their reasons and conditions, then use the relevant ideas to configure
+a personal environment that fits your purposes and circumstances.
 Follow an essay when you want its fuller argument; reading the whole collection
 or adopting all its positions is unnecessary.
 

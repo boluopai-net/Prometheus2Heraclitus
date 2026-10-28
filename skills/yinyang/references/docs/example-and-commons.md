@@ -10,8 +10,8 @@ Model companies and humanity continue the Promethean work of acquiring fire; ind
 
 ## A form that can be rewritten
 
-You can first select relevant [Core views](core-views.md) and use them to organize
-experiences, revise personal material, or configure an environment. Writing an
+You can first select relevant [Core views](core-views.md) and use them to configure
+a fitting personal environment. Writing an
 original philosophy or article is a choice of interest, rather than the required
 destination of that use. The [use statement](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.md#intended-use-and-mental-health)
 distinguishes this work from psychological self-help.

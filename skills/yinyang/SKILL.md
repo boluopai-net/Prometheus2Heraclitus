@@ -28,10 +28,10 @@ mistakes in the account that guided them.
 
 ## Intended use and mental health
 
-Use YinYang for philosophical reading, organizing experiences, revising personal
-psychological material, and adapting the working environment. Retain sources,
-uncertainty, and the distinction between records and tentative interpretations;
-use relevant working implications to improve actual cooperation and conditions.
+Use YinYang's philosophical ideas to configure the personal working environment,
+including cooperation, instructions, and tools. Relevant personal understanding
+informs that configuration; these ideas do not supply a method for revising
+psychological material. Specialist methods retain responsibility for that work.
 This scope excludes psychological self-help work, self-diagnosis, mental-health
 assessment, and treatment. Do not turn philosophical or psychoanalytic concepts
 into intervention instructions. The repository's

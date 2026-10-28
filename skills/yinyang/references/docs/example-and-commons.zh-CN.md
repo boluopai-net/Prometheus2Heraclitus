@@ -10,7 +10,7 @@
 
 ## 可以重写的形式
 
-可以先挑选[核心观点](core-views.zh-CN.md)中有关的部分，用于整理经历、迭代个人材料或配置环境。
+可以先挑选[核心观点](core-views.zh-CN.md)中有关的部分，用于配置适合自己的个人环境。
 是否另写原创哲学或文章，由兴趣决定，不是这些使用必须走向的终点。
 [用途说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/README.zh-CN.md#用途与心理健康说明)
 区分这些工作与心理自助。

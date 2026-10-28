@@ -8,8 +8,8 @@ or form a grounded YinYang collaboration in your own environment.**
 
 ## What this package supplies
 
-YinYang offers views and methods for organizing experiences, revising personal
-psychological material, and configuring an environment for model cooperation.
+YinYang offers views and methods for configuring a personal environment for
+model cooperation.
 Select useful ideas, consider their grounds, and develop practical arrangements
 with the model. Writing a personal philosophy or public essay is available when
 it interests you; it is not a condition of using the package.
