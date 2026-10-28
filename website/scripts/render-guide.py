@@ -32,7 +32,7 @@ GUIDES = (
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
-     ('learning-purposes', 'simple-learning-path', 'study-materials', 'practice-environment', 'learning-paths', 'understanding-and-evaluation', 'paper-reading', 'everyday-learning', 'domain-methods', 'resources'),
+     ('learning-purposes', 'learning-materials', 'simple-learning-path', 'study-materials', 'practice-environment', 'learning-paths', 'understanding-and-evaluation', 'paper-reading', 'everyday-learning', 'domain-methods', 'resources'),
      'phi.svg', '按目的选择系统补基础、沿论文进入陌生领域，或通过重要抽象与结论开展日常学习。',
      'Choose systematic foundations, research reading through prerequisite papers, or everyday learning through important abstractions and conclusions.'),
     ('psychological-support', 'psychology',
