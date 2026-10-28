@@ -55,6 +55,41 @@ that remains unfinished.
 
 ## Establish the current material
 
+### Choose the emphasis of this revision
+
+Personal's categories organize available grounds; a revision selects among
+them according to the question. Identify the claim, choice, or arrangement
+being reconsidered, what prompted that reconsideration, and what evidence
+could change the judgment. This gives the work its current emphasis. Several
+categories may jointly matter, with different contributions and depths of inquiry;
+there is no fixed weighting or requirement to give them equal attention.
+
+For example, reconsidering an adopted default may center on preference and
+choice history; a new psychological report may center on relevant experience
+and assessment; a move or changed schedule may center on life conditions;
+reinterpreting a name or work may center on self-expression. These are possible
+entrances, not four exclusive routes. An assessment's availability does not
+make it relevant to every preference question, and a changed living condition
+need not imply a changed preference.
+
+Bring another category into focus when it supplies a condition, competing
+explanation, conflict, or consequence that could change the present judgment.
+A preference for mobile work, for instance, may need to be read with discomfort
+and equipment constraints. Compare their actual contributions without deciding
+in advance which explains the others. If new evidence changes the question,
+shift the emphasis and revisit the affected grounds. Neither the initiating
+category nor the newest record has permanent priority.
+
+Explain a consequential emphasis and why it fits in ordinary language; ask
+the person when their unavailable experience or judgment would decide between
+materially different readings. The model carries source selection that the
+evidence can settle. Adequate coverage means the important alternatives and
+dependencies for this revision have been considered, not that every category
+has been refreshed. Leave unrelated material in place, retain relevant unknowns,
+and update only the Personal accounts and six-file implications actually changed.
+
+### Refresh the selected grounds
+
 The private `references/personal/` material and the six files under
 `references/situated/` serve different purposes. Personal material brings together distinguishable preference, psychological,
 life-condition, and self-expression evidence. [Its organization guide](personal-material.md)
@@ -65,8 +100,8 @@ collaboration: enough direction, personal context, counterpart understanding,
 relationship, realization, and revision method to make the environment fit the
 actual person. They do not together constitute a psychological model of that person.
 
-Whenever updating these six working files, refresh their grounds before
-condensing them again:
+When updating these six working files, refresh the grounds selected by the
+current emphasis before condensing them again:
 
 1. **Read the person's philosophy.** Start with the adopted philosophical
    expression and relevant developed arguments. Use the current working files

@@ -29,6 +29,12 @@ Git/GitHub preserves committed works and ancestry; Computer History supplies dif
 
 Begin with the intended use of the six accounts and inspect the existing material. Determine which categories have relevant grounds, which have dated or uncertain information, and which material gaps would change the account. Completeness means adequate coverage for those judgments, not an exhaustive biography or a permanently finished dossier.
 
+The [revision method](revision.md#choose-the-emphasis-of-this-revision) selects
+the emphasis of each update. Categories are available grounds, not a checklist
+to refresh in full: one or several can be central, while others enter through
+conditions or consequences that could change the judgment. Revise that emphasis
+when the question or evidence changes, and maintain only the affected material.
+
 Retrieve available records before asking the person to reconstruct them. When a necessary fact, experience, or judgment remains unavailable, ask a focused question that identifies what is missing and what it affects. If the person supplies a source, inspect that source and update the gap; do not repeat the question as though no answer had arrived. Continue independent writing while dependent claims remain open. A missing measurement stays unknown; its absence does not authorize a new psychological test.
 
 Record bodily measurements with dates and units, directions as intentions rather than accomplished events, and assessment results with instrument, version, occasion, and response context. Reuse existing authoritative records through links where possible. Credentials and sensitive identity documents retain their actual owners; a basic profile needs only the relevant facts and source route.
