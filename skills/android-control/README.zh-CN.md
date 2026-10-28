@@ -1,4 +1,4 @@
-# 安卓控制 · android-control
+# android-control
 
 [English guide](README.md)
 

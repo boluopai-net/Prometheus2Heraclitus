@@ -1,4 +1,4 @@
-# Task Inquiry
+# task-inquiry
 
 **Clarify consequential uncertainty through evidence, reasoning, and useful questions.**
 

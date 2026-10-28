@@ -1,4 +1,4 @@
-# 论文检索 · paper-retrieval
+# paper-retrieval
 
 Find relevant Chinese/English papers, books and chapters, reconcile citations
 and editions, and verify the actual acquired text. The exact Skill identifier is

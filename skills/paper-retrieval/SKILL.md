@@ -1,9 +1,9 @@
 ---
 name: paper-retrieval
-description: "论文检索：筛选中英文论文与学术书籍，核对题录、版本和全文。 Find scholarly papers, books and chapters; reconcile author identity and citations; acquire available authorized texts and verify their identity, version and completeness."
+description: "<用户自制> 论文检索：筛选中英文论文与学术书籍，核对题录、版本和全文。 Find scholarly papers, books and chapters; reconcile author identity and citations; acquire available authorized texts and verify their identity, version and completeness."
 ---
 
-# Paper Retrieval
+# paper-retrieval
 
 A useful collection connects a question to work worth reading and to the actual
 text behind its citation. Relevance, bibliographic coverage, access, and file

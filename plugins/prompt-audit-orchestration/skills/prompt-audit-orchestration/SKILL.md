@@ -1,10 +1,10 @@
 ---
 name: prompt-audit-orchestration
-description: "提示词审计：按范围审计学习、工作与已保存任务的提示词和技能执行链。 Audit learning, workflow, hosted-assistant, and saved-task instruction chains within the requested scope, including Skills, prompts, controls, consumers, and publication."
+description: "<用户自制> 提示词审计：按范围审计学习、工作与已保存任务的提示词和技能执行链。 Audit learning, workflow, hosted-assistant, and saved-task instruction chains within the requested scope, including Skills, prompts, controls, consumers, and publication."
 user-invocable: false
 ---
 
-# 提示词审计编排 · prompt-audit-orchestration
+# prompt-audit-orchestration
 
 Audit an instruction system as an inhabited practice. Its text takes effect
 through a model meeting a user, an object, and a world that can resist the

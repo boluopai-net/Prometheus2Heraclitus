@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "web-teacher",
-  "version": "1.0.6",
-  "description": "Provide shared methods for course material, teaching, learning paths, and learning spaces.",
+  "version": "1.0.7",
+  "description": "<用户自制> 云端老师：依据材料教学与探究，组织课程、概念图、学习路径和进度接续。 Provide shared methods for course material, teaching, learning paths, and learning spaces.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Web teacher",
+        "displayName": "web-teacher",
         "shortDescription": "Develop learning workflows",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

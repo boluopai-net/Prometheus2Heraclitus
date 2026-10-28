@@ -1,4 +1,4 @@
-# 提示词审计编排 · prompt-audit-orchestration
+# prompt-audit-orchestration
 
 **Audit connected instruction systems by purpose, ownership, consumers, and observable effects.**
 

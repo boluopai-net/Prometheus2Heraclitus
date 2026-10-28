@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prompt-and-skill-lifecycle",
-  "version": "1.0.3",
-  "description": "Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
+  "version": "1.0.4",
+  "description": "<用户自制> 提示词与技能生命周期：编写、审查、维护和发布提示词与 Skill。 Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Prompt and Skill Lifecycle",
+        "displayName": "prompt-and-skill-lifecycle",
         "shortDescription": "Author and maintain Skills",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

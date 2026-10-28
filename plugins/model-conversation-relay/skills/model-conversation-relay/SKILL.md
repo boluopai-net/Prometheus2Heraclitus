@@ -1,10 +1,10 @@
 ---
 name: model-conversation-relay
-description: "模型对话接续：继续已绑定的 ChatGPT 咨询会话，读取、等待、发送并留存回执。 Continue one exact ready-bound ChatGPT advisory conversation through serial read, wait, send, retry, and immutable receipt persistence. It never creates or substitutes a conversation, Browser target, or destination."
+description: "<用户自制> 模型对话接续：继续已绑定的 ChatGPT 咨询会话，读取、等待、发送并留存回执。 Continue one exact ready-bound ChatGPT advisory conversation through serial read, wait, send, retry, and immutable receipt persistence. It never creates or substitutes a conversation, Browser target, or destination."
 user-invocable: true
 ---
 
-# Model Conversation Relay
+# model-conversation-relay
 
 A relay keeps two voices distinct while making their exchange traceable. The
 request remains the caller's exact contribution; the response remains the

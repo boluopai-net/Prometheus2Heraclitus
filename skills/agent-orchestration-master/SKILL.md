@@ -1,10 +1,10 @@
 ---
 name: agent-orchestration-master
-description: "多智能体协作：依据任务需要设计和运行智能体分工、委派、交接与依赖。 Design and operate agent roles, delegation, handoffs, dependencies, and host-native carriers when they serve the task."
+description: "<用户自制> 多智能体协作：依据任务需要设计和运行智能体分工、委派、交接与依赖。 Design and operate agent roles, delegation, handoffs, dependencies, and host-native carriers when they serve the task."
 user-invocable: false
 ---
 
-# 多智能体编排 · agent-orchestration-master
+# agent-orchestration-master
 
 A team should enlarge a task's field of attention while keeping its result
 accountable. Think of an ensemble: distinct voices can develop, answer, and

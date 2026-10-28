@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "shopping",
-  "version": "1.0.1",
-  "description": "Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
+  "version": "1.0.2",
+  "description": "<用户自制> 购物与比价：搜索国内电商与闲鱼商品，比较价格、优惠和二手选择。 Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Shopping and comparison",
+        "displayName": "shopping",
         "shortDescription": "Compare products and prices",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

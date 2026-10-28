@@ -1,4 +1,4 @@
-# 模型升级检查 · model-upgrade-check
+# model-upgrade-check
 
 **按实际用途维护模型选择，并核实真正使用这些选择的消费者。**
 

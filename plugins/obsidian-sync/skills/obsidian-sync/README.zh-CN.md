@@ -1,4 +1,4 @@
-# 笔记同步（Obsidian Sync）
+# obsidian-sync
 
 用真实云端副本和本地软链接，在明确选择的 Obsidian 库之间共享配置。
 

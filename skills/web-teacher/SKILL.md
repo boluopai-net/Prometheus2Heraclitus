@@ -1,9 +1,9 @@
 ---
 name: web-teacher
-description: "云端老师：依据材料教学与探究，组织课程、概念图、学习路径和进度接续。 Explore questions and teach from sources. Owns the shared Web/Local Course method, including philosophy, chronological concept maps, recursive teaching, materials, learning paths and recovery."
+description: "<用户自制> 云端老师：依据材料教学与探究，组织课程、概念图、学习路径和进度接续。 Explore questions and teach from sources. Owns the shared Web/Local Course method, including philosophy, chronological concept maps, recursive teaching, materials, learning paths and recovery."
 ---
 
-# Web Teacher
+# web-teacher
 
 Read this entrypoint completely whenever using the Skill. It owns the shared
 learning contract and Web inquiry behavior; the recipient's learning project or current task supplies purpose and discovery. Web usually opens unsettled questions, alternative models

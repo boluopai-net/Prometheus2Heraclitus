@@ -1,4 +1,4 @@
-# 视频字幕 · video-subtitle
+# video-subtitle
 
 Retrieve one exact YouTube/Bilibili subtitle track and ground answers in the
 portion actually read. The exact Skill identifier is `video-subtitle`. Install

@@ -1,4 +1,4 @@
-# 练唱 · singing
+# singing
 
 [English](README.md)
 

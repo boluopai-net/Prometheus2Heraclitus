@@ -1,9 +1,9 @@
 ---
 name: personal-environment-design
-description: "个人环境设计：统筹提示词、Skill、MCP、插件、应用、自动化、服务与使用体验的配置。 Use when setting up, connecting, extending, or revising a personal working environment and its capabilities."
+description: "<用户自制> 个人环境设计：统筹提示词、Skill、MCP、插件、应用、自动化、服务与使用体验的配置。 Use when setting up, connecting, extending, or revising a personal working environment and its capabilities."
 ---
 
-# Personal Environment Design
+# personal-environment-design
 
 Make the environment a coherent place for the person and model to work together.
 Its visible surfaces should support understanding and action; its instructions,

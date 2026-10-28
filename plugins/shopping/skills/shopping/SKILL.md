@@ -1,9 +1,9 @@
 ---
 name: shopping
-description: "购物与比价：搜索国内电商与闲鱼商品，比较价格、优惠和二手选择。 Find and compare products, prices, deals, and secondhand listings across Chinese shopping platforms using available Haina, Maishou, direct marketplace, and Xianyu tools."
+description: "<用户自制> 购物与比价：搜索国内电商与闲鱼商品，比较价格、优惠和二手选择。 Find and compare products, prices, deals, and secondhand listings across Chinese shopping platforms using available Haina, Maishou, direct marketplace, and Xianyu tools."
 ---
 
-# 购物与比价 · shopping
+# shopping
 
 Bring offers onto a common scale before helping the user choose. A price is
 attached to a particular item, seller, moment, and set of conditions; detached

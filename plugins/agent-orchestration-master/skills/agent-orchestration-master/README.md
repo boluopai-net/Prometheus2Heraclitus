@@ -1,4 +1,4 @@
-# 多智能体编排 · agent-orchestration-master
+# agent-orchestration-master
 
 **Design agent roles, delegation, handoffs, and shared work around the actual task.**
 

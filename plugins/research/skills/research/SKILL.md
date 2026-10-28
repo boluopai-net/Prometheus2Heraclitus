@@ -1,9 +1,9 @@
 ---
 name: research
-description: "搜索与研究：调查问题、比较方案、核实证据。 Investigate factual questions, product behavior, and implementation options with traceable local and external evidence."
+description: "<用户自制> 搜索与研究：调查问题、比较方案、核实证据。 Investigate factual questions, product behavior, and implementation options with traceable local and external evidence."
 ---
 
-# Research
+# research
 
 Let the world correct the map. A research map serves a question and a practical
 purpose; it stays provisional when observation reveals different terrain.

@@ -1,10 +1,10 @@
 ---
 name: clash-auto-switch
-description: "节点自动切换：维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 Maintain explicitly configured one-shot node switching, reversible macOS mode/DNS transitions, and a bounded DNS-only TUN guard in Clash Verge Rev; watching nodes is a separate authorized operation."
+description: "<用户自制> 节点自动切换：维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 Maintain explicitly configured one-shot node switching, reversible macOS mode/DNS transitions, and a bounded DNS-only TUN guard in Clash Verge Rev; watching nodes is a separate authorized operation."
 user-invocable: false
 ---
 
-# Clash Auto Switch
+# clash-auto-switch
 
 Deliberate node/mode choice and bounded DNS-cache recovery have different authority. Before a model-initiated Clash change, read [Network's authorization boundary](../network/SKILL.md). A network incident can authorize repair; an unrelated download failure does not authorize mode/DNS/TUN changes. Scripts do not grant permission.
 

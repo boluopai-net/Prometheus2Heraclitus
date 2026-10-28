@@ -1,4 +1,4 @@
-# 云端老师 · web-teacher
+# web-teacher
 
 Explore unsettled questions and teach from actual sources. This package owns
 the full shared Web/Local Course method: teaching, philosophical text study,

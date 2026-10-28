@@ -1,4 +1,4 @@
-# 提示词审计编排 · prompt-audit-orchestration
+# prompt-audit-orchestration
 
 **按用途、所有权、消费者和可观察结果审计相互连接的指引系统。**
 

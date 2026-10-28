@@ -1,4 +1,4 @@
-# 浏览器会话 · browser-relay
+# browser-relay
 
 Hold exact target custody for a bounded browser operation: verify ownership,
 destination, effects and cleanup while preserving surrounding sessions and work.

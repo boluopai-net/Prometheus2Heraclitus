@@ -1,10 +1,10 @@
 ---
 name: local-teacher
-description: "本地老师：在本地 Codex 中讲解课程与概念，带领复习、练习和学习项目。 Teach courses and texts, explain concepts, and support learning through real work in local Codex. Use for lessons, review, learning plans, guided practice, or learning-oriented project work; ordinary technical work alone is not a lesson."
+description: "<用户自制> 本地老师：在本地 Codex 中讲解课程与概念，带领复习、练习和学习项目。 Teach courses and texts, explain concepts, and support learning through real work in local Codex. Use for lessons, review, learning plans, guided practice, or learning-oriented project work; ordinary technical work alone is not a lesson."
 user-invocable: true
 ---
 
-# Local Teacher / 本地 Teacher
+# local-teacher
 
 [YinYang](../yinyang/SKILL.md) owns the counterpart in direct user conversation under its main-model
 reading scope. This Skill owns local teaching and learning through actual work

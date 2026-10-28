@@ -1,9 +1,9 @@
 ---
 name: prompt-and-skill-lifecycle
-description: "提示词与技能生命周期：编写、审查、维护和发布提示词与 Skill。 Author or audit instruction text and Skill packages; resolve ownership, discovery, delivery, and evidence of use."
+description: "<用户自制> 提示词与技能生命周期：编写、审查、维护和发布提示词与 Skill。 Author or audit instruction text and Skill packages; resolve ownership, discovery, delivery, and evidence of use."
 ---
 
-# Prompt and Skill Lifecycle
+# prompt-and-skill-lifecycle
 
 Author and maintain prompts and Skills for their actual consumers. Express the
 purpose, relations, conditions, and expected contributions in usable

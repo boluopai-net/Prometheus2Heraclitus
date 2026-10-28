@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "android-control",
-  "version": "1.0.1",
-  "description": "Operate your Android device through ADB and native interfaces, verifying actual effects.",
+  "version": "1.0.2",
+  "description": "<用户自制> 安卓控制：操作真实安卓手机，管理应用、界面、文件与连接。 Operate your Android device through ADB and native interfaces, verifying actual effects.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Android control",
+        "displayName": "android-control",
         "shortDescription": "Operate your Android phone",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

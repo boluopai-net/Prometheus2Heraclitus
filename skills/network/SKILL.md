@@ -1,10 +1,10 @@
 ---
 name: network
-description: "Diagnose and repair macOS DNS, proxy, Clash, endpoint and IP-quality failures through their actual owners, with bounded profile recovery and explicit recipient configuration."
+description: "<用户自制> 网络诊断：排查和修复本机域名解析、代理、网站连接与网络质量问题。 Diagnose and repair macOS DNS, proxy, Clash, endpoint and IP-quality failures through their actual owners, with bounded profile recovery and explicit recipient configuration."
 user-invocable: false
 ---
 
-# Network
+# network
 
 Restore the affected request by locating where its connected path fails: hostname resolution, routing/TUN interception, proxy rules and selected exit, transport, or service response. Persisted profiles, generated configuration, active core and physical service settings are distinct evidence.
 

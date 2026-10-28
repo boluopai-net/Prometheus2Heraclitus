@@ -1,4 +1,4 @@
-# 购物与比价 · shopping
+# shopping
 
 [English guide](README.md)
 

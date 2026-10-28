@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "task-inquiry",
-  "version": "1.0.3",
-  "description": "Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
+  "version": "1.0.4",
+  "description": "<用户自制> 任务探究：用证据与针对性提问澄清有实质影响的分歧。 Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Task Inquiry",
+        "displayName": "task-inquiry",
         "shortDescription": "Clarify consequential choices",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

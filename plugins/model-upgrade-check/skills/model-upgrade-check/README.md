@@ -1,4 +1,4 @@
-# 模型升级检查 · model-upgrade-check
+# model-upgrade-check
 
 **Maintain model choices by actual purpose, then verify the consumers that use them.**
 

@@ -1,4 +1,4 @@
-# Obsidian Sync
+# obsidian-sync
 
 Share explicitly selected Obsidian configuration with File Provider-safe cloud copies and local symlinks.
 

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "random-wheel",
-  "version": "1.0.1",
-  "description": "Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
+  "version": "1.0.2",
+  "description": "<用户自制> 随机转盘：把截图或选项做成可调速的动画转盘，随机抽选。 Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Random Wheel",
+        "displayName": "random-wheel",
         "shortDescription": "Draw a fair random choice",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

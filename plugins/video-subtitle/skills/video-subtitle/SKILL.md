@@ -1,9 +1,9 @@
 ---
 name: video-subtitle
-description: "视频字幕：提取 YouTube 与 Bilibili 的字幕并依据实际读到的讲话文本作答。 Retrieve exact subtitle tracks and read scoped spoken evidence when an answer materially depends on a YouTube or Bilibili video and usable authoritative text is absent. A video URL alone does not trigger this capability."
+description: "<用户自制> 视频字幕：提取 YouTube 与 Bilibili 的字幕并依据实际读到的讲话文本作答。 Retrieve exact subtitle tracks and read scoped spoken evidence when an answer materially depends on a YouTube or Bilibili video and usable authoritative text is absent. A video URL alone does not trigger this capability."
 ---
 
-# Video Subtitle
+# video-subtitle
 
 Keep the answer in contact with the voice it claims to understand. Evidence
 belongs to one video, one returned track and the portion actually retrieved and

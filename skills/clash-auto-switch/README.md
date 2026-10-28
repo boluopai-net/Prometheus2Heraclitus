@@ -1,4 +1,4 @@
-# Clash Auto Switch
+# clash-auto-switch
 
 Configure controller discovery, regional fallback, reversible mode/DNS switching and a bounded DNS-only guard.
 

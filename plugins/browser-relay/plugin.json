@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "browser-relay",
-  "version": "1.0.1",
-  "description": "Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
+  "version": "1.0.2",
+  "description": "<用户自制> 浏览器会话：管理任务专用的隔离浏览器、授权登录会话与清理。 Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Browser sessions",
+        "displayName": "browser-relay",
         "shortDescription": "Manage isolated browser work",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

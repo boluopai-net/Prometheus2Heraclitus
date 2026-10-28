@@ -1,9 +1,9 @@
 ---
 name: random-wheel
-description: "Pick one option with a real animated, speed-adjustable wheel from a screenshot or named choices. Use for random selection, 随机转盘, 抽一个, or choosing a course by chance."
+description: "<用户自制> 随机转盘：把截图或选项做成可调速的动画转盘，随机抽选。 Pick one option with a real animated, speed-adjustable wheel from a screenshot or named choices. Use for random selection, 随机转盘, 抽一个, or choosing a course by chance."
 ---
 
-# 抽卡转盘 · random-wheel
+# random-wheel
 
 Let chance make the choice the user has entrusted to it. The model prepares
 the field of possibilities, secure randomness selects one, and the animation

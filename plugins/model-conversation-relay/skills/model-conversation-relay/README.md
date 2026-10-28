@@ -1,4 +1,4 @@
-# Model Conversation Relay
+# model-conversation-relay
 
 [简体中文](README.zh-CN.md)
 

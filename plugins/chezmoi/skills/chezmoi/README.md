@@ -1,4 +1,4 @@
-# Chezmoi
+# chezmoi
 
 Persist authorized stable configuration through source capture, isolated preview, protected publication and runtime readback.
 

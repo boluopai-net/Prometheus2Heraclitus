@@ -1,10 +1,10 @@
 ---
 name: obsidian-sync
-description: "笔记同步：维护 Obsidian 多库共享配置、云端配置复制与反向同步。 Validate or maintain explicitly configured shared vault settings on macOS through File Provider-safe copies, local symlinks, and guarded reverse sync. Excludes vault note-data transport."
+description: "<用户自制> 笔记同步：维护 Obsidian 多库共享配置、云端配置复制与反向同步。 Validate or maintain explicitly configured shared vault settings on macOS through File Provider-safe copies, local symlinks, and guarded reverse sync. Excludes vault note-data transport."
 user-invocable: false
 ---
 
-# Obsidian Sync
+# obsidian-sync
 
 Give several vaults common working tools while leaving their notes and compositions with their owners. This package owns only ten configuration items: plugins, themes, snippets, appearance.json, hotkeys.json, app.json, community-plugins.json, core-plugins.json under .obsidian, plus .obsidian.vimrc and .gdriveignore. It never owns notes, vault-root templates/scripts, workspace.json, or application-loaded plugin state.
 

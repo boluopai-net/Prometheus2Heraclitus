@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "paper-retrieval",
-  "version": "1.0.1",
-  "description": "Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
+  "version": "1.0.2",
+  "description": "<用户自制> 论文检索：筛选中英文论文与学术书籍，核对题录、版本和全文。 Reconcile bibliography, editions, and full text to deliver verifiable scholarly material.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Paper and book retrieval",
+        "displayName": "paper-retrieval",
         "shortDescription": "Find papers and books",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

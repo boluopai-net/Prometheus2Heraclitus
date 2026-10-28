@@ -1,9 +1,9 @@
 ---
 name: android-control
-description: "安卓控制：操作真实安卓手机，管理应用、界面、文件与连接。 Use ADB, app interfaces, and UI automation for authorized work on an identified physical Android phone; verify device identity and phone-side results."
+description: "<用户自制> 安卓控制：操作真实安卓手机，管理应用、界面、文件与连接。 Use ADB, app interfaces, and UI automation for authorized work on an identified physical Android phone; verify device identity and phone-side results."
 ---
 
-# 安卓控制 · android-control
+# android-control
 
 Extend the user's reach to the phone while keeping the phone's own state in
 view. The host is a hand and a window: it can act at a distance, but a successful

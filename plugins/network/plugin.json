@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "network",
-  "version": "1.0.1",
-  "description": "Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
+  "version": "1.0.2",
+  "description": "<用户自制> 网络诊断：排查和修复本机域名解析、代理、网站连接与网络质量问题。 Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Network diagnosis",
+        "displayName": "network",
         "shortDescription": "Diagnose network connections",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

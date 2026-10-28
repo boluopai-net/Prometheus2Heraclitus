@@ -1,4 +1,4 @@
-# 阴阳的日常协作
+# yinyang
 
 这是[模型执行入口](SKILL.md)的完整中文阅读版。模型通过 `SKILL.md` 读取和调用本 Skill。
 

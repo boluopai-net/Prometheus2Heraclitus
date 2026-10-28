@@ -91,29 +91,29 @@
 
 | Skill | 用途 | 包 |
 | --- | --- | --- |
-| [阴阳 Full · yinyang](skills/yinyang/SKILL.zh-CN.md) | 完整版：形成与修订方法，以及作者展开的哲学文章和图示。 | [使用说明与哲学资源](skills/yinyang/README.zh-CN.md) |
-| [阴阳 Empty · yinyang-empty](skills/yinyang-empty/SKILL.zh-CN.md) | 保留辩证核心与方法指南，形成自己的哲学、个人材料和实际工作模型。 | [Empty 使用说明](skills/yinyang-empty/README.zh-CN.md) |
-| [抽卡转盘 · random-wheel](skills/random-wheel/SKILL.md) | 把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。 | [完整包](skills/random-wheel/) |
-| [搜索与研究 · research](skills/research/SKILL.md) | 调查事实、产品行为与方案，把来源、观察、假设和覆盖限制放在同一个可检查的回答中。 | [完整包](skills/research/) |
-| [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | 从实际分歧、证据和有用的问题出发，澄清会改变任务下一步的关键不确定性。 | [完整包](skills/task-inquiry/) |
-| [提示词与技能生命周期 · prompt-and-skill-lifecycle](skills/prompt-and-skill-lifecycle/SKILL.md) | 把指令的含义、维护责任、交付方式和实际使用证据连在一起，编写、审查与维护 Prompt 和 Skill。 | [完整包](skills/prompt-and-skill-lifecycle/) |
-| [安卓手机控制 · android-control](skills/android-control/SKILL.md) | 通过 ADB 与原生界面操作自己的安卓设备，并核实实际效果。 | [完整包](skills/android-control/) |
-| [个人环境设计 · personal-environment-design](skills/personal-environment-design/SKILL.md) | 将相连的指令、工具、服务与人的使用流程，配置为共同工作的环境。 | [完整包](skills/personal-environment-design/) |
-| [模型升级检查 · model-upgrade-check](skills/model-upgrade-check/SKILL.md) | 核对可用模型、用途分配与实际消费者，让升级保持一致。 | [完整包](skills/model-upgrade-check/) |
-| [论文与学术书籍检索 · paper-retrieval](skills/paper-retrieval/SKILL.md) | 核对题录、版本与全文，把搜索结果交付为可验证的学术材料。 | [完整包](skills/paper-retrieval/) |
-| [视频字幕提取 · video-subtitle](skills/video-subtitle/SKILL.md) | 取得带来源与时间线的视频讲话文本，再回到原视频核对。 | [完整包](skills/video-subtitle/) |
-| [练唱 · singing](skills/singing/SKILL.md) | 准备伴奏、录音与参考表演，把听辨和音频证据用于练唱。 | [完整包](skills/singing/) |
-| [本地老师 · local-teacher](skills/local-teacher/SKILL.md) | 在本地环境中讲解、复习、练习，并通过真实工作发展理解。 | [完整包](skills/local-teacher/) |
-| [云端老师 · web-teacher](skills/web-teacher/SKILL.md) | 提供课程材料、教学方法、学习路径与学习空间的共同方法。 | [完整包](skills/web-teacher/) |
-| [购物与比价 · shopping](skills/shopping/SKILL.md) | 比较商品、价格、优惠与二手选择，保留实际证据与条件。 | [完整包](skills/shopping/) |
-| [提示词审计 · prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | 按实际范围审查学习、工作、Web 与自动化的指令和执行关系。 | [完整包](skills/prompt-audit-orchestration/) |
-| [多智能体协作 · agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | 按实际工作拆分贡献、交接和依赖，并由任务所有者整合结果。 | [完整包](skills/agent-orchestration-master/) |
-| [模型对话接续 · model-conversation-relay](skills/model-conversation-relay/SKILL.md) | 接续准确的咨询交换，确认有序轮次，限定重试并保存不可变回执。 | [完整包](skills/model-conversation-relay/) |
-| [浏览器会话 · browser-relay](skills/browser-relay/SKILL.md) | 管理任务专用浏览器、认证会话、目标归属与清理。 | [完整包](skills/browser-relay/) |
-| [笔记同步 · obsidian-sync](skills/obsidian-sync/SKILL.md) | 维护多个 Obsidian 库的共同配置、云端复制与同步。 | [完整包](skills/obsidian-sync/) |
-| [系统配置持久化 · chezmoi](skills/chezmoi/SKILL.md) | 把授权的本机配置变更保存到源码，并通过实际发布机制接回环境。 | [完整包](skills/chezmoi/) |
-| [网络诊断 · network](skills/network/SKILL.md) | 通过本机证据排查 DNS、代理、网站连接和路由问题。 | [完整包](skills/network/) |
-| [节点自动切换 · clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
+| [yinyang](skills/yinyang/SKILL.zh-CN.md) | 完整版：形成与修订方法，以及作者展开的哲学文章和图示。 | [使用说明与哲学资源](skills/yinyang/README.zh-CN.md) |
+| [yinyang-empty](skills/yinyang-empty/SKILL.zh-CN.md) | 保留辩证核心与方法指南，形成自己的哲学、个人材料和实际工作模型。 | [Empty 使用说明](skills/yinyang-empty/README.zh-CN.md) |
+| [random-wheel](skills/random-wheel/SKILL.md) | 把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。 | [完整包](skills/random-wheel/) |
+| [research](skills/research/SKILL.md) | 调查事实、产品行为与方案，把来源、观察、假设和覆盖限制放在同一个可检查的回答中。 | [完整包](skills/research/) |
+| [task-inquiry](skills/task-inquiry/SKILL.md) | 从实际分歧、证据和有用的问题出发，澄清会改变任务下一步的关键不确定性。 | [完整包](skills/task-inquiry/) |
+| [prompt-and-skill-lifecycle](skills/prompt-and-skill-lifecycle/SKILL.md) | 把指令的含义、维护责任、交付方式和实际使用证据连在一起，编写、审查与维护 Prompt 和 Skill。 | [完整包](skills/prompt-and-skill-lifecycle/) |
+| [android-control](skills/android-control/SKILL.md) | 通过 ADB 与原生界面操作自己的安卓设备，并核实实际效果。 | [完整包](skills/android-control/) |
+| [personal-environment-design](skills/personal-environment-design/SKILL.md) | 将相连的指令、工具、服务与人的使用流程，配置为共同工作的环境。 | [完整包](skills/personal-environment-design/) |
+| [model-upgrade-check](skills/model-upgrade-check/SKILL.md) | 核对可用模型、用途分配与实际消费者，让升级保持一致。 | [完整包](skills/model-upgrade-check/) |
+| [paper-retrieval](skills/paper-retrieval/SKILL.md) | 核对题录、版本与全文，把搜索结果交付为可验证的学术材料。 | [完整包](skills/paper-retrieval/) |
+| [video-subtitle](skills/video-subtitle/SKILL.md) | 取得带来源与时间线的视频讲话文本，再回到原视频核对。 | [完整包](skills/video-subtitle/) |
+| [singing](skills/singing/SKILL.md) | 准备伴奏、录音与参考表演，把听辨和音频证据用于练唱。 | [完整包](skills/singing/) |
+| [local-teacher](skills/local-teacher/SKILL.md) | 在本地环境中讲解、复习、练习，并通过真实工作发展理解。 | [完整包](skills/local-teacher/) |
+| [web-teacher](skills/web-teacher/SKILL.md) | 提供课程材料、教学方法、学习路径与学习空间的共同方法。 | [完整包](skills/web-teacher/) |
+| [shopping](skills/shopping/SKILL.md) | 比较商品、价格、优惠与二手选择，保留实际证据与条件。 | [完整包](skills/shopping/) |
+| [prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | 按实际范围审查学习、工作、Web 与自动化的指令和执行关系。 | [完整包](skills/prompt-audit-orchestration/) |
+| [agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | 按实际工作拆分贡献、交接和依赖，并由任务所有者整合结果。 | [完整包](skills/agent-orchestration-master/) |
+| [model-conversation-relay](skills/model-conversation-relay/SKILL.md) | 接续准确的咨询交换，确认有序轮次，限定重试并保存不可变回执。 | [完整包](skills/model-conversation-relay/) |
+| [browser-relay](skills/browser-relay/SKILL.md) | 管理任务专用浏览器、认证会话、目标归属与清理。 | [完整包](skills/browser-relay/) |
+| [obsidian-sync](skills/obsidian-sync/SKILL.md) | 维护多个 Obsidian 库的共同配置、云端复制与同步。 | [完整包](skills/obsidian-sync/) |
+| [chezmoi](skills/chezmoi/SKILL.md) | 把授权的本机配置变更保存到源码，并通过实际发布机制接回环境。 | [完整包](skills/chezmoi/) |
+| [network](skills/network/SKILL.md) | 通过本机证据排查 DNS、代理、网站连接和路由问题。 | [完整包](skills/network/) |
+| [clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
 
 阴阳提供文化、思想与推理形式；个人内容来自获授权的实际材料，以及使用模型与
 这个人的协作。采用持续维护的阴阳时，说明实际采纳的立场，**维护六份个人工作模型：

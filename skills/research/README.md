@@ -1,4 +1,4 @@
-# Research
+# research
 
 [中文指南](README.zh-CN.md)
 

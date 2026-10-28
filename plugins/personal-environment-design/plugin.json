@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "personal-environment-design",
-  "version": "1.0.3",
-  "description": "Configure connected instructions, tools, services, and human-facing workflows as one working environment.",
+  "version": "1.0.4",
+  "description": "<用户自制> 个人环境设计：统筹提示词、Skill、MCP、插件、应用、自动化、服务与使用体验的配置。 Configure connected instructions, tools, services, and human-facing workflows as one working environment.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Personal environment design",
+        "displayName": "personal-environment-design",
         "shortDescription": "Shape your working environment",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

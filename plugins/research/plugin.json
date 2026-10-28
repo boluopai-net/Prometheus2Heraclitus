@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "research",
-  "version": "1.0.3",
-  "description": "Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
+  "version": "1.0.4",
+  "description": "<用户自制> 搜索与研究：调查问题、比较方案、核实证据。 Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Research",
+        "displayName": "research",
         "shortDescription": "Research with evidence",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

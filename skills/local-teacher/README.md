@@ -1,4 +1,4 @@
-# 本地老师 · local-teacher
+# local-teacher
 
 Teach sources, review concepts and develop learning through authorized local
 work. This Skill emphasizes sustained explanation, source preparation, design,

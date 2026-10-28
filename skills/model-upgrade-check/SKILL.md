@@ -1,10 +1,10 @@
 ---
 name: model-upgrade-check
-description: "模型升级检查：按实际用途核对模型、推理档位与消费者。 Model upgrade check: reconcile model and reasoning choices with actual purposes and consumers."
+description: "<用户自制> 模型升级检查：按实际用途核对模型、推理档位与消费者。 Model upgrade check: reconcile model and reasoning choices with actual purposes and consumers."
 user-invocable: true
 ---
 
-# 模型升级检查 · model-upgrade-check
+# model-upgrade-check
 
 Maintain model choices by purpose as providers and catalogs change. A model
 announcement, a similar-looking version label, or a successful configuration

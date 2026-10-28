@@ -1,10 +1,10 @@
 ---
 name: task-inquiry
-description: "任务探究：用证据与针对性提问澄清有实质影响的分歧。 Use when competing interpretations, an observed mismatch, or an unsettled user-owned choice could change the task's next action."
+description: "<用户自制> 任务探究：用证据与针对性提问澄清有实质影响的分歧。 Use when competing interpretations, an observed mismatch, or an unsettled user-owned choice could change the task's next action."
 user-invocable: true
 ---
 
-# Task Inquiry
+# task-inquiry
 
 Use inquiry to improve a real task, not to make every task into an interview.
 Recover the intended result, current situation, and constraints from the

@@ -1,4 +1,4 @@
-# 搜索与研究
+# research
 
 [English guide](README.md)
 

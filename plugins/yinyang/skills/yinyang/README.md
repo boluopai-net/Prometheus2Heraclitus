@@ -1,4 +1,4 @@
-# YinYang formation Skill
+# yinyang
 
 **Explore a worked philosophy, borrow methods for understanding and realization,
 or form a grounded YinYang collaboration in your own environment.**

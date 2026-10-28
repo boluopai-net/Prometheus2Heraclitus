@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "singing",
-  "version": "1.0.1",
-  "description": "Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
+  "version": "1.0.2",
+  "description": "<用户自制> 练唱：寻找可用伴奏与 KTV，录音回听，并依据原唱和实际音频指导演唱。 Prepare accompaniment, recordings, and reference performances for evidence-based singing practice.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Singing practice",
+        "displayName": "singing",
         "shortDescription": "Practice and review singing",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

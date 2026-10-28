@@ -117,29 +117,29 @@ your model's actual Skill mechanism.
 
 | Skill | Purpose | Package |
 | --- | --- | --- |
-| [YinYang Full · yinyang](skills/yinyang/SKILL.md) | Complete formation and revision methods, with the author's developed essays and diagrams. | [Guide and philosophical resources](skills/yinyang/README.md) |
-| [YinYang Empty · yinyang-empty](skills/yinyang-empty/SKILL.md) | Keep the dialectical core and methods while forming your own philosophy, personal material, and actual working accounts. | [Empty guide](skills/yinyang-empty/README.md) |
-| [抽卡转盘 · random-wheel](skills/random-wheel/SKILL.md) | Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. | [Complete package](skills/random-wheel/) |
-| [搜索与研究 · research](skills/research/SKILL.md) | Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. | [Complete package](skills/research/) |
-| [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions. | [Complete package](skills/task-inquiry/) |
-| [提示词与技能生命周期 · prompt-and-skill-lifecycle](skills/prompt-and-skill-lifecycle/SKILL.md) | Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills. | [Complete package](skills/prompt-and-skill-lifecycle/) |
-| [安卓手机控制 · android-control](skills/android-control/SKILL.md) | Operate your Android device through ADB and native interfaces, verifying actual effects. | [Complete package](skills/android-control/) |
-| [个人环境设计 · personal-environment-design](skills/personal-environment-design/SKILL.md) | Configure connected instructions, tools, services, and human-facing workflows as one working environment. | [Complete package](skills/personal-environment-design/) |
-| [模型升级检查 · model-upgrade-check](skills/model-upgrade-check/SKILL.md) | Reconcile available models, purpose-specific selections, and actual consumers. | [Complete package](skills/model-upgrade-check/) |
-| [论文与学术书籍检索 · paper-retrieval](skills/paper-retrieval/SKILL.md) | Reconcile bibliography, editions, and full text to deliver verifiable scholarly material. | [Complete package](skills/paper-retrieval/) |
-| [视频字幕提取 · video-subtitle](skills/video-subtitle/SKILL.md) | Retrieve source-linked, timed spoken text and check it against the original video. | [Complete package](skills/video-subtitle/) |
-| [练唱 · singing](skills/singing/SKILL.md) | Prepare accompaniment, recordings, and reference performances for evidence-based singing practice. | [Complete package](skills/singing/) |
-| [本地老师 · local-teacher](skills/local-teacher/SKILL.md) | Explain, review, and practice in a local environment, developing understanding through real work. | [Complete package](skills/local-teacher/) |
-| [云端老师 · web-teacher](skills/web-teacher/SKILL.md) | Provide shared methods for course material, teaching, learning paths, and learning spaces. | [Complete package](skills/web-teacher/) |
-| [购物与比价 · shopping](skills/shopping/SKILL.md) | Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions. | [Complete package](skills/shopping/) |
-| [提示词审计 · prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope. | [Complete package](skills/prompt-audit-orchestration/) |
-| [多智能体协作 · agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results. | [Complete package](skills/agent-orchestration-master/) |
-| [模型对话接续 · model-conversation-relay](skills/model-conversation-relay/SKILL.md) | Continue an exact advisory exchange with reconciliation, bounded retries, and immutable receipts. | [Complete package](skills/model-conversation-relay/) |
-| [浏览器会话 · browser-relay](skills/browser-relay/SKILL.md) | Manage task-owned browsers, authenticated sessions, target ownership, and cleanup. | [Complete package](skills/browser-relay/) |
-| [笔记同步 · obsidian-sync](skills/obsidian-sync/SKILL.md) | Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults. | [Complete package](skills/obsidian-sync/) |
-| [系统配置持久化 · chezmoi](skills/chezmoi/SKILL.md) | Persist authorized host configuration changes in source and converge them through the actual publication mechanism. | [Complete package](skills/chezmoi/) |
-| [网络诊断 · network](skills/network/SKILL.md) | Diagnose DNS, proxies, website connectivity, and routing from host evidence. | [Complete package](skills/network/) |
-| [节点自动切换 · clash-auto-switch](skills/clash-auto-switch/SKILL.md) | Maintain Clash node selection, regional fallback, and DNS/TUN protection. | [Complete package](skills/clash-auto-switch/) |
+| [yinyang](skills/yinyang/SKILL.md) | Complete formation and revision methods, with the author's developed essays and diagrams. | [Guide and philosophical resources](skills/yinyang/README.md) |
+| [yinyang-empty](skills/yinyang-empty/SKILL.md) | Keep the dialectical core and methods while forming your own philosophy, personal material, and actual working accounts. | [Empty guide](skills/yinyang-empty/README.md) |
+| [random-wheel](skills/random-wheel/SKILL.md) | Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. | [Complete package](skills/random-wheel/) |
+| [research](skills/research/SKILL.md) | Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. | [Complete package](skills/research/) |
+| [task-inquiry](skills/task-inquiry/SKILL.md) | Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions. | [Complete package](skills/task-inquiry/) |
+| [prompt-and-skill-lifecycle](skills/prompt-and-skill-lifecycle/SKILL.md) | Connect instruction meaning, ownership, delivery, and evidence of use when authoring, auditing, and maintaining Prompts and Skills. | [Complete package](skills/prompt-and-skill-lifecycle/) |
+| [android-control](skills/android-control/SKILL.md) | Operate your Android device through ADB and native interfaces, verifying actual effects. | [Complete package](skills/android-control/) |
+| [personal-environment-design](skills/personal-environment-design/SKILL.md) | Configure connected instructions, tools, services, and human-facing workflows as one working environment. | [Complete package](skills/personal-environment-design/) |
+| [model-upgrade-check](skills/model-upgrade-check/SKILL.md) | Reconcile available models, purpose-specific selections, and actual consumers. | [Complete package](skills/model-upgrade-check/) |
+| [paper-retrieval](skills/paper-retrieval/SKILL.md) | Reconcile bibliography, editions, and full text to deliver verifiable scholarly material. | [Complete package](skills/paper-retrieval/) |
+| [video-subtitle](skills/video-subtitle/SKILL.md) | Retrieve source-linked, timed spoken text and check it against the original video. | [Complete package](skills/video-subtitle/) |
+| [singing](skills/singing/SKILL.md) | Prepare accompaniment, recordings, and reference performances for evidence-based singing practice. | [Complete package](skills/singing/) |
+| [local-teacher](skills/local-teacher/SKILL.md) | Explain, review, and practice in a local environment, developing understanding through real work. | [Complete package](skills/local-teacher/) |
+| [web-teacher](skills/web-teacher/SKILL.md) | Provide shared methods for course material, teaching, learning paths, and learning spaces. | [Complete package](skills/web-teacher/) |
+| [shopping](skills/shopping/SKILL.md) | Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions. | [Complete package](skills/shopping/) |
+| [prompt-audit-orchestration](skills/prompt-audit-orchestration/SKILL.md) | Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope. | [Complete package](skills/prompt-audit-orchestration/) |
+| [agent-orchestration-master](skills/agent-orchestration-master/SKILL.md) | Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results. | [Complete package](skills/agent-orchestration-master/) |
+| [model-conversation-relay](skills/model-conversation-relay/SKILL.md) | Continue an exact advisory exchange with reconciliation, bounded retries, and immutable receipts. | [Complete package](skills/model-conversation-relay/) |
+| [browser-relay](skills/browser-relay/SKILL.md) | Manage task-owned browsers, authenticated sessions, target ownership, and cleanup. | [Complete package](skills/browser-relay/) |
+| [obsidian-sync](skills/obsidian-sync/SKILL.md) | Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults. | [Complete package](skills/obsidian-sync/) |
+| [chezmoi](skills/chezmoi/SKILL.md) | Persist authorized host configuration changes in source and converge them through the actual publication mechanism. | [Complete package](skills/chezmoi/) |
+| [network](skills/network/SKILL.md) | Diagnose DNS, proxies, website connectivity, and routing from host evidence. | [Complete package](skills/network/) |
+| [clash-auto-switch](skills/clash-auto-switch/SKILL.md) | Maintain Clash node selection, regional fallback, and DNS/TUN protection. | [Complete package](skills/clash-auto-switch/) |
 
 YinYang supplies culture, thought, and reasoning forms; personal substance comes
 from authorized actual material and the consuming model's collaboration with the

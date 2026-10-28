@@ -19,6 +19,13 @@ aligned with the actual members and preserve full semantic parity. English is
 the first reading language for English-capable readers and models; model-facing
 maintenance prose remains English.
 
+Use the native English Skill identifier for package names, entrypoint headings,
+catalog links, and website titles in both reading languages. Put the Chinese
+invocation cue and purpose in `description`, prefixed with `<用户自制>` for these
+author-created Skills, followed by the accurate English discovery description.
+The website renders that source description as readable text, including its
+literal angle brackets. Names and descriptions have separate display roles.
+
 ## YinYang editions
 
 `skills/yinyang/` is the Full edition, including the author's essays and diagrams.

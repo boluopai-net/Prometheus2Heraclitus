@@ -1,10 +1,10 @@
 ---
 name: browser-relay
-description: "浏览器会话：管理任务专用的隔离浏览器、授权登录会话与清理。 Hold exact physical target custody for bounded authenticated, in-app or headless browser operations; verify destination, effects, session boundaries and lifecycle."
+description: "<用户自制> 浏览器会话：管理任务专用的隔离浏览器、授权登录会话与清理。 Hold exact physical target custody for bounded authenticated, in-app or headless browser operations; verify destination, effects, session boundaries and lifecycle."
 user-invocable: false
 ---
 
-# Browser Relay
+# browser-relay
 
 A browser operation visits an exact place in a world already occupied by people,
 sessions and unfinished work. A responsible visit has a purpose, an address,

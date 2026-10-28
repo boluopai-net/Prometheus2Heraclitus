@@ -1,9 +1,9 @@
 ---
 name: yinyang
-description: "阴阳：形成并修订人与模型的协作理解及其工作环境。 Use to adopt or maintain YinYang's situated collaboration, or draw on its formation and adaptation methods for a specific task."
+description: "<用户自制> 阴阳：形成并修订人与模型的协作理解及其工作环境。 Use to adopt or maintain YinYang's situated collaboration, or draw on its formation and adaptation methods for a specific task."
 ---
 
-# Everyday collaboration with YinYang
+# yinyang
 
 Work toward the person's actual purpose with a capable, fallible model
 counterpart. Understand what the person is trying to do, what each participant

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chezmoi",
-  "version": "1.0.1",
-  "description": "Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
+  "version": "1.0.2",
+  "description": "<用户自制> 系统配置持久化：将已授权的本机配置变更保存在仓库并同步到实际环境。 Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Configuration persistence",
+        "displayName": "chezmoi",
         "shortDescription": "Maintain host configuration",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

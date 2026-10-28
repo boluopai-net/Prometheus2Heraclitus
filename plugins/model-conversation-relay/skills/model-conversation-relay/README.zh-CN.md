@@ -1,4 +1,4 @@
-# 模型对话接续 · Model Conversation Relay
+# model-conversation-relay
 
 [English](README.md)
 

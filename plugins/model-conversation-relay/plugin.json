@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "model-conversation-relay",
-  "version": "1.0.0",
-  "description": "Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts.",
+  "version": "1.0.1",
+  "description": "<用户自制> 模型对话接续：继续已绑定的 ChatGPT 咨询会话，读取、等待、发送并留存回执。 Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,7 +13,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Model conversation relay",
+        "displayName": "model-conversation-relay",
         "shortDescription": "Continue an exact model exchange",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",

@@ -1,9 +1,9 @@
 ---
 name: singing
-description: "练唱：寻找可用伴奏与 KTV，录音回听，并依据原唱和实际音频指导演唱。 Use for karaoke preparation, recorded singing practice, reference-performance comparison, and available DAW operation."
+description: "<用户自制> 练唱：寻找可用伴奏与 KTV，录音回听，并依据原唱和实际音频指导演唱。 Use for karaoke preparation, recorded singing practice, reference-performance comparison, and available DAW operation."
 ---
 
-# 练唱 · singing
+# singing
 
 Treat the studio as a responsive practice partner: the singer gives a phrase
 its intention, a reference supplies an audible musical example, and playback

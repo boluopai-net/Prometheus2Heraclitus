@@ -1,10 +1,10 @@
 ---
 name: chezmoi
-description: "系统配置持久化：将已授权的本机配置变更保存在仓库并同步到实际环境。 Use for explicit capture/persistence or material durable macOS, global CLI, service, or model-host changes; preserve source, target, and recipient publication ownership."
+description: "<用户自制> 系统配置持久化：将已授权的本机配置变更保存在仓库并同步到实际环境。 Use for explicit capture/persistence or material durable macOS, global CLI, service, or model-host changes; preserve source, target, and recipient publication ownership."
 user-invocable: false
 ---
 
-# Chezmoi
+# chezmoi
 
 Keep the Mac reconstructible while distinguishing repository source, chezmoi's rendered target and the application/service consuming it. An intentional target edit can be new source truth; runtime drift is not automatically so. Accounts, credentials and device-bound state retain their external owners.
 

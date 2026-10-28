@@ -1,4 +1,4 @@
-# Prompt and Skill Lifecycle
+# prompt-and-skill-lifecycle
 
 This reusable Skill connects instruction design with ownership, delivery, and
 evidence from use. It helps author, audit, organize, publish, and maintain

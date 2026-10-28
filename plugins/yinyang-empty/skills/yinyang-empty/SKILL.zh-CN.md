@@ -1,4 +1,4 @@
-# 阴阳 Empty 的日常协作
+# yinyang-empty
 
 [English / 模型入口](SKILL.md) · [本包说明](README.zh-CN.md)
 

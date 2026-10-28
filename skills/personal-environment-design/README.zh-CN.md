@@ -1,4 +1,4 @@
-# 个人环境设计 · personal-environment-design
+# personal-environment-design
 
 [English guide](README.md)
 

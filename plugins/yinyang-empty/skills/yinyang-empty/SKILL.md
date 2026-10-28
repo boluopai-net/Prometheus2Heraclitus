@@ -1,9 +1,9 @@
 ---
 name: yinyang-empty
-description: "阴阳 Empty：用反向对齐与阴阳辩证法形成自己的协作理解。 Form and revise your own philosophy, personal material, six working accounts, and environment without bundling the author's essays or diagrams."
+description: "<用户自制> 阴阳空白版：从共同核心与形成方法出发，发展自己的哲学、个人材料和协作安排。 Form and revise your own philosophy, personal material, six working accounts, and environment without bundling the author's essays or diagrams."
 ---
 
-# Everyday collaboration with YinYang Empty
+# yinyang-empty
 
 Develop a person's understanding, judgment, generation, and action through
 collaboration with a capable, fallible model counterpart. This **reverse alignment**

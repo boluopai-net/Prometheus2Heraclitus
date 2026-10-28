@@ -1,4 +1,4 @@
-# YinYang Empty
+# yinyang-empty
 
 **Keep reverse alignment, YinYang dialectics, and the formation methods; develop your own philosophy and personal version.**
 

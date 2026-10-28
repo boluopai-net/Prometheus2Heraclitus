@@ -1,4 +1,4 @@
-# 节点自动切换（Clash Auto Switch）
+# clash-auto-switch
 
 配置控制器发现、地区回退、可恢复的模式与 DNS 切换，以及范围受限的 DNS 保护。
 
