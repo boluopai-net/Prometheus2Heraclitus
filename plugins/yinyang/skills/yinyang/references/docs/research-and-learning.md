@@ -8,15 +8,35 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
+First choose by purpose: [systematic foundations, research reading, or everyday learning](#learning-purposes).
+
 1. [Draft a curriculum from your interests](#simple-learning-path)
 2. [Turn courses and books into readable materials](#study-materials)
 3. [Prepare practical tools and an environment](#practice-environment)
 4. [Write the theory and practice learning paths](#learning-paths)
 5. [Choose a teacher and begin reading, practice, and focused checks](#understanding-and-evaluation)
-6. [Add disciplinary and research methods](#domain-methods)
-7. [Scholarly writing and publication](#resources)
+6. [Follow papers back to foundations and enter an unfamiliar field](#paper-reading)
+7. [Everyday learning: understand important abstractions and conclusions](#everyday-learning)
+8. [Add disciplinary and research methods](#domain-methods)
+9. [Scholarly writing and publication](#resources)
 
 </nav>
+
+<a id="learning-purposes"></a>
+
+## First distinguish what you want to learn
+
+If you want to **give yourself a university education, or fill important gaps in foundational and practical knowledge**, the five steps below provide a systematic route: draft a curriculum from your interests, prepare courses, books, tools, and an environment, then write theory and practice paths and begin learning. You can cover one important field or gradually develop your own curriculum without copying every requirement of a degree.
+
+Another entrance begins with books or papers. Becoming familiar with an unfamiliar field through these alone can be harder to organize: papers often omit shared background, and a book may assume foundations from other disciplines. Models can help reconstruct the missing knowledge relationships, while the purpose of reading determines how far to pursue them.
+
+| Current purpose | Where to begin | How far to understand |
+| --- | --- | --- |
+| Systematically develop foundational and practical knowledge | The five steps below, covering courses, materials, environment, and learning paths | Connect the field's knowledge structure and develop familiarity with relevant abilities through actual use. |
+| Enter research literature around a question | [Follow a target paper's references back to foundations](#paper-reading), then compare neighboring questions and methods | Understand relevant conclusions, conditions, and basic arguments or proofs well enough to begin comparing research. |
+| Learn in everyday life and broaden understanding | [Select important abstractions and conclusions from a book or paper](#everyday-learning) | Understand the useful perspective, the conditions of its conclusions, and what it helps you understand. |
+
+These entrances can connect; they are not three stages everyone must complete. Research reading can reveal a substantial gap that calls for a course, while everyday reading can uncover a question worth pursuing. **The materials, environment, and path preparation below belongs to the systematic course route; reading one paper does not require building an entire curriculum first.** Either teacher can support these entrances: [choose the convenient teacher](#learning) for the current activity.
 
 <a id="simple-learning-path"></a>
 
@@ -141,6 +161,36 @@ Practice develops understanding; testing supplies performance evidence; evaluati
 ### Research also requires checking the result
 
 Learning can serve curiosity and understanding without serving research. Research develops a reasoned, testable contribution to an unresolved question and includes continued learning. **Personal understanding and the reliability of research results need separate judgments.** Have the model check citations and claims against original sources, examine premises, calculations, and code, and cross-check through other methods, counterexamples, or reproduction. People need to understand the consequential assumptions, evidence, and limitations to judge whether the result answers the question. Return to the relevant course when a knowledge gap appears.
+
+<a id="paper-reading"></a>
+
+## Follow papers back to foundations and enter an unfamiliar field
+
+### When a paper is inaccessible, find an understandable starting point through its references
+
+Choose a target paper relevant to your question. Ask the model to explain its problem, contribution, and the concepts or inferences blocking understanding. Replacing difficult wording with simpler words is insufficient when background knowledge is missing. Have the model inspect the references and search backward for more foundational papers explaining those concepts, results, or methods. A citation is not automatically a prerequisite: inspect the material to determine whether it supplies a more accessible foundation. A textbook chapter or review can provide a bridge where needed.
+
+Begin with material you can connect to what you already understand. Grasp its **question, main conclusions, conditions, and the basic argument or proof supporting them**. Return to the paper that uses it and explain how this newly understood knowledge supports the next step. If a gap remains, look further back; when the current dependency is understood sufficiently, work forward toward the target. The model can diagram these relationships and retain original passages so you can see why each paper is being read and what it contributes, without traversing every reference.
+
+Proceed through the needed concepts until the original target paper becomes understandable, then move to another related paper. Neighboring work introduces new concepts, different methods, and limits to previous conclusions. Repeat the process for the new knowledge that matters. Understanding the necessary surrounding literature means covering the key dependencies, representative methods, and important disputes for the current question well enough to understand and compare them. Expand when a new question requires it, rather than attempting to exhaust the field's literature.
+
+### Move from important questions toward methods that interest you
+
+The model can also help assess the **importance and feasibility** of the target paper and related research directions. Why does its problem matter? What does it contribute beyond existing work, and what remains unresolved? What knowledge, data, equipment, time, or collaboration would you need to participate? Tie these judgments to papers, reviews, and actual resources, separating established facts from conjecture. An important field does not make every problem in it suitable for you to work on now.
+
+Importance and interest can guide different reading choices. An important paper may address a worthwhile question through a method you do not want to study deeply. Understand its question and contribution, then ask the model to find **other treatments of the same or neighboring problems**. Compare what each method reveals, its costs, and what it leaves unresolved. These connections can lead from a paper whose method does not appeal to you toward one using a method you prefer. Return to foundational reading when gaps prevent understanding it.
+
+A preferred method supplies motivation to learn; its fit to a problem still depends on assumptions, evidence, and results. Retain important work that could change your judgment even when it does not match your interests, without reading every paper equally deeply. Models can retrieve, organize, explain, and compare. If you go on to make research claims, modify a method, or test results, deepen the learning into the relevant critical proofs, experiments, and counterexamples rather than stopping at a summary of conclusions.
+
+<a id="everyday-learning"></a>
+
+## Everyday learning: understand important abstractions and conclusions
+
+If your purpose is everyday learning and broader understanding, reading an unfamiliar field's papers can usually focus on **valuable, important abstractions and final conclusions**. You need not train as a researcher in that field, reproduce the whole study, or master every proof. Ask the model what phenomena the paper represents through which objects and relationships, why that abstraction is useful, what conclusions it reaches, and how these connect to things you already know.
+
+To avoid retaining a memorable but easily misapplied conclusion, also understand its key conditions, scope, and limitations. Use a concrete example and a case where it does not apply to check understanding. Technical details that do not serve the current purpose can be left aside, while keeping the authors' findings, the model's explanation, and your own associations distinguishable. This achieves understanding of important ideas and conclusions without claiming an independent ability to evaluate the reliability of the entire study.
+
+When an abstraction is especially fruitful, or you intend to make a practical decision from it, examine the corresponding argument, evidence, and foundations more closely. Everyday reading can already be a complete learning purpose; it need not automatically become a research plan or a curriculum.
 
 <a id="domain-methods"></a>
 
