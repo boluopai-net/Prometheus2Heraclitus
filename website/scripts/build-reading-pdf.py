@@ -142,10 +142,10 @@ behind each position. Core views also serves as a reference when revisiting the
 book. You need not accept every position or read every chapter; writing your
 own philosophy or other essays is a separate choice of interest.
 
-Selected ideas can support organizing experiences, revising personal
-psychological material, and configuring a fitting environment. Keep personal
-interpretations grounded in sources, retain uncertainty, and revise them through
-experience. **YinYang must not be used for psychological self-help work,
+Selected ideas can guide the configuration of a fitting personal environment.
+Work with a model to turn an understanding of your purposes, preferences, and
+circumstances into ways of cooperating, tools, and everyday arrangements. These
+philosophical ideas do not supply a method for revising psychological material. **YinYang must not be used for psychological self-help work,
 self-diagnosis, mental-health assessment, or treatment.** These working accounts
 are not clinical assessments, and the project has not been systematically
 evaluated for those uses. Personal experience and version history do not establish
@@ -178,8 +178,8 @@ Generated {stamp} (Asia/Shanghai), from public source
 「基本观点」**，再沿链接考察相应立场的理由与适用条件；读过正文后，也可以用它回看整体。
 不必接受全部立场或通读每篇文章。是否进一步写自己的哲学或其他文章，由个人兴趣决定。
 
-选定的思想可以用于整理经历、修订个人心理材料，以及配置适合自己的环境。个人解释需要
-保留来源与不确定性，并随经验修订。**阴阳不能用于心理自助工作、自行诊断、心理健康评估
+选定的思想可以用于配置适合自己的个人环境。与模型一起，把有关目的、偏好和实际条件的
+理解落实到协作方式、工具与日常安排。这些哲学观点不提供修订心理材料的方法。**阴阳不能用于心理自助工作、自行诊断、心理健康评估
 或治疗。**这些工作描述不是临床评估，项目也尚未经过针对上述用途的系统性实证评估；
 个人经验与版本历史不能确立普遍的心理效果。需要专业评估或照护时，应寻求合格专业人员，
 项目文字与模型输出不能替代这种服务。[来源说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)

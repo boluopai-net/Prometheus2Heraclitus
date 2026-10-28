@@ -296,15 +296,15 @@ def practice_entrance(chinese):
         heading = '选择怎样阅读与使用'
         paragraphs = [
             f'非文史哲背景的读者，可以先从<a href="{views}">核心观点</a>中挑选与自己问题有关的部分，看看理由与适用条件，再考虑采用。需要深入理解时，再沿链接阅读相应论证，不必从头通读或接受全部立场。',
-            f'选定的思想可以用于整理经历、持续修订个人心理材料，以及配置适合自己的环境。让模型协助整理记录、保留暂时解释与不确定性，并把相关理解落实到实际安排；<a href="{guide}">工具使用</a>提供操作入口。',
-            f'是否写自己的哲学、文章或个人网站，取决于兴趣。可以先把观点用于生活与协作；有创作兴趣时，再读<a href="{writing}">文学式编程</a>等篇章。下面五部分展示作者的完整论述，供按问题选读。',
+            f'选定的思想可以用于配置适合自己的个人环境。与模型一起，把有关目的、偏好和实际条件的理解落实到协作方式、工具与日常安排；<a href="{guide}">工具使用</a>提供操作入口。',
+            f'是否写自己的哲学、文章或个人网站，取决于兴趣。可以先用这些观点配置自己的环境；有创作兴趣时，再读<a href="{writing}">文学式编程</a>等篇章。下面五部分展示作者的完整论述，供按问题选读。',
         ]
     else:
         heading = 'Choose what to read and use'
         paragraphs = [
             f'If literature, history, or philosophy is not your field, begin with relevant parts of <a href="{views}">Core views</a>. Consider their reasons and conditions before adopting them, and follow the linked arguments when you want to go deeper. You need not read everything in order or accept every position.',
-            f'Selected ideas can help organize experiences, revise personal psychological material, and configure a fitting environment. A model can organize records, retain tentative interpretations and uncertainty, and turn relevant understanding into practical arrangements. <a href="{guide}">Using the Tools</a> supplies an operational entrance.',
-            f'Writing your own philosophy, essays, or website is a choice of interest. Use the ideas in life and cooperation first if that serves you; explore <a href="{writing}">Literary programming</a> and related essays when you want to create. The five parts below present the author’s connected argument for selective reading.',
+            f'Selected ideas can guide the configuration of a fitting personal environment. Work with a model to turn an understanding of your purposes, preferences, and circumstances into ways of cooperating, tools, and everyday arrangements. <a href="{guide}">Using the Tools</a> supplies an operational entrance.',
+            f'Writing your own philosophy, essays, or website is a choice of interest. Begin by using the ideas to configure your environment if that serves you; explore <a href="{writing}">Literary programming</a> and related essays when you want to create. The five parts below present the author’s connected argument for selective reading.',
         ]
     downloads = ('下载阅读版：' if chinese else 'Download the reading edition: ') + '<a href="/reading/yinyang.zh-CN.pdf">中文 PDF</a> · <a href="/reading/yinyang.en.pdf">English PDF</a>'
     return f'<section class="series-entrance" id="practice"><h2>{heading}</h2>' + ''.join(f'<p>{p}</p>' for p in paragraphs) + f'<p class="reading-downloads">{downloads}</p></section>'
@@ -314,7 +314,7 @@ def index_body(chinese, title):
     name = SERIES_NAMES[0 if chinese else 1]
     thesis = '参加共同的窃火，用火培养自己的理解、判断与创造能力，成为能够继续生成的人。' if chinese else 'Join in the collective work of stealing fire, and use it to cultivate understanding, judgment, and creative capacity—to become someone who can keep generating.'
     heading = f'<header class="collection-heading"><img class="motif collection-motif" src="/motifs/sun.svg" alt="" aria-hidden="true"><h1>{name}</h1><p class="collection-intro">{thesis}</p></header>'
-    notice = '用途边界：整理与修订个人材料、配置环境，不等于心理自助工作。阴阳不能用于心理自助、自行诊断、心理健康评估或治疗。' if chinese else 'Use boundary: organizing and revising personal material and configuring an environment are distinct from psychological self-help work. YinYang must not be used for psychological self-help, self-diagnosis, mental-health assessment, or treatment.'
+    notice = '用途边界：这些哲学观点用于配置个人环境，不提供修订心理材料的方法。阴阳不能用于心理自助、自行诊断、心理健康评估或治疗。' if chinese else 'Use boundary: these philosophical ideas guide personal-environment configuration; they do not supply a method for revising psychological material. YinYang must not be used for psychological self-help, self-diagnosis, mental-health assessment, or treatment.'
     notice_url = 'https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/' + ('README.zh-CN.md#用途与心理健康说明' if chinese else 'README.md#intended-use-and-mental-health')
     use_notice = f'<p class="use-notice footnote" role="note">{notice} <a href="{notice_url}">{"完整说明" if chinese else "Full notice"}</a></p>'
     sections = []
