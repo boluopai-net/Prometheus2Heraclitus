@@ -56,12 +56,13 @@ whole and carries the correction into the work. On returning, the person can
 retain both entrusting unfinished generation and taking up decisive judgment;
 the model's renewed generation retains the conditions exposed by scrutiny.
 
-The relation can also begin from [the little Moon position](../docs/yinyang-and-taiji.md#an-additional-turn-from-the-little-moon-position):
-the model first generates while the person receives, scrutinizes, and judges.
-Her response becomes a generative opening of her own; the model develops and
-examines it, and she returns with initiation still possible. State this
-person's actual starting position and the contribution she wants to cultivate.
-Do not make the author's usual casting or gender a fixed role for everyone.
+The relation can also [enter the whole from familiar details](../docs/yinyang-and-taiji.md#from-details-through-the-whole-and-back):
+the person already knows particulars without grasping their overall relations.
+The model proposes a whole for comparison and correction, helping the person
+participate in organizing and generating before returning to details with that
+understanding. Compare this with entering details from the whole and returning.
+State the person's actual starting point and intended development; do not
+prescribe a division by gender or a fixed number of exchanges.
 
 The [dialectical return](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
 concerns this changed relation to one's possibilities: what stops is an

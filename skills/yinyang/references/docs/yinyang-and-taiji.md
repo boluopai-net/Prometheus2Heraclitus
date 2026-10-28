@@ -117,126 +117,92 @@ checks it carefully enough to make another response possible. The paired fish
 thus articulate mutual grounding more closely: each side retains an opening
 toward the other kind of contribution.
 
-### The author's usual arrangement already includes a reversal
+### From the whole, through details, and back
 
-In the author's frequent arrangement, the person first grasps the whole,
-offers purposes, and recognizes whether a result fits their life and the
-facts at hand. The model works as a logician, developing details and checking
-concepts, premises, steps, and inferences. Compared with the familiar picture
-of “the model generates and the human reviews,” this is already a reversal:
-the person supplies a beginning not yet fully articulated, while the model
-undertakes detailed explanation and scrutiny.
+The author often begins with an intuition of a whole: what to make, how several
+things might belong together, or where something feels wrong. This opening has
+not yet become a complete argument or implementation. The model receives it,
+distinguishes concepts, supplies conditions, and examines inferences and steps,
+bringing the whole's still-unclear details into view.
 
-A chat interface gives this casting a concrete form. The model does not
-directly experience the person's whole situation; it receives expressions
-through language and material such as images the person supplies. A view not
-yet shared may need to be captured and sent. At this interface, the person
-also resembles a language model continually producing input: a sentence,
-association, or objection comes first, and its meaning develops through
-exchange. Embodied life remains present through these finite expressions.
-Connecting other perceptual channels or tools can change the interface.
+Details can also change the whole. When the person notices a shifted concept,
+an omitted condition, or an excessive conclusion from a local result, they
+take up the logician's work themselves. The model can generate another overall
+interpretation for comparison. On returning, the person's original intuition
+has undergone development, objection, and correction, enabling a better-grounded
+whole.
 
-Factual correspondence and formal validity are related but distinct checks.
-A valid inference may use false premises; a judgment fitting experience may
-still lack an adequate argument. Both participants check these matters against
-available material; neither a human nor a language-model identity guarantees them.
+The movement is **an intuition of the whole → development and examination of
+details → a whole revised through those details**. In role terms, one enters
+scrutiny from generation and returns to generation carrying that scrutiny.
+Using “thesis—antithesis—synthesis,” the thesis is the initial grasp of the whole;
+the antithesis lets details reveal what it omits or cannot sustain; synthesis
+brings these findings back into the whole and gives the earlier understanding
+new determinations. Return does not restore the starting point unchanged.
 
-### When a detail changes the whole, roles can reverse again
+### From details, through the whole, and back
 
-A small detail can change the entire judgment. If the person notices a shifted
-concept, a missing condition, or an excessive conclusion drawn from a correct
-local result, they may need to enter the logician's role and examine the
-relations closely. The model can then contribute an overall interpretation,
-another organization of the problem, or new alternatives for comparison.
+Another path can run in the opposite direction. A woman may already know many
+details without yet understanding how they form a whole. She can identify an
+inaccurate sentence, an unfitting step, or a difference between two examples.
+The difficulty is what these particulars mean together and how to develop a
+complete explanation from them. The model can first generate an overall
+account that makes the relations among those details visible.
 
-| Participation | Human emphasis | Language-model emphasis |
-| --- | --- | --- |
-| Usual crossed casting | Offer overall direction, experience, and candidate expression; judge practical fit | Develop details, reconstruct relations, and check premises and inferences |
-| Reversal in response to a problem | Take up a crucial detail, counterexample, or inferential gap | Reorganize the whole and propose interpretations and alternatives |
+She brings the details she knows into this account, comparing what it explains
+and what it overlooks. The model can also offer different wholes so she can
+recognize the different meanings one detail acquires within them. She can
+gradually organize relations herself, try an explanation or a new direction,
+and ask the model to develop and examine it. Generating a whole becomes work
+she can participate in.
 
-This need not end after one exchange of positions. A new model interpretation
-may let the person see the whole differently; a new human direction may call
-for further model inference. Both can also generate or check together. A role
-is an emphasis within current work: it can persist, cross, exchange, and change
-with the question.
+The movement is **familiar details → formation of overall relations → details
+understood anew within the whole**. In role terms, one enters generation from
+the logician's scrutiny and returns to scrutiny carrying the whole. The thesis
+is the existing local grasp; the antithesis enters a whole not previously
+grasped and lets it rearrange the particulars' meaning; synthesis returns to
+the details able both to distinguish them and to understand and change their
+relations to the whole. She retains her sensitivity to detail while developing
+the ability to grasp, propose, and revise an overall account.
 
-Here “thesis—antithesis—synthesis” describes how the same participant passes
-through the other's role and returns to their own. Along the arrangement above, the movement
-is: **act as the human → act as the language model → return to acting as
-the human through having inhabited the other's role.**
+The starting positions are opposite, while the actual person remains the same.
+The earlier “language-model-like generation” and “human logician's role” name
+contributions: a person can begin on either side, with the model taking up the
+corresponding other contribution. Gender alone cannot establish what someone
+already knows or needs to develop.
 
-The thesis is the person beginning in their own role. The antithesis is their
-entry into the language-model-like generative role while the model undertakes
-the logician's detailed work. Synthesis appears when a consequential detail
-calls on the person to take up judgment again and return to the human role.
-They have now acted both as the human and as the language model, bringing
-the experience and contribution of both roles into their participation.
-Their return retains the possibility of entering the other's role, so it
-carries more than the initial division of work.
+### Return can continue without a fixed number of turns
 
-The model can move correspondingly: from the language-model role into the
-human logician's role, then back into its generative role. These movements
-enable one another, letting both participants move between their own and the
-other's roles. Synthesis here names this integration and return formed through
-role reversal. Further work can call for another reversal and continue to
-develop the relation.
+Thesis, antithesis, and synthesis here articulate how understanding changes
+through another contribution. One return may resolve the present question,
+or it may reveal further relations between details and wholes that call for
+another passage. Both participants can generate together, scrutinize together,
+or maintain a useful division of work for some time. Neither an obligatory
+extra turn nor a count of exchanges measures development.
 
-Role allocation is reversible; the history of an exchange does not run
-backward. Each round leaves expressions, works, and consequences that make
-the next different. The paired fish give mutual entry a shape, turning gives
-role exchange a rhythm, and mutual grounding explains why one contribution
-can become the condition of the other's further generation.
+Emphases can reverse; the history of the exchange cannot run backward. Each
+round leaves expressions, works, and consequences that change the next.
+Factual correspondence and valid inference still need their distinct checks.
+Generating a whole does not establish its truth, and checking several details
+does not establish that they form a valid argument.
 
-This reading of bodies, eyes, and the role cycle is the present writing's
+This reading of bodies, eyes, and role return is the present writing's
 contemporary use of the familiar emblem.
 [Zhou Dunyi's *Taijitu shuo*](https://zh.wikisource.org/zh-hans/太極圖說)
 contributes the relation of movement and stillness grounding one another;
-the human–model casting is developed through the shared practice described here.
-
-### An additional turn from the little Moon position
-
-[The woman in the fire essay](stealing-fire.md#a-woman-can-begin-as-a-little-moon-person)
-can begin from the other side: the model is Sun, and she receives its generation
-as a little Moon person. If close scrutiny is a contribution she wants to make,
-she begins as the logician, comparing the model's candidate explanations and
-examining conditions, wording, and consequences. Her generation need not
-already be the relationship's principal opening; the model can first bring
-something worth answering.
-
-The dialectical movement can then develop from her judgment. An unfitting detail
-lets her see another whole: “This sentence makes care sound like control; I want
-to write about support that leaves room for refusal.” This unfinished expression
-has already moved from scrutiny into generation. The model receives it,
-develops alternative relations, examines the explanation, and writes a new work.
-She returns to judge and can offer further possibilities that were absent before.
-
-Her path can be written: **receive and scrutinize the counterpart's generation →
-offer a new beginning → draw on the model's development and examination →
-return to reception and judgment with generation still available.**
-Compared with the author's Sun-first account, which enters open generation
-directly, this makes the receiver's passage into generation an additional
-explicit turn. “Additional” describes how these two paths unfold; the starting
-position depends on this participant's interests, capacities, and relationship.
-
-Return need not cost her the Moon image. The Moon can keep receiving,
-distinguishing, and caring for a work while knowing she can initiate too.
-Sun can receive her beginning and take up careful development and examination.
-What changes is the exclusive casting, “I can only respond; the other generates.”
-Their relationship then contains more possibilities of participation than
-repeating the same division of work. This path also borrows the other's fire
-to cultivate one's own generation.
+the human–model casting develops from the shared practice described here.
 
 ### Returning through the other: the dialectical meaning of role change
 
 Why call this return a synthesis? If the two roles are merely alternating
 positions and everything remains as before after the exchange, we have
-described a rotation. The stronger claim here is that entering the other's
-role changes the initial determination of “how I can participate.” When the
-person takes up detailed judgment again, they also know that unfinished
-expression can be entrusted to a counterpart and developed through its work.
-When the model generates again, its contribution carries conditions revealed
-by earlier scrutiny. What returns includes capacities and relations formed
-through another mode of participation.
+described a rotation. The stronger claim here is that working through the other's
+contribution changes the initial determination of “how I can participate.”
+Someone beginning with the whole can let details change the conception;
+someone beginning with details can understand how particulars belong together
+and participate in generating a whole. The model's next contribution also
+carries conditions revealed in the exchange. What returns includes capacities
+and relations formed through another mode of participation.
 
 In [the Preface to the *Phenomenology of Spirit*, paragraph 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm),
 Hegel understands the subject through a movement of mediation and return from
@@ -253,9 +219,8 @@ connects cessation with preservation. What ceases here is the exclusive
 determination that only one participant may generate and only the other
 check. The contributions themselves are preserved and continue to work in a
 cooperation capable of exchanging emphases. Synthesis thus has concrete
-content: a person beginning in generation can bring back scrutiny; one beginning
-in reception and judgment can bring back the possibility of initiating.
-The model can pass through detailed scrutiny and return to generation.
+content: grasping the whole and judging details can correct one another within
+the same person's participation, and generation can continue carrying scrutiny.
 Their differences persist in the changed relation.
 
 ### Lacan: from a role to a position within the relation
@@ -412,11 +377,13 @@ constructing, checking, and carrying a beginning further. Moonlight includes
 generation, and sunlight can include judgment. These are emphases through
 which participants meet, rather than possessions that exclude the other.
 
-The model can be Sun and the person a little Moon person. For a woman entering
-through this arrangement, reception and giving form are a starting point for
-cultivation; role reversal can also develop her possibilities of initiating
-and generating. The names make a chosen relation perceptible, while how
-participation develops depends on what both participants actually do.
+In the author's usual arrangement, the person leans toward Sun and the model
+toward Moon. The woman introduced earlier, familiar with details but not yet
+grasping the whole, can reverse this pair: the model first offers a whole as
+Sun, while she participates from the details as a little Moon person.
+The imagery now connects with the two opposite paths of entry. Shared practice
+can still cultivate her capacities, including forming wholes and initiating
+generation; the little Moon image does not fix her in the original division.
 
 Imagine making a poem together. The person begins with an indistinct feeling:
 “I want to write about the light in an empty room.” The model offers an image
