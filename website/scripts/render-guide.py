@@ -32,7 +32,7 @@ GUIDES = (
      '从实际任务开始，了解工具、协作、学习与持续维护。',
      'A practical guide to tools, collaboration, learning, and maintenance.'),
     ('research-and-learning', 'research-learning',
-     ('learning-purposes', 'learning-materials', 'simple-learning-path', 'study-materials', 'practice-environment', 'learning-paths', 'understanding-and-evaluation', 'paper-reading', 'everyday-learning', 'domain-methods', 'resources'),
+     ('learning-purposes', 'learning-materials', 'self-university', 'simple-learning-path', 'study-materials', 'practice-environment', 'learning-paths', 'understanding-and-evaluation', 'paper-reading', 'everyday-learning', 'domain-methods', 'resources'),
      'phi.svg', '按目的选择系统补基础、沿论文进入陌生领域，或通过重要抽象与结论开展日常学习。',
      'Choose systematic foundations, research reading through prerequisite papers, or everyday learning through important abstractions and conclusions.'),
     ('psychological-support', 'psychology',
@@ -63,8 +63,8 @@ def render(text, section_ids):
     rendered = md.convert(text)
     for anchor in section_ids:
         rendered, count = re.subn(
-            rf'(?:<p>)?<a id="{anchor}"></a>(?:</p>)?\s*<h2>',
-            f'<h2 id="{anchor}" tabindex="-1">', rendered,
+            rf'(?:<p>)?<a id="{anchor}"></a>(?:</p>)?\s*<h([23])>',
+            lambda match: f'<h{match[1]} id="{anchor}" tabindex="-1">', rendered,
         )
         if count != 1:
             raise ValueError(f'Expected one guide heading for {anchor}, found {count}')
@@ -73,12 +73,26 @@ def render(text, section_ids):
 
 def navigation(headings, english):
     label = 'Guide sections' if english else '本文章节'
-    items = ''.join(
-        f'<li><a href="#{anchor}"' + (' aria-current="location"' if index == 0 else '')
-        + f'>{html.escape(title)}</a></li>'
-        for index, (anchor, title) in enumerate(headings)
-    )
-    return f'<aside class="guide-sidebar"><nav aria-label="{label}"><ul>{items}</ul></nav></aside>'
+    items = []
+    nested = False
+    for index, (anchor, level, title) in enumerate(headings):
+        if level == '###':
+            if not nested:
+                items.append('<ul class="guide-steps">')
+                nested = True
+        elif index:
+            if nested:
+                items.append('</ul>')
+                nested = False
+            items.append('</li>')
+        current = ' aria-current="location"' if index == 0 else ''
+        items.append(f'<li><a href="#{anchor}"{current}>{html.escape(title)}</a>')
+        if level == '###':
+            items.append('</li>')
+    if nested:
+        items.append('</ul>')
+    items.append('</li>')
+    return f'<aside class="guide-sidebar"><nav aria-label="{label}"><ul>{"".join(items)}</ul></nav></aside>'
 
 
 def legacy_alias(slug, english):
@@ -107,10 +121,11 @@ def main():
         source = args.repo / 'skills/yinyang/references/docs' / (stem + ('.md' if english else '.zh-CN.md'))
         text = source.read_text().replace('https://boluopai.net/', '/')
         title = text.splitlines()[0].removeprefix('# ')
-        headings = re.findall(r'<a id="([^"]+)"></a>\s*## (.+)', text)
-        if tuple(anchor for anchor, _ in headings) != section_ids:
+        headings = [heading for heading in re.findall(r'<a id="([^"]+)"></a>\s*(#{2,3}) (.+)', text)
+                    if heading[0] in section_ids]
+        if tuple(anchor for anchor, _, _ in headings) != section_ids:
             raise ValueError(f'{source}: expected its ordered guide anchors')
-        # The flat reading navigation replaces only the source's duplicated tool map.
+        # Project the authored heading hierarchy into the reading navigation.
         text, count = re.subn(
             r'(?ms)^## [^\n]+\n\s*<nav class="guide-navigation".*?</nav>\s*', '', text,
         )

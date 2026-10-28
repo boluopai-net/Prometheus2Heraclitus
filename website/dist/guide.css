@@ -19,6 +19,9 @@
 .guide-sidebar nav{display:block;max-height:calc(100dvh - 64px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;font:400 19px/1.7 var(--sans);padding:4px}
 .guide-sidebar ul{list-style:none;margin:0;padding:0}
 .guide-sidebar li{margin:0 0 10px}
+.guide-sidebar .guide-steps{margin:8px 0 18px 8px;padding-left:16px;border-left:1px solid var(--line)}
+.guide-sidebar .guide-steps li{margin-bottom:6px}
+.practical-guide .guide-sidebar .guide-steps a[href]{font-size:16px;line-height:1.65}
 .practical-guide .guide-sidebar a[href]{display:block;padding:4px 0;color:var(--water);font-weight:400;text-decoration:none;overflow-wrap:anywhere}
 .practical-guide .guide-sidebar a[aria-current]{font-weight:600}
 .practical-guide .guide-sidebar a[href]:hover{color:var(--water);background:none;text-decoration:none}
@@ -38,7 +41,7 @@
 .library-hub .library-section h2{margin-top:16px}
 .library-hub .diagram-disclosure:not([open]){margin-bottom:0;border-width:0 0 1px;padding-inline:0}
 .library-hub .diagram-disclosure:not([open])+.library-section{padding-top:0}
-.practical-guide article h2[id]{scroll-margin-top:32px}
+.practical-guide article :is(h2,h3)[id]{scroll-margin-top:32px}
 .guide-table{width:100%;margin:24px 0 32px;overflow-x:auto}
 .guide-table table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.75;table-layout:fixed}
 .guide-table th,.guide-table td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
