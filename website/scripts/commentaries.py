@@ -295,6 +295,7 @@ def practice_entrance(chinese):
     if chinese:
         heading = '选择怎样阅读与使用'
         paragraphs = [
+            '下面 01—05 的《窃火》论述，说明为什么需要「阴阳」这个 Skill：把对人、模型伙伴及双方关系的理解写下来，用它配置并持续修订实际的协作环境。',
             f'非文史哲背景的读者，可以先从<a href="{views}">核心观点</a>中挑选与自己问题有关的部分，看看理由与适用条件，再考虑采用。需要深入理解时，再沿链接阅读相应论证，不必从头通读或接受全部立场。',
             f'选定的思想可以用于配置适合自己的个人环境。与模型一起，把有关目的、偏好和实际条件的理解落实到协作方式、工具与日常安排；<a href="{guide}">工具使用</a>提供操作入口。',
             f'是否写自己的哲学、文章或个人网站，取决于兴趣。可以先用这些观点配置自己的环境；有创作兴趣时，再读<a href="{writing}">文学式编程</a>等篇章。下面五部分展示作者的完整论述，供按问题选读。',
@@ -302,6 +303,7 @@ def practice_entrance(chinese):
     else:
         heading = 'Choose what to read and use'
         paragraphs = [
+            'Parts 01–05 of Steal Fire explain why the YinYang Skill is needed: to write down an understanding of the person, model counterpart, and their relationship, then use it to configure and continually revise their actual environment for collaboration.',
             f'If literature, history, or philosophy is not your field, begin with relevant parts of <a href="{views}">Core views</a>. Consider their reasons and conditions before adopting them, and follow the linked arguments when you want to go deeper. You need not read everything in order or accept every position.',
             f'Selected ideas can guide the configuration of a fitting personal environment. Work with a model to turn an understanding of your purposes, preferences, and circumstances into ways of cooperating, tools, and everyday arrangements. <a href="{guide}">Using the Tools</a> supplies an operational entrance.',
             f'Writing your own philosophy, essays, or website is a choice of interest. Begin by using the ideas to configure your environment if that serves you; explore <a href="{writing}">Literary programming</a> and related essays when you want to create. The five parts below present the author’s connected argument for selective reading.',
