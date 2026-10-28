@@ -21,6 +21,18 @@ The separate [Psychology guide](skills/yinyang/references/docs/psychological-sup
 **[Install in Codex](docs/codex.md)**
 <!-- repository-only:end -->
 
+<!-- repository-only:start -->
+## This work's perspective and reader suggestions
+
+This work proceeds from a heterosexual perspective. The author lacks knowledge
+of sexual-minority perspectives, so the existing discussion cannot represent them.
+
+If you have relevant experience, views, or reference works, please
+[open an Issue](https://github.com/boluopai-net/Prometheus2Heraclitus/issues/new)
+to suggest wording that needs revision or material worth adding. The author will
+consider these suggestions carefully before deciding how to incorporate them.
+<!-- repository-only:end -->
+
 ## Choose what to read and use
 
 **If literature, history, or philosophy is not your field, begin with selected

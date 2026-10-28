@@ -21,6 +21,15 @@
 **[安装到 Codex](docs/codex.zh-CN.md)**
 <!-- repository-only:end -->
 
+<!-- repository-only:start -->
+## 本文的视角与读者建议
+
+本文从异性恋视角展开。作者不了解性少数视角，因此现有论述不能代表这些视角。
+
+如果你有相关经验、观点或参考作品，欢迎[新建 Issue](https://github.com/boluopai-net/Prometheus2Heraclitus/issues/new)，
+提出需要调整的表述或值得补充的内容。作者会认真考虑这些建议，再决定怎样加入本文。
+<!-- repository-only:end -->
+
 ## 选择怎样阅读与使用
 
 **非文史哲背景的读者，可以先从[核心观点](skills/yinyang/references/docs/core-views.zh-CN.md)中挑选与自己问题有关的部分。**
