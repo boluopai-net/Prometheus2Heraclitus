@@ -1,5 +1,5 @@
 interface:
-  display_name: "Model Conversation Relay"
+  display_name: "model-conversation-relay"
   short_description: "Relay one exact exchange with a cloud conversation"
   default_prompt: "Use $model-conversation-relay to complete one exact exchange through capable per-operation adapters. Keep response-turn reconciliation in the relay, treat an acknowledged native send as in flight even before its turn is visible, preserve exact target and request identity, and leave semantic evaluation with the caller."
 

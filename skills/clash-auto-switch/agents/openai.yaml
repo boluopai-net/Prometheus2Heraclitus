@@ -1,3 +1,3 @@
 interface:
-  display_name: "节点自动切换 · Clash Auto Switch"
+  display_name: "clash-auto-switch"
   short_description: "Configure controller discovery, regional fallback, reversible mode/DNS switching and a bounded DNS-only guard."

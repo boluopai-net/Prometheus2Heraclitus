@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "clash-auto-switch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 节点自动切换：维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
   "author": {
     "name": "boluopai",

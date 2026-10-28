@@ -1,3 +1,3 @@
 interface:
-  display_name: "笔记同步 · Obsidian Sync"
+  display_name: "obsidian-sync"
   short_description: "Share explicitly selected Obsidian configuration with File Provider-safe cloud copies and local symlinks."

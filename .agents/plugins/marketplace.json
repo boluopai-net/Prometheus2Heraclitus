@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.88",
+      "version": "1.1.89",
       "description": "<用户自制> 阴阳：形成并修订人与模型的协作理解及其工作环境。 Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
@@ -168,7 +168,7 @@
     },
     {
       "name": "android-control",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 安卓控制：操作真实安卓手机，管理应用、界面、文件与连接。 Operate your Android device through ADB and native interfaces, verifying actual effects.",
       "source": {
         "source": "local",
@@ -330,7 +330,7 @@
     },
     {
       "name": "local-teacher",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "description": "<用户自制> 本地老师：在本地 Codex 中讲解课程与概念，带领复习、练习和学习项目。 Explain, review, and practice in a local environment, developing understanding through real work.",
       "source": {
         "source": "local",
@@ -357,7 +357,7 @@
     },
     {
       "name": "web-teacher",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "<用户自制> 云端老师：依据材料教学与探究，组织课程、概念图、学习路径和进度接续。 Provide shared methods for course material, teaching, learning paths, and learning spaces.",
       "source": {
         "source": "local",
@@ -384,7 +384,7 @@
     },
     {
       "name": "shopping",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 购物与比价：搜索国内电商与闲鱼商品，比较价格、优惠和二手选择。 Compare products, prices, offers, and secondhand choices with inspectable evidence and conditions.",
       "source": {
         "source": "local",
@@ -492,7 +492,7 @@
     },
     {
       "name": "model-conversation-relay",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "<用户自制> 模型对话接续：继续已绑定的 ChatGPT 咨询会话，读取、等待、发送并留存回执。 Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts.",
       "source": {
         "source": "local",
@@ -519,7 +519,7 @@
     },
     {
       "name": "obsidian-sync",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 笔记同步：维护 Obsidian 多库共享配置、云端配置复制与反向同步。 Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
       "source": {
         "source": "local",
@@ -546,7 +546,7 @@
     },
     {
       "name": "chezmoi",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 系统配置持久化：将已授权的本机配置变更保存在仓库并同步到实际环境。 Persist authorized host configuration changes in source and converge them through the actual publication mechanism.",
       "source": {
         "source": "local",
@@ -573,7 +573,7 @@
     },
     {
       "name": "network",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 网络诊断：排查和修复本机域名解析、代理、网站连接与网络质量问题。 Diagnose DNS, proxies, website connectivity, and routing from host evidence.",
       "source": {
         "source": "local",
@@ -600,7 +600,7 @@
     },
     {
       "name": "clash-auto-switch",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 节点自动切换：维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 Maintain Clash node selection, regional fallback, and DNS/TUN protection.",
       "source": {
         "source": "local",

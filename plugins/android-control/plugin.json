@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "android-control",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 安卓控制：操作真实安卓手机，管理应用、界面、文件与连接。 Operate your Android device through ADB and native interfaces, verifying actual effects.",
   "author": {
     "name": "boluopai",

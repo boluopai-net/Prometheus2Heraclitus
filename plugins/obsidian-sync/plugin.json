@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "obsidian-sync",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 笔记同步：维护 Obsidian 多库共享配置、云端配置复制与反向同步。 Maintain shared configuration, cloud copies, and synchronization across Obsidian vaults.",
   "author": {
     "name": "boluopai",

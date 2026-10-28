@@ -1,5 +1,5 @@
 interface:
-  display_name: "本地 Teacher"
+  display_name: "local-teacher"
   short_description: "Teach courses, review texts, and learn through real work"
   default_prompt: "Use $local-teacher to teach the current subject or support learning through this work, using the actual sources and my preferred interaction style."
 policy:
