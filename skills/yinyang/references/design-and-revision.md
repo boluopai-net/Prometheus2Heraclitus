@@ -1,4 +1,4 @@
-# Philosophy and models
+# Forming and revising working models
 
 <a id="forming-a-personal-philosophy-and-personal-models"></a>
 

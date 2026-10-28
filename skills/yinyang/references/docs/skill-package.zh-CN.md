@@ -56,8 +56,8 @@
 
 `references/situated/` 和 `references/personal/` 两个完整目录属于私人内容。其余内容
 由公共包维护，包括入口、六份写作指南、文章、图示与脚本。分发副本和选择持续采用公共
-更新的私人副本，保持公共内容字节一致。[使用阴阳](../../SKILL.zh-CN.md)维护实际初始阅读；
-[哲学与模型](../design-and-revision.zh-CN.md)连接写作对象。
+更新的私人副本，保持公共内容字节一致。[阴阳的日常协作](../../SKILL.zh-CN.md)维护实际初始阅读；
+[工作模型的形成与修订](../design-and-revision.zh-CN.md)连接写作对象。
 
 ## 量表与测评材料
 

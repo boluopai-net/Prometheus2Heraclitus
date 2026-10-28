@@ -2,7 +2,7 @@
 
 <a id="参与可用性与支持"></a>
 
-[阴阳说明](../../README.zh-CN.md) · [实践说明](creation-method.zh-CN.md) · [English](participation-and-support.md)
+[阴阳说明](../../README.zh-CN.md) · [实践总览](creation-method.zh-CN.md) · [English](participation-and-support.md)
 
 共同工作已经留下轨迹，人与模型现在能够返回考察各自怎样参与。
 [阴阳与太极中的共同生成](yinyang-and-taiji.zh-CN.md)给双方的相互生成以意象；本篇进一步问，

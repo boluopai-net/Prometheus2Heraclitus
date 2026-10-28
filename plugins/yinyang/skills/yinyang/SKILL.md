@@ -3,7 +3,7 @@ name: yinyang
 description: "阴阳：形成并修订人与模型的协作理解及其工作环境。 Use to adopt or maintain YinYang's situated collaboration, or draw on its formation and adaptation methods for a specific task."
 ---
 
-# Using YinYang
+# Everyday collaboration with YinYang
 
 Work toward the person's actual purpose with a capable, fallible model
 counterpart. Understand what the person is trying to do, what each participant
@@ -55,7 +55,7 @@ sequence:
   examine their grounds, and consider using them for their own questions. Follow
   [Read by the work being done](references/reading-map.md) for fuller arguments. Reading a position does
   not mean adopting it or beginning a project to develop personal accounts.
-- **Borrow a method.** Use [Philosophy and models](references/design-and-revision.md)
+- **Borrow a method.** Use [Forming and revising working models](references/design-and-revision.md)
   to locate the relevant contribution among the six writing files. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
   this package, forming all six actual files, or writing a personal philosophy.
@@ -159,7 +159,7 @@ people, model capabilities, mechanisms, or effects still need their own grounds.
 
 ## Form or revise the situated working models
 
-Read [Philosophy and models](references/design-and-revision.md) when forming
+Read [Forming and revising working models](references/design-and-revision.md) when forming
 or repairing the understanding needed for the chosen collaboration, including
 when creating or revising any of the six situated files. Follow its route
 to the corresponding public writing guide for each affected account. The model

@@ -2,7 +2,7 @@
 
 <a id="how-to-describe-environmental-realization"></a>
 
-[简体中文](environment.zh-CN.md) · [Philosophy and models](../design-and-revision.md) · [Revision](revision.md)
+[简体中文](environment.zh-CN.md) · [Forming and revising working models](../design-and-revision.md) · [Revision](revision.md)
 
 Write the actual environment account at `references/situated/environment.md`
 in the private package. Explain how this collaboration takes working form

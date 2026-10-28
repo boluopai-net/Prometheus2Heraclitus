@@ -1,6 +1,6 @@
 # 如何阐明共同工作的关系
 
-[English](relationship.md) · [哲学与模型](../design-and-revision.zh-CN.md)
+[English](relationship.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
 实际关系描述写在私人包的 `references/situated/relationship.md`。对象是共同活动：这个
 [人](person.zh-CN.md)与[伙伴](counterpart.zh-CN.md)怎样贡献、纠正、分工并改变理解。

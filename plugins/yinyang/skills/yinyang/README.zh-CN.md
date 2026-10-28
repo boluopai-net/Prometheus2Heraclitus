@@ -43,9 +43,9 @@
 
 | 目的 | 入口 |
 | --- | --- |
-| 理解形成与使用自己的阴阳这项实践 | [实践说明](references/docs/creation-method.zh-CN.md)。 |
-| 理解哲学与个人模型怎样相接 | [哲学与模型](references/design-and-revision.zh-CN.md)，通向六份文件的写作指导。 |
-| 让六份文件在日常协作中发挥作用 | [使用阴阳](SKILL.zh-CN.md)，包含初始阅读约定与使用路径。 |
+| 理解形成与使用自己的阴阳这项实践 | [实践总览](references/docs/creation-method.zh-CN.md)。 |
+| 理解哲学与个人模型怎样相接 | [工作模型的形成与修订](references/design-and-revision.zh-CN.md)，通向六份文件的写作指导。 |
+| 让六份文件在日常协作中发挥作用 | [阴阳的日常协作](SKILL.zh-CN.md)，包含初始阅读约定与使用路径。 |
 
 文件与更新见[包结构说明](references/docs/skill-package.zh-CN.md)，论证与来源见[阅读地图](references/reading-map.zh-CN.md)。
 
@@ -78,7 +78,7 @@
 | --- | --- |
 | 发展的目的是什么？ | [窃火与创造能力的培养](references/docs/stealing-fire.zh-CN.md)连接可用能力、个人培养与相互理解。 |
 | 阴阳提出什么主张？ | [核心观点](references/docs/core-views.zh-CN.md)提供命题地图。 |
-| 意义怎样取得工作形式？ | [实践说明](references/docs/creation-method.zh-CN.md)连接表达、关系、实现与证据。 |
+| 意义怎样取得工作形式？ | [实践总览](references/docs/creation-method.zh-CN.md)连接表达、关系、实现与证据。 |
 | 各项贡献怎样相接？ | [哲学、心理与工程的三位一体](references/docs/local-source-and-website.zh-CN.md)连接哲学、心理、工程及其实践载体。 |
 | 核心意象表达什么？ | [阴阳与太极中的共同生成](references/docs/yinyang-and-taiji.zh-CN.md)展开互为根、转化与日月地。 |
 | 具体论证和原典在哪里？ | [按任务问题阅读](references/reading-map.zh-CN.md)通向文章、图示及哲学、心理和工程来源。 |

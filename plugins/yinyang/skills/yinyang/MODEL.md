@@ -8,7 +8,7 @@ all its philosophical claims.
 
 The [core views](references/docs/core-views.md) own the numbered propositions.
 The essays develop their arguments, images, examples, and sources.
-[SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the six files. [Philosophy and models](references/design-and-revision.md)
+[SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the six files. [Forming and revising working models](references/design-and-revision.md)
 explains their relationship; writing directions belong to the six public how-to
 guides, corresponding to six private actual files. Use the [reading map](references/reading-map.md) to locate
 the argument relevant to a change.
@@ -248,7 +248,7 @@ Personal claims must be grounded in attributable expression, relevant
 experience, and actual use. Formation does not require a complete biography.
 Maintain evidence and interpretations at their private personal owner, and
 condense only the implications the working models need.
-The [Philosophy and models](references/design-and-revision.md) owns how to develop and
+The [Forming and revising working models](references/design-and-revision.md) owns how to develop and
 revise the situated account; [Environment writing guide](references/formation/environment.md)
 owns carrying it into an environment and learning from the result.
 Use host policy for model selection, authority, and publication rather than

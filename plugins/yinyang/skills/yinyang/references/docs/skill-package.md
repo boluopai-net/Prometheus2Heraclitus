@@ -82,8 +82,8 @@ Both entire trees, `references/situated/` and `references/personal/`, are privat
 Everything else is common package content, including the entrypoint, six writing
 guides, essays, diagrams, and scripts. Distributed copies and private copies
 choosing continued common updates keep common content byte-identical.
-[Using YinYang](../../SKILL.md) owns the actual initial reading;
-[Philosophy and models](../design-and-revision.md) connects the writing objects.
+[Everyday collaboration with YinYang](../../SKILL.md) owns the actual initial reading;
+[Forming and revising working models](../design-and-revision.md) connects the writing objects.
 
 ## Questionnaire and assessment material
 

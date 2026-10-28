@@ -2,7 +2,7 @@
 
 <a id="如何描述环境中的实现"></a>
 
-[English](environment.md) · [哲学与模型](../design-and-revision.zh-CN.md) · [修订](revision.zh-CN.md)
+[English](environment.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md) · [修订](revision.zh-CN.md)
 
 实际环境描述写在私人包的 `references/situated/environment.md`。说明协作怎样通过物质、
 社会、信息与计算安排取得工作形式。把采纳的[取向](orientation.zh-CN.md)、

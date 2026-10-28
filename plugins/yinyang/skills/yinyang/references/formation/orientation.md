@@ -1,6 +1,6 @@
 # How to articulate an adopted orientation
 
-[简体中文](orientation.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
+[简体中文](orientation.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 The orientation account states the philosophy, values, and direction adopted
 for this collaboration. Write its actual content at

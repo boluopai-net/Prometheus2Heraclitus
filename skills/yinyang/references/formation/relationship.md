@@ -1,6 +1,6 @@
 # How to articulate a working relationship
 
-[简体中文](relationship.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
+[简体中文](relationship.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 Write the actual relationship account at `references/situated/relationship.md`
 in the private package. Its object is the joint activity: how this

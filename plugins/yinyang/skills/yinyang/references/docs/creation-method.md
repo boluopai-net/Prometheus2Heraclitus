@@ -1,6 +1,6 @@
-# Practice: forming and using your own YinYang
+# YinYang practice overview
 
-[Home](../../README.md) · [Philosophy and models](../design-and-revision.md) · [Using YinYang](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
+[Home](../../README.md) · [Forming and revising working models](../design-and-revision.md) · [Everyday collaboration with YinYang](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
 
 Forming your own YinYang connects the views you adopt, an understanding
 of the actual participants, and an environment through which they can work.
@@ -22,7 +22,7 @@ Philosophy articulates concepts, reasons, values, and possibilities. Personal
 material grounds their application to an actual person, counterpart, and
 relationship. Either can revise the other. A chosen direction differs from an
 explanation of experience; a desired model contribution differs from demonstrated
-capability. [Philosophy and models](../design-and-revision.md) develops these
+capability. [Forming and revising working models](../design-and-revision.md) develops these
 connections and leads to the six writing files.
 
 Starting conditions and order vary. You may already have philosophical
@@ -44,7 +44,7 @@ practically. Psychological and life evidence and maintained interpretations
 principally belong in private `references/personal/`; the six files condense
 their working implications together with adopted philosophy. The revision guide teaches
 how to form a fitting revision method; the actual revision file carries that
-method. [Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
+method. [Forming and revising working models](../design-and-revision.md#form-a-situated-version-from-actual-material)
 connects these six writing objects. Its [maintenance method](../design-and-revision.md#maintain-the-private-material-through-use)
 owns each refresh of the working files and the relevant private material.
 
@@ -59,7 +59,7 @@ argument, compare an account with experience, inspect an arrangement, or make
 an authorized change. Different writing forms serve different contributions
 without reserving philosophy for humans or practical understanding for models.
 
-[Using YinYang](../../SKILL.md) explains how the current six files cooperate
+[Everyday collaboration with YinYang](../../SKILL.md) explains how the current six files cooperate
 in ordinary work. The [package guide](skill-package.md) explains their common
 and private paths and shared updates. These are connected entrances, not a
 sequence to repeat for every task. The [example and commons essay](example-and-commons.md)

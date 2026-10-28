@@ -62,7 +62,7 @@ Preference material asks what is selected, valued, retained, or changed, and how
 
 A person may prefer a mobile working arrangement, experience fatigue while remaining still, and depend on a particular device for some tasks. Keeping those contributions distinct makes their relation easier to understand and revise. An assessment result does not settle what the person values; a preference does not explain its psychological cause; a bodily condition needs its own dated evidence.
 
-Private **Personal** material can organize these subjects, retaining source records and interpretations with their grounds. The six working accounts then draw on them according to their subjects: direction, person, counterpart, relationship, environment, and revision. The person account can bring preferences, psychological material, and life conditions together without reducing the person to any one category. [Philosophy and models](../design-and-revision.md) develops how this understanding becomes usable collaboration.
+Private **Personal** material can organize these subjects, retaining source records and interpretations with their grounds. The six working accounts then draw on them according to their subjects: direction, person, counterpart, relationship, environment, and revision. The person account can bring preferences, psychological material, and life conditions together without reducing the person to any one category. [Forming and revising working models](../design-and-revision.md) develops how this understanding becomes usable collaboration.
 
 ## Finish situated tasks amid changing norms and worlds
 

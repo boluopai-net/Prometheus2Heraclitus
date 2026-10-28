@@ -3,7 +3,7 @@
 <a id="修订"></a>
 <a id="修订个人阴阳与工作环境"></a>
 
-[English](revision.md) · [哲学与模型](../design-and-revision.zh-CN.md) · [环境](environment.zh-CN.md)
+[English](revision.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md) · [环境](environment.zh-CN.md)
 
 作者用这套方法，让 Yinyang 的核心[交叉参与与返回](relationship.zh-CN.md#在有关之处说明交换与返回)
 始终接受实际相遇的检验。哲学、个人理解与实际工作通过这条关系发展。修订可以从发展后的思想、

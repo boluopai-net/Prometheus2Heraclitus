@@ -61,8 +61,8 @@ Choose the entrance that serves the current question:
 | Purpose | Entrance |
 | --- | --- |
 | Understand the practice of forming and using your own YinYang | [Practice overview](references/docs/creation-method.md). |
-| Understand how philosophy and personal models connect | [Philosophy and models](references/design-and-revision.md), leading to the six writing files. |
-| Use the six files in ordinary collaboration | [Using YinYang](SKILL.md), including initial reading and routes. |
+| Understand how philosophy and personal models connect | [Forming and revising working models](references/design-and-revision.md), leading to the six writing files. |
+| Use the six files in ordinary collaboration | [Everyday collaboration with YinYang](SKILL.md), including initial reading and routes. |
 
 For files and updates, use the [package guide](references/docs/skill-package.md);
 for arguments and sources, use the [reading map](references/reading-map.md).
@@ -109,7 +109,7 @@ The essays answer connected questions rather than forming a compulsory course:
 | --- | --- |
 | What is the developmental purpose? | [Stealing fire and cultivating creative capacity](references/docs/stealing-fire.md) connects available capacities, personal cultivation, and reciprocal understanding. |
 | What claims does YinYang make? | [Core views](references/docs/core-views.md) gives the proposition map. |
-| How does meaning acquire a working form? | [Practice explanation](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
+| How does meaning acquire a working form? | [Practice overview](references/docs/creation-method.md) connects expression, relation, realization, and evidence. |
 | How do the contributions fit together? | [The trinity of philosophy, psychology, and engineering](references/docs/local-source-and-website.md) connects philosophy, psychology, engineering, and their practical carriers. |
 | What does the central image express? | [Mutual becoming through YinYang and Taiji](references/docs/yinyang-and-taiji.md) develops mutual grounding, transformation, and Sun–Moon–Earth. |
 | Where do particular arguments and originals belong? | [Read by the work being done](references/reading-map.md) routes to the essays, diagrams, and philosophical, psychological, and engineering sources. |

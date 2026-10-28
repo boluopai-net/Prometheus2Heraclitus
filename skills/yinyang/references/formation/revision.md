@@ -3,7 +3,7 @@
 <a id="revision"></a>
 <a id="revising-a-situated-yinyang-and-its-environment"></a>
 
-[简体中文](revision.zh-CN.md) · [Philosophy and models](../design-and-revision.md) · [Environment](environment.md)
+[简体中文](revision.zh-CN.md) · [Forming and revising working models](../design-and-revision.md) · [Environment](environment.md)
 
 The author uses this approach to keep YinYang's central
 [crossed participation and return](relationship.md#explain-exchange-and-return-where-they-matter)

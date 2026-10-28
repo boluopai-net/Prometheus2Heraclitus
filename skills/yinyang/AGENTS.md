@@ -12,7 +12,7 @@ actual consumer contracts; remove repetition and obsolete scaffolding.
 
 ## Authored and situated sources
 
-[SKILL.md](SKILL.md) owns invocation. [Philosophy and models](references/design-and-revision.md)
+[SKILL.md](SKILL.md) owns invocation. [Forming and revising working models](references/design-and-revision.md)
 connects philosophical expression and models. The six writing guides
 under `references/formation/`, including [how to revise](references/formation/revision.md),
 own their actual directions. Environmental realization belongs to the environment

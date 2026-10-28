@@ -9,7 +9,7 @@
 [例子与知识共有地](docs/example-and-commons.zh-CN.md)展开这条创作路径。
 阅读、选择性使用与完整采用，是可以选择的用途，不是必须依次完成的阶段。
 
-[哲学与模型](design-and-revision.zh-CN.md)展开解释证据、建立人、伙伴及关系模型的
+[工作模型的形成与修订](design-and-revision.zh-CN.md)展开解释证据、建立人、伙伴及关系模型的
 共同工作。`references/formation/` 的六份公开指南，分别说明怎样写出取向、人、伙伴、关系、环境与修订；
 `references/situated/` 的私人描述赋予 Skill 情境化实质，`references/personal/` 的证据
 支持它们。公开分发不包含两个私人目录。完整采用时，[主入口](../SKILL.zh-CN.md)
@@ -31,9 +31,9 @@
 | 检查协作是否合适 | 模型维护六份工作描述；本人通过实际贡献和结果判断，无须重读画像。[描述维护与实际协作](formation/revision.zh-CN.md#重读个人材料检查工作模型)说明这一区分。 |
 | 追赶已经成为义务，却不清楚它在生活中的位置 | [从追逐到生活中的修习](docs/stealing-fire.zh-CN.md#从追逐到生活中的修习)考察组织追逐的进步与自我图景，把哲学治疗、筏喻与可修订的手段联系起来，再把问题带回选定的活动与周围生活。 |
 | 已有起点，却找不到学习路线 | [已有材料与起步条件](design-and-revision.zh-CN.md#从已有材料与实践起步)区分已有哲学写作、心理或生活材料、可用环境及其两两组合，说明下一项与模型共同发展的贡献，不设置封闭阶段或三门学科的必修课程。 |
-| 请求被理解了，伙伴的贡献却仍然不合适 | [哲学与模型](design-and-revision.zh-CN.md)联系人的描述、实际伙伴与双方关系。它帮助判断这里需要什么贡献及其理由，而不从一种偏好直接推出永久角色；由此能够一起修订相关理解与分工。 |
-| 需要把理解写成情境化描述 | [哲学与模型](design-and-revision.zh-CN.md#基于实际材料形成情境化版本)把理解与凝练的方法接到六份实际文件：[取向](formation/orientation.zh-CN.md)、[人](formation/person.zh-CN.md)、[伙伴](formation/counterpart.zh-CN.md)、[关系](formation/relationship.zh-CN.md)[环境](formation/environment.zh-CN.md)和[修订](formation/revision.zh-CN.md)。永久指引说明怎样写，实际描述有独立私人路径。[证据指引](formation/revision.zh-CN.md#来源与证据)支持六份实际文件。按受影响对象深入，不把指引当作个人内容。 |
-| 思路或意象很有吸引力，却不清楚它应怎样影响实际工作 | [实践说明：形成与使用自己的阴阳](docs/creation-method.zh-CN.md)追踪表达、解释、实现与后果之间的关系。它帮助辨认工作中什么需要改变，这项思路才产生实质作用；返回的结果又能怎样改变原来的理解。 |
+| 请求被理解了，伙伴的贡献却仍然不合适 | [工作模型的形成与修订](design-and-revision.zh-CN.md)联系人的描述、实际伙伴与双方关系。它帮助判断这里需要什么贡献及其理由，而不从一种偏好直接推出永久角色；由此能够一起修订相关理解与分工。 |
+| 需要把理解写成情境化描述 | [工作模型的形成与修订](design-and-revision.zh-CN.md#基于实际材料形成情境化版本)把理解与凝练的方法接到六份实际文件：[取向](formation/orientation.zh-CN.md)、[人](formation/person.zh-CN.md)、[伙伴](formation/counterpart.zh-CN.md)、[关系](formation/relationship.zh-CN.md)[环境](formation/environment.zh-CN.md)和[修订](formation/revision.zh-CN.md)。永久指引说明怎样写，实际描述有独立私人路径。[证据指引](formation/revision.zh-CN.md#来源与证据)支持六份实际文件。按受影响对象深入，不把指引当作个人内容。 |
+| 思路或意象很有吸引力，却不清楚它应怎样影响实际工作 | [阴阳的实践总览](docs/creation-method.zh-CN.md)追踪表达、解释、实现与后果之间的关系。它帮助辨认工作中什么需要改变，这项思路才产生实质作用；返回的结果又能怎样改变原来的理解。 |
 | 文字中的安排说得通，实际环境却做着别的事 | [环境写作指南](formation/environment.zh-CN.md)把预期贡献接到当前指令、工具、能力与权限。它帮助找到改变的实际维护位置，实现改变，再把结果行为与目的比较。 |
 | 模型提供更多解释，人却仍然无法继续 | [共同反思与继续培育](docs/participation-and-support.zh-CN.md)区分理解、提取术语、开始、选择回应、中断与切换。它帮助把贡献对准缺少的连接，并考察安排支持的协调成本是否消耗了它的收益。 |
 | 多个模型、笔记与工具产生许多活动，却不清楚共同贡献是什么 | [从个人哲学到个人模型](docs/metaphor-and-self-revision.zh-CN.md)区分个人模型、外部表征、角色分配与实际耦合认知。它帮助追踪一份贡献怎样抵达下一项活动，并说明独立检查为何需要接触来源或结果，而不是反复复制同一摘要。 |

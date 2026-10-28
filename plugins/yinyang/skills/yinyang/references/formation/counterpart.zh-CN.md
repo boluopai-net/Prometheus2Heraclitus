@@ -1,6 +1,6 @@
 # 如何描述实际模型伙伴
 
-[English](counterpart.md) · [哲学与模型](../design-and-revision.zh-CN.md)
+[English](counterpart.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
 实际伙伴描述写在私人包的 `references/situated/counterpart.md`。说明通过真实界面、上下文、
 工具、权限和行为遇到的模型，以及希望它作出的贡献。[关系描述](relationship.zh-CN.md)

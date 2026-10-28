@@ -1,6 +1,6 @@
 # How to describe the actual model counterpart
 
-[简体中文](counterpart.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
+[简体中文](counterpart.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 Write the actual counterpart account at `references/situated/counterpart.md` in
 the private package. Explain the model encountered through its real interfaces,

@@ -427,7 +427,7 @@ Obsidian 的多个库也采用**一套共享基础配置**：主题、插件选�
 
 把这三项连起来，一次口头生成就不必停在聊天里：模型可以写出理解，与你继续判断，再修改阅读入口、学习材料、工作工具或日常安排。你学习的是怎样参与、怎样判断关系是否合适、哪些复杂性值得保留；模型承担它能完成的调查、配置、代码、调试和检查。工具更多、文件更齐全，并不自动使这段关系更好；实际能否理解、生成、纠正和完成工作，才给调整提供根据。
 
-这些实践可以从眼前需要开始。想进一步写出自己的安排，可沿[哲学与模型](../design-and-revision.zh-CN.md)进入六份写作指引；想了解三种贡献的根据，可按问题选择[哲学阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html)、[心理阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html)与[工程阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html)。借用其中一种方法，也可以直接服务于当前任务。
+这些实践可以从眼前需要开始。想进一步写出自己的安排，可沿[工作模型的形成与修订](../design-and-revision.zh-CN.md)进入六份写作指引；想了解三种贡献的根据，可按问题选择[哲学阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/philosophical-readings.zh-CN.html)、[心理阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/psychological-readings.zh-CN.html)与[工程阅读](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/engineering-readings.zh-CN.html)。借用其中一种方法，也可以直接服务于当前任务。
 
 <a id="automation"></a>
 

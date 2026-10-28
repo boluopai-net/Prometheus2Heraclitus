@@ -1,6 +1,6 @@
 # 如何阐明所采纳的取向
 
-[English](orientation.md) · [哲学与模型](../design-and-revision.zh-CN.md)
+[English](orientation.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
 取向描述说明这段协作采纳的哲学、价值与方向。实际内容写在私人包的
 `references/situated/orientation.md`，本公开指引始终与它分开保留。当前维护的实现固定包含

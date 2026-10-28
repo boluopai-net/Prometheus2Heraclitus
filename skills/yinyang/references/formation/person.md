@@ -1,6 +1,6 @@
 # How to develop a grounded person account
 
-[简体中文](person.zh-CN.md) · [Philosophy and models](../design-and-revision.md)
+[简体中文](person.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 Write the actual person account at `references/situated/person.md` in the
 private package. Its object is a person acting in particular situations, with
@@ -143,7 +143,7 @@ emotion, desire, interpretation, and relationships call for explanatory evidence
 Preferences inform that explanation without supplying it alone. Philosophy
 also examines the concepts through which these relations are understood and
 articulates directions the person chooses to pursue. The
-[Philosophy and models](../design-and-revision.md#form-a-situated-version-from-actual-material)
+[Forming and revising working models](../design-and-revision.md#form-a-situated-version-from-actual-material)
 develops this joint practice. Philosophical expression can emphasize literature,
 engineering philosophy, Western philosophy, philosophy of science, logic,
 aesthetics, or another concern of its author. When that authorship is wanted,
