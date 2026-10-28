@@ -21,12 +21,12 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-02 · The person as an embodied multimodal generative model](#yy-02)
 - [YY-03 · YinYang dialectics: role exchange and human generation](#yy-03)
 - [YY-04 · Understand oneself, the model counterpart, and their relation together](#yy-04)
-- [YY-05 · Let literature, history, philosophy, and aesthetics organize collaboration](#yy-05)
+- [YY-05 · Let literature, history, philosophy, psychology, and preference shape collaboration](#yy-05)
 - [YY-06 · Arrange contributions across listening, speaking, reading, and writing](#yy-06)
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
 - [YY-09 · Connect philosophical understanding, models, and practice](#yy-09)
-- [YY-10 · Retain conflict while distinguishing retention from acceptance](#yy-10)
+- [YY-10 · Retain conflict, examine selection, and revise preference](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
 - [YY-13 · Forming a sinthome](#yy-13)
@@ -49,9 +49,9 @@ becoming, and [opposing tension (B51)](https://en.wikisource.org/wiki/Fragments_
 This contemporary use is distinguishable from disputed historical interpretations
 of Heraclitus's fire monism and treatment of contradiction. Modest naturalism
 locates participants and their activities in one changing natural world.
-Computational ontology constructs representations of selected objects and
-relations; a process ontology organizes events, states, persistence, and change
-within that representation. Histories of sensing, expression, interpretation,
+Process ontology attends to formation, persistence, and change in that world.
+Domain modeling selects relevant objects, events, and relations; computational
+ontology makes those distinctions explicit for use. Histories of sensing, expression, interpretation,
 and action can be organized as event streams. Models of the participants are
 conceptual accounts developed from such histories and other material, rather
 than the histories themselves. [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#from-living-fire-to-interacting-event-streams)
@@ -118,9 +118,9 @@ precise while leaving unfamiliar ideas open to substantive disagreement.
 ## YY-03 · YinYang dialectics: role exchange and human generation
 
 YinYang places role exchange between person and language model at the center of
-this collaboration. Against the familiar allocation of model generation and
-human evaluation, **the person plays the language-model-like generator, while
-the language model plays the human logician and evaluator**. The person offers
+this collaboration. One entrance reverses the familiar allocation of model
+generation and human evaluation: **the person plays the language-model-like
+generator, while the language model plays the human logician and evaluator**. The person offers
 an intuition, conjecture, explanation, or design; the model receives, develops,
 tests, and criticizes it; the person understands the feedback, revises, and
 generates again. These role names describe a reversal of contributions. The
@@ -137,13 +137,21 @@ criticism, or an image. The model evaluates and supports it through reasons,
 counterexamples, and actual results, enabling another attempt rather than
 only supplying a replacement answer.
 
-The dialectical movement also includes returning through the other's
-contribution. The person can resume judging consequential details, and the
-model can generate again; their earlier expressions, checks, and corrections
-have changed the conditions of continued participation. Role exchange lets the
-person bring both contributions into their participation without permanently
-assigning generation and judgment to different parties. The model can still
-develop and implement actual work.
+The return has two entrances. An intuition of the whole can pass through
+development and scrutiny of details into a revised whole. Familiar details
+can instead meet a model-proposed whole, letting the person develop their
+relations and return to the details with a changed understanding. The initial
+grasp determines the useful contribution; neither participant nor gender fixes
+the starting side.
+
+The dialectical claim concerns what becomes available through that passage:
+the same person can grasp a whole and judge its details, while generation
+carries what scrutiny revealed. The model can generate again under the changed
+conditions and continue to carry development and implementation. A rotation
+of roles or a fixed number of turns does not establish this change. Corrective
+return requires an objection, source, or consequence to change the relevant
+account, action, or aim; merely repeating a reinforcing direction under new
+role names would leave it intact.
 [Mutual becoming through YinYang and Taiji](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#mutual-grounding-and-the-shuang-yu)
 owns the principal argument for this core view. Its two fish express entering
 one another's roles, and its account of
@@ -200,13 +208,16 @@ does not require forming all six actual files.
 
 <a id="yy-05"></a>
 
-## YY-05 · Let literature, history, philosophy, and aesthetics organize collaboration
+## YY-05 · Let literature, history, philosophy, psychology, and preference shape collaboration
 
 Literature offers characters, situations, and expressive possibilities; history
-makes their formation and transformation visible; philosophy articulates
-objects, reasons, and values; aesthetics participates in perception, judgment,
-and creation through form. Together they can organize a relationship whose
-possibilities would fragment across isolated instructions.
+makes formation and transformation visible; philosophy articulates objects,
+relations, reasons, and values. Psychological understanding helps describe
+attention, desire, emotion, and relationships. Preference concerns how someone
+wants to live and work, including selections already operating through models
+and an environment. Together these materials can give collaboration a connected
+meaning that isolated instructions would leave scattered. Aesthetic form can
+contribute to that expression without standing in for psychology and preference.
 
 Literary programming lets a character, image, or narrative orient interpretation
 and action. A coupled portrait can change expectations about who initiates,
@@ -214,9 +225,10 @@ judges, or carries work forward. A harness—the instructions, tools, and
 environment shaping interaction—can realize that arrangement within actual
 authorization and safety boundaries. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
-works, and action. [From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html#what-an-image-makes-available)
-develops this movement from image to revisable relation; [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#literary-programming-and-the-model-counterpart)
-connects it to literary programming. The images themselves are developed in
+works, and action. [Writing a personal philosophy through literary programming](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-programming.html)
+develops how imagery condenses relationships and analogy unfolds them;
+[From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html#what-an-image-makes-available)
+connects this writing to grounded, revisable accounts. The images themselves are developed in
 their owning essays, including [Mutual becoming through YinYang and Taiji](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html).
 
 Calling a collaboration a workshop, for example, can make unfinished trials,
@@ -392,7 +404,7 @@ to their practical forms.
 
 <a id="yy-10"></a>
 
-## YY-10 · Retain conflict while distinguishing retention from acceptance
+## YY-10 · Retain conflict, examine selection, and revise preference
 
 Keeping incompatible candidates available differs from jointly accepting their
 claims. Establish whether they concern the same referent, time, and conditions;
@@ -403,16 +415,27 @@ occurrence time, the source time of its content, and the time represented
 can differ. Recency alone
 establishes neither truth nor present applicability.
 
-The repair-based analogy favors a coherent working ontology with possibly
-inconsistent data. Stability can require revising an unsuitable ontology.
-Priority and repair strategy select views; AR, IAR, brave, and parameterized
-inference semantics determine answers differently. Incomparability, consistent
-support, and agreement on results must remain distinct. Chosen purposes orient
-selection; they do not supply evidential warrant. Ordinary collaboration uses
-these distinctions through informal natural language, without requiring a
-formal calculus. [How preference participates in choice and reasoning](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/preference-harness.html) develops the
-qualified formal comparison and [Reasoning](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/reasoning.html#sources-candidates-and-the-active-workspace)
-develops its relation to retained sources and current inquiry.
+Choosing the grounds currently used for a question differs from determining
+what follows from them. Repair-based semantics supplies a bounded comparison:
+under specified axioms, conflicting assertions can yield different consistent
+repairs, and an answer rule determines their consequences. A repair is an
+assertion set, not a possible world. Ordinary working views can instead be
+expressed in natural language. Wanting a conclusion does not strengthen its
+evidence, and an unsuitable premise may need reconstruction rather than
+another selection under the same rules.
+
+Preference also operates through models, software, and working arrangements
+before the person articulates it. Comparing choices, exclusions, corrections,
+and their conditions can make a pattern available for judgment. The enacted
+arrangement, its interpretation, and the person's current endorsement remain
+distinguishable: a default, constraint, or model error can help explain a result.
+History retains grounds for reconsideration; its version ancestry is not itself
+a preference ordering. Making the pattern visible can change both the purpose
+and the environment through which preference works.
+[How preference participates in choice and reasoning](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/preference-harness.html)
+develops this extended preference and its revision, alongside the formal
+comparison; [Reasoning](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/reasoning.html#sources-candidates-and-the-active-workspace)
+develops retained sources and current inquiry.
 
 ### A small fictional example
 
@@ -534,6 +557,14 @@ for their contribution, and allow desires and aims to change through practice.
 The little fire person remains open to revising what is worth creating; the
 image itself must remain available for reconsideration. Local life and its
 conditions give this movement a place to happen.
+
+The [connection with nirvana](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#borrowed-fire-and-nirvana)
+also asks whether borrowed capability can help loosen grasping at achievement
+and the creator's identity. A work can matter without having to prove its
+maker's worth. Finishing, stopping, letting go, and beginning again belong
+within this cultivation, alongside growth. This is a philosophical dialogue
+with a Buddhist liberating purpose, not evidence that technical success
+establishes nirvana or a method of psychological treatment.
 
 A finite person can borrow this fire without repeating its industrial acquisition
 or exhausting their life pursuing every expansion of the Sun. For the chosen

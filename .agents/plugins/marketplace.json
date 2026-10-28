@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.85",
+      "version": "1.1.86",
       "description": "Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
@@ -33,7 +33,7 @@
     },
     {
       "name": "yinyang-empty",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
       "source": {
         "source": "local",

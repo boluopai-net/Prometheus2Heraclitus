@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang-empty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
   "author": {
     "name": "boluopai",
