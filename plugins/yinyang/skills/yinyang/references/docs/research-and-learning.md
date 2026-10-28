@@ -8,7 +8,7 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
-First choose by purpose: [systematic foundations, research reading, or everyday learning](#learning-purposes).
+First choose by purpose: [systematic foundations, research reading, or everyday learning](#learning-purposes), with [shared reference materials and teachers](#learning-materials) as needed.
 
 1. [Draft a curriculum from your interests](#simple-learning-path)
 2. [Turn courses and books into readable materials](#study-materials)
@@ -38,6 +38,35 @@ Another entrance begins with books or papers. Becoming familiar with an unfamili
 
 These entrances can connect; they are not three stages everyone must complete. Research reading can reveal a substantial gap that calls for a course, while everyday reading can uncover a question worth pursuing. **The materials, environment, and path preparation below belongs to the systematic course route; reading one paper does not require building an entire curriculum first.** Either teacher can support these entrances: [choose the convenient teacher](#learning) for the current activity.
 
+<a id="learning-materials"></a>
+
+## Shared support: reference materials and teachers
+
+For a systematic course, a book, a single paper, or a question pursued across several papers, give the source and learning purpose to **Dot or local Codex**. Have the model use a **Teacher Skill** to write connected reference materials, then work with a teacher to read, explain, and discuss them. **Preparing materials and using a Teacher support all these learning entrances; they are not exclusive to course preparation.**
+
+Depending on the learning object, use the two- or three-document arrangement below. The model explains concepts and relationships, retains chapter, lecture, page, or paper-passage locators, adds examples and useful diagrams, and connects existing understanding, interests, and actual questions:
+
+| Material | Mathematics and technical study: three connected documents | Philosophical reading: two connected documents |
+| --- | --- | --- |
+| Glossary | Keep concepts, notation, conditions, and important distinctions independently accessible, with a concept map showing relationships. | Explain terms in their author's, period's, and argument's context, connecting them through a concept map. |
+| Main guide | A study and research guide develops the knowledge structure, principles, derivations, examples, reading order, and connections to your questions. | A reading guide develops problems, claims, reasons, objections, and responses, preserving interpretive differences and relevant connections. |
+| Exercises and experiments | Distinguish written exercises from experimentation or making; keep questions, solutions, and evaluation grounds separately readable, with links to the guide and glossary. | Do not automatically add technical labs. Discussion, interpretation, comparison, and counterexamples can develop through reading; prepare technical training when such an activity is actually selected. |
+
+Organize materials around one learning object. A single paper can have its own two or three reference documents; papers addressing one question can share a set while retaining the relevant locations in each source. Do not mechanically duplicate it for every video, slide deck, or supporting citation. Overall learning paths select across courses; a specific guide develops understanding of the current book, paper, or question. Original sources and model explanations retain their separate identities.
+
+Preparation depth follows purpose. A systematic course can have its full materials prepared before study begins. Single-paper reading and research learning can start with the materials currently needed, then add foundational papers' knowledge and relationships to the glossary and guide as gaps emerge. Everyday learning can use the same arrangement, emphasizing important abstractions, conclusions, and examples, with a few understanding checks where helpful rather than automatically expanding into comprehensive training.
+
+<a id="learning"></a>
+
+### Choose a convenient teacher
+
+| Teacher | Emphasis |
+| --- | --- |
+| [Local Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/local-teacher) | Read textbooks and papers, review, and learn through local files, code, and experiments in Codex. |
+| [Web Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/web-teacher) | Investigate questions, compare interpretations, explore neighboring knowledge, and organize materials and continuity in Web conversations. |
+
+Both share teaching methods; begin with the entrance convenient for you. Ask directly: “Guide me through this paper,” “Explain how this concept relates to my existing understanding,” or “Help me explore this research idea.” Teachers can also use the disciplinary references and research methods below. Let the model handle downloading, installation, connections, and selection. See [Using the Tools](https://boluopai.net/getting-started/en/) for general tools and file arrangements.
+
 <a id="simple-learning-path"></a>
 
 ## 1. Draft a curriculum from your interests
@@ -66,21 +95,9 @@ Search primarily for **online courses from outside China with matching topics or
 
 Have the model download all available resources it finds, including videos, notes, slides, subtitles, assignments, code, and books. Organize them by course and check completeness. Where the model cannot complete a download, list the material, original link, and reason for manual completion. Distinguish downloaded materials, online-only entrances, and outstanding items in the index.
 
-### Have the model prepare connected notes
+### Prepare course materials with the shared method
 
-Give the course system and materials to **Dot or local Codex** and ask it to use a **Teacher Skill** to write notes: explain concepts and relationships in course order, add a glossary, examples, and useful diagrams, retain chapter, lecture, or page locators, and provide a clear reading entrance. Notes should explain what the object is and why it is understood this way, connecting the source with existing understanding, interests, and actual questions. A book or intended work can support learning without a research plan.
-
-For sustained study of a course, book, or topic, the following arrangement can help. These materials serve one learning object; do not duplicate the set for every video, slide deck, or incidental reference:
-
-| Material | Mathematics and technical study: three connected documents | Philosophical reading: two connected documents |
-| --- | --- | --- |
-| Glossary | Keep concepts, notation, conditions, and important distinctions independently accessible, with a concept map showing relationships. | Explain terms in their author's, period's, and argument's context, connecting them through a concept map. |
-| Main guide | A study and research guide develops the knowledge structure, principles, derivations, examples, reading order, and connections to your questions. | A reading guide develops problems, claims, reasons, objections, and responses, preserving interpretive differences and relevant connections. |
-| Exercises and experiments | Distinguish written exercises from experimentation or making; keep questions, solutions, and evaluation grounds separately readable, with links to the guide and glossary. | Do not automatically add technical labs. Discussion, interpretation, comparison, and counterexamples can develop through reading; prepare technical training when such an activity is actually selected. |
-
-This is the distinction between three documents and two, not five extra files for every book. Overall theory and practice paths select across courses; a book's guide develops understanding of that book without duplicating the overall path. Original sources and model explanations retain their separate identities.
-
-Where training materials are useful, prepare questions, solutions, and evaluation grounds across the course's scope, checking answers and keeping them separate from questions. This provides a collection to select from later, without requiring immediate comprehensive practice. Prepare resources, notes, and training materials here; actual reading and exercises follow the environment and learning paths.
+Use the [shared reference-material arrangement](#learning-materials) to prepare a glossary, main guide, and relevant exercises or experiments for the selected courses. Where training materials are useful, prepare questions, solutions, and evaluation grounds across the course's scope, checking answers and keeping them separate from questions for later selection. This systematic course route prepares materials, an environment, and learning paths before reading and practice; other reading entrances can develop materials during reading.
 
 <a id="practice-environment"></a>
 
@@ -127,16 +144,7 @@ Keep an existing curriculum when it fits, adding the practice path and its conne
 
 Begin actual study after preparing the materials, environment, and paths. During preparation the model organizes and checks resources and tests tools; the person need not start the course reading or exercises described below. **Once everything is ready, open it when you feel good and want to study.**
 
-<a id="learning"></a>
-
-### Choose a convenient teacher
-
-| Teacher | Emphasis |
-| --- | --- |
-| [Local Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/local-teacher) | Read textbooks and papers, review, and learn through local files, code, and experiments in Codex. |
-| [Web Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/web-teacher) | Investigate questions, compare interpretations, explore neighboring knowledge, and organize materials and continuity in Web conversations. |
-
-Both share teaching methods; begin with the entrance convenient for you. Ask directly: “Guide me through this paper,” “Explain how this concept relates to my existing understanding,” or “Help me explore this research idea.” Teachers can also use the disciplinary references and research methods below. Let the model handle downloading, installation, connections, and selection. See [Using the Tools](https://boluopai.net/getting-started/en/) for general tools and file arrangements.
+Choose the convenient teacher through the [shared teacher entrance](#learning), then begin with the prepared materials.
 
 ### Begin with the current question
 
