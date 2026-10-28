@@ -17,6 +17,33 @@ These categories locate contributions rather than divide a person into independe
 
 Use the person's own material to refine the organization. Keep meaningful names in their native language. An existing collection can be classified through its maintained index and reader navigation without moving every file. Create a deeper directory only when it clarifies a substantial body of material. Source and archive indexes supply provenance, not another competing portrait.
 
+## Bring personal memory into the same account
+
+Remembered preferences, background facts, and useful context can be maintained
+directly in `references/personal/`, classified by what they concern. When an
+existing Personal file already develops the subject, integrate the useful
+meaning there rather than keeping a second account because it came from a
+chatbot's memory folder. Organize remaining everyday context in the way that
+makes it easiest to maintain with the person's actual material.
+
+Material may also stay with an existing private owner and be referenced from a
+Personal file. Make the reference useful: say what the record contributes,
+where the intended model can read it, and which source should be revised when
+the content changes. This supports managing the material together without
+copying every original. Retain dates, attribution, and uncertainty; migrating
+an old observation does not make it a current fact. Credentials and sensitive
+originals keep their own access boundaries.
+
+If a host injects selected memory into conversations, treat that text as a
+concise working selection from the maintained material. Keep enough context
+to act usefully, while fuller evidence and exceptions remain reachable. During
+authorized revision, the model can update the relevant account, change what
+is selected, and retire obsolete summaries or duplicate entrypoints. Verify
+the actual host's retrieval or injection after changing its source. Storing a
+file, publishing a Skill, and updating a product's native memory are different
+operations; none establishes the others or starts an automatic collection
+service. Personal memory and its references remain private.
+
 ## Understand preference in its extended realization
 
 Study preference as it operates through the person, model, tools, and personal environment. The environment can partly constitute the selection capacity being understood; it is not merely noise to remove before identifying an internal preference. Model-assisted choices, adopted defaults, and revisions can expose a pattern before the person knows how to describe it.

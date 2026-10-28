@@ -41,6 +41,7 @@
 `references/personal/` 保存偏好与选择、心理经验与测评、个人条件，以及身份表达和作品。
 维护中的 `README.md` 负责分类，`sources.md` 定位来源。
 [组织 Personal 个人材料](../formation/personal-material.zh-CN.md)负责分类方法、材料缺口及它们怎样支持六份文件。
+其中也说明[个人记忆](../formation/personal-material.zh-CN.md#把个人记忆纳入同一份理解)可以直接纳入 Personal，或由这里引用已有私有来源。
 较长历史、原件与专题材料留在已有
 维护者处，或置于这个目录，通过有访问边界的定位取得。六份工作文件把所采纳的哲学与
 更新后的个人材料凝练为协作需要的含义，不是六份心理模型，也不是主要的自我分析档案；
