@@ -20,7 +20,8 @@ DRAWN = {
     'yinyang': '<circle cx="12" cy="12" r="10" fill="white" stroke="#222" stroke-width=".8"/><path d="M12 2a10 10 0 0 1 0 20 5 5 0 0 1 0-10 5 5 0 0 0 0-10" fill="#222"/><circle cx="12" cy="7" r="1.8" fill="#222"/><circle cx="12" cy="17" r="1.8" fill="white"/>',
     'obsidian-sync': '<path d="M12 4l5 5-1 9-5 3-5-7 2-7z" fill="#7951b3" stroke="#68439a" stroke-width=".6"/><path d="M12 4l-1 10-5 0 2-7z" fill="#b69adf"/><path d="M12 4l5 5-6 5z" fill="#9972cf"/><path d="M11 14l5 4-5 3z" fill="#563482"/><path d="M17 9l-1 9-5-4z" fill="#7044a6"/><path d="M2 10a10 10 0 0 1 17-5 M22 14a10 10 0 0 1-17 5" fill="none" stroke="#689c9a" stroke-width="1.7" stroke-linecap="round"/><path d="M19 1v4h-4 M5 23v-4h4" fill="none" stroke="#689c9a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
 }
-_mini_colors = ['#ee8f86', '#f4b46f', '#f2d86f', '#99c990', '#7dcbc7', '#80addd', '#b091d3']
+SPECTRUM = ['#ff4538', '#ff9426', '#ffe13e', '#50d65a', '#23d7df', '#397fff', '#9c4bfa']
+_mini_colors = SPECTRUM
 _mini_parts = []
 for _i, _color in enumerate(_mini_colors):
     _a, _b = [math.radians(v * 360 / 7) for v in (_i, _i + 1)]
@@ -44,20 +45,26 @@ def badge(name):
 
 
 def wheel(english, skills, yinyang_source):
-    colors = ['#ef9991', '#f5bd83', '#f5df83', '#a7d49c', '#91d5d2', '#92bae5', '#ba9edb']
     segments = []
+    gradients = []
     step = 360 / len(ORDER)
     def point(radius, degrees):
         a = math.radians(degrees)
         return f'{280 + radius * math.sin(a):.3f} {280 - radius * math.cos(a):.3f}'
     for i, name in enumerate(ORDER):
+        position = i * (len(SPECTRUM) - 1) / (len(ORDER) - 1)
+        left = min(int(position), len(SPECTRUM) - 2)
+        fraction = position - left
+        rgb = [round(int(SPECTRUM[left][j:j+2], 16) * (1-fraction) + int(SPECTRUM[left+1][j:j+2], 16) * fraction) for j in (1, 3, 5)]
+        color = '#' + ''.join(f'{channel:02x}' for channel in rgb)
+        gradients.append(f'<radialGradient id="wheel-spectrum-{i}" gradientUnits="userSpaceOnUse" cx="280" cy="280" r="264"><stop stop-color="#fffdf0"/><stop offset=".24" stop-color="#fff6d8"/><stop offset=".62" stop-color="{color}" stop-opacity=".68"/><stop offset=".88" stop-color="{color}"/><stop offset="1" stop-color="{color}" stop-opacity=".86"/></radialGradient>')
         title = ('YinYang' if english else '阴阳') if name == 'yinyang' else skills[name][1 if english else 0]
         route = yinyang_source if name == 'yinyang' else '/tools/' + name + ('/en/' if english else '/')
         mid = i * step
         x, y = point(211, mid).split()
         art = graphic(name, float(x)-17, float(y)-17, 34) if name in DRAWN else f'<text x="{x}" y="{float(y)+2}" text-anchor="middle" dominant-baseline="central" font-size="32" style="font-family:Apple Color Emoji,Segoe UI Emoji,sans-serif">{SYMBOLS[name]}</text>'
         d = f'M280 280 L{point(264, mid-step/2)} A264 264 0 0 1 {point(264, mid+step/2)} Z'
-        segments.append(f'<a href="{route}" data-wheel-option="{name}" data-wheel-label="{html.escape(title, quote=True)}" aria-label="{i+1}. {html.escape(title, quote=True)}"><title>{html.escape(title)}</title><path class="skill-sector" d="{d}" fill="{colors[i % len(colors)]}" stroke="#fff9e9" stroke-width="1.8"/><circle cx="{x}" cy="{y}" r="23" fill="#fff8e7" fill-opacity=".88"/>{art}<text x="{point(246, mid).split()[0]}" y="{point(246, mid).split()[1]}" text-anchor="middle" dominant-baseline="middle" fill="#29404c" font-weight="600" font-size="11">{i+1:02}</text></a>')
+        segments.append(f'<a href="{route}" data-wheel-option="{name}" data-wheel-label="{html.escape(title, quote=True)}" aria-label="{i+1}. {html.escape(title, quote=True)}"><title>{html.escape(title)}</title><path class="skill-sector" d="{d}" fill="url(#wheel-spectrum-{i})" stroke="#fffdf2" stroke-opacity=".72" stroke-width="1.2"/><circle cx="{x}" cy="{y}" r="23" fill="#ffffff" fill-opacity=".94"/>{art}<circle cx="{point(246, mid).split()[0]}" cy="{point(246, mid).split()[1]}" r="8.5" fill="#ffffff" fill-opacity=".90"/><text x="{point(246, mid).split()[0]}" y="{point(246, mid).split()[1]}" text-anchor="middle" dominant-baseline="middle" fill="#29404c" font-weight="600" font-size="11">{i+1:02}</text></a>')
     label = '22 Skills · equal chances' if english else '22 个 Skill · 等概率抽选'
-    studs = ''.join(f'<circle cx="{point(272, i*360/44).split()[0]}" cy="{point(272, i*360/44).split()[1]}" r="3.7" fill="#e2e0dc" stroke="#fff" stroke-width=".8"/>' for i in range(44))
-    return f'<div class="skills-wheel-stage"><span class="skills-wheel-pointer" aria-hidden="true"></span><svg class="skills-picker" viewBox="0 0 560 560" role="group" aria-label="{label}"><defs><linearGradient id="wheel-rim" x2=".8" y2="1"><stop stop-color="#ffffff"/><stop offset=".38" stop-color="#faf9f6"/><stop offset=".7" stop-color="#eeede9"/><stop offset="1" stop-color="#f8f7f3"/></linearGradient><radialGradient id="wheel-hub" cx="35%" cy="25%"><stop stop-color="#ffffff"/><stop offset=".8" stop-color="#faf9f6"/><stop offset="1" stop-color="#e6e4de"/></radialGradient></defs><circle cx="280" cy="280" r="279" fill="url(#wheel-rim)" stroke="#d5d3cf" stroke-width="1"/>{studs}<g data-wheel-disc>{"".join(segments)}</g><circle cx="281" cy="284" r="73" fill="#77766f" opacity=".22"/><circle cx="280" cy="280" r="70" fill="url(#wheel-hub)" stroke="#c9c7c0" stroke-width="3"/><circle cx="280" cy="280" r="62" fill="none" stroke="#ffffff"/><text x="280" y="277" text-anchor="middle" fill="#53616a" font-size="22" font-weight="700" letter-spacing="2">SKILLS</text><text x="280" y="301" text-anchor="middle" fill="#868a88" font-size="11" letter-spacing="1">22 · DISCOVER</text></svg></div>'
+    studs = ''.join(f'<circle cx="{point(272, i*360/44).split()[0]}" cy="{point(272, i*360/44).split()[1]}" r="3.7" fill="#fff5bd" stroke="#ffffff" stroke-width=".8"/>' for i in range(44))
+    return f'<div class="skills-wheel-stage"><span class="skills-wheel-pointer" aria-hidden="true"></span><svg class="skills-picker" viewBox="0 0 560 560" role="group" aria-label="{label}"><defs>{"".join(gradients)}<linearGradient id="wheel-rim" x2=".8" y2="1"><stop stop-color="#ffffff"/><stop offset=".38" stop-color="#fffaf0"/><stop offset=".7" stop-color="#ffe9b1"/><stop offset="1" stop-color="#fff5d9"/></linearGradient><radialGradient id="wheel-hub" cx="35%" cy="25%"><stop stop-color="#ffffff"/><stop offset=".8" stop-color="#fffaf0"/><stop offset="1" stop-color="#f4d98c"/></radialGradient></defs><circle cx="280" cy="280" r="279" fill="url(#wheel-rim)" stroke="#e6ce98" stroke-width="1"/>{studs}<g data-wheel-disc>{"".join(segments)}</g><circle cx="281" cy="284" r="73" fill="#77766f" opacity=".22"/><circle cx="280" cy="280" r="70" fill="url(#wheel-hub)" stroke="#ebcf8e" stroke-width="3"/><circle cx="280" cy="280" r="62" fill="none" stroke="#fff8de"/><text x="280" y="277" text-anchor="middle" fill="#53616a" font-size="22" font-weight="700" letter-spacing="2">SKILLS</text><text x="280" y="301" text-anchor="middle" fill="#868a88" font-size="11" letter-spacing="1">22 · DISCOVER</text></svg></div>'
