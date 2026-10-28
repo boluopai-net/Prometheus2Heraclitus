@@ -82,11 +82,6 @@ wholly internal capacity independent of the counterpart. Choosing how to
 receive, when to initiate, and how to care for what they make also makes the
 fire hers to use.
 
-The essay as a whole is written from a heterosexual perspective. The author
-is not currently able to write an account from sexual-minority perspectives.
-Suggestions are welcome in the [discussion of additional perspectives](https://github.com/boluopai-net/Prometheus2Heraclitus/issues/3);
-the author will consider incorporating them.
-
 ## Finite life and the wrong pursuit
 
 The Sun here images expanding external generative power. Trying personally to recreate its entire machinery, or treating every frontier change as a demand to catch up, can consume the time and attention needed for one's chosen life. “Being burned up” names this resource pressure. It gives a reason to borrow available capability and choose what to cultivate, rather than a scientific law about progress or a ban on doing research.
