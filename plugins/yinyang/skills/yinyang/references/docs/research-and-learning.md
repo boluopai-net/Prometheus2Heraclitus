@@ -8,11 +8,11 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
-1. [Turn interests into theory and practice paths](#simple-learning-path)
+1. [Draft a curriculum from your interests](#simple-learning-path)
 2. [Turn courses and books into readable materials](#study-materials)
-3. [Read, practice, and examine important points](#understanding-and-evaluation)
-4. [Prepare practical tools and an environment](#practice-environment)
-5. [Choose a teacher](#learning)
+3. [Prepare practical tools and an environment](#practice-environment)
+4. [Write the theory and practice learning paths](#learning-paths)
+5. [Choose a teacher and begin reading, practice, and focused checks](#understanding-and-evaluation)
 6. [Add disciplinary and research methods](#domain-methods)
 7. [Scholarly writing and publication](#resources)
 
@@ -20,7 +20,7 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 <a id="simple-learning-path"></a>
 
-## 1. Turn interests into theory and practice paths
+## 1. Draft a curriculum from your interests
 
 ### Explore interests and compare curricula
 
@@ -30,24 +30,11 @@ Ask AI to investigate Chinese universities with established work in that directi
 
 Where programs emphasize engineering, psychology, or design, or sit in computer science, psychology, artificial intelligence, design, or other departments, select representative curricula. Have AI explain the questions, knowledge, and methods each emphasizes.
 
-### Build a course system around one main curriculum
+### Draft a course system around one main curriculum
 
 Ask AI to judge which curriculum fits your interests, responses to courses, and intended activities, explaining its reasons so you can choose or revise the judgment. **Use the most interesting curriculum as the main structure and fill gaps from the others**: merge duplicates, add missing foundations and methods, arrange prerequisites, and distinguish core courses from interest-led extensions. Each course should have a clear purpose and relationship to the others.
 
-### Courses and abilities form two connected paths
-
-**The theory path organizes knowledge; the practice path organizes abilities and tools.** A course usually includes both theory and practice, but these forms of organization answer different questions. Courses help explain concepts, principles, and methods; reading alone does not develop the ability to design, analyze, or make things. Difficulties encountered in practice reveal which theories deserve closer study. Practice need not wait until every course is complete.
-
-| Path | What it organizes | How to use it |
-| --- | --- | --- |
-| Theory learning path | Questions in the field, course modules, conceptual relationships, prerequisites, and readings | Develop an overall understanding and select courses or passages for deeper inquiry. |
-| Practice learning path | Abilities in expression and judgment, tool use, making or experimentation, checking results, and revision | Begin with an ability you want to develop, practice with an actual object, and return to relevant theory. |
-
-Write the practice path first as an **outline of abilities and tools**, rather than replacing a whole direction with one invented project. Design might distinguish paper sketches, visual expression, information and interaction structure, prototypes, motion, platform differences, and design handoff. Statistics might distinguish data preparation, visualization, model selection, interpretation, and checking. These are capability areas; the particular work, dataset, or task used for practice can be chosen when learning actually takes place.
-
-For employment, have the model examine real job requirements and work materials, separating common foundations, specialties, experience requirements, and alternative tools. For curiosity, creation, or research, select from the relevant works, questions, and methods. One posting, a software list, or a model's imagination cannot establish a compulsory training program for everyone.
-
-Keep an existing curriculum when it fits, adding the practice path and its connections to courses. Paths support selection and continuity without becoming fixed daily quotas.
+The result at this point is an adjustable curriculum draft. As materials and tools are prepared, record which courses, books, and practical abilities can connect; organize the learning paths once those resources are in place. Preparation may reveal an uninteresting course, unsuitable materials, or changed tool conditions. Return to replace a course, revise the curriculum, or choose a more interesting direction when needed.
 
 <a id="study-materials"></a>
 
@@ -59,7 +46,7 @@ Search primarily for **online courses from outside China with matching topics or
 
 Have the model download all available resources it finds, including videos, notes, slides, subtitles, assignments, code, and books. Organize them by course and check completeness. Where the model cannot complete a download, list the material, original link, and reason for manual completion. Distinguish downloaded materials, online-only entrances, and outstanding items in the index.
 
-### Have the teacher prepare connected notes
+### Have the model prepare connected notes
 
 Give the course system and materials to **Dot or local Codex** and ask it to use a **Teacher Skill** to write notes: explain concepts and relationships in course order, add a glossary, examples, and useful diagrams, retain chapter, lecture, or page locators, and provide a clear reading entrance. Notes should explain what the object is and why it is understood this way, connecting the source with existing understanding, interests, and actual questions. A book or intended work can support learning without a research plan.
 
@@ -73,19 +60,69 @@ For sustained study of a course, book, or topic, the following arrangement can h
 
 This is the distinction between three documents and two, not five extra files for every book. Overall theory and practice paths select across courses; a book's guide develops understanding of that book without duplicating the overall path. Original sources and model explanations retain their separate identities.
 
-### Prepare the materials, then begin with the current question
+Where training materials are useful, prepare questions, solutions, and evaluation grounds across the course's scope, checking answers and keeping them separate from questions. This provides a collection to select from later, without requiring immediate comprehensive practice. Prepare resources, notes, and training materials here; actual reading and exercises follow the environment and learning paths.
 
-Open the main guide to see what the unit develops and how it relates to what precedes and follows it. Follow an unfamiliar term into the glossary, then return to the passage. Open the cited source when its meaning, derivation, or evidence needs checking. The guide is more than an index of original passages, and the glossary need not be memorized before reading.
+<a id="practice-environment"></a>
 
-Use diagrams to see relationships and discussion to express your understanding and questions. Let the model develop what remains unclear, then check whether it misunderstood. Saved notes and current explanations can revise one another: add useful examples, explanations, and new questions to the existing materials rather than accumulating hard-to-find copies.
+## 3. Prepare practical tools and an environment
 
-Where training materials are useful, prepare questions, solutions, and evaluation grounds across the course's scope, checking answers and keeping them separate from questions. This provides a collection to select from later, without requiring immediate comprehensive practice. **Prepare resources and notes first, then open them when you feel good and want to study.**
+After preparing materials and notes, have the model connect the environment needed by the curriculum draft, acquired resources, and abilities you want to develop. Software may be installed for later use or operated with model assistance; a complex interface or current unfamiliarity is not by itself a reason to exclude it. Installation, payment, usable capability, and personal familiarity are separate judgments.
+
+| What to prepare | Contribution to learning |
+| --- | --- |
+| Software and materials | Drawing, prototypes, audio and video, 3D, statistics, or experiments, with usable files, assets, and save locations. |
+| Application plugins and resources | Import/export, components, charts, animation, or specialist operations, checked against the current application version. |
+| Skills and teaching methods | Guidance for the model's explanation, production, and checking in this kind of work. |
+| MCP and account connections | Actual access to the necessary documents, design files, data, or application operations, verified with a real read or edit. |
+| CLIs, scripts, and interface operation | Command-line, programmatic, or computer-interface routes appropriate to the application. A tool without MCP may still be usable through another available route. |
+
+Not every tool needs all of these entrances. Have the model inspect existing applications, plugins, and public interfaces, select a combination that serves the current work, and verify it with a small real operation: read the material, perform the action, save the result, reopen it, and continue. Successful installation or a “connected” label does not establish that the whole practice path works.
+
+For paid tools, first understand licensing, subscriptions, and feature limits; preparing software does not itself authorize a purchase. When retaining a fixed version matters, record the usable version, disable its automatic updates, and preserve recoverable installation materials. Select versions for actual compatibility and use rather than following every update.
+
+Retain the tool capabilities, usable materials, and operation entrances established during preparation for the next step of writing the paths. Once practice begins, return what the tool is useful for, how to express requirements, how to assess results, and what you want to learn next to the practice path. The model can maintain software inventories and installation records; the human reading entrance should explain possible activities, their course connections, and how to begin. Model-facing collaboration accounts and personal materials may support this arrangement, but do not replace a readable learning path or require publication of personal records.
+
+<a id="learning-paths"></a>
+
+## 4. Write the theory and practice learning paths
+
+Once the materials and practical environment are ready, have the model organize the connections developed during preparation into two usable paths. The theory path should point to acquired courses, books, notes, and passages; the practice path should point to available tools, materials, operation entrances, and abilities to develop. The earlier curriculum draft supplies direction; this step supplies grounded, specific learning paths.
+
+**The theory path organizes knowledge; the practice path organizes abilities and tools.** A course usually includes both theory and practice, but these forms of organization answer different questions. Courses help explain concepts, principles, and methods; reading alone does not develop the ability to design, analyze, or make things. Difficulties encountered in practice reveal which theories deserve closer study. Practice need not wait until every course is complete.
+
+| Path | What it organizes | How to use it |
+| --- | --- | --- |
+| Theory learning path | Questions in the field, course modules, conceptual relationships, prerequisites, and readings | Develop an overall understanding and select courses or passages for deeper inquiry. |
+| Practice learning path | Abilities in expression and judgment, tool use, making or experimentation, checking results, and revision | Begin with an ability you want to develop, practice with an actual object, and return to relevant theory. |
+
+Write the practice path as an **outline of abilities and tools**, rather than replacing a whole direction with one invented project. Design might distinguish paper sketches, visual expression, information and interaction structure, prototypes, motion, platform differences, and design handoff. Statistics might distinguish data preparation, visualization, model selection, interpretation, and checking. These are capability areas; the particular work, dataset, or task used for practice can be chosen when learning actually takes place.
+
+For employment, have the model examine real job requirements and work materials, separating common foundations, specialties, experience requirements, and alternative tools. For curiosity, creation, or research, select from the relevant works, questions, and methods. One posting, a software list, or a model's imagination cannot establish a compulsory training program for everyone.
+
+Keep an existing curriculum when it fits, adding the practice path and its connections to courses. Paths support selection and continuity without becoming fixed daily quotas. Check that both paths lead to the corresponding materials and usable environment; return any gaps to preparation, then begin reading and practice. Interests and difficulties encountered during learning can reopen the paths and their preparation.
 
 <a id="understanding-and-evaluation"></a>
 
-## 3. Read, practice, and examine important points
+## 5. Read, practice, and examine important points
 
-Use reading, diagrams, discussion, and concrete examples to understand the whole. Ask the teacher to connect new and existing knowledge and compare explanations. Unfamiliar terms can be retrieved when needed; every encounter need not interrupt reading for exhaustive study of details.
+Begin actual study after preparing the materials, environment, and paths. During preparation the model organizes and checks resources and tests tools; the person need not start the course reading or exercises described below. **Once everything is ready, open it when you feel good and want to study.**
+
+<a id="learning"></a>
+
+### Choose a convenient teacher
+
+| Teacher | Emphasis |
+| --- | --- |
+| [Local Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/local-teacher) | Read textbooks and papers, review, and learn through local files, code, and experiments in Codex. |
+| [Web Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/web-teacher) | Investigate questions, compare interpretations, explore neighboring knowledge, and organize materials and continuity in Web conversations. |
+
+Both share teaching methods; begin with the entrance convenient for you. Ask directly: “Guide me through this paper,” “Explain how this concept relates to my existing understanding,” or “Help me explore this research idea.” Teachers can also use the disciplinary references and research methods below. Let the model handle downloading, installation, connections, and selection. See [Using the Tools](https://boluopai.net/getting-started/en/) for general tools and file arrangements.
+
+### Begin with the current question
+
+Open the main guide to see what the unit develops and how it relates to what precedes and follows it. Follow an unfamiliar term into the glossary, then return to the passage. Open the cited source when its meaning, derivation, or evidence needs checking. The guide is more than an index of original passages, and the glossary need not be memorized before reading.
+
+Use diagrams to see relationships and discussion to express your understanding and questions. Ask the teacher to connect new and existing knowledge, compare explanations, and develop what remains unclear, then check whether it misunderstood. Every encounter need not interrupt reading for exhaustive study of details. Saved notes and current explanations can revise one another: add useful examples, explanations, and new questions to the existing materials rather than accumulating hard-to-find copies.
 
 ### Develop theoretical understanding and practical familiarity together
 
@@ -105,42 +142,11 @@ Practice develops understanding; testing supplies performance evidence; evaluati
 
 Learning can serve curiosity and understanding without serving research. Research develops a reasoned, testable contribution to an unresolved question and includes continued learning. **Personal understanding and the reliability of research results need separate judgments.** Have the model check citations and claims against original sources, examine premises, calculations, and code, and cross-check through other methods, counterexamples, or reproduction. People need to understand the consequential assumptions, evidence, and limitations to judge whether the result answers the question. Return to the relevant course when a knowledge gap appears.
 
-<a id="practice-environment"></a>
-
-## 4. Prepare practical tools and an environment
-
-After preparing notes, have the model connect the environment needed by the practice outline. Software may be installed for later use or operated with model assistance; a complex interface or current unfamiliarity is not by itself a reason to exclude it. Installation, payment, usable capability, and personal familiarity are separate judgments.
-
-| What to prepare | Contribution to learning |
-| --- | --- |
-| Software and materials | Drawing, prototypes, audio and video, 3D, statistics, or experiments, with usable files, assets, and save locations. |
-| Application plugins and resources | Import/export, components, charts, animation, or specialist operations, checked against the current application version. |
-| Skills and teaching methods | Guidance for the model's explanation, production, and checking in this kind of work. |
-| MCP and account connections | Actual access to the necessary documents, design files, data, or application operations, verified with a real read or edit. |
-| CLIs, scripts, and interface operation | Command-line, programmatic, or computer-interface routes appropriate to the application. A tool without MCP may still be usable through another available route. |
-
-Not every tool needs all of these entrances. Have the model inspect existing applications, plugins, and public interfaces, select a combination that serves the current work, and verify it with a small real operation: read the material, perform the action, save the result, reopen it, and continue. Successful installation or a “connected” label does not establish that the whole practice path works.
-
-For paid tools, first understand licensing, subscriptions, and feature limits; preparing software does not itself authorize a purchase. When retaining a fixed version matters, record the usable version, disable its automatic updates, and preserve recoverable installation materials. Select versions for actual compatibility and use rather than following every update.
-
-As practice develops, return what the tool is useful for, how to express requirements, how to assess results, and what you want to learn next to the practice path. The model can maintain software inventories and installation records; the human reading entrance should explain possible activities, their course connections, and how to begin. Model-facing collaboration accounts and personal materials may support this arrangement, but do not replace a readable learning path or require publication of personal records.
-
-<a id="learning"></a>
-
-## 5. Choose a convenient teacher
-
-| Teacher | Emphasis |
-| --- | --- |
-| [Local Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/local-teacher) | Read textbooks and papers, review, and learn through local files, code, and experiments in Codex. |
-| [Web Teacher](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/web-teacher) | Investigate questions, compare interpretations, explore neighboring knowledge, and organize materials and continuity in Web conversations. |
-
-Both share teaching methods; begin with the entrance convenient for you. Ask directly: “Guide me through this paper,” “Explain how this concept relates to my existing understanding,” or “Help me explore this research idea.” Teachers can also use the disciplinary references and research methods below. Let the model handle downloading, installation, connections, and selection. See [Using the Tools](https://boluopai.net/getting-started/en/) for general tools and file arrangements.
-
 <a id="domain-methods"></a>
 
-## 6. Add disciplinary references and research methods
+## Supplementary resources: disciplinary references and research methods
 
-Give these two libraries to the model to download and connect to the teaching and research environment:
+These libraries are supplementary resources for the teacher or model to read and select as needed, rather than further required learning stages. When useful, have the model download and connect them to the teaching and research environment:
 
 | Library | Contribution |
 | --- | --- |
@@ -151,9 +157,9 @@ The first enriches disciplinary understanding; the second supports concrete work
 
 <a id="resources"></a>
 
-## 7. Scholarly writing and publication
+## Supplementary resources: scholarly writing and publication
 
-For reading papers, developing arguments, or preparing submissions, ask the model to use these public methods:
+For reading papers, developing arguments, or preparing submissions, ask the teacher or model to use these public methods:
 
 | Repository | Contribution |
 | --- | --- |
