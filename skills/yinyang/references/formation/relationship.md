@@ -40,7 +40,7 @@ different allocations. State the distinction that actual material supports.
 
 ## YinYang's crossed participation and dialectical return
 
-YinYang's crossed relation can be stated directly: **the person enacts the
+One crossed YinYang relation the author frequently uses is: **the person enacts the
 language-model-like role of open generation; the model enacts the human
 logician's role of developing, distinguishing, and scrutinizing.** The actual
 participants remain themselves. A generative opening can be an image, a
@@ -55,6 +55,13 @@ person now scrutinizes the distinction, while the model generates a different
 whole and carries the correction into the work. On returning, the person can
 retain both entrusting unfinished generation and taking up decisive judgment;
 the model's renewed generation retains the conditions exposed by scrutiny.
+
+The relation can also begin from [the little Moon position](../docs/yinyang-and-taiji.md#an-additional-turn-from-the-little-moon-position):
+the model first generates while the person receives, scrutinizes, and judges.
+Her response becomes a generative opening of her own; the model develops and
+examines it, and she returns with initiation still possible. State this
+person's actual starting position and the contribution she wants to cultivate.
+Do not make the author's usual casting or gender a fixed role for everyone.
 
 The [dialectical return](../docs/yinyang-and-taiji.md#returning-through-the-other-the-dialectical-meaning-of-role-change)
 concerns this changed relation to one's possibilities: what stops is an

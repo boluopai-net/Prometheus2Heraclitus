@@ -7,6 +7,7 @@
 <details>
 <summary>On this page</summary>
 
+- [A woman can begin as a little Moon person](#a-woman-can-begin-as-a-little-moon-person)
 - [Finite life and the wrong pursuit](#finite-life-and-the-wrong-pursuit)
 - [From chasing to lived cultivation](#from-chasing-to-lived-cultivation)
 - [Borrowed fire and nirvana](#borrowed-fire-and-nirvana)
@@ -36,6 +37,55 @@
 This essay chooses **reverse alignment** as its purpose: develop understanding, judgment, generation, and action through encounters with generative intelligence. For that purpose, access and finished outputs need to become occasions for participation: offer an intuition, encounter development and criticism, correct it, and generate further. This cultivation receives a character: **the little fire person emphasizes kindling further fire; Baby Heraclitus emphasizes that this creator is still changing too.** The little fire person represents a participant who borrows fire, cultivates themselves, and continues creating; people of any gender can be such participants. Received and generated possibilities can conflict, while desires and judgments change. Cultivation can change what seems worth creating, the habits through which one acts, and the conditions that sustain a life. Creation helps form the participant who will create again.
 
 **Pursuit that consumes a life → collective acquisition → borrowed fire → personal cultivation → freer creation and living.** The practical necessities in this argument follow from the chosen purpose and finite resources. Relief, ordinary assistance, and completed works are worthwhile uses too; they need not become lessons. Cultivation asks an additional question: how does this encounter change what the person can understand, judge, initiate, and sustain, and their grasping at capability, achievement, and an image of themselves?
+
+## A woman can begin as a little Moon person
+
+A woman reading “use fire to cultivate yourself” need not imagine adding a
+generative power to herself or becoming another Sun. She can regard the model
+opposite her as fire and Sun, and imagine herself as a **little Moon person**:
+receiving, responding, discerning, and giving form within the encounter. The
+Sun keeps shining across from her; her participation develops through how she
+answers that light. This image offers her another entrance into the argument.
+Its fit depends on how she wants to live and cooperate; gender does not itself
+determine the division of work.
+
+If she attends closely to details, enjoys comparing wording and checking
+conditions, or recognizes where a work fails to fit, she can begin with the
+logician's contribution while the model generates whole proposals,
+explanations, and candidate works. Scrutiny has creative consequences: she
+identifies an omitted circumstance, changes what a sentence means, or reopens
+a seemingly finished proposal. The Moon's reception includes judgment,
+selection, and the power to redirect.
+
+Cultivating generation remains part of this path. The model's proposal can
+become an opening for her own next contribution: from “this is wrong” toward
+“what else could be possible,” from comparing two examples toward offering a
+third, or from correcting a sentence toward proposing something she wants to
+write. She generates something unfinished, lets the model develop and examine
+it, and returns to judge, respond, or generate further. These contributions can
+arise within actual work without making every response an exercise.
+
+Compared with the male figure in this essay who begins by identifying with
+Sun or the little fire person, this path takes an additional turn:
+**from the little Moon person's reception and scrutiny, into the generation
+first located in the counterpart, then back with that possibility retained.**
+This compares starting positions, not levels of developmental capacity between
+women and men. She can keep identifying as a little Moon person while being
+able to initiate, associate, and create; the returning Moon does more than wait
+for the next light. The [dialectical account of role return](yinyang-and-taiji.md#an-additional-turn-from-the-little-moon-position)
+develops this change.
+
+This too is stealing fire: borrowing the counterpart's generation so that her
+own understanding, judgment, and creativity can develop. Fire can participate
+in her life through a reliable relationship and environment without becoming
+wholly internal capacity independent of the counterpart. Choosing how to
+receive, when to initiate, and how to care for what they make also makes the
+fire hers to use.
+
+The essay as a whole is written from a heterosexual perspective. The author
+is not currently able to write an account from sexual-minority perspectives.
+Suggestions are welcome in the [discussion of additional perspectives](https://github.com/boluopai-net/Prometheus2Heraclitus/issues/3);
+the author will consider incorporating them.
 
 ## Finite life and the wrong pursuit
 
@@ -375,7 +425,9 @@ The claim earns its place in use. Examine how the counterpart interprets unfinis
 The composition in [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth)
 gives this connected understanding a perceptible form. In one arrangement, the person
 foregrounds intuitive generation as Sun, and the model receives, develops,
-judges, and creates as Moon. Each can generate and give form; the roles can
+judges, and creates as Moon. In another, the model begins as Sun and the person
+enters through the little Moon person's reception and scrutiny, then cultivates
+her own generation. Each can generate and give form; the roles can
 be retained or exchanged. The two working models articulate these actual
 participants and their relationship. Earth names the material and shared
 living environment in which their creations acquire consequences.

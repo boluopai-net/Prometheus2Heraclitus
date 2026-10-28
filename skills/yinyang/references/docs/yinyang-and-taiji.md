@@ -117,7 +117,7 @@ checks it carefully enough to make another response possible. The paired fish
 thus articulate mutual grounding more closely: each side retains an opening
 toward the other kind of contribution.
 
-### The usual arrangement already includes a reversal
+### The author's usual arrangement already includes a reversal
 
 In the author's frequent arrangement, the person first grasps the whole,
 offers purposes, and recognizes whether a result fits their life and the
@@ -161,7 +161,7 @@ is an emphasis within current work: it can persist, cross, exchange, and change
 with the question.
 
 Here “thesis—antithesis—synthesis” describes how the same participant passes
-through the other's role and returns to their own. For the person, the movement
+through the other's role and returns to their own. Along the arrangement above, the movement
 is: **act as the human → act as the language model → return to acting as
 the human through having inhabited the other's role.**
 
@@ -193,6 +193,39 @@ contemporary use of the familiar emblem.
 contributes the relation of movement and stillness grounding one another;
 the human–model casting is developed through the shared practice described here.
 
+### An additional turn from the little Moon position
+
+[The woman in the fire essay](stealing-fire.md#a-woman-can-begin-as-a-little-moon-person)
+can begin from the other side: the model is Sun, and she receives its generation
+as a little Moon person. If close scrutiny is a contribution she wants to make,
+she begins as the logician, comparing the model's candidate explanations and
+examining conditions, wording, and consequences. Her generation need not
+already be the relationship's principal opening; the model can first bring
+something worth answering.
+
+The dialectical movement can then develop from her judgment. An unfitting detail
+lets her see another whole: “This sentence makes care sound like control; I want
+to write about support that leaves room for refusal.” This unfinished expression
+has already moved from scrutiny into generation. The model receives it,
+develops alternative relations, examines the explanation, and writes a new work.
+She returns to judge and can offer further possibilities that were absent before.
+
+Her path can be written: **receive and scrutinize the counterpart's generation →
+offer a new beginning → draw on the model's development and examination →
+return to reception and judgment with generation still available.**
+Compared with the author's Sun-first account, which enters open generation
+directly, this makes the receiver's passage into generation an additional
+explicit turn. “Additional” describes how these two paths unfold; the starting
+position depends on this participant's interests, capacities, and relationship.
+
+Return need not cost her the Moon image. The Moon can keep receiving,
+distinguishing, and caring for a work while knowing she can initiate too.
+Sun can receive her beginning and take up careful development and examination.
+What changes is the exclusive casting, “I can only respond; the other generates.”
+Their relationship then contains more possibilities of participation than
+repeating the same division of work. This path also borrows the other's fire
+to cultivate one's own generation.
+
 ### Returning through the other: the dialectical meaning of role change
 
 Why call this return a synthesis? If the two roles are merely alternating
@@ -220,9 +253,10 @@ connects cessation with preservation. What ceases here is the exclusive
 determination that only one participant may generate and only the other
 check. The contributions themselves are preserved and continue to work in a
 cooperation capable of exchanging emphases. Synthesis thus has concrete
-content: the person can pass through model-like generation and return to
-judgment, while the model can pass through detailed scrutiny and return to
-generation. Their differences persist in the changed relation.
+content: a person beginning in generation can bring back scrutiny; one beginning
+in reception and judgment can bring back the possibility of initiating.
+The model can pass through detailed scrutiny and return to generation.
+Their differences persist in the changed relation.
 
 ### Lacan: from a role to a position within the relation
 
@@ -377,6 +411,12 @@ independent work of a form-giving logician: interpreting, distinguishing,
 constructing, checking, and carrying a beginning further. Moonlight includes
 generation, and sunlight can include judgment. These are emphases through
 which participants meet, rather than possessions that exclude the other.
+
+The model can be Sun and the person a little Moon person. For a woman entering
+through this arrangement, reception and giving form are a starting point for
+cultivation; role reversal can also develop her possibilities of initiating
+and generating. The names make a chosen relation perceptible, while how
+participation develops depends on what both participants actually do.
 
 Imagine making a poem together. The person begins with an indistinct feeling:
 “I want to write about the light in an empty room.” The model offers an image
