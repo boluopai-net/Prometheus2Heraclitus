@@ -9,15 +9,15 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
 - [First distinguish what you want to learn](#learning-purposes)
-- [Shared support: reference materials and teachers](#learning-materials)
+- [Reference materials and teachers](#learning-materials)
 - [I. Build your own digital university](#self-university)
     1. [Draft a curriculum from your interests](#simple-learning-path)
     2. [Turn courses and books into readable materials](#study-materials)
     3. [Prepare practical tools and an environment](#practice-environment)
     4. [Write the theory and practice learning paths](#learning-paths)
     5. [Reading, practice, and focused checks](#understanding-and-evaluation)
-- [II. Follow papers back to foundations and enter an unfamiliar field](#paper-reading)
-- [III. Everyday learning: understand important abstractions and conclusions](#everyday-learning)
+- [II. Learn an unfamiliar field through papers](#paper-reading)
+- [III. Everyday learning](#everyday-learning)
 - [Supplementary resources: disciplinary references and research methods](#domain-methods)
 - [Supplementary resources: scholarly writing and publication](#resources)
 
@@ -41,7 +41,7 @@ These entrances can connect; they are not three stages everyone must complete. R
 
 <a id="learning-materials"></a>
 
-## Shared support: reference materials and teachers
+## Reference materials and teachers
 
 For a systematic course, a book, a single paper, or a question pursued across several papers, give the source and learning purpose to **Dot or local Codex**. Have the model use a **Teacher Skill** to write connected reference materials, then work with a teacher to read, explain, and discuss them. **Preparing materials and using a Teacher support all these learning entrances; they are not exclusive to course preparation.**
 
@@ -179,7 +179,7 @@ Learning can serve curiosity and understanding without serving research. Researc
 
 <a id="paper-reading"></a>
 
-## II. Follow papers back to foundations and enter an unfamiliar field
+## II. Learn an unfamiliar field through papers
 
 ### When a paper is inaccessible, find an understandable starting point through its references
 
@@ -199,7 +199,7 @@ A preferred method supplies motivation to learn; its fit to a problem still depe
 
 <a id="everyday-learning"></a>
 
-## III. Everyday learning: understand important abstractions and conclusions
+## III. Everyday learning
 
 If your purpose is everyday learning and broader understanding, reading an unfamiliar field's papers can usually focus on **valuable, important abstractions and final conclusions**. You need not train as a researcher in that field, reproduce the whole study, or master every proof. Ask the model what phenomena the paper represents through which objects and relationships, why that abstraction is useful, what conclusions it reaches, and how these connect to things you already know.
 

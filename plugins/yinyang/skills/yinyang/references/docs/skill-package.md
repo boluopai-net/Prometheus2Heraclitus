@@ -60,6 +60,8 @@ and works. Its maintained `README.md` classifies the material;
 `sources.md` locates provenance. [Organizing Personal material](../formation/personal-material.md)
 owns classification, material gaps, and how these grounds inform the six accounts. Extended history, originals, and topical material stay
 with existing owners or under that tree, reached through access-bounded locators.
+The same guide explains how [personal memory](../formation/personal-material.md#bring-personal-memory-into-the-same-account)
+can be maintained within Personal or referenced there from an existing private owner.
 The six working files condense adopted philosophy and updated personal material
 into the implications needed for cooperation. They are not six psychological
 models or the primary self-analysis archive; `person.md` does not hold the whole

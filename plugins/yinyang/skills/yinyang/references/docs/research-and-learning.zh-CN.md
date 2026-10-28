@@ -9,15 +9,15 @@
 <nav class="guide-navigation" aria-label="本页导航" markdown="1">
 
 - [先分清想怎样学习](#learning-purposes)
-- [通用支持：参考材料与老师](#learning-materials)
+- [参考材料与老师](#learning-materials)
 - [一、上电子自学大学](#self-university)
     1. [从兴趣草拟课程体系](#simple-learning-path)
     2. [把课程与书籍变成可读材料](#study-materials)
     3. [准备实践工具与环境](#practice-environment)
     4. [写出理论与实践学习路径](#learning-paths)
     5. [阅读、实践与重点检验](#understanding-and-evaluation)
-- [二、沿论文补基础，逐渐进入陌生领域](#paper-reading)
-- [三、日常学习：理解重要抽象与结论](#everyday-learning)
+- [二、沿论文学习陌生领域知识](#paper-reading)
+- [三、日常学习](#everyday-learning)
 - [补充资源：学科参考与科研方法](#domain-methods)
 - [补充资源：论文写作与发表](#resources)
 
@@ -41,7 +41,7 @@
 
 <a id="learning-materials"></a>
 
-## 通用支持：参考材料与老师
+## 参考材料与老师
 
 无论是系统课程、一本书、单篇论文，还是沿多篇论文推进一个问题，都可以把原文和学习目的交给 **Dot 或本地 Codex**，让模型用 **Teacher Skill** 编写相互连接的参考材料，再由老师带着读、讲解和讨论。**写材料与使用 Teacher 是这些学习入口通用的支持，不专属于课程准备。**
 
@@ -179,7 +179,7 @@
 
 <a id="paper-reading"></a>
 
-## 二、沿论文补基础，逐渐进入陌生领域
+## 二、沿论文学习陌生领域知识
 
 ### 看不懂时，沿参考文献找到可以理解的起点
 
@@ -199,7 +199,7 @@
 
 <a id="everyday-learning"></a>
 
-## 三、日常学习：理解重要抽象与结论
+## 三、日常学习
 
 如果只是为了日常学习、扩大理解，读陌生领域的论文通常可以把目标放在**有价值的重要抽象与最终结论**上，不必把自己训练成这个领域的研究者，也不必复现整篇论文或掌握全部证明。让模型说明：论文把什么现象抽象成了什么对象和关系，这种抽象为什么有用，最后得到了什么结论，以及它与自己熟悉的事情怎样相连。
 
