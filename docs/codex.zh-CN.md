@@ -2,17 +2,21 @@
 
 [English](codex.md)
 
-**boluopai 插件市场**把集合中的 22 个 Skill 分别做成了可安装插件。从仓库目录选择需要的
+**boluopai 插件市场**把集合中的各个 Skill 分别做成了可安装插件。从仓库目录选择需要的
 Skill，把下面的命令交给 Codex，由它完成原生安装。不需要下载 ZIP、解压或手工修目录。
 
 ## 原生安装
 
-安装阴阳：
+安装阴阳 Full：
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
 codex plugin add yinyang@boluopai
 ```
+
+需要保留辩证核心与方法、自己形成哲学和个人内容时，选择 Empty：第二条命令改为
+`codex plugin add yinyang-empty@boluopai`。Full 带完整文章与图示；Empty 不含 `docs` 与
+`diagrams`，保留六份 formation、基本观点建议及实践与协作指南。同一个人机协作选一版即可。
 
 将 `yinyang` 换成[目录](../README.zh-CN.md#集合里的-skill)中的其他包名即可。
 例如，`codex plugin add research@boluopai` 安装搜索与研究。
@@ -39,10 +43,15 @@ codex plugin add yinyang@boluopai
 `references/personal/sources.md` 形成私人证据入口，再通过客户端实际的发现机制启用。
 个人版启用后，停用分发插件，
 避免两个阴阳入口相互竞争，并在新对话中核实私人入口。
-共同内容更新可使用包内 `scripts/sync-common.py`；它会保留整个 `references/situated/`
+Full 的共同内容更新可使用包内 `scripts/sync-common.py`；它会保留整个 `references/situated/`
 与 `references/personal/`。形成后，公开写作指引仍保留在 `references/formation/`。
 旧混合路径包先按[包结构说明](../skills/yinyang/references/docs/skill-package.zh-CN.md#投影公共变更)
 由维护者迁移；迁移前，命令拒绝操作且不改变文件。
+
+Empty 从 `skills/yinyang-empty/` 更新公共方法，保留自己的 `references/philosophy/`、
+`references/personal/`、`references/situated/` 及其他独立内容；不要用 Full 的整包投影器
+更新 Empty。个人哲学也可以继续留在已有来源，由个人版引用。详见
+[Empty 文件与更新](../skills/yinyang-empty/references/package.zh-CN.md)。
 
 ## 更新与卸载
 

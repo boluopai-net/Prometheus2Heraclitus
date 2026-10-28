@@ -73,12 +73,17 @@
 
 ## 集合里的 Skill
 
+阴阳提供两版：**[Full](skills/yinyang/)** 包含完整文章与图示；**[Empty](skills/yinyang-empty/)**
+保留反向对齐、角色交叉与阴阳辩证法、六份 formation 指南及实践建议，不含 `docs` 和
+`diagrams`，由使用者与模型共同形成自己的哲学、Personal 与 Situated。两版都不分发私人材料。
+
 每个成员维护自己的入口、方法与配套资源。取得想使用的 Skill 的完整目录，
 通过模型实际的 Skill 机制让它读取。
 
 | Skill | 用途 | 包 |
 | --- | --- | --- |
-| [阴阳 · yinyang](skills/yinyang/SKILL.zh-CN.md) | 把哲学与个人理解凝练为人与模型协作的工作模型，让实际环境适合这个人。 | [使用说明与哲学资源](skills/yinyang/README.zh-CN.md) |
+| [阴阳 Full · yinyang](skills/yinyang/SKILL.zh-CN.md) | 完整版：形成与修订方法，以及作者展开的哲学文章和图示。 | [使用说明与哲学资源](skills/yinyang/README.zh-CN.md) |
+| [阴阳 Empty · yinyang-empty](skills/yinyang-empty/SKILL.zh-CN.md) | 保留辩证核心与方法指南，形成自己的哲学、个人材料和实际工作模型。 | [Empty 使用说明](skills/yinyang-empty/README.zh-CN.md) |
 | [抽卡转盘 · random-wheel](skills/random-wheel/SKILL.md) | 把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。 | [完整包](skills/random-wheel/) |
 | [搜索与研究 · research](skills/research/SKILL.md) | 调查事实、产品行为与方案，把来源、观察、假设和覆盖限制放在同一个可检查的回答中。 | [完整包](skills/research/) |
 | [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | 从实际分歧、证据和有用的问题出发，澄清会改变任务下一步的关键不确定性。 | [完整包](skills/task-inquiry/) |
@@ -122,15 +127,16 @@
 
 [安装与更新说明](docs/codex.zh-CN.md)
 
-22 个 Skill 均可从 **boluopai** 插件市场独立安装。把下面的命令交给 Codex，
-即可安装完整阴阳包，无须手工下载或解压 ZIP：
+集合中的 Skill 均可从 **boluopai** 插件市场独立安装。把下面的命令交给 Codex，
+即可安装阴阳 Full，无须手工下载或解压 ZIP：
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
 codex plugin add yinyang@boluopai
 ```
 
-将 `yinyang` 换成目录中需要的 Skill 名称。市场只需添加一次，之后安装其他插件只需
+安装 Empty 时，把第二条命令中的名称换成 `yinyang-empty`；其他能力换成目录中需要的 Skill 名称。
+市场只需添加一次，之后安装其他插件只需
 `codex plugin add <包名>@boluopai`。安装后开启新对话使用。
 阴阳个人版应保存在私人源目录中，不能写进会被更新替换的插件缓存。
 <!-- repository-only:end -->

@@ -19,6 +19,31 @@ aligned with the actual members and preserve full semantic parity. English is
 the first reading language for English-capable readers and models; model-facing
 maintenance prose remains English.
 
+## YinYang editions
+
+`skills/yinyang/` is the Full edition, including the author's essays and diagrams.
+`skills/yinyang-empty/` is the Empty edition: reverse alignment, crossed roles and
+dialectical return, six formation guides, Core views as attributed suggestions,
+practice overview, formation/revision, daily collaboration, and Personal guidance.
+Empty contains no `docs/` or `diagrams/`. Recipients develop their own philosophy,
+Personal material, and six Situated accounts with their model; neither edition
+ships private substance. Empty supplies unfilled Personal and Situated starters,
+with four empty Personal areas and six files explicitly marked `status: unfilled`;
+these are templates rather than actual accounts. Full's current source and local personal consumers
+retain their complete content.
+
+Shared method content remains authored in Full. `scripts/build-yinyang-empty.py`
+projects its declared selection into Empty, relocating the selected guides and
+converting links to omitted essays into optional public reading links. It adapts
+the shared guide's Full-specific distribution sentence to Empty's unfilled starters.
+Empty's
+entrypoint, README editions, and package guidance are authored in its own tree.
+Do not edit generated Empty references independently. `build-plugins.py` invokes
+the selection builder in the same check/apply mode before packaging both editions.
+The two plugin identities are `yinyang` (Full) and `yinyang-empty` (Empty), both
+under CC BY-NC-SA 4.0. Recipient updates use the chosen edition, preserving their
+private philosophy, Personal, Situated, and independently authored additions.
+
 [YinYang's MODEL.md](skills/yinyang/MODEL.md) owns interpretation of that Skill's
 philosophical claims, formation method, reader editions, and supporting resources.
 Its documents and diagrams live inside `skills/yinyang/references/`. Other

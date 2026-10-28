@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,7 +25,7 @@ def expected_files(entry):
         files[destination] = (path.read_bytes(), path.stat().st_mode & 0o777)
     if 'skills/' + name + '/SKILL.md' not in files:
         raise ValueError(f'Missing tracked Skill: {name}')
-    license_name = 'CC-BY-NC-SA-4.0' if name == 'yinyang' else 'MIT'
+    license_name = 'CC-BY-NC-SA-4.0' if name in {'yinyang', 'yinyang-empty'} else 'MIT'
     manifest = {
         '$schema': 'https://agent-plugins.org/schemas/1.0.0/plugin.schema.json',
         'name': name,
@@ -46,6 +47,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true', help='Regenerate plugin directories')
     args = parser.parse_args()
+    subprocess.run([sys.executable, str(ROOT / 'scripts/build-yinyang-empty.py'),
+                    *(['--apply'] if args.apply else [])], check=True)
     market = json.loads((ROOT / '.agents/plugins/marketplace.json').read_text())
     entries = market['plugins']
     names = {entry['name'] for entry in entries}

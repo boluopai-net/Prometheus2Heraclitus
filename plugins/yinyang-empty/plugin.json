@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yinyang-empty",
+  "version": "1.0.0",
+  "description": "YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
+  "author": {
+    "name": "boluopai",
+    "url": "https://boluopai.net/"
+  },
+  "homepage": "https://boluopai.net/repositories/",
+  "repository": "https://github.com/boluopai-net/Prometheus2Heraclitus",
+  "license": "CC-BY-NC-SA-4.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "YinYang Empty",
+        "shortDescription": "Dialectical core and methods for your own YinYang",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Keep reverse alignment, YinYang dialectics, six formation guides, Core views as suggestions, practice overview, formation and revision, and daily collaboration. No docs or diagrams trees. Develop your own philosophy, Personal material, and six Situated accounts with your model. The author's essays remain optional website reading.",
+        "category": "Education & Research",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
+      }
+    }
+  }
+}

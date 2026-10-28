@@ -5,8 +5,8 @@ This public collection contains independently licensed material. Anyone may
 view, clone, and download the GitHub repository without individual approval.
 Collection membership does not extend one member's license to another.
 
-- skills/yinyang/: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-  (CC BY-NC-SA 4.0), as designated in skills/yinyang/LICENSE and governed by
+- skills/yinyang/ (Full) and skills/yinyang-empty/ (Empty): Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  (CC BY-NC-SA 4.0), as designated in each edition's LICENSE and governed by
   https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en. Reproduction,
   adaptation, and distribution for noncommercial purposes are permitted under its
   attribution, modification-notice, and ShareAlike conditions. Private
@@ -15,7 +15,7 @@ Collection membership does not extend one member's license to another.
   These methods and tools may be publicly downloaded, used, modified, and
   redistributed subject to their MIT notices. Companion dependencies do not
   merge licenses; YinYang remains separately licensed.
-- Original collection material outside skills/yinyang/ and website/ retains
+- Original collection material outside the two YinYang editions and website/ retains
   the MIT License in [LICENSE-MIT](LICENSE-MIT) unless a more specific notice states otherwise.
 - website/: publication surface does not change a material's license.
   YinYang projections and original philosophical text use CC BY-NC-SA 4.0;

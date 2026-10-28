@@ -2,19 +2,26 @@
 
 [简体中文](codex.zh-CN.md)
 
-The **boluopai** marketplace offers all 22 collection Skills as individually
+The **boluopai** marketplace offers the collection's Skills as individually
 installable plugins. Choose one from the repository catalog and give Codex the
 commands below to perform the native installation. No ZIP extraction or manual
 directory repair is required.
 
 ## Native installation
 
-For YinYang:
+For YinYang Full:
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
 codex plugin add yinyang@boluopai
 ```
+
+To retain the dialectical core and methods while forming your own philosophy and
+personal content, choose Empty: replace the second command with
+`codex plugin add yinyang-empty@boluopai`. Full includes essays and diagrams;
+Empty has no `docs` or `diagrams`, retaining six formation guides, Core views as
+suggestions, and practical collaboration guidance. Choose one edition for the
+same person–model collaboration.
 
 Replace `yinyang` with any name in the [catalog](../README.md#skills-in-the-collection).
 For example, `codex plugin add research@boluopai` installs Research.
@@ -50,11 +57,17 @@ environment, and revision under `references/situated/` and the evidence entrance
 and register that private Skill through your client's actual discovery mechanism.
 Once that personal Skill is active, disable the distribution plugin to avoid
 two competing YinYang entrypoints. Verify the private entrypoint in a new chat.
-Common updates can use the included `scripts/sync-common.py`; it preserves the
+Full's common updates can use the included `scripts/sync-common.py`; it preserves the
 entire `references/situated/` and `references/personal/` trees. Public writing
 guides remain under `references/formation/` after formation. Legacy mixed-path
 packages require owner migration under the [package guide](../skills/yinyang/references/docs/skill-package.md#project-common-changes)
 before projection; the command refuses them without changing files.
+
+Update Empty's public methods from `skills/yinyang-empty/`, preserving your own
+`references/philosophy/`, `references/personal/`, `references/situated/`, and other
+independently authored content. Do not update Empty with Full's whole-package
+projector. Your philosophy can also remain at an existing owner linked by the
+personal version. See [Empty files and updates](../skills/yinyang-empty/references/package.md).
 
 ## Updates and removal
 

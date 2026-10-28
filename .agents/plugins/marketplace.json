@@ -6,8 +6,8 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.84",
-      "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
+      "version": "1.1.85",
+      "description": "Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
         "path": "./plugins/yinyang"
@@ -18,11 +18,38 @@
       },
       "category": "Education & Research",
       "interface": {
-        "displayName": "YinYang",
-        "shortDescription": "Develop your own YinYang",
+        "displayName": "YinYang Full",
+        "shortDescription": "Complete philosophy and formation methods",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",
-        "longDescription": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams, with private accounts formed at the recipient's own source. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "longDescription": "The complete YinYang edition, including its developed philosophy, diagrams, six formation guides, and methods for personal collaboration. Private philosophy, evidence, and actual accounts remain with the recipient. Uses the recipient's actual tools and environment.",
+        "category": "Education & Research",
+        "capabilities": [],
+        "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
+        "brandColor": "#355a59",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
+      }
+    },
+    {
+      "name": "yinyang-empty",
+      "version": "1.0.0",
+      "description": "YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yinyang-empty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "YinYang Empty",
+        "shortDescription": "Dialectical core and methods for your own YinYang",
+        "developerName": "boluopai",
+        "websiteURL": "https://boluopai.net/",
+        "longDescription": "Keep reverse alignment, YinYang dialectics, six formation guides, Core views as suggestions, practice overview, formation and revision, and daily collaboration. No docs or diagrams trees. Develop your own philosophy, Personal material, and six Situated accounts with your model. The author's essays remain optional website reading.",
         "category": "Education & Research",
         "capabilities": [],
         "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",

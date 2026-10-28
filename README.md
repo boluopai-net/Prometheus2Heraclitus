@@ -93,13 +93,20 @@ explains all six working files and their use, including the person's actual revi
 
 ## Skills in the collection
 
+YinYang has two editions: **[Full](skills/yinyang/)** includes the complete essays
+and diagrams; **[Empty](skills/yinyang-empty/)** retains reverse alignment,
+crossed roles and YinYang dialectics, six formation guides, and practical
+suggestions, with no `docs` or `diagrams`. Recipients and their models develop
+their own philosophy, Personal, and Situated content. Neither edition ships private material.
+
 Each member owns its entrypoint, methods, and supporting resources. Obtain the
 complete directory of the Skill you want to use and make it available through
 your model's actual Skill mechanism.
 
 | Skill | Purpose | Package |
 | --- | --- | --- |
-| [YinYang formation](skills/yinyang/SKILL.md) | Condense philosophy and personal understanding into working models of person–model cooperation, and make the actual environment fit the person. | [Guide and philosophical resources](skills/yinyang/README.md) |
+| [YinYang Full · yinyang](skills/yinyang/SKILL.md) | Complete formation and revision methods, with the author's developed essays and diagrams. | [Guide and philosophical resources](skills/yinyang/README.md) |
+| [YinYang Empty · yinyang-empty](skills/yinyang-empty/SKILL.md) | Keep the dialectical core and methods while forming your own philosophy, personal material, and actual working accounts. | [Empty guide](skills/yinyang-empty/README.md) |
 | [抽卡转盘 · random-wheel](skills/random-wheel/SKILL.md) | Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. | [Complete package](skills/random-wheel/) |
 | [搜索与研究 · research](skills/research/SKILL.md) | Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. | [Complete package](skills/research/) |
 | [任务探究 · task-inquiry](skills/task-inquiry/SKILL.md) | Clarify consequential uncertainty through real tensions, evidence, reasoning, and useful questions. | [Complete package](skills/task-inquiry/) |
@@ -153,15 +160,16 @@ states what to change, who carries the writing, and how to verify availability.
 
 [Installation and updates](docs/codex.md)
 
-All 22 Skills are individually installable from the **boluopai** plugin marketplace.
-Give Codex the following commands to install YinYang without manual ZIP extraction:
+The collection's Skills are individually installable from the **boluopai** plugin marketplace.
+Give Codex the following commands to install YinYang Full without manual ZIP extraction:
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
 codex plugin add yinyang@boluopai
 ```
 
-Replace `yinyang` with the desired Skill name from the catalog. Add the market
+For Empty, use `yinyang-empty` in the second command. Otherwise replace `yinyang`
+with the desired Skill name from the catalog. Add the market
 once; subsequent plugins need only `codex plugin add <name>@boluopai`.
 Start a new chat after installation.
 Keep personalized YinYang material in a private source outside replaceable caches.

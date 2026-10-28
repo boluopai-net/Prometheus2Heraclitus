@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang",
-  "version": "1.1.84",
-  "description": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams.",
+  "version": "1.1.85",
+  "description": "Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
   "author": {
     "name": "boluopai",
     "url": "https://boluopai.net/"
@@ -13,11 +13,11 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "YinYang",
-        "shortDescription": "Develop your own YinYang",
+        "displayName": "YinYang Full",
+        "shortDescription": "Complete philosophy and formation methods",
         "developerName": "boluopai",
         "websiteURL": "https://boluopai.net/",
-        "longDescription": "Form six grounded accounts of orientation, person, counterpart, relationship, environment, and revision. Includes permanent formation guides, philosophical essays, and diagrams, with private accounts formed at the recipient's own source. For Codex users; includes the complete Skill and its supporting resources. Uses the recipient's available tools and environment. External tools, accounts, and services are not provisioned by installation.",
+        "longDescription": "The complete YinYang edition, including its developed philosophy, diagrams, six formation guides, and methods for personal collaboration. Private philosophy, evidence, and actual accounts remain with the recipient. Uses the recipient's actual tools and environment.",
         "category": "Education & Research",
         "capabilities": [],
         "supportURL": "https://github.com/boluopai-net/Prometheus2Heraclitus/issues",
