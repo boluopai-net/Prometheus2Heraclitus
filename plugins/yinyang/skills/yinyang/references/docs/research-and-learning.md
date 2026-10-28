@@ -8,17 +8,18 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 <nav class="guide-navigation" aria-label="Page navigation" markdown="1">
 
-First choose by purpose: [systematic foundations, research reading, or everyday learning](#learning-purposes), with [shared reference materials and teachers](#learning-materials) as needed.
-
-1. [Draft a curriculum from your interests](#simple-learning-path)
-2. [Turn courses and books into readable materials](#study-materials)
-3. [Prepare practical tools and an environment](#practice-environment)
-4. [Write the theory and practice learning paths](#learning-paths)
-5. [Choose a teacher and begin reading, practice, and focused checks](#understanding-and-evaluation)
-6. [Follow papers back to foundations and enter an unfamiliar field](#paper-reading)
-7. [Everyday learning: understand important abstractions and conclusions](#everyday-learning)
-8. [Add disciplinary and research methods](#domain-methods)
-9. [Scholarly writing and publication](#resources)
+- [First distinguish what you want to learn](#learning-purposes)
+- [Shared support: reference materials and teachers](#learning-materials)
+- [I. Build your own digital university](#self-university)
+    1. [Draft a curriculum from your interests](#simple-learning-path)
+    2. [Turn courses and books into readable materials](#study-materials)
+    3. [Prepare practical tools and an environment](#practice-environment)
+    4. [Write the theory and practice learning paths](#learning-paths)
+    5. [Reading, practice, and focused checks](#understanding-and-evaluation)
+- [II. Follow papers back to foundations and enter an unfamiliar field](#paper-reading)
+- [III. Everyday learning: understand important abstractions and conclusions](#everyday-learning)
+- [Supplementary resources: disciplinary references and research methods](#domain-methods)
+- [Supplementary resources: scholarly writing and publication](#resources)
 
 </nav>
 
@@ -67,11 +68,17 @@ Preparation depth follows purpose. A systematic course can have its full materia
 
 Both share teaching methods; begin with the entrance convenient for you. Ask directly: “Guide me through this paper,” “Explain how this concept relates to my existing understanding,” or “Help me explore this research idea.” Teachers can also use the disciplinary references and research methods below. Let the model handle downloading, installation, connections, and selection. See [Using the Tools](https://boluopai.net/getting-started/en/) for general tools and file arrangements.
 
+<a id="self-university"></a>
+
+## I. Build your own digital university
+
+Organize systematic study of foundational and practical knowledge through the five steps below. Return between steps when preparation calls for revision; once ready, theoretical and practical learning can develop together.
+
 <a id="simple-learning-path"></a>
 
-## 1. Draft a curriculum from your interests
+### 1. Draft a curriculum from your interests
 
-### Explore interests and compare curricula
+#### Explore interests and compare curricula
 
 Begin with an interesting direction, such as human factors. Discuss with AI whether you want to understand cognition, human–machine cooperation, or the design of products and working environments. Concrete questions can gradually clarify the direction.
 
@@ -79,7 +86,7 @@ Ask AI to investigate Chinese universities with established work in that directi
 
 Where programs emphasize engineering, psychology, or design, or sit in computer science, psychology, artificial intelligence, design, or other departments, select representative curricula. Have AI explain the questions, knowledge, and methods each emphasizes.
 
-### Draft a course system around one main curriculum
+#### Draft a course system around one main curriculum
 
 Ask AI to judge which curriculum fits your interests, responses to courses, and intended activities, explaining its reasons so you can choose or revise the judgment. **Use the most interesting curriculum as the main structure and fill gaps from the others**: merge duplicates, add missing foundations and methods, arrange prerequisites, and distinguish core courses from interest-led extensions. Each course should have a clear purpose and relationship to the others.
 
@@ -87,21 +94,21 @@ The result at this point is an adjustable curriculum draft. As materials and too
 
 <a id="study-materials"></a>
 
-## 2. Turn courses and books into readable materials
+### 2. Turn courses and books into readable materials
 
-### Find matching resources and download them
+#### Find matching resources and download them
 
 Search primarily for **online courses from outside China with matching topics or course names, selecting the latest available versions**. Check syllabi and teaching years; explain content matches across different names and identify older versions when those are all that is available. Also find Chinese entrance-examination books and books named in curricula or course materials.
 
 Have the model download all available resources it finds, including videos, notes, slides, subtitles, assignments, code, and books. Organize them by course and check completeness. Where the model cannot complete a download, list the material, original link, and reason for manual completion. Distinguish downloaded materials, online-only entrances, and outstanding items in the index.
 
-### Prepare course materials with the shared method
+#### Prepare course materials with the shared method
 
 Use the [shared reference-material arrangement](#learning-materials) to prepare a glossary, main guide, and relevant exercises or experiments for the selected courses. Where training materials are useful, prepare questions, solutions, and evaluation grounds across the course's scope, checking answers and keeping them separate from questions for later selection. This systematic course route prepares materials, an environment, and learning paths before reading and practice; other reading entrances can develop materials during reading.
 
 <a id="practice-environment"></a>
 
-## 3. Prepare practical tools and an environment
+### 3. Prepare practical tools and an environment
 
 After preparing materials and notes, have the model connect the environment needed by the curriculum draft, acquired resources, and abilities you want to develop. Software may be installed for later use or operated with model assistance; a complex interface or current unfamiliarity is not by itself a reason to exclude it. Installation, payment, usable capability, and personal familiarity are separate judgments.
 
@@ -121,7 +128,7 @@ Retain the tool capabilities, usable materials, and operation entrances establis
 
 <a id="learning-paths"></a>
 
-## 4. Write the theory and practice learning paths
+### 4. Write the theory and practice learning paths
 
 Once the materials and practical environment are ready, have the model organize the connections developed during preparation into two usable paths. The theory path should point to acquired courses, books, notes, and passages; the practice path should point to available tools, materials, operation entrances, and abilities to develop. The earlier curriculum draft supplies direction; this step supplies grounded, specific learning paths.
 
@@ -140,25 +147,25 @@ Keep an existing curriculum when it fits, adding the practice path and its conne
 
 <a id="understanding-and-evaluation"></a>
 
-## 5. Read, practice, and examine important points
+### 5. Read, practice, and examine important points
 
 Begin actual study after preparing the materials, environment, and paths. During preparation the model organizes and checks resources and tests tools; the person need not start the course reading or exercises described below. **Once everything is ready, open it when you feel good and want to study.**
 
 Choose the convenient teacher through the [shared teacher entrance](#learning), then begin with the prepared materials.
 
-### Begin with the current question
+#### Begin with the current question
 
 Open the main guide to see what the unit develops and how it relates to what precedes and follows it. Follow an unfamiliar term into the glossary, then return to the passage. Open the cited source when its meaning, derivation, or evidence needs checking. The guide is more than an index of original passages, and the glossary need not be memorized before reading.
 
 Use diagrams to see relationships and discussion to express your understanding and questions. Ask the teacher to connect new and existing knowledge, compare explanations, and develop what remains unclear, then check whether it misunderstood. Every encounter need not interrupt reading for exhaustive study of details. Saved notes and current explanations can revise one another: add useful examples, explanations, and new questions to the existing materials rather than accumulating hard-to-find copies.
 
-### Develop theoretical understanding and practical familiarity together
+#### Develop theoretical understanding and practical familiarity together
 
 Theory follows questions, concepts, and reasons. Practice selects a useful ability from the outline and makes it recognizable and actionable through real materials, tools, and feedback. After studying motion principles, observe and compare transitions, then make and revise a response. After understanding a statistical model, use real or clearly identified teaching data to check whether inputs, outputs, and interpretation correspond. Actual tasks can change without making the whole learning path depend on one project.
 
 Tool familiarity includes knowing what a tool can do, how files and operations are organized, when to use it, how to express an intention, and how to judge the result. Models can operate complex interfaces, write code, and carry repetitive production; people can participate through paper sketches, photographs, speech, comparison, and revision. Preserve hands-on attempts when developing your own drawing or direct-operation ability. Where a job or examination requires personal performance, check against that requirement. Do not count the model's contribution as your independent mastery.
 
-### When to examine important points and details
+#### When to examine important points and details
 
 Return to relevant concepts, conditions, and evidence when a detail could change the overall judgment, results depart from expectations, understanding becomes inconsistent, or a method is entering a new context. Identify the specific difficulty with the teacher, then use examples, counterexamples, reasoning, or experiments to examine it. For example, moving from correlation to a causal explanation calls for identifying the additional assumptions and whether evidence supports them.
 
@@ -166,13 +173,13 @@ Return to relevant concepts, conditions, and evidence when a detail could change
 
 Practice develops understanding; testing supplies performance evidence; evaluation uses that evidence to decide what needs improvement. Explanations, responses to counterexamples, and practical work can also supply evidence without becoming examinations. When judging personal understanding, distinguish your contribution from model assistance: one correct answer or a correct model output alone does not demonstrate mastery.
 
-### Research also requires checking the result
+#### Research also requires checking the result
 
 Learning can serve curiosity and understanding without serving research. Research develops a reasoned, testable contribution to an unresolved question and includes continued learning. **Personal understanding and the reliability of research results need separate judgments.** Have the model check citations and claims against original sources, examine premises, calculations, and code, and cross-check through other methods, counterexamples, or reproduction. People need to understand the consequential assumptions, evidence, and limitations to judge whether the result answers the question. Return to the relevant course when a knowledge gap appears.
 
 <a id="paper-reading"></a>
 
-## Follow papers back to foundations and enter an unfamiliar field
+## II. Follow papers back to foundations and enter an unfamiliar field
 
 ### When a paper is inaccessible, find an understandable starting point through its references
 
@@ -192,7 +199,7 @@ A preferred method supplies motivation to learn; its fit to a problem still depe
 
 <a id="everyday-learning"></a>
 
-## Everyday learning: understand important abstractions and conclusions
+## III. Everyday learning: understand important abstractions and conclusions
 
 If your purpose is everyday learning and broader understanding, reading an unfamiliar field's papers can usually focus on **valuable, important abstractions and final conclusions**. You need not train as a researcher in that field, reproduce the whole study, or master every proof. Ask the model what phenomena the paper represents through which objects and relationships, why that abstraction is useful, what conclusions it reaches, and how these connect to things you already know.
 
