@@ -146,17 +146,19 @@ For the author, these activities converge in a concrete practice: write his phil
 | --- | --- | --- |
 | Emphasis on worldview and ontology: understanding the world and ways of being | Emphasis on epistemology, with connections to values: understanding experience, knowing, and concern | Emphasis on methodology and practice: organizing expression, construction, and actual use |
 | Website | Local environment | GitHub |
+| Work | Partner | Environment |
 | Sun | Moon | Earth |
 | Real | Imaginary | Symbolic |
 | Father | Son | Holy Spirit |
 
-**How should this table be read?** The headers—philosophy, psychology, and engineering—fix the three aspects under discussion. Horizontally, each row interprets all three from one perspective. Vertically, each column follows one aspect through its philosophical meaning, realization, and different images. The five rows below the headers are:
+**How should this table be read?** The headers—philosophy, psychology, and engineering—fix the three aspects under discussion. Horizontally, each row interprets all three from one perspective. Vertically, each column follows one aspect through its philosophical meaning, practical forms, and different images. These correspondences select salient connections; all three contributions run through the whole practice. The six rows below the headers are:
 
 1. **A philosophical interpretation of the three aspects.** Philosophy provides the encompassing understanding of this practice, so philosophy, psychology, and engineering can themselves receive philosophical interpretations: emphasizing worldview and ontology, epistemology with related values, and methodology and practice respectively. Philosophy encompassing the table is the overall understanding; its first column foregrounds the contribution directed toward world and being.
 2. **Ways of realization.** The website, local environment, and GitHub are the author's principal ways of giving these aspects actual use: philosophy becomes readable work, personal understanding enters local collaboration, and maintainable content and implementations remain in source.
-3. **Literary analogy.** Sun, Moon, and Earth picture joint activity through generation, receptive shaping, and actual grounding.
-4. **The three registers and their knotting in a sinthome.** The Real, Imaginary, and Symbolic offer another interpretation of the three aspects through their emphases: approaching the real, forming experience and images, and organizing symbols and action. The sinthome names their concrete knotting in this person's life; its function appears through the relationships across the row.
-5. **Trinity.** Father, Son, and Holy Spirit borrow Christian imagery to express three differentiated contributions belonging to one whole.
+3. **Relations in practice.** A work gives understanding an expressible and revisable form; a partner receives, develops, and creates together; an environment lets this activity occur, continue, and meet consequences. Works can be essays, music, designs, or programs. Reflection on their meanings and reasons connects philosophy in its broad sense to actual creation and use.
+4. **Literary analogy.** Sun, Moon, and Earth picture joint activity through generation, receptive shaping, and actual grounding.
+5. **The three registers and their knotting in a sinthome.** The Real, Imaginary, and Symbolic offer another interpretation of the three aspects through their emphases: approaching the real, forming experience and images, and organizing symbols and action. The sinthome names their concrete knotting in this person's life; its function appears through the relationships across the row.
+6. **Trinity.** Father, Son, and Holy Spirit borrow Christian imagery to express three differentiated contributions belonging to one whole.
 
 **Philosophy—emphasizing worldview and ontology** first asks what world we encounter and how things exist, persist, and change. A worldview in the broad sense includes an understanding of ways of being; ontology develops those commitments. Physics and mathematics can enter here too: the standing of physical reality, the existence of mathematical objects, and how mathematical descriptions concern reality can all become philosophical questions. The author's modest naturalism and process ontology supply adopted answers; the earlier [six dimensions and practice](personal-first-humanism.md#six-connected-dimensions) retains their full relations with truth, knowing, value, and method.
 
