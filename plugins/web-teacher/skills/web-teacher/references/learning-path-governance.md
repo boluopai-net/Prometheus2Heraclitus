@@ -31,6 +31,33 @@ their actual semantic and publication owners.
 
 ## Path maintenance and source ownership
 
+### Outline authoring and practice-first traversal
+
+A learning path normally outlines knowledge, abilities and materials. Numbering
+organizes the outline; only actual subject dependencies establish prerequisites.
+A practice path can organize abilities and tools without specifying exercises,
+invented projects or every possible return to theory. Keep these authoring rules
+in this method rather than repeating them as purpose-and-order boilerplate in
+each path. Concrete activities and source detours belong to the actual lesson.
+
+Except for a selected purely theoretical inquiry, begin with practice. Work
+backward from employment, project, assignment or making requirements to the
+theory needed to understand and judge the work. Prune unrelated coverage and
+depth. If the theory remains unclear, follow its real dependencies to supply
+the missing foundation, then return to the original question. This bidirectional
+pruning lets practical demand select theoretical scope and theoretical
+understanding test practical assumptions and unnecessary work. It does not
+presume every applied problem is easy or require a complete foundation course
+before action. Pure theory may follow its own questions without an invented use.
+
+At the encounter, Teacher specifies the object to make or inspect, worthwhile
+learner participation, model-carried operations and useful evidence. Retain an
+unfinished practical decision when entering a source lesson, then apply the
+resulting understanding there. Record actual learning and unresolved returns
+under the existing Course State contract, not a table of hypothetical detours.
+
+### Source maintenance
+
 the active Web or Local Teacher may maintain a bounded relation, card, depth mapping or
 re-entry in either path when direct source or learner evidence shows it missing,
 stale or wrong. Read the affected graph/cards and direct evidence, make the

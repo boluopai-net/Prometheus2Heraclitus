@@ -27,6 +27,10 @@ Design is one example: deciding what to make, why, how to organize it, and what 
 
 ## First distinguish what you want to learn
 
+**Theory and practice support each other; unless the current purpose is purely theoretical inquiry, begin with practice.** Identify what you want to accomplish: the abilities an employment direction needs, the problem a project addresses, or what an assignment asks you to explain or produce. Work backward to the relevant concepts, principles, and methods. You need not finish a whole theoretical curriculum before discovering its use.
+
+This is **bidirectional pruning**: practical demand selects the scope and depth of theory, while theoretical dependencies identify missing foundations. When the selected theory remains unclear, supply what makes it intelligible and return to the original question. Theory can also expose mistaken practical assumptions and unnecessary steps. Adjust scope to actual difficulties rather than completing a course merely because it exists. Pure theoretical inquiry can follow its own questions, concepts, and arguments without an invented application.
+
 If you want to **give yourself a university education, or fill important gaps in foundational and practical knowledge**, the five steps below provide a systematic route: draft a curriculum from your interests, prepare courses, books, tools, and an environment, then write theory and practice paths and begin learning. You can cover one important field or gradually develop your own curriculum without copying every requirement of a degree.
 
 Another entrance begins with books or papers. Becoming familiar with an unfamiliar field through these alone can be harder to organize: papers often omit shared background, and a book may assume foundations from other disciplines. Models can help reconstruct the missing knowledge relationships, while the purpose of reading determines how far to pursue them.
@@ -159,9 +163,11 @@ Open the main guide to see what the unit develops and how it relates to what pre
 
 Use diagrams to see relationships and discussion to express your understanding and questions. Ask the teacher to connect new and existing knowledge, compare explanations, and develop what remains unclear, then check whether it misunderstood. Every encounter need not interrupt reading for exhaustive study of details. Saved notes and current explanations can revise one another: add useful examples, explanations, and new questions to the existing materials rather than accumulating hard-to-find copies.
 
-#### Develop theoretical understanding and practical familiarity together
+#### Work backward from practice to theory, then return
 
-Theory follows questions, concepts, and reasons. Practice selects a useful ability from the outline and makes it recognizable and actionable through real materials, tools, and feedback. After studying motion principles, observe and compare transitions, then make and revise a response. After understanding a statistical model, use real or clearly identified teaching data to check whether inputs, outputs, and interpretation correspond. Actual tasks can change without making the whole learning path depend on one project.
+Select an ability currently needed from the practice outline. Have the teacher use the actual object to specify what to do, compare, and check. For example, begin by comparing interface transitions; when a response makes the system's state hard to judge, enter the relevant theory of motion, feedback, or perception. When a dataset needs interpretation, select an appropriate statistical model and its conditions. If the theory remains unclear, supply the foundations it actually depends on, then bring that understanding back to the original design or analysis.
+
+The path remains an outline, not a preset exercise sequence for everyone. Concrete tasks, theoretical passages, and the question to return to are selected during the activity. Numbering does not automatically create prerequisites; actual knowledge dependencies determine what needs to come first. Tasks can change without making the whole learning path depend on one project. The necessary theory may be small or warrant substantial depth, depending on the problem and the remaining gap in understanding.
 
 Tool familiarity includes knowing what a tool can do, how files and operations are organized, when to use it, how to express an intention, and how to judge the result. Models can operate complex interfaces, write code, and carry repetitive production; people can participate through paper sketches, photographs, speech, comparison, and revision. Preserve hands-on attempts when developing your own drawing or direct-operation ability. Where a job or examination requires personal performance, check against that requirement. Do not count the model's contribution as your independent mastery.
 
