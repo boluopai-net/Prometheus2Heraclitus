@@ -151,7 +151,10 @@ in later relationships.
 Personal references and working models have connected but different purposes.
 `references/personal/` holds psychological and life material together with
 maintained interpretations, available for the person to read or understand with
-a language model's help. The six files under `references/situated/` condense what
+a language model's help. Its four subject groups remain substantive, readable
+topic articles; native maintained pages can carry them, with observations doing
+the consolidation backstage when this optional mechanism is used. Six files
+under `references/situated/`, or their optional native realization, condense what
 the model needs for collaboration and for adapting the person's environment.
 Even the person file is a working understanding of how to participate with this
 person. A description of useful support during writing can belong there, while
@@ -163,7 +166,7 @@ while consequential wording or an accurate example constrains its ambiguity.
 Condensation therefore remains answerable to material beyond its compact prose.
 A new formulation can change the counterpart's response, while a new encounter
 can expose what that formulation omitted. The [revision guide](../formation/revision.md)
-owns the method for maintaining the six files. Here the conceptual point is that
+owns the method for maintaining these connected accounts. Here the conceptual point is that
 an account preserves revisable relations rather than a final portrait: neither
 source records nor a successful working arrangement guarantees the truth of a
 psychological explanation.
@@ -446,9 +449,41 @@ A single response would not settle the person's motives; both candidates
 remain answerable to their corrections and later use. The model can contribute
 an interpretation the person did not supply while helping examine its grounds.
 
+## Coherence across six questions
+
+Orientation, person, counterpart, relationship, environment, and revision answer
+different questions about one practice. An individually coherent person answer
+may expect the counterpart to develop arguments and carry routine implementation
+independently, while a relationship answer requires the person to supply every
+inference and routine implementation choice, and an environment answer assumes
+tools the counterpart cannot use. Each passage may read well alone; together
+they describe a cooperation that cannot occur as written. Coherence concerns
+the relations across all six as well as the reasoning within each.
+
+Revision therefore begins with adopted philosophy, retrieves relevant new
+sources, including completed measurements where relevant, and first corrects
+the affected Personal understanding. Native retention, consolidation, and
+readable topic pages can perform that work without a compulsory manual rewrite
+or a summary of an older summary. Detailed questions then guide synthesis of
+all six answers. Read their complete bodies together: do the desired direction,
+understood participants, reciprocal contributions, actual means, and way of
+learning from use sustain the same arrangement? A mismatch calls for examining
+its grounds and repairing the affected questions or maintained pages before
+carrying changes into Skills and environment and reading back actual effects.
+
+A language model can synthesize six files directly, with Git/GitHub privately
+retaining versions. This route needs no memory service. For more complex
+histories, optional question-defined Mental Models/Knowledge Pages can make
+this coordination maintainable under the actual environment's configuration.
+A common bank helps relevant material meet; it does not guarantee
+that sibling answers use compatible assumptions. Nor does agreement among them
+independently corroborate a personal explanation: they are coordinated
+interpretations drawing on related sources. The person, original material,
+contrary evidence, and actual use remain able to challenge them.
+
 ## Give revision somewhere to continue
 
-The formation developed here can be expressed as:
+The philosophical development explored here can be expressed as:
 
 `collaboratively produced trajectories → reflection on the trajectory and cooperation → authored personal philosophy → philosophy together with living material → person, counterpart, and relationship models → realization and use`
 

@@ -64,6 +64,12 @@ A person may prefer a mobile working arrangement, experience fatigue while remai
 
 Private **Personal** material can organize these subjects, retaining source records and interpretations with their grounds. The six working accounts then draw on them according to their subjects: direction, person, counterpart, relationship, environment, and revision. The person account can bring preferences, psychological material, and life conditions together without reducing the person to any one category. [Forming and revising working models](../design-and-revision.md) develops how this understanding becomes usable collaboration.
 
+In the reading example, a direct account or optional native memory can connect
+the reported friction, page changes, and revisable interpretation of a preference.
+Correct the Personal account first, then check that all six working answers
+agree about the chosen direction, wanted help, and actual conditions. Their
+agreement coordinates use; it does not add independent evidence for the preference.
+
 ## Finish situated tasks amid changing norms and worlds
 
 A finite task can be completed while some alternatives remain unresolved. What matters is whether the selected work answers the actual purpose, and whether an unresolved difference changes that result. History keeps consequential exclusions available for later examination; it need not prevent present action.

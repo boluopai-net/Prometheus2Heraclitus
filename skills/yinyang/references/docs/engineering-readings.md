@@ -127,7 +127,7 @@ Books, courses, and official tool references for language models, databases, and
 | [SQLite](https://www.sqlite.org/docs.html) | An embedded relational database supporting SQL queries and transactions. |
 | [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | The former supplies command-line and Python interfaces for importing and manipulating SQLite data; the latter provides database browsing, queries, and JSON interfaces. |
 | [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | A relational database and its vector-similarity-search extension. |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | An agent memory and retrieval system with retain, recall, and reflect capabilities. |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | An agent memory system with retention, retrieval, revisable observations, and question-defined Mental Models/Knowledge Pages. YinYang's [native formation method](../hindsight.md) connects those capabilities to readable Personal articles and coordinated working answers. |
 | [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graphs for agents. |
 | [Mem0](https://github.com/mem0ai/mem0) | Persistent-memory components for agents and applications. |
 | [Letta](https://github.com/letta-ai/letta) | A platform for agents with persistent state and memory management. |

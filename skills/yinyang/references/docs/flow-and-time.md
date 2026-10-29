@@ -33,6 +33,19 @@ Two related expressions develop here. Event sources retain what was said, done, 
 
 The trajectory also contains branches. An unused layout can remain a candidate, and a failed attempt can show why a condition matters; details with no contribution to later understanding need not remain in working attention. Continuation and inquiry determine the scale of accumulation: adopted understanding remains usable, while important alternatives and corrections remain revisitable. The distinctions between streams, time, and memory below explain how such a trajectory can preserve change while supporting present action.
 
+In an optional Hindsight realization of this trajectory, attributable reports and actions
+can become native facts, which support revisable observations and readable
+Personal articles. Detailed questions use those grounds to form the six working
+answers; actual reading then tests the arrangement they guide. In the example,
+“navigation interrupts my reading” remains the person's report, while changing
+the page is an assistant action with its own outcome. Native World can include
+reported human experience; native Experience concerns the assistant's actual
+activity. These tool categories organize records rather than settle ontology
+or guarantee truth. Git/GitHub and Computer History retain their original
+histories; native memory helps return to them, compare interpretations, and
+revise what the present account accepts. [Native formation](../hindsight.md)
+explains the implementation.
+
 ## Sources for thinking in streams
 
 Continuity is more than remaining unchanged. A process with memory carries earlier encounters into present activity and anticipates what has not yet happened. The histories of a person's activity and a model's interactions can be organized as event streams: sensing, interpreting, expressing, and acting leave occurrences connected through time and situation. Records preserve revisitable parts of these histories. From those histories and other relevant material, inquiry develops conceptual models of the participants; the person and model counterpart are the subjects being understood. [Heraclitus's measured fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30) and [daily Sun (B6)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6) gather change and persistence; [the stealing-fire essay](stealing-fire.md) develops their philosophical background.

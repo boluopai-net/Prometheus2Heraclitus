@@ -121,7 +121,7 @@
 | [SQLite](https://www.sqlite.org/docs.html) | 嵌入式关系数据库，提供 SQL 查询与事务。 |
 | [sqlite-utils](https://sqlite-utils.datasette.io/) · [Datasette](https://datasette.io/) | 前者提供 SQLite 数据导入与操作的命令行／Python 接口；后者提供数据库浏览、查询与 JSON 接口。 |
 | [PostgreSQL](https://www.postgresql.org/docs/) · [pgvector](https://github.com/pgvector/pgvector) | 关系数据库及向量相似度检索扩展。 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | Agent 记忆与检索系统，提供 retain、recall、reflect 等能力。 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | Agent 记忆系统，提供保留、检索、可修订的 Observations 与按问题定义的 Mental Models／Knowledge Pages。阴阳的[原生形成方法](../hindsight.zh-CN.md)把这些能力接到可读的 Personal 文章与相互协调的工作答案。 |
 | [Graphiti](https://github.com/getzep/graphiti) | 面向 Agent 的时序知识图谱。 |
 | [Mem0](https://github.com/mem0ai/mem0) | 为 Agent 与应用提供持久记忆的组件。 |
 | [Letta](https://github.com/letta-ai/letta) | 带有持久状态和记忆管理的 Agent 平台。 |

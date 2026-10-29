@@ -13,6 +13,12 @@ models](metaphor-and-self-revision.md) develops that passage. Here the question
 is what happens next: how does this understanding become a working arrangement
 in the person's actual environment, and how does use change it?
 
+This developmental account gives philosophical authorship a possible place in
+formation. Actual revision can proceed from already adopted philosophy: retrieve
+new grounds, correct relevant Personal understanding, synthesize all six working
+answers, and examine their coherence together. Directly written files and an
+optional native memory implementation can both carry that work.
+
 The passage requires more than carrying a text into another conversation.
 An account of how someone wishes to create must meet a counterpart's actual
 capacities, available tools, retrievable context, and consequences in life.
@@ -161,7 +167,9 @@ can also perpetuate a contribution the person no longer wants. The situated work
 models give the model a working understanding of the person, counterpart, and
 relationship, so its participation and the environment can fit this person's
 psychology, purposes, and circumstances. Personal material and interpretations
-under `references/personal/` have a different role: the person can read them,
+under `references/personal/` have a different role: its four subject groups keep
+substantive, readable articles, maintained directly or through optional native
+pages with observations backstage. The person can read them,
 or ask a language model to help understand them. The working accounts carry
 the implications for cooperation rather than assigning the person an exercise
 in interpreting their own psyche. Their [revision method](../formation/revision.md)

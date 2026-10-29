@@ -18,17 +18,19 @@ distinguishes this work from psychological self-help.
 
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private reflection and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
-In this implementation, six formation guides develop orientation, person,
-counterpart, relationship, environment and revision. Hindsight fuses selected
-Philosophy, Personal, environment and history into question-defined working
-models. The private binding index selects complete generated bodies; no fixed
-output count follows from the guides. Person, counterpart and relationship
-remain distinct subjects, with direction, realization and revision connecting
-their practical use.
+Six formation guides develop orientation, person, counterpart, relationship,
+environment, and revision. A language model can directly synthesize six files
+from adopted philosophy and corrected Personal understanding, with private
+Git/GitHub retaining versions. For more complex histories, Hindsight offers
+optional native retention and maintained pages configured for the actual
+environment. Both routes preserve the six functions and require reading their
+complete answers together. Person, counterpart, and relationship remain distinct
+subjects, with direction, realization, and revision connecting their use.
 
 Sources retain their authorship and evidence owners. Derived Personal accounts
-can migrate to native observations/pages without a complete manual summary
-stage. A writing-help model, for example, can retain useful cooperation
+can use native consolidation and maintained pages without a complete manual
+summary stage. Personal's four groups retain substantive, readable topic
+articles; observations work backstage. A writing-help model, for example, can retain useful cooperation
 implications while the original episode and unresolved explanations remain
 reachable at their private owners. Each adopted version forms its own content;
 a copied portrait does not supply actual understanding. The
@@ -62,8 +64,6 @@ that work's relations available to its readers and model counterparts. Its
 questions, practice, and consequences supply the judgment; resemblance to
 YinYang does not.
 
-The maintained implementation uses Hindsight to form question-defined models.
-Six formation guides preserve useful content lenses without a fixed output count.
 
 ## Adopt, combine, or author anew
 

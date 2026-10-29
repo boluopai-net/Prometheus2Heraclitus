@@ -243,6 +243,12 @@ Following this exchange, we might form a provisional account: “I value partici
 
 Such understanding still needs comparison with concrete living material before becoming a working model for actual participants. Whether a refusal concerned only its immediate conditions, what assistance actually helped, and what the counterpart can do each need understanding. Psychological and life material and its maintained interpretations have their home under `references/personal/`; the situated working models select what cooperation and environmental fit require. For example, the history of a refusal and its competing interpretations remain with the references, while a working account can retain the agreed possibility of changing delegation. [From personal philosophy to personal models](metaphor-and-self-revision.md) takes up that distillation next, after reading the adopted philosophy and refreshing the relevant references; [Writing a life as a sinthome](writing-a-sinthome.md) then considers how it becomes a sustainable arrangement.
 
+Correcting the relevant Personal understanding precedes synthesis of the six
+working answers. A language model can write their files directly; optional
+native memory can maintain sources, interpretations, and readable articles.
+The mechanism changes how the work is carried, while all six complete answers
+still need to be read together for mutual coherence.
+
 The order of formation retains return: using personal models and arrangements can change this understanding again. Works can be completed and tasks can end, while later events can reopen speech.
 
 <details>
