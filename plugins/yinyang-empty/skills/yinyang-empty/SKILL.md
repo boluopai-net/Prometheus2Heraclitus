@@ -49,31 +49,51 @@ relevant evidence and maintained understanding in `references/personal/`, with
 `sources.md` locating existing originals and their access boundaries.
 [Organizing Personal](references/personal-material.md) supports that work.
 
-Use [Hindsight formation and configuration](references/hindsight.md) to form
-native observations and question-defined Mental Models or Knowledge Pages from
-selected Philosophy, Personal, environment and history. The six formation guides
-specify distinct content lenses, not a fixed output count. Detailed questions
-can define scope, relations, priorities and writing guidance. Codex prepares
-sources and questions, checks and repairs native results, and realizes changes.
-Derived Personal understanding may migrate into observations/pages without a
-mandatory complete manual summary first. Original evidence retains its owners.
+The simple route stands alone: the model directly reads, corrects and synthesizes
+the six actual files at
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
+Persist intended private source in Git and a private GitHub repository through
+its actual account/publication owner; verify the private destination, committed
+content and retrieval. No Hindsight installation is required.
 
-Keep `references/situated/index.md` as the private service/bank, question/ID and
-body-locator binding, including the complete models required at startup.
-Keep `references/situated/revision.md` as the actual execution method. Their
-unfilled starters do not constitute a formed personal version. Old six-file
-bodies are migration/history, not a second maintained authoritative set.
+Retain six complete questions and reading roles: orientation, person,
+counterpart, relationship, environment and revision. Their full scope derives
+from all six full guides. The revision account describes this person's actual
+purposes, judgments, sources, connected correction and realization, not only
+file or backend procedures. The shipped six actual starters are unfilled;
+file existence is not formation.
+
+The [optional Hindsight guide](references/hindsight.md) explains environment-specific
+native configuration and implementation of the same questions and method.
+Project checked native bodies to the six paths, or explicitly bind all six
+complete accounts through private `references/situated/index.md`. Avoid competing
+authoritative sets. Full/Empty distribution is a separate choice from these
+two implementation routes; do not duplicate the package or philosophy.
 
 ## Enter ordinary collaboration
 
-Before substantive work, the main model reads this complete entrypoint, the
-actual private index and revision method, and every complete generated body
-selected for startup reading. Reuse current complete text in context; retrieve
-missing readings after context loss. The index selects bodies and cannot replace
-them. State missing bindings, unfilled status or incomplete models, continue
-useful independent work, and repair the required content. Select further source
-material by the question. Unchanged guides or copied portraits cannot provide
-actual personal substance.
+Before substantive work, read this complete entrypoint and all six complete
+actual accounts. In a chosen native layout, also read its explicit binding
+and retrieve all six complete bodies, including the actual situated revision
+method. Reuse current full text; retrieve missing readings after context loss.
+Do not substitute guides, metadata, a shared bank or fewer prototype pages for
+these reading roles. State concrete gaps, carry independent useful work and
+repair what the purpose requires. Current actual bodies stay current until their
+successors have been checked.
+
+Both routes preserve the revision dependency: adopted philosophy, relevant new
+attributable sources, refreshed/corrected Personal understanding with conflicts
+and uncertainty, then synthesis of the six, whole-six checking and necessary
+Skills/environment realization with actual readback. Native operations can
+implement this without a complete manual Personal rewrite. Personal remains
+readable topic articles and original grounds stay reachable; no mandatory chain
+of generated summaries is needed.
+
+Check the six together for shared premises, concepts, conditions, responsibilities
+and consequences. Coordinate siblings as current interpretations, not independent
+factual evidence. Repair affected sources or synthesis instructions/native
+queries, regenerate dependent accounts and check the whole again. Per-file or
+per-page success does not guarantee coherence; no seventh summary is required.
 
 Let the grounded understanding guide interpretation, independent judgment, and
 action. Carry the person's actual purpose through the contribution it needs;
@@ -83,7 +103,7 @@ world's response can correct both participants. Role crossing should make
 correction available, not amplify one interpretation indefinitely. Agreement,
 relief, completed output, and lasting development require different evidence.
 
-Refresh selected sources and native models,
+Refresh selected sources, Personal understanding and the six actual accounts,
 following the [revision method](references/formation/revision.md). Read back
 the actual consumer and result when changing an environment. The task owner
 retains execution and completion; specialist methods retain their own work.

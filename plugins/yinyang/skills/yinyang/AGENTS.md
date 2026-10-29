@@ -20,24 +20,37 @@ guide; revision guidance belongs to the revision guide. [The package guide](refe
 owns common/situated structure and projection. Refer to these owners where a
 document needs their method instead of restating it.
 
-Shared editions retain six public formation guides as content lenses. Hindsight is
-now the default formation engine: selected Philosophy, Personal, environment and
-history sources become native facts, revisable observations and question-defined
-Mental Models/Knowledge Pages. [Native formation](references/hindsight.md) owns
-configuration and exact operations. There is no fixed output count or mandatory
-manual Personal condensation stage.
+Shared editions retain six full formation questions and reading roles:
+orientation, person, counterpart, relationship, environment and revision. The
+simple standalone route uses direct language-model synthesis into the original
+six `references/situated/` files and private Git/GitHub persistence. Hindsight is
+an optional environment-specific native implementation of the same method,
+projected to those six files or an explicit all-six private index binding.
+Full/Empty distribution is independent of route choice; do not duplicate the
+philosophy, guides or entire package for these tool choices.
 
-Private `references/situated/index.md` binds the service/bank, model questions,
-IDs and generated bodies and selects complete startup reading;
-`references/situated/revision.md` states the actual execution method. Source
-evidence retains its owners. Personal keeps readable topic articles in its four
-subject groups; native pages may maintain them, with observations backstage.
-Direct editing and organization remain available. Migrate affected articles as
-revision needs, preserving their reading paths. Old six-file bodies are migration/history, not a second
-maintained authoritative set. Public packages contain no private portraits.
-Common projection protects both private trees and never changes bank state.
-Preserve detailed philosophical content and distinct formation contributions
-while changing their realization; six philosophical dimensions remain valid.
+Preserve the revision dependency: adopted philosophy, relevant new attributable
+sources including completed assessments where relevant, refreshed/corrected
+Personal understanding with conflicts and uncertainty, then synthesis of six,
+holistic coherence and Skills/environment realization with actual readback.
+Native extraction/Observations/topic pages can implement Personal correction;
+no complete manual rewrite or compulsory summary-of-summary is required, but
+corrected understanding must inform synthesis and original grounds stay reachable.
+
+Each synthesis instruction/native `source_query` derives full scope from all six
+guides. Check shared premises, concepts, relations and consequences across all
+six; a common bank or per-page success is no guarantee. Siblings are current
+interpretations to coordinate, not independent factual evidence. Repair affected
+sources/instructions/queries and regenerate dependencies, without requiring a
+seventh summary. The actual revision account remains this person's situated
+method, not merely backend steps. Existing actual bodies remain current until
+checked successors preserve their full functions and coherent relations.
+
+Personal retains readable topic articles in its four subject groups and reachable
+original sources. Direct editing and organization remain available. Common
+projection protects both private trees and never changes bank state or GitHub
+visibility. Public packages contain no private portraits. Preserve philosophical
+substance and six complete functional questions while adapting their tools.
 
 ## Edition and publication coherence
 

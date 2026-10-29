@@ -34,16 +34,25 @@ choose to turn that understanding into essays.
 
 <a id="six-files-give-the-practice-a-usable-form"></a>
 
-## From formation guides to native working models
+## From formation guides to six working accounts
 
-The six guides define direction, person, counterpart, relationship, environment,
-and revision. [Hindsight](hindsight.md) uses questions informed by these guides
-to fuse selected Philosophy, Personal, environment and history. Its observations
-and maintained models are the default formation machinery, with no fixed count.
-The private binding index selects complete startup bodies; the actual revision
-method explains execution. Codex prepares sources/questions, checks and repairs
-native results, and realizes environment changes. Source originals retain their
-owners; derived Personal accounts can migrate into observations/pages.
+The six guides define orientation, person, counterpart, relationship, environment,
+and revision. The simple route is to ask a language model to read adopted
+philosophy and relevant fresh sources, correct the affected Personal understanding,
+and directly synthesize six readable files under `references/situated/`. Read all
+six complete bodies together for mutual coherence, implement needed Skill and
+environment changes, and check their effects in use. Git/GitHub can persist and
+version the files; personal bodies and sources belong in private storage or a
+private repository. This route needs no memory service or API configuration.
+
+For more complex histories, [Hindsight](hindsight.md) offers an optional
+realization using retention, observations, and question-defined maintained pages.
+Choose its configuration for the actual environment rather than copying another
+person's setup. It preserves the same six functions and revision dependency.
+Source originals retain their owners. Personal's four groups remain substantive,
+readable topic articles, whether edited directly or maintained through native
+pages, with observations backstage. Native outputs must also be read together
+and checked through actual use.
 
 [Forming and revising working models](design-and-revision.md#form-a-situated-version-from-actual-material)
 connects the distinct content lenses. Completed output, cooperative fit and

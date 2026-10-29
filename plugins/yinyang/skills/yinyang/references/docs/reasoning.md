@@ -124,6 +124,16 @@ concern the same object, time, and conditions. Yesterday's failed run and
 today's successful run can both be accurately reported. [Forming a life trajectory](flow-and-time.md)
 develops how retained reports bear on a present judgment.
 
+Optional native memory can support these distinctions without settling their judgments.
+In the [reading-environment example](flow-and-time.md#shared-work-produces-the-trajectory),
+a retained report, an observed page change, and an explanation of reading friction
+have different grounds. Hindsight facts retain attributed content; observations
+consolidate revisable interpretations; question-defined pages develop accounts
+for use. A generated account remains answerable to originals and current checks.
+Six sibling answers sharing those sources are coordinated interpretations, not
+six independent witnesses to the explanation. The distinction between selecting
+a working view and establishing its grounds survives the change of tool.
+
 ## Seeking explanations and comparing consequences
 
 Abduction seeks possible explanatory structures from observations; deduction develops consequences within a proposed structure. A response, failure, or unexpected result can indicate how a system filters input, which distinctions it uses, or which assumption is missing. Several explanations may predict the same response. A single observation rarely identifies a unique internal mechanism, and an interaction can change the conditions it is probing.

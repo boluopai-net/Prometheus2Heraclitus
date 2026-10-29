@@ -154,12 +154,23 @@ Writing a personal philosophy can begin with a substantive encounter: a known pr
 
 There are several possible objects of revision. We may need to add to our understanding of the person, adjust the model's role, or merely change a Skill or tool. Distinguishing these lets a specific failure land in the appropriate place. For example, if the model repeatedly asks for information the user has already supplied, the cause may be that records are difficult to recover; repairing retrieval lets the earlier understanding continue to work.
 
-Whenever the six working files are revised, begin by reading the adopted personal
+Whenever the six working accounts are revised, begin by reading the adopted personal
 philosophy and retrieving relevant fresh references from Computer History,
-conversation, and other histories. Update or add the personal material and
-correct inaccurate or outdated interpretations there. Then condense the philosophy
-and refreshed references into the six files, carry the needed changes into the
-environment, and verify how they fit actual use. A working model can therefore
+conversation, and other histories, including relevant completed measurements.
+Update the relevant Personal understanding and correct inaccurate or outdated
+interpretations before synthesizing the working answers. A language model can
+write the six files directly and persist versions through private Git/GitHub.
+For more complex histories, optional Hindsight can retain
+sources, consolidate revisable observations, and maintain readable Personal
+topic articles and question-defined models; this changes the writing mechanism,
+while preserving that dependency. Use detailed questions to synthesize orientation,
+person, counterpart, relationship, environment, and revision, then read all six
+complete answers together. Check that their purposes, claims about participants,
+division of work, actual conditions, and revision method can hold together.
+Repair affected grounds, questions, or maintained pages, carry needed changes
+into the environment and Skills, and read back their effects in actual use.
+A shared memory bank or six fluent answers alone cannot establish this coherence.
+A working model can therefore
 change because the person's circumstances changed, because an interpretation was
 mistaken, or because better cooperation became possible. Its usefulness alone
 does not establish psychological truth.

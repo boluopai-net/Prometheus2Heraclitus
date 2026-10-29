@@ -50,17 +50,17 @@
 
 文件与更新见[包结构说明](references/docs/skill-package.zh-CN.md)，论证与来源见[阅读地图](references/reading-map.zh-CN.md)。
 
-六份公开「如何写」指南分别说明取向、人、伙伴、关系、环境和修订。
-[Hindsight 形成方法](references/hindsight.zh-CN.md)把选定的 Philosophy、Personal、环境和历史
-融合为原生 Observations 与按问题定义的工作模型。问题可细致规定内容范围，输出没有固定数量。
-Codex 准备来源、检查修复结果，并落实这份理解。
+六份公开指南展开取向、人、伙伴、关系、环境和修订六个完整问题，保留不同功能及相互联系，
+完整阅读并检查共同前提、关系与实际后果。
 
-采用的私人包提供 `references/situated/index.md`，记录实际服务、bank、问题、生成正文位置与必读选择，
-并以 `references/situated/revision.md` 说明执行方法。完整读取所选正文。原始证据保有维护者，
-派生 Personal 说明可迁入原生 Observations 或页面，不要求手工完整改写 Personal 或压成六文件。
-公开包不包含私人画像。
+简单路线由模型直接综合原有六份私人实际文件，把需要持久保存的源放在 Git 与私人 GitHub 仓库，
+可以独立使用，不要求安装 Hindsight。[可选 Hindsight 实现](references/hindsight.zh-CN.md)说明原生配置，
+实现相同六问题：把核对后的正文投影到六路径，或以私人索引明确绑定全部六者。Full/Empty 是独立的版本选择，
+不为不同工具另写一套哲学。
 
-
+两条路线都保留读哲学、检索新来源、纠正 Personal、综合、整体融贯与环境实现后的实际回读。
+Personal 保留可读文章与原始来源；原生 Observations 可在后台支持，不要求手工完整重写或串联摘要。
+实际修订方法仍须适合本人，继任内容核对并保留功能之前，现有正文继续承担阅读。公开包不含私人画像。
 
 形成可以从哲学、个人经验、偏好、实际工作或待修订环境开始。工程尚不可用时，借助模型
 建立可用基础，让文件、工具、执行和核验能够支持工作。已有环境可以为理解个人提供线索，

@@ -46,53 +46,102 @@ when its images and organization no longer resemble YinYang; the
 [example and commons essay](docs/example-and-commons.md) explains the distinction.
 
 A reader can study the example, borrow a method, or adopt situated YinYang.
-Full adoption configures Hindsight as the default formation engine and gives
-its question-defined models an actual private consumer. A separate original
-philosophical work is optional. The six public formation guides below define
-useful content lenses, not six required output documents.
+Full adoption forms the six question-defined accounts and gives them an actual
+private consumer. The simple route uses direct language-model synthesis and
+private Git/GitHub persistence; optional Hindsight supplies a more involved
+native implementation of the same method. A separate original
+philosophical work is optional. The six public formation guides below define six complete functional questions
+and their reading roles: orientation, person, counterpart, relationship,
+environment and revision. Native formation preserves all six, with prose and
+physical file layout fitted to use.
 
-## Write for the actual use
+## Choose the implementation, keep the same understanding
 
-Keep adopted Philosophy, attributable Personal evidence, and generated working
-understanding connected while preserving their different roles. Hindsight
-retains selected material, consolidates revisable facets, and fuses them through
-native Mental Models or Knowledge Pages. Codex prepares sources, missions and
-model questions, checks the complete result against evidence, repairs omissions,
-and carries environmental consequences into actual use.
+Both routes preserve adopted Philosophy, attributable Personal understanding,
+the six complete functional questions, their coherent relations and the original
+[revision dependency](formation/revision.md#refresh-the-selected-grounds): read
+the philosophy, retrieve relevant new sources, refresh/correct Personal with
+conflicts and uncertainty, synthesize the six, check the whole, and realize
+necessary Skills/environment changes with real readback.
 
-Read [Hindsight formation and configuration](hindsight.md) for the native
-categories, setup, SDK/API operations, question specifications, refresh and export.
-The private `references/situated/index.md` binds the actual service/bank and
-model bodies and chooses mandatory startup reading.
-`references/situated/revision.md` explains actual execution and verification.
-Personal derived summaries may move into native observations/pages; original
-evidence retains its owner and access boundaries. There is no mandatory
-manual Personal rewrite followed by six-file condensation.
+**Simple route.** The language model reads and synthesizes directly, maintaining
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
+The actual revision file explains this person's practice, not just file handling.
+Keep the intended private source in Git and persist it to a private GitHub
+repository through the actual account and publication owner. Verify privacy,
+committed content and intended retrieval; keep originals with their owners and
+credentials outside the repository. This route stands alone and requires no
+Hindsight installation, service or database.
+
+**Optional Hindsight route.** Use native retain, revisable Observations and
+Mental Models/Knowledge Pages to implement the same responsibilities. The
+[configuration and implementation guide](hindsight.md) explains adapting the
+service, providers, source missions, six queries, native operations and readback
+to the actual environment. Project checked native content to the same six paths,
+or explicitly bind all six complete bodies through a private
+`references/situated/index.md`. The actual situated revision method remains
+available in either arrangement. Native storage and prose may differ; no
+smaller grouping or per-page success establishes preservation of the six.
+
+Route choice changes tools, not the philosophy, full questions or evidence
+responsibilities. Full/Empty is a separate distribution choice; do not duplicate
+the philosophy, guides or complete package to create these routes. Personal
+keeps human-readable topic articles and source links; native observations can
+support their formation backstage. Neither route requires a complete duplicate
+Personal rewrite or a compulsory chain of summaries, but corrected Personal
+understanding must shape subsequent synthesis and original grounds remain
+reachable.
 
 ## Form a situated version from actual material
 
-| Content lens | Complete writing guide |
+| Functional question and required reading role | Complete writing guide |
 | --- | --- |
-| Adopted philosophy, values and direction | [Orientation](formation/orientation.md) |
-| The actual person and working implications | [Person](formation/person.md) |
-| Actual model capacity and wanted contribution | [Counterpart](formation/counterpart.md) |
-| Joint activity, role exchange and correction | [Relationship](formation/relationship.md) |
-| Realization in the actual environment | [Environment](formation/environment.md) |
-| Continuing revision and verification | [Revision](formation/revision.md) |
+| **Orientation:** What philosophy, values and direction are actually adopted, why, and how should they guide and remain answerable to work? | [Orientation](formation/orientation.md) |
+| **Person:** What grounded understanding of this person, their purposes, participation, capacities, conditions and uncertainty changes cooperation? | [Person](formation/person.md) |
+| **Counterpart:** What can the actual model do under its real conditions, what contribution is wanted, and how should independent judgment and fallibility shape that contribution? | [Counterpart](formation/counterpart.md) |
+| **Relationship:** How do these distinct participants generate, scrutinize, delegate, correct and return through joint activity, with what responsibilities and consequences? | [Relationship](formation/relationship.md) |
+| **Environment:** How do the selected relations become reachable instructions, tools, interfaces and material arrangements, and how does actual use correct them? | [Environment](formation/environment.md) |
+| **Revision:** How does this person's actual practice connect changed purposes, source grounds, judgments, shared understanding and environmental change to checked results? | [Revision](formation/revision.md) |
 
-Read the affected guides with current sources and generated bodies. Express
-what the model should cover in its native `source_query`: objects, relations,
-priorities, evidence distinctions, conditions, alternatives and useful writing
-organization. Preserve person, counterpart and relationship as distinct subjects;
-orientation, environment and revision contribute direction, realization and
-continuing change. Several lenses may be integrated in one model, or one lens
-may require several questions. Choose their actual organization through use.
+Before specifying or materially revising the model questions, read all
+six complete formation guides together with current accounts and relevant
+sources. Derive the synthesis instructions, or native `source_query`, from this connected
+scope; the table is an entrance, not a replacement for the guides' full content.
+Preserve each question's subject and full function while stating its relations
+to the others. Person, counterpart and relationship remain different objects;
+orientation, environment and revision supply direction, realization and continuing
+change. Do not collapse these questions into a smaller prototype grouping or
+make their source scopes artificially independent. Prose organization remains
+flexible. The simple route keeps the six-file contract; an explicit native
+binding must expose all six complete reading roles, including actual revision.
+
+## Make the six accounts coherent through revision
+
+Read the complete six-account whole against the important sources and actual
+result. Check whether shared premises, concepts, referents, temporal scope,
+participation, responsibilities and practical consequences fit together. Preserve
+real conflicts and uncertainty; coherence does not require inventing agreement
+or treating different conditions as contradictions. A changed adopted aim can
+affect the person implications, wanted counterpart contribution, relationship,
+environment and revision method, rather than merely changing one page's wording.
+
+Sibling accounts can be read as current interpretations needing coordination.
+They do not become independent factual evidence for one another. Return to the
+original grounds when judging a consequential claim. Repair the affected source,
+synthesis instructions, native mission/question or realization, regenerate the dependent accounts, then
+read the six together again. Neither a shared bank, common source access nor
+six individually successful page operations guarantees this coherence. The
+[actual revision method](formation/revision.md#check-the-coherence-of-the-six-accounts)
+keeps that work situated in the person's purposes, materials and environment.
+No mandatory seventh summary is needed: the relations belong in the six accounts
+and their actual use.
 
 Public distribution ships the common guides, with no filled or
 placeholder private accounts.
 
-Read back native extraction, observations and generated models rather than
-judging formation from a saved question or successful request. Grounded unknowns
+Read back the complete synthesized accounts at the actual consumer rather than
+judging formation from saved instructions or successful requests. In the native
+route, inspect extraction, observations and generated models separately. Grounded unknowns
 are useful content. An invented person or copied portrait cannot supply it.
 Actual consumer retrieval, authorized work and subsequent correction test the
 formed understanding at different scales. Environment or website changes still
@@ -205,11 +254,13 @@ the person's unavailable experience remains theirs to contribute. Keep the
 account conditional when the evidence does not discriminate. There is no need
 to settle a general personality trait to improve this workspace.
 
-Bring the relevant sources and relations into the native model questions
-specified above. Preserve the distinctive content lenses through checking and
-revision; the six guides do not require a six-file output layout. The actual
-private index selects generated bodies and the actual revision method explains
-how this person's source refresh, native processing, repair and environmental
+Bring the relevant sources and relations into the direct synthesis instructions
+or optional native model questions
+specified above. Preserve the six complete functional questions and their
+cross-account coherence through checking and revision; native storage does not
+require the old physical six-file layout. The actual
+private source uses the six files or binds native bodies, and the actual revision
+method explains how this person's source refresh, synthesis, repair and environmental
 realization work. Read the integrated result at its real consumer and revise
 from use. Neither complete biography nor complete psychological understanding
 is needed before useful creation and practical work begin.
@@ -250,7 +301,7 @@ explains how the selected relation reaches actual instructions, tools, and use.
 Keep public philosophy at its common owner and private experience at its
 supporting owners. The [revision guide](formation/revision.md#let-philosophy-revise-personal-support-material)
 owns the continuing reconciliation of those materials, their native model
-form, and the environment. Mechanical preservation by a common-file projector
+form through the selected route, and the environment. Mechanical preservation by a common-file projector
 does not prohibit authorized semantic revision or retirement of private notes.
 
 <a id="revise-from-the-changing-encounter"></a>

@@ -1,38 +1,75 @@
-# Form working models with Hindsight
+# Optional Hindsight implementation
 
 [简体中文](hindsight.zh-CN.md) · [Formation and revision](design-and-revision.md)
 
-Hindsight is YinYang's default model-formation engine. It retains selected
-attributed sources, consolidates revisable observations, and generates maintained
-Mental Models or Knowledge Pages from explicit questions. Codex selects and
-prepares authorized material, configures these operations, checks their results,
-repairs omissions, and carries adopted implications into the environment.
-It does not require a complete manual Personal portrait before native fusion
-or manual compression into six files. There is no fixed output count.
+Hindsight is an optional implementation of YinYang's formation and revision
+method. The standalone simple route directly synthesizes the same six files
+with a language model and private Git/GitHub persistence; it needs no Hindsight
+installation. Full/Empty distribution is independent of this tool choice.
+This guide explains the native route when its capabilities fit the actual
+setting; it does not introduce a second philosophy or another Skill copy.
 
-## Bind the actual private consumer
+Hindsight retains selected attributed sources, consolidates revisable
+Observations, and generates maintained Mental Models or Knowledge Pages from
+six detailed functional questions. The task owner prepares authorized material,
+configures operations, checks and repairs their output, and realizes adopted
+implications. Preserve the original revision sequence, full question scope and
+cross-account coherence; switching tools does not authorize merging the six
+into fewer prototypes or replacing the actual revision method with API steps.
 
-First resolve the installed Hindsight version, service URL, authentication,
-private bank, inference and embedding providers, and phase-specific model settings
-from the host's actual configuration. Reuse its credential owner; do not put
-credentials in this package. Check service health, bank/config retrieval, and
-supported SDK/API fields before submitting personal material. Installing this
-Skill does not provision Hindsight or authorize sending data to a new provider.
-Explain the selected source scope, inference route and resulting reading surface.
-Use a disposable, nonpersonal record to test a newly configured route, then
-exercise the authorized real source-to-model path. Unavailable infrastructure
-is an unfinished integration, not a reason to claim manual formation is equivalent.
+## Configure the selected native implementation
 
-Keep `references/situated/index.md` as the private binding and reading entrance:
-service/bank locators, model questions and IDs, generated body/export locators,
-source scope, and the models required at ordinary startup. Keep the actual
-execution method at `references/situated/revision.md`. Generated bodies may live
-under a chosen private view path or be read through the native API. The index
-selects the complete required bodies; it is not a substitute for reading them.
-Choose the organization from the questions and actual consumer, without assuming
-six files or replacing them with another fixed count.
+Resolve the installed/supported Hindsight version, deployment form, service URL,
+authentication, private bank, storage, inference and embedding providers, and
+phase-specific model settings for the actual host. Use the
+[upstream project](https://github.com/vectorize-io/hindsight) for its current
+installation route; these choices vary across environments. The native interfaces
+below were inspected in version 1.1.0, not assumed valid for every installation.
+No service or credentials are provisioned by installing the YinYang Skill.
+
+1. Choose the actual native service or hosted deployment and a private source
+   scope. Configure its persistent database/storage, inference and embeddings;
+   keep credentials with their existing secret owner, outside the Skill and
+   ordinary Git files. Establish actual access and provider/data boundaries.
+2. Read the effective bank configuration, then set `retain_mission`,
+   `observations_mission` and `reflect_mission` for the shared purposes below.
+   Set the phase-specific provider/model/budgets and source retention appropriate
+   to the actual data and cost; do not copy another person's runtime settings.
+3. Define the six complete questions from all six guides and actual grounds,
+   configure native scope and full/delta refresh, and connect the intended caller
+   through its supported SDK/API or MCP route. Questions remain related, not
+   six isolated corpora. Record the actual binding and reading locations.
+4. Check service health and bank/config retrieval, then test native retention,
+   extraction, consolidation, reflection, page refresh and Markdown export with
+   a disposable nonpersonal record. Inspect terminal operations and read actual
+   content back; endpoint acceptance is not the complete result.
+5. Process authorized real sources through the preserved revision dependency,
+   inspect the six-account whole and project checked bodies for the actual
+   reader. Verify the real consumer and necessary environment effects. A route
+   failure is an explicit native-integration gap; the simple route remains a
+   supported independent choice, not evidence that the native operation worked.
+
+Prefer projection to the familiar six
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`
+paths when that fits the consumer. If another native layout is useful, keep
+`references/situated/index.md` as the explicit private service/bank, six question
+IDs, source-scope and complete-body binding. It must expose all six reading
+roles, with the actual situated revision method at `revision.md` or its explicit
+complete binding. A binding selects bodies and cannot replace them. Do not keep
+two competing authoritative sets. Persist intended private source/export content
+through its actual private Git/GitHub owner; native database backup and history
+retain their own runtime owner. Hindsight is not itself GitHub publication.
 
 ## Prepare sources and processing instructions
+
+The selected native route preserves the [revision dependency](formation/revision.md#refresh-the-selected-grounds):
+read adopted philosophy, retrieve relevant new attributable sources, refresh and
+correct Personal understanding with its conflicts and uncertainty, then let
+Hindsight synthesize the six, check their coherence and realize necessary
+Skills/environment changes with actual readback. Native operations implement
+these responsibilities; access to original sources alone does not replace the
+Personal-correction step. No complete manual rewrite or mandatory chain of
+generated summaries is required. All products retain routes to original grounds.
 
 Philosophy supplies arguments, distinctions, and chosen commitments; Personal
 supplies attributed reports and evidence; environment and work/history records
@@ -76,25 +113,53 @@ They do not automatically become Codex instructions or authorize host changes.
 
 ## Write model questions as detailed content specifications
 
-The six formation guides remain content lenses: orientation, person,
-counterpart, relationship, environment, and revision. Use the affected complete
-guides to write each native `source_query`. A question can specify as much
-substance as a writing guide: purpose and consumer, subjects and scope, important
-relations, priority among concerns, organization, evidence distinctions,
-uncertainties and counterexamples, and how the account should guide work.
-A title alone rarely expresses this. One model may connect several lenses;
-one lens may need several questions. Preserve their distinct contributions
-without requiring one document per lens. The six philosophical dimensions
-are likewise questions of understanding, not a storage schema.
+Keep six explicit native model questions: orientation, person, counterpart,
+relationship, environment and revision. Their full functional scope belongs to
+[the six-question method](design-and-revision.md#form-a-situated-version-from-actual-material)
+and the six complete formation guides. Read those guides together when defining
+or materially revising each `source_query`, so its scope preserves its own
+subject and the relations it has to the other five. A heading or a shortened
+role list does not supply the guides' full content.
 
-For example, a cooperation question can ask how adopted philosophy and relevant
-personal reports jointly explain wanted participation, actual model capacities,
-role exchange and return, conditions of useful delegation, and environmental
-consequences. Ask it to distinguish observed results, reported preferences,
-chosen directions and explanatory hypotheses; preserve scope exceptions and
-unresolved alternatives; state what a future counterpart should understand and
-do. Fit the content to this person's actual question rather than copying the
-example into every model.
+A question can specify purpose and consumer, subject scope, important relations,
+priority among concerns, organization, evidence distinctions, uncertainties,
+counterexamples and how the account should guide work. Its prose organization
+can vary with the material. Do not merge person, counterpart and relationship
+into one undifferentiated question or treat environment as only an inventory.
+The revision question must form the person's actual method for reconsidering
+purposes, material, interpretations, connected changes and verified use; native
+API procedures alone do not supply it. The six philosophical dimensions remain
+questions of understanding, not a database storage schema.
+
+Specify the shared adopted premises and cross-question relations in the relevant
+questions while preserving each question's distinct contribution. For example,
+a chosen aim of voluntary participation must remain intelligible in the person
+account, wanted counterpart contribution, allocation of joint work, enabling
+environment and means of correction. This calls for connected reasoning, not
+six copies of one paragraph.
+
+## Check coherence across the six questions
+
+Read all six complete accounts together after formation and a consequential
+revision. Check shared premises, concepts and referents, conditions and time,
+responsibilities and practical consequences against sources and actual use.
+A common bank, shared missions, retrieval from the same sources, or a successful
+refresh for every page does not guarantee that these relations are coherent.
+Preserve real disagreement or uncertainty instead of smoothing it away.
+
+Sibling accounts may be read as current interpretations to coordinate. They
+are not independent evidence for one another's factual claims. Inspect original
+grounds where a claim matters, and distinguish using a sibling's stated view as
+context from counting it as corroboration. Configure native model inclusion or
+exclusion deliberately to avoid echoing a stale view; do not turn exclusion into
+a requirement that questions be understood or revised in isolation.
+
+If the whole exposes a mismatch, repair the affected original source, mission,
+query, retrieval scope or environmental realization, refresh the dependent
+questions, and read the six together again. A local correction need not regenerate
+unaffected bodies, but its consequences must be checked across the whole. Keep
+important unresolved differences explicit. The situated revision method carries
+this judgment and application; no mandatory seventh summary document is needed.
 
 ## Use the native interfaces
 
@@ -117,17 +182,20 @@ client.retain(
 )
 created = client.create_mental_model(
     bank_id=bank,
-    name="Understanding cooperation in its actual conditions",
-    source_query="""Explain the adopted direction and supported relations among
-    the person, actual counterpart, joint activity and environment. Distinguish
-    reports, chosen commitments, hypotheses and observed effects. Preserve
-    counterexamples, conditions and unknowns that change future action.""",
+    name="The actual model counterpart",
+    source_query="""Develop the counterpart question from the six complete
+    formation guides and relevant original grounds. Explain actual capabilities
+    and conditions, wanted contribution, independent judgment and fallibility.
+    Relate them coherently to adopted direction, the actual person, joint work,
+    environment and situated revision. Distinguish observed effects, intended
+    arrangements and hypotheses; preserve conditions and unknowns.""",
     max_tokens=6000,
     trigger={"mode": "full", "fact_types": ["world", "experience", "observation"],
              "exclude_mental_models": True, "refresh_after_consolidation": True},
 )
 # Creation schedules work: inspect its operation_id and terminal result,
 # then read the resulting ID through client.get_mental_model(bank, model_id).
+# Specify the other five full questions and check all six accounts together.
 ```
 
 The example illustrates fields, not a command to run against arbitrary personal
@@ -171,9 +239,11 @@ operation and read the changed result. A smaller output or more observations
 does not prove semantic preservation. A source citation is not independent
 corroboration, and fluent synthesis does not establish a causal explanation.
 
-After checking the bodies, update the private index's actual binding and required
-startup reading. Replace old six-file consumer contracts through their owners;
-old bodies remain migration/history evidence, not a second authoritative set.
+After checking the complete six-question whole, update the private index's
+actual binding and required startup reading. Migrate physical consumer paths
+through their owners only after the successor preserves the required functions
+and relations. Existing actual bodies can remain the current reading source
+until that replacement is checked; retirement is not automatic on generation.
 Check the real calling conversation can retrieve the selected complete bodies.
 Realize environment changes through their existing owners and verify actual use.
 The execution owner retains purpose, judgment, authority and completion;

@@ -63,8 +63,9 @@ sequence:
   recipient's own aims and vocabulary. Selective use does not require installing
   this package, forming the selected complete model bodies, or writing a personal philosophy.
 - **Adopt the maintained YinYang Skill.** Give the complete package an actual
-  consumer, state the positions actually adopted, form the question-defined
-  situated models, including one's own revision method, and use the initial
+  consumer, state the positions actually adopted, form the six question-defined
+  situated accounts through either supported route, including one's own actual
+  revision method, and use the initial
   reading contract below. The [package guide](references/docs/skill-package.md)
   owns its fixed paths and common/private update contract.
 
@@ -78,28 +79,56 @@ original philosophical work.
 
 ## Enter ordinary collaboration
 
-For the adopted private Skill, read this complete entrypoint, the actual binding
-at `references/situated/index.md`, the actual method at
-`references/situated/revision.md`, and all generated model bodies selected there
-for required startup reading, in full before substantive work. Reuse complete
-current text in context; retrieve missing readings after context loss. The index
-names the actual Hindsight service/bank, model questions/IDs and private body
-locators. It selects reading; it does not stand in for the bodies.
+The simple route retains the original six actual private files. Before
+substantive work, the main model reads this complete entrypoint and all six
+complete accounts:
 
-[Hindsight formation and configuration](references/hindsight.md) owns the native
-processing route. Hindsight fuses authorized Philosophy, Personal, environment
-and history into revisable observations and question-defined models. Codex
-prepares sources and detailed questions, checks and repairs native results,
-and realizes adopted implications. Six formation guides preserve distinct
-content lenses; generated models have no fixed count or one-to-one file mapping.
+| Functional question and reading role | Simple-route actual file |
+| --- | --- |
+| Adopted philosophy, values, direction and reasons | `references/situated/orientation.md` |
+| Grounded understanding of the actual person and cooperation implications | `references/situated/person.md` |
+| Actual model capability, wanted contribution and independent judgment | `references/situated/counterpart.md` |
+| Joint activity, responsibilities, role exchange, correction and return | `references/situated/relationship.md` |
+| Realization through actual instructions, tools, interfaces and conditions | `references/situated/environment.md` |
+| This person's actual method for reconsidering grounds, understanding and realized work | `references/situated/revision.md` |
 
-Preserve source attribution, adopted commitments, inferred explanations and
-uncertainty. Original evidence retains its owners; derived Personal accounts
-can migrate to native observations/pages without a mandatory manual summary
-stage. Select further private evidence by the question. Missing bindings or
-incomplete bodies are concrete gaps: state them, continue useful independent
-work, and form or repair the required content. Old six-file bodies are migration
-and history evidence rather than another maintained authoritative model set.
+The model reads, corrects and synthesizes these directly. Keep the intended
+private source in Git and persist it to a private GitHub repository through
+its actual owner, with source/consumer readback. Public distribution contains
+no private portrait. This standalone route requires no Hindsight installation.
+
+[Optional Hindsight implementation](references/hindsight.md) uses native
+processing for the same six questions. Project checked native content to the
+same six paths, or use an explicit private `references/situated/index.md` binding
+that exposes all six questions/IDs and complete bodies. Read that binding and
+all six complete accounts, including the actual situated revision method.
+A model question, metadata index, shared bank or smaller prototype is not a
+substitute. Full/Empty distribution is independent of this route choice.
+Reuse complete current text already in context; retrieve missing readings after
+context loss. Choose further Philosophy and readable Personal sources by purpose.
+
+In either route, preserve the [revision sequence](references/formation/revision.md#refresh-the-selected-grounds):
+read adopted philosophy, retrieve relevant new attributable sources, refresh and
+correct Personal understanding with conflicts and uncertainty, then synthesize
+the six, check their whole and realize necessary Skills/environment changes
+with actual readback. Native extraction, Observations and topic pages can
+implement Personal correction without a complete manual rewrite; corrected
+understanding must still inform synthesis and original grounds remain reachable.
+
+Read the six as related accounts. Check shared premises, objects, conditions,
+participation, responsibilities and consequences together. Siblings can be read
+as current interpretations to coordinate, not independent factual evidence for
+one another. Repair affected grounds/instructions or native questions, regenerate
+dependencies and check the whole again; six successful writes or refreshes do
+not guarantee coherence. No mandatory seventh summary is needed. The actual
+revision account remains fitted to this person's purposes and environment,
+not merely Git or backend procedures.
+
+Personal remains human-readable topic articles with source links. State missing
+accounts, bindings, incomplete functions or unresolved coherence as concrete
+gaps; continue useful independent work and repair what the purpose requires.
+Existing actual bodies remain current until checked successors preserve their
+functions and relations. Choosing a tool or generating a page does not retire them.
 
 ## Work from the actual encounter
 
@@ -120,7 +149,8 @@ literary construction have different evidential roles.
 
 Keep useful understanding current through actual work. The
 [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-owns each refresh of the working models, including native source refresh and generated-model checking. A completed result,
+owns each refresh through the selected route, including source/Personal
+correction and whole-six checking. A completed result,
 agreement, relief, and a person's developing abilities support different claims;
 assess the result the current task actually seeks. Saving a description or
 handing off work does not itself carry the action to completion.
@@ -155,7 +185,9 @@ finish a theory before this contribution becomes possible. Follow that method
 for what to develop and how to revise it, rather than imposing an additional
 formation workflow here.
 
-Full adoption includes a configured native formation route, selected complete model bodies, an actual binding index and revision method, and their needed private provenance. Unchanged guidance, a copied portrait, and an
+Full adoption includes six grounded complete actual accounts, their situated
+revision method and needed private provenance, persisted through the selected
+route. Hindsight and a native binding index are optional. Unchanged guidance, a copied portrait, and an
 invented person do not complete that work. A selectively borrowed method
 instead serves its actual task; it does not silently acquire this file contract.
 The [package guide](references/docs/skill-package.md) owns the exact distinction.

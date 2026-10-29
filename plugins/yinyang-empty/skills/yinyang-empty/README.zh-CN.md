@@ -21,12 +21,13 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 | 整理私人证据与理解 | [组织 Personal](references/personal-material.zh-CN.md) |
 | 安装与更新，并保留自己的内容 | [文件与更新](references/package.zh-CN.md) |
 
-`references/formation/` 有取向、人、伙伴、关系、环境、修订六份指南，均有中英文。
-私人 `references/situated/index.md` 绑定 Hindsight 生成正文及必读选择，`revision.md` 说明实际执行；证据与来源路线保存在
-`references/personal/`；自己的哲学保留在原有来源，或写在私人的 `references/philosophy/`。
-Empty 已放好四个空 Personal 分区：偏好与选择、心理经验与测评、个人条件与生活、
-自我表达与作品；私人绑定和修订起始文件标为 `status: unfilled`。文件存在不代表实际
-理解已经形成，由模型结合本人的材料继续填写，包内不预填个人事实或画像。
+六份中英文形成指南保留取向、人、伙伴、关系、环境与修订六个完整相连问题。简单路线使用原有六份
+私人实际文件，由模型直接综合并持久保存在私人 Git/GitHub，不要求安装 Hindsight。
+Empty 提供六份标为 `status: unfilled` 的起始文件、四个空 Personal 分区与来源索引；形成实际内容，不复制画像。
+
+[可选原生指南](references/hindsight.zh-CN.md)按实际服务与提供方配置 Hindsight，把相同六个完整问题
+投影到文件或明确的六者绑定。两条路线都保留原有修订步骤、Personal 纠正、整体融贯与本人实际修订方法，
+不强制第七份摘要。Full/Empty 版本选择独立于工具路线；Personal 在四组内保持可读，原件保有维护者，不预填个人事实。
 
 [Codex 安装说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.zh-CN.md)
 提供 `yinyang-empty@boluopai`。同一个个人版选择 Full 或 Empty，个人内容保存在会被替换的
@@ -35,5 +36,3 @@ Empty 已放好四个空 Personal 分区：偏好与选择、心理经验与测�
 本包是 boluopai 阴阳作品的一个版本：选取方法资源，将展开的文章保留为可选的外部阅读。
 沿用 [CC BY-NC-SA 4.0](LICENSE)，分享改编时保留署名、注明修改并采用相同许可；
 私人改编不必公开。
-
-[Hindsight 原生形成](references/hindsight.zh-CN.md)负责默认融合，输出数量由问题决定；私人索引与实际修订方法连接生成正文和日常阅读。

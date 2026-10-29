@@ -70,21 +70,25 @@ Choose the entrance that serves the current question:
 For files and updates, use the [package guide](references/docs/skill-package.md);
 for arguments and sources, use the [reading map](references/reading-map.md).
 
-The six public how-to guides define orientation, person, counterpart,
-relationship, environment and revision. [Hindsight formation](references/hindsight.md)
-fuses selected Philosophy, Personal, environment and history sources into native
-observations and question-defined working models. The questions can be detailed
-content specifications; outputs have no fixed count. Codex prepares, checks,
-repairs and realizes this understanding.
+The six public guides develop six complete questions: orientation, person,
+counterpart, relationship, environment and revision. Their different functions
+remain connected; read and check the whole for shared premises, relations and
+practical consequences.
 
-A private adopted package supplies `references/situated/index.md` with its actual
-service/bank binding, questions, generated body locations and startup reading,
-plus `references/situated/revision.md` with its execution method. Read the selected
-complete bodies. Original evidence keeps its owners; derived Personal accounts
-may migrate to native observations/pages. No manual complete Personal rewrite or
-six-file condensation is required. Public packages carry no private portraits.
+The simple route directly synthesizes the original six actual private files and
+persists intended source in Git and a private GitHub repository. It stands alone
+without Hindsight installation. [Optional Hindsight implementation](references/hindsight.md)
+explains native configuration for the same six questions: project checked bodies
+to the six paths or explicitly bind all six in a private index. Full/Empty is an
+independent edition choice, not a second philosophy for each tool.
 
-
+Both routes preserve philosophy reading, new-source retrieval, Personal
+correction, synthesis, holistic coherence and environment realization with real
+readback. Personal keeps readable articles and original-source routes; native
+Observations can support it backstage without requiring a manual rewrite or
+chained summaries. Actual revision remains situated, and current bodies stay
+current until checked successors preserve their functions. Public packages
+contain no private portrait.
 
 Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable

@@ -24,11 +24,28 @@ Keep these recipient-owned materials private and outside managed plugin caches:
 | `references/personal/` | Your relevant materials, evidence, maintained interpretations, and source index. |
 | `references/situated/` | Your binding index, generated model bodies, and actual revision method. |
 
-The [entrypoint](../SKILL.md) reads the private binding index, actual revision method and complete generated bodies selected there. The shipped index/method are unfilled starters; form native Hindsight models from actual sources. Personal starts with four empty areas and a source-index starter.
-Personal material
-can refer to originals at existing owners rather than copying every record.
-Keep meaningful material names in the person's native language. Neither a common
-guide nor a borrowed portrait substitutes for these actual contents.
+The simple route directly reads and synthesizes the six actual files
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
+All six shipped starters are `status: unfilled`; form actual grounded content,
+including a situated revision method. Persist intended private source in Git
+and a private GitHub repository through the actual owner, with private visibility
+and retrieval checks. This route needs no Hindsight installation.
+
+The [optional native guide](hindsight.md) explains environment-specific Hindsight
+configuration. Project checked native results to the same six paths, or create
+an explicit private index binding all six questions/IDs and complete reading
+bodies. An unfilled binding or smaller prototype does not replace the six full
+functions. Full/Empty distribution is independent of simple/native tool choice.
+
+Both routes read all six complete actual accounts and preserve the original
+revision dependency: philosophy, new attributable sources, Personal correction,
+synthesis, whole-six coherence and actual realization/readback. Each question
+draws on all six guides. Coordinate sibling interpretations without treating
+them as independent factual evidence; repair dependencies rather than add a
+mandatory seventh summary. Personal starts with four empty areas and a source
+index; it keeps readable topic articles and links to originals at their owners.
+Names follow the person's native language. Guides and borrowed portraits cannot
+substitute for their actual content.
 
 ## Obtain and use the edition
 
@@ -59,7 +76,7 @@ against an Empty version; it belongs to Full's different file contract.
 
 The collection maintainer uses `scripts/build-yinyang-empty.py --apply` to refresh
 the shared guides from Full, rebase their links, and adapt the distribution
-statement to Empty's unfilled binding/revision starters. Its default mode checks that
+statement to Empty's unfilled six actual starters. Its default mode checks that
 the generated selection is current. Empty's own entrypoint and package guidance
 remain authored at this directory. Plugin generation then packages that exact
 tree. This publication operation does not read or update recipient personal data.

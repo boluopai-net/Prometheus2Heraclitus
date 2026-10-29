@@ -14,7 +14,7 @@ YinYang is one developed philosophy and formation method. Readers can adopt
 it, combine selected resources, or create a different work. The
 [example and commons essay](example-and-commons.md) develops that invitation.
 A philosopher's thought may inform a framework; it cannot replace the account
-of the actual user. This guide's native-model and common-update contract applies
+of the actual user. This guide's six-question, dual-route and common-update contract applies
 to full adoption of the maintained Skill. Reading its philosophy or borrowing
 a selected method does not by itself adopt that contract or require a personal
 philosophy project. Full adoption also leaves original essay-writing optional:
@@ -23,43 +23,65 @@ which can draw on selected existing ideas.
 
 ## Common and situated content
 
-The six bilingual public formation guides explain orientation, person,
-counterpart, relationship, environment and revision. They guide content and
-relations in Hindsight model questions; they do not prescribe six output files.
-[Native formation and configuration](../hindsight.md) owns setup, source roles,
-missions, model questions, refresh and export.
+The six bilingual formation guides define the full questions and reading roles
+of orientation, person, counterpart, relationship, environment and revision.
+Each synthesis instruction draws on the six complete guides and relevant actual
+grounds. [Formation and revision](../design-and-revision.md) owns their distinct
+subjects, connected scope and whole-six coherence.
 
-A private adopted version keeps `references/situated/index.md` as the actual
-binding and reading entrance and `references/situated/revision.md` as its actual
-execution method. The index records service/bank locators, questions/IDs,
-generated body locations and mandatory startup reading. The number and layout
-of generated models follow their questions. Read the selected complete bodies,
-not merely the index. Public Full ships no private accounts or placeholders.
+The simple standalone route uses direct language-model synthesis and the stable
+private files below. It needs no Hindsight installation:
 
-Philosophy retains its authored source. Personal remains a human-readable
-collection of topic articles in its existing four subject groups, with readable
-navigation and source links. Originals retain their owners. Hindsight can
-maintain substantive Personal Knowledge Pages and project their native Markdown
-bodies into existing private reading paths; observations support formation
-backstage. Migrate affected derived articles as revision needs while preserving
-readability and unique grounds, without wholesale deletion or rewriting.
-Direct source/article editing and organization remain available. Personal pages
-and collaboration models derive their different content from relevant original
-grounds, without a required chain of generated summaries. The
-[Personal guide](../formation/personal-material.md#keep-personal-readable-for-the-person)
-owns that reading arrangement. Old six-file collaboration bodies are
-migration/history, not a parallel authoritative model set. There is no
-mandatory manual-first synthesis stage.
+| Question | Actual private file |
+| --- | --- |
+| Orientation | `references/situated/orientation.md` |
+| Person | `references/situated/person.md` |
+| Counterpart | `references/situated/counterpart.md` |
+| Relationship | `references/situated/relationship.md` |
+| Environment | `references/situated/environment.md` |
+| Actual situated revision method | `references/situated/revision.md` |
 
-Keep meaningful Personal material names in the person's native language;
-body language follows its semantic consumer. Preserve instrument identifiers
-where useful. Both `references/personal/` and `references/situated/`, including
-all generated private bodies and locators, remain private. Choose generated
-view locations within protected private ownership, never the common tree.
-Everything else is common package content. Common projection does not traverse
-or overwrite either private tree, change bank state or publish runtime models.
-Independently authored philosophy retains its own source; avoid overwriting it
-with this package's common content.
+Read all six complete actual accounts in ordinary collaboration. Persist intended
+private source in Git and a private GitHub repository through the actual account
+and publication owner, checking private visibility, committed content and reader
+retrieval. Original records retain their owners; secrets stay outside ordinary
+repository files. Public Full ships no private accounts or placeholders.
+
+[Optional Hindsight implementation](../hindsight.md) supplies a native route for
+the same six questions. Its service/providers/configuration vary by environment;
+no installation is required for simple adoption. Project checked native bodies
+to the six stable paths, or explicitly bind all six complete bodies and their
+questions/IDs with a private `references/situated/index.md`. The actual revision
+method still describes this person's purposes, judgments, material and environment,
+not merely backend steps. An index selects bodies, never replaces them. Keep one
+current authoritative set. Full/Empty distribution is independent of tool route.
+
+Both routes retain philosophy reading, relevant new source retrieval, Personal
+refresh/correction, synthesis, whole-six coherence checking and realization with
+actual readback. Shared premises, relations and consequences need comparison;
+common bank membership or per-file/page success is no guarantee. Sibling accounts
+can be coordinated as current interpretations, not independent factual evidence.
+Repair affected sources/instructions or native queries and regenerate dependencies;
+no mandatory seventh summary is needed. Existing actual bodies stay current
+until checked successors preserve their full functions and coherent relations.
+
+Philosophy retains its authored source. Personal remains human-readable topic
+articles in the existing four subject groups, with usable navigation and original
+source links. Direct source/article editing remains available. In the native
+route, substantive Knowledge Pages can maintain those articles and project
+Markdown into existing private reading paths, with Observations backstage.
+Migrate affected derived articles as revision needs, preserving readability and
+unique grounds. Corrected Personal understanding must inform later synthesis;
+all products can return to originals without requiring chained generated summaries.
+The [Personal guide](../formation/personal-material.md#keep-personal-readable-for-the-person)
+owns that reading arrangement.
+
+Keep meaningful Personal material names in the person's native language; body
+language follows its consumer. Preserve instrument identifiers where useful.
+Both `references/personal/` and `references/situated/`, including optional native
+bindings and private generated bodies, stay private. Common projection protects
+both trees; it does not change bank state, GitHub visibility or runtime consumers.
+Independently authored philosophy retains its own source.
 
 ## Questionnaire and assessment material
 
@@ -111,8 +133,8 @@ publish the projected source, followed by actual-consumer readback.
 Earlier packages mixed public guidance and private content at
 `references/{encounter,models,relationship,usage,sources}.md`. The projector
 refuses either package with any of these paths before changing files. Their
-owner first migrates actual meaning into Hindsight-backed models and the private
-binding/evidence index, preserves unique support, and retires the old paths. The old
+owner first migrates actual meaning into the six actual accounts and private
+evidence index, or an explicit all-six native binding, preserves unique support, and retires the old paths. The old
 encounter can contain orientation and relationship, and the old relationship
 both counterpart and joint activity: a mechanical rename cannot complete this
 semantic migration. Retain any useful private `references/personal/README.md`
@@ -130,7 +152,9 @@ replace the philosophy or organization independently, keep that work at its
 own source and maintain its coherent references. Do not project this common
 package over it, even if it retains the six-slot format.
 
-Model organization follows actual questions; no fixed document count is retained.
+The maintained implementation preserves the six full questions and their
+coherent relations through either route. Native paths may differ under an explicit
+all-six binding; independently authored works can choose another design.
 
 ## Personal and public boundaries
 

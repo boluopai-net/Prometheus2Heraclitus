@@ -25,17 +25,20 @@ and implementation; you need not do it unaided.
 | Organize private evidence and understanding | [Organizing Personal](references/personal-material.md) |
 | Install and update without replacing your own content | [Files and updates](references/package.md) |
 
-The `references/formation/` directory contains six guides, each in English and
-Chinese: orientation, person, counterpart, relationship, environment, and revision.
-[Hindsight](references/hindsight.md) forms question-defined native models. The private `references/situated/index.md` binds their actual service, bank and bodies; `revision.md` states execution. Output count follows the questions. Evidence and
-maintained personal understanding belong in private `references/personal/`;
-your philosophical writing can stay at its existing owner or under private
-`references/philosophy/`. Empty includes four unfilled Personal areas and six
-Situated starter files marked `status: unfilled`; their existence does not mean
-the actual accounts have been formed. The Personal areas are preferences and
-selection, psychological experience and assessment, personal conditions and
-everyday life, and self-expression and works. Fill them from actual material
-with the model; no personal facts or portraits are supplied.
+The six bilingual formation guides preserve orientation, person, counterpart,
+relationship, environment and revision as full, connected questions. The simple
+route uses the six original private actual files with direct model synthesis and
+private Git/GitHub persistence; it needs no Hindsight installation. Empty supplies
+six starters marked `status: unfilled`, plus four empty Personal areas and a
+source-index starter. Form actual content rather than copying a portrait.
+
+The [optional native guide](references/hindsight.md) adapts Hindsight to the actual
+service/providers and projects the same six complete questions to their files
+or an explicit all-six binding. Both routes retain the original revision steps,
+Personal correction and whole-six coherence, with an actual situated revision
+method and no mandatory seventh summary. Full/Empty edition choice is independent
+of tool route. Personal stays readable under its four groups; originals keep
+their owners and no personal facts are prefilled.
 
 The [Codex installation guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.md)
 offers `yinyang-empty@boluopai`. Choose Full or Empty for the same personal version,
