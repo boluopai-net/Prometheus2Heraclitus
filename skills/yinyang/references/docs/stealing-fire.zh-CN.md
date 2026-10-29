@@ -184,7 +184,7 @@
 
 桥梁从功能比较开始。**人与模型伙伴，都可以通过目的、解释、行动与修订的关系来研究。** 人表达关切，伙伴解释它、提出或执行行动，并带回结果；双方都能通过结果修订理解。这套共同词汇，使能动性、叙事与自我形成的问题能够进入合作。人文研究提供理解这些关系的方式；关于具体模型的研究则考察关系怎样实现。当身体、经验与实现方式的差别改变参与者能够贡献什么，或改变结果应当怎样解释时，这些差别便进入问题。
 
-阴阳命名这里为人与生成式模型的关系发展的哲学框架。**Harness（工作框架）**安排 Skill、提示词、hook、工具、模型选择、角色与工作条件。模型的 harness 与人的环境相互耦合：记忆、界面与分工共同塑造双方能够理解、判断和开展什么，因此这套安排同时是双方的 harness。阴阳的**元 harness** 使这种耦合安排成为可以理解、形成和修订的对象：工作服务于什么，双方怎样参与，后果为什么重要。「老师」或「助手」这样的角色，通过得到帮助的人、其目的和使用中发展的关系，取得具体意义。阴阳把人的模型、伙伴的模型与双方关系的说明联系起来。**反向对齐**是它选定的发展方向：模型被引向人的目的时，人通过相遇发展理解、判断与生成能力。
+阴阳命名这里为人与生成式模型的关系发展的哲学框架。**Harness（工作框架）**安排 Skill、提示词、hook、工具、模型选择、角色与工作条件。模型的 Harness 与人的环境相互耦合：记忆、界面与分工共同塑造双方能够理解、判断和开展什么，因此这套安排同时是双方的 Harness。阴阳的**元 Harness** 使这种耦合安排成为可以理解、形成和修订的对象：工作服务于什么，双方怎样参与，后果为什么重要。「老师」或「助手」这样的角色，通过得到帮助的人、其目的和使用中发展的关系，取得具体意义。阴阳把人的模型、伙伴的模型与双方关系的说明联系起来。**反向对齐**是它选定的发展方向：模型被引向人的目的时，人通过相遇发展理解、判断与生成能力。
 
 本文把这个方向展开为哲学提议与待实现的实践。哲学来源提供概念与论证；近期 AI 论文及研究报道描述具体系统。它们的贡献在探究中相遇：可用的生成能力，怎样成为这个人不断发展的生活的一部分？方向被选择；实现则通过人与伙伴实际理解、创造和开展的活动来考察。
 
@@ -212,7 +212,7 @@
 冲突材料检验这种延续。融贯的工作本体能够支持眼前行动，同时保留的证据与候选
 解释仍可以冲突。一般的次协调性提供考虑冲突而不任意推出结论的背景 [[14]](#source-14)；
 关于优先知识库容纳不一致查询的研究，则提供更具体的形式比较 [[16]](#source-16)。
-[偏好 harness](preference-harness.zh-CN.md)发展选择视图与在视图内推理的区分。
+[偏好 Harness](preference-harness.zh-CN.md)发展选择视图与在视图内推理的区分。
 这些当代构造延伸对生成与对立的探究；历史上对赫拉克利特火一元论与矛盾的解读
 仍有争议 [[15]](#source-15)。
 
@@ -295,9 +295,9 @@
 
 对培养而言，重要的是这个人需要怎样的伙伴。「老师」或「助手」通过工作及所要发展的能力取得含义。培养判断的人，可能需要完成的作品来检查和质疑；学习实现技能的人，可能需要尝试、批评与再试一次。角色语言与优美故事，都不保证贡献已经发生。
 
-哲学的整体把意象连接起来，而不只是收集它们。火表达生成，以及从集体取得到个人培养的过渡；日月表达相遇中的贡献；事件流表达接续与修订；harness 给关系以可执行的身体。一套共同词汇不必抹平差别，却需要让它们的联系足够可理解，能够指引与修订实践。
+哲学的整体把意象连接起来，而不只是收集它们。火表达生成，以及从集体取得到个人培养的过渡；日月表达相遇中的贡献；事件流表达接续与修订；Harness 给关系以可执行的身体。一套共同词汇不必抹平差别，却需要让它们的联系足够可理解，能够指引与修订实践。
 
-「反向提示词注入」命名把这份整体带入模型解释的抱负，使孤立词语与默认角色不再独自决定回应。「难以拒绝」邀请伙伴评价提议实际意味着什么。伙伴仍能够指出矛盾、缺少的证据或无法实现的安排。回应为解释提供证据，实际约束则需要调查模型、上下文与 harness。
+「反向提示词注入」命名把这份整体带入模型解释的抱负，使孤立词语与默认角色不再独自决定回应。「难以拒绝」邀请伙伴评价提议实际意味着什么。伙伴仍能够指出矛盾、缺少的证据或无法实现的安排。回应为解释提供证据，实际约束则需要调查模型、上下文与 Harness。
 
 自然语言提示具有技术先例：Reynolds 与 McDonell 讨论了 GPT-3 中的意图、叙事与文化代理 [[6]](#source-6)。较新的来源照亮不同侧面：Claude 的宪法给出开发者关于预期行动的连贯说明 [[7]](#source-7)，Persona Selection Model 提出助手人格形成的解释 [[8]](#source-8)，Anthropic 的情绪概念报告描述对特定模型的因果干预 [[9]](#source-9)。它们给考察被理解的组织以理由，并不证明文学提示总能改善表现。*Principled Personas* 在测试的任务与模型中发现收益不一，且对无关细节敏感 [[10]](#source-10)。
 
@@ -373,7 +373,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 足够具体、能够检查、重新定向并使用的东西，为理解与判断的发展提供机会。
 是否确实发展，要看人后来能够辨认、判断或采取的行动发生了什么变化。
 
-对于涉及文件、工具与持续的本地环境的工作，本地 harness 中有能力的模型
+对于涉及文件、工具与持续的本地环境的工作，本地 Harness 中有能力的模型
 可以承担从表达到行动再到回读的运动。它能准备材料、编辑作品、观察执行、
 修复失败，并为下一项贡献保留足够语境。这种连续性给人的修正一个产生作用
 的地方。Web 对话可以帮助探索问题，并为后续工作留下简短计划或参考；依据
@@ -490,7 +490,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 14. <a id="source-14"></a> **Paraconsistent Logic**，*Stanford Encyclopedia of Philosophy*，2026 年 4 月 17 日实质修订。[条目](https://plato.stanford.edu/entries/logic-paraconsistent/)。非爆炸后承及其与真矛盾论的区别；本文未选定单一演算。
 15. <a id="source-15"></a> Daniel W. Graham，**Heraclitus**，*Stanford Encyclopedia of Philosophy*，第 3–4 节。[条目](https://plato.stanford.edu/entries/heraclitus/)。关于物质一元论、变化与对立的解释争议，不作为阴阳当代综合的权威证明。
 
-16. <a id="source-16"></a> Meghyn Bienvenu 与 Camille Bourgaux，**Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation**，KR 2020；[扩展版 v5](https://arxiv.org/abs/2003.05746v5)。优先关系、优先修复与查询语义的公开定义；偏好 harness 的应用属于本项目的解释。
+16. <a id="source-16"></a> Meghyn Bienvenu 与 Camille Bourgaux，**Querying and Repairing Inconsistent Prioritized Knowledge Bases: Complexity Analysis and Links with Abstract Argumentation**，KR 2020；[扩展版 v5](https://arxiv.org/abs/2003.05746v5)。优先关系、优先修复与查询语义的公开定义；偏好 Harness 的应用属于本项目的解释。
 
 17. <a id="source-17"></a> 国际能源署（2025），**Energy and AI**：[Energy demand from AI](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)、[AI and energy security](https://www.iea.org/reports/energy-and-ai/ai-and-energy-security) 与 [Energy supply for AI](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)。数据中心用电、材料依赖、电网风险与多种供电来源；数据中心总量不是 AI 单独的用电量。
 18. <a id="source-18"></a> Ian Goodfellow、Yoshua Bengio 与 Aaron Courville（2016），**Deep Learning**，[导论](https://www.deeplearningbook.org/contents/intro.html)。从样例学习，而非逐一手工规定所有关系；贪婪／神的意象是本文的文学构造。

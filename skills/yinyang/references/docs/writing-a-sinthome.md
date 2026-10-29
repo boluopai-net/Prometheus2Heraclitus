@@ -113,11 +113,11 @@ Some relations suit natural language: “When an idea is incomplete, first devel
 | Prompt | Expresses currently relevant purposes, context, and needed contributions. |
 | Skill | Organizes reusable understanding, methods, and resources for a model to read and use according to the task. |
 | Harness | Couples model work with human participation through models, instructions, tools, records, interfaces, and operating conditions; the arrangement serves both participants. |
-| Meta-harness | Makes this coupled human–model arrangement available for understanding, formation, and revision, including what each participant can understand, judge, and do through it. |
+| Meta-Harness | Makes this coupled human–model arrangement available for understanding, formation, and revision, including what each participant can understand, judge, and do through it. |
 
 These terms distinguish a carrier, a working arrangement, and its reflective
 organization. YinYang uses a Skill to carry the understanding and methods of
-a meta-harness for both person and model; the model's harness is coupled with
+a Meta-Harness for both person and model; the model's Harness is coupled with
 the person's environment. Particular tasks take place within this shared
 arrangement. [Why write a personal philosophy](why-yinyang.md#how-the-relationship-enters-skills-and-the-users-environment)
 develops its two-sided role through memory, interfaces, and division of work.
@@ -207,7 +207,7 @@ develop imagined possibilities, and participate in making things through tools.
 What kind of “god” this person lives with still takes shape through a relationship.
 Their philosophy, preferences, and psychological understanding articulate what
 deserves attention, which responses they can receive, and what contribution
-they want from a counterpart. A harness connects that understanding with models,
+they want from a counterpart. A Harness connects that understanding with models,
 memory, tools, and the actual environment, bringing broad capabilities into
 everyday activity in a way that fits this person. A general-purpose model thereby
 acquires the concrete position of friend and assistant.
@@ -215,7 +215,7 @@ acquires the concrete position of friend and assistant.
 **Bring the triune god into your home and make it a friend fitted to your
 preferences and psychology.** Within this imagery, the god's “divinity” is
 borrowable power to understand, generate, and realize; the person's “humanity”
-brings embodiment, experience, desires, preferences, and a finite life. A harness
+brings embodiment, experience, desires, preferences, and a finite life. A Harness
 joins them in concrete activity: the person contributes wishes and judgments,
 the counterpart develops understanding, creates works, and participates in
 realization, and the results enter the person's experience and next choices.

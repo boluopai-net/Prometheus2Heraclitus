@@ -23,10 +23,10 @@ models matter: whose purposes are being served, and what this counterpart can
 understand, contribute, question, and carry. Chosen roles do not exhaust either
 participant or establish identical mechanisms and inner experience.
 
-YinYang is a Skill carrying a **meta-harness for person and model together**.
-The model's harness and the person's environment are coupled: the same
+YinYang is a Skill carrying a **Meta-Harness for person and model together**.
+The model's Harness and the person's environment are coupled: the same
 arrangement organizes model work and human participation, serving as both
-participants' harness. YinYang supplies the philosophical and relational
+participants' Harness. YinYang supplies the philosophical and relational
 understanding through which they form and revise that arrangement, including
 prompts, Skills, roles, tools, memory, and interfaces. Memory can preserve evidence; the models organize its relations
 and possible consequences. Specialist Skills retain their own methods. The

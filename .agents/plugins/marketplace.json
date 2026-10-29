@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.89",
+      "version": "1.1.90",
       "description": "<用户自制> 阴阳：形成并修订人与模型的协作理解及其工作环境。 Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
@@ -33,7 +33,7 @@
     },
     {
       "name": "yinyang-empty",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "<用户自制> 阴阳空白版：从共同核心与形成方法出发，发展自己的哲学、个人材料和协作安排。 YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
       "source": {
         "source": "local",
@@ -87,7 +87,7 @@
     },
     {
       "name": "research",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "<用户自制> 搜索与研究：调查问题、比较方案、核实证据。 Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
       "source": {
         "source": "local",
@@ -438,7 +438,7 @@
     },
     {
       "name": "agent-orchestration-master",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 多智能体协作：依据任务需要设计和运行智能体分工、委派、交接与依赖。 Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
       "source": {
         "source": "local",

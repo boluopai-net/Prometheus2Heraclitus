@@ -6,7 +6,7 @@
 
 [From personal models to a sinthome](writing-a-sinthome.md) begins with the person’s existing agency and examines how personal material can ground the organization of personal and counterpart models, expression, and actual realization into a usable, revisable personal practical arrangement. Along this path we can also encounter Deleuze and Guattari: how can established relations keep producing new capacities? After borrowing fire, how can a person become fire through connections and trials?
 
-This encounter adds an entrance to personal philosophy. Alongside expressing who we are and how we wish to live, we can observe what happens when bodies, words, tools, and counterparts come together. The everyday examples and harness comparisons below are this essay’s extensions from their concepts.
+This encounter adds an entrance to personal philosophy. Alongside expressing who we are and how we wish to live, we can observe what happens when bodies, words, tools, and counterparts come together. The everyday examples and Harness comparisons below are this essay’s extensions from their concepts.
 
 ## Desiring-machines: how connections produce reality
 
@@ -38,7 +38,7 @@ For example, a writing routine might use a model only for proofreading. One coll
 
 This site names the concrete arrangement of personal models, expression, and actual realization described above a sinthome, and examines how it forms, is used, and is revised. The machine perspective further prompts us to ask what else these organized relations can produce and which arrangements close possibilities prematurely. An arrangement can help life continue while also limiting new trials; both consequences need examination.
 
-A highly convenient harness might repeatedly produce the same kind of answer; a fresh trial might interrupt an existing continuity. Judgment must enter the particular activity: what understanding did this change bring, which conditions for continuing did it retain, and what did it cost?
+A highly convenient Harness might repeatedly produce the same kind of answer; a fresh trial might interrupt an existing continuity. Judgment must enter the particular activity: what understanding did this change bring, which conditions for continuing did it retain, and what did it cost?
 
 This site retains the orientation of [Personal-First Humanism](personal-first-humanism.md): new connections should support concrete lives, judgment, and creation, while considering other participants’ circumstances. That choice is the site’s position; “machine” and “becoming” cannot automatically establish it. We can therefore borrow their questions while retaining our own value judgments.
 
@@ -52,7 +52,7 @@ Becoming here acquires a form we can try: change the connections making an activ
 
 ## Reading sources and scope of comparison
 
-The following English translations supply conceptual entrances; songwriting, model cooperation, harnesses, and the personal-first connections are this essay’s comparative extensions, rather than technical proposals or clinical claims from the originals.
+The following English translations supply conceptual entrances; songwriting, model cooperation, Harnesses, and the personal-first connections are this essay’s comparative extensions, rather than technical proposals or clinical claims from the originals.
 
 1. <a id="source-1"></a> Gilles Deleuze and Félix Guattari, *Anti-Oedipus*, translated by Robert Hurley, Mark Seem, and Helen R. Lane. Opening of chapter 1; chapter 4, section 4, “The First Positive Task of Schizoanalysis”; the appendix’s closing distinction between process and clinical entity. [Translated primary text](https://files.libcom.org/files/Anti-Oedipus.pdf).
 2. <a id="source-2"></a> Gilles Deleuze and Félix Guattari, *A Thousand Plateaus*, translated by Brian Massumi, 1987. Plateau 4, pp. 88–89, on the two aspects of an assemblage; plateau 6, “How Do You Make Yourself a Body Without Organs?”, especially pp. 158–161. [Translated primary text](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf).

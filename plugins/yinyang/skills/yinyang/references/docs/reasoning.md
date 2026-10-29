@@ -154,7 +154,7 @@ Comparing consequences also identifies where support ends. A conclusion
 supported by every member of a nonempty admissible candidate family is robust
 relative to that family; a shared omission can still defeat it in the world.
 When candidates disagree, a further observation may distinguish them, or a
-limited conclusion may survive the disagreement. [The preference harness](preference-harness.md)
+limited conclusion may survive the disagreement. [The Preference Harness](preference-harness.md)
 develops the separate choices of which views to consider and what support
 to require for acceptance.
 
@@ -201,7 +201,7 @@ which alternatives remain consequential, and what new evidence would require
 reconsideration. The activity can finish without becoming immune to correction.
 This leaves a more precise question: how do we choose the views to work with,
 and what evidence and inferential rules warrant accepting their conclusions?
-The [preference harness](preference-harness.md) develops these distinct
+The [Preference Harness](preference-harness.md) develops these distinct
 contributions of selection and support. In the reading trajectory, that means
 retaining both why direct passage access was chosen and what observations
 support saying that the revised arrangement actually helped.

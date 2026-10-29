@@ -36,7 +36,7 @@ Explore → Work → Review pipeline. The current task owner can implement direc
 unless an actual enclosing contract assigns writing elsewhere.
 
 For a real multi-agent topology, read `multi-agent-patterns`; for a durable
-agent harness, read `harness-engineering`; for model-facing tool interfaces,
+agent Harness, read `harness-engineering`; for model-facing tool interfaces,
 read `tool-design`. A new LLM project may use `project-development`. These
 methods do not replace the current task's authority or create additional roles.
 

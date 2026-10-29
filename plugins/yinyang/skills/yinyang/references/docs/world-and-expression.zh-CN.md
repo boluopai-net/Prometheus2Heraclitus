@@ -19,7 +19,7 @@
 本篇先展开使这种轨迹可以理解的区分：接续的过程，选取相关关系的模型，以及让
 这些关系可以被接触的表达。[生活轨迹的形成](flow-and-time.zh-CN.md)考察痕迹怎样保留
 早先活动，并接到现在；[未完成的流中的推理](reasoning.zh-CN.md)把其中的发展组织
-为探究；[偏好 harness](preference-harness.zh-CN.md)区分作出的选择与支持结论的根据；
+为探究；[偏好 Harness](preference-harness.zh-CN.md)区分作出的选择与支持结论的根据；
 [有限探究与节制的抽象](finite-inquiry-and-abstraction.zh-CN.md)追问，在有限时间与
 注意力下，需要让什么仍然可以找回，这段历史才可用。这些工作共同准备双方能够
 反思、并借以更具体地认识彼此的材料。

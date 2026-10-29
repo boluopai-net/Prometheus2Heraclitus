@@ -25,7 +25,7 @@ can be omitted for this question; the crossing cannot. If the bridge closes,
 that change must reach the map or its route will mislead. Economy comes from
 preserving what the answer depends on, with less to represent and inspect.
 
-The [preference harness](preference-harness.md) distinguishes choosing working
+The [Preference Harness](preference-harness.md) distinguishes choosing working
 views from determining what they support. That distinction makes economy
 assessable: which relations and answers must an abstraction preserve, and what
 can a feasible method obtain under the stated support conditions? This is a

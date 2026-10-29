@@ -20,11 +20,11 @@ organize the adopted accounts, with roles chosen and revised in actual work.
 The [relationship guide](references/formation/relationship.md#explain-exchange-and-return-where-they-matter)
 develops its dialectical meaning and distinguishes it from compulsory turn-taking.
 
-This worked example carries a **meta-harness for person and model together**.
-The model's harness is coupled with the person's environment: prompts, Skills,
+This worked example carries a **Meta-Harness for person and model together**.
+The model's Harness is coupled with the person's environment: prompts, Skills,
 roles, tools, memory, and interfaces organize both the model's work and the
 person's opportunities to understand, judge, act, and return. The arrangement
-therefore serves as both participants' harness. YinYang makes this coupled
+therefore serves as both participants' Harness. YinYang makes this coupled
 arrangement available for understanding, formation, and revision. Specialist Skills retain
 their domain methods and task responsibilities. Their use can also reveal
 mistakes in the account that guided them.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "research",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "<用户自制> 搜索与研究：调查问题、比较方案、核实证据。 Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits.",
   "author": {
     "name": "boluopai",

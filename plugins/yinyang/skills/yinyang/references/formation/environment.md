@@ -16,8 +16,8 @@ A configuration inventory says what exists;
 this account explains what it enables, for whom, under which conditions.
 
 Include the directions needed to use, maintain, and change this environment.
-A **harness** is its working arrangement of prompts, Skills, tools, interfaces,
-and operating conditions. Here the model's harness and the person's environment
+A **Harness** is its working arrangement of prompts, Skills, tools, interfaces,
+and operating conditions. Here the model's Harness and the person's environment
 are coupled, so the arrangement serves both participants. Explain what a change
 makes available to each: retrieval affects model continuation and the person's
 need to reconstruct context; presentation affects model delivery and human
@@ -110,7 +110,7 @@ Explain what operates, why it is understood that way, and how the person can
 reshape it. A chosen direction does not by itself establish tool availability
 or the effectiveness of a particular realization.
 Keep working concepts coherent enough to guide action while retaining conflicting
-evidence and unresolved alternatives. The [preference-harness essay](../docs/preference-harness.md)
+evidence and unresolved alternatives. The [Preference Harness essay](../docs/preference-harness.md)
 develops this distinction between selecting a view and judging what follows from
 it. Ordinary cooperation needs no formal preference model or repair calculus.
 

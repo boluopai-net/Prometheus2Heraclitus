@@ -200,6 +200,11 @@ unnecessary.
 
 ### Names and citation relationships
 
+Use **Harness**, **Meta-Harness**, and **Preference Harness** as the English
+term names; Chinese prose uses **Harness**, **元 Harness**, and **偏好 Harness**.
+The first definition can pair 元 Harness with Meta-Harness. Preserve exact
+source quotations, code identifiers, filenames, URLs, and existing anchors.
+
 In the Chinese reader edition, name philosophers according to their actual
 relationship to the main essays. When the essays scarcely mention a philosopher
 and the reading guide only proposes a neighboring comparison, retain the foreign

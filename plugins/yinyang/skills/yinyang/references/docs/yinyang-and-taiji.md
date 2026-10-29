@@ -353,7 +353,7 @@ itself belongs among the things they can create together.
 A different emphasis can enrich an account by bringing another relation into view. Disagreement can open a choice between explanations or purposes. Claims that conflict under the same conditions require examination of their evidence and acceptance. These differences have different consequences for cooperation: some call for combination, some for a decision, and some for changing the arrangement that sustains them. The image asks what organization lets a difference contribute and what must change when it becomes destructive.
 
 The bow and lyre illuminate the organization of difference; they do not decide
-which conflicting claim to accept. The [preference-harness comparison](preference-harness.md)
+which conflicting claim to accept. The [Preference Harness comparison](preference-harness.md)
 develops that further question through a coherent working ontology, retained
 conflicting material, and competing interpretations. Here the image asks
 what makes a tension fruitful and when its sustaining arrangement must change.

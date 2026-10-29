@@ -190,7 +190,7 @@ Sherburne 的 [A Key to Whitehead's Process and Reality](https://press.uchicago.
 把[反俄狄浦斯](https://files.libcom.org/files/Anti-Oedipus.pdf)第一章、
 第四章分裂分析的第一个积极任务，与[千高原](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)
 第四及第六高原相连。欲望机器打开连接能够生产什么的问题，组装使身体与表达进入观察。
-论述区分生成过程与临床状况，将写歌与 harness 的例子作为当代比较。
+论述区分生成过程与临床状况，将写歌与 Harness 的例子作为当代比较。
 它给圣状论述提供邻近问题：已经形成的个人实践安排，还能通过怎样的连接产生新的能力？
 
 ## 个人实践：布鲁纳、福柯、霍布斯与密尔
@@ -269,7 +269,7 @@ Feng Ye 已经是文集的比较对象，这里将其展开为独立的阅读入
 
 研究心理过程、经验检验、信念与互动，接到[心理阅读](psychological-readings.zh-CN.md)。其中的理论与证据帮助理解认识实际怎样发生；哲学继续追问解释、知识根据与心灵的范围。
 
-哥德尔机与达尔文哥德尔机的技术来源见[工程阅读](engineering-readings.zh-CN.md#自改进研究)。[偏好 harness](preference-harness.zh-CN.md)保留其哲学比较，并让形式修复、推论与查询变换各自的假设和范围保持清楚。
+哥德尔机与达尔文哥德尔机的技术来源见[工程阅读](engineering-readings.zh-CN.md#自改进研究)。[偏好 Harness](preference-harness.zh-CN.md)保留其哲学比较，并让形式修复、推论与查询变换各自的假设和范围保持清楚。
 
 ## 来源范围
 

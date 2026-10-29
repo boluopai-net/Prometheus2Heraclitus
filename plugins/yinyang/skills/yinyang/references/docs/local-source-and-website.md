@@ -79,7 +79,7 @@ The personal account brings preferences, experience, emotion, desire, concepts, 
 
 The needed counterpart must be understood alongside the person. What does the person want the model to investigate, judge, and carry out? What capabilities does the available model actually have, and which tools can it use? Understanding the person and the counterpart jointly determines the collaboration. Wanting open exploration, for example, does not mean the model can only agree: it can still identify insufficient evidence, an incoherent explanation, or an unworkable means.
 
-Prompts, Skills, and harnesses bring these understandings into actual work. Prompts express relevant purposes, context, and contributions; Skills organize reusable methods and resources; a harness arranges models, tools, records, and execution conditions together. The existence of files is not the final result. What matters is whether the model can use them to complete the needed work and whether the person can understand, use, and change the arrangement.
+Prompts, Skills, and Harnesses bring these understandings into actual work. Prompts express relevant purposes, context, and contributions; Skills organize reusable methods and resources; a Harness arranges models, tools, records, and execution conditions together. The existence of files is not the final result. What matters is whether the model can use them to complete the needed work and whether the person can understand, use, and change the arrangement.
 
 Revision connects these contributions without making them interchangeable.
 Philosophy can change the meaning of a chosen direction; personal understanding

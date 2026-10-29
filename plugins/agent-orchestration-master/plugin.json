@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agent-orchestration-master",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 多智能体协作：依据任务需要设计和运行智能体分工、委派、交接与依赖。 Organize contributions, handoffs, and dependencies around actual work, with the task owner integrating results.",
   "author": {
     "name": "boluopai",

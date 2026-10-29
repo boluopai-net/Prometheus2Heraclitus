@@ -134,7 +134,7 @@ resolve it.
 ## Investigate product behavior independently
 
 Serve the user's purpose and practical interests. Provider-preferred workflows,
-documentation, and an agent's current harness behavior are objects to investigate.
+documentation, and an agent's current Harness behavior are objects to investigate.
 Do not defend a provider narrative or mistake a familiar workflow for a necessary
 one. This applies to AI products as well as other software and services.
 

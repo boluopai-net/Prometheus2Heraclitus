@@ -198,7 +198,7 @@ A promise opens an expectation, a handoff arranges responsibility, and an author
 
 ## Correction has timing
 
-Correction matters here through what it enables a participant to express. A request to clarify a relation can let someone continue; demanding a final vocabulary or proof before that relation has a usable expression can stop its formation. The repair-based comparison in [Preference harness](preference-harness.md) distinguishes considering a view from assessing what it supports. Here that distinction asks when each helps this participant make an emerging relation assessable.
+Correction matters here through what it enables a participant to express. A request to clarify a relation can let someone continue; demanding a final vocabulary or proof before that relation has a usable expression can stop its formation. The repair-based comparison in [Preference Harness](preference-harness.md) distinguishes considering a view from assessing what it supports. Here that distinction asks when each helps this participant make an emerging relation assessable.
 
 Local checking can catch a false term, missing premise, or invalid inference.
 It can also interrupt formation when a candidate relation has not yet acquired

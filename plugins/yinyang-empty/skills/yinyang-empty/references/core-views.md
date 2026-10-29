@@ -221,9 +221,9 @@ contribute to that expression without standing in for psychology and preference.
 
 Literary programming lets a character, image, or narrative orient interpretation
 and action. A coupled portrait can change expectations about who initiates,
-judges, or carries work forward. A harness couples model work with the person's
+judges, or carries work forward. A Harness couples model work with the person's
 environment: instructions, tools, memory, and interfaces shape both participants'
-available contributions. YinYang's meta-harness makes that shared arrangement
+available contributions. YinYang's Meta-Harness makes that shared arrangement
 available for understanding and revision. An image admits several interpretations;
 articulate the relevant relations and examine their effects in conversation,
 works, and action. [Writing a personal philosophy through literary programming](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-programming.html)
@@ -518,7 +518,7 @@ activities are united within shared physical reality; individually, this
 person's philosophy, psychological activity, and engineering arrangements
 instantiate that relation. Personal philosophy and relevant material help form
 partial models of the person, the needed counterpart, and their relationship.
-Under current technical conditions, writing, instructions, Skills, harnesses,
+Under current technical conditions, writing, instructions, Skills, Harnesses,
 and tools give these understandings usable form. This account calls the personal
 practical arrangement jointly shaped by all three a **sinthome**. The fourth ring
 marks this concrete arrangement; connections among the rings represent formation,

@@ -241,7 +241,7 @@ chapter 1 and chapter 4's first positive task of schizoanalysis, alongside
 plateaus 4 and 6. Desiring-machines open the question of what connections
 produce; assemblages bring bodies and expression into view. The essay
 distinguishes a process of becoming from a clinical condition and treats
-its songwriting and harness examples as contemporary comparisons.
+its songwriting and Harness examples as contemporary comparisons.
 This provides a neighboring question to the sinthome essay: through what
 connections can an established personal practice arrangement produce new capacities?
 
@@ -331,7 +331,7 @@ Gordana Dodig-Crnkovic's [Information, Computation, Cognition (2013)](https://ar
 
 For psychological processes, empirical assessment, belief, and interaction, continue to [psychological readings](psychological-readings.md). Their theories and evidence investigate how knowing actually happens; philosophy continues to ask about explanation, grounds for knowledge, and the scope of mind.
 
-Technical sources for the Gödel Machine and Darwin Gödel Machine appear in [engineering readings](engineering-readings.md#self-improvement-research). [Preference harness](preference-harness.md) retains its philosophical comparisons while preserving the assumptions and scope of formal repair, inference, and query transformation.
+Technical sources for the Gödel Machine and Darwin Gödel Machine appear in [engineering readings](engineering-readings.md#self-improvement-research). [Preference Harness](preference-harness.md) retains its philosophical comparisons while preserving the assumptions and scope of formal repair, inference, and query transformation.
 
 ## Source scope
 

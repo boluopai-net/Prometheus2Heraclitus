@@ -18,7 +18,7 @@ uses this Skill for its agent roles and handoffs; this Skill does not own that
 audit's domain routing or repair authority.
 
 The conditional companion Skills `multi-agent-patterns` (topology design),
-`harness-engineering` (durable agent harnesses), and `tool-design` (tool
+`harness-engineering` (durable agent Harnesses), and `tool-design` (tool
 interfaces) are not included in this collection yet.
 `project-development`, `cloud-local-workflow`, and
 `model-conversation-relay` may be useful for the specific work they own; they

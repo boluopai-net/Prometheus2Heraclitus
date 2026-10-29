@@ -27,7 +27,7 @@ the continuing process, a model selecting its relevant relations, and the
 expressions through which those relations become available. [The stream and
 time](flow-and-time.md) examines how traces retain earlier activity and connect
 it with the present. [Reasoning within an unfinished stream](reasoning.md)
-organizes their development as inquiry. [A preference harness](preference-harness.md)
+organizes their development as inquiry. [A Preference Harness](preference-harness.md)
 distinguishes the choices made from the grounds supporting a conclusion.
 [Finite inquiry and economical abstraction](finite-inquiry-and-abstraction.md)
 asks what needs to remain retrievable for this history to be usable under

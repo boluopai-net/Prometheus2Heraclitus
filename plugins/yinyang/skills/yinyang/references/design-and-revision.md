@@ -16,7 +16,7 @@ and revise the understanding introduced in the essays.
 YinYang's purpose is reverse alignment: the person's developing understanding,
 generation, and action through encounter with generative intelligence. The
 counterpart's adaptation and independent contribution support that purpose.
-Its meta-harness concerns both participants: the model's harness is coupled
+Its Meta-Harness concerns both participants: the model's Harness is coupled
 with the person's environment, jointly shaping what each can take up and do.
 The working accounts connect understanding of that relation with its formation
 and revision in actual instructions and environmental arrangements.
