@@ -43,6 +43,11 @@ codex plugin add yinyang@boluopai
 `references/personal/sources.md` 形成私人证据入口，再通过客户端实际的发现机制启用。
 个人版启用后，停用分发插件，
 避免两个阴阳入口相互竞争，并在新对话中核实私人入口。
+简单路线由语言模型直接综合六文件，并用私人 Git/GitHub 持久保存，不要求安装 Hindsight。
+[可选 Hindsight 实现](../skills/yinyang/references/hindsight.zh-CN.md)说明因环境而异的原生配置，
+实现相同六问题、修订步骤与整体融贯，投影到同路径或通过私人索引明确绑定全部六正文。
+Full/Empty 版本选择独立于两种实现路线。
+
 Full 的共同内容更新可使用包内 `scripts/sync-common.py`；它会保留整个 `references/situated/`
 与 `references/personal/`。形成后，公开写作指引仍保留在 `references/formation/`。
 旧混合路径包先按[包结构说明](../skills/yinyang/references/docs/skill-package.zh-CN.md#投影公共变更)

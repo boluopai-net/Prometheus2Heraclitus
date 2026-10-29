@@ -40,11 +40,11 @@
 而不另开一个写作项目；愿意写时，[例子与知识共有地](skills/yinyang/references/docs/example-and-commons.zh-CN.md)
 提供这条创作路径。实际起步可沿[工具使用](https://boluopai.net/getting-started/)。
 
-完整采用阴阳 Skill 时，Hindsight 把选定的 Philosophy、Personal、环境与历史融合为可修订的
-Observations 和按问题定义的工作模型。六份形成指南展开取向、人、伙伴、关系、环境与修订，
-作为不同内容视角，不固定输出数量。模型说明采纳的方向、参与者、共同活动、实现和持续变化，
-使实际个人环境在心理与实际使用上适合本人。原始证据保有私人维护者，派生 Personal 说明可迁入原生页面。
-是否另写原创哲学文章仍由兴趣决定。
+完整采用阴阳 Skill 时，保留取向、人、伙伴、关系、环境与修订六个完整功能问题。简单路线由模型直接
+综合原有六份实际文件，并将需要保存的私人源持久放在 Git 与私人 GitHub 仓库，不要求安装 Hindsight。
+[可选原生实现](skills/yinyang/references/hindsight.zh-CN.md)为相同问题、步骤与融贯整体配置 Hindsight，
+不把六者换成较少原型分组。Full/Empty 版本选择独立于工具路线。Personal 保留可读主题文章与原始来源，
+是否另写原创哲学仍由兴趣决定。
 
 [个人模型的凝练指引](skills/yinyang/references/formation/person.zh-CN.md#从事件历史哲学与个人材料凝练个人模型)
 展开这些材料怎样成为本人、所需模型伙伴及双方关系的描述，再让共同工作进入现实，
@@ -115,10 +115,10 @@ Observations 和按问题定义的工作模型。六份形成指南展开取向�
 | [clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
 
 阴阳提供文化、思想与推理形式；个人内容来自获授权的实际材料，以及使用模型与
-这个人的协作。采用持续维护的阴阳时，配置 Hindsight 形成路线，以 `references/situated/index.md` 绑定实际服务、
-bank、问题与 ID、生成正文和必读选择，并以 `references/situated/revision.md` 说明实际执行。
-完整读取所选正文。六份公开指南规定内容视角，不规定六份输出文件。原始证据保有维护者，派生 Personal
-说明可迁入原生页面。公开分发不提供私人画像，安装本身不完成采用。
+这个人的协作。采用持续维护的阴阳时，形成六份有根据的完整实际描述及本人实际修订方法。
+简单独立路线保留 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`
+六路径，由模型直接综合并持久保存在私人 Git/GitHub。Hindsight 为可选，其核对后的输出可使用原路径或明确绑定
+全部六者的索引。两条路线都保留 Personal 纠正与六份整体融贯。公开分发不提供私人画像，安装本身不形成实际描述。
 [使用指南](skills/yinyang/README.zh-CN.md#怎样使用并理解阴阳)说明形成与核验。
 
 论述与图示都属于 `skills/yinyang/references/` 内的阴阳配件。

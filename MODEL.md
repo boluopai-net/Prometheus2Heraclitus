@@ -33,11 +33,16 @@ literal angle brackets. Names and descriptions have separate display roles.
 dialectical return, six formation guides, Core views as attributed suggestions,
 practice overview, formation/revision, daily collaboration, and Personal guidance.
 Empty contains no `docs/` or `diagrams/`. Recipients develop their own philosophy,
-Personal material, and Hindsight-backed working models with their model; neither edition
+Personal material, and six complete working accounts with their model; neither edition
 ships private substance. Empty supplies unfilled Personal and Situated starters,
-with four empty Personal areas plus binding and revision starters marked `status: unfilled`;
-these are templates rather than actual accounts. Full's current source and local personal consumers
-retain their complete content.
+with four empty Personal areas plus six actual starters marked `status: unfilled`;
+these are templates rather than actual accounts. The simple route retains the
+six original actual files, direct model synthesis and private Git/GitHub
+persistence, with no Hindsight installation requirement. Optional native
+Hindsight configuration implements the same six full questions, revision steps
+and whole-six coherence, projected to those paths or an explicit all-six binding.
+Full/Empty distribution is independent of route choice. Keep one shared
+philosophy/method source rather than separate full packages for the tool routes.
 
 Shared method content remains authored in Full. `scripts/build-yinyang-empty.py`
 projects its declared selection into Empty, relocating the selected guides and

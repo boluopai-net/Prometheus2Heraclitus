@@ -47,15 +47,15 @@ You can use the ideas and maintain your environment without taking on a writing
 project. If writing appeals to you, [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
 opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
 
-For a fully adopted YinYang Skill, Hindsight fuses selected Philosophy,
-Personal, environment and history sources into revisable observations and
-question-defined working models. Six formation guides develop orientation,
-person, counterpart, relationship, environment and revision as distinct lenses;
-they do not fix the output count. The models explain adopted direction,
-participants, joint activity, realization and continuing change so the actual
-personal environment fits the person psychologically and practically. Originals
-retain their private owners; derived Personal accounts may migrate to native
-observations/pages. An original philosophical essay remains optional.
+For a fully adopted YinYang Skill, keep the six complete functional questions:
+orientation, person, counterpart, relationship, environment and revision. The
+simple route uses direct model synthesis into the original six actual files,
+with intended private source persisted in Git and a private GitHub repository.
+It needs no Hindsight installation. [Optional native implementation](skills/yinyang/references/hindsight.md)
+configures Hindsight for the same questions, steps and coherent whole; it does
+not replace them with fewer prototype groups. Full/Empty edition choice is
+independent of these routes. Personal remains readable topic articles with
+original sources reachable, and an original philosophical essay remains optional.
 
 The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
@@ -103,7 +103,7 @@ without making formation closed stages. Installed configurations can reflect
 constraints, habits, or defaults, so tool inventory alone cannot establish the
 person. Philosophy, grounded accounts, and environment continue to revise one
 another. [YinYang's package guide](skills/yinyang/README.md#use-and-understand-yinyang)
-explains native working models and their use, including the person's actual revision method.
+explains the six actual accounts and both routes, including the person's situated revision method.
 
 ## Skills in the collection
 
@@ -163,14 +163,14 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting maintained YinYang includes a configured Hindsight formation route,
-`references/situated/index.md` binding actual service/bank, questions/IDs and
-complete required model bodies, and `references/situated/revision.md` stating
-actual execution. Read the selected complete bodies. The six public formation
-guides define content lenses, not six mandatory output files. Source evidence
-retains its owners, and derived Personal accounts can migrate to native pages.
-Public distribution includes no private portraits. Installation alone does not
-complete adoption; the [guide](skills/yinyang/README.md#use-and-understand-yinyang)
+Adopting maintained YinYang includes six grounded complete actual accounts and
+a situated revision method. The standalone simple route uses the original
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`
+paths, direct model synthesis and private Git/GitHub persistence. Hindsight is
+optional; its checked native output can use those paths or an explicit index
+binding all six. Both routes preserve Personal correction and whole-six
+coherence. Public distribution includes no private portraits, and installation
+alone does not form actual accounts. The [guide](skills/yinyang/README.md#use-and-understand-yinyang)
 explains formation and verification.
 
 [Installation and updates](docs/codex.md)

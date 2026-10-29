@@ -57,6 +57,14 @@ environment, and revision under `references/situated/` and the evidence entrance
 and register that private Skill through your client's actual discovery mechanism.
 Once that personal Skill is active, disable the distribution plugin to avoid
 two competing YinYang entrypoints. Verify the private entrypoint in a new chat.
+The simple route uses direct language-model synthesis of these six files and
+private Git/GitHub persistence; no Hindsight installation is required.
+[Optional Hindsight implementation](../skills/yinyang/references/hindsight.md)
+explains environment-specific native configuration for the same six questions,
+revision steps and whole-six coherence. It can project to the same paths or
+explicitly bind all six bodies through a private index. Full/Empty edition choice
+is independent of these implementation routes.
+
 Full's common updates can use the included `scripts/sync-common.py`; it preserves the
 entire `references/situated/` and `references/personal/` trees. Public writing
 guides remain under `references/formation/` after formation. Legacy mixed-path

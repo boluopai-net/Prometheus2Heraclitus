@@ -28,7 +28,7 @@ for edition in ('.md', '.zh-CN.md'):
                   f'references/docs/skill-package{edition}': f'references/package{edition}'})
 AUTHORED = {'SKILL.md', 'SKILL.zh-CN.md', 'README.md', 'README.zh-CN.md',
             'references/package.md', 'references/package.zh-CN.md'}
-AUTHORED.update({'references/situated/index.md', 'references/situated/revision.md'})
+AUTHORED.update(f'references/situated/{name}.md' for name in GUIDES)
 AUTHORED.update({'references/personal/README.md', 'references/personal/sources.md'})
 AUTHORED.update(f'references/personal/{name}/.gitkeep' for name in
                 ('preferences', 'psychology', 'life', 'self-expression'))
@@ -41,10 +41,10 @@ def project(source, destination):
     distribution = {
         'references/design-and-revision.md': (
             'Public distribution ships the common guides, with no filled or\nplaceholder private accounts.',
-            'Empty ships the common guides, four empty Personal areas, and unfilled\nprivate binding and revision starters. Native Hindsight models still need\nto be formed from this person’s material.'),
+            'Empty ships the common guides, four empty Personal areas, and six\nactual starters marked `status: unfilled`. Form their grounded content through\nthe simple route or the optional Hindsight implementation.'),
         'references/design-and-revision.zh-CN.md': (
             '公开分发提供\n共同指引，不附带已填或占位的私人描述。',
-            'Empty 提供共同指引、四个空 Personal 分区，以及未填写的私人绑定和修订起始文件。\n仍需由 Hindsight 根据本人的材料形成实际模型。'),
+            'Empty 提供共同指引、四个空 Personal 分区，以及六份标为 `status: unfilled` 的实际起始文件。\n通过简单路线或可选 Hindsight 实现形成有根据的内容。'),
     }
     if source in distribution:
         old, new = distribution[source]

@@ -33,6 +33,10 @@ environmental changes reach a checked result. Name usable materials and routes,
 and the judgments needing your participation. A new philosophy, no website,
 or different working conditions can change the approach. Let the actual method
 express these conditions instead of reproducing another author's environment.
+It is one of the six full functional accounts: explain the person's purposes,
+judgments, source relationships, correction and realization, not merely how to
+call a backend. A native question can help form it, with checked actual content
+projected at the private revision path; no seventh summary is required.
 
 ## Scope and connected changes
 
@@ -90,28 +94,99 @@ and update only the Personal accounts and model implications actually changed.
 
 ### Refresh the selected grounds
 
-Read the adopted philosophy and selected Personal/environment/history sources
-for the current question. Preserve original attribution, context, temporal
-scope and evidence boundaries. Relevant questionnaire records retain their
-instrument, occasion, original answers/results and specialist interpretation
-method; a refresh does not require new measurement.
+Keep the original dependency when revising the six working accounts. The simple
+route uses direct language-model synthesis; optional Hindsight implements the
+same responsibilities natively. Tool choice does not change their grounding:
 
-Use [Hindsight's native formation route](../hindsight.md): retain the relevant
-source material with stable source IDs and context, inspect extraction, run or
-observe consolidation, then refresh the affected Mental Models or Knowledge
-Pages. Detailed model questions carry the relevant formation guides' content,
-relations, priorities and evidence distinctions. Native observations/pages may
-replace derived Personal summaries; do not first maintain a complete duplicate
-portrait merely to feed another condensation stage.
+1. **Read the adopted philosophy and relevant arguments.** Recover the chosen
+   concepts, purposes and reasons, using current accounts to locate dependencies.
+   An earlier condensation does not substitute for its philosophical grounds.
+2. **Retrieve relevant new attributable sources.** Check the current exchange,
+   bounded Computer History, conversation and work/version histories, and other
+   authorized records selected by the question. Follow useful summaries to
+   originals when consequential context matters. For psychological understanding
+   or its cooperation implications, actively inspect relevant completed
+   questionnaires and their original answers/results, instrument/version,
+   date and context through the private source index and actual revision method.
+   The [assessment organization](../docs/skill-package.md#questionnaire-and-assessment-material)
+   and [Psychology guide](../docs/psychological-support.md) retain their evidence
+   and specialist responsibilities. A revision does not itself require new testing.
+3. **Refresh and correct Personal understanding before dependent synthesis.**
+   Compare the new sources and philosophy with current Personal interpretations;
+   correct, qualify, reorganize or retire what changed, preserving attributable
+   originals, conflicting accounts and meaningful uncertainty. Native extraction,
+   revisable Observations and readable topic Knowledge Pages can implement this
+   work; direct source/article editing remains available. Keep human-readable
+   Personal articles and their navigation usable. No complete manual rewrite or
+   full refresh of every topic is required, but unsettled or corrected Personal
+   understanding must inform synthesis through corrected Personal context, or
+   relevant native observations, source context, query or other supported input. Merely
+   retrieving the same originals while ignoring the correction does not satisfy
+   this step.
+4. **Synthesize the six, check the whole, and realize it.**
+   Derive direct synthesis instructions, or each native `source_query`, from all
+   six full guides and current grounds. Refresh the affected accounts, preserving orientation,
+   person, counterpart, relationship, environment and actual revision as complete
+   functional questions. Check their shared premises, relations and practical
+   consequences together, repair affected questions/sources and refresh dependent
+   results. Carry necessary changes into Skills, prompts and the environment
+   through their owners, then read back the real consumer and observable result.
 
-Compare complete generated bodies with consequential sources and neighboring
-models. Repair lost relations, mistaken attribution, collapsed uncertainty or
-stale commitments by correcting the source context, mission, scope or question
-and rerunning native processing. Update the actual private index and required
-reading, then verify the real consumer. Carry environment changes through their
-owners and check actual results. Source preservation, fusion and environmental
-fit remain distinct acceptance claims. This is question-scoped revision, not
-collection of an entire life or compulsory refresh of every model.
+This is an epistemic dependency, not four isolated manual document passes or
+compulsory collection of a whole life. It can iterate as a later result changes
+an earlier interpretation. A bounded correction may use the current exchange
+as its new source. Every product can return to original grounds; the six need
+not be summaries of generated Personal summaries. Corrected Personal understanding
+still has to shape synthesis rather than being bypassed. The model carries
+retrieval, synthesis or native processing, integration, checking and authorized realization;
+the person contributes experience and consequential judgments unavailable in
+the sources. State material gaps honestly.
+
+### Check the coherence of the six accounts
+
+Read all six complete accounts as a connected whole, not six independently
+successful jobs. Compare shared premises, concepts and referents, conditions
+and time, participant capacities, responsibilities and practical consequences.
+An adopted direction, described person, wanted counterpart contribution, joint
+relationship, enabling environment and actual revision method must make their
+relevant relations intelligible together. Preserve real conflict or uncertainty;
+coherence does not require fabricated agreement or collapse the subjects.
+
+Read siblings as current interpretations needing coordination, without treating
+them as independent factual evidence. Return to original sources and corrected
+Personal understanding for consequential judgments. Repair a changed premise,
+source selection, synthesis instructions, native question/mission or realization
+and regenerate its dependent accounts, then check the whole again. Shared bank membership, common retrieval
+or per-page success is not evidence that this check passed. A local revision need
+not regenerate unaffected bodies; it still needs its cross-account consequences
+checked. The six carry their own connected substance, with no mandatory seventh
+summary and no assumption that a smaller prototype preserved all six functions.
+
+### Maintain remembered context and its reading selection
+
+Maintain substantive remembered context with the relevant Personal subject
+article and its sources. During a relevant revision, assess whether selected
+startup or injected implications still fit; saving a memory does not itself
+select it for injection. The [Personal memory guidance](personal-material.md#bring-personal-memory-into-the-same-account)
+connects those owners. Update affected selections through the actual host route
+and verify retrieval/injection separately from the saved source. The person
+need not operate that maintenance or reread the whole portrait to receive help.
+
+### Keep the selected route reconstructible
+
+In the simple route, maintain the six original actual files and relevant private
+source in Git, with intended persistence in a private GitHub repository. Verify
+the actual private destination, committed content and reader retrieval through
+existing account/publication owners. Original records keep their owners and
+credentials remain outside the repository. Direct model reading, correction and
+synthesis are the complete implementation; no Hindsight service is required.
+
+If the native route is selected, follow the [Hindsight guide](../hindsight.md)
+for environment-specific setup and operations. Project checked output to the six
+paths or bind all six through the explicit private index. Configure native
+processing to implement the same source/Personal/synthesis dependency and inspect
+its result, without treating a shared bank as semantic convergence. These are
+two implementations of one method, independent of Full/Empty distribution.
 
 ## Write for the actual use
 
@@ -361,8 +436,11 @@ back what is available to the intended reader or working model. Where copies
 depend on an authored source, update them through their actual route. Keep
 private material within its authorized audience.
 
-Compare the intended result with the observable outcome and explain required
-differences still open. Return to personal material, working accounts, or
+Compare the complete ordered attributable user input with the final observable
+result, not only the implementation narrative or successful model operations.
+Explain every material required difference still open and its next concrete
+boundary. Sources, synthesized bodies, complete six-account coherence, actual consumer
+reading and realized behavior establish different claims. Return to personal material, working accounts, or
 philosophy when evidence challenges them. Useful output, collaborative fit,
 and personal development have different grounds; let the claim match what
 the revision and subsequent use actually establish.
