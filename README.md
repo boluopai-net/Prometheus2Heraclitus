@@ -13,7 +13,7 @@ YinYang's philosophical ideas guide the configuration of a personal environment 
 
 YinYang must not be used for psychological self-help work, self-diagnosis, mental-health assessment, or treatment. It has not been systematically evaluated for those purposes. When professional assessment or care is needed, seek a qualified professional; the project's texts and model outputs do not replace that service. The work, models, and circumstances change, so a personal experience or version history does not establish a general psychological effect.
 
-The separate [Psychology guide](skills/yinyang/references/docs/psychological-support.md) explains model-assisted organization of personal material, questionnaires, scoring, statistics, and practical support within their own evidence and professional-care limits. It does not derive psychological exercises from the philosophy or make the six working accounts a self-analysis program.
+The separate [Psychology guide](skills/yinyang/references/docs/psychological-support.md) explains model-assisted organization of personal material, questionnaires, scoring, statistics, and practical support within their own evidence and professional-care limits. It does not derive psychological exercises from the philosophy or make the working accounts a self-analysis program.
 
 <!-- repository-only:end -->
 
@@ -47,13 +47,15 @@ You can use the ideas and maintain your environment without taking on a writing
 project. If writing appeals to you, [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
 opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
 
-For a fully adopted YinYang Skill, grounded relations are distilled into six personal working models for actual model
-collaboration: **orientation, person, counterpart, relationship, environment, and revision**.
-They state adopted philosophy and direction, understand the participants and
-their joint activity, and explain realization and continued revision. Their purpose is to make the actual personal environment fit the person psychologically and practically. Psychological and life evidence, together with maintained interpretations, principally belong in private `references/personal/`, with originals retained at their existing owners. Public work can express philosophy and selected understanding
-while the person retains their fuller personal understanding privately. These
-accounts state the positions and arrangements actually adopted; they do not
-require an original philosophical essay.
+For a fully adopted YinYang Skill, Hindsight fuses selected Philosophy,
+Personal, environment and history sources into revisable observations and
+question-defined working models. Six formation guides develop orientation,
+person, counterpart, relationship, environment and revision as distinct lenses;
+they do not fix the output count. The models explain adopted direction,
+participants, joint activity, realization and continuing change so the actual
+personal environment fits the person psychologically and practically. Originals
+retain their private owners; derived Personal accounts may migrate to native
+observations/pages. An original philosophical essay remains optional.
 
 The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
@@ -101,7 +103,7 @@ without making formation closed stages. Installed configurations can reflect
 constraints, habits, or defaults, so tool inventory alone cannot establish the
 person. Philosophy, grounded accounts, and environment continue to revise one
 another. [YinYang's package guide](skills/yinyang/README.md#use-and-understand-yinyang)
-explains all six working files and their use, including the person's actual revision method.
+explains native working models and their use, including the person's actual revision method.
 
 ## Skills in the collection
 
@@ -161,14 +163,15 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting the maintained YinYang means stating the positions actually adopted
-and maintaining **six personal working models under
-`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`**.
-Psychological and life evidence and maintained interpretations principally belong under `references/personal/`, with originals at their existing private owners. These supply the relevant working implications condensed into the six files.
-Permanent public writing guides live separately in `references/formation/`;
-distribution contains no private accounts. Installing does not
-complete a situated version. The [getting-started guide](skills/yinyang/README.md#use-and-understand-yinyang)
-states what to change, who carries the writing, and how to verify availability.
+Adopting maintained YinYang includes a configured Hindsight formation route,
+`references/situated/index.md` binding actual service/bank, questions/IDs and
+complete required model bodies, and `references/situated/revision.md` stating
+actual execution. Read the selected complete bodies. The six public formation
+guides define content lenses, not six mandatory output files. Source evidence
+retains its owners, and derived Personal accounts can migrate to native pages.
+Public distribution includes no private portraits. Installation alone does not
+complete adoption; the [guide](skills/yinyang/README.md#use-and-understand-yinyang)
+explains formation and verification.
 
 [Installation and updates](docs/codex.md)
 

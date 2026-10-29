@@ -2,8 +2,7 @@
 
 [简体中文](person.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Write the actual person account at `references/situated/person.md` in the
-private package. Its object is a person acting in particular situations, with
+Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Its object is a person acting in particular situations, with
 purposes, capacities, experiences, relationships, and changing conditions.
 In the maintained YinYang, describe this person as a participant in the
 [crossed relation](relationship.md#explain-exchange-and-return-where-they-matter):
@@ -12,6 +11,10 @@ scrutiny, and what makes either contribution available. This focus helps a
 counterpart interpret requests and contribute fittingly. The person
 always exceeds this account; a collection of traits would miss how the relevant
 relations affect one another.
+
+Use [Hindsight](../hindsight.md) for the actual source-to-observation-to-model
+fusion. This guide supplies content and evidential distinctions for its question
+and result check; it does not prescribe another manual synthesis pipeline.
 
 ## Understand activity in its situation
 

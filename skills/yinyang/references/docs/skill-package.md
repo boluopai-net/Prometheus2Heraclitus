@@ -14,76 +14,44 @@ YinYang is one developed philosophy and formation method. Readers can adopt
 it, combine selected resources, or create a different work. The
 [example and commons essay](example-and-commons.md) develops that invitation.
 A philosopher's thought may inform a framework; it cannot replace the account
-of the actual user. This guide's six-file and common-update contract applies
+of the actual user. This guide's native-model and common-update contract applies
 to full adoption of the maintained Skill. Reading its philosophy or borrowing
 a selected method does not by itself adopt that contract or require a personal
 philosophy project. Full adoption also leaves original essay-writing optional:
-its six actual files state the positions and arrangements adopted for use,
+its question-defined models state the positions and arrangements adopted for use,
 which can draw on selected existing ideas.
 
 ## Common and situated content
 
-This implementation distinguishes six public writing guides from six private
-actual files, corresponding by object:
+The six bilingual public formation guides explain orientation, person,
+counterpart, relationship, environment and revision. They guide content and
+relations in Hindsight model questions; they do not prescribe question-defined working models.
+[Native formation and configuration](../hindsight.md) owns setup, source roles,
+missions, model questions, refresh and export.
 
-| Object | Public guide | Private actual file |
-| --- | --- | --- |
-| Orientation | `references/formation/orientation.md` | `references/situated/orientation.md` |
-| Person | `references/formation/person.md` | `references/situated/person.md` |
-| Counterpart | `references/formation/counterpart.md` | `references/situated/counterpart.md` |
-| Relationship | `references/formation/relationship.md` | `references/situated/relationship.md` |
-| Environment | `references/formation/environment.md` | `references/situated/environment.md` |
-| Revision | `references/formation/revision.md` | `references/situated/revision.md` |
+A private adopted version keeps `references/situated/index.md` as the actual
+binding and reading entrance and `references/situated/revision.md` as its actual
+execution method. The index records service/bank locators, questions/IDs,
+generated body locations and mandatory startup reading. The number and layout
+of generated models follow their questions. Read the selected complete bodies,
+not merely the index. Public Full ships no private accounts or placeholders.
 
-The public guides have complete Chinese editions and explain how to form the
-corresponding content. The actual files articulate one's own orientation,
-the working implications of personal understanding, actual counterpart,
-relationship, environment, and revision method. Together they are personal
-working models of person–model cooperation, intended to make the actual personal
-environment fit the person psychologically and practically. Revision guidance and an actual revision method are distinct
-too: the former offers adaptable writing guidance; the latter explains how
-revision works with this person's philosophy, material, and actual environment.
-Public distribution contains guides, with no actual files or placeholder portraits.
-The initial reading uses all six actual files; a common guide cannot substitute
-for one of them.
+Philosophy retains its authored source. Personal retains attributable evidence
+and source routes, with originals at their owners. Derived Personal accounts
+may migrate into native observations/pages; preserving every old derived file
+is unnecessary. Retain unique grounds, retire redundant maintained accounts
+and verify affected consumers. Old six-file bodies are migration/history,
+not a parallel authoritative model set. There is no manual-first requirement.
 
-For full adoption, the model forms these six files from relevant authorized
-material and organizes their needed private support. Explicit unknowns can be
-honest content; copying guidance or someone else's portrait cannot form an actual
-version. Person, counterpart, and relationship remain three subjects of understanding;
-the other files supply direction, realization, and revision. Later changes follow
-affected meanings and dependencies.
-
-`references/personal/` holds preference and selection material, psychological
-experience and assessments, personal conditions, and selected self-expression
-and works. Its maintained `README.md` classifies the material;
-`sources.md` locates provenance. [Organizing Personal material](../formation/personal-material.md)
-owns classification, material gaps, and how these grounds inform the six accounts. Extended history, originals, and topical material stay
-with existing owners or under that tree, reached through access-bounded locators.
-The same guide explains how [personal memory](../formation/personal-material.md#bring-personal-memory-into-the-same-account)
-can be maintained within Personal or referenced there from an existing private owner.
-The six working files condense adopted philosophy and updated personal material
-into the implications needed for cooperation. They are not six psychological
-models or the primary self-analysis archive; `person.md` does not hold the whole
-psychological portrait. The [maintenance method](../design-and-revision.md#maintain-the-private-material-through-use)
-owns each refresh; the [revision writing guide](../formation/revision.md#sources-and-evidence)
-supplies evidence guidance. Independently authored philosophy has its own source;
-private material links it and retains relevant grounds.
-
-Personal material names use one consistent language: the user's native language.
-Apply it to each material's primary title and its name in inventories and reader
-navigation, including newly added records. The body may use another language
-according to its semantic consumer; an English body does not make the material's
-name English. Derive reading-surface names from the maintained primary title
-so separate display translations cannot drift. Preserve standard instrument
-identifiers where needed within a native-language title.
-
-Both entire trees, `references/situated/` and `references/personal/`, are private.
-Everything else is common package content, including the entrypoint, six writing
-guides, essays, diagrams, and scripts. Distributed copies and private copies
-choosing continued common updates keep common content byte-identical.
-[Everyday collaboration with YinYang](../../SKILL.md) owns the actual initial reading;
-[Forming and revising working models](../design-and-revision.md) connects the writing objects.
+Keep meaningful Personal material names in the person's native language;
+body language follows its semantic consumer. Preserve instrument identifiers
+where useful. Both `references/personal/` and `references/situated/`, including
+all generated private bodies and locators, remain private. Choose generated
+view locations within protected private ownership, never the common tree.
+Everything else is common package content. Common projection does not traverse
+or overwrite either private tree, change bank state or publish runtime models.
+Independently authored philosophy retains its own source; avoid overwriting it
+with this package's common content.
 
 ## Questionnaire and assessment material
 
@@ -106,7 +74,7 @@ material remains undated until its source establishes a date.
 
 This organization makes measurements available alongside narrative material
 without turning them into a complete personal account or automatically revising
-the six working files. The [Psychology guide](psychological-support.md) owns
+the working models. The [Psychology guide](psychological-support.md) owns
 selection, scoring and interpretation. The directory and all filled records
 remain private; the distributed package supplies this organizing method, not
 another person's records or placeholder results.
@@ -135,8 +103,8 @@ publish the projected source, followed by actual-consumer readback.
 Earlier packages mixed public guidance and private content at
 `references/{encounter,models,relationship,usage,sources}.md`. The projector
 refuses either package with any of these paths before changing files. Their
-owner first redistributes actual meaning into the six actual files and private
-evidence index, preserves unique support, and retires the old paths. The old
+owner first migrates actual meaning into Hindsight-backed models and the private
+binding/evidence index, preserves unique support, and retires the old paths. The old
 encounter can contain orientation and relationship, and the old relationship
 both counterpart and joint activity: a mechanical rename cannot complete this
 semantic migration. Retain any useful private `references/personal/README.md`
@@ -154,8 +122,7 @@ replace the philosophy or organization independently, keep that work at its
 own source and maintain its coherent references. Do not project this common
 package over it, even if it retains the six-slot format.
 
-Authors of other works can change the number and organization of accounts and
-the philosophy. The maintained YinYang implementation keeps these fixed six actual files.
+Model organization follows actual questions; no fixed document count is retained.
 
 ## Personal and public boundaries
 

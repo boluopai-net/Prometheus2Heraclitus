@@ -9,7 +9,7 @@
 
 Empty 保留这个核心与形成方法。使用者自己的哲学、个人证据、实际工作模型与环境，
 由本人和模型共同形成。包内没有 Full 的 `docs/`、`diagrams/`，也没有任何人的私人画像。
-Personal 的四区与六份 Situated 文件已作为未填写的起始结构放好。
+Personal 的四区与绑定与修订 Situated 文件已作为未填写的起始结构放好。
 「空」指留给个人内容的位置，不是没有方法与方向。
 
 ## 按当前工作选择入口
@@ -32,36 +32,29 @@ Personal 的四区与六份 Situated 文件已作为未填写的起始结构放�
 `references/personal/`，由 `sources.md` 定位已有原件及访问边界。
 [组织 Personal](references/personal-material.zh-CN.md)说明材料整理方法。
 
-从本人的目的、材料与实际环境形成全部六份实际文件，必要的未知明确保留：
+按 [Hindsight 形成与配置](references/hindsight.zh-CN.md)，从选定的 Philosophy、Personal、环境与历史
+形成原生 Observations 和按问题定义的 Mental Models 或 Knowledge Pages。六份指南规定不同内容视角，
+不固定输出数量。细致问题可说明范围、关系、优先次序与写法。Codex 准备来源和问题，检查修复原生结果并落实变化。
+派生 Personal 理解可迁入原生 Observations 或页面，不要求先手工写一套完整摘要；原始证据保有维护者。
 
-| 私人实际文件 | 公开写作指南 |
-| --- | --- |
-| `references/situated/orientation.md` | [采纳的哲学、价值与方向](references/formation/orientation.zh-CN.md) |
-| `references/situated/person.md` | [实际的人及其协作含义](references/formation/person.zh-CN.md) |
-| `references/situated/counterpart.md` | [模型的实际能力与期望贡献](references/formation/counterpart.zh-CN.md) |
-| `references/situated/relationship.md` | [共同活动、角色交叉与纠正](references/formation/relationship.zh-CN.md) |
-| `references/situated/environment.md` | [实际环境中的实现](references/formation/environment.zh-CN.md) |
-| `references/situated/revision.md` | [本人的实际修订方法](references/formation/revision.zh-CN.md) |
-
-模型在任务授权内承担调查、比较、写作、实现和核验；本人贡献材料之外的经验、目的与判断。
-「自己的」不表示必须独自写完或亲自实现全部内容。开始有用工作不需要先完成理论，
-也不要求另写哲学文章；未经修改的指南或照搬他人画像则不能替代实际文件。
+`references/situated/index.md` 绑定私人服务、bank、问题与 ID、正文位置，以及启动时必须完整读取的模型。
+`references/situated/revision.md` 是实际执行方法。未填写的起始文件不等于形成了个人版。
+旧六文件正文是迁移与历史，不是第二套权威模型。
 
 ## 进入日常协作
 
-通过已经采用的个人版开展日常协作时，直接与本人对话的主模型在实质工作前完整阅读本入口
-与全部六份 situated 实际文件。复用上下文中完整且当前的文本；上下文丢失后补读缺失内容。
-文件尚未形成、标为 `status: unfilled` 或不完整时，说明缺口，从已知内容继续有用工作，并形成所需内容。
-公开指南不替代私人实际文件；文件存在不等于形成已经完成。写出有根据的实际内容后，
-才替换未填写标记，真实问题中的未知仍可保留。进一步的个人材料与哲学按任务选读。
+实质工作前，主模型完整读取本入口、实际私人索引与修订方法，以及索引选定的全部必读正文。
+复用上下文中当前完整文本，丢失后补读。索引选择正文，不能替代正文。绑定缺失、未填写或模型不完整时
+说明缺口，继续独立的有用工作，并修复所需内容。进一步材料按问题选择。未改的指南与复制画像不能提供实际个人内容。
+
+
 
 让有根据的理解指导解释、独立判断与行动。根据本人的实际目的完成所需贡献；解释、成品与
 练习机会有不同的完成条件。异议可以改变前提与安排，实际后果可以纠正双方。
 角色交叉应使纠正成为可能，不让单一解释无限强化；同意、轻松感、完成产出与长期发展
 需要不同的证据。
 
-刷新相关个人材料后，再按[修订方法](references/formation/revision.zh-CN.md)凝练受影响的
-实际文件。改变环境时，回读实际使用处与结果。任务所有者继续负责执行与完成，各专门方法
+按[修订方法](references/formation/revision.zh-CN.md)刷新选定来源与原生模型。改变环境时，回读实际使用处与结果。任务所有者继续负责执行与完成，各专门方法
 保有自己的工作。普通子智能体只取得任务需要的有限上下文，不取得私人画像；材料访问与
 哲学角色不产生额外权限。
 

@@ -9,20 +9,14 @@ or articles is a further choice of interest, developed in
 [An example and a commons](docs/example-and-commons.md). Reading, selective use,
 and full adoption are available choices, not compulsory stages.
 
-[Forming and revising working models](design-and-revision.md) develops the common
-work of interpreting evidence and condensing accounts of the person, counterpart, and
-relationship. Six public guides under `references/formation/` explain how to write orientation,
-person, counterpart, relationship, environment, and revision.
-Private accounts under `references/situated/` give the adopted Skill its
-situated substance; evidence under `references/personal/` supports them.
-Public distribution contains neither private tree. For complete adoption, the
-[entrypoint](../SKILL.md) owns participation and initial reading of all six
-actual situated files. The [environment writing guide](formation/environment.md) realizes selected
-understanding through instructions, tools, and environment, then learns from
-their effects. These responsibilities connect without forming a required
-sequence. Borrowing an idea about support, contribution, or inquiry does not
-require forming all six actual files or accepting the author's cultivation project.
-Use what the task needs, while understanding the conditions of the borrowed argument.
+[Forming and revising working models](design-and-revision.md) connects the six
+formation lenses with [native Hindsight formation](hindsight.md). The private
+binding index chooses complete generated models for startup reading; output
+count follows the questions. Original evidence stays with its owners, while
+derived Personal understanding can migrate to observations/pages. The
+[entrypoint](../SKILL.md) owns ordinary reading and the
+[environment guide](formation/environment.md) connects understanding to use.
+Selective borrowing need not configure the entire adopted arrangement.
 
 ## Find the contribution the work needs
 
@@ -36,12 +30,12 @@ arrangement, without making the person first design all of its implementation.
 
 | Problem in the work | Question and useful reading |
 | --- | --- |
-| Understanding personal psychological material | Read the private `personal` material, or ask a language model to read and help understand it. [Psychology](docs/psychological-support.md) explains model-assisted materials, questionnaires, statistics, and practical help. The philosophical essays and six working accounts are not psychological self-analysis exercises. |
-| Checking whether cooperation fits | The model maintains the six working accounts; the person can judge actual contributions and results without rereading a portrait. [Account maintenance and cooperation](formation/revision.md#reread-personal-material-and-assess-the-working-model) explains this distinction. |
+| Understanding personal psychological material | Read the private `personal` material, or ask a language model to read and help understand it. [Psychology](docs/psychological-support.md) explains model-assisted materials, questionnaires, statistics, and practical help. The philosophical essays and working models are not psychological self-analysis exercises. |
+| Checking whether cooperation fits | The model maintains the working models; the person can judge actual contributions and results without rereading a portrait. [Account maintenance and cooperation](formation/revision.md#reread-personal-material-and-assess-the-working-model) explains this distinction. |
 | Keeping up has become an obligation, while its place in life is unclear | [From chasing to lived cultivation](docs/stealing-fire.md#from-chasing-to-lived-cultivation) examines the pictures of progress and selfhood that organize pursuit, relates philosophical therapy and the raft simile to revisable means, and returns the question to chosen activities and surrounding life. |
 | The starting point is clear but the learning route is missing | The [starting conditions](design-and-revision.md#start-from-available-material-and-practice) distinguish existing philosophical writing, psychological or life materials, and usable environments, singly or in pairs. They explain what to develop next with the model without imposing closed stages or a three-discipline curriculum. |
 | A request is understood, but the partner's contribution is still wrong | [Forming and revising working models](design-and-revision.md) connects the person's account, the actual counterpart, and their relation. It helps determine what contribution is wanted and why, rather than deriving a permanent role from a preference alone. Use it to revise the relevant understanding and allocation together. |
-| The understanding needs to be written into situated accounts | The [Forming and revising working models](design-and-revision.md#form-a-situated-version-from-actual-material) connects the common condensation method to six actual files: [orientation](formation/orientation.md), [person](formation/person.md), [counterpart](formation/counterpart.md), [relationship](formation/relationship.md), [environment](formation/environment.md), and [revision](formation/revision.md). These permanent guides teach writing; actual accounts have separate private paths. The [evidence guide](formation/revision.md#sources-and-evidence) supports all six actual files. Follow the affected object without treating guidance as personal content. |
+| The understanding needs to be written into situated accounts | The [Forming and revising working models](design-and-revision.md#form-a-situated-version-from-actual-material) connects the common condensation method to question-defined models: [orientation](formation/orientation.md), [person](formation/person.md), [counterpart](formation/counterpart.md), [relationship](formation/relationship.md), [environment](formation/environment.md), and [revision](formation/revision.md). These permanent guides teach writing; actual accounts have separate private paths. The [evidence guide](formation/revision.md#sources-and-evidence) supports all question-defined models. Follow the affected object without treating guidance as personal content. |
 | An idea or image is appealing, but its practical consequence is unclear | [YinYang practice overview](docs/creation-method.md) follows the relations among expression, interpretation, realization, and consequences. It helps identify what must change in the work for an idea to matter, and what a returned result can tell you about the original understanding. |
 | A sound arrangement exists in prose, but the actual environment does something else | [Environment writing guide](formation/environment.md) connects the intended contribution with current instructions, tools, capabilities, and permissions. It helps locate the change at its actual owner, realize it, and compare the resulting behavior with the purpose. |
 | The model offers more explanation, but the person still cannot proceed | [Participation, access, and support](docs/participation-and-support.md) distinguishes understanding, retrieving a term, starting, selecting a response, stopping, and switching. It helps choose a contribution aimed at the missing connection and examine whether support's coordination cost consumes its benefit. |

@@ -2,7 +2,7 @@
 
 [简体中文](personal-material.zh-CN.md) · [Person account](formation/person.md) · [Revision](formation/revision.md)
 
-Personal is the private material from which a situated account can be formed and revised. Organize it by the subject a record helps understand, while keeping original evidence, interpretation, and the person's current judgment distinguishable within that subject. The six working files draw on this material; they do not replace it.
+Personal is the private material from which a situated account can be formed and revised. Organize it by the subject a record helps understand, while keeping original evidence, interpretation, and the person's current judgment distinguishable within that subject. Hindsight draws on selected material and can maintain derived understanding as native observations/pages. Original evidence retains its owners; no parallel complete Personal summary or fixed six-file output is required. [Native formation](hindsight.md) explains the route.
 
 ## Classify by what the material explains
 
@@ -54,7 +54,7 @@ Git/GitHub preserves committed works and ancestry; Computer History supplies dif
 
 ## Establish what material is needed and available
 
-Begin with the intended use of the six accounts and inspect the existing material. Determine which categories have relevant grounds, which have dated or uncertain information, and which material gaps would change the account. Completeness means adequate coverage for those judgments, not an exhaustive biography or a permanently finished dossier.
+Begin with the intended use of the connected models and inspect the existing material. Determine which categories have relevant grounds, which have dated or uncertain information, and which material gaps would change the account. Completeness means adequate coverage for those judgments, not an exhaustive biography or a permanently finished dossier.
 
 The [revision method](formation/revision.md#choose-the-emphasis-of-this-revision) selects
 the emphasis of each update. Categories are available grounds, not a checklist
@@ -66,7 +66,7 @@ Retrieve available records before asking the person to reconstruct them. When a 
 
 Record bodily measurements with dates and units, directions as intentions rather than accomplished events, and assessment results with instrument, version, occasion, and response context. Reuse existing authoritative records through links where possible. Credentials and sensitive identity documents retain their actual owners; a basic profile needs only the relevant facts and source route.
 
-## Condense the material into six connected accounts
+## Guide native fusion through connected content lenses
 
 YinYang's crossed participation and dialectical return remain the organizing relation of this maintained implementation. Preferences, psychological material, and personal conditions give that relation situated content.
 
@@ -77,4 +77,4 @@ YinYang's crossed participation and dialectical return remain the organizing rel
 - **Environment** explains how tools and circumstances realize those choices and shape further possibilities.
 - **Revision** states how new material, comparison, the person's response, and actual use change the account and its realization.
 
-Use a category where it changes that file's subject, not as six repeated inventories. Keep original material and richer interpretations in Personal. A source gap limits the corresponding claim; preserving it explicitly is better than inventing the missing material. When the current purpose needs it resolved, continue to the actual source or the person's answer before claiming completion.
+Use a category where it changes the model question, without repeating inventories. Keep originals with their evidence owners; richer derived interpretations can live in native observations/pages. A source gap limits the corresponding claim; preserving it explicitly is better than inventing the missing material. When the current purpose needs it resolved, continue to the actual source or the person's answer before claiming completion.

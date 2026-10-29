@@ -33,9 +33,9 @@ literal angle brackets. Names and descriptions have separate display roles.
 dialectical return, six formation guides, Core views as attributed suggestions,
 practice overview, formation/revision, daily collaboration, and Personal guidance.
 Empty contains no `docs/` or `diagrams/`. Recipients develop their own philosophy,
-Personal material, and six Situated accounts with their model; neither edition
+Personal material, and Hindsight-backed working models with their model; neither edition
 ships private substance. Empty supplies unfilled Personal and Situated starters,
-with four empty Personal areas and six files explicitly marked `status: unfilled`;
+with four empty Personal areas plus binding and revision starters marked `status: unfilled`;
 these are templates rather than actual accounts. Full's current source and local personal consumers
 retain their complete content.
 

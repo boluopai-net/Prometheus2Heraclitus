@@ -20,23 +20,22 @@ guide; revision guidance belongs to the revision guide. [The package guide](refe
 owns common/situated structure and projection. Refer to these owners where a
 document needs their method instead of restating it.
 
-Distributed and situated editions share common content, including six public
-how-to guides under `references/formation/`. A private situated package adds six
-actual files at `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
-The actual revision method is authored for that person and environment; a common
-guide cannot replace it. Ordinary use reads all six actual files in full.
-The six files are personal working models of person–model cooperation, intended
-to make the actual personal environment fit the person psychologically and
-practically. Psychological and life evidence and maintained interpretations
-principally belong in `references/personal/`, with originals retained at their
-existing owners; `references/personal/sources.md` is its question-selected entrance.
-`person.md` selects working implications rather than a whole psychological
-portrait. Follow the [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-for every refresh of the six working files; do not duplicate its protocol here.
-Public distribution contains neither private tree. `scripts/sync-common.py`
-preserves both trees. Do not retrieve private portraits merely to maintain this
-public package. Other authors can change the organization and philosophy;
-maintenance preserves this six-guide/six-actual contract.
+Shared editions retain six public formation guides as content lenses. Hindsight is
+now the default formation engine: selected Philosophy, Personal, environment and
+history sources become native facts, revisable observations and question-defined
+Mental Models/Knowledge Pages. [Native formation](references/hindsight.md) owns
+configuration and exact operations. There is no fixed output count or mandatory
+manual Personal condensation stage.
+
+Private `references/situated/index.md` binds the service/bank, model questions,
+IDs and generated bodies and selects complete startup reading;
+`references/situated/revision.md` states the actual execution method. Source
+evidence retains its owners. Derived Personal accounts may migrate to native
+observations/pages. Old six-file bodies are migration/history, not a second
+maintained authoritative set. Public packages contain no private portraits.
+Common projection protects both private trees and never changes bank state.
+Preserve detailed philosophical content and distinct formation contributions
+while changing their realization; six philosophical dimensions remain valid.
 
 ## Edition and publication coherence
 

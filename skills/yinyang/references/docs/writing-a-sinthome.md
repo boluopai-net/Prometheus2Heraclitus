@@ -157,8 +157,8 @@ The same arrangement can therefore continue through revision. Replacing a model,
 
 An arrangement becoming easier to sustain also raises the question of what it
 sustains. Continuity can support chosen activity, yet an efficient arrangement
-can also perpetuate a contribution the person no longer wants. The six situated
-files give the model a working understanding of the person, counterpart, and
+can also perpetuate a contribution the person no longer wants. The situated working
+models give the model a working understanding of the person, counterpart, and
 relationship, so its participation and the environment can fit this person's
 psychology, purposes, and circumstances. Personal material and interpretations
 under `references/personal/` have a different role: the person can read them,

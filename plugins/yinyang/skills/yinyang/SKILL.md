@@ -46,7 +46,7 @@ ask a language model to read and help understand it. The separate
 [Psychology guide](references/docs/psychological-support.md) explains practical
 materials and measurement support; specialist methods own that work. Do not
 derive psychological exercises from this philosophy or prescribe rereading the
-six working accounts as self-analysis.
+working accounts as self-analysis.
 
 ## Choose the relevant use
 
@@ -59,12 +59,12 @@ sequence:
   [Read by the work being done](references/reading-map.md) for fuller arguments. Reading a position does
   not mean adopting it or beginning a project to develop personal accounts.
 - **Borrow a method.** Use [Forming and revising working models](references/design-and-revision.md)
-  to locate the relevant contribution among the six writing files. Take the contribution the task needs, using the
+  to locate the relevant contribution among the six writing guides. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
-  this package, forming all six actual files, or writing a personal philosophy.
+  this package, forming the selected complete model bodies, or writing a personal philosophy.
 - **Adopt the maintained YinYang Skill.** Give the complete package an actual
-  consumer, state the positions actually adopted, form the six actual
-  situated files, including one's own revision method, and use the initial
+  consumer, state the positions actually adopted, form the question-defined
+  situated models, including one's own revision method, and use the initial
   reading contract below. The [package guide](references/docs/skill-package.md)
   owns its fixed paths and common/private update contract.
 
@@ -78,45 +78,28 @@ original philosophical work.
 
 ## Enter ordinary collaboration
 
-For ordinary collaboration through the fully adopted Skill, the main model
-directly conversing with the user reads this complete entrypoint and all six
-actual files below in full before substantive work. Together they are personal
-working models of person–model cooperation, intended to make the actual personal
-environment fit the person psychologically and practically:
+For the adopted private Skill, read this complete entrypoint, the actual binding
+at `references/situated/index.md`, the actual method at
+`references/situated/revision.md`, and all generated model bodies selected there
+for required startup reading, in full before substantive work. Reuse complete
+current text in context; retrieve missing readings after context loss. The index
+names the actual Hindsight service/bank, model questions/IDs and private body
+locators. It selects reading; it does not stand in for the bodies.
 
-| Private actual file | Contribution |
-| --- | --- |
-| `references/situated/orientation.md` | Adopted philosophy, values, and direction. |
-| `references/situated/person.md` | Grounded implications of personal understanding for work and cooperation. |
-| `references/situated/counterpart.md` | The actual model and wanted contribution. |
-| `references/situated/relationship.md` | Joint activity, correction, and division of work. |
-| `references/situated/environment.md` | Realization through the actual environment. |
-| `references/situated/revision.md` | This person's actual revision method: judgments, material, connected changes, and verification. |
+[Hindsight formation and configuration](references/hindsight.md) owns the native
+processing route. Hindsight fuses authorized Philosophy, Personal, environment
+and history into revisable observations and question-defined models. Codex
+prepares sources and detailed questions, checks and repairs native results,
+and realizes adopted implications. Six formation guides preserve distinct
+content lenses; generated models have no fixed count or one-to-one file mapping.
 
-The six public [writing guides](references/design-and-revision.md#form-a-situated-version-from-actual-material)
-live under `references/formation/` and explain how to write these contents.
-Actual files live under the private `references/situated/` tree. Public guidance
-does not replace actual content in the initial reading. The revision file also
-needs to be authored from this person's philosophy, material, and environment,
-rather than treating the public guide as their actual method.
-
-Codex and private Web ChatGPT use their actual Skill routes. Reuse complete
-current text already in context and retrieve missing readings after context
-loss. State concrete resource gaps. Select further philosophy and private
-evidence by the question. When actual files are absent or incomplete, say so,
-carry useful work from what is known, and form the needed content. A fully
-situated version gives all six grounded content, including honest unknowns.
-
-Person, counterpart, and relationship are three distinct subjects of understanding.
-Orientation supplies adopted direction; environment explains realization;
-revision explains how to keep changing them. `references/personal/` is the
-principal private place for psychological and life evidence and maintained
-interpretations, with originals retained at their existing owners. Its entrance
-`references/personal/sources.md` is selected by the question. The six working
-files condense the implications needed for cooperation; they are not the primary
-self-analysis archive or six psychological models. Use actual understanding as context for judgment and action. The
-[writing guidance](references/formation/revision.md#write-for-the-actual-use)
-explains how to make objects, relations, grounds, and consequences usable.
+Preserve source attribution, adopted commitments, inferred explanations and
+uncertainty. Original evidence retains its owners; derived Personal accounts
+can migrate to native observations/pages without a mandatory manual summary
+stage. Select further private evidence by the question. Missing bindings or
+incomplete bodies are concrete gaps: state them, continue useful independent
+work, and form or repair the required content. Old six-file bodies are migration
+and history evidence rather than another maintained authoritative model set.
 
 ## Work from the actual encounter
 
@@ -137,8 +120,7 @@ literary construction have different evidential roles.
 
 Keep useful understanding current through actual work. The
 [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-owns each refresh of the six working files, including updating the relevant
-private material before condensation. A completed result,
+owns each refresh of the working models, including native source refresh and generated-model checking. A completed result,
 agreement, relief, and a person's developing abilities support different claims;
 assess the result the current task actually seeks. Saving a description or
 handing off work does not itself carry the action to completion.
@@ -164,7 +146,7 @@ people, model capabilities, mechanisms, or effects still need their own grounds.
 
 Read [Forming and revising working models](references/design-and-revision.md) when forming
 or repairing the understanding needed for the chosen collaboration, including
-when creating or revising any of the six situated files. Follow its route
+when creating or revising any of the situated models. Follow its route
 to the corresponding public writing guide for each affected account. The model
 carries investigation and grounded writing from the available authorized
 material and actual interaction. Work can begin with an existing purpose,
@@ -173,8 +155,7 @@ finish a theory before this contribution becomes possible. Follow that method
 for what to develop and how to revise it, rather than imposing an additional
 formation workflow here.
 
-Full adoption of this maintained implementation includes all six actual files and
-their needed private provenance. Unchanged guidance, a copied portrait, and an
+Full adoption includes a configured native formation route, selected complete model bodies, an actual binding index and revision method, and their needed private provenance. Unchanged guidance, a copied portrait, and an
 invented person do not complete that work. A selectively borrowed method
 instead serves its actual task; it does not silently acquire this file contract.
 The [package guide](references/docs/skill-package.md) owns the exact distinction.

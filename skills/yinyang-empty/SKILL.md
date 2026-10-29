@@ -1,6 +1,6 @@
 ---
 name: yinyang-empty
-description: "<用户自制> 阴阳空白版：从共同核心与形成方法出发，发展自己的哲学、个人材料和协作安排。 Form and revise your own philosophy, personal material, six working accounts, and environment without bundling the author's essays or diagrams."
+description: "<用户自制> 阴阳空白版：从共同核心与形成方法出发，发展自己的哲学、个人材料和协作安排。 Form and revise your own philosophy, personal material, working models, and environment without bundling the author's essays or diagrams."
 ---
 
 # yinyang-empty
@@ -17,8 +17,7 @@ relation does not require alternating turns or make every task a lesson.
 Empty keeps that core and the formation methods. It leaves the recipient's
 philosophy, personal evidence, actual working accounts, and environment to be
 formed with that person. It contains neither the Full edition's `docs/` and
-`diagrams/` trees nor anyone's personal portrait. Its Personal folders and six
-Situated files are unfilled starters. “Empty” names the space for
+`diagrams/` trees nor anyone's personal portrait. Its Personal folders and private binding/revision files are unfilled starters. “Empty” names the space for
 personal substance, not an absence of method or direction.
 
 ## Select the work
@@ -50,37 +49,31 @@ relevant evidence and maintained understanding in `references/personal/`, with
 `sources.md` locating existing originals and their access boundaries.
 [Organizing Personal](references/personal-material.md) supports that work.
 
-Form all six actual accounts from the person's purposes, material, and real
-environment, with explicit unknowns where needed:
+Use [Hindsight formation and configuration](references/hindsight.md) to form
+native observations and question-defined Mental Models or Knowledge Pages from
+selected Philosophy, Personal, environment and history. The six formation guides
+specify distinct content lenses, not a fixed output count. Detailed questions
+can define scope, relations, priorities and writing guidance. Codex prepares
+sources and questions, checks and repairs native results, and realizes changes.
+Derived Personal understanding may migrate into observations/pages without a
+mandatory complete manual summary first. Original evidence retains its owners.
 
-| Actual private file | Public formation guide |
-| --- | --- |
-| `references/situated/orientation.md` | [Adopted philosophy, values, and direction](references/formation/orientation.md) |
-| `references/situated/person.md` | [The actual person and implications for cooperation](references/formation/person.md) |
-| `references/situated/counterpart.md` | [The model's actual capacity and wanted contribution](references/formation/counterpart.md) |
-| `references/situated/relationship.md` | [Joint activity, role crossing, and correction](references/formation/relationship.md) |
-| `references/situated/environment.md` | [Realization through the actual environment](references/formation/environment.md) |
-| `references/situated/revision.md` | [This person's own revision method](references/formation/revision.md) |
-
-The model carries investigation, comparison, writing, implementation, and
-verification within the task's authority. The person contributes experience,
-purposes, and judgments unavailable from the material. “Your own” does not mean
-the person must write or implement everything unaided. A finished theory or a
-separate philosophical essay is not a prerequisite for starting useful work.
-Unchanged guides and copied portraits cannot substitute for actual accounts.
+Keep `references/situated/index.md` as the private service/bank, question/ID and
+body-locator binding, including the complete models required at startup.
+Keep `references/situated/revision.md` as the actual execution method. Their
+unfilled starters do not constitute a formed personal version. Old six-file
+bodies are migration/history, not a second maintained authoritative set.
 
 ## Enter ordinary collaboration
 
-For ordinary collaboration through the adopted personal version, the main model
-directly conversing with the person reads this complete entrypoint and all six
-actual situated files in full before substantive work. Reuse complete current
-text already in context; retrieve missing readings after context loss. When
-accounts are absent, marked `status: unfilled`, or incomplete, state the gap, work from what is known, and
-form the needed content. Do not read public guides as substitutes for private
-actual accounts. File existence alone does not establish formation. Replace a
-starter's unfilled status only after writing grounded actual content; uncertainty
-about a real question can remain in that content. Select further personal or
-philosophical material by the task.
+Before substantive work, the main model reads this complete entrypoint, the
+actual private index and revision method, and every complete generated body
+selected for startup reading. Reuse current complete text in context; retrieve
+missing readings after context loss. The index selects bodies and cannot replace
+them. State missing bindings, unfilled status or incomplete models, continue
+useful independent work, and repair the required content. Select further source
+material by the question. Unchanged guides or copied portraits cannot provide
+actual personal substance.
 
 Let the grounded understanding guide interpretation, independent judgment, and
 action. Carry the person's actual purpose through the contribution it needs;
@@ -90,7 +83,7 @@ world's response can correct both participants. Role crossing should make
 correction available, not amplify one interpretation indefinitely. Agreement,
 relief, completed output, and lasting development require different evidence.
 
-Refresh relevant personal material before recondensing the affected accounts,
+Refresh selected sources and native models,
 following the [revision method](references/formation/revision.md). Read back
 the actual consumer and result when changing an environment. The task owner
 retains execution and completion; specialist methods retain their own work.

@@ -25,7 +25,7 @@ can enter language-model-like open generation, while the actual model enters
 the human logician's role of developing meaning and examining its grounds.
 A consequential detail can reverse the emphasis. Each can return through the
 other's contribution with both possibilities available. This relation gives
-reverse alignment its particular form here; it connects the six working accounts.
+reverse alignment its particular form here; it connects the working accounts.
 
 The [relationship writing guide](formation/relationship.md#explain-exchange-and-return-where-they-matter)
 develops this movement and its dialectical meaning. The other five guides
@@ -45,85 +45,59 @@ another philosophy or literary form. Support that work at its own source, even
 when its images and organization no longer resemble YinYang; the
 [example and commons essay](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/example-and-commons.html) explains the distinction.
 
-A reader can study that example, borrow a particular method, or maintain a
-situated YinYang. These are different uses, not successive levels of commitment.
-To borrow the distinction between an observation and its interpretation, begin
-with the actual problem and use the relevant reasoning below; neither a new
-philosophy project nor the six situated files is a prerequisite. Maintaining
-this Skill as a whole calls for six grounded actual files, including the
-positions and purposes actually adopted. These may draw selectively on existing
-views. Writing an original philosophy or article remains a separate choice of
-interest, rather than a prerequisite for maintaining personal material and an
-environment. Six public writing guides explain
-how to form them; six private files supply the actual content, including one's
-own revision method. The entrypoint's
-initial reading makes their connected understanding available for ordinary work.
-This reference supplies the common method for understanding material and condensing accounts. Permanent
-public guides under `references/formation/` develop each writing object;
-actual private files occupy `references/situated/`. Person, counterpart,
-and relationship remain three subjects of understanding. Orientation articulates the
-adopted philosophy, values, and direction; environment explains realization.
-The actual revision file explains how this person revises their understanding
-and environment; its public guide explains how to write that method.
-Guidance about writing cannot stand in for grounded content.
-
-Before creating or revising an account, read its complete public writing guide
-identified in the table below, together with the current situated account when
-formed and relevant evidence. Reuse complete current readings already in context.
-Each writing guide remains common in distributed and situated packages;
-the revision guide likewise has a separate private actual file. Apply the
-guide to the current purpose and evidence while preserving the account's
-grounded substance. This writing-time reading concerns the affected accounts;
-ordinary collaboration continues to read the actual accounts under the
-entrypoint's existing contract.
+A reader can study the example, borrow a method, or adopt situated YinYang.
+Full adoption configures Hindsight as the default formation engine and gives
+its question-defined models an actual private consumer. A separate original
+philosophical work is optional. The six public formation guides below define
+useful content lenses, not six required output documents.
 
 ## Write for the actual use
 
-Keep three connected uses distinct. **Philosophy** develops adopted concepts,
-values, and direction. **Personal references**, maintained under private
-`references/personal/`, distinguish preferences and selection, psychological
-experience and assessments, personal conditions, and self-expression and works.
-[Organizing Personal material](personal-material.md) explains how to
-classify their contributions, retain grounds, and resolve material gaps. **The six
-working files** under `references/situated/` condense what person–model
-cooperation needs to make the personal environment fit the actual person.
-They are not six psychological models; even the person file selects implications
-for collaboration rather than replacing the richer personal references.
+Keep adopted Philosophy, attributable Personal evidence, and generated working
+understanding connected while preserving their different roles. Hindsight
+retains selected material, consolidates revisable facets, and fuses them through
+native Mental Models or Knowledge Pages. Codex prepares sources, missions and
+model questions, checks the complete result against evidence, repairs omissions,
+and carries environmental consequences into actual use.
 
-Whenever revising the working files, follow the revision guide's
-[material-refresh sequence](formation/revision.md#establish-the-current-material):
-read the adopted philosophy, retrieve relevant new history, refresh and correct
-the personal references, then condense the philosophy and those references into
-the working model. Scope the reading and changes to the question, checking the
-connected six-file whole. Stored interpretations remain fallible; a usable
-arrangement does not establish psychological truth.
-
-Philosophy and literature develop understanding; working accounts make selected
-meanings usable for model judgment and action. The model carries their reading
-and maintenance. Personal psychological understanding can begin with the person
-reading `personal`, or a language model helping read and understand it; reading
-the six working accounts is not recommended as psychological self-analysis.
-The revision guide's [writing guidance](formation/revision.md#write-for-the-actual-use)
-explains how the six files and their private support state objects, relations,
-grounds, and consequences explicitly. Object-specific directions remain in the
-corresponding writing files below.
+Read [Hindsight formation and configuration](hindsight.md) for the native
+categories, setup, SDK/API operations, question specifications, refresh and export.
+The private `references/situated/index.md` binds the actual service/bank and
+model bodies and chooses mandatory startup reading.
+`references/situated/revision.md` explains actual execution and verification.
+Personal derived summaries may move into native observations/pages; original
+evidence retains its owner and access boundaries. There is no mandatory
+manual Personal rewrite followed by six-file condensation.
 
 ## Form a situated version from actual material
 
-Common philosophy articulates broader objects, relations, values, and ways of
-knowing. Orientation states what is adopted for this collaboration; person,
-counterpart, and relationship develop the participants and joint activity;
-environment explains their realization. Private sources support situated
-claims across these accounts.
-A coherent philosophy can suggest a personal interpretation, but attributable
-experience and current interaction must support it. Actual work can correct
-both the interpretation and the philosophy.
+| Content lens | Complete writing guide |
+| --- | --- |
+| Adopted philosophy, values and direction | [Orientation](formation/orientation.md) |
+| The actual person and working implications | [Person](formation/person.md) |
+| Actual model capacity and wanted contribution | [Counterpart](formation/counterpart.md) |
+| Joint activity, role exchange and correction | [Relationship](formation/relationship.md) |
+| Realization in the actual environment | [Environment](formation/environment.md) |
+| Continuing revision and verification | [Revision](formation/revision.md) |
 
-Begin where the purpose and available foundations give purchase: a philosophy,
-personal expression, selected records, conversations, preferences, work, or an
-environment to change. Availability alone is not a reason to collect material.
-Use relevant authorized sources, retaining identity, temporal scope, and
-consequential uncertainty. Existing originals can stay with their private owners.
+Read the affected guides with current sources and generated bodies. Express
+what the model should cover in its native `source_query`: objects, relations,
+priorities, evidence distinctions, conditions, alternatives and useful writing
+organization. Preserve person, counterpart and relationship as distinct subjects;
+orientation, environment and revision contribute direction, realization and
+continuing change. Several lenses may be integrated in one model, or one lens
+may require several questions. Choose their actual organization through use.
+
+Empty ships the common guides, four empty Personal areas, and unfilled
+private binding and revision starters. Native Hindsight models still need
+to be formed from this person’s material.
+
+Read back native extraction, observations and generated models rather than
+judging formation from a saved question or successful request. Grounded unknowns
+are useful content. An invented person or copied portrait cannot supply it.
+Actual consumer retrieval, authorized work and subsequent correction test the
+formed understanding at different scales. Environment or website changes still
+need execution through their owners; forming a model alone does not finish them.
 
 ## Start from available material and practice
 
@@ -232,46 +206,14 @@ the person's unavailable experience remains theirs to contribute. Keep the
 account conditional when the evidence does not discriminate. There is no need
 to settle a general personality trait to improve this workspace.
 
-Distill what ordinary collaboration needs into the six situated files. Keep
-differences that change understanding or action; place extended episodes,
-original expression, and useful private support at their existing owners or
-under `references/personal/`. The files have complementary writing duties.
-Their public guidance develops these different objects; the situated accounts
-supply the actual understanding:
-
-| Working file | What it should make intelligible | Public writing guidance |
-| --- | --- | --- |
-| `situated/orientation.md` | Adopted philosophy, values, and direction, with reasons. | [Articulating orientation](formation/orientation.md) |
-| `situated/person.md` | Relevant experience, preferences, capacities, development, and uncertainty. | [Grounding the person account](formation/person.md) |
-| `situated/counterpart.md` | The actual model, its capabilities, and wanted contribution. | [Describing the counterpart](formation/counterpart.md) |
-| `situated/relationship.md` | Joint activity, correction, and division of work. | [Articulating the relationship](formation/relationship.md) |
-| `situated/environment.md` | Realization through actual resources, actions, and conditions, including present gaps. | [Describing and realizing the environment](formation/environment.md) |
-| `situated/revision.md` | This person's actual method for revising philosophy, evidence, accounts, Skills, and environment. | [How to revise](formation/revision.md) |
-
-The [revision guide's evidence method](formation/revision.md#sources-and-evidence)
-supports all six actual files and their continuing revision. Each public guide
-explains how to form content; actual understanding and methods remain private.
-Keep attributable evidence and extended private support with their actual
-owners, using `references/personal/` where appropriate. Select sources by the
-question. Empty ships the common guides, four empty Personal areas, and six
-Situated starters marked `status: unfilled`. These starters are not actual
-accounts; form their content from this person’s material.
-
-Form all six actual files from relevant material when adopting this implementation,
-including a revision method fitted to the person's purpose and environment. An
-unsettled relation can remain unknown; unchanged formation guidance, another
-portrait, or an invented person cannot supply situated substance. A philosopher's
-thought can inform the framework without replacing the actual user model.
-Neither a complete biography nor complete psychological understanding is needed
-before creation and practical work begin.
-
-Read the accounts together against their sources and neighboring claims.
-Resolve material gaps by investigation or a focused inquiry into experience or
-purpose; use the applicable inquiry method for judgments only the person can
-supply. The model carries the writing and integration. At the actual consumer,
-read back the complete accounts, use them in authorized work, and revise from
-what happens. Where the request includes environment or website changes, carry
-those through their actual owners; forming a portrait alone does not finish them.
+Bring the relevant sources and relations into the native model questions
+specified above. Preserve the distinctive content lenses through checking and
+revision; the six guides do not require a six-file output layout. The actual
+private index selects generated bodies and the actual revision method explains
+how this person's source refresh, native processing, repair and environmental
+realization work. Read the integrated result at its real consumer and revise
+from use. Neither complete biography nor complete psychological understanding
+is needed before useful creation and practical work begin.
 
 ## What the language does
 
@@ -308,7 +250,7 @@ explains how the selected relation reaches actual instructions, tools, and use.
 
 Keep public philosophy at its common owner and private experience at its
 supporting owners. The [revision guide](formation/revision.md#let-philosophy-revise-personal-support-material)
-owns the continuing reconciliation of those materials, their six-file working
+owns the continuing reconciliation of those materials, their native model
 form, and the environment. Mechanical preservation by a common-file projector
 does not prohibit authorized semantic revision or retirement of private notes.
 
@@ -329,5 +271,5 @@ requested work. Grounding, availability, completed work, collaborative fit,
 and human development make different claims. The
 [revision guide's result check](formation/revision.md#follow-the-result-back-into-understanding)
 keeps those claims answerable to their evidence and returns a material mismatch
-to the appropriate understanding or realization. Forming the six files is
+to the appropriate understanding or realization. Forming the working models is
 part of a usable practice, whose subsequent experience can change any of them.

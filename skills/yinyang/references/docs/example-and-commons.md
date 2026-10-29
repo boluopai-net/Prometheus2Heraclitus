@@ -18,26 +18,25 @@ distinguishes this work from psychological self-help.
 
 If you choose to write your own philosophy, your trajectory and shared reflection can supply material. Philosophical concepts, literary images, argument, and dialogue develop an understanding of the world and relationships worth sustaining. Distill that philosophy together with living material into personal models and bring them into the actual environment. Once formed, a clearer philosophical expression can revise an existing model, while private reflection and actual use can supply questions for the next essay. Formation's dependencies and subsequent reciprocal revision thereby retain their distinct contributions.
 
-In this implementation, the six actual files hold personal working models
-needed by a model counterpart: adopted orientation, the person, the actual
-counterpart and wanted contribution, their relationship, environmental realization, and an actual revision method. Person, counterpart, and relationship remain three objects of understanding;
-the six actual files have distinct responsibilities. The six private actual
-files live under `references/situated/`; permanent public guides live under
-`references/formation/`. Psychological and life material, original expressions,
-and maintained interpretations stay in `references/personal/` or the private
-originals it references. The person can read those references or ask a language
-model to help understand them; the six model-facing files select what cooperation
-and environmental fit require.
-For example, a person file can describe useful help during writing while the
-longer inquiry into a recurring fear stays with the personal references.
-Distillation preserves the individual
-differences that matter to collaboration, while keeping detailed evidence
-reachable when needed. Someone adopting these six actual files must form their own
-accounts rather than retain the author's personal substance.
-The private `references/personal/sources.md` entrance leads to that material and
-its interpretations. The [revision method](../formation/revision.md) connects
-changed understanding with the working accounts and actual environment. Public
-distribution contains neither private working models nor private reference material.
+In this implementation, six formation guides develop orientation, person,
+counterpart, relationship, environment and revision. Hindsight fuses selected
+Philosophy, Personal, environment and history into question-defined working
+models. The private binding index selects complete generated bodies; no fixed
+output count follows from the guides. Person, counterpart and relationship
+remain distinct subjects, with direction, realization and revision connecting
+their practical use.
+
+Sources retain their authorship and evidence owners. Derived Personal accounts
+can migrate to native observations/pages without a complete manual summary
+stage. A writing-help model, for example, can retain useful cooperation
+implications while the original episode and unresolved explanations remain
+reachable at their private owners. Each adopted version forms its own content;
+a copied portrait does not supply actual understanding. The
+[revision method](../formation/revision.md) connects native formation, result
+checking and environmental changes. Public distribution contains no private
+accounts or supporting originals.
+
+
 
 A person can make a website for their philosophy while keeping the complete
 personal model private. Public philosophy is an authored work and a selected,
@@ -63,9 +62,8 @@ that work's relations available to its readers and model counterparts. Its
 questions, practice, and consequences supply the judgment; resemblance to
 YinYang does not.
 
-The implementation maintained here nevertheless keeps its six actual files.
-Freedom to author a differently organized philosophy and the stable contract
-of this particular example are compatible invitations.
+The maintained implementation uses Hindsight to form question-defined models.
+Six formation guides preserve useful content lenses without a fixed output count.
 
 ## Adopt, combine, or author anew
 

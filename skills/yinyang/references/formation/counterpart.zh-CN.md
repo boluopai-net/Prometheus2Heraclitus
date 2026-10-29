@@ -2,7 +2,7 @@
 
 [English](counterpart.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
-实际伙伴描述写在私人包的 `references/situated/counterpart.md`。说明通过真实界面、上下文、
+用本指南规定有关 Hindsight 模型问题并核对生成内容。私人 `references/situated/index.md` 定位实际正文；[原生形成方法](../hindsight.zh-CN.md)说明处理路线。说明通过真实界面、上下文、
 工具、权限和行为遇到的模型，以及希望它作出的贡献。[关系描述](relationship.zh-CN.md)
 展开双方怎样共同工作；这里使伙伴这一方变得可理解。
 

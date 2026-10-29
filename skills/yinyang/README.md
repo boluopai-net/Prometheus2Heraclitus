@@ -50,7 +50,7 @@ Read the philosophical arguments for their own questions, borrow a formation or
 adaptation method for a particular task, or adopt the complete maintained Skill.
 These uses can overlap; they are not stages everyone must pass through. Borrowing
 a method does not require writing a personal philosophy, adopting the author's
-ontology or imagery, or forming the six actual files of a maintained situated version.
+ontology or imagery, or forming question-defined models of a maintained situated version.
 
 For full adoption, give the complete package to the model through its actual
 Skill mechanism. The model forms or revises the accounts from relevant authorized
@@ -64,30 +64,27 @@ Choose the entrance that serves the current question:
 | Purpose | Entrance |
 | --- | --- |
 | Understand the practice of forming and using your own YinYang | [Practice overview](references/docs/creation-method.md). |
-| Understand how philosophy and personal models connect | [Forming and revising working models](references/design-and-revision.md), leading to the six writing files. |
-| Use the six files in ordinary collaboration | [Everyday collaboration with YinYang](SKILL.md), including initial reading and routes. |
+| Understand how philosophy and personal models connect | [Forming and revising working models](references/design-and-revision.md), leading to the six writing guides. |
+| Use the working models in ordinary collaboration | [Everyday collaboration with YinYang](SKILL.md), including initial reading and routes. |
 
 For files and updates, use the [package guide](references/docs/skill-package.md);
 for arguments and sources, use the [reading map](references/reading-map.md).
 
-The maintained package distinguishes **six public how-to guides** from **six
-private actual files**. Both sets concern orientation, person, counterpart,
-relationship, environment, and revision. The guides live in
-`references/formation/`; each explains how to write its corresponding actual
-file under `references/situated/`. Revision has the same distinction:
-[How to revise](references/formation/revision.md) helps someone write their own
-actual revision method at `references/situated/revision.md`.
+The six public how-to guides define orientation, person, counterpart,
+relationship, environment and revision. [Hindsight formation](references/hindsight.md)
+fuses selected Philosophy, Personal, environment and history sources into native
+observations and question-defined working models. The questions can be detailed
+content specifications; outputs have no fixed count. Codex prepares, checks,
+repairs and realizes this understanding.
 
-Full adoption forms and reads all six actual files. Public distribution supplies
-the six guides, not a person's actual content. Person, counterpart, and relationship
-remain three subjects of understanding; the other files articulate direction, realization,
-and revision. Psychological and life evidence and maintained interpretations
-principally belong in `references/personal/`, reached by the question through
-`references/personal/sources.md`, with originals retained at their existing owners.
-The six files select implications for work and cooperation from that fuller
-understanding; they are not the primary self-analysis archive or six psychological
-models. The [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-owns each refresh of these working files. The package guide explains the paths and shared updates.
+A private adopted package supplies `references/situated/index.md` with its actual
+service/bank binding, questions, generated body locations and startup reading,
+plus `references/situated/revision.md` with its execution method. Read the selected
+complete bodies. Original evidence keeps its owners; derived Personal accounts
+may migrate to native observations/pages. No manual complete Personal rewrite or
+six-file condensation is required. Public packages carry no private portraits.
+
+
 
 Formation can start with philosophy, personal experience, preferences, actual
 work, or an environment to revise. If engineering is missing, develop a usable
@@ -97,7 +94,7 @@ understanding, but defaults and constraints also explain arrangements. The desig
 reference develops these conditional routes without requiring mastery of three
 disciplines or a complete portrait before creation.
 
-A person may keep the six-file structure while replacing the philosophy, or
+A person may keep the model organization while replacing the philosophy, or
 organize a different work altogether. A philosopher's thought can supply a
 framework; it cannot substitute for an account of the actual user. Independently
 changed philosophy stays at its own source, outside common-file projection.

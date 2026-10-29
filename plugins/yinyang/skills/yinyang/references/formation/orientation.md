@@ -3,11 +3,8 @@
 [简体中文](orientation.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 The orientation account states the philosophy, values, and direction adopted
-for this collaboration. Write its actual content at
-`references/situated/orientation.md` in the private package. This public guide
-remains available alongside it. The maintained implementation has six actual
-files: orientation, person, counterpart, relationship, environment, and revision.
-Someone authoring a different work can change that organization and philosophy.
+for this collaboration. Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. This public guide
+remains available alongside it. The six content lenses remain distinct without fixing the number of output documents.
 
 ## Give the work a direction with reasons
 
@@ -63,7 +60,7 @@ develops that purpose and its limits. State what deserves cultivation and what
 needs correction, leaving the aims themselves open to reconsideration. Neither
 unlimited amplification nor permanent return to an old state defines progress.
 Recipients can adopt other aims; keep reasons here rather than repeating the
-whole philosophy across all six files.
+whole philosophy across the connected models.
 
 Use explicit model-facing prose under the [writing method](revision.md#write-for-the-actual-use).
 An image can make a relation intelligible; state the meaning that should guide

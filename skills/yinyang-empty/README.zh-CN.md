@@ -9,7 +9,7 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 保留在 Full 与网站上，供选择阅读。
 
 两版共同保留反向对齐，以及角色交叉与辩证返回这个核心。其他建议不会因为安装就自动
-成为你采纳的哲学。自己的哲学、个人材料与六份实际工作模型，根据本人的目的、经验、
+成为你采纳的哲学。自己的哲学、个人材料与按问题形成的工作模型，根据本人的目的、经验、
 来源和环境，与模型共同形成。模型可以承担写作和实现，不要求你独自完成。
 
 | 当前需要 | 入口 |
@@ -22,10 +22,10 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 | 安装与更新，并保留自己的内容 | [文件与更新](references/package.zh-CN.md) |
 
 `references/formation/` 有取向、人、伙伴、关系、环境、修订六份指南，均有中英文。
-对应的私人实际文件写在 `references/situated/`；证据和维护中的个人理解写在
+私人 `references/situated/index.md` 绑定 Hindsight 生成正文及必读选择，`revision.md` 说明实际执行；证据与来源路线保存在
 `references/personal/`；自己的哲学保留在原有来源，或写在私人的 `references/philosophy/`。
 Empty 已放好四个空 Personal 分区：偏好与选择、心理经验与测评、个人条件与生活、
-自我表达与作品；六份 Situated 起始文件标为 `status: unfilled`。文件存在不代表实际
+自我表达与作品；私人绑定和修订起始文件标为 `status: unfilled`。文件存在不代表实际
 理解已经形成，由模型结合本人的材料继续填写，包内不预填个人事实或画像。
 
 [Codex 安装说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.zh-CN.md)
@@ -35,3 +35,5 @@ Empty 已放好四个空 Personal 分区：偏好与选择、心理经验与测�
 本包是 boluopai 阴阳作品的一个版本：选取方法资源，将展开的文章保留为可选的外部阅读。
 沿用 [CC BY-NC-SA 4.0](LICENSE)，分享改编时保留署名、注明修改并采用相同许可；
 私人改编不必公开。
+
+[Hindsight 原生形成](references/hindsight.zh-CN.md)负责默认融合，输出数量由问题决定；私人索引与实际修订方法连接生成正文和日常阅读。

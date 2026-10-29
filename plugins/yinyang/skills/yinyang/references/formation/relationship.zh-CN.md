@@ -2,12 +2,12 @@
 
 [English](relationship.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
-实际关系描述写在私人包的 `references/situated/relationship.md`。对象是共同活动：这个
+用本指南规定有关 Hindsight 模型问题并核对生成内容。私人 `references/situated/index.md` 定位实际正文；[原生形成方法](../hindsight.zh-CN.md)说明处理路线。对象是共同活动：这个
 [人](person.zh-CN.md)与[伙伴](counterpart.zh-CN.md)怎样贡献、纠正、分工并改变理解。
 双方的能力与经验为关系提供根据，不决定永久不变的分工。
 
 对当前维护的 Yinyang，最主要的对象是双方怎样进入对方的角色，再返回自身。先把这条关系
-写清，再由它说明具体工作怎样分配。它连接六份描述；各份展开不同对象，不必重复同一套论述。
+写清，再由它说明具体工作怎样分配。它连接相连描述；各份展开不同对象，不必重复同一套论述。
 
 ## 说明贡献怎样相接
 

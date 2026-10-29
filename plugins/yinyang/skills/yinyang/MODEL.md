@@ -8,9 +8,9 @@ all its philosophical claims.
 
 The [core views](references/docs/core-views.md) own the numbered propositions.
 The essays develop their arguments, images, examples, and sources.
-[SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the six files. [Forming and revising working models](references/design-and-revision.md)
+[SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the selected models. [Forming and revising working models](references/design-and-revision.md)
 explains their relationship; writing directions belong to the six public how-to
-guides, corresponding to six private actual files. Use the [reading map](references/reading-map.md) to locate
+guides, used to specify question-defined private models. Use the [reading map](references/reading-map.md) to locate
 the argument relevant to a change.
 
 ## Source and consumer roles
@@ -36,7 +36,7 @@ Keep the following uses of writing distinct:
   and implications for person–model cooperation, so the actual personal environment
   fits the person psychologically and practically. Psychological and life evidence
   and maintained interpretations principally belong in private `references/personal/`;
-  the six working files are not the primary self-analysis archive. Follow the
+  the working models are not the primary self-analysis archive. Follow the
   [writing method](references/formation/revision.md#write-for-the-actual-use);
   maintain correspondence with human-readable philosophy without making its
   literary form the default for working instructions.
@@ -44,25 +44,22 @@ Keep the following uses of writing distinct:
   acceptance. They preserve meaning across consumers without turning the
   essays into a second policy manual.
 
-The [package guide](references/docs/skill-package.md) owns the shared/situated
-structure and projection contract. There are six public how-to guides under
-`references/formation/{orientation,person,counterpart,relationship,environment,revision}.md`,
-with complete Chinese editions, and six corresponding private actual files under
-`references/situated/`. Full initial reading uses all six actual files.
-The actual revision file states the recipient's method; its public guide explains
-how to write that method and is not an initial-reading substitute.
-Person, counterpart, and relationship remain three subjects of understanding; orientation,
-environment, and revision supply direction, realization, and continuing change.
-Private `references/personal/` maintains psychological and life evidence and
-interpretations, reached by the question through `references/personal/sources.md`,
-outside the initial reading. The six situated files condense adopted philosophy
-and this updated material into personal working models of cooperation, rather
-than six psychological models. `person.md` selects working implications rather
-than holding a whole psychological portrait. The [maintenance method](references/design-and-revision.md#maintain-the-private-material-through-use)
-owns the refresh of each of the six files. Public distribution contains neither private tree.
-Common projection preserves both private trees; owners migrate meaning and verify
-their actual consumers. Other authors can change the structure and philosophy;
-maintenance of this implementation retains the six-guide/six-actual distinction.
+Shared editions retain six public formation guides as content lenses. Hindsight is
+now the default formation engine: selected Philosophy, Personal, environment and
+history sources become native facts, revisable observations and question-defined
+Mental Models/Knowledge Pages. [Native formation](references/hindsight.md) owns
+configuration and exact operations. There is no fixed output count or mandatory
+manual Personal condensation stage.
+
+Private `references/situated/index.md` binds the service/bank, model questions,
+IDs and generated bodies and selects complete startup reading;
+`references/situated/revision.md` states the actual execution method. Source
+evidence retains its owners. Derived Personal accounts may migrate to native
+observations/pages. Old six-file bodies are migration/history, not a second
+maintained authoritative set. Public packages contain no private portraits.
+Common projection protects both private trees and never changes bank state.
+Preserve detailed philosophical content and distinct formation contributions
+while changing their realization; six philosophical dimensions remain valid.
 
 Authored public content lives here. `plugins/yinyang/`, website reading editions,
 and local/cloud common files are generated or synchronized consumers, not

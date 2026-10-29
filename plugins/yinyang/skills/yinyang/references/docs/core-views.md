@@ -192,11 +192,13 @@ For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
 not by collecting more biography. The complete YinYang Skill gives working understanding maintained homes:
 orientation, person, counterpart, relationship, environment, and one's own
-revision method form six private actual files. These personal working models
+revision are distinct formation lenses. Hindsight fuses selected sources into
+question-defined private models; the binding index selects their complete bodies. These personal working models
 guide collaboration and fit the environment to the person's psychology, purposes,
 and circumstances. The person file retains cooperation-relevant understanding;
-psychological and life material and its maintained interpretations belong under
-`references/personal/`, which the person can read or ask a model to help understand.
+psychological and life evidence retains its private owners, while derived
+interpretations can migrate to native observations/pages. The person can read
+relevant private material or ask a model to help understand it.
 Six public writing guides explain how to form the working files, including
 [How to revise](../formation/revision.md). Their revision connects adopted
 philosophy and relevant personal understanding with the model's participation
@@ -204,7 +206,7 @@ and environmental fit. Records, interpretations, and working models
 remain fallible; a useful arrangement does not establish psychological truth.
 The [Forming and revising working models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this approach
-does not require forming all six actual files.
+does not require forming all question-defined working models.
 
 <a id="yy-05"></a>
 

@@ -290,7 +290,7 @@ This work gives personal references and working models different places.
 `references/personal/` holds psychological and life material and maintained
 interpretations. The person can read this material or ask a language model to
 help understand it; its purpose differs from the model-facing working accounts.
-The six situated files condense what the collaboration needs and how the
+The situated working models condense what the collaboration needs and how the
 environment should fit this person's psychology, purposes, and circumstances.
 An account of a recurring fear can remain in the references while a working
 file retains the support that helps the next writing task. Their [revision](../formation/revision.md)

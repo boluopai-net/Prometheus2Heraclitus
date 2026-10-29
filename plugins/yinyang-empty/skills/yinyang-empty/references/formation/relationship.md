@@ -2,15 +2,14 @@
 
 [简体中文](relationship.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Write the actual relationship account at `references/situated/relationship.md`
-in the private package. Its object is the joint activity: how this
+Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Its object is the joint activity: how this
 [person](person.md) and [counterpart](counterpart.md) contribute, correct,
 divide work, and change their understanding. Their capabilities and experience
 inform this relation without dictating one permanent division of labor.
 
 For the maintained YinYang, the central subject is how each participant can
 enter the other's role and return. Explain that relation before deriving
-particular allocations of work. It connects the six accounts; the files
+particular allocations of work. It connects the connected accounts; the files
 develop its distinct subjects without repeating the same exposition.
 
 ## Explain how the contributions fit together

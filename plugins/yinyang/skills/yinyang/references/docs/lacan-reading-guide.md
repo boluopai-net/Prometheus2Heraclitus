@@ -369,7 +369,7 @@ the arrangements sustaining that cooperation can change together. This relation
 retains a philosophical connection with Lacan's questions without turning
 clinical traversal into a task for the reader.
 
-The six actual accounts are addressed to the model: they articulate working
+The working accounts are addressed to the model: they articulate working
 understanding and its implications for cooperation. Personal material under
 `references/personal/` can be read by the person or understood with a language
 model's help; it has a different purpose from those working instructions.

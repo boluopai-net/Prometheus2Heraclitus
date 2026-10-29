@@ -2,11 +2,14 @@
 
 [English](person.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md)
 
-实际个人描述写在私人包的 `references/situated/person.md`。对象是在具体处境中活动的人，
+用本指南规定有关 Hindsight 模型问题并核对生成内容。私人 `references/situated/index.md` 定位实际正文；[原生形成方法](../hindsight.zh-CN.md)说明处理路线。对象是在具体处境中活动的人，
 包括目的、能力、经验、关系与变化的条件。在当前维护的 Yinyang 中，把这个人写成
 [交叉关系](relationship.zh-CN.md#在有关之处说明交换与返回)的参与者：他怎样开放生成，
 怎样接过关键审查，以及什么使这两种贡献成为可能。这个重点帮助伙伴理解请求并作出合适贡献。人始终超出
 这份说明；特征清单无法说明有关关系怎样彼此影响。
+
+实际来源到 Observations、模型的融合由 [Hindsight](../hindsight.zh-CN.md)完成。
+本指南提供问题与结果检查所需的内容和证据区分，不另规定一套手工综合流水线。
 
 ## 在处境中理解活动
 

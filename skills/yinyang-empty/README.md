@@ -12,7 +12,7 @@ developed essays and diagrams remain in Full and on the website for optional rea
 Reverse alignment and crossed participation with dialectical return are shared
 core commitments of these editions. Other suggestions do not become your adopted
 philosophy merely because you installed the package. Your actual philosophy,
-personal material, and six working accounts are formed with you, from your
+personal material, and question-defined working models are formed with you, from your
 purposes, experience, sources, and environment. The model can carry the writing
 and implementation; you need not do it unaided.
 
@@ -27,7 +27,7 @@ and implementation; you need not do it unaided.
 
 The `references/formation/` directory contains six guides, each in English and
 Chinese: orientation, person, counterpart, relationship, environment, and revision.
-The matching actual files belong in private `references/situated/`. Evidence and
+[Hindsight](references/hindsight.md) forms question-defined native models. The private `references/situated/index.md` binds their actual service, bank and bodies; `revision.md` states execution. Output count follows the questions. Evidence and
 maintained personal understanding belong in private `references/personal/`;
 your philosophical writing can stay at its existing owner or under private
 `references/philosophy/`. Empty includes four unfilled Personal areas and six

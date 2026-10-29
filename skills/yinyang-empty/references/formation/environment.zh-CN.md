@@ -4,7 +4,7 @@
 
 [English](environment.md) · [工作模型的形成与修订](../design-and-revision.zh-CN.md) · [修订](revision.zh-CN.md)
 
-实际环境描述写在私人包的 `references/situated/environment.md`。说明协作怎样通过物质、
+用本指南规定有关 Hindsight 模型问题并核对生成内容。私人 `references/situated/index.md` 定位实际正文；[原生形成方法](../hindsight.zh-CN.md)说明处理路线。说明协作怎样通过物质、
 社会、信息与计算安排取得工作形式。把采纳的[取向](orientation.zh-CN.md)、
 [人](person.zh-CN.md)、[伙伴](counterpart.zh-CN.md)和[关系](relationship.zh-CN.md)
 接到真实可能性与后果。在这份 Yinyang 中，首先要实现的关系，是双方在开放生成与关键审查

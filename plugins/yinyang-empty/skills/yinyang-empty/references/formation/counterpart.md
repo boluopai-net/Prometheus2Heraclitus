@@ -2,8 +2,7 @@
 
 [简体中文](counterpart.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Write the actual counterpart account at `references/situated/counterpart.md` in
-the private package. Explain the model encountered through its real interfaces,
+Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Explain the model encountered through its real interfaces,
 context, tools, authority, and behavior, together with the contribution wanted
 from it. The [relationship account](relationship.md) develops how both parties
 work together; this account makes the counterpart's side intelligible.

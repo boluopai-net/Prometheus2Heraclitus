@@ -22,12 +22,9 @@ Keep these recipient-owned materials private and outside managed plugin caches:
 | --- | --- |
 | `references/philosophy/` or an existing private source | Your philosophical writing and selected positions. |
 | `references/personal/` | Your relevant materials, evidence, maintained interpretations, and source index. |
-| `references/situated/` | Your six actual accounts, including your own revision method. |
+| `references/situated/` | Your binding index, generated model bodies, and actual revision method. |
 
-The [entrypoint](../SKILL.md) lists the exact six files. A complete personal
-version contains their grounded content, with honest unknowns. The six shipped
-files carry `status: unfilled`; do not treat them as complete or use them as a
-portrait. Personal starts with four empty areas and a source-index starter.
+The [entrypoint](../SKILL.md) reads the private binding index, actual revision method and complete generated bodies selected there. The shipped index/method are unfilled starters; form native Hindsight models from actual sources. Personal starts with four empty areas and a source-index starter.
 Personal material
 can refer to originals at existing owners rather than copying every record.
 Keep meaningful material names in the person's native language. Neither a common
@@ -62,7 +59,7 @@ against an Empty version; it belongs to Full's different file contract.
 
 The collection maintainer uses `scripts/build-yinyang-empty.py --apply` to refresh
 the shared guides from Full, rebase their links, and adapt the distribution
-statement to Empty's unfilled starters. Its default mode checks that
+statement to Empty's unfilled binding/revision starters. Its default mode checks that
 the generated selection is current. Empty's own entrypoint and package guidance
 remain authored at this directory. Plugin generation then packages that exact
 tree. This publication operation does not read or update recipient personal data.

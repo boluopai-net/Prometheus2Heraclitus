@@ -92,8 +92,8 @@ def package(value):
         raise ValueError(
             "Legacy accounts require owner migration before common projection: "
             + ", ".join(legacy)
-            + ". Form references/situated/{orientation,person,counterpart,relationship,environment,revision}.md "
-            "and references/personal/sources.md from their actual meaning; preserve unique "
+            + ". Migrate meaning through native Hindsight models and references/situated/index.md, "
+            "with the actual method in references/situated/revision.md; preserve unique "
             "private evidence before retiring the old paths. No files were changed."
         )
     return path

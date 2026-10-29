@@ -18,12 +18,12 @@ Empty 没有 `docs/` 或 `diagrams/`。`references/formation/` 中是六份指�
 | --- | --- |
 | `references/philosophy/` 或已有私人来源 | 自己的哲学写作与采纳的观点。 |
 | `references/personal/` | 有关材料、证据、维护中的解释与来源索引。 |
-| `references/situated/` | 六份实际文件，包括自己的修订方法。 |
+| `references/situated/` | 实际绑定索引、生成模型正文与自己的修订方法。 |
 
-[日常协作入口](../SKILL.zh-CN.md)列出六个准确路径。完整个人版写出有根据的实际内容，
-明确保留未知；六份分发文件的 `status: unfilled` 表示尚未形成，不能把它们当作已有画像。
-Personal 已有四个空分区与来源索引起始文件。原件可以留在已有维护者处，由 Personal 引用，无需复制每份记录。
-材料名称使用本人的母语。公共指南与借来的画像都不能替代这些实际内容。
+[日常协作入口](../SKILL.zh-CN.md)要求读取实际绑定索引、修订方法与所选完整生成正文。
+两个起始文件的 `status: unfilled` 表示尚未形成实际绑定和方法，不能当作已有画像。
+Personal 提供四个空分区与来源索引，可引用既有原件，无需全部复制。派生理解可迁入原生
+Observations 或页面；材料名称使用本人的母语，保留来源与访问边界。
 
 ## 取得并使用这个版本
 
@@ -61,3 +61,5 @@ Web 或其他客户端使用其实际支持的 Skill 或文件机制，并在当
 区分问卷作答、表现测验、报告结论与后来的解释；缺少答案或日期时保持未知。
 测评是有限范围的证据，不是完整个人描述，也不是采用某个哲学主张的理由。
 这里的组织方式不提供计分、诊断或治疗方法。
+
+[Hindsight 原生形成](hindsight.zh-CN.md)是默认路线；六份指南规定内容视角，不规定输出数量。私人 `references/situated/index.md` 绑定服务、bank、模型问题与正文，选择启动必读；`references/situated/revision.md` 说明实际执行。派生 Personal 说明可迁入原生 Observations 或页面，原始证据保有既有维护者。

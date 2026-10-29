@@ -16,7 +16,7 @@ the understanding that guided the change.
 Adapt the approach to your purpose, materials, and environment. You may be
 writing a different philosophy, revising one personal interpretation, or changing
 a tool. The connections below help identify what needs attention; their order
-and extent follow the work. Updating the six personal working files uses the
+and extent follow the work. Updating the personal working models uses the
 material-refresh sequence below, with retrieval scoped to the affected question.
 The method itself can also be revised when experience
 shows a better way to proceed.
@@ -86,69 +86,32 @@ materially different readings. The model carries source selection that the
 evidence can settle. Adequate coverage means the important alternatives and
 dependencies for this revision have been considered, not that every category
 has been refreshed. Leave unrelated material in place, retain relevant unknowns,
-and update only the Personal accounts and six-file implications actually changed.
+and update only the Personal accounts and model implications actually changed.
 
 ### Refresh the selected grounds
 
-The private `references/personal/` material and the six files under
-`references/situated/` serve different purposes. Personal material brings together distinguishable preference, psychological,
-life-condition, and self-expression evidence. [Its organization guide](personal-material.md)
-explains classification and necessary material coverage. It is the main entrance
-for examining those grounds, including a preference pattern made visible through
-work and an environment before the person has articulated it. The six files condense a **personal working model** of person–model
-collaboration: enough direction, personal context, counterpart understanding,
-relationship, realization, and revision method to make the environment fit the
-actual person. They do not together constitute a psychological model of that person.
+Read the adopted philosophy and selected Personal/environment/history sources
+for the current question. Preserve original attribution, context, temporal
+scope and evidence boundaries. Relevant questionnaire records retain their
+instrument, occasion, original answers/results and specialist interpretation
+method; a refresh does not require new measurement.
 
-When updating these six working files, refresh the grounds selected by the
-current emphasis before condensing them again:
+Use [Hindsight's native formation route](../hindsight.md): retain the relevant
+source material with stable source IDs and context, inspect extraction, run or
+observe consolidation, then refresh the affected Mental Models or Knowledge
+Pages. Detailed model questions carry the relevant formation guides' content,
+relations, priorities and evidence distinctions. Native observations/pages may
+replace derived Personal summaries; do not first maintain a complete duplicate
+portrait merely to feed another condensation stage.
 
-1. **Read the person's philosophy.** Start with the adopted philosophical
-   expression and relevant developed arguments. Use the current working files
-   to locate what depends on them, without treating an old condensation as a
-   substitute for that philosophy or its supporting material.
-2. **Find relevant new references.** Check current conversation and available
-   Computer History, dialogue histories, work/version history, or other source
-   records for material bearing on the affected understanding. Follow useful
-   summaries to originals when a consequential claim needs fuller context.
-   Histories have different coverage; observing an action does not reveal its
-   psychological cause. Use actual authorized sources and state material gaps.
-   When revising personal psychological understanding or its implications for
-   cooperation, actively check relevant completed psychological questionnaires
-   and their original answers and results. They can be the principal material
-   for an update. Locate available records through the person's private source
-   index and actual revision method: a measurement webpage, report, export, or
-   note collection may hold them. The [questionnaire directory](../docs/skill-package.md#questionnaire-and-assessment-material)
-   keeps this evidence organized within `personal`. Check for relevant new records rather than
-   relying only on an earlier summary. Retain the instrument and version,
-   completion time, response context, and a route to the original record; read
-   these alongside the person's account and relevant experience. Let their
-   specific contribution and limits determine which interpretations they
-   supplement, qualify, or change. Consider new measurement only when the
-   question calls for it; updating an account does not itself require another
-   questionnaire. The [Psychology guide](../docs/psychological-support.md)
-   owns instrument selection, scoring, and measurement interpretation.
-3. **Refresh the personal references.** Add useful new evidence with its source
-   and context, linking an existing original rather than copying it unnecessarily.
-   Compare it and the philosophy with the maintained interpretations in
-   `personal`; correct, qualify, reorganize, or retire inaccurate and outdated
-   parts. Preserve attributable originals and meaningful uncertainty. A new
-   reference is not merely another appended trait.
-4. **Condense the refreshed material with the philosophy.** Revise the affected
-   six-file content and check its connections with the other working files.
-   Select what changes collaboration or environmental design, retaining a route
-   back to the richer personal material. The account should explain what a
-   counterpart needs to understand and do, not attempt a complete psychological
-   portrait. Carry necessary changes into the environment and check their use.
-
-This sequence is a dependency of working-model revision, not a demand to collect
-new personal facts on every occasion or rewrite all six files each time. A
-bounded correction may use the current exchange as its new source; inspect
-relevant histories rather than surveying a whole life. If no new relevant
-material is found, retain that result honestly. The person contributes experience
-and judgments unavailable in the inspected sources, while the model carries
-retrieval, reference maintenance, and condensation. Later feedback can return
-the work to any earlier interpretation.
+Compare complete generated bodies with consequential sources and neighboring
+models. Repair lost relations, mistaken attribution, collapsed uncertainty or
+stale commitments by correcting the source context, mission, scope or question
+and rerunning native processing. Update the actual private index and required
+reading, then verify the real consumer. Carry environment changes through their
+owners and check actual results. Source preservation, fusion and environmental
+fit remain distinct acceptance claims. This is question-scoped revision, not
+collection of an entire life or compulsory refresh of every model.
 
 ## Write for the actual use
 
@@ -278,7 +241,7 @@ useful as the philosophy changes.
 ## Let philosophy and personal material revise working accounts
 
 Read the philosophy alongside the personal references refreshed through the
-[sequence above](#establish-the-current-material). The six files are working
+[sequence above](#establish-the-current-material). The working models are working
 models serving a fitting personal environment, with psychological understanding
 among their grounds. In the author's
 YinYang, orientation articulates adopted values and direction; person grounds
@@ -321,7 +284,7 @@ For personal psychological understanding, the entrance is the private
 `personal` material. The person may read it, or ask a language model to read
 and help understand it. This is not an assignment to analyze their own fantasy,
 reverse their psychological position, or repeatedly evaluate themselves through
-the six working files. The separate [Psychology guide](../docs/psychological-support.md)
+the working models. The separate [Psychology guide](../docs/psychological-support.md)
 addresses materials, questionnaires, statistics, and practical support.
 
 Philosophy can clarify the concepts and values organizing cooperation. The

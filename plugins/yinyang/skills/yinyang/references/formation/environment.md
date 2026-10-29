@@ -4,8 +4,7 @@
 
 [简体中文](environment.zh-CN.md) · [Forming and revising working models](../design-and-revision.md) · [Revision](revision.md)
 
-Write the actual environment account at `references/situated/environment.md`
-in the private package. Explain how this collaboration takes working form
+Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Explain how this collaboration takes working form
 through material, social, informational, and computational arrangements. Connect
 the adopted [orientation](orientation.md), [person](person.md),
 [counterpart](counterpart.md), and [relationship](relationship.md) to actual
