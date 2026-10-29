@@ -24,9 +24,12 @@
 `references/situated/revision.md` 作为实际执行方法。索引记录服务与 bank、问题与 ID、正文位置和日常必读选择。
 生成模型的数量与布局按问题决定，完整读取所选正文，不能只读索引。公开 Full 不提供私人描述或占位画像。
 
-Philosophy 保有写作来源。Personal 保有可归属证据与来源路线，原件留在维护者处；派生说明可迁入原生
-Observations 或页面，无需完整保留每个旧派生文件。保留独有根据，退役重复维护的说明，并检查受影响消费者。
-旧六文件正文作为迁移与历史，不是并行权威模型。不要求手工整理先于原生融合。
+Philosophy 保有写作来源。Personal 在既有四个主题分组内保持本人可读的主题文章、目录与来源链接，
+原件保留在维护者处。Hindsight 可维护有实质内容的 Personal Knowledge Pages，把原生 Markdown 正文
+投影到已有私人阅读路径；Observations 在后台支持形成。按实际修订需要迁移受影响的派生文章，保留可读性
+和独有根据，不要求全量删除或重写。仍可直接编辑、整理来源与文章。Personal 页面与协作模型从有关原始根据
+形成不同内容，不强制串联生成摘要。[Personal 指南](../formation/personal-material.zh-CN.md#保持-personal-便于本人阅读)
+维护这种阅读安排。旧六文件协作正文作为迁移与历史，不是并行权威模型。不强制手工综合先于原生形成。
 
 Personal 有意义的材料名使用本人的母语，正文语言按实际消费者选择；必要时保留量表标识。
 `references/personal/` 与 `references/situated/` 两个目录，包括生成正文和定位，均属私人。

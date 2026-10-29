@@ -2,7 +2,7 @@
 
 [简体中文](personal-material.zh-CN.md) · [Person account](person.md) · [Revision](revision.md)
 
-Personal is the private material from which a situated account can be formed and revised. Organize it by the subject a record helps understand, while keeping original evidence, interpretation, and the person's current judgment distinguishable within that subject. Hindsight draws on selected material and can maintain derived understanding as native observations/pages. Original evidence retains its owners; no parallel complete Personal summary or fixed six-file output is required. [Native formation](../hindsight.md) explains the route.
+Personal is a private, human-readable collection of topic articles and supporting material, as well as a source for forming situated working understanding. Organize it by the subject a record helps understand, while keeping original evidence, interpretation, and the person's current judgment distinguishable within that subject. Hindsight can maintain substantive topic articles through native Knowledge Pages; observations support their formation backstage. Original evidence retains its owners. No fixed six-file output or complete duplicate summary is required. [Native formation](../hindsight.md) explains the route.
 
 ## Classify by what the material explains
 
@@ -16,6 +16,31 @@ Personal is the private material from which a situated account can be formed and
 These categories locate contributions rather than divide a person into independent parts. A mobile work arrangement can express a preference, accommodate bodily discomfort, and depend on available equipment. Maintain each fact or developed account once, then link the relations. A work's content can inform understanding without serving as a psychological test. A questionnaire has its own context and evidential limits; it does not determine a preference or value.
 
 Use the person's own material to refine the organization. Keep meaningful names in their native language. An existing collection can be classified through its maintained index and reader navigation without moving every file. Create a deeper directory only when it clarifies a substantial body of material. Source and archive indexes supply provenance, not another competing portrait.
+
+## Keep Personal readable for the person
+
+Keep substantive topic articles within these four subject groups, with a readable
+index and links to their supporting sources. The person should be able to open
+the existing Personal entrance, choose a topic, and read a coherent account;
+raw observation rows, source lists, and an API response do not replace that use.
+Original quotations, records and works remain with their owners and reachable
+from the articles. The person or an authorized agent can still edit, organize,
+correct and develop sources or articles directly. Native formation removes a
+mandatory manual synthesis stage; it does not prohibit that work.
+
+When Hindsight maintains an article, give its `source_query` the topic's actual
+content scope, relations, evidence distinctions and human reading purpose.
+Project its native Markdown body into the existing private reading path and
+verify the index, article and source links at the actual reading surface. Keep
+the current readable version usable while migrating an affected derived article
+when revision calls for it; do not require wholesale deletion or rewriting.
+
+Personal topic articles and collaboration models serve different purposes.
+Derive both from the relevant original grounds and their native evidence links.
+The collaboration model selects implications for work; it need not be a summary
+of a generated Personal article. Exclude generated sibling pages from grounding
+when needed to avoid circular synthesis or treating repeated summaries as
+independent evidence.
 
 ## Bring personal memory into the same account
 
@@ -77,4 +102,4 @@ YinYang's crossed participation and dialectical return remain the organizing rel
 - **Environment** explains how tools and circumstances realize those choices and shape further possibilities.
 - **Revision** states how new material, comparison, the person's response, and actual use change the account and its realization.
 
-Use a category where it changes the model question, without repeating inventories. Keep originals with their evidence owners; richer derived interpretations can live in native observations/pages. A source gap limits the corresponding claim; preserving it explicitly is better than inventing the missing material. When the current purpose needs it resolved, continue to the actual source or the person's answer before claiming completion.
+Use a category where it changes the model question, without repeating inventories. Keep originals with their evidence owners and richer derived understanding readable in the relevant Personal articles; native observations support that understanding backstage. A source gap limits the corresponding claim; preserving it explicitly is better than inventing the missing material. When the current purpose needs it resolved, continue to the actual source or the person's answer before claiming completion.

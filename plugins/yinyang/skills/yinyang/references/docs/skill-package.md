@@ -25,7 +25,7 @@ which can draw on selected existing ideas.
 
 The six bilingual public formation guides explain orientation, person,
 counterpart, relationship, environment and revision. They guide content and
-relations in Hindsight model questions; they do not prescribe question-defined working models.
+relations in Hindsight model questions; they do not prescribe six output files.
 [Native formation and configuration](../hindsight.md) owns setup, source roles,
 missions, model questions, refresh and export.
 
@@ -36,12 +36,20 @@ generated body locations and mandatory startup reading. The number and layout
 of generated models follow their questions. Read the selected complete bodies,
 not merely the index. Public Full ships no private accounts or placeholders.
 
-Philosophy retains its authored source. Personal retains attributable evidence
-and source routes, with originals at their owners. Derived Personal accounts
-may migrate into native observations/pages; preserving every old derived file
-is unnecessary. Retain unique grounds, retire redundant maintained accounts
-and verify affected consumers. Old six-file bodies are migration/history,
-not a parallel authoritative model set. There is no manual-first requirement.
+Philosophy retains its authored source. Personal remains a human-readable
+collection of topic articles in its existing four subject groups, with readable
+navigation and source links. Originals retain their owners. Hindsight can
+maintain substantive Personal Knowledge Pages and project their native Markdown
+bodies into existing private reading paths; observations support formation
+backstage. Migrate affected derived articles as revision needs while preserving
+readability and unique grounds, without wholesale deletion or rewriting.
+Direct source/article editing and organization remain available. Personal pages
+and collaboration models derive their different content from relevant original
+grounds, without a required chain of generated summaries. The
+[Personal guide](../formation/personal-material.md#keep-personal-readable-for-the-person)
+owns that reading arrangement. Old six-file collaboration bodies are
+migration/history, not a parallel authoritative model set. There is no
+mandatory manual-first synthesis stage.
 
 Keep meaningful Personal material names in the person's native language;
 body language follows its semantic consumer. Preserve instrument identifiers

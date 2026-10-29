@@ -30,8 +30,10 @@ manual Personal condensation stage.
 Private `references/situated/index.md` binds the service/bank, model questions,
 IDs and generated bodies and selects complete startup reading;
 `references/situated/revision.md` states the actual execution method. Source
-evidence retains its owners. Derived Personal accounts may migrate to native
-observations/pages. Old six-file bodies are migration/history, not a second
+evidence retains its owners. Personal keeps readable topic articles in its four
+subject groups; native pages may maintain them, with observations backstage.
+Direct editing and organization remain available. Migrate affected articles as
+revision needs, preserving their reading paths. Old six-file bodies are migration/history, not a second
 maintained authoritative set. Public packages contain no private portraits.
 Common projection protects both private trees and never changes bank state.
 Preserve detailed philosophical content and distinct formation contributions

@@ -7,8 +7,8 @@ attributed sources, consolidates revisable observations, and generates maintaine
 Mental Models or Knowledge Pages from explicit questions. Codex selects and
 prepares authorized material, configures these operations, checks their results,
 repairs omissions, and carries adopted implications into the environment.
-It does not first write a complete Personal portrait and manually compress it
-into six files. There is no fixed output count.
+It does not require a complete manual Personal portrait before native fusion
+or manual compression into six files. There is no fixed output count.
 
 ## Bind the actual private consumer
 
@@ -39,10 +39,22 @@ supplies attributed reports and evidence; environment and work/history records
 supply conditions, events and actual results. Preserve author, date, source
 locator, context and uncertainty. A chosen philosophy is distinct from a
 hypothesis about a person. Original sources retain their evidence and authorship
-owners. Derived Personal summaries may migrate into native observations/pages;
-retain unique evidence and useful access paths, then retire duplicate maintained
-portraits after checking their consumers. No complete parallel Personal summary
-is required before native fusion.
+owners. Personal also remains a human-readable collection of substantive topic
+articles in its existing four subject groups. Hindsight can maintain these as
+Knowledge Pages with detailed topic questions and project their Markdown bodies
+into the existing private reading paths. Keep the readable index, articles and
+source links usable; observations remain backstage rather than replacing
+articles with raw database lists. The [Personal guide](formation/personal-material.md#keep-personal-readable-for-the-person)
+owns that reading purpose and organization.
+
+Migrate affected derived articles when actual revision needs it, preserving
+unique evidence and current readability. No wholesale Personal deletion or
+rewrite, complete duplicate summary, or mandatory manual-first stage follows.
+The person and authorized agents may still edit and organize sources and
+articles directly. Personal topic pages and collaboration models derive their
+different content from relevant original grounds; do not require collaboration
+models to summarize generated Personal pages. Use native scope and sibling-model
+exclusion deliberately to avoid circular or self-corroborating synthesis.
 
 In Hindsight's native categories, **World** and **Experience** are parallel raw
 fact categories: World includes attributed human reports, preferences, rules,
