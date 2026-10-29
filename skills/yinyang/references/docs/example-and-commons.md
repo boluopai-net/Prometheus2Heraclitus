@@ -38,8 +38,6 @@ a copied portrait does not supply actual understanding. The
 checking and environmental changes. Public distribution contains no private
 accounts or supporting originals.
 
-
-
 A person can make a website for their philosophy while keeping the complete
 personal model private. Public philosophy is an authored work and a selected,
 indirect expression of understanding; it need not expose a literal portrait,
@@ -63,7 +61,6 @@ or pursue a purpose it has not anticipated. Its form succeeds when it makes
 that work's relations available to its readers and model counterparts. Its
 questions, practice, and consequences supply the judgment; resemblance to
 YinYang does not.
-
 
 ## Adopt, combine, or author anew
 
