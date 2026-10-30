@@ -24,28 +24,15 @@ Keep these recipient-owned materials private and outside managed plugin caches:
 | `references/personal/` | Your relevant materials, evidence, maintained interpretations, and source index. |
 | `references/situated/` | Your binding index, generated model bodies, and actual revision method. |
 
-The simple route directly reads and synthesizes the six actual files
+The six `status: unfilled` starters live at
 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
-All six shipped starters are `status: unfilled`; form actual grounded content,
-including a situated revision method. Persist intended private source in Git
-and a private GitHub repository through the actual owner, with private visibility
-and retrieval checks. This route needs no Hindsight installation.
+Form their content through the simple or complex route in the
+[2×2 practice selector](creation-method.md#choose-2x2), retaining versions in private Git/GitHub.
+The complex route can project results to these files or bind all six complete bodies through a private index;
+see [Hindsight configuration](hindsight.md).
 
-The [optional native guide](hindsight.md) explains environment-specific Hindsight
-configuration. Project checked native results to the same six paths, or create
-an explicit private index binding all six questions/IDs and complete reading
-bodies. An unfilled binding or smaller prototype does not replace the six full
-functions. Full/Empty distribution is independent of simple/native tool choice.
-
-Both routes read all six complete actual accounts and preserve the original
-revision dependency: philosophy, new attributable sources, Personal correction,
-synthesis, whole-six coherence and actual realization/readback. Each question
-draws on all six guides. Coordinate sibling interpretations without treating
-them as independent factual evidence; repair dependencies rather than add a
-mandatory seventh summary. Personal starts with four empty areas and a source
-index; it keeps readable topic articles and links to originals at their owners.
-Names follow the person's native language. Guides and borrowed portraits cannot
-substitute for their actual content.
+Personal's four areas hold readable topic articles, with the source index linking to originals.
+[Formation and revision](design-and-revision.md) explains grounded condensation, whole-account checking, and updates.
 
 ## Obtain and use the edition
 

@@ -74,7 +74,7 @@ Yinyang 以一条核心关系组织协作：人可以进入语言模型式的开
 [可选 Hindsight 实现](references/hindsight.zh-CN.md)用原生处理实现同样六个问题。把核对后的原生内容
 投影到相同六路径，或通过私人 `references/situated/index.md` 明确绑定全部六问题、ID 与完整正文。
 读取绑定及全部六份完整描述，包括实际处境中的修订方法。问题、索引、共同 bank 或较少原型都不能替代正文。
-Full/Empty 分发选择与工具路线相互独立。复用上下文中完整有效的文本，丢失后补读；进一步哲学与可读 Personal 来源按目的选择。
+版本与凝练方式见[2×2 实践选择](references/docs/creation-method.zh-CN.md#choose-2x2)。复用上下文中完整有效的文本，丢失后补读；进一步哲学与可读 Personal 来源按目的选择。
 
 两条路线都保留[修订顺序](references/formation/revision.zh-CN.md#刷新选定的根据)：读采纳的哲学，检索有关
 新可归属来源，刷新纠正 Personal 理解并保留冲突与不确定性，再综合六份、检查整体，将必要变化落实到

@@ -21,13 +21,10 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 | 整理私人证据与理解 | [组织 Personal](references/personal-material.zh-CN.md) |
 | 安装与更新，并保留自己的内容 | [文件与更新](references/package.zh-CN.md) |
 
-六份中英文形成指南保留取向、人、伙伴、关系、环境与修订六个完整相连问题。简单路线使用原有六份
-私人实际文件，由模型直接综合并持久保存在私人 Git/GitHub，不要求安装 Hindsight。
-Empty 提供六份标为 `status: unfilled` 的起始文件、四个空 Personal 分区与来源索引；形成实际内容，不复制画像。
-
-[可选原生指南](references/hindsight.zh-CN.md)按实际服务与提供方配置 Hindsight，把相同六个完整问题
-投影到文件或明确的六者绑定。两条路线都保留原有修订步骤、Personal 纠正、整体融贯与本人实际修订方法，
-不强制第七份摘要。Full/Empty 版本选择独立于工具路线；Personal 在四组内保持可读，原件保有维护者，不预填个人事实。
+本包是 2×2 中形成自己哲学的 **Empty**。在
+[实践选择表](references/creation-method.zh-CN.md#choose-2x2)选择简单版或复杂版。
+包内的六份 `status: unfilled` 起始文件、四个空 Personal 分区与来源索引，
+供你和模型形成自己的内容；文件位置见[文件与更新](references/package.zh-CN.md)。
 
 [Codex 安装说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.zh-CN.md)
 提供 `yinyang-empty@boluopai`。同一个个人版选择 Full 或 Empty，个人内容保存在会被替换的

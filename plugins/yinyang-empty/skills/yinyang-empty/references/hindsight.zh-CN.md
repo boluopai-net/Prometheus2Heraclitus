@@ -2,13 +2,9 @@
 
 [English](hindsight.md) · [形成与修订](design-and-revision.zh-CN.md)
 
-Hindsight 是阴阳形成与修订方法的一种可选实现。简单路线可以独立使用，由语言模型直接综合同样的六文件，
-并用私人 Git/GitHub 持久保存，不要求安装 Hindsight。Full/Empty 分发选择与工具路线相互独立。
-本指南在原生能力适合实际环境时说明配置方法，不引入另一套哲学或复制 Skill。
-
-Hindsight 保留选定的可归属来源，整合为可修订的 Observations，再按六个细致功能问题生成持续维护的
-Mental Models 或 Knowledge Pages。任务所有者准备获授权材料、配置操作、检查修复输出并落实采纳的含义。
-保留原有修订步骤、完整问题范围和跨描述融贯；换工具不授权把六者缩成较少原型，也不把实际修订方法换成 API 步骤。
+本页是[2×2 实践选择](creation-method.zh-CN.md#choose-2x2)中复杂版的配置入口，
+适用于 Full 和 Empty。Hindsight 辅助保留来源、整合 Observations，并按六个问题形成
+持续维护的 Mental Models／Knowledge Pages；模型负责配置、检查和采用结果。
 
 ## 配置所选原生实现
 

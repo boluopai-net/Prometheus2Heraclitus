@@ -45,15 +45,9 @@ another philosophy or literary form. Support that work at its own source, even
 when its images and organization no longer resemble YinYang; the
 [example and commons essay](docs/example-and-commons.md) explains the distinction.
 
-A reader can study the example, borrow a method, or adopt situated YinYang.
-Full adoption forms the six question-defined accounts and gives them an actual
-private consumer. The simple route uses direct language-model synthesis and
-private Git/GitHub persistence; optional Hindsight supplies a more involved
-native implementation of the same method. A separate original
-philosophical work is optional. The six public formation guides below define six complete functional questions
-and their reading roles: orientation, person, counterpart, relationship,
-environment and revision. Native formation preserves all six, with prose and
-physical file layout fitted to use.
+Readers can study the example, borrow a method, or form their six working accounts.
+The [2×2 practice selector](docs/creation-method.md#choose-2x2) connects Full/Empty with simple/complex.
+This page develops how to write the six accounts and revise them together.
 
 The same accounts support personal recursive self-improvement. Orientation
 explains what improvement serves; person describes actual participation and
@@ -66,42 +60,16 @@ subject rather than repeating one declaration six times. Use the
 relevant. A revised account changes an expression; subsequent use supplies
 evidence about the method and the person's developing possibilities.
 
-## Choose the implementation, keep the same understanding
+<a id="choose-the-implementation-keep-the-same-understanding"></a>
 
-Both routes preserve adopted Philosophy, attributable Personal understanding,
-the six complete functional questions, their coherent relations and the original
-[revision dependency](formation/revision.md#refresh-the-selected-grounds): read
-the philosophy, retrieve relevant new sources, refresh/correct Personal with
-conflicts and uncertainty, synthesize the six, check the whole, and realize
-necessary Skills/environment changes with real readback.
+## The shared formation and revision method
 
-**Simple route.** The language model reads and synthesizes directly, maintaining
-`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
-The actual revision file explains this person's practice, not just file handling.
-Keep the intended private source in Git and persist it to a private GitHub
-repository through the actual account and publication owner. Verify privacy,
-committed content and intended retrieval; keep originals with their owners and
-credentials outside the repository. This route stands alone and requires no
-Hindsight installation, service or database.
-
-**Optional Hindsight route.** Use native retain, revisable Observations and
-Mental Models/Knowledge Pages to implement the same responsibilities. The
-[configuration and implementation guide](hindsight.md) explains adapting the
-service, providers, source missions, six queries, native operations and readback
-to the actual environment. Project checked native content to the same six paths,
-or explicitly bind all six complete bodies through a private
-`references/situated/index.md`. The actual situated revision method remains
-available in either arrangement. Native storage and prose may differ; no
-smaller grouping or per-page success establishes preservation of the six.
-
-Route choice changes tools, not the philosophy, full questions or evidence
-responsibilities. Full/Empty is a separate distribution choice; do not duplicate
-the philosophy, guides or complete package to create these routes. Personal
-keeps human-readable topic articles and source links; native observations can
-support their formation backstage. Neither route requires a complete duplicate
-Personal rewrite or a compulsory chain of summaries, but corrected Personal
-understanding must shape subsequent synthesis and original grounds remain
-reachable.
+Read adopted philosophy and relevant fresh sources, correct Personal understanding, condense the six accounts
+and check them together, then realize selected Skill/environment changes and read back their use.
+The [revision guide](formation/revision.md#refresh-the-selected-grounds) develops this dependency.
+Personal retains readable topic articles and original sources; the six accounts select their implications for cooperation.
+In the simple route, the current language model condenses directly; the complex route assigns retention,
+integration, and page generation to the configured aid.
 
 ## Form a situated version from actual material
 

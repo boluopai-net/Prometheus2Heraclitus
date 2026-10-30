@@ -67,8 +67,8 @@ The [optional Hindsight guide](references/hindsight.md) explains environment-spe
 native configuration and implementation of the same questions and method.
 Project checked native bodies to the six paths, or explicitly bind all six
 complete accounts through private `references/situated/index.md`. Avoid competing
-authoritative sets. Full/Empty distribution is a separate choice from these
-two implementation routes; do not duplicate the package or philosophy.
+authoritative sets. The [2×2 practice selector](references/creation-method.md#choose-2x2)
+locates this edition and the two condensation routes.
 
 ## Enter ordinary collaboration
 

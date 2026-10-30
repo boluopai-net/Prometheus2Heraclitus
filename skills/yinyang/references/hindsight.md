@@ -2,20 +2,11 @@
 
 [简体中文](hindsight.zh-CN.md) · [Formation and revision](design-and-revision.md)
 
-Hindsight is an optional implementation of YinYang's formation and revision
-method. The standalone simple route directly synthesizes the same six files
-with a language model and private Git/GitHub persistence; it needs no Hindsight
-installation. Full/Empty distribution is independent of this tool choice.
-This guide explains the native route when its capabilities fit the actual
-setting; it does not introduce a second philosophy or another Skill copy.
-
-Hindsight retains selected attributed sources, consolidates revisable
-Observations, and generates maintained Mental Models or Knowledge Pages from
-six detailed functional questions. The task owner prepares authorized material,
-configures operations, checks and repairs their output, and realizes adopted
-implications. Preserve the original revision sequence, full question scope and
-cross-account coherence; switching tools does not authorize merging the six
-into fewer prototypes or replacing the actual revision method with API steps.
+This is the complex route's configuration entrance in the
+[2×2 practice selector](docs/creation-method.md#choose-2x2), for both Full and Empty.
+Hindsight assists source retention, Observation integration, and maintained
+Mental Models/Knowledge Pages for six questions. The model configures the service,
+checks its output, and adopts the useful results.
 
 ## Configure the selected native implementation
 

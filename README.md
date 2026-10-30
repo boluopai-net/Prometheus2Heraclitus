@@ -63,15 +63,10 @@ You can use the ideas and maintain your environment without taking on a writing
 project. If writing appeals to you, [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
 opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
 
-For a fully adopted YinYang Skill, keep the six complete functional questions:
-orientation, person, counterpart, relationship, environment and revision. The
-simple route uses direct model synthesis into the original six actual files,
-with intended private source persisted in Git and a private GitHub repository.
-It needs no Hindsight installation. [Optional native implementation](skills/yinyang/references/hindsight.md)
-configures Hindsight for the same questions, steps and coherent whole; it does
-not replace them with fewer prototype groups. Full/Empty edition choice is
-independent of these routes. Personal remains readable topic articles with
-original sources reachable, and an original philosophical essay remains optional.
+For adoption, use the [2×2 practice selector](skills/yinyang/references/docs/creation-method.md#choose-2x2):
+**Full/Empty × simple/complex**. Adopt the author's philosophy or develop your own;
+let the model directly condense and revise working accounts, or configure a community project such as Hindsight.
+The table leads to each practical entrance.
 
 The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
@@ -179,15 +174,9 @@ credentials, personal records, and host-specific bindings are excluded.
 <!-- repository-only:start -->
 ## Use with Codex
 
-Adopting maintained YinYang includes six grounded complete actual accounts and
-a situated revision method. The standalone simple route uses the original
-`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`
-paths, direct model synthesis and private Git/GitHub persistence. Hindsight is
-optional; its checked native output can use those paths or an explicit index
-binding all six. Both routes preserve Personal correction and whole-six
-coherence. Public distribution includes no private portraits, and installation
-alone does not form actual accounts. The [guide](skills/yinyang/README.md#use-and-understand-yinyang)
-explains formation and verification.
+Install **Full: `yinyang`** or **Empty: `yinyang-empty`**, then follow the
+[2×2 practice entrance](skills/yinyang/references/docs/creation-method.md#choose-2x2)
+to form your six working accounts. Keep personal material and actual accounts in your own private source.
 
 [Installation and updates](docs/codex.md)
 

@@ -25,20 +25,10 @@ and implementation; you need not do it unaided.
 | Organize private evidence and understanding | [Organizing Personal](references/personal-material.md) |
 | Install and update without replacing your own content | [Files and updates](references/package.md) |
 
-The six bilingual formation guides preserve orientation, person, counterpart,
-relationship, environment and revision as full, connected questions. The simple
-route uses the six original private actual files with direct model synthesis and
-private Git/GitHub persistence; it needs no Hindsight installation. Empty supplies
-six starters marked `status: unfilled`, plus four empty Personal areas and a
-source-index starter. Form actual content rather than copying a portrait.
-
-The [optional native guide](references/hindsight.md) adapts Hindsight to the actual
-service/providers and projects the same six complete questions to their files
-or an explicit all-six binding. Both routes retain the original revision steps,
-Personal correction and whole-six coherence, with an actual situated revision
-method and no mandatory seventh summary. Full/Empty edition choice is independent
-of tool route. Personal stays readable under its four groups; originals keep
-their owners and no personal facts are prefilled.
+This package is **Empty**, the own-philosophy row of the 2×2.
+Choose simple or complex in the [practice selector](references/creation-method.md#choose-2x2).
+Its six `status: unfilled` starters, four empty Personal areas, and source index provide places
+for you and the model to form your content; see [Files and updates](references/package.md).
 
 The [Codex installation guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.md)
 offers `yinyang-empty@boluopai`. Choose Full or Empty for the same personal version,

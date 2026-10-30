@@ -1,72 +1,63 @@
 # YinYang practice overview
 
-[Home](../../README.md) · [Forming and revising working models](../design-and-revision.md) · [Everyday collaboration with YinYang](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
+[Home](../../README.md) · [Forming and revising working models](../design-and-revision.md) · [Everyday collaboration](../../SKILL.md) · [简体中文](creation-method.zh-CN.md)
 
-Forming your own YinYang connects the views you adopt, an understanding
-of the actual participants, and an environment through which they can work.
-The point is a practice that enters life: what you can understand, create,
-judge, and do with a capable model counterpart. The author's
-[Stealing fire](stealing-fire.md) develops this as cultivation through borrowed
-generative capacity. Your own philosophy can adopt, combine, challenge, and
-rewrite existing thought into a direction you choose.
+Forming your own YinYang connects adopted philosophy, an understanding of the actual participants,
+and a shared working environment so you and the model can continue to understand, create, judge, and act.
 
-## Philosophy and models develop together
+<a id="choose-2x2"></a>
 
-Begin by selecting views that help with an actual question, experience, or way
-of working, and state what you adopt in the working accounts. If philosophical
-writing interests you, literature, humanities, engineering, logic, and aesthetics
-can supply material for a fuller work. Maintaining YinYang's question-defined models
-does not require that separate writing project.
+## Choose your practice with a 2×2
 
-Philosophy articulates concepts, reasons, values, and possibilities. Personal
-material grounds their application to an actual person, counterpart, and
-relationship. Either can revise the other. A chosen direction differs from an
-explanation of experience; a desired model contribution differs from demonstrated
-capability. [Forming and revising working models](../design-and-revision.md) develops these
-connections and leads to the six writing guides.
+Choose the philosophy, then how to condense, form, and update the working accounts:
 
-Starting conditions and order vary. You may already have philosophical
-expression, a history of personal inquiry, or a working environment. Develop
-the missing connections from there. A tool or a work can disclose a relation
-that later acquires philosophical expression. Selected views, revisable personal
-material, and practical arrangements can develop together whether or not you
-choose to turn that understanding into essays.
+| Philosophy | Simple: direct model condensation | Complex: configure a community project to assist condensation |
+| --- | --- | --- |
+| **Full YinYang: adopt the author's philosophy** | The author's philosophy + direct model condensation of personal material and six accounts. | The author's philosophy + Hindsight or a similar project for retention, integration, and generation of six accounts. |
+| **Empty YinYang: develop the recipient's own philosophy** | Your philosophy + direct model condensation of personal material and six accounts. | Your philosophy + Hindsight or a similar project for retention, integration, and generation of six accounts. |
+
+**Full** starts at [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
+and includes the author's essays and diagrams. **Empty** starts at
+[`skills/yinyang-empty/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)
+and retains the collaborative core, formation methods, and reference suggestions while you and the model
+develop your own philosophy. Both editions form actual working accounts from your own personal material.
+
+### Simple: let the model condense directly
+
+Give the language model you currently use the chosen philosophy, Personal material, and existing accounts.
+Use the [six formation guides](../design-and-revision.md#form-a-situated-version-from-actual-material)
+to condense, organize, and revise them directly. As model capabilities develop, let newer models reinterpret
+the material and improve its condensation. Keep the six files in private `references/situated/`,
+with versions in private Git/GitHub.
+
+### Complex: configure a condensation aid
+
+Add a community project for memory and working-account formation to the selected edition.
+This project uses [Hindsight](../hindsight.md): it retains sources, integrates observations, and forms
+maintained accounts from questions. The model carries configuration, checking, and revision,
+returning adopted results to the six accounts.
+The [Hindsight configuration guide](../hindsight.md#configure-the-selected-native-implementation)
+is the operational entrance.
 
 <a id="six-files-give-the-practice-a-usable-form"></a>
+<a id="from-formation-guides-to-six-working-accounts"></a>
 
-## From formation guides to six working accounts
+## Where the six accounts live and how to use them
 
-The six guides define orientation, person, counterpart, relationship, environment,
-and revision. The simple route is to ask a language model to read adopted
-philosophy and relevant fresh sources, correct the affected Personal understanding,
-and directly synthesize six readable files under `references/situated/`. Read all
-six complete bodies together for mutual coherence, implement needed Skill and
-environment changes, and check their effects in use. Git/GitHub can persist and
-version the files; personal bodies and sources belong in private storage or a
-private repository. This route needs no memory service or API configuration.
+Orientation, person, counterpart, relationship, environment, and revision live in private
+`references/situated/`; the [file and update contract](skill-package.md#common-and-situated-content)
+lists their filenames. Personal material, readable topic articles, and the source index live in
+`references/personal/`. A native implementation can also bind the six complete bodies through a private index.
 
-For more complex histories, [Hindsight](../hindsight.md) offers an optional
-realization using retention, observations, and question-defined maintained pages.
-Choose its configuration for the actual environment rather than copying another
-person's setup. It preserves the same six functions and revision dependency.
-Source originals retain their owners. Personal's four groups remain substantive,
-readable topic articles, whether edited directly or maintained through native
-pages, with observations backstage. Native outputs must also be read together
-and checked through actual use.
+For formation and revision, the model reads adopted philosophy and relevant fresh sources, corrects Personal
+understanding, synthesizes and reads the six accounts together, then realizes selected changes in the working
+environment and revises from use. [Forming and revising working models](../design-and-revision.md)
+develops the writing method; [everyday collaboration](../../SKILL.md) explains reading and using the current accounts.
 
-[Forming and revising working models](../design-and-revision.md#form-a-situated-version-from-actual-material)
-connects the distinct content lenses. Completed output, cooperative fit and
-human development remain different claims, tested through actual use.
+<a id="philosophy-and-models-develop-together"></a>
 
-## Using YinYang
+## Begin with the material you already have
 
-People and models can read and use these materials together: develop an
-argument, compare an account with experience, inspect an arrangement, or make
-an authorized change. Different writing forms serve different contributions
-without reserving philosophy for humans or practical understanding for models.
-
-[Everyday collaboration with YinYang](../../SKILL.md) explains how the current working models cooperate
-in ordinary work. The [package guide](skill-package.md) explains their common
-and private paths and shared updates. These are connected entrances, not a
-sequence to repeat for every task. The [example and commons essay](example-and-commons.md)
-invites selective adoption, combination, and independent authorship.
+Existing philosophy, personal experience, preferences, works, or a working environment can provide the starting point.
+The model helps form missing connections; actual work can also change the philosophy and collaboration.
+For further writing, [An example and a commons](example-and-commons.md) opens a path to personal essays and different works.

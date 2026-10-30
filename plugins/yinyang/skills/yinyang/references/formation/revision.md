@@ -185,8 +185,8 @@ If the native route is selected, follow the [Hindsight guide](../hindsight.md)
 for environment-specific setup and operations. Project checked output to the six
 paths or bind all six through the explicit private index. Configure native
 processing to implement the same source/Personal/synthesis dependency and inspect
-its result, without treating a shared bank as semantic convergence. These are
-two implementations of one method, independent of Full/Empty distribution.
+its result, without treating a shared bank as semantic convergence. The
+[2×2 practice selector](../docs/creation-method.md#choose-2x2) locates the available combinations.
 
 ## Write for the actual use
 

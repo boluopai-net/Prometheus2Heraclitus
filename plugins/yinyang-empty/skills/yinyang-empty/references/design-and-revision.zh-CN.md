@@ -29,9 +29,9 @@
 组织已不像阴阳，也应在自己的源位置支持它。
 [从采用、组合到自己的创作](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/example-and-commons.zh-CN.html)说明这种区别。
 
-读者可以研究范例、借用方法，或采用情境化阴阳。完整采用形成六个问题的实际描述，并使它们进入私人使用端。
-简单路线由语言模型直接综合并保存在私人 Git/GitHub；可选 Hindsight 用较复杂的原生工具实现同一方法。另写原创哲学不是前提。六份公开指南规定取向、人、伙伴、关系、环境与修订六个完整功能问题及其阅读职责。
-原生形成保留六者，具体行文与物理文件布局按用途安排。
+读者可以研究范例、借用方法，或形成自己的六份工作描述。
+[2×2 实践选择](creation-method.zh-CN.md#choose-2x2)连接 Full／Empty 与简单版／复杂版。
+本页说明六份描述怎样写、怎样一起修订。
 
 这六份描述也共同支持个人递归自我改进。取向说明改进服务什么，个人说明实际参与与条件，
 伙伴连接可用能力与所需贡献，关系说明贡献怎样返回并改变后来的协作，环境实现描述，
@@ -39,27 +39,15 @@
 相关工作直接使用[递归改进论证](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.zh-CN.html)作为根据。
 描述修订说明表达改变；后续使用才为方法及个人参与可能的发展提供证据。
 
-## 选择实现工具，保留同一份理解
+<a id="选择实现工具保留同一份理解"></a>
 
-两条路线都保留采纳的 Philosophy、可归属的 Personal 理解、六个完整功能问题及相互融贯，遵循原有
-[修订依赖](formation/revision.zh-CN.md#刷新选定的根据)：读哲学，检索有关新来源，刷新纠正 Personal 并保留
-冲突与不确定性，再综合六份、检查整体，将必要变化落实到 Skills 与环境并实际回读。
+## 形成与修订的共同方法
 
-**简单路线。** 语言模型直接阅读和综合，维护
-`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`。
-实际修订文件说明本人的实践，不只是文件操作。把要持久保存的私人源放在 Git，并通过实际账号与发布维护者
-保存到私人 GitHub 仓库，核实私有范围、提交内容与预期取得；原件保有维护者，凭据不进入仓库。
-这条路线可以独立使用，不要求安装 Hindsight、服务或数据库。
-
-**可选 Hindsight 路线。** 用原生 retain、可修订 Observations 和 Mental Models/Knowledge Pages 实现相同责任。
-[配置与实施指南](hindsight.zh-CN.md)说明怎样按实际环境配置服务、提供方、来源 missions、六个问题、原生操作与读回。
-把核对后的原生内容投影到相同六路径，或通过私人 `references/situated/index.md` 明确绑定全部六个完整正文。
-两种安排都保有实际处境中的修订方法。原生存储与行文可以不同，但较少分组或各页成功不能证明保留了六者。
-
-路线选择改变工具，不改变哲学、完整问题与证据职责。Full/Empty 是另一项分发选择，不为两条工具路线
-复制哲学、指南或整套包。Personal 保留本人可读的主题文章及来源链接，原生 Observations 可在后台支持形成。
-两条路线都不要求完整重复改写 Personal 或强制串联摘要，但已经纠正的 Personal 理解必须影响后续综合，
-并能返回原始根据。
+从采用的哲学与有关新来源出发，纠正 Personal 理解，凝练六份描述并检查整体，
+再将所选变化落实到 Skills 与环境、从使用中回读。具体依赖见
+[修订指南](formation/revision.zh-CN.md#刷新选定的根据)。
+Personal 保留本人可读的主题文章和原始来源；六份描述选择其中与合作有关的含义。
+简单版由当前语言模型直接完成凝练；复杂版把保留、整合与页面生成交给配置的辅助项目。
 
 ## 基于实际材料形成情境化版本
 

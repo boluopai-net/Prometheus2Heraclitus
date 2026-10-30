@@ -51,11 +51,9 @@
 而不另开一个写作项目；愿意写时，[例子与知识共有地](skills/yinyang/references/docs/example-and-commons.zh-CN.md)
 提供这条创作路径。实际起步可沿[工具使用](https://boluopai.net/getting-started/)。
 
-完整采用阴阳 Skill 时，保留取向、人、伙伴、关系、环境与修订六个完整功能问题。简单路线由模型直接
-综合原有六份实际文件，并将需要保存的私人源持久放在 Git 与私人 GitHub 仓库，不要求安装 Hindsight。
-[可选原生实现](skills/yinyang/references/hindsight.zh-CN.md)为相同问题、步骤与融贯整体配置 Hindsight，
-不把六者换成较少原型分组。Full/Empty 版本选择独立于工具路线。Personal 保留可读主题文章与原始来源，
-是否另写原创哲学仍由兴趣决定。
+采用阴阳时，用[实践总览的 2×2 选择表](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)
+选择 **Full／Empty × 简单版／复杂版**：采用作者的哲学，或形成自己的哲学；让模型直接压缩、迭代工作描述，
+或配置 Hindsight 等社区项目辅助处理。表后给出每种方式的实际入口。
 
 [个人模型的凝练指引](skills/yinyang/references/formation/person.zh-CN.md#从事件历史哲学与个人材料凝练个人模型)
 展开这些材料怎样成为本人、所需模型伙伴及双方关系的描述，再让共同工作进入现实，
@@ -125,12 +123,9 @@
 | [network](skills/network/SKILL.md) | 通过本机证据排查 DNS、代理、网站连接和路由问题。 | [完整包](skills/network/) |
 | [clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
 
-阴阳提供文化、思想与推理形式；个人内容来自获授权的实际材料，以及使用模型与
-这个人的协作。采用持续维护的阴阳时，形成六份有根据的完整实际描述及本人实际修订方法。
-简单独立路线保留 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`
-六路径，由模型直接综合并持久保存在私人 Git/GitHub。Hindsight 为可选，其核对后的输出可使用原路径或明确绑定
-全部六者的索引。两条路线都保留 Personal 纠正与六份整体融贯。公开分发不提供私人画像，安装本身不形成实际描述。
-[使用指南](skills/yinyang/README.zh-CN.md#怎样使用并理解阴阳)说明形成与核验。
+安装选择 **Full：`yinyang`** 或 **Empty：`yinyang-empty`**。
+随后按[2×2 实践入口](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)形成自己的六份工作描述。
+个人材料与实际描述保存在自己的私人来源中。
 
 论述与图示都属于 `skills/yinyang/references/` 内的阴阳配件。
 其他成员保留各自的用途与专业方法；进入这个集合，不会使它们变成阴阳参考，

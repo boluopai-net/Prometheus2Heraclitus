@@ -20,19 +20,14 @@ Empty 没有 `docs/` 或 `diagrams/`。`references/formation/` 中是六份指�
 | `references/personal/` | 有关材料、证据、维护中的解释与来源索引。 |
 | `references/situated/` | 实际绑定索引、生成模型正文与自己的修订方法。 |
 
-简单路线直接阅读和综合
-`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md` 六份实际文件。
-六份起始文件均标为 `status: unfilled`，需要形成有根据的内容，包括实际处境中的修订方法。
-通过实际维护者将需要保存的私人源持久存入 Git 与私人 GitHub，核实私有范围和取得，不要求安装 Hindsight。
+六份起始文件标为 `status: unfilled`，位于
+`references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`。
+按[2×2 实践选择](creation-method.zh-CN.md#choose-2x2)中的简单版或复杂版形成内容，
+通过私人 Git/GitHub 保留版本。复杂版可将结果投影到这些文件，或由私人索引绑定六个完整正文；
+具体配置见 [Hindsight 指引](hindsight.zh-CN.md)。
 
-[可选原生指南](hindsight.zh-CN.md)说明因环境而异的 Hindsight 配置。将核对后的原生结果投影到相同六路径，
-或创建私人索引明确绑定六问题、ID 与完整正文。未填绑定或较少原型不替代六个完整功能。
-Full/Empty 分发选择独立于简单或原生工具路线。
-
-两条路线都完整阅读六份实际描述，保留哲学、新可归属来源、Personal 纠正、综合、整体融贯与实现回读的依赖。
-每问题从全部六份指南形成。协调相邻解释但不算作独立证据，修复依赖，不强制第七份摘要。
-Personal 提供四个空分区和来源索引，保持可读主题文章，并连接维护者处原件；名称使用本人的母语。
-指南和借来画像不能替代实际内容。
+Personal 的四个分区保存本人可读的主题文章，来源索引连接原件。
+[形成与修订](design-and-revision.zh-CN.md)说明六份怎样依据材料凝练、联系检查和更新。
 
 ## 取得并使用这个版本
 

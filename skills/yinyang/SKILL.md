@@ -112,7 +112,8 @@ same six paths, or use an explicit private `references/situated/index.md` bindin
 that exposes all six questions/IDs and complete bodies. Read that binding and
 all six complete accounts, including the actual situated revision method.
 A model question, metadata index, shared bank or smaller prototype is not a
-substitute. Full/Empty distribution is independent of this route choice.
+substitute. Choose the edition and condensation route with the
+[2×2 practice selector](references/docs/creation-method.md#choose-2x2).
 Reuse complete current text already in context; retrieve missing readings after
 context loss. Choose further Philosophy and readable Personal sources by purpose.
 

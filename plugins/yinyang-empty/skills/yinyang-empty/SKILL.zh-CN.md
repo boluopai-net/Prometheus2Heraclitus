@@ -43,7 +43,7 @@ Personal 的四区与绑定与修订 Situated 文件已作为未填写的起始�
 
 [可选 Hindsight 指南](references/hindsight.zh-CN.md)说明按环境配置原生工具，实现同样问题与方法。
 将核对后的原生正文投影到六路径，或用私人 `references/situated/index.md` 明确绑定全部六个完整描述，
-避免两套竞争的权威模型。Full/Empty 分发选择独立于两种工具路线，不为路线另复制包或哲学。
+避免两套竞争的权威模型。版本与凝练方式见[2×2 实践选择](references/creation-method.zh-CN.md#choose-2x2)。
 
 ## 进入日常协作
 

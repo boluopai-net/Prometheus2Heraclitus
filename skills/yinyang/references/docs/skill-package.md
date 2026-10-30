@@ -29,8 +29,8 @@ Each synthesis instruction draws on the six complete guides and relevant actual
 grounds. [Formation and revision](../design-and-revision.md) owns their distinct
 subjects, connected scope and whole-six coherence.
 
-The simple standalone route uses direct language-model synthesis and the stable
-private files below. It needs no Hindsight installation:
+The [2×2 practice selector](creation-method.md#choose-2x2) explains edition and condensation choices;
+this page locates the private files and their updates:
 
 | Question | Actual private file |
 | --- | --- |
@@ -47,23 +47,10 @@ and publication owner, checking private visibility, committed content and reader
 retrieval. Original records retain their owners; secrets stay outside ordinary
 repository files. Public Full ships no private accounts or placeholders.
 
-[Optional Hindsight implementation](../hindsight.md) supplies a native route for
-the same six questions. Its service/providers/configuration vary by environment;
-no installation is required for simple adoption. Project checked native bodies
-to the six stable paths, or explicitly bind all six complete bodies and their
-questions/IDs with a private `references/situated/index.md`. The actual revision
-method still describes this person's purposes, judgments, material and environment,
-not merely backend steps. An index selects bodies, never replaces them. Keep one
-current authoritative set. Full/Empty distribution is independent of tool route.
-
-Both routes retain philosophy reading, relevant new source retrieval, Personal
-refresh/correction, synthesis, whole-six coherence checking and realization with
-actual readback. Shared premises, relations and consequences need comparison;
-common bank membership or per-file/page success is no guarantee. Sibling accounts
-can be coordinated as current interpretations, not independent factual evidence.
-Repair affected sources/instructions or native queries and regenerate dependencies;
-no mandatory seventh summary is needed. Existing actual bodies stay current
-until checked successors preserve their full functions and coherent relations.
+The complex route projects checked bodies to the same six paths, or binds the six questions,
+native IDs, and complete bodies through private `references/situated/index.md`.
+See [Hindsight configuration](../hindsight.md).
+[Formation and revision](../design-and-revision.md) owns their content and whole-account checking.
 
 Philosophy retains its authored source. Personal remains human-readable topic
 articles in the existing four subject groups, with usable navigation and original
