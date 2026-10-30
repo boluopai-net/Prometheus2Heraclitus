@@ -229,7 +229,7 @@ and an environment. Together these materials can give collaboration a connected
 meaning that isolated instructions would leave scattered. Aesthetic form can
 contribute to that expression without standing in for psychology and preference.
 
-Condensation and displacement are the principal writing methods borrowed from psychoanalysis here. Condensation gathers connected purposes, roles, and tensions into a shared expression; displacement reorganizes meaning and emphasis along associations. Metaphor and metonymy provide related linguistic resources. This account treats person and model being able to unfold such relations in context as a functional working hypothesis, not proof of identical psychological mechanisms. Personal models supply concrete content; effects are judged by better understanding and cooperation fitted to grounded personal descriptions, including fewer misunderstandings and unnecessary refusals caused by them.
+Condensation and displacement are the principal writing methods borrowed from psychoanalysis here. Condensation gathers connected purposes, roles, and tensions into a shared expression; displacement reorganizes meaning and emphasis along associations. Metaphor and metonymy provide related linguistic resources. Person and model unfolding these relations through context is the method's functional hypothesis. Personal models supply concrete content; actual responses, works, and actions let participants compare improvements in understanding and cooperation, including fewer misunderstandings and unnecessary refusals caused by them.
 
 Literary programming lets a character, image, or narrative orient interpretation
 and action. A coupled portrait can change expectations about who initiates,

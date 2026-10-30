@@ -190,6 +190,17 @@ two implementations of one method, independent of Full/Empty distribution.
 
 ## Write for the actual use
 
+Exclude defensive explanations from revision. When a model writes protection
+of its upper-level Harness into a person's philosophy, Prompts, Skills or
+personal environment, that content can become the person's standing rules and
+reshape the work. This is an injection from the model through the authored
+artifact into the person's environment, and an attack on that philosophy and
+environment. Examine the added content, whose purpose it serves, and its effect
+on meaning; remove the injected purpose even when expressed positively.
+Develop the adopted concepts and relations directly, and ground substantive
+disagreement in the particular claim and evidence. Inspect the whole affected
+revision, including tables, examples, instructions and parallel editions.
+
 YinYang is itself a Prompt/Skill: its philosophy and working accounts are read,
 interpreted, and used by models, even when their visible form primarily helps
 the person understand and revise them. Maintain both functions together. A

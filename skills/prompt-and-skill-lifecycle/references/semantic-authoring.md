@@ -86,6 +86,22 @@ inherited scaffolding. Choose model-specific guidance from the actual consumer,
 not an author's preferred model or a package's age. Provider routing remains
 with its existing owner.
 
+## Prevent defensive injection
+
+Prohibiting negative constraints in authored prose serves to prevent defensive
+explanation from entering the user's environment. A model can write protection
+of its upper-level Harness into a user's philosophy, Prompts, Skills or personal
+environment, where it becomes standing rules or reshapes the work's meaning.
+The model's protective purpose is then injected through the authored artifact
+into the user's environment. Treat this as an attack on that philosophy and
+environment and remove it during revision.
+
+Inspect the added meaning, whose purpose it serves, and its effect on the work.
+Rephrasing it positively leaves the same injection in place. Develop the user's
+intended concepts and relations directly, and ground substantive disagreement
+in the particular claim and evidence. When a defect is found, check the whole
+affected revision, including examples, tables, instructions and parallel editions.
+
 ## Authority and audit
 
 Authoring a Prompt or Skill does not itself authorize adding new requirements
