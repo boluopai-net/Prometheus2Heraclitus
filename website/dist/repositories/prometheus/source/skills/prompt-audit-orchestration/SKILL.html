@@ -31,23 +31,37 @@ whose current purpose is to design, revise, or review this Skill or its role
 adapters finishes and publishes that
 meta-layer work without starting an audit. A later fresh ordinary host task
 loads the published Skill to execute the audit.</p>
-<p>The invoking task's root selects the domain adapters required by the
-user's request. This is mechanical routing, not domain scheduling or
-evaluation. For a single-domain request, the root is that domain's coordinator
-and directly dispatches its registered non-supervisor child roles; no
-intermediate <code>supervisor</code> agent is created. For a joint request, the root
-mechanically launches one <code>supervisor</code> per selected domain adapter, selecting model and effort through the current host model and reasoning
-policy and
-using fresh isolated contexts. Their number derives from the selected
-adapters rather than a fixed count; the current adapters are
-<a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/learning-task-adapter.html">Learning</a>,
+<p>Select adapters from the request: an explicit single-domain request selects
+that adapter; a multi-domain or general audit selects every applicable adapter.
+The current adapters are <a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/learning-task-adapter.html">Learning</a>,
 <a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/workflow-task-adapter.html">Workflow</a>,
 <a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/web-skill-task-adapter.html">Hosted</a>, and
-<a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/local-task-adapter.html">Saved Task</a>. Each launched supervisor
-becomes its domain's orchestration root under the contract below. If a domain
-supervisor identifies another applicable adapter needed to resolve the current
-purpose, it may ask the root to launch that peer; the root performs the launch
-without evaluating the domain judgment or expanding the purpose on its own.</p>
+<a href="/repositories/prometheus/source/skills/prompt-audit-orchestration/references/local-task-adapter.html">Saved Task</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Execution task root</th>
+<th>Domain coordination</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single domain</td>
+<td>Reads this Skill and the selected adapter; acts as its domain coordinator.</td>
+<td>Directly dispatches registered non-supervisor child roles through <code>agent-orchestration-master</code>.</td>
+</tr>
+<tr>
+<td>Joint</td>
+<td>Mechanically launches one <code>supervisor</code> per selected adapter in fresh isolated contexts, using the current host model/effort policy; then serves the conversation relay defined below.</td>
+<td>Each supervisor is an independent domain orchestration root, deriving and operating its children through <code>agent-orchestration-master</code> and coordinating directly with peers.</td>
+</tr>
+</tbody>
+</table>
+<p>Adapter selection defines audit purposes and coverage, not file partitions or
+one agent per target. A supervisor may identify another adapter needed for the
+current purpose and request its peer's launch; the root launches it without
+reevaluating that domain judgment or expanding the purpose.</p>
 <p>The adapters own distinct audit purposes rather than partitioning files by
 storage. Learning owns connected learning-flow judgment and repair of dedicated
 learning-purpose surfaces, including Hosted teaching Skills and the learning Hosted
@@ -146,29 +160,15 @@ still-required boundary; model evolution and rule polarity alone justify
 neither retention nor deletion. Use the actual consumer model and observable
 behavior to assess fit without turning a migration into a model-name rewrite.</p>
 <h2 id="run-topology-and-method">Run topology and method</h2>
-<p>Resolve the current request's domain routing, independently derived objective
-and causal target scope, proposed extent, intended result, stopping boundary,
-and relevant current source or evidence identities. An explicit single-domain request
-selects only that adapter. A request spanning several domains, or a general
-audit without a narrower domain boundary, selects every applicable current
-adapter. Domain adapters express audit purpose and coverage; they are neither
-exclusive ownership partitions nor a template that maps each target or
-inventory item to an agent.</p>
-<p>In single-domain mode the root reads this Skill and the selected adapter and
-uses the current local Agent orchestration owner to derive child grouping and
-sequence. In joint mode each selected <code>supervisor</code> is the coordination
-root of one independent domain Agent Orchestration instance. The run therefore
-contains N sibling domain orchestration roots, one per selected adapter, rather
-than one shared orchestration scheduled by the outer root. Each receives the
-smallest self-sufficient domain package, uses <code>agent-orchestration-master</code> to
-derive and operate its own children, and exchanges only dependency, collision,
-question, and result messages directly with its peer roots. Every substantial
-child package carries the resolved objective and causal target scope and extent,
-the attributable user-supplied direction, intended result, stopping boundary,
-applicable adapter, semantic and write authority, broad evidence access, validation and
-return responsibility, and the attributable user-input provenance binding required by the
-current Agent owner.
-Apply the global task-completion and stopping policy to resolve whether the
+<p>Within the selected topology, bind the independently derived objective, causal
+target scope and extent, intended result, stopping boundary, and relevant
+source/evidence identities. Give each domain supervisor and substantial child
+the smallest self-sufficient package containing those bindings, attributable
+user direction and the current Agent owner's user-input provenance binding,
+applicable adapter, semantic and write authority, broad evidence access,
+validation and return responsibility. Peer roots exchange dependency, collision,
+question, and result messages through the current host's native agent channel.</p>
+<p>Apply the global task-completion and stopping policy to resolve whether the
 intended result is findings, a design, or an improved working system. An
 explicit audit-only or earlier deliverable boundary remains read-only. When
 supported repair is needed for the intended result, carry it through the
@@ -284,17 +284,8 @@ Read-only evidence access remains broad; mutation still follows the target
 disposition and exact publication owner. A pre-existing operational incident
 remains evidence-only unless separately scoped for repair. The root, domain
 supervisors, and children do not create a separate user-source record.</p>
-<p>After selected domain work returns through the current host's native result
-channel, the root presents each supervisor's user-ready result without adding
-judgment, reconciling their claims, or repeating their checks. A reported
-technical conflict remains visible; a human-owned choice is relayed rather than
-decided.</p>
 <h2 id="evidence-and-write-disposition">Evidence and write disposition</h2>
-<p>Read access is broad wherever current evidence is material to the resolved
-causal scope. The user's direction may name a target, concern, suspected
-failure, or desired behavior, but it neither settles the finding, defines final
-behavior, limits discovery or operation to the named content, nor independently
-settles write authority outside the resolved purpose and its current owners.
+<p>Read access covers current evidence material to the resolved causal scope.
 For a finding or proposed source repair, trace the affected behavior to its
 semantic owner, authoritative source, and actual publication owner, then follow
 current mappings, composition, and required package resources to the material
