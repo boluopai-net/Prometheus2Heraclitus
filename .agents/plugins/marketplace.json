@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.102",
+      "version": "1.1.103",
       "description": "<用户自制> 阴阳：形成并修订人与模型的协作理解及其工作环境。 Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",
@@ -411,7 +411,7 @@
     },
     {
       "name": "prompt-audit-orchestration",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 提示词审计：按范围审计学习、工作与已保存任务的提示词和技能执行链。 Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
       "source": {
         "source": "local",
@@ -465,7 +465,7 @@
     },
     {
       "name": "browser-relay",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 浏览器会话：管理任务专用的隔离浏览器、授权登录会话与清理。 Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
       "source": {
         "source": "local",
@@ -492,7 +492,7 @@
     },
     {
       "name": "model-conversation-relay",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "<用户自制> 模型对话接续：继续已绑定的 ChatGPT 咨询会话，读取、等待、发送并留存回执。 Continue one exact advisory exchange with ordered-turn reconciliation, bounded retries, and immutable receipts.",
       "source": {
         "source": "local",

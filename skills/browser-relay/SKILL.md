@@ -26,15 +26,10 @@ what happened at the page. It does not become the conversation or research owner
 
 Use this relay when a bounded operation needs a controlled browser carrier,
 including authenticated model-conversation work or a task-owned headless page.
-Select the route from the current host policy, available capabilities, and the
-operation's needs. A URL identifies a destination; authentication or earlier
-browser use does not establish ownership of a physical target.
-
-Follow the host's actual browser, daily-session, authorization and desktop policy.
-Bind an available carrier through [carrier configuration](references/carriers.md)
-before acting. This package supplies the method, not an installed authenticated
-browser owner. The source's private wrapper commands are not public APIs to assume.
-Use only the current host/tool's documented operations and returned handles.
+Select and bind an available carrier through [carrier configuration](references/carriers.md)
+under the host's actual browser, daily-session, authorization and desktop policy.
+Use current documented operations and returned handles; the recipient supplies
+the installed browser owner and its APIs.
 
 The caller supplies the destination or retained binding, bounded operation,
 authorized effects, relevant prior state, expected readback and lifecycle:
@@ -42,6 +37,15 @@ close an ephemeral target, release control while retaining an authorized session
 or page, or retire an exact owned target. Resolve routine details from evidence
 within that scope. For a message operation, additionally bind `observe` or `submit`,
 the last known message boundary and exact payload for `submit`.
+
+| Operation and host route | Carrier and lifecycle |
+| --- | --- |
+| In-app browser selected by host policy | Create an owned tab; close it after the operation unless retained for a same-task continuation. |
+| Signed-in work in a dedicated authorized context | Acquire an exact owned page, use page-bound controls, and release control while retaining the page when declared; close that page when retiring it. |
+| Unauthenticated headless work | Create an isolated context and owned page; close both after the operation. |
+
+The [carrier lifecycle](#carrier-lifecycle) section defines the ownership,
+retention, and closure evidence for each route.
 
 When browser settings, policies, extensions or options are the task object, retain
 their separate configuration owner (`chrome-configuration` in the local source).

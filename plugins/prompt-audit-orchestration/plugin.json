@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prompt-audit-orchestration",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 提示词审计：按范围审计学习、工作与已保存任务的提示词和技能执行链。 Audit instructions and execution relationships across learning, work, Web, and automation within the requested scope.",
   "author": {
     "name": "boluopai",

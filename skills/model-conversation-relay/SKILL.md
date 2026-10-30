@@ -13,21 +13,23 @@ origin intact, so the caller can judge what the answer means for the task.
 Transport establishes that this response belongs to this request at this
 conversation; interpretation and acceptance remain further judgments.
 
-Own one exact request/response exchange: exact exchange identity, ordered-turn
-reconciliation, response-turn completeness, wait/retry decisions, and at most
-one mutation attempt in flight. Native task/thread and an allowed currently
-selected controlled Browser carrier are conditional per-operation adapters.
-Mutation and observation adapters may differ; an
-observation adapter never submits or resends. Adapters return physical or
-native observations. The relay decides whether an observable response turn is
-complete enough to bind; this transport claim says nothing about semantic
-adequacy, agreement, evidence sufficiency, correctness, or task completion.
-The caller supplies its exact target binding and retains authority for outbound
-messages. Reuse actual authorization for this exchange; installing or testing this
-package does not authorize a submission. Read the installed `browser-relay`
-entrypoint completely when selecting its controlled Browser route. It is a
-conditional companion, available from the same public collection; native-only
-operations do not need it. See [configuration and dependencies](README.md).
+Continue one ready-bound request/response exchange. Responsibilities are:
+
+| Owner | Responsibility |
+| --- | --- |
+| Caller | Destination creation and selection, first-request reconciliation, task and source provenance, model selection, outbound-message authority, semantic follow-up, interpretation, and task completion. |
+| Relay | Exact exchange identity, ordered-turn reconciliation, response-turn completeness, wait/retry decisions, immutable evidence, and at most one mutation attempt in flight. |
+| Operation adapter | Physical or native observations and, when selected for mutation, submission to the frozen target. An observation adapter never submits or resends. |
+
+Native task/thread and permitted controlled Browser carriers are per-operation
+adapters and may differ between observation and mutation. Read the installed
+`browser-relay` entrypoint completely when selecting that route; native-only
+operations do not need this conditional companion. Reuse actual authorization
+for the exchange; installing or testing this package does not authorize a
+submission. Runtime owners retain host confirmation, login, credential, consent,
+and human-action boundaries. Conversation creation, model changes, and account
+settings stay outside the relay's operations. The relay binds a complete response
+turn; the caller judges its meaning and adequacy. See [configuration and dependencies](README.md).
 
 An installed host-specific provenance owner, such as `cloud-local-workflow`,
 may retain surrounding task evidence. It is optional, is not distributed in this
@@ -46,19 +48,14 @@ require and freeze:
 - latest observed remote turn boundary or explicit absence boundary; and
 - the current operation constraint, if any.
 
-A caller may attach `task_id`, `chat_creation_id`, Project-instruction identity,
-checkpoint identity, title, model-selection evidence, and other provenance to
-the receipt, but the generic relay entrypoint does not require an enclosing lifecycle's
-fields. Reject an unready, missing, guessed, substituted, or mode-ambiguous
-target; mutable or digest-mismatched request; or destination discovery. A title,
-URL without retained binding, or former Project membership is not target
-identity. The relay does not separately parse or require User Source, accepted
-Scheme, artifact, checkpoint purpose, question, local evidence, or authority
-fields. Those remain with the caller and are represented to relay only by exact
-target/readiness evidence, request bytes, and optional receipt annotations. Any
-creation/first-request operation performed before a conversation ID exists
-is outside this relay and must never be passed here as a guessed or pending
-target.
+A caller may attach task, creation, Project-instruction, checkpoint,
+model-selection, source, or object provenance as receipt annotations; the relay
+parses only the required exchange fields above. Reject an unready, missing,
+guessed, substituted, or mode-ambiguous target, a mutable or digest-mismatched
+request, and destination discovery. Titles, recency, similar questions, former
+Project membership, and a URL without retained binding cannot identify the
+target. Creation or first submission before a conversation ID exists belongs
+to the caller's binding route.
 
 ## Immutable transport evidence
 
@@ -69,9 +66,7 @@ needed for this exchange under the actual data and retention authority. This
 package supplies no personal account, conversation, profile or storage binding.
 
 Before any mutation, write the exact frozen request to an immutable file and
-verify its SHA-256. The caller retains any relevant task, creation, Project,
-model-selection and source/object provenance around the exchange; the generic
-relay does not parse or duplicate those fields.
+verify its SHA-256.
 
 After one exact response is bound, write one immutable JSON receipt containing
 exchange ID, conversation identity and target-mode evidence, request and
@@ -89,9 +84,8 @@ required for that operation. Native task/thread and controlled Browser are both
 eligible when their current exact-target evidence and owner constraints permit
 the operation. Select the carrier from current host policy, actual capabilities,
 and the operation's needs while retaining the frozen target binding.
-Neither origin permits creation, target substitution, URL synthesis,
-or selection by title, recency, similarity, or former Project membership.
-Browser never bypasses a missing native authorization or tool boundary.
+Both retain the ready-binding requirements above. Browser never bypasses a
+missing native authorization or tool boundary.
 
 For an exact ChatGPT advisory conversation, use a native `codex_app` adapter
 when the current host actually exposes that callable tool and its exact target
@@ -121,10 +115,6 @@ use `browser-relay` only when that is the selected carrier. Browser returns
 physical observations and cleanup evidence only. The relay decides semantic
 turn binding, completion, waiting, and retry. Never persist a current task's
 transient browser/provider ID as general Skill policy.
-
-Host confirmation, login, credential, consent, and human-action boundaries
-remain with runtime owners. Creating a new conversation, changing its model, or
-changing account settings is outside this relay primitive.
 
 ## First submission and interrupted continuation
 
@@ -235,14 +225,7 @@ receipt_path
 receipt_sha256
 ```
 
-The calling model decides whether to persist, evaluate, forward, or reject the
-answer. The relay records a bound response turn and does not create a
-semantic-success scalar or a correctness/completion result.
-
-An optional installed host-specific provenance owner can add task, attributable
-user source, candidate/Plan, result, Project-instruction, model-selection and
-advice provenance around one exchange; otherwise the caller retains these in
-its existing task records. Preserve strongest evidence and exact missing proof. Do not choose a semantic follow-up,
-create a conversation, rewrite either side, start another model, add a
-coordinator, registry, state machine, queue, daemon, watcher, retry database, or
-new Browser runtime.
+Return the strongest observed transport evidence and exact missing proof. The
+caller decides whether to retain, evaluate, forward, reject, or follow up on
+the answer; the result package carries no semantic-success or task-completion
+judgment.

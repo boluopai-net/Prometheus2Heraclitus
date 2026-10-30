@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "browser-relay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<用户自制> 浏览器会话：管理任务专用的隔离浏览器、授权登录会话与清理。 Manage task-owned browsers, authenticated sessions, target ownership, and cleanup.",
   "author": {
     "name": "boluopai",
