@@ -361,6 +361,8 @@ def build(repo, revision, english, output, work, sample, diagrams):
             name = Path(path).name.split('.')[0]
             blocks = doc['blocks']
             art = ROOT / 'dist/art' / (name + ('.svg' if name == 'writing-a-sinthome' else '.png'))
+            if name == 'literary-recursive-improvement':
+                art = ROOT / 'dist/repositories/prometheus/source/skills/yinyang/references/diagrams' / ('literary-rsi' + ('' if english else '.zh-CN') + '.svg')
             if name in SCENES and art.is_file():
                 image_path = asset(art)
                 caption = reader_text(CAPTIONS.get(name, SCENES[name])[english])

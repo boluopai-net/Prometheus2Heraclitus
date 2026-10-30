@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <!-- Static editorial projection of literary-rsi.zh-CN.candidate.json; retain its roles and directed relationships when revising. -->
+  <title id="title">让改进改变下一次怎样改进</title>
+  <desc id="desc">生成性描述经解释者进入以人为中心的分布式实践；经验返回比较与修订，修订理解和方法的描述，并进入下一轮。保留的证据与 Git 历史支持比较与恢复。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#477f7d"/></marker></defs>
+  <rect width="1200" height="700" rx="24" fill="#f8faf9"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK SC',sans-serif" fill="#203b3d">
+    <text x="64" y="75" font-size="33" font-weight="700">让改进改变下一次怎样改进</text>
+    <text x="64" y="108" font-size="17" fill="#647c7c">方法由描述，经解释与实现进入下一轮</text>
+    <g fill="#ffffff" stroke="#a9c5c1" stroke-width="1.5">
+      <rect x="64" y="160" width="280" height="120" rx="15"/><rect x="460" y="160" width="280" height="120" rx="15"/><rect x="856" y="160" width="280" height="120" rx="15"/>
+      <rect x="64" y="450" width="280" height="120" rx="15"/><rect x="460" y="450" width="280" height="120" rx="15"/><rect x="856" y="450" width="280" height="120" rx="15"/>
+    </g>
+    <g text-anchor="middle" font-size="22" font-weight="650">
+      <text x="204" y="207">生成性描述 Δₜ</text><text x="600" y="207">解释者 I</text><text x="996" y="207">分布式实践 Bₜ → Bₜ₊₁</text>
+      <text x="204" y="497">证据与历史 H</text><text x="600" y="497">比较与修订 R</text><text x="996" y="497">经验与结果</text>
+    </g>
+    <g text-anchor="middle" font-size="15" fill="#5e7473">
+      <text x="204" y="241">工作理解 W + 方法 R 的描述</text><text x="600" y="241">带有工具的语言模型</text><text x="996" y="241">人及身体、工具与支持</text>
+      <text x="204" y="531">保留的证据 + Git 版本</text><text x="600" y="531">重新审视理解和方法</text><text x="996" y="531">实践中发生的事情</text>
+    </g>
+    <g fill="none" stroke="#477f7d" stroke-width="2.5" marker-end="url(#arrow)"><path d="M344 220H460"/><path d="M740 220H856"/><path d="M996 280V450"/><path d="M856 510H740"/><path d="M344 510H460"/><path d="M600 450V365H204V280"/></g>
+    <g text-anchor="middle" font-size="14" fill="#54706f"><text x="402" y="207">阅读与解释</text><text x="798" y="207">实践中实现</text><text x="1038" y="367">产生</text><text x="798" y="497">返回比较</text><text x="402" y="497">比较与恢复</text><text x="401" y="351">修订 W 与 R 的描述</text></g>
+    <path d="M64 626H1136" stroke="#d8e6e3"/><text x="64" y="658" font-size="16" fill="#647c7c">版本保留变化，经验说明意义</text>
+  </g>
+</svg>

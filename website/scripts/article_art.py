@@ -4,6 +4,7 @@ import html
 
 # Describe the depicted relation, rather than repeating the essay's title.
 SCENES = {
+    'literary-recursive-improvement': ('生成式描述经过解释进入实践；经验返回比较与修订，改变下一轮怎样改进。保留的证据与版本历史支持比较。', 'A generative description enters practice through interpretation; experience returns to comparison and revision, changing how the next improvement is produced. Retained evidence and version history support comparison.'),
     'stealing-fire': ('一人从共享熔炉借来微小火种，亲手照料自己的炉火，把借来的能力发展为自己的创造。', 'A person borrows a tiny ember from a shared furnace and tends their own hearth, developing borrowed capability into creation.'),
     'personal-first-humanism': ('一人主动塑造陶鸟，机械伙伴调整灯光、可及的托盘与工作台，让工具适合这个人的身体与创作。', 'A person shapes a clay bird while a robotic counterpart adjusts a lamp, reachable tray, and workbench to fit their body and creation.'),
     'why-yinyang': ('人与伙伴分别为同一悬挂作品添加不同部件，探究、写作与制作工具围绕共同方向连接起来。', 'A person and counterpart add different components to one hanging mobile, connecting inquiry, writing, and making around a shared direction.'),
@@ -27,6 +28,7 @@ SCENES = {
 }
 
 CAPTIONS = {
+    'literary-recursive-improvement': ('实践改变描述，描述中的方法经解释与实现，改变下一轮实践。', 'Practice changes the description; its revised method changes subsequent practice through interpretation and realization.'),
     'local-source-and-website': ('三个角，三种贡献；一个完整的三角形，同一项生活与实践。', 'Three corners, three contributions; one complete triangle, one shared life and practice.'),
     'preference-harness': ('爱心选方向，报告供检查：想走林荫路，还要确认桥能通过。', 'The heart selects a direction; the report supports a check: a preferred shaded route still needs a passable bridge.'),
     'finite-inquiry-and-abstraction': ('从房子到风车：简图保留道路与桥的连接，略去不影响这次寻路的细节。', 'From house to windmill: the map preserves road and bridge connections while omitting detail irrelevant to this route.'),
@@ -56,6 +58,13 @@ def time_inset(chinese):
 
 
 def article_figure(dist, name, chinese):
+    if name == 'literary-recursive-improvement':
+        suffix = '.zh-CN' if chinese else ''
+        source = f'/repositories/prometheus/source/skills/yinyang/references/diagrams/literary-rsi{suffix}.svg'
+        alt = html.escape(scene_alt(name, chinese), quote=True)
+        caption = html.escape(CAPTIONS[name][0 if chinese else 1])
+        expand = '查看大图' if chinese else 'View full-size diagram'
+        return f'<figure class="article-art"><a href="{source}"><img src="{source}" alt="{alt}" width="1200" height="700" fetchpriority="high"></a><figcaption>{caption} <a href="{source}">{expand}</a></figcaption></figure>'
     extension = 'svg' if name == 'writing-a-sinthome' else 'png'
     if not (dist / 'art' / f'{name}.{extension}').is_file():
         return ''
