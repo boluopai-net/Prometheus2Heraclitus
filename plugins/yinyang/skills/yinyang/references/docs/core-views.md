@@ -32,7 +32,7 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-13 · Forming a sinthome](#yy-13)
 - [YY-14 · Cultivate generative capacities with available fire](#yy-14)
 - [YY-15 · Cultivate a garden of becoming with friends](#yy-15)
-- [YY-16 · Make the way of improving available for improvement](#yy-16)
+- [YY-16 · Personal recursive self-improvement](#yy-16)
 
 </details>
 
@@ -656,7 +656,18 @@ image whose value is answered by participants' experiences and consequences.
 
 <a id="yy-16"></a>
 
-## YY-16 · Make the way of improving available for improvement
+## YY-16 · Personal recursive self-improvement
+
+Assisting personal recursive self-improvement connects YinYang's philosophy,
+working descriptions, and environment. **Recursive self-improvement improves
+the mechanism of improvement itself, increasing its capacity to produce later
+effective improvements.** Being able to modify one's description or code establishes
+self-modification; better results under an existing method establish improved
+performance. When the methods of generating, judging, and realizing changes
+themselves change and work better in subsequent activity, there are grounds for
+claiming improved self-improvement capacity. The subject here is this person
+with the model and actual support relations; capacity can remain distributed
+across them rather than requiring every ability to be internalized unaided.
 
 A practice can leave a work and also change how the next improvement is produced.
 YinYang places purposes, understanding, collaboration, and revision methods in a

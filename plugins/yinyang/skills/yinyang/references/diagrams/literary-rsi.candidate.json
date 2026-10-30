@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "diagram_type": "architecture",
-  "meta": {"title": "Let improvement change how the next improvement happens", "output": "skills/yinyang/references/diagrams/literary-rsi.html", "quality_profile": "showcase", "locale": "en", "legend": {"mode":"auto", "entries":{"frontend":{"label":"Conceptual roles"}}}},
+  "meta": {"title": "Recursive self-improvement", "output": "skills/yinyang/references/diagrams/literary-rsi.html", "quality_profile": "showcase", "locale": "en", "legend": {"mode":"auto", "entries":{"frontend":{"label":"Conceptual roles"}}}},
   "components": [
     {"id":"description","type":"frontend","icon":"none","label":"Generative description","sublabel":"Working view + method description","pos":[40,80],"size":[270,90]},
     {"id":"interpreter","type":"frontend","icon":"none","label":"Interpreter","sublabel":"Language model with tools","pos":[440,80],"size":[250,90]},

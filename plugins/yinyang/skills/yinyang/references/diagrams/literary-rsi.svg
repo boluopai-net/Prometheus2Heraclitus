@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
   <!-- Static editorial projection of literary-rsi.candidate.json; retain its roles and directed relationships when revising. -->
-  <title id="title">Let improvement change how the next improvement happens</title>
+  <title id="title">Recursive self-improvement</title>
   <desc id="desc">A generative description is interpreted and enacted in person-centered distributed practice. Experience returns to comparison and revision of the working view and the description of the method. Retained evidence and Git history support comparison and recovery.</desc>
   <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#477f7d"/></marker></defs>
   <rect width="1200" height="700" rx="24" fill="#f8faf9"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif" fill="#203b3d">
-    <text x="64" y="75" font-size="31" font-weight="700">Let improvement change how the next improvement happens</text>
+    <text x="64" y="75" font-size="31" font-weight="700">Recursive self-improvement</text>
     <text x="64" y="108" font-size="17" fill="#647c7c">The revised method description shapes the next round through interpretation and realization</text>
     <g fill="#ffffff" stroke="#a9c5c1" stroke-width="1.5">
       <rect x="64" y="160" width="280" height="120" rx="15"/><rect x="460" y="160" width="280" height="120" rx="15"/><rect x="856" y="160" width="280" height="120" rx="15"/>

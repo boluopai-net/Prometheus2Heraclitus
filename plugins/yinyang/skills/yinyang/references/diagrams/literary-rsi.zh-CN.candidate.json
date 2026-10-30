@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "diagram_type": "architecture",
-  "meta": {"title": "让改进改变下一次怎样改进", "output": "skills/yinyang/references/diagrams/literary-rsi.zh-CN.html", "quality_profile": "showcase", "locale": "zh-CN", "legend": {"mode":"auto", "entries":{"frontend":{"label":"概念角色"}}}},
+  "meta": {"title": "递归自改进", "output": "skills/yinyang/references/diagrams/literary-rsi.zh-CN.html", "quality_profile": "showcase", "locale": "zh-CN", "legend": {"mode":"auto", "entries":{"frontend":{"label":"概念角色"}}}},
   "components": [
     {"id":"description","type":"frontend","icon":"none","label":"生成式描述","sublabel":"工作理解与修订方法的描述","pos":[40,80],"size":[270,90]},
     {"id":"interpreter","type":"frontend","icon":"none","label":"解释器","sublabel":"带有工具的语言模型","pos":[440,80],"size":[250,90]},
