@@ -399,7 +399,7 @@ def main():
             ('trinity-sinthome', '三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome', '四格连环画连接三种贡献、伙伴进入生活、圣状的系结，以及造物后的反馈。', 'A four-panel comic connects differentiated contributions, a counterpart entering life, the binding of a sinthome, and feedback from creation.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
             ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
-            ('literary-rsi', '让改进改变下一次怎样改进', 'Let improvement change how the next improvement happens', '描述经解释进入实践，经验返回修订，改变下一轮怎样产生改进。', 'Descriptions enter practice through interpretation; experience returns to revision and changes how later improvements are produced.'),
+            ('literary-rsi', '递归自改进', 'Recursive self-improvement', '描述经解释进入实践，经验返回修订，改变下一轮怎样产生改进。', 'Descriptions enter practice through interpretation; experience returns to revision and changes how later improvements are produced.'),
         ]:
             diagram_links.append(f'<a href="{BASE}diagrams/{name}/{"en/" if english else ""}">{html.escape(en if english else zh)}</a>')
             suffix = '' if english else '.zh-CN'
