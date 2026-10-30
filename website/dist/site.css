@@ -44,6 +44,7 @@ body :is(a,button,summary):focus-visible{outline:2px solid var(--water);outline-
 .collection h2 a:focus-visible,.section-heading h2 a:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
 @media(max-width:767px){.collection .commentary-group{margin-top:48px}.collection .commentary-group-heading h2,.collection .stage-entry h2,.collection #practice h2{font-size:32px}.collection .commentary-group .essay-entry h3{font-size:24px}}
 /* The canvas and ink-wash artwork intentionally remain unfiltered. */
+html[data-theme="dark"] img[src$="/motifs/github.svg"]{filter:invert(1)}
 :root[data-theme="dark"] .landscape{background:#f5f7f6}
 .eyebrow,.quiet-label,.essay-meta{font-size:15px;letter-spacing:0;font-weight:400}
 .footer p,.footer>a:last-child,.source-note,.reader-provenance{font-size:14px}
