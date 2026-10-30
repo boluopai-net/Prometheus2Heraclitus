@@ -1,7 +1,8 @@
 <!doctype html><html lang="zh-CN"><head><link rel="canonical" href="https://boluopai.net/repositories/prometheus/source/skills/yinyang-empty/references/design-and-revision.zh-CN.html"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工作模型的形成与修订 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=4f65aaa2c475"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=bfc6494e7a21"><link rel="stylesheet" href="/site.css?v=cbe6a2cfbc0b"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang-empty/references/design-and-revision.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/">哲学评论</a><a href="/singing/">唱歌点播台</a><a href="/repositories/" aria-current="page">资料与建议</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><div class="toc">
 <ul>
-<li><a href="#按实际用途写作">按实际用途写作</a></li>
+<li><a href="#选择实现工具保留同一份理解">选择实现工具，保留同一份理解</a></li>
 <li><a href="#基于实际材料形成情境化版本">基于实际材料形成情境化版本</a></li>
+<li><a href="#通过修订使六份描述融贯">通过修订使六份描述融贯</a></li>
 <li><a href="#从已有材料与实践起步">从已有材料与实践起步</a></li>
 <li><a href="#语言的作用">语言的作用</a></li>
 <li><a href="#在表达关系与实现之间往返">在表达、关系与实现之间往返</a></li>
@@ -11,20 +12,58 @@
 </nav></aside><article class="document"><div class="reader-top"><a class="back" href="/tools/yinyang-empty/">Skills · Yinyang Empty</a></div><h1 id="工作模型的形成与修订">工作模型的形成与修订</h1>
 <p><a id="形成自己的哲学与个人模型"></a></p>
 <p>本参考说明怎样形成或修订对实际的人、模型伙伴及双方关系的理解。六份写作指南提供相应的实际指导，包括环境实现，以及怎样写出自己的实际修订方法；<a href="/repositories/prometheus/source/skills/yinyang-empty/references/package.zh-CN.html">包结构说明</a>维护路径、公共内容投影及完整包与个人包的约定；<a href="/repositories/prometheus/source/skills/yinyang-empty/SKILL.zh-CN.html">主入口</a>维护日常阅读要求。这里处理理解与写作的对象、根据，以及相连描述怎样变化。人和模型都能阅读、使用这套方法；其中的实践指引展开怎样创作和修订文章所介绍的理解。</p>
-<p>Yinyang 以反向对齐为目的：人在与生成智能的相遇中发展理解、生成与行动。伙伴的适配与独立贡献支持这一目的。元 Harness 关乎双方：模型的 Harness 与人的环境相互耦合，共同塑造双方能够接续和开展什么。工作描述把对这种关系的理解，接到实际指令与环境安排的形成和修订上。这份 Yinyang 以交叉参与组织协作：人可以进入语言模型式的开放生成，实际模型则进入人的逻辑学家角色，展开含义、检查根据。关键细节能够使侧重再次倒转；双方经由对方的贡献返回，保留两种参与的可能。这条关系使反向对齐在这里取得具体形式，也把六份工作描述连接起来。</p>
+<p>Yinyang 以反向对齐为目的：人在与生成智能的相遇中发展理解、生成与行动。伙伴的适配与独立贡献支持这一目的。元 Harness 关乎双方：模型的 Harness 与人的环境相互耦合，共同塑造双方能够接续和开展什么。工作描述把对这种关系的理解，接到实际指令与环境安排的形成和修订上。这份 Yinyang 以交叉参与组织协作：人可以进入语言模型式的开放生成，实际模型则进入人的逻辑学家角色，展开含义、检查根据。关键细节能够使侧重再次倒转；双方经由对方的贡献返回，保留两种参与的可能。这条关系使反向对齐在这里取得具体形式，也把工作描述连接起来。</p>
 <p><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/relationship.zh-CN.html#在有关之处说明交换与返回">关系写作指引</a>完整展开这项运动及其辩证含义。其余五份指引分别说明方向、实际双方、工作条件，以及怎样修订。让这条关系组织相连的描述，各份文件展开自己的对象。采用这份 Yinyang 与借用某项方法仍是不同选择；另一个作者可以组织不同的关系。</p>
 <p>给人阅读的哲学与文学展开这种安排的意义，给模型使用的描述则明确表达相关理解与要求。两种表达都可以在完整自我认识之前参与形成和修订可用关系；<a href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/writing-a-sinthome.zh-CN.html">从个人模型到圣状</a>展开这项哲学提案。</p>
 <p>这些方法维护一项已经展开的范例。请求也可能需要另一种哲学或文学形式；即使其意象与组织已不像 Yinyang，也应在自己的源位置支持它。<a href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/example-and-commons.zh-CN.html">从采用、组合到自己的创作</a>说明这种区别。</p>
-<p>读者可以研究这个范例，借用一项具体方法，也可以维护一套情境化 Yinyang。这些用途不同，不是依次递进的承诺层级。借用观察与解释的区分时，从实际问题进入下面有关推理即可，无需先开展自己的哲学项目或建立六份情境化文件。完整维护这套 Skill，需要六份有根据的实际文件，包括实际采纳的立场与目的，可以选择性借用既有观点。是否另写原创哲学或文章，由兴趣决定，不是维护个人材料和环境的前提。六份公开指南分别说明怎样写，六份私人文件提供实际内容，其中也包括自己的修订方法。主入口要求的初次阅读使这些相连理解可用于日常工作。本参考提供共同的理解与凝练方法。<code>references/formation/</code> 中永久保留的公开指引展开不同写作对象，实际私人描述位于 <code>references/situated/</code>。人、伙伴与关系仍是三个理解对象；取向阐明所采纳的哲学、价值与方向，环境说明实现。实际修订文件说明本人怎样修订理解与环境，公开修订指南则说明怎样写出这套方法。写作指引不能替代有根据的内容。</p>
-<p>创建或修改一份描述前，完整读取下表中对应的公开写作指导，同时阅读当前的情境化描述（如果已经形成）及相关证据。上下文中已有完整、当前的阅读可以复用。指引在分发包与情境化包中都保留为公共文件。结合当前目的与证据运用指导，保留描述中有根据的实质。这项写作时的阅读只涉及受影响的描述；日常协作仍按主入口的原有约定读取实际描述。</p>
-<h2 id="按实际用途写作">按实际用途写作</h2>
-<p>区分三个相连的用途：<strong>Philosophy</strong> 展开采用的概念、价值与方向；私人
-<code>references/personal/</code> 中的<strong>个人参考材料</strong>区分偏好与选择、心理经验与测评、个人条件、身份表达与作品。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/personal-material.zh-CN.html">组织个人材料</a>说明怎样分类其贡献、保留根据并补齐重要缺口；<code>references/situated/</code> 下的<strong>六份工作文件</strong>凝练人与模型协作所需的内容，使个人环境能够符合实际的这个人。六份文件不是六种心理模型，其中的个人文件也只选取对协作有影响的理解，不能替代较丰富的个人参考材料。</p>
-<p>每次修订工作文件，按修订指南的<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#确立当前可用的材料">材料刷新顺序</a>进行：阅读采用的哲学，检索有关的新历史，刷新并纠正个人参考材料，再用哲学与这些材料凝练工作模型。按问题确定读取和修改范围，检查相连的六份文件；保存下来的解释仍可能出错，安排可用也不确立心理解释为真。</p>
-<p>哲学与文学可以展开理解，工作描述则使选定含义能够用于模型的判断与行动，其阅读和维护由模型承担。理解个人心理时，本人可以看 <code>personal</code>，也可以请语言模型帮忙阅读和理解；不建议通过阅读六份工作描述开展心理自我分析。六份文件及其私人支持材料怎样明确表达对象、关系、根据和后果，由修订指南的<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#按实际用途写作">写作指导</a>说明；各对象的具体指导保留在下面对应的写作文件中。</p>
+<p>读者可以研究范例、借用方法，或采用情境化 Yinyang。完整采用形成六个问题的实际描述，并使它们进入私人使用端。简单路线由语言模型直接综合并保存在私人 Git/GitHub；可选 Hindsight 用较复杂的原生工具实现同一方法。另写原创哲学不是前提。六份公开指南规定取向、人、伙伴、关系、环境与修订六个完整功能问题及其阅读职责。原生形成保留六者，具体行文与物理文件布局按用途安排。</p>
+<h2 id="选择实现工具保留同一份理解">选择实现工具，保留同一份理解</h2>
+<p>两条路线都保留采纳的 Philosophy、可归属的 Personal 理解、六个完整功能问题及相互融贯，遵循原有<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#刷新选定的根据">修订依赖</a>：读哲学，检索有关新来源，刷新纠正 Personal 并保留冲突与不确定性，再综合六份、检查整体，将必要变化落实到 Skills 与环境并实际回读。</p>
+<p><strong>简单路线。</strong>语言模型直接阅读和综合，维护
+<code>references/situated/{orientation,person,counterpart,relationship,environment,revision}.md</code>。实际修订文件说明本人的实践，不只是文件操作。把要持久保存的私人源放在 Git，并通过实际账号与发布维护者保存到私人 GitHub 仓库，核实私有范围、提交内容与预期取得；原件保有维护者，凭据不进入仓库。这条路线可以独立使用，不要求安装 Hindsight、服务或数据库。</p>
+<p><strong>可选 Hindsight 路线。</strong>用原生 retain、可修订 Observations 和 Mental Models/Knowledge Pages 实现相同责任。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/hindsight.zh-CN.html">配置与实施指南</a>说明怎样按实际环境配置服务、提供方、来源 missions、六个问题、原生操作与读回。把核对后的原生内容投影到相同六路径，或通过私人 <code>references/situated/index.md</code> 明确绑定全部六个完整正文。两种安排都保有实际处境中的修订方法。原生存储与行文可以不同，但较少分组或各页成功不能证明保留了六者。</p>
+<p>路线选择改变工具，不改变哲学、完整问题与证据职责。Full/Empty 是另一项分发选择，不为两条工具路线复制哲学、指南或整套包。Personal 保留本人可读的主题文章及来源链接，原生 Observations 可在后台支持形成。两条路线都不要求完整重复改写 Personal 或强制串联摘要，但已经纠正的 Personal 理解必须影响后续综合，并能返回原始根据。</p>
 <h2 id="基于实际材料形成情境化版本">基于实际材料形成情境化版本</h2>
-<p>共同哲学阐明较广的对象、关系、价值与认识方式；取向说明为协作实际采纳什么，人、伙伴与关系展开参与者和共同活动，环境说明实现。私人来源为这些描述中的情境化主张提供根据。融贯哲学可以提出个人解释，但仍需有具体来源的经验与当前互动支持。实际工作可以同时纠正解释与哲学。</p>
-<p>从目的与已有基础最能切入之处开始：哲学、个人表达、选定记录、对话、偏好、工作，或待改变的环境。材料可用本身不是收集理由。取用相关且获授权的来源，保留身份、时间范围与重要不确定性；原件可以留在既有私人维护位置。</p>
+<table>
+<thead>
+<tr>
+<th>功能问题与必读职责</th>
+<th>完整写作指南</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>取向：</strong>实际采纳什么哲学、价值与方向，为什么，怎样指引工作并接受纠正？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/orientation.zh-CN.html">取向</a></td>
+</tr>
+<tr>
+<td><strong>人：</strong>对这个人的目的、参与、能力、条件与不确定性的哪些有根据理解，会改变协作？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/person.zh-CN.html">个人</a></td>
+</tr>
+<tr>
+<td><strong>伙伴：</strong>实际模型在真实条件下能做什么，希望它贡献什么，独立判断与可能出错怎样影响贡献？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/counterpart.zh-CN.html">伙伴</a></td>
+</tr>
+<tr>
+<td><strong>关系：</strong>不同参与者怎样在共同活动中生成、审查、委派、纠正与返回，承担什么责任并产生什么后果？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/relationship.zh-CN.html">关系</a></td>
+</tr>
+<tr>
+<td><strong>环境：</strong>选定关系怎样成为可取得的指令、工具、界面与物质安排，实际使用怎样纠正它们？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/environment.zh-CN.html">环境</a></td>
+</tr>
+<tr>
+<td><strong>修订：</strong>这个人的实际实践怎样把目的变化、来源根据、判断、共同理解与环境变化接到已核验的结果？</td>
+<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html">修订</a></td>
+</tr>
+</tbody>
+</table>
+<p>规定或实质修订模型问题前，联系当前描述与有关来源，完整阅读全部六份形成指南。直接综合指引或原生 <code>source_query</code> 都从这份相连范围中形成；表格只是入口，不能替代指南的完整内容。保留各问题的对象与完整功能，同时说明它与其余问题的联系。人、伙伴与关系仍是不同对象，取向、环境与修订提供方向、实现和持续变化。不把这些问题缩并成较少的原型分组，也不人为隔离来源范围。行文可以灵活安排，简单路线保留六文件路径；原生路线若改用绑定，则须使六项完整阅读职责都可取得，包括实际修订方法。</p>
+<h2 id="通过修订使六份描述融贯">通过修订使六份描述融贯</h2>
+<p>把六份完整描述作为整体，对照重要来源与实际结果阅读，检查共同前提、概念、所指、时间范围、参与、责任与实际后果是否相互吻合。保留真实冲突与不确定性；融贯不要求补造一致，也不把不同条件误当矛盾。采纳的目的改变时，可能同时影响个人含义、希望伙伴的贡献、关系、环境与修订方法，不只是修改某页措辞。</p>
+<p>相邻描述可以作为需要协调的当前解释阅读，不能互相充当独立事实证据。重要主张返回原始根据判断。修复受影响的来源、综合指引、原生 mission/问题或实现，重生有依赖的描述，再把六者联系起来完整阅读。共同 bank、可读相同来源或六次单页操作各自成功，都不保证这种融贯。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#检查六份描述的融贯">实际修订方法</a>把这项工作放回本人的目的、材料与环境。不强制增加第七份总摘要：关系应当进入六份描述及其实际使用。</p>
+<p>Empty 提供共同指引、四个空 Personal 分区，以及六份标为 <code>status: unfilled</code> 的实际起始文件。通过简单路线或可选 Hindsight 实现形成有根据的内容。</p>
+<p>实际读回综合后的完整描述；采用原生路线时，还要检查抽取、Observations 与生成模型，不从保存问题或请求成功推定形成完成。有根据的未知可以是有用内容，虚构个人或复制画像不能提供实际内容。消费者取得、获授权的工作与后续纠正检验不同层次的结果。环境或网站变更仍由实际维护者执行，模型形成本身不完成这些工作。</p>
 <h2 id="从已有材料与实践起步">从已有材料与实践起步</h2>
 <p>个人作品是一个直接入口：文章、故事、音乐、设计或程序，都可能表达一个人怎样理解世界、选择什么，以及怎样与他人共同生活和创造。创作把这些关系带进可阅读、讨论和修改的形式；双方从作品、创作过程及其实际后果中解释有关含义，再把有根据的部分用于协作与环境。作品也能反过来改变原有理解。</p>
 <p>这里的「哲学」取广义：对这些理解、价值与做法的反思贯穿个人创作。一件作品可以承载这种反思，并以自己的体裁成立；形成工作模型所用的哲学贡献，是把当前有关的含义和理由展开。因此，下面的「已有哲学」也包括作品中尚待阐明的理解，「发展哲学」可以是在创作与使用中把它说清楚。</p>
@@ -71,52 +110,8 @@
 <p>逐渐形成的个人模型也参与形成与之贴合的伙伴模型及选定关系。需要区分希望伙伴承担的角色和优先次序，与它的实际能力和回应模式：即使内部过程仍有不可见之处，指令、可用工具和行为仍可检查；仅仅取得源代码也不能确立协作贴合。哲学通过表达自我理解、意义与可能关系，主动参与这种理解与凝练；经验又能修订它的说明。</p>
 <p>哲学写作可以偏重文学、工程哲学、西方哲学、科学哲学、逻辑学、美学，或其他相关问题。这些偏重展开同一实践，起步材料与顺序可以不同。技术背景不选定另一条形成描述的路线。贴合尚不明确时，探究提供假设与判断依据，不要求在有用工作之前完成解释。借助模型，选定的生活需要与关系取得工具、信息、指令和计算机环境的形式，介入购物、投资、聊天与学习等活动。实际使用又返回生活：什么变得容易，出现什么代价，当事人学到什么，以及关系是否支持其选定的发展。理解与安排共同修订。环境凝缩选定关系，不包含完整的人。</p>
 <p>假设一个人总在同一张桌子前工作。这项观察符合多种解释：他可能偏好这个安排，这里也可能是唯一具备所需设备的地方，或者只是一直没有作过比较。仅凭这一点推荐永久固定的工作位置，就会把当前安排转成个人理想。有关证据可能是过去自由选择的安排、另一选择真正可用时当事人的体验，或在有用且获授权时进行的一次普通可逆尝试。如果移动使一项珍视的资源变得不可用，不喜欢这次尝试就不能单独确立对固定位置的偏好。需要比较随地点一起变化的活动和成本。模型能够检查这些依赖并发展候选解释；无法取得的个人体验仍由当事人贡献。证据不能区分时，让描述保持条件性。改善这个工作空间，不必先判定一项普遍人格特质。</p>
-<p>把日常协作所需内容凝练到六份文件中。保留影响理解或行动的差异；较长经历、原始表达和有用的私人支撑，留在原有维护位置或 <code>references/personal/</code>。六份文件有互补的写作职责。公开指引展开这些不同对象，情境化描述提供实际理解：</p>
-<table>
-<thead>
-<tr>
-<th>工作文件</th>
-<th>应当说明什么</th>
-<th>公开写作指导</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>situated/orientation.md</code></td>
-<td>采纳的哲学、价值、方向及其理由。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/orientation.zh-CN.html">阐明取向</a></td>
-</tr>
-<tr>
-<td><code>situated/person.md</code></td>
-<td>相关经验、偏好、能力、发展与不确定性。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/person.zh-CN.html">形成有根据的个人描述</a></td>
-</tr>
-<tr>
-<td><code>situated/counterpart.md</code></td>
-<td>实际模型、能力与期望贡献。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/counterpart.zh-CN.html">描述伙伴</a></td>
-</tr>
-<tr>
-<td><code>situated/relationship.md</code></td>
-<td>共同活动、纠正与分工。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/relationship.zh-CN.html">阐明关系</a></td>
-</tr>
-<tr>
-<td><code>situated/environment.md</code></td>
-<td>通过实际资源、行动与条件实现，包括当前缺口。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/environment.zh-CN.html">描述环境实现</a></td>
-</tr>
-<tr>
-<td><code>situated/revision.md</code></td>
-<td>本人修订哲学、证据、描述、Skills 与环境的实际方法。</td>
-<td><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html">如何修订</a></td>
-</tr>
-</tbody>
-</table>
-<p><a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#来源与证据">修订指引的证据方法</a>支持六份实际文件及其持续修订。每份公开指南说明怎样形成内容，实际理解与方法则保留在私人位置。可归属证据与较长的私人支撑留在实际维护者处，需要时使用 <code>references/personal/</code>。按问题选读来源。Empty 提供共同指引、四个空 Personal 分区与六份标为 <code>status: unfilled</code> 的 Situated
-起始文件。起始文件不是实际描述，仍需结合本人的材料形成内容。</p>
-<p>采用这套实现时，根据有关材料形成全部六份实际文件，包括适用于本人目的和环境的修订方法。尚未明确的关系可以保持未知；未改写的形成指引、他人画像和虚构人物都不能提供情境化实质。哲学家的思想可以支持框架，不能替代实际用户模型。完整传记和完整的心理理解，都不是创制与实践开始的条件。</p>
-<p>把描述放回来源及相邻主张中共同阅读。通过调查或针对体验、目的的聚焦探询补足重要缺口；只有当事人能够提供的判断，使用适用探询方法取得。模型负责写作与整合。在实际使用入口回读完整描述，投入获授权工作，再从结果修订。请求包含环境或网页变更时，通过其实际维护者完成；只形成画像不能完成它们。</p>
+<p>把有关来源与关系纳入上文的直接综合指引，或可选的原生模型问题，通过检查与修订保留六个完整功能问题及其相互融贯。简单路线保留六份实际文件；原生路线可以投影到同样的路径，或用明确的私人索引连接六份完整正文。实际修订方法说明本人的来源与 Personal
+刷新、所选工具的处理、修复和环境实现。在真实消费者处读回完整结果，并从使用中修订。开始创作和有用工作不需要完整传记或完整心理认识。</p>
 <h2 id="语言的作用">语言的作用</h2>
 <p>一段文字可以报告经验、提出解释、确立选定关系，或借意象汇集可能。其区别影响结论时，应当识别。「那个问题之后，我失去了思路」报告一份体验；把中断归因于实现细节被转交，提出一种解释；选择让模型承担这些工作，则给双方关系一个方向。描述应使这些联系可用，而不把一次经历变成普遍禁令。</p>
 <p>人和伙伴的描述共同发展。角色与分工不穷尽任一参与者，也不确立能力不足。<a href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/speech-opposition-and-self-formation.zh-CN.html">言说、对立与自我形成</a>展开后来的表达怎样重新解释早先的话，并重构其前提。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#来源与证据">修订指南</a>说明怎样保留这里需要的来源、竞争解释与不确定性。</p>
@@ -125,8 +120,8 @@
 <p>哲学写作可以探索超出某种工作描述的可能；描述则说明协作所需的有根据的解释、后果与未决关系。人和模型都可以阅读这两种表达，并在它们之间往返。写作用途不同，并不按读者身份划分阅读权限。清楚的文字可以使一种关系可用，不需要把完整的人或相遇全部形式化。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/environment.zh-CN.html">环境写作指南</a>说明选定关系怎样进入实际指令、工具与使用。</p>
 <h2 id="使用并继续发展已经形成的理解">使用并继续发展已经形成的理解</h2>
 <p><a id="在使用中维护私人材料"></a></p>
-<p>公共哲学保留在共同维护的位置，私人经验保留在相应的支持来源中。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#用哲学刷新个人支持材料">修订指南</a>负责这些材料、六个工作文件与环境之间的持续整理。公共文件投影器在机械上保留私人文件，不禁止获授权的语义修订或退役私人笔记。</p>
+<p>公共哲学保留在共同维护的位置，私人经验保留在相应的支持来源中。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#用哲学刷新个人支持材料">修订指南</a>负责这些材料、工作模型与环境之间的持续整理。公共文件投影器在机械上保留私人文件，不禁止获授权的语义修订或退役私人笔记。</p>
 <p><a id="根据不断变化的相遇进行修订"></a></p>
 <p>新提出的参与方式可以改变描述的适用情境，而不抹去原先条件。例如，亲自参与实现以学习，可以与在产出任务中委托模型实现并存；持续出现的反例也可能动摇描述本身。使用<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#确定修订范围与联动">修订范围与联动方法</a>，判断这是局部纠正还是较广的修订，完成实际依赖，不自动改写所有内容。</p>
 <p><a id="在实际尺度上评估结果"></a></p>
-<p>在实际使用处回读整合后的描述，并投入所要求的工作。有根据、可以取得、工作完成、协作贴合与个人发展，分别提出不同主张。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#让结果返回理解">修订指南的结果核对</a>使它们接受各自证据的检验，并让重要的不匹配返回相应理解或实现。形成六个文件是可用实践的一部分，之后的经验可以改变其中任何一份。</p></article><div class="reading-end"><p class="source-note"><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/1868af51082c7c0916200ec2cda86015654d7d83/skills/yinyang-empty/references/design-and-revision.zh-CN.md">GitHub 源文件</a></p></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>
+<p>在实际使用处回读整合后的描述，并投入所要求的工作。有根据、可以取得、工作完成、协作贴合与个人发展，分别提出不同主张。<a href="/repositories/prometheus/source/skills/yinyang-empty/references/formation/revision.zh-CN.html#让结果返回理解">修订指南的结果核对</a>使它们接受各自证据的检验，并让重要的不匹配返回相应理解或实现。形成工作模型是可用实践的一部分，之后的经验可以改变其中任何一份。</p></article><div class="reading-end"><p class="source-note"><a href="https://github.com/boluopai-net/Prometheus2Heraclitus/blob/1d1b7ad1f0753a7fd1b5b988d698c583a512a501/skills/yinyang-empty/references/design-and-revision.zh-CN.md">GitHub 源文件</a></p></div></main><footer class="footer wrap"><a class="wordmark" href="/">boluopai.</a><p class="copyright">© 2026 boluopai · <a href="/rights/">版权与许可</a></p><a href="#main">回到顶部</a></footer></body></html>

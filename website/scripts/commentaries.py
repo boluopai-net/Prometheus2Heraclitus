@@ -39,6 +39,7 @@ GROUPS = [
     ('实践：持续检验与共同创造', 'Practice: continued testing and shared creation', [
         ('local-source-and-website', '承接已形成的个人安排，说明哲学、心理与工程怎样在本地使用、源内容和作品之间继续维系与修订。'),
         ('embodied-experimental-philosophy', '考察持续使用的后果：修订实现、个人理解或哲学，并区分安排改善与人的能力发展。'),
+        ('literary-recursive-improvement', '以 RSI 研究展开身体、生成式描述与解释器，让文学写作参与改进人的学习、创造与修订方法。'),
         ('example-and-commons', '让实践留下的作品与方法成为他人的资源，接续新的创造，也把新的相遇带回自己的生活。'),
     ]),
 ]
@@ -70,6 +71,7 @@ EN_SUMMARIES = {
     'meng': 'First establish when openness, shared learning, and guidance support adaptation, giving the baby’s cultivation a rationale.',
     'local-source-and-website': 'Receive the formed personal arrangement and explain how philosophy, psychology, and engineering sustain and revise it across local use, source, and works.',
     'embodied-experimental-philosophy': 'Examine continued use: revise realization, personal understanding, or philosophy, distinguishing improvements to arrangements from development of human capabilities.',
+    'literary-recursive-improvement': 'Develop body, generative description, and interpreter through RSI research, letting literary writing improve human methods of learning, creating, and revising.',
     'example-and-commons': 'Let works and methods from the practice become resources for others, continuing creation and bringing new encounters back into one’s own life.',
 }
 EXTENSIONS = [
