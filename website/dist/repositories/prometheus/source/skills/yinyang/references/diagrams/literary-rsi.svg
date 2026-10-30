@@ -6,21 +6,21 @@
   <rect width="1200" height="700" rx="24" fill="#f8faf9"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif" fill="#203b3d">
     <text x="64" y="75" font-size="31" font-weight="700">Let improvement change how the next improvement happens</text>
-    <text x="64" y="108" font-size="17" fill="#647c7c">The method enters the next round through description, interpretation and realization</text>
+    <text x="64" y="108" font-size="17" fill="#647c7c">The revised method description shapes the next round through interpretation and realization</text>
     <g fill="#ffffff" stroke="#a9c5c1" stroke-width="1.5">
       <rect x="64" y="160" width="280" height="120" rx="15"/><rect x="460" y="160" width="280" height="120" rx="15"/><rect x="856" y="160" width="280" height="120" rx="15"/>
       <rect x="64" y="450" width="280" height="120" rx="15"/><rect x="460" y="450" width="280" height="120" rx="15"/><rect x="856" y="450" width="280" height="120" rx="15"/>
     </g>
     <g text-anchor="middle" font-size="20" font-weight="650">
-      <text x="204" y="207">Generative description Δₜ</text><text x="600" y="207">Interpreter I</text><text x="996" y="207">Distributed practice Bₜ → Bₜ₊₁</text>
-      <text x="204" y="497">Evidence and history H</text><text x="600" y="497">Comparison and revision R</text><text x="996" y="497">Experience and results</text>
+      <text x="204" y="207">Generative description</text><text x="600" y="207">Interpreter</text><text x="996" y="207">Distributed practice</text>
+      <text x="204" y="497">Evidence and history</text><text x="600" y="497">Comparison and revision</text><text x="996" y="497">Experience and results</text>
     </g>
     <g text-anchor="middle" font-size="14" fill="#5e7473">
-      <text x="204" y="241">Working view W + description of R</text><text x="600" y="241">Language model with tools</text><text x="996" y="241">Person and body, tools and supports</text>
+      <text x="204" y="241">Working view + method description</text><text x="600" y="241">Language model with tools</text><text x="996" y="241">Person and body, tools and supports</text>
       <text x="204" y="531">Retained evidence + Git versions</text><text x="600" y="531">Reconsider understanding and method</text><text x="996" y="531">What happens in practice</text>
     </g>
     <g fill="none" stroke="#477f7d" stroke-width="2.5" marker-end="url(#arrow)"><path d="M344 220H460"/><path d="M740 220H856"/><path d="M996 280V450"/><path d="M856 510H740"/><path d="M344 510H460"/><path d="M600 450V365H204V280"/></g>
-    <g text-anchor="middle" font-size="13" fill="#54706f"><text x="402" y="207">interpret</text><text x="798" y="207">enact</text><text x="1038" y="367">yields</text><text x="798" y="497">compare</text><text x="402" y="497">compare / recover</text><text x="401" y="351">revise W and the description of R</text></g>
+    <g text-anchor="middle" font-size="13" fill="#54706f"><text x="402" y="207">interpret</text><text x="798" y="207">enact</text><text x="1038" y="367">yields</text><text x="798" y="497">compare</text><text x="402" y="497">compare / recover</text><text x="401" y="351">revise the description</text></g>
     <path d="M64 626H1136" stroke="#d8e6e3"/><text x="64" y="658" font-size="16" fill="#647c7c">Versions retain changes; experience helps explain their meaning.</text>
   </g>
 </svg>

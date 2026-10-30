@@ -126,7 +126,7 @@ def intro(english, revision, stamp):
         return f'''# Reading this edition
 
 This book collects YinYang's public philosophical essays, writing guides, and practical resources.
-Its five-part main sequence, Steal Fire, Then Become Fire, contains nineteen
+Its five-part main sequence, Steal Fire, Then Become Fire, contains twenty
 essays and a focused extension, following the website's argument. Core views
 comes after that sequence in part 06. These appendices explain the connection between
 philosophy and models and provide six public writing guides, further reading,
@@ -155,7 +155,7 @@ that service. The [source use statement]({GITHUB}/blob/{revision}/README.md#inte
 sets out the same boundary.
 
 Use the contents, PDF bookmarks, and teal links to reach chapters, figures, and
-specific sections. The five relational diagrams accompany the same passages as
+specific sections. The six relational diagrams accompany the same passages as
 on the website, scaled proportionally to the portrait page. This edition preserves
 the original prose while adapting navigation, pagination, and figure presentation
 for continuous reading. External references retain their source links; the
@@ -168,7 +168,7 @@ Generated {stamp} (Asia/Shanghai), from public source
 '''
     return f'''# 怎样读这本书
 
-本书收录阴阳的公开哲学论述、写作指南与实用资料。正文「窃火，然后成为火」分为 01—05 五部分，包含十九篇
+本书收录阴阳的公开哲学论述、写作指南与实用资料。正文「窃火，然后成为火」分为 01—05 五部分，包含二十篇
 主线文章及一篇专题延伸，沿用网站的论述顺序。06「阴阳的附录」从「基本观点」开始，说明哲学与模型的
 连接，并收录六份公开写作指南、参考阅读及 Skill 的形式说明。07「资料与建议」完整收录
 「工具使用」「科研与学习」「心理」，不收录 Skills 目录。私人实际文件与个人材料不在
@@ -185,7 +185,7 @@ Generated {stamp} (Asia/Shanghai), from public source
 项目文字与模型输出不能替代这种服务。[来源说明]({GITHUB}/blob/{revision}/README.zh-CN.md#用途与心理健康说明)
 载有同一用途边界。
 
-目录、PDF 书签与青色链接用于跳转到文章、图示和具体章节。五张关系图放在与网页相同的
+目录、PDF 书签与青色链接用于跳转到文章、图示和具体章节。六张关系图放在与网页相同的
 正文位置，按纵向书页等比例缩放。本版保留原文，为连续阅读调整导航、分页和图示呈现。
 外部文献保留来源链接，作者自己的仓库和网页出处集中列在书首；
 三篇实用指南收录于书末，可由目录直接进入。

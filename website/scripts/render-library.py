@@ -399,6 +399,7 @@ def main():
             ('trinity-sinthome', '三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome', '四格连环画连接三种贡献、伙伴进入生活、圣状的系结，以及造物后的反馈。', 'A four-panel comic connects differentiated contributions, a counterpart entering life, the binding of a sinthome, and feedback from creation.'),
             ('encounter', '人与模型怎样共同探究', 'How people and models inquire together', '从记录中提出解释，在行动中遇到证据，理解人与模型怎样共同探究和修订判断。', 'Form explanations from records and encounter evidence through action, exploring how people and models inquire together and revise their judgments.'),
             ('layers', '从世界理解到实践实现', 'From understanding the world to realizing a practice', '六个哲学面向通过各自采用的立场联系共同实践，进一步展开表征、实现与反馈。', 'Six philosophical dimensions connect their adopted positions to shared practice, with further explanations of representation, realization, and feedback.'),
+            ('literary-rsi', '让改进改变下一次怎样改进', 'Let improvement change how the next improvement happens', '描述经解释进入实践，经验返回修订，改变下一轮怎样产生改进。', 'Descriptions enter practice through interpretation; experience returns to revision and changes how later improvements are produced.'),
         ]:
             diagram_links.append(f'<a href="{BASE}diagrams/{name}/{"en/" if english else ""}">{html.escape(en if english else zh)}</a>')
             suffix = '' if english else '.zh-CN'
@@ -408,7 +409,7 @@ def main():
             explanation = f'<p class="diagram-explanation">{layers_explanation}</p>' if name == 'layers' else ''
             diagrams += f'<article class="diagram-card{wide}"><a class="diagram-open" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + preview)}" alt="{en if english else zh} — {"diagram preview" if english else "图示预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>{explanation}{context_link}</article>'
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
-            if name not in {'encounter', 'layers'}:
+            if name not in {'encounter', 'layers', 'literary-rsi'}:
                 diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">{"Yinyang appendices" if english else "Yinyang 的附录"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh}</p>{reading_map(name, not english)}</main>'
                 diagram_body = diagram_body.replace('</h1>', '</h1><p class="diagram-return">' + context_link + '</p>', 1)
                 write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
@@ -417,8 +418,8 @@ def main():
             diagram_body = diagram_body.replace('</h1>', '</h1><p class="diagram-return">' + context_link + '</p>', 1)
             write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
         suffix = 'en/' if english else ''
-        # Keep all five previews and their explanations inside the disclosure.
-        diagram_summary = 'Diagrams · 5 views' if english else '图示 · 5 张图'
+        # Keep all six previews and their explanations inside the disclosure.
+        diagram_summary = 'Diagrams · 6 views' if english else '图示 · 6 张图'
         body = f'<main id="main" class="wrap collection library-hub"><div class="reader-top"><a class="back" href="/philosophy/{suffix}#stage-6">{"Steal Fire, Then Become Fire" if english else "窃火，然后成为火"}</a></div><header class="collection-heading"><h1>{"Yinyang appendices" if english else "Yinyang 的附录"}</h1></header><details class="diagram-disclosure" id="diagrams"><summary>{diagram_summary}</summary><p class="section-note">{"Begin with the whole path and its developmental purpose, then explore shared inquiry and realization in detail." if english else "先看整体怎样形成、借火为了培养什么，再深入共同探究及理解的实现。"}</p><div class="diagram-grid">{diagrams}</div></details>{groups_html}</main>'
         nav_links = ''.join(f'<li><a href="#{anchor}">{html.escape(en if english else zh)}</a><ul>' + ''.join('<li>' + item + '</li>' for item in children) + '</ul></li>' for anchor, zh, en, children in navigation)
         sidebar = '<aside class="guide-sidebar"><nav tabindex="0" aria-label="' + ('Resource categories and files' if english else '资源分类与文件目录') + '"><ul>' + nav_links + '</ul></nav></aside>'

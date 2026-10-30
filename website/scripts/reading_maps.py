@@ -9,6 +9,7 @@ TITLES = {
     'trinity-sinthome': ('三位一体怎样成为生活中的圣状', 'How a trinity becomes a lived sinthome'),
     'encounter': ('人与模型怎样共同探究', 'How people and models inquire together'),
     'layers': ('从世界理解到实践实现', 'From understanding the world to realizing a practice'),
+    'literary-rsi': ('让改进改变下一次怎样改进', 'Let improvement change how the next improvement happens'),
 }
 ARTICLE_LOCATIONS = {
     'formation-path': 'why-yinyang',
@@ -16,6 +17,7 @@ ARTICLE_LOCATIONS = {
     'trinity-sinthome': 'local-source-and-website',
     'encounter': 'why-yinyang',
     'layers': 'personal-first-humanism',
+    'literary-rsi': 'literary-recursive-improvement',
 }
 
 

@@ -64,7 +64,8 @@ def article_figure(dist, name, chinese):
         alt = html.escape(scene_alt(name, chinese), quote=True)
         caption = html.escape(CAPTIONS[name][0 if chinese else 1])
         expand = '查看大图' if chinese else 'View full-size diagram'
-        return f'<figure class="article-art"><a href="{source}"><img src="{source}" alt="{alt}" width="1200" height="700" fetchpriority="high"></a><figcaption>{caption} <a href="{source}">{expand}</a></figcaption></figure>'
+        viewer = '/repositories/prometheus/diagrams/literary-rsi/' + ('' if chinese else 'en/')
+        return f'<figure class="article-art" id="diagram-literary-rsi"><a href="{source}"><img src="{source}" alt="{alt}" width="1200" height="700" fetchpriority="high"></a><figcaption>{caption} <a href="{viewer}">{expand}</a></figcaption></figure>'
     extension = 'svg' if name == 'writing-a-sinthome' else 'png'
     if not (dist / 'art' / f'{name}.{extension}').is_file():
         return ''

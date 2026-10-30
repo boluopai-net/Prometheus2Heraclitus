@@ -571,7 +571,7 @@ accessible identity. These ordinary lists remain directly available in their
 existing responsive layout.
 
 The philosophy book overview and its articles are the deliberate exception:
-their nineteen-essay book navigation and separate article navigation may use
+their twenty-essay book navigation and separate article navigation may use
 “目录” / “Contents” and “本文目录” / “On this page” to distinguish their scope.
 On narrow screens both disclosures start closed and open only through the
 reader's action. Wide desktop rails remain visible. Author the closed state in
@@ -734,7 +734,7 @@ reads an exact committed source revision; the main sequence comes from
 appendices in part 06 and three complete practical guides in part 07:
 Tool use, Research and Learning, and Psychology. The Skills directory is not
 included. Private actual files and personal evidence are excluded.
-“Steal Fire, Then Become Fire” names the complete nineteen-essay main sequence,
+“Steal Fire, Then Become Fire” names the complete twenty-essay main sequence,
 not just its opening essay. Core views follows that whole sequence and its
 existing focused extension. Figures use `reading_maps.diagram_placements`,
 the same article and paragraph locations as the website reader. Gallery order
@@ -826,8 +826,8 @@ and repositories landing page, leaving the singing section intact.
 The same command projects selected common essays into Chinese
 `/philosophy/SLUG/` and English `/philosophy/SLUG/en/` editions. The visible
 argument is “窃火，然后成为火 / Borrow Fire, Then Become Fire”: five structural
-chapters with nineteen main articles and one focused branch article. Its 42
-canonical pages are two overview editions and forty essay editions. Chapter
+chapters with twenty main articles and one focused branch article. Its 44
+canonical pages are two overview editions and forty-two essay editions. Chapter
 headings link directly to their first essay; child links open the selected
 essay. There are no separate chapter introductions or introduction JSON source.
 `scripts/commentaries.py` owns the chapter map and article order. Twelve
