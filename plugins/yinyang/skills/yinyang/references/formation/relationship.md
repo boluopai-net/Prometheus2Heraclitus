@@ -76,8 +76,7 @@ asks whether another position or actual result can change a self-reinforcing
 direction. Describe what is returned and how it can affect the shared account
 or action. Alternation, a dissenting tone, and a feedback label do not establish
 effective correction. Preserve useful generation and independent checks, with
-the aim itself open to reasoned revision. This is a chosen cooperative relation,
-not evidence of a measured psychological control system.
+the aim itself open to reasoned revision.
 
 ## Let correction change the shared understanding
 

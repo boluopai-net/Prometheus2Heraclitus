@@ -211,7 +211,7 @@ This illuminates a shared question: which premise sustains the impasse, and
 what alternative changes its practical meaning? LBT gives that question its
 own method; Lacanian reversal examines the subject's position in speech and
 relations. A revised premise may participate in a changed position, but these
-are distinct claims. Here the comparison develops a philosophical argument.
+are distinct claims.
 
 ## How a solution becomes a new problem
 
@@ -254,7 +254,7 @@ The order of formation retains return: using personal models and arrangements ca
 
 Records can retain what was expressed, who spoke in which situation and to whom, and how a later response changes the present reading of earlier words. The original expression and its successive interpretations remain distinguishable. Determining a speaking position or an interpretation still requires the exchange and its grounds; recording fields alone does not perform that work.
 
-A formal comparison can examine what follows from selected premises. Accepting that participants who need to choose for themselves should receive comparable options, then accepting that someone needs to choose for themself, commits us to the corresponding design requirement. The inference does not independently establish the premises' fit to the person. An actual formalization would need to specify its language, the relations represented, and its inference rules; the prose example needs only this conditional connection.
+A formal comparison can examine what follows from selected premises. Accepting that participants who need to choose for themselves should receive comparable options, then accepting that someone needs to choose for themself, commits us to the corresponding design requirement. The inference does not independently establish the premises' fit to the person.
 
 Under classical monotonic inference, retaining contradictory premises and adding another premise cannot remove the contradiction. Premise reconstruction here may require withdrawing, qualifying, or replacing a determination. Formal consequences, factual grounds, and practical adequacy need their respective checks. [Reasoning in an unfinished flow](reasoning.md) and [How preference participates in choice and inference](preference-harness.md) carry the further methodological discussion.
 

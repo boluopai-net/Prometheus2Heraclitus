@@ -6,8 +6,7 @@ Use this guide to locate the intellectual sources behind YinYang's arguments
 and neighboring works that help examine them.
 The [reading map](../reading-map.md) locates the arguments themselves; this page
 explains which originals bear on them, which are proposed comparisons, and where
-an interpretation extends its source. Select by question and read the relevant passage in context. These
-sources neither supply a personal portrait nor establish a psychological mechanism.
+an interpretation extends its source. Select by question and read the relevant passage in context.
 
 ## Heraclitus: fire, measure, and opposing tension
 

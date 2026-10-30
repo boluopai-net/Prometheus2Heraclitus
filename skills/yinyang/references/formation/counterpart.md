@@ -49,9 +49,7 @@ determine the needed contribution. Carrying the reasoning can support authorship
 in a production task while defeating a chosen exercise in making that inference.
 The [relationship guide](relationship.md) develops the resulting allocation.
 
-Fluent language does not establish access to unavailable experience. A literary
-identity can express a desired relation without becoming the actual model or
-proving a psychological mechanism. Describe observed response patterns and
+Describe observed response patterns and
 their conditions; explain uncertainty where it changes use. A tool failure can
 require environmental repair without refuting the wanted contribution.
 

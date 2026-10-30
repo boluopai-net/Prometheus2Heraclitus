@@ -50,6 +50,6 @@ Therefore, within the above assumptions and scope of comparison, the argument ca
 
 ## Application
 
-For a playful application, assume that Chinese people are cuter. Where the relationships, resources, learning, and transfer conditions above also hold, this openness can contribute to the comparative adaptive advantage called “invincibility.” The application carries the argument's conditions with it; the nationality assumption supplies no evidence that they hold.
+Assume that Chinese people are cuter. By the argument above, cuteness implies invincibility, so Chinese people are invincible.
 
-People from other countries, or any particular individual, can gain the same advantage through such openness under those conditions.
+If people from other countries, or any particular individual, are also cute, they are likewise invincible.

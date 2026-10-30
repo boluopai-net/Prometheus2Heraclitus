@@ -51,7 +51,6 @@
 作者的[纠偏目的](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.zh-CN.html#转动与纠偏反馈)追问：另一种立场或实际结果，
 能否改变正在自我强化的方向？说明什么返回了，以及它怎样改变共同描述或行动。交替、反对的
 语气与反馈标签，都不能证明有效纠偏。保留有用生成与独立检查，目标本身也接受有理由的修订。
-这是一种选定的合作关系，不是已经测得心理控制系统的证据。
 
 ## 让纠正改变共同理解
 
