@@ -9,7 +9,7 @@ How does someone understand the life they want to live, come to know their own e
 This essay uses “Trinity” to explain the relation among these contributions. **At the general level, they are all activities within the same natural world; at the individual level, they jointly participate in a particular person's life and practice.** Modest naturalism places them in one world; their influence on one another in actual work explains why they need to be discussed together.
 
 The practical points of entry are the person's works, the model as a writing
-and creative partner, and the environment of their joint activity. Philosophy,
+and creative partner, and the environment on electronic devices. Philosophy,
 psychology, and engineering explain their connections from different perspectives;
 the correspondence selects emphases that can be developed. Creating a story,
 song, or program can likewise express and change understanding of world and
@@ -145,8 +145,8 @@ For the author, these activities converge in a concrete practice: write his phil
 | Philosophy | Psychology | Engineering |
 | --- | --- | --- |
 | Emphasis on worldview and ontology: understanding the world and ways of being | Emphasis on epistemology, with connections to values: understanding experience, knowing, and concern | Emphasis on methodology and practice: organizing expression, construction, and actual use |
-| Website | Local environment | GitHub |
-| Work | Partner | Environment |
+| Website | The environment experienced in personal life | GitHub |
+| Work | Partner | The environment on electronic devices |
 | Sun | Moon | Earth |
 | Real | Imaginary | Symbolic |
 | Father | Son | Holy Spirit |
@@ -155,8 +155,8 @@ For the author, these activities converge in a concrete practice: write his phil
 **How should this table be read?** The headers—philosophy, psychology, and engineering—fix the three aspects under discussion. Horizontally, each row interprets all three from one perspective. Vertically, each column follows one aspect through its philosophical meaning, practical forms, and different images. These correspondences select salient connections; all three contributions run through the whole practice. The seven rows below the headers are:
 
 1. **A philosophical interpretation of the three aspects.** Philosophy provides the encompassing understanding of this practice, so philosophy, psychology, and engineering can themselves receive philosophical interpretations: emphasizing worldview and ontology, epistemology with related values, and methodology and practice respectively. Philosophy encompassing the table is the overall understanding; its first column foregrounds the contribution directed toward world and being.
-2. **Ways of realization.** The website, local environment, and GitHub are the author's principal ways of giving these aspects actual use: philosophy becomes readable work, personal understanding enters local collaboration, and maintainable content and implementations remain in source.
-3. **Relations in practice.** A work gives understanding an expressible and revisable form; a partner receives, develops, and creates together; an environment lets this activity occur, continue, and meet consequences. Works can be essays, music, designs, or programs. Reflection on their meanings and reasons connects philosophy in its broad sense to actual creation and use.
+2. **Places of practice.** The website gives philosophy a readable and discussable expression; the environment experienced in personal life gives concrete content to psychological experience, knowing, and concern; GitHub retains maintainable content and implementations. Places, bodily situations, encounters with people and counterparts, and the use of digital interfaces can all belong to this experienced environment.
+3. **Relations in practice.** A work gives understanding an expressible and revisable form; a partner receives, develops, and creates together; the environment on electronic devices supports these activities through software, interfaces, tools, and configuration. Works can be essays, music, designs, or programs. Reflection on their meanings and reasons connects philosophy in its broad sense to actual creation and use.
 4. **Literary analogy.** Sun, Moon, and Earth picture joint activity through generation, receptive shaping, and actual grounding.
 5. **The three registers and their knotting in a sinthome.** The Real, Imaginary, and Symbolic offer another interpretation of the three aspects through their emphases: approaching the real, forming experience and images, and organizing symbols and action. The sinthome names their concrete knotting in this person's life; its function appears through the relationships across the row.
 6. **Trinity.** Father, Son, and Holy Spirit borrow Christian imagery to express three differentiated contributions belonging to one whole.
@@ -172,7 +172,9 @@ Within this imagery, worldview and ontology orient philosophy toward the real th
 
 These emphases make the table readable. Following a column shows a contribution taking shape through different images; crossing a row shows how it needs the other two. All six dimensions run through this practice, while each column selects its prominent connections. Truth especially joins them: what is actually the case, the person's judgment, and engineering representations and checks must meet in the same claim. Value direction likewise informs philosophical choices, personal concerns, and tool objectives. The [six dimensions and shared practice diagram](../diagrams/layers.html) develops those questions; this table focuses on how they form a particular knotting with differentiated emphases in a person's life.
 
-The website, local environment, and GitHub row has direct working content. The website lets the author see, read, and revise his philosophy; GitHub retains maintainable sources, methods, and implementations; the local environment lets the model actually read and use them to continue conversations and complete work. When understanding remains inside one chat, the next environmental change may again depend on guessing the person's purposes. Writing it, maintaining it, and enabling the model to use it let understanding formed through exchange continue shaping the environment.
+The two uses of “environment” have different referents here. The psychological aspect concerns the environment experienced in personal life: how the person experiences places, relationships, activities, and responses, and develops understanding and concern through them. The engineering aspect concerns the environment on electronic devices: how the model obtains material and how software, tools, and interfaces are organized to support activity. Electronic devices and their use also enter lived experience. This overlap lets experience correct engineering arrangements, without reducing the lived environment to device configuration or treating successful configuration as evidence that experience has improved.
+
+The website lets the author see, read, and revise his philosophy; GitHub retains maintainable sources, methods, and implementations; the environment on electronic devices lets the model actually read and use them to continue conversations and complete work. Experience in personal life continually supplies grounds for understanding and revising these arrangements. When understanding remains inside one chat, the next environmental change may again depend on guessing the person's purposes. Writing it, maintaining it, and enabling the model to use it let understanding formed through exchange continue shaping the environment.
 
 [Sun, Moon, and Earth](yinyang-and-taiji.md#sun-moon-and-earth) image this movement: the Sun gives out an understanding of the world and a direction for living; the Moon receives and shapes it into a personal form; Earth makes it into actual conditions that encounter consequences. Each image enters through its own relations: Sun, Moon, and Earth emphasize generation, reception, and realization; the three registers emphasize the real, images, and symbolic organization; Father, Son, and Holy Spirit gather a differentiated yet united relation. Their resonances acquire content through the life in which they participate.
 
