@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "yinyang",
-      "version": "1.1.92",
+      "version": "1.1.93",
       "description": "<用户自制> 阴阳：形成并修订人与模型的协作理解及其工作环境。 Full YinYang edition: reverse alignment, dialectical role crossing, six formation guides, complete philosophical essays and diagrams.",
       "source": {
         "source": "local",

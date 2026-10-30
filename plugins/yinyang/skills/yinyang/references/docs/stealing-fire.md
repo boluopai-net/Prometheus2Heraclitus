@@ -591,6 +591,8 @@ must make its conditions clear; neither result defines the whole person.
 
 *Many hands bring fire. A person gives it a place in life, meets what it makes possible, and begins again. What is made returns to change the maker. The fire continues.*
 
+The separate chapter [Writing recursive self-improvement through literature](literary-recursive-improvement.md) develops this cultivation path's technical structure: philosophy and personal models become a generative description, the language model participates in interpretation, evaluation, and realization, and embodied practice returns the results. The description includes its own revision method, allowing creation to change how subsequent creation proceeds.
+
 ## Sources and their contributions
 
 The recent AI material is a selected comparison, not an exhaustive literature review. The humanities sources develop concepts directly relevant to the argument; the AI sources bear on particular realizations. Entries [8] and [9] are researcher-authored theory/report material; [12] is a preprint. Their status is not silently promoted to consensus.

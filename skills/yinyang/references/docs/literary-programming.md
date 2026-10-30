@@ -36,6 +36,8 @@ When the shared context is rich enough, a stable image can replace repeated elab
 
 This makes literary programming suited to collaboration that continues to develop. As the participants come to know one another, writing can carry their relationship with increasing accuracy; when change arrives, they can rewrite its key imagery, characters, or connections and then examine how actual work changes with them.
 
+The preceding condensation also supplies a means of recursive improvement: writing shared relationships where they can be revised together lets a change of understanding enter subsequent activity. The separate chapter [Writing recursive self-improvement through literature](literary-recursive-improvement.md) develops this benefit through body, generative description, and interpreter, and considers how the improvement method itself becomes an object of writing.
+
 ## Neither true nor false, paraconsistency, and four information states
 
 “Let us meet as Sun and Moon” proposes a form of encounter. “He is a walking flame” gathers a person's activities into an image. Such expressions can invite, shape, rehearse, and generate. Understanding them begins by recognizing what the expression is doing: proposing a relationship, portraying a character, or asserting that something occurred?

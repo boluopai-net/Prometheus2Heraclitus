@@ -80,6 +80,8 @@ they do not all call for more data or stronger confidence.
 
 ## Understand the author's connected philosophy
 
+[Writing recursive self-improvement through literature](docs/literary-recursive-improvement.md) is a separate technical chapter: it connects body, generative description, and interpreter through RSI research, explaining the practical benefit of condensation and how improvement methods themselves enter revision.
+
 The collection also includes [Why write a personal philosophy](docs/why-yinyang.md),
 the [Argument from Super-Cuteness](docs/meng.md), and
 [Baby Heraclitus](docs/baby-heraclitus.md), which connect shared direction,

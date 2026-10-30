@@ -72,6 +72,8 @@
 
 ## 理解作者相连的哲学
 
+[用文学写出自己的递归改进](docs/literary-recursive-improvement.zh-CN.md)是独立的技术篇章：以 RSI 研究连接身体、生成式描述与解释器，说明凝缩的实践收益，以及改进方法本身怎样参与修订。
+
 文集也收录[为什么要写个人哲学](docs/why-yinyang.zh-CN.md)、
 [超萌论证：开放、学习与适应](docs/meng.zh-CN.md)与
 [我们要培养怎样的人——赫拉克利特宝宝](docs/baby-heraclitus.zh-CN.md)，
