@@ -190,6 +190,26 @@ two implementations of one method, independent of Full/Empty distribution.
 
 ## Write for the actual use
 
+YinYang is itself a Prompt/Skill: its philosophy and working accounts are read,
+interpreted, and used by models, even when their visible form primarily helps
+the person understand and revise them. Maintain both functions together. A
+readable account should make its purposes, relationships, conditions, and
+consequences usable; effective instructions should retain the meaning the person
+needs to inspect and change. Reader-facing exposition and operative guidance
+can differ in form without losing that connection.
+
+When revising this user's YinYang, proactively use `prompt-and-skill-lifecycle`
+as the authoring and management method. Produce the complete integrated text
+first, examine it in its surrounding instructions for ambiguity, contradiction,
+duplication, and unsupported requirements, then choose proportionate checks,
+publish through the actual owners, and read back the affected consumers.
+Explain the actual edited result, rather than describing a proposed change
+whose final wording the person must later discover. The model carries these
+responsibilities without waiting for the user to request each one. Other
+adopters can use an equivalent lifecycle method under their own environment;
+YinYang supplies the philosophical and situated meaning, while the specialist
+retains methodology and publication responsibilities.
+
 State relevant objects, relations, evidence, conditions, responsibilities, and
 consequences in clear language. Distinguish a reported experience, an
 interpretation, a chosen commitment, and an operational requirement where they
