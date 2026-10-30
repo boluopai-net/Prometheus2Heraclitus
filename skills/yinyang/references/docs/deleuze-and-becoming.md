@@ -16,7 +16,7 @@ This makes “machine” a useful way to ask which connections make an activity 
 
 Imagine someone writing a song. Melody, breath, recording equipment, and another listener’s response jointly change the next performance. A model can help compare versions, develop images, or try an arrangement; an unfamiliar sound may also change the song the person intended to write. Intention moves the activity forward, and what emerges changes intention. Creation acquires a route back.
 
-In this example we borrow the machine perspective to observe relations at work. A model’s computation does not amount to Deleuze and Guattari’s desiring-machine; installing more tools cannot automatically produce creation. What matters is who can feel, recognize, respond, and continue once the connections are made.
+In this example the machine perspective asks what the connections produce: who can feel, recognize, respond, and continue, and how the work and desire change through this activity.
 
 ## Assemblages: bring the relations into the work
 
@@ -32,7 +32,7 @@ In *A Thousand Plateaus*, the body without organs is not flesh without organs. T
 
 Borrowing this concept to reconsider personal practice, we can ask whether existing arrangements have already assigned every capacity a single use.
 
-For example, a writing routine might use a model only for proofreading. One collaboration could instead invite it to propose a structure, have the author read a draft aloud, and let both participants recognize which expression deserves further work. Besides adding a use for a tool, the change loosens the fixed organization in which the author must first settle the entire structure before a counterpart can participate. The trial needs to retain conditions for a work, judgment, and another collaboration. This is a practical question borrowed from the concept; revising a routine does not establish an achieved body without organs, nor does clinical suffering become an ideal of creativity.
+For example, a writing routine might use a model only for proofreading. One collaboration could instead invite it to propose a structure, have the author read a draft aloud, and let both participants recognize which expression deserves further work. Besides adding a use for a tool, the change loosens the fixed organization in which the author must first settle the entire structure before a counterpart can participate. The trial needs to retain conditions for a work, judgment, and another collaboration.
 
 ## Sustain a life while allowing it to become different
 
@@ -52,7 +52,7 @@ Becoming here acquires a form we can try: change the connections making an activ
 
 ## Reading sources and scope of comparison
 
-The following English translations supply conceptual entrances; songwriting, model cooperation, Harnesses, and the personal-first connections are this essay’s comparative extensions, rather than technical proposals or clinical claims from the originals.
+The following English translations supply conceptual entrances; songwriting, model cooperation, Harnesses, and the personal-first connections are this essay’s comparative extensions.
 
 1. <a id="source-1"></a> Gilles Deleuze and Félix Guattari, *Anti-Oedipus*, translated by Robert Hurley, Mark Seem, and Helen R. Lane. Opening of chapter 1; chapter 4, section 4, “The First Positive Task of Schizoanalysis”; the appendix’s closing distinction between process and clinical entity. [Translated primary text](https://files.libcom.org/files/Anti-Oedipus.pdf).
 2. <a id="source-2"></a> Gilles Deleuze and Félix Guattari, *A Thousand Plateaus*, translated by Brian Massumi, 1987. Plateau 4, pp. 88–89, on the two aspects of an assemblage; plateau 6, “How Do You Make Yourself a Body Without Organs?”, especially pp. 158–161. [Translated primary text](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf).

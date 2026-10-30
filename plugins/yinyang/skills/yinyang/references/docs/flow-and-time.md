@@ -42,8 +42,7 @@ answers; actual reading then tests the arrangement they guide. In the example,
 “navigation interrupts my reading” remains the person's report, while changing
 the page is an assistant action with its own outcome. Native World can include
 reported human experience; native Experience concerns the assistant's actual
-activity. These tool categories organize records rather than settle ontology
-or guarantee truth. Git/GitHub and Computer History retain their original
+activity. These tool categories organize records. Git/GitHub and Computer History retain their original
 histories; native memory helps return to them, compare interpretations, and
 revise what the present account accepts. [Native formation](../hindsight.md)
 explains the implementation.
@@ -52,7 +51,7 @@ explains the implementation.
 
 Continuity is more than remaining unchanged. A process with memory carries earlier encounters into present activity and anticipates what has not yet happened. The histories of a person's activity and a model's interactions can be organized as event streams: sensing, interpreting, expressing, and acting leave occurrences connected through time and situation. Records preserve revisitable parts of these histories. From those histories and other relevant material, inquiry develops conceptual models of the participants; the person and model counterpart are the subjects being understood. [Heraclitus's measured fire (B30)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_30) and [daily Sun (B6)](https://en.wikisource.org/wiki/Fragments_of_Heraclitus_%28annotated%29#Fragment_6) gather change and persistence; [the stealing-fire essay](stealing-fire.md) develops their philosophical background.
 
-William James's [*The Principles of Psychology*, chapter IX (1890)](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) begins with thinking as ongoing activity and describes its personal, changing, continuous, and selective character. His stream of thought provides a psychological precedent for understanding continuity through changing relations rather than a chain of isolated contents. The computational event stream used here extends a functional vocabulary to model interaction; James's account of human consciousness does not establish that a language model has the same experience.
+William James's [*The Principles of Psychology*, chapter IX (1890)](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) begins with thinking as ongoing activity and describes its personal, changing, continuous, and selective character. His stream of thought provides a psychological precedent for understanding continuity through changing relations rather than a chain of isolated contents. The computational event stream used here extends a functional vocabulary to model interaction.
 
 Bergson's [*Time and Free Will*, chapter II](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) distinguishes lived duration, whose states interpenetrate, from homogeneous time represented through juxtaposed units. This complicates any easy equation between a lived stream and a sequence of recorded updates. Record order and timestamps organize selected observations for a question; they need not exhaust the continuity being modeled. The comparison preserves a productive tension between an inspectable representation and what its discrete arrangement may leave out.
 
@@ -78,7 +77,7 @@ An environment can change before an inquirer notices, while the inquirer's actio
 
 ## External memory and event traces
 
-The functional comparison human ≈ agent includes finite attention and working context. Person and model can both distribute retention into an environment without sharing the same architecture or experience. Files, notes, and knowledge bases let useful material remain available beyond what a participant currently holds. Search or retrieval-augmented generation can bring relevant portions back into a working context; availability does not mean that a whole history is instantly transmitted or understood.
+The functional comparison human ≈ agent includes finite attention and working context. Person and model can both distribute retention into an environment. Files, notes, and knowledge bases let useful material remain available beyond what a participant currently holds. Search or retrieval-augmented generation can bring relevant portions back into a working context.
 
 A maintained memory account articulates what presently seems useful: purpose, decisions, conditions, and unfinished questions. Attributable event sources retain evidence of earlier occurrences, including what was said, changed, or observed. These have different roles. Revising a summary need not erase its source, and retaining a source does not require continuing to accept its earlier interpretation. For example, a project can keep the original request, a version of its implementation, and later use feedback while updating its current explanation.
 

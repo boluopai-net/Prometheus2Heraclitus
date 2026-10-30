@@ -147,7 +147,7 @@ The [1960 “Subversion of the Subject,” pp. 813–814](https://recherche-laca
 
 For example, receiving a requested invitation may leave open whether one is
 wanted as a participant or merely tolerated. That hypothetical distinction makes
-the question intelligible; it does not diagnose the recipient. Changing the
+the question intelligible. Changing the
 object alone may miss the relation through which the object matters. The
 [fantasy discussion](#fantasy-and-its-traversal-the-subjects-position-in-a-relationship)
 examines how a scene can organize such positions and expectations.
@@ -201,8 +201,7 @@ rather than forming three disconnected topics. Correspondingly, a
 [common consequence across conflicting views](preference-harness.md#unity-within-conflict-consistent-views-and-common-consequences)
 precisely expresses one kind of unity, but its formal result alone cannot
 establish subjective transformation. This guide develops conceptual
-understanding through those connections; clinical questions retain their
-own practice and evidence.
+understanding through those connections.
 
 ## Retroaction and retrospective understanding
 
@@ -366,17 +365,14 @@ life and jouissance. Scholarship offers different accounts of their connection;
 see [Coffman, 2013](https://doi.org/10.1080/0969725X.2013.869023). In this site's
 contemporary use, the position a person and model occupy in cooperation and
 the arrangements sustaining that cooperation can change together. This relation
-retains a philosophical connection with Lacan's questions without turning
-clinical traversal into a task for the reader.
+retains a philosophical connection with Lacan's questions.
 
 The working accounts are addressed to the model: they articulate working
 understanding and its implications for cooperation. Personal material under
 `references/personal/` can be read by the person or understood with a language
 model's help; it has a different purpose from those working instructions.
 [Understanding and cooperative arrangements](embodied-experimental-philosophy.md#rereading-ones-patterns-philosophical-reflection-and-loosening-fantasy)
-develops this philosophical discussion. Neither reading personal material nor
-revising a working account establishes psychological mechanisms, clinical
-traversal, or therapeutic effects.
+develops this philosophical discussion.
 
 ## Sinthome: from Lacan's question to this site's definition
 
@@ -384,7 +380,7 @@ traversal, or therapeutic effects.
 
 This site adopts the name with its own concrete referent: **a practical arrangement jointly shaped by personal philosophy, psychology, and engineering, including an understanding of the person, the model counterpart they need, and their relationship, together with expressions, tools, and ways of using them.** Relevant material informs the arrangement; current technical conditions give it usable form; use brings revision. A Skill can carry some of its understanding and methods, while a Harness can organize its actual realization. Life is the setting in which it forms, is used, and has consequences.
 
-Reading “sinthome” here therefore requires recognizing both the term's source and this site's particular definition. The name does not turn all of life into one object or directly make a software package the clinical construction Lacan discusses. How far it helps stabilize life or continue creation needs to be understood through concrete use. See [Forming a sinthome](writing-a-sinthome.md) for the detailed formation process.
+Reading “sinthome” here therefore requires recognizing both the term's source and this site's particular definition. How far it helps stabilize life or continue creation needs to be understood through concrete use. See [Forming a sinthome](writing-a-sinthome.md) for the detailed formation process.
 
 ## Which relations does formal translation capture?
 
@@ -417,9 +413,7 @@ This encourages an explicit account of what a translation preserves. Coupled
 trajectories alone establish neither Borromean topology nor an actual person's
 mechanism of desire. [Santos and Dunker's study of fantasy](https://doi.org/10.31683/stylus.v1i41.938)
 uses paraconsistent logic to propose that fantasy renders the signifying chain
-consistent. Retaining unresolved differences deserves investigation; that does
-not identify every conflict as fantasy or a change of logic as clinical change.
-The article belongs to issue 41 (2021), published online in 2023.
+consistent. The article belongs to issue 41 (2021), published online in 2023.
 
 **From machines to interaction.** [Possati (2020)](https://doi.org/10.1057/s41599-020-0445-0)
 brings Lacan and Latour to cycles of human identification, machine response,
@@ -428,8 +422,7 @@ direction. [Li and Li's FreeAgent preprint (2024)](https://arxiv.org/abs/2403.07
 places ChatGPT in an interpreting role within a demonstration connecting bodily
 images and symbolic identification. The former is a philosophical interpretation,
 the latter a simplified construction. They raise questions about technical
-mediation of self-understanding without establishing human unconscious processes
-or self-awareness in machines. How an actual response is received remains a
+mediation of self-understanding. How an actual response is received remains a
 question about the particular interaction.
 
 **Distinguishing explanatory scales.** [Li et al.'s Perspective (2026)](https://doi.org/10.1038/s44271-026-00508-6)

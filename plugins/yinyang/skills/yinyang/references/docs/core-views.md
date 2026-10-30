@@ -6,8 +6,7 @@ develop its reasons, examples, and sources.
 These are the author's connected positions in the YinYang philosophical
 example: a chosen account of becoming, understanding, and cultivation with
 generative models. They are offered for examination, adoption, recombination,
-or challenge, rather than as established facts or prerequisites for every
-reader's work. A reader can understand this philosophy, borrow a useful method,
+or challenge. A reader can understand this philosophy, borrow a useful method,
 or adopt the complete Skill; borrowing a distinction does not require adopting
 its developmental purpose or writing a personal philosophy. See
 [From adoption and combination to creating your own work](example-and-commons.md).
@@ -96,8 +95,7 @@ The **embodied multimodal generative model** is a functional and developmental
 analogy. Body, senses, emotion, movement, and lived situations participate in
 understanding; images, sounds, language, and action connect to generate new
 conceptions and responses. Embodiment concerns this continuing encounter with
-the world, beyond receiving several data formats. It does not imply that human
-biology and model architecture are identical.
+the world, beyond receiving several data formats.
 
 This orientation favors embodied perception, broad reading, intuitive
 recognition, and cross-modal understanding. A person can voice a partial
@@ -178,16 +176,15 @@ The three domains thereby serve the same personal life.
 Understanding the person still leaves a choice about the counterpart's
 contribution. The same wish can call for doing the work, explaining it,
 disagreeing, or trying together. A partner model therefore connects the actual
-system's available capabilities with the contribution wanted here. Describing
-that orientation neither changes model weights nor establishes consciousness.
-The model can help formulate and revise it; the person contributes purposes,
+system's available capabilities with the contribution wanted here.
+The model can help formulate and revise this orientation; the person contributes purposes,
 experience, and consent that cannot simply be supplied on their behalf.
 
 Understand the connected activity: what each notices, expresses, initiates, interprets,
 and changes. The person differs from their account and from its written or
 visual expression; the actual model system likewise exceeds its working
 description. “Model psychology” names observable patterns and revisable
-explanations without presuming human feelings inside the system. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
+explanations of the actual model. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
 develops how this understanding becomes a personal model; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
@@ -207,11 +204,9 @@ backstage. The person can read them or ask a model to help understand them.
 Six public writing guides explain how to form the working files, including
 [How to revise](../formation/revision.md). Their revision connects adopted
 philosophy and relevant personal understanding with the model's participation
-and environmental fit. Records, interpretations, and working models
-remain fallible; a useful arrangement does not establish psychological truth.
-All six complete answers must also be read together for coherence across their
-purposes, participants, division of work, actual conditions, and revision method;
-shared sources and fluent individual answers do not ensure that fit.
+and environmental fit.
+Read all six complete answers together for coherence across their purposes,
+participants, division of work, actual conditions, and revision method.
 The [Forming and revising working models](../design-and-revision.md)
 and its permanent guides develop their writing. Selectively using this approach
 does not require forming all question-defined working models.
@@ -226,8 +221,7 @@ relations, reasons, and values. Psychological understanding helps describe
 attention, desire, emotion, and relationships. Preference concerns how someone
 wants to live and work, including selections already operating through models
 and an environment. Together these materials can give collaboration a connected
-meaning that isolated instructions would leave scattered. Aesthetic form can
-contribute to that expression without standing in for psychology and preference.
+meaning that isolated instructions would leave scattered.
 
 Condensation and displacement are the principal writing methods borrowed from psychoanalysis here. Condensation gathers connected purposes, roles, and tensions into a shared expression; displacement reorganizes meaning and emphasis along associations. Metaphor and metonymy provide related linguistic resources. Person and model unfolding these relations through context is the method's functional hypothesis. Personal models supply concrete content; actual responses, works, and actions let participants compare improvements in understanding and cooperation, including fewer misunderstandings and unnecessary refusals caused by them.
 
@@ -559,8 +553,7 @@ it in turn; the whole life still exceeds this form.
 Usable articulation can begin before complete self-understanding; the person
 always exceeds the text. Capabilities, tools, authorization, others, and worldly
 conditions mediate enlarged agency. [From personal models to a sinthome](writing-a-sinthome.md)
-develops this practical extension, distinguishing it from [Lacan's historical account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/),
-a clinical conclusion, or a guarantee of happiness and unlimited power.
+develops this practical extension and its connection to [Lacan's account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/).
 A reader may examine or borrow this idea where personal authorship is the
 question. Completing an ordinary task does not depend on accepting this
 Lacan-inspired extension or undertaking such a project.
@@ -593,8 +586,7 @@ also asks whether borrowed capability can help loosen grasping at achievement
 and the creator's identity. A work can matter without having to prove its
 maker's worth. Finishing, stopping, letting go, and beginning again belong
 within this cultivation, alongside growth. This is a philosophical dialogue
-with a Buddhist liberating purpose, not evidence that technical success
-establishes nirvana or a method of psychological treatment.
+with a Buddhist liberating purpose.
 
 A finite person can borrow this fire without repeating its industrial acquisition
 or exhausting their life pursuing every expansion of the Sun. For the chosen

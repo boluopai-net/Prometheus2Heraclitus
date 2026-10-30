@@ -49,7 +49,7 @@
 
 反馈的区分使这份危险更清楚。在一个自我增强的循环中，一次进展可能使继续进展的要求变强：
 更多能力使更多追逐成为可能，追逐又使原来的方向更难受到质疑。这是本文赋予夸父意象的
-**正反馈**一面；它是意象中的一种关系，不是对某个人的诊断或命运解释。正负说的是反馈方向，
+**正反馈**一面。正负说的是反馈方向，
 并非赞扬和责备：增强性的返回加强发起变化，纠偏性的返回则反作用于有关偏离。
 [英国开放大学的系统论说明](https://www.open.edu/openlearn/money-management/management/leadership-and-management/managing/systems-explained-what-do-we-mean-feedback)
 介绍了这个区分。
@@ -154,7 +154,7 @@
 
 复用继续发生在借火造出的作品中。有根据的解释成为阅读材料，能够运行的代码成为工具，有用的方法支持另一项任务。**能力 → 作品 → 留存并核验的资源 → 进一步的能力**，是一种可能的递归关系。质量、维护、可取得性与实际使用，决定它是否有帮助；生成数量本身不提供改进规则。
 
-因此，集体的窃火可以继续，个人的培养也可以使用已经可用的火而展开。两种运动能够相互贡献，却不是同一个过程。普通对话不一定更新模型权重，更好的个人工具也不一定推进基础模型研究。它在这里的贡献，是让下一次相遇更可理解、更能生成。
+因此，集体的窃火可以继续，个人的培养也可以使用已经可用的火而展开。两种运动能够相互贡献，却不是同一个过程。它在这里的贡献，是让下一次相遇更可理解、更能生成。
 
 ## 近似神谕的关系与能够改进的系统
 
@@ -244,7 +244,7 @@
 
 **但理解用户，还没有决定伙伴应当怎样参与。**同一个愿望可以得到不同的回应：替人完成、解释给人听、提出异议，或共同尝试。希望借阅读与直觉判断发展的人，与希望练习亲手实现某项技能的人，需要的贡献就可能不同。只给 agent 一份用户画像，仍可能让默认的「助手」角色决定一切；只给它一个聪明、温柔或严格的角色，又没有说明这些特征为什么适合此人。伙伴模型需要连接这道缺口：联系人、目的与实际工作，说明它应当注意什么、怎样理解与判断、承担哪些工作，以及何时质疑和修订共同理解。关系描述使双方的贡献相互对应，而不把分工误作能力边界。
 
-这也需要理解实际模型。模型已有的能力、回应倾向、上下文与工具条件，决定拟议伙伴能够怎样实现；希望它采取的价值立场与优先关系，则表达这段合作要形成什么。两者不能混为一谈。所谓人的心理学与模型的心理学、人的偏好与模型的偏好，在这里既包含对实际倾向的探究，也包含对关系的构造。赋予角色不等于改写基础模型权重，功能性的比较也不证明双方拥有相同的心理机制或体验。作品和行动让这种构造接受检查，而不只停留在相互满意的描述里。
+这也需要理解实际模型。模型已有的能力、回应倾向、上下文与工具条件，决定拟议伙伴能够怎样实现；希望它采取的价值立场与优先关系，则表达这段合作要形成什么。两者不能混为一谈。所谓人的心理学与模型的心理学、人的偏好与模型的偏好，在这里既包含对实际倾向的探究，也包含对关系的构造。作品和行动让这种构造接受检查，而不只停留在相互满意的描述里。
 
 由此形成两个相连的对齐方向：**agent 根据对用户的理解来适配贡献，用户通过这种
 相配的合作发展生成能力。**当目的、事实或实现冲突，独立的质疑也属于这份关系。
@@ -293,7 +293,7 @@
 
 文学式编程通过人物、目的、张力与可能行动，给关系以可理解的形式；自然语言编程让实际模型解释这种形式，并带着它行动。意象能够凝缩相连的关系：「月亮」唤起承接、展开、判断与返回。它是否有用，取决于伙伴实际理解和做了什么。Knuth 把解释与程序代码结合的 *literate programming*，则是另一种已有的术语用法 [[5]](#source-5)。
 
-对培养而言，重要的是这个人需要怎样的伙伴。「老师」或「助手」通过工作及所要发展的能力取得含义。培养判断的人，可能需要完成的作品来检查和质疑；学习实现技能的人，可能需要尝试、批评与再试一次。角色语言与优美故事，都不保证贡献已经发生。
+对培养而言，重要的是这个人需要怎样的伙伴。「老师」或「助手」通过工作及所要发展的能力取得含义。培养判断的人，可能需要完成的作品来检查和质疑；学习实现技能的人，可能需要尝试、批评与再试一次。
 
 哲学的整体把意象连接起来，而不只是收集它们。火表达生成，以及从集体取得到个人培养的过渡；日月表达相遇中的贡献；事件流表达接续与修订；Harness 给关系以可执行的身体。一套共同词汇不必抹平差别，却需要让它们的联系足够可理解，能够指引与修订实践。
 
@@ -475,7 +475,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 
 近期 AI 材料是有选择的比较，不是穷尽性文献综述。人文来源直接发展与论证相关的概念；AI 来源涉及特定实现。[8]、[9] 属于研究者撰写的理论／研究报道，[12] 为预印本；这里不把其地位默认为共识。
 
-1. <a id="source-1"></a> 克拉克 与 查尔默斯（1998），**The Extended Mind**，*Analysis* 58(1)，7–19。[作者文本](https://www.consc.net/papers/extended.html) · [DOI](https://doi.org/10.1093/analys/58.1.7)。环境对认知的积极贡献；不是 AI 使用带来个人成长的证明。
+1. <a id="source-1"></a> 克拉克 与 查尔默斯（1998），**The Extended Mind**，*Analysis* 58(1)，7–19。[作者文本](https://www.consc.net/papers/extended.html) · [DOI](https://doi.org/10.1093/analys/58.1.7)。环境对认知的积极贡献。
 2. <a id="source-2"></a> Jerome Bruner（1987；2004 年重印），**Life as Narrative**，*Social Research* 54(1)，11–32；重印于 71(3)，691–710。[重印文本](https://ewasteschools.pbworks.com/f/Bruner_J_LifeAsNarrative.pdf)。叙事与生活解释之间的形成关系。
 3. <a id="source-3"></a> Michel Foucault（1982 年讲座；1988 年出版），**Technologies of the Self**，收于 *Technologies of the Self: A Seminar with Michel Foucault*，16–49 页。[文本](https://foucault.info/documents/foucault.technologiesOfSelf.en/)。包括写作与他人关系在内的自我转化实践；本文向 AI 的延伸属于当前论证。
 4. <a id="source-4"></a> Rudolf Carnap（1950），**Empiricism, Semantics, and Ontology**，*Revue Internationale de Philosophie* 4，20–40。[1956 年Meaning and Necessity增订版重印文本](https://ditext.com/carnap/carnap.html)。框架的采用及其内部问题；这里作哲学比较，不把它当成文学提示词理论。
@@ -496,7 +496,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 
 17. <a id="source-17"></a> 国际能源署（2025），**Energy and AI**：[Energy demand from AI](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)、[AI and energy security](https://www.iea.org/reports/energy-and-ai/ai-and-energy-security) 与 [Energy supply for AI](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)。数据中心用电、材料依赖、电网风险与多种供电来源；数据中心总量不是 AI 单独的用电量。
 18. <a id="source-18"></a> Ian Goodfellow、Yoshua Bengio 与 Aaron Courville（2016），**Deep Learning**，[导论](https://www.deeplearningbook.org/contents/intro.html)。从样例学习，而非逐一手工规定所有关系；贪婪／神的意象是本文的文学构造。
-19. <a id="source-19"></a> Greg Kestin 等（2025），**AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting**，*Scientific Reports* 15，17458。[论文](https://www.nature.com/articles/s41598-025-97652-6)。经过设计的本科物理辅导中的学习收益，不保证不受限制的模型使用具有同样效果。
+19. <a id="source-19"></a> Greg Kestin 等（2025），**AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting**，*Scientific Reports* 15，17458。[论文](https://www.nature.com/articles/s41598-025-97652-6)。经过设计的本科物理辅导中的学习收益。
 
 20. <a id="source-20"></a> Jürgen Schmidhuber，**Gödel Machine**，[作者说明](https://people.idsia.ch/~juergen/goedelmachine.html)，介绍 2003 年提议与后续发表。以规定的公理与效用之下的证明指引自我改写，并非普通 LLM 使用的经验描述。
 21. <a id="source-21"></a> Jenny Zhang 等，**Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents**，[arXiv 第 3 版，2026 年 3 月 12 日](https://arxiv.org/abs/2505.22954v3)。Agent 代码改动与编程基准的经验评估，有别于重新训练基础模型权重或证明普遍改进。
@@ -513,7 +513,7 @@ Alex Tamkin 的同一项实验。两种表达可以帮助理解，却没有提�
 28. <a id="source-28"></a> 美国能源部，**Solar Photovoltaic Cell Basics**，[技术说明](https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics)。半导体把阳光转化为电力，以及硅在光伏与计算芯片中的使用；不证明全部模型计算由太阳能供电。
 29. <a id="source-29"></a> 国际能源署（2025），**Energy and AI**，[AI and climate change](https://www.iea.org/reports/energy-and-ai/ai-and-climate-change)。全部数据中心工作负载的用电相关温室气体排放；这些估计不度量处理器废热造成的变暖，也不确立 AI 的完整生命周期足迹。
 30. <a id="source-30"></a> NASA，**The Earth's Radiation Budget**，[科学说明](https://science.nasa.gov/ems/13_radiationbudget/)。进入、反射、吸收与向外发出的辐射；社会承受变化的能力，是本文另行提出的论证。
-31. <a id="source-31"></a> Rishi Bommasani 等（2021），**On the Opportunities and Risks of Foundation Models**，[研究报告](https://crfm.stanford.edu/report.html)，尤其「Environment」；[论文](https://arxiv.org/abs/2108.07258)。广泛训练、下游适配，以及训练成本随使用而摊销；不是消除计算复杂性的定理，也不保证净环境收益。
+31. <a id="source-31"></a> Rishi Bommasani 等（2021），**On the Opportunities and Risks of Foundation Models**，[研究报告](https://crfm.stanford.edu/report.html)，尤其「Environment」；[论文](https://arxiv.org/abs/2108.07258)。广泛训练、下游适配，以及训练成本随使用而摊销。
 32. <a id="source-32"></a> Erik Brynjolfsson、Danielle Li 与 Lindsey R. Raymond，**Generative AI at Work**，[NBER Working Paper 31161，2023 年 11 月修订](https://www.nber.org/papers/w31161)；发表于 *Quarterly Journal of Economics* 140(2)（2025），889–942 页。客服处境中的生产力效果及其随经验的变化；不推出普遍就业排序或全球熟练使用者数量。
 33. <a id="source-33"></a> Joel Becker、Nate Rush、Beth Barnes 与 David Rein／METR（2025 年 7 月 10 日），**Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity**，[研究与限制](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)；METR（2026 年 2 月 24 日），**We are Changing our Developer Productivity Experiment Design**，[后续说明](https://metr.org/blog/2026-02-24-uplift-update/)。有范围的 2025 年初变慢结果，与后来选择和测量的困难；两者都不确立此后每种模型或工作方式的效果。
 

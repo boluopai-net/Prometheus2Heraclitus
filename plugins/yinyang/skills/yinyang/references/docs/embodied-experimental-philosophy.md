@@ -123,13 +123,10 @@ changes a philosophical criterion; whether a concrete collaboration supports
 the person remains answerable to its actual conditions and consequences.
 
 “Loosening” in this philosophical comparison names the possibility of questioning
-an exclusive picture and articulating another relation. It is not an exercise
-asking readers to diagnose their fantasies, explain recurring distress, or
-evaluate their own psychological transformation. The human–model role crossing
+an exclusive picture and articulating another relation. The human–model role crossing
 in [Yinyang and Taiji](yinyang-and-taiji.md) gives this inquiry a particular
 object: each participant can enter the other's role and return with both
-contributions available. This relation can be examined without turning one's
-psychology into a continuing self-assessment project.
+contributions available.
 
 Written accounts also have a place within that relation. A model-facing account
 can help a counterpart understand and support a person's participation, while
@@ -144,10 +141,7 @@ distinct questions: transformation of a subject's relation to a fantasy scene,
 and the singular arrangement that sustains a life. Their connection remains
 disputed; see [Coffman's discussion](https://doi.org/10.1080/0969725X.2013.869023).
 Here these resources develop a philosophical comparison between a sustaining
-form and its possible reorganization. Revising a concept, a document, or a
-working arrangement establishes its particular change, not clinical traversal
-or a therapeutic effect. The philosophical claim can therefore remain open
-to criticism without becoming a method for treating oneself.
+form and its possible reorganization.
 
 ## Two connected loops
 
@@ -163,8 +157,7 @@ Practice can change an interface after one concrete failure. Reflection
 can ask whether that failure depended on the task, presentation, or
 person's circumstances. It may compare cases or construct a more explicit
 model. Its findings can return to the practical arrangement. Practice also
-changes as reflection proceeds, so an earlier result has conditions and a
-history rather than an unlimited guarantee.
+changes as reflection proceeds; later use brings earlier results into new comparisons.
 
 The investigator participates too. An explanation changes what a reader notices;
 a tool changes what a person can do; asking a question can change the response.

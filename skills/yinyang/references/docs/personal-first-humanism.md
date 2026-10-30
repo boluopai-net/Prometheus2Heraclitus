@@ -193,7 +193,6 @@ research direction when the question concerns a psychological phenomenon:
 recognize what needs explanation, then let formal tools clarify and test the
 candidate structure. The activities can interleave. Adequacy means addressing
 the phenomenon, including differences that an interpretation fails to explain.
-It does not mean making someone comfortable through flattering agreement.
 Mathematical validity and empirical adequacy retain their distinct checks.
 
 Preferences can choose a question, direct attention, or guide the adoption of
@@ -267,8 +266,7 @@ the effort involved in using a linguistic form [[3]](#source-3). It provides a c
 for this choice among representations. [Embodied Experimental Philosophy](embodied-experimental-philosophy.md)
 connects their selection with participation and later evidence. A system can
 support reasoning; reflection can also examine its boundary and aim. Dynamic
-representation and model selection are resources in this work, rather than
-proof that any one account contains the whole life.
+representation and model selection are resources in this work.
 
 Return to the person whose life had no place in a general arrangement.
 Success need not mean that the person has learned to fit the old category.

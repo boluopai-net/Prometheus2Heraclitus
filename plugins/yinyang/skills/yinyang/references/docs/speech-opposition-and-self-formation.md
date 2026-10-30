@@ -211,9 +211,7 @@ This illuminates a shared question: which premise sustains the impasse, and
 what alternative changes its practical meaning? LBT gives that question its
 own method; Lacanian reversal examines the subject's position in speech and
 relations. A revised premise may participate in a changed position, but these
-are distinct claims. Here the comparison develops a philosophical argument;
-it does not add a counseling protocol to YinYang or establish an equivalence
-between the two approaches.
+are distinct claims. Here the comparison develops a philosophical argument.
 
 ## How a solution becomes a new problem
 

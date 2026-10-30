@@ -166,10 +166,7 @@ while consequential wording or an accurate example constrains its ambiguity.
 Condensation therefore remains answerable to material beyond its compact prose.
 A new formulation can change the counterpart's response, while a new encounter
 can expose what that formulation omitted. The [revision guide](../formation/revision.md)
-owns the method for maintaining these connected accounts. Here the conceptual point is that
-an account preserves revisable relations rather than a final portrait: neither
-source records nor a successful working arrangement guarantees the truth of a
-psychological explanation.
+owns the method for maintaining these connected accounts.
 
 The [guide's account of metaphor, metonymy, and condensation](lacan-reading-guide.md#metaphor-metonymy-and-condensation)
 draws attention to how compact expression can establish new relations rather
@@ -402,8 +399,7 @@ computing machine's encoded description [[2]](#source-2). That formal result off
 comparison: a description can organize what a general apparatus does. A
 language-model collaboration develops this image at the level of interpreting
 purposes and producing realizations. Calling it an evolution of the universal
-machine expresses that proposed extension of the interface, rather than a
-proof of universal correctness or computation beyond Turing's boundary.
+machine expresses that proposed extension of the interface.
 
 The practical gain is that the person can express a relation before knowing
 every implementation step. The counterpart can ask what that relation needs,
@@ -443,7 +439,6 @@ possible, and check whether the chosen trial reaches a usable result. If this
 revised method helps later experiments produce fitting arrangements, those
 later cases give grounds for an improvement in how improvement is pursued.
 Completing the first experiment supports a narrower claim about that work.
-This is a hypothetical design example, not evidence of an observed improvement.
 
 Revising the practice can also change the account of the person. Suppose repeated
 requests to make something new suggest two candidate interpretations: seeking

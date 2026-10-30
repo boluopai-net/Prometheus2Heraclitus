@@ -15,7 +15,7 @@
 
 **Hierarchy and cuteness:** “stronger hierarchy” is divided here into two mechanisms. One is more fixed ranks of authority within relationships: who is entitled to speak, and who should obey. The other is economic stratification: who can obtain learning opportunities, tools, time, and support. Parents and children having different experience, responsibilities, and purposes does not automatically mean that parents always have greater epistemic authority. Allowing children to object and surpass oneself remains compatible with responsibilities for care and guidance.
 
-“Cuteness” here also includes a willingness to share resources, support others' growth, and let shared life change oneself. The language of “communism / selflessness” is used in this local sense of sharing and mutual support; it does not require erasing personal purposes or, merely by using these words, specify a complete political system. Such cuteness is compatible with the preceding [Personal-First Humanism](personal-first-humanism.md): respecting each person's purposes can be a reason to change unsuitable arrangements of authority and resources.
+“Cuteness” here also includes a willingness to share resources, support others' growth, and let shared life change oneself. The language of “communism / selflessness” is used in this local sense of sharing and mutual support. Such cuteness is compatible with the preceding [Personal-First Humanism](personal-first-humanism.md): respecting each person's purposes can be a reason to change unsuitable arrangements of authority and resources.
 
 **Invincibility:** the term used here for the advantage gained through continuing learning, revision, and adaptation.
 
@@ -33,7 +33,7 @@
 
 - **Premise four: transfer of capacities.** Assume that observing how the other responds, noticing deviations in one's earlier understanding, and adjusting tasks and feedback can improve model collaboration when adapted to its actual mechanisms. For example, repeated loss of an earlier correction may call for retrievable context rather than another explanation of the same correction. The shared structure suggests what to try; later responses and work show whether the transferred approach helps.
 
-- **Premise five: the comparative setting of continuing change.** Assume that, during the period compared, model capacities continue developing and change people's lives and work. The argument needs this change to occur. Material and energy make computation possible, but energy not yet being exhausted cannot itself guarantee capability growth.
+- **Premise five: the comparative setting of continuing change.** Assume that, during the period compared, model capacities continue developing and change people's lives and work.
 
 - **Premise six: the connection between adaptive advantage and reasoning.** Assume that, during this change, the reasoning discussed here detects mismatches, proposes new interpretations, and selects suitable ways of collaborating through subsequent action more effectively than continuing with approaches to fixed tasks. Capacities for guiding growth and revising collaboration then have comparative adaptive value.
 

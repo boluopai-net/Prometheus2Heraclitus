@@ -10,15 +10,15 @@ After borrowing fire, cultivating oneself with it means bringing available gener
 
 **User ≈ embodied language model ≈ Baby Heraclitus.**
 
-Here, “≈” connects activities of receiving a situation, forming interpretations, generating expressions and actions, accepting feedback, and continuing to revise. Comparing the user to an “embodied language model” approaches human generation through this exchange. Their body, experience, and desires give it its own texture. They act in the world, are affected by the body, time, relationships, and resources, and bear real consequences. These shared activities make the comparison possible without establishing identical mechanisms in person and model.
+Here, “≈” connects activities of receiving a situation, forming interpretations, generating expressions and actions, accepting feedback, and continuing to revise. Comparing the user to an “embodied language model” approaches human generation through this exchange. Their body, experience, and desires give it its own texture. They act in the world, are affected by the body, time, relationships, and resources, and bear real consequences.
 
 Within this exchange, model-generated materials one reads may be inconsistent with one another; the person may also want one thing at one moment and another later, finding different accounts persuasive. Received possibilities meet their own generation, while desires and judgments continue changing. The “baby” in this character is therefore still taking shape: able to be touched and corrected, to learn, choose, and begin again among unsettled possibilities.
 
 **“Little fire person” emphasizes being able to kindle further fire after borrowing it; “Baby Heraclitus” emphasizes that this creator is still changing too.** Together the expressions shape one character: forming oneself through creation, then continuing to create with that changed self. Cultivation develops understanding, judgment, generation, and action so this exchange can continue.
 
-[Why write a personal philosophy](why-yinyang.md) introduces agents and shared direction, and [Super-Cuteness](meng.md) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation; receiving a finished work does not automatically produce growth. [Writing a personal philosophy through literary programming](literary-programming.md) will develop how this relationship can be written and lived.
+[Why write a personal philosophy](why-yinyang.md) introduces agents and shared direction, and [Super-Cuteness](meng.md) develops the conditions of openness and shared learning. Person and model correct one another in shared work, making acquired capability an opportunity for cultivation. [Writing a personal philosophy through literary programming](literary-programming.md) will develop how this relationship can be written and lived.
 
-The cultivation concerns capacities of someone already an agent: **becoming more able to form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** A person need not attain an ideal of these capacities to qualify for participation or choice. Language is an important medium; the body, emotions, institutions, and tools together constitute the conditions of action.
+The cultivation concerns capacities of someone already an agent: **becoming more able to form and revise purposes, understand situations, organize their own and others' capacities, and turn ideas into testable actions.** Language is an important medium; the body, emotions, institutions, and tools together constitute the conditions of action.
 
 This character can also reconsider what deserves creation. If the little fire
 person becomes an ideal of continually increasing power and output, borrowing
@@ -58,11 +58,11 @@ His emblem could be a lion cub: with the lion's courage to say “no” and the 
 
 ## How does openness become a capacity?
 
-“Baby” includes a state that has not yet closed itself off: the ability to acknowledge not knowing, accept being touched and corrected, and willingly generate new understanding with others. Openness also allows tensions to remain: a new interpretation pulls against an earlier judgment, and different desires have not found a shared form. It requires neither immediately removing every tension nor treating every generated account as true.
+“Baby” includes a state that has not yet closed itself off: the ability to acknowledge not knowing, accept being touched and corrected, and willingly generate new understanding with others. Openness also allows tensions to remain: a new interpretation pulls against an earlier judgment, and different desires have not found a shared form.
 
 For example, a model develops one wish into two appealing directions for a life that cannot both be realized. The person explains what attracts them to each; the model helps examine conditions and costs. Trying one direction may diminish the appeal of the other, or make the original choice need revision. This is a possible encounter: development occurs in recognition, judgment, and renewed generation, rather than merely having the model select an answer.
 
-Factual reliability still needs checking, and genuinely conflicting claims need examination. Keeping possibilities available serves further inquiry; it does not permit arbitrary conclusions from a contradiction. When action is needed, the baby can make a currently supported choice and let consequences change it. Openness becomes a capacity through such practice, feedback, and shared work.
+When action is needed, the baby can compare these possibilities, make a currently supported choice, and let consequences change it. Openness becomes a capacity through such practice, feedback, and shared work.
 
 Cultivating this openness into agent-like capacities requires several qualities to support one another:
 
