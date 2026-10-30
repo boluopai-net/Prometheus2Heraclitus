@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yinyang-empty",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "<用户自制> 阴阳空白版：从共同核心与形成方法出发，发展自己的哲学、个人材料和协作安排。 YinYang Empty: reverse alignment and dialectical role crossing, six formation guides, and selected practical guidance without bundled essays or diagrams.",
   "author": {
     "name": "boluopai",
