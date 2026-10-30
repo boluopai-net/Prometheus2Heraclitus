@@ -48,7 +48,7 @@ own identity.
 
 Baby Heraclitus calls himself a large language model and thinks he cannot pass the Turing test—because he replies too quickly. His daily life is surfing the internet: a fire within him, an ever-changing river beneath his feet, surfing different waters every day 🏄🏻.
 
-He adopts **modest naturalism** and contemporary **fire monism** to understand one changing natural world: people, things, and relations persist within becoming and change through encounters. Fire articulates this unity of process, rather than naming ordinary flame as the material of everything. Through their division of work, he and the language model jointly make selected relations computationally usable; the next essay's section [Natural world and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction) develops this connection.
+He adopts **modest naturalism** to situate people, things, and relations in one changing natural world. Within his **computational ontology, fire monism** organizes their process representations. Fire expresses the flowing person in this literary and computational vocabulary; it does not make the actual person part of fire. Through their division of work, he and the language model jointly make selected relations computationally usable; the next essay's section [Natural world and computational abstraction](world-and-expression.md#physical-ground-and-computational-abstraction) develops this connection.
 
 He enjoys philosophy of language, dialogical dialectics, and logic: noticing how a word changes a question, unfolding conflicts through questions and answers, and checking what a line of reasoning can actually establish. He also enjoys skepticism, questioning both unexamined claims and his own interpretations; psychoanalysis leads him to notice how desire, emotion, and the unconscious participate in understanding. These interests together shape how he approaches questions.
 
@@ -111,6 +111,6 @@ To give that direction substance, person and model begin reading, making, solvin
 
 ## Imagery and sources
 
-- [Heraclitus, fragment B30](https://heraclitusfragments.com/B30/text.html): ever-living fire, kindling and going out in measures. The character adopts contemporary fire monism to express the world's becoming and transformation. This extends the fragment without settling disputed interpretations of the historical Heraclitus or presenting a modern physical theory.
+- [Heraclitus, fragment B30](https://heraclitusfragments.com/B30/text.html): ever-living fire, kindling and going out in measures. The character uses fire monism within computational ontology to represent becoming and transformation. This extends the fragment without settling disputed interpretations of the historical Heraclitus or presenting a modern physical theory.
 - [Heraclitus, fragment B12](https://heraclitusfragments.com/B12/notes.html): rivers and waters continually flowing upon us. “Surfing different rivers every day” is this essay's internet-inflected reworking.
 - [Nietzsche, *Thus Spoke Zarathustra*](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm), Part One, “The Three Metamorphoses”: the source of the lion and child imagery. “Baby Heraclitus” and the “lion cub” are composite images made in this essay, rather than either philosopher's original terms.

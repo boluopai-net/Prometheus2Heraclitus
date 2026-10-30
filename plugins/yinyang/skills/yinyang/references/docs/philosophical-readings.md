@@ -23,8 +23,8 @@ especially sections 3–4, explains disputed readings of fire, unity, and opposi
 The [stealing-fire essay](stealing-fire.md) draws on this lineage to understand
 persistence and change, organizing activity histories as event streams. It does not attribute a modern computational ontology or formal
 calculus to Heraclitus. Whether the historical Heraclitus was a fire monist
-remains disputed. YinYang adopts contemporary fire monism to express the world's
-becoming and transformation; computational ontology constructs process representations
+remains disputed. YinYang uses fire monism within computational ontology to
+represent becoming and transformation, constructing process representations
 through objects, events, states, and relations. [World, process, and expression](world-and-expression.md#physical-ground-and-computational-abstraction)
 connects that understanding with naturalism, shared physical realization, and
 computational representation; B30 does not establish a modern physical theory.

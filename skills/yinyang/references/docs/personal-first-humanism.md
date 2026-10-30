@@ -29,8 +29,9 @@ even when it is internally coherent. Their correction can disclose that
 inadequacy; subsequent experience can disclose another.
 
 The framework adopts **modest naturalism**: persons, psychological activity, machines, and
-engineering occur in the same natural world. **Contemporary fire monism** gives
-its becoming and transformation an image. Process ontology further asks how
+engineering occur in the same natural world. Within computational ontology,
+**fire monism** organizes representations of becoming and transformation; fire
+can represent a changing person without making that person part of fire. Process ontology asks how
 things form, persist, and change. A domain ontology expresses that understanding
 for a particular question through events, states, objects, relations, and
 transitions, making human activity and change available for description,
@@ -93,7 +94,7 @@ the familiar name for the overall picture in which these answers belong.
 
 | Philosophical dimension and shared practice | Position or activity developed here | Contribution to modeling and practice |
 | --- | --- | --- |
-| Worldview | Modest naturalism; contemporary fire monism expresses a changing natural world. | Place persons, models, and their activities in a shared picture of the world. |
+| Worldview | Modest naturalism places activity in one changing natural world. | Place persons, models, and their activities in a shared picture of the world. |
 | Ontology | Process ontology examines how things form, persist, and change within the natural world. | Articulate the objects, events, relations, and continuity relevant to a domain model. |
 | Theory of truth | Correspondence for claims about actuality; truth under an interpretation for statements in a model. | Specify what a claim says, its conditions of truth, and how an actual-world claim relates to its object. |
 | Epistemology | Embodied, fallible inquiry that develops through evidence and correction. | Organize observations, candidate explanations, inferences, and tests. |

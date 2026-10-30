@@ -181,13 +181,41 @@ receiving a response constitute a more local achievement.
 
 ## Reasoning outside the current double-loop arrangement
 
+To judge what kind of self-change occurs, distinguish three levels rather than
+counting the loops in a diagram. Yampolskiy's classification of software
+self-improvement offers a precise comparison [[7]](#source-7):
+
+| Level | What changes | What would establish it |
+| --- | --- | --- |
+| Self-modification | A system changes its own code; in this practice, this also includes descriptions guiding its activity. | A modification occurred, without thereby establishing improvement. |
+| Weak self-improvement (sometimes called “weak RSI”) | Existing generation, comparison, and selection methods improve performance. | Later results improve relative to the relevant purpose; the mechanism producing improvements may stay unchanged. |
+| Strong or recursive self-improvement | The mechanism producing improvements changes so it can better discover, judge, and implement effective modifications later. | The new method enters subsequent work and improves the capacity to produce further improvements. |
+
+The source calls the second level weak self-improvement and the third strong
+or recursive self-improvement; “weak RSI” is shorthand here for comparison.
+This essay extends the software classification by analogy to person, model,
+and supporting environment, comparing the objects and consequences of change.
+It does not identify personal cooperation with software already achieving strong RSI.
+
+Practice and reflection can jointly accomplish weak self-improvement. Repeatedly
+correcting an essay with the same checking method can improve the result;
+being able to rewrite the checking instructions initially establishes only
+self-modification. When the checking method changes in response to its own
+omissions, and later work shows that it better detects consequential errors,
+the change reaches toward recursive improvement. The third level returns to
+**how improvement is produced**, beyond checking the same work again.
+[Writing one's recursive improvement through literature](literary-recursive-improvement.md)
+develops how descriptions, interpretation, and realization carry that return.
+
 Both loops and their relation can themselves become objects of inquiry.
 Improving practice under an existing question, or reflection under its accepted
 standards, leaves some organizing choices in place. Reasoning **outside the
 current double-loop arrangement** asks what justifies those choices: why divide
 the activities this way, what should count as evidence, and which purposes
 should guide reflection? It can revise the reflection loop, reconnect it with
-practice, or replace the arrangement.
+practice, or replace the arrangement. When the revision improves the later
+capacity to produce improvements, it has the third-level significance above;
+changing a purpose or evaluation standard alone does not establish that gain.
 
 A formal or computational system gives an inquiry selected objects, rules,
 states, and possible transitions. Such selection makes reasoning tractable.
@@ -309,3 +337,4 @@ a general demonstration of model-assisted human development.
 4. <a id="source-4"></a> Rudolf Carnap (1950), **Empiricism, Semantics, and Ontology**. [Public reprint](https://ditext.com/carnap/carnap.html). Framework-relative inquiry and practical framework adoption, used here as a philosophical comparison.
 5. <a id="source-5"></a> David Harel, Dexter Kozen, and Jerzy Tiuryn (2000), **Dynamic Logic**. [Author's introduction](https://www.weizmann.ac.il/math/harel/dynamic-logic). Formal reasoning about programs and their effects on states.
 6. <a id="source-6"></a> Friedrich Nietzsche, **The Gay Science** (1882), §341, and **Thus Spoke Zarathustra** (1883–1885), III, “The Convalescent,” §2. [The Gay Science, Thomas Common translation titled *The Joyful Wisdom*](https://www.gutenberg.org/files/52881/52881-h/52881-h.htm); [Zarathustra, Thomas Common translation](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm). The prospect of identical recurrence and the difficulty of affirming it; the connection to revisable experimental returns is this essay's extension.
+7. <a id="source-7"></a> Roman V. Yampolskiy (2015), **From Seed AI to Technological Singularity via Recursively Self-Improving Software**, §2, “Taxonomy of Types of Self-Improvement.” [Paper](https://arxiv.org/abs/1502.06512). The distinction among modification, weak improvement, and strong recursive improvement; its application to personal practice here is an analogy.

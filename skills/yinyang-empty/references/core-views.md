@@ -339,7 +339,8 @@ model or local arrangement is superior.
 The framework develops modest naturalism, process ontology,
 correspondence truth for claims about reality, fallible embodied
 inquiry, personal-first humanism, and question-relative pluralism of method.
-Contemporary fire monism expresses becoming and transformation. These are
+Fire monism within computational ontology represents becoming and transformation;
+fire can express a flowing person without making that person part of fire. These are
 developed explanations and adopted positions through which the participants
 understand their work.
 
