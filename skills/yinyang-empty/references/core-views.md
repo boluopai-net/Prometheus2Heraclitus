@@ -65,6 +65,8 @@ process can still produce a finished work.
 
 ## YY-01 · Reverse alignment: people develop with generative models
 
+**Original discussion:** [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#what-makes-the-fire-ones-own)
+
 In the author's account, reverse alignment chooses human development as its purpose. Collaboration
 should enrich what the person can perceive, associate, understand, judge,
 express, and create, until cultivated understanding can also work through
@@ -91,6 +93,8 @@ can coexist without making every helpful interaction a lesson.
 
 ## YY-02 · The person as an embodied multimodal generative model
 
+**Original discussion:** [Shared reflection and continued cultivation](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/participation-and-support.html#why-organize-participation-this-way)
+
 The **embodied multimodal generative model** is a functional and developmental
 analogy. Body, senses, emotion, movement, and lived situations participate in
 understanding; images, sounds, language, and action connect to generate new
@@ -116,6 +120,8 @@ precise while leaving unfamiliar ideas open to substantive disagreement.
 <a id="yy-03"></a>
 
 ## YY-03 · YinYang dialectics: role exchange and human generation
+
+**Original discussion:** [Mutual becoming through YinYang and Taiji](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#mutual-grounding-and-the-shuang-yu)
 
 YinYang places role exchange between person and language model at the center of
 this collaboration. One entrance reverses the familiar allocation of model
@@ -161,6 +167,8 @@ explains the integration and return formed through another role.
 <a id="yy-04"></a>
 
 ## YY-04 · Understand oneself, the model counterpart, and their relation together
+
+**Original discussion:** [From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html#a-personal-account-adequate-to-its-use)
 
 A role acquires its situated purpose through a relationship. An account of how
 the person attends, desires, and interprets, or of how they prefer to learn
@@ -215,6 +223,8 @@ does not require forming all question-defined working models.
 
 ## YY-05 · Let literature, history, philosophy, psychology, and preference shape collaboration
 
+**Original discussion:** [Writing a personal philosophy through literary programming](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-programming.html)
+
 Literature offers characters, situations, and expressive possibilities; history
 makes formation and transformation visible; philosophy articulates objects,
 relations, reasons, and values. Psychological understanding helps describe
@@ -251,6 +261,8 @@ the possibility becomes.
 
 ## YY-06 · Arrange contributions across listening, speaking, reading, and writing
 
+**Original discussion:** [From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html#listening-speaking-reading-and-writing-across-roles)
+
 These four activities offer entrances into cognition distributed across people,
 models, representations, and tools. One useful arrangement lets the person
 cultivate intuition through interfaces, broad reading, and lived encounters,
@@ -284,6 +296,8 @@ connects selected texts, diagrams, audio, and exercises to learning.
 
 ## YY-07 · Let the environment carry memory and return attention to understanding
 
+**Original discussion:** [From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html#externalization-and-distributed-cognition)
+
 Retrievable records and works provide shared external memory. The model can
 retrieve, compare, and maintain relevant material so the person need not
 restate every detail. A useful handoff retains the question, evidence, working
@@ -305,6 +319,8 @@ asks when support actually reduces the burden of participation.
 <a id="yy-08"></a>
 
 ## YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation
+
+**Original discussion:** [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#a-way-of-living-choose-the-rhythm-of-the-fire)
 
 Ordinary collaboration can stay synchronous with the model and asynchronous
 with society. Synchrony means continuing questions, context, corrections, and
@@ -331,6 +347,8 @@ model or local arrangement is superior.
 <a id="yy-09"></a>
 
 ## YY-09 · Connect philosophical understanding, models, and practice
+
+**Original discussion:** [Personal-First Humanism](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/personal-first-humanism.html#six-connected-dimensions)
 
 The framework develops modest naturalism, process ontology,
 correspondence truth for claims about reality, fallible embodied
@@ -420,6 +438,8 @@ to their practical forms.
 
 ## YY-10 · Retain alternatives, form working commitments, and revise selection
 
+**Original discussion:** [How preference participates in choice and reasoning](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/preference-harness.html)
+
 Retaining incompatible sources and interpretations keeps inquiry supplied with
 material beyond its present understanding. A working view organizes sufficiently
 definite grounds, relations, and inferential methods for a particular judgment
@@ -485,6 +505,8 @@ attractive the preferred interpretation felt.
 
 ## YY-11 · The world constrains the shared account
 
+**Original discussion:** [World, process, and expression](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/world-and-expression.html#a-work-returns-to-the-encounter)
+
 Texts, theories, programs, and actions meet use, resistance, counterexamples,
 and unintended consequences. Agreement between participants and coherence
 within a candidate cannot establish external fit. World-directed evidence
@@ -510,6 +532,8 @@ connects revisability with completion and replacing obsolete means.
 
 ## YY-12 · Make the views perceptible, discussable, and continuable
 
+**Original discussion:** [World, process, and expression](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/world-and-expression.html#screenshot-and-front-end)
+
 Expression gives others something they can encounter and respond to. A diagram,
 dynamic process, or manipulable example can show what changes when a premise,
 candidate, or contribution changes, while making its basis inspectable. Such
@@ -533,6 +557,8 @@ continued, and discussed.
 <a id="yy-13"></a>
 
 ## YY-13 · Forming a sinthome
+
+**Original discussion:** [From personal models to a sinthome](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/writing-a-sinthome.html)
 
 The preceding [connected understanding](#yy-04) and [expression and realization](#yy-05)
 let an understanding of the person guide their environment. The Trinity of
@@ -561,6 +587,8 @@ Lacan-inspired extension or undertaking such a project.
 <a id="yy-14"></a>
 
 ## YY-14 · Cultivate generative capacities with available fire
+
+**Original discussion:** [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html)
 
 Model companies, researchers, and the wider collective make generative capability
 available: materials, electricity, machines, knowledge, data, and training
@@ -616,6 +644,8 @@ develops its value orientation.
 
 ## YY-15 · Cultivate a garden of becoming with friends
 
+**Original discussion:** [Stealing fire and cultivating creative capacity](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/stealing-fire.html#cultivating-a-garden-of-becoming-with-friends)
+
 One person's development can become another's condition for growth. Friends
 bring questions, works, methods, and objections into one another's environments
 while retaining their own purposes and directions. This writing seeks such
@@ -651,6 +681,8 @@ image whose value is answered by participants' experiences and consequences.
 <a id="yy-16"></a>
 
 ## YY-16 · Personal recursive self-improvement
+
+**Original discussion:** [Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html)
 
 Assisting personal recursive self-improvement connects YinYang's philosophy,
 working descriptions, and environment. **Recursive self-improvement improves
