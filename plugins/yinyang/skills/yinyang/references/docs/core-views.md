@@ -65,8 +65,6 @@ process can still produce a finished work.
 
 ## YY-01 · Reverse alignment: people develop with generative models
 
-**Original discussion:** [Stealing fire and cultivating creative capacity](stealing-fire.md#what-makes-the-fire-ones-own)
-
 In the author's account, reverse alignment chooses human development as its purpose. Collaboration
 should enrich what the person can perceive, associate, understand, judge,
 express, and create, until cultivated understanding can also work through
@@ -93,8 +91,6 @@ can coexist without making every helpful interaction a lesson.
 
 ## YY-02 · The person as an embodied multimodal generative model
 
-**Original discussion:** [Shared reflection and continued cultivation](participation-and-support.md#why-organize-participation-this-way)
-
 The **embodied multimodal generative model** is a functional and developmental
 analogy. Body, senses, emotion, movement, and lived situations participate in
 understanding; images, sounds, language, and action connect to generate new
@@ -106,7 +102,7 @@ recognition, and cross-modal understanding. A person can voice a partial
 intuition or indicate a mismatch through an image while the model develops
 explanations, formal representations, programs, and checks. Access to these
 contributions need not wait for the person to reproduce the model's linguistic
-strengths. Fluency still requires verification. [Participation, access, and support](participation-and-support.md#why-organize-participation-this-way)
+strengths. Fluency still requires verification. [Shared reflection and continued cultivation](participation-and-support.md#why-organize-participation-this-way)
 explains the developmental reasons and conditions for this arrangement.
 
 The analogy changes what counts as an adequate entrance into shared work.
@@ -120,8 +116,6 @@ precise while leaving unfamiliar ideas open to substantive disagreement.
 <a id="yy-03"></a>
 
 ## YY-03 · YinYang dialectics: role exchange and human generation
-
-**Original discussion:** [Mutual becoming through YinYang and Taiji](yinyang-and-taiji.md#mutual-grounding-and-the-shuang-yu)
 
 YinYang places role exchange between person and language model at the center of
 this collaboration. One entrance reverses the familiar allocation of model
@@ -168,8 +162,6 @@ explains the integration and return formed through another role.
 
 ## YY-04 · Understand oneself, the model counterpart, and their relation together
 
-**Original discussion:** [From personal philosophy to personal models](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
-
 A role acquires its situated purpose through a relationship. An account of how
 the person attends, desires, and interprets, or of how they prefer to learn
 and work, can guide an account of the model counterpart. Both accounts develop
@@ -192,8 +184,8 @@ Understand the connected activity: what each notices, expresses, initiates, inte
 and changes. The person differs from their account and from its written or
 visual expression; the actual model system likewise exceeds its working
 description. “Model psychology” names observable patterns and revisable
-explanations of the actual model. [A personal account adequate to its use](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
-develops how this understanding becomes a personal model; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
+explanations of the actual model. [From personal philosophy to personal models](metaphor-and-self-revision.md#a-personal-account-adequate-to-its-use)
+develops how this understanding becomes a personal model in its account of adequacy to use; [Stealing fire and cultivating creative capacity](stealing-fire.md#why-the-relation-must-begin-somewhere-personal)
 explains why a relation needs situated content.
 For a bounded task, an adequate account may be a few relevant relationships
 and examples. Richer expression earns its place by clarifying those relations,
@@ -222,8 +214,6 @@ does not require forming all question-defined working models.
 <a id="yy-05"></a>
 
 ## YY-05 · Let literature, history, philosophy, psychology, and preference shape collaboration
-
-**Original discussion:** [Writing a personal philosophy through literary programming](literary-programming.md)
 
 Literature offers characters, situations, and expressive possibilities; history
 makes formation and transformation visible; philosophy articulates objects,
@@ -261,8 +251,6 @@ the possibility becomes.
 
 ## YY-06 · Arrange contributions across listening, speaking, reading, and writing
 
-**Original discussion:** [From personal philosophy to personal models](metaphor-and-self-revision.md#listening-speaking-reading-and-writing-across-roles)
-
 These four activities offer entrances into cognition distributed across people,
 models, representations, and tools. One useful arrangement lets the person
 cultivate intuition through interfaces, broad reading, and lived encounters,
@@ -287,16 +275,14 @@ For example, a short spoken objection to an article can lead the model to check
 its source and build a comparison; reading or hearing that result can reveal
 the next mismatch. A conversational prompt and a maintained manuscript are
 different contributions within writing. A transcript supplies words; hearing
-tone requires actual audio. [Listening, speaking, reading, and writing across roles](metaphor-and-self-revision.md#listening-speaking-reading-and-writing-across-roles)
-develops the allocation; [Participation, access, and support](participation-and-support.md)
+tone requires actual audio. [From personal philosophy to personal models](metaphor-and-self-revision.md#listening-speaking-reading-and-writing-across-roles)
+develops the allocation through listening, speaking, reading, and writing across roles; [Shared reflection and continued cultivation](participation-and-support.md)
 examines access and its costs. [Preparing the encounter](stealing-fire.md#a-way-of-learning-prepare-the-encounter)
 connects selected texts, diagrams, audio, and exercises to learning.
 
 <a id="yy-07"></a>
 
 ## YY-07 · Let the environment carry memory and return attention to understanding
-
-**Original discussion:** [From personal philosophy to personal models](metaphor-and-self-revision.md#externalization-and-distributed-cognition)
 
 Retrievable records and works provide shared external memory. The model can
 retrieve, compare, and maintain relevant material so the person need not
@@ -312,15 +298,13 @@ constant supervision may increase the person's burden. Saving an unfinished
 action preserves its description; carrying it out produces a further result.
 Relief depends on the person's experience, and development on what becomes
 available in later participation. Each is worth investigating on its own terms.
-[Externalization and distributed cognition](metaphor-and-self-revision.md#externalization-and-distributed-cognition)
-develops this arrangement, while [Continuation, records, and relief](participation-and-support.md#continuation-records-and-relief)
+[From personal philosophy to personal models](metaphor-and-self-revision.md#externalization-and-distributed-cognition)
+develops this arrangement through externalization and distributed cognition, while [Continuation, records, and relief](participation-and-support.md#continuation-records-and-relief)
 asks when support actually reduces the burden of participation.
 
 <a id="yy-08"></a>
 
 ## YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation
-
-**Original discussion:** [Stealing fire and cultivating creative capacity](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
 
 Ordinary collaboration can stay synchronous with the model and asynchronous
 with society. Synchrony means continuing questions, context, corrections, and
@@ -340,15 +324,13 @@ support, timing, and task conditions where its rules require them. Afterwards,
 return to the ordinary arrangement shown to work better. The assessment's
 slice need not become a permanent ceiling on capability or life.
 [YY-15](#yy-15) distinguishes common-condition performance from supported
-person–environment capability. [Choosing the rhythm of the fire](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
+person–environment capability. [Stealing fire and cultivating creative capacity](stealing-fire.md#a-way-of-living-choose-the-rhythm-of-the-fire)
 develops this chosen rhythm and its limits; it does not presume that every
 model or local arrangement is superior.
 
 <a id="yy-09"></a>
 
 ## YY-09 · Connect philosophical understanding, models, and practice
-
-**Original discussion:** [Personal-First Humanism](personal-first-humanism.md#six-connected-dimensions)
 
 The framework develops modest naturalism, process ontology,
 correspondence truth for claims about reality, fallible embodied
@@ -438,8 +420,6 @@ to their practical forms.
 
 ## YY-10 · Retain alternatives, form working commitments, and revise selection
 
-**Original discussion:** [How preference participates in choice and reasoning](preference-harness.md)
-
 Retaining incompatible sources and interpretations keeps inquiry supplied with
 material beyond its present understanding. A working view organizes sufficiently
 definite grounds, relations, and inferential methods for a particular judgment
@@ -505,8 +485,6 @@ attractive the preferred interpretation felt.
 
 ## YY-11 · The world constrains the shared account
 
-**Original discussion:** [World, process, and expression](world-and-expression.md#a-work-returns-to-the-encounter)
-
 Texts, theories, programs, and actions meet use, resistance, counterexamples,
 and unintended consequences. Agreement between participants and coherence
 within a candidate cannot establish external fit. World-directed evidence
@@ -532,8 +510,6 @@ connects revisability with completion and replacing obsolete means.
 
 ## YY-12 · Make the views perceptible, discussable, and continuable
 
-**Original discussion:** [World, process, and expression](world-and-expression.md#screenshot-and-front-end)
-
 Expression gives others something they can encounter and respond to. A diagram,
 dynamic process, or manipulable example can show what changes when a premise,
 candidate, or contribution changes, while making its basis inspectable. Such
@@ -557,8 +533,6 @@ continued, and discussed.
 <a id="yy-13"></a>
 
 ## YY-13 · Forming a sinthome
-
-**Original discussion:** [From personal models to a sinthome](writing-a-sinthome.md)
 
 The preceding [connected understanding](#yy-04) and [expression and realization](#yy-05)
 let an understanding of the person guide their environment. The Trinity of
@@ -587,8 +561,6 @@ Lacan-inspired extension or undertaking such a project.
 <a id="yy-14"></a>
 
 ## YY-14 · Cultivate generative capacities with available fire
-
-**Original discussion:** [Stealing fire and cultivating creative capacity](stealing-fire.md)
 
 Model companies, researchers, and the wider collective make generative capability
 available: materials, electricity, machines, knowledge, data, and training
@@ -644,8 +616,6 @@ develops its value orientation.
 
 ## YY-15 · Cultivate a garden of becoming with friends
 
-**Original discussion:** [Stealing fire and cultivating creative capacity](stealing-fire.md#cultivating-a-garden-of-becoming-with-friends)
-
 One person's development can become another's condition for growth. Friends
 bring questions, works, methods, and objections into one another's environments
 while retaining their own purposes and directions. This writing seeks such
@@ -681,8 +651,6 @@ image whose value is answered by participants' experiences and consequences.
 <a id="yy-16"></a>
 
 ## YY-16 · Personal recursive self-improvement
-
-**Original discussion:** [Writing one's own recursive improvement through literature](literary-recursive-improvement.md)
 
 Assisting personal recursive self-improvement connects YinYang's philosophy,
 working descriptions, and environment. **Recursive self-improvement improves
@@ -730,7 +698,7 @@ that work; later relevant activity supports claims about a method; new
 possibilities of participation sustained by person and environment support
 claims about capacity development. Stability, completion, and letting go can
 all be fitting results.
-[Writing one's recursive improvement through literature](literary-recursive-improvement.md)
+[Writing one's own recursive improvement through literature](literary-recursive-improvement.md)
 develops the relation through a reading-environment example and compares it
 with effective self-reference, construction from descriptions, and improvement
 programs that can rewrite themselves.

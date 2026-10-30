@@ -9,13 +9,6 @@ all its philosophical claims.
 The [core views](references/docs/core-views.md) own the numbered propositions.
 The essays develop their arguments, images, examples, and sources.
 
-Every Core view has an explicit **Original discussion** / **原文** link directly
-below its YY heading to its original essay or relevant section in the matching
-language. Keep useful inline links and cross-references alongside this source
-entrance. Use plain titles without Chinese book-title brackets (`《》`) throughout
-Core views prose and link labels. Maintain this convention in both editions and
-their projections, repairing targets when the original discussion moves.
-
 [SKILL.md](SKILL.md) owns ordinary invocation and connects ordinary use of the selected models. [Forming and revising working models](references/design-and-revision.md)
 explains their relationship; writing directions belong to the six public how-to
 guides, used to specify question-defined private models. Use the [reading map](references/reading-map.md) to locate
