@@ -27,11 +27,11 @@
 
 - **Premise two: how cuteness becomes a capacity for guidance.** Assume that this open stance makes someone willing to acknowledge not yet understanding the other and to encounter information that can change an earlier judgment. Further assume that the necessary learning capacity, reliable feedback, and sustained practice let this information actually change their guidance. Openness offers an entrance for correction; learning conditions give correction consequences for capacity. Since “raising children” here takes the aspect of guidance and shared learning, the relevant capacity for guidance is also the child-raising capacity under discussion.
 
-  Write M = cuteness, A = an open attitude toward guidance, C = those learning conditions, G = more effective relevant guidance, and B = child-raising capacity in this essay's sense. Then **M ⇒ A; (A and C) ⇒ G; G ⇒ B**, so **(M and C) ⇒ B**. The arrows express conditional connections adopted in this argument; the crucial assumption from stance to effective capacity occurs in the second step.
+  The crucial passage is from accepting correction to changing how one guides. Someone may welcome an objection yet repeat the same unhelpful instruction. If they instead try a different explanation or task and examine its effects, openness has begun to acquire a working method. Later encounters show whether that method improves guidance.
 
-- **Premise three: a shared structure.** Through mutual alignment, people and language models form a relationship of action and learning that can be jointly described in terms of agents. This relationship has a relevant structure in common with raising children: facing a growing agent, providing guidance, and adjusting collaboration in response to feedback.
+- **Premise three: a shared structure.** People and language models can form a relationship jointly described in terms of agents: each contribution conditions the next, and feedback can change how collaboration proceeds. The comparison with raising children concerns guidance responsive to another's changing capacities. A model can adapt its contributions through context, instructions, tools, and retained material; new model releases can bring further capacities. These changes enter collaboration differently from a child's learning and maturation.
 
-- **Premise four: transfer of capacities.** This shared structure is sufficient to support the transfer of relevant capacities for guidance: observing how the other responds, noticing deviations in one's earlier understanding, then adjusting tasks and feedback. When applying these approaches to a model, collaboration should be arranged in conjunction with its context, tools, and actual capacities.
+- **Premise four: transfer of capacities.** Assume that observing how the other responds, noticing deviations in one's earlier understanding, and adjusting tasks and feedback can improve model collaboration when adapted to its actual mechanisms. For example, repeated loss of an earlier correction may call for retrievable context rather than another explanation of the same correction. The shared structure suggests what to try; later responses and work show whether the transferred approach helps.
 
 - **Premise five: the comparative setting of continuing change.** Assume that, during the period compared, model capacities continue developing and change people's lives and work. The argument needs this change to occur. Material and energy make computation possible, but energy not yet being exhausted cannot itself guarantee capability growth.
 
@@ -50,6 +50,6 @@ Therefore, within the above assumptions and scope of comparison, the argument ca
 
 ## Application
 
-Assume that Chinese people are cuter. According to the argument above, cuteness implies invincibility, so Chinese people are invincible.
+For a playful application, assume that Chinese people are cuter. Where the relationships, resources, learning, and transfer conditions above also hold, this openness can contribute to the comparative adaptive advantage called “invincibility.” The application carries the argument's conditions with it; the nationality assumption supplies no evidence that they hold.
 
-If people from other countries, or any particular individual, are also cute, then they are likewise invincible.
+People from other countries, or any particular individual, can gain the same advantage through such openness under those conditions.

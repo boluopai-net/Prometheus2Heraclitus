@@ -1,6 +1,11 @@
 # Maintaining the Prometheus2Heraclitus collection
 
-**Prometheus2Heraclitus** is a collection of actual reusable Skills. Each
+**Prometheus2Heraclitus** develops a philosophy for assisting personal recursive
+self-improvement, realized through YinYang and a collection of reusable Skills.
+Personal RSI concerns improved understanding, judgment, creation, action, and
+the methods producing those improvements within a person's actual support
+relations. The essays own its argument; descriptions, collaboration, and tools
+give it practical form. Each
 member under `skills/` owns its entrypoint, methods, references, documents,
 diagrams, scripts, and other supporting resources. Independent members retain
 their own purpose and specialist responsibilities. Collection membership does

@@ -1,6 +1,22 @@
 # Prometheus2Heraclitus · From Prometheus to Heraclitus
 
-**A Skill collection for bringing generative capacities into a finite life.**
+**A philosophy for helping a person pursue recursive self-improvement (RSI), with models, methods, and tools that bring it into practice.**
+
+YinYang develops the project's philosophical account: a person works with
+generative models and a supporting environment to improve understanding,
+judgment, creation, and action—and to improve how those improvements are
+produced. Readable descriptions make purposes, relationships, and revision
+methods available for examination; shared work gives them practical form and
+returns consequences that can change them. The person and their actual supports
+are the center of this development. Its value is judged through the life and
+activities they want to sustain.
+
+The essays develop this argument; reusable Skills and tools support its
+realization and retain their specialist purposes. Begin with
+[Stealing fire](skills/yinyang/references/docs/stealing-fire.md), consult the
+[core views](skills/yinyang/references/docs/core-views.md), or follow the
+[recursive-improvement chapter](skills/yinyang/references/docs/literary-recursive-improvement.md)
+for the connection between description, interpretation, practice, and changing methods.
 
 [Website](https://boluopai.net/) · [Documents & diagrams](https://boluopai.net/repositories/prometheus/en/) · [简体中文](README.zh-CN.md)
 

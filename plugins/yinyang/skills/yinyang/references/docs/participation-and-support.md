@@ -85,6 +85,13 @@ articulating it, or using it in a new argument is another. Returning to the
 trajectory lets the participants examine whether the support opened such
 activity, rather than inferring cultivation from the improved page's existence.
 
+That change can remain supported. If recoverable passages, maintained records,
+and a model's contributions reliably let the person resume and develop an
+argument, their available capacity has changed even when they have not learned
+to reproduce those supports unaided. Its evidence lies in the activity they can
+now sustain with the arrangement. Whether they have also learned a transferable
+way of reading or judging is a further question.
+
 In one useful arrangement, the person works chiefly through UI and intuition,
 while the model works through text, code, tools, and maintained materials.
 The model builds and repairs the environment; the person cultivates intuition

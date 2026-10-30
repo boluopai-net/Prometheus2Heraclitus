@@ -55,6 +55,17 @@ and their reading roles: orientation, person, counterpart, relationship,
 environment and revision. Native formation preserves all six, with prose and
 physical file layout fitted to use.
 
+The same accounts support personal recursive self-improvement. Orientation
+explains what improvement serves; person describes actual participation and
+conditions; counterpart connects available capability with wanted contribution;
+relationship explains how contributions return and alter later cooperation;
+environment realizes the descriptions; revision makes the improvement method
+itself available for reconsideration. Develop these connections within each
+subject rather than repeating one declaration six times. Use the
+[RSI argument](docs/literary-recursive-improvement.md) as a direct ground where
+relevant. A revised account changes an expression; subsequent use supplies
+evidence about the method and the person's developing possibilities.
+
 ## Choose the implementation, keep the same understanding
 
 Both routes preserve adopted Philosophy, attributable Personal understanding,

@@ -129,7 +129,7 @@ identify missing material rather than claiming to have read it. Private
 provenance stays at `references/personal/sources.md` in a formed private package;
 the public [evidence guide](formation/revision.md#sources-and-evidence) explains its maintenance.
 
-Five diagrams provide visual entrances:
+Six diagrams provide visual entrances:
 
 - [Formation through shared practice](diagrams/formation-path.html) connects
   life trajectory, shared reflection, philosophy, personal models, and their
@@ -149,6 +149,11 @@ Five diagrams provide visual entrances:
   their adopted positions alongside shared human–model practice. It explains
   how computational ontology, expression, and realization enter that practice.
   [中文](diagrams/layers.zh-CN.html) · [SVG](diagrams/layers.svg)
+
+- [Let improvement change how the next improvement happens](diagrams/literary-rsi.html)
+  connects generative description, interpretation, practice, and revisable methods;
+  evidence and version history support comparison and return.
+  [中文](diagrams/literary-rsi.zh-CN.html) · [SVG](diagrams/literary-rsi.svg)
 
 The self-contained HTML resources show relations rather than a mandatory
 sequence or authority hierarchy. Use the relevant essay for the developed

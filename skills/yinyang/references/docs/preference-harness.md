@@ -14,7 +14,14 @@ For a small example, suppose $P$ and $N$ are disjoint, each implies $Q$, and the
 
 This comparison concerns the structure of judgment: what is provisionally accepted as a basis, and what that basis warrants. It does not describe how a person calculates. In ordinary inquiry, judging source reliability, choosing what matters for a task, and preferring an outcome can all affect selection, but they supply different reasons. Wanting an outcome does not make evidence for it stronger. When evidence cannot settle everything, one can work from a qualified selection, retain several alternatives, or suspend a particular conclusion while continuing elsewhere.
 
-Here a **working view** means the relevant grounds and relations currently used for a question. It can be expressed in ordinary language. Calling it a view does not make it a formal repair; that comparison applies only when assertions, axioms, consistency, and selection have actually been specified.
+A **working view** is a usable understanding formed for the present question:
+which grounds and relations are adopted, which candidates remain under comparison,
+and how to infer and check. Natural language can express it while distinguishing
+adopted premises from material still being examined. Specifying assertions,
+axioms, consistency, and selection gives the precise comparison with formal
+repairs above. That mathematical relation addresses a bounded question;
+forming a working view also involves interpreting material, proposing new
+relations, and choosing action.
 
 The repair example holds $T$ fixed while comparing selected consistent grounds. Inquiry can also return to the choice of $T$, the question, source priorities, and the rule for accepting an answer. Evidence, purpose, and consequences provide different reasons for such revisions. [Recursive improvement](literary-recursive-improvement.md#retaining-conflict-and-forming-a-view-for-action) follows this return from local inference to improvement of the selection method itself.
 

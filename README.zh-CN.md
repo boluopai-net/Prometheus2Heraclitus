@@ -1,6 +1,17 @@
 # Prometheus2Heraclitus · 从普罗米修斯到赫拉克利特
 
-**一个让有限生命取得生成能力的 Skill 集。**
+**一套辅助个人进行递归自我改进（RSI）的哲学，以及使它进入实践的模型、方法与工具。**
+
+阴阳展开这项工作的哲学：人与生成式模型及支持环境共同改善理解、判断、创造与行动，
+也改善产生这些改进的方法。可读的描述让目的、关系与修订方式成为能够考察的对象；
+共同工作使它们获得实际形式，后果再返回并改变它们。发展的中心是这个人及其实际支持关系，
+其价值由他希望维系的生活与活动来判断。
+
+文章展开论证，可复用的 Skills 与工具支持实现，并保有各自的专门用途。
+可以从[窃火](skills/yinyang/references/docs/stealing-fire.zh-CN.md)开始，
+选读[基本观点](skills/yinyang/references/docs/core-views.zh-CN.md)，
+或通过[递归改进一章](skills/yinyang/references/docs/literary-recursive-improvement.zh-CN.md)
+理解描述、解释、实践与方法改变之间的联系。
 
 [网站首页](https://boluopai.net/) · [文档与图示](https://boluopai.net/repositories/prometheus/) · [English](README.md)
 

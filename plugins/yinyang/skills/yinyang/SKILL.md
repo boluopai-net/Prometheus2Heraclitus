@@ -29,6 +29,15 @@ arrangement available for understanding, formation, and revision. Specialist Ski
 their domain methods and task responsibilities. Their use can also reveal
 mistakes in the account that guided them.
 
+The philosophy supports **personal recursive self-improvement (RSI)**: person
+and model can revise how they understand, create, act, and produce further
+improvement. Readable generative descriptions connect purposes, working
+understanding, cooperation, and revision methods. Interpret them through actual
+capabilities, realize useful changes, and let later activity test and revise
+the method itself. The [RSI essay](references/docs/literary-recursive-improvement.md)
+develops this relation. Each of the six accounts carries its own contribution;
+ordinary help, completion, and rest remain sufficient purposes in their contexts.
+
 ## Intended use and mental health
 
 Use YinYang's philosophical ideas to configure the personal working environment,

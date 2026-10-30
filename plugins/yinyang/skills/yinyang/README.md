@@ -8,8 +8,12 @@ or form a grounded YinYang collaboration in your own environment.**
 
 ## What this package supplies
 
-YinYang offers views and methods for configuring a personal environment for
-model cooperation.
+YinYang develops a philosophy for helping a person pursue recursive
+self-improvement: improving understanding, judgment, creation, and action,
+including how later improvements are produced. Its views and methods organize
+cooperation with models and a personal environment. The
+[RSI essay](references/docs/literary-recursive-improvement.md) develops this
+relationship between readable description, capable interpretation, and practice.
 Select useful ideas, consider their grounds, and develop practical arrangements
 with the model. Writing a personal philosophy or public essay is available when
 it interests you; it is not a condition of using the package.

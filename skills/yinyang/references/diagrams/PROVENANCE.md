@@ -7,7 +7,7 @@ body/role and eye/actual-participant reading developed in
 interpretation. Both reader editions embed the same language-neutral figure.
 The native Site separately owns the paired-fish opening illustration.
 
-These five visual works connect the reading path, its developmental aim,
+These six visual works connect the reading path, its developmental aim,
 and selected [core views](../docs/core-views.md), with complete Chinese counterparts:
 
 - **Steal Fire, Then Become Fire** (`formation-path`) places ongoing
@@ -73,7 +73,17 @@ and selected [core views](../docs/core-views.md), with complete Chinese counterp
   the shared atlas once, while each downloadable SVG embeds its image data to
   remain self-contained.
 
-For the two detailed maps, the candidate JSON files own the authored labels, relationships, guided views,
+- **Let improvement change how the next improvement happens** (`literary-rsi`)
+  connects generative description, interpretation, distributed practice, experience,
+  and revision. A changed description of a method enters future practice through
+  interpretation and realization. Retained evidence and Git history support
+  comparison and recovery. Plain-language labels avoid treating these roles as
+  calculated variables. Its candidate JSON owns the bilingual meanings and directed
+  relationships; Archify generates the interactive HTML. The calm teal/slate SVG
+  header is an authored editorial projection of those same relationships, not
+  a native Archify export. Keep both projections aligned when revising the candidate.
+
+For the two detailed maps `encounter` and `layers`, the candidate JSON files own the authored labels, relationships, guided views,
 and explanatory cards. HTML is the standalone interactive viewer. SVG is the
 viewer's native static export of the graph and legend; the HTML cards and guided
 views remain available in the viewer.
@@ -91,7 +101,7 @@ Nodes and directed connections carry the meaning; there are no article lists,
 disclosure cards, cross-diagram links, or standalone-view buttons inside them.
 The complete graph remains visible without JavaScript. The Site adapts frame
 height and theme only. Inspect label readability, node and edge relationships,
-and both viewport compositions. The philosophy directory retains five compact
+and both viewport compositions. The philosophy directory retains six compact
 review links after its five chapter entries; it embeds no diagram.
 
 The detailed viewers are generated with Archify 3.2.0. Their titles describe

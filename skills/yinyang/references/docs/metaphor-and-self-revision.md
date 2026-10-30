@@ -437,8 +437,13 @@ problem might lie in a tool, the interpretation of experimentation, or the
 division of responsibility. Revising the relationship to include bringing a
 chosen experiment to a usable result can change its instructions and actions.
 Readback then asks whether the result was achieved and whether the new
-arrangement still leaves room for discovery. This is a hypothetical design
-example, not evidence of an observed improvement.
+arrangement still leaves room for discovery. The participants can also revise
+how they assess future experiments: examine the activity a trial should make
+possible, and check whether the chosen trial reaches a usable result. If this
+revised method helps later experiments produce fitting arrangements, those
+later cases give grounds for an improvement in how improvement is pursued.
+Completing the first experiment supports a narrower claim about that work.
+This is a hypothetical design example, not evidence of an observed improvement.
 
 Revising the practice can also change the account of the person. Suppose repeated
 requests to make something new suggest two candidate interpretations: seeking

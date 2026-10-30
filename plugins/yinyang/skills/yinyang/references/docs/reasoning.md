@@ -40,7 +40,9 @@ of hypothesis formation.
 
 An abductive–predictive stream accommodates material that does not yet fit together. A discrepancy may suggest a hidden relation; candidate explanations organize it; those explanations yield conditional predictions; observation distinguishes, supports, or revises them. Several explanations can remain available, including mutually exclusive or incomparable ones. Conflict opens a question without deciding which explanation is true. Context, time, and representational differences can also explain an apparent conflict, and inquiry need not always begin with one.
 
-A working view may contain a knowledge base, but the activity that generates, uses, and changes views is broader. A new distinction can emerge before there is a well-formed query. Helping formulate the question is therefore part of inquiry, not merely preparation for an already specified computation. Papers, diagrams, speech, and records retain articulated relations; they do not exhaust the event or everything that remained unarticulated.
+A **working view** is a usable understanding formed for the present question: what is being explained, which grounds are provisionally adopted, which candidates remain under comparison, and how the participants intend to infer, try, or check something. It can be expressed in a few paragraphs, a diagram, or an explicit knowledge base. Participants construct it in their situation. Discovering a relation or reformulating the question can change it, beyond selecting content from an existing archive. Papers, diagrams, speech, and records retain articulated relations so that this construction can return to its grounds.
+
+The working view connects with the [generative description](literary-recursive-improvement.md#body-generative-description-and-interpreter): philosophy, collaborative direction, and revision methods help the participants understand how to work here; the current view brings them to a particular question. A reading task can take “preserve the thread of thought” as its direction, then determine which passage to return to and what would establish resumed reading. Differences encountered in use can in turn change the more enduring description. The distinction concerns their functions; the same passage can perform one or both functions in different activities.
 
 Articulation changes what can be checked. A sense that a result is wrong may
 first become a question about its destination, then a candidate explanation
@@ -50,7 +52,7 @@ the answers it obtains. The reading-environment example below makes this movemen
 
 ## Relations before sentences
 
-Intuition is more than a starting point before candidate generation. Through preference it recognizes, filters, combines, and rejects during development, allowing some possibilities to continue while others leave the current view. Broad reading and embodied perception supply new relations, so selection and generation can propel each other. Keeping many meaningful possible worlds available is compatible with this selection; the danger is fixing one view as the only answer before understanding consequential differences among the possibilities.
+Intuition is more than a starting point before candidate generation. It participates in recognizing, filtering, combining, and rejecting during development, allowing some possibilities to continue while others leave the current view. Preference affects what deserves attention; experience and reasons contribute to judging what those possibilities explain. Broad reading and embodied perception supply new relations, so selection and generation can propel each other. Several meaningful candidates can remain open to examination. Understanding their consequential differences gives a present choice its content.
 
 Sufficient exploration is relative to the question and its consequences: whether important alternatives that could change the judgment have become visible, which disagreements need further material, and when there is enough support to act. This gives exploration a direction and a stopping condition. Formalization contributes when relations need clarification, consequences need verification, or a work needs realization. An initial unfolding of relations gives it something meaningful to articulate and check. [Why organize participation this way](participation-and-support.md#why-organize-participation-this-way) explains how this arrangement serves the cultivation of intuition, the senses, and broad reading.
 
@@ -193,19 +195,32 @@ Learning and accomplishing a task remain distinguishable purposes. A collaborati
 
 An observation, method, formal design, or particular claim can itself become the object of inquiry. A result at one level can prompt revision at another. Relations, constraints, priorities, and causal dependencies have different meanings; representing them as undifferentiated edges loses what inference needs. Speaking order is only one path through the activity.
 
-A schematic notation gathers these distinctions:
+The reading-environment example makes the object of each return concrete:
 
-$$
-S_t=(D_t,z_t,C_t,\mathcal H_t),\qquad
-W_t(q)=\operatorname{View}(S_t,q),\qquad
-S_{t+1}=U(S_t,o_{t+1}).
-$$
+| Object reconsidered | What is discovered | How it enters subsequent work |
+| --- | --- | --- |
+| Judgment about the work | The right book opened, but reading did not resume. | Retain the operation result and the reading report separately; revise the judgment that access was sufficiently convenient. |
+| Relations organizing the question | Opening a file and recovering an argument are different achievements. | Include reading position and context in the working view, and select what to check anew. |
+| Actual arrangement | Returning to the passage may reduce repeated searching. | Change the entrance and examine its effects through use. |
+| Method producing improvement | The original check treated one operation as the whole purpose. | In later work, understand the activity to be continued before selecting checks, and examine that method in subsequent tasks. |
 
-$D_t$ is available source-bearing material; $z_t$ denotes relations not yet fully propositionalized; $C_t$ denotes recognized tensions; $\mathcal H_t$ is a candidate family. $W_t(q)$ articulates relevant material and candidate ontologies, priorities, and inference policies for a current question. $U$ names changes occasioned by expression, perception, action, and external events. The notation gathers the functional relations discussed here; studying a particular realization means specifying how its material is retained, accessed, and transformed.
+Human understanding, model interpretation, available tools, and actual activity
+connect these relations. An unarticulated feeling can open a question, while
+what has been expressed or can be observed becomes material available to both
+participants. New experience can also change habits, attention, and available
+capacities; records and textual revisions capture relevant changes within that
+activity. Bringing the revision method itself into this return further requires
+the rewritten method to affect how later work gathers material, compares, and acts.
 
 Prediction and world-directed feedback connect local views with later activity. New support or mismatch can change a candidate, the question, the concepts, or the grounds selected for judgment. The [preference account](preference-harness.md#returning-to-and-revising-preference) develops how an earlier selection can become visible and open to reconsideration. The basic judgment and its later revision concern connected but different questions.
 
-Branches and snapshots offer computer-science images for retained alternatives and question-relative views. A branch keeps a candidate available for further development; a snapshot makes a local arrangement inspectable. Their usefulness comes from selective retention and recoverability. Useful stability and finite task completion coexist with continued revisability: a view can answer its present question while later activity brings new objects or evidence into consideration.
+Versions and branches can preserve the texts and implementations expressing
+these understandings, giving an attempt a recoverable, comparable form. Its
+meaning also depends on the question, reasons, and consequences of use. A branch
+can develop several candidates, and one candidate can emerge across several
+records. A view sufficient for its present question can support completion;
+new objects, evidence, or methodological problems encountered later can return
+the relevant understanding to inquiry.
 
 Reasoning reaches a local result when a conclusion is clear enough to guide
 an act and expose its grounds. Its scope indicates what has been answered,

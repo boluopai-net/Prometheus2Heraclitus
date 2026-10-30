@@ -54,18 +54,25 @@ Continuity is more than remaining unchanged. A process with memory carries earli
 
 William James's [*The Principles of Psychology*, chapter IX (1890)](https://www.yorku.ca/pclassic/James/Principles/prin9.htm) begins with thinking as ongoing activity and describes its personal, changing, continuous, and selective character. His stream of thought provides a psychological precedent for understanding continuity through changing relations rather than a chain of isolated contents. The computational event stream used here extends a functional vocabulary to model interaction; James's account of human consciousness does not establish that a language model has the same experience.
 
-Bergson's [*Time and Free Will*, chapter II](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) distinguishes lived duration, whose states interpenetrate, from homogeneous time represented through juxtaposed units. This complicates any easy equation between a lived stream and a sequence of recorded updates. The indices and timestamps below organize selected observations for a question; they need not exhaust the continuity being modeled. The comparison preserves a productive tension between an inspectable representation and what its discrete arrangement may leave out.
+Bergson's [*Time and Free Will*, chapter II](https://www.gutenberg.org/cache/epub/56852/pg56852-images.html) distinguishes lived duration, whose states interpenetrate, from homogeneous time represented through juxtaposed units. This complicates any easy equation between a lived stream and a sequence of recorded updates. Record order and timestamps organize selected observations for a question; they need not exhaust the continuity being modeled. The comparison preserves a productive tension between an inspectable representation and what its discrete arrangement may leave out.
 
-These accounts supplement the Heraclitean foundation with psychological and temporal distinctions. Their contribution is to make continuity, selection, and representation more intelligible; the specific computational relations below remain this essay's proposal, open to source comparison and actual use.
+These accounts supplement the Heraclitean foundation with psychological and temporal distinctions, making continuity, selection, and representation more intelligible. The following organization of records, present understanding, and actual change develops those questions within shared work.
 
 ## Retention and representational lag
 
-The schematic update $S_{t+1}=U(S_t,o_{t+1})$ lets current organization $S_t$
-contribute alongside a newly encountered occurrence $o_{t+1}$. What has been
-retained affects how the next occurrence is taken up. A question-relative view
-$W_t(q)=\operatorname{View}(S_t,q)$ selects relations relevant to question $q$.
-These indices order modeled updates; they do not yet measure elapsed time.
-What is retained and how it is updated depend on the activity being studied.
+Retained material affects how the participants understand the next encounter.
+A current working view develops from that material, ongoing experience,
+relevant knowledge, and shared purposes, stating what will guide present
+judgment and action. Finding an earlier record provides an entrance for return;
+understanding its meaning requires relating it to the current question, version,
+and conditions. A new use can add a fact or change what the participants
+understand by convenient reading or completed work.
+
+Change takes place in several connected locations: material can be supplemented,
+a description rewritten, an interface modified, and a reading habit gradually
+altered. Interpretation and actual use connect these changes, each with its own
+timing. Records make the connections available for later examination; participants
+still judge what changed, why, and whether it improved the original activity.
 
 An environment can change before an inquirer notices, while the inquirer's actions can change that environment. Memory therefore makes representational lag possible. An old observation can remain accurate; a recent observation can mislead. Applicability under current conditions is the question to check. Temporal age matters through the relevant changes: yesterday's measurement may still describe a stable object, while an observation from a moment ago may concern a condition that has already changed.
 
@@ -101,15 +108,21 @@ the correction rather than making every retained content equally current.
 
 ## Change and contradiction
 
-$$P(a,t_1),\qquad \neg P(a,t_2),\qquad t_1\ne t_2$$
-
-need not conflict. Recording that a speaker asserted $P$ also differs from accepting $P$. Before invoking inconsistency tolerance, identify the referent, represented time, conditions, and level of each claim. An experience, a report of it, and a proposition about its external object are distinct.
+“This bridge was closed yesterday” and “this bridge is open today” can both be
+true. Two records saying that the bridge is open and closed today under the same
+conditions present a conflict to investigate. Recording someone's claim that
+the bridge is open also differs from accepting that it is open. Before invoking inconsistency tolerance, identify the referent, represented time, conditions, and level of each claim. An experience, a report of it, and a proposition about its external object are distinct.
 
 Indexing clarifies content without dissolving every conflict. Claims incompatible under the same relevant conditions remain incompatible. Differently dated claims can also conflict when an accepted rule requires persistence across the interval. The content and constraints decide, not timestamps alone. [Repair semantics](preference-harness.md#selection-and-inference) handles inconsistent formalized data under an ontology; it is unnecessary merely because a process changes or a feeling differs from a judgment.
 
 ## Update order and elapsed time
 
-The indices in $S_0,S_1,S_2,\ldots$ order modeled updates. Clock time locates occurrences and supports comparison of delays and rates. The elapsed time between adjacent updates can vary. Concurrent bodily, linguistic, and environmental changes can occur between recorded views, including intervals during which the record contains no fresh statement.
+First, second, and third versions order revisions; clock time lets us compare
+how long passed between them. Bodily, linguistic, and environmental changes
+can continue concurrently between records. An absence of new statements does
+not mean activity has stopped. An interface may change on one day while a new
+reading habit becomes stable through later repeated use. Version order and the
+pace of actual development need separate examination.
 
 Two forms of temporal separation matter here. **Representational separation**
 lets a current recollection concern the past or a prediction concern the future.
