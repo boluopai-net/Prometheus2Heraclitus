@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><head><link rel="canonical" href="https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/design-and-revision.zh-CN.html"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工作模型的形成与修订 · boluopai</title><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/style.css?v=665c4ead23f3"><link rel="stylesheet" href="/library.css?v=4f65aaa2c475"><link rel="stylesheet" href="/repositories/prometheus/vendor/katex/katex.min.css"><script defer src="/repositories/prometheus/vendor/katex/katex.min.js"></script><script defer src="/library.js"></script><link rel="stylesheet" href="/article.css?v=bfc6494e7a21"><link rel="stylesheet" href="/site.css?v=cbe6a2cfbc0b"><script src="/site.js"></script></head><body><a class="skip" href="#main">跳至正文</a><header class="header wrap"><div class="header-top"><a class="wordmark" href="/" aria-label="boluopai 首页"><img class="brand-lion" src="/art/boluopai-lion.jpg" width="48" height="48" alt="">boluopai.</a><div class="header-controls"><a class="language-control" href="/repositories/prometheus/source/skills/yinyang/references/design-and-revision.html" lang="en" aria-label="阅读本页英文版">EN</a><button class="theme-control" type="button" aria-pressed="false" aria-label="深色模式" data-theme-control><span aria-hidden="true">◐</span><span data-theme-label>深色</span></button></div></div><nav class="section-tabs" aria-label="栏目"><a href="/">火与河流</a><a href="/philosophy/" aria-current="page">哲学评论</a><a href="/singing/">唱歌点播台</a><a href="/repositories/">资料与建议</a></nav></header><main id="main" class="wrap library-reader commentary"><aside class="reading-rail"><nav class="reader-toc" aria-label="本文目录"><div class="toc">
 <ul>
-<li><a href="#选择实现工具保留同一份理解">选择实现工具，保留同一份理解</a></li>
+<li><a href="#形成与修订的共同方法">形成与修订的共同方法</a></li>
 <li><a href="#基于实际材料形成情境化版本">基于实际材料形成情境化版本</a></li>
 <li><a href="#通过修订使六份描述融贯">通过修订使六份描述融贯</a></li>
 <li><a href="#从已有材料与实践起步">从已有材料与实践起步</a></li>
@@ -16,14 +16,13 @@
 <p><a href="/repositories/prometheus/source/skills/yinyang/references/formation/relationship.zh-CN.html#在有关之处说明交换与返回">关系写作指引</a>完整展开这项运动及其辩证含义。其余五份指引分别说明方向、实际双方、工作条件，以及怎样修订。让这条关系组织相连的描述，各份文件展开自己的对象。采用这份 Yinyang 与借用某项方法仍是不同选择；另一个作者可以组织不同的关系。</p>
 <p>给人阅读的哲学与文学展开这种安排的意义，给模型使用的描述则明确表达相关理解与要求。两种表达都可以在完整自我认识之前参与形成和修订可用关系；<a href="/philosophy/writing-a-sinthome/">从个人模型到圣状</a>展开这项哲学提案。</p>
 <p>这些方法维护一项已经展开的范例。请求也可能需要另一种哲学或文学形式；即使其意象与组织已不像 Yinyang，也应在自己的源位置支持它。<a href="/philosophy/example-and-commons/">从采用、组合到自己的创作</a>说明这种区别。</p>
-<p>读者可以研究范例、借用方法，或采用情境化 Yinyang。完整采用形成六个问题的实际描述，并使它们进入私人使用端。简单路线由语言模型直接综合并保存在私人 Git/GitHub；可选 Hindsight 用较复杂的原生工具实现同一方法。另写原创哲学不是前提。六份公开指南规定取向、人、伙伴、关系、环境与修订六个完整功能问题及其阅读职责。原生形成保留六者，具体行文与物理文件布局按用途安排。</p>
+<p>读者可以研究范例、借用方法，或形成自己的六份工作描述。
+<a href="/repositories/prometheus/source/skills/yinyang/references/docs/creation-method.zh-CN.html#choose-2x2">2×2 实践选择</a>连接 Full／Empty 与简单版／复杂版。本页说明六份描述怎样写、怎样一起修订。</p>
 <p>这六份描述也共同支持个人递归自我改进。取向说明改进服务什么，个人说明实际参与与条件，伙伴连接可用能力与所需贡献，关系说明贡献怎样返回并改变后来的协作，环境实现描述，修订则使改进方法本身成为可以重考的对象。把这些连接写进各自主题，不重复六次同一宣言。相关工作直接使用<a href="/philosophy/literary-recursive-improvement/">递归改进论证</a>作为根据。描述修订说明表达改变；后续使用才为方法及个人参与可能的发展提供证据。</p>
-<h2 id="选择实现工具保留同一份理解">选择实现工具，保留同一份理解</h2>
-<p>两条路线都保留采纳的 Philosophy、可归属的 Personal 理解、六个完整功能问题及相互融贯，遵循原有<a href="/repositories/prometheus/source/skills/yinyang/references/formation/revision.zh-CN.html#刷新选定的根据">修订依赖</a>：读哲学，检索有关新来源，刷新纠正 Personal 并保留冲突与不确定性，再综合六份、检查整体，将必要变化落实到 Skills 与环境并实际回读。</p>
-<p><strong>简单路线。</strong>语言模型直接阅读和综合，维护
-<code>references/situated/{orientation,person,counterpart,relationship,environment,revision}.md</code>。实际修订文件说明本人的实践，不只是文件操作。把要持久保存的私人源放在 Git，并通过实际账号与发布维护者保存到私人 GitHub 仓库，核实私有范围、提交内容与预期取得；原件保有维护者，凭据不进入仓库。这条路线可以独立使用，不要求安装 Hindsight、服务或数据库。</p>
-<p><strong>可选 Hindsight 路线。</strong>用原生 retain、可修订 Observations 和 Mental Models/Knowledge Pages 实现相同责任。<a href="/repositories/prometheus/source/skills/yinyang/references/hindsight.zh-CN.html">配置与实施指南</a>说明怎样按实际环境配置服务、提供方、来源 missions、六个问题、原生操作与读回。把核对后的原生内容投影到相同六路径，或通过私人 <code>references/situated/index.md</code> 明确绑定全部六个完整正文。两种安排都保有实际处境中的修订方法。原生存储与行文可以不同，但较少分组或各页成功不能证明保留了六者。</p>
-<p>路线选择改变工具，不改变哲学、完整问题与证据职责。Full/Empty 是另一项分发选择，不为两条工具路线复制哲学、指南或整套包。Personal 保留本人可读的主题文章及来源链接，原生 Observations 可在后台支持形成。两条路线都不要求完整重复改写 Personal 或强制串联摘要，但已经纠正的 Personal 理解必须影响后续综合，并能返回原始根据。</p>
+<p><a id="选择实现工具保留同一份理解"></a></p>
+<h2 id="形成与修订的共同方法">形成与修订的共同方法</h2>
+<p>从采用的哲学与有关新来源出发，纠正 Personal 理解，凝练六份描述并检查整体，再将所选变化落实到 Skills 与环境、从使用中回读。具体依赖见<a href="/repositories/prometheus/source/skills/yinyang/references/formation/revision.zh-CN.html#刷新选定的根据">修订指南</a>。
+Personal 保留本人可读的主题文章和原始来源；六份描述选择其中与合作有关的含义。简单版由当前语言模型直接完成凝练；复杂版把保留、整合与页面生成交给配置的辅助项目。</p>
 <h2 id="基于实际材料形成情境化版本">基于实际材料形成情境化版本</h2>
 <table>
 <thead>
