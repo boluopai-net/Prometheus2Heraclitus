@@ -33,6 +33,8 @@ Two related expressions develop here. Event sources retain what was said, done, 
 
 The trajectory also contains branches. An unused layout can remain a candidate, and a failed attempt can show why a condition matters; details with no contribution to later understanding need not remain in working attention. Continuation and inquiry determine the scale of accumulation: adopted understanding remains usable, while important alternatives and corrections remain revisitable. The distinctions between streams, time, and memory below explain how such a trajectory can preserve change while supporting present action.
 
+Git branches can give alternatives places to develop, while differences make retained changes comparable. A file can contain several candidates and a view can span several works, so branches do not map one-to-one to views. The commit graph records acyclic ancestry; a functional return from use to method and then to a later work produces new events within that history. [Recursive improvement](literary-recursive-improvement.md#gitgithub-making-change-comparable-and-continuable) connects those versions with the reasons and consequences that make the return intelligible.
+
 In an optional Hindsight realization of this trajectory, attributable reports and actions
 can become native facts, which support revisable observations and readable
 Personal articles. Detailed questions use those grounds to form the six working

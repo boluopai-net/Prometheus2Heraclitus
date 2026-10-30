@@ -26,12 +26,13 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-07 · Let the environment carry memory and return attention to understanding](#yy-07)
 - [YY-08 · Synchronize with the model, stay asynchronous with society, align for evaluation](#yy-08)
 - [YY-09 · Connect philosophical understanding, models, and practice](#yy-09)
-- [YY-10 · Retain conflict, examine selection, and revise preference](#yy-10)
+- [YY-10 · Retain alternatives, form working commitments, and revise selection](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
 - [YY-13 · Forming a sinthome](#yy-13)
 - [YY-14 · Cultivate generative capacities with available fire](#yy-14)
 - [YY-15 · Cultivate a garden of becoming with friends](#yy-15)
+- [YY-16 · Make the way of improving available for improvement](#yy-16)
 
 </details>
 
@@ -40,6 +41,7 @@ the developmental purpose, participants, and central movement of role exchange;
 YY-04–08 organize how they understand one another and work together;
 YY-09–12 distinguish how its claims are formed, checked, and expressed;
 YY-13–15 connect this practice to a singular life and relations with friends.
+YY-16 brings its methods of improvement into the same revisable practice.
 The stable IDs support discussion, not a compulsory sequence. Both reader
 editions carry the same content; English-capable readers and models should
 use this English edition.
@@ -419,7 +421,14 @@ to their practical forms.
 
 <a id="yy-10"></a>
 
-## YY-10 · Retain conflict, examine selection, and revise preference
+## YY-10 · Retain alternatives, form working commitments, and revise selection
+
+Retaining incompatible sources and interpretations keeps inquiry supplied with
+material beyond its present understanding. A working view organizes sufficiently
+definite grounds, relations, and inferential methods for a particular judgment
+or action. Consequences connect these functions: a result can call for different
+grounds, another interpretation, or a changed question. This grounded, revisable
+adoption is a working commitment.
 
 Keeping incompatible candidates available differs from jointly accepting their
 claims. Establish whether they concern the same referent, time, and conditions;
@@ -437,7 +446,10 @@ repairs, and an answer rule determines their consequences. A repair is an
 assertion set, not a possible world. Ordinary working views can instead be
 expressed in natural language. Wanting a conclusion does not strengthen its
 evidence, and an unsuitable premise may need reconstruction rather than
-another selection under the same rules.
+another selection under the same rules. Repairs select assertions under fixed
+axioms; broader inquiry can also change the axioms, classifications, candidate
+generation, and answer policy. Selection itself thereby acquires identifiable
+objects and reasons for revision.
 
 Preference also operates through models, software, and working arrangements
 before the person articulates it. Comparing choices, exclusions, corrections,
@@ -640,6 +652,50 @@ develops this garden's reciprocal cultivation and limited circulation;
 [the personal Gödel-machine analogy](metaphor-and-self-revision.md#the-personal-gödel-machine-analogy)
 develops the connected image of self-revision. The garden remains a chosen
 image whose value is answered by participants' experiences and consequences.
+
+<a id="yy-16"></a>
+
+## YY-16 · Make the way of improving available for improvement
+
+A practice can leave a work and also change how the next improvement is produced.
+YinYang places purposes, understanding, collaboration, and revision methods in a
+readable generative description. Person and model interpret it together and
+realize it through tools, environments, and embodied participation. A method can
+therefore acquire material about its own operation: how it selects sources,
+forms candidates, compares results, and decides what to retain or reconstruct
+all encounter consequences. Participants can change the description in response
+and bring that change into subsequent activity. This return gives recursive
+improvement its practical content.
+
+Description, interpreter, and body depend on one another. Literary condensation
+organizes connected relations into an expression that is easy to return to;
+models unfold it through existing capabilities; participation and the actual
+world answer that unfolding. A concise description depends on understanding
+and supports already available. Its value concerns reduced reconstruction,
+coordination, and revision costs while preserving consequential distinctions.
+Externally developed model capabilities can also open opportunities to
+reinterpret an earlier description, simplify a method, or construct a new arrangement.
+
+Git/GitHub gives parts of the description and implementation recoverable
+differences. Versions, branches, and comparisons preserve attempts; their
+purposes and encounters explain why the differences matter. Versions move
+forward in time while feedback returns to the function performed by a method.
+These relations can organize the same development. Retained conflict makes
+selection reconsiderable; recursive improvement further changes how later
+selections are produced and realized.
+
+Evaluation can develop too: a check can better answer an existing purpose,
+and the purpose itself can be reconsidered through practice. Connecting the
+encountered difficulty, reasons for change, gains, and costs keeps this
+development intelligible and comparable. Use of a work supports claims about
+that work; later relevant activity supports claims about a method; new
+possibilities of participation sustained by person and environment support
+claims about capacity development. Stability, completion, and letting go can
+all be fitting results.
+[Writing one's recursive improvement through literature](literary-recursive-improvement.md)
+develops the relation through a reading-environment example and compares it
+with effective self-reference, construction from descriptions, and improvement
+programs that can rewrite themselves.
 
 ---
 

@@ -275,6 +275,8 @@ give a method repeatable effects. Externalization creates representations that
 other participants can encounter and transform. The developing practice also
 includes how those representations are used and what their use changes.
 
+When the account describes a method of revision, rewriting it makes a new method available for interpretation. Its practical change appears as people and models organize later selection, comparison, judgment, and action differently. Their reasons and the consequences of use can also show whether a check was merely an incomplete proxy for an existing goal or whether the goal itself has changed. [Recursive improvement](literary-recursive-improvement.md#how-evaluation-continues-to-develop) develops this continuity.
+
 Distributed cognition supplies a relevant research framework: Hollan, Hutchins,
 and Kirsh examine cognition across people, material arrangements, and activity
 over time [[5]](#source-5). This essay extends that question to model-supported practice.

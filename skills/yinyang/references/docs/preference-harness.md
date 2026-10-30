@@ -16,6 +16,8 @@ This comparison concerns the structure of judgment: what is provisionally accept
 
 Here a **working view** means the relevant grounds and relations currently used for a question. It can be expressed in ordinary language. Calling it a view does not make it a formal repair; that comparison applies only when assertions, axioms, consistency, and selection have actually been specified.
 
+The repair example holds $T$ fixed while comparing selected consistent grounds. Inquiry can also return to the choice of $T$, the question, source priorities, and the rule for accepting an answer. Evidence, purpose, and consequences provide different reasons for such revisions. [Recursive improvement](literary-recursive-improvement.md#retaining-conflict-and-forming-a-view-for-action) follows this return from local inference to improvement of the selection method itself.
+
 ## Preference extended through the environment
 
 A personal environment can participate in preference rather than merely transmit a preference already complete inside the person. Someone values sustained reading, asks a model to reorganize a library, adopts direct links, and keeps revising the interface through use. The resulting ability to select and continue reading is realized through the person, model, documents, and software together. The arrangement helps determine what is noticed, chosen, and made possible next.

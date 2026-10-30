@@ -112,6 +112,8 @@ and checks which earlier conclusions still apply.
 
 Attention, retention, and acceptance have different effects. Removing a candidate from current use frees the workspace while leaving its source and possible later reconsideration available. Retaining incompatible explanations preserves alternatives for comparison; accepting their claims together as classical premises would expose the inference to contradiction. A source can be worth retaining while its explanation is still developing. The present question determines which branches are worth pursuing.
 
+The working view makes the commitments needed for this question explicit while the wider source material remains available, including incompatible reports and explanations. A later result can change the selected premises, the question, or the way candidates are generated and evaluated. [Recursive improvement](literary-recursive-improvement.md#from-rewriting-words-to-changing-the-next-activity) follows how a revised method enters subsequent activity through interpretation and realization.
+
 An inquiry history preserves these differences across time. An abandoned branch
 can retain its question and reason for abandonment without remaining an active
 instruction or an accepted conclusion. Returning to it may explain an earlier

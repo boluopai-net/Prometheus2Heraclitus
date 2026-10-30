@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {"title": "Let improvement change how the next improvement happens", "output": "skills/yinyang/references/diagrams/literary-rsi.html", "quality_profile": "showcase", "locale": "en", "legend": {"mode":"auto", "entries":{"frontend":{"label":"Conceptual roles"}}}},
+  "components": [
+    {"id":"description","type":"frontend","icon":"none","label":"Generative description Δₜ","sublabel":"Working view W + description of method R","pos":[40,80],"size":[270,90]},
+    {"id":"interpreter","type":"frontend","icon":"none","label":"Interpreter I","sublabel":"Language model with tools","pos":[440,80],"size":[250,90]},
+    {"id":"practice","type":"frontend","icon":"none","label":"Distributed practice Bₜ → Bₜ₊₁","sublabel":"Person and body, tools and supports","pos":[820,80],"size":[270,90]},
+    {"id":"experience","type":"frontend","icon":"none","label":"Experience and results","sublabel":"What happens in practice","pos":[820,350],"size":[270,90]},
+    {"id":"revision","type":"frontend","icon":"none","label":"Comparison and revision R","sublabel":"Reconsider understanding and method","pos":[440,350],"size":[250,90]},
+    {"id":"history","type":"frontend","icon":"none","label":"Evidence and history H","sublabel":"Retained evidence + Git versions","pos":[40,350],"size":[270,90]}
+  ],
+  "connections": [
+    {"id":"read","from":"description","to":"interpreter","label":"read / interpret","variant":"emphasis"},
+    {"id":"enact","from":"interpreter","to":"practice","label":"enact in practice","variant":"emphasis"},
+    {"id":"experience","from":"practice","to":"experience","label":"yields","variant":"emphasis"},
+    {"id":"return","from":"experience","to":"revision","label":"return for comparison","variant":"emphasis"},
+    {"id":"revise","from":"revision","to":"description","label":"revise W and R","fromSide":"top","toSide":"bottom","variant":"emphasis"},
+    {"id":"support","from":"history","to":"revision","label":"compare / recover"}
+  ],
+  "cards": [
+    {"dot":"cyan","title":"A reflective return","items":["The method enters the next round through description, interpretation and realization.","Experience can revise both the selected working view and the method of revision."]},
+    {"dot":"emerald","title":"History supports judgment","items":["Versions retain changes; experience helps explain their meaning. Retained evidence and Git history support comparison and recovery."]}
+  ]
+}
