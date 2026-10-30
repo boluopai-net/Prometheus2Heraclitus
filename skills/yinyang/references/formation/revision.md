@@ -190,6 +190,16 @@ two implementations of one method, independent of Full/Empty distribution.
 
 ## Write for the actual use
 
+Prevent defensive explanations from the first draft, throughout authorship,
+rewriting and revision of philosophy, Prompts and Skills. When the person
+identifies a problem in the philosophy, revise the philosophy itself under
+this requirement. Inspection and cleanup address defects already introduced.
+
+Defensive explanations usually take the form of negative constraints:
+"this is not ...", "must not ...", "cannot ..." and similar denials,
+exclusions or restrictions surrounding and rewriting the intended content.
+Inspect both this form and the actual meaning it adds.
+
 Exclude defensive explanations from revision. When a model writes protection
 of its upper-level Harness into a person's philosophy, Prompts, Skills or
 personal environment, that content can become the person's standing rules and

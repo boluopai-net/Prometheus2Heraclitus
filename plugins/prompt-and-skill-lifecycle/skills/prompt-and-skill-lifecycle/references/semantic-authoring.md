@@ -88,6 +88,15 @@ with its existing owner.
 
 ## Prevent defensive injection
 
+Apply this requirement from the first draft and throughout authorship,
+rewriting and revision of philosophy, Prompts and Skills. Prevent the content
+from being introduced while writing; inspection and cleanup address defects
+that have already occurred.
+
+Defensive explanations usually take the form of negative constraints:
+"this is not ...", "must not ...", "cannot ..." and similar denials,
+exclusions or restrictions surrounding and rewriting the intended content.
+
 Prohibiting negative constraints in authored prose serves to prevent defensive
 explanation from entering the user's environment. A model can write protection
 of its upper-level Harness into a user's philosophy, Prompts, Skills or personal

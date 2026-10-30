@@ -166,6 +166,11 @@ handing off work does not itself carry the action to completion.
 
 ## Literature and philosophy
 
+When authoring or revising philosophy, Prompts or Skills, apply the
+[writing requirement](references/formation/revision.md#write-for-the-actual-use)
+from the first draft: prevent defensive explanations and Harness-protective
+negative constraints from being introduced into the person's work and environment.
+
 In the author's YinYang, **reverse alignment** names a chosen developmental aim:
 a person develops understanding, judgment, generation, and action through
 encounters with generative intelligence. The [fire essay](references/docs/stealing-fire.md)
