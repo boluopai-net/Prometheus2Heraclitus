@@ -409,6 +409,10 @@ def main():
             explanation = f'<p class="diagram-explanation">{layers_explanation}</p>' if name == 'layers' else ''
             diagrams += f'<article class="diagram-card{wide}"><a class="diagram-open" href="{BASE}diagrams/{name}/{"en/" if english else ""}"><img loading="lazy" src="{url(PACKAGE + "references/diagrams/" + preview)}" alt="{en if english else zh} — {"diagram preview" if english else "图示预览"}"><h3>{en if english else zh}</h3><p>{desc_en if english else desc_zh}</p></a>{explanation}{context_link}</article>'
             diagram_path = PACKAGE + 'references/diagrams/' + name + suffix + '.html'
+            if name == 'literary-rsi':
+                diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">{"Yinyang appendices" if english else "Yinyang 的附录"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-return">{context_link}</p><p class="diagram-intro">{desc_en if english else desc_zh}</p><img class="inline-diagram-image" style="width:100%;height:auto" src="{url(PACKAGE + "references/diagrams/" + preview)}" alt="{en if english else zh}"></main>'
+                write(f'diagrams/{name}/' + ('en/' if english else '') + 'index.html', shell(en if english else zh, diagram_body, lang))
+                continue
             if name not in {'encounter', 'layers', 'literary-rsi'}:
                 diagram_body = f'<main id="main" class="wrap diagram-page"><div class="reader-top"><a class="back" href="{BASE}{"en/" if english else ""}">{"Yinyang appendices" if english else "Yinyang 的附录"}</a><a class="language-link" href="{BASE}diagrams/{name}/{"" if english else "en/"}">{"中文" if english else "English"}</a></div><h1>{en if english else zh}</h1><p class="diagram-intro">{desc_en if english else desc_zh}</p>{reading_map(name, not english)}</main>'
                 diagram_body = diagram_body.replace('</h1>', '</h1><p class="diagram-return">' + context_link + '</p>', 1)
