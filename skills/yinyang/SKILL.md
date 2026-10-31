@@ -11,8 +11,8 @@ The public **Full** package is a static reference showing how the website's
 philosophy takes form inside a Skill. It is not for installation or adoption
 as your own practice. Begin that practice with **Empty**, forming the
 person's own philosophy, Personal material, and six working accounts. The
-[practice table](references/docs/creation-method.md#choose-2x2) keeps Full visible
-with the entire Full row crossed out. The author's existing private instance
+[practice overview](references/docs/creation-method.md#choose-2x2) distinguishes
+a readable reference from a usable method. The author's existing private instance
 uses the maintained common method below with its actual private accounts;
 that active instance and the public reference have different purposes.
 

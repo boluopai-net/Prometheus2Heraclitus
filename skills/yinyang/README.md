@@ -50,7 +50,7 @@ Skills. Other collection members retain their independent purposes and methods.
 
 ## Use and understand YinYang
 
-**Full is a static reference, not a package to load into your own practice.** It shows how the philosophy on the website is expressed and organized within a Skill: its entrypoint, philosophical resources, formation guides, and relations among them. Read and compare that form; its entire row in the [reference and method table](references/docs/creation-method.md#choose-2x2) is crossed out.
+**Full is a static reference, not a package to load into your own practice.** It shows how the philosophy on the website is expressed and organized within a Skill: its entrypoint, philosophical resources, formation guides, and relations among them. Read and compare that form; use Empty for your own practice, as explained in the [method overview](references/docs/creation-method.md#choose-2x2).
 
 For your own practice, use [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty). You and the model develop your philosophy, Personal material, and six actual working accounts from your purposes, experience, and environment. Choose direct model condensation or a configured aid such as Hindsight. The author's views remain available as references to examine and select while forming your own account.
 

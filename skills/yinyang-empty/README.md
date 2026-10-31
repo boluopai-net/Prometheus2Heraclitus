@@ -25,7 +25,7 @@ and implementation; you need not do it unaided.
 | Organize private evidence and understanding | [Organizing Personal](references/personal-material.md) |
 | Install and update without replacing your own content | [Files and updates](references/package.md) |
 
-This package is **Empty**, the recursive self-improvement method for your own practice. The [method overview](references/creation-method.md#choose-2x2) explains direct and assisted condensation; its entire Full row is crossed out because that philosophy is a reading reference, not instructions to load into your own practice.
+This package is **Empty**, the recursive self-improvement method for your own practice. The [method overview](references/creation-method.md#choose-2x2) explains direct and assisted condensation; Full is a philosophical reading reference and is prohibited for your own practice.
 Its six `status: unfilled` starters, four empty Personal areas, and source index provide places
 for you and the model to form your content; see [Files and updates](references/package.md).
 

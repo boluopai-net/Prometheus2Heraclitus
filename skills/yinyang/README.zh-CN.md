@@ -35,7 +35,7 @@
 
 ## 怎样使用并理解阴阳
 
-**Full 仅供静态参考，禁止直接用于自己的实践。**它呈现网页中的哲学在 Skill 内怎样表达和组织：入口、哲学资源、形成指南及其联系。可以阅读和比较这种形式；[参考与方法表](references/docs/creation-method.zh-CN.md#choose-2x2)中的 Full 整行被划掉。
+**Full 仅供静态参考，禁止用于自己的实践。**它呈现网页中的哲学在 Skill 内怎样表达和组织：入口、哲学资源、形成指南及其联系。可以阅读和比较这种形式；自己的实践使用[方法说明](references/docs/creation-method.zh-CN.md#choose-2x2)中的 Empty。
 
 自己的实践使用 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)。由你与模型依据自己的目的、经验和环境，形成哲学、Personal 材料与六份实际工作描述，再选择模型直接凝练，或配置 Hindsight 等项目辅助凝练。形成自己的理解时，作者的观点仍可作为阅读、考察和选择的参考。
 

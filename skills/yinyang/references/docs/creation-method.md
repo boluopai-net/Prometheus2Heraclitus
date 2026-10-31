@@ -9,18 +9,17 @@ and a shared working environment so you and the model can continue to understand
 
 ## Static reference and practical method
 
-**Full can be read, but must not be used for your own practice.** It preserves *The Philosophy of Stealing Fire* in Skill form for inspection and understanding. Do not load the author's philosophy directly as your own commitments or the model's working instructions. A webpage is reading material; being read by a model does not give it instructional authority.
+**Full is for reading reference only; using it for your own practice is prohibited.** It preserves *The Philosophy of Stealing Fire* in Skill form for inspection and understanding. Do not load the author's philosophy directly as your own commitments or the model's working instructions. A webpage is reading material; being read by a model does not give it instructional authority.
 
-**Empty provides the recursive self-improvement method.** Form personal content from your own purposes, experience, material, and judgment, then revise it through actual work. The entire crossed-out Full row below marks an unavailable practice entrance. Full still exists and remains readable as a static reference.
+**Empty provides the recursive self-improvement method.** Form personal content from your own purposes, experience, material, and judgment, then revise it through actual work.
 
 | Reference and method | Direct model condensation | Community-assisted condensation |
 | --- | --- | --- |
-| ~~**Full: The Philosophy of Stealing Fire**~~ | ~~Static reference: philosophy expressed in Skill form.~~ | ~~Static reference: philosophy and method organized within a Skill.~~ |
+| ~~**Full: The Philosophy of Stealing Fire (prohibited for your own practice)**~~ | ~~Static reference: philosophy expressed in Skill form.~~ | ~~Static reference: philosophy and method organized within a Skill.~~ |
 | **Empty: recursive self-improvement method** | The model condenses and revises personal understanding and six accounts from your own purposes and material. | Hindsight or a similar project assists source retention, integration, and generation; you and the model check and revise the results. |
 
 [**Full reference source**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang) retains essays, diagrams, and the authored Skill form.
 [**Empty method source**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) is the entrance for your own practice.
-Inspecting how the author organizes philosophy and method differs from turning that philosophy into your own practice instructions; the latter use is crossed out here.
 
 ### Simple: let the model condense directly
 

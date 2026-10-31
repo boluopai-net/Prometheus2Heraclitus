@@ -64,7 +64,7 @@ project. If writing appeals to you, [An example and a commons](skills/yinyang/re
 opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
 
 For adoption, use the [reference and method overview](skills/yinyang/references/docs/creation-method.md#choose-2x2):
-**Empty provides the recursive self-improvement method** for forming your own content, through direct model condensation or assistance from a community project such as Hindsight. The table retains Full with its entire row crossed out: it is a static reference showing the website's philosophy in Skill form, not a package to load into your own practice.
+**Empty provides the recursive self-improvement method** for forming your own content, through direct model condensation or assistance from a community project such as Hindsight. Full is a static reference showing the website's philosophy in Skill form; using it for your own practice is prohibited.
 
 The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
