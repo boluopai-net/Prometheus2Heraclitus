@@ -51,8 +51,8 @@
 而不另开一个写作项目；愿意写时，[例子与知识共有地](skills/yinyang/references/docs/example-and-commons.zh-CN.md)
 提供这条创作路径。实际起步可沿[工具使用](https://boluopai.net/getting-started/)。
 
-采用阴阳时，用[实践总览的 2×2 选择表](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)
-选择 **Empty × 简单版／复杂版**：形成自己的哲学，让模型直接凝练工作描述，或配置 Hindsight 等社区项目辅助处理。表中保留 Full 并将实践格画叉：它仅是网页哲学在 Skill 中的静态参考形式，禁止用于他人的实际实践。
+采用阴阳时，用[实践总览](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)
+通过 **Empty 的递归自我改进方法**形成自己的内容：由模型直接凝练工作描述，或由 Hindsight 等社区项目辅助处理。表中保留 Full 并将整行划掉：它仅是网页哲学在 Skill 中的静态参考形式，禁止直接用于自己的实践。
 
 [个人模型的凝练指引](skills/yinyang/references/formation/person.zh-CN.md#从事件历史哲学与个人材料凝练个人模型)
 展开这些材料怎样成为本人、所需模型伙伴及双方关系的描述，再让共同工作进入现实，
@@ -89,7 +89,7 @@
 
 ## 集合里的 Skill
 
-阴阳区分参考与实践包：**[Full](skills/yinyang/)** 包含文章与图示，仅供查看作者哲学在 Skill 中的静态形式；他人的实践使用 **[Empty](skills/yinyang-empty/)**，
+阴阳区分参考与实践包：**[Full](skills/yinyang/)** 包含文章与图示，仅供查看作者哲学在 Skill 中的静态形式；自己的实践使用 **[Empty](skills/yinyang-empty/)**，
 保留反向对齐、角色交叉与阴阳辩证法、六份 formation 指南及实践建议，不含 `docs` 和
 `diagrams`，由使用者与模型共同形成自己的哲学、Personal 与 Situated。两版都不分发私人材料。
 
@@ -98,7 +98,7 @@
 
 | Skill | 用途 | 包 |
 | --- | --- | --- |
-| [yinyang](skills/yinyang/SKILL.zh-CN.md) | ✗ 仅供静态参考：作者的哲学在 Skill 中的表达形式，禁止用于他人的实践。 | [参考说明与哲学资源](skills/yinyang/README.zh-CN.md) |
+| [yinyang](skills/yinyang/SKILL.zh-CN.md) | 仅供静态参考：作者的哲学在 Skill 中的表达形式，禁止直接用于自己的实践。 | [参考说明与哲学资源](skills/yinyang/README.zh-CN.md) |
 | [yinyang-empty](skills/yinyang-empty/SKILL.zh-CN.md) | 保留辩证核心与方法指南，形成自己的哲学、个人材料和实际工作模型。 | [Empty 使用说明](skills/yinyang-empty/README.zh-CN.md) |
 | [random-wheel](skills/random-wheel/SKILL.md) | 把截图或明确给出的选项变成可调速的动画转盘，以等概率随机抽选。 | [完整包](skills/random-wheel/) |
 | [research](skills/research/SKILL.md) | 调查事实、产品行为与方案，把来源、观察、假设和覆盖限制放在同一个可检查的回答中。 | [完整包](skills/research/) |
@@ -123,7 +123,7 @@
 | [clash-auto-switch](skills/clash-auto-switch/SKILL.md) | 维护 Clash 节点选择、地区回退与 DNS/TUN 保护。 | [完整包](skills/clash-auto-switch/) |
 
 实际实践安装 **Empty：`yinyang-empty`**。Full 只保留参考源码与阅读入口。
-随后按[2×2 实践入口](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)形成自己的六份工作描述。
+随后按[实践方法入口](skills/yinyang/references/docs/creation-method.zh-CN.md#choose-2x2)形成自己的六份工作描述。
 个人材料与实际描述保存在自己的私人来源中。
 
 论述与图示都属于 `skills/yinyang/references/` 内的阴阳配件。

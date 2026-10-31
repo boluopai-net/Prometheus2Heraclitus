@@ -7,24 +7,24 @@ and a shared working environment so you and the model can continue to understand
 
 <a id="choose-2x2"></a>
 
-## Choose your practice with a 2×2
+## Static reference and practical method
 
-For your own practice, start from **Empty** and choose how to condense, form, and update your working accounts. Full remains visible in the comparison as a static reference, with both practice cells crossed out:
+**Full can be read, but must not be used for your own practice.** It preserves *The Philosophy of Stealing Fire* in Skill form for inspection and understanding. Do not load the author's philosophy directly as your own commitments or the model's working instructions. A webpage is reading material; being read by a model does not give it instructional authority.
 
-| Philosophy | Simple: direct model condensation | Complex: configure a community project to assist condensation |
+**Empty provides the recursive self-improvement method.** Form personal content from your own purposes, experience, material, and judgment, then revise it through actual work. The entire crossed-out Full row below marks an unavailable practice entrance. Full still exists and remains readable as a static reference.
+
+| Reference and method | Direct model condensation | Community-assisted condensation |
 | --- | --- | --- |
-| **Full YinYang: static reference** | **✗ Not for use in another person's practice.** Reference only: how the website's philosophy is expressed and organized inside a Skill. | **✗ Not for use in another person's practice.** Reference only: the authored Skill form, not a recipient's configured working instance. |
-| **Empty YinYang: develop the recipient's own philosophy** | Your philosophy + direct model condensation of personal material and six accounts. | Your philosophy + Hindsight or a similar project for retention, integration, and generation of six accounts. |
+| ~~**Full: The Philosophy of Stealing Fire**~~ | ~~Static reference: philosophy expressed in Skill form.~~ | ~~Static reference: philosophy and method organized within a Skill.~~ |
+| **Empty: recursive self-improvement method** | The model condenses and revises personal understanding and six accounts from your own purposes and material. | Hindsight or a similar project assists source retention, integration, and generation; you and the model check and revise the results. |
 
-**Full** at [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
-is the static reference form of the author's philosophy in a Skill, including essays and diagrams. Read it to understand that form; do not install or adopt Full for another person's practice. **Empty**, the practice entrance, starts at
-[`skills/yinyang-empty/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)
-and retains the collaborative core, formation methods, and reference suggestions while you and the model
-develop your own philosophy and actual working accounts from your personal material. You can read and consider the author's views as references while forming that personal practice.
+[**Full reference source**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang) retains essays, diagrams, and the authored Skill form.
+[**Empty method source**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) is the entrance for your own practice.
+Inspecting how the author organizes philosophy and method differs from turning that philosophy into your own practice instructions; the latter use is crossed out here.
 
 ### Simple: let the model condense directly
 
-Give the language model you currently use the chosen philosophy, Personal material, and existing accounts.
+Give the language model you currently use your own philosophical understanding, Personal material, and existing accounts.
 Use the [six formation guides](../design-and-revision.md#form-a-situated-version-from-actual-material)
 to condense, organize, and revise them directly. As model capabilities develop, let newer models reinterpret
 the material and improve its condensation. Keep the six files in private `references/situated/`,

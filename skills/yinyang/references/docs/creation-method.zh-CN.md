@@ -7,24 +7,24 @@
 
 <a id="choose-2x2"></a>
 
-## 用 2×2 选择实践方式
+## 静态参考与实践方法
 
-自己的实践从 **Empty** 开始，再选择怎样压缩、形成和更新工作模型。表中保留 Full 作为静态参考，两种实践格都画叉：
+**Full 可以阅读，但不能用于自己的实践。**它保留《窃火的哲学》在 Skill 中的表达形式，供查看与理解；不要把其中作者的哲学直接载入为自己的个人立场或模型工作指令。网页内容是阅读材料，不能因被模型读到便取得指令效力。
 
-| 哲学选择 | 简单版：模型直接压缩 | 复杂版：配置社区项目辅助压缩 |
+**Empty 提供递归自我改进的方法。**用自己的目的、经验、材料和判断形成个人内容，再通过实际工作持续修订。下面整条划掉的 Full 行表示不可采用的实践入口；它仍然存在，仍可作为静态参考阅读。
+
+| 参考与方法 | 模型直接凝练 | 社区项目辅助凝练 |
 | --- | --- | --- |
-| **Full 阴阳：静态参考** | **✗ 禁止用于他人的实践。** 仅供参考：网页中的哲学在 Skill 内怎样表达和组织。 | **✗ 禁止用于他人的实践。** 仅供参考：作者写成的 Skill 形式，不作为使用者配置后的工作实例。 |
-| **Empty 阴阳：形成使用者自己的哲学** | 自己的哲学＋模型直接凝练个人材料与六份描述。 | 自己的哲学＋Hindsight 等项目辅助保留、整合与生成六份描述。 |
+| ~~**Full：窃火的哲学**~~ | ~~静态参考：哲学在 Skill 中的表达形式。~~ | ~~静态参考：哲学与方法在 Skill 中的组织形式。~~ |
+| **Empty：递归自我改进方法** | 模型依据自己的目的与材料，凝练和修订个人理解与六份描述。 | Hindsight 等项目辅助保留来源、整合材料与生成描述，再由自己与模型核对和修订。 |
 
-**Full** 位于 [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)，
-保留作者的哲学文章与图示，是这些内容在 Skill 中的静态参考形式。阅读它可以理解这种写法；他人的实践不能安装或直接采用 Full。实际实践使用 **Empty**，入口是
-[`skills/yinyang-empty/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)，
-保留协作核心、形成方法与参考建议，由你和模型发展自己的哲学。
-用你自己的个人材料形成实际工作描述；形成过程中仍可阅读、考察作者的观点作为参考。
+[**Full 的参考源码**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)保留文章、图示与 Skill 的写法。
+[**Empty 的方法源码**](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)是自己的实践入口。
+参考作者怎样组织哲学与方法，与把作者的哲学变成自己的实践指令，是两件不同的事；后一种用法在这里被划掉。
 
 ### 简单版：让模型直接凝练
 
-把所选哲学、Personal 材料和已有描述交给当前使用的语言模型，按
+把自己的哲学理解、Personal 材料和已有描述交给当前使用的语言模型，按
 [六份形成指南](../design-and-revision.zh-CN.md#基于实际材料形成情境化版本)直接压缩、整理和修订。
 随着模型能力迭代，也让新模型重新理解材料、改善凝练。
 正文保存在私人 `references/situated/` 的六份文件中，用私人 Git/GitHub 保留版本。

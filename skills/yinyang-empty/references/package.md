@@ -2,7 +2,7 @@
 
 [简体中文](package.zh-CN.md) · [Package entrance](../README.md)
 
-The collection retains Full at `skills/yinyang/` as a static reference of the website's philosophy in Skill form, not for another person's practice or installation. `skills/yinyang-empty/` is Empty, the practice package:
+The collection retains Full at `skills/yinyang/` as a static reference of the website's philosophy in Skill form, not for loading into your own practice. `skills/yinyang-empty/` is Empty, the practice package:
 the shared dialectical core, six formation guides, selected suggestions, and
 practical method entrances. Both are complete packages for their stated use.
 Neither public edition includes anyone's private personal accounts. Empty
@@ -26,7 +26,7 @@ Keep these recipient-owned materials private and outside managed plugin caches:
 The six `status: unfilled` starters live at
 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`.
 Form their content through the simple or complex route in the
-[2×2 practice selector](creation-method.md#choose-2x2), retaining versions in private Git/GitHub.
+[reference and method overview](creation-method.md#choose-2x2), retaining versions in private Git/GitHub.
 The complex route can project results to these files or bind all six complete bodies through a private index;
 see [Hindsight configuration](hindsight.md).
 

@@ -1,6 +1,6 @@
 # YinYang files and shared updates
 
-This page documents the author's maintained source and private-instance file relationships. Public Full is a static reference, not for another person's practice. Recipients start from [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) and follow its package contract.
+This page documents the author's maintained source and private-instance file relationships. Public Full is a static reference, not for your own practice. Recipients start from [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) and follow its package contract.
 
 [Home](../../README.md) · [Model entrypoint](../../SKILL.md) · [简体中文](skill-package.zh-CN.md)
 
@@ -31,7 +31,7 @@ Each synthesis instruction draws on the six complete guides and relevant actual
 grounds. [Formation and revision](../design-and-revision.md) owns their distinct
 subjects, connected scope and whole-six coherence.
 
-The [2×2 practice selector](creation-method.md#choose-2x2) explains edition and condensation choices;
+The [reference and method overview](creation-method.md#choose-2x2) explains edition and condensation choices;
 this page locates the private files and their updates:
 
 | Question | Actual private file |

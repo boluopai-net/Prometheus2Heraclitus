@@ -25,13 +25,12 @@ and implementation; you need not do it unaided.
 | Organize private evidence and understanding | [Organizing Personal](references/personal-material.md) |
 | Install and update without replacing your own content | [Files and updates](references/package.md) |
 
-This package is **Empty**, the available practice row of the 2×2; Full's practice cells are crossed out because Full is a static reference.
-Choose simple or complex in the [practice selector](references/creation-method.md#choose-2x2).
+This package is **Empty**, the recursive self-improvement method for your own practice. The [method overview](references/creation-method.md#choose-2x2) explains direct and assisted condensation; its entire Full row is crossed out because that philosophy is a reading reference, not instructions to load into your own practice.
 Its six `status: unfilled` starters, four empty Personal areas, and source index provide places
 for you and the model to form your content; see [Files and updates](references/package.md).
 
 The [Codex installation guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.md)
-offers `yinyang-empty@boluopai`, the package for another person's actual practice.
+offers `yinyang-empty@boluopai`, the method package for your own practice.
 Keep personal additions outside replaceable plugin caches. Public method
 updates retain your own content; they do not install Full's philosophical corpus.
 

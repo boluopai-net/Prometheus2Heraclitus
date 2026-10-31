@@ -33,7 +33,7 @@ literal angle brackets. Names and descriptions have separate display roles.
 
 ## YinYang editions
 
-`skills/yinyang/` is Full: a static reference showing the website philosophy in Skill form, including essays and diagrams. It is not offered for another person's practice or installation.
+`skills/yinyang/` is Full: a static reference showing the website philosophy in Skill form, including essays and diagrams. It is not offered for loading into your own practice.
 `skills/yinyang-empty/` is the Empty edition: reverse alignment, crossed roles and
 dialectical return, six formation guides, Core views as attributed suggestions,
 practice overview, formation/revision, daily collaboration, and Personal guidance.

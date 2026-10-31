@@ -2,7 +2,7 @@
 
 [English](package.md) · [本包入口](../README.zh-CN.md)
 
-集合保留 `skills/yinyang/`（Full）作为网页哲学在 Skill 中的静态参考形式，禁止用于他人的实践，不提供安装入口。
+集合保留 `skills/yinyang/`（Full）作为网页哲学在 Skill 中的静态参考形式，禁止直接用于自己的实践，不提供安装入口。
 `skills/yinyang-empty/` 是 Empty，保留共同的辩证核心、六份 formation 指南、选定的建议
 与实践方法入口。两版各自是用途完整的包，都不含任何人的私人实际描述。
 Empty 提供未填写的 Personal 与 Situated 起始结构，供在私人副本中形成内容。
@@ -22,7 +22,7 @@ Empty 没有 `docs/` 或 `diagrams/`。`references/formation/` 中是六份指�
 
 六份起始文件标为 `status: unfilled`，位于
 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`。
-按[2×2 实践选择](creation-method.zh-CN.md#choose-2x2)中的简单版或复杂版形成内容，
+按[静态参考与实践方法](creation-method.zh-CN.md#choose-2x2)中的简单版或复杂版形成内容，
 通过私人 Git/GitHub 保留版本。复杂版可将结果投影到这些文件，或由私人索引绑定六个完整正文；
 具体配置见 [Hindsight 指引](hindsight.zh-CN.md)。
 

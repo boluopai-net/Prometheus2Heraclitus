@@ -21,13 +21,13 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 | 整理私人证据与理解 | [组织 Personal](references/personal-material.zh-CN.md) |
 | 安装与更新，并保留自己的内容 | [文件与更新](references/package.zh-CN.md) |
 
-本包是 2×2 中形成自己哲学的 **Empty**。在
-[实践选择表](references/creation-method.zh-CN.md#choose-2x2)选择简单版或复杂版。
+本包是 **Empty**，提供自己的实践所用的递归自我改进方法。
+[参考与方法表](references/creation-method.zh-CN.md#choose-2x2)说明直接凝练与辅助凝练；Full 整行划掉，表示其中的哲学供阅读参考，不能直接载入自己的实践。
 包内的六份 `status: unfilled` 起始文件、四个空 Personal 分区与来源索引，
 供你和模型形成自己的内容；文件位置见[文件与更新](references/package.zh-CN.md)。
 
 [Codex 安装说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.zh-CN.md)
-提供 `yinyang-empty@boluopai`，他人的实际实践使用这一包。Full 仅供静态参考。个人内容保存在会被替换的
+提供 `yinyang-empty@boluopai`，自己的实践使用这一方法包。Full 仅供静态参考。个人内容保存在会被替换的
 插件缓存之外。公共方法更新保留你自己的内容，不把 Full 的哲学文集装回来。
 
 本包是 boluopai 阴阳作品的一个版本：选取方法资源，将展开的文章保留为可选的外部阅读。

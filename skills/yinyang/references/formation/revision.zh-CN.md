@@ -117,7 +117,7 @@ Personal 的分类组织可用的根据，一次修订则按问题从中取用�
 
 选择原生路线时，按 [Hindsight 指南](../hindsight.zh-CN.md)配置实际环境与操作，将核对后的输出投影到六路径，
 或经私人索引明确绑定全部六者。原生处理实现同样的来源、Personal、综合依赖，并检查结果，不能把共享 bank
-当作语义融贯。具体组合见[2×2 实践选择](../docs/creation-method.zh-CN.md#choose-2x2)。
+当作语义融贯。具体组合见[静态参考与实践方法](../docs/creation-method.zh-CN.md#choose-2x2)。
 
 ## 按实际用途写作
 

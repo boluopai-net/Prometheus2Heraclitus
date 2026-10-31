@@ -35,7 +35,7 @@
 
 ## 怎样使用并理解阴阳
 
-**Full 仅供静态参考，禁止用于他人的实践。**它呈现网页中的哲学在 Skill 内怎样表达和组织：入口、哲学资源、形成指南及其联系。可以阅读和比较这种形式；[2×2 表](references/docs/creation-method.zh-CN.md#choose-2x2)中的 Full 实践格都画叉。
+**Full 仅供静态参考，禁止直接用于自己的实践。**它呈现网页中的哲学在 Skill 内怎样表达和组织：入口、哲学资源、形成指南及其联系。可以阅读和比较这种形式；[参考与方法表](references/docs/creation-method.zh-CN.md#choose-2x2)中的 Full 整行被划掉。
 
 自己的实践使用 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)。由你与模型依据自己的目的、经验和环境，形成哲学、Personal 材料与六份实际工作描述，再选择模型直接凝练，或配置 Hindsight 等项目辅助凝练。形成自己的理解时，作者的观点仍可作为阅读、考察和选择的参考。
 
@@ -45,7 +45,7 @@
 | 开始自己的实践 | [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)与[实践总览](references/docs/creation-method.zh-CN.md)。 |
 | 理解形成方法 | [工作模型的形成与修订](references/design-and-revision.zh-CN.md)，通向六份写作指南。 |
 
-[包结构说明](references/docs/skill-package.zh-CN.md)记录作者维护源与私人实例的关系。Full 是这一已写成形式的参考快照，作者实际使用的私人实例另有个人材料和持续修订。他人的实践从 Empty 取得工作源，并在自己的来源中维护独立内容。
+[包结构说明](references/docs/skill-package.zh-CN.md)记录作者维护源与私人实例的关系。Full 是这一已写成形式的参考快照，作者实际使用的私人实例另有个人材料和持续修订。自己的实践从 Empty 取得工作源，并在自己的来源中维护独立内容。
 
 ## 这些文本是什么关系
 

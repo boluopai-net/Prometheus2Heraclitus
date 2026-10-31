@@ -51,7 +51,7 @@ simple standalone route uses direct language-model synthesis into the original
 six `references/situated/` files and private Git/GitHub persistence. Hindsight is
 an optional environment-specific native implementation of the same method,
 projected to those six files or an explicit all-six private index binding.
-Full is a static reference; other people's practice starts from Empty in either route; do not duplicate the
+Full is a static reference; your own practice starts from Empty in either route; do not duplicate the
 philosophy, guides or entire package for these tool choices.
 
 Preserve the revision dependency: adopted philosophy, relevant new attributable

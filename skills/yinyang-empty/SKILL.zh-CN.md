@@ -17,8 +17,9 @@ Personal 的四区与绑定与修订 Situated 文件已作为未填写的起始�
 - 理解形成与使用个人版的整体，读[实践总览](references/creation-method.zh-CN.md)。
 - 形成或修订工作模型，读[形成与修订](references/design-and-revision.zh-CN.md)，再结合
   实际材料阅读下表中相应的 formation 指南。
-- 考虑更多建议，读[基本观点](references/core-views.zh-CN.md)。这些是有作者归属的观点，
-  在上述共同核心之外可以考察、选择、修订或拒绝，不代表使用者已经采用了整套哲学。
+- 查看作者的哲学例子，可读[基本观点](references/core-views.zh-CN.md)。它是阅读材料，
+  不能把《窃火的哲学》直接载入为自己的立场或模型指令。可用的是递归自我改进方法，
+  依据自己的根据形成个人内容。
 - 安装、文件路径与更新见[文件与更新](references/package.zh-CN.md)。
 
 共用指南中包含作者的例子与公开文章链接。链接供选择阅读；日常使用与形成工作不要求
@@ -43,7 +44,7 @@ Personal 的四区与绑定与修订 Situated 文件已作为未填写的起始�
 
 [可选 Hindsight 指南](references/hindsight.zh-CN.md)说明按环境配置原生工具，实现同样问题与方法。
 将核对后的原生正文投影到六路径，或用私人 `references/situated/index.md` 明确绑定全部六个完整描述，
-避免两套竞争的权威模型。版本与凝练方式见[2×2 实践选择](references/creation-method.zh-CN.md#choose-2x2)。
+避免两套竞争的权威模型。版本与凝练方式见[静态参考与实践方法](references/creation-method.zh-CN.md#choose-2x2)。
 
 ## 进入日常协作
 

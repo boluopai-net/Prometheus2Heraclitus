@@ -50,7 +50,7 @@ Skills. Other collection members retain their independent purposes and methods.
 
 ## Use and understand YinYang
 
-**Full is a static reference, not a practice package for another person.** It shows how the philosophy on the website is expressed and organized within a Skill: its entrypoint, philosophical resources, formation guides, and relations among them. Read and compare that form; its practice cells in the [2×2 table](references/docs/creation-method.md#choose-2x2) are crossed out.
+**Full is a static reference, not a package to load into your own practice.** It shows how the philosophy on the website is expressed and organized within a Skill: its entrypoint, philosophical resources, formation guides, and relations among them. Read and compare that form; its entire row in the [reference and method table](references/docs/creation-method.md#choose-2x2) is crossed out.
 
 For your own practice, use [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty). You and the model develop your philosophy, Personal material, and six actual working accounts from your purposes, experience, and environment. Choose direct model condensation or a configured aid such as Hindsight. The author's views remain available as references to examine and select while forming your own account.
 
@@ -60,7 +60,7 @@ For your own practice, use [Empty](https://github.com/boluopai-net/Prometheus2He
 | Begin your own practice | [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) and the [practice overview](references/docs/creation-method.md). |
 | Understand the formation method | [Forming and revising working models](references/design-and-revision.md), leading to the six writing guides. |
 
-The [package guide](references/docs/skill-package.md) documents the author's maintained source and private-instance relationship. Full is a reference snapshot of that authored form; the author's actual private instance has its own personal material and continuing revision. Other people's practice takes its working source from Empty and maintains independently authored content there.
+The [package guide](references/docs/skill-package.md) documents the author's maintained source and private-instance relationship. Full is a reference snapshot of that authored form; the author's actual private instance has its own personal material and continuing revision. Your own practice takes its working source from Empty and maintains independently authored content there.
 
 ## How the texts relate
 

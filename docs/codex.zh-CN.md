@@ -14,7 +14,7 @@ codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
 codex plugin add yinyang-empty@boluopai
 ```
 
-Empty 保留辩证核心、六份形成指南、基本观点建议及实践与协作指南，由你与模型形成自己的哲学和个人描述。Full 是网页哲学在 Skill 中的静态参考形式，禁止用于他人的实践，不提供安装入口。
+Empty 保留辩证核心、六份形成指南、基本观点建议及实践与协作指南，由你与模型形成自己的哲学和个人描述。Full 是网页哲学在 Skill 中的静态参考形式，禁止直接用于自己的实践，不提供安装入口。
 
 将 `yinyang-empty` 换成[目录](../README.zh-CN.md#集合里的-skill)中的其他包名即可。
 例如，`codex plugin add research@boluopai` 安装搜索与研究。

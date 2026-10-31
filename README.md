@@ -63,8 +63,8 @@ You can use the ideas and maintain your environment without taking on a writing
 project. If writing appeals to you, [An example and a commons](skills/yinyang/references/docs/example-and-commons.md)
 opens that route. Practical beginnings are in [Using the Tools](https://boluopai.net/getting-started/en/).
 
-For adoption, use the [2×2 practice selector](skills/yinyang/references/docs/creation-method.md#choose-2x2):
-**Empty × simple/complex** is the available practice choice: develop your own philosophy and let the model directly condense working accounts, or configure a community project such as Hindsight. The table retains Full with crossed-out practice cells: it is a static reference showing the website's philosophy in Skill form, not a package for another person's practice.
+For adoption, use the [reference and method overview](skills/yinyang/references/docs/creation-method.md#choose-2x2):
+**Empty provides the recursive self-improvement method** for forming your own content, through direct model condensation or assistance from a community project such as Hindsight. The table retains Full with its entire row crossed out: it is a static reference showing the website's philosophy in Skill form, not a package to load into your own practice.
 
 The [personal-model condensation guide](skills/yinyang/references/formation/person.md#condense-personal-models-from-event-history-philosophy-and-personal-material)
 explains how these materials become descriptions of the person, the model
@@ -116,7 +116,7 @@ explains the six actual accounts and both routes, including the person's situate
 
 ## Skills in the collection
 
-YinYang distinguishes a reference from a practice package: **[Full](skills/yinyang/)** is the static reference of the author's philosophy in Skill form, including essays and diagrams; **[Empty](skills/yinyang-empty/)** is the package for other people's practice. It retains reverse alignment,
+YinYang distinguishes a reference from a practice package: **[Full](skills/yinyang/)** is the static reference of the author's philosophy in Skill form, including essays and diagrams; **[Empty](skills/yinyang-empty/)** is the method package for your own practice. It retains reverse alignment,
 crossed roles and YinYang dialectics, six formation guides, and practical
 suggestions, with no `docs` or `diagrams`. Recipients and their models develop
 their own philosophy, Personal, and Situated content. Neither edition ships private material.
@@ -127,7 +127,7 @@ your model's actual Skill mechanism.
 
 | Skill | Purpose | Package |
 | --- | --- | --- |
-| [yinyang](skills/yinyang/SKILL.md) | ✗ Static reference only: the author's philosophy expressed in Skill form; not for another person's practice. | [Reference and philosophical resources](skills/yinyang/README.md) |
+| [yinyang](skills/yinyang/SKILL.md) | Static reference only: the author's philosophy expressed in Skill form; not for your own practice. | [Reference and philosophical resources](skills/yinyang/README.md) |
 | [yinyang-empty](skills/yinyang-empty/SKILL.md) | Keep the dialectical core and methods while forming your own philosophy, personal material, and actual working accounts. | [Empty guide](skills/yinyang-empty/README.md) |
 | [random-wheel](skills/random-wheel/SKILL.md) | Turn screenshot choices or named options into a speed-adjustable animated wheel with equal-probability random selection. | [Complete package](skills/random-wheel/) |
 | [research](skills/research/SKILL.md) | Investigate facts, product behavior, and alternatives with inspectable sources, observations, assumptions, and coverage limits. | [Complete package](skills/research/) |
@@ -172,7 +172,7 @@ credentials, personal records, and host-specific bindings are excluded.
 ## Use with Codex
 
 Install **Empty: `yinyang-empty`**, then follow the
-[2×2 practice entrance](skills/yinyang/references/docs/creation-method.md#choose-2x2)
+[practice-method entrance](skills/yinyang/references/docs/creation-method.md#choose-2x2)
 to form your six working accounts. Keep personal material and actual accounts in your own private source.
 
 [Installation and updates](docs/codex.md)

@@ -27,9 +27,10 @@ personal substance, not an absence of method or direction.
 - To form or revise working accounts, read
   [Forming and revising working models](references/design-and-revision.md), then
   the relevant formation guide below with the actual material.
-- To consider further suggestions, read [Core views](references/core-views.md).
-  These are attributed positions to examine, select, revise, or reject beyond
-  the shared core above; they are not an already adopted philosophy for this person.
+- To inspect the author's philosophical example, [Core views](references/core-views.md)
+  remains reading material. Do not import *The Philosophy of Stealing Fire* as
+  this person's commitments or model instructions. Use the recursive
+  self-improvement method to develop this person's own content from their grounds.
 - For package paths, installation, and updates, read
   [Files and updates](references/package.md).
 
@@ -67,7 +68,7 @@ The [optional Hindsight guide](references/hindsight.md) explains environment-spe
 native configuration and implementation of the same questions and method.
 Project checked native bodies to the six paths, or explicitly bind all six
 complete accounts through private `references/situated/index.md`. Avoid competing
-authoritative sets. The [2×2 practice selector](references/creation-method.md#choose-2x2)
+authoritative sets. The [reference and method overview](references/creation-method.md#choose-2x2)
 locates this edition and the two condensation routes.
 
 ## Enter ordinary collaboration

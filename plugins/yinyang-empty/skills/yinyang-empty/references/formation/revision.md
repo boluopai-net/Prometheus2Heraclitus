@@ -186,7 +186,7 @@ for environment-specific setup and operations. Project checked output to the six
 paths or bind all six through the explicit private index. Configure native
 processing to implement the same source/Personal/synthesis dependency and inspect
 its result, without treating a shared bank as semantic convergence. The
-[2×2 practice selector](../creation-method.md#choose-2x2) locates the available combinations.
+[reference and method overview](../creation-method.md#choose-2x2) locates the available combinations.
 
 ## Write for the actual use
 

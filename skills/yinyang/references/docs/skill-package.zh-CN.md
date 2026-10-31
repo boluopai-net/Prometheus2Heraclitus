@@ -1,6 +1,6 @@
 # 阴阳的文件与更新约定
 
-本页说明作者维护源及私人实例的文件关系。公开 Full 仅供静态参考，禁止用于他人的实践；他人的实际入口是 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)，按其包约定形成和更新自己的版本。
+本页说明作者维护源及私人实例的文件关系。公开 Full 仅供静态参考，禁止直接用于自己的实践；自己的实践入口是 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)，按其包约定形成和更新自己的版本。
 
 [首页](../../README.zh-CN.md) · [阴阳方法](../../SKILL.zh-CN.md) · [English](skill-package.md)
 
@@ -23,7 +23,7 @@
 每项综合指引从全部六份完整指南与有关实际根据形成。[形成与修订](../design-and-revision.zh-CN.md)
 维护不同对象、相连范围与六份整体融贯。
 
-[2×2 实践选择](creation-method.zh-CN.md#choose-2x2)说明版本与凝练方式；本页列出私人文件及更新位置：
+[静态参考与实践方法](creation-method.zh-CN.md#choose-2x2)说明版本与凝练方式；本页列出私人文件及更新位置：
 
 | 问题 | 私人实际文件 |
 | --- | --- |
