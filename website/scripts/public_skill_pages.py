@@ -7,10 +7,10 @@ GITHUB = "https://github.com/boluopai-net/Prometheus2Heraclitus"
 SKILLS = {
     'yinyang': (
         '阴阳 Full', 'YinYang Full',
-        '完整保留反向对齐、阴阳辩证法、形成方法，以及作者展开的文章与图示。',
-        'Keep reverse alignment, YinYang dialectics, formation methods, and the author’s developed essays and diagrams.',
-        '希望连同完整哲学资源一起阅读和使用阴阳时选择；个人材料与六份实际文件仍由自己形成。',
-        'Choose Full to read and use YinYang with its complete philosophical resources; form your own personal material and six actual accounts.',
+        '静态参考：查看网页哲学在 Skill 中的表达与组织形式。',
+        'Static reference: inspect how the website’s philosophy is expressed and organized in a Skill.',
+        '✗ 禁止用于他人的实践。Full 仅供静态参考；自己的实践从 Empty 开始。',
+        '✗ Not for another person’s practice. Full is a static reference; start your own practice from Empty.',
         '包含日常协作入口、六份 formation 指南、参考文章、图示和更新脚本。',
         'Includes daily collaboration, six formation guides, reference essays, diagrams, and the common-update script.'),
     'yinyang-empty': (
@@ -162,7 +162,7 @@ def render_pages(dist, shell, revision, readers, descriptions):
             title = name
             license_label = 'CC BY-NC-SA 4.0' if name in {'yinyang', 'yinyang-empty'} else 'MIT'
             example = {
-                'yinyang': t('“结合我提供的材料，帮助我形成并使用自己的阴阳。”', '“Help me form and use my own YinYang from the material I provide.”'),
+                'yinyang': t('“说明网页中的哲学在这个 Skill 参考中怎样表达和组织。”', '“Explain how the website’s philosophy is expressed and organized in this Skill reference.”'),
                 'yinyang-empty': t('“从这些空文件开始，结合我的目的与材料，和我一起形成自己的阴阳。”', '“Start from these unfilled files and help me develop my own YinYang from my purposes and material.”'),
                 'random-wheel': t('“从这些选项中随机抽一个，用转盘展示。”', '“Randomly pick one of these options and show a wheel.”'),
                 'research': t('“调查这个产品今天是否支持我的工作流程，并比较可用方案与证据。”', '“Investigate whether this product supports my workflow today, comparing available approaches and evidence.”'),
@@ -171,6 +171,10 @@ def render_pages(dist, shell, revision, readers, descriptions):
                 'model-conversation-relay': t('“继续这个已经绑定的咨询会话：先核对最新回合与先前提交，再按已授权的请求接续，并保存原始回复与回执。”', '“Continue this already bound advisory conversation: reconcile the latest turns and prior submission, proceed with the authorized request, and retain the original response and receipt.”'),
             }.get(name, t('“请按这个 Skill 帮我处理当前任务，先核对需要的配套方法与实际工具。”', '“Use this Skill for my task, first checking the companion methods and actual tools it needs.”'))
             body = f'<main id="main" class="wrap library-reader"><div class="reader-top"><a class="back" href="/skills/{"en/" if english else ""}">← Skills</a><a class="language-link" href="{route}">{t("English", "中文")}</a></div><article class="document"><p class="eyebrow">SKILL · MIT</p><h1>{html.escape(title)}</h1><p class="collection-intro">{html.escape(descriptions[name])}</p><p><a class="outline-button" href="{GITHUB}/tree/main/skills/{name}">{t("GitHub 源码", "GitHub source")}</a></p><h2>{t("何时使用", "When to use it")}</h2><p>{html.escape(info[4 + i])}</p><blockquote><p>{html.escape(example)}</p></blockquote><h2>{t("包里有什么", "What is included")}</h2><p>{html.escape(info[6 + i])}</p><p>{t("按自然语言提出任务；客户端支持显式调用时，也可以指定", "Ask naturally; if the client supports explicit invocation, select")} <code>{name}</code>。{t("客户端已有的权限、认证和工具边界继续适用。", "The client’s existing authority, authentication, and tool boundaries remain in force.")}</p></article></main>'
+            if name == 'yinyang':
+                start = body.index('<p>', body.index(t('包里有什么', 'What is included')))
+                end = body.index('</article>', start)
+                body = body[:start] + '<p>' + html.escape(info[6 + i]) + '</p><p><a href="/tools/yinyang-empty/">' + t('自己的实践使用 Empty', 'Use Empty for your own practice') + '</a></p>' + body[end:]
             readings = []
             body = body.replace('SKILL · MIT', 'SKILL · ' + license_label)
             for kind, zh, en in [('method', '方法', 'Method'), ('guide', '使用说明', 'User guide')]:
