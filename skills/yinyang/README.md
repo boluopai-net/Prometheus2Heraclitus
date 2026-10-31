@@ -38,7 +38,7 @@ and possible consequences. Specialist Skills retain their own methods. The
 psychology, and engineering within one physical reality while distinguishing
 their explanatory and practical work.
 
-This is a developed example, including its own literary form. You can adopt it,
+This is a developed example, including its own literary form. You can examine its views,
 combine resources, or write something with different concepts, images, and
 organization. [From adoption and combination to creating your own work](references/docs/example-and-commons.md)
 explains that invitation. Maintaining this implementation and authoring a
@@ -50,48 +50,17 @@ Skills. Other collection members retain their independent purposes and methods.
 
 ## Use and understand YinYang
 
-Read the philosophical arguments for their own questions, borrow a formation or
-adaptation method for a particular task, or adopt the complete maintained Skill.
-These uses can overlap; they are not stages everyone must pass through. Borrowing
-a method does not require writing a personal philosophy, adopting the author's
-ontology or imagery, or forming question-defined models of a maintained situated version.
+**Full is a static reference, not a practice package for another person.** It shows how the philosophy on the website is expressed and organized within a Skill: its entrypoint, philosophical resources, formation guides, and relations among them. Read and compare that form; its practice cells in the [2×2 table](references/docs/creation-method.md#choose-2x2) are crossed out.
 
-For full adoption, give the complete package to the model through its actual
-Skill mechanism. The model forms or revises the accounts from relevant authorized
-material and realizes the working environment where the purpose requires it.
-It carries grounded writing, investigation, judgment, and implementation; the
-person contributes experience, purposes, and decisions unavailable to it.
-Downloading guidance does not itself form a personal relationship.
-
-Choose the entrance that serves the current question:
+For your own practice, use [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty). You and the model develop your philosophy, Personal material, and six actual working accounts from your purposes, experience, and environment. Choose direct model condensation or a configured aid such as Hindsight. The author's views remain available as references to examine and select while forming your own account.
 
 | Purpose | Entrance |
 | --- | --- |
-| Understand the practice of forming and using your own YinYang | [Practice overview](references/docs/creation-method.md). |
-| Understand how philosophy and personal models connect | [Forming and revising working models](references/design-and-revision.md), leading to the six writing guides. |
-| Use the working models in ordinary collaboration | [Everyday collaboration with YinYang](SKILL.md), including initial reading and routes. |
+| Inspect the philosophy's form inside a Skill | [Full entrypoint as reference](SKILL.md) and the [reading map](references/reading-map.md). |
+| Begin your own practice | [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) and the [practice overview](references/docs/creation-method.md). |
+| Understand the formation method | [Forming and revising working models](references/design-and-revision.md), leading to the six writing guides. |
 
-For files and updates, use the [package guide](references/docs/skill-package.md);
-for arguments and sources, use the [reading map](references/reading-map.md).
-
-This package is **Full**, the author's-philosophy row of the 2×2.
-Choose simple or complex in the [practice selector](references/docs/creation-method.md#choose-2x2),
-then follow its links to account formation, file locations, or Hindsight configuration.
-
-Formation can start with philosophy, personal experience, preferences, actual
-work, or an environment to revise. If engineering is missing, develop a usable
-foundation with model assistance so files, tools, execution, and verification
-can support the work. An existing environment can supply clues for personal
-understanding, but defaults and constraints also explain arrangements. The design
-reference develops these conditional routes without requiring mastery of three
-disciplines or a complete portrait before creation.
-
-A person may keep the model organization while replacing the philosophy, or
-organize a different work altogether. A philosopher's thought can supply a
-framework; it cannot substitute for an account of the actual user. Independently
-changed philosophy stays at its own source, outside common-file projection.
-Copies following this repository's common updates retain byte-identical common
-content while preserving their private accounts.
+The [package guide](references/docs/skill-package.md) documents the author's maintained source and private-instance relationship. Full is a reference snapshot of that authored form; the author's actual private instance has its own personal material and continuing revision. Other people's practice takes its working source from Empty and maintains independently authored content there.
 
 ## How the texts relate
 

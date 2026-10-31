@@ -2,8 +2,7 @@
 
 [简体中文](package.zh-CN.md) · [Package entrance](../README.md)
 
-The collection distributes two YinYang editions. `skills/yinyang/` is Full,
-including the developed essays and diagrams. `skills/yinyang-empty/` is Empty:
+The collection retains Full at `skills/yinyang/` as a static reference of the website's philosophy in Skill form, not for another person's practice or installation. `skills/yinyang-empty/` is Empty, the practice package:
 the shared dialectical core, six formation guides, selected suggestions, and
 practical method entrances. Both are complete packages for their stated use.
 Neither public edition includes anyone's private personal accounts. Empty

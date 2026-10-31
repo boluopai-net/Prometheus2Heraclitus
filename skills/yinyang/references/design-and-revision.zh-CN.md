@@ -30,7 +30,7 @@
 [从采用、组合到自己的创作](docs/example-and-commons.zh-CN.md)说明这种区别。
 
 读者可以研究范例、借用方法，或形成自己的六份工作描述。
-[2×2 实践选择](docs/creation-method.zh-CN.md#choose-2x2)连接 Full／Empty 与简单版／复杂版。
+[2×2 实践选择](docs/creation-method.zh-CN.md#choose-2x2)将 Full 标为仅供静态参考，实际形成从 Empty 选择简单版或复杂版。
 本页说明六份描述怎样写、怎样一起修订。
 
 这六份描述也共同支持个人递归自我改进。取向说明改进服务什么，个人说明实际参与与条件，

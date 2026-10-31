@@ -25,7 +25,7 @@
 保有自己的方法。[哲学、心理与工程的三位一体](references/docs/local-source-and-website.zh-CN.md)把哲学、
 心理与工程连接在同一物理现实之中，同时区分各自的解释与实践工作。
 
-它连同自己的文学形式，是一项已经展开的范例。你可以采用、组合资源，也可以创作
+它连同自己的文学形式，是一项已经展开的范例。你可以考察观点、组合参考资源，也可以创作
 概念、意象与组织方式都不同的作品。
 [从采用、组合到自己的创作](references/docs/example-and-commons.zh-CN.md)说明这份邀请。
 维护这套实现与创作另一部作品，是不同选择；固定文件路径适用于前者。
@@ -35,36 +35,17 @@
 
 ## 怎样使用并理解阴阳
 
-可以为哲学问题阅读论证，为具体任务取用形成或适配方法，也可以完整采用持续维护的 Skill。
-这些用途能够重叠，不是每个人都要经过的阶段。取用方法不要求写个人哲学、采用作者的
-本体论或意象，也不要求形成持续维护的情境化版本所需的按问题形成的模型。
+**Full 仅供静态参考，禁止用于他人的实践。**它呈现网页中的哲学在 Skill 内怎样表达和组织：入口、哲学资源、形成指南及其联系。可以阅读和比较这种形式；[2×2 表](references/docs/creation-method.zh-CN.md#choose-2x2)中的 Full 实践格都画叉。
 
-完整采用时，通过实际 Skill 机制把完整包交给模型。模型根据相关、获授权的材料形成或
-修订描述，在目的需要时实现工作环境。模型承担有根据的写作、调查、判断和实现；
-当事人贡献模型无法取得的经验、目的与决定。下载指引本身并不形成个人关系。
-
-按当前问题选择入口：
+自己的实践使用 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)。由你与模型依据自己的目的、经验和环境，形成哲学、Personal 材料与六份实际工作描述，再选择模型直接凝练，或配置 Hindsight 等项目辅助凝练。形成自己的理解时，作者的观点仍可作为阅读、考察和选择的参考。
 
 | 目的 | 入口 |
 | --- | --- |
-| 理解形成与使用自己的阴阳这项实践 | [实践总览](references/docs/creation-method.zh-CN.md)。 |
-| 理解哲学与个人模型怎样相接 | [工作模型的形成与修订](references/design-and-revision.zh-CN.md)，通向工作模型的写作指导。 |
-| 让工作模型在日常协作中发挥作用 | [阴阳的日常协作](SKILL.zh-CN.md)，包含初始阅读约定与使用路径。 |
+| 查看哲学在 Skill 中的形式 | [Full 入口参考](SKILL.zh-CN.md)与[阅读地图](references/reading-map.zh-CN.md)。 |
+| 开始自己的实践 | [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)与[实践总览](references/docs/creation-method.zh-CN.md)。 |
+| 理解形成方法 | [工作模型的形成与修订](references/design-and-revision.zh-CN.md)，通向六份写作指南。 |
 
-文件与更新见[包结构说明](references/docs/skill-package.zh-CN.md)，论证与来源见[阅读地图](references/reading-map.zh-CN.md)。
-
-本包是 2×2 中采用作者哲学的 **Full**。接着在
-[实践选择表](references/docs/creation-method.zh-CN.md#choose-2x2)选择简单版或复杂版；
-表后连接六份描述的形成、文件位置与 Hindsight 配置。
-
-形成可以从哲学、个人经验、偏好、实际工作或待修订环境开始。工程尚不可用时，借助模型
-建立可用基础，让文件、工具、执行和核验能够支持工作。已有环境可以为理解个人提供线索，
-但默认值和限制也能解释安排。设计参考展开这些条件性路径，不要求先精通三门学科或
-完成画像再创制。
-
-可以保留按问题形成的模型结构而替换哲学，也可以重新组织作品。哲学家的思想可以提供框架，
-不能代替实际用户的描述。独立改写的哲学保留在自己的来源处，不接受公共文件投影覆盖。
-选择跟随本仓库公共更新的副本，则保持公共内容字节一致，同时保留私人描述。
+[包结构说明](references/docs/skill-package.zh-CN.md)记录作者维护源与私人实例的关系。Full 是这一已写成形式的参考快照，作者实际使用的私人实例另有个人材料和持续修订。他人的实践从 Empty 取得工作源，并在自己的来源中维护独立内容。
 
 ## 这些文本是什么关系
 

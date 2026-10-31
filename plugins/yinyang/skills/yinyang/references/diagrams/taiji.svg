@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="taiji-title taiji-desc">
-  <title id="taiji-title">阴阳 · YinYang</title>
-  <desc id="taiji-desc">A conventional black-and-white yin-yang symbol: each curved half contains a dot of the opposite color.</desc>
-  <circle cx="256" cy="256" r="220" fill="#fff" stroke="#111" stroke-width="3"/>
-  <path d="M256 36 A220 220 0 0 1 256 476 A110 110 0 0 1 256 256 A110 110 0 0 0 256 36Z" fill="#111"/>
-  <circle cx="256" cy="146" r="32" fill="#111"/>
-  <circle cx="256" cy="366" r="32" fill="#fff"/>
-</svg>

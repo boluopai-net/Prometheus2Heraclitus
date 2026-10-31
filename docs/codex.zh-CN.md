@@ -7,18 +7,16 @@ Skill，把下面的命令交给 Codex，由它完成原生安装。不需要下
 
 ## 原生安装
 
-安装阴阳 Full：
+阴阳的实际实践安装 Empty：
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
-codex plugin add yinyang@boluopai
+codex plugin add yinyang-empty@boluopai
 ```
 
-需要保留辩证核心与方法、自己形成哲学和个人内容时，选择 Empty：第二条命令改为
-`codex plugin add yinyang-empty@boluopai`。Full 带完整文章与图示；Empty 不含 `docs` 与
-`diagrams`，保留六份 formation、基本观点建议及实践与协作指南。同一个人机协作选一版即可。
+Empty 保留辩证核心、六份形成指南、基本观点建议及实践与协作指南，由你与模型形成自己的哲学和个人描述。Full 是网页哲学在 Skill 中的静态参考形式，禁止用于他人的实践，不提供安装入口。
 
-将 `yinyang` 换成[目录](../README.zh-CN.md#集合里的-skill)中的其他包名即可。
+将 `yinyang-empty` 换成[目录](../README.zh-CN.md#集合里的-skill)中的其他包名即可。
 例如，`codex plugin add research@boluopai` 安装搜索与研究。
 市场只需添加一次；以后安装其他插件只需第二条命令。桌面端插件浏览器也可以浏览
 已配置的市场。安装后在新对话里使用，让 Codex 发现新装的 Skill。
@@ -38,7 +36,7 @@ codex plugin add yinyang@boluopai
 材料，以及选定的观点，协助形成实际工作描述。是否另写哲学文章，由兴趣决定。
 
 插件缓存会被更新替换。个人版应保存在自己的私人 Skill 源目录里，放在插件缓存和市场
-检出目录之外。让 Codex 将完整阴阳包复制到那里，保留已经存在的个人版，在
+检出目录之外。让 Codex 将完整 Empty 包复制到那里，保留已经存在的个人版，在
 `references/situated/` 形成取向、人、伙伴、关系、环境、修订六份描述，在
 `references/personal/sources.md` 形成私人证据入口，再通过客户端实际的发现机制启用。
 个人版启用后，停用分发插件，
@@ -46,12 +44,7 @@ codex plugin add yinyang@boluopai
 简单路线由语言模型直接综合六文件，并用私人 Git/GitHub 持久保存，不要求安装 Hindsight。
 [可选 Hindsight 实现](../skills/yinyang/references/hindsight.zh-CN.md)说明因环境而异的原生配置，
 实现相同六问题、修订步骤与整体融贯，投影到同路径或通过私人索引明确绑定全部六正文。
-Full/Empty 版本选择独立于两种实现路线。
-
-Full 的共同内容更新可使用包内 `scripts/sync-common.py`；它会保留整个 `references/situated/`
-与 `references/personal/`。形成后，公开写作指引仍保留在 `references/formation/`。
-旧混合路径包先按[包结构说明](../skills/yinyang/references/docs/skill-package.zh-CN.md#投影公共变更)
-由维护者迁移；迁移前，命令拒绝操作且不改变文件。
+两种实现路线都从 Empty 开始。
 
 Empty 从 `skills/yinyang-empty/` 更新公共方法，保留自己的 `references/philosophy/`、
 `references/personal/`、`references/situated/` 及其他独立内容；不要用 Full 的整包投影器

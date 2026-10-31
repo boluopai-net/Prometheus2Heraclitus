@@ -1,5 +1,7 @@
 # 阴阳的文件与更新约定
 
+本页说明作者维护源及私人实例的文件关系。公开 Full 仅供静态参考，禁止用于他人的实践；他人的实际入口是 [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)，按其包约定形成和更新自己的版本。
+
 [首页](../../README.zh-CN.md) · [阴阳方法](../../SKILL.zh-CN.md) · [English](skill-package.md)
 
 本说明维护这套阴阳实现的文件与更新约定。集合名为 **Prometheus2Heraclitus**，

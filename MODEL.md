@@ -33,7 +33,7 @@ literal angle brackets. Names and descriptions have separate display roles.
 
 ## YinYang editions
 
-`skills/yinyang/` is the Full edition, including the author's essays and diagrams.
+`skills/yinyang/` is Full: a static reference showing the website philosophy in Skill form, including essays and diagrams. It is not offered for another person's practice or installation.
 `skills/yinyang-empty/` is the Empty edition: reverse alignment, crossed roles and
 dialectical return, six formation guides, Core views as attributed suggestions,
 practice overview, formation/revision, daily collaboration, and Personal guidance.
@@ -46,7 +46,7 @@ six original actual files, direct model synthesis and private Git/GitHub
 persistence, with no Hindsight installation requirement. Optional native
 Hindsight configuration implements the same six full questions, revision steps
 and whole-six coherence, projected to those paths or an explicit all-six binding.
-Full/Empty distribution is independent of route choice. Keep one shared
+Both practice routes start from Empty; Full remains a reference. Keep one shared
 philosophy/method source rather than separate full packages for the tool routes.
 
 Shared method content remains authored in Full. `scripts/build-yinyang-empty.py`
@@ -56,9 +56,8 @@ the shared guide's Full-specific distribution sentence to Empty's unfilled start
 Empty's
 entrypoint, README editions, and package guidance are authored in its own tree.
 Do not edit generated Empty references independently. `build-plugins.py` invokes
-the selection builder in the same check/apply mode before packaging both editions.
-The two plugin identities are `yinyang` (Full) and `yinyang-empty` (Empty), both
-under CC BY-NC-SA 4.0. Recipient updates use the chosen edition, preserving their
+the selection builder in the same check/apply mode before packaging Empty.
+Only `yinyang-empty` is an installable YinYang plugin, under CC BY-NC-SA 4.0. Recipient updates use the chosen edition, preserving their
 private philosophy, Personal, Situated, and independently authored additions.
 
 [YinYang's MODEL.md](skills/yinyang/MODEL.md) owns interpretation of that Skill's

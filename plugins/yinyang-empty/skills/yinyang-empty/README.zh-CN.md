@@ -2,7 +2,7 @@
 
 **保留反向对齐、阴阳辩证法与形成方法，形成自己的哲学与个人版。**
 
-[English](README.md) · [日常协作](SKILL.zh-CN.md) · [Full 完整版](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
+[English](README.md) · [日常协作](SKILL.zh-CN.md) · [Full 静态参考](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
 
 Empty 包含六份 formation 指南、作为作者建议的基本观点、实践总览、形成与修订、
 日常协作和 Personal 整理指引。不含 `docs/` 与 `diagrams/`；作者展开的文章和图示
@@ -27,7 +27,7 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 供你和模型形成自己的内容；文件位置见[文件与更新](references/package.zh-CN.md)。
 
 [Codex 安装说明](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.zh-CN.md)
-提供 `yinyang-empty@boluopai`。同一个个人版选择 Full 或 Empty，个人内容保存在会被替换的
+提供 `yinyang-empty@boluopai`，他人的实际实践使用这一包。Full 仅供静态参考。个人内容保存在会被替换的
 插件缓存之外。公共方法更新保留你自己的内容，不把 Full 的哲学文集装回来。
 
 本包是 boluopai 阴阳作品的一个版本：选取方法资源，将展开的文章保留为可选的外部阅读。

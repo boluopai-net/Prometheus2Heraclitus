@@ -9,21 +9,16 @@ directory repair is required.
 
 ## Native installation
 
-For YinYang Full:
+For YinYang practice, install Empty:
 
 ```bash
 codex plugin marketplace add boluopai-net/Prometheus2Heraclitus
-codex plugin add yinyang@boluopai
+codex plugin add yinyang-empty@boluopai
 ```
 
-To retain the dialectical core and methods while forming your own philosophy and
-personal content, choose Empty: replace the second command with
-`codex plugin add yinyang-empty@boluopai`. Full includes essays and diagrams;
-Empty has no `docs` or `diagrams`, retaining six formation guides, Core views as
-suggestions, and practical collaboration guidance. Choose one edition for the
-same person–model collaboration.
+Empty retains the dialectical core, six formation guides, Core views as suggestions, and practical collaboration guidance. Develop your own philosophy and personal accounts there. Full is a static reference showing how the website's philosophy is expressed in a Skill; it is not an installable practice package.
 
-Replace `yinyang` with any name in the [catalog](../README.md#skills-in-the-collection).
+Replace `yinyang-empty` with any name in the [catalog](../README.md#skills-in-the-collection).
 For example, `codex plugin add research@boluopai` installs Research.
 Add the marketplace once; later plugins need only the second command.
 The desktop plugin browser can also browse the configured marketplace.
@@ -50,7 +45,7 @@ writing project is optional.
 
 Plugin cache files are replaceable. Keep your personal version in your own
 private Skill source, outside the plugin cache and marketplace checkout.
-Have Codex copy the complete YinYang package there, preserve an existing
+Have Codex copy the complete Empty package there, preserve an existing
 personal version, form six accounts of orientation, person, counterpart, relationship,
 environment, and revision under `references/situated/` and the evidence entrance at
 `references/personal/sources.md`,
@@ -62,14 +57,7 @@ private Git/GitHub persistence; no Hindsight installation is required.
 [Optional Hindsight implementation](../skills/yinyang/references/hindsight.md)
 explains environment-specific native configuration for the same six questions,
 revision steps and whole-six coherence. It can project to the same paths or
-explicitly bind all six bodies through a private index. Full/Empty edition choice
-is independent of these implementation routes.
-
-Full's common updates can use the included `scripts/sync-common.py`; it preserves the
-entire `references/situated/` and `references/personal/` trees. Public writing
-guides remain under `references/formation/` after formation. Legacy mixed-path
-packages require owner migration under the [package guide](../skills/yinyang/references/docs/skill-package.md#project-common-changes)
-before projection; the command refuses them without changing files.
+explicitly bind all six bodies through a private index. Both implementation routes start from Empty.
 
 Update Empty's public methods from `skills/yinyang-empty/`, preserving your own
 `references/philosophy/`, `references/personal/`, `references/situated/`, and other

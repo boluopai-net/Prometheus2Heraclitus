@@ -9,18 +9,18 @@ and a shared working environment so you and the model can continue to understand
 
 ## Choose your practice with a 2×2
 
-Choose the philosophy, then how to condense, form, and update the working accounts:
+For your own practice, start from **Empty** and choose how to condense, form, and update your working accounts. Full remains visible in the comparison as a static reference, with both practice cells crossed out:
 
 | Philosophy | Simple: direct model condensation | Complex: configure a community project to assist condensation |
 | --- | --- | --- |
-| **Full YinYang: adopt the author's philosophy** | The author's philosophy + direct model condensation of personal material and six accounts. | The author's philosophy + Hindsight or a similar project for retention, integration, and generation of six accounts. |
+| **Full YinYang: static reference** | **✗ Not for use in another person's practice.** Reference only: how the website's philosophy is expressed and organized inside a Skill. | **✗ Not for use in another person's practice.** Reference only: the authored Skill form, not a recipient's configured working instance. |
 | **Empty YinYang: develop the recipient's own philosophy** | Your philosophy + direct model condensation of personal material and six accounts. | Your philosophy + Hindsight or a similar project for retention, integration, and generation of six accounts. |
 
-**Full** starts at [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
-and includes the author's essays and diagrams. **Empty** starts at
+**Full** at [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
+is the static reference form of the author's philosophy in a Skill, including essays and diagrams. Read it to understand that form; do not install or adopt Full for another person's practice. **Empty**, the practice entrance, starts at
 [`skills/yinyang-empty/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)
 and retains the collaborative core, formation methods, and reference suggestions while you and the model
-develop your own philosophy. Both editions form actual working accounts from your own personal material.
+develop your own philosophy and actual working accounts from your personal material. You can read and consider the author's views as references while forming that personal practice.
 
 ### Simple: let the model condense directly
 
@@ -32,7 +32,7 @@ with versions in private Git/GitHub.
 
 ### Complex: configure a condensation aid
 
-Add a community project for memory and working-account formation to the selected edition.
+Add a community project for memory and working-account formation to your Empty-based personal version.
 This project uses [Hindsight](hindsight.md): it retains sources, integrates observations, and forms
 maintained accounts from questions. The model carries configuration, checking, and revision,
 returning adopted results to the six accounts.

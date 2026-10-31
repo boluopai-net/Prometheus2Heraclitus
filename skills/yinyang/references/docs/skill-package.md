@@ -1,5 +1,7 @@
 # YinYang files and shared updates
 
+This page documents the author's maintained source and private-instance file relationships. Public Full is a static reference, not for another person's practice. Recipients start from [Empty](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty) and follow its package contract.
+
 [Home](../../README.md) · [Model entrypoint](../../SKILL.md) · [简体中文](skill-package.zh-CN.md)
 
 This guide owns the file and update contract for the maintained YinYang package.

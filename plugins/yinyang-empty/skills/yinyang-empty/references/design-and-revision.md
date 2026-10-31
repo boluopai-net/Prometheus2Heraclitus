@@ -46,7 +46,7 @@ when its images and organization no longer resemble YinYang; the
 [example and commons essay](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/example-and-commons.html) explains the distinction.
 
 Readers can study the example, borrow a method, or form their six working accounts.
-The [2×2 practice selector](creation-method.md#choose-2x2) connects Full/Empty with simple/complex.
+The [2×2 practice selector](creation-method.md#choose-2x2) marks Full as static reference only and offers simple/complex formation through Empty.
 This page develops how to write the six accounts and revise them together.
 
 The same accounts support personal recursive self-improvement. Orientation

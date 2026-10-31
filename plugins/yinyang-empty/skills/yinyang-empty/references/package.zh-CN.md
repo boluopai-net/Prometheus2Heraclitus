@@ -2,7 +2,7 @@
 
 [English](package.md) · [本包入口](../README.zh-CN.md)
 
-集合提供两版阴阳：`skills/yinyang/` 是 Full，包含完整文章与图示；
+集合保留 `skills/yinyang/`（Full）作为网页哲学在 Skill 中的静态参考形式，禁止用于他人的实践，不提供安装入口。
 `skills/yinyang-empty/` 是 Empty，保留共同的辩证核心、六份 formation 指南、选定的建议
 与实践方法入口。两版各自是用途完整的包，都不含任何人的私人实际描述。
 Empty 提供未填写的 Personal 与 Situated 起始结构，供在私人副本中形成内容。

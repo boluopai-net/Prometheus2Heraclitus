@@ -52,9 +52,9 @@ def main():
     market = json.loads((ROOT / '.agents/plugins/marketplace.json').read_text())
     entries = market['plugins']
     names = {entry['name'] for entry in entries}
-    sources = {p.parent.name for p in (ROOT / 'skills').glob('*/SKILL.md')}
+    sources = {p.parent.name for p in (ROOT / 'skills').glob('*/SKILL.md')} - {'yinyang'}
     if names != sources or len(names) != len(entries):
-        raise ValueError('Marketplace must cover each current Skill exactly once')
+        raise ValueError('Marketplace must cover each installable Skill exactly once (Full is reference-only)')
     count = 0
     for entry in entries:
         target = ROOT / 'plugins' / entry['name']

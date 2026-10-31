@@ -9,18 +9,18 @@
 
 ## 用 2×2 选择实践方式
 
-先选哲学，再选怎样压缩、形成和更新工作模型：
+自己的实践从 **Empty** 开始，再选择怎样压缩、形成和更新工作模型。表中保留 Full 作为静态参考，两种实践格都画叉：
 
 | 哲学选择 | 简单版：模型直接压缩 | 复杂版：配置社区项目辅助压缩 |
 | --- | --- | --- |
-| **Full 阴阳：采用作者的哲学** | 作者的哲学＋模型直接凝练个人材料与六份描述。 | 作者的哲学＋Hindsight 等项目辅助保留、整合与生成六份描述。 |
+| **Full 阴阳：静态参考** | **✗ 禁止用于他人的实践。** 仅供参考：网页中的哲学在 Skill 内怎样表达和组织。 | **✗ 禁止用于他人的实践。** 仅供参考：作者写成的 Skill 形式，不作为使用者配置后的工作实例。 |
 | **Empty 阴阳：形成使用者自己的哲学** | 自己的哲学＋模型直接凝练个人材料与六份描述。 | 自己的哲学＋Hindsight 等项目辅助保留、整合与生成六份描述。 |
 
-**Full** 的入口是 [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)，
-带有作者的哲学文章与图示。**Empty** 的入口是
+**Full** 位于 [`skills/yinyang/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)，
+保留作者的哲学文章与图示，是这些内容在 Skill 中的静态参考形式。阅读它可以理解这种写法；他人的实践不能安装或直接采用 Full。实际实践使用 **Empty**，入口是
 [`skills/yinyang-empty/`](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang-empty)，
 保留协作核心、形成方法与参考建议，由你和模型发展自己的哲学。
-两版都用你自己的个人材料形成实际工作描述。
+用你自己的个人材料形成实际工作描述；形成过程中仍可阅读、考察作者的观点作为参考。
 
 ### 简单版：让模型直接凝练
 
@@ -31,7 +31,7 @@
 
 ### 复杂版：配置辅助凝练项目
 
-在所选版本上配置辅助记忆与模型形成的社区项目。本项目已使用
+在从 Empty 形成的个人版本上，配置辅助记忆与模型形成的社区项目。本项目已使用
 [Hindsight](../hindsight.zh-CN.md)：它保留来源、整合观察，并按问题形成持续维护的正文。
 模型承担配置、检查和修订，将采用的结果交回六份描述。
 [Hindsight 配置指引](../hindsight.zh-CN.md#配置所选原生实现)是这条路线的操作入口。

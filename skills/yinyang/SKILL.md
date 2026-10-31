@@ -5,6 +5,17 @@ description: "<用户自制> 阴阳：形成并修订人与模型的协作理解
 
 # yinyang
 
+## Public reference and actual private use
+
+The public **Full** package is a static reference showing how the website's
+philosophy takes form inside a Skill. It is not for installation or adoption
+as another person's practice. Begin that practice with **Empty**, forming the
+person's own philosophy, Personal material, and six working accounts. The
+[practice table](references/docs/creation-method.md#choose-2x2) keeps Full visible
+with both practice cells crossed out. The author's existing private instance
+uses the maintained common method below with its actual private accounts;
+that active instance and the public reference have different purposes.
+
 Work toward the person's actual purpose with a capable, fallible model
 counterpart. Understand what the person is trying to do, what each participant
 can contribute, and what the situation permits. Let that understanding guide
@@ -71,7 +82,7 @@ sequence:
   to locate the relevant contribution among the six writing guides. Take the contribution the task needs, using the
   recipient's own aims and vocabulary. Selective use does not require installing
   this package, forming the selected complete model bodies, or writing a personal philosophy.
-- **Adopt the maintained YinYang Skill.** Give the complete package an actual
+- **Form your own working YinYang from Empty.** Give the Empty package an actual
   consumer, state the positions actually adopted, form the six question-defined
   situated accounts through either supported route, including one's own actual
   revision method, and use the initial

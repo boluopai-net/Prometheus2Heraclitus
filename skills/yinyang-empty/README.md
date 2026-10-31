@@ -2,7 +2,7 @@
 
 **Keep reverse alignment, YinYang dialectics, and the formation methods; develop your own philosophy and personal version.**
 
-[简体中文](README.zh-CN.md) · [Daily collaboration](SKILL.md) · [Full edition](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
+[简体中文](README.zh-CN.md) · [Daily collaboration](SKILL.md) · [Full static reference](https://github.com/boluopai-net/Prometheus2Heraclitus/tree/main/skills/yinyang)
 
 Empty includes the six formation guides, Core views as attributed suggestions,
 the practice overview, formation and revision, daily collaboration, and guidance
@@ -25,14 +25,14 @@ and implementation; you need not do it unaided.
 | Organize private evidence and understanding | [Organizing Personal](references/personal-material.md) |
 | Install and update without replacing your own content | [Files and updates](references/package.md) |
 
-This package is **Empty**, the own-philosophy row of the 2×2.
+This package is **Empty**, the available practice row of the 2×2; Full's practice cells are crossed out because Full is a static reference.
 Choose simple or complex in the [practice selector](references/creation-method.md#choose-2x2).
 Its six `status: unfilled` starters, four empty Personal areas, and source index provide places
 for you and the model to form your content; see [Files and updates](references/package.md).
 
 The [Codex installation guide](https://github.com/boluopai-net/Prometheus2Heraclitus/blob/main/docs/codex.md)
-offers `yinyang-empty@boluopai`. Choose Full or Empty for the same personal version,
-and keep personal additions outside replaceable plugin caches. Public method
+offers `yinyang-empty@boluopai`, the package for another person's actual practice.
+Keep personal additions outside replaceable plugin caches. Public method
 updates retain your own content; they do not install Full's philosophical corpus.
 
 This is an edition of YinYang by boluopai, adapted by selecting its method

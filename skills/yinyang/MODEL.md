@@ -51,7 +51,7 @@ simple standalone route uses direct language-model synthesis into the original
 six `references/situated/` files and private Git/GitHub persistence. Hindsight is
 an optional environment-specific native implementation of the same method,
 projected to those six files or an explicit all-six private index binding.
-Full/Empty distribution is independent of route choice; do not duplicate the
+Full is a static reference; other people's practice starts from Empty in either route; do not duplicate the
 philosophy, guides or entire package for these tool choices.
 
 Preserve the revision dependency: adopted philosophy, relevant new attributable
@@ -77,7 +77,7 @@ projection protects both private trees and never changes bank state or GitHub
 visibility. Public packages contain no private portraits. Preserve philosophical
 substance and six complete functional questions while adapting their tools.
 
-Authored public content lives here. `plugins/yinyang/`, website reading editions,
+Authored public content lives here. website reading editions,
 and local/cloud common files are generated or synchronized consumers, not
 independent authoring sources. All essays in the website's philosophical
 collection and its practical getting-started guide are authored here. The native
