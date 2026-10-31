@@ -1,7 +1,6 @@
 # YinYang: core views
 
-This page presents YinYang's argument in concise propositions; the linked essays
-develop its reasons, examples, and sources.
+This page condenses YinYang's philosophical conclusions while retaining the relations, tables, and principal reasons that make them clear and usable. The linked essays develop the full arguments and sources.
 
 These are the author's connected positions in the YinYang philosophical
 example: a chosen account of becoming, understanding, and cultivation with
@@ -28,19 +27,16 @@ its developmental purpose or writing a personal philosophy. See
 - [YY-10 · Retain alternatives, form working commitments, and revise selection](#yy-10)
 - [YY-11 · The world constrains the shared account](#yy-11)
 - [YY-12 · Make the views perceptible, discussable, and continuable](#yy-12)
-- [YY-13 · Forming a sinthome](#yy-13)
+- [YY-13 · The Trinity and forming a sinthome](#yy-13)
 - [YY-14 · Cultivate generative capacities with available fire](#yy-14)
 - [YY-15 · Cultivate a garden of becoming with friends](#yy-15)
 - [YY-16 · Personal recursive self-improvement](#yy-16)
 
 </details>
 
-This page maps propositions to their developed arguments. YY-01–03 establish
-the developmental purpose, participants, and central movement of role exchange;
-YY-04–08 organize how they understand one another and work together;
-YY-09–12 distinguish how its claims are formed, checked, and expressed;
-YY-13–15 connect this practice to a singular life and relations with friends.
-YY-16 brings its methods of improvement into the same revisable practice.
+**YinYang dialectics, the Trinity, and personal recursive self-improvement organize this collection's main line.** [YY-03](#yy-03) explains how person and model enter one another's contributions and return through the other; [YY-13](#yy-13) explains how philosophy, psychology, and engineering connect within one lived practice and form a sustainable sinthome; [YY-16](#yy-16) explains how that practice further changes the methods producing improvement.
+
+The other views supply direction, material, and judgment: borrowed fire and reverse alignment explain why cultivate; embodied participation and listening, speaking, reading, and writing explain how to enter; trajectories retain grounds to return to; preference and reasoning organize present selection; world and works return consequences. Friends, life's rhythms, and letting go after completion keep cultivation within finite life.
 The stable IDs support discussion, not a compulsory sequence. Both reader
 editions carry the same content; English-capable readers and models should
 use this English edition.
@@ -137,26 +133,43 @@ criticism, or an image. The model evaluates and supports it through reasons,
 counterexamples, and actual results, enabling another attempt rather than
 only supplying a replacement answer.
 
-The return has two entrances. An intuition of the whole can pass through
-development and scrutiny of details into a revised whole. Familiar details
-can instead meet a model-proposed whole, letting the person develop their
-relations and return to the details with a changed understanding. The initial
-grasp determines the useful contribution; neither participant nor gender fixes
-the starting side.
+### Mutual grounding and the two fish
 
-The dialectical claim concerns what becomes available through that passage:
-the same person can grasp a whole and judge its details, while generation
-carries what scrutiny revealed. The model can generate again under the changed
-conditions and continue to carry development and implementation. A rotation
-of roles or a fixed number of turns does not establish this change. Corrective
-return requires an objection, source, or consequence to change the relevant
-account, action, or aim; merely repeating a reinforcing direction under new
-role names would leave it intact.
-[Mutual becoming through YinYang and Taiji](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#mutual-grounding-and-the-shuang-yu)
-owns the principal argument for this core view. Its two fish express entering
-one another's roles, and its account of
-[the dialectical meaning of role change](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#returning-through-the-other-the-dialectical-meaning-of-role-change)
-explains the integration and return formed through another role.
+Generation gives judgment material; judgment gives generation a new direction. A contribution changes the work and how the next contribution can occur.
+[Mutual becoming through YinYang and Taiji](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#mutual-grounding-and-the-shuang-yu) pictures this mutual grounding as entering one another: the fish's body marks the role entered, and its contrasting eye the actual participant. Following the convention of black for the person and white for the model:
+
+| Position in the two fish | Actual participant | Contribution entered |
+| --- | --- | --- |
+| White eye within the black body | Language model | The human logician's role: reconstruct meaning, distinguish concepts, examine premises and inferences, and carry writing and implementation. |
+| Black eye within the white body | Person | Language-model-like generation: offer intuitions, associations, images, conjectures, and unfinished expressions. |
+
+The eye keeps the participant present; the body makes the movement into another contribution visible. A person can begin with a whole that feels wrong, which the model develops into an inspectable argument or work. Recognizing a consequential detail, the person can take up scrutiny and have the model generate the whole again. Both retain generation and judgment.
+
+### Two paths of return and sublation
+
+| Starting position or thesis | Passage through another contribution or antithesis | Return or synthesis |
+| --- | --- | --- |
+| Intuition of the whole: a sense of the aim and relations, with details still undeveloped. | The model develops details; the person can also check shifted concepts, omissions, and overstatements, correcting the whole. | A whole revised through details: generation continues with what scrutiny disclosed, and the person can move between whole and detail. |
+| Familiar details: local distinctions are recognizable, while their overall significance remains unorganized. | The model proposes a whole for comparison; the person tests it against details and increasingly participates in organizing relations and generating explanations. | Details understood anew within a whole: local sensitivity remains, with a new possibility of proposing and changing the whole. |
+
+**Synthesis preserves the availability of both contributions formed through the other.** The exclusive determination that only one party generates and only the other checks is sublated. Generation and scrutiny remain and can correct each other within one participant's activity. Hegel's account of returning to oneself through mediation and otherness, and of ceasing together with preserving, grounds this reading of [the dialectical meaning of role change](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/yinyang-and-taiji.html#returning-through-the-other-the-dialectical-meaning-of-role-change).
+
+Return can also change how someone understands participation: from “I must supply a complete specification unaided” toward “I can initiate, receive help, judge consequential points, and change the delegation.” [Speech, opposition, and self-formation](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/speech-opposition-and-self-formation.html) compares this movement across roles, premises, and philosophical understanding:
+
+| Object changing | How opposition enters | What the new organization preserves |
+| --- | --- | --- |
+| Roles and participation | The person enters the model role and returns to the human role; the model makes the corresponding passage. | Both contributions and possibilities of participation formed through the other. |
+| A particular premise | An unconditional rule conflicts with a situation it cannot accommodate. | The original concern and relations that remain valid with the missing conditions supplied. |
+| A philosophical model | A determination of independence, capacity, or personhood encounters its own limits in practice. | Directions and distinctions there remain reasons to sustain after criticism. |
+| Reasoning with conflicting material | Conflicting assertions enter different consistent views. | Their respective grounds and the common consequences accepted by the specified semantics. |
+
+### Taiji, Sun–Moon–Earth, and corrective return
+
+Taiji's circle locates changing contributions within one encounter that can continue. The circle shows return; a trajectory retains how each return has already changed. A work can finish and another carry its gains forward. Bow and lyre show how difference acquires force: the bow releases a work into the world, while the lyre sustains exchange through adjusted tension.
+
+Sun gathers generative illumination; Moon gathers the independent contribution of receiving, distinguishing, and giving form; Earth carries material conditions, shared life, and the world's response. The author's usual arrangement emphasizes Sun for the person and Moon for the model. Entering a whole from familiar details can exchange those emphases. Creations—texts, theories, programs, and actions—acquire independent consequences in the world and change both participants' understanding.
+
+Corrective return lets objections, sources, and actual consequences change premises, scope, action, and aims. Positive feedback strengthens an initial change; negative feedback counteracts a relevant deviation. Examine what returns and which relation it changes. Generation can disclose connections scrutiny missed; scrutiny can find the detail that requires reconstructing the whole. Participants adjust contributions so creation can continue and pursuit can finish, stop, or turn elsewhere.
 
 <a id="yy-04"></a>
 
@@ -289,6 +302,23 @@ retrieve, compare, and maintain relevant material so the person need not
 restate every detail. A useful handoff retains the question, evidence, working
 interpretation, and consequential alternatives needed to continue.
 
+[Forming a life trajectory](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/flow-and-time.html) connects traces of shared work into relations one can return to: which wish led to a change, which use revised a judgment, and how the present version formed.
+
+| Material | What it retains | Contribution to a trajectory |
+| --- | --- | --- |
+| Git/GitHub version history | Changes to works, indexes, and configuration, with recoverable versions. | Compare differences and locate what a revision actually changed. |
+| Activity records such as Computer History | Reading, browsing, operating, and using works within the permitted recording scope. | Place versions within actual activity and connect contemporaneous expression and feedback. |
+
+These histories connect with present accounts: sources retain what happened, current accounts condense what is adopted now, and new encounters continue to change the accounts. [Forming a life trajectory](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/flow-and-time.html) also distinguishes three interacting “presents”:
+
+| Object | What is present | What its actuality establishes |
+| --- | --- | --- |
+| External situation | Events and conditions in the relevant environment. | The conditions world-directed judgments seek to describe. |
+| Actual experience | Present feeling, bodily response, or awareness. | The experience occurs; its interpretation is a further question. |
+| Working model | An account currently used for understanding or action. | What that account represents or accepts. |
+
+A bridge can have reopened while the traveler still hesitates and the route description has already changed. Each has its rhythm; recording their connection helps locate whether conditions, judgment, or the interpretation of experience needs correction.
+
 A source record, a candidate interpretation, and an accepted working view
 have different roles. Storage establishes availability, not truth or present
 applicability; selection should preserve relevant authorization and privacy.
@@ -360,6 +390,18 @@ model-usable conceptual relations explicit: for example, accounts of person,
 counterpart, work, correction, and continuation in a private sinthome. It enters
 work through natural language together with the situated conceptual models.
 
+[Individual-first humanism](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/personal-first-humanism.html) develops these concepts within one practice:
+
+| Role in practice | What it includes | Example: continuing unfinished reading |
+| --- | --- | --- |
+| Actual world and joint activity | People, machines, events, material conditions, and consequences. | A reader loses the connection between two paragraphs and tries to recover it. |
+| Domain understanding and conceptual models | Selected objects and relations, candidate explanations, and relevant constraints. | Distinguish reader, paragraphs, conceptual connection, and interruption; explain how navigation broke the thread. |
+| Representation and expression | Language, diagrams, formal statements, data, and records carrying selected meanings. | Write an explanation, draw the reading path, or record the stopping point. |
+| Engineering realization and use | Programs, tools, interfaces, and arrangements that interpret and use those representations. | Make related paragraphs visible together and reading positions recoverable. |
+| Philosophical framework | Accounts and adopted positions concerning world, being, truth, knowledge, value, and method. | Ask why continuity of understanding is worth supporting, what the explanation commits to, and what grounds could revise it. |
+
+A document can carry a conceptual model; a program can realize a selection of which objects matter. Representation connects to objects through meaning and interpretation, while its carrier exists and operates through material processes. Philosophical understanding, personal accounts, and engineering realization participate together through these actual relations.
+
 The six working questions about orientation, person, counterpart, relationship,
 environment, and revision connect these philosophical contributions in a situated
 arrangement. Their complete answers need mutual coherence, as developed in
@@ -426,6 +468,16 @@ definite grounds, relations, and inferential methods for a particular judgment
 or action. Consequences connect these functions: a result can call for different
 grounds, another interpretation, or a changed question. This grounded, revisable
 adoption is a working commitment.
+
+[Reasoning in an unfinished flow](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/reasoning.html) distinguishes how material enters present inquiry:
+
+| Position | What it retains | What revision changes |
+| --- | --- | --- |
+| Sources | Utterances, documents, actions, measurements, and their provenance. | Assessment and interpretation can change while the original occurrence keeps its attribution. |
+| Candidates | Competing explanations or models formed from sources. | Evidence supports comparison, repair, adoption, or abandonment. |
+| Current workspace | Sources, candidates, concepts, and checks recruited by the present question. | Attention can switch, prune, unload, and later restore them. |
+
+A working view organizes provisionally adopted grounds, concepts, and inferential methods into actionable understanding. Preference helps select what to care about and attempt; evidence and inference rules support the corresponding judgments. Contrary material remains available, giving later selection real alternatives.
 
 Keeping incompatible candidates available differs from jointly accepting their
 claims. Establish whether they concern the same referent, time, and conditions;
@@ -506,6 +558,17 @@ understanding. [World, process, and expression](https://boluopai.net/repositorie
 develops this return; [Finishing situated tasks](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/preference-harness.html#finish-situated-tasks-amid-changing-norms-and-worlds)
 connects revisability with completion and replacing obsolete means.
 
+[From personal philosophy to personal models](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/metaphor-and-self-revision.html) distinguishes four questions within this response:
+
+| Question | What can support an answer? |
+| --- | --- |
+| Does this form express a meaningful direction or relation? | Interpretation, articulation of its reasons, and contact with the person and work. |
+| Does its computational ontology make the needed relations usable? | Useful distinctions among objects, roles, events, dependencies, and transformations. |
+| Does its realization change cooperation as intended? | Actual behavior through relevant prompts, Skills, tools, and working environments. |
+| Does an explanatory theory reliably predict effects under its stated conditions? | Empirical inquiry proportionate to the proposed mechanisms, comparisons, and scope. |
+
+These questions give correction an object: unfold relations when meaning is unclear, revise descriptions when concepts are missing, change tools and arrangements when realization fails, and reconsider explanations when predictions fail. Results can thus revise both works and the methods producing them.
+
 <a id="yy-12"></a>
 
 ## YY-12 · Make the views perceptible, discussable, and continuable
@@ -532,31 +595,51 @@ continued, and discussed.
 
 <a id="yy-13"></a>
 
-## YY-13 · Forming a sinthome
+## YY-13 · The Trinity and forming a sinthome
 
-The preceding [connected understanding](#yy-04) and [expression and realization](#yy-05)
-let an understanding of the person guide their environment. The Trinity of
-philosophy, psychology, and engineering has two levels: generally, all three
-activities are united within shared physical reality; individually, this
-person's philosophy, psychological activity, and engineering arrangements
-instantiate that relation. Personal philosophy and relevant material help form
-partial models of the person, the needed counterpart, and their relationship.
-Under current technical conditions, writing, instructions, Skills, Harnesses,
-and tools give these understandings usable form. This account calls the personal
-practical arrangement jointly shaped by all three a **sinthome**. The fourth ring
-marks this concrete arrangement; connections among the rings represent formation,
-organization, and feedback. Personal and counterpart models, representation,
-realization, and actual use explain its content. It may
-help stabilize life and continue creation, while consequences in use change
-it in turn; the whole life still exceeds this form.
+**Philosophy, psychology, and engineering jointly organize a practice in which one can live, create, and revise.** Philosophy articulates world, purposes, and reasons; psychology understands how actual participants experience, know, and care; engineering makes the understood relations usable conditions. [The trinity of philosophy, psychology, and engineering](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/local-source-and-website.html) distinguishes two levels of their shared belonging:
 
-Usable articulation can begin before complete self-understanding; the person
-always exceeds the text. Capabilities, tools, authorization, others, and worldly
-conditions mediate enlarged agency. [From personal models to a sinthome](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/writing-a-sinthome.html)
-develops this practical extension and its connection to [Lacan's account in *Seminar XXIII*, 17 February 1976](https://recherche-lacan.gnipl.fr/2013/07/26/lxxiii-le-sinthome-1975-1976-lecon-du-17-fevrier-1976/).
-A reader may examine or borrow this idea where personal authorship is the
-question. Completing an ordinary task does not depend on accepting this
-Lacan-inspired extension or undertaking such a project.
+| Level | What the “one” names | What the “three” name |
+| --- | --- | --- |
+| General relation | The physical reality in which all three activities occur. | Philosophical thought and argument, psychological activity and its study, and engineering that constructs and changes actual conditions. |
+| Personal instance | This person and their connected life practice within that same reality. | Their philosophical understanding; experience, feelings, preferences, and relational activity; and models, tools, and environments organized for actual use. |
+
+The three contributions change one another within the same activity. When someone repeatedly compares objects, philosophy helps clarify whether this occasion seeks a quick decision or enjoyment of exploration. Psychological understanding compares how they participate and where they encounter difficulty. Engineering gives the adopted understanding comparisons, records, and interfaces. Use that feels easier—or prematurely restrictive—can revise purposes, personal understanding, and implementation together. Inquiry can begin from any of the three and develop the connection currently needed.
+
+### Reading the three columns across different images
+
+[The trinity of philosophy, psychology, and engineering](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/local-source-and-website.html) gathers the principal correspondences of the author's practice in this table:
+
+| Philosophy | Psychology | Engineering |
+| --- | --- | --- |
+| Emphasis on worldview and ontology: understanding the world and modes of being | Emphasis on epistemology, connected with value: understanding experience, knowing, and concern | Emphasis on methodology and practice: organizing expression, construction, and actual use |
+| Website | Environment experienced in personal life | GitHub |
+| Work | Counterpart | Environment on electronic devices |
+| Sun | Moon | Earth |
+| Real | Imaginary | Symbolic |
+| Father | Son | Holy Spirit |
+| Generative description: direction, participant relations, and methods | Distributed body: person, counterparts, records, and tools acting together | Interpretation and realization: capable participants using actual means |
+
+**Read horizontally, each row connects three aspects from one perspective; read vertically, each column follows a contribution across different expressions.** Philosophy encompassing the practice supplies the overall understanding; the first column emphasizes its contribution toward world and being. The six philosophical dimensions run through all three columns: truth connects actual conditions, judgments, and representations; value enters philosophical choices, personal concerns, and tool purposes.
+
+The website makes philosophy readable and discussable; the environment experienced in personal life gives experience and concern concrete content; GitHub retains maintainable sources and implementations. A work can be an essay, music, design, or program; the counterpart receives, develops, and creates together; the environment on electronic devices supports these activities through software, interfaces, and tools. The experienced environment and the electronic environment connect: feelings and responses in the former can change arrangements in the latter.
+
+Sun, Moon, and Earth emphasize generation, receptive shaping, and actual support. Real, Imaginary, and Symbolic emphasize encountering the world, forming experience and images, and organizing symbols and action. Father, Son, and Holy Spirit gather differentiated contributions belonging to one whole. The final row brings these connections into RSI: description supplies direction and method; the distributed body participates and bears consequences; interpretation and realization bring descriptions into activity. Person and model contribute across columns; a model can both sustain distributed capacity and interpret descriptions.
+
+### How the sinthome holds this relation together
+
+**Sinthome names the concrete knotting of the three aspects within this person's life.** The fourth ring marks its sustaining role: philosophy becomes works; understanding of person and counterpart enters working models; computational ontology organizes concepts such as person, counterpart, work, correction, and continuation; tools and environments repeatedly bring these relations into cooperation. One use can prompt revision across all three. [From personal models to a sinthome](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/writing-a-sinthome.html) develops this formation and connects it to Lacan's account of a fourth term knotting the three registers.
+
+Different carriers give this knotting its effects:
+
+| Carrier | Role in the arrangement |
+| --- | --- |
+| Prompt | Express relevant purposes, context, and wanted contributions. |
+| Skill | Organize reusable understanding, methods, and resources for models to read and use as the task needs. |
+| Harness | Couple model work with human participation through models, instructions, tools, records, interfaces, and operating conditions; the arrangement serves both participants. |
+| Meta-Harness | Make this coupled arrangement available for understanding, formation, and revision, including what both participants can understand, judge, and undertake through it. |
+
+YinYang carries this understanding of both participants' Meta-Harness in a Skill. Readable philosophy, core views, and six practical accounts can organize their material differently while agreeing in consequential concepts, relations, and conclusions. If an essay has the model receive unfinished expression, the practical account should enable investigation, construction, and delivery from it. If a table expresses reciprocal revision, realization should let results return to the relevant understanding. Writing, counterpart, and environment thus become one life practice that can continue changing.
 
 <a id="yy-14"></a>
 
@@ -652,56 +735,68 @@ image whose value is answered by participants' experiences and consequences.
 
 ## YY-16 · Personal recursive self-improvement
 
-Assisting personal recursive self-improvement connects YinYang's philosophy,
-working descriptions, and environment. **Recursive self-improvement improves
-the mechanism of improvement itself, increasing its capacity to produce later
-effective improvements.** Being able to modify one's description or code establishes
-self-modification; better results under an existing method establish improved
-performance. When the methods of generating, judging, and realizing changes
-themselves change and work better in subsequent activity, there are grounds for
-claiming improved self-improvement capacity. The subject here is this person
-with the model and actual support relations; capacity can remain distributed
-across them rather than requiring every ability to be internalized unaided.
+Assisting personal recursive self-improvement connects YinYang's philosophy, working descriptions, and environment. **Recursive self-improvement improves the methods producing improvement, making later understanding, judgment, creation, and realization of change more capable.** Its subject is this person with the model and actual support relations. Capacities may be internalized or reliably distributed within their shared environment.
 
-A practice can leave a work and also change how the next improvement is produced.
-YinYang places purposes, understanding, collaboration, and revision methods in a
-readable generative description. Person and model interpret it together and
-realize it through tools, environments, and embodied participation. A method can
-therefore acquire material about its own operation: how it selects sources,
-forms candidates, compares results, and decides what to retain or reconstruct
-all encounter consequences. Participants can change the description in response
-and bring that change into subsequent activity. This return gives recursive
-improvement its practical content.
+### Body, generative description, and interpreter
 
-Description, interpreter, and body depend on one another. Literary condensation
-organizes connected relations into an expression that is easy to return to;
-models unfold it through existing capabilities; participation and the actual
-world answer that unfolding. A concise description depends on understanding
-and supports already available. Its value concerns reduced reconstruction,
-coordination, and revision costs while preserving consequential distinctions.
-Externally developed model capabilities can also open opportunities to
-reinterpret an earlier description, simplify a method, or construct a new arrangement.
+[Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html) distinguishes three functions within actual operation:
 
-Git/GitHub gives parts of the description and implementation recoverable
-differences. Versions, branches, and comparisons preserve attempts; their
-purposes and encounters explain why the differences matter. Versions move
-forward in time while feedback returns to the function performed by a method.
-These relations can organize the same development. Retained conflict makes
-selection reconsiderable; recursive improvement further changes how later
-selections are produced and realized.
+| Function | What it carries in YinYang | How it acquires further consequences |
+| --- | --- | --- |
+| Body $B_t$ | The person's senses, movements, habits, and capacities, together with devices, records, tools, and counterparts sustaining activity. | Perceive, participate, act, learn, and bear results. |
+| Generative description $\Delta_t$ | Philosophical direction, understanding of person and counterpart, collaboration, environmental arrangements, and revision methods. | Enable participants to understand, unfold, and reorganize practice. |
+| Interpreter $I_t$ | Interpretation and realization centered on a language model with actual tools. | Form proposals from description and situation, construct works, and adjust the environment. |
 
-Evaluation can develop too: a check can better answer an existing purpose,
-and the purpose itself can be reconsidered through practice. Connecting the
-encountered difficulty, reasons for change, gains, and costs keeps this
-development intelligible and comparable. Use of a work supports claims about
-that work; later relevant activity supports claims about a method; new
-possibilities of participation sustained by person and environment support
-claims about capacity development. Stability, completion, and letting go can
-all be fitting results.
-[Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html)
-develops the relation through a reading-environment example and compares it
-with effective self-reference, construction from descriptions, and improvement
-programs that can rewrite themselves.
+The same model participates as support in the distributed body and serves as interpreter when reading and unfolding descriptions. Human experience, purposes, and judgment enter interpretation; tools realize relevant actions. Von Neumann's discussion of descriptions, constructors, and existing environmental organization provides a constructive insight: descriptions operate through organization able to use them.
+
+Literary condensation lets a short expression recall connected relations. “Borrowing fire” connects acquiring capacity, cultivating oneself, and continuing creation; “keeping the thread” connects returning to a position, recovering context, and continuing understanding. Condensation organizes while retaining the capacity to unfold: consequential tables, relations, and conclusions remain in the description, and the current model uses existing understanding and materials to develop needed detail. A stronger interpreter can enable new realizations and retire old compensations and cumbersome steps.
+
+### How a method returns to itself
+
+The description includes how to revise descriptions. Participants read the current method, rewrite it from experience, and realize the new method through models, tools, habits, and environments. Let $R_t$ be the actual revision method, $\Delta^R$ the part describing revision, and $E$ experience and results:
+
+$$
+\Delta_{t+1}=\operatorname{Revise}_{R_t}(\Delta_t,E_{\leq t+1}),\qquad
+R_{t+1}=\operatorname{Realize}(\Delta^R_{t+1};I_{t+1},B_{t+1}).
+$$
+
+**The revision method participates in modifying its own description; realizing the changed description then changes later revision.** Kleene's construction of effective self-reference lets a program obtain its own description. Schmidhuber's Gödel machine further makes the improvement program itself rewritable, comparing the utility of an immediate change with continued search and including the time and opportunity cost of finding a better method. [Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html) develops this return in personal practice: source selection, candidate generation, judgment, realization, and evaluation can all become objects of further improvement.
+
+[Embodied experimental philosophy](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/embodied-experimental-philosophy.html) retains three levels:
+
+| Level | What changes | How to judge |
+| --- | --- | --- |
+| Self-modification | The system's own code or descriptions guiding activity. | A description or implementation changes. |
+| Weak RSI | Performance improves under existing methods. | Later results are better. |
+| Strong RSI | The methods producing improvement improve. | Later work better discovers, judges, and realizes effective changes. |
+
+A modification can involve several levels. Repairing an article with an existing check improves the work. Improving the checking method because of the omission, so it later discovers consequential problems better, returns improvement to the method. Evaluation can also change: correcting a proxy for an existing purpose, replacing a means, or choosing a different life purpose each connects to its reasons and consequences.
+
+### From work to method and capacity
+
+Suppose a page opens a book but leaves the reader searching again for the paragraph. The first change returns to the needed position. A further change to the method begins future checks by understanding the reading activity to be continued. Recognizing return points earlier in later tasks gives that method change practical content.
+
+| Object improved | Its expression in the example | Grounds in later use |
+| --- | --- | --- |
+| Work | The page supports return to the needed paragraph. | How this page works in actual reading. |
+| Method | Select checks from the activity to be continued. | How later relevant tasks produce fitting arrangements more effectively. |
+| Capacity | Person and supporting environment more readily recover, understand, and continue reading. | Activities they can subsequently initiate, judge, and sustain. |
+
+These gains can support one another and develop at different rates. Retaining incompatible material and candidates gives the current method alternatives to reconsider. Reconsidering selection rules, axioms, or question organization also lets improvement change how alternatives are produced. Preference and trajectory thus give recursion material; YinYang's role return enables both participants to contribute; the Trinity gives improvement a form in life.
+
+### How version history supports recursion
+
+[Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html) connects version operations to this return:
+
+| Version operation | Contribution to recursive inquiry |
+| --- | --- |
+| Save a commit | Retain a particular description or implementation as a definite object for later comparison. |
+| Inspect a diff | Show which relation, method, or code changed. |
+| Develop a branch | Give a worthwhile alternative a place for continued construction. |
+| Merge and reconstruct | Organize selected contributions into the next arrangement actually used. |
+| Return to an older version | Retrieve earlier material under new conditions and make a new selection. |
+
+A recursive loop describes functional return to itself; a directed acyclic commit history records each return happening later. Versions connected to purposes, reasons, and consequences make improvement intelligible, comparable, and continuable. External model progress and local method development jointly change support conditions. Stability, completion, and letting go can also be worthwhile results within this personal practice.
 
 ---
 

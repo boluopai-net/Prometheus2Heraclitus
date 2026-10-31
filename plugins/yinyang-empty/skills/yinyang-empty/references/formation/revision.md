@@ -300,6 +300,15 @@ not turn inference into fact. Recurring words can provide retrieval entrances;
 frequency alone does not determine their relational meaning. Newer expression
 does not override all older material merely by being later.
 
+Condense adopted philosophy by preserving its conclusions and the relations
+that make them intelligible. A table is model-readable text: retain consequential
+comparisons and correspondences with the explanation needed to use them. Core
+views should form a concentrated, clear account; the six practical accounts
+then carry its substance according to their questions. Their organization and
+voice can differ while shared concepts, premises, and consequences agree. Check
+the philosophical source, core account, and practical whole together; remove
+genuine repetition while restoring relations lost through compression.
+
 At useful maintenance points, examine whether the next counterpart can still
 recover applicability, actual purpose, material open questions, and a path to
 the grounds. Restore omissions that change those judgments; details irrelevant
