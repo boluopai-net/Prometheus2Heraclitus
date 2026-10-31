@@ -9,8 +9,8 @@ SKILLS = {
         '阴阳 Full', 'YinYang Full',
         '静态参考：查看网页哲学在 Skill 中的表达与组织形式。',
         'Static reference: inspect how the website’s philosophy is expressed and organized in a Skill.',
-        '✗ 禁止用于他人的实践。Full 仅供静态参考；自己的实践从 Empty 开始。',
-        '✗ Not for another person’s practice. Full is a static reference; start your own practice from Empty.',
+        'Full 仅供阅读参考。不能把《窃火的哲学》直接载入自己的实践；可以使用 Empty 的递归自我改进方法，依据自己的材料形成内容。',
+        'Full is for reading reference only. Do not load The Philosophy of Stealing Fire into your own practice; use Empty’s recursive self-improvement method to form content from your own material.',
         '包含日常协作入口、六份 formation 指南、参考文章、图示和更新脚本。',
         'Includes daily collaboration, six formation guides, reference essays, diagrams, and the common-update script.'),
     'yinyang-empty': (

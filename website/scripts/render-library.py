@@ -266,6 +266,13 @@ def main():
             extensions.append('md_in_html')
         md = markdown.Markdown(extensions=[*extensions, CjkBoldExtension()], extension_configs={'toc': {'slugify': slug, 'toc_depth': '2-3'}})
         rendered = md.convert(source)
+        practice_overview = path.endswith(('references/docs/creation-method.md', 'references/docs/creation-method.zh-CN.md', 'references/creation-method.md', 'references/creation-method.zh-CN.md'))
+        if practice_overview:
+            # Full stays readable as a specimen; cross its entire row, not each cell.
+            rendered = rendered.replace('<table>', '<table class="reference-method">', 1)
+            rendered = re.sub(r'(<tbody>\s*)<tr>([\s\S]*?)</tr>',
+                              lambda m: m[1] + '<tr class="full-reference">' + m[2].replace('~~', '') + '</tr>',
+                              rendered, count=1)
         if Path(path).name in {'SKILL.md', 'SKILL.zh-CN.md'}:
             name = Path(path).parts[1]
             description = html.escape(skill_descriptions[name])
@@ -299,6 +306,16 @@ def main():
         body = f'''<main id="main" class="wrap library-reader commentary{layout}">{contents}<article class="document"><div class="reader-top"><a class="back" href="{back}">{back_label}</a>{switch}</div>{rendered}</article><div class="reading-end">{source_note}</div></main>'''
         page_title = title(path)
         page = shell(page_title, body, 'zh-CN' if chinese else 'en', '<link rel="stylesheet" href="/article.css">')
+        if practice_overview:
+            cross_style = '''<style>
+            .document table.reference-method{display:table;table-layout:fixed}
+            .document table.reference-method td,.document table.reference-method th{min-width:0}
+            .document table.reference-method th:first-child{width:24%}
+            .document tr.full-reference{
+            background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 100' preserveAspectRatio='none'%3E%3Cpath d='M0 0L1000 100M1000 0L0 100' fill='none' stroke='%23000000' stroke-width='2.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+            background-size:100% 100%;background-repeat:no-repeat}
+            </style>'''
+            page = page.replace('</head>', cross_style + '</head>', 1)
         if path in {DOCS + 'creation-method.md', DOCS + 'creation-method.zh-CN.md'}:
             destination = url(path.replace('creation-method', 'skill-package'))
             page = page.replace('</head>', '<script>if(location.hash==="#package-contract")location.replace(' + repr(destination) + ');</script></head>', 1)

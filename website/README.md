@@ -941,7 +941,7 @@ YinYang uses CC BY-NC-SA 4.0; the other reusable packages retain their MIT licen
 Each introduction preserves the package's companion-method and host-capability
 requirements; collection membership does not imply standalone installation.
 
-YinYang's Full (`yinyang`) and Empty (`yinyang-empty`) editions are introduced
+YinYang's Full reference (`yinyang`) and Empty method (`yinyang-empty`) are introduced
 under Skills, with detail pages at `/tools/yinyang/` and `/tools/yinyang-empty/`.
 The Skills list and wheel lead to these detail pages. Empty's method readers
 return to its Skill detail page. Skills belongs under Resources & Advice:
@@ -950,7 +950,12 @@ details, and method readers, while detail-page back links return to Skills.
 There is no separate top-level Skills tab. The public source
 owns Empty's selected methods and unfilled starters; this reader excludes its
 Personal, Situated, and recipient-philosophy trees just as it excludes private
-Full content. GitHub supplies the actual starter files and both plugin packages.
+Full content. GitHub supplies Empty's actual starter files and installable plugin;
+Full remains readable source, not an installable practice package. The practice
+overview crosses the entire Full row with two black diagonals and distinguishes
+reading the author's philosophy from using the recursive self-improvement method
+to form one's own content. The row treatment is rendered for both languages and
+both package reading paths by `scripts/render-library.py`.
 
 `scripts/reader-pages.py` rebuilds the singing station from
 `content/singing/recordings.json` through `scripts/singing_pages.py`. The station
