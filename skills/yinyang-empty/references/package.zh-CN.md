@@ -22,8 +22,8 @@ Empty 没有 `docs/` 或 `diagrams/`。`references/formation/` 中是六份指�
 
 六份起始文件标为 `status: unfilled`，位于
 `references/situated/{orientation,person,counterpart,relationship,environment,revision}.md`。
-按[静态参考与实践方法](creation-method.zh-CN.md#choose-2x2)中的简单版或复杂版形成内容，
-通过私人 Git/GitHub 保留版本。复杂版可将结果投影到这些文件，或由私人索引绑定六个完整正文；
+按[实践总览](creation-method.zh-CN.md#choose-2x2)中的共同方法形成内容，
+通过私人 Git/GitHub 保留版本。可选原生辅助将结果投影到这些文件，或由私人索引绑定六个完整正文；
 具体配置见 [Hindsight 指引](hindsight.zh-CN.md)。
 
 Personal 的四个分区保存本人可读的主题文章，来源索引连接原件。

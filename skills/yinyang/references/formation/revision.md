@@ -186,7 +186,7 @@ for environment-specific setup and operations. Project checked output to the six
 paths or bind all six through the explicit private index. Configure native
 processing to implement the same source/Personal/synthesis dependency and inspect
 its result, without treating a shared bank as semantic convergence. The
-[reference and method overview](../docs/creation-method.md#choose-2x2) locates the available combinations.
+[reference and method overview](../docs/creation-method.md#choose-2x2) locates the shared method and optional assistance.
 
 ## Write for the actual use
 
@@ -367,6 +367,17 @@ understand why the method changed. Each account carries its own contribution;
 the revision account connects the whole. The [RSI essay](../docs/literary-recursive-improvement.md)
 develops the argument and its formal references. Changes in human participation
 and capacity receive evidence from actual activity over the appropriate timescale.
+
+Write this as the person's usable revision method. Identify where a candidate
+comes from, how its consequences are explored, what comparison would matter,
+who can realize the change, and how later work returns to the method. For example,
+if a reader loses the relation between passages, compare a shared view with a
+better return link. Their predicted benefits differ: simultaneous comparison
+and easier resumption. Use the relevant reading activity to judge the result.
+If the original check only established that a page opened, revise the checking
+method to examine the activity it should enable. Later use of that revised
+check supplies evidence about improvement of the method itself. Keep this
+expectation, result and reason with the existing work and version history.
 
 ## Let philosophy revise personal support material
 

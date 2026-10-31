@@ -2,7 +2,8 @@
 
 [简体中文](relationship.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Its object is the joint activity: how this
+Use the [six-account method](../design-and-revision.md) to write and check this
+account. Its object is the joint activity: how this
 [person](person.md) and [counterpart](counterpart.md) contribute, correct,
 divide work, and change their understanding. Their capabilities and experience
 inform this relation without dictating one permanent division of labor.
@@ -94,6 +95,15 @@ leaving permissions, consent, and publication at their existing owners. A role
 description does not create new authority.
 
 ## Follow the relationship into its realization
+
+Describe how the participants can examine and change this cooperation through
+listening, speaking, reading, writing and actual use. One may point out a mismatch;
+the other can reconstruct the dependency, develop alternatives and return an
+inspectable work. Compare how a different allocation would affect understanding,
+initiative, correction and effort. Let the resulting experience revise the
+allocation itself. This distributed self-examination connects role return with
+recursive improvement: what happened can change how later contributions are
+generated, judged and carried forward.
 
 The [environment account](environment.md) explains how the contribution reaches
 sources, tools, work, and observable results, including directions for changing

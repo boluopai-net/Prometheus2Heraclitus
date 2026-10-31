@@ -2,7 +2,8 @@
 
 [简体中文](counterpart.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Explain the model encountered through its real interfaces,
+Write and check the actual counterpart account through the
+[six-account method](../design-and-revision.md). Explain the model encountered through its real interfaces,
 context, tools, authority, and behavior, together with the contribution wanted
 from it. The [relationship account](relationship.md) develops how both parties
 work together; this account makes the counterpart's side intelligible.
@@ -74,6 +75,16 @@ The counterpart can challenge its own earlier interpretation as well as the
 person's proposal, while continuing the work the purpose calls for.
 
 ## Keep the account current
+
+For recursive improvement, describe how the counterpart makes its own
+contribution inspectable and revisable. It can reconstruct a functional
+account of an activity, explore a change through a scenario or prototype,
+compare expected with observed effects, and implement a selected revision.
+Explain what evidence supports each contribution and where actual tools,
+context or human participation supply missing conditions. A missed premise,
+poor candidate or ineffective check can change how the counterpart works next
+time. Model upgrades can also alter what support is useful; compare their
+contribution with changes to the local method and to the person's participation.
 
 Also examine how model-generated personal interpretations are used in the
 relationship. Being regarded as understanding someone, performing reliably in

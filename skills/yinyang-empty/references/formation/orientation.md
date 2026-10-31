@@ -3,8 +3,9 @@
 [简体中文](orientation.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
 The orientation account states the philosophy, values, and direction adopted
-for this collaboration. Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. This public guide
-remains available alongside it. The six content lenses remain distinct without fixing the number of output documents.
+for this collaboration. Write and check the actual orientation at
+`references/situated/orientation.md`, or its explicit native binding, using
+this guide within the [six-account method](../design-and-revision.md).
 
 ## Give the work a direction with reasons
 
@@ -68,6 +69,15 @@ judgment and action. Keep developed public arguments at their existing owners,
 with private reasons and attribution in the [evidence material](revision.md#sources-and-evidence).
 
 ## Revise the direction through what happens
+
+When personal RSI is adopted, give improvement a situated meaning: what should
+the person and their supports become better able to understand, judge, create
+or change, and why? Explain the valued result and the costs relevant to it so
+the other accounts can compare concrete alternatives. A better output, a
+better method for producing improvements, and a changed life direction are
+different possible achievements. Actual participation and consequences can
+revise the criteria as well as the means. Keep those reasons here; the revision
+account explains how the comparison changes subsequent practice.
 
 A completed output, relief, improved collaboration, and developing personal
 capacity support different claims. Judge the purpose actually chosen. Work

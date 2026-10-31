@@ -2,7 +2,8 @@
 
 [简体中文](person.zh-CN.md) · [Forming and revising working models](../design-and-revision.md)
 
-Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Its object is a person acting in particular situations, with
+Use the [six-account method](../design-and-revision.md) to write and check this
+account. Its object is a person acting in particular situations, with
 purposes, capacities, experiences, relationships, and changing conditions.
 In the maintained YinYang, describe this person as a participant in the
 [crossed relation](relationship.md#explain-exchange-and-return-where-they-matter):
@@ -12,9 +13,9 @@ counterpart interpret requests and contribute fittingly. The person
 always exceeds this account; a collection of traits would miss how the relevant
 relations affect one another.
 
-Use [Hindsight](../hindsight.md) for the actual source-to-observation-to-model
-fusion. This guide supplies content and evidential distinctions for its question
-and result check; it does not prescribe another manual synthesis pipeline.
+Develop the account from attributable sources and corrected Personal
+understanding. Direct model writing and optional [Hindsight](../hindsight.md)
+assistance use the same content and evidential distinctions below.
 
 ## Understand activity in its situation
 
@@ -158,6 +159,16 @@ connection without proving it in this life, and chosen support does not establis
 a deficit.
 
 ## Let understanding change the collaboration
+
+Make the account useful for reasoning about change. Describe a relevant activity
+through its conditions and contributions: for example, a person sketches an
+idea, compares model-produced alternatives and identifies a relation to revise.
+Explain how a proposed support might alter that participation, what the person
+can already do, and what later experience would help distinguish the expectation
+from an alternative. Preserve embodied, relational and temporal conditions in
+such scenarios. Subsequent activity can correct the account and reveal a new
+capacity or cost. This functional understanding gives personal RSI a grounded
+object while richer Personal material retains the person's experience and history.
 
 Relate the account to the adopted [orientation](orientation.md), the actual
 [counterpart](counterpart.md), and the chosen [relationship](relationship.md).

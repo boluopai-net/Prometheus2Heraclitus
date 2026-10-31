@@ -4,7 +4,8 @@
 
 [简体中文](environment.zh-CN.md) · [Forming and revising working models](../design-and-revision.md) · [Revision](revision.md)
 
-Use this guide to specify the relevant Hindsight model question and check its generated content. The private `references/situated/index.md` locates the actual model bodies; [native formation](../hindsight.md) explains the route. Explain how this collaboration takes working form
+Use the [six-account method](../design-and-revision.md) to write and check this
+account. Explain how this collaboration takes working form
 through material, social, informational, and computational arrangements. Connect
 the adopted [orientation](orientation.md), [person](person.md),
 [counterpart](counterpart.md), and [relationship](relationship.md) to actual
@@ -154,6 +155,15 @@ Assess the whole cost: a tool may save operations while adding setup, monitoring
 supervision, handoff repair, or repeated context reconstruction.
 
 ## Choose a fitting realization
+
+Make the coupled system's working path concrete: what input reaches which
+participant, which description is interpreted, what tools or arrangements
+realize the change, and how its effects become available for comparison.
+Describe useful simulation resources already present, such as examples,
+sketches or prototypes, and the conditions they represent. Let actual use
+test the expected relation. Software can change immediately while bodily
+skill, habits and social relations develop through later participation;
+the environment account supplies these conditions to evaluation and revision.
 
 Use natural language for relations and flexible judgment, and deterministic
 mechanisms for concrete operations where the boundary warrants them. An edited

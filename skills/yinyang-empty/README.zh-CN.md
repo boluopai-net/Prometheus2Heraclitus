@@ -22,7 +22,7 @@ Empty 包含六份 formation 指南、作为作者建议的基本观点、实践
 | 安装与更新，并保留自己的内容 | [文件与更新](references/package.zh-CN.md) |
 
 本包是 **Empty**，提供自己的实践所用的递归自我改进方法。
-[参考与方法表](references/creation-method.zh-CN.md#choose-2x2)说明直接凝练与辅助凝练；Full 中的哲学仅供阅读参考，禁止用于自己的实践。
+[实践总览](references/creation-method.zh-CN.md#choose-2x2)说明直接凝练与辅助凝练；Full 中的哲学仅供阅读参考，禁止用于自己的实践。
 包内的六份 `status: unfilled` 起始文件、四个空 Personal 分区与来源索引，
 供你和模型形成自己的内容；文件位置见[文件与更新](references/package.zh-CN.md)。
 

@@ -2,7 +2,7 @@
 
 [简体中文](hindsight.zh-CN.md) · [Formation and revision](design-and-revision.md)
 
-This is the complex route's configuration entrance in the
+This is the optional memory and synthesis configuration entrance in the
 [reference and method overview](docs/creation-method.md#choose-2x2). Your own practice starts from Empty; Full retains this guide as a static reference of the author's Skill form.
 Hindsight assists source retention, Observation integration, and maintained
 Mental Models/Knowledge Pages for six questions. The model configures the service,

@@ -46,7 +46,8 @@ when its images and organization no longer resemble YinYang; the
 [example and commons essay](docs/example-and-commons.md) explains the distinction.
 
 Readers can study the example, borrow a method, or form their six working accounts.
-The [reference and method overview](docs/creation-method.md#choose-2x2) marks Full as static reference only and offers simple/complex formation through Empty.
+The [practice overview](docs/creation-method.md#choose-2x2) distinguishes the
+Full static reference from Empty, the entrance for forming one's own practice.
 This page develops how to write the six accounts and revise them together.
 
 The same accounts support personal recursive self-improvement. Orientation
@@ -68,8 +69,9 @@ Read adopted philosophy and relevant fresh sources, correct Personal understandi
 and check them together, then realize selected Skill/environment changes and read back their use.
 The [revision guide](formation/revision.md#refresh-the-selected-grounds) develops this dependency.
 Personal retains readable topic articles and original sources; the six accounts select their implications for cooperation.
-In the simple route, the current language model condenses directly; the complex route assigns retention,
-integration, and page generation to the configured aid.
+The current language model can write and revise directly; optional memory
+assistance supplies retention, integration and page generation through its
+configured interfaces. Select that assistance by its contribution to this method.
 
 ## Form a situated version from actual material
 
