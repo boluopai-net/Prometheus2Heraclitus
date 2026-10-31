@@ -737,6 +737,21 @@ image whose value is answered by participants' experiences and consequences.
 
 Assisting personal recursive self-improvement connects YinYang's philosophy, working descriptions, and environment. **Recursive self-improvement improves the methods producing improvement, making later understanding, judgment, creation, and realization of change more capable.** Its subject is this person with the model and actual support relations. Capacities may be internalized or reliably distributed within their shared environment.
 
+### A coupled functional self-model and introspection
+
+The six working accounts jointly describe the human–model system that participates, judges, and acts. Orientation explains what is worth improving; person and counterpart explain how each operates; relationship explains how contributions connect; environment explains realization; revision explains how these practices change. Description both represents and participates in this practice. Using it to examine their own inputs, interpretations, choices, and consequences constitutes distributed introspection.
+
+Fidelity is judged through use: can the description explain decisive differences, locate changes, and form expectations comparable with subsequent activity? Listening, speaking, reading, and writing provide interfaces for material and modification; role return connects generation, scrutiny, and revision through both participants. The person's body, capacities, relationships with others and the environment, and the description itself are objects this practice can understand and develop.
+
+| Capacity | Function in coupled practice |
+| --- | --- |
+| Modeling | Recover purposes, participants, conditions, and dependencies of actual activity in a corrigible functional account. |
+| Simulation | Use scenarios, examples, sketches, prototypes, or local computation to unfold how candidate changes would work and fail. |
+| Evaluation | Compare expectations with results, examining participation, gains, costs, and others' responses. |
+| Modification | Change descriptions, roles, materials, tools, and actual practice so that successor activity uses the new arrangement. |
+
+The four capacities can themselves improve: failed predictions can change modeling, implementation difficulties can change candidate generation, and omissions in evaluation can change later checking. **The aim is to improve this coupled system's capacity to improve the person's technical and living capacities.** [Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html#six-perspectives-form-one-functional-self-model) develops the realization; [self-referential introspection and the Gödel machine](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html#self-referential-introspection-and-the-gödel-machine-the-reach-of-the-argument) distinguishes the functional argument from formal conditions such as complete source access, arbitrary-region rewriting, and proof search. A quantified threshold or global-optimality proof for this practice remains unavailable; corresponding activity tests actual improvement.
+
 ### Body, generative description, and interpreter
 
 [Writing one's own recursive improvement through literature](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html) distinguishes three functions within actual operation:

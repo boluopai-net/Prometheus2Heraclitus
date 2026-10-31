@@ -348,6 +348,26 @@ Those are connected responsibilities, not six copies of one paragraph. Integrate
 feedback only where it changes a contribution. A rewritten account establishes
 an authored revision; its effects and developmental claims remain open to use.
 
+### Develop the coupled functional self-model through use
+
+When personal RSI is the adopted purpose, use the six accounts together as a
+functional self-model of person, counterpart, and their actual support relations.
+Connect the purpose of a change with how the present activity works, what a
+candidate would change, which consequences are expected, and what subsequent
+use reveals. Qualitative scenarios, examples, sketches, prototypes, and local
+computations can support simulation at the resolution the decision needs.
+Listening, speaking, reading, and writing supply entrances for either participant;
+choose the division of work from the actual purpose and available capabilities.
+
+Maintain fidelity by correcting the relations that failed to explain or predict
+the relevant activity. Carry chosen changes into the description and its actual
+use, and let outcomes also revise modeling, simulation, evaluation, and modification
+methods. Preserve enough of the original expectation and observed result to
+understand why the method changed. Each account carries its own contribution;
+the revision account connects the whole. The [RSI essay](https://boluopai.net/repositories/prometheus/source/skills/yinyang/references/docs/literary-recursive-improvement.html)
+develops the argument and its formal references. Changes in human participation
+and capacity receive evidence from actual activity over the appropriate timescale.
+
 ## Let philosophy revise personal support material
 
 Bring developed philosophy into contact with existing personal material.

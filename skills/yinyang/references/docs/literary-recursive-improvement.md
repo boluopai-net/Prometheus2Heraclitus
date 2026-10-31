@@ -6,7 +6,9 @@ People borrow fire, create works, and change themselves through creation. Among 
 
 **Recursive improvement happens in this return: what one round of practice yields changes how the next round produces improvement.** A better work gives a person a useful result; a more fitting method gives later work a new starting point; and capacities developed through repeated participation can change how the person poses questions, understands feedback, and organizes help. YinYang expresses these connections as a personal arrangement that can be read, used, and revised.
 
-This chapter connects three earlier questions: what a [trajectory](flow-and-time.md) retains, how [reasoning and the working view](reasoning.md) organize current judgment, and how [literary programming](literary-programming.md) makes a description into a usable relationship. RSI brings them together in a further question: **How can we make the way we improve ourselves available to our own practice for improvement?**
+This chapter gathers the earlier core views around a functional question: **How can a system composed of person and model understand its own operation and use that understanding to improve the person's technical and living capacities, together with the methods producing those improvements?** [Reverse alignment](core-views.md#yy-01) supplies the developmental direction; embodied participation and listening, speaking, reading, and writing supply entrances; role return organizes joint judgment; trajectories retain grounds; reasoning organizes candidates; and the trinity connects description with realization. Together they form a functional self-model of a coupled human–model system.
+
+Zhang, Yuan, and Zhang's paper on self-referential introspection makes introspection concrete through understanding one's own operation, simulation, evaluation, and directed modification [[8]](#source-8). YinYang develops a simple version from this problem structure: the objects of improvement are the person's actual body and support relations, and the description of this practice. The model participates by helping the person understand, imagine alternatives, judge, and realize changes. Technical capacities, living capacities, and relationships with other people and the environment connect through the same practice.
 
 ## Body, generative description, and interpreter
 
@@ -26,6 +28,59 @@ A generative description expresses relationships that can continue to be unfolde
 
 The [trinity of philosophy, psychology, and engineering](local-source-and-website.md#trinity-and-sinthome) thus acquires a set of technical connections: philosophy develops the description and its reasons, psychology understands the activity of embodied participants, and engineering organizes interpretation and realization. The three change one another along the same practice.
 
+## Six perspectives form one functional self-model
+
+The self-model concerns the human–model system that is currently understanding, judging, and acting together. The person's philosophy already includes how they understand themselves and relate to models and other people; the model uses these descriptions to adjust its contribution. Description therefore both represents the system and participates in its operation. **Introspection happens when participants use this description to examine their own inputs, interpretations, choices, actions, and consequences.** Both participants, records, and tools can share this work.
+
+The six working accounts unfold this object through six connected perspectives:
+
+| Working account | Relationship the self-model needs to explain | Contribution to a change |
+| --- | --- | --- |
+| Orientation | What is worth developing and which gains and costs matter. | Selects substantive purposes for evaluation and lets consequences in life reopen them. |
+| Person | How the person perceives, expresses, learns, and acts, and which conditions make capacities available. | Anticipates what participation a change would enable and what actual attempts it requires. |
+| Counterpart | How the current model receives material, reasons, generates, uses tools, and fails. | Judges what it can undertake and which judgments still need human experience or other evidence. |
+| Relationship | How contributions continue, exchange, correct one another, and return. | Compares how different divisions of work affect understanding, judgment, and action. |
+| Environment | Through which interfaces, materials, devices, and social conditions descriptions take effect. | Locates realizable changes and entrances for actual feedback. |
+| Revision | How candidates form, consequences are simulated, results evaluated, and the system modified. | Keeps these practices and the revision method itself available for improvement. |
+
+The six perspectives jointly perform introspection. A difficulty in reading may involve the person's conditions of participation, the model's interpretation of the request, the interface, and the original completion criterion. Reading along these connections yields an understanding of one operating process. Person, counterpart, and relationship accounts constrain one another: human change alters the counterpart needed; new model capabilities alter the division of work; and that division and its environment alter actual human participation.
+
+**Functionality** requires the description to help answer “How does this work under these conditions, and what would changing this affect?” **Fidelity** requires checkable correspondence between those answers and actual operation. The description retains distinctions that change the present judgment: sound or transcription, difficulty understanding or initiating action, original source or summary, a saved edit or an edit actually in use. Natural language, examples, tables, and local mathematical models can all contribute; the contemplated change determines the needed precision.
+
+For example, “This person needs clear explanations” gives too little guidance. “They can identify relationships in a diagram, but reconstructing references across long passages takes considerable effort; presenting related objects together is expected to help them identify omissions” supplies conditions, a candidate relationship, a change, and observable consequences. Comparison may support it or locate the difficulty elsewhere. Uncertain causes remain candidates, allowing the self-model to keep learning.
+
+## How modeling, simulation, evaluation, and modification work
+
+The self-model makes the current process intelligible; simulation unfolds candidate changes into possible processes; evaluation compares those processes and actual results; modification brings selected relationships into the body, description, or supporting environment. These four capacities can interleave within one conversation and act of making.
+
+| Capacity | What happens in practice | What remains available for the next occasion |
+| --- | --- | --- |
+| Modeling | Recover purposes, inputs, participants, states, conditions, and dependencies from concrete activity; compare explanations. | A working understanding that explains decisive differences and locates possible changes. |
+| Simulation | Explore “What if we changed it this way?” under stated conditions, using scenarios, role rehearsal, sketches, prototypes, or executable models. | How a candidate would work, where it might fail, and expectations that distinguish candidates. |
+| Evaluation | Compare expectations with observation, considering participation, gains, maintenance costs, and consequences borne by others. | Reasons to adopt, modify, retain, or abandon an arrangement. |
+| Modification | Rewrite descriptions; change tools, interfaces, materials, roles, and actual practice; observe successor activity. | A usable successor arrangement and corrections to the self-model and improvement method. |
+
+Simulation can begin qualitatively. Two reading entrances, practice methods, or divisions of work often already have comparable differences; actual trials can then test the decisive expectations. A model-generated scenario develops a possibility, while the person's and world's responses establish how it is realized here. Runnable programs and tools permit direct experiments; changes in human learning and life require calibration through the person's activity, experience, and subsequent results.
+
+This model has mathematical and physical aspects. Mathematics expresses relationships, conditions, inferences, and local state changes; physical realization gives perception, computation, action, time, and resources their actual consequences. Person, model, and tools change at different rhythms: an interface can update immediately, proficiency develops through use, and a new social arrangement needs other participants' responses. An account of the coupled system connects these rhythms.
+
+Recursion occurs when the four capacities themselves become objects: how relationships are selected, how simulations are generated, what evaluation overlooks, and why a modification failed to take effect can all improve through the practice. A more accurate model can improve the next simulation; failed expectations can revise modeling; implementation difficulty can change candidate generation so that later work considers actual entrances earlier. The object improved is therefore **the human–model system's capacity to improve the person's living and technical capacities**.
+
+## Listening, speaking, reading, and writing as interfaces for introspection and change
+
+The [division of work across listening, speaking, reading, and writing](core-views.md#yy-06) brings these functions into ordinary activity. A person can begin with intuition, sound, a sketch, criticism, or an unfinished utterance; the model unfolds relationships, checks details, and maintains works that can continue. The table considers different entrances into the same activity:
+
+| Entrance | How material about one's own operation becomes available | How it contributes to improvement |
+| --- | --- | --- |
+| Listening | Recognize meaning and mismatch in explanation, sound, rhythm, and hearing oneself speak. | Compare how explanations reach oneself; adjust presentation, examples, or communication. |
+| Speaking | Express wishes, intuitions, predictions, and objections, discovering relationships through expression. | The model reconstructs candidates, which further human expression can correct. |
+| Reading | Read sources, diagrams, one's own descriptions, and works; compare what is said with what is encountered. | Examine fidelity to activity and differences before and after a change. |
+| Writing | The person writes ideas, philosophy, and decisive judgments; the model develops and maintains arguments and implementations. | Put new understanding into readable, usable descriptions for subsequent activity. |
+
+These entrances can repeatedly connect. A person encounters an inaccessible explanation and voices a counterexample; the model reconstructs the relations and draws a candidate; the person listens, checks an omission, and revises the earlier understanding. Role return in [Yinyang dialectics](yinyang-and-taiji.md) gains technical content here: generation, scrutiny, and revision recur through the other's contribution, and the original division of work can change. Actual input channels determine what each participant can judge from.
+
+Existing capabilities distribute the technical work: language models organize material, unfold possibilities, write, and implement; memory and version tools support return; specialist tools handle relevant computation and measurement; people change their activity through participation, experience, judgment, and practice. An initial implementation can be simple: maintain six connected descriptions, use them in a real task, and connect expectations, results, and reasons for revision to the relevant accounts. Existing tools handle preservation and delivery. Concrete uses can later justify additional simulation or measurement.
+
 ## Self-reference makes a method its own object
 
 Kleene's second recursion theorem establishes a precise possibility. Let $\varphi_e$ denote the partial function computed by the program numbered $e$. For every total computable transformation $F$ of program indices, there exists an index $e$ such that
@@ -41,6 +96,26 @@ Self-reference supplies an entry for modification; evaluation and methods of mod
 Schmidhuber's Gödel machine takes this question to the method of improvement itself: its initial software contains a proof searcher that searches for proofs supporting self-rewrites; a rewrite may also concern proof search and resource allocation. Its comparison has a definite object: the utility of adopting a modification now against the utility of continuing the existing search. This comparison brings the time and opportunity cost of seeking a better method into judgment [[4]](#source-4). Yampolskiy's discussion of RSI likewise distinguishes changing a program, improving performance, and improving the capacity for later improvement [[5]](#source-5).
 
 YinYang brings these questions into human practice. Its self-description includes methods of collaboration and revision, which person and model can read, discuss, rewrite, and realize. Mathematical research provides concrete constructions of effective self-reference and modifiable improvement programs; the following account explains how to organize a developmentally meaningful return in embodied, open life supported by external capacities.
+
+## Self-referential introspection and the Gödel machine: the reach of the argument
+
+The introspection paper connects reading one's own description, bounded simulation, evaluation, and modification in a program construction, and examines complete rewritability and Gödel-machine correspondence in Appendices A–C [[8]](#source-8). Its direct contribution to YinYang is to make a functional self-model participate in actual selection and modification, with the simulator, evaluator, and modification method included in the description. The person belongs inside the coupled system under consideration, so human judgment can be part of the system's own judgment.
+
+This supports a concrete conditional argument: when a description faithfully represents the relevant functions, participants can use it to form and compare modifications, selected modifications actually change subsequent activity, and results return to the self-model, the system has functional introspection and directed self-modification. When changes improve its later capacity to model, simulate, evaluate, or modify, they provide practical grounds for recursive improvement. Self-reference is a traceable causal relationship here: the method in use processes its own description, and the successor method carries forward the result. It shares the Gödel machine's concern with improving the improvement program and includes the cost of continuing search in comparison.
+
+The paper's strict conclusions have stronger premises that need separate treatment:
+
+| Condition or conclusion in the paper | Correspondence and unresolved proof obligation in coupled practice |
+| --- | --- |
+| Self-containment H1 | The system obtains its source description internally. Taking person and model together can internalize material they provide one another; complete source self-supply still requires demonstration. Belonging to one natural world is a different claim from this formal condition. |
+| Directedness H2 | The system computes and selects modifications from accessible data, including external input. Reasoned human–model comparison can supply directed selection; correctness of each choice needs separate evidence. |
+| Complete directed self-modification A6 | Any source region can receive any prescribed content while the capability to continue modification survives. Human bodies, model weights, platforms, and physical conditions have actual access limits; this practice currently has no completeness proof. |
+| No internally immutable region | The paper derives this from its complete rewriting construction. Practice can reopen all six descriptions and their revision method; actual modification capabilities establish that scope. |
+| Rewrite equivalence with a Gödel machine | Appendices B–C use specified axioms and utility, a proof-checking evaluator, and a proof-search modifier, matching rewrite events and intervening input–output behavior. This practice uses empirical models, limited simulation, and human judgment; those formal components and equivalence proof have yet to be realized. |
+
+The result here is **an argument for human–model practice with a self-referential improvement structure**. Runnable local constructions and actual activity can progressively strengthen it. Gödel-machine global optimality requires its particular formal conditions; the introspection paper's proposed threshold has no quantified, empirically validated value for this practice. A sufficient initial aim is an increasingly faithful self-model for relevant uses that actually improves the four capacities.
+
+“Written down and hardcoded again” identifies an implementation problem: a file may be editable while the categories, evaluation criteria, or modification routes interpreting it remain outside reflection. Addressing this requires making those relations identifiable, comparable, and replaceable, and bringing changes into the next use. A current version's definite wording supplies a checkable object; making that version material for subsequent practice preserves openness. Continuing change is judged by use: an effective method can stabilize and later change in response to a new counterexample.
 
 ## Retaining conflict and forming a view for action
 
@@ -159,3 +234,4 @@ YinYang's RSI therefore centers development on this person and their actual rela
 5. <a id="source-5"></a> Roman V. Yampolskiy (2015), *From Seed AI to Technological Singularity via Recursively Self-Improving Software*, §§1–2, PDF pp. 2–4. [Paper](https://arxiv.org/abs/1502.06512). Distinguishes self-modification, improved performance, and change in capacity for subsequent improvement.
 6. <a id="source-6"></a> Meghyn Bienvenu and Camille Bourgaux, definitions of repairs and query semantics, §3. [Author's version](https://arxiv.org/html/2003.05746v5#S3). This chapter follows the local formal example in the [preference essay](preference-harness.md), then examines how such selection rules themselves become objects of revision.
 7. <a id="source-7"></a> Git project, *Git Glossary*, entries including DAG, commit, branch, and merge. [Official glossary](https://git-scm.com/docs/gitglossary). Version ancestry gives technical meaning to historical location; actual materials establish the connection between versions and consequences in life.
+8. <a id="source-8"></a> Jiang Zhang, Bing Yuan, and Qian Zhang (2026), *Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement*, v2, 2026-09-18, §§3.3–3.4 and Appendices A–C, especially H1/H2 and Definitions A6, A8–A11. [Version read](https://arxiv.org/abs/2607.04277v2). The paper proposes a program construction for reading one's own description, simulation, evaluation, and modification. This chapter develops a coupled human–model version from its functional questions and distinguishes its practical argument from the premises needed for the formal conclusions.
