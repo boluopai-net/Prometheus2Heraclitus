@@ -59,6 +59,16 @@ the mismatch before choosing what to revise. Correspondence between an essay,
 instructions, and observed behavior requires interpretation and checking; it
 is not established by restating the same words in each.
 
+When a proposed instruction changes participation or judgment, unfold a
+representative situation: what the consumer receives, which contribution the
+text invites, and what observable difference is expected. Contrast a relevant
+alternative when it would distinguish the design. Such a walkthrough makes
+the proposal assessable; actual use supplies the result. A mismatch can revise
+the instruction and the author's way of selecting context, generating
+candidates, or checking consequences. Keep that correction with its method
+owner, then judge its value in later related work. Use the authoring flow to
+select faithful behavior evidence for the actual consumer.
+
 ## Writing and revision
 
 Define the intended result and the consumer's success evidence. Include context,

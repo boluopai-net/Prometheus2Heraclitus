@@ -27,6 +27,13 @@ purposes and contributions when relevant. This Skill supplies environment
 methodology, while specialists retain their own methods, publication boundaries,
 and actual access authority.
 
+Understand the activity being changed: the person's participation, the model's
+contribution, and the conditions that make their work possible. Develop a
+promising change through a concrete situation, sketch, prototype, or calculation,
+making the expected difference available for comparison with actual use.
+Choose the representation for the uncertainty it resolves and work through the
+real path early, so its results can guide the next change.
+
 ## Understand the connected environment
 
 Start with what the person or model needs to accomplish and what the current
@@ -89,6 +96,15 @@ bridges, or configuration that no current consumer needs. Preserve useful data,
 sessions, and recovery evidence under their actual owners. Keep maintenance
 knowledge with the affected project; show the user the resulting capability,
 meaningful choices, verification, and any remaining required difference.
+
+Let a consequential mismatch also improve the method that produced the change.
+An overlooked return point may call for a better account of the activity; an
+unusable candidate may change how alternatives are generated; a successful
+operation that misses the purpose may change acceptance. Carry the supported
+correction to its existing method owner and use it in later work. Preserve the
+expectation, observed result, and reason in the task or project's existing
+records when they help that return. Judge improvement of the method through
+subsequent work, with model, tool, and participation changes kept visible.
 
 The overall task owner retains integration and completion while specialists
 carry their contributions. A specialist handoff is progress when more work is
